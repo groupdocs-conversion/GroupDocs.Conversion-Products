@@ -32,5 +32,5 @@ script:
 - hugo --source $ROOT_DIR --minify
 
 after_success:
-- travis_wait 50 scp -i ./deploy_key -r $SRC_DIR/$PRODUCT $USER@$HOST:$DEST_DIR
+- travis_wait 120 scp -i ./deploy_key -r $SRC_DIR/$PRODUCT $USER@$HOST:$DEST_DIR
 - scp -i ./deploy_key -r $SRC_DIR/sitemap.xml $USER@$HOST:$DEST_DIR/sitemaps/$PRODUCT.xml

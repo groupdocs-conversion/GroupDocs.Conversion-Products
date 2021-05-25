@@ -30,9 +30,11 @@ install:
 script:
 - cp -r english $ROOT_DIR/content/
 - hugo --source $ROOT_DIR --minify
+- zip $PRODUCT.zip $SRC_DIR/$PRODUCT
 
 after_success:
-- scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/index.html $USER@$HOST:$DEST_DIR/$PRODUCT
-- travis_wait 60 scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/java $USER@$HOST:$DEST_DIR/$PRODUCT
-- travis_wait 60 scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/net $USER@$HOST:$DEST_DIR/$PRODUCT
-- scp -i ./deploy_key -r $SRC_DIR/sitemap.xml $USER@$HOST:$DEST_DIR/sitemaps/$PRODUCT.xml
+- ls -l
+#- scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/index.html $USER@$HOST:$DEST_DIR/$PRODUCT
+#- travis_wait 60 scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/java $USER@$HOST:$DEST_DIR/$PRODUCT
+#- travis_wait 60 scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/net $USER@$HOST:$DEST_DIR/$PRODUCT
+#- scp -i ./deploy_key -r $SRC_DIR/sitemap.xml $USER@$HOST:$DEST_DIR/sitemaps/$PRODUCT.xml

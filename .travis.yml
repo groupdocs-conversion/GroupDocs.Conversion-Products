@@ -34,7 +34,8 @@ script:
 - ls -l
 
 after_success:
-- scp -i ./deploy_key $SRC_DIR/$PRODUCT.zip $USER@$HOST:$DEST_DIR
+- ls -l
+- scp -i ./deploy_key $PRODUCT.zip $USER@$HOST:$DEST_DIR
 #- scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/index.html $USER@$HOST:$DEST_DIR/$PRODUCT
 #- travis_wait 60 scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/java $USER@$HOST:$DEST_DIR/$PRODUCT
 #- travis_wait 60 scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/net $USER@$HOST:$DEST_DIR/$PRODUCT

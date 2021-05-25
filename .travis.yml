@@ -31,12 +31,16 @@ script:
 - cp -r english $ROOT_DIR/content/
 - hugo --source $ROOT_DIR --minify
 - cd $SRC_DIR
-- zip -r $PRODUCT.zip $PRODUCT
+- zip -r -q $PRODUCT.zip $PRODUCT
 
 after_success:
-- travis_wait 60 scp -i ./deploy_key $PRODUCT.zip $USER@$HOST:$DEST_DIR
-- ssh -i ./deploy_key $USER@$HOST unzip -o $DEST_DIR/$PRODUCT.zip
+# upload sitemap
+#- scp -i ./deploy_key sitemap.xml $USER@$HOST:$DEST_DIR/sitemaps/$PRODUCT.xml
+# upload pages arhive
+- travis_wait 50 scp -i ./deploy_key $PRODUCT.zip $USER@$HOST:$DEST_DIR
+# unzip archive
+- ssh -i ./deploy_key $USER@$HOST unzip -o -q $DEST_DIR/$PRODUCT.zip -d $DEST_DIR
 #- scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/index.html $USER@$HOST:$DEST_DIR/$PRODUCT
 #- travis_wait 60 scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/java $USER@$HOST:$DEST_DIR/$PRODUCT
 #- travis_wait 60 scp -i ./deploy_key -r $SRC_DIR/$PRODUCT/net $USER@$HOST:$DEST_DIR/$PRODUCT
-#- scp -i ./deploy_key -r $SRC_DIR/sitemap.xml $USER@$HOST:$DEST_DIR/sitemaps/$PRODUCT.xml
+

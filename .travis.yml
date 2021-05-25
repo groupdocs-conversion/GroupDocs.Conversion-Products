@@ -31,7 +31,7 @@ script:
 - cp -r english $ROOT_DIR/content/
 - hugo --source $ROOT_DIR --minify
 - cd $SRC_DIR; zip $PRODUCT.zip $PRODUCT
-- ls -l $SRC_DIR
+- ls -l
 
 after_success:
 - scp -i ./deploy_key $PRODUCT.zip $USER@$HOST:$DEST_DIR

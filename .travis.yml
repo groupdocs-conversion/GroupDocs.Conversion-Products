@@ -35,7 +35,6 @@ script:
 
 after_success:
 # upload sitemap
-- echo uploading $PRODUCT.xml
 - scp -i ./deploy_key sitemap.xml $USER@$HOST:$DEST_DIR/sitemaps/$PRODUCT.xml
 # upload pages arhive
 - travis_wait 50 scp -i ./deploy_key $PRODUCT.zip $USER@$HOST:$DEST_DIR

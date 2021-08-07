@@ -5,11 +5,11 @@ date: 2021-05-13T14:17:23+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "WEB to XLSB Conversion in Java – Convert WEB to XLSB"
-head_description: "Convert WEB to XLSB in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "WEB to DOCM Conversion in Java – Convert WEB to DOCM"
+head_description: "Convert WEB to DOCM in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert WEB Files to XLSB in Java"
+title: "Convert WEB Files to DOCM in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting WEB to XLSB in Java"
+    title_left: "Steps for Converting WEB to DOCM in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the WEB file to XLSB in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the WEB file to DOCM in few lines of code.
 
         *   Create a new instance of Converter class and load the WEB file with full path
-        *   Set ConvertOptions for the XLSB document type
-        *   Call the convert() method and pass the document name (full path) and format (XLSB) as parameter
+        *   Set ConvertOptions for the DOCM document type
+        *   Call the convert() method and pass the document name (full path) and format (DOCM) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,19 +84,19 @@ steps:
         ```java
         // Load the source WEB file to be converted
         Converter converter = new Converter("input.web");
-        // Get the convert options ready for the target XLSB format
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
-        // Convert to XLSB format
-        converter.convert("output.xlsb", convertOptions);
+        // Get the convert options ready for the target DOCM format
+        ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
+        // Convert to DOCM format
+        converter.convert("output.docm", convertOptions);
         
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "WEB to XLSB Live Demos"
+    title: "WEB to DOCM Live Demos"
     content: |
-        Convert WEB to XLSB right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert WEB to DOCM right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -113,12 +113,12 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
-          title: " About XLSB File Format"
+        - icon: "far fa-file-word-o"
+          title: " About DOCM File Format"
           content: |
-            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file. XLSB files can be read and written to faster which makes them useful for working with large files. XLSB is seldom used to store workbooks as XLSX (and previously XLS) are the most common user selected file formats for saving workbooks. It can be opened by Microsoft Office 2007 and above.
+            DOCM files are Microsoft Word 2007 or higher generated documents with the ability to run macros. It is similar to DOCX file format but the ability to run macros makes it different from DOCX. Like DOCX, DOCM files can be store text, images, tables, shapes, charts and other contents.The capability to run macros make it easy to save time by executing the series of commands in the form of recorded actions for automatic completion of a task. DOCM files can be opened and edited in Microsoft Word 2007 and above.
 
-          link: "https://docs.fileformat.com/spreadsheet/xlsb/"
+          link: "https://docs.fileformat.com/word-processing/docm/"
 
 ############################# More Formats ############################
 more_formats:

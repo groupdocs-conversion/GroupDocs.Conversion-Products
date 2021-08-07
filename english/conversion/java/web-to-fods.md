@@ -5,11 +5,11 @@ date: 2021-05-13T14:17:23+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "WEB to XLSB Conversion in Java – Convert WEB to XLSB"
-head_description: "Convert WEB to XLSB in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "WEB to FODS Conversion in Java – Convert WEB to FODS"
+head_description: "Convert WEB to FODS in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert WEB Files to XLSB in Java"
+title: "Convert WEB Files to FODS in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting WEB to XLSB in Java"
+    title_left: "Steps for Converting WEB to FODS in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the WEB file to XLSB in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the WEB file to FODS in few lines of code.
 
         *   Create a new instance of Converter class and load the WEB file with full path
-        *   Set ConvertOptions for the XLSB document type
-        *   Call the convert() method and pass the document name (full path) and format (XLSB) as parameter
+        *   Set ConvertOptions for the FODS document type
+        *   Call the convert() method and pass the document name (full path) and format (FODS) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,19 +84,19 @@ steps:
         ```java
         // Load the source WEB file to be converted
         Converter converter = new Converter("input.web");
-        // Get the convert options ready for the target XLSB format
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
-        // Convert to XLSB format
-        converter.convert("output.xlsb", convertOptions);
+        // Get the convert options ready for the target FODS format
+        ConvertOptions convertOptions = new FileType().fromExtension("fods").getConvertOptions();
+        // Convert to FODS format
+        converter.convert("output.fods", convertOptions);
         
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "WEB to XLSB Live Demos"
+    title: "WEB to FODS Live Demos"
     content: |
-        Convert WEB to XLSB right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert WEB to FODS right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -114,11 +114,11 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-excel-o"
-          title: " About XLSB File Format"
+          title: " About FODS File Format"
           content: |
-            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file. XLSB files can be read and written to faster which makes them useful for working with large files. XLSB is seldom used to store workbooks as XLSX (and previously XLS) are the most common user selected file formats for saving workbooks. It can be opened by Microsoft Office 2007 and above.
+            A file with .fods extension is a type of OpenDocument Spreadsheet document format that stores data in rows and columns. The format is specified as part of ODF 1.2 specifications published and maintained by OASIS. FODS files cannot be opened with Excel, another Spreadsheet software application by Microsoft. FODS files can be saved as ODS using LibreOffice and can be converted to other formats such as XLS and XLSX.
 
-          link: "https://docs.fileformat.com/spreadsheet/xlsb/"
+          link: "https://docs.fileformat.com/spreadsheet/fods/"
 
 ############################# More Formats ############################
 more_formats:

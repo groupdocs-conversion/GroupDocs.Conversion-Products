@@ -5,12 +5,12 @@ date: 2021-05-13T14:34:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Convert Word File to PowerPoint in C# .NET – 3 Steps Conversion"
-head_description: "Convert Word document files to PowerPoint and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+head_title: "Convert Word File to TSV in C# .NET – 3 Steps Conversion"
+head_description: "Convert Word document files to TSV and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
 
 ############################# Header ############################
-title: "Convert Word File to PowerPoint in C# .NET"
-description: "Convert Word document files to PowerPoint and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+title: "Convert Word File to TSV in C# .NET"
+description: "Convert Word document files to TSV and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "How to Convert Word File to PowerPoint in .NET"
+    title_left: "How to Convert Word File to TSV in .NET"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to accurately convert the word documents to PowerPoint using a few lines of C# .NET code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to accurately convert the word documents to TSV using a few lines of C# .NET code.
 
         *   Create an instance of **Converter** class and load the Word file with full path
-        *   Create & set **ConvertOptions** for the pptx type
-        *   Call **Converter.Convert** method and pass the full path and format (PowerPoint) as parameter
+        *   Create & set **ConvertOptions** for the tsv type
+        *   Call **Converter.Convert** method and pass the full path and format (TSV) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,18 +84,18 @@ steps:
         ```cs
         // load the Word file
         var converter = new GroupDocs.Conversion.Converter("template.docx");
-        // set the convert options for PowerPoint format
-        var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
-        // convert to PowerPoint format
-        converter.Convert("output.pptx", convertOptions);
+        // set the convert options for TSV format
+        var convertOptions = converter.GetPossibleConversions()["tsv"].ConvertOptions;
+        // convert to TSV format
+        converter.Convert("output.tsv", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos: Word to PowerPoint Converter"
+    title: "Live Demos: Word to TSV Converter"
     content: |
-        Convert Word to PowerPoint right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert Word to TSV right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

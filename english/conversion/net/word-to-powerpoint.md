@@ -95,7 +95,7 @@ demos:
     enable: true
     title: "Live Demos: Word to PowerPoint Converter"
     content: |
-        Convert Word to PowerPoint right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert Word to PowerPoint right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/word-to-powerpoint) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

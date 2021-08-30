@@ -95,7 +95,7 @@ demos:
     enable: true
     title: "Live Demos: Word to Excel Converter"
     content: |
-        Convert Word to Excel right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert Word to Excel right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/word-to-excel) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

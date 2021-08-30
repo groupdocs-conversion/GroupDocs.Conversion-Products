@@ -95,7 +95,7 @@ demos:
     enable: true
     title: "Live Demos: Word to Photoshop Converter"
     content: |
-        Convert Word to Photoshop right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert Word to Photoshop right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/word-to-photoshop) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

@@ -95,7 +95,7 @@ demos:
     enable: true
     title: "Live Demos: Word to Image Converter"
     content: |
-        Convert Word to Image right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert Word to Image right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/word-to-image) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

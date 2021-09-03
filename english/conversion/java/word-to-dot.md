@@ -5,12 +5,12 @@ date: 2021-05-13T14:34:19+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Convert Word to XLSM in Java – 3 Steps Conversion"
-head_description: "Convert Word file to XLSM and 80+ other file formats using native documents conversion API for Java applications."
+head_title: "Convert Word to DOT in Java – 3 Steps Conversion"
+head_description: "Convert Word file to DOT and 80+ other file formats using native documents conversion API for Java applications."
 
 ############################# Header ############################
-title: "Convert Word to XLSM in Java Applications"
-description: "Convert Word files to XLSM and 80+ other file formats using native documents conversion API for Java applications."
+title: "Convert Word to DOT in Java Applications"
+description: "Convert Word files to DOT and 80+ other file formats using native documents conversion API for Java applications."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "How to Convert Word File to XLSM in Java"
+    title_left: "How to Convert Word File to DOT in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to accurately convert the word documents to XLSM using a few lines of Java code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to accurately convert the word documents to DOT using a few lines of Java code.
 
         *   Create an instance of **Converter** class and load the Word file with full path
-        *   Create & set **ConvertOptions** for the xlsm type
-        *   Call **Converter.Convert** method and pass the full path and format (XLSM) as parameter
+        *   Create & set **ConvertOptions** for the dot type
+        *   Call **Converter.Convert** method and pass the full path and format (DOT) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,18 +84,18 @@ steps:
         ```cs
         // load the Word file
         Converter converter = new Converter("input.docx");
-        // set the convert options for XLSM format
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsm").getConvertOptions();
-        // convert to XLSM format
-        converter.Convert("output.xlsm", convertOptions);
+        // set the convert options for DOT format
+        ConvertOptions convertOptions = new FileType().fromExtension("dot").getConvertOptions();
+        // convert to DOT format
+        converter.Convert("output.dot", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos: Word to XLSM Converter"
+    title: "Live Demos: Word to DOT Converter"
     content: |
-        Convert Word to XLSM right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert Word to DOT right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

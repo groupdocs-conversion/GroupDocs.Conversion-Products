@@ -5,12 +5,12 @@ date: 2021-05-13T14:24:01+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Convert Excel to Excel in C#, ASP.NET, VB.NET"
-head_description: "Convert Excel worksheet to Image and 80+ other file formats in C#, ASP.NET, VB.NET & .NET Core applications using document conversion API."
+head_title: "Convert Excel to ICO in C#, ASP.NET, VB.NET"
+head_description: "Convert Excel worksheet to ICO and 80+ other file formats in C#, ASP.NET, VB.NET & .NET Core applications using document conversion API."
 
 ############################# Header ############################
-title: "Convert Excel to Excel in C# .NET"
-description: "Native and high performance Excel Worksheet to Excel conversion API for C#, ASP.NET, VB.NET & .NET Core applications, without the use of any software like Microsoft or Open Office."
+title: "Convert Excel to ICO in C# .NET"
+description: "Native and high performance Excel Worksheet to ICO conversion API for C#, ASP.NET, VB.NET & .NET Core applications, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Convert Excel to Excel in C# .NET"
+    title_left: "Convert Excel to ICO in C# .NET"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the Excel file to Excel using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the Excel file to ICO using a few lines of code.
 
         *   Create an instance of **Converter** class and load the Excel file with full path
-        *   Create & set **ConvertOptions** for the excel type
-        *   Call **Converter.Convert** method and pass the full path and format (Excel) as parameter
+        *   Create & set **ConvertOptions** for the ico type
+        *   Call **Converter.Convert** method and pass the full path and format (ICO) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,18 +84,18 @@ steps:
         ```cs
         // load the Excel file
         var converter = new GroupDocs.Conversion.Converter("template.xlsx");
-        // set the convert options for Excel format
-        var convertOptions = converter.GetPossibleConversions()["excel"].ConvertOptions;
-        // convert to Excel format
-        converter.Convert("output.xlsx", convertOptions);
+        // set the convert options for ICO format
+        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+        // convert to ICO format
+        converter.Convert("output.ico", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Excel to Excel Live Demos"
+    title: "Excel to ICO Live Demos"
     content: |
-        Convert Excel to Excel right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert Excel to ICO right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -112,12 +112,12 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-Excel"
-          title: " About Excel File Format"
+        - icon: "far fa-file-PDF"
+          title: " About PDF File Format"
           content: |
-            A spreadsheet file contains data in the form of rows and columns. You can open, view and edit such files using spreadsheet software applications such as Microsoft Excel that is now available for both Windows and MacOS operating system. Similarly, Google sheets is a free online spreadsheet creating and editing tool that works from any web browser. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).
+            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
 
-          link: "https://docs.fileformat.com/spreadsheet/"
+          link: "https://docs.fileformat.com/view/pdf/"
 
 ############################# More Formats ############################
 more_formats:

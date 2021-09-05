@@ -5,12 +5,12 @@ date: 2021-05-13T14:24:01+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "EXCEL to POWERPOINT Converter – Convert EXCEL to POWERPOINT in C# .NET"
-head_description: "How to convert EXCEL to POWERPOINT in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "Convert Excel to PowerPoint in C#, ASP.NET, VB.NET"
+head_description: "Convert Excel worksheet to PowerPoint and 80+ other file formats in C#, ASP.NET, VB.NET & .NET Core applications using document conversion API."
 
 ############################# Header ############################
-title: "Convert EXCEL to POWERPOINT in C#"
-description: "Native and high performance EXCEL to POWERPOINT conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+title: "Convert Excel to PowerPoint in C# .NET"
+description: "Native and high performance Excel Worksheet to PowerPoint conversion API for C#, ASP.NET, VB.NET & .NET Core applications, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert EXCEL to POWERPOINT in C#"
+    title_left: "Convert Excel to PowerPoint in C# .NET"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the EXCEL file to POWERPOINT using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the Excel file to PowerPoint using a few lines of code.
 
-        *   Create an instance of Converter class and load the EXCEL file with full path
-        *   Create & set ConvertOptions for the powerpoint type
-        *   Call Converter.Convert method and pass the full path and format (POWERPOINT) as parameter
+        *   Create an instance of **Converter** class and load the Excel file with full path
+        *   Create & set **ConvertOptions** for the powerpoint type
+        *   Call **Converter.Convert** method and pass the full path and format (PowerPoint) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -82,29 +82,29 @@ steps:
         
     code: |
         ```cs
-        // load the EXCEL file
-        var converter = new GroupDocs.Conversion.Converter("template.excel");
-        // set the convert options for POWERPOINT format
+        // load the Excel file
+        var converter = new GroupDocs.Conversion.Converter("template.xlsx");
+        // set the convert options for PowerPoint format
         var convertOptions = converter.GetPossibleConversions()["powerpoint"].ConvertOptions;
-        // convert to POWERPOINT format
-        converter.Convert("output.powerpoint", convertOptions);
+        // convert to PowerPoint format
+        converter.Convert("output.pptx", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "EXCEL to POWERPOINT Live Demos"
+    title: "Excel to PowerPoint Live Demos"
     content: |
-        Convert EXCEL to POWERPOINT right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert Excel to PowerPoint right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
 about_formats:
-    enable: true
+    enable: false
     format:
         # format loop
-        - icon: "far fa-file-EXCEL"
-          title: " About EXCEL File Format"
+        - icon: "far fa-file-Excel"
+          title: " About Excel File Format"
           content: |
             A spreadsheet file contains data in the form of rows and columns. You can open, view and edit such files using spreadsheet software applications such as Microsoft Excel that is now available for both Windows and MacOS operating system. Similarly, Google sheets is a free online spreadsheet creating and editing tool that works from any web browser. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).
 
@@ -112,8 +112,8 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-POWERPOINT"
-          title: " About POWERPOINT File Format"
+        - icon: "far fa-file-PowerPoint"
+          title: " About PowerPoint File Format"
           content: |
             You must be familiar with PPTX and PPT extension files while working with Microsoft PowerPoint. These are Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. PowerPoint Viewer lets you a number of supported Presentation file formats and is available for free. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.
 
@@ -124,270 +124,270 @@ more_formats:
     enable: true
     title: "Other Supported Conversions"
     content: |
-        You can also convert EXCEL into many other file formats. Please see the complete list below.
+        You can also convert Excel into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "EXCEL TO EPUB"
+        - name: "Excel TO EPUB Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-epub"
           description: "Digital E-Book File Format"
 
         # format loop
-        - name: "EXCEL TO XPS"
+        - name: "Excel TO XPS Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xps"
           description: "Open XML Paper Specification"
 
         # format loop
-        - name: "EXCEL TO TEX"
+        - name: "Excel TO TEX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-tex"
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "EXCEL TO PPT"
+        - name: "Excel TO PPT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ppt"
           description: "PowerPoint Presentation"
 
         # format loop
-        - name: "EXCEL TO PPS"
+        - name: "Excel TO PPS Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-pps"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "EXCEL TO PPTX"
+        - name: "Excel TO PPTX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-pptx"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "EXCEL TO PPSX"
+        - name: "Excel TO PPSX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ppsx"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "EXCEL TO ODP"
+        - name: "Excel TO ODP Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-odp"
           description: "OpenDocument Presentation File Format"
 
         # format loop
-        - name: "EXCEL TO OTP"
+        - name: "Excel TO OTP Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-otp"
           description: "Origin Graph Template"
 
         # format loop
-        - name: "EXCEL TO POTX"
+        - name: "Excel TO POTX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-potx"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
-        - name: "EXCEL TO POTM"
+        - name: "Excel TO POTM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-potm"
           description: "Microsoft PowerPoint Template"
 
         # format loop
-        - name: "EXCEL TO PPTM"
+        - name: "Excel TO PPTM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-pptm"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "EXCEL TO PPSM"
+        - name: "Excel TO PPSM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ppsm"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "EXCEL TO XLS"
+        - name: "Excel TO XLS Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xls"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
-        - name: "EXCEL TO XLSX"
+        - name: "Excel TO XLSX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xlsx"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
-        - name: "EXCEL TO XLSM"
+        - name: "Excel TO XLSM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xlsm"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
-        - name: "EXCEL TO XLSB"
+        - name: "Excel TO XLSB Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xlsb"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
-        - name: "EXCEL TO ODS"
+        - name: "Excel TO ODS Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ods"
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "EXCEL TO XLTX"
+        - name: "Excel TO XLTX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xltx"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
-        - name: "EXCEL TO XLTM"
+        - name: "Excel TO XLTM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xltm"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
-        - name: "EXCEL TO TSV"
+        - name: "Excel TO TSV Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-tsv"
           description: "Tab Separated Values File"
 
         # format loop
-        - name: "EXCEL TO XLAM"
+        - name: "Excel TO XLAM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xlam"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
-        - name: "EXCEL TO CSV"
+        - name: "Excel TO CSV Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-csv"
           description: "Comma Separated Values File"
 
         # format loop
-        - name: "EXCEL TO DOC"
+        - name: "Excel TO DOC Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-doc"
           description: "Microsoft Word Document"
 
         # format loop
-        - name: "EXCEL TO DOCM"
+        - name: "Excel TO DOCM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-docm"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EXCEL TO EXCEL"
+        - name: "Excel TO Excel Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-excel"
           description: "Microsoft Word Open XML Document"
 
         # format loop
-        - name: "EXCEL TO DOT"
+        - name: "Excel TO DOT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-dot"
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "EXCEL TO DOTM"
+        - name: "Excel TO DOTM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-dotm"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "EXCEL TO DOTX"
+        - name: "Excel TO DOTX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-dotx"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "EXCEL TO RTF"
+        - name: "Excel TO RTF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-rtf"
           description: "Rich Text File Format"
 
         # format loop
-        - name: "EXCEL TO ODT"
+        - name: "Excel TO ODT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-odt"
           description: "Open Document Text"
 
         # format loop
-        - name: "EXCEL TO OTT"
+        - name: "Excel TO OTT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ott"
           description: "Open Document Template"
 
         # format loop
-        - name: "EXCEL TO TXT"
+        - name: "Excel TO TXT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-txt"
           description: "Plain Text File Format"
 
         # format loop
-        - name: "EXCEL TO MD"
+        - name: "Excel TO MD Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-md"
           description: "Markdown"
 
         # format loop
-        - name: "EXCEL TO TIFF"
+        - name: "Excel TO TIFF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-tiff"
           description: "Tagged Image File Format"
 
         # format loop
-        - name: "EXCEL TO TIF"
+        - name: "Excel TO TIF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-tif"
           description: "Tagged Image File Format"
 
         # format loop
-        - name: "EXCEL TO JPG"
+        - name: "Excel TO JPG Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-jpg"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
-        - name: "EXCEL TO JPEG"
+        - name: "Excel TO JPEG Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-jpeg"
           description: "JPEG Image"
 
         # format loop
-        - name: "EXCEL TO PNG"
+        - name: "Excel TO PNG Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-png"
           description: "Portable Network Graphic"
 
         # format loop
-        - name: "EXCEL TO GIF"
+        - name: "Excel TO GIF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-gif"
           description: "Graphical Interchange Format File"
 
         # format loop
-        - name: "EXCEL TO BMP"
+        - name: "Excel TO BMP Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-bmp"
           description: "Bitmap File Format"
 
         # format loop
-        - name: "EXCEL TO ICO"
+        - name: "Excel TO ICO Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ico"
           description: "Microsoft Icon File"
 
         # format loop
-        - name: "EXCEL TO PSD"
+        - name: "Excel TO PSD Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-psd"
           description: "Adobe Photoshop Document"
 
         # format loop
-        - name: "EXCEL TO WMF"
+        - name: "Excel TO WMF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-wmf"
           description: "Windows Metafile"
 
         # format loop
-        - name: "EXCEL TO EMF"
+        - name: "Excel TO EMF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-emf"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "EXCEL TO WEBP"
+        - name: "Excel TO WEBP Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-webp"
           description: "Raster Web Image File Format"
 
         # format loop
-        - name: "EXCEL TO SVG"
+        - name: "Excel TO SVG Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-svg"
           description: "Scalable Vector Graphics File"
 
         # format loop
-        - name: "EXCEL TO JP2"
+        - name: "Excel TO JP2 Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-jp2"
           description: "JPEG 2000 Core Image File"
 
         # format loop
-        - name: "EXCEL TO EMZ"
+        - name: "Excel TO EMZ Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-emz"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "EXCEL TO WMZ"
+        - name: "Excel TO WMZ Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-wmz"
           description: "Windows Metafile Compressed"
 
         # format loop
-        - name: "EXCEL TO HTML"
+        - name: "Excel TO HTML Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-html"
           description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "EXCEL TO MHT"
+        - name: "Excel TO MHT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-mht"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "EXCEL TO MHTML"
+        - name: "Excel TO MHTML Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-mhtml"
           description: "MIME Encapsulation of Aggregate HTML"
 

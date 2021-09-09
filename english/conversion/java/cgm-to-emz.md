@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "CGM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "CGM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "CGM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "CGM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "CGM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "CGM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "CGM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "CGM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "CGM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "CGM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "CGM TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "CGM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "CGM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "CGM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "CGM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "CGM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "CGM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "CGM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "CGM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "CGM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "CGM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "CGM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "CGM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "CGM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "CGM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "CGM TO CGM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-cgm"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-cgm/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "CGM TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "CGM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "CGM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "CGM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "CGM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "CGM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "CGM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "CGM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-md"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "CGM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "CGM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "CGM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "CGM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "CGM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-png"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "CGM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "CGM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "CGM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "CGM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "CGM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "CGM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "CGM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "CGM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "CGM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "CGM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "CGM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "CGM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-html"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "CGM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "CGM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/cgm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

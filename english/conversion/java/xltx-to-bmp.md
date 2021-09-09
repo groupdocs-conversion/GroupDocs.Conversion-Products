@@ -129,117 +129,117 @@ more_formats:
     format: 
         # format loop
         - name: "XLTX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "XLTX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "XLTX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "XLTX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "XLTX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "XLTX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "XLTX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "XLTX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "XLTX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "XLTX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "XLTX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "XLTX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "XLTX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "XLTX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "XLTX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "XLTX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "XLTX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "XLTX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "XLTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "XLTX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "XLTX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "XLTX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "XLTX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop

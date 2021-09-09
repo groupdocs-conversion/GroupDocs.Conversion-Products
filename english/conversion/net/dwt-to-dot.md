@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "DWT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-epub/"/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "DWT TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-xps/"/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "DWT TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-tex/"/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "DWT TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-ppt/"/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "DWT TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-pps/"/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DWT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-pptx/"/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DWT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-ppsx/"/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DWT TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-odp/"/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DWT TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-otp/"/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "DWT TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-potx/"/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DWT TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-potm/"/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DWT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-pptm/"/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DWT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-ppsm/"/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DWT TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-xls/"/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DWT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-xlsx/"/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DWT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-xlsm/"/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DWT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-xlsb/"/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DWT TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-ods/"/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DWT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-xltx/"/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DWT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-xltm/"/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DWT TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-tsv/"/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "DWT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-xlam/"/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DWT TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-csv/"/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "DWT TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-doc/"/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DWT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-docm/"/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DWT TO DWT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-dwt"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-dwt/"/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DWT TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-dot/"/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DWT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-dotm/"/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DWT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-dotx/"/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "DWT TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-rtf/"/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "DWT TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-odt/"/"
           description: "Open Document Text"
 
         # format loop
         - name: "DWT TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-ott/"/"
           description: "Open Document Template"
 
         # format loop
         - name: "DWT TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-txt/"/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "DWT TO MD"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-md"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-md/"/"
           description: "Markdown"
 
         # format loop
         - name: "DWT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-tiff/"/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DWT TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-tif/"/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DWT TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-jpg/"/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DWT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-jpeg/"/"
           description: "JPEG Image"
 
         # format loop
         - name: "DWT TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-png"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-png/"/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "DWT TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-gif/"/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DWT TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-bmp/"/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "DWT TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-ico/"/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "DWT TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-psd/"/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DWT TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-wmf/"/"
           description: "Windows Metafile"
 
         # format loop
         - name: "DWT TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-emf/"/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DWT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-webp/"/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "DWT TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-svg/"/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DWT TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-jp2/"/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DWT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-emz/"/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DWT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-wmz/"/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DWT TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-html"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-html/"/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DWT TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-mht/"/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DWT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-mhtml/"/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

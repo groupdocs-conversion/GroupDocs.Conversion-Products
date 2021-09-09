@@ -128,107 +128,107 @@ more_formats:
     format: 
         # format loop
         - name: "XPS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "XPS TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "XPS TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "XPS TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "XPS TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "XPS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "XPS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "XPS TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "XPS TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "XPS TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "XPS TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "XPS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "XPS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "XPS TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "XPS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "XPS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "XPS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "XPS TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "XPS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "XPS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "XPS TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop

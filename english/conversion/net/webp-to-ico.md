@@ -128,97 +128,97 @@ more_formats:
     format: 
         # format loop
         - name: "WEBP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "WEBP TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "WEBP TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "WEBP TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "WEBP TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "WEBP TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "WEBP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "WEBP TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "WEBP TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "WEBP TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "WEBP TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "WEBP TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "WEBP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "WEBP TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "WEBP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "WEBP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "WEBP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "WEBP TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "WEBP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop

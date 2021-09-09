@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "EPUB TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-epub/""
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "EPUB TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-xps/""
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "EPUB TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-tex/""
           description: "LaTeX Source Document"
 
         # format loop
         - name: "EPUB TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-ppt/""
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "EPUB TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-pps/""
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "EPUB TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-pptx/""
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "EPUB TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-ppsx/""
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "EPUB TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-odp/""
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "EPUB TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-otp/""
           description: "Origin Graph Template"
 
         # format loop
         - name: "EPUB TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-potx/""
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "EPUB TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-potm/""
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "EPUB TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-pptm/""
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "EPUB TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-ppsm/""
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "EPUB TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-xls/""
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "EPUB TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-xlsx/""
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "EPUB TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-xlsm/""
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "EPUB TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-xlsb/""
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "EPUB TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-ods/""
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "EPUB TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-xltx/""
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "EPUB TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-xltm/""
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "EPUB TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-tsv/""
           description: "Tab Separated Values File"
 
         # format loop
         - name: "EPUB TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-xlam/""
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "EPUB TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-csv/""
           description: "Comma Separated Values File"
 
         # format loop
         - name: "EPUB TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-doc/""
           description: "Microsoft Word Document"
 
         # format loop
         - name: "EPUB TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-docm/""
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "EPUB TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-epub/""
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "EPUB TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-dot/""
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "EPUB TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-dotm/""
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "EPUB TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-dotx/""
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "EPUB TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-rtf/""
           description: "Rich Text File Format"
 
         # format loop
         - name: "EPUB TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-odt/""
           description: "Open Document Text"
 
         # format loop
         - name: "EPUB TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-ott/""
           description: "Open Document Template"
 
         # format loop
         - name: "EPUB TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-txt/""
           description: "Plain Text File Format"
 
         # format loop
         - name: "EPUB TO MD"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-md"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-md/""
           description: "Markdown"
 
         # format loop
         - name: "EPUB TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-tiff/""
           description: "Tagged Image File Format"
 
         # format loop
         - name: "EPUB TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-tif/""
           description: "Tagged Image File Format"
 
         # format loop
         - name: "EPUB TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-jpg/""
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "EPUB TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-jpeg/""
           description: "JPEG Image"
 
         # format loop
         - name: "EPUB TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-png"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-png/""
           description: "Portable Network Graphic"
 
         # format loop
         - name: "EPUB TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-gif/""
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "EPUB TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-bmp/""
           description: "Bitmap File Format"
 
         # format loop
         - name: "EPUB TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-ico/""
           description: "Microsoft Icon File"
 
         # format loop
         - name: "EPUB TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-psd/""
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "EPUB TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-wmf/""
           description: "Windows Metafile"
 
         # format loop
         - name: "EPUB TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-emf/""
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "EPUB TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-webp/""
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "EPUB TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-svg/""
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "EPUB TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-jp2/""
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "EPUB TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-emz/""
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "EPUB TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-wmz/""
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "EPUB TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-html"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-html/""
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "EPUB TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-mht/""
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "EPUB TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/epub-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/epub-to-mhtml/""
           description: "MIME Encapsulation of Aggregate HTML"
 
 

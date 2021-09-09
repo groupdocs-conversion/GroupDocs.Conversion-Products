@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "PST TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PST TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PST TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PST TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PST TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PST TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PST TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PST TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PST TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PST TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PST TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PST TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PST TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PST TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PST TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PST TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PST TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PST TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PST TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PST TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PST TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PST TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PST TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PST TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PST TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PST TO PST"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-pst"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-pst/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PST TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PST TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PST TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PST TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PST TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PST TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PST TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PST TO MD"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-md"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PST TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PST TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PST TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PST TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PST TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-png"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PST TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PST TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PST TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PST TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PST TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PST TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PST TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PST TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PST TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PST TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PST TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PST TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-html"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PST TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PST TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/pst-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

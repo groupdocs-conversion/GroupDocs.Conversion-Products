@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "DJVU TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "DJVU TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "DJVU TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "DJVU TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "DJVU TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DJVU TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DJVU TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DJVU TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DJVU TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "DJVU TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DJVU TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DJVU TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DJVU TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DJVU TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DJVU TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DJVU TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DJVU TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DJVU TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DJVU TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DJVU TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DJVU TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "DJVU TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DJVU TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "DJVU TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DJVU TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DJVU TO DJVU"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-djvu"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-djvu/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DJVU TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DJVU TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DJVU TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "DJVU TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "DJVU TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "DJVU TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "DJVU TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "DJVU TO MD"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-md"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "DJVU TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DJVU TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DJVU TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DJVU TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "DJVU TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-png"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "DJVU TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DJVU TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "DJVU TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "DJVU TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DJVU TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "DJVU TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DJVU TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "DJVU TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DJVU TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DJVU TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DJVU TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DJVU TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-html"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DJVU TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DJVU TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/djvu-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/djvu-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

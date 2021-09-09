@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "HTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-epub/""
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "HTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-xps/""
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "HTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-tex/""
           description: "LaTeX Source Document"
 
         # format loop
         - name: "HTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-ppt/""
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "HTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-pps/""
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "HTM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-pptx/""
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "HTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-ppsx/""
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "HTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-odp/""
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "HTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-otp/""
           description: "Origin Graph Template"
 
         # format loop
         - name: "HTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-potx/""
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "HTM TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-potm/""
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "HTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-pptm/""
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "HTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-ppsm/""
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "HTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-xls/""
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "HTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-xlsx/""
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "HTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-xlsm/""
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "HTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-xlsb/""
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "HTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-ods/""
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "HTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-xltx/""
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "HTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-xltm/""
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "HTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-tsv/""
           description: "Tab Separated Values File"
 
         # format loop
         - name: "HTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-xlam/""
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "HTM TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-csv/""
           description: "Comma Separated Values File"
 
         # format loop
         - name: "HTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-doc/""
           description: "Microsoft Word Document"
 
         # format loop
         - name: "HTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-docm/""
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "HTM TO HTM"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-htm"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-htm/""
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "HTM TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-dot/""
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "HTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-dotm/""
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "HTM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-dotx/""
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "HTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-rtf/""
           description: "Rich Text File Format"
 
         # format loop
         - name: "HTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-odt/""
           description: "Open Document Text"
 
         # format loop
         - name: "HTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-ott/""
           description: "Open Document Template"
 
         # format loop
         - name: "HTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-txt/""
           description: "Plain Text File Format"
 
         # format loop
         - name: "HTM TO MD"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-md"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-md/""
           description: "Markdown"
 
         # format loop
         - name: "HTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-tiff/""
           description: "Tagged Image File Format"
 
         # format loop
         - name: "HTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-tif/""
           description: "Tagged Image File Format"
 
         # format loop
         - name: "HTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-jpg/""
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "HTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-jpeg/""
           description: "JPEG Image"
 
         # format loop
         - name: "HTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-png"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-png/""
           description: "Portable Network Graphic"
 
         # format loop
         - name: "HTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-gif/""
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "HTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-bmp/""
           description: "Bitmap File Format"
 
         # format loop
         - name: "HTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-ico/""
           description: "Microsoft Icon File"
 
         # format loop
         - name: "HTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-psd/""
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "HTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-wmf/""
           description: "Windows Metafile"
 
         # format loop
         - name: "HTM TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-emf/""
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "HTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-webp/""
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "HTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-svg/""
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "HTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-jp2/""
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "HTM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-emz/""
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "HTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-wmz/""
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "HTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-html"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-html/""
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "HTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-mht/""
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "HTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-mhtml/""
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "DNG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "DNG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "DNG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "DNG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "DNG TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DNG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DNG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DNG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DNG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "DNG TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DNG TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DNG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DNG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DNG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DNG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DNG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DNG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DNG TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DNG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DNG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DNG TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "DNG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DNG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "DNG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DNG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DNG TO DNG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dng"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-dng/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DNG TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DNG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DNG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "DNG TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "DNG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "DNG TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "DNG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "DNG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-md"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "DNG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DNG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DNG TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DNG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "DNG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-png"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "DNG TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DNG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "DNG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "DNG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DNG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "DNG TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DNG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "DNG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DNG TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DNG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DNG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DNG TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-html"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DNG TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DNG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/dng-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

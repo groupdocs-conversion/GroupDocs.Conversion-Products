@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "POT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "POT TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "POT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "POT TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "POT TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "POT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "POT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "POT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "POT TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "POT TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "POT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "POT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "POT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "POT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "POT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "POT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "POT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "POT TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "POT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "POT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "POT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "POT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "POT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "POT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "POT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "POT TO POT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-pot"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-pot/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "POT TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "POT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "POT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "POT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "POT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "POT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "POT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "POT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-md"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "POT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "POT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "POT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "POT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "POT TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-png"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "POT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "POT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "POT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "POT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "POT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "POT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "POT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "POT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "POT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "POT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "POT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "POT TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-html"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "POT TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "POT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/pot-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

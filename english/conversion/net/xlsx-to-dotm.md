@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "XLSX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "XLSX TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "XLSX TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "XLSX TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "XLSX TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "XLSX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "XLSX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "XLSX TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "XLSX TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "XLSX TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "XLSX TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "XLSX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "XLSX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "XLSX TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "XLSX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "XLSX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "XLSX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "XLSX TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "XLSX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "XLSX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "XLSX TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "XLSX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "XLSX TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "XLSX TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "XLSX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "XLSX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlsx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "XLSX TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "XLSX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "XLSX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "XLSX TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "XLSX TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "XLSX TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "XLSX TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "XLSX TO MD"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-md"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "XLSX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "XLSX TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "XLSX TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "XLSX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "XLSX TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-png"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "XLSX TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "XLSX TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "XLSX TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "XLSX TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "XLSX TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "XLSX TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "XLSX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "XLSX TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "XLSX TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "XLSX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "XLSX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "XLSX TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-html"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "XLSX TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "XLSX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

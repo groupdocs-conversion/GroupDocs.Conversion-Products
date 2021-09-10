@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{ebook}}
 
-          link: "/{{ebook_url}}"
+          link: "/{{ebook_url}}/"
 
     format:
         # format loop

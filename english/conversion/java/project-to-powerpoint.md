@@ -109,7 +109,7 @@ about_formats:
           content: |
             {{project}}
 
-          link: "/{{project_url}}"
+          link: "/{{project_url}}/"
 
     format:
         # format loop

@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{visio}}
 
-          link: "/{{visio_url}}"
+          link: "/{{visio_url}}/"
 
     format:
         # format loop

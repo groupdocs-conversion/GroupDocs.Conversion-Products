@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{cad}}
 
-          link: "/{{cad_url}}"
+          link: "/{{cad_url}}/"
 
     format:
         # format loop

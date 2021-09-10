@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{mhtm}}
 
-          link: "/{{mhtm_url}}"
+          link: "/{{mhtm_url}}/"
 
 ############################# More Formats ############################
 more_formats:

@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{jpeg-ls}}
 
-          link: "/{{jpeg-ls_url}}"
+          link: "/{{jpeg-ls_url}}/"
 
 ############################# More Formats ############################
 more_formats:

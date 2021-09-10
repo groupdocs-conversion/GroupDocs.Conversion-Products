@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{email}}
 
-          link: "/{{email_url}}"
+          link: "/{{email_url}}/"
 
     format:
         # format loop

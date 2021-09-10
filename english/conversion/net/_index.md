@@ -354,7 +354,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion"
           platform: "Java"
-          link: "/conversion/java"
+          link: "/conversion/java/"
 
 ############################# Back to top ###############################
 back_to_top:

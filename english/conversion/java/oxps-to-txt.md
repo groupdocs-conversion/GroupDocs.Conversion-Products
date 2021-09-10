@@ -109,7 +109,7 @@ about_formats:
           content: |
             {{oxps}}
 
-          link: "/{{oxps_url}}"
+          link: "/{{oxps_url}}/"
 
     format:
         # format loop

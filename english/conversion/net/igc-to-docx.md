@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{igc}}
 
-          link: "/{{igc_url}}"
+          link: "/{{igc_url}}/"
 
     format:
         # format loop

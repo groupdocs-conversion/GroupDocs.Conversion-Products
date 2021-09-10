@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{onenote}}
 
-          link: "/{{onenote_url}}"
+          link: "/{{onenote_url}}/"
 
     format:
         # format loop

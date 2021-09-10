@@ -109,7 +109,7 @@ about_formats:
           content: |
             {{cad}}
 
-          link: "/{{cad_url}}"
+          link: "/{{cad_url}}/"
 
     format:
         # format loop
@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{ebook}}
 
-          link: "/{{ebook_url}}"
+          link: "/{{ebook_url}}/"
 
 ############################# More Formats ############################
 more_formats:

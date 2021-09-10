@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{t%C4%B0f}}
 
-          link: "/{{t%C4%B0f_url}}"
+          link: "/{{t%C4%B0f_url}}/"
 
 ############################# More Formats ############################
 more_formats:

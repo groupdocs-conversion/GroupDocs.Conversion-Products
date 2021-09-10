@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{onenote}}
 
-          link: "/{{onenote_url}}"
+          link: "/{{onenote_url}}/"
 
     format:
         # format loop
@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{ebook}}
 
-          link: "/{{ebook_url}}"
+          link: "/{{ebook_url}}/"
 
 ############################# More Formats ############################
 more_formats:

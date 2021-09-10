@@ -109,7 +109,7 @@ about_formats:
           content: |
             {{log}}
 
-          link: "/{{log_url}}"
+          link: "/{{log_url}}/"
 
     format:
         # format loop

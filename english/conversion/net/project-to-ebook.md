@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{project}}
 
-          link: "/{{project_url}}"
+          link: "/{{project_url}}/"
 
     format:
         # format loop
@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{ebook}}
 
-          link: "/{{ebook_url}}"
+          link: "/{{ebook_url}}/"
 
 ############################# More Formats ############################
 more_formats:

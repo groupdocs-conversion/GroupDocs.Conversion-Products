@@ -109,7 +109,7 @@ about_formats:
           content: |
             {{mob%C4%B0}}
 
-          link: "/{{mob%C4%B0_url}}"
+          link: "/{{mob%C4%B0_url}}/"
 
     format:
         # format loop

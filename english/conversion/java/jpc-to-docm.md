@@ -109,7 +109,7 @@ about_formats:
           content: |
             {{jpc}}
 
-          link: "/{{jpc_url}}"
+          link: "/{{jpc_url}}/"
 
     format:
         # format loop

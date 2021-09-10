@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{outlook}}
 
-          link: "/{{outlook_url}}"
+          link: "/{{outlook_url}}/"
 
     format:
         # format loop
@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{email}}
 
-          link: "/{{email_url}}"
+          link: "/{{email_url}}/"
 
 ############################# More Formats ############################
 more_formats:

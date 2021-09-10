@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{log}}
 
-          link: "/{{log_url}}"
+          link: "/{{log_url}}/"
 
     format:
         # format loop
@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:

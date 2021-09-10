@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{jls}}
 
-          link: "/{{jls_url}}"
+          link: "/{{jls_url}}/"
 
     format:
         # format loop

@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{outlook}}
 
-          link: "/{{outlook_url}}"
+          link: "/{{outlook_url}}/"
 
     format:
         # format loop

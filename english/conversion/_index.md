@@ -22,11 +22,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Conversion On Premise APIs Include"
-      link: "/conversion"
+      link: "/conversion/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/conversion/net"
+        - link: "/conversion/net/"
           img_alt: "GroupDocs.Conversion for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion for"
@@ -34,7 +34,7 @@ apis:
           content: "Native .NET API to accurately convert documents & image file formats in any types of .NET application. Supports adding image watermarks while conversion."
 
         # api_product loop
-        - link: "/conversion/java"
+        - link: "/conversion/java/"
           img_alt: "GroupDocs.Conversion for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion for"

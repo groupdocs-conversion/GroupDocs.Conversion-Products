@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "BMP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-epub/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "BMP TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-xps/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "BMP TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-tex/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "BMP TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-ppt/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "BMP TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-pps/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "BMP TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-pptx/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "BMP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-ppsx/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "BMP TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-odp/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "BMP TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-otp/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "BMP TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-potx/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "BMP TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-potm/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "BMP TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-pptm/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "BMP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-ppsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "BMP TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-xls/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "BMP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-xlsx/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "BMP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-xlsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "BMP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-xlsb/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "BMP TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-ods/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "BMP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-xltx/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "BMP TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-xltm/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "BMP TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-tsv/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "BMP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-xlam/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "BMP TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-csv/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "BMP TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-doc/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "BMP TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-docm/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "BMP TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-bmp/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-bmp/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "BMP TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-dot/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "BMP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-dotm/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "BMP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-dotx/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "BMP TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-rtf/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "BMP TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-odt/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "BMP TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-ott/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "BMP TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-txt/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "BMP TO MD"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-md/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "BMP TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-tiff/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "BMP TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-tif/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "BMP TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-jpg/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "BMP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-jpeg/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "BMP TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-png/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "BMP TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-gif/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "BMP TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-bmp/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "BMP TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-ico/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "BMP TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-psd/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "BMP TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-wmf/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "BMP TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-emf/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "BMP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-webp/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "BMP TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-svg/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "BMP TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-jp2/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "BMP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-emz/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "BMP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-wmz/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "BMP TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-html/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "BMP TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-mht/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "BMP TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-mhtml/"/"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "IFC TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "IFC TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "IFC TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "IFC TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "IFC TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "IFC TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "IFC TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "IFC TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "IFC TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "IFC TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "IFC TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "IFC TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "IFC TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "IFC TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "IFC TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "IFC TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "IFC TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "IFC TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "IFC TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "IFC TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "IFC TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "IFC TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "IFC TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "IFC TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "IFC TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "IFC TO IFC"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ifc"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-ifc/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "IFC TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "IFC TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "IFC TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "IFC TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "IFC TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "IFC TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "IFC TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "IFC TO MD"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-md"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "IFC TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "IFC TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "IFC TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "IFC TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "IFC TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-png"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "IFC TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "IFC TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "IFC TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "IFC TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "IFC TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "IFC TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "IFC TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "IFC TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "IFC TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "IFC TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "IFC TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "IFC TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-html"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "IFC TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "IFC TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/ifc-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

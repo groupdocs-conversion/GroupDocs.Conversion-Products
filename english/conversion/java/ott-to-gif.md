@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "OTT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "OTT TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "OTT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "OTT TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "OTT TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "OTT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "OTT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "OTT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "OTT TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "OTT TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "OTT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "OTT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "OTT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "OTT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "OTT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "OTT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "OTT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "OTT TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "OTT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "OTT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "OTT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "OTT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "OTT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "OTT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "OTT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "OTT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-ott/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "OTT TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "OTT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "OTT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "OTT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "OTT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "OTT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "OTT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "OTT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-md"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "OTT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "OTT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "OTT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "OTT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "OTT TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-png"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "OTT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "OTT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "OTT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "OTT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "OTT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "OTT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "OTT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "OTT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "OTT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "OTT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "OTT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "OTT TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-html"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "OTT TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "OTT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

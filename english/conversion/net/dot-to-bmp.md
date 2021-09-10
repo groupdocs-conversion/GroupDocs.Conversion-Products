@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "DOT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-epub/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "DOT TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-xps/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "DOT TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-tex/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "DOT TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-ppt/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "DOT TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-pps/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DOT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-pptx/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DOT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-ppsx/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DOT TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-odp/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DOT TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-otp/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "DOT TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-potx/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DOT TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-potm/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DOT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-pptm/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DOT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-ppsm/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DOT TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-xls/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DOT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-xlsx/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DOT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-xlsm/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DOT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-xlsb/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DOT TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-ods/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DOT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-xltx/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DOT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-xltm/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DOT TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-tsv/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "DOT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-xlam/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DOT TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-csv/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "DOT TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-doc/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DOT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-docm/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DOT TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-dot/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-dot/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DOT TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-dot/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DOT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-dotm/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DOT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-dotx/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "DOT TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-rtf/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "DOT TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-odt/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "DOT TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-ott/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "DOT TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-txt/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "DOT TO MD"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-md/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "DOT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-tiff/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DOT TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-tif/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DOT TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-jpg/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DOT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-jpeg/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "DOT TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-png/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "DOT TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-gif/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DOT TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-bmp/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "DOT TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-ico/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "DOT TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-psd/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DOT TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-wmf/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "DOT TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-emf/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DOT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-webp/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "DOT TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-svg/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DOT TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-jp2/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DOT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-emz/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DOT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-wmz/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DOT TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-html/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DOT TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-mht/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DOT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/dot-to-mhtml/""
+          link: "https://products.groupdocs.com/conversion/net/dot-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -223,172 +223,172 @@ more_formats:
 
         # format loop
         - name: "WEBP TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "WEBP TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "WEBP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "WEBP TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "WEBP TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "WEBP TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "WEBP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-webp/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "WEBP TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "WEBP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "WEBP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "WEBP TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "WEBP TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "WEBP TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "WEBP TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "WEBP TO MD"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-md"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "WEBP TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "WEBP TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "WEBP TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "WEBP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "WEBP TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-png"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "WEBP TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "WEBP TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "WEBP TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "WEBP TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "WEBP TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "WEBP TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "WEBP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "WEBP TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "WEBP TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "WEBP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "WEBP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "WEBP TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-html"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "WEBP TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "WEBP TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

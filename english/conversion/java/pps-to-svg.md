@@ -359,37 +359,37 @@ more_formats:
 
         # format loop
         - name: "PPS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PPS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PPS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PPS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PPS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-html"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PPS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PPS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

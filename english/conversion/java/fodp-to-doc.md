@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "FODP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "FODP TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "FODP TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "FODP TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "FODP TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "FODP TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "FODP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "FODP TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "FODP TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "FODP TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "FODP TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "FODP TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "FODP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "FODP TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "FODP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "FODP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "FODP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "FODP TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "FODP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "FODP TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "FODP TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "FODP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "FODP TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "FODP TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "FODP TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "FODP TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-fodp"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-fodp/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "FODP TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "FODP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "FODP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "FODP TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "FODP TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "FODP TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "FODP TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "FODP TO MD"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-md"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "FODP TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "FODP TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "FODP TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "FODP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "FODP TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-png"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "FODP TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "FODP TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "FODP TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "FODP TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "FODP TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "FODP TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "FODP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "FODP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "FODP TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "FODP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "FODP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "FODP TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-html"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "FODP TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "FODP TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/fodp-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

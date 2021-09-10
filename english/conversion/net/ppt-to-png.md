@@ -128,102 +128,102 @@ more_formats:
     format: 
         # format loop
         - name: "PPT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-epub/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PPT TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-xps/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PPT TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-tex/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PPT TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-ppt/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PPT TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-pps/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-pptx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PPT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-ppsx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PPT TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-odp/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PPT TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-otp/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PPT TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-potx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PPT TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-potm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PPT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-pptm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PPT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-ppsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPT TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-xls/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PPT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-xlsx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PPT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-xlsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PPT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-xlsb/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PPT TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-ods/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PPT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-xltx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PPT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/ppt-to-xltm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppt-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop

@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "DOCX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "DOCX TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "DOCX TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "DOCX TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "DOCX TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DOCX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DOCX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DOCX TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DOCX TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "DOCX TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DOCX TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DOCX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DOCX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DOCX TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DOCX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DOCX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DOCX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DOCX TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DOCX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DOCX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DOCX TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "DOCX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DOCX TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "DOCX TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DOCX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DOCX TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-docx"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DOCX TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DOCX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DOCX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "DOCX TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "DOCX TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "DOCX TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "DOCX TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "DOCX TO MD"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-md"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "DOCX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DOCX TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DOCX TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DOCX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "DOCX TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-png"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "DOCX TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DOCX TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "DOCX TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "DOCX TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DOCX TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "DOCX TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DOCX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "DOCX TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DOCX TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DOCX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DOCX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DOCX TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-html"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DOCX TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DOCX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/docx-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/docx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

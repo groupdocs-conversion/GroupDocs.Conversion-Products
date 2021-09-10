@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "HTML TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/html-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/html-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "HTML TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/html-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "HTML TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/html-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "HTML TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/html-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "HTML TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/html-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/html-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "HTML TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/html-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "HTML TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/html-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "HTML TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/html-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/html-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "HTML TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/html-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/html-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "HTML TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/html-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "HTML TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/html-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "HTML TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/html-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "HTML TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/html-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "HTML TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/html-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "HTML TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/html-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "HTML TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/html-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "HTML TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/html-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "HTML TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/html-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "HTML TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/html-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "HTML TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/html-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "HTML TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/html-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/html-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "HTML TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/html-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "HTML TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/html-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/html-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "HTML TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/html-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/html-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "HTML TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/html-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "HTML TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/html-to-html"
+          link: "https://products.groupdocs.com/conversion/java/html-to-html/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "HTML TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/html-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "HTML TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/html-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "HTML TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/html-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "HTML TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/html-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "HTML TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/html-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "HTML TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/html-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "HTML TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/html-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "HTML TO MD"
-          link: "https://products.groupdocs.com/conversion/java/html-to-md"
+          link: "https://products.groupdocs.com/conversion/java/html-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "HTML TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/html-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "HTML TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/html-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "HTML TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/html-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/html-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "HTML TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/html-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/html-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "HTML TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/html-to-png"
+          link: "https://products.groupdocs.com/conversion/java/html-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "HTML TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/html-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "HTML TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/html-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/html-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "HTML TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/html-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "HTML TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/html-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/html-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "HTML TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/html-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "HTML TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/html-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "HTML TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/html-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/html-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "HTML TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/html-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/html-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "HTML TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/html-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/html-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "HTML TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/html-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/html-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "HTML TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/html-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/html-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "HTML TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/html-to-html"
+          link: "https://products.groupdocs.com/conversion/java/html-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "HTML TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/html-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "HTML TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/html-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/html-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

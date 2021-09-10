@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "CAD TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "CAD TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "CAD TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "CAD TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "CAD TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "CAD TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "CAD TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "CAD TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "CAD TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "CAD TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "CAD TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "CAD TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "CAD TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "CAD TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "CAD TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "CAD TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "CAD TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "CAD TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "CAD TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "CAD TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "CAD TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "CAD TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "CAD TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "CAD TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "CAD TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "CAD TO CAD"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-cad"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-cad/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "CAD TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "CAD TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "CAD TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "CAD TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "CAD TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "CAD TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "CAD TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "CAD TO MD"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-md"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "CAD TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "CAD TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "CAD TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "CAD TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "CAD TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-png"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "CAD TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "CAD TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "CAD TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "CAD TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "CAD TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "CAD TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "CAD TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "CAD TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "CAD TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "CAD TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "CAD TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "CAD TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-html"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "CAD TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "CAD TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

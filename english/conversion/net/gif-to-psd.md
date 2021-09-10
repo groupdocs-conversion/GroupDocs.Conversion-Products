@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "GIF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-epub/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "GIF TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-xps/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "GIF TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-tex/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "GIF TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-ppt/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "GIF TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-pps/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "GIF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-pptx/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "GIF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-ppsx/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "GIF TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-odp/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "GIF TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-otp/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "GIF TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-potx/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "GIF TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-potm/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "GIF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-pptm/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "GIF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-ppsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "GIF TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-xls/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "GIF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-xlsx/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "GIF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-xlsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "GIF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-xlsb/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "GIF TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-ods/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "GIF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-xltx/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "GIF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-xltm/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "GIF TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-tsv/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "GIF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-xlam/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "GIF TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-csv/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "GIF TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-doc/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "GIF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-docm/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "GIF TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-gif/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-gif/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "GIF TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-dot/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "GIF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-dotm/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "GIF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-dotx/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "GIF TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-rtf/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "GIF TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-odt/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "GIF TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-ott/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "GIF TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-txt/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "GIF TO MD"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-md/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "GIF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-tiff/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "GIF TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-tif/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "GIF TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-jpg/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "GIF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-jpeg/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "GIF TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-png/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "GIF TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-gif/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "GIF TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-bmp/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "GIF TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-ico/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "GIF TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-psd/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "GIF TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-wmf/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "GIF TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-emf/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "GIF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-webp/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "GIF TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-svg/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "GIF TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-jp2/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "GIF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-emz/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "GIF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-wmz/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "GIF TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-html/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "GIF TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-mht/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "GIF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/gif-to-mhtml/"/"
+          link: "https://products.groupdocs.com/conversion/net/gif-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "EML TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "EML TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "EML TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "EML TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "EML TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "EML TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "EML TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "EML TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "EML TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "EML TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "EML TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "EML TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "EML TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "EML TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "EML TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "EML TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "EML TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "EML TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "EML TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "EML TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "EML TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "EML TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "EML TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "EML TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "EML TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "EML TO EML"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-eml"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-eml/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "EML TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "EML TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "EML TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "EML TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "EML TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "EML TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "EML TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "EML TO MD"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-md"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "EML TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "EML TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "EML TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "EML TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "EML TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-png"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "EML TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "EML TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "EML TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "EML TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "EML TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "EML TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "EML TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "EML TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "EML TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "EML TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "EML TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "EML TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-html"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "EML TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "EML TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/eml-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

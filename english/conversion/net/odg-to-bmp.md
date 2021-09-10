@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "ODG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-epub/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "ODG TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-xps/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "ODG TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-tex/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "ODG TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-ppt/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "ODG TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-pps/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "ODG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-pptx/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "ODG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-ppsx/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "ODG TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-odp/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "ODG TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-otp/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "ODG TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-potx/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "ODG TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-potm/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "ODG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-pptm/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "ODG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-ppsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "ODG TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-xls/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "ODG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-xlsx/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "ODG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-xlsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "ODG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-xlsb/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "ODG TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-ods/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "ODG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-xltx/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "ODG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-xltm/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "ODG TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-tsv/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "ODG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-xlam/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "ODG TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-csv/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "ODG TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-doc/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "ODG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-docm/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "ODG TO ODG"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-odg/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-odg/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "ODG TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-dot/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "ODG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-dotm/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "ODG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-dotx/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "ODG TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-rtf/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "ODG TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-odt/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "ODG TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-ott/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "ODG TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-txt/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "ODG TO MD"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-md/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "ODG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-tiff/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "ODG TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-tif/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "ODG TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-jpg/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "ODG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-jpeg/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "ODG TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-png/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "ODG TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-gif/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "ODG TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-bmp/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "ODG TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-ico/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "ODG TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-psd/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "ODG TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-wmf/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "ODG TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-emf/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "ODG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-webp/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "ODG TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-svg/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "ODG TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-jp2/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "ODG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-emz/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "ODG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-wmz/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "ODG TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-html/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "ODG TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-mht/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "ODG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/odg-to-mhtml/"/"
+          link: "https://products.groupdocs.com/conversion/net/odg-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -233,162 +233,162 @@ more_formats:
 
         # format loop
         - name: "XPS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "XPS TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "XPS TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "XPS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "XPS TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-xps/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "XPS TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "XPS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "XPS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "XPS TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "XPS TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "XPS TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "XPS TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "XPS TO MD"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-md"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "XPS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "XPS TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "XPS TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "XPS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "XPS TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-png"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "XPS TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "XPS TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "XPS TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "XPS TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "XPS TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "XPS TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "XPS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "XPS TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "XPS TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "XPS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "XPS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "XPS TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-html"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "XPS TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "XPS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/xps-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "PPSM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-epub/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PPSM TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xps/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PPSM TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-tex/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PPSM TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ppt/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PPSM TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-pps/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPSM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-pptx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PPSM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ppsx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PPSM TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-odp/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PPSM TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-otp/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PPSM TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-potx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PPSM TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-potm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PPSM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-pptm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PPSM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ppsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPSM TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xls/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PPSM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xlsx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PPSM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xlsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PPSM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xlsb/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PPSM TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ods/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PPSM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xltx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PPSM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xltm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PPSM TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-tsv/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PPSM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xlam/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PPSM TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-csv/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PPSM TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-doc/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PPSM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-docm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PPSM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ppsm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ppsm/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PPSM TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-dot/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PPSM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-dotm/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PPSM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-dotx/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PPSM TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-rtf/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PPSM TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-odt/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PPSM TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ott/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PPSM TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-txt/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PPSM TO MD"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-md/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PPSM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-tiff/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PPSM TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-tif/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PPSM TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-jpg/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PPSM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-jpeg/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PPSM TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-png/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PPSM TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-gif/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PPSM TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-bmp/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PPSM TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ico/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PPSM TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-psd/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PPSM TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-wmf/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PPSM TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-emf/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PPSM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-webp/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PPSM TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-svg/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PPSM TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-jp2/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PPSM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-emz/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PPSM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-wmz/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PPSM TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-html/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PPSM TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-mht/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PPSM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/ppsm-to-mhtml/"/"
+          link: "https://products.groupdocs.com/conversion/net/ppsm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

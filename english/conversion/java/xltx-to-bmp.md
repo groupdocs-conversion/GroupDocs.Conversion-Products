@@ -244,152 +244,152 @@ more_formats:
 
         # format loop
         - name: "XLTX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "XLTX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "XLTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-xltx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "XLTX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "XLTX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "XLTX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "XLTX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "XLTX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "XLTX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "XLTX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "XLTX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-md"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "XLTX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "XLTX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "XLTX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "XLTX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "XLTX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-png"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "XLTX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "XLTX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "XLTX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "XLTX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "XLTX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "XLTX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "XLTX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "XLTX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "XLTX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "XLTX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "XLTX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "XLTX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-html"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "XLTX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "XLTX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/xltx-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/xltx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

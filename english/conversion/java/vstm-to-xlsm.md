@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "VSTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "VSTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "VSTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "VSTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "VSTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VSTM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "VSTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "VSTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "VSTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "VSTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "VSTM TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "VSTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "VSTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VSTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "VSTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "VSTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "VSTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "VSTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "VSTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "VSTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "VSTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "VSTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "VSTM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "VSTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "VSTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "VSTM TO VSTM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-vstm"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-vstm/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "VSTM TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "VSTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "VSTM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "VSTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "VSTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "VSTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "VSTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "VSTM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-md"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "VSTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "VSTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "VSTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "VSTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "VSTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-png"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "VSTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "VSTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "VSTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "VSTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "VSTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "VSTM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "VSTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "VSTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "VSTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "VSTM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "VSTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "VSTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-html"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "VSTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "VSTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/vstm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

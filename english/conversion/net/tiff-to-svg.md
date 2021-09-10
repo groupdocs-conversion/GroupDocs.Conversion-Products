@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "TIFF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "TIFF TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "TIFF TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "TIFF TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "TIFF TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "TIFF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "TIFF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "TIFF TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "TIFF TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "TIFF TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "TIFF TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "TIFF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "TIFF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "TIFF TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "TIFF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "TIFF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "TIFF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "TIFF TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "TIFF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "TIFF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "TIFF TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "TIFF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "TIFF TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "TIFF TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "TIFF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "TIFF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-tiff/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "TIFF TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "TIFF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "TIFF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "TIFF TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "TIFF TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "TIFF TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "TIFF TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "TIFF TO MD"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-md"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "TIFF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "TIFF TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "TIFF TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "TIFF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "TIFF TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-png"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "TIFF TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "TIFF TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "TIFF TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "TIFF TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "TIFF TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "TIFF TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "TIFF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "TIFF TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "TIFF TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "TIFF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "TIFF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "TIFF TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-html"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "TIFF TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "TIFF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

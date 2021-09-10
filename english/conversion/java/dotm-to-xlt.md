@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "DOTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "DOTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "DOTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "DOTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "DOTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DOTM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DOTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DOTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DOTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "DOTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DOTM TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DOTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DOTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DOTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DOTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DOTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DOTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DOTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DOTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DOTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DOTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "DOTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DOTM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "DOTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DOTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DOTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-dotm/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DOTM TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DOTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DOTM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "DOTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "DOTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "DOTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "DOTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "DOTM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-md"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "DOTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DOTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DOTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DOTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "DOTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-png"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "DOTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DOTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "DOTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "DOTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DOTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "DOTM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DOTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "DOTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DOTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DOTM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DOTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DOTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-html"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DOTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DOTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

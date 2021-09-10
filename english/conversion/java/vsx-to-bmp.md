@@ -364,32 +364,32 @@ more_formats:
 
         # format loop
         - name: "VSX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/vsx-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "VSX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/vsx-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "VSX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/vsx-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "VSX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/vsx-to-html"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "VSX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/vsx-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "VSX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/vsx-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

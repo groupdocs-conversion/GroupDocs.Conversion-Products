@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "XLTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "XLTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "XLTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "XLTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "XLTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "XLTM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "XLTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "XLTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "XLTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "XLTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "XLTM TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "XLTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "XLTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "XLTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "XLTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "XLTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "XLTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "XLTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "XLTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "XLTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "XLTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "XLTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "XLTM TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "XLTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "XLTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "XLTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-xltm/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "XLTM TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "XLTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "XLTM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "XLTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "XLTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "XLTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "XLTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "XLTM TO MD"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-md"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "XLTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "XLTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "XLTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "XLTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "XLTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-png"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "XLTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "XLTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "XLTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "XLTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "XLTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "XLTM TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "XLTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "XLTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "XLTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "XLTM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "XLTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "XLTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-html"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "XLTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "XLTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/xltm-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/xltm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "MHTML TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-epub/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "MHTML TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xps/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "MHTML TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-tex/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "MHTML TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ppt/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "MHTML TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-pps/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "MHTML TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-pptx/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "MHTML TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ppsx/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "MHTML TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-odp/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "MHTML TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-otp/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "MHTML TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-potx/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "MHTML TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-potm/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "MHTML TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-pptm/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "MHTML TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ppsm/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "MHTML TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xls/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "MHTML TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xlsx/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "MHTML TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xlsm/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "MHTML TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xlsb/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "MHTML TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ods/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "MHTML TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xltx/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "MHTML TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xltm/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "MHTML TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-tsv/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "MHTML TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xlam/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "MHTML TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-csv/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "MHTML TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-doc/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "MHTML TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-docm/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "MHTML TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-mhtml/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-mhtml/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "MHTML TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-dot/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "MHTML TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-dotm/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "MHTML TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-dotx/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "MHTML TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-rtf/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "MHTML TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-odt/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "MHTML TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ott/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "MHTML TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-txt/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "MHTML TO MD"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-md/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "MHTML TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-tiff/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "MHTML TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-tif/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "MHTML TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-jpg/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "MHTML TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-jpeg/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "MHTML TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-png/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "MHTML TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-gif/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "MHTML TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-bmp/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "MHTML TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ico/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "MHTML TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-psd/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "MHTML TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-wmf/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "MHTML TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-emf/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "MHTML TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-webp/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "MHTML TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-svg/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "MHTML TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-jp2/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "MHTML TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-emz/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "MHTML TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-wmz/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "MHTML TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-html/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "MHTML TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-mht/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MHTML TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/mhtml-to-mhtml/""
+          link: "https://products.groupdocs.com/conversion/net/mhtml-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

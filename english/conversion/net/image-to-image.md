@@ -5,12 +5,12 @@ date: 2021-05-13T14:24:59+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "IMAGE to IMAGE Converter – Convert IMAGE to IMAGE in C# .NET"
-head_description: "How to convert IMAGE to IMAGE in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "Convert Image to Image in C# .NET VB.NET"
+head_description: "Convert Image files to Image and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
 
 ############################# Header ############################
-title: "Convert IMAGE to IMAGE in C#"
-description: "Native and high performance IMAGE to IMAGE conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+title: "Convert Image to Image in .NET"
+description: "Convert Image files to Image and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert IMAGE to IMAGE in C#"
+    title_left: "Steps to Convert Image to Image in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the IMAGE file to IMAGE using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the Image file to Image using a few lines of code.
 
-        *   Create an instance of Converter class and load the IMAGE file with full path
+        *   Create an instance of Converter class and load the Image file with full path
         *   Create & set ConvertOptions for the image type
-        *   Call Converter.Convert method and pass the full path and format (IMAGE) as parameter
+        *   Call Converter.Convert method and pass the full path and format (Image) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -82,20 +82,20 @@ steps:
         
     code: |
         ```cs
-        // load the IMAGE file
-        var converter = new GroupDocs.Conversion.Converter("template.image");
-        // set the convert options for IMAGE format
+        // load the Image file
+        var converter = new GroupDocs.Conversion.Converter("template.jpg");
+        // set the convert options for Image format
         var convertOptions = converter.GetPossibleConversions()["image"].ConvertOptions;
-        // convert to IMAGE format
+        // convert to Image format
         converter.Convert("output.image", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "IMAGE to IMAGE Live Demos"
+    title: "Image to Image Live Demos"
     content: |
-        Convert IMAGE to IMAGE right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert Image to Image right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/image-to-image) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -103,8 +103,8 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-IMAGE"
-          title: " About IMAGE File Format"
+        - icon: "far fa-file-Image"
+          title: "About Image File Format"
           content: |
             An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.
 
@@ -112,8 +112,8 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-IMAGE"
-          title: " About IMAGE File Format"
+        - icon: "far fa-file-Image"
+          title: "About Image File Format"
           content: |
             An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.
 
@@ -124,272 +124,47 @@ more_formats:
     enable: true
     title: "Other Supported Conversions"
     content: |
-        You can also convert IMAGE into many other file formats. Please see the complete list below.
+        You can also convert Image into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "IMAGE TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/image-to-epub"
-          description: "Digital E-Book File Format"
+        - name: "IMAGE TO EBOOK"
+          link: "https://products.groupdocs.com/conversion/net/image-to-ebook"
+          description: "Ebook File Formats"
 
         # format loop
-        - name: "IMAGE TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/image-to-xps"
-          description: "Open XML Paper Specification"
+        - name: "IMAGE TO EXCEL"
+          link: "https://products.groupdocs.com/conversion/net/image-to-excel"
+          description: "Excel Document File Formats"
 
         # format loop
-        - name: "IMAGE TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/image-to-tex"
-          description: "LaTeX Source Document"
+        - name: "IMAGE TO EMAIL"
+          link: "https://products.groupdocs.com/conversion/net/image-to-email"
+          description: "Email File Formats"
 
         # format loop
-        - name: "IMAGE TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/image-to-ppt"
-          description: "PowerPoint Presentation"
+        - name: "IMAGE TO PDF"
+          link: "https://products.groupdocs.com/conversion/net/image-to-pdf"
+          description: "PDF File Format"
 
         # format loop
-        - name: "IMAGE TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/image-to-pps"
-          description: "Microsoft PowerPoint Slide Show"
+        - name: "IMAGE TO PHOTOSHOP"
+          link: "https://products.groupdocs.com/conversion/net/image-to-photoshop"
+          description: "Photoshop File Formats"
 
         # format loop
-        - name: "IMAGE TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/image-to-pptx"
-          description: "PowerPoint Open XML Presentation"
+        - name: "IMAGE TO POWERPOINT"
+          link: "https://products.groupdocs.com/conversion/net/image-to-powerpoint"
+          description: "PowerPoint Presentation File Formats"
 
         # format loop
-        - name: "IMAGE TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/image-to-ppsx"
-          description: "PowerPoint Open XML Slide Show"
+        - name: "IMAGE TO WEB"
+          link: "https://products.groupdocs.com/conversion/net/image-to-web"
+          description: "Web Document File Formats"
 
         # format loop
-        - name: "IMAGE TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/image-to-odp"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "IMAGE TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/image-to-otp"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "IMAGE TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/image-to-potx"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "IMAGE TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/image-to-potm"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "IMAGE TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/image-to-pptm"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "IMAGE TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/image-to-ppsm"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "IMAGE TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/image-to-xls"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "IMAGE TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/image-to-xlsx"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "IMAGE TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/image-to-xlsm"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "IMAGE TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/image-to-xlsb"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "IMAGE TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/image-to-ods"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "IMAGE TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/image-to-xltx"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "IMAGE TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/image-to-xltm"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "IMAGE TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/image-to-tsv"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "IMAGE TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/image-to-xlam"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "IMAGE TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/image-to-csv"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "IMAGE TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/image-to-doc"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "IMAGE TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/image-to-docm"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "IMAGE TO IMAGE"
-          link: "https://products.groupdocs.com/conversion/net/image-to-image"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "IMAGE TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/image-to-dot"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "IMAGE TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/image-to-dotm"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "IMAGE TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/image-to-dotx"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "IMAGE TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/image-to-rtf"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "IMAGE TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/image-to-odt"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "IMAGE TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/image-to-ott"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "IMAGE TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/image-to-txt"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "IMAGE TO MD"
-          link: "https://products.groupdocs.com/conversion/net/image-to-md"
-          description: "Markdown"
-
-        # format loop
-        - name: "IMAGE TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/image-to-tiff"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "IMAGE TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/image-to-tif"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "IMAGE TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/image-to-jpg"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "IMAGE TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/image-to-jpeg"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "IMAGE TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/image-to-png"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "IMAGE TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/image-to-gif"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "IMAGE TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/image-to-bmp"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "IMAGE TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/image-to-ico"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "IMAGE TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/image-to-psd"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "IMAGE TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/image-to-wmf"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "IMAGE TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/image-to-emf"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "IMAGE TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/image-to-webp"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "IMAGE TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/image-to-svg"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "IMAGE TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/image-to-jp2"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "IMAGE TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/image-to-emz"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "IMAGE TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/image-to-wmz"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "IMAGE TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/image-to-html"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "IMAGE TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/image-to-mht"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "IMAGE TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/image-to-mhtml"
-          description: "MIME Encapsulation of Aggregate HTML"
+        - name: "IMAGE TO WORD"
+          link: "https://products.groupdocs.com/conversion/net/image-to-word"
+          description: "Word Document File Formats"
 
 
 ############################# Back to top ###############################

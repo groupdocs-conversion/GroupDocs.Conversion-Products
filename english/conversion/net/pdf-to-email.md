@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:50+03:00
+date: 2021-05-13T14:28:49+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "PDF to IMAGE Converter – Convert PDF to IMAGE in C# .NET"
-head_description: "How to convert PDF to IMAGE in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "PDF to Email Converter – Convert PDF to Email in C# .NET"
+head_description: "How to convert PDF to Email in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
 
 ############################# Header ############################
-title: "Convert PDF to IMAGE in C#"
-description: "Native and high performance PDF to IMAGE conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+title: "Convert PDF to Email in C#"
+description: "Native and high performance PDF to Email conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert PDF to IMAGE in C#"
+    title_left: "Steps to Convert PDF to Email in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the PDF file to IMAGE using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the PDF file to Email using a few lines of code.
 
         *   Create an instance of Converter class and load the PDF file with full path
-        *   Create & set ConvertOptions for the image type
-        *   Call Converter.Convert method and pass the full path and format (IMAGE) as parameter
+        *   Create & set ConvertOptions for the eml type
+        *   Call Converter.Convert method and pass the full path and format (Email) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,18 +84,18 @@ steps:
         ```cs
         // load the PDF file
         var converter = new GroupDocs.Conversion.Converter("template.pdf");
-        // set the convert options for IMAGE format
-        var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
-        // convert to IMAGE format
-        converter.Convert("output.jpg", convertOptions);
+        // set the convert options for Email format
+        var convertOptions = converter.GetPossibleConversions()["eml"].ConvertOptions;
+        // convert to Email format
+        converter.Convert("output.eml", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "PDF to IMAGE Live Demos"
+    title: "PDF to Email Live Demos"
     content: |
-        Convert PDF to IMAGE right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/pdf-to-image) website.  
+        Convert PDF to Email right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -112,12 +112,12 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-IMAGE"
-          title: " About IMAGE File Format"
+        - icon: "far fa-file-Email"
+          title: " About Email File Format"
           content: |
-            An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.
+            Have you ever come across Email file formats and failed to open it? You have come to the right place, we are going to explain what Email file formats are and what are the recommended software that can open or use them. Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.
 
-          link: "https://docs.fileformat.com/image/"
+          link: "https://docs.fileformat.com/email/"
 
 ############################# More Formats ############################
 more_formats:

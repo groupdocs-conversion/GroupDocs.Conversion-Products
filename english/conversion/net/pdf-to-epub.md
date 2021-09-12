@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Steps to Convert PDF to EPUB in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PDF file to EPUB using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the PDF file to EPUB using a few lines of code.
 
         *   Create an instance of Converter class and load the PDF file with full path
         *   Create & set ConvertOptions for the epub type

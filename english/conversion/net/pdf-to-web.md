@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Steps to Convert PDF to WEB in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PDF file to WEB using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the PDF file to WEB using a few lines of code.
 
         *   Create an instance of Converter class and load the PDF file with full path
         *   Create & set ConvertOptions for the web type
@@ -85,9 +85,9 @@ steps:
         // load the PDF file
         var converter = new GroupDocs.Conversion.Converter("template.pdf");
         // set the convert options for WEB format
-        var convertOptions = converter.GetPossibleConversions()["web"].ConvertOptions;
+        var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
         // convert to WEB format
-        converter.Convert("output.web", convertOptions);
+        converter.Convert("output.html", convertOptions);
         ```
         
 ############################# Demos ############################
@@ -95,7 +95,7 @@ demos:
     enable: true
     title: "PDF to WEB Live Demos"
     content: |
-        Convert PDF to WEB right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PDF to WEB right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/pdf-to-web) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -115,9 +115,9 @@ about_formats:
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            {{web}}
+            It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI. Common web file extensions and their associate file formats include HTML (Hypertext Markup Language), ASP (Active Server Pages), and CSS (Cascading Style Sheets).
 
-          link: "/{{web_url}}"
+          link: "https://docs.fileformat.com/web/"
 
 ############################# More Formats ############################
 more_formats:

@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Steps to Convert PDF to PHOTOSHOP in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PDF file to PHOTOSHOP using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the PDF file to PHOTOSHOP using a few lines of code.
 
         *   Create an instance of Converter class and load the PDF file with full path
         *   Create & set ConvertOptions for the photoshop type
@@ -85,9 +85,9 @@ steps:
         // load the PDF file
         var converter = new GroupDocs.Conversion.Converter("template.pdf");
         // set the convert options for PHOTOSHOP format
-        var convertOptions = converter.GetPossibleConversions()["photoshop"].ConvertOptions;
+        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
         // convert to PHOTOSHOP format
-        converter.Convert("output.photoshop", convertOptions);
+        converter.Convert("output.psd", convertOptions);
         ```
         
 ############################# Demos ############################
@@ -95,7 +95,7 @@ demos:
     enable: true
     title: "PDF to PHOTOSHOP Live Demos"
     content: |
-        Convert PDF to PHOTOSHOP right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PDF to PHOTOSHOP right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/pdf-to-photoshop) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

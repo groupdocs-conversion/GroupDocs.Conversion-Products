@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Steps to Convert PDF to POWERPOINT in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PDF file to POWERPOINT using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the PDF file to POWERPOINT using a few lines of code.
 
         *   Create an instance of Converter class and load the PDF file with full path
         *   Create & set ConvertOptions for the powerpoint type
@@ -85,9 +85,9 @@ steps:
         // load the PDF file
         var converter = new GroupDocs.Conversion.Converter("template.pdf");
         // set the convert options for POWERPOINT format
-        var convertOptions = converter.GetPossibleConversions()["powerpoint"].ConvertOptions;
+        var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
         // convert to POWERPOINT format
-        converter.Convert("output.powerpoint", convertOptions);
+        converter.Convert("output.pptx", convertOptions);
         ```
         
 ############################# Demos ############################
@@ -95,7 +95,7 @@ demos:
     enable: true
     title: "PDF to POWERPOINT Live Demos"
     content: |
-        Convert PDF to POWERPOINT right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PDF to POWERPOINT right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/pdf-to-powerpoint) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Steps to Convert PDF to WORD in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PDF file to WORD using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the PDF file to WORD using a few lines of code.
 
         *   Create an instance of Converter class and load the PDF file with full path
         *   Create & set ConvertOptions for the word type
@@ -95,7 +95,7 @@ demos:
     enable: true
     title: "PDF to WORD Live Demos"
     content: |
-        Convert PDF to WORD right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PDF to WORD right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/pdf-to-word) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Steps to Convert PDF to EXCEL in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PDF file to EXCEL using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the PDF file to EXCEL using a few lines of code.
 
         *   Create an instance of Converter class and load the PDF file with full path
         *   Create & set ConvertOptions for the excel type
@@ -85,9 +85,9 @@ steps:
         // load the PDF file
         var converter = new GroupDocs.Conversion.Converter("template.pdf");
         // set the convert options for EXCEL format
-        var convertOptions = converter.GetPossibleConversions()["excel"].ConvertOptions;
+        var convertOptions = converter.GetPossibleConversions()["xlsx"].ConvertOptions;
         // convert to EXCEL format
-        converter.Convert("output.excel", convertOptions);
+        converter.Convert("output.xlsx", convertOptions);
         ```
         
 ############################# Demos ############################
@@ -95,7 +95,7 @@ demos:
     enable: true
     title: "PDF to EXCEL Live Demos"
     content: |
-        Convert PDF to EXCEL right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PDF to EXCEL right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/pdf-to-excel) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################

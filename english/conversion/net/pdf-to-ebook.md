@@ -5,12 +5,12 @@ date: 2021-05-13T14:28:49+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "PDF to EBOOK Converter – Convert PDF to EBOOK in C# .NET"
-head_description: "How to convert PDF to EBOOK in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "PDF to eBook Converter – Convert PDF to eBook in C# .NET"
+head_description: "How to convert PDF to eBook in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
 
 ############################# Header ############################
-title: "Convert PDF to EBOOK in C#"
-description: "Native and high performance PDF to EBOOK conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+title: "Convert PDF to eBook in C#"
+description: "Native and high performance PDF to eBook conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,9 +63,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert PDF to EBOOK in C#"
+    title_left: "Steps to Convert PDF to eBook in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PDF file to EBOOK using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the PDF file to eBook using a few lines of code.
 
         *   Create an instance of Converter class and load the PDF file with full path
         *   Create & set ConvertOptions for the ebook type
@@ -84,18 +84,18 @@ steps:
         ```cs
         // load the PDF file
         var converter = new GroupDocs.Conversion.Converter("template.pdf");
-        // set the convert options for EBOOK format
-        var convertOptions = converter.GetPossibleConversions()["ebook"].ConvertOptions;
-        // convert to EBOOK format
-        converter.Convert("output.ebook", convertOptions);
+        // set the convert options for eBook format
+        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+        // convert to eBook format
+        converter.Convert("output.epub", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "PDF to EBOOK Live Demos"
+    title: "PDF to eBook Live Demos"
     content: |
-        Convert PDF to EBOOK right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PDF to eBook right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/pdf-to-ebook) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -113,11 +113,11 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-EBOOK"
-          title: " About EBOOK File Format"
+          title: " About eBook File Format"
           content: |
-            {{ebook}}
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
 
-          link: "/{{ebook_url}}"
+          link: "https://docs.fileformat.com/ebook/"
 
 ############################# More Formats ############################
 more_formats:

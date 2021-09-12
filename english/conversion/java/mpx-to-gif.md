@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "MPX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "MPX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "MPX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "MPX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "MPX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "MPX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "MPX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "MPX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "MPX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "MPX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "MPX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "MPX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "MPX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "MPX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "MPX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "MPX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "MPX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "MPX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "MPX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "MPX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "MPX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "MPX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "MPX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "MPX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "MPX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "MPX TO MPX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-mpx"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-mpx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "MPX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "MPX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "MPX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "MPX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "MPX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "MPX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "MPX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "MPX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-md"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "MPX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "MPX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "MPX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "MPX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "MPX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-png"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "MPX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "MPX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "MPX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "MPX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "MPX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "MPX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "MPX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "MPX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "MPX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "MPX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "MPX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "MPX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-html"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "MPX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MPX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/mpx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

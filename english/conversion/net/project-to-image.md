@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{project}}
 
-          link: "/{{project_url}}"
+          link: "/{{project_url}}/"
 
     format:
         # format loop
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "PROJECT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/project-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/project-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PROJECT TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/project-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/project-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PROJECT TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/project-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/project-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PROJECT TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/project-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/project-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PROJECT TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/project-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/project-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PROJECT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/project-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/project-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PROJECT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/project-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/project-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PROJECT TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/project-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/project-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PROJECT TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/project-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/project-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PROJECT TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/project-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/project-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PROJECT TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/project-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/project-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PROJECT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/project-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/project-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PROJECT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/project-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/project-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PROJECT TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/project-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/project-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PROJECT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/project-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/project-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PROJECT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/project-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/project-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PROJECT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/project-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/project-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PROJECT TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/project-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/project-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PROJECT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/project-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/project-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PROJECT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/project-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/project-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PROJECT TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/project-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/project-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PROJECT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/project-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/project-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PROJECT TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/project-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/project-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PROJECT TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/project-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/project-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PROJECT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/project-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/project-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PROJECT TO PROJECT"
-          link: "https://products.groupdocs.com/conversion/net/project-to-project"
+          link: "https://products.groupdocs.com/conversion/net/project-to-project/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PROJECT TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/project-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/project-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PROJECT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/project-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/project-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PROJECT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/project-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/project-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PROJECT TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/project-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/project-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PROJECT TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/project-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/project-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PROJECT TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/project-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/project-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PROJECT TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/project-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/project-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PROJECT TO MD"
-          link: "https://products.groupdocs.com/conversion/net/project-to-md"
+          link: "https://products.groupdocs.com/conversion/net/project-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PROJECT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/project-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/project-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PROJECT TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/project-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/project-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PROJECT TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/project-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/project-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PROJECT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/project-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/project-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PROJECT TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/project-to-png"
+          link: "https://products.groupdocs.com/conversion/net/project-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PROJECT TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/project-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/project-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PROJECT TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/project-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/project-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PROJECT TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/project-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/project-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PROJECT TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/project-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/project-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PROJECT TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/project-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/project-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PROJECT TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/project-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/project-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PROJECT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/project-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/project-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PROJECT TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/project-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/project-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PROJECT TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/project-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/project-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PROJECT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/project-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/project-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PROJECT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/project-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/project-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PROJECT TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/project-to-html"
+          link: "https://products.groupdocs.com/conversion/net/project-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PROJECT TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/project-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/project-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PROJECT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/project-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/project-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

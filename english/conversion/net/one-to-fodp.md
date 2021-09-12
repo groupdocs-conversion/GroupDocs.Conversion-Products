@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "ONE TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/one-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/one-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "ONE TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/one-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/one-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "ONE TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/one-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/one-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "ONE TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/one-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/one-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "ONE TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/one-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/one-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "ONE TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/one-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/one-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "ONE TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/one-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/one-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "ONE TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/one-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/one-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "ONE TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/one-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/one-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "ONE TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/one-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/one-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "ONE TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/one-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/one-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "ONE TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/one-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/one-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "ONE TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/one-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/one-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "ONE TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/one-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/one-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "ONE TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/one-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/one-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "ONE TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/one-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/one-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "ONE TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/one-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/one-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "ONE TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/one-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/one-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "ONE TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/one-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/one-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "ONE TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/one-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/one-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "ONE TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/one-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/one-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "ONE TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/one-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/one-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "ONE TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/one-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/one-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "ONE TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/one-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/one-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "ONE TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/one-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/one-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "ONE TO ONE"
-          link: "https://products.groupdocs.com/conversion/net/one-to-one"
+          link: "https://products.groupdocs.com/conversion/net/one-to-one/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "ONE TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/one-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/one-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "ONE TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/one-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/one-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "ONE TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/one-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/one-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "ONE TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/one-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/one-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "ONE TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/one-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/one-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "ONE TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/one-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/one-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "ONE TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/one-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/one-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "ONE TO MD"
-          link: "https://products.groupdocs.com/conversion/net/one-to-md"
+          link: "https://products.groupdocs.com/conversion/net/one-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "ONE TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/one-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/one-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "ONE TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/one-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/one-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "ONE TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/one-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/one-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "ONE TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/one-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/one-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "ONE TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/one-to-png"
+          link: "https://products.groupdocs.com/conversion/net/one-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "ONE TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/one-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/one-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "ONE TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/one-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/one-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "ONE TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/one-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/one-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "ONE TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/one-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/one-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "ONE TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/one-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/one-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "ONE TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/one-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/one-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "ONE TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/one-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/one-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "ONE TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/one-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/one-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "ONE TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/one-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/one-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "ONE TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/one-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/one-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "ONE TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/one-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/one-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "ONE TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/one-to-html"
+          link: "https://products.groupdocs.com/conversion/net/one-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "ONE TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/one-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/one-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "ONE TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/one-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/one-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

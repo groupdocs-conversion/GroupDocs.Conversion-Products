@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "PPTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PPTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PPTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PPTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PPTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPTM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PPTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PPTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PPTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PPTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PPTM TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PPTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PPTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PPTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PPTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PPTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PPTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PPTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PPTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PPTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PPTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PPTM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PPTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PPTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PPTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-pptm/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PPTM TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PPTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PPTM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PPTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PPTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PPTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PPTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PPTM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-md"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PPTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PPTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PPTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PPTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PPTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-png"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PPTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PPTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PPTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PPTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PPTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PPTM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PPTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PPTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PPTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PPTM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PPTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PPTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-html"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PPTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PPTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/pptm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

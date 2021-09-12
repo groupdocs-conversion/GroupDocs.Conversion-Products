@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "TEX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "TEX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "TEX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "TEX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "TEX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "TEX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "TEX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "TEX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "TEX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "TEX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "TEX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "TEX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "TEX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "TEX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "TEX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "TEX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "TEX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "TEX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "TEX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "TEX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "TEX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "TEX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "TEX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "TEX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "TEX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "TEX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-tex/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "TEX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "TEX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "TEX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "TEX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "TEX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "TEX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "TEX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "TEX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-md"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "TEX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "TEX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "TEX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "TEX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "TEX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-png"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "TEX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "TEX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "TEX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "TEX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "TEX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "TEX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "TEX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "TEX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "TEX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "TEX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "TEX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "TEX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-html"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "TEX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "TEX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/tex-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "RTF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "RTF TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "RTF TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "RTF TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "RTF TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "RTF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "RTF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "RTF TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "RTF TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "RTF TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "RTF TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "RTF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "RTF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "RTF TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "RTF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "RTF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "RTF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "RTF TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "RTF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "RTF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "RTF TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "RTF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "RTF TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "RTF TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "RTF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "RTF TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-rtf/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "RTF TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "RTF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "RTF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "RTF TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "RTF TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "RTF TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "RTF TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "RTF TO MD"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-md"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "RTF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "RTF TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "RTF TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "RTF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "RTF TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-png"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "RTF TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "RTF TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "RTF TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "RTF TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "RTF TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "RTF TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "RTF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "RTF TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "RTF TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "RTF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "RTF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "RTF TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-html"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "RTF TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "RTF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

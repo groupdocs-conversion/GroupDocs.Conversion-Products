@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "ODP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "ODP TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "ODP TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "ODP TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "ODP TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "ODP TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "ODP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "ODP TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "ODP TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "ODP TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "ODP TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "ODP TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "ODP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "ODP TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "ODP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "ODP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "ODP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "ODP TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "ODP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "ODP TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "ODP TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "ODP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "ODP TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "ODP TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "ODP TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "ODP TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-odp/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "ODP TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "ODP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "ODP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "ODP TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "ODP TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "ODP TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "ODP TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "ODP TO MD"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-md"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "ODP TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "ODP TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "ODP TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "ODP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "ODP TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-png"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "ODP TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "ODP TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "ODP TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "ODP TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "ODP TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "ODP TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "ODP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "ODP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "ODP TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "ODP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "ODP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "ODP TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-html"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "ODP TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "ODP TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/odp-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

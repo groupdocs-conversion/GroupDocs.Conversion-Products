@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "Convert Word to EPUB"
-          link: "https://products.groupdocs.com/conversion/net/word-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/word-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "Convert Word to XPS"
-          link: "https://products.groupdocs.com/conversion/net/word-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/word-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "Convert Word to TEX"
-          link: "https://products.groupdocs.com/conversion/net/word-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/word-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "Convert Word to PPT"
-          link: "https://products.groupdocs.com/conversion/net/word-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/word-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Convert Word to PPS"
-          link: "https://products.groupdocs.com/conversion/net/word-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/word-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Convert Word to PPTX"
-          link: "https://products.groupdocs.com/conversion/net/word-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/word-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Convert Word to PPSX"
-          link: "https://products.groupdocs.com/conversion/net/word-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/word-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Convert Word to ODP"
-          link: "https://products.groupdocs.com/conversion/net/word-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/word-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "Convert Word to OTP"
-          link: "https://products.groupdocs.com/conversion/net/word-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/word-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "Convert Word to POTX"
-          link: "https://products.groupdocs.com/conversion/net/word-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/word-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Convert Word to POTM"
-          link: "https://products.groupdocs.com/conversion/net/word-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/word-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Convert Word to PPTM"
-          link: "https://products.groupdocs.com/conversion/net/word-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/word-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Convert Word to PPSM"
-          link: "https://products.groupdocs.com/conversion/net/word-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/word-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Convert Word to XLS"
-          link: "https://products.groupdocs.com/conversion/net/word-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/word-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Convert Word to XLSX"
-          link: "https://products.groupdocs.com/conversion/net/word-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/word-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Convert Word to XLSM"
-          link: "https://products.groupdocs.com/conversion/net/word-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/word-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Convert Word to XLSB"
-          link: "https://products.groupdocs.com/conversion/net/word-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/word-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "Convert Word to ODS"
-          link: "https://products.groupdocs.com/conversion/net/word-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/word-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Convert Word to XLTX"
-          link: "https://products.groupdocs.com/conversion/net/word-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/word-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "Convert Word to XLTM"
-          link: "https://products.groupdocs.com/conversion/net/word-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/word-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "Convert Word to TSV"
-          link: "https://products.groupdocs.com/conversion/net/word-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/word-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "Convert Word to XLAM"
-          link: "https://products.groupdocs.com/conversion/net/word-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/word-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "Convert Word to CSV"
-          link: "https://products.groupdocs.com/conversion/net/word-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/word-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "Convert Word to DOC"
-          link: "https://products.groupdocs.com/conversion/net/word-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/word-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Convert Word to DOCM"
-          link: "https://products.groupdocs.com/conversion/net/word-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/word-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Convert Word to WORD"
-          link: "https://products.groupdocs.com/conversion/net/word-to-word"
+          link: "https://products.groupdocs.com/conversion/net/word-to-word/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Convert Word to DOT"
-          link: "https://products.groupdocs.com/conversion/net/word-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/word-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Convert Word to DOTM"
-          link: "https://products.groupdocs.com/conversion/net/word-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/word-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Convert Word to DOTX"
-          link: "https://products.groupdocs.com/conversion/net/word-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/word-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Convert Word to RTF"
-          link: "https://products.groupdocs.com/conversion/net/word-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/word-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "Convert Word to ODT"
-          link: "https://products.groupdocs.com/conversion/net/word-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/word-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Convert Word to OTT"
-          link: "https://products.groupdocs.com/conversion/net/word-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/word-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "Convert Word to TXT"
-          link: "https://products.groupdocs.com/conversion/net/word-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/word-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "Convert Word to MD"
-          link: "https://products.groupdocs.com/conversion/net/word-to-md"
+          link: "https://products.groupdocs.com/conversion/net/word-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "Convert Word to TIFF"
-          link: "https://products.groupdocs.com/conversion/net/word-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/word-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Convert Word to TIF"
-          link: "https://products.groupdocs.com/conversion/net/word-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/word-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Convert Word to JPG"
-          link: "https://products.groupdocs.com/conversion/net/word-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/word-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "Convert Word to JPEG"
-          link: "https://products.groupdocs.com/conversion/net/word-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/word-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Convert Word to PNG"
-          link: "https://products.groupdocs.com/conversion/net/word-to-png"
+          link: "https://products.groupdocs.com/conversion/net/word-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Convert Word to GIF"
-          link: "https://products.groupdocs.com/conversion/net/word-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/word-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Convert Word to BMP"
-          link: "https://products.groupdocs.com/conversion/net/word-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/word-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Convert Word to ICO"
-          link: "https://products.groupdocs.com/conversion/net/word-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/word-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "Convert Word to PSD"
-          link: "https://products.groupdocs.com/conversion/net/word-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/word-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Convert Word to WMF"
-          link: "https://products.groupdocs.com/conversion/net/word-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/word-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Convert Word to EMF"
-          link: "https://products.groupdocs.com/conversion/net/word-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/word-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Convert Word to WEBP"
-          link: "https://products.groupdocs.com/conversion/net/word-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/word-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "Convert Word to SVG"
-          link: "https://products.groupdocs.com/conversion/net/word-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/word-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "Convert Word to JP2"
-          link: "https://products.groupdocs.com/conversion/net/word-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/word-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "Convert Word to EMZ"
-          link: "https://products.groupdocs.com/conversion/net/word-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/word-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "Convert Word to WMZ"
-          link: "https://products.groupdocs.com/conversion/net/word-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/word-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "Convert Word to HTML"
-          link: "https://products.groupdocs.com/conversion/net/word-to-html"
+          link: "https://products.groupdocs.com/conversion/net/word-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "Convert Word to MHT"
-          link: "https://products.groupdocs.com/conversion/net/word-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/word-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "Convert Word to MHTML"
-          link: "https://products.groupdocs.com/conversion/net/word-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/word-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

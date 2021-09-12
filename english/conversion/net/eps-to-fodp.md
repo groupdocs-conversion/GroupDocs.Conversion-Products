@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "EPS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "EPS TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "EPS TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "EPS TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "EPS TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "EPS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "EPS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "EPS TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "EPS TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "EPS TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "EPS TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "EPS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "EPS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "EPS TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "EPS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "EPS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "EPS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "EPS TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "EPS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "EPS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "EPS TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "EPS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "EPS TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "EPS TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "EPS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "EPS TO EPS"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-eps"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-eps/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "EPS TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "EPS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "EPS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "EPS TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "EPS TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "EPS TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "EPS TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "EPS TO MD"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-md"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "EPS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "EPS TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "EPS TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "EPS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "EPS TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-png"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "EPS TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "EPS TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "EPS TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "EPS TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "EPS TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "EPS TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "EPS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "EPS TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "EPS TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "EPS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "EPS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "EPS TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-html"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "EPS TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "EPS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "SXC TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "SXC TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "SXC TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "SXC TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "SXC TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "SXC TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "SXC TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "SXC TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "SXC TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "SXC TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "SXC TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "SXC TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "SXC TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "SXC TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "SXC TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "SXC TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "SXC TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "SXC TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "SXC TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "SXC TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "SXC TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "SXC TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "SXC TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "SXC TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "SXC TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "SXC TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-sxc"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-sxc/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "SXC TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "SXC TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "SXC TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "SXC TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "SXC TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "SXC TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "SXC TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "SXC TO MD"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-md"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "SXC TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "SXC TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "SXC TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "SXC TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "SXC TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-png"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "SXC TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "SXC TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "SXC TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "SXC TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "SXC TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "SXC TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "SXC TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "SXC TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "SXC TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "SXC TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "SXC TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "SXC TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-html"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "SXC TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "SXC TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/sxc-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "WMZ TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "WMZ TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "WMZ TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "WMZ TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "WMZ TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "WMZ TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "WMZ TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "WMZ TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "WMZ TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "WMZ TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "WMZ TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "WMZ TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "WMZ TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "WMZ TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "WMZ TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "WMZ TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "WMZ TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "WMZ TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "WMZ TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "WMZ TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "WMZ TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "WMZ TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "WMZ TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "WMZ TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "WMZ TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "WMZ TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-wmz/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "WMZ TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "WMZ TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "WMZ TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "WMZ TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "WMZ TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "WMZ TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "WMZ TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "WMZ TO MD"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-md"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "WMZ TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "WMZ TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "WMZ TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "WMZ TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "WMZ TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-png"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "WMZ TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "WMZ TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "WMZ TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "WMZ TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "WMZ TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "WMZ TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "WMZ TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "WMZ TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "WMZ TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "WMZ TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "WMZ TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "WMZ TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-html"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "WMZ TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "WMZ TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/wmz-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/wmz-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

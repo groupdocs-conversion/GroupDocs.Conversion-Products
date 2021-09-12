@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "VSTX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "VSTX TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "VSTX TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "VSTX TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "VSTX TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VSTX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "VSTX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "VSTX TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "VSTX TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "VSTX TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "VSTX TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "VSTX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "VSTX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VSTX TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "VSTX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "VSTX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "VSTX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "VSTX TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "VSTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "VSTX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "VSTX TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "VSTX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "VSTX TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "VSTX TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "VSTX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "VSTX TO VSTX"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-vstx"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-vstx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "VSTX TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "VSTX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "VSTX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "VSTX TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "VSTX TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "VSTX TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "VSTX TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "VSTX TO MD"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-md"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "VSTX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "VSTX TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "VSTX TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "VSTX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "VSTX TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-png"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "VSTX TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "VSTX TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "VSTX TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "VSTX TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "VSTX TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "VSTX TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "VSTX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "VSTX TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "VSTX TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "VSTX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "VSTX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "VSTX TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-html"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "VSTX TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "VSTX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/vstx-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/vstx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

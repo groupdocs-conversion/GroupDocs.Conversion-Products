@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{visio}}
 
-          link: "/{{visio_url}}"
+          link: "/{{visio_url}}/"
 
     format:
         # format loop
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "VISIO TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "VISIO TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "VISIO TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "VISIO TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "VISIO TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VISIO TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "VISIO TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "VISIO TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "VISIO TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "VISIO TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "VISIO TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "VISIO TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "VISIO TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VISIO TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "VISIO TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "VISIO TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "VISIO TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "VISIO TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "VISIO TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "VISIO TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "VISIO TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "VISIO TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "VISIO TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "VISIO TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "VISIO TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "VISIO TO VISIO"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-visio"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-visio/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "VISIO TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "VISIO TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "VISIO TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "VISIO TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "VISIO TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "VISIO TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "VISIO TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "VISIO TO MD"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-md"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "VISIO TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "VISIO TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "VISIO TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "VISIO TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "VISIO TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-png"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "VISIO TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "VISIO TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "VISIO TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "VISIO TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "VISIO TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "VISIO TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "VISIO TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "VISIO TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "VISIO TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "VISIO TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "VISIO TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "VISIO TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-html"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "VISIO TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "VISIO TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

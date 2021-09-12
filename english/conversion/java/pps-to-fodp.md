@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "PPS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PPS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PPS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PPS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PPS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PPS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PPS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PPS TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PPS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PPS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PPS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PPS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PPS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PPS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PPS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PPS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PPS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PPS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PPS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PPS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PPS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PPS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PPS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PPS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-pps/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PPS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PPS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PPS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PPS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PPS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PPS TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PPS TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PPS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-md"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PPS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PPS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PPS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PPS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PPS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-png"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PPS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PPS TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PPS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PPS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PPS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PPS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PPS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PPS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PPS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PPS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PPS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PPS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-html"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PPS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PPS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/pps-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

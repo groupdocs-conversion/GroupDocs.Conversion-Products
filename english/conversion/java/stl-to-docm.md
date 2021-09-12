@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "STL TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "STL TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "STL TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "STL TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "STL TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "STL TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "STL TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "STL TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "STL TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "STL TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "STL TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "STL TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "STL TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "STL TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "STL TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "STL TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "STL TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "STL TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "STL TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "STL TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "STL TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "STL TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "STL TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "STL TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "STL TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "STL TO STL"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-stl"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-stl/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "STL TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "STL TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "STL TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "STL TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "STL TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "STL TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "STL TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "STL TO MD"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-md"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "STL TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "STL TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "STL TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "STL TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "STL TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-png"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "STL TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "STL TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "STL TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "STL TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "STL TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "STL TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "STL TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "STL TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "STL TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "STL TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "STL TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "STL TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-html"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "STL TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "STL TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/stl-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

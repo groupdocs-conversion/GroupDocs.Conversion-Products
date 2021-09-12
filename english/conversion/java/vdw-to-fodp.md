@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "VDW TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "VDW TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "VDW TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "VDW TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "VDW TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VDW TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "VDW TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "VDW TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "VDW TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "VDW TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "VDW TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "VDW TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "VDW TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VDW TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "VDW TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "VDW TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "VDW TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "VDW TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "VDW TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "VDW TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "VDW TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "VDW TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "VDW TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "VDW TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "VDW TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "VDW TO VDW"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-vdw"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-vdw/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "VDW TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "VDW TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "VDW TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "VDW TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "VDW TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "VDW TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "VDW TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "VDW TO MD"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-md"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "VDW TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "VDW TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "VDW TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "VDW TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "VDW TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-png"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "VDW TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "VDW TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "VDW TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "VDW TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "VDW TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "VDW TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "VDW TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "VDW TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "VDW TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "VDW TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "VDW TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "VDW TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-html"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "VDW TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "VDW TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/vdw-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

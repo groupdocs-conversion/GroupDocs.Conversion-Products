@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{web}}
 
-          link: "/{{web_url}}"
+          link: "/{{web_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "POWERPOINT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "POWERPOINT TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "POWERPOINT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "POWERPOINT TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "POWERPOINT TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "POWERPOINT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "POWERPOINT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "POWERPOINT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "POWERPOINT TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "POWERPOINT TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "POWERPOINT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "POWERPOINT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "POWERPOINT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "POWERPOINT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "POWERPOINT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "POWERPOINT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "POWERPOINT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "POWERPOINT TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "POWERPOINT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "POWERPOINT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "POWERPOINT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "POWERPOINT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "POWERPOINT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "POWERPOINT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "POWERPOINT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "POWERPOINT TO POWERPOINT"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-powerpoint"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-powerpoint/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "POWERPOINT TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "POWERPOINT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "POWERPOINT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "POWERPOINT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "POWERPOINT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "POWERPOINT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "POWERPOINT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "POWERPOINT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-md"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "POWERPOINT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "POWERPOINT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "POWERPOINT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "POWERPOINT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "POWERPOINT TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-png"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "POWERPOINT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "POWERPOINT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "POWERPOINT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "POWERPOINT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "POWERPOINT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "POWERPOINT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "POWERPOINT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "POWERPOINT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "POWERPOINT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "POWERPOINT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "POWERPOINT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "POWERPOINT TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-html"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "POWERPOINT TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "POWERPOINT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/powerpoint-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

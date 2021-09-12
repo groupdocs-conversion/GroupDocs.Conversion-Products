@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "FODS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "FODS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "FODS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "FODS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "FODS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "FODS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "FODS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "FODS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "FODS TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "FODS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "FODS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "FODS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "FODS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "FODS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "FODS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "FODS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "FODS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "FODS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "FODS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "FODS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "FODS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "FODS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "FODS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "FODS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "FODS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "FODS TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-fods"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-fods/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "FODS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "FODS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "FODS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "FODS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "FODS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "FODS TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "FODS TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "FODS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-md"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "FODS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "FODS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "FODS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "FODS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "FODS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-png"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "FODS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "FODS TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "FODS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "FODS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "FODS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "FODS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "FODS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "FODS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "FODS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "FODS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "FODS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "FODS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-html"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "FODS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "FODS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/fods-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

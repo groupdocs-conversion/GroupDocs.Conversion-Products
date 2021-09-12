@@ -109,7 +109,7 @@ about_formats:
           content: |
             {{ebook}}
 
-          link: "/{{ebook_url}}"
+          link: "/{{ebook_url}}/"
 
     format:
         # format loop
@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{web}}
 
-          link: "/{{web_url}}"
+          link: "/{{web_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "EBOOK TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "EBOOK TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "EBOOK TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "EBOOK TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "EBOOK TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "EBOOK TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "EBOOK TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "EBOOK TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "EBOOK TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "EBOOK TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "EBOOK TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "EBOOK TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "EBOOK TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "EBOOK TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "EBOOK TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "EBOOK TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "EBOOK TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "EBOOK TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "EBOOK TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "EBOOK TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "EBOOK TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "EBOOK TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "EBOOK TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "EBOOK TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "EBOOK TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "EBOOK TO EBOOK"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ebook"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-ebook/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "EBOOK TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "EBOOK TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "EBOOK TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "EBOOK TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "EBOOK TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "EBOOK TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "EBOOK TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "EBOOK TO MD"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-md"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "EBOOK TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "EBOOK TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "EBOOK TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "EBOOK TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "EBOOK TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-png"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "EBOOK TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "EBOOK TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "EBOOK TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "EBOOK TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "EBOOK TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "EBOOK TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "EBOOK TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "EBOOK TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "EBOOK TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "EBOOK TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "EBOOK TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "EBOOK TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-html"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "EBOOK TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "EBOOK TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

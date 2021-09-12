@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "ICO TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "ICO TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "ICO TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "ICO TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "ICO TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "ICO TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "ICO TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "ICO TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "ICO TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "ICO TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "ICO TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "ICO TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "ICO TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "ICO TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "ICO TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "ICO TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "ICO TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "ICO TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "ICO TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "ICO TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "ICO TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "ICO TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "ICO TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "ICO TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "ICO TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "ICO TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-ico/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "ICO TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "ICO TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "ICO TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "ICO TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "ICO TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "ICO TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "ICO TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "ICO TO MD"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-md"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "ICO TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "ICO TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "ICO TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "ICO TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "ICO TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-png"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "ICO TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "ICO TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "ICO TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "ICO TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "ICO TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "ICO TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "ICO TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "ICO TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "ICO TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "ICO TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "ICO TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "ICO TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-html"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "ICO TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "ICO TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

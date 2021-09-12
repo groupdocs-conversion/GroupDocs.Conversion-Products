@@ -129,262 +129,262 @@ more_formats:
     format: 
         # format loop
         - name: "Email TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/email-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/email-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "Email TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/email-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "Email TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/email-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "Email TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/email-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Email TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/email-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/email-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Email TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/email-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Email TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/email-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Email TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/email-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/email-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "Email TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/email-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/email-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "Email TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/email-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Email TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/email-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Email TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/email-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Email TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/email-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Email TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/email-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Email TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/email-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Email TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/email-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Email TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/email-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "Email TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/email-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Email TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/email-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "Email TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/email-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "Email TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/email-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/email-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "Email TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/email-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "Email TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/email-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/email-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "Email TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/email-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/email-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Email TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/email-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Email TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/email-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Email TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/email-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "Email TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/email-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Email TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/email-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "Email TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/email-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Email TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/email-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "Email TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/email-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "Email TO MD"
-          link: "https://products.groupdocs.com/conversion/java/email-to-md"
+          link: "https://products.groupdocs.com/conversion/java/email-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "Email TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/email-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Email TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/email-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Email TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/email-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/email-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "Email TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/email-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/email-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Email TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/email-to-png"
+          link: "https://products.groupdocs.com/conversion/java/email-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Email TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/email-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Email TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/email-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/email-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Email TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/email-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "Email TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/email-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/email-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Email TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/email-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Email TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/email-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Email TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/email-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/email-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "Email TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/email-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/email-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "Email TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/email-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/email-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "Email TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/email-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/email-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "Email TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/email-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/email-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "Email TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/email-to-html"
+          link: "https://products.groupdocs.com/conversion/java/email-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "Email TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/email-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "Email TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/email-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/email-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

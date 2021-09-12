@@ -108,7 +108,7 @@ about_formats:
           content: |
             {{oxps}}
 
-          link: "/{{oxps_url}}"
+          link: "/{{oxps_url}}/"
 
     format:
         # format loop
@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "OXPS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "OXPS TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "OXPS TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "OXPS TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "OXPS TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "OXPS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "OXPS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "OXPS TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "OXPS TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "OXPS TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "OXPS TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "OXPS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "OXPS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "OXPS TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "OXPS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "OXPS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "OXPS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "OXPS TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "OXPS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "OXPS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "OXPS TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "OXPS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "OXPS TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "OXPS TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "OXPS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "OXPS TO OXPS"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-oxps"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-oxps/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "OXPS TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "OXPS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "OXPS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "OXPS TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "OXPS TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "OXPS TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "OXPS TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "OXPS TO MD"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-md"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "OXPS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "OXPS TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "OXPS TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "OXPS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "OXPS TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-png"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "OXPS TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "OXPS TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "OXPS TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "OXPS TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "OXPS TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "OXPS TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "OXPS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "OXPS TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "OXPS TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "OXPS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "OXPS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "OXPS TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-html"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "OXPS TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "OXPS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

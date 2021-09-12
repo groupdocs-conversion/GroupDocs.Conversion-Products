@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "DCM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "DCM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "DCM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "DCM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "DCM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DCM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DCM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DCM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DCM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "DCM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DCM TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DCM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DCM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DCM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DCM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DCM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DCM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DCM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DCM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DCM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DCM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "DCM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DCM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "DCM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DCM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DCM TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-dcm"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-dcm/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DCM TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DCM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DCM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "DCM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "DCM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "DCM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "DCM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "DCM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-md"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "DCM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DCM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DCM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DCM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "DCM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-png"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "DCM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DCM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "DCM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "DCM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DCM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "DCM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DCM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "DCM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DCM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DCM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DCM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DCM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-html"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DCM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DCM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/dcm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

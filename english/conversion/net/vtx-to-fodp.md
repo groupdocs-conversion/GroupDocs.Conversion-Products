@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "VTX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "VTX TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "VTX TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "VTX TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "VTX TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VTX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "VTX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "VTX TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "VTX TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "VTX TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "VTX TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "VTX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "VTX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VTX TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "VTX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "VTX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "VTX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "VTX TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "VTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "VTX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "VTX TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "VTX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "VTX TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "VTX TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "VTX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "VTX TO VTX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-vtx"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-vtx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "VTX TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "VTX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "VTX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "VTX TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "VTX TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "VTX TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "VTX TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "VTX TO MD"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-md"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "VTX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "VTX TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "VTX TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "VTX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "VTX TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-png"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "VTX TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "VTX TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "VTX TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "VTX TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "VTX TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "VTX TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "VTX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "VTX TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "VTX TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "VTX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "VTX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "VTX TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-html"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "VTX TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "VTX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

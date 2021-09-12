@@ -109,7 +109,7 @@ about_formats:
           content: |
             {{outlook}}
 
-          link: "/{{outlook_url}}"
+          link: "/{{outlook_url}}/"
 
     format:
         # format loop
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "OUTLOOK TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "OUTLOOK TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "OUTLOOK TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "OUTLOOK TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "OUTLOOK TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "OUTLOOK TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "OUTLOOK TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "OUTLOOK TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "OUTLOOK TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "OUTLOOK TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "OUTLOOK TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "OUTLOOK TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "OUTLOOK TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "OUTLOOK TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "OUTLOOK TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "OUTLOOK TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "OUTLOOK TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "OUTLOOK TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "OUTLOOK TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "OUTLOOK TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "OUTLOOK TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "OUTLOOK TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "OUTLOOK TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "OUTLOOK TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "OUTLOOK TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "OUTLOOK TO OUTLOOK"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-outlook"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-outlook/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "OUTLOOK TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "OUTLOOK TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "OUTLOOK TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "OUTLOOK TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "OUTLOOK TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "OUTLOOK TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "OUTLOOK TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "OUTLOOK TO MD"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-md"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "OUTLOOK TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "OUTLOOK TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "OUTLOOK TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "OUTLOOK TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "OUTLOOK TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-png"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "OUTLOOK TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "OUTLOOK TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "OUTLOOK TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "OUTLOOK TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "OUTLOOK TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "OUTLOOK TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "OUTLOOK TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "OUTLOOK TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "OUTLOOK TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "OUTLOOK TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "OUTLOOK TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "OUTLOOK TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-html"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "OUTLOOK TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "OUTLOOK TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

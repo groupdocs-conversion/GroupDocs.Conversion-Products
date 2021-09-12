@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "JPX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "JPX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "JPX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "JPX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "JPX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "JPX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "JPX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "JPX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "JPX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "JPX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "JPX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "JPX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "JPX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "JPX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "JPX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "JPX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "JPX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "JPX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "JPX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "JPX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "JPX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "JPX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "JPX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "JPX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "JPX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "JPX TO JPX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-jpx"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-jpx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "JPX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "JPX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "JPX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "JPX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "JPX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "JPX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "JPX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "JPX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-md"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "JPX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "JPX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "JPX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "JPX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "JPX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-png"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "JPX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "JPX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "JPX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "JPX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "JPX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "JPX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "JPX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "JPX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "JPX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "JPX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "JPX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "JPX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-html"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "JPX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "JPX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/jpx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

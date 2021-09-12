@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{t%C4%B0f}}
 
-          link: "/{{t%C4%B0f_url}}"
+          link: "/{{t%C4%B0f_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "PLT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PLT TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PLT TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PLT TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PLT TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PLT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PLT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PLT TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PLT TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PLT TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PLT TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PLT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PLT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PLT TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PLT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PLT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PLT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PLT TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PLT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PLT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PLT TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PLT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PLT TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PLT TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PLT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PLT TO PLT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-plt"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-plt/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PLT TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PLT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PLT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PLT TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PLT TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PLT TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PLT TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PLT TO MD"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-md"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PLT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PLT TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PLT TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PLT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PLT TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-png"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PLT TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PLT TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PLT TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PLT TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PLT TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PLT TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PLT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PLT TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PLT TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PLT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PLT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PLT TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-html"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PLT TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PLT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

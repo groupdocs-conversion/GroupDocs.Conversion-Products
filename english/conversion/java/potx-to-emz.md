@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "POTX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "POTX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "POTX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "POTX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "POTX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "POTX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "POTX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "POTX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "POTX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "POTX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "POTX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "POTX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "POTX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "POTX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "POTX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "POTX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "POTX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "POTX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "POTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "POTX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "POTX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "POTX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "POTX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "POTX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "POTX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "POTX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-potx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "POTX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "POTX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "POTX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "POTX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "POTX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "POTX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "POTX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "POTX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-md"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "POTX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "POTX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "POTX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "POTX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "POTX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-png"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "POTX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "POTX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "POTX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "POTX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "POTX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "POTX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "POTX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "POTX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "POTX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "POTX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "POTX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "POTX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-html"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "POTX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "POTX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/potx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

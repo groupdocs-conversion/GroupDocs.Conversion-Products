@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "PDF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PDF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PDF TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PDF TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PDF TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PDF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PDF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PDF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PDF TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PDF TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PDF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PDF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PDF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PDF TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PDF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PDF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PDF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PDF TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PDF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PDF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PDF TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PDF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PDF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PDF TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PDF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PDF TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-pdf"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-pdf/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PDF TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PDF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PDF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PDF TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PDF TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PDF TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PDF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PDF TO MD"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-md"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PDF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PDF TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PDF TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PDF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PDF TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-png"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PDF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PDF TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PDF TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PDF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PDF TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PDF TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PDF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PDF TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PDF TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PDF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PDF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PDF TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-html"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PDF TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PDF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/pdf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

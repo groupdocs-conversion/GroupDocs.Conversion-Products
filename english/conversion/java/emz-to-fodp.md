@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "EMZ TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "EMZ TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "EMZ TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "EMZ TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "EMZ TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "EMZ TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "EMZ TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "EMZ TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "EMZ TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "EMZ TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "EMZ TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "EMZ TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "EMZ TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "EMZ TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "EMZ TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "EMZ TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "EMZ TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "EMZ TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "EMZ TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "EMZ TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "EMZ TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "EMZ TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "EMZ TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "EMZ TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "EMZ TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "EMZ TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-emz/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "EMZ TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "EMZ TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "EMZ TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "EMZ TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "EMZ TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "EMZ TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "EMZ TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "EMZ TO MD"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-md"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "EMZ TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "EMZ TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "EMZ TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "EMZ TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "EMZ TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-png"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "EMZ TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "EMZ TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "EMZ TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "EMZ TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "EMZ TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "EMZ TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "EMZ TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "EMZ TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "EMZ TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "EMZ TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "EMZ TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "EMZ TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-html"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "EMZ TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "EMZ TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/emz-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

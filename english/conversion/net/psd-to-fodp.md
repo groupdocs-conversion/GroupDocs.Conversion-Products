@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "PSD TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PSD TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PSD TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PSD TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PSD TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PSD TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PSD TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PSD TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PSD TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PSD TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PSD TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PSD TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PSD TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PSD TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PSD TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PSD TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PSD TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PSD TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PSD TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PSD TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PSD TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PSD TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PSD TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PSD TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PSD TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PSD TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-psd/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PSD TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PSD TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PSD TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PSD TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PSD TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PSD TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PSD TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PSD TO MD"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-md"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PSD TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PSD TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PSD TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PSD TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PSD TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-png"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PSD TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PSD TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PSD TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PSD TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PSD TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PSD TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PSD TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PSD TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PSD TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PSD TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PSD TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PSD TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-html"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PSD TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PSD TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

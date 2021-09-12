@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "MOBI TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "MOBI TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "MOBI TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "MOBI TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "MOBI TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "MOBI TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "MOBI TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "MOBI TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "MOBI TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "MOBI TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "MOBI TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "MOBI TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "MOBI TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "MOBI TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "MOBI TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "MOBI TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "MOBI TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "MOBI TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "MOBI TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "MOBI TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "MOBI TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "MOBI TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "MOBI TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "MOBI TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "MOBI TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "MOBI TO MOBI"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-mobi"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-mobi/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "MOBI TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "MOBI TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "MOBI TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "MOBI TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "MOBI TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "MOBI TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "MOBI TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "MOBI TO MD"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-md"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "MOBI TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "MOBI TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "MOBI TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "MOBI TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "MOBI TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-png"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "MOBI TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "MOBI TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "MOBI TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "MOBI TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "MOBI TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "MOBI TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "MOBI TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "MOBI TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "MOBI TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "MOBI TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "MOBI TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "MOBI TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-html"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "MOBI TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MOBI TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/mobi-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -117,7 +117,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "DWF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "DWF TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "DWF TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "DWF TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "DWF TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DWF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DWF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DWF TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DWF TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "DWF TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DWF TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DWF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DWF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DWF TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DWF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DWF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DWF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DWF TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DWF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DWF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DWF TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "DWF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DWF TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "DWF TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DWF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DWF TO DWF"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-dwf"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-dwf/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DWF TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DWF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DWF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "DWF TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "DWF TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "DWF TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "DWF TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "DWF TO MD"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-md"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "DWF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DWF TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DWF TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DWF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "DWF TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-png"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "DWF TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DWF TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "DWF TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "DWF TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DWF TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "DWF TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DWF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "DWF TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DWF TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DWF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DWF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DWF TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-html"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DWF TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DWF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

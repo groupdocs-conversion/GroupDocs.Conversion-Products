@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "DGN TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "DGN TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "DGN TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "DGN TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "DGN TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DGN TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DGN TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DGN TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DGN TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "DGN TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DGN TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DGN TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DGN TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DGN TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DGN TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DGN TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DGN TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DGN TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DGN TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DGN TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DGN TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "DGN TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DGN TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "DGN TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DGN TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DGN TO DGN"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-dgn"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-dgn/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DGN TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DGN TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DGN TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "DGN TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "DGN TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "DGN TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "DGN TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "DGN TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-md"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "DGN TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DGN TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DGN TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DGN TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "DGN TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-png"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "DGN TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DGN TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "DGN TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "DGN TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DGN TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "DGN TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DGN TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "DGN TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DGN TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DGN TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DGN TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DGN TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-html"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DGN TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DGN TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/dgn-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

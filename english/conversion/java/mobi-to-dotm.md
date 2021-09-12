@@ -109,7 +109,7 @@ about_formats:
           content: |
             {{mob%C4%B0}}
 
-          link: "/{{mob%C4%B0_url}}"
+          link: "/{{mob%C4%B0_url}}/"
 
     format:
         # format loop
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "MOB%C4%B0 TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "MOB%C4%B0 TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "MOB%C4%B0 TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "MOB%C4%B0 TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "MOB%C4%B0 TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "MOB%C4%B0 TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "MOB%C4%B0 TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "MOB%C4%B0 TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "MOB%C4%B0 TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "MOB%C4%B0 TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "MOB%C4%B0 TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "MOB%C4%B0 TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "MOB%C4%B0 TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "MOB%C4%B0 TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "MOB%C4%B0 TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "MOB%C4%B0 TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "MOB%C4%B0 TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "MOB%C4%B0 TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "MOB%C4%B0 TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "MOB%C4%B0 TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "MOB%C4%B0 TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "MOB%C4%B0 TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "MOB%C4%B0 TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "MOB%C4%B0 TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "MOB%C4%B0 TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "MOB%C4%B0 TO MOB%C4%B0"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-mob%C4%B0"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-mob%C4%B0/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "MOB%C4%B0 TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "MOB%C4%B0 TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "MOB%C4%B0 TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "MOB%C4%B0 TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "MOB%C4%B0 TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "MOB%C4%B0 TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "MOB%C4%B0 TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "MOB%C4%B0 TO MD"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-md"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "MOB%C4%B0 TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "MOB%C4%B0 TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "MOB%C4%B0 TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "MOB%C4%B0 TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "MOB%C4%B0 TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-png"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "MOB%C4%B0 TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "MOB%C4%B0 TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "MOB%C4%B0 TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "MOB%C4%B0 TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "MOB%C4%B0 TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "MOB%C4%B0 TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "MOB%C4%B0 TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "MOB%C4%B0 TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "MOB%C4%B0 TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "MOB%C4%B0 TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "MOB%C4%B0 TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "MOB%C4%B0 TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-html"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "MOB%C4%B0 TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MOB%C4%B0 TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/mob%C4%B0-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

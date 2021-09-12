@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "PLT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PLT TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PLT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PLT TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PLT TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PLT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PLT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PLT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PLT TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PLT TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PLT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PLT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PLT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PLT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PLT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PLT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PLT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PLT TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PLT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PLT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PLT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PLT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PLT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PLT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PLT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PLT TO PLT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-plt"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-plt/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PLT TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PLT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PLT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PLT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PLT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PLT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PLT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PLT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-md"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PLT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PLT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PLT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PLT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PLT TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-png"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PLT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PLT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PLT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PLT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PLT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PLT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PLT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PLT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PLT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PLT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PLT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PLT TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-html"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PLT TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PLT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/plt-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

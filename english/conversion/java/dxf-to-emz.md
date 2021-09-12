@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "DXF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "DXF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "DXF TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "DXF TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "DXF TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DXF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DXF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DXF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DXF TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "DXF TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DXF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DXF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DXF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DXF TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DXF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DXF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DXF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DXF TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DXF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DXF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DXF TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "DXF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DXF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "DXF TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DXF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DXF TO DXF"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-dxf"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-dxf/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DXF TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "DXF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DXF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "DXF TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "DXF TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "DXF TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "DXF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "DXF TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-md"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "DXF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DXF TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "DXF TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DXF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "DXF TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-png"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "DXF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DXF TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "DXF TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "DXF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DXF TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "DXF TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DXF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "DXF TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DXF TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DXF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DXF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DXF TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-html"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DXF TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DXF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/dxf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

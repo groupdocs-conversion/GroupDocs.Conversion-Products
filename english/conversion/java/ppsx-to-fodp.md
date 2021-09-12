@@ -118,7 +118,7 @@ about_formats:
           content: |
             {{fodp}}
 
-          link: "/{{fodp_url}}"
+          link: "/{{fodp_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "PPSX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-epub"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PPSX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xps"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PPSX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tex"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PPSX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ppt"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PPSX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pps"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPSX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pptx"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PPSX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PPSX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-odp"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PPSX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-otp"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PPSX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-potx"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PPSX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-potm"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PPSX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pptm"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PPSX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PPSX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xls"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PPSX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PPSX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PPSX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PPSX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ods"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PPSX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xltx"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PPSX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xltm"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PPSX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tsv"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PPSX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlam"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PPSX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-csv"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PPSX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-doc"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PPSX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-docm"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PPSX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ppsx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PPSX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dot"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PPSX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dotm"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PPSX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dotx"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PPSX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-rtf"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PPSX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-odt"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PPSX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ott"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PPSX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-txt"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PPSX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-md"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PPSX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tiff"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PPSX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tif"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PPSX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-jpg"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PPSX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PPSX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-png"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PPSX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-gif"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PPSX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-bmp"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PPSX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ico"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PPSX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-psd"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PPSX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-wmf"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PPSX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-emf"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PPSX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-webp"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PPSX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-svg"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PPSX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-jp2"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PPSX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-emz"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PPSX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-wmz"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PPSX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-html"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PPSX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-mht"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PPSX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/java/ppsx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

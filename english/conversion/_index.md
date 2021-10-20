@@ -9,7 +9,7 @@ product_tag: "conversion"
 
 ############################# Head ############################
 head_title: ".NET, Java, Cloud APIs & Document Conversion Apps by GroupDocs"
-head_description: "Get all-in-one document conversion solution for .NET, Java and cloud applications. Quickly convert between all common document formats online."
+head_description: "Get all-in-one Document Conversion Solution for .NET, Java and Cloud applications. Quickly convert between all common document formats online."
 
 ############################# Header ############################
 title: "Document and Image Conversion Solution"

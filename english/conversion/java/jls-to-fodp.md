@@ -107,18 +107,18 @@ about_formats:
         - icon: "far fa-file-JLS"
           title: " About JLS File Format"
           content: |
-            {{jls}}
+            JPEG Lossless Image File
 
-          link: "/{{jls_url}}/"
+          link: "https://docs.fileformat.com/image/"
 
     format:
         # format loop
         - icon: "far fa-file-FODP"
           title: " About FODP File Format"
           content: |
-            {{fodp}}
+            FODP is a file format for the presentations saved in OpenDocument format.
 
-          link: "/{{fodp_url}}/"
+          link: "https://docs.fileformat.com/presentation/"
 
 ############################# More Formats ############################
 more_formats:

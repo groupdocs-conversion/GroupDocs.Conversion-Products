@@ -107,9 +107,9 @@ about_formats:
         - icon: "far fa-file-JLS"
           title: " About JLS File Format"
           content: |
-            {{jls}}
+            JPEG Lossless Image File
 
-          link: "/{{jls_url}}/"
+          link: "https://docs.fileformat.com/image/"
 
     format:
         # format loop

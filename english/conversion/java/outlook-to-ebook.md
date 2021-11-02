@@ -85,9 +85,9 @@ steps:
         // Load the source OUTLOOK file to be converted
         Converter converter = new Converter("input.outlook");
         // Get the convert options ready for the target EBOOK format
-        ConvertOptions convertOptions = new FileType().fromExtension("ebook").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
         // Convert to EBOOK format
-        converter.convert("output.ebook", convertOptions);
+        converter.convert("output.epub", convertOptions);
         
         ```
         
@@ -107,18 +107,18 @@ about_formats:
         - icon: "far fa-file-OUTLOOK"
           title: " About OUTLOOK File Format"
           content: |
-            {{outlook}}
+            MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. Such messages may contain one or more email fields, with the sender, recipient, subject, date, and message body, or contact information, appointment particulars, and one or more task specifications. The properties that constitute the Message object, including are also a part of the MSG file.  MSG file has headers, main message body, and hyperlinks as plain ASCII text. MSG files are also suitable with the programs that need Microsoft’s Messaging Applications Programming Interface (MAPI).
 
-          link: "/{{outlook_url}}/"
+          link: "https://docs.fileformat.com/email/msg/"
 
     format:
         # format loop
         - icon: "far fa-file-EBOOK"
           title: " About EBOOK File Format"
           content: |
-            {{ebook}}
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
 
-          link: "/{{ebook_url}}/"
+          link: "https://docs.fileformat.com/ebook/"
 
 ############################# More Formats ############################
 more_formats:

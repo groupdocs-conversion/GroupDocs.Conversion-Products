@@ -83,11 +83,11 @@ steps:
     code: |
         ```java
         // Load the source EMAIL file to be converted
-        Converter converter = new Converter("input.email");
+        Converter converter = new Converter("input.eml");
         // Get the convert options ready for the target WEB format
-        ConvertOptions convertOptions = new FileType().fromExtension("web").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
         // Convert to WEB format
-        converter.convert("output.web", convertOptions);
+        converter.convert("output.html", convertOptions);
         
         ```
         
@@ -107,18 +107,18 @@ about_formats:
         - icon: "far fa-file-EMAIL"
           title: " About EMAIL File Format"
           content: |
-            {{email}}
+            Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.
 
-          link: "/{{email_url}}/"
+          link: "https://docs.fileformat.com/email/"
 
     format:
         # format loop
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            {{web}}
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
-          link: "/{{web_url}}/"
+          link: "https://docs.fileformat.com/web/"
 
 ############################# More Formats ############################
 more_formats:

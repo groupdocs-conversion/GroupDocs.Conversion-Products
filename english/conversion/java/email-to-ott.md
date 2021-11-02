@@ -83,7 +83,7 @@ steps:
     code: |
         ```java
         // Load the source Email file to be converted
-        Converter converter = new Converter("input.email");
+        Converter converter = new Converter("input.eml");
         // Get the convert options ready for the target OTT format
         ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
         // Convert to OTT format

@@ -85,9 +85,9 @@ steps:
         // Load the source OUTLOOK file to be converted
         Converter converter = new Converter("input.outlook");
         // Get the convert options ready for the target EMAIL format
-        ConvertOptions convertOptions = new FileType().fromExtension("email").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("eml").getConvertOptions();
         // Convert to EMAIL format
-        converter.convert("output.email", convertOptions);
+        converter.convert("output.eml", convertOptions);
         
         ```
         
@@ -107,18 +107,18 @@ about_formats:
         - icon: "far fa-file-OUTLOOK"
           title: " About OUTLOOK File Format"
           content: |
-            {{outlook}}
+            MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. Such messages may contain one or more email fields, with the sender, recipient, subject, date, and message body, or contact information, appointment particulars, and one or more task specifications. The properties that constitute the Message object, including are also a part of the MSG file.  MSG file has headers, main message body, and hyperlinks as plain ASCII text. MSG files are also suitable with the programs that need Microsoft’s Messaging Applications Programming Interface (MAPI).
 
-          link: "/{{outlook_url}}/"
+          link: "https://docs.fileformat.com/email/msg/"
 
     format:
         # format loop
         - icon: "far fa-file-EMAIL"
           title: " About EMAIL File Format"
           content: |
-            {{email}}
+            Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.
 
-          link: "/{{email_url}}/"
+          link: "https://docs.fileformat.com/email/"
 
 ############################# More Formats ############################
 more_formats:

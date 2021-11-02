@@ -85,9 +85,9 @@ steps:
         // Load the source PROJECT file to be converted
         Converter converter = new Converter("input.project");
         // Get the convert options ready for the target EXCEL format
-        ConvertOptions convertOptions = new FileType().fromExtension("excel").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
         // Convert to EXCEL format
-        converter.convert("output.excel", convertOptions);
+        converter.convert("output.xlsx", convertOptions);
         
         ```
         
@@ -107,9 +107,9 @@ about_formats:
         - icon: "far fa-file-PROJECT"
           title: " About PROJECT File Format"
           content: |
-            {{project}}
+            MPP and other similar files are Project file formats that are created by Project Management software. A project file is a collection of tasks, resources, and scheduling to get a measurable output in the form of a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation.
 
-          link: "/{{project_url}}/"
+          link: "https://docs.fileformat.com/project-management/"
 
     format:
         # format loop

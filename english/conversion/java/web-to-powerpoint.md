@@ -83,7 +83,7 @@ steps:
     code: |
         ```java
         // Load the source WEB file to be converted
-        Converter converter = new Converter("input.web");
+        Converter converter = new Converter("input.html");
         // Get the convert options ready for the target POWERPOINT format
         ConvertOptions convertOptions = new FileType().fromExtension("powerpoint").getConvertOptions();
         // Convert to POWERPOINT format
@@ -107,9 +107,9 @@ about_formats:
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            {{web}}
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
-          link: "/{{web_url}}/"
+          link: "https://docs.fileformat.com/web/"
 
     format:
         # format loop

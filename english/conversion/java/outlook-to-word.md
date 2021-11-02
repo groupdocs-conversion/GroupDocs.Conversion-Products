@@ -107,9 +107,9 @@ about_formats:
         - icon: "far fa-file-OUTLOOK"
           title: " About OUTLOOK File Format"
           content: |
-            {{outlook}}
+            MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. Such messages may contain one or more email fields, with the sender, recipient, subject, date, and message body, or contact information, appointment particulars, and one or more task specifications. The properties that constitute the Message object, including are also a part of the MSG file.  MSG file has headers, main message body, and hyperlinks as plain ASCII text. MSG files are also suitable with the programs that need Microsoft’s Messaging Applications Programming Interface (MAPI).
 
-          link: "/{{outlook_url}}/"
+          link: "https://docs.fileformat.com/email/msg/"
 
     format:
         # format loop

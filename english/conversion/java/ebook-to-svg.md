@@ -83,7 +83,7 @@ steps:
     code: |
         ```java
         // Load the source EBOOK file to be converted
-        Converter converter = new Converter("input.ebook");
+        Converter converter = new Converter("input.epub");
         // Get the convert options ready for the target SVG format
         ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
         // Convert to SVG format

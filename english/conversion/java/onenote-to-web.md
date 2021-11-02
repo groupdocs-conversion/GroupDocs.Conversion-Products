@@ -85,9 +85,9 @@ steps:
         // Load the source ONENOTE file to be converted
         Converter converter = new Converter("input.onenote");
         // Get the convert options ready for the target WEB format
-        ConvertOptions convertOptions = new FileType().fromExtension("web").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
         // Convert to WEB format
-        converter.convert("output.web", convertOptions);
+        converter.convert("output.html", convertOptions);
         
         ```
         
@@ -107,18 +107,18 @@ about_formats:
         - icon: "far fa-file-ONENOTE"
           title: " About ONENOTE File Format"
           content: |
-            {{onenote}}
+            File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draft pad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
 
-          link: "/{{onenote_url}}/"
+          link: "https://docs.fileformat.com/note-taking/one/"
 
     format:
         # format loop
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            {{web}}
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
-          link: "/{{web_url}}/"
+          link: "https://docs.fileformat.com/web/"
 
 ############################# More Formats ############################
 more_formats:

@@ -83,11 +83,11 @@ steps:
     code: |
         ```java
         // Load the source EBOOK file to be converted
-        Converter converter = new Converter("input.ebook");
+        Converter converter = new Converter("input.epub");
         // Get the convert options ready for the target EXCEL format
-        ConvertOptions convertOptions = new FileType().fromExtension("excel").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
         // Convert to EXCEL format
-        converter.convert("output.excel", convertOptions);
+        converter.convert("output.xlsx", convertOptions);
         
         ```
         
@@ -107,9 +107,9 @@ about_formats:
         - icon: "far fa-file-EBOOK"
           title: " About EBOOK File Format"
           content: |
-            {{ebook}}
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
 
-          link: "/{{ebook_url}}/"
+          link: "https://docs.fileformat.com/ebook/"
 
     format:
         # format loop

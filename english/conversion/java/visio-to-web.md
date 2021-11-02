@@ -83,11 +83,11 @@ steps:
     code: |
         ```java
         // Load the source VISIO file to be converted
-        Converter converter = new Converter("input.visio");
+        Converter converter = new Converter("input.vsdx");
         // Get the convert options ready for the target WEB format
-        ConvertOptions convertOptions = new FileType().fromExtension("web").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
         // Convert to WEB format
-        converter.convert("output.web", convertOptions);
+        converter.convert("output.html", convertOptions);
         
         ```
         
@@ -107,18 +107,18 @@ about_formats:
         - icon: "far fa-file-VISIO"
           title: " About VISIO File Format"
           content: |
-            {{visio}}
+            Files with .vsdx extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
 
-          link: "/{{visio_url}}/"
+          link: "https://docs.fileformat.com/image/vsdx/"
 
     format:
         # format loop
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            {{web}}
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
-          link: "/{{web_url}}/"
+          link: "https://docs.fileformat.com/web/"
 
 ############################# More Formats ############################
 more_formats:

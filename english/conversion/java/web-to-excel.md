@@ -83,7 +83,7 @@ steps:
     code: |
         ```java
         // Load the source WEB file to be converted
-        Converter converter = new Converter("input.web");
+        Converter converter = new Converter("input.html");
         // Get the convert options ready for the target XLSB format
         ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
         // Convert to XLSB format

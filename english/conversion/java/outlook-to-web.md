@@ -85,9 +85,9 @@ steps:
         // Load the source OUTLOOK file to be converted
         Converter converter = new Converter("input.outlook");
         // Get the convert options ready for the target WEB format
-        ConvertOptions convertOptions = new FileType().fromExtension("web").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
         // Convert to WEB format
-        converter.convert("output.web", convertOptions);
+        converter.convert("output.html", convertOptions);
         
         ```
         
@@ -107,18 +107,18 @@ about_formats:
         - icon: "far fa-file-OUTLOOK"
           title: " About OUTLOOK File Format"
           content: |
-            {{outlook}}
+            MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. Such messages may contain one or more email fields, with the sender, recipient, subject, date, and message body, or contact information, appointment particulars, and one or more task specifications. The properties that constitute the Message object, including are also a part of the MSG file.  MSG file has headers, main message body, and hyperlinks as plain ASCII text. MSG files are also suitable with the programs that need Microsoft’s Messaging Applications Programming Interface (MAPI).
 
-          link: "/{{outlook_url}}/"
+          link: "https://docs.fileformat.com/email/msg/"
 
     format:
         # format loop
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            {{web}}
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
-          link: "/{{web_url}}/"
+          link: "https://docs.fileformat.com/web/"
 
 ############################# More Formats ############################
 more_formats:

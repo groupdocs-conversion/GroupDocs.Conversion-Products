@@ -83,11 +83,11 @@ steps:
     code: |
         ```java
         // Load the source EBOOK file to be converted
-        Converter converter = new Converter("input.ebook");
+        Converter converter = new Converter("input.epub");
         // Get the convert options ready for the target WEB format
-        ConvertOptions convertOptions = new FileType().fromExtension("web").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
         // Convert to WEB format
-        converter.convert("output.web", convertOptions);
+        converter.convert("output.html", convertOptions);
         
         ```
         
@@ -107,18 +107,18 @@ about_formats:
         - icon: "far fa-file-EBOOK"
           title: " About EBOOK File Format"
           content: |
-            {{ebook}}
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
 
-          link: "/{{ebook_url}}/"
+          link: "https://docs.fileformat.com/ebook/"
 
     format:
         # format loop
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            {{web}}
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
-          link: "/{{web_url}}/"
+          link: "https://docs.fileformat.com/web/"
 
 ############################# More Formats ############################
 more_formats:

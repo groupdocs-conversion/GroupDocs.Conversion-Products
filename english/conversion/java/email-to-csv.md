@@ -83,7 +83,7 @@ steps:
     code: |
         ```java
         // Load the source Email file to be converted
-        Converter converter = new Converter("input.email");
+        Converter converter = new Converter("input.eml");
         // Get the convert options ready for the target CSV format
         ConvertOptions convertOptions = new FileType().fromExtension("csv").getConvertOptions();
         // Convert to CSV format

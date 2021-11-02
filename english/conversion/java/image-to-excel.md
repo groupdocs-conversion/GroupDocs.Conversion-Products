@@ -85,9 +85,9 @@ steps:
         // Load the source IMAGE file to be converted
         Converter converter = new Converter("input.image");
         // Get the convert options ready for the target EXCEL format
-        ConvertOptions convertOptions = new FileType().fromExtension("excel").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
         // Convert to EXCEL format
-        converter.convert("output.excel", convertOptions);
+        converter.convert("output.xlsx", convertOptions);
         
         ```
         

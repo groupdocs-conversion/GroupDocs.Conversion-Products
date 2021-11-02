@@ -113,7 +113,7 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-JPEG-LS"
+        - icon: "far fa-image-LS"
           title: " About JPEG-LS File Format"
           content: |
             A JLS file is an image saved in the JPEG-LS file format. It contains a lossy or lossless compressed image. JLS files are typically created by medical imaging devices and digital cameras.

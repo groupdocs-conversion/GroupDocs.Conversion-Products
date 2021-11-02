@@ -18,6 +18,9 @@ title: ".NET API to Convert 80+ File Formats"
 description: "‎Simple API to Integrate Document & Image Conversion Functionality into .NET Applications without Installing any External Software.‎"
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Download Free Trial"
+    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:

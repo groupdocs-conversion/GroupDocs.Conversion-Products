@@ -18,6 +18,9 @@ title: "Java API for Images & Documents Conversion"
 description: "‎Native Java API to Integrate Document Conversion Functionality in Java Applications, Supporting 80+ Document & Image File Formats.‎"
 button:
     enable: true
+    icon: "fas fa-arrow-down"
+    label: "Download Free Trial"
+    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:

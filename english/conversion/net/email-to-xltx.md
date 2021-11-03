@@ -5,12 +5,12 @@ date: 2021-11-03T14:25:12+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "XPS to XLTX Converter – Convert XPS to XLTX in C# .NET"
-head_description: "How to convert XPS to XLTX in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "EMAIL to XLTX Converter – Convert EMAIL to XLTX in C# .NET"
+head_description: "How to convert EMAIL to XLTX in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
 
 ############################# Header ############################
-title: "Convert XPS to XLTX in C#"
-description: "Native and high performance XPS to XLTX conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+title: "Convert EMAIL to XLTX in C#"
+description: "Native and high performance EMAIL to XLTX conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,11 +63,11 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert XPS to XLTX in C#"
+    title_left: "Steps to Convert EMAIL to XLTX in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the XPS file to XLTX using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the EMAIL file to XLTX using a few lines of code.
 
-        *   Create an instance of Converter class and load the XPS file with full path
+        *   Create an instance of Converter class and load the EMAIL file with full path
         *   Create & set ConvertOptions for the xltx type
         *   Call Converter.Convert method and pass the full path and format (XLTX) as parameter
         
@@ -82,8 +82,8 @@ steps:
         
     code: |
         ```cs
-        // load the XPS file
-        var converter = new GroupDocs.Conversion.Converter("template.xps");
+        // load the EMAIL file
+        var converter = new GroupDocs.Conversion.Converter("template.email");
         // set the convert options for XLTX format
         var convertOptions = converter.GetPossibleConversions()["xltx"].ConvertOptions;
         // convert to XLTX format
@@ -93,9 +93,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "XPS to XLTX Live Demos"
+    title: "EMAIL to XLTX Live Demos"
     content: |
-        Convert XPS to XLTX right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert EMAIL to XLTX right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -103,12 +103,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XPS"
-          title: " About XPS File Format"
+        - icon: "far fa-file-EMAIL"
+          title: " About EMAIL File Format"
           content: |
-            An XPS file represents page layout files that are based on XML Paper Specifications created by Microsoft. This format was developed by Microsoft as replacement of EMF file format and is similar to PDF file format, but uses XML in layout, appearance, and printing information of a document. It is, in fact, more justified to say that XPS is an attempt on PDF, but couldn't get enough popularity as owned by PDF for a number of reasons.
+            Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file.
 
-          link: "https://docs.fileformat.com/page-description-language/xps/"
+          link: "https://docs.fileformat.com/email/"
 
     format:
         # format loop
@@ -124,271 +124,271 @@ more_formats:
     enable: true
     title: "Other Supported Conversions"
     content: |
-        You can also convert XPS into many other file formats. Please see the complete list below.
+        You can also convert EMAIL into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "XPS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-epub/"
+        - name: "EMAIL TO EPUB"
+          link: "https://products.groupdocs.com/conversion/net/email-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
-        - name: "XPS TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xps/"
+        - name: "EMAIL TO XPS"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
-        - name: "XPS TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-tex/"
+        - name: "EMAIL TO TEX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "XPS TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ppt/"
+        - name: "EMAIL TO PPT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
-        - name: "XPS TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-pps/"
+        - name: "EMAIL TO PPS"
+          link: "https://products.groupdocs.com/conversion/net/email-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "XPS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-pptx/"
+        - name: "EMAIL TO PPTX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "XPS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ppsx/"
+        - name: "EMAIL TO PPSX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "XPS TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-odp/"
+        - name: "EMAIL TO ODP"
+          link: "https://products.groupdocs.com/conversion/net/email-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
-        - name: "XPS TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-otp/"
+        - name: "EMAIL TO OTP"
+          link: "https://products.groupdocs.com/conversion/net/email-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
-        - name: "XPS TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-potx/"
+        - name: "EMAIL TO POTX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
-        - name: "XPS TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-potm/"
+        - name: "EMAIL TO POTM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
-        - name: "XPS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-pptm/"
+        - name: "EMAIL TO PPTM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "XPS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ppsm/"
+        - name: "EMAIL TO PPSM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "XPS TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xls/"
+        - name: "EMAIL TO XLS"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
-        - name: "XPS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xlsx/"
+        - name: "EMAIL TO XLSX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
-        - name: "XPS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xlsm/"
+        - name: "EMAIL TO XLSM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
-        - name: "XPS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xlsb/"
+        - name: "EMAIL TO XLSB"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
-        - name: "XPS TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ods/"
+        - name: "EMAIL TO ODS"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "XPS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xltx/"
+        - name: "EMAIL TO XLTX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
-        - name: "XPS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xltm/"
+        - name: "EMAIL TO XLTM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
-        - name: "XPS TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-tsv/"
+        - name: "EMAIL TO TSV"
+          link: "https://products.groupdocs.com/conversion/net/email-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
-        - name: "XPS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xlam/"
+        - name: "EMAIL TO XLAM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
-        - name: "XPS TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-csv/"
+        - name: "EMAIL TO CSV"
+          link: "https://products.groupdocs.com/conversion/net/email-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
-        - name: "XPS TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-doc/"
+        - name: "EMAIL TO DOC"
+          link: "https://products.groupdocs.com/conversion/net/email-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
-        - name: "XPS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-docm/"
+        - name: "EMAIL TO DOCM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XPS TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-xps/"
+        - name: "EMAIL TO EMAIL"
+          link: "https://products.groupdocs.com/conversion/net/email-to-email/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
-        - name: "XPS TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-dot/"
+        - name: "EMAIL TO DOT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "XPS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-dotm/"
+        - name: "EMAIL TO DOTM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "XPS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-dotx/"
+        - name: "EMAIL TO DOTX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "XPS TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-rtf/"
+        - name: "EMAIL TO RTF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
-        - name: "XPS TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-odt/"
+        - name: "EMAIL TO ODT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-odt/"
           description: "Open Document Text"
 
         # format loop
-        - name: "XPS TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ott/"
+        - name: "EMAIL TO OTT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ott/"
           description: "Open Document Template"
 
         # format loop
-        - name: "XPS TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-txt/"
+        - name: "EMAIL TO TXT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
-        - name: "XPS TO MD"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-md/"
+        - name: "EMAIL TO MD"
+          link: "https://products.groupdocs.com/conversion/net/email-to-md/"
           description: "Markdown"
 
         # format loop
-        - name: "XPS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-tiff/"
+        - name: "EMAIL TO TIFF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
-        - name: "XPS TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-tif/"
+        - name: "EMAIL TO TIF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
-        - name: "XPS TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-jpg/"
+        - name: "EMAIL TO JPG"
+          link: "https://products.groupdocs.com/conversion/net/email-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
-        - name: "XPS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-jpeg/"
+        - name: "EMAIL TO JPEG"
+          link: "https://products.groupdocs.com/conversion/net/email-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
-        - name: "XPS TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-png/"
+        - name: "EMAIL TO PNG"
+          link: "https://products.groupdocs.com/conversion/net/email-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
-        - name: "XPS TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-gif/"
+        - name: "EMAIL TO GIF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
-        - name: "XPS TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-bmp/"
+        - name: "EMAIL TO BMP"
+          link: "https://products.groupdocs.com/conversion/net/email-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
-        - name: "XPS TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-ico/"
+        - name: "EMAIL TO ICO"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
-        - name: "XPS TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-psd/"
+        - name: "EMAIL TO PSD"
+          link: "https://products.groupdocs.com/conversion/net/email-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
-        - name: "XPS TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-wmf/"
+        - name: "EMAIL TO WMF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
-        - name: "XPS TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-emf/"
+        - name: "EMAIL TO EMF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "XPS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-webp/"
+        - name: "EMAIL TO WEBP"
+          link: "https://products.groupdocs.com/conversion/net/email-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
-        - name: "XPS TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-svg/"
+        - name: "EMAIL TO SVG"
+          link: "https://products.groupdocs.com/conversion/net/email-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
-        - name: "XPS TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-jp2/"
+        - name: "EMAIL TO JP2"
+          link: "https://products.groupdocs.com/conversion/net/email-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
-        - name: "XPS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-emz/"
+        - name: "EMAIL TO EMZ"
+          link: "https://products.groupdocs.com/conversion/net/email-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "XPS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-wmz/"
+        - name: "EMAIL TO WMZ"
+          link: "https://products.groupdocs.com/conversion/net/email-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
-        - name: "XPS TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-html/"
+        - name: "EMAIL TO HTML"
+          link: "https://products.groupdocs.com/conversion/net/email-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "XPS TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-mht/"
+        - name: "EMAIL TO MHT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "XPS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/xps-to-mhtml/"
+        - name: "EMAIL TO MHTML"
+          link: "https://products.groupdocs.com/conversion/net/email-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

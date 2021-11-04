@@ -106,9 +106,9 @@ about_formats:
         - icon: "far fa-file-IGC"
           title: " About IGC File Format"
           content: |
-            {{igc}}
+            IGC files are known as Anime List Builder Input Files. They are the files containing all the information found in a collection of multimedia. This information can either be anime series, movies, TV episodes, etc. IGC files have the ability to organize information in an XML format as well as these files can also be exported to plain text or HTML formats.
 
-          link: "/{{igc_url}}/"
+          link: "https://docs.fileformat.com"
 
     format:
         # format loop

@@ -5,12 +5,12 @@ date: 2021-05-13T14:29:02+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "PLT to T%C4%B0F Converter – Convert PLT to T%C4%B0F in C# .NET"
-head_description: "How to convert PLT to T%C4%B0F in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "PLT to TIF Converter – Convert PLT to TIF in C# .NET"
+head_description: "How to convert PLT to TIF in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
 
 ############################# Header ############################
-title: "Convert PLT to T%C4%B0F in C#"
-description: "Native and high performance PLT to T%C4%B0F conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+title: "Convert PLT to TIF in C#"
+description: "Native and high performance PLT to TIF conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert PLT to T%C4%B0F in C#"
+    title_left: "Steps to Convert PLT to TIF in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PLT file to T%C4%B0F using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PLT file to TIF using a few lines of code.
 
         *   Create an instance of Converter class and load the PLT file with full path
-        *   Create & set ConvertOptions for the t%C4%B0f type
-        *   Call Converter.Convert method and pass the full path and format (T%C4%B0F) as parameter
+        *   Create & set ConvertOptions for the tif type
+        *   Call Converter.Convert method and pass the full path and format (TIF) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,18 +84,18 @@ steps:
         ```cs
         // load the PLT file
         var converter = new GroupDocs.Conversion.Converter("template.plt");
-        // set the convert options for T%C4%B0F format
-        var convertOptions = converter.GetPossibleConversions()["t%C4%B0f"].ConvertOptions;
-        // convert to T%C4%B0F format
-        converter.Convert("output.t%C4%B0f", convertOptions);
+        // set the convert options for TIF format
+        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+        // convert to TIF format
+        converter.Convert("output.tif", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "PLT to T%C4%B0F Live Demos"
+    title: "PLT to TIF Live Demos"
     content: |
-        Convert PLT to T%C4%B0F right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PLT to TIF right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -112,12 +112,12 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-T%C4%B0F"
-          title: " About T%C4%B0F File Format"
+        - icon: "far fa-file-TIF"
+          title: " About TIF File Format"
           content: |
-            {{t%C4%B0f}}
+            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
 
-          link: "/{{t%C4%B0f_url}}/"
+          link: "https://docs.fileformat.com/image/tiff/"
 
 ############################# More Formats ############################
 more_formats:

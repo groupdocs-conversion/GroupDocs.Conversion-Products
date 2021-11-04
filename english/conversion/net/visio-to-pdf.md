@@ -106,9 +106,9 @@ about_formats:
         - icon: "far fa-file-VISIO"
           title: " About VISIO File Format"
           content: |
-            {{visio}}
+            Files with .vsdx extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
 
-          link: "/{{visio_url}}/"
+          link: "https://docs.fileformat.com/image/vsdx/"
 
     format:
         # format loop

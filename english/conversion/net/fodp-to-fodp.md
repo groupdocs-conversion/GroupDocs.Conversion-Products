@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-FODP"
           title: " About FODP File Format"
           content: |
-            {{fodp}}
+            FODP is a file format for the presentations saved in OpenDocument format.
 
-          link: "/{{fodp_url}}/"
+          link: "https://docs.fileformat.com/presentation/"
 
     format:
         # format loop
         - icon: "far fa-file-FODP"
           title: " About FODP File Format"
           content: |
-            {{fodp}}
+            FODP is a file format for the presentations saved in OpenDocument format.
 
-          link: "/{{fodp_url}}/"
+          link: "https://docs.fileformat.com/presentation/"
 
 ############################# More Formats ############################
 more_formats:

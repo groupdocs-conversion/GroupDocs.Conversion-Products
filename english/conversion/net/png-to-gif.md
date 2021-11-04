@@ -5,12 +5,12 @@ date: 2021-05-13T14:29:05+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "PNG to G%C4%B0F Converter – Convert PNG to G%C4%B0F in C# .NET"
-head_description: "How to convert PNG to G%C4%B0F in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "PNG to GIF Converter – Convert PNG to GIF in C# .NET"
+head_description: "How to convert PNG to GIF in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
 
 ############################# Header ############################
-title: "Convert PNG to G%C4%B0F in C#"
-description: "Native and high performance PNG to G%C4%B0F conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+title: "Convert PNG to GIF in C#"
+description: "Native and high performance PNG to GIF conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert PNG to G%C4%B0F in C#"
+    title_left: "Steps to Convert PNG to GIF in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PNG file to G%C4%B0F using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PNG file to GIF using a few lines of code.
 
         *   Create an instance of Converter class and load the PNG file with full path
-        *   Create & set ConvertOptions for the g%C4%B0f type
-        *   Call Converter.Convert method and pass the full path and format (G%C4%B0F) as parameter
+        *   Create & set ConvertOptions for the gif type
+        *   Call Converter.Convert method and pass the full path and format (GIF) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,18 +84,18 @@ steps:
         ```cs
         // load the PNG file
         var converter = new GroupDocs.Conversion.Converter("template.png");
-        // set the convert options for G%C4%B0F format
-        var convertOptions = converter.GetPossibleConversions()["g%C4%B0f"].ConvertOptions;
-        // convert to G%C4%B0F format
-        converter.Convert("output.g%C4%B0f", convertOptions);
+        // set the convert options for GIF format
+        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+        // convert to GIF format
+        converter.Convert("output.gif", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "PNG to G%C4%B0F Live Demos"
+    title: "PNG to GIF Live Demos"
     content: |
-        Convert PNG to G%C4%B0F right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PNG to GIF right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -112,12 +112,12 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-G%C4%B0F"
-          title: " About G%C4%B0F File Format"
+        - icon: "far fa-file-GIF"
+          title: " About GIF File Format"
           content: |
-            {{g%C4%B0f}}
+            A GIF or Graphical Interchange Format is a type of highly compressed image. Owned by Unisys, GIF uses the LZW compression algorithm that does not degrade the image quality. For each image GIF typically allow up to 8 bits per pixel and up to 256 colours are allowed across the image. In contrast to a JPEG image, which can display up to 16 million colours and fairly touches the limits of the human eye. Back when the internet emerged, GIFs remained the best choice because they required low bandwidth and compatible for the graphics that consume solid areas of colour. An animated GIF combines numerous images or frames into a single file and displays them in a sequence to generate an animated clip or a short video. The colour limitations are up to 256 for each frame and are likely to be the least suitable for reproducing other images and photographs with colour gradient.
 
-          link: "/{{g%C4%B0f_url}}/"
+          link: "https://docs.fileformat.com/image/gif/"
 
 ############################# More Formats ############################
 more_formats:

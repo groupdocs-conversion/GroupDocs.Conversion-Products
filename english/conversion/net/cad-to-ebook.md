@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-CAD"
           title: " About CAD File Format"
           content: |
-            {{cad}}
+            CAD stands for Computer Aided Design. The term CADD (for Computer Aided Design and Drafting) is also used. It is used for a 3D graphics file format and may contain 2D or 3D designs. CAD file is a digital file format of an object generated and used by CAD software. A CAD file contains a technical drawing, blueprint, schematic, or 3D rendering of an object. There may be other CAD tools that can be used to create, open, edit and export these .cad files to more widely used CAD drawing file formats. Below we are going to discuss about the most popular CAD File Formats and the most recommended software that can open, modify and convert it other popular formats.
 
-          link: "/{{cad_url}}/"
+          link: "https://docs.fileformat.com/cad/"
 
     format:
         # format loop
         - icon: "far fa-file-EBOOK"
           title: " About EBOOK File Format"
           content: |
-            {{ebook}}
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
 
-          link: "/{{ebook_url}}/"
+          link: "https://docs.fileformat.com/ebook/"
 
 ############################# More Formats ############################
 more_formats:

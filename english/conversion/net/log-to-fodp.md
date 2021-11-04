@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-LOG"
           title: " About LOG File Format"
           content: |
-            {{log}}
+            A file with .log extension contains the list of plain text with timestamp. Usually, certain activity detail is logged by the softwares or operating systems to help the developers or users to track what was happening at a certain time period. Users can edit these files very easily by using any text editors. Usually the error reports or login activities are logged by the operating systems, but other softwares or web servers also generate log files to track visitors and to monitor bandwidth usage.
 
-          link: "/{{log_url}}/"
+          link: "https://docs.fileformat.com/database/log/"
 
     format:
         # format loop
         - icon: "far fa-file-FODP"
           title: " About FODP File Format"
           content: |
-            {{fodp}}
+            FODP is a file format for the presentations saved in OpenDocument format.
 
-          link: "/{{fodp_url}}/"
+          link: "https://docs.fileformat.com/presentation/"
 
 ############################# More Formats ############################
 more_formats:

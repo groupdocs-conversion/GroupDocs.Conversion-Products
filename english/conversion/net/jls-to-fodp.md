@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-JLS"
           title: " About JLS File Format"
           content: |
-            {{jls}}
+            Lossless JPEG was developed as a late addition to JPEG in 1993, using a completely different technique from the lossy JPEG standard. It uses a predictive scheme based on the three nearest (causal) neighbors (upper, left, and upper-left), and entropy coding is used on the prediction error. The standard Independent JPEG Group libraries cannot encode or decode it, but Ken Murchison of Oceana Matrix Ltd. wrote a patch that extends the IJG library to handle lossless JPEG.[1] Lossless JPEG has some popularity in medical imaging, and is used in DNG and some digital cameras to compress raw images, but otherwise was never widely adopted. Adobe's DNG SDK provides a software library for encoding and decoding lossless JPEG with up to 16 bits per sample.
 
-          link: "/{{jls_url}}/"
+          link: "https://en.wikipedia.org/wiki/Lossless_JPEG"
 
     format:
         # format loop
         - icon: "far fa-file-FODP"
           title: " About FODP File Format"
           content: |
-            {{fodp}}
+            FODP is a file format for the presentations saved in OpenDocument format.
 
-          link: "/{{fodp_url}}/"
+          link: "https://docs.fileformat.com/presentation/"
 
 ############################# More Formats ############################
 more_formats:

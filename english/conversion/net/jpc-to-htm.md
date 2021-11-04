@@ -106,9 +106,9 @@ about_formats:
         - icon: "far fa-file-JPC"
           title: " About JPC File Format"
           content: |
-            {{jpc}}
+            A file with .j2c extension is a variant of JPEG file format and is compressed with the wavelet compression. It has nearly identical system of markers and segments to JPEG 2000 file format. The J2C file format is as defined in the Part 1 of the JPEG 2000 stand that supports both lossy and lossless compression. The JPEG 2000 codestream was designed to be embedded in JP2 or another file format, although it may appear in a file by itself. A J2C file can be opened using Adobe Photoshop 2020, Adobe Illustrator 2020, and Corel Paintshop Pro.
 
-          link: "/{{jpc_url}}/"
+          link: "https://docs.fileformat.com/image/j2c/"
 
     format:
         # format loop

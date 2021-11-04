@@ -121,7 +121,7 @@ about_formats:
 
 ############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "Other Supported Conversions"
     content: |
         You can also convert JPEG-LS into many other file formats. Please see the complete list below.

@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:10:28+03:00
+date: 2021-11-15T17:05:22
 draft: false
 
 ############################# Head ############################
-head_title: "Photoshop to POTX Conversion in Java – Convert Photoshop to POTX"
-head_description: "Convert Photoshop to POTX in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "PHOTOSHOP to POTX Conversion in Java – Convert PHOTOSHOP to POTX"
+head_description: "Convert PHOTOSHOP to POTX in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert Photoshop Files to POTX in Java"
+title: "Convert PHOTOSHOP Files to POTX in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -58,16 +58,16 @@ about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting Photoshop to POTX in Java"
+    title_left: "Steps for Converting PHOTOSHOP to POTX in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) makes it easy for developers to convert the Photoshop file to POTX in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the PHOTOSHOP file to POTX in few lines of code.
 
-        *   Create a new instance of Converter class and load the Photoshop file with full path
+        *   Create a new instance of Converter class and load the PHOTOSHOP file with full path
         *   Set ConvertOptions for the POTX document type
         *   Call the convert() method and pass the document name (full path) and format (POTX) as parameter
         
@@ -82,7 +82,7 @@ steps:
         
     code: |
         ```java
-        // Load the source Photoshop file to be converted
+        // Load the source PHOTOSHOP file to be converted
         Converter converter = new Converter("input.photoshop");
         // Get the convert options ready for the target POTX format
         ConvertOptions convertOptions = new FileType().fromExtension("potx").getConvertOptions();
@@ -94,9 +94,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Photoshop to POTX Live Demos"
+    title: "PHOTOSHOP to POTX Live Demos"
     content: |
-        Convert Photoshop to POTX right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PHOTOSHOP to POTX right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -104,16 +104,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-Photoshop"
-          title: " About Photoshop File Format"
+        - icon: "far fa-file-PHOTOSHOP"
+          title: " About PHOTOSHOP File Format"
           content: |
-            PSD, Photoshop Document, represents Adobe Photoshop’s native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
+            Represented by native Photoshop PSD and PSB file-formats used for graphics designing and development. PSD and PSB files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other graphics elements.
 
-          link: "https://docs.fileformat.com/image/psd/"
+          link: "https://docs.fileformat.com/image/"
 
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: " About POTX File Format"
           content: |
             Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
@@ -125,7 +125,7 @@ more_formats:
     enable: true
     title: "Other Supported Conversions"
     content: |
-        You can also convert Photoshop into many other file formats. Please see the complete list below.
+        You can also convert PHOTOSHOP into many other file formats. Please see the complete list below.
     format: 
         # format loop
         - name: "PHOTOSHOP TO EPUB"
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PHOTOSHOP TO PHOTOSHOP"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-photoshop/"
+        - name: "PHOTOSHOP TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/photoshop-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:08:59+03:00
+date: 2021-11-15T17:05:16
 draft: false
 
 ############################# Head ############################
@@ -107,18 +107,18 @@ about_formats:
         - icon: "far fa-file-ONENOTE"
           title: " About ONENOTE File Format"
           content: |
-            File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draft pad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
+            [SRC_FORMAT_DESCRIPTION]
 
-          link: "https://docs.fileformat.com/note-taking/one/"
+          link: "[SRC_FORMAT_URI]"
 
     format:
         # format loop
         - icon: "far fa-file-PHOTOSHOP"
           title: " About PHOTOSHOP File Format"
           content: |
-            PSD, Photoshop Document, represents Adobe Photoshop’s native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
+            Represented by native Photoshop PSD and PSB file-formats used for graphics designing and development. PSD and PSB files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other graphics elements.
 
-          link: "https://docs.fileformat.com/image/psd/"
+          link: "https://docs.fileformat.com/image/"
 
 ############################# More Formats ############################
 more_formats:
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "ONENOTE TO ONENOTE"
-          link: "https://products.groupdocs.com/conversion/java/onenote-to-onenote/"
+        - name: "ONENOTE TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/onenote-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:03:55+03:00
+date: 2021-11-15T17:05:10
 draft: false
 
 ############################# Head ############################
@@ -107,16 +107,16 @@ about_formats:
         - icon: "far fa-file-code"
           title: " About MHTML File Format"
           content: |
-            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word. Microsoft Windows uses MHTML file format for recording scenarios of problems observed during the usage of any application on Windows that raises issues. The MHTML file format encodes the page contents similar to specifications defined in message/rfc822 which is plain text email related specifications. The actual specifications of the format are as detailed by RFC 2557.
+            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word.
 
           link: "https://docs.fileformat.com/web/mhtml/"
 
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-excel"
           title: " About ODS File Format"
           content: |
-            Files with .ods extension stand for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. It is XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS. A number of applications on Windows as well as other operating systems can open ODS files for editing and manipulation including Microsoft Excel, NeoOffice and LibreOffice. ODS files can also be converted into other spreadsheet formats as well like XLS, XLSX and others by different applications.
+            Files with ODS extension stand for OpenDocument Spreadsheet Document format that is editable by the user. Data is stored inside the ODF file into rows and columns. It is an XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS.
 
           link: "https://docs.fileformat.com/spreadsheet/ods/"
 
@@ -213,8 +213,8 @@ more_formats:
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
-        - name: "MHTML TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-png/"
+        - name: "MHTML TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MHTML TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-html/"
+        - name: "MHTML TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/mhtml-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
@@ -318,8 +318,8 @@ more_formats:
           description: "JPEG Image"
 
         # format loop
-        - name: "MHTML TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ods/"
+        - name: "MHTML TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/mhtml-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
@@ -378,8 +378,18 @@ more_formats:
           description: "Windows Metafile Compressed"
 
         # format loop
+        - name: "MHTML TO HTML"
+          link: "https://products.groupdocs.com/conversion/java/mhtml-to-html/"
+          description: "Hyper Text Markup Language"
+
+        # format loop
         - name: "MHTML TO MHT"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "MHTML TO MHTML"
+          link: "https://products.groupdocs.com/conversion/java/mhtml-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T13:57:28+03:00
+date: 2021-11-15T17:04:35
 draft: false
 
 ############################# Head ############################
@@ -83,11 +83,11 @@ steps:
     code: |
         ```java
         // Load the source CAD file to be converted
-        Converter converter = new Converter("input.dwg");
+        Converter converter = new Converter("input.cad");
         // Get the convert options ready for the target EXCEL format
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("excel").getConvertOptions();
         // Convert to EXCEL format
-        converter.convert("output.xlsx", convertOptions);
+        converter.convert("output.excel", convertOptions);
         
         ```
         
@@ -107,16 +107,16 @@ about_formats:
         - icon: "far fa-file-CAD"
           title: " About CAD File Format"
           content: |
-            CAD stands for Computer Aided Design. The term CADD (for Computer Aided Design and Drafting) is also used. It is used for a 3D graphics file format and may contain 2D or 3D designs. CAD file is a digital file format of an object generated and used by CAD software. A CAD file contains a technical drawing, blueprint, schematic, or 3D rendering of an object. There may be other CAD tools that can be used to create, open, edit and export these .cad files to more widely used CAD drawing file formats. Below we are going to discuss about the most popular CAD File Formats and the most recommended software that can open, modify and convert it other popular formats.
+            CAD stands for Computer Aided Design. The term CADD (for Computer Aided Design and Drafting) is also used. It is used for a 3D graphics file format and may contain 2D or 3D designs. CAD file is a digital file format of an object generated and used by CAD software. A CAD file contains a technical drawing, blueprint, schematic, or 3D rendering of an object.
 
           link: "https://docs.fileformat.com/cad/"
 
     format:
         # format loop
-        - icon: "far fa-file-EXCEL"
+        - icon: "far fa-file-excel"
           title: " About EXCEL File Format"
           content: |
-            A spreadsheet file contains data in the form of rows and columns. You can open, view and edit such files using spreadsheet software applications such as Microsoft Excel that is now available for both Windows and MacOS operating system. Similarly, Google sheets is a free online spreadsheet creating and editing tool that works from any web browser. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).
+            A spreadsheet file contains data in the form of rows and columns. You can open, view and edit such files using spreadsheet software applications such as Microsoft Excel that is now available for both Windows and MacOS operating system. Similarly, Google sheets is a free online spreadsheet creating and editing tool that works from any web browser.
 
           link: "https://docs.fileformat.com/spreadsheet/"
 
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CAD TO CAD"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-cad/"
+        - name: "CAD TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/cad-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

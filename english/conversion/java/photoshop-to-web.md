@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:10:28+03:00
+date: 2021-11-15T17:05:22
 draft: false
 
 ############################# Head ############################
@@ -85,9 +85,9 @@ steps:
         // Load the source PHOTOSHOP file to be converted
         Converter converter = new Converter("input.photoshop");
         // Get the convert options ready for the target WEB format
-        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("web").getConvertOptions();
         // Convert to WEB format
-        converter.convert("output.html", convertOptions);
+        converter.convert("output.web", convertOptions);
         
         ```
         
@@ -107,9 +107,9 @@ about_formats:
         - icon: "far fa-file-PHOTOSHOP"
           title: " About PHOTOSHOP File Format"
           content: |
-            PSD, Photoshop Document, represents Adobe Photoshop’s native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
+            Represented by native Photoshop PSD and PSB file-formats used for graphics designing and development. PSD and PSB files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other graphics elements.
 
-          link: "https://docs.fileformat.com/image/psd/"
+          link: "https://docs.fileformat.com/image/"
 
     format:
         # format loop
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PHOTOSHOP TO PHOTOSHOP"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-photoshop/"
+        - name: "PHOTOSHOP TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/photoshop-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

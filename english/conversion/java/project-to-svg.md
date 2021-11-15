@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:12:25+03:00
+date: 2021-11-15T17:05:29
 draft: false
 
 ############################# Head ############################
@@ -104,19 +104,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-text-o"
-          title: " About PROJECT File Formats"
+        - icon: "far fa-file-PROJECT"
+          title: " About PROJECT File Format"
           content: |
-            Have you ever come across and wondered what is an MPP file? MPP and other similar files are Project file formats that are created by Project Management software. A project file is a collection of tasks, resources, and scheduling to get a measurable output in the form of a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation. Common Project Management file extensions and their associated file formats include MPP, MPX and XER.
+            MPP and other similar files are Project file formats that are created by Project Management software such as Microsoft Project. A project file is a collection of tasks, resources, and their scheduling to get a measurable output in the form or a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation. Primavera P6 is another Project Management Software by Oracle that provides complete project planning.
 
           link: "https://docs.fileformat.com/project-management/"
 
     format:
         # format loop
-        - icon: "far fa-file-text-o"
+        - icon: "far fa-image"
           title: " About SVG File Format"
           content: |
-            An SVG file is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. The word Scalable refers to the fact that the SVG can be scaled to different sizes without losing any quality. Text-based description of such files makes them independent of resolution. It is one of the most used formats for building a website and print graphics in order to achieve scalability. The format can only be used for two-dimensional graphics though. SVG files can be viewed/opened in almost all modern browsers including Chrome, Internet Explorer, Firefox, and Safari.
+            SVG files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of image. The word Scalable refers to the fact that the SVG can be scaled to different sizes without losing any quality. Text based description of such files make them independent of resolution. It is one of the mostly used format for building website and print graphics in order to achieve scalability.
 
           link: "https://docs.fileformat.com/page-description-language/svg/"
 
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PROJECT TO PROJECT"
-          link: "https://products.groupdocs.com/conversion/java/project-to-project/"
+        - name: "PROJECT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/project-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

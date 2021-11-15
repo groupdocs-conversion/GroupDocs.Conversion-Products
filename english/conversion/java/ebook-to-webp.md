@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:01:37+03:00
+date: 2021-11-15T17:04:49
 draft: false
 
 ############################# Head ############################
-head_title: "EBOOK to WebP Conversion in Java – Convert EBOOK to WebP"
-head_description: "Convert EBOOK to WebP in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "EBOOK to WEBP Conversion in Java – Convert EBOOK to WEBP"
+head_description: "Convert EBOOK to WEBP in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert EBOOK Files to WebP in Java"
+title: "Convert EBOOK Files to WEBP in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting EBOOK to WebP in Java"
+    title_left: "Steps for Converting EBOOK to WEBP in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the EBOOK file to WebP in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the EBOOK file to WEBP in few lines of code.
 
         *   Create a new instance of Converter class and load the EBOOK file with full path
-        *   Set ConvertOptions for the WebP document type
-        *   Call the convert() method and pass the document name (full path) and format (WebP) as parameter
+        *   Set ConvertOptions for the WEBP document type
+        *   Call the convert() method and pass the document name (full path) and format (WEBP) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -83,10 +83,10 @@ steps:
     code: |
         ```java
         // Load the source EBOOK file to be converted
-        Converter converter = new Converter("input.epub");
-        // Get the convert options ready for the target WebP format
+        Converter converter = new Converter("input.ebook");
+        // Get the convert options ready for the target WEBP format
         ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
-        // Convert to WebP format
+        // Convert to WEBP format
         converter.convert("output.webp", convertOptions);
         
         ```
@@ -94,9 +94,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "EBOOK to WebP Live Demos"
+    title: "EBOOK to WEBP Live Demos"
     content: |
-        Convert EBOOK to WebP right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert EBOOK to WEBP right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -104,19 +104,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-book"
+        - icon: "far fa-file-EBOOK"
           title: " About EBOOK File Format"
           content: |
-            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub that can easily be read by several applications. Some popular eReaders include Amazon Kindle, Sony Reader, Hanlin and IRIX. An eBook can contain different types of contents such as text, image, and video.
 
           link: "https://docs.fileformat.com/ebook/"
 
     format:
         # format loop
-        - icon: "far fa-file-image-o"
-          title: " About WebP File Format"
+        - icon: "far fa-file-WEBP"
+          title: " About WEBP File Format"
           content: |
-            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages. As per Google, WebP lossless images are 26% smaller in size compared to PNGs, while WebP lossy images are 25-34% smaller than comparable JPEG images. Images are compared based on the Structural Similarity (SSIM) index between WebP and other image file formats. WebP is a sister project of WebM multimedia container format.
+            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages.
 
           link: "https://docs.fileformat.com/image/webp/"
 
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EBOOK TO EBOOK"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ebook/"
+        - name: "EBOOK TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/ebook-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

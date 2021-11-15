@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:04:40+03:00
+date: 2021-11-15T17:05:00
 draft: false
 
 ############################# Head ############################
-head_title: "Image to MHTML Conversion in Java – Convert Image to MHTML"
-head_description: "Convert Image to MHTML in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "IMAGE to MHTML Conversion in Java – Convert IMAGE to MHTML"
+head_description: "Convert IMAGE to MHTML in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert Image Files to MHTML in Java"
+title: "Convert IMAGE Files to MHTML in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -58,16 +58,16 @@ about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        GroupDocs.Conversion for Java is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting Image to MHTML in Java"
+    title_left: "Steps for Converting IMAGE to MHTML in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) makes it easy for developers to convert the Image file to MHTML in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the IMAGE file to MHTML in few lines of code.
 
-        *   Create a new instance of Converter class and load the Image file with full path
+        *   Create a new instance of Converter class and load the IMAGE file with full path
         *   Set ConvertOptions for the MHTML document type
         *   Call the convert() method and pass the document name (full path) and format (MHTML) as parameter
         
@@ -82,8 +82,8 @@ steps:
         
     code: |
         ```java
-        // Load the source Image file to be converted
-        Converter converter = new Converter("input.jpg");
+        // Load the source IMAGE file to be converted
+        Converter converter = new Converter("input.image");
         // Get the convert options ready for the target MHTML format
         ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
         // Convert to MHTML format
@@ -96,7 +96,7 @@ demos:
     enable: true
     title: "IMAGE to MHTML Live Demos"
     content: |
-        Convert Image to MHTML right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert IMAGE to MHTML right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -105,7 +105,7 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-IMAGE"
-          title: " About Image File Format"
+          title: " About IMAGE File Format"
           content: |
             An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.
 
@@ -113,10 +113,10 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-html5"
+        - icon: "far fa-file-code"
           title: " About MHTML File Format"
           content: |
-            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word. Microsoft Windows uses MHTML file format for recording scenarios of problems observed during the usage of any application on Windows that raises issues.
+            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word.
 
           link: "https://docs.fileformat.com/web/mhtml/"
 
@@ -125,7 +125,7 @@ more_formats:
     enable: true
     title: "Other Supported Conversions"
     content: |
-        You can also convert Image into many other file formats. Please see the complete list below.
+        You can also convert IMAGE into many other file formats. Please see the complete list below.
     format: 
         # format loop
         - name: "IMAGE TO EPUB"
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "IMAGE TO IMAGE"
-          link: "https://products.groupdocs.com/conversion/java/image-to-image/"
+        - name: "IMAGE TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/image-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-01T14:19:45+03:00
+date: 2021-11-15T17:04:54
 draft: false
 
 ############################# Head ############################
@@ -58,7 +58,7 @@ about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, DRAWING, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
 
 ############################# Steps ############################
 steps:
@@ -83,11 +83,11 @@ steps:
     code: |
         ```java
         // Load the source EXCEL file to be converted
-        Converter converter = new Converter("input.xlsx");
+        Converter converter = new Converter("input.excel");
         // Get the convert options ready for the target DRAWING format
-        ConvertOptions convertOptions = new FileType().fromExtension(".dwg").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("drawing").getConvertOptions();
         // Convert to DRAWING format
-        converter.convert("output.dwg", convertOptions);
+        converter.convert("output.drawing", convertOptions);
         
         ```
         
@@ -104,7 +104,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-EXCEL"
+        - icon: "far fa-file-excel"
           title: " About EXCEL File Format"
           content: |
             A spreadsheet file contains data in the form of rows and columns. You can open, view and edit such files using spreadsheet software applications such as Microsoft Excel that is now available for both Windows and MacOS operating system. Similarly, Google sheets is a free online spreadsheet creating and editing tool that works from any web browser.
@@ -116,9 +116,9 @@ about_formats:
         - icon: "far fa-file-DRAWING"
           title: " About DRAWING File Format"
           content: |
-            Files with DWG extension represent proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represent the binary file format for CAD (Computer Aided Design) drawings. It contains vector image and metadata for representation of contents of CAD files. There are free viewers available for viewing DWG files on Windows Operating System such as the Autodesk’s free DWG TrueView. There are other third party applications as well that support reaching DWG files.
+            [TRGT_FORMAT_DESCRIPTION]
 
-          link: "https://docs.fileformat.com/cad/dwg/"
+          link: "[TRGT_FORMAT_URI]"
 
 ############################# More Formats ############################
 more_formats:
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EXCEL TO EXCEL"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-excel/"
+        - name: "EXCEL TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/excel-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

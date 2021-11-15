@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:12:25+03:00
+date: 2021-11-15T17:05:30
 draft: false
 
 ############################# Head ############################
-head_title: "PROJECT to XLSB Conversion in Java – Convert PROJECT to XLSB"
-head_description: "Convert PROJECT to XLSB in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "PROJECT to XLAM Conversion in Java – Convert PROJECT to XLAM"
+head_description: "Convert PROJECT to XLAM in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert PROJECT Files to XLSB in Java"
+title: "Convert PROJECT Files to XLAM in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting PROJECT to XLSB in Java"
+    title_left: "Steps for Converting PROJECT to XLAM in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the PROJECT file to XLSB in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the PROJECT file to XLAM in few lines of code.
 
         *   Create a new instance of Converter class and load the PROJECT file with full path
-        *   Set ConvertOptions for the XLSB document type
-        *   Call the convert() method and pass the document name (full path) and format (XLSB) as parameter
+        *   Set ConvertOptions for the XLAM document type
+        *   Call the convert() method and pass the document name (full path) and format (XLAM) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,19 +84,19 @@ steps:
         ```java
         // Load the source PROJECT file to be converted
         Converter converter = new Converter("input.project");
-        // Get the convert options ready for the target XLSB format
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
-        // Convert to XLSB format
-        converter.convert("output.xlsb", convertOptions);
+        // Get the convert options ready for the target XLAM format
+        ConvertOptions convertOptions = new FileType().fromExtension("xlam").getConvertOptions();
+        // Convert to XLAM format
+        converter.convert("output.xlam", convertOptions);
         
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "PROJECT to XLSB Live Demos"
+    title: "PROJECT to XLAM Live Demos"
     content: |
-        Convert PROJECT to XLSB right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PROJECT to XLAM right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -104,21 +104,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-text-o"
-          title: " About PROJECT File Formats"
+        - icon: "far fa-file-PROJECT"
+          title: " About PROJECT File Format"
           content: |
-            Have you ever come across and wondered what is an MPP file? MPP and other similar files are Project file formats that are created by Project Management software. A project file is a collection of tasks, resources, and scheduling to get a measurable output in the form of a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation. Common Project Management file extensions and their associated file formats include MPP, MPX and XER.
+            MPP and other similar files are Project file formats that are created by Project Management software such as Microsoft Project. A project file is a collection of tasks, resources, and their scheduling to get a measurable output in the form or a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation. Primavera P6 is another Project Management Software by Oracle that provides complete project planning.
 
           link: "https://docs.fileformat.com/project-management/"
 
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
-          title: " About XLSB File Format"
+        - icon: "far fa-file-XLAM"
+          title: " About XLAM File Format"
           content: |
-            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file. XLSB files can be read and written to faster which makes them useful for working with large files. XLSB is seldom used to store workbooks as XLSX (and previously XLS) are the most common user selected file formats for saving workbooks. It can be opened by Microsoft Office 2007 and above.
+            XLAM files are used to extend the modules provided by Excel. They can be added to Excel 2007 or later, or to earlier versions of Excel with Open XML component support. File used by Microsoft Excel, a program that allows users to create and edit spreadsheets; contains a macro-enabled add-in, which provides extra functionality and tools that may execute macros.
 
-          link: "https://docs.fileformat.com/spreadsheet/xlsb/"
+          link: "https://docs.fileformat.com/spreadsheet/xlam/"
 
 ############################# More Formats ############################
 more_formats:
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PROJECT TO PROJECT"
-          link: "https://products.groupdocs.com/conversion/java/project-to-project/"
+        - name: "PROJECT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/project-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:03:55+03:00
+date: 2021-11-15T17:05:10
 draft: false
 
 ############################# Head ############################
-head_title: "MHTML to EMZ Conversion in Java – Convert MHTML to EMZ"
-head_description: "Convert MHTML to EMZ in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "MHTML to WMZ Conversion in Java – Convert MHTML to WMZ"
+head_description: "Convert MHTML to WMZ in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert MHTML Files to EMZ in Java"
+title: "Convert MHTML Files to WMZ in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting MHTML to EMZ in Java"
+    title_left: "Steps for Converting MHTML to WMZ in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the MHTML file to EMZ in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the MHTML file to WMZ in few lines of code.
 
         *   Create a new instance of Converter class and load the MHTML file with full path
-        *   Set ConvertOptions for the EMZ document type
-        *   Call the convert() method and pass the document name (full path) and format (EMZ) as parameter
+        *   Set ConvertOptions for the WMZ document type
+        *   Call the convert() method and pass the document name (full path) and format (WMZ) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,19 +84,19 @@ steps:
         ```java
         // Load the source MHTML file to be converted
         Converter converter = new Converter("input.mhtml");
-        // Get the convert options ready for the target EMZ format
-        ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
-        // Convert to EMZ format
-        converter.convert("output.emz", convertOptions);
+        // Get the convert options ready for the target WMZ format
+        ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
+        // Convert to WMZ format
+        converter.convert("output.wmz", convertOptions);
         
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "MHTML to EMZ Live Demos"
+    title: "MHTML to WMZ Live Demos"
     content: |
-        Convert MHTML to EMZ right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert MHTML to WMZ right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -107,18 +107,18 @@ about_formats:
         - icon: "far fa-file-code"
           title: " About MHTML File Format"
           content: |
-            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word. Microsoft Windows uses MHTML file format for recording scenarios of problems observed during the usage of any application on Windows that raises issues. The MHTML file format encodes the page contents similar to specifications defined in message/rfc822 which is plain text email related specifications. The actual specifications of the format are as detailed by RFC 2557.
+            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word.
 
           link: "https://docs.fileformat.com/web/mhtml/"
 
     format:
         # format loop
-        - icon: "far fa-file-text-o"
-          title: " About EMZ File Format"
+        - icon: "far fa-file-WMZ"
+          title: " About WMZ File Format"
           content: |
-            A file with .emz extension is a compressed container of Enhanced Metafile (EML file). These are compressed using the GZIP compression technique which is the commonly used compression method on UNIX and LINUX operating systems. Unlink ZIP (/compression/zip/), GZIP compresses the archive as a whole instead of compressing individual files. EMZ files are smaller in size as compared to the EMF files and help in fast transfer during online file sharing. Some of the applications that can open EMZ files include Microsoft Visio 2019, Microsoft Office 2019, XnView MP, and File Viewer Plus.
+            A file with .wmz extension is an intermediate level file generated by older versions of Microsoft Office applications. It can contain embedded equations, clip art, or other vector graphics.
 
-          link: "https://docs.fileformat.com/image/emz/"
+          link: "https://docs.fileformat.com/image/wmz/"
 
 ############################# More Formats ############################
 more_formats:
@@ -213,8 +213,8 @@ more_formats:
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
-        - name: "MHTML TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-png/"
+        - name: "MHTML TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MHTML TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-html/"
+        - name: "MHTML TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/mhtml-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
@@ -318,8 +318,8 @@ more_formats:
           description: "JPEG Image"
 
         # format loop
-        - name: "MHTML TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ods/"
+        - name: "MHTML TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/mhtml-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
@@ -378,8 +378,18 @@ more_formats:
           description: "Windows Metafile Compressed"
 
         # format loop
+        - name: "MHTML TO HTML"
+          link: "https://products.groupdocs.com/conversion/java/mhtml-to-html/"
+          description: "Hyper Text Markup Language"
+
+        # format loop
         - name: "MHTML TO MHT"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "MHTML TO MHTML"
+          link: "https://products.groupdocs.com/conversion/java/mhtml-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

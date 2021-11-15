@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:17:23+03:00
+date: 2021-11-15T17:05:48
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
     code: |
         ```java
         // Load the source WEB file to be converted
-        Converter converter = new Converter("input.html");
+        Converter converter = new Converter("input.web");
         // Get the convert options ready for the target POWERPOINT format
         ConvertOptions convertOptions = new FileType().fromExtension("powerpoint").getConvertOptions();
         // Convert to POWERPOINT format
@@ -113,10 +113,10 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-POWERPOINT"
+        - icon: "far fa-file-powerpoint"
           title: " About POWERPOINT File Format"
           content: |
-            You must be familiar with PPTX and PPT extension files while working with Microsoft PowerPoint. These are Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. PowerPoint Viewer lets you a number of supported Presentation file formats and is available for free. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.
+            Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects.
 
           link: "https://docs.fileformat.com/presentation/"
 
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "WEB TO WEB"
-          link: "https://products.groupdocs.com/conversion/java/web-to-web/"
+        - name: "WEB TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/web-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

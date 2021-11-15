@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-01T14:19:45+03:00
+date: 2021-11-15T17:05:04
 draft: false
 
 ############################# Head ############################
@@ -58,7 +58,7 @@ about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, XLS2003, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
 
 ############################# Steps ############################
 steps:
@@ -83,7 +83,7 @@ steps:
     code: |
         ```java
         // Load the source JPEG-LS file to be converted
-        Converter converter = new Converter("input.jls");
+        Converter converter = new Converter("input.jpeg-ls");
         // Get the convert options ready for the target XLS2003 format
         ConvertOptions convertOptions = new FileType().fromExtension("xls2003").getConvertOptions();
         // Convert to XLS2003 format
@@ -107,9 +107,9 @@ about_formats:
         - icon: "far fa-file-JPEG-LS"
           title: " About JPEG-LS File Format"
           content: |
-            A JLS file is an image saved in the JPEG-LS file format. It contains a lossy or lossless compressed image. JLS files are typically created by medical imaging devices and digital cameras.
+            [SRC_FORMAT_DESCRIPTION]
 
-          link: "https://docs.fileformat.com/image/jls/"
+          link: "[SRC_FORMAT_URI]"
 
     format:
         # format loop
@@ -129,267 +129,267 @@ more_formats:
     format: 
         # format loop
         - name: "JPEG-LS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-epub/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "JPEG-LS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xps/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "JPEG-LS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-tex/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "JPEG-LS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ppt/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "JPEG-LS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-pps/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "JPEG-LS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-pptx/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "JPEG-LS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ppsx/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "JPEG-LS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-odp/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "JPEG-LS TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-otp/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "JPEG-LS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-potx/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "JPEG-LS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-potm/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "JPEG-LS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-pptm/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "JPEG-LS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ppsm/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "JPEG-LS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xls/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "JPEG-LS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xlsx/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "JPEG-LS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xlsm/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "JPEG-LS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xlsb/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "JPEG-LS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ods/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "JPEG-LS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xltx/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "JPEG-LS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xltm/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "JPEG-LS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-tsv/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "JPEG-LS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xlam/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "JPEG-LS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "JPEG-LS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "JPEG-LS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPEG-LS TO JPEG-LS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-jpeg-ls/"
+        - name: "JPEG-LS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "JPEG-LS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "JPEG-LS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-dotm/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "JPEG-LS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "JPEG-LS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-rtf/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "JPEG-LS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-odt/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "JPEG-LS TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ott/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "JPEG-LS TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-txt/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "JPEG-LS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-md/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "JPEG-LS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-tiff/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "JPEG-LS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-tif/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "JPEG-LS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-jpg/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "JPEG-LS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-jpeg/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "JPEG-LS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-png/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "JPEG-LS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-gif/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "JPEG-LS TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-bmp/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "JPEG-LS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ico/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "JPEG-LS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-psd/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "JPEG-LS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-wmf/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "JPEG-LS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "JPEG-LS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-webp/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "JPEG-LS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-svg/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "JPEG-LS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-jp2/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "JPEG-LS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "JPEG-LS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-wmz/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "JPEG-LS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "JPEG-LS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "JPEG-LS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

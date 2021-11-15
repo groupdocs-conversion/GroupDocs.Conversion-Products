@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:04:40+03:00
+date: 2021-11-15T17:05:00
 draft: false
 
 ############################# Head ############################
-head_title: "Image to XLTM Conversion in Java – Convert Image to XLTM"
-head_description: "Convert Image to XLTM in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "IMAGE to XLTM Conversion in Java – Convert IMAGE to XLTM"
+head_description: "Convert IMAGE to XLTM in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert Image Files to XLTM in Java"
+title: "Convert IMAGE Files to XLTM in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -58,16 +58,16 @@ about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        GroupDocs.Conversion for Java is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting Image to XLTM in Java"
+    title_left: "Steps for Converting IMAGE to XLTM in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) makes it easy for developers to convert the Image file to XLTM in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the IMAGE file to XLTM in few lines of code.
 
-        *   Create a new instance of Converter class and load the Image file with full path
+        *   Create a new instance of Converter class and load the IMAGE file with full path
         *   Set ConvertOptions for the XLTM document type
         *   Call the convert() method and pass the document name (full path) and format (XLTM) as parameter
         
@@ -82,8 +82,8 @@ steps:
         
     code: |
         ```java
-        // Load the source Image file to be converted
-        Converter converter = new Converter("input.jpg");
+        // Load the source IMAGE file to be converted
+        Converter converter = new Converter("input.image");
         // Get the convert options ready for the target XLTM format
         ConvertOptions convertOptions = new FileType().fromExtension("xltm").getConvertOptions();
         // Convert to XLTM format
@@ -96,7 +96,7 @@ demos:
     enable: true
     title: "IMAGE to XLTM Live Demos"
     content: |
-        Convert Image to XLTM right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert IMAGE to XLTM right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -105,7 +105,7 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-IMAGE"
-          title: " About Image File Format"
+          title: " About IMAGE File Format"
           content: |
             An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.
 
@@ -113,19 +113,19 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-excel"
           title: " About XLTM File Format"
           content: |
-            The XLTM file extension represents files that are generated by Microsoft Excel as Macro-enabled template files. XLTM files are similar to XLTX in structure other than that the later doesn’t support creating template files with macros. Such template files are used to generate and set the layout, formatting, and other settings along with the macros to facilitate creating similar XLSX files then.
+            The XLTM file extension represents files that are generated by Microsoft Excel as Macro-enabled template files. XLTM files are similar to XLTX in structure other than that the later doesn't support creating template files with macros. Such template files are used to generate and set the layout, formatting, and other settings along with the macros to facilitate creating similar XLSX files then.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltm/"
+          link: "https://docs.fileformat.com/spreadsheet/xltm"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
     title: "Other Supported Conversions"
     content: |
-        You can also convert Image into many other file formats. Please see the complete list below.
+        You can also convert IMAGE into many other file formats. Please see the complete list below.
     format: 
         # format loop
         - name: "IMAGE TO EPUB"
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "IMAGE TO IMAGE"
-          link: "https://products.groupdocs.com/conversion/java/image-to-image/"
+        - name: "IMAGE TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/image-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:10:48+03:00
+date: 2021-11-15T17:05:23
 draft: false
 
 ############################# Head ############################
-head_title: "PNG to DjVu Conversion in Java – Convert PNG to DjVu"
-head_description: "Convert PNG to DjVu in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "PNG to DJVU Conversion in Java – Convert PNG to DJVU"
+head_description: "Convert PNG to DJVU in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert PNG Files to DjVu in Java"
+title: "Convert PNG Files to DJVU in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting PNG to DjVu in Java"
+    title_left: "Steps for Converting PNG to DJVU in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the PNG file to DjVu in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the PNG file to DJVU in few lines of code.
 
         *   Create a new instance of Converter class and load the PNG file with full path
-        *   Set ConvertOptions for the DjVu document type
-        *   Call the convert() method and pass the document name (full path) and format (DjVu) as parameter
+        *   Set ConvertOptions for the DJVU document type
+        *   Call the convert() method and pass the document name (full path) and format (DJVU) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,9 +84,9 @@ steps:
         ```java
         // Load the source PNG file to be converted
         Converter converter = new Converter("input.png");
-        // Get the convert options ready for the target DjVu format
+        // Get the convert options ready for the target DJVU format
         ConvertOptions convertOptions = new FileType().fromExtension("djvu").getConvertOptions();
-        // Convert to DjVu format
+        // Convert to DJVU format
         converter.convert("output.djvu", convertOptions);
         
         ```
@@ -94,9 +94,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "PNG to DjVu Live Demos"
+    title: "PNG to DJVU Live Demos"
     content: |
-        Convert PNG to DjVu right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert PNG to DJVU right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -104,19 +104,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-image"
           title: " About PNG File Format"
           content: |
-            PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format. Almost all Operating Systems have support for opening PNG files. For example, Microsoft Windows viewer has the capability to open PNG files as the OS has by default the support available as part of installation.
+            PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format.
 
           link: "https://docs.fileformat.com/image/png/"
 
     format:
         # format loop
-        - icon: "far fa-file-image-o"
-          title: " About DjVu File Format"
+        - icon: "far fa-file-DJVU"
+          title: " About DJVU File Format"
           content: |
-            DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. It was developed by AT&T Labs. It uses multiple techniques like image layer separation of text and background images, progressive loading, arithmetic coding and lossy compression for bitonal images. Since DJVU file can contain compressed yet high-quality colour images, photographs, text, and drawings and can be saved in less space therefore, it’s used on web as eBooks, manuals, newspapers, ancient documents, etc. DjVu can be graded superior alternative to PDF.  File extensions associated to DjVu are .DJVU or .DJV. DjVu can achieve compression ratios about 5 – 10 better than existing methods such as JPEG & GIF for colour documents and 3 – 8 times better than TIFF in black and white documents. Scanned documents at 300 DPI with full colour upto 25 MB can be compressed down to 30 to 100 KB. Similarly Black and white documents can be compressed upto 5 to 30 KB. Average HTML page can be up to 50 KB, therefore, these documents can be uploaded on net without any problem.
+            DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. It was developed by AT&T Labs. It uses multiple techniques like image layer separation of text and background images, progressive loading, arithmetic coding and lossy compression for bitonal images.
 
           link: "https://docs.fileformat.com/image/djvu/"
 
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PNG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/png-to-png/"
+        - name: "PNG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/png-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

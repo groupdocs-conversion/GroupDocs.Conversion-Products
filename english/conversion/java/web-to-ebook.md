@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:17:22+03:00
+date: 2021-11-15T17:05:48
 draft: false
 
 ############################# Head ############################
@@ -83,11 +83,11 @@ steps:
     code: |
         ```java
         // Load the source WEB file to be converted
-        Converter converter = new Converter("input.html");
+        Converter converter = new Converter("input.web");
         // Get the convert options ready for the target EBOOK format
-        ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("ebook").getConvertOptions();
         // Convert to EBOOK format
-        converter.convert("output.epub", convertOptions);
+        converter.convert("output.ebook", convertOptions);
         
         ```
         
@@ -116,7 +116,7 @@ about_formats:
         - icon: "far fa-file-EBOOK"
           title: " About EBOOK File Format"
           content: |
-            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub that can easily be read by several applications. Some popular eReaders include Amazon Kindle, Sony Reader, Hanlin and IRIX. An eBook can contain different types of contents such as text, image, and video.
 
           link: "https://docs.fileformat.com/ebook/"
 
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "WEB TO WEB"
-          link: "https://products.groupdocs.com/conversion/java/web-to-web/"
+        - name: "WEB TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/web-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

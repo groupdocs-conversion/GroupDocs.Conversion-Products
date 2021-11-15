@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:17:23+03:00
+date: 2021-11-15T17:05:48
 draft: false
 
 ############################# Head ############################
-head_title: "WEB to XLSB Conversion in Java – Convert WEB to XLSB"
-head_description: "Convert WEB to XLSB in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "WEB to EXCEL Conversion in Java – Convert WEB to EXCEL"
+head_description: "Convert WEB to EXCEL in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert WEB Files to XLSB in Java"
+title: "Convert WEB Files to EXCEL in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting WEB to XLSB in Java"
+    title_left: "Steps for Converting WEB to EXCEL in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the WEB file to XLSB in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the WEB file to EXCEL in few lines of code.
 
         *   Create a new instance of Converter class and load the WEB file with full path
-        *   Set ConvertOptions for the XLSB document type
-        *   Call the convert() method and pass the document name (full path) and format (XLSB) as parameter
+        *   Set ConvertOptions for the EXCEL document type
+        *   Call the convert() method and pass the document name (full path) and format (EXCEL) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -83,20 +83,20 @@ steps:
     code: |
         ```java
         // Load the source WEB file to be converted
-        Converter converter = new Converter("input.html");
-        // Get the convert options ready for the target XLSB format
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
-        // Convert to XLSB format
-        converter.convert("output.xlsb", convertOptions);
+        Converter converter = new Converter("input.web");
+        // Get the convert options ready for the target EXCEL format
+        ConvertOptions convertOptions = new FileType().fromExtension("excel").getConvertOptions();
+        // Convert to EXCEL format
+        converter.convert("output.excel", convertOptions);
         
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "WEB to XLSB Live Demos"
+    title: "WEB to EXCEL Live Demos"
     content: |
-        Convert WEB to XLSB right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert WEB to EXCEL right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -104,21 +104,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-code-o"
-          title: " About WEB File Formats"
+        - icon: "far fa-file-WEB"
+          title: " About WEB File Format"
           content: |
-            It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI. Common web file extensions and their associate file formats include HTML (Hypertext Markup Language), ASP (Active Server Pages), and CSS (Cascading Style Sheets).
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
           link: "https://docs.fileformat.com/web/"
 
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
-          title: " About XLSB File Format"
+        - icon: "far fa-file-excel"
+          title: " About EXCEL File Format"
           content: |
-            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file. XLSB files can be read and written to faster which makes them useful for working with large files. XLSB is seldom used to store workbooks as XLSX (and previously XLS) are the most common user selected file formats for saving workbooks. It can be opened by Microsoft Office 2007 and above.
+            A spreadsheet file contains data in the form of rows and columns. You can open, view and edit such files using spreadsheet software applications such as Microsoft Excel that is now available for both Windows and MacOS operating system. Similarly, Google sheets is a free online spreadsheet creating and editing tool that works from any web browser.
 
-          link: "https://docs.fileformat.com/spreadsheet/xlsb/"
+          link: "https://docs.fileformat.com/spreadsheet/"
 
 ############################# More Formats ############################
 more_formats:
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "WEB TO WEB"
-          link: "https://products.groupdocs.com/conversion/java/web-to-web/"
+        - name: "WEB TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/web-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

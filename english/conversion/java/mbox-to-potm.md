@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:06:45+03:00
+date: 2021-11-15T17:05:08
 draft: false
 
 ############################# Head ############################
@@ -113,7 +113,7 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-POTM"
+        - icon: "far fa-file-powerpoint"
           title: " About POTM File Format"
           content: |
             Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MBOX TO MBOX"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-mbox/"
+        - name: "MBOX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/mbox-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

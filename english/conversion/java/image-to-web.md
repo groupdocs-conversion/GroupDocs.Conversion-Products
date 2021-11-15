@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:04:40+03:00
+date: 2021-11-15T17:05:00
 draft: false
 
 ############################# Head ############################
@@ -85,9 +85,9 @@ steps:
         // Load the source IMAGE file to be converted
         Converter converter = new Converter("input.image");
         // Get the convert options ready for the target WEB format
-        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
+        ConvertOptions convertOptions = new FileType().fromExtension("web").getConvertOptions();
         // Convert to WEB format
-        converter.convert("output.html", convertOptions);
+        converter.convert("output.web", convertOptions);
         
         ```
         
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "IMAGE TO IMAGE"
-          link: "https://products.groupdocs.com/conversion/java/image-to-image/"
+        - name: "IMAGE TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/image-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

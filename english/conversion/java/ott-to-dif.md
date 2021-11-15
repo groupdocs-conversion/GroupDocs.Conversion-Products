@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:09:42+03:00
+date: 2021-11-15T17:05:19
 draft: false
 
 ############################# Head ############################
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OTT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ott/"
+        - name: "OTT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/ott-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

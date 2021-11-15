@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:01:40+03:00
+date: 2021-11-15T17:04:49
 draft: false
 
 ############################# Head ############################
-head_title: "Email to CSV Conversion in Java – Convert Email to CSV"
-head_description: "Convert Email to CSV in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "EMAIL to CSV Conversion in Java – Convert EMAIL to CSV"
+head_description: "Convert EMAIL to CSV in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert Email Files to CSV in Java"
+title: "Convert EMAIL Files to CSV in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,11 +63,11 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting Email to CSV in Java"
+    title_left: "Steps for Converting EMAIL to CSV in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the Email file to CSV in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the EMAIL file to CSV in few lines of code.
 
-        *   Create a new instance of Converter class and load the Email file with full path
+        *   Create a new instance of Converter class and load the EMAIL file with full path
         *   Set ConvertOptions for the CSV document type
         *   Call the convert() method and pass the document name (full path) and format (CSV) as parameter
         
@@ -82,8 +82,8 @@ steps:
         
     code: |
         ```java
-        // Load the source Email file to be converted
-        Converter converter = new Converter("input.eml");
+        // Load the source EMAIL file to be converted
+        Converter converter = new Converter("input.email");
         // Get the convert options ready for the target CSV format
         ConvertOptions convertOptions = new FileType().fromExtension("csv").getConvertOptions();
         // Convert to CSV format
@@ -94,9 +94,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Email to CSV Live Demos"
+    title: "EMAIL to CSV Live Demos"
     content: |
-        Convert Email to CSV right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert EMAIL to CSV right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -104,19 +104,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-envelope-open-o"
-          title: " About Email File Format"
+        - icon: "far fa-file-EMAIL"
+          title: " About EMAIL File Format"
           content: |
-            Have you ever come across Email file formats and failed to open it? You have come to the right place, we are going to explain what Email file formats are and what are the recommended software that can open or use them. Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.
+            Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file.
 
           link: "https://docs.fileformat.com/email/"
 
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-excel"
           title: " About CSV File Format"
           content: |
-            Files with .csv (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently. Almost all spreadsheet applications such as Microsoft Excel or OpenOffice Calc can import CSV without much effort. Data imported from such files is arranged in cells of a spreadsheet for representation to user.
+            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently.
 
           link: "https://docs.fileformat.com/spreadsheet/csv/"
 
@@ -125,265 +125,270 @@ more_formats:
     enable: true
     title: "Other Supported Conversions"
     content: |
-        You can also convert Email into many other file formats. Please see the complete list below.
+        You can also convert EMAIL into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "Email TO EPUB"
+        - name: "EMAIL TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/email-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
-        - name: "Email TO XPS"
+        - name: "EMAIL TO XPS"
           link: "https://products.groupdocs.com/conversion/java/email-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
-        - name: "Email TO TEX"
+        - name: "EMAIL TO TEX"
           link: "https://products.groupdocs.com/conversion/java/email-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "Email TO PPT"
+        - name: "EMAIL TO PPT"
           link: "https://products.groupdocs.com/conversion/java/email-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
-        - name: "Email TO PPS"
+        - name: "EMAIL TO PPS"
           link: "https://products.groupdocs.com/conversion/java/email-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "Email TO PPTX"
+        - name: "EMAIL TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/email-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "Email TO PPSX"
+        - name: "EMAIL TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/email-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Email TO ODP"
+        - name: "EMAIL TO ODP"
           link: "https://products.groupdocs.com/conversion/java/email-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
-        - name: "Email TO OTP"
+        - name: "EMAIL TO OTP"
           link: "https://products.groupdocs.com/conversion/java/email-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
-        - name: "Email TO POTX"
+        - name: "EMAIL TO POTX"
           link: "https://products.groupdocs.com/conversion/java/email-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
-        - name: "Email TO POTM"
+        - name: "EMAIL TO POTM"
           link: "https://products.groupdocs.com/conversion/java/email-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
-        - name: "Email TO PPTM"
+        - name: "EMAIL TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/email-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "Email TO PPSM"
+        - name: "EMAIL TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/email-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "Email TO XLS"
+        - name: "EMAIL TO XLS"
           link: "https://products.groupdocs.com/conversion/java/email-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
-        - name: "Email TO XLSX"
+        - name: "EMAIL TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/email-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
-        - name: "Email TO XLSM"
+        - name: "EMAIL TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/email-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
-        - name: "Email TO XLSB"
+        - name: "EMAIL TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/email-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
-        - name: "Email TO ODS"
+        - name: "EMAIL TO ODS"
           link: "https://products.groupdocs.com/conversion/java/email-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "Email TO XLTX"
+        - name: "EMAIL TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/email-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
-        - name: "Email TO XLTM"
+        - name: "EMAIL TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/email-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
-        - name: "Email TO TSV"
+        - name: "EMAIL TO TSV"
           link: "https://products.groupdocs.com/conversion/java/email-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
-        - name: "Email TO XLAM"
+        - name: "EMAIL TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/email-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
-        - name: "Email TO CSV"
+        - name: "EMAIL TO CSV"
           link: "https://products.groupdocs.com/conversion/java/email-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
-        - name: "Email TO DOC"
+        - name: "EMAIL TO DOC"
           link: "https://products.groupdocs.com/conversion/java/email-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
-        - name: "Email TO DOCM"
+        - name: "EMAIL TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/email-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "Email TO DOT"
+        - name: "EMAIL TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/email-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop
+        - name: "EMAIL TO DOT"
           link: "https://products.groupdocs.com/conversion/java/email-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "Email TO DOTM"
+        - name: "EMAIL TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/email-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "Email TO DOTX"
+        - name: "EMAIL TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/email-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "Email TO RTF"
+        - name: "EMAIL TO RTF"
           link: "https://products.groupdocs.com/conversion/java/email-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
-        - name: "Email TO ODT"
+        - name: "EMAIL TO ODT"
           link: "https://products.groupdocs.com/conversion/java/email-to-odt/"
           description: "Open Document Text"
 
         # format loop
-        - name: "Email TO OTT"
+        - name: "EMAIL TO OTT"
           link: "https://products.groupdocs.com/conversion/java/email-to-ott/"
           description: "Open Document Template"
 
         # format loop
-        - name: "Email TO TXT"
+        - name: "EMAIL TO TXT"
           link: "https://products.groupdocs.com/conversion/java/email-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
-        - name: "Email TO MD"
+        - name: "EMAIL TO MD"
           link: "https://products.groupdocs.com/conversion/java/email-to-md/"
           description: "Markdown"
 
         # format loop
-        - name: "Email TO TIFF"
+        - name: "EMAIL TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/email-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
-        - name: "Email TO TIF"
+        - name: "EMAIL TO TIF"
           link: "https://products.groupdocs.com/conversion/java/email-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
-        - name: "Email TO JPG"
+        - name: "EMAIL TO JPG"
           link: "https://products.groupdocs.com/conversion/java/email-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
-        - name: "Email TO JPEG"
+        - name: "EMAIL TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/email-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
-        - name: "Email TO PNG"
+        - name: "EMAIL TO PNG"
           link: "https://products.groupdocs.com/conversion/java/email-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
-        - name: "Email TO GIF"
+        - name: "EMAIL TO GIF"
           link: "https://products.groupdocs.com/conversion/java/email-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
-        - name: "Email TO BMP"
+        - name: "EMAIL TO BMP"
           link: "https://products.groupdocs.com/conversion/java/email-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
-        - name: "Email TO ICO"
+        - name: "EMAIL TO ICO"
           link: "https://products.groupdocs.com/conversion/java/email-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
-        - name: "Email TO PSD"
+        - name: "EMAIL TO PSD"
           link: "https://products.groupdocs.com/conversion/java/email-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
-        - name: "Email TO WMF"
+        - name: "EMAIL TO WMF"
           link: "https://products.groupdocs.com/conversion/java/email-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
-        - name: "Email TO EMF"
+        - name: "EMAIL TO EMF"
           link: "https://products.groupdocs.com/conversion/java/email-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "Email TO WEBP"
+        - name: "EMAIL TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/email-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
-        - name: "Email TO SVG"
+        - name: "EMAIL TO SVG"
           link: "https://products.groupdocs.com/conversion/java/email-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
-        - name: "Email TO JP2"
+        - name: "EMAIL TO JP2"
           link: "https://products.groupdocs.com/conversion/java/email-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
-        - name: "Email TO EMZ"
+        - name: "EMAIL TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/email-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "Email TO WMZ"
+        - name: "EMAIL TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/email-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
-        - name: "Email TO HTML"
+        - name: "EMAIL TO HTML"
           link: "https://products.groupdocs.com/conversion/java/email-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "Email TO MHT"
+        - name: "EMAIL TO MHT"
           link: "https://products.groupdocs.com/conversion/java/email-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Email TO MHTML"
+        - name: "EMAIL TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/email-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 

@@ -1,15 +1,15 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:09:54+03:00
+date: 2021-11-15T17:05:20
 draft: false
 
 ############################# Head ############################
-head_title: "OUTLOOK to WebP Conversion in Java – Convert OUTLOOK to WebP"
-head_description: "Convert OUTLOOK to WebP in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "OUTLOOK to WEBP Conversion in Java – Convert OUTLOOK to WEBP"
+head_description: "Convert OUTLOOK to WEBP in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
 
 ############################# Header ############################
-title: "Convert OUTLOOK Files to WebP in Java"
+title: "Convert OUTLOOK Files to WEBP in Java"
 description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -58,18 +58,18 @@ about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, WebP, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting OUTLOOK to WebP in Java"
+    title_left: "Steps for Converting OUTLOOK to WEBP in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the OUTLOOK file to WebP in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the OUTLOOK file to WEBP in few lines of code.
 
         *   Create a new instance of Converter class and load the OUTLOOK file with full path
-        *   Set ConvertOptions for the WebP document type
-        *   Call the convert() method and pass the document name (full path) and format (WebP) as parameter
+        *   Set ConvertOptions for the WEBP document type
+        *   Call the convert() method and pass the document name (full path) and format (WEBP) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,9 +84,9 @@ steps:
         ```java
         // Load the source OUTLOOK file to be converted
         Converter converter = new Converter("input.outlook");
-        // Get the convert options ready for the target WebP format
+        // Get the convert options ready for the target WEBP format
         ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
-        // Convert to WebP format
+        // Convert to WEBP format
         converter.convert("output.webp", convertOptions);
         
         ```
@@ -94,9 +94,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "OUTLOOK to WebP Live Demos"
+    title: "OUTLOOK to WEBP Live Demos"
     content: |
-        Convert OUTLOOK to WebP right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert OUTLOOK to WEBP right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -105,18 +105,18 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-OUTLOOK"
-          title: " About Email File Formats"
+          title: " About OUTLOOK File Format"
           content: |
-            Have you ever come across Email file formats and failed to open it? You have come to the right place, we are going to explain what Email file formats are and what are the recommended software that can open or use them. Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.
+            Outlook Data Files are created and used by Microsoft Outlook to store messages, contacts, calendars, and other account information.
 
           link: "https://docs.fileformat.com/email/"
 
     format:
         # format loop
-        - icon: "far fa-file-image-o"
-          title: " About WebP File Format"
+        - icon: "far fa-file-WEBP"
+          title: " About WEBP File Format"
           content: |
-            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages. As per Google, WebP lossless images are 26% smaller in size compared to PNGs, while WebP lossy images are 25-34% smaller than comparable JPEG images. Images are compared based on the Structural Similarity (SSIM) index between WebP and other image file formats. WebP is a sister project of WebM multimedia container format.
+            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages.
 
           link: "https://docs.fileformat.com/image/webp/"
 
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OUTLOOK TO OUTLOOK"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-outlook/"
+        - name: "OUTLOOK TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/outlook-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

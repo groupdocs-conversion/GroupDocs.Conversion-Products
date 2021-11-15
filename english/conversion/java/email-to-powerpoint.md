@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:01:40+03:00
+date: 2021-11-15T17:04:50
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
     code: |
         ```java
         // Load the source EMAIL file to be converted
-        Converter converter = new Converter("input.eml");
+        Converter converter = new Converter("input.email");
         // Get the convert options ready for the target POWERPOINT format
         ConvertOptions convertOptions = new FileType().fromExtension("powerpoint").getConvertOptions();
         // Convert to POWERPOINT format
@@ -107,16 +107,16 @@ about_formats:
         - icon: "far fa-file-EMAIL"
           title: " About EMAIL File Format"
           content: |
-            Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.
+            Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file.
 
           link: "https://docs.fileformat.com/email/"
 
     format:
         # format loop
-        - icon: "far fa-file-POWERPOINT"
+        - icon: "far fa-file-powerpoint"
           title: " About POWERPOINT File Format"
           content: |
-            You must be familiar with PPTX and PPT extension files while working with Microsoft PowerPoint. These are Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. PowerPoint Viewer lets you a number of supported Presentation file formats and is available for free. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.
+            Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects.
 
           link: "https://docs.fileformat.com/presentation/"
 
@@ -253,8 +253,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EMAIL TO EMAIL"
-          link: "https://products.groupdocs.com/conversion/java/email-to-email/"
+        - name: "EMAIL TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/email-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

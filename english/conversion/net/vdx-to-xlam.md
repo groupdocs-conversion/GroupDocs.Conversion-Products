@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:25+03:00
+date: 2021-11-15T08:27:08
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VDX"
+        - icon: "far fa-file-alt"
           title: " About VDX File Format"
           content: |
-            Any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements. Text can also be added to these visual elements Vision drawing XML file. These Visio drawing XML files are integrated with XML-based formatting standards and image data encoding specifications that allow its content to be rendered and stored by the Microsoft Visio software in the VDX file format.
+            Any drawing or chart created in Microsoft Visio, but saved in XML format has a VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements.
 
           link: "https://docs.fileformat.com/image/vdx/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-XLAM"
           title: " About XLAM File Format"
           content: |
-            XLAM is an Excel Macro-Enabled Add-In file that is used to add new functions to Excel. An Add-In is a supplemental program that runs additional code and provides additional functionality for Excel spreadsheets. XLAM files are stored with the .xlam extension. XLAM files are XML-based files similar to XLSM and XLSX file formats and are saved with ZIP compression to reduce the overall file size.
+            XLAM files are used to extend the modules provided by Excel. They can be added to Excel 2007 or later, or to earlier versions of Excel with Open XML component support. File used by Microsoft Excel, a program that allows users to create and edit spreadsheets; contains a macro-enabled add-in, which provides extra functionality and tools that may execute macros.
 
           link: "https://docs.fileformat.com/spreadsheet/xlam/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VDX TO VDX"
-          link: "https://products.groupdocs.com/conversion/net/vdx-to-vdx/"
+        - name: "VDX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vdx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

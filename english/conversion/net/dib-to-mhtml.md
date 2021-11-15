@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:21:31+03:00
+date: 2021-11-15T08:25:58
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DIB"
           title: " About DIB File Format"
           content: |
-            A DIB (Device Independent Bitmap) file is a raster image file that is similar in structure to the standard Bitmap files (BMP) but has a different header. It can be opened with almost all applications that can open a standard BMP file on Windows as well as macOS. DIB are binary files and have a complex file format similar to BMP.
+            A Device-Independent bitmap (DIB) is a raster image file that is similar in structure to the standard Bitmap files(BMP). It contains a color table that describes the mapping of RGB colors to the pixel values. This enables DIB to represent images on any device. It can be opened with almost all applications that can open a standard BMP file on Windows as well as macOS.
 
           link: "https://docs.fileformat.com/image/dib/"
 
     format:
         # format loop
-        - icon: "far fa-file-MHTML"
+        - icon: "far fa-file-code"
           title: " About MHTML File Format"
           content: |
-            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word. Microsoft Windows uses MHTML file format for recording scenarios of problems observed during the usage of any application on Windows that raises issues. The MHTML file format encodes the page contents similar to specifications defined in message/rfc822 which is plain text email related specifications. The actual specifications of the format are as detailed by RFC 2557.
+            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word.
 
           link: "https://docs.fileformat.com/web/mhtml/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DIB TO DIB"
-          link: "https://products.groupdocs.com/conversion/net/dib-to-dib/"
+        - name: "DIB TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dib-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

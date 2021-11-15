@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:22+03:00
+date: 2021-11-15T08:27:20
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-XLAM"
           title: " About XLAM File Format"
           content: |
-            XLAM is an Excel Macro-Enabled Add-In file that is used to add new functions to Excel. An Add-In is a supplemental program that runs additional code and provides additional functionality for Excel spreadsheets. XLAM files are stored with the .xlam extension. XLAM files are XML-based files similar to XLSM and XLSX file formats and are saved with ZIP compression to reduce the overall file size.
+            XLAM files are used to extend the modules provided by Excel. They can be added to Excel 2007 or later, or to earlier versions of Excel with Open XML component support. File used by Microsoft Excel, a program that allows users to create and edit spreadsheets; contains a macro-enabled add-in, which provides extra functionality and tools that may execute macros.
 
           link: "https://docs.fileformat.com/spreadsheet/xlam/"
 
     format:
         # format loop
-        - icon: "far fa-file-JPG"
+        - icon: "far fa-image"
           title: " About JPG File Format"
           content: |
-            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image. The higher the compression value, the higher the degradation in image quality.
+            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
 
           link: "https://docs.fileformat.com/image/jpeg/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLAM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xlam/"
+        - name: "XLAM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xlam-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:19:55+03:00
+date: 2021-11-15T08:25:50
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-AI"
           title: " About AI File Format"
           content: |
-            A file with an .ai extension is an Adobe Illustrator Artwork file that contains vector graphics in a single page. it uses points to create paths for displaying the image data, thus making it safe from losing image quality if it is enlarged. AI file format is base don the PGF file format which are similar to AI files. AI format finds its major usage for logos and print media, and its initial versions were considered similar to that of EPS files. AI files can be opened with Adobe Illustrator, Adobe Acrobat DC, PaintShop Pro, and CorelDraw Graphics tools.
+            A file with an .ai extension is an Adobe Illustrator Artwork file that contains vector graphics on a single page. It uses points to create paths for displaying the image data, thus making it safe from losing image quality if it is enlarged. AI format finds its major usage for logos and print media. AI files can be opened with Adobe Illustrator, Adobe Acrobat DC, PaintShop Pro, and CorelDraw Graphics tools.
 
           link: "https://docs.fileformat.com/image/ai/"
 
     format:
         # format loop
-        - icon: "far fa-file-PDF"
+        - icon: "far fa-file-alt"
           title: " About PDF File Format"
           content: |
-            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
+            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins.
 
           link: "https://docs.fileformat.com/view/pdf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "AI TO AI"
-          link: "https://products.groupdocs.com/conversion/net/ai-to-ai/"
+        - name: "AI TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ai-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:19+03:00
+date: 2021-11-15T08:26:12
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-EMF"
           title: " About EMF File Format"
           content: |
-            Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately. When a device opens an EMF metafile using its own graphics environment, the proportions, dimensions, colors and other graphic properties of original image remains same regardless of the opening device platform.
+            Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately.
 
           link: "https://docs.fileformat.com/image/emf/"
 
     format:
         # format loop
-        - icon: "far fa-file-ICO"
+        - icon: "far fa-image"
           title: " About ICO File Format"
           content: |
             Files with ICO extension are image file types used as icon for representation of an application on Microsoft Windows. These come in different size, colour support and resolution to suit the requirements of the display. Another similar image file format on Microsoft Windows is .CUR for cursor representation and defines a hotspot in the image header. On MacOS, ICNS file formats serve the same purpose as ICO files. Several online websites as well as applications provide the feature of creating such files and convert other image formats such as BMP, PNG, etc. to icon file format. The official IANA registered Internet media type for ICO files is image/vnd.microsoft.icon.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EMF TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-emf/"
+        - name: "EMF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/emf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

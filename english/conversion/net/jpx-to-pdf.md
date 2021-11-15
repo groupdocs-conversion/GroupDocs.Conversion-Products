@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:06+03:00
+date: 2021-11-15T08:26:31
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPX"
+        - icon: "far fa-image"
           title: " About JPX File Format"
           content: |
-            A file with .jpx extension is an extension to the JPEG 2000 file format. It uses the JPEG 2000 compression primarily and also provides advanced features such as multiple layers for an image, various colour spaces, opacity, and fragmented code streams. JPX also allows other compressions such as JBIG, CCITT Group3, CCITT Group4, etc. in addition to the JPEG 2000 compression. The JPX file format was approved as ISO/IEC 15444-2 standard, but couldn’t receive a warm reception due to the extensive usage of JPEG file format. Applications that can open JPX files include Corel PaintShop Pro, Adobe Photoshop 2020, Adobe Illustrator 2020, and CorelDraw Graphics Suite 2020.
+            JPX is a JPEG 2000 extended file-format. JPEG 2000 is an improvement to the JPEG format.
 
-          link: "https://docs.fileformat.com/image/jpx/"
+          link: "https://docs.fileformat.com/image/j2k/"
 
     format:
         # format loop
-        - icon: "far fa-file-PDF"
+        - icon: "far fa-file-alt"
           title: " About PDF File Format"
           content: |
-            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
+            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins.
 
           link: "https://docs.fileformat.com/view/pdf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPX TO JPX"
-          link: "https://products.groupdocs.com/conversion/net/jpx-to-jpx/"
+        - name: "JPX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

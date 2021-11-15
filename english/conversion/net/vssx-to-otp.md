@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:10+03:00
+date: 2021-11-15T08:27:12
 draft: false
 
 ############################# Head ############################
@@ -103,16 +103,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSSX"
+        - icon: "far fa-file-alt"
           title: " About VSSX File Format"
           content: |
-            Files with .VSSX extension are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information. Microsoft Visio also provides the capability to convert Visio files to different file formats such as PNG, BMP, PDF and others. It is available for both Windows and Mac OS.
+            Files with .VSSX extension are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information.
 
           link: "https://docs.fileformat.com/image/vssx/"
 
     format:
         # format loop
-        - icon: "far fa-file-OTP"
+        - icon: "far fa-file-powerpoint"
           title: " About OTP File Format"
           content: |
             Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSSX TO VSSX"
-          link: "https://products.groupdocs.com/conversion/net/vssx-to-vssx/"
+        - name: "VSSX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vssx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

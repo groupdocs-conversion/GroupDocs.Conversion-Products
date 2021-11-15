@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:22+03:00
+date: 2021-11-15T08:27:20
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-XLAM"
           title: " About XLAM File Format"
           content: |
-            XLAM is an Excel Macro-Enabled Add-In file that is used to add new functions to Excel. An Add-In is a supplemental program that runs additional code and provides additional functionality for Excel spreadsheets. XLAM files are stored with the .xlam extension. XLAM files are XML-based files similar to XLSM and XLSX file formats and are saved with ZIP compression to reduce the overall file size.
+            XLAM files are used to extend the modules provided by Excel. They can be added to Excel 2007 or later, or to earlier versions of Excel with Open XML component support. File used by Microsoft Excel, a program that allows users to create and edit spreadsheets; contains a macro-enabled add-in, which provides extra functionality and tools that may execute macros.
 
           link: "https://docs.fileformat.com/spreadsheet/xlam/"
 
     format:
         # format loop
-        - icon: "far fa-file-MHTML"
+        - icon: "far fa-file-code"
           title: " About MHTML File Format"
           content: |
-            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word. Microsoft Windows uses MHTML file format for recording scenarios of problems observed during the usage of any application on Windows that raises issues. The MHTML file format encodes the page contents similar to specifications defined in message/rfc822 which is plain text email related specifications. The actual specifications of the format are as detailed by RFC 2557.
+            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word.
 
           link: "https://docs.fileformat.com/web/mhtml/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLAM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xlam/"
+        - name: "XLAM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xlam-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

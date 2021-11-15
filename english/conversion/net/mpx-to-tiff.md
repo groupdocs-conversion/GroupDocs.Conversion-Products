@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:12+03:00
+date: 2021-11-15T08:26:37
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-MPX"
           title: " About MPX File Format"
           content: |
-            MPX, Microsoft Exchange File Format, is an ASCII file format for transferring of project information between Microsoft Project (MSP) and other applications that support the MPX file format such as Primavera Project Planner, Sciforma and Timerline Precision Estimating. The MPX file format allows you to transfer project information that cannot appear in a table, such as detailed resource assignment information, calendar information, or information in the Project Info dialog box.
+            MPX, Microsoft Exchange File Format, is an ASCII file format for transferring project information between Microsoft Project (MSP) and other applications that support the MPX file format such as Primavera Project Planner, Sciforma, and Timberline Precision Estimating. The MPX file format allows you to transfer project information that cannot appear in a table, such as detailed resource assignment information, calendar information, or information in the Project Info dialog box.
 
           link: "https://docs.fileformat.com/project-management/mpx/"
 
     format:
         # format loop
-        - icon: "far fa-file-TIFF"
+        - icon: "far fa-image"
           title: " About TIFF File Format"
           content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is extensible and has underwent several revisions that allows the inclusion of an unlimited amount of private or special-purpose information. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
+            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
 
           link: "https://docs.fileformat.com/image/tiff/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MPX TO MPX"
-          link: "https://products.groupdocs.com/conversion/net/mpx-to-mpx/"
+        - name: "MPX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/mpx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:34+03:00
+date: 2021-11-15T08:27:22
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XLSB"
+        - icon: "far fa-file-excel"
           title: " About XLSB File Format"
           content: |
-            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file. XLSB files can be read and written to faster which makes them useful for working with large files. XLSB is seldom used to store workbooks as XLSX (and previously XLS) are the most common user selected file formats for saving workbooks. It can be opened by Microsoft Office 2007 and above.
+            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file.
 
           link: "https://docs.fileformat.com/spreadsheet/xlsb/"
 
     format:
         # format loop
-        - icon: "far fa-file-DOT"
+        - icon: "far fa-file-word"
           title: " About DOT File Format"
           content: |
-            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms. The DOT file format is specific to Microsoft Word 2003 and earlier, but is supported by higher versions as well. Microsoft Word by default opens every new document based on normal.dot file. If modified, all the new files created will result in same settings as from the template file. In Microsoft Word 2007, the DOT file format has been replaced with Office OpenXML based DOTX file format.
+            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms.
 
           link: "https://docs.fileformat.com/word-processing/dot/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLSB TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/xlsb-to-xlsb/"
+        - name: "XLSB TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xlsb-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

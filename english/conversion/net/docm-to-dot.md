@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:22:05+03:00
+date: 2021-11-15T08:26:02
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-DOCM"
+        - icon: "far fa-file-word"
           title: " About DOCM File Format"
           content: |
-            DOCM files are Microsoft Word 2007 or higher generated documents with the ability to run macros. It is similar to DOCX file format but the ability to run macros makes it different from DOCX. Like DOCX, DOCM files can be store text, images, tables, shapes, charts and other contents.The capability to run macros make it easy to save time by executing the series of commands in the form of recorded actions for automatic completion of a task. DOCM files can be opened and edited in Microsoft Word 2007 and above.
+            DOCM files are Microsoft Word 2007 or higher generated documents with the ability to run macros. It is similar to DOCX file format but the ability to run macros makes it different from DOCX. Like DOCX, DOCM files can be store text, images, tables, shapes, charts and other contents. The capability to run macros make it easy to save time by executing the series of commands in the form of recorded actions for automatic completion of a task. DOCM files can be opened and edited in Microsoft Word 2007 and above.
 
           link: "https://docs.fileformat.com/word-processing/docm/"
 
     format:
         # format loop
-        - icon: "far fa-file-DOT"
+        - icon: "far fa-file-word"
           title: " About DOT File Format"
           content: |
-            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms. The DOT file format is specific to Microsoft Word 2003 and earlier, but is supported by higher versions as well. Microsoft Word by default opens every new document based on normal.dot file. If modified, all the new files created will result in same settings as from the template file. In Microsoft Word 2007, the DOT file format has been replaced with Office OpenXML based DOTX file format.
+            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms.
 
           link: "https://docs.fileformat.com/word-processing/dot/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DOCM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/docm-to-docm/"
+        - name: "DOCM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/docm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

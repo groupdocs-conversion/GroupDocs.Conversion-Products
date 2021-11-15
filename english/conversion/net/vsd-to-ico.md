@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:30+03:00
+date: 2021-11-15T08:27:09
 draft: false
 
 ############################# Head ############################
@@ -103,7 +103,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSD"
+        - icon: "far fa-file-alt"
           title: " About VSD File Format"
           content: |
             VSD files are drawings created with Microsoft Visio application to represent variety of graphical objects and the interconnection between these. Such drawings can contain visual objects such as visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Microsoft Visio offers the capability to convert Visio files to a number of different file formats including PNG, BMP, PDF and others.
@@ -112,7 +112,7 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-ICO"
+        - icon: "far fa-image"
           title: " About ICO File Format"
           content: |
             Files with ICO extension are image file types used as icon for representation of an application on Microsoft Windows. These come in different size, colour support and resolution to suit the requirements of the display. Another similar image file format on Microsoft Windows is .CUR for cursor representation and defines a hotspot in the image header. On MacOS, ICNS file formats serve the same purpose as ICO files. Several online websites as well as applications provide the feature of creating such files and convert other image formats such as BMP, PNG, etc. to icon file format. The official IANA registered Internet media type for ICO files is image/vnd.microsoft.icon.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSD TO VSD"
-          link: "https://products.groupdocs.com/conversion/net/vsd-to-vsd/"
+        - name: "VSD TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vsd-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

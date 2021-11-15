@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:31:57+03:00
+date: 2021-11-15T08:27:06
 draft: false
 
 ############################# Head ############################
@@ -103,7 +103,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-TXT"
+        - icon: "far fa-file-word"
           title: " About TXT File Format"
           content: |
             A file with .TXT extension represents a text document that contains plain text in the form of lines. Paragraphs in a text document are recognized by carriage returns and are used for better arrangement of file contents. A standard text document can be opened in any text editor or word processing application on different operating systems. All the text contained in such a file is in human-readable format and represented by sequence of characters.
@@ -112,10 +112,10 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-HTM"
+        - icon: "far fa-file-code"
           title: " About HTM File Format"
           content: |
-            Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others. It defines the markups for creating static pages to be published on World Wide Web (WWW) for access by others. These markups tell the browsers how to display a web page's contents. Such pages can contain plain text, images, hyperlinks to other pages, videos and other media information. When a web page is published, you can have a look at the markup code behind it by viewing its page source. Modern browsers allow to inspect each section of a web page where each sub-division or markup element in the HTM source is elaborated.
+            Files with .htm extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox, and a number of others.
 
           link: "https://docs.fileformat.com/web/htm/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "TXT TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/txt-to-txt/"
+        - name: "TXT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/txt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

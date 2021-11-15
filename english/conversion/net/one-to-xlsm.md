@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:55+03:00
+date: 2021-11-15T08:26:42
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-ONE"
           title: " About ONE File Format"
           content: |
-            File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
+            Files with .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips.
 
           link: "https://docs.fileformat.com/note-taking/one/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLSM"
+        - icon: "far fa-file-excel"
           title: " About XLSM File Format"
           content: |
             Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "ONE TO ONE"
-          link: "https://products.groupdocs.com/conversion/net/one-to-one/"
+        - name: "ONE TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/one-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

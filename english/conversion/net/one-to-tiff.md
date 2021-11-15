@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:55+03:00
+date: 2021-11-15T08:26:42
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-ONE"
           title: " About ONE File Format"
           content: |
-            File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
+            Files with .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips.
 
           link: "https://docs.fileformat.com/note-taking/one/"
 
     format:
         # format loop
-        - icon: "far fa-file-TIFF"
+        - icon: "far fa-image"
           title: " About TIFF File Format"
           content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is extensible and has underwent several revisions that allows the inclusion of an unlimited amount of private or special-purpose information. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
+            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
 
           link: "https://docs.fileformat.com/image/tiff/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "ONE TO ONE"
-          link: "https://products.groupdocs.com/conversion/net/one-to-one/"
+        - name: "ONE TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/one-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

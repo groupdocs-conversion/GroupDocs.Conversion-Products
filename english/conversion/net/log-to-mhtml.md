@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:12+03:00
+date: 2021-11-15T08:26:31
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-LOG"
           title: " About LOG File Format"
           content: |
-            A file with .log extension contains the list of plain text with timestamp. Usually, certain activity detail is logged by the softwares or operating systems to help the developers or users to track what was happening at a certain time period. Users can edit these files very easily by using any text editors. Usually the error reports or login activities are logged by the operating systems, but other softwares or web servers also generate log files to track visitors and to monitor bandwidth usage.
+            A log file is a file that records either events that occur in an operating system or other software runs.
 
-          link: "https://docs.fileformat.com/database/log/"
+          link: "https://en.wikipedia.org/wiki/Log_file"
 
     format:
         # format loop
-        - icon: "far fa-file-MHTML"
+        - icon: "far fa-file-code"
           title: " About MHTML File Format"
           content: |
-            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word. Microsoft Windows uses MHTML file format for recording scenarios of problems observed during the usage of any application on Windows that raises issues. The MHTML file format encodes the page contents similar to specifications defined in message/rfc822 which is plain text email related specifications. The actual specifications of the format are as detailed by RFC 2557.
+            Files with MHTML extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word.
 
           link: "https://docs.fileformat.com/web/mhtml/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "LOG TO LOG"
-          link: "https://products.groupdocs.com/conversion/net/log-to-log/"
+        - name: "LOG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/log-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

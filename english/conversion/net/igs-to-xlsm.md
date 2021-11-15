@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:58+03:00
+date: 2021-11-15T08:26:22
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-IGS"
           title: " About IGS File Format"
           content: |
-            A file with .igs (Initial Graphics Exchange) extension is a 2D-3D design exchange file format that is independent of source or destination file format specifications used by CAD applications. It is be used to exchange design information about circuit diagrams, wireframe, freeform surface between two independent systems. It is similar to IGES and is primary requirement of manufacturers for pricing and designing molds for your product. IGS has most recently been replaced by the newer STEP(.STP) file format. IGS files can be opened by applications such as Autodesk, FreeCAD, CADEX CAD Exchanger and other similar applications.
+            A file with .igs (Initial Graphics Exchange) extension is a 2D-3D design exchange file format that is independent of source or destination file format specifications used by CAD applications. It is used to exchange design information about circuit diagrams, wireframes, the freeform surfaces between two independent systems. IGS files can be opened by applications such as Autodesk, FreeCAD, CADEX CAD Exchanger, and other similar applications.
 
           link: "https://docs.fileformat.com/cad/igs/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLSM"
+        - icon: "far fa-file-excel"
           title: " About XLSM File Format"
           content: |
             Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "IGS TO IGS"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-igs/"
+        - name: "IGS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/igs-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

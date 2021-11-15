@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:01+03:00
+date: 2021-11-15T08:26:42
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-OST"
           title: " About OST File Format"
           content: |
-            OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. It is automatically created on the first use of Microsoft Outlook upon connectivity with server. Once the file is created, the data is synchronized with the email server so that it is available offline as well in case of disconnectivity from email server. OST files can user mailbox items such as emails, contacts, calendar information, notes, tasks and other similar data. Users can create emails and other data items in OST file even in the absence of connection to the server, but these will not be synchronized with the server. Once the connection is established, the local file is synchronized with the server again so that both the server and the local copy are at the same level of information.
+            OST or Offline Storage Files represent the user's mailbox data in offline mode on the local machine upon registration with Exchange Server using Microsoft Outlook. It is automatically created on the first use of Microsoft Outlook upon connectivity with the server. Once the file is created, the data is synchronized with the email server so that it is available offline as well in case of disconnectivity from the email server.
 
           link: "https://docs.fileformat.com/email/ost/"
 
     format:
         # format loop
-        - icon: "far fa-file-PDF"
+        - icon: "far fa-file-alt"
           title: " About PDF File Format"
           content: |
-            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
+            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins.
 
           link: "https://docs.fileformat.com/view/pdf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OST TO OST"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-ost/"
+        - name: "OST TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ost-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:29+03:00
+date: 2021-11-15T08:26:20
 draft: false
 
 ############################# Head ############################
@@ -103,16 +103,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-HTM"
+        - icon: "far fa-file-code"
           title: " About HTM File Format"
           content: |
-            Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others. It defines the markups for creating static pages to be published on World Wide Web (WWW) for access by others. These markups tell the browsers how to display a web page's contents. Such pages can contain plain text, images, hyperlinks to other pages, videos and other media information. When a web page is published, you can have a look at the markup code behind it by viewing its page source. Modern browsers allow to inspect each section of a web page where each sub-division or markup element in the HTM source is elaborated.
+            Files with .htm extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox, and a number of others.
 
           link: "https://docs.fileformat.com/web/htm/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLSM"
+        - icon: "far fa-file-excel"
           title: " About XLSM File Format"
           content: |
             Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "HTM TO HTM"
-          link: "https://products.groupdocs.com/conversion/net/htm-to-htm/"
+        - name: "HTM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/htm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

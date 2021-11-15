@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:23+03:00
+date: 2021-11-15T08:26:44
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-OTS"
           title: " About OTS File Format"
           content: |
-            A file with .ots extension is an OpenDocument Spreadsheet Template file that is created with the Calc application software included in Apache OpenOffice. Calc application software is the similar to Excel available in Microsoft Office. OTS file format is used to create templates that contain predefine settings related to styles, font, data, spreadsheet layout, and formatting. OTF files have mime-type application/vnd.oasis.opendocument.spreadsheet-template. These template files can be used as a starting point to generate and save actual data files that are saved in ODS file format. OTS files can be used with applications such as OpenOffice and LibreOffice.
+            OTS is a spreadsheet template in OpenDocument format. OTS files are used to create ODS files with same styling and formatting.
 
           link: "https://docs.fileformat.com/spreadsheet/ots/"
 
     format:
         # format loop
-        - icon: "far fa-file-POTX"
+        - icon: "far fa-file-powerpoint"
           title: " About POTX File Format"
           content: |
             Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OTS TO OTS"
-          link: "https://products.groupdocs.com/conversion/net/ots-to-ots/"
+        - name: "OTS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ots-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

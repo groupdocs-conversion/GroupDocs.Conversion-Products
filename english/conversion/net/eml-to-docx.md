@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:25+03:00
+date: 2021-11-15T08:26:12
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-EML"
           title: " About EML File Format"
           content: |
-            EML file format represents email messages saved using Outlook and other relevant applications. Almost all emailing clients support this file format for its compliance with RFC-822 Internet Message Format Standard. Microsoft Outlook is the default software for opening EML message types. EML files can be used for saving to disc as well as sending out to recipients using communication protocols.
+            EML file format represents email messages saved using Outlook and other relevant applications. Almost all emailing clients support this file format for its compliance with RFC-822 Internet Message Format Standard. Microsoft Outlook is default software for opening EML message types. EML files can be used for saving to disc as well as sending out to recipients using communication protocols.
 
           link: "https://docs.fileformat.com/email/eml/"
 
     format:
         # format loop
-        - icon: "far fa-file-DOCX"
+        - icon: "far fa-file-word"
           title: " About DOCX File Format"
           content: |
-            DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
+            Docx is well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
 
           link: "https://docs.fileformat.com/word-processing/docx/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EML TO EML"
-          link: "https://products.groupdocs.com/conversion/net/eml-to-eml/"
+        - name: "EML TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/eml-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

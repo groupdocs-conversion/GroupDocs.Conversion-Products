@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:10+03:00
+date: 2021-11-15T08:27:12
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSSX"
+        - icon: "far fa-file-alt"
           title: " About VSSX File Format"
           content: |
-            Files with .VSSX extension are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information. Microsoft Visio also provides the capability to convert Visio files to different file formats such as PNG, BMP, PDF and others. It is available for both Windows and Mac OS.
+            Files with .VSSX extension are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information.
 
           link: "https://docs.fileformat.com/image/vssx/"
 
     format:
         # format loop
-        - icon: "far fa-file-ODS"
+        - icon: "far fa-file-excel"
           title: " About ODS File Format"
           content: |
-            Files with ODS extension stand for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. It is XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS. A number of applications on Windows as well as other operating systems can open ODS files for editing and manipulation including Microsoft Excel, NeoOffice and LibreOffice. ODS files can also be converted into other spreadsheet formats as well like XLS, XLSX and others by different applications.
+            Files with ODS extension stand for OpenDocument Spreadsheet Document format that is editable by the user. Data is stored inside the ODF file into rows and columns. It is an XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS.
 
           link: "https://docs.fileformat.com/spreadsheet/ods/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSSX TO VSSX"
-          link: "https://products.groupdocs.com/conversion/net/vssx-to-vssx/"
+        - name: "VSSX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vssx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

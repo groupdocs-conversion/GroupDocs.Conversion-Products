@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:21:53+03:00
+date: 2021-11-15T08:26:01
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DNG"
           title: " About DNG File Format"
           content: |
-            DNG is a digital camera image format used for the storage of raw files. It has been developed by Adobe in September 2004. It was basically developed for digital photography. DNG is an extension of TIFF/EP standard format and uses metadata significantly. In order to manipulate raw data from digital cameras with ease of flexibility and artistic control, photographers opt camera raw files. JPEG and TIFF formats store images that are processed by the camera, therefore not much room for alteration is available in such formats.
+            DNG is a digital camera image format used for the storage of raw files. It has been developed by Adobe in September 2004. It was basically developed for digital photography. DNG is an extension of TIFF/EP standard format and uses metadata significantly. In order to manipulate raw data from digital cameras with ease of flexibility and artistic control, photographers opt camera raw files.
 
           link: "https://docs.fileformat.com/image/dng/"
 
     format:
         # format loop
-        - icon: "far fa-file-PNG"
+        - icon: "far fa-image"
           title: " About PNG File Format"
           content: |
-            PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format. Almost all Operating Systems have support for opening PNG files. For example, Microsoft Windows viewer has the capability to open PNG files as the OS has by default the support available as part of installation.
+            PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format.
 
           link: "https://docs.fileformat.com/image/png/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DNG TO DNG"
-          link: "https://products.groupdocs.com/conversion/net/dng-to-dng/"
+        - name: "DNG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dng-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

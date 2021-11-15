@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:13+03:00
+date: 2021-11-15T08:26:31
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-LOG"
           title: " About LOG File Format"
           content: |
-            A file with .log extension contains the list of plain text with timestamp. Usually, certain activity detail is logged by the softwares or operating systems to help the developers or users to track what was happening at a certain time period. Users can edit these files very easily by using any text editors. Usually the error reports or login activities are logged by the operating systems, but other softwares or web servers also generate log files to track visitors and to monitor bandwidth usage.
+            A log file is a file that records either events that occur in an operating system or other software runs.
 
-          link: "https://docs.fileformat.com/database/log/"
+          link: "https://en.wikipedia.org/wiki/Log_file"
 
     format:
         # format loop
-        - icon: "far fa-file-POTX"
+        - icon: "far fa-file-powerpoint"
           title: " About POTX File Format"
           content: |
             Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "LOG TO LOG"
-          link: "https://products.groupdocs.com/conversion/net/log-to-log/"
+        - name: "LOG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/log-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

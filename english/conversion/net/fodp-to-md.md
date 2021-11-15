@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:04+03:00
+date: 2021-11-15T08:26:17
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-FODP"
+        - icon: "far fa-file-powerpoint"
           title: " About FODP File Format"
           content: |
             FODP is a file format for the presentations saved in OpenDocument format.
 
-          link: "https://docs.fileformat.com/presentation/"
+          link: "https://en.wikipedia.org/wiki/OpenDocument"
 
     format:
         # format loop
-        - icon: "far fa-file-MD"
+        - icon: "far fa-file-code"
           title: " About MD File Format"
           content: |
-            Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. MD files are saved in plain text format that uses Markdown language which also includes inline text symbols, defining how a text can be formatted such as indentations, table formatting, fonts, and headers. MD files can be converted to HTML with a program called Markdown. Markdown language is released by John Gruber.
+            Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. MD files are saved in plain text format that uses Markdown language which also includes inline text symbols, defining how a text can be formatted such as indentations, table formatting, fonts, and headers.  MD files can be converted to HTML with a program called Markdown. Markdown language is released by John Gruber.
 
           link: "https://docs.fileformat.com/word-processing/md/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "FODP TO FODP"
-          link: "https://products.groupdocs.com/conversion/net/fodp-to-fodp/"
+        - name: "FODP TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/fodp-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

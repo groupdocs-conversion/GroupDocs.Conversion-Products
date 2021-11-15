@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:49+03:00
+date: 2021-11-15T08:27:16
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VTX"
+        - icon: "far fa-file-alt"
           title: " About VTX File Format"
           content: |
-            A basic conversion with Aspose APIs can be done with just 2 lines of code. Our APIs are supported on all major platforms and Operating Systems. Before executing the code below, please make sure that you have the following prerequisites on your system. First you need Microsoft Windows or a compatible OS with .NET Framework and .NET Core, Windows Azure, Mono or Xamarin Platforms, Development environment like Microsoft Visual Studio and Aspose.Words for .NET DLL referenced in your project.
+            A file with VTX extension is a Microsoft Visio drawing template that is saved to disc in XML file format. The template is aimed to provide a file with basic settings that can be used to create multiple Visio files of the same settings. Another similar format is VST which is saved in binary format rather than XML. VTX files are supported with Visio 2010 and newer versions.
 
           link: "https://docs.fileformat.com/image/vtx/"
 
     format:
         # format loop
-        - icon: "far fa-file-HTML"
+        - icon: "far fa-file-code"
           title: " About HTML File Format"
           content: |
-            HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well. Each HTML page is made up of HTML elements such as forms, text, images, animations, links, etc. These elements are represented by tags such as img, a, p and several others where each tag has start and end. It can also embed applications written in scripting languages such as JavaScript and Style Sheets (CSS) for overall layout representation.
+            HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well.
 
           link: "https://docs.fileformat.com/web/html/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VTX TO VTX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-vtx/"
+        - name: "VTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

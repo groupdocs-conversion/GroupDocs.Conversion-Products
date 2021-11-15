@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:22:56+03:00
+date: 2021-11-15T08:26:08
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DWG"
           title: " About DWG File Format"
           content: |
-            Files with DWG extension represent proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represent the binary file format for CAD (Computer Aided Design) drawings. It contains vector image and metadata for representation of contents of CAD files. There are free viewers available for viewing DWG files on Windows Operating System such as the Autodesk's free DWG TrueView. There are other third party applications as well that support reaching DWG files.
+            Files with DWG extension represent proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represents the binary file format for CAD (Computer Aided Design) drawings. It contains a vector image and metadata for the representation of the contents of CAD files.
 
-          link: "https://docs.fileformat.com/cad/dwg/"
+          link: "https://docs.fileformat.com/specification/cad/dwg/"
 
     format:
         # format loop
-        - icon: "far fa-file-JPG"
+        - icon: "far fa-image"
           title: " About JPG File Format"
           content: |
-            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image. The higher the compression value, the higher the degradation in image quality.
+            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
 
           link: "https://docs.fileformat.com/image/jpeg/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DWG TO DWG"
-          link: "https://products.groupdocs.com/conversion/net/dwg-to-dwg/"
+        - name: "DWG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dwg-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

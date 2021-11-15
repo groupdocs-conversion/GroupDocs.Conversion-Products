@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-03T14:25:12+03:00
+date: 2021-11-15T08:26:58
 draft: false
 
 ############################# Head ############################
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PSD TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-psd/"
+        - name: "PSD TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

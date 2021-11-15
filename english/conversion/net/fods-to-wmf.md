@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:15+03:00
+date: 2021-11-15T08:26:18
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-FODS"
+        - icon: "far fa-file-excel"
           title: " About FODS File Format"
           content: |
-            A file with .fods extension is a type of OpenDocument Spreadsheet document format that stores data in rows and columns. The format is specified as part of ODF 1.2 specifications published and maintained by OASIS. FODS files cannot be opened with Excel, another Spreadsheet software application by Microsoft. FODS files can be saved as ODS using LibreOffice and can be converted to other formats such as XLS and XLSX.
+            FODS is a ZIP-compressed XML-based file format for spreadsheets, charts, presentations, and word processing documents.
 
-          link: "https://docs.fileformat.com/spreadsheet/fods/"
+          link: "https://en.wikipedia.org/wiki/OpenDocument"
 
     format:
         # format loop
         - icon: "far fa-file-WMF"
           title: " About WMF File Format"
           content: |
-            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen. A more enhanced version of WMF, known as Enhanced Meta Files (EMF), was published later that makes the format more feature rich. Practically, WMF are similar to SVG.
+            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen.
 
           link: "https://docs.fileformat.com/image/wmf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "FODS TO FODS"
-          link: "https://products.groupdocs.com/conversion/net/fods-to-fods/"
+        - name: "FODS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/fods-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

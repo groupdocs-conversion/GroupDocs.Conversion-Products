@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:30:45+03:00
+date: 2021-11-15T08:26:59
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-RTF"
           title: " About RTF File Format"
           content: |
-            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting. The file format specifications are available by Microsoft for public download and can be referred to from developer's perspective.
+            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting.
 
           link: "https://docs.fileformat.com/word-processing/rtf/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-BMP"
           title: " About BMP File Format"
           content: |
-            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various colour depths.
+            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
 
           link: "https://docs.fileformat.com/image/bmp/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "RTF TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-rtf/"
+        - name: "RTF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

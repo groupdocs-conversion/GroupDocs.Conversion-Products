@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:03+03:00
+date: 2021-11-15T08:26:09
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DWT"
           title: " About DWT File Format"
           content: |
-            A DWT file is an AutoCAD drawing template file that is used as starter for creating drawings that can be saved as DWG files. Such template files provide initial settings such as unit types, precision required, title blocks, layer names, line types and other similar information for lateral conversion to proper drawing files. Both AutoCAD and CoreCAD can be used to read the template files and utilize them further. In simple words, a DWT is a DWG with pre-defined read-only attributes in the same way as a MSWord DOT file is to a DOC file.
+            A DWT file is an AutoCAD drawing template file that is used as a starter for creating drawings that can be saved as DWG files. Such template files provide initial settings such as unit types, the precision required, title blocks, layer names, line types, and other similar information for lateral conversion to proper drawing files. Both AutoCAD and CoreCAD can be used to read the template files and utilize them further.
 
           link: "https://docs.fileformat.com/cad/dwt/"
 
     format:
         # format loop
-        - icon: "far fa-file-ODP"
+        - icon: "far fa-file-powerpoint"
           title: " About ODP File Format"
           content: |
-            Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+            Files with ODP extension represents the presentation file format used by OpenOffice.org in the OASIS OpenDocument standard. A presentation file is a collection of slides where each slide can comprise text, images, formatting, animations, and other media. These slides are presented to an audience in the form of slideshows with custom presentation settings.
 
           link: "https://docs.fileformat.com/presentation/odp/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DWT TO DWT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-dwt/"
+        - name: "DWT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

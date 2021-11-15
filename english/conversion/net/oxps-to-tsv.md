@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:39+03:00
+date: 2021-11-15T08:26:47
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-OXPS"
           title: " About OXPS File Format"
           content: |
-            The file format OXPS is known as Open XML Paper Specification. It’s a page description language and document format. Microsoft is the developer of this format. OXPS file format is very much familiar to these PDF files. The setup of the OXPS file is the same as an XPS format. The only difference is the description of OXPS as an open format. The .oxps file extension is the most current version of the XPS file format originated by Microsoft and Ecma International. If we talk about the specification, the OXPS and XPS files are used to publish, share, and allocate fixed-layout documents. As a substitute to PDFs, the OXPS file format can store text and multimedia data, with arranging features and printing layout characteristics.
+            Open XML Paper Specification (also referred to as OpenXPS) is an open specification for a page description language and a fixed-document format.
 
-          link: "https://docs.fileformat.com/page-description-language/oxps/"
+          link: "https://en.wikipedia.org/wiki/Open_XML_Paper_Specification"
 
     format:
         # format loop
-        - icon: "far fa-file-TSV"
+        - icon: "far fa-file-excel"
           title: " About TSV File Format"
           content: |
-            A Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. The file format, similar to CSV, is used for organization of data in a structured manner in order to import and export between different applications. The format is primarily used for data import/export and exchange in Spreadsheet applications and databases. Each record in a TSV file is contained in a single line of text file where each field value is separated by a tab character. Media type for TSV file format is text/tab-separated-values.
+            A Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. The file format, similar to CSV, is used for organization of data in a structured manner in order to import and export between different applications. The format is primarily used for data import/export and exchange in Spreadsheet applications and databases. 
 
           link: "https://docs.fileformat.com/spreadsheet/tsv/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OXPS TO OXPS"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-oxps/"
+        - name: "OXPS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

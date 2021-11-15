@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:30:21+03:00
+date: 2021-11-15T08:26:57
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-PROJECT"
           title: " About PROJECT File Format"
           content: |
-            Have you ever come across and wondered what is an MPP file? MPP and other similar files are Project file formats that are created by Project Management software. A project file is a collection of tasks, resources, and scheduling to get a measurable output in the form of a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation. Common Project Management file extensions and their associated file formats include MPP, MPX and XER.
+            MPP and other similar files are Project file formats that are created by Project Management software such as Microsoft Project. A project file is a collection of tasks, resources, and their scheduling to get a measurable output in the form or a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation. Primavera P6 is another Project Management Software by Oracle that provides complete project planning.
 
           link: "https://docs.fileformat.com/project-management/"
 
     format:
         # format loop
-        - icon: "far fa-file-POWERPOINT"
+        - icon: "far fa-file-powerpoint"
           title: " About POWERPOINT File Format"
           content: |
-            You must be familiar with PPTX and PPT extension files while working with Microsoft PowerPoint. These are Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. PowerPoint Viewer lets you a number of supported Presentation file formats and is available for free. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.
+            Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects.
 
           link: "https://docs.fileformat.com/presentation/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PROJECT TO PROJECT"
-          link: "https://products.groupdocs.com/conversion/net/project-to-project/"
+        - name: "PROJECT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/project-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

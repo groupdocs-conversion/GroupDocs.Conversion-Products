@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:21:11+03:00
+date: 2021-11-15T08:25:57
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-DCM"
+        - icon: "far fa-image"
           title: " About DCM File Format"
           content: |
-            Files with .DCM extension represent digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images. It is similar to DICOM file format and can include patient’s information for reference.
+            Files with .DCM extension represent a digital image that stores medical information of patients such as MRIs, CT scans, and ultrasound images. DCM files use DICOM (Digital Imaging and Communications in Medicine) image file format and can include patient’s information for reference. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images.
 
-          link: "https://docs.fileformat.com/image/dcm/"
+          link: "https://docs.fileformat.com/page-description-language/pcl/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPS"
+        - icon: "far fa-file-powerpoint"
           title: " About PPS File Format"
           content: |
-            PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+            PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode. 
 
           link: "https://docs.fileformat.com/presentation/pps/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DCM TO DCM"
-          link: "https://products.groupdocs.com/conversion/net/dcm-to-dcm/"
+        - name: "DCM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dcm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

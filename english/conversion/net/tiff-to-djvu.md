@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:31:46+03:00
+date: 2021-11-15T08:27:04
 draft: false
 
 ############################# Head ############################
-head_title: "TIFF to DjVu Converter – Convert TIFF to DjVu in C# .NET"
-head_description: "How to convert TIFF to DjVu in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "TIFF to DJVU Converter – Convert TIFF to DJVU in C# .NET"
+head_description: "How to convert TIFF to DJVU in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
 
 ############################# Header ############################
-title: "Convert TIFF to DjVu in C#"
-description: "Native and high performance TIFF to DjVu conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+title: "Convert TIFF to DJVU in C#"
+description: "Native and high performance TIFF to DJVU conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert TIFF to DjVu in C#"
+    title_left: "Steps to Convert TIFF to DJVU in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the TIFF file to DjVu using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the TIFF file to DJVU using a few lines of code.
 
         *   Create an instance of Converter class and load the TIFF file with full path
         *   Create & set ConvertOptions for the djvu type
-        *   Call Converter.Convert method and pass the full path and format (DjVu) as parameter
+        *   Call Converter.Convert method and pass the full path and format (DJVU) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -84,18 +84,18 @@ steps:
         ```cs
         // load the TIFF file
         var converter = new GroupDocs.Conversion.Converter("template.tiff");
-        // set the convert options for DjVu format
+        // set the convert options for DJVU format
         var convertOptions = converter.GetPossibleConversions()["djvu"].ConvertOptions;
-        // convert to DjVu format
+        // convert to DJVU format
         converter.Convert("output.djvu", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "TIFF to DjVu Live Demos"
+    title: "TIFF to DJVU Live Demos"
     content: |
-        Convert TIFF to DjVu right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert TIFF to DJVU right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
+        - icon: "far fa-image"
           title: " About TIFF File Format"
           content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is extensible and has underwent several revisions that allows the inclusion of an unlimited amount of private or special-purpose information. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
+            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
 
           link: "https://docs.fileformat.com/image/tiff/"
 
     format:
         # format loop
-        - icon: "far fa-file-image-o"
-          title: " About DjVu File Format"
+        - icon: "far fa-file-DJVU"
+          title: " About DJVU File Format"
           content: |
-            DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. It was developed by AT&T Labs. It uses multiple techniques like image layer separation of text and background images, progressive loading, arithmetic coding and lossy compression for bitonal images. Since DJVU file can contain compressed yet high-quality colour images, photographs, text, and drawings and can be saved in less space therefore, it’s used on web as eBooks, manuals, newspapers, ancient documents, etc. DjVu can be graded superior alternative to PDF. File extensions associated to DjVu are .DJVU or .DJV. DjVu can achieve compression ratios about 5 – 10 better than existing methods such as JPEG & GIF for colour documents and 3 – 8 times better than TIFF in black and white documents. Scanned documents at 300 DPI with full colour upto 25 MB can be compressed down to 30 to 100 KB. Similarly Black and white documents can be compressed upto 5 to 30 KB. Average HTML page can be up to 50 KB, therefore, these documents can be uploaded on net without any problem.
+            DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. It was developed by AT&T Labs. It uses multiple techniques like image layer separation of text and background images, progressive loading, arithmetic coding and lossy compression for bitonal images.
 
           link: "https://docs.fileformat.com/image/djvu/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "TIFF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/tiff-to-tiff/"
+        - name: "TIFF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/tiff-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

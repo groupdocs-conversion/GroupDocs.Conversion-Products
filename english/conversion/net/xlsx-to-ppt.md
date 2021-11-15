@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:52+03:00
+date: 2021-11-15T08:27:23
 draft: false
 
 ############################# Head ############################
@@ -103,7 +103,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XLSX"
+        - icon: "far fa-file-excel"
           title: " About XLSX File Format"
           content: |
             XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
@@ -112,10 +112,10 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-PPT"
+        - icon: "far fa-file-powerpoint"
           title: " About PPT File Format"
           content: |
-            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format.
 
           link: "https://docs.fileformat.com/presentation/ppt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLSX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlsx/"
+        - name: "XLSX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

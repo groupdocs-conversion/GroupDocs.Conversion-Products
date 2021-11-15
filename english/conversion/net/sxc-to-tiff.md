@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:31:22+03:00
+date: 2021-11-15T08:27:03
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-SXC"
           title: " About SXC File Format"
           content: |
-            The file format SXC(Sun XML Calc) belongs to an office suite called OpenOffice.org. This format generally deals with the spreadsheet needs of users as it is an XML based spreadsheet file format. SXC format supports formulas, functions, macros and charts along with DataPilot, which is an incredible feature because it automatically individualizes and provides summaries of raw imported data. The files created with this software are saved with extension .sxc.
+            File with .sxc extension is a spreadsheet created by StarOffice Calc.
 
-          link: "https://docs.fileformat.com/spreadsheet/sxc/"
+          link: "https://en.wikipedia.org/wiki/StarOffice"
 
     format:
         # format loop
-        - icon: "far fa-file-TIFF"
+        - icon: "far fa-image"
           title: " About TIFF File Format"
           content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is extensible and has underwent several revisions that allows the inclusion of an unlimited amount of private or special-purpose information. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
+            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
 
           link: "https://docs.fileformat.com/image/tiff/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "SXC TO SXC"
-          link: "https://products.groupdocs.com/conversion/net/sxc-to-sxc/"
+        - name: "SXC TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/sxc-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

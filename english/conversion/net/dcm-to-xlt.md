@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:21:15+03:00
+date: 2021-11-15T08:25:57
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-DCM"
+        - icon: "far fa-image"
           title: " About DCM File Format"
           content: |
-            Files with .DCM extension represent digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images. It is similar to DICOM file format and can include patient’s information for reference.
+            Files with .DCM extension represent a digital image that stores medical information of patients such as MRIs, CT scans, and ultrasound images. DCM files use DICOM (Digital Imaging and Communications in Medicine) image file format and can include patient’s information for reference. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images.
 
-          link: "https://docs.fileformat.com/image/dcm/"
+          link: "https://docs.fileformat.com/page-description-language/pcl/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLT"
+        - icon: "far fa-file-excel"
           title: " About XLT File Format"
           content: |
-            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening this old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
+            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening these old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
 
           link: "https://docs.fileformat.com/spreadsheet/xlt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DCM TO DCM"
-          link: "https://products.groupdocs.com/conversion/net/dcm-to-dcm/"
+        - name: "DCM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dcm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

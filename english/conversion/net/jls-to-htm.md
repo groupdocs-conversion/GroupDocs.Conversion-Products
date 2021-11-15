@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:15+03:00
+date: 2021-11-15T08:26:24
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JLS"
+        - icon: "far fa-image"
           title: " About JLS File Format"
           content: |
-            Lossless JPEG was developed as a late addition to JPEG in 1993, using a completely different technique from the lossy JPEG standard. It uses a predictive scheme based on the three nearest (causal) neighbors (upper, left, and upper-left), and entropy coding is used on the prediction error. The standard Independent JPEG Group libraries cannot encode or decode it, but Ken Murchison of Oceana Matrix Ltd. wrote a patch that extends the IJG library to handle lossless JPEG.[1] Lossless JPEG has some popularity in medical imaging, and is used in DNG and some digital cameras to compress raw images, but otherwise was never widely adopted. Adobe's DNG SDK provides a software library for encoding and decoding lossless JPEG with up to 16 bits per sample.
+            A JLS file is an image saved in the JPEG-LS file format. It contains a lossy or lossless compressed image. JLS files are typically created by medical imaging devices and digital cameras.
 
-          link: "https://en.wikipedia.org/wiki/Lossless_JPEG"
+          link: "https://docs.fileformat.com/image/jls/"
 
     format:
         # format loop
-        - icon: "far fa-file-HTM"
+        - icon: "far fa-file-code"
           title: " About HTM File Format"
           content: |
-            Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others. It defines the markups for creating static pages to be published on World Wide Web (WWW) for access by others. These markups tell the browsers how to display a web page's contents. Such pages can contain plain text, images, hyperlinks to other pages, videos and other media information. When a web page is published, you can have a look at the markup code behind it by viewing its page source. Modern browsers allow to inspect each section of a web page where each sub-division or markup element in the HTM source is elaborated.
+            Files with .htm extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox, and a number of others.
 
           link: "https://docs.fileformat.com/web/htm/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JLS TO JLS"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-jls/"
+        - name: "JLS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jls-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

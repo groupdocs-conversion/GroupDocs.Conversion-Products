@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:47+03:00
+date: 2021-11-15T08:26:21
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-IFC"
           title: " About IFC File Format"
           content: |
-            Files with IFC extension refer to Industry Foundation Classes (IFC) file format that establishes international standards to import and export building objects and their properties. This file format provides interoperability between different software applications. Specifications for this file format are developed and maintained by buildingSMART International as its Data Standard. The ultimate objective of IFC file format is to improve communication, productivity, delivery time and quality throughout the life cycle of a building. Due to the established standards for common objects in the building industry, it reduces the loss of information during transmission from one application to another. IFC can hold data for geometry, calculation, quantities, facility management, pricing etc. for many different professions (architect, electrical, HVAC, structural, terrain etc.).
+            Files with IFC extension refer to  Industry Foundation Classes (IFC) file format that establishes international standards to import and export building objects and their properties. This file format provides interoperability between different software applications. Specifications for this file format are developed and maintained by buildingSMART International as its Data Standard.
 
           link: "https://docs.fileformat.com/cad/ifc/"
 
     format:
         # format loop
-        - icon: "far fa-file-OTP"
+        - icon: "far fa-file-powerpoint"
           title: " About OTP File Format"
           content: |
             Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "IFC TO IFC"
-          link: "https://products.groupdocs.com/conversion/net/ifc-to-ifc/"
+        - name: "IFC TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ifc-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

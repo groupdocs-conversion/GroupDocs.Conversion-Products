@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:59+03:00
+date: 2021-11-15T08:27:24
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XLT"
+        - icon: "far fa-file-excel"
           title: " About XLT File Format"
           content: |
-            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening this old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
+            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening these old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
 
           link: "https://docs.fileformat.com/spreadsheet/xlt/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-RTF"
           title: " About RTF File Format"
           content: |
-            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting. The file format specifications are available by Microsoft for public download and can be referred to from developer's perspective.
+            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting.
 
           link: "https://docs.fileformat.com/word-processing/rtf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLT TO XLT"
-          link: "https://products.groupdocs.com/conversion/net/xlt-to-xlt/"
+        - name: "XLT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xlt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

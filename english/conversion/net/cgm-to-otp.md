@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:38+03:00
+date: 2021-11-15T08:25:54
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-CGM"
           title: " About CGM File Format"
           content: |
-            Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. CGM uses these object-oriented characteristics for remolding graphical elements to render an image. A metafile contains necessary information that defines other files. In CGM, a text based source file contains all graphical elements that can be later compiled into a binary file. Basically CGM is a way to facilitate 2D graphical data interchange, independent from any particular platform, or device.
+            Computer Graphics Metafile (CGM) is free, platform-independent, international standard metafile format for storing and exchanging vector graphics (2D), raster graphics, and text. CGM uses an object-oriented approach and many function provisions for image production. CGM uses these object-oriented characteristics for remolding graphical elements to render an image. A metafile contains necessary information that defines other files. In CGM, a text-based source file contains all graphical elements that can be later compiled into a binary file.
 
           link: "https://docs.fileformat.com/page-description-language/cgm/"
 
     format:
         # format loop
-        - icon: "far fa-file-OTP"
+        - icon: "far fa-file-powerpoint"
           title: " About OTP File Format"
           content: |
             Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CGM TO CGM"
-          link: "https://products.groupdocs.com/conversion/net/cgm-to-cgm/"
+        - name: "CGM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cgm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

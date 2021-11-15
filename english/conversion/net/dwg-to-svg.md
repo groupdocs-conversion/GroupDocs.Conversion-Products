@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:22:58+03:00
+date: 2021-11-15T08:26:08
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DWG"
           title: " About DWG File Format"
           content: |
-            Files with DWG extension represent proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represent the binary file format for CAD (Computer Aided Design) drawings. It contains vector image and metadata for representation of contents of CAD files. There are free viewers available for viewing DWG files on Windows Operating System such as the Autodesk's free DWG TrueView. There are other third party applications as well that support reaching DWG files.
+            Files with DWG extension represent proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represents the binary file format for CAD (Computer Aided Design) drawings. It contains a vector image and metadata for the representation of the contents of CAD files.
 
-          link: "https://docs.fileformat.com/cad/dwg/"
+          link: "https://docs.fileformat.com/specification/cad/dwg/"
 
     format:
         # format loop
-        - icon: "far fa-file-SVG"
+        - icon: "far fa-image"
           title: " About SVG File Format"
           content: |
-            SVG files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of image. The word Scalable refers to the fact that the SVG can be scaled to different sizes without losing any quality. Text based description of such files make them independent of resolution. It is one of the mostly used format for building website and print graphics in order to achieve scalability. The format can only be used for two-dimensional graphics though. SVG files can be viewed/opened in almost all modern browsers including Chrome, Internet Explorer, Firefox, and Safari.
+            SVG files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of image. The word Scalable refers to the fact that the SVG can be scaled to different sizes without losing any quality. Text based description of such files make them independent of resolution. It is one of the mostly used format for building website and print graphics in order to achieve scalability.
 
           link: "https://docs.fileformat.com/page-description-language/svg/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DWG TO DWG"
-          link: "https://products.groupdocs.com/conversion/net/dwg-to-dwg/"
+        - name: "DWG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dwg-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

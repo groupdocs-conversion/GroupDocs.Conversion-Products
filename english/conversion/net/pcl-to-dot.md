@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:42+03:00
+date: 2021-11-15T08:26:47
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-PCL"
           title: " About PCL File Format"
           content: |
-            PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). HP created PCL to provide an efficient way for controlling printer features across many different printing devices. The format was originally developed for HP's dot matrix and Inkjet printers, but has been part of various thermal, matrix and page printers with the passage of time. The format underwent several different revisions, resulting in different versions where each version was enhanced to meet the demands of time with respect to the printer control features. Today, PCL is the most widely spread printer language in the laster printer market.
+            PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). HP created PCL to provide an efficient way of controlling printer features across many different printing devices. The format was originally developed for HP’s dot-matrix and Inkjet printers but has been part of various thermal, matrix, and page printers with the passage of time. The format underwent several different revisions, resulting in different versions where each version was enhanced to meet the demands of time with respect to the printer control features
 
           link: "https://docs.fileformat.com/page-description-language/pcl/"
 
     format:
         # format loop
-        - icon: "far fa-file-DOT"
+        - icon: "far fa-file-word"
           title: " About DOT File Format"
           content: |
-            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms. The DOT file format is specific to Microsoft Word 2003 and earlier, but is supported by higher versions as well. Microsoft Word by default opens every new document based on normal.dot file. If modified, all the new files created will result in same settings as from the template file. In Microsoft Word 2007, the DOT file format has been replaced with Office OpenXML based DOTX file format.
+            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms.
 
           link: "https://docs.fileformat.com/word-processing/dot/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PCL TO PCL"
-          link: "https://products.groupdocs.com/conversion/net/pcl-to-pcl/"
+        - name: "PCL TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/pcl-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:30:49+03:00
+date: 2021-11-15T08:26:59
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-RTF"
           title: " About RTF File Format"
           content: |
-            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting. The file format specifications are available by Microsoft for public download and can be referred to from developer's perspective.
+            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting.
 
           link: "https://docs.fileformat.com/word-processing/rtf/"
 
     format:
         # format loop
-        - icon: "far fa-file-POTM"
+        - icon: "far fa-file-powerpoint"
           title: " About POTM File Format"
           content: |
             Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "RTF TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/rtf-to-rtf/"
+        - name: "RTF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/rtf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

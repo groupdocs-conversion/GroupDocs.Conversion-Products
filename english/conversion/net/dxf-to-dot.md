@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:08+03:00
+date: 2021-11-15T08:26:10
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DXF"
           title: " About DXF File Format"
           content: |
-            DXF, Drawing Interchange Format, or Drawing Exchange Format, is a tagged data representation of AutoCAD drawing file. Each element in the file has a prefix integer number called a group code. This group code actually represents the element that follows and indicates the meaning of a data element for a given object type. DXF makes it possible to represent almost all user-specified information in a drawing file. DXF file format was developed by Autodesk as CAD data file format for data interoperability between AutoCAD and other applications. Thus, data can be imported from other formats to DXF to AutoCAD as per the DXF file format interoperability specifications.
+            DXF, Drawing Interchange Format, or Drawing Exchange Format, is a tagged data representation of AutoCAD drawing file. Each element in the file has a prefix integer number called a group code. This group code actually represents the element that follows and indicates the meaning of a data element for a given object type. DXF makes it possible to represent almost all user-specified information in a drawing file.
 
           link: "https://docs.fileformat.com/cad/dxf/"
 
     format:
         # format loop
-        - icon: "far fa-file-DOT"
+        - icon: "far fa-file-word"
           title: " About DOT File Format"
           content: |
-            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms. The DOT file format is specific to Microsoft Word 2003 and earlier, but is supported by higher versions as well. Microsoft Word by default opens every new document based on normal.dot file. If modified, all the new files created will result in same settings as from the template file. In Microsoft Word 2007, the DOT file format has been replaced with Office OpenXML based DOTX file format.
+            Files with .DOT extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms.
 
           link: "https://docs.fileformat.com/word-processing/dot/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DXF TO DXF"
-          link: "https://products.groupdocs.com/conversion/net/dxf-to-dxf/"
+        - name: "DXF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dxf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

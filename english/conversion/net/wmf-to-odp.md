@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:07+03:00
+date: 2021-11-15T08:27:17
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-WMF"
           title: " About WMF File Format"
           content: |
-            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen. A more enhanced version of WMF, known as Enhanced Meta Files (EMF), was published later that makes the format more feature rich. Practically, WMF are similar to SVG.
+            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen.
 
           link: "https://docs.fileformat.com/image/wmf/"
 
     format:
         # format loop
-        - icon: "far fa-file-ODP"
+        - icon: "far fa-file-powerpoint"
           title: " About ODP File Format"
           content: |
-            Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+            Files with ODP extension represents the presentation file format used by OpenOffice.org in the OASIS OpenDocument standard. A presentation file is a collection of slides where each slide can comprise text, images, formatting, animations, and other media. These slides are presented to an audience in the form of slideshows with custom presentation settings.
 
           link: "https://docs.fileformat.com/presentation/odp/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "WMF TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/wmf-to-wmf/"
+        - name: "WMF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/wmf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

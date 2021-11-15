@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:00+03:00
+date: 2021-11-15T08:26:30
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPM"
+        - icon: "far fa-image"
           title: " About JPM File Format"
           content: |
-            JPM refers to JPEG 2000 image coding system Part 6 which is used for document imaging. It is based on the Mixed Raster Content Standard (ISO/IEC 16485) and contains layered still images that use JPEG 2000 and other encodings. In addition to its own specifications, JPM file format inherits features from its parent i.e. the jp2 file format.
+            JPM is an extension to the JP2 format and was developed for multi-page documents with multiple objects per page.
 
-          link: "https://docs.fileformat.com/image/jpm/"
+          link: "https://docs.fileformat.com/image/jp2/"
 
     format:
         # format loop
         - icon: "far fa-file-SXC"
           title: " About SXC File Format"
           content: |
-            The file format SXC(Sun XML Calc) belongs to an office suite called OpenOffice.org. This format generally deals with the spreadsheet needs of users as it is an XML based spreadsheet file format. SXC format supports formulas, functions, macros and charts along with DataPilot, which is an incredible feature because it automatically individualizes and provides summaries of raw imported data. The files created with this software are saved with extension .sxc.
+            File with .sxc extension is a spreadsheet created by StarOffice Calc.
 
-          link: "https://docs.fileformat.com/spreadsheet/sxc/"
+          link: "https://en.wikipedia.org/wiki/StarOffice"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPM TO JPM"
-          link: "https://products.groupdocs.com/conversion/net/jpm-to-jpm/"
+        - name: "JPM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

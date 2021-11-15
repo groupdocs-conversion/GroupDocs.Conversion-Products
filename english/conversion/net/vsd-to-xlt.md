@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:35+03:00
+date: 2021-11-15T08:27:09
 draft: false
 
 ############################# Head ############################
@@ -103,7 +103,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSD"
+        - icon: "far fa-file-alt"
           title: " About VSD File Format"
           content: |
             VSD files are drawings created with Microsoft Visio application to represent variety of graphical objects and the interconnection between these. Such drawings can contain visual objects such as visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Microsoft Visio offers the capability to convert Visio files to a number of different file formats including PNG, BMP, PDF and others.
@@ -112,10 +112,10 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-XLT"
+        - icon: "far fa-file-excel"
           title: " About XLT File Format"
           content: |
-            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening this old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
+            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening these old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
 
           link: "https://docs.fileformat.com/spreadsheet/xlt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSD TO VSD"
-          link: "https://products.groupdocs.com/conversion/net/vsd-to-vsd/"
+        - name: "VSD TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vsd-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

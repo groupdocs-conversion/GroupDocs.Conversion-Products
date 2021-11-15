@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:31:53+03:00
+date: 2021-11-15T08:27:05
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-TSV"
+        - icon: "far fa-file-excel"
           title: " About TSV File Format"
           content: |
-            A Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. The file format, similar to CSV, is used for organization of data in a structured manner in order to import and export between different applications. The format is primarily used for data import/export and exchange in Spreadsheet applications and databases. Each record in a TSV file is contained in a single line of text file where each field value is separated by a tab character. Media type for TSV file format is text/tab-separated-values.
+            A Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. The file format, similar to CSV, is used for organization of data in a structured manner in order to import and export between different applications. The format is primarily used for data import/export and exchange in Spreadsheet applications and databases. 
 
           link: "https://docs.fileformat.com/spreadsheet/tsv/"
 
     format:
         # format loop
-        - icon: "far fa-file-TIF"
+        - icon: "far fa-image"
           title: " About TIF File Format"
           content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
+            TIF or TIFF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
 
           link: "https://docs.fileformat.com/image/tiff/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "TSV TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/tsv-to-tsv/"
+        - name: "TSV TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/tsv-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

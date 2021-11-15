@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:22+03:00
+date: 2021-11-15T08:27:20
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-XLAM"
           title: " About XLAM File Format"
           content: |
-            XLAM is an Excel Macro-Enabled Add-In file that is used to add new functions to Excel. An Add-In is a supplemental program that runs additional code and provides additional functionality for Excel spreadsheets. XLAM files are stored with the .xlam extension. XLAM files are XML-based files similar to XLSM and XLSX file formats and are saved with ZIP compression to reduce the overall file size.
+            XLAM files are used to extend the modules provided by Excel. They can be added to Excel 2007 or later, or to earlier versions of Excel with Open XML component support. File used by Microsoft Excel, a program that allows users to create and edit spreadsheets; contains a macro-enabled add-in, which provides extra functionality and tools that may execute macros.
 
           link: "https://docs.fileformat.com/spreadsheet/xlam/"
 
     format:
         # format loop
-        - icon: "far fa-file-JP2"
+        - icon: "far fa-image"
           title: " About JP2 File Format"
           content: |
-            JPEG 2000 (JP2) is an image coding system and state-of-the-art image compression standard. Designed, using wavelet technology JPEG 2000 can code lossless content in any quality at once. Moreover, without any substantial penalty in coding efficiency, JPEG 2000 have the capability to access and decode the same content efficaciously into a variety of other resolutions and qualities. The code streams in JPEG 2000 is significantly scalable having regions of interest that provide the facility for spatial random access. Possessing Up to 16384 diverse components with the dimensions in terapixels, and precision that can be high as 38 bits/sample.
+            JPEG 2000 (JP2) is an image coding system and state-of-the-art image compression standard. Designed, using wavelet technology JPEG 2000 can code lossless content in any quality at once. Moreover, without any substantial penalty in coding efficiency, JPEG 2000  have the capability to access and decode the same content efficaciously into a variety of other resolutions and qualities. The code streams in JPEG 2000 is significantly scalable having regions of interest that provide the facility for spatial random access. Possessing Up to 16384 diverse components with the dimensions in terapixels, and precision that can be high as 38 bits/sample.
 
           link: "https://docs.fileformat.com/image/jp2/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLAM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xlam/"
+        - name: "XLAM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xlam-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

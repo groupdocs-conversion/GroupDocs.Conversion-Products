@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:43+03:00
+date: 2021-11-15T08:26:47
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-PCL"
           title: " About PCL File Format"
           content: |
-            PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). HP created PCL to provide an efficient way for controlling printer features across many different printing devices. The format was originally developed for HP's dot matrix and Inkjet printers, but has been part of various thermal, matrix and page printers with the passage of time. The format underwent several different revisions, resulting in different versions where each version was enhanced to meet the demands of time with respect to the printer control features. Today, PCL is the most widely spread printer language in the laster printer market.
+            PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). HP created PCL to provide an efficient way of controlling printer features across many different printing devices. The format was originally developed for HP’s dot-matrix and Inkjet printers but has been part of various thermal, matrix, and page printers with the passage of time. The format underwent several different revisions, resulting in different versions where each version was enhanced to meet the demands of time with respect to the printer control features
 
           link: "https://docs.fileformat.com/page-description-language/pcl/"
 
     format:
         # format loop
-        - icon: "far fa-file-HTM"
+        - icon: "far fa-file-code"
           title: " About HTM File Format"
           content: |
-            Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others. It defines the markups for creating static pages to be published on World Wide Web (WWW) for access by others. These markups tell the browsers how to display a web page's contents. Such pages can contain plain text, images, hyperlinks to other pages, videos and other media information. When a web page is published, you can have a look at the markup code behind it by viewing its page source. Modern browsers allow to inspect each section of a web page where each sub-division or markup element in the HTM source is elaborated.
+            Files with .htm extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox, and a number of others.
 
           link: "https://docs.fileformat.com/web/htm/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PCL TO PCL"
-          link: "https://products.groupdocs.com/conversion/net/pcl-to-pcl/"
+        - name: "PCL TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/pcl-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

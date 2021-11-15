@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:35:16+03:00
+date: 2021-11-15T08:27:26
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XLTX"
+        - icon: "far fa-file-excel"
           title: " About XLTX File Format"
           content: |
             Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
+          link: "https://docs.fileformat.com/spreadsheet/xltx"
 
     format:
         # format loop
         - icon: "far fa-file-WEBP"
           title: " About WEBP File Format"
           content: |
-            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages. As per Google, WebP lossless images are 26% smaller in size compared to PNGs, while WebP lossy images are 25-34% smaller than comparable JPEG images. Images are compared based on the Structural Similarity (SSIM) index between WebP and other image file formats. WebP is a sister project of WebM multimedia container format.
+            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages.
 
           link: "https://docs.fileformat.com/image/webp/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/xltx-to-xltx/"
+        - name: "XLTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xltx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

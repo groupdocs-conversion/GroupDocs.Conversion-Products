@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:33+03:00
+date: 2021-11-15T08:26:46
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-OUTLOOK"
           title: " About OUTLOOK File Format"
           content: |
-            Have you ever come across Email file formats and failed to open it? You have come to the right place, we are going to explain what Email file formats are and what are the recommended software that can open or use them. Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.
+            Outlook Data Files are created and used by Microsoft Outlook to store messages, contacts, calendars, and other account information.
 
           link: "https://docs.fileformat.com/email/"
 
     format:
         # format loop
-        - icon: "far fa-file-POWERPOINT"
+        - icon: "far fa-file-powerpoint"
           title: " About POWERPOINT File Format"
           content: |
-            You must be familiar with PPTX and PPT extension files while working with Microsoft PowerPoint. These are Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. PowerPoint Viewer lets you a number of supported Presentation file formats and is available for free. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.
+            Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects.
 
           link: "https://docs.fileformat.com/presentation/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OUTLOOK TO OUTLOOK"
-          link: "https://products.groupdocs.com/conversion/net/outlook-to-outlook/"
+        - name: "OUTLOOK TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/outlook-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

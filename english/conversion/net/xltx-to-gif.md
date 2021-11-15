@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:35:12+03:00
+date: 2021-11-15T08:27:25
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XLTX"
+        - icon: "far fa-file-excel"
           title: " About XLTX File Format"
           content: |
             Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
+          link: "https://docs.fileformat.com/spreadsheet/xltx"
 
     format:
         # format loop
-        - icon: "far fa-file-GIF"
+        - icon: "far fa-image"
           title: " About GIF File Format"
           content: |
-            A GIF or Graphical Interchange Format is a type of highly compressed image. Owned by Unisys, GIF uses the LZW compression algorithm that does not degrade the image quality. For each image GIF typically allow up to 8 bits per pixel and up to 256 colours are allowed across the image. In contrast to a JPEG image, which can display up to 16 million colours and fairly touches the limits of the human eye. Back when the internet emerged, GIFs remained the best choice because they required low bandwidth and compatible for the graphics that consume solid areas of colour. An animated GIF combines numerous images or frames into a single file and displays them in a sequence to generate an animated clip or a short video. The colour limitations are up to 256 for each frame and are likely to be the least suitable for reproducing other images and photographs with colour gradient.
+            A GIF or Graphical Interchange Format is a type of highly compressed image. Owned by Unisys, GIF uses the LZW compression algorithm that does not degrade the image quality. For each image GIF typically allow up to 8 bits per pixel and up to 256 colors are allowed across the image. In contrast to a JPEG image, which can display up to 16 million colors and fairly touches the limits of the human eye.
 
           link: "https://docs.fileformat.com/image/gif/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/xltx-to-xltx/"
+        - name: "XLTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xltx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

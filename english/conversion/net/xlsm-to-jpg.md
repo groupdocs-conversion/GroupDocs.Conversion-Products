@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:43+03:00
+date: 2021-11-15T08:27:22
 draft: false
 
 ############################# Head ############################
@@ -103,7 +103,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XLSM"
+        - icon: "far fa-file-excel"
           title: " About XLSM File Format"
           content: |
             Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
@@ -112,10 +112,10 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-JPG"
+        - icon: "far fa-image"
           title: " About JPG File Format"
           content: |
-            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image. The higher the compression value, the higher the degradation in image quality.
+            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
 
           link: "https://docs.fileformat.com/image/jpeg/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLSM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/xlsm-to-xlsm/"
+        - name: "XLSM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xlsm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

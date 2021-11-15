@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:06+03:00
+date: 2021-11-15T08:26:09
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DWT"
           title: " About DWT File Format"
           content: |
-            A DWT file is an AutoCAD drawing template file that is used as starter for creating drawings that can be saved as DWG files. Such template files provide initial settings such as unit types, precision required, title blocks, layer names, line types and other similar information for lateral conversion to proper drawing files. Both AutoCAD and CoreCAD can be used to read the template files and utilize them further. In simple words, a DWT is a DWG with pre-defined read-only attributes in the same way as a MSWord DOT file is to a DOC file.
+            A DWT file is an AutoCAD drawing template file that is used as a starter for creating drawings that can be saved as DWG files. Such template files provide initial settings such as unit types, the precision required, title blocks, layer names, line types, and other similar information for lateral conversion to proper drawing files. Both AutoCAD and CoreCAD can be used to read the template files and utilize them further.
 
           link: "https://docs.fileformat.com/cad/dwt/"
 
     format:
         # format loop
-        - icon: "far fa-file-TIFF"
+        - icon: "far fa-image"
           title: " About TIFF File Format"
           content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is extensible and has underwent several revisions that allows the inclusion of an unlimited amount of private or special-purpose information. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
+            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
 
           link: "https://docs.fileformat.com/image/tiff/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DWT TO DWT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-dwt/"
+        - name: "DWT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

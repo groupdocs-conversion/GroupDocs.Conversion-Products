@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:59+03:00
+date: 2021-11-15T08:26:49
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-PLT"
           title: " About PLT File Format"
           content: |
-            The PLT file format is a vector-based plotter file introduced by Autodesk, Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production, and usage of PLT file guarantee this as all images are printed using lines instead of dots. The format is based on the HPGL file format which is used for sending information to plotter printers. PLT files can be viewed with its original applications i.e. Autodesk's AutoCAD, but there are other applications as well that can be used to manipulate these files such as CorelDRAW Graphics Suite. A number of applications and APIs support conversion of PLT file format to DXF, PDF, JPEG, TIFF, PNG, BMP, CGM, SVG, PS and PCL.
+            An HPGL(Hewlett-Packard Graphics Language) file contains an instruction set for plotter control, developed by Hewlett-Packard. Hewlett-Packard plotters use this file to draw and print vector and raster content on the paper.
 
-          link: "https://docs.fileformat.com/cad/plt/"
+          link: "https://docs.fileformat.com/cad/hpgl/"
 
     format:
         # format loop
-        - icon: "far fa-file-MD"
+        - icon: "far fa-file-code"
           title: " About MD File Format"
           content: |
-            Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. MD files are saved in plain text format that uses Markdown language which also includes inline text symbols, defining how a text can be formatted such as indentations, table formatting, fonts, and headers. MD files can be converted to HTML with a program called Markdown. Markdown language is released by John Gruber.
+            Text files created with Markdown language dialects is saved with .MD or .MARKDOWN file extension. MD files are saved in plain text format that uses Markdown language which also includes inline text symbols, defining how a text can be formatted such as indentations, table formatting, fonts, and headers.  MD files can be converted to HTML with a program called Markdown. Markdown language is released by John Gruber.
 
           link: "https://docs.fileformat.com/word-processing/md/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PLT TO PLT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-plt/"
+        - name: "PLT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

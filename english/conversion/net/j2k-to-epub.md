@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:08+03:00
+date: 2021-11-15T08:26:23
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-J2K"
+        - icon: "far fa-image"
           title: " About J2K File Format"
           content: |
-            A J2K file is an image that is compressed using the wavelet compression instead of DCT compression. This file format is used by the Joint Photographic Experts Group (JPEG) 2000 files. J2K files store metadata information about the image file in XML unlike .jpeg or .jpg that use the EXIF format for this purpose. J2K files support 15-bit color, alpha transparency, and lossless compression. Several commercial APIs exist to decode JPEG 2000 imags such as J2K-Codec. A J2K file can be opened on Windows OS using the standard image viewers.
+            A J2K file is an image that is compressed using the wavelet compression instead of DCT compression.
 
           link: "https://docs.fileformat.com/image/j2k/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EPUB"
           title: " About EPUB File Format"
           content: |
-            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
+            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers.
 
           link: "https://docs.fileformat.com/ebook/epub/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "J2K TO J2K"
-          link: "https://products.groupdocs.com/conversion/net/j2k-to-j2k/"
+        - name: "J2K TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/j2k-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:02+03:00
+date: 2021-11-15T08:26:42
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-OST"
           title: " About OST File Format"
           content: |
-            OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. It is automatically created on the first use of Microsoft Outlook upon connectivity with server. Once the file is created, the data is synchronized with the email server so that it is available offline as well in case of disconnectivity from email server. OST files can user mailbox items such as emails, contacts, calendar information, notes, tasks and other similar data. Users can create emails and other data items in OST file even in the absence of connection to the server, but these will not be synchronized with the server. Once the connection is established, the local file is synchronized with the server again so that both the server and the local copy are at the same level of information.
+            OST or Offline Storage Files represent the user's mailbox data in offline mode on the local machine upon registration with Exchange Server using Microsoft Outlook. It is automatically created on the first use of Microsoft Outlook upon connectivity with the server. Once the file is created, the data is synchronized with the email server so that it is available offline as well in case of disconnectivity from the email server.
 
           link: "https://docs.fileformat.com/email/ost/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPT"
+        - icon: "far fa-file-powerpoint"
           title: " About PPT File Format"
           content: |
-            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format.
 
           link: "https://docs.fileformat.com/presentation/ppt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OST TO OST"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-ost/"
+        - name: "OST TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ost-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

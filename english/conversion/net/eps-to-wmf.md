@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:52+03:00
+date: 2021-11-15T08:26:15
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-EPS"
           title: " About EPS File Format"
           content: |
-            FIles with EPS extension essentially describe an Encapsulated PostScript language program that describes the appearance of a single page. The name "Encapsulated" because it can be included or encapsulated in another PostScript language page description. This script based file format may contain any combination of text, graphics and images. EPS files may include a bitmap preview image encapsulated inside for display by applications that can open such files. EPS files can be converted to standard image formats such as JPG, PNG, TIFF and PDF using different applications e.g. Adobe Illustrator, Photoshop and PaintShop Pro. Because of a security vulnerability in EPS files, Office 2016, Office 2013, Office 2010, and Office 365 have turned off the ability to insert EPS files into Office documents.
+            Files with EPS extension essentially describe an Encapsulated PostScript language program that describes the appearance of a single page. The name "Encapsulated" because it can be included or encapsulated in another PostScript language page description. This script based file format may contain any combination of text, graphics and images.
 
           link: "https://docs.fileformat.com/page-description-language/eps/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-WMF"
           title: " About WMF File Format"
           content: |
-            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen. A more enhanced version of WMF, known as Enhanced Meta Files (EMF), was published later that makes the format more feature rich. Practically, WMF are similar to SVG.
+            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen.
 
           link: "https://docs.fileformat.com/image/wmf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EPS TO EPS"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-eps/"
+        - name: "EPS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

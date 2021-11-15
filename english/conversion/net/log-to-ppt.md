@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:14+03:00
+date: 2021-11-15T08:26:31
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-LOG"
           title: " About LOG File Format"
           content: |
-            A file with .log extension contains the list of plain text with timestamp. Usually, certain activity detail is logged by the softwares or operating systems to help the developers or users to track what was happening at a certain time period. Users can edit these files very easily by using any text editors. Usually the error reports or login activities are logged by the operating systems, but other softwares or web servers also generate log files to track visitors and to monitor bandwidth usage.
+            A log file is a file that records either events that occur in an operating system or other software runs.
 
-          link: "https://docs.fileformat.com/database/log/"
+          link: "https://en.wikipedia.org/wiki/Log_file"
 
     format:
         # format loop
-        - icon: "far fa-file-PPT"
+        - icon: "far fa-file-powerpoint"
           title: " About PPT File Format"
           content: |
-            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format.
 
           link: "https://docs.fileformat.com/presentation/ppt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "LOG TO LOG"
-          link: "https://products.groupdocs.com/conversion/net/log-to-log/"
+        - name: "LOG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/log-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:08+03:00
+date: 2021-11-15T08:25:52
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-BMP"
           title: " About BMP File Format"
           content: |
-            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various colour depths.
+            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
 
           link: "https://docs.fileformat.com/image/bmp/"
 
@@ -115,9 +115,9 @@ about_formats:
         - icon: "far fa-file-SXC"
           title: " About SXC File Format"
           content: |
-            The file format SXC(Sun XML Calc) belongs to an office suite called OpenOffice.org. This format generally deals with the spreadsheet needs of users as it is an XML based spreadsheet file format. SXC format supports formulas, functions, macros and charts along with DataPilot, which is an incredible feature because it automatically individualizes and provides summaries of raw imported data. The files created with this software are saved with extension .sxc.
+            File with .sxc extension is a spreadsheet created by StarOffice Calc.
 
-          link: "https://docs.fileformat.com/spreadsheet/sxc/"
+          link: "https://en.wikipedia.org/wiki/StarOffice"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "BMP TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/bmp-to-bmp/"
+        - name: "BMP TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/bmp-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:40+03:00
+date: 2021-11-15T08:27:10
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSDM"
+        - icon: "far fa-file-alt"
           title: " About VSDM File Format"
           content: |
-            Files with VSDM extension are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX but also provide the capability to run macros when the file is opened. Macros are user defined actions/steps that are developed in Visual Basic for Applications (VBA) and can be used to perform repeatitive tasks. VSDM file format was introduced with the launch of Microsoft Visio 2013. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Files with VSDM extension are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX but also provide the capability to run macros when the file is opened. Macros are user-defined actions/steps that are developed in Visual Basic for Applications (VBA) and can be used to perform repetitive tasks.
 
           link: "https://docs.fileformat.com/image/vsdm/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPT"
+        - icon: "far fa-file-powerpoint"
           title: " About PPT File Format"
           content: |
-            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format.
 
           link: "https://docs.fileformat.com/presentation/ppt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSDM TO VSDM"
-          link: "https://products.groupdocs.com/conversion/net/vsdm-to-vsdm/"
+        - name: "VSDM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vsdm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

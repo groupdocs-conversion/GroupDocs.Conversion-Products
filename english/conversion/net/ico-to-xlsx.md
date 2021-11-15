@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:43+03:00
+date: 2021-11-15T08:26:21
 draft: false
 
 ############################# Head ############################
@@ -103,7 +103,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-ICO"
+        - icon: "far fa-image"
           title: " About ICO File Format"
           content: |
             Files with ICO extension are image file types used as icon for representation of an application on Microsoft Windows. These come in different size, colour support and resolution to suit the requirements of the display. Another similar image file format on Microsoft Windows is .CUR for cursor representation and defines a hotspot in the image header. On MacOS, ICNS file formats serve the same purpose as ICO files. Several online websites as well as applications provide the feature of creating such files and convert other image formats such as BMP, PNG, etc. to icon file format. The official IANA registered Internet media type for ICO files is image/vnd.microsoft.icon.
@@ -112,7 +112,7 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-XLSX"
+        - icon: "far fa-file-excel"
           title: " About XLSX File Format"
           content: |
             XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "ICO TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/ico-to-ico/"
+        - name: "ICO TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ico-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

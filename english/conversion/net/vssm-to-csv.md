@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:59+03:00
+date: 2021-11-15T08:27:11
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSSM"
+        - icon: "far fa-file-alt"
           title: " About VSSM File Format"
           content: |
-            Files with .VSSM extension are Microsoft Visio Stencil files that support provide support for macros. A VSSM file when opened allows to run the macros to achieve desired formatting and placement of shapes in a diagram. In general, Microsoft Visio is drawing software that allows to create files that can contain and represent user defined information in different shapes. The most common of these include, but not limited to, UML diagrams, flow charts, visual objects, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be converted to different file formats such as PNG, BMP, PDF and others.
+            Files with .VSSM extension are Microsoft Visio Stencil files that support provide support for macros. A VSSM file when opened allows running the macros to achieve the desired formatting and placement of shapes in a diagram. In general, Microsoft Visio is drawing software that allows creating files that can contain and represent user-defined information in different shapes.
 
           link: "https://docs.fileformat.com/image/vssm/"
 
     format:
         # format loop
-        - icon: "far fa-file-CSV"
+        - icon: "far fa-file-excel"
           title: " About CSV File Format"
           content: |
-            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently. Almost all spreadsheet applications such as Microsoft Excel or OpenOffice Calc can import CSV without much effort. Data imported from such files is arranged in cells of a spreadsheet for representation to user.
+            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently.
 
           link: "https://docs.fileformat.com/spreadsheet/csv/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSSM TO VSSM"
-          link: "https://products.groupdocs.com/conversion/net/vssm-to-vssm/"
+        - name: "VSSM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vssm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

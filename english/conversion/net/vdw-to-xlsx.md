@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:18+03:00
+date: 2021-11-15T08:27:08
 draft: false
 
 ############################# Head ############################
@@ -103,16 +103,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VDW"
+        - icon: "far fa-file-alt"
           title: " About VDW File Format"
           content: |
-            VDW is the Visio Graphics Service file format that specifies the streams and storages required for rendering a Web drawing. A web drawing is a collection of drawing pages, shapes, fonts, images, data connections, and diagram update information that can be rendered as a vector or raster drawing. VDW files can be opened in Microsoft Visio as well but are primarily saved for use on web. Microsoft Visio offers the capability to convert Visio files to a number of different file formats including PNG, BMP, PDF and others.
+            VDW is the Visio Graphics Service file format that specifies the streams and storages required for rendering a Web drawing. A web drawing is a collection of drawing pages, shapes, fonts, images, data connections, and diagram update information that can be rendered as a vector or raster drawing. VDW files can be opened in Microsoft Visio as well but are primarily saved for use on the web.
 
           link: "https://docs.fileformat.com/web/vdw/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLSX"
+        - icon: "far fa-file-excel"
           title: " About XLSX File Format"
           content: |
             XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VDW TO VDW"
-          link: "https://products.groupdocs.com/conversion/net/vdw-to-vdw/"
+        - name: "VDW TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vdw-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

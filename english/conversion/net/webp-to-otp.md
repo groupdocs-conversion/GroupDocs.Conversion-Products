@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:00+03:00
+date: 2021-11-15T08:27:17
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-WEBP"
           title: " About WEBP File Format"
           content: |
-            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages. As per Google, WebP lossless images are 26% smaller in size compared to PNGs, while WebP lossy images are 25-34% smaller than comparable JPEG images. Images are compared based on the Structural Similarity (SSIM) index between WebP and other image file formats. WebP is a sister project of WebM multimedia container format.
+            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages.
 
           link: "https://docs.fileformat.com/image/webp/"
 
     format:
         # format loop
-        - icon: "far fa-file-OTP"
+        - icon: "far fa-file-powerpoint"
           title: " About OTP File Format"
           content: |
             Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "WEBP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-webp/"
+        - name: "WEBP TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

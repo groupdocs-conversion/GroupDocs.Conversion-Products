@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:58+03:00
+date: 2021-11-15T08:27:17
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-WEBP"
           title: " About WEBP File Format"
           content: |
-            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages. As per Google, WebP lossless images are 26% smaller in size compared to PNGs, while WebP lossy images are 25-34% smaller than comparable JPEG images. Images are compared based on the Structural Similarity (SSIM) index between WebP and other image file formats. WebP is a sister project of WebM multimedia container format.
+            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages.
 
           link: "https://docs.fileformat.com/image/webp/"
 
     format:
         # format loop
-        - icon: "far fa-file-HTM"
+        - icon: "far fa-file-code"
           title: " About HTM File Format"
           content: |
-            Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others. It defines the markups for creating static pages to be published on World Wide Web (WWW) for access by others. These markups tell the browsers how to display a web page's contents. Such pages can contain plain text, images, hyperlinks to other pages, videos and other media information. When a web page is published, you can have a look at the markup code behind it by viewing its page source. Modern browsers allow to inspect each section of a web page where each sub-division or markup element in the HTM source is elaborated.
+            Files with .htm extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox, and a number of others.
 
           link: "https://docs.fileformat.com/web/htm/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "WEBP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/webp-to-webp/"
+        - name: "WEBP TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/webp-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

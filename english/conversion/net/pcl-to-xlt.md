@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:48+03:00
+date: 2021-11-15T08:26:48
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-PCL"
           title: " About PCL File Format"
           content: |
-            PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). HP created PCL to provide an efficient way for controlling printer features across many different printing devices. The format was originally developed for HP's dot matrix and Inkjet printers, but has been part of various thermal, matrix and page printers with the passage of time. The format underwent several different revisions, resulting in different versions where each version was enhanced to meet the demands of time with respect to the printer control features. Today, PCL is the most widely spread printer language in the laster printer market.
+            PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). HP created PCL to provide an efficient way of controlling printer features across many different printing devices. The format was originally developed for HP’s dot-matrix and Inkjet printers but has been part of various thermal, matrix, and page printers with the passage of time. The format underwent several different revisions, resulting in different versions where each version was enhanced to meet the demands of time with respect to the printer control features
 
           link: "https://docs.fileformat.com/page-description-language/pcl/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLT"
+        - icon: "far fa-file-excel"
           title: " About XLT File Format"
           content: |
-            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening this old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
+            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening these old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
 
           link: "https://docs.fileformat.com/spreadsheet/xlt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PCL TO PCL"
-          link: "https://products.groupdocs.com/conversion/net/pcl-to-pcl/"
+        - name: "PCL TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/pcl-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

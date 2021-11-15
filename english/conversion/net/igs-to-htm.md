@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:53+03:00
+date: 2021-11-15T08:26:22
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-IGS"
           title: " About IGS File Format"
           content: |
-            A file with .igs (Initial Graphics Exchange) extension is a 2D-3D design exchange file format that is independent of source or destination file format specifications used by CAD applications. It is be used to exchange design information about circuit diagrams, wireframe, freeform surface between two independent systems. It is similar to IGES and is primary requirement of manufacturers for pricing and designing molds for your product. IGS has most recently been replaced by the newer STEP(.STP) file format. IGS files can be opened by applications such as Autodesk, FreeCAD, CADEX CAD Exchanger and other similar applications.
+            A file with .igs (Initial Graphics Exchange) extension is a 2D-3D design exchange file format that is independent of source or destination file format specifications used by CAD applications. It is used to exchange design information about circuit diagrams, wireframes, the freeform surfaces between two independent systems. IGS files can be opened by applications such as Autodesk, FreeCAD, CADEX CAD Exchanger, and other similar applications.
 
           link: "https://docs.fileformat.com/cad/igs/"
 
     format:
         # format loop
-        - icon: "far fa-file-HTM"
+        - icon: "far fa-file-code"
           title: " About HTM File Format"
           content: |
-            Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others. It defines the markups for creating static pages to be published on World Wide Web (WWW) for access by others. These markups tell the browsers how to display a web page's contents. Such pages can contain plain text, images, hyperlinks to other pages, videos and other media information. When a web page is published, you can have a look at the markup code behind it by viewing its page source. Modern browsers allow to inspect each section of a web page where each sub-division or markup element in the HTM source is elaborated.
+            Files with .htm extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox, and a number of others.
 
           link: "https://docs.fileformat.com/web/htm/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "IGS TO IGS"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-igs/"
+        - name: "IGS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/igs-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

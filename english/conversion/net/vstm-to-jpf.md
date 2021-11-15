@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-03T14:25:12+03:00
+date: 2021-11-15T08:27:14
 draft: false
 
 ############################# Head ############################
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSTM TO VSTM"
-          link: "https://products.groupdocs.com/conversion/net/vstm-to-vstm/"
+        - name: "VSTM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vstm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

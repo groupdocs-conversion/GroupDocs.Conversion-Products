@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:00+03:00
+date: 2021-11-15T08:26:30
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPM"
+        - icon: "far fa-image"
           title: " About JPM File Format"
           content: |
-            JPM refers to JPEG 2000 image coding system Part 6 which is used for document imaging. It is based on the Mixed Raster Content Standard (ISO/IEC 16485) and contains layered still images that use JPEG 2000 and other encodings. In addition to its own specifications, JPM file format inherits features from its parent i.e. the jp2 file format.
+            JPM is an extension to the JP2 format and was developed for multi-page documents with multiple objects per page.
 
-          link: "https://docs.fileformat.com/image/jpm/"
+          link: "https://docs.fileformat.com/image/jp2/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPTM"
+        - icon: "far fa-file-powerpoint"
           title: " About PPTM File Format"
           content: |
             Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
 
-          link: "https://docs.fileformat.com/presentation/pptm/"
+          link: "https://docs.fileformat.com/presentation/pptm"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPM TO JPM"
-          link: "https://products.groupdocs.com/conversion/net/jpm-to-jpm/"
+        - name: "JPM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

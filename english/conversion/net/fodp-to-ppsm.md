@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:06+03:00
+date: 2021-11-15T08:26:17
 draft: false
 
 ############################# Head ############################
@@ -103,16 +103,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-FODP"
+        - icon: "far fa-file-powerpoint"
           title: " About FODP File Format"
           content: |
             FODP is a file format for the presentations saved in OpenDocument format.
 
-          link: "https://docs.fileformat.com/presentation/"
+          link: "https://en.wikipedia.org/wiki/OpenDocument"
 
     format:
         # format loop
-        - icon: "far fa-file-PPSM"
+        - icon: "far fa-file-powerpoint"
           title: " About PPSM File Format"
           content: |
             Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "FODP TO FODP"
-          link: "https://products.groupdocs.com/conversion/net/fodp-to-fodp/"
+        - name: "FODP TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/fodp-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:21:35+03:00
+date: 2021-11-15T08:25:59
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DIB"
           title: " About DIB File Format"
           content: |
-            A DIB (Device Independent Bitmap) file is a raster image file that is similar in structure to the standard Bitmap files (BMP) but has a different header. It can be opened with almost all applications that can open a standard BMP file on Windows as well as macOS. DIB are binary files and have a complex file format similar to BMP.
+            A Device-Independent bitmap (DIB) is a raster image file that is similar in structure to the standard Bitmap files(BMP). It contains a color table that describes the mapping of RGB colors to the pixel values. This enables DIB to represent images on any device. It can be opened with almost all applications that can open a standard BMP file on Windows as well as macOS.
 
           link: "https://docs.fileformat.com/image/dib/"
 
     format:
         # format loop
-        - icon: "far fa-file-TIFF"
+        - icon: "far fa-image"
           title: " About TIFF File Format"
           content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is extensible and has underwent several revisions that allows the inclusion of an unlimited amount of private or special-purpose information. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
+            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
 
           link: "https://docs.fileformat.com/image/tiff/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DIB TO DIB"
-          link: "https://products.groupdocs.com/conversion/net/dib-to-dib/"
+        - name: "DIB TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dib-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

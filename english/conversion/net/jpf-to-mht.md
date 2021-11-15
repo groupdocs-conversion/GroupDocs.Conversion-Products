@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:44+03:00
+date: 2021-11-15T08:26:28
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPF"
+        - icon: "far fa-image"
           title: " About JPF File Format"
           content: |
-            A file with .jpf extension is an extension to the JPEG 2000 image coding system ISO/IEC 15444 and is referred to as its Part 2 ISO/IEC 15444-2. It defines and specifies a set of lossless (bit-preserving) and lossy compression methods for coding continuous-tone, bi-level, grey-scale, colour digital still images, or multi-component images. The first part of ISO/IEC 15444-1 is referred to the JP2 that uses the wavelet technology to code lossless content and is the base for JPEG 2000 image file formats. The JPF file format didn’t receive a warm reception due to the extensive usage of JPEG format. JPG files can be opened with popular imaging applications such as Adobe Photoshop 2020, Adobe Illustrator 2020, and CorelDraw Graphics Suite 2020.
+            JPEG 2000 is an image coding system and state-of-the-art image compression standard. It uses wavelet technology to code lossless content in any quality at once. Moreover, without any substantial penalty in coding efficiency, JPEG 2000 has the capability to access and decode the same content efficaciously into a variety of other resolutions and qualities. The code streams in JPEG 2000 are significantly scalable having regions of interest that provide the facility for spatial random access.
 
-          link: "https://docs.fileformat.com/image/jpf/"
+          link: "https://docs.fileformat.com/image/jp2/"
 
     format:
         # format loop
-        - icon: "far fa-file-MHT"
+        - icon: "far fa-file-code"
           title: " About MHT File Format"
           content: |
-            A file with .mht extension is a MIME enabled archiving file format that contains different types of data into a single file. It can store data such as text, images, page styling in the form of CSS files, JavaScript, and other resources as embedded resources in it. MHT files, having MIME type message/rfc822, encapsulate all the contents of an HTML file as a single archive file for storing on archiving on storage devices. Software applications such as Microsoft Word lets you convert your WORD documents to MHT by exporting as MHT file. MHT files can be opened using popular browsers such as Microsoft Internet Explore and Google Chrome.
+            Files with MHT extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on.
 
-          link: "https://docs.fileformat.com/web/mht/"
+          link: "https://docs.fileformat.com/web/mhtml/"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPF TO JPF"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-jpf/"
+        - name: "JPF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

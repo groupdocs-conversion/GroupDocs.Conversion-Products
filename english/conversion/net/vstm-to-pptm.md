@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:27+03:00
+date: 2021-11-15T08:27:14
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSTM"
+        - icon: "far fa-file-alt"
           title: " About VSTM File Format"
           content: |
-            Files with VSTM extension are template files created with Microsoft Visio that support macros. Unlike VSDX files, files created from VSTM templates can run macros that are developed in Visual Basic for Applications (VBA) code. A template file can be created in order to provide basic settings of the document that can be utilized to generate further documents with these settings. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Files with VSTM extension are template files created with Microsoft Visio that support macros. Unlike VSDX files, files created from VSTM templates can run macros that are developed in Visual Basic for Applications (VBA) code. A template file can be created in order to provide basic settings of the document that can be utilized to generate further documents with these settings.
 
           link: "https://docs.fileformat.com/image/vstm/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPTM"
+        - icon: "far fa-file-powerpoint"
           title: " About PPTM File Format"
           content: |
             Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
 
-          link: "https://docs.fileformat.com/presentation/pptm/"
+          link: "https://docs.fileformat.com/presentation/pptm"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSTM TO VSTM"
-          link: "https://products.groupdocs.com/conversion/net/vstm-to-vstm/"
+        - name: "VSTM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vstm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

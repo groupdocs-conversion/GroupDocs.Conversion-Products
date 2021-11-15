@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:57+03:00
+date: 2021-11-15T08:26:42
 draft: false
 
 ############################# Head ############################
@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-OST"
           title: " About OST File Format"
           content: |
-            OST or Offline Storage Files represent user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. It is automatically created on the first use of Microsoft Outlook upon connectivity with server. Once the file is created, the data is synchronized with the email server so that it is available offline as well in case of disconnectivity from email server. OST files can user mailbox items such as emails, contacts, calendar information, notes, tasks and other similar data. Users can create emails and other data items in OST file even in the absence of connection to the server, but these will not be synchronized with the server. Once the connection is established, the local file is synchronized with the server again so that both the server and the local copy are at the same level of information.
+            OST or Offline Storage Files represent the user's mailbox data in offline mode on the local machine upon registration with Exchange Server using Microsoft Outlook. It is automatically created on the first use of Microsoft Outlook upon connectivity with the server. Once the file is created, the data is synchronized with the email server so that it is available offline as well in case of disconnectivity from the email server.
 
           link: "https://docs.fileformat.com/email/ost/"
 
     format:
         # format loop
-        - icon: "far fa-file-DCM"
+        - icon: "far fa-image"
           title: " About DCM File Format"
           content: |
-            Files with .DCM extension represent digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images. It is similar to DICOM file format and can include patient’s information for reference.
+            Files with .DCM extension represent a digital image that stores medical information of patients such as MRIs, CT scans, and ultrasound images. DCM files use DICOM (Digital Imaging and Communications in Medicine) image file format and can include patient’s information for reference. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images.
 
-          link: "https://docs.fileformat.com/image/dcm/"
+          link: "https://docs.fileformat.com/page-description-language/pcl/"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OST TO OST"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-ost/"
+        - name: "OST TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ost-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:53+03:00
+date: 2021-11-15T08:27:16
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VTX"
+        - icon: "far fa-file-alt"
           title: " About VTX File Format"
           content: |
-            A basic conversion with Aspose APIs can be done with just 2 lines of code. Our APIs are supported on all major platforms and Operating Systems. Before executing the code below, please make sure that you have the following prerequisites on your system. First you need Microsoft Windows or a compatible OS with .NET Framework and .NET Core, Windows Azure, Mono or Xamarin Platforms, Development environment like Microsoft Visual Studio and Aspose.Words for .NET DLL referenced in your project.
+            A file with VTX extension is a Microsoft Visio drawing template that is saved to disc in XML file format. The template is aimed to provide a file with basic settings that can be used to create multiple Visio files of the same settings. Another similar format is VST which is saved in binary format rather than XML. VTX files are supported with Visio 2010 and newer versions.
 
           link: "https://docs.fileformat.com/image/vtx/"
 
     format:
         # format loop
-        - icon: "far fa-file-TSV"
+        - icon: "far fa-file-excel"
           title: " About TSV File Format"
           content: |
-            A Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. The file format, similar to CSV, is used for organization of data in a structured manner in order to import and export between different applications. The format is primarily used for data import/export and exchange in Spreadsheet applications and databases. Each record in a TSV file is contained in a single line of text file where each field value is separated by a tab character. Media type for TSV file format is text/tab-separated-values.
+            A Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. The file format, similar to CSV, is used for organization of data in a structured manner in order to import and export between different applications. The format is primarily used for data import/export and exchange in Spreadsheet applications and databases. 
 
           link: "https://docs.fileformat.com/spreadsheet/tsv/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VTX TO VTX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-vtx/"
+        - name: "VTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

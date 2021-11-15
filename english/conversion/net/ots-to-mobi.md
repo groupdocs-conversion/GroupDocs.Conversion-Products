@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-03T14:25:12+03:00
+date: 2021-11-15T08:26:44
 draft: false
 
 ############################# Head ############################
@@ -108,7 +108,7 @@ about_formats:
           content: |
             OTS is a spreadsheet template in OpenDocument format. OTS files are used to create ODS files with same styling and formatting.
 
-          link: "https://en.wikipedia.org/wiki/OpenDocument"
+          link: "https://docs.fileformat.com/spreadsheet/ots/"
 
     format:
         # format loop
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OTS TO OTS"
-          link: "https://products.groupdocs.com/conversion/net/ots-to-ots/"
+        - name: "OTS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ots-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

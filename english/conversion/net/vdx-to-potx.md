@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:23+03:00
+date: 2021-11-15T08:27:08
 draft: false
 
 ############################# Head ############################
@@ -103,16 +103,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VDX"
+        - icon: "far fa-file-alt"
           title: " About VDX File Format"
           content: |
-            Any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements. Text can also be added to these visual elements Vision drawing XML file. These Visio drawing XML files are integrated with XML-based formatting standards and image data encoding specifications that allow its content to be rendered and stored by the Microsoft Visio software in the VDX file format.
+            Any drawing or chart created in Microsoft Visio, but saved in XML format has a VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements.
 
           link: "https://docs.fileformat.com/image/vdx/"
 
     format:
         # format loop
-        - icon: "far fa-file-POTX"
+        - icon: "far fa-file-powerpoint"
           title: " About POTX File Format"
           content: |
             Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VDX TO VDX"
-          link: "https://products.groupdocs.com/conversion/net/vdx-to-vdx/"
+        - name: "VDX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vdx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

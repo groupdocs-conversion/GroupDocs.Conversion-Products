@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:29:00+03:00
+date: 2021-11-15T08:26:49
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-PLT"
           title: " About PLT File Format"
           content: |
-            The PLT file format is a vector-based plotter file introduced by Autodesk, Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production, and usage of PLT file guarantee this as all images are printed using lines instead of dots. The format is based on the HPGL file format which is used for sending information to plotter printers. PLT files can be viewed with its original applications i.e. Autodesk's AutoCAD, but there are other applications as well that can be used to manipulate these files such as CorelDRAW Graphics Suite. A number of applications and APIs support conversion of PLT file format to DXF, PDF, JPEG, TIFF, PNG, BMP, CGM, SVG, PS and PCL.
+            An HPGL(Hewlett-Packard Graphics Language) file contains an instruction set for plotter control, developed by Hewlett-Packard. Hewlett-Packard plotters use this file to draw and print vector and raster content on the paper.
 
-          link: "https://docs.fileformat.com/cad/plt/"
+          link: "https://docs.fileformat.com/cad/hpgl/"
 
     format:
         # format loop
-        - icon: "far fa-file-OTP"
+        - icon: "far fa-file-powerpoint"
           title: " About OTP File Format"
           content: |
             Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PLT TO PLT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-plt/"
+        - name: "PLT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

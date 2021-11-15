@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:05+03:00
+date: 2021-11-15T08:26:09
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DWT"
           title: " About DWT File Format"
           content: |
-            A DWT file is an AutoCAD drawing template file that is used as starter for creating drawings that can be saved as DWG files. Such template files provide initial settings such as unit types, precision required, title blocks, layer names, line types and other similar information for lateral conversion to proper drawing files. Both AutoCAD and CoreCAD can be used to read the template files and utilize them further. In simple words, a DWT is a DWG with pre-defined read-only attributes in the same way as a MSWord DOT file is to a DOC file.
+            A DWT file is an AutoCAD drawing template file that is used as a starter for creating drawings that can be saved as DWG files. Such template files provide initial settings such as unit types, the precision required, title blocks, layer names, line types, and other similar information for lateral conversion to proper drawing files. Both AutoCAD and CoreCAD can be used to read the template files and utilize them further.
 
           link: "https://docs.fileformat.com/cad/dwt/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPSX"
+        - icon: "far fa-file-powerpoint"
           title: " About PPSX File Format"
           content: |
-            PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+            PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow. 
 
           link: "https://docs.fileformat.com/presentation/ppsx/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DWT TO DWT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-dwt/"
+        - name: "DWT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

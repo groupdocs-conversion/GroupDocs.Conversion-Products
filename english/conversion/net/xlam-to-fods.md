@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:21+03:00
+date: 2021-11-15T08:27:20
 draft: false
 
 ############################# Head ############################
@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-XLAM"
           title: " About XLAM File Format"
           content: |
-            XLAM is an Excel Macro-Enabled Add-In file that is used to add new functions to Excel. An Add-In is a supplemental program that runs additional code and provides additional functionality for Excel spreadsheets. XLAM files are stored with the .xlam extension. XLAM files are XML-based files similar to XLSM and XLSX file formats and are saved with ZIP compression to reduce the overall file size.
+            XLAM files are used to extend the modules provided by Excel. They can be added to Excel 2007 or later, or to earlier versions of Excel with Open XML component support. File used by Microsoft Excel, a program that allows users to create and edit spreadsheets; contains a macro-enabled add-in, which provides extra functionality and tools that may execute macros.
 
           link: "https://docs.fileformat.com/spreadsheet/xlam/"
 
     format:
         # format loop
-        - icon: "far fa-file-FODS"
+        - icon: "far fa-file-excel"
           title: " About FODS File Format"
           content: |
-            A file with .fods extension is a type of OpenDocument Spreadsheet document format that stores data in rows and columns. The format is specified as part of ODF 1.2 specifications published and maintained by OASIS. FODS files cannot be opened with Excel, another Spreadsheet software application by Microsoft. FODS files can be saved as ODS using LibreOffice and can be converted to other formats such as XLS and XLSX.
+            FODS is a ZIP-compressed XML-based file format for spreadsheets, charts, presentations, and word processing documents.
 
-          link: "https://docs.fileformat.com/spreadsheet/fods/"
+          link: "https://en.wikipedia.org/wiki/OpenDocument"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLAM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xlam/"
+        - name: "XLAM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xlam-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:08+03:00
+date: 2021-11-15T08:27:12
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSSX"
+        - icon: "far fa-file-alt"
           title: " About VSSX File Format"
           content: |
-            Files with .VSSX extension are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information. Microsoft Visio also provides the capability to convert Visio files to different file formats such as PNG, BMP, PDF and others. It is available for both Windows and Mac OS.
+            Files with .VSSX extension are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information.
 
           link: "https://docs.fileformat.com/image/vssx/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EPUB"
           title: " About EPUB File Format"
           content: |
-            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
+            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers.
 
           link: "https://docs.fileformat.com/ebook/epub/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSSX TO VSSX"
-          link: "https://products.groupdocs.com/conversion/net/vssx-to-vssx/"
+        - name: "VSSX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vssx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:31:59+03:00
+date: 2021-11-15T08:27:06
 draft: false
 
 ############################# Head ############################
@@ -103,7 +103,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-TXT"
+        - icon: "far fa-file-word"
           title: " About TXT File Format"
           content: |
             A file with .TXT extension represents a text document that contains plain text in the form of lines. Paragraphs in a text document are recognized by carriage returns and are used for better arrangement of file contents. A standard text document can be opened in any text editor or word processing application on different operating systems. All the text contained in such a file is in human-readable format and represented by sequence of characters.
@@ -112,10 +112,10 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-POT"
+        - icon: "far fa-file-powerpoint"
           title: " About POT File Format"
           content: |
-            Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Files created with these versions of Microsoft PowerPoint are in binary format as compared to those created in Office OpenXML file formats using the higher versions of PowerPoint. The files, hence, generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+            Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Files created with these versions of Microsoft PowerPoint are in binary format as compared to those created in Office OpenXML file formats using the higher versions of PowerPoint. The files, hence, generated can be used to create presentations that have the same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, color palettes, fonts, and defaults.
 
           link: "https://docs.fileformat.com/presentation/pot/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "TXT TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/txt-to-txt/"
+        - name: "TXT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/txt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

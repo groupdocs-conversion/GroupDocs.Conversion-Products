@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:30:20+03:00
+date: 2021-11-15T08:26:57
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-PROJECT"
           title: " About PROJECT File Format"
           content: |
-            Have you ever come across and wondered what is an MPP file? MPP and other similar files are Project file formats that are created by Project Management software. A project file is a collection of tasks, resources, and scheduling to get a measurable output in the form of a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation. Common Project Management file extensions and their associated file formats include MPP, MPX and XER.
+            MPP and other similar files are Project file formats that are created by Project Management software such as Microsoft Project. A project file is a collection of tasks, resources, and their scheduling to get a measurable output in the form or a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation. Primavera P6 is another Project Management Software by Oracle that provides complete project planning.
 
           link: "https://docs.fileformat.com/project-management/"
 
     format:
         # format loop
-        - icon: "far fa-file-EXCEL"
+        - icon: "far fa-file-excel"
           title: " About EXCEL File Format"
           content: |
-            A spreadsheet file contains data in the form of rows and columns. You can open, view and edit such files using spreadsheet software applications such as Microsoft Excel that is now available for both Windows and MacOS operating system. Similarly, Google sheets is a free online spreadsheet creating and editing tool that works from any web browser. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).
+            A spreadsheet file contains data in the form of rows and columns. You can open, view and edit such files using spreadsheet software applications such as Microsoft Excel that is now available for both Windows and MacOS operating system. Similarly, Google sheets is a free online spreadsheet creating and editing tool that works from any web browser.
 
           link: "https://docs.fileformat.com/spreadsheet/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PROJECT TO PROJECT"
-          link: "https://products.groupdocs.com/conversion/net/project-to-project/"
+        - name: "PROJECT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/project-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:36+03:00
+date: 2021-11-15T08:26:14
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-EMLX"
           title: " About EMLX File Format"
           content: |
-            The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. There are other applications as well that can open the EMLX files and convert these to other file formats.
+            The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. There are other applications as well such as GroupDocs.Conversion App that can open the EMLX files and convert these to other file formats.
 
           link: "https://docs.fileformat.com/email/emlx/"
 
     format:
         # format loop
-        - icon: "far fa-file-PSD"
+        - icon: "far fa-image"
           title: " About PSD File Format"
           content: |
-            PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
+            PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords, and other Photoshop-specific elements. Photoshop files have default extension as PSD and have a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
 
           link: "https://docs.fileformat.com/image/psd/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EMLX TO EMLX"
-          link: "https://products.groupdocs.com/conversion/net/emlx-to-emlx/"
+        - name: "EMLX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/emlx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

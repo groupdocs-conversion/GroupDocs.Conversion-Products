@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:35+03:00
+date: 2021-11-15T08:27:22
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XLSB"
+        - icon: "far fa-file-excel"
           title: " About XLSB File Format"
           content: |
-            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file. XLSB files can be read and written to faster which makes them useful for working with large files. XLSB is seldom used to store workbooks as XLSX (and previously XLS) are the most common user selected file formats for saving workbooks. It can be opened by Microsoft Office 2007 and above.
+            XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file.
 
           link: "https://docs.fileformat.com/spreadsheet/xlsb/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EMZ"
           title: " About EMZ File Format"
           content: |
-            A file with .emz extension is a compressed container of Enhanced Metafile (EML file). These are compressed using the GZIP compression technique which is the commonly used compression method on UNIX and LINUX operating systems. Unlink ZIP (/compression/zip/), GZIP compresses the archive as a whole instead of compressing individual files. EMZ files are smaller in size as compared to the EMF files and help in fast transfer during online file sharing. Some of the applications that can open EMZ files include Microsoft Visio 2019, Microsoft Office 2019, XnView MP, and File Viewer Plus.
+            A file with .emz extension is a compressed container of Enhanced Metafile (.emf file). It follows GZIP compression algorithm and takes less storage space due to compression. The small file size makes it more easy to transfer EMZ files over the network.
 
           link: "https://docs.fileformat.com/image/emz/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLSB TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/xlsb-to-xlsb/"
+        - name: "XLSB TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xlsb-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:25+03:00
+date: 2021-11-15T08:25:53
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-CF2"
           title: " About CF2 File Format"
           content: |
-            A file with .cf2 extension is a CAD file format that contains 3D package designs or other model data for die cutting. Most of the CAD/CAM machines can process and cut these files. It was created by the National Space Science Data Center (NSSDC) to provide self-describing data storage and manipulation format that matches the structure of scientific data and applications such as statistical and numerical methods, visualization and management. With the passage of time, multiple hardware devices and software applications have been developed that recognize .cf2 files. These applications provide support for CF2 files on Mac OS and Windows Operating Systems.
+            A file with .cf2 extension is a CAD file format that contains 3D package designs or other model data for die-cutting. Most of the CAD/CAM machines can process and cut these files. It was created by the National Space Science Data Center (NSSDC) to provide self-describing data storage and manipulation format that matches the structure of scientific data and applications such as statistical and numerical methods, visualization, and management. 
 
           link: "https://docs.fileformat.com/cad/cf2/"
 
     format:
         # format loop
-        - icon: "far fa-file-HTML"
+        - icon: "far fa-file-code"
           title: " About HTML File Format"
           content: |
-            HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well. Each HTML page is made up of HTML elements such as forms, text, images, animations, links, etc. These elements are represented by tags such as img, a, p and several others where each tag has start and end. It can also embed applications written in scripting languages such as JavaScript and Style Sheets (CSS) for overall layout representation.
+            HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well.
 
           link: "https://docs.fileformat.com/web/html/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CF2 TO CF2"
-          link: "https://products.groupdocs.com/conversion/net/cf2-to-cf2/"
+        - name: "CF2 TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cf2-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

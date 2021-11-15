@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:51+03:00
+date: 2021-11-15T08:26:35
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-MOBI"
           title: " About MOBI File Format"
           content: |
-            The MOBI file format is one of the most widely used ebook file format. The format is an enhancement to the old OEB (Open Ebook Format) format and was used as proprietary format for Mobipocket Reader. Like EPUB, it is supported by almost all modern e-readers specifically by mobile devices with low bandwidth. The format can be converted to several other formats such as PDF, EPUB and several other formats using publicly available software applications such as the Kindle app. There are several companies that offer free MOBI books such as Project Gutenberg, Feedbooks, and Open Library.
+            The MOBI file format is one of the most widely used ebook file formats. The format is an enhancement to the old OEB (Open Ebook Format) format and was used as the proprietary format for Mobipocket Reader. Like EPUB, it is supported by almost all modern e-readers specifically by mobile devices with low bandwidth. The format can be converted to several other formats such as PDF, EPUB, and several other formats using publicly available software applications such as the Kindle app.
 
           link: "https://docs.fileformat.com/ebook/mobi/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-WEBP"
           title: " About WEBP File Format"
           content: |
-            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages. As per Google, WebP lossless images are 26% smaller in size compared to PNGs, while WebP lossy images are 25-34% smaller than comparable JPEG images. Images are compared based on the Structural Similarity (SSIM) index between WebP and other image file formats. WebP is a sister project of WebM multimedia container format.
+            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages.
 
           link: "https://docs.fileformat.com/image/webp/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MOBI TO MOBI"
-          link: "https://products.groupdocs.com/conversion/net/mobi-to-mobi/"
+        - name: "MOBI TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/mobi-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

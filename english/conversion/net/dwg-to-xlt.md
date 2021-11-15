@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:00+03:00
+date: 2021-11-15T08:26:08
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DWG"
           title: " About DWG File Format"
           content: |
-            Files with DWG extension represent proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represent the binary file format for CAD (Computer Aided Design) drawings. It contains vector image and metadata for representation of contents of CAD files. There are free viewers available for viewing DWG files on Windows Operating System such as the Autodesk's free DWG TrueView. There are other third party applications as well that support reaching DWG files.
+            Files with DWG extension represent proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represents the binary file format for CAD (Computer Aided Design) drawings. It contains a vector image and metadata for the representation of the contents of CAD files.
 
-          link: "https://docs.fileformat.com/cad/dwg/"
+          link: "https://docs.fileformat.com/specification/cad/dwg/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLT"
+        - icon: "far fa-file-excel"
           title: " About XLT File Format"
           content: |
-            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening this old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
+            Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. The latest version of Excel is still capable of opening these old format template files. Such a template file is used to quickly create new Excel files with default data and settings such as page formatting, font size, margins, charts, etc which can be further saved as new .XLS files.
 
           link: "https://docs.fileformat.com/spreadsheet/xlt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DWG TO DWG"
-          link: "https://products.groupdocs.com/conversion/net/dwg-to-dwg/"
+        - name: "DWG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dwg-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

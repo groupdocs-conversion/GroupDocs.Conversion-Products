@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:24+03:00
+date: 2021-11-15T08:27:08
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VDX"
+        - icon: "far fa-file-alt"
           title: " About VDX File Format"
           content: |
-            Any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements. Text can also be added to these visual elements Vision drawing XML file. These Visio drawing XML files are integrated with XML-based formatting standards and image data encoding specifications that allow its content to be rendered and stored by the Microsoft Visio software in the VDX file format.
+            Any drawing or chart created in Microsoft Visio, but saved in XML format has a VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements.
 
           link: "https://docs.fileformat.com/image/vdx/"
 
@@ -115,9 +115,9 @@ about_formats:
         - icon: "far fa-file-SXC"
           title: " About SXC File Format"
           content: |
-            The file format SXC(Sun XML Calc) belongs to an office suite called OpenOffice.org. This format generally deals with the spreadsheet needs of users as it is an XML based spreadsheet file format. SXC format supports formulas, functions, macros and charts along with DataPilot, which is an incredible feature because it automatically individualizes and provides summaries of raw imported data. The files created with this software are saved with extension .sxc.
+            File with .sxc extension is a spreadsheet created by StarOffice Calc.
 
-          link: "https://docs.fileformat.com/spreadsheet/sxc/"
+          link: "https://en.wikipedia.org/wiki/StarOffice"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VDX TO VDX"
-          link: "https://products.groupdocs.com/conversion/net/vdx-to-vdx/"
+        - name: "VDX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vdx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

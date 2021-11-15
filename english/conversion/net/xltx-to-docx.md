@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:35:09+03:00
+date: 2021-11-15T08:27:25
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XLTX"
+        - icon: "far fa-file-excel"
           title: " About XLTX File Format"
           content: |
             Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
+          link: "https://docs.fileformat.com/spreadsheet/xltx"
 
     format:
         # format loop
-        - icon: "far fa-file-DOCX"
+        - icon: "far fa-file-word"
           title: " About DOCX File Format"
           content: |
-            DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
+            Docx is well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
 
           link: "https://docs.fileformat.com/word-processing/docx/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/xltx-to-xltx/"
+        - name: "XLTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xltx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:29:00+03:00
+date: 2021-11-15T08:26:49
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-PLT"
           title: " About PLT File Format"
           content: |
-            The PLT file format is a vector-based plotter file introduced by Autodesk, Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production, and usage of PLT file guarantee this as all images are printed using lines instead of dots. The format is based on the HPGL file format which is used for sending information to plotter printers. PLT files can be viewed with its original applications i.e. Autodesk's AutoCAD, but there are other applications as well that can be used to manipulate these files such as CorelDRAW Graphics Suite. A number of applications and APIs support conversion of PLT file format to DXF, PDF, JPEG, TIFF, PNG, BMP, CGM, SVG, PS and PCL.
+            An HPGL(Hewlett-Packard Graphics Language) file contains an instruction set for plotter control, developed by Hewlett-Packard. Hewlett-Packard plotters use this file to draw and print vector and raster content on the paper.
 
-          link: "https://docs.fileformat.com/cad/plt/"
+          link: "https://docs.fileformat.com/cad/hpgl/"
 
     format:
         # format loop
         - icon: "far fa-file-ODT"
           title: " About ODT File Format"
           content: |
-            ODT files are type of documents created with word processing applications that are based on OpenDocument Text File format. These are created with word processor applications such as free OpenOffice Writer and can hold content such as text, images, objects and styles. The ODT file is to Writer word processor what the DOCX is to Microsoft Word. Several applications including Google Docs and Google's web-based word processor included with Google Drive can open the ODT files for editing. Microsoft Word can also open ODT files and save it in to other formats such as DOC and DOCX.
+            ODT files are type of documents created with word processing applications that are based on OpenDocument Text File format. These are created with word processor applications such as free OpenOffice Writer and can hold content such as text, images, objects and styles. The ODT file is to Writer word processor what the DOCX is to Microsoft Word. Several applications including Google Docs and Google's web-based word processor included with Google Drive can open the ODT files for editing.
 
           link: "https://docs.fileformat.com/word-processing/odt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PLT TO PLT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-plt/"
+        - name: "PLT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

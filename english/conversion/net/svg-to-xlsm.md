@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:31:07+03:00
+date: 2021-11-15T08:27:01
 draft: false
 
 ############################# Head ############################
@@ -103,16 +103,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-SVG"
+        - icon: "far fa-image"
           title: " About SVG File Format"
           content: |
-            SVG files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of image. The word Scalable refers to the fact that the SVG can be scaled to different sizes without losing any quality. Text based description of such files make them independent of resolution. It is one of the mostly used format for building website and print graphics in order to achieve scalability. The format can only be used for two-dimensional graphics though. SVG files can be viewed/opened in almost all modern browsers including Chrome, Internet Explorer, Firefox, and Safari.
+            SVG files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of image. The word Scalable refers to the fact that the SVG can be scaled to different sizes without losing any quality. Text based description of such files make them independent of resolution. It is one of the mostly used format for building website and print graphics in order to achieve scalability.
 
           link: "https://docs.fileformat.com/page-description-language/svg/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLSM"
+        - icon: "far fa-file-excel"
           title: " About XLSM File Format"
           content: |
             Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "SVG TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/svg-to-svg/"
+        - name: "SVG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/svg-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

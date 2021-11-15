@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:42+03:00
+date: 2021-11-15T08:26:28
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPF"
+        - icon: "far fa-image"
           title: " About JPF File Format"
           content: |
-            A file with .jpf extension is an extension to the JPEG 2000 image coding system ISO/IEC 15444 and is referred to as its Part 2 ISO/IEC 15444-2. It defines and specifies a set of lossless (bit-preserving) and lossy compression methods for coding continuous-tone, bi-level, grey-scale, colour digital still images, or multi-component images. The first part of ISO/IEC 15444-1 is referred to the JP2 that uses the wavelet technology to code lossless content and is the base for JPEG 2000 image file formats. The JPF file format didn’t receive a warm reception due to the extensive usage of JPEG format. JPG files can be opened with popular imaging applications such as Adobe Photoshop 2020, Adobe Illustrator 2020, and CorelDraw Graphics Suite 2020.
+            JPEG 2000 is an image coding system and state-of-the-art image compression standard. It uses wavelet technology to code lossless content in any quality at once. Moreover, without any substantial penalty in coding efficiency, JPEG 2000 has the capability to access and decode the same content efficaciously into a variety of other resolutions and qualities. The code streams in JPEG 2000 are significantly scalable having regions of interest that provide the facility for spatial random access.
 
-          link: "https://docs.fileformat.com/image/jpf/"
+          link: "https://docs.fileformat.com/image/jp2/"
 
     format:
         # format loop
-        - icon: "far fa-file-CSV"
+        - icon: "far fa-file-excel"
           title: " About CSV File Format"
           content: |
-            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently. Almost all spreadsheet applications such as Microsoft Excel or OpenOffice Calc can import CSV without much effort. Data imported from such files is arranged in cells of a spreadsheet for representation to user.
+            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently.
 
           link: "https://docs.fileformat.com/spreadsheet/csv/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPF TO JPF"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-jpf/"
+        - name: "JPF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

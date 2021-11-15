@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:01+03:00
+date: 2021-11-15T08:26:36
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-MPT"
           title: " About MPT File Format"
           content: |
-            Files with .mpt extension are Microsoft Project template files. These contain basic information and structure along with document settings for creating .MPP files. Such a template file offers default settings such as schedule or budget information for a particular project. It, however, can not save project related data such as tasks, resources or assignments. Once modified, the template files can be saved as standard MPP file for further working with it. Microsoft Project comes with a master template file named "Global.mpt" that is opened when a new template file is to be created. MPT files use application/vnd.ms-project and application/x-project as standard MIME types. MPT files can be opened with Moos Project Viewer, Microsoft Project, and MPXJ programs on Windows, Linux and MacOS platforms.
+            Files with .mpt extension are Microsoft Project template files. These contain basic information and structure along with document settings for creating MPP files. Such a template file offers default settings such as schedule or budget information for a particular project. It, however, can not save project-related data such as tasks, resources, or assignments. Once modified, the template files can be saved as standard MPP files for further working with it.
 
           link: "https://docs.fileformat.com/project-management/mpt/"
 
     format:
         # format loop
-        - icon: "far fa-file-HTM"
+        - icon: "far fa-file-code"
           title: " About HTM File Format"
           content: |
-            Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others. It defines the markups for creating static pages to be published on World Wide Web (WWW) for access by others. These markups tell the browsers how to display a web page's contents. Such pages can contain plain text, images, hyperlinks to other pages, videos and other media information. When a web page is published, you can have a look at the markup code behind it by viewing its page source. Modern browsers allow to inspect each section of a web page where each sub-division or markup element in the HTM source is elaborated.
+            Files with .htm extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox, and a number of others.
 
           link: "https://docs.fileformat.com/web/htm/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MPT TO MPT"
-          link: "https://products.groupdocs.com/conversion/net/mpt-to-mpt/"
+        - name: "MPT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/mpt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

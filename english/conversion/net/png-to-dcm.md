@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:29:04+03:00
+date: 2021-11-15T08:26:49
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-PNG"
+        - icon: "far fa-image"
           title: " About PNG File Format"
           content: |
-            PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format. Almost all Operating Systems have support for opening PNG files. For example, Microsoft Windows viewer has the capability to open PNG files as the OS has by default the support available as part of installation.
+            PNG, Portable Network Graphics, refers to a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. However, PNG file format does not support animations. PNG file format supports loseless image compression that makes it popular among its users. With the passage of time, PNG has evolved as one of the mostly used image file format.
 
           link: "https://docs.fileformat.com/image/png/"
 
     format:
         # format loop
-        - icon: "far fa-file-DCM"
+        - icon: "far fa-image"
           title: " About DCM File Format"
           content: |
-            Files with .DCM extension represent digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images. It is similar to DICOM file format and can include patient’s information for reference.
+            Files with .DCM extension represent a digital image that stores medical information of patients such as MRIs, CT scans, and ultrasound images. DCM files use DICOM (Digital Imaging and Communications in Medicine) image file format and can include patient’s information for reference. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images.
 
-          link: "https://docs.fileformat.com/image/dcm/"
+          link: "https://docs.fileformat.com/page-description-language/pcl/"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PNG TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/png-to-png/"
+        - name: "PNG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/png-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

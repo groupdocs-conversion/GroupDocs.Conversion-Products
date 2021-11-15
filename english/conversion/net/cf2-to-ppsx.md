@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:29+03:00
+date: 2021-11-15T08:25:54
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-CF2"
           title: " About CF2 File Format"
           content: |
-            A file with .cf2 extension is a CAD file format that contains 3D package designs or other model data for die cutting. Most of the CAD/CAM machines can process and cut these files. It was created by the National Space Science Data Center (NSSDC) to provide self-describing data storage and manipulation format that matches the structure of scientific data and applications such as statistical and numerical methods, visualization and management. With the passage of time, multiple hardware devices and software applications have been developed that recognize .cf2 files. These applications provide support for CF2 files on Mac OS and Windows Operating Systems.
+            A file with .cf2 extension is a CAD file format that contains 3D package designs or other model data for die-cutting. Most of the CAD/CAM machines can process and cut these files. It was created by the National Space Science Data Center (NSSDC) to provide self-describing data storage and manipulation format that matches the structure of scientific data and applications such as statistical and numerical methods, visualization, and management. 
 
           link: "https://docs.fileformat.com/cad/cf2/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPSX"
+        - icon: "far fa-file-powerpoint"
           title: " About PPSX File Format"
           content: |
-            PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+            PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow. 
 
           link: "https://docs.fileformat.com/presentation/ppsx/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CF2 TO CF2"
-          link: "https://products.groupdocs.com/conversion/net/cf2-to-cf2/"
+        - name: "CF2 TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cf2-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

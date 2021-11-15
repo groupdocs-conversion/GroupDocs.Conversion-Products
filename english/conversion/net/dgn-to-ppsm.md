@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:21:22+03:00
+date: 2021-11-15T08:25:58
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-DGN"
           title: " About DGN File Format"
           content: |
-            DGN, Design, files are drawings created by and supported by CAD applications such as MicroStation and Intergraph Interactive Graphics Design System. It is used for creating and saving designs for construction projects such as highways, bridges, and buildings. The format is similar to Autodesk's DWG file format and is considered its competitor. DNG files can either be saved as Intergraph Standard File Format or V8 DGN. DGN can be converted to several other formats such as DWG, BMP, JPEG, PDF, GIF and others. It can be opened with Autodesk AutoCAD, Bentley View and Bentley Systems MicroStation in addition to other software applications such as Corel PaintShop Photo Pro and IMSI TurboCAD Deluxe versions.
+            DGN files are drawings created by and supported by CAD applications such as MicroStation and Intergraph Interactive Graphics Design System. It is used for creating and saving designs for construction projects such as highways, bridges, and buildings. The format is similar to Autodesk’s DWG file format and is considered its competitor.
 
           link: "https://docs.fileformat.com/cad/dgn/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPSM"
+        - icon: "far fa-file-powerpoint"
           title: " About PPSM File Format"
           content: |
             Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DGN TO DGN"
-          link: "https://products.groupdocs.com/conversion/net/dgn-to-dgn/"
+        - name: "DGN TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dgn-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

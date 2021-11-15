@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:29:01+03:00
+date: 2021-11-15T08:26:49
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-PLT"
           title: " About PLT File Format"
           content: |
-            The PLT file format is a vector-based plotter file introduced by Autodesk, Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production, and usage of PLT file guarantee this as all images are printed using lines instead of dots. The format is based on the HPGL file format which is used for sending information to plotter printers. PLT files can be viewed with its original applications i.e. Autodesk's AutoCAD, but there are other applications as well that can be used to manipulate these files such as CorelDRAW Graphics Suite. A number of applications and APIs support conversion of PLT file format to DXF, PDF, JPEG, TIFF, PNG, BMP, CGM, SVG, PS and PCL.
+            An HPGL(Hewlett-Packard Graphics Language) file contains an instruction set for plotter control, developed by Hewlett-Packard. Hewlett-Packard plotters use this file to draw and print vector and raster content on the paper.
 
-          link: "https://docs.fileformat.com/cad/plt/"
+          link: "https://docs.fileformat.com/cad/hpgl/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPSX"
+        - icon: "far fa-file-powerpoint"
           title: " About PPSX File Format"
           content: |
-            PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+            PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow. 
 
           link: "https://docs.fileformat.com/presentation/ppsx/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PLT TO PLT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-plt/"
+        - name: "PLT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

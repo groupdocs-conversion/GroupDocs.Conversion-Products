@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:21:20+03:00
+date: 2021-11-15T08:25:57
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-DGN"
           title: " About DGN File Format"
           content: |
-            DGN, Design, files are drawings created by and supported by CAD applications such as MicroStation and Intergraph Interactive Graphics Design System. It is used for creating and saving designs for construction projects such as highways, bridges, and buildings. The format is similar to Autodesk's DWG file format and is considered its competitor. DNG files can either be saved as Intergraph Standard File Format or V8 DGN. DGN can be converted to several other formats such as DWG, BMP, JPEG, PDF, GIF and others. It can be opened with Autodesk AutoCAD, Bentley View and Bentley Systems MicroStation in addition to other software applications such as Corel PaintShop Photo Pro and IMSI TurboCAD Deluxe versions.
+            DGN files are drawings created by and supported by CAD applications such as MicroStation and Intergraph Interactive Graphics Design System. It is used for creating and saving designs for construction projects such as highways, bridges, and buildings. The format is similar to Autodesk’s DWG file format and is considered its competitor.
 
           link: "https://docs.fileformat.com/cad/dgn/"
 
     format:
         # format loop
-        - icon: "far fa-file-ODS"
+        - icon: "far fa-file-excel"
           title: " About ODS File Format"
           content: |
-            Files with ODS extension stand for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. It is XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS. A number of applications on Windows as well as other operating systems can open ODS files for editing and manipulation including Microsoft Excel, NeoOffice and LibreOffice. ODS files can also be converted into other spreadsheet formats as well like XLS, XLSX and others by different applications.
+            Files with ODS extension stand for OpenDocument Spreadsheet Document format that is editable by the user. Data is stored inside the ODF file into rows and columns. It is an XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS.
 
           link: "https://docs.fileformat.com/spreadsheet/ods/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DGN TO DGN"
-          link: "https://products.groupdocs.com/conversion/net/dgn-to-dgn/"
+        - name: "DGN TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dgn-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

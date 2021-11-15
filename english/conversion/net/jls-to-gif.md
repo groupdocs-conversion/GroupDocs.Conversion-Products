@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:15+03:00
+date: 2021-11-15T08:26:24
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JLS"
+        - icon: "far fa-image"
           title: " About JLS File Format"
           content: |
-            Lossless JPEG was developed as a late addition to JPEG in 1993, using a completely different technique from the lossy JPEG standard. It uses a predictive scheme based on the three nearest (causal) neighbors (upper, left, and upper-left), and entropy coding is used on the prediction error. The standard Independent JPEG Group libraries cannot encode or decode it, but Ken Murchison of Oceana Matrix Ltd. wrote a patch that extends the IJG library to handle lossless JPEG.[1] Lossless JPEG has some popularity in medical imaging, and is used in DNG and some digital cameras to compress raw images, but otherwise was never widely adopted. Adobe's DNG SDK provides a software library for encoding and decoding lossless JPEG with up to 16 bits per sample.
+            A JLS file is an image saved in the JPEG-LS file format. It contains a lossy or lossless compressed image. JLS files are typically created by medical imaging devices and digital cameras.
 
-          link: "https://en.wikipedia.org/wiki/Lossless_JPEG"
+          link: "https://docs.fileformat.com/image/jls/"
 
     format:
         # format loop
-        - icon: "far fa-file-GIF"
+        - icon: "far fa-image"
           title: " About GIF File Format"
           content: |
-            A GIF or Graphical Interchange Format is a type of highly compressed image. Owned by Unisys, GIF uses the LZW compression algorithm that does not degrade the image quality. For each image GIF typically allow up to 8 bits per pixel and up to 256 colours are allowed across the image. In contrast to a JPEG image, which can display up to 16 million colours and fairly touches the limits of the human eye. Back when the internet emerged, GIFs remained the best choice because they required low bandwidth and compatible for the graphics that consume solid areas of colour. An animated GIF combines numerous images or frames into a single file and displays them in a sequence to generate an animated clip or a short video. The colour limitations are up to 256 for each frame and are likely to be the least suitable for reproducing other images and photographs with colour gradient.
+            A GIF or Graphical Interchange Format is a type of highly compressed image. Owned by Unisys, GIF uses the LZW compression algorithm that does not degrade the image quality. For each image GIF typically allow up to 8 bits per pixel and up to 256 colors are allowed across the image. In contrast to a JPEG image, which can display up to 16 million colors and fairly touches the limits of the human eye.
 
           link: "https://docs.fileformat.com/image/gif/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JLS TO JLS"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-jls/"
+        - name: "JLS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jls-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

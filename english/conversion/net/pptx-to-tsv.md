@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:30:18+03:00
+date: 2021-11-15T08:26:56
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-PPTX"
+        - icon: "far fa-file-powerpoint"
           title: " About PPTX File Format"
           content: |
-            Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+            Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media.
 
           link: "https://docs.fileformat.com/presentation/pptx/"
 
     format:
         # format loop
-        - icon: "far fa-file-TSV"
+        - icon: "far fa-file-excel"
           title: " About TSV File Format"
           content: |
-            A Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. The file format, similar to CSV, is used for organization of data in a structured manner in order to import and export between different applications. The format is primarily used for data import/export and exchange in Spreadsheet applications and databases. Each record in a TSV file is contained in a single line of text file where each field value is separated by a tab character. Media type for TSV file format is text/tab-separated-values.
+            A Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. The file format, similar to CSV, is used for organization of data in a structured manner in order to import and export between different applications. The format is primarily used for data import/export and exchange in Spreadsheet applications and databases. 
 
           link: "https://docs.fileformat.com/spreadsheet/tsv/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PPTX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/pptx-to-pptx/"
+        - name: "PPTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/pptx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

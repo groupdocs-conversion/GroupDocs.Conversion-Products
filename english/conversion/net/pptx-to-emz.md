@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:30:14+03:00
+date: 2021-11-15T08:26:56
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-PPTX"
+        - icon: "far fa-file-powerpoint"
           title: " About PPTX File Format"
           content: |
-            Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+            Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media.
 
           link: "https://docs.fileformat.com/presentation/pptx/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EMZ"
           title: " About EMZ File Format"
           content: |
-            A file with .emz extension is a compressed container of Enhanced Metafile (EML file). These are compressed using the GZIP compression technique which is the commonly used compression method on UNIX and LINUX operating systems. Unlink ZIP (/compression/zip/), GZIP compresses the archive as a whole instead of compressing individual files. EMZ files are smaller in size as compared to the EMF files and help in fast transfer during online file sharing. Some of the applications that can open EMZ files include Microsoft Visio 2019, Microsoft Office 2019, XnView MP, and File Viewer Plus.
+            A file with .emz extension is a compressed container of Enhanced Metafile (.emf file). It follows GZIP compression algorithm and takes less storage space due to compression. The small file size makes it more easy to transfer EMZ files over the network.
 
           link: "https://docs.fileformat.com/image/emz/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PPTX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/pptx-to-pptx/"
+        - name: "PPTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/pptx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

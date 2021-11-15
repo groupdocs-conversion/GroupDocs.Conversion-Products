@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:35:13+03:00
+date: 2021-11-15T08:27:25
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XLTX"
+        - icon: "far fa-file-excel"
           title: " About XLTX File Format"
           content: |
             Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
+          link: "https://docs.fileformat.com/spreadsheet/xltx"
 
     format:
         # format loop
-        - icon: "far fa-file-JPG"
+        - icon: "far fa-image"
           title: " About JPG File Format"
           content: |
-            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image. The higher the compression value, the higher the degradation in image quality.
+            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
 
           link: "https://docs.fileformat.com/image/jpeg/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/xltx-to-xltx/"
+        - name: "XLTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xltx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

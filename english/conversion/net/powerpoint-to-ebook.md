@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:29:33+03:00
+date: 2021-11-15T08:26:52
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-POWERPOINT"
+        - icon: "far fa-file-powerpoint"
           title: " About POWERPOINT File Format"
           content: |
-            You must be familiar with PPTX and PPT extension files while working with Microsoft PowerPoint. These are Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. PowerPoint Viewer lets you a number of supported Presentation file formats and is available for free. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.
+            Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects.
 
           link: "https://docs.fileformat.com/presentation/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EBOOK"
           title: " About EBOOK File Format"
           content: |
-            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub that can easily be read by several applications. Some popular eReaders include Amazon Kindle, Sony Reader, Hanlin and IRIX. An eBook can contain different types of contents such as text, image, and video.
 
           link: "https://docs.fileformat.com/ebook/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "POWERPOINT TO POWERPOINT"
-          link: "https://products.groupdocs.com/conversion/net/powerpoint-to-powerpoint/"
+        - name: "POWERPOINT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/powerpoint-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

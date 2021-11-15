@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:09+03:00
+date: 2021-11-15T08:26:10
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-DXF"
           title: " About DXF File Format"
           content: |
-            DXF, Drawing Interchange Format, or Drawing Exchange Format, is a tagged data representation of AutoCAD drawing file. Each element in the file has a prefix integer number called a group code. This group code actually represents the element that follows and indicates the meaning of a data element for a given object type. DXF makes it possible to represent almost all user-specified information in a drawing file. DXF file format was developed by Autodesk as CAD data file format for data interoperability between AutoCAD and other applications. Thus, data can be imported from other formats to DXF to AutoCAD as per the DXF file format interoperability specifications.
+            DXF, Drawing Interchange Format, or Drawing Exchange Format, is a tagged data representation of AutoCAD drawing file. Each element in the file has a prefix integer number called a group code. This group code actually represents the element that follows and indicates the meaning of a data element for a given object type. DXF makes it possible to represent almost all user-specified information in a drawing file.
 
           link: "https://docs.fileformat.com/cad/dxf/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EMF"
           title: " About EMF File Format"
           content: |
-            Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately. When a device opens an EMF metafile using its own graphics environment, the proportions, dimensions, colors and other graphic properties of original image remains same regardless of the opening device platform.
+            Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately.
 
           link: "https://docs.fileformat.com/image/emf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DXF TO DXF"
-          link: "https://products.groupdocs.com/conversion/net/dxf-to-dxf/"
+        - name: "DXF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dxf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:30:29+03:00
+date: 2021-11-15T08:26:58
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-PSD"
+        - icon: "far fa-image"
           title: " About PSD File Format"
           content: |
-            PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
+            PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords, and other Photoshop-specific elements. Photoshop files have default extension as PSD and have a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
 
           link: "https://docs.fileformat.com/image/psd/"
 
     format:
         # format loop
-        - icon: "far fa-file-CSV"
+        - icon: "far fa-file-excel"
           title: " About CSV File Format"
           content: |
-            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently. Almost all spreadsheet applications such as Microsoft Excel or OpenOffice Calc can import CSV without much effort. Data imported from such files is arranged in cells of a spreadsheet for representation to user.
+            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently.
 
           link: "https://docs.fileformat.com/spreadsheet/csv/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PSD TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-psd/"
+        - name: "PSD TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

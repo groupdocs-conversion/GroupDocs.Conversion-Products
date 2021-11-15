@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:55+03:00
+date: 2021-11-15T08:27:16
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI. Common web file extensions and their associate file formats include HTML (Hypertext Markup Language), ASP (Active Server Pages), and CSS (Cascading Style Sheets).
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
           link: "https://docs.fileformat.com/web/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EBOOK"
           title: " About EBOOK File Format"
           content: |
-            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub that can easily be read by several applications. Some popular eReaders include Amazon Kindle, Sony Reader, Hanlin and IRIX. An eBook can contain different types of contents such as text, image, and video.
 
           link: "https://docs.fileformat.com/ebook/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "WEB TO WEB"
-          link: "https://products.groupdocs.com/conversion/net/web-to-web/"
+        - name: "WEB TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/web-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

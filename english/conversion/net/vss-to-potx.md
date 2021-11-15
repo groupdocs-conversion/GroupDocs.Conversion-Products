@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:55+03:00
+date: 2021-11-15T08:27:11
 draft: false
 
 ############################# Head ############################
@@ -103,16 +103,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSS"
+        - icon: "far fa-file-alt"
           title: " About VSS File Format"
           content: |
-            VSS are stencil files created with Microsoft Visio 2007 and earlier. A relatively new file format is .VSSX that was introduced with Microsoft Visio 2013. Stencil files provide drawing objects that can be included in a .VSD Visio drawing. Microsoft Visio itself is known for creating drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping and other similar information. It also has rich conversion features of Visio documents to other file formats such as PNG, BMP, PDF and others. Visio is available for both Windows and Mac OS.
+            VSS is stencil files created with Microsoft Visio 2007 and earlier. A relatively new file format is VSSX that was introduced with Microsoft Visio 2013. Stencil files provide drawing objects that can be included in a VSD Visio drawing. Microsoft Visio is used for creating drawing elements such as a collection of shapes, connectors, flowcharts, network layout, UML diagrams, software diagrams, database models, objects mapping, and other similar information.
 
           link: "https://docs.fileformat.com/image/vss/"
 
     format:
         # format loop
-        - icon: "far fa-file-POTX"
+        - icon: "far fa-file-powerpoint"
           title: " About POTX File Format"
           content: |
             Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSS TO VSS"
-          link: "https://products.groupdocs.com/conversion/net/vss-to-vss/"
+        - name: "VSS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vss-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

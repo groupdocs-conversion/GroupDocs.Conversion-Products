@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:03+03:00
+date: 2021-11-15T08:26:36
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-MPT"
           title: " About MPT File Format"
           content: |
-            Files with .mpt extension are Microsoft Project template files. These contain basic information and structure along with document settings for creating .MPP files. Such a template file offers default settings such as schedule or budget information for a particular project. It, however, can not save project related data such as tasks, resources or assignments. Once modified, the template files can be saved as standard MPP file for further working with it. Microsoft Project comes with a master template file named "Global.mpt" that is opened when a new template file is to be created. MPT files use application/vnd.ms-project and application/x-project as standard MIME types. MPT files can be opened with Moos Project Viewer, Microsoft Project, and MPXJ programs on Windows, Linux and MacOS platforms.
+            Files with .mpt extension are Microsoft Project template files. These contain basic information and structure along with document settings for creating MPP files. Such a template file offers default settings such as schedule or budget information for a particular project. It, however, can not save project-related data such as tasks, resources, or assignments. Once modified, the template files can be saved as standard MPP files for further working with it.
 
           link: "https://docs.fileformat.com/project-management/mpt/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPSX"
+        - icon: "far fa-file-powerpoint"
           title: " About PPSX File Format"
           content: |
-            PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+            PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow. 
 
           link: "https://docs.fileformat.com/presentation/ppsx/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MPT TO MPT"
-          link: "https://products.groupdocs.com/conversion/net/mpt-to-mpt/"
+        - name: "MPT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/mpt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

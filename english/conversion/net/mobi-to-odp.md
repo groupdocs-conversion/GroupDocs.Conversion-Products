@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:48+03:00
+date: 2021-11-15T08:26:35
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-MOBI"
           title: " About MOBI File Format"
           content: |
-            The MOBI file format is one of the most widely used ebook file format. The format is an enhancement to the old OEB (Open Ebook Format) format and was used as proprietary format for Mobipocket Reader. Like EPUB, it is supported by almost all modern e-readers specifically by mobile devices with low bandwidth. The format can be converted to several other formats such as PDF, EPUB and several other formats using publicly available software applications such as the Kindle app. There are several companies that offer free MOBI books such as Project Gutenberg, Feedbooks, and Open Library.
+            The MOBI file format is one of the most widely used ebook file formats. The format is an enhancement to the old OEB (Open Ebook Format) format and was used as the proprietary format for Mobipocket Reader. Like EPUB, it is supported by almost all modern e-readers specifically by mobile devices with low bandwidth. The format can be converted to several other formats such as PDF, EPUB, and several other formats using publicly available software applications such as the Kindle app.
 
           link: "https://docs.fileformat.com/ebook/mobi/"
 
     format:
         # format loop
-        - icon: "far fa-file-ODP"
+        - icon: "far fa-file-powerpoint"
           title: " About ODP File Format"
           content: |
-            Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+            Files with ODP extension represents the presentation file format used by OpenOffice.org in the OASIS OpenDocument standard. A presentation file is a collection of slides where each slide can comprise text, images, formatting, animations, and other media. These slides are presented to an audience in the form of slideshows with custom presentation settings.
 
           link: "https://docs.fileformat.com/presentation/odp/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MOBI TO MOBI"
-          link: "https://products.groupdocs.com/conversion/net/mobi-to-mobi/"
+        - name: "MOBI TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/mobi-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

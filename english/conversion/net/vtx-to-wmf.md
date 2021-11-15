@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:54+03:00
+date: 2021-11-15T08:27:16
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VTX"
+        - icon: "far fa-file-alt"
           title: " About VTX File Format"
           content: |
-            A basic conversion with Aspose APIs can be done with just 2 lines of code. Our APIs are supported on all major platforms and Operating Systems. Before executing the code below, please make sure that you have the following prerequisites on your system. First you need Microsoft Windows or a compatible OS with .NET Framework and .NET Core, Windows Azure, Mono or Xamarin Platforms, Development environment like Microsoft Visual Studio and Aspose.Words for .NET DLL referenced in your project.
+            A file with VTX extension is a Microsoft Visio drawing template that is saved to disc in XML file format. The template is aimed to provide a file with basic settings that can be used to create multiple Visio files of the same settings. Another similar format is VST which is saved in binary format rather than XML. VTX files are supported with Visio 2010 and newer versions.
 
           link: "https://docs.fileformat.com/image/vtx/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-WMF"
           title: " About WMF File Format"
           content: |
-            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen. A more enhanced version of WMF, known as Enhanced Meta Files (EMF), was published later that makes the format more feature rich. Practically, WMF are similar to SVG.
+            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen.
 
           link: "https://docs.fileformat.com/image/wmf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VTX TO VTX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-vtx/"
+        - name: "VTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

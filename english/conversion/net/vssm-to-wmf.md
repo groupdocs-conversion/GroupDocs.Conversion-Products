@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:05+03:00
+date: 2021-11-15T08:27:12
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSSM"
+        - icon: "far fa-file-alt"
           title: " About VSSM File Format"
           content: |
-            Files with .VSSM extension are Microsoft Visio Stencil files that support provide support for macros. A VSSM file when opened allows to run the macros to achieve desired formatting and placement of shapes in a diagram. In general, Microsoft Visio is drawing software that allows to create files that can contain and represent user defined information in different shapes. The most common of these include, but not limited to, UML diagrams, flow charts, visual objects, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be converted to different file formats such as PNG, BMP, PDF and others.
+            Files with .VSSM extension are Microsoft Visio Stencil files that support provide support for macros. A VSSM file when opened allows running the macros to achieve the desired formatting and placement of shapes in a diagram. In general, Microsoft Visio is drawing software that allows creating files that can contain and represent user-defined information in different shapes.
 
           link: "https://docs.fileformat.com/image/vssm/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-WMF"
           title: " About WMF File Format"
           content: |
-            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen. A more enhanced version of WMF, known as Enhanced Meta Files (EMF), was published later that makes the format more feature rich. Practically, WMF are similar to SVG.
+            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen.
 
           link: "https://docs.fileformat.com/image/wmf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSSM TO VSSM"
-          link: "https://products.groupdocs.com/conversion/net/vssm-to-vssm/"
+        - name: "VSSM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vssm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

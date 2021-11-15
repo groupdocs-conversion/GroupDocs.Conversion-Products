@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:51+03:00
+date: 2021-11-15T08:26:35
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-MOBI"
           title: " About MOBI File Format"
           content: |
-            The MOBI file format is one of the most widely used ebook file format. The format is an enhancement to the old OEB (Open Ebook Format) format and was used as proprietary format for Mobipocket Reader. Like EPUB, it is supported by almost all modern e-readers specifically by mobile devices with low bandwidth. The format can be converted to several other formats such as PDF, EPUB and several other formats using publicly available software applications such as the Kindle app. There are several companies that offer free MOBI books such as Project Gutenberg, Feedbooks, and Open Library.
+            The MOBI file format is one of the most widely used ebook file formats. The format is an enhancement to the old OEB (Open Ebook Format) format and was used as the proprietary format for Mobipocket Reader. Like EPUB, it is supported by almost all modern e-readers specifically by mobile devices with low bandwidth. The format can be converted to several other formats such as PDF, EPUB, and several other formats using publicly available software applications such as the Kindle app.
 
           link: "https://docs.fileformat.com/ebook/mobi/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLS"
+        - icon: "far fa-file-excel"
           title: " About XLS File Format"
           content: |
-            Files with XLS extension represent Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. File saved by Excel is known as Workbook where each workbook can have one or more worksheets. Data is stored and displayed to users in table format in worksheet and can span numeric values, text data, formulas, external data connections, images, and charts. Applications like Microsoft Excel lets you export workbook data to several different formats including PDF, CSV, XLSX, TXT, HTML, XPS, and several others. The XLS file format was replaced with a more open and structured format, XLSX, with the release of Microsoft Excel 2007. The latest versions still provide support for creating and reading XLS files, though XLSX is the first choice of use now.
+            Files with XLS extension represent Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. File saved by Excel are known as Workbook where each workbook can have one or more worksheets. Data is stored and displayed to users in table format in worksheet and can span numeric values, text data, formulas, external data connections, images and charts.
 
           link: "https://docs.fileformat.com/spreadsheet/xls/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MOBI TO MOBI"
-          link: "https://products.groupdocs.com/conversion/net/mobi-to-mobi/"
+        - name: "MOBI TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/mobi-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

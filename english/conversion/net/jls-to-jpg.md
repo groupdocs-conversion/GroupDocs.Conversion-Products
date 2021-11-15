@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:16+03:00
+date: 2021-11-15T08:26:24
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JLS"
+        - icon: "far fa-image"
           title: " About JLS File Format"
           content: |
-            Lossless JPEG was developed as a late addition to JPEG in 1993, using a completely different technique from the lossy JPEG standard. It uses a predictive scheme based on the three nearest (causal) neighbors (upper, left, and upper-left), and entropy coding is used on the prediction error. The standard Independent JPEG Group libraries cannot encode or decode it, but Ken Murchison of Oceana Matrix Ltd. wrote a patch that extends the IJG library to handle lossless JPEG.[1] Lossless JPEG has some popularity in medical imaging, and is used in DNG and some digital cameras to compress raw images, but otherwise was never widely adopted. Adobe's DNG SDK provides a software library for encoding and decoding lossless JPEG with up to 16 bits per sample.
+            A JLS file is an image saved in the JPEG-LS file format. It contains a lossy or lossless compressed image. JLS files are typically created by medical imaging devices and digital cameras.
 
-          link: "https://en.wikipedia.org/wiki/Lossless_JPEG"
+          link: "https://docs.fileformat.com/image/jls/"
 
     format:
         # format loop
-        - icon: "far fa-file-JPG"
+        - icon: "far fa-image"
           title: " About JPG File Format"
           content: |
-            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image. The higher the compression value, the higher the degradation in image quality.
+            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
 
           link: "https://docs.fileformat.com/image/jpeg/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JLS TO JLS"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-jls/"
+        - name: "JLS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jls-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

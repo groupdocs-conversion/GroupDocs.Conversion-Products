@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:48+03:00
+date: 2021-11-15T08:27:23
 draft: false
 
 ############################# Head ############################
@@ -103,7 +103,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-XLSX"
+        - icon: "far fa-file-excel"
           title: " About XLSX File Format"
           content: |
             XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EMZ"
           title: " About EMZ File Format"
           content: |
-            A file with .emz extension is a compressed container of Enhanced Metafile (EML file). These are compressed using the GZIP compression technique which is the commonly used compression method on UNIX and LINUX operating systems. Unlink ZIP (/compression/zip/), GZIP compresses the archive as a whole instead of compressing individual files. EMZ files are smaller in size as compared to the EMF files and help in fast transfer during online file sharing. Some of the applications that can open EMZ files include Microsoft Visio 2019, Microsoft Office 2019, XnView MP, and File Viewer Plus.
+            A file with .emz extension is a compressed container of Enhanced Metafile (.emf file). It follows GZIP compression algorithm and takes less storage space due to compression. The small file size makes it more easy to transfer EMZ files over the network.
 
           link: "https://docs.fileformat.com/image/emz/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "XLSX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/xlsx-to-xlsx/"
+        - name: "XLSX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/xlsx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:44+03:00
+date: 2021-11-15T08:25:55
 draft: false
 
 ############################# Head ############################
@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-CMX"
           title: " About CMX File Format"
           content: |
-            Files with CMX extension are Corel Exchange image file format that is used as presentation by CorelSuite applications. It contains image data as vector graphics as well as metadata that describes the image. CMX files can be opened by CorelDraw, Corel Presentations, Paint Shop Pro and some versions of Adobe Illustrator.
+            Files with CMX extension are Corel Exchange image file format (also known as Corel Metafile Exchange) that is used as presentation by CorelSuite applications. It contains image data as vector graphics as well as metadata that describes the image. CMX files can be opened by CorelDraw, Corel Presentations, Paint Shop Pro and some versions of Adobe Illustrator. CMX files can be converted to other formats such as JPG and EPS.
 
           link: "https://docs.fileformat.com/image/cmx/"
 
     format:
         # format loop
-        - icon: "far fa-file-DCM"
+        - icon: "far fa-image"
           title: " About DCM File Format"
           content: |
-            Files with .DCM extension represent digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images. It is similar to DICOM file format and can include patient’s information for reference.
+            Files with .DCM extension represent a digital image that stores medical information of patients such as MRIs, CT scans, and ultrasound images. DCM files use DICOM (Digital Imaging and Communications in Medicine) image file format and can include patient’s information for reference. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images.
 
-          link: "https://docs.fileformat.com/image/dcm/"
+          link: "https://docs.fileformat.com/page-description-language/pcl/"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CMX TO CMX"
-          link: "https://products.groupdocs.com/conversion/net/cmx-to-cmx/"
+        - name: "CMX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cmx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

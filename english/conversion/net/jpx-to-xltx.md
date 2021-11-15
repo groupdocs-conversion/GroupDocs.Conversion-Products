@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:09+03:00
+date: 2021-11-15T08:26:31
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPX"
+        - icon: "far fa-image"
           title: " About JPX File Format"
           content: |
-            A file with .jpx extension is an extension to the JPEG 2000 file format. It uses the JPEG 2000 compression primarily and also provides advanced features such as multiple layers for an image, various colour spaces, opacity, and fragmented code streams. JPX also allows other compressions such as JBIG, CCITT Group3, CCITT Group4, etc. in addition to the JPEG 2000 compression. The JPX file format was approved as ISO/IEC 15444-2 standard, but couldn’t receive a warm reception due to the extensive usage of JPEG file format. Applications that can open JPX files include Corel PaintShop Pro, Adobe Photoshop 2020, Adobe Illustrator 2020, and CorelDraw Graphics Suite 2020.
+            JPX is a JPEG 2000 extended file-format. JPEG 2000 is an improvement to the JPEG format.
 
-          link: "https://docs.fileformat.com/image/jpx/"
+          link: "https://docs.fileformat.com/image/j2k/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLTX"
+        - icon: "far fa-file-excel"
           title: " About XLTX File Format"
           content: |
             Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
+          link: "https://docs.fileformat.com/spreadsheet/xltx"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPX TO JPX"
-          link: "https://products.groupdocs.com/conversion/net/jpx-to-jpx/"
+        - name: "JPX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

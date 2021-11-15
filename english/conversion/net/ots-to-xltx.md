@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:26+03:00
+date: 2021-11-15T08:26:45
 draft: false
 
 ############################# Head ############################
@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-OTS"
           title: " About OTS File Format"
           content: |
-            A file with .ots extension is an OpenDocument Spreadsheet Template file that is created with the Calc application software included in Apache OpenOffice. Calc application software is the similar to Excel available in Microsoft Office. OTS file format is used to create templates that contain predefine settings related to styles, font, data, spreadsheet layout, and formatting. OTF files have mime-type application/vnd.oasis.opendocument.spreadsheet-template. These template files can be used as a starting point to generate and save actual data files that are saved in ODS file format. OTS files can be used with applications such as OpenOffice and LibreOffice.
+            OTS is a spreadsheet template in OpenDocument format. OTS files are used to create ODS files with same styling and formatting.
 
           link: "https://docs.fileformat.com/spreadsheet/ots/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLTX"
+        - icon: "far fa-file-excel"
           title: " About XLTX File Format"
           content: |
             Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
+          link: "https://docs.fileformat.com/spreadsheet/xltx"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OTS TO OTS"
-          link: "https://products.groupdocs.com/conversion/net/ots-to-ots/"
+        - name: "OTS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ots-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

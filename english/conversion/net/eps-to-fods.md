@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:48+03:00
+date: 2021-11-15T08:26:15
 draft: false
 
 ############################# Head ############################
@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-EPS"
           title: " About EPS File Format"
           content: |
-            FIles with EPS extension essentially describe an Encapsulated PostScript language program that describes the appearance of a single page. The name "Encapsulated" because it can be included or encapsulated in another PostScript language page description. This script based file format may contain any combination of text, graphics and images. EPS files may include a bitmap preview image encapsulated inside for display by applications that can open such files. EPS files can be converted to standard image formats such as JPG, PNG, TIFF and PDF using different applications e.g. Adobe Illustrator, Photoshop and PaintShop Pro. Because of a security vulnerability in EPS files, Office 2016, Office 2013, Office 2010, and Office 365 have turned off the ability to insert EPS files into Office documents.
+            Files with EPS extension essentially describe an Encapsulated PostScript language program that describes the appearance of a single page. The name "Encapsulated" because it can be included or encapsulated in another PostScript language page description. This script based file format may contain any combination of text, graphics and images.
 
           link: "https://docs.fileformat.com/page-description-language/eps/"
 
     format:
         # format loop
-        - icon: "far fa-file-FODS"
+        - icon: "far fa-file-excel"
           title: " About FODS File Format"
           content: |
-            A file with .fods extension is a type of OpenDocument Spreadsheet document format that stores data in rows and columns. The format is specified as part of ODF 1.2 specifications published and maintained by OASIS. FODS files cannot be opened with Excel, another Spreadsheet software application by Microsoft. FODS files can be saved as ODS using LibreOffice and can be converted to other formats such as XLS and XLSX.
+            FODS is a ZIP-compressed XML-based file format for spreadsheets, charts, presentations, and word processing documents.
 
-          link: "https://docs.fileformat.com/spreadsheet/fods/"
+          link: "https://en.wikipedia.org/wiki/OpenDocument"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EPS TO EPS"
-          link: "https://products.groupdocs.com/conversion/net/eps-to-eps/"
+        - name: "EPS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/eps-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

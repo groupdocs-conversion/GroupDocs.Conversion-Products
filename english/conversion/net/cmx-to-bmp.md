@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:44+03:00
+date: 2021-11-15T08:25:55
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-CMX"
           title: " About CMX File Format"
           content: |
-            Files with CMX extension are Corel Exchange image file format that is used as presentation by CorelSuite applications. It contains image data as vector graphics as well as metadata that describes the image. CMX files can be opened by CorelDraw, Corel Presentations, Paint Shop Pro and some versions of Adobe Illustrator.
+            Files with CMX extension are Corel Exchange image file format (also known as Corel Metafile Exchange) that is used as presentation by CorelSuite applications. It contains image data as vector graphics as well as metadata that describes the image. CMX files can be opened by CorelDraw, Corel Presentations, Paint Shop Pro and some versions of Adobe Illustrator. CMX files can be converted to other formats such as JPG and EPS.
 
           link: "https://docs.fileformat.com/image/cmx/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-BMP"
           title: " About BMP File Format"
           content: |
-            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various colour depths.
+            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
 
           link: "https://docs.fileformat.com/image/bmp/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CMX TO CMX"
-          link: "https://products.groupdocs.com/conversion/net/cmx-to-cmx/"
+        - name: "CMX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cmx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

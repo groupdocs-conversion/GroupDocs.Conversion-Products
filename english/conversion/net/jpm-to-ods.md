@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:58+03:00
+date: 2021-11-15T08:26:30
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPM"
+        - icon: "far fa-image"
           title: " About JPM File Format"
           content: |
-            JPM refers to JPEG 2000 image coding system Part 6 which is used for document imaging. It is based on the Mixed Raster Content Standard (ISO/IEC 16485) and contains layered still images that use JPEG 2000 and other encodings. In addition to its own specifications, JPM file format inherits features from its parent i.e. the jp2 file format.
+            JPM is an extension to the JP2 format and was developed for multi-page documents with multiple objects per page.
 
-          link: "https://docs.fileformat.com/image/jpm/"
+          link: "https://docs.fileformat.com/image/jp2/"
 
     format:
         # format loop
-        - icon: "far fa-file-ODS"
+        - icon: "far fa-file-excel"
           title: " About ODS File Format"
           content: |
-            Files with ODS extension stand for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. It is XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS. A number of applications on Windows as well as other operating systems can open ODS files for editing and manipulation including Microsoft Excel, NeoOffice and LibreOffice. ODS files can also be converted into other spreadsheet formats as well like XLS, XLSX and others by different applications.
+            Files with ODS extension stand for OpenDocument Spreadsheet Document format that is editable by the user. Data is stored inside the ODF file into rows and columns. It is an XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS.
 
           link: "https://docs.fileformat.com/spreadsheet/ods/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPM TO JPM"
-          link: "https://products.groupdocs.com/conversion/net/jpm-to-jpm/"
+        - name: "JPM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

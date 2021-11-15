@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:45+03:00
+date: 2021-11-15T08:26:47
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-PCL"
           title: " About PCL File Format"
           content: |
-            PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). HP created PCL to provide an efficient way for controlling printer features across many different printing devices. The format was originally developed for HP's dot matrix and Inkjet printers, but has been part of various thermal, matrix and page printers with the passage of time. The format underwent several different revisions, resulting in different versions where each version was enhanced to meet the demands of time with respect to the printer control features. Today, PCL is the most widely spread printer language in the laster printer market.
+            PCL stands for Printer Command Language which is a Page Description Language introduced by Hewlett Packard (HP). HP created PCL to provide an efficient way of controlling printer features across many different printing devices. The format was originally developed for HP’s dot-matrix and Inkjet printers but has been part of various thermal, matrix, and page printers with the passage of time. The format underwent several different revisions, resulting in different versions where each version was enhanced to meet the demands of time with respect to the printer control features
 
           link: "https://docs.fileformat.com/page-description-language/pcl/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPSM"
+        - icon: "far fa-file-powerpoint"
           title: " About PPSM File Format"
           content: |
             Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PCL TO PCL"
-          link: "https://products.groupdocs.com/conversion/net/pcl-to-pcl/"
+        - name: "PCL TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/pcl-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

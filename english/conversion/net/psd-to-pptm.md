@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:30:33+03:00
+date: 2021-11-15T08:26:58
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-PSD"
+        - icon: "far fa-image"
           title: " About PSD File Format"
           content: |
-            PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
+            PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords, and other Photoshop-specific elements. Photoshop files have default extension as PSD and have a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
 
           link: "https://docs.fileformat.com/image/psd/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPTM"
+        - icon: "far fa-file-powerpoint"
           title: " About PPTM File Format"
           content: |
             Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
 
-          link: "https://docs.fileformat.com/presentation/pptm/"
+          link: "https://docs.fileformat.com/presentation/pptm"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PSD TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/psd-to-psd/"
+        - name: "PSD TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/psd-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

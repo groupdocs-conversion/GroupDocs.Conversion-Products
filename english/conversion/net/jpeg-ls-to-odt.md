@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:35+03:00
+date: 2021-11-15T08:26:27
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
     code: |
         ```cs
         // load the JPEG-LS file
-        var converter = new GroupDocs.Conversion.Converter("template.jls");
+        var converter = new GroupDocs.Conversion.Converter("template.jpeg-ls");
         // set the convert options for ODT format
         var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
         // convert to ODT format
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
-          title: " About JPEG File Format"
+        - icon: "far fa-file-JPEG-LS"
+          title: " About JPEG-LS File Format"
           content: |
-            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
+            [SRC_FORMAT_DESCRIPTION]
 
-          link: "https://docs.fileformat.com/image/jpeg/"
+          link: "[SRC_FORMAT_URI]"
 
     format:
         # format loop
-        - icon: "far fa-file-word-o"
+        - icon: "far fa-file-ODT"
           title: " About ODT File Format"
           content: |
-            ODT files are type of documents created with word processing applications that are based on OpenDocument Text File format. These are created with word processor applications such as free OpenOffice Writer and can hold content such as text, images, objects and styles. The ODT file is to Writer word processor what the DOCX is to Microsoft Word. Several applications including Google Docs and Google’s web-based word processor included with Google Drive can open the ODT files for editing. Microsoft Word can also open ODT files and save it in to other formats such as DOC and DOCX.
+            ODT files are type of documents created with word processing applications that are based on OpenDocument Text File format. These are created with word processor applications such as free OpenOffice Writer and can hold content such as text, images, objects and styles. The ODT file is to Writer word processor what the DOCX is to Microsoft Word. Several applications including Google Docs and Google's web-based word processor included with Google Drive can open the ODT files for editing.
 
           link: "https://docs.fileformat.com/word-processing/odt/"
 
@@ -250,6 +250,11 @@ more_formats:
         - name: "JPEG-LS TO DOCM"
           link: "https://products.groupdocs.com/conversion/net/jpeg-ls-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
+
+        # format loop
+        - name: "JPEG-LS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpeg-ls-to-docx/"
+          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "JPEG-LS TO DOT"

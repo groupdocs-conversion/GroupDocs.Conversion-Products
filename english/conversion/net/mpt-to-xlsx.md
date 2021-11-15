@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:06+03:00
+date: 2021-11-15T08:26:36
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-MPT"
           title: " About MPT File Format"
           content: |
-            Files with .mpt extension are Microsoft Project template files. These contain basic information and structure along with document settings for creating .MPP files. Such a template file offers default settings such as schedule or budget information for a particular project. It, however, can not save project related data such as tasks, resources or assignments. Once modified, the template files can be saved as standard MPP file for further working with it. Microsoft Project comes with a master template file named "Global.mpt" that is opened when a new template file is to be created. MPT files use application/vnd.ms-project and application/x-project as standard MIME types. MPT files can be opened with Moos Project Viewer, Microsoft Project, and MPXJ programs on Windows, Linux and MacOS platforms.
+            Files with .mpt extension are Microsoft Project template files. These contain basic information and structure along with document settings for creating MPP files. Such a template file offers default settings such as schedule or budget information for a particular project. It, however, can not save project-related data such as tasks, resources, or assignments. Once modified, the template files can be saved as standard MPP files for further working with it.
 
           link: "https://docs.fileformat.com/project-management/mpt/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLSX"
+        - icon: "far fa-file-excel"
           title: " About XLSX File Format"
           content: |
             XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MPT TO MPT"
-          link: "https://products.groupdocs.com/conversion/net/mpt-to-mpt/"
+        - name: "MPT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/mpt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

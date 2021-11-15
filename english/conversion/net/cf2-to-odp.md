@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:27+03:00
+date: 2021-11-15T08:25:53
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-CF2"
           title: " About CF2 File Format"
           content: |
-            A file with .cf2 extension is a CAD file format that contains 3D package designs or other model data for die cutting. Most of the CAD/CAM machines can process and cut these files. It was created by the National Space Science Data Center (NSSDC) to provide self-describing data storage and manipulation format that matches the structure of scientific data and applications such as statistical and numerical methods, visualization and management. With the passage of time, multiple hardware devices and software applications have been developed that recognize .cf2 files. These applications provide support for CF2 files on Mac OS and Windows Operating Systems.
+            A file with .cf2 extension is a CAD file format that contains 3D package designs or other model data for die-cutting. Most of the CAD/CAM machines can process and cut these files. It was created by the National Space Science Data Center (NSSDC) to provide self-describing data storage and manipulation format that matches the structure of scientific data and applications such as statistical and numerical methods, visualization, and management. 
 
           link: "https://docs.fileformat.com/cad/cf2/"
 
     format:
         # format loop
-        - icon: "far fa-file-ODP"
+        - icon: "far fa-file-powerpoint"
           title: " About ODP File Format"
           content: |
-            Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+            Files with ODP extension represents the presentation file format used by OpenOffice.org in the OASIS OpenDocument standard. A presentation file is a collection of slides where each slide can comprise text, images, formatting, animations, and other media. These slides are presented to an audience in the form of slideshows with custom presentation settings.
 
           link: "https://docs.fileformat.com/presentation/odp/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CF2 TO CF2"
-          link: "https://products.groupdocs.com/conversion/net/cf2-to-cf2/"
+        - name: "CF2 TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cf2-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

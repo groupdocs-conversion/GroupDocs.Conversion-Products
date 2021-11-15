@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:33+03:00
+date: 2021-11-15T08:26:46
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-OUTLOOK"
           title: " About OUTLOOK File Format"
           content: |
-            Have you ever come across Email file formats and failed to open it? You have come to the right place, we are going to explain what Email file formats are and what are the recommended software that can open or use them. Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.
+            Outlook Data Files are created and used by Microsoft Outlook to store messages, contacts, calendars, and other account information.
 
           link: "https://docs.fileformat.com/email/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EBOOK"
           title: " About EBOOK File Format"
           content: |
-            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub that can easily be read by several applications. Some popular eReaders include Amazon Kindle, Sony Reader, Hanlin and IRIX. An eBook can contain different types of contents such as text, image, and video.
 
           link: "https://docs.fileformat.com/ebook/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OUTLOOK TO OUTLOOK"
-          link: "https://products.groupdocs.com/conversion/net/outlook-to-outlook/"
+        - name: "OUTLOOK TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/outlook-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

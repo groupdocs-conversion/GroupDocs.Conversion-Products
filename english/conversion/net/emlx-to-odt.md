@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:34+03:00
+date: 2021-11-15T08:26:13
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-EMLX"
           title: " About EMLX File Format"
           content: |
-            The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. There are other applications as well that can open the EMLX files and convert these to other file formats.
+            The EMLX file format is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. There are other applications as well such as GroupDocs.Conversion App that can open the EMLX files and convert these to other file formats.
 
           link: "https://docs.fileformat.com/email/emlx/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-ODT"
           title: " About ODT File Format"
           content: |
-            ODT files are type of documents created with word processing applications that are based on OpenDocument Text File format. These are created with word processor applications such as free OpenOffice Writer and can hold content such as text, images, objects and styles. The ODT file is to Writer word processor what the DOCX is to Microsoft Word. Several applications including Google Docs and Google's web-based word processor included with Google Drive can open the ODT files for editing. Microsoft Word can also open ODT files and save it in to other formats such as DOC and DOCX.
+            ODT files are type of documents created with word processing applications that are based on OpenDocument Text File format. These are created with word processor applications such as free OpenOffice Writer and can hold content such as text, images, objects and styles. The ODT file is to Writer word processor what the DOCX is to Microsoft Word. Several applications including Google Docs and Google's web-based word processor included with Google Drive can open the ODT files for editing.
 
           link: "https://docs.fileformat.com/word-processing/odt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EMLX TO EMLX"
-          link: "https://products.groupdocs.com/conversion/net/emlx-to-emlx/"
+        - name: "EMLX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/emlx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

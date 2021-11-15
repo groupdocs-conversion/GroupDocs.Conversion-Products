@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:33:54+03:00
+date: 2021-11-15T08:27:16
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VTX"
+        - icon: "far fa-file-alt"
           title: " About VTX File Format"
           content: |
-            A basic conversion with Aspose APIs can be done with just 2 lines of code. Our APIs are supported on all major platforms and Operating Systems. Before executing the code below, please make sure that you have the following prerequisites on your system. First you need Microsoft Windows or a compatible OS with .NET Framework and .NET Core, Windows Azure, Mono or Xamarin Platforms, Development environment like Microsoft Visual Studio and Aspose.Words for .NET DLL referenced in your project.
+            A file with VTX extension is a Microsoft Visio drawing template that is saved to disc in XML file format. The template is aimed to provide a file with basic settings that can be used to create multiple Visio files of the same settings. Another similar format is VST which is saved in binary format rather than XML. VTX files are supported with Visio 2010 and newer versions.
 
           link: "https://docs.fileformat.com/image/vtx/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-XLAM"
           title: " About XLAM File Format"
           content: |
-            XLAM is an Excel Macro-Enabled Add-In file that is used to add new functions to Excel. An Add-In is a supplemental program that runs additional code and provides additional functionality for Excel spreadsheets. XLAM files are stored with the .xlam extension. XLAM files are XML-based files similar to XLSM and XLSX file formats and are saved with ZIP compression to reduce the overall file size.
+            XLAM files are used to extend the modules provided by Excel. They can be added to Excel 2007 or later, or to earlier versions of Excel with Open XML component support. File used by Microsoft Excel, a program that allows users to create and edit spreadsheets; contains a macro-enabled add-in, which provides extra functionality and tools that may execute macros.
 
           link: "https://docs.fileformat.com/spreadsheet/xlam/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VTX TO VTX"
-          link: "https://products.groupdocs.com/conversion/net/vtx-to-vtx/"
+        - name: "VTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vtx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

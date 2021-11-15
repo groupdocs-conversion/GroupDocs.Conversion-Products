@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:30+03:00
+date: 2021-11-15T08:25:54
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-CF2"
           title: " About CF2 File Format"
           content: |
-            A file with .cf2 extension is a CAD file format that contains 3D package designs or other model data for die cutting. Most of the CAD/CAM machines can process and cut these files. It was created by the National Space Science Data Center (NSSDC) to provide self-describing data storage and manipulation format that matches the structure of scientific data and applications such as statistical and numerical methods, visualization and management. With the passage of time, multiple hardware devices and software applications have been developed that recognize .cf2 files. These applications provide support for CF2 files on Mac OS and Windows Operating Systems.
+            A file with .cf2 extension is a CAD file format that contains 3D package designs or other model data for die-cutting. Most of the CAD/CAM machines can process and cut these files. It was created by the National Space Science Data Center (NSSDC) to provide self-describing data storage and manipulation format that matches the structure of scientific data and applications such as statistical and numerical methods, visualization, and management. 
 
           link: "https://docs.fileformat.com/cad/cf2/"
 
     format:
         # format loop
-        - icon: "far fa-file-SVG"
+        - icon: "far fa-image"
           title: " About SVG File Format"
           content: |
-            SVG files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of image. The word Scalable refers to the fact that the SVG can be scaled to different sizes without losing any quality. Text based description of such files make them independent of resolution. It is one of the mostly used format for building website and print graphics in order to achieve scalability. The format can only be used for two-dimensional graphics though. SVG files can be viewed/opened in almost all modern browsers including Chrome, Internet Explorer, Firefox, and Safari.
+            SVG files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of image. The word Scalable refers to the fact that the SVG can be scaled to different sizes without losing any quality. Text based description of such files make them independent of resolution. It is one of the mostly used format for building website and print graphics in order to achieve scalability.
 
           link: "https://docs.fileformat.com/page-description-language/svg/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CF2 TO CF2"
-          link: "https://products.groupdocs.com/conversion/net/cf2-to-cf2/"
+        - name: "CF2 TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cf2-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

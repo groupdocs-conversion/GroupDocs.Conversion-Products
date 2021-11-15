@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:09+03:00
+date: 2021-11-15T08:26:23
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-J2K"
+        - icon: "far fa-image"
           title: " About J2K File Format"
           content: |
-            A J2K file is an image that is compressed using the wavelet compression instead of DCT compression. This file format is used by the Joint Photographic Experts Group (JPEG) 2000 files. J2K files store metadata information about the image file in XML unlike .jpeg or .jpg that use the EXIF format for this purpose. J2K files support 15-bit color, alpha transparency, and lossless compression. Several commercial APIs exist to decode JPEG 2000 imags such as J2K-Codec. A J2K file can be opened on Windows OS using the standard image viewers.
+            A J2K file is an image that is compressed using the wavelet compression instead of DCT compression.
 
           link: "https://docs.fileformat.com/image/j2k/"
 
     format:
         # format loop
-        - icon: "far fa-file-JP2"
+        - icon: "far fa-image"
           title: " About JP2 File Format"
           content: |
-            JPEG 2000 (JP2) is an image coding system and state-of-the-art image compression standard. Designed, using wavelet technology JPEG 2000 can code lossless content in any quality at once. Moreover, without any substantial penalty in coding efficiency, JPEG 2000 have the capability to access and decode the same content efficaciously into a variety of other resolutions and qualities. The code streams in JPEG 2000 is significantly scalable having regions of interest that provide the facility for spatial random access. Possessing Up to 16384 diverse components with the dimensions in terapixels, and precision that can be high as 38 bits/sample.
+            JPEG 2000 (JP2) is an image coding system and state-of-the-art image compression standard. Designed, using wavelet technology JPEG 2000 can code lossless content in any quality at once. Moreover, without any substantial penalty in coding efficiency, JPEG 2000  have the capability to access and decode the same content efficaciously into a variety of other resolutions and qualities. The code streams in JPEG 2000 is significantly scalable having regions of interest that provide the facility for spatial random access. Possessing Up to 16384 diverse components with the dimensions in terapixels, and precision that can be high as 38 bits/sample.
 
           link: "https://docs.fileformat.com/image/jp2/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "J2K TO J2K"
-          link: "https://products.groupdocs.com/conversion/net/j2k-to-j2k/"
+        - name: "J2K TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/j2k-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:37+03:00
+date: 2021-11-15T08:27:09
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VSDM"
+        - icon: "far fa-file-alt"
           title: " About VSDM File Format"
           content: |
-            Files with VSDM extension are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX but also provide the capability to run macros when the file is opened. Macros are user defined actions/steps that are developed in Visual Basic for Applications (VBA) and can be used to perform repeatitive tasks. VSDM file format was introduced with the launch of Microsoft Visio 2013. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Files with VSDM extension are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX but also provide the capability to run macros when the file is opened. Macros are user-defined actions/steps that are developed in Visual Basic for Applications (VBA) and can be used to perform repetitive tasks.
 
           link: "https://docs.fileformat.com/image/vsdm/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EMZ"
           title: " About EMZ File Format"
           content: |
-            A file with .emz extension is a compressed container of Enhanced Metafile (EML file). These are compressed using the GZIP compression technique which is the commonly used compression method on UNIX and LINUX operating systems. Unlink ZIP (/compression/zip/), GZIP compresses the archive as a whole instead of compressing individual files. EMZ files are smaller in size as compared to the EMF files and help in fast transfer during online file sharing. Some of the applications that can open EMZ files include Microsoft Visio 2019, Microsoft Office 2019, XnView MP, and File Viewer Plus.
+            A file with .emz extension is a compressed container of Enhanced Metafile (.emf file). It follows GZIP compression algorithm and takes less storage space due to compression. The small file size makes it more easy to transfer EMZ files over the network.
 
           link: "https://docs.fileformat.com/image/emz/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VSDM TO VSDM"
-          link: "https://products.groupdocs.com/conversion/net/vsdm-to-vsdm/"
+        - name: "VSDM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vsdm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

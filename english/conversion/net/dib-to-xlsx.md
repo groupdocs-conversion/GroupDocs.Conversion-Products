@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:21:37+03:00
+date: 2021-11-15T08:25:59
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-DIB"
           title: " About DIB File Format"
           content: |
-            A DIB (Device Independent Bitmap) file is a raster image file that is similar in structure to the standard Bitmap files (BMP) but has a different header. It can be opened with almost all applications that can open a standard BMP file on Windows as well as macOS. DIB are binary files and have a complex file format similar to BMP.
+            A Device-Independent bitmap (DIB) is a raster image file that is similar in structure to the standard Bitmap files(BMP). It contains a color table that describes the mapping of RGB colors to the pixel values. This enables DIB to represent images on any device. It can be opened with almost all applications that can open a standard BMP file on Windows as well as macOS.
 
           link: "https://docs.fileformat.com/image/dib/"
 
     format:
         # format loop
-        - icon: "far fa-file-XLSX"
+        - icon: "far fa-file-excel"
           title: " About XLSX File Format"
           content: |
             XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DIB TO DIB"
-          link: "https://products.groupdocs.com/conversion/net/dib-to-dib/"
+        - name: "DIB TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dib-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

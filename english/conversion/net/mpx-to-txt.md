@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:12+03:00
+date: 2021-11-15T08:26:37
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-MPX"
           title: " About MPX File Format"
           content: |
-            MPX, Microsoft Exchange File Format, is an ASCII file format for transferring of project information between Microsoft Project (MSP) and other applications that support the MPX file format such as Primavera Project Planner, Sciforma and Timerline Precision Estimating. The MPX file format allows you to transfer project information that cannot appear in a table, such as detailed resource assignment information, calendar information, or information in the Project Info dialog box.
+            MPX, Microsoft Exchange File Format, is an ASCII file format for transferring project information between Microsoft Project (MSP) and other applications that support the MPX file format such as Primavera Project Planner, Sciforma, and Timberline Precision Estimating. The MPX file format allows you to transfer project information that cannot appear in a table, such as detailed resource assignment information, calendar information, or information in the Project Info dialog box.
 
           link: "https://docs.fileformat.com/project-management/mpx/"
 
     format:
         # format loop
-        - icon: "far fa-file-TXT"
+        - icon: "far fa-file-word"
           title: " About TXT File Format"
           content: |
             A file with .TXT extension represents a text document that contains plain text in the form of lines. Paragraphs in a text document are recognized by carriage returns and are used for better arrangement of file contents. A standard text document can be opened in any text editor or word processing application on different operating systems. All the text contained in such a file is in human-readable format and represented by sequence of characters.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MPX TO MPX"
-          link: "https://products.groupdocs.com/conversion/net/mpx-to-mpx/"
+        - name: "MPX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/mpx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

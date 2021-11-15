@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:11+03:00
+date: 2021-11-15T08:25:52
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-CAD"
           title: " About CAD File Format"
           content: |
-            CAD stands for Computer Aided Design. The term CADD (for Computer Aided Design and Drafting) is also used. It is used for a 3D graphics file format and may contain 2D or 3D designs. CAD file is a digital file format of an object generated and used by CAD software. A CAD file contains a technical drawing, blueprint, schematic, or 3D rendering of an object. There may be other CAD tools that can be used to create, open, edit and export these .cad files to more widely used CAD drawing file formats. Below we are going to discuss about the most popular CAD File Formats and the most recommended software that can open, modify and convert it other popular formats.
+            CAD stands for Computer Aided Design. The term CADD (for Computer Aided Design and Drafting) is also used. It is used for a 3D graphics file format and may contain 2D or 3D designs. CAD file is a digital file format of an object generated and used by CAD software. A CAD file contains a technical drawing, blueprint, schematic, or 3D rendering of an object.
 
           link: "https://docs.fileformat.com/cad/"
 
@@ -115,9 +115,9 @@ about_formats:
         - icon: "far fa-file-PHOTOSHOP"
           title: " About PHOTOSHOP File Format"
           content: |
-            PSD, Photoshop Document, represents Adobe Photoshop’s native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
+            Represented by native Photoshop PSD and PSB file-formats used for graphics designing and development. PSD and PSB files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other graphics elements.
 
-          link: "https://docs.fileformat.com/image/psd/"
+          link: "https://docs.fileformat.com/image/"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CAD TO CAD"
-          link: "https://products.groupdocs.com/conversion/net/cad-to-cad/"
+        - name: "CAD TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cad-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

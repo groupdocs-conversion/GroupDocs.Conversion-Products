@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:14+03:00
+date: 2021-11-15T08:26:24
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JLS"
+        - icon: "far fa-image"
           title: " About JLS File Format"
           content: |
-            Lossless JPEG was developed as a late addition to JPEG in 1993, using a completely different technique from the lossy JPEG standard. It uses a predictive scheme based on the three nearest (causal) neighbors (upper, left, and upper-left), and entropy coding is used on the prediction error. The standard Independent JPEG Group libraries cannot encode or decode it, but Ken Murchison of Oceana Matrix Ltd. wrote a patch that extends the IJG library to handle lossless JPEG.[1] Lossless JPEG has some popularity in medical imaging, and is used in DNG and some digital cameras to compress raw images, but otherwise was never widely adopted. Adobe's DNG SDK provides a software library for encoding and decoding lossless JPEG with up to 16 bits per sample.
+            A JLS file is an image saved in the JPEG-LS file format. It contains a lossy or lossless compressed image. JLS files are typically created by medical imaging devices and digital cameras.
 
-          link: "https://en.wikipedia.org/wiki/Lossless_JPEG"
+          link: "https://docs.fileformat.com/image/jls/"
 
     format:
         # format loop
-        - icon: "far fa-file-DCM"
+        - icon: "far fa-image"
           title: " About DCM File Format"
           content: |
-            Files with .DCM extension represent digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images. It is similar to DICOM file format and can include patient’s information for reference.
+            Files with .DCM extension represent a digital image that stores medical information of patients such as MRIs, CT scans, and ultrasound images. DCM files use DICOM (Digital Imaging and Communications in Medicine) image file format and can include patient’s information for reference. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images.
 
-          link: "https://docs.fileformat.com/image/dcm/"
+          link: "https://docs.fileformat.com/page-description-language/pcl/"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JLS TO JLS"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-jls/"
+        - name: "JLS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jls-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

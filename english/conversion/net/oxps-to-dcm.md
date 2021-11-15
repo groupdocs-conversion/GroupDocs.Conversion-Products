@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:34+03:00
+date: 2021-11-15T08:26:46
 draft: false
 
 ############################# Head ############################
@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-OXPS"
           title: " About OXPS File Format"
           content: |
-            The file format OXPS is known as Open XML Paper Specification. It’s a page description language and document format. Microsoft is the developer of this format. OXPS file format is very much familiar to these PDF files. The setup of the OXPS file is the same as an XPS format. The only difference is the description of OXPS as an open format. The .oxps file extension is the most current version of the XPS file format originated by Microsoft and Ecma International. If we talk about the specification, the OXPS and XPS files are used to publish, share, and allocate fixed-layout documents. As a substitute to PDFs, the OXPS file format can store text and multimedia data, with arranging features and printing layout characteristics.
+            Open XML Paper Specification (also referred to as OpenXPS) is an open specification for a page description language and a fixed-document format.
 
-          link: "https://docs.fileformat.com/page-description-language/oxps/"
+          link: "https://en.wikipedia.org/wiki/Open_XML_Paper_Specification"
 
     format:
         # format loop
-        - icon: "far fa-file-DCM"
+        - icon: "far fa-image"
           title: " About DCM File Format"
           content: |
-            Files with .DCM extension represent digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images. It is similar to DICOM file format and can include patient’s information for reference.
+            Files with .DCM extension represent a digital image that stores medical information of patients such as MRIs, CT scans, and ultrasound images. DCM files use DICOM (Digital Imaging and Communications in Medicine) image file format and can include patient’s information for reference. It was developed by the National Electrical Manufacturers Association (NEMA) and was meant to standardize the imaging file format for distribution and viewing of medical images.
 
-          link: "https://docs.fileformat.com/image/dcm/"
+          link: "https://docs.fileformat.com/page-description-language/pcl/"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OXPS TO OXPS"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-oxps/"
+        - name: "OXPS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

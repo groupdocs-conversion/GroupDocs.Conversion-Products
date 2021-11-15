@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:08+03:00
+date: 2021-11-15T08:26:18
 draft: false
 
 ############################# Head ############################
@@ -103,16 +103,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-FODP"
+        - icon: "far fa-file-powerpoint"
           title: " About FODP File Format"
           content: |
             FODP is a file format for the presentations saved in OpenDocument format.
 
-          link: "https://docs.fileformat.com/presentation/"
+          link: "https://en.wikipedia.org/wiki/OpenDocument"
 
     format:
         # format loop
-        - icon: "far fa-file-XLSM"
+        - icon: "far fa-file-excel"
           title: " About XLSM File Format"
           content: |
             Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "FODP TO FODP"
-          link: "https://products.groupdocs.com/conversion/net/fodp-to-fodp/"
+        - name: "FODP TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/fodp-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

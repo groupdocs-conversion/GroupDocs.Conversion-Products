@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:32+03:00
+date: 2021-11-15T08:26:27
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPC"
+        - icon: "far fa-image"
           title: " About JPC File Format"
           content: |
-            A file with .j2c extension is a variant of JPEG file format and is compressed with the wavelet compression. It has nearly identical system of markers and segments to JPEG 2000 file format. The J2C file format is as defined in the Part 1 of the JPEG 2000 stand that supports both lossy and lossless compression. The JPEG 2000 codestream was designed to be embedded in JP2 or another file format, although it may appear in a file by itself. A J2C file can be opened using Adobe Photoshop 2020, Adobe Illustrator 2020, and Corel Paintshop Pro.
+            A JPC file is an image that is compressed using wavelet compression instead of DCT compression format defined in Part 1 of the JPEG 2000 standard.
 
-          link: "https://docs.fileformat.com/image/j2c/"
+          link: "https://docs.fileformat.com/image/j2k/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPT"
+        - icon: "far fa-file-powerpoint"
           title: " About PPT File Format"
           content: |
-            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+            A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format.
 
           link: "https://docs.fileformat.com/presentation/ppt/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPC TO JPC"
-          link: "https://products.groupdocs.com/conversion/net/jpc-to-jpc/"
+        - name: "JPC TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpc-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

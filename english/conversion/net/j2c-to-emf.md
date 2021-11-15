@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:01+03:00
+date: 2021-11-15T08:26:23
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-J2C"
+        - icon: "far fa-image"
           title: " About J2C File Format"
           content: |
-            A file with .j2c extension is a variant of JPEG file format and is compressed with the wavelet compression. It has nearly identical system of markers and segments to JPEG 2000 file format. The J2C file format is as defined in the Part 1 of the JPEG 2000 stand that supports both lossy and lossless compression. The JPEG 2000 codestream was designed to be embedded in JP2 or another file format, although it may appear in a file by itself. A J2C file can be opened using Adobe Photoshop 2020, Adobe Illustrator 2020, and Corel Paintshop Pro.
+            A J2C file is an image that is compressed using wavelet compression instead of DCT compression format defined in Part 1 of the JPEG 2000 standard.
 
-          link: "https://docs.fileformat.com/image/j2c/"
+          link: "https://docs.fileformat.com/image/j2k/"
 
     format:
         # format loop
         - icon: "far fa-file-EMF"
           title: " About EMF File Format"
           content: |
-            Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately. When a device opens an EMF metafile using its own graphics environment, the proportions, dimensions, colors and other graphic properties of original image remains same regardless of the opening device platform.
+            Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately.
 
           link: "https://docs.fileformat.com/image/emf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "J2C TO J2C"
-          link: "https://products.groupdocs.com/conversion/net/j2c-to-j2c/"
+        - name: "J2C TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/j2c-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

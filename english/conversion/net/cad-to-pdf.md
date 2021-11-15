@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:11+03:00
+date: 2021-11-15T08:25:52
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-CAD"
           title: " About CAD File Format"
           content: |
-            CAD stands for Computer Aided Design. The term CADD (for Computer Aided Design and Drafting) is also used. It is used for a 3D graphics file format and may contain 2D or 3D designs. CAD file is a digital file format of an object generated and used by CAD software. A CAD file contains a technical drawing, blueprint, schematic, or 3D rendering of an object. There may be other CAD tools that can be used to create, open, edit and export these .cad files to more widely used CAD drawing file formats. Below we are going to discuss about the most popular CAD File Formats and the most recommended software that can open, modify and convert it other popular formats.
+            CAD stands for Computer Aided Design. The term CADD (for Computer Aided Design and Drafting) is also used. It is used for a 3D graphics file format and may contain 2D or 3D designs. CAD file is a digital file format of an object generated and used by CAD software. A CAD file contains a technical drawing, blueprint, schematic, or 3D rendering of an object.
 
           link: "https://docs.fileformat.com/cad/"
 
     format:
         # format loop
-        - icon: "far fa-file-PDF"
+        - icon: "far fa-file-alt"
           title: " About PDF File Format"
           content: |
-            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
+            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins.
 
           link: "https://docs.fileformat.com/view/pdf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CAD TO CAD"
-          link: "https://products.groupdocs.com/conversion/net/cad-to-cad/"
+        - name: "CAD TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cad-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

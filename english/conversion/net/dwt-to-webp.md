@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:06+03:00
+date: 2021-11-15T08:26:09
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-DWT"
           title: " About DWT File Format"
           content: |
-            A DWT file is an AutoCAD drawing template file that is used as starter for creating drawings that can be saved as DWG files. Such template files provide initial settings such as unit types, precision required, title blocks, layer names, line types and other similar information for lateral conversion to proper drawing files. Both AutoCAD and CoreCAD can be used to read the template files and utilize them further. In simple words, a DWT is a DWG with pre-defined read-only attributes in the same way as a MSWord DOT file is to a DOC file.
+            A DWT file is an AutoCAD drawing template file that is used as a starter for creating drawings that can be saved as DWG files. Such template files provide initial settings such as unit types, the precision required, title blocks, layer names, line types, and other similar information for lateral conversion to proper drawing files. Both AutoCAD and CoreCAD can be used to read the template files and utilize them further.
 
           link: "https://docs.fileformat.com/cad/dwt/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-WEBP"
           title: " About WEBP File Format"
           content: |
-            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages. As per Google, WebP lossless images are 26% smaller in size compared to PNGs, while WebP lossy images are 25-34% smaller than comparable JPEG images. Images are compared based on the Structural Similarity (SSIM) index between WebP and other image file formats. WebP is a sister project of WebM multimedia container format.
+            WebP, introduced by Google, is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Since most of the web pages use images as effective representation of data, the use of WebP images in web pages results in faster loading of web pages.
 
           link: "https://docs.fileformat.com/image/webp/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DWT TO DWT"
-          link: "https://products.groupdocs.com/conversion/net/dwt-to-dwt/"
+        - name: "DWT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dwt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

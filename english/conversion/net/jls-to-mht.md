@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:16+03:00
+date: 2021-11-15T08:26:24
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JLS"
+        - icon: "far fa-image"
           title: " About JLS File Format"
           content: |
-            Lossless JPEG was developed as a late addition to JPEG in 1993, using a completely different technique from the lossy JPEG standard. It uses a predictive scheme based on the three nearest (causal) neighbors (upper, left, and upper-left), and entropy coding is used on the prediction error. The standard Independent JPEG Group libraries cannot encode or decode it, but Ken Murchison of Oceana Matrix Ltd. wrote a patch that extends the IJG library to handle lossless JPEG.[1] Lossless JPEG has some popularity in medical imaging, and is used in DNG and some digital cameras to compress raw images, but otherwise was never widely adopted. Adobe's DNG SDK provides a software library for encoding and decoding lossless JPEG with up to 16 bits per sample.
+            A JLS file is an image saved in the JPEG-LS file format. It contains a lossy or lossless compressed image. JLS files are typically created by medical imaging devices and digital cameras.
 
-          link: "https://en.wikipedia.org/wiki/Lossless_JPEG"
+          link: "https://docs.fileformat.com/image/jls/"
 
     format:
         # format loop
-        - icon: "far fa-file-MHT"
+        - icon: "far fa-file-code"
           title: " About MHT File Format"
           content: |
-            A file with .mht extension is a MIME enabled archiving file format that contains different types of data into a single file. It can store data such as text, images, page styling in the form of CSS files, JavaScript, and other resources as embedded resources in it. MHT files, having MIME type message/rfc822, encapsulate all the contents of an HTML file as a single archive file for storing on archiving on storage devices. Software applications such as Microsoft Word lets you convert your WORD documents to MHT by exporting as MHT file. MHT files can be opened using popular browsers such as Microsoft Internet Explore and Google Chrome.
+            Files with MHT extension represent a web page archive format that can be created by a number of different applications. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on.
 
-          link: "https://docs.fileformat.com/web/mht/"
+          link: "https://docs.fileformat.com/web/mhtml/"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JLS TO JLS"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-jls/"
+        - name: "JLS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jls-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:34:19+03:00
+date: 2021-11-15T08:27:18
 draft: false
 
 ############################# Head ############################
-head_title: "Convert Word File to CSV in C# .NET – 3 Steps Conversion"
-head_description: "Convert Word document files to CSV and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+head_title: "WORD to CSV Converter – Convert WORD to CSV in C# .NET"
+head_description: "How to convert WORD to CSV in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
 
 ############################# Header ############################
-title: "Convert Word File to CSV in C# .NET"
-description: "Convert Word document files to CSV and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+title: "Convert WORD to CSV in C#"
+description: "Native and high performance WORD to CSV conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -58,18 +58,18 @@ about:
     enable: true
     title: "About GroupDocs.Conversion for .NET API"
     content: |
-        GroupDocs.Conversion API can be used to convert between 80+ popular document formats such as Microsoft Word, Excel, PowerPoint, PDF, Visio, Web, Outlook email, AutoCAD, Photoshop, images and various others.. GroupDocs.Conversion is a standalone API that is suitable for server side and backend systems where high performance is required. It does not depend on any software like Microsoft or Open Office.
+        GroupDocs.Conversion API can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and various other formats. GroupDocs.Conversion is a standalone API that is suitable for server side and backend systems where high performance is required. It does not depend on any software like Microsoft or Open Office.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "How to Convert Word File to CSV in .NET"
+    title_left: "Steps to Convert WORD to CSV in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to accurately convert the word documents to CSV using a few lines of C# .NET code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the WORD file to CSV using a few lines of code.
 
-        *   Create an instance of **Converter** class and load the Word file with full path
-        *   Create & set **ConvertOptions** for the csv type
-        *   Call **Converter.Convert** method and pass the full path and format (CSV) as parameter
+        *   Create an instance of Converter class and load the WORD file with full path
+        *   Create & set ConvertOptions for the csv type
+        *   Call Converter.Convert method and pass the full path and format (CSV) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -78,12 +78,12 @@ steps:
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Conversion for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        *   Get the latest version of GroupDocs.Conversion for .NET downloaded from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // load the Word file
-        var converter = new GroupDocs.Conversion.Converter("template.docx");
+        // load the WORD file
+        var converter = new GroupDocs.Conversion.Converter("template.word");
         // set the convert options for CSV format
         var convertOptions = converter.GetPossibleConversions()["csv"].ConvertOptions;
         // convert to CSV format
@@ -93,301 +93,301 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos: Word to CSV Converter"
+    title: "WORD to CSV Live Demos"
     content: |
-        Convert Word to CSV right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
+        Convert WORD to CSV right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
 about_formats:
-    enable: false
+    enable: true
     format:
         # format loop
-        - icon: "far fa-file-WORD"
-          title: "About Word File Format"
+        - icon: "far fa-file-word"
+          title: " About WORD File Format"
           content: |
-            A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing. Microsoft Word for Windows, Mac, iOS and Android is a powerful word processor that can open, read and edit such document file formats in addition to other text editors. Common plain text file extensions and associated file formats include TXT, CSV, while file extensions for rich text documents include DOCX, DOC and RTF.
+            A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features.
 
           link: "https://docs.fileformat.com/word-processing/"
 
     format:
         # format loop
-        - icon: "far fa-file-PDF"
-          title: " About PDF File Format"
+        - icon: "far fa-file-excel"
+          title: " About CSV File Format"
           content: |
-            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
+            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently.
 
-          link: "https://docs.fileformat.com/view/pdf/"
+          link: "https://docs.fileformat.com/spreadsheet/csv/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
     title: "Other Supported Conversions"
     content: |
-        You can also convert Word document into many other file formats. Please see the complete list below.
+        You can also convert WORD into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "Convert Word to EPUB"
+        - name: "WORD TO EPUB"
           link: "https://products.groupdocs.com/conversion/net/word-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
-        - name: "Convert Word to XPS"
+        - name: "WORD TO XPS"
           link: "https://products.groupdocs.com/conversion/net/word-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
-        - name: "Convert Word to TEX"
+        - name: "WORD TO TEX"
           link: "https://products.groupdocs.com/conversion/net/word-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
-        - name: "Convert Word to PPT"
+        - name: "WORD TO PPT"
           link: "https://products.groupdocs.com/conversion/net/word-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
-        - name: "Convert Word to PPS"
+        - name: "WORD TO PPS"
           link: "https://products.groupdocs.com/conversion/net/word-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "Convert Word to PPTX"
+        - name: "WORD TO PPTX"
           link: "https://products.groupdocs.com/conversion/net/word-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "Convert Word to PPSX"
+        - name: "WORD TO PPSX"
           link: "https://products.groupdocs.com/conversion/net/word-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "Convert Word to ODP"
+        - name: "WORD TO ODP"
           link: "https://products.groupdocs.com/conversion/net/word-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
-        - name: "Convert Word to OTP"
+        - name: "WORD TO OTP"
           link: "https://products.groupdocs.com/conversion/net/word-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
-        - name: "Convert Word to POTX"
+        - name: "WORD TO POTX"
           link: "https://products.groupdocs.com/conversion/net/word-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
-        - name: "Convert Word to POTM"
+        - name: "WORD TO POTM"
           link: "https://products.groupdocs.com/conversion/net/word-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
-        - name: "Convert Word to PPTM"
+        - name: "WORD TO PPTM"
           link: "https://products.groupdocs.com/conversion/net/word-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
-        - name: "Convert Word to PPSM"
+        - name: "WORD TO PPSM"
           link: "https://products.groupdocs.com/conversion/net/word-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "Convert Word to XLS"
+        - name: "WORD TO XLS"
           link: "https://products.groupdocs.com/conversion/net/word-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
-        - name: "Convert Word to XLSX"
+        - name: "WORD TO XLSX"
           link: "https://products.groupdocs.com/conversion/net/word-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
-        - name: "Convert Word to XLSM"
+        - name: "WORD TO XLSM"
           link: "https://products.groupdocs.com/conversion/net/word-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
-        - name: "Convert Word to XLSB"
+        - name: "WORD TO XLSB"
           link: "https://products.groupdocs.com/conversion/net/word-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
-        - name: "Convert Word to ODS"
+        - name: "WORD TO ODS"
           link: "https://products.groupdocs.com/conversion/net/word-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
-        - name: "Convert Word to XLTX"
+        - name: "WORD TO XLTX"
           link: "https://products.groupdocs.com/conversion/net/word-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
-        - name: "Convert Word to XLTM"
+        - name: "WORD TO XLTM"
           link: "https://products.groupdocs.com/conversion/net/word-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
-        - name: "Convert Word to TSV"
+        - name: "WORD TO TSV"
           link: "https://products.groupdocs.com/conversion/net/word-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
-        - name: "Convert Word to XLAM"
+        - name: "WORD TO XLAM"
           link: "https://products.groupdocs.com/conversion/net/word-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
-        - name: "Convert Word to CSV"
+        - name: "WORD TO CSV"
           link: "https://products.groupdocs.com/conversion/net/word-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
-        - name: "Convert Word to DOC"
+        - name: "WORD TO DOC"
           link: "https://products.groupdocs.com/conversion/net/word-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
-        - name: "Convert Word to DOCM"
+        - name: "WORD TO DOCM"
           link: "https://products.groupdocs.com/conversion/net/word-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "Convert Word to WORD"
-          link: "https://products.groupdocs.com/conversion/net/word-to-word/"
+        - name: "WORD TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/word-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
-        - name: "Convert Word to DOT"
+        - name: "WORD TO DOT"
           link: "https://products.groupdocs.com/conversion/net/word-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "Convert Word to DOTM"
+        - name: "WORD TO DOTM"
           link: "https://products.groupdocs.com/conversion/net/word-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
-        - name: "Convert Word to DOTX"
+        - name: "WORD TO DOTX"
           link: "https://products.groupdocs.com/conversion/net/word-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "Convert Word to RTF"
+        - name: "WORD TO RTF"
           link: "https://products.groupdocs.com/conversion/net/word-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
-        - name: "Convert Word to ODT"
+        - name: "WORD TO ODT"
           link: "https://products.groupdocs.com/conversion/net/word-to-odt/"
           description: "Open Document Text"
 
         # format loop
-        - name: "Convert Word to OTT"
+        - name: "WORD TO OTT"
           link: "https://products.groupdocs.com/conversion/net/word-to-ott/"
           description: "Open Document Template"
 
         # format loop
-        - name: "Convert Word to TXT"
+        - name: "WORD TO TXT"
           link: "https://products.groupdocs.com/conversion/net/word-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
-        - name: "Convert Word to MD"
+        - name: "WORD TO MD"
           link: "https://products.groupdocs.com/conversion/net/word-to-md/"
           description: "Markdown"
 
         # format loop
-        - name: "Convert Word to TIFF"
+        - name: "WORD TO TIFF"
           link: "https://products.groupdocs.com/conversion/net/word-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
-        - name: "Convert Word to TIF"
+        - name: "WORD TO TIF"
           link: "https://products.groupdocs.com/conversion/net/word-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
-        - name: "Convert Word to JPG"
+        - name: "WORD TO JPG"
           link: "https://products.groupdocs.com/conversion/net/word-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
-        - name: "Convert Word to JPEG"
+        - name: "WORD TO JPEG"
           link: "https://products.groupdocs.com/conversion/net/word-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
-        - name: "Convert Word to PNG"
+        - name: "WORD TO PNG"
           link: "https://products.groupdocs.com/conversion/net/word-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
-        - name: "Convert Word to GIF"
+        - name: "WORD TO GIF"
           link: "https://products.groupdocs.com/conversion/net/word-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
-        - name: "Convert Word to BMP"
+        - name: "WORD TO BMP"
           link: "https://products.groupdocs.com/conversion/net/word-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
-        - name: "Convert Word to ICO"
+        - name: "WORD TO ICO"
           link: "https://products.groupdocs.com/conversion/net/word-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
-        - name: "Convert Word to PSD"
+        - name: "WORD TO PSD"
           link: "https://products.groupdocs.com/conversion/net/word-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
-        - name: "Convert Word to WMF"
+        - name: "WORD TO WMF"
           link: "https://products.groupdocs.com/conversion/net/word-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
-        - name: "Convert Word to EMF"
+        - name: "WORD TO EMF"
           link: "https://products.groupdocs.com/conversion/net/word-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "Convert Word to WEBP"
+        - name: "WORD TO WEBP"
           link: "https://products.groupdocs.com/conversion/net/word-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
-        - name: "Convert Word to SVG"
+        - name: "WORD TO SVG"
           link: "https://products.groupdocs.com/conversion/net/word-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
-        - name: "Convert Word to JP2"
+        - name: "WORD TO JP2"
           link: "https://products.groupdocs.com/conversion/net/word-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
-        - name: "Convert Word to EMZ"
+        - name: "WORD TO EMZ"
           link: "https://products.groupdocs.com/conversion/net/word-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "Convert Word to WMZ"
+        - name: "WORD TO WMZ"
           link: "https://products.groupdocs.com/conversion/net/word-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
-        - name: "Convert Word to HTML"
+        - name: "WORD TO HTML"
           link: "https://products.groupdocs.com/conversion/net/word-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
-        - name: "Convert Word to MHT"
+        - name: "WORD TO MHT"
           link: "https://products.groupdocs.com/conversion/net/word-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
-        - name: "Convert Word to MHTML"
+        - name: "WORD TO MHTML"
           link: "https://products.groupdocs.com/conversion/net/word-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 

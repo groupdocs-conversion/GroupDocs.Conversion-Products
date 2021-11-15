@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:28+03:00
+date: 2021-11-15T08:26:27
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPC"
+        - icon: "far fa-image"
           title: " About JPC File Format"
           content: |
-            A file with .j2c extension is a variant of JPEG file format and is compressed with the wavelet compression. It has nearly identical system of markers and segments to JPEG 2000 file format. The J2C file format is as defined in the Part 1 of the JPEG 2000 stand that supports both lossy and lossless compression. The JPEG 2000 codestream was designed to be embedded in JP2 or another file format, although it may appear in a file by itself. A J2C file can be opened using Adobe Photoshop 2020, Adobe Illustrator 2020, and Corel Paintshop Pro.
+            A JPC file is an image that is compressed using wavelet compression instead of DCT compression format defined in Part 1 of the JPEG 2000 standard.
 
-          link: "https://docs.fileformat.com/image/j2c/"
+          link: "https://docs.fileformat.com/image/j2k/"
 
     format:
         # format loop
-        - icon: "far fa-file-CSV"
+        - icon: "far fa-file-excel"
           title: " About CSV File Format"
           content: |
-            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently. Almost all spreadsheet applications such as Microsoft Excel or OpenOffice Calc can import CSV without much effort. Data imported from such files is arranged in cells of a spreadsheet for representation to user.
+            Files with CSV (Comma Separated Values) extension represent plain text files that contain records of data with comma separated values. Each line in a CSV file is a new record from the set of records contained in the file. Such files are generated when data transfer is intended from one storage system to another. Since all applications can recognize records separated by comma, import of such data files to database is done very conveniently.
 
           link: "https://docs.fileformat.com/spreadsheet/csv/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPC TO JPC"
-          link: "https://products.groupdocs.com/conversion/net/jpc-to-jpc/"
+        - name: "JPC TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpc-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

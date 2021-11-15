@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:29:30+03:00
+date: 2021-11-15T08:26:52
 draft: false
 
 ############################# Head ############################
@@ -103,7 +103,7 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-POTX"
+        - icon: "far fa-file-powerpoint"
           title: " About POTX File Format"
           content: |
             Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
@@ -112,12 +112,12 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-PPTM"
+        - icon: "far fa-file-powerpoint"
           title: " About PPTM File Format"
           content: |
             Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
 
-          link: "https://docs.fileformat.com/presentation/pptm/"
+          link: "https://docs.fileformat.com/presentation/pptm"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "POTX TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/potx-to-potx/"
+        - name: "POTX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/potx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

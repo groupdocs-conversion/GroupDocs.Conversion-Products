@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:52+03:00
+date: 2021-11-15T08:25:55
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-CMX"
           title: " About CMX File Format"
           content: |
-            Files with CMX extension are Corel Exchange image file format that is used as presentation by CorelSuite applications. It contains image data as vector graphics as well as metadata that describes the image. CMX files can be opened by CorelDraw, Corel Presentations, Paint Shop Pro and some versions of Adobe Illustrator.
+            Files with CMX extension are Corel Exchange image file format (also known as Corel Metafile Exchange) that is used as presentation by CorelSuite applications. It contains image data as vector graphics as well as metadata that describes the image. CMX files can be opened by CorelDraw, Corel Presentations, Paint Shop Pro and some versions of Adobe Illustrator. CMX files can be converted to other formats such as JPG and EPS.
 
           link: "https://docs.fileformat.com/image/cmx/"
 
@@ -115,9 +115,9 @@ about_formats:
         - icon: "far fa-file-SXC"
           title: " About SXC File Format"
           content: |
-            The file format SXC(Sun XML Calc) belongs to an office suite called OpenOffice.org. This format generally deals with the spreadsheet needs of users as it is an XML based spreadsheet file format. SXC format supports formulas, functions, macros and charts along with DataPilot, which is an incredible feature because it automatically individualizes and provides summaries of raw imported data. The files created with this software are saved with extension .sxc.
+            File with .sxc extension is a spreadsheet created by StarOffice Calc.
 
-          link: "https://docs.fileformat.com/spreadsheet/sxc/"
+          link: "https://en.wikipedia.org/wiki/StarOffice"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CMX TO CMX"
-          link: "https://products.groupdocs.com/conversion/net/cmx-to-cmx/"
+        - name: "CMX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cmx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:16+03:00
+date: 2021-11-15T08:26:11
 draft: false
 
 ############################# Head ############################
-head_title: "Convert Email to Photoshop in C# .NET VB.NET"
-head_description: "Convert Email files to Photoshop and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+head_title: "EMAIL to PHOTOSHOP Converter – Convert EMAIL to PHOTOSHOP in C# .NET"
+head_description: "How to convert EMAIL to PHOTOSHOP in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
 
 ############################# Header ############################
-title: "Convert Email to Photoshop in .NET"
-description: "Convert Email files to Photoshop and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+title: "Convert EMAIL to PHOTOSHOP in C#"
+description: "Native and high performance EMAIL to PHOTOSHOP conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,11 +63,11 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert Email to Photoshop in C#"
+    title_left: "Steps to Convert EMAIL to PHOTOSHOP in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the Email file to Photoshop using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the EMAIL file to PHOTOSHOP using a few lines of code.
 
-        *   Create an instance of Converter class and load the Email file with full path
+        *   Create an instance of Converter class and load the EMAIL file with full path
         *   Create & set ConvertOptions for the photoshop type
         *   Call Converter.Convert method and pass the full path and format (PHOTOSHOP) as parameter
         
@@ -82,20 +82,20 @@ steps:
         
     code: |
         ```cs
-        // load the Email file
-        var converter = new GroupDocs.Conversion.Converter("template.eml");
-        // set the convert options for Photoshop format
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // convert to Photoshop format
-        converter.Convert("output.psd", convertOptions);
+        // load the EMAIL file
+        var converter = new GroupDocs.Conversion.Converter("template.email");
+        // set the convert options for PHOTOSHOP format
+        var convertOptions = converter.GetPossibleConversions()["photoshop"].ConvertOptions;
+        // convert to PHOTOSHOP format
+        converter.Convert("output.photoshop", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Email to Photoshop Live Demos"
+    title: "EMAIL to PHOTOSHOP Live Demos"
     content: |
-        Convert Email to Photoshop right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/email-to-photoshop) website.  
+        Convert EMAIL to PHOTOSHOP right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -103,68 +103,293 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-Email"
-          title: " About Email File Format"
+        - icon: "far fa-file-EMAIL"
+          title: " About EMAIL File Format"
           content: |
-            Have you ever come across Email file formats and failed to open it? You have come to the right place, we are going to explain what Email file formats are and what are the recommended software that can open or use them. Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.
+            Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file.
 
           link: "https://docs.fileformat.com/email/"
 
     format:
         # format loop
         - icon: "far fa-file-PHOTOSHOP"
-          title: " About Photoshop File Format"
+          title: " About PHOTOSHOP File Format"
           content: |
-            PSD, Photoshop Document, represents Adobe Photoshop’s native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other Photoshop-specific elements. Photoshop files have default extension as .PSD and has a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
+            Represented by native Photoshop PSD and PSB file-formats used for graphics designing and development. PSD and PSB files may include image layers, adjustment layers, layer masks, annotations, file information, keywords and other graphics elements.
 
-          link: "https://docs.fileformat.com/image/psd/"
+          link: "https://docs.fileformat.com/image/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
     title: "Other Supported Conversions"
     content: |
-        You can also convert Email into many other file formats. Please see the complete list below.
+        You can also convert EMAIL into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "EMAIL TO EBOOK"
-          link: "https://products.groupdocs.com/conversion/net/email-to-ebook"
-          description: "Ebook File Formats"
+        - name: "EMAIL TO EPUB"
+          link: "https://products.groupdocs.com/conversion/net/email-to-epub/"
+          description: "Digital E-Book File Format"
 
         # format loop
-        - name: "EMAIL TO EXCEL"
-          link: "https://products.groupdocs.com/conversion/net/email-to-excel"
-          description: "Excel Document File Formats"
+        - name: "EMAIL TO XPS"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xps/"
+          description: "Open XML Paper Specification"
 
         # format loop
-        - name: "EMAIL TO IMAGE"
-          link: "https://products.groupdocs.com/conversion/net/email-to-image"
-          description: "Image Document File Formats"
+        - name: "EMAIL TO TEX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-tex/"
+          description: "LaTeX Source Document"
 
         # format loop
-        - name: "EMAIL TO PDF"
-          link: "https://products.groupdocs.com/conversion/net/email-to-pdf"
-          description: "PDF File Format"
+        - name: "EMAIL TO PPT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ppt/"
+          description: "PowerPoint Presentation"
 
         # format loop
-        - name: "EMAIL TO PHOTOSHOP"
-          link: "https://products.groupdocs.com/conversion/net/email-to-photoshop"
-          description: "Photoshop File Formats"
+        - name: "EMAIL TO PPS"
+          link: "https://products.groupdocs.com/conversion/net/email-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "EMAIL TO POWERPOINT"
-          link: "https://products.groupdocs.com/conversion/net/email-to-powerpoint"
-          description: "PowerPoint Presentation File Formats"
+        - name: "EMAIL TO PPTX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "EMAIL TO WEB"
-          link: "https://products.groupdocs.com/conversion/net/email-to-web"
-          description: "Web Document File Formats"
+        - name: "EMAIL TO PPSX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "EMAIL TO WORD"
-          link: "https://products.groupdocs.com/conversion/net/email-to-word"
-          description: "Word Document File Formats"
+        - name: "EMAIL TO ODP"
+          link: "https://products.groupdocs.com/conversion/net/email-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "EMAIL TO OTP"
+          link: "https://products.groupdocs.com/conversion/net/email-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "EMAIL TO POTX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "EMAIL TO POTM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "EMAIL TO PPTM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "EMAIL TO PPSM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "EMAIL TO XLS"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "EMAIL TO XLSX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "EMAIL TO XLSM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "EMAIL TO XLSB"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "EMAIL TO ODS"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "EMAIL TO XLTX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "EMAIL TO XLTM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "EMAIL TO TSV"
+          link: "https://products.groupdocs.com/conversion/net/email-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "EMAIL TO XLAM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "EMAIL TO CSV"
+          link: "https://products.groupdocs.com/conversion/net/email-to-csv/"
+          description: "Comma Separated Values File"
+
+        # format loop
+        - name: "EMAIL TO DOC"
+          link: "https://products.groupdocs.com/conversion/net/email-to-doc/"
+          description: "Microsoft Word Document"
+
+        # format loop
+        - name: "EMAIL TO DOCM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-docm/"
+          description: "Microsoft Word Macro-Enabled Document"
+
+        # format loop
+        - name: "EMAIL TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop
+        - name: "EMAIL TO DOT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-dot/"
+          description: "Microsoft Word Document Template"
+
+        # format loop
+        - name: "EMAIL TO DOTM"
+          link: "https://products.groupdocs.com/conversion/net/email-to-dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
+
+        # format loop
+        - name: "EMAIL TO DOTX"
+          link: "https://products.groupdocs.com/conversion/net/email-to-dotx/"
+          description: "Word Open XML Document Template"
+
+        # format loop
+        - name: "EMAIL TO RTF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "EMAIL TO ODT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "EMAIL TO OTT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "EMAIL TO TXT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "EMAIL TO MD"
+          link: "https://products.groupdocs.com/conversion/net/email-to-md/"
+          description: "Markdown"
+
+        # format loop
+        - name: "EMAIL TO TIFF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "EMAIL TO TIF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "EMAIL TO JPG"
+          link: "https://products.groupdocs.com/conversion/net/email-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "EMAIL TO JPEG"
+          link: "https://products.groupdocs.com/conversion/net/email-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "EMAIL TO PNG"
+          link: "https://products.groupdocs.com/conversion/net/email-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "EMAIL TO GIF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "EMAIL TO BMP"
+          link: "https://products.groupdocs.com/conversion/net/email-to-bmp/"
+          description: "Bitmap File Format"
+
+        # format loop
+        - name: "EMAIL TO ICO"
+          link: "https://products.groupdocs.com/conversion/net/email-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "EMAIL TO PSD"
+          link: "https://products.groupdocs.com/conversion/net/email-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "EMAIL TO WMF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "EMAIL TO EMF"
+          link: "https://products.groupdocs.com/conversion/net/email-to-emf/"
+          description: "Enhanced Metafile Format"
+
+        # format loop
+        - name: "EMAIL TO WEBP"
+          link: "https://products.groupdocs.com/conversion/net/email-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "EMAIL TO SVG"
+          link: "https://products.groupdocs.com/conversion/net/email-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "EMAIL TO JP2"
+          link: "https://products.groupdocs.com/conversion/net/email-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "EMAIL TO EMZ"
+          link: "https://products.groupdocs.com/conversion/net/email-to-emz/"
+          description: "Enhanced Windows Metafile Compressed"
+
+        # format loop
+        - name: "EMAIL TO WMZ"
+          link: "https://products.groupdocs.com/conversion/net/email-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "EMAIL TO HTML"
+          link: "https://products.groupdocs.com/conversion/net/email-to-html/"
+          description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "EMAIL TO MHT"
+          link: "https://products.groupdocs.com/conversion/net/email-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "EMAIL TO MHTML"
+          link: "https://products.groupdocs.com/conversion/net/email-to-mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
 
 ############################# Back to top ###############################

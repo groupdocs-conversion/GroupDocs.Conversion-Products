@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:26+03:00
+date: 2021-11-15T08:27:08
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VISIO"
+        - icon: "far fa-file-alt"
           title: " About VISIO File Format"
           content: |
-            Files with .vsdx extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Visio documents include formats used by Microsoft Visio. These formats contain technical drawings with figures. You can open these files with Microsoft Visio.
 
-          link: "https://docs.fileformat.com/image/vsdx/"
+          link: "https://docs.fileformat.com/image/"
 
     format:
         # format loop
-        - icon: "far fa-file-EXCEL"
+        - icon: "far fa-file-excel"
           title: " About EXCEL File Format"
           content: |
-            A spreadsheet file contains data in the form of rows and columns. You can open, view and edit such files using spreadsheet software applications such as Microsoft Excel that is now available for both Windows and MacOS operating system. Similarly, Google sheets is a free online spreadsheet creating and editing tool that works from any web browser. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change. Common spreadsheet file extensions and their file formats include XLSX (Microsoft Excel Open XML Spreadsheet), ODS (OpenDocument Spreadsheet) and XLS (Microsoft Excel Binary File Format).
+            A spreadsheet file contains data in the form of rows and columns. You can open, view and edit such files using spreadsheet software applications such as Microsoft Excel that is now available for both Windows and MacOS operating system. Similarly, Google sheets is a free online spreadsheet creating and editing tool that works from any web browser.
 
           link: "https://docs.fileformat.com/spreadsheet/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VISIO TO VISIO"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-visio/"
+        - name: "VISIO TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

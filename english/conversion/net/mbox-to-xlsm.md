@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:23+03:00
+date: 2021-11-15T08:26:32
 draft: false
 
 ############################# Head ############################
@@ -112,7 +112,7 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-XLSM"
+        - icon: "far fa-file-excel"
           title: " About XLSM File Format"
           content: |
             Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MBOX TO MBOX"
-          link: "https://products.groupdocs.com/conversion/net/mbox-to-mbox/"
+        - name: "MBOX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/mbox-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

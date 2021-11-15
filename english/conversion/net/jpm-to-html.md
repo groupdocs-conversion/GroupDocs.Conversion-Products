@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:57+03:00
+date: 2021-11-15T08:26:30
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPM"
+        - icon: "far fa-image"
           title: " About JPM File Format"
           content: |
-            JPM refers to JPEG 2000 image coding system Part 6 which is used for document imaging. It is based on the Mixed Raster Content Standard (ISO/IEC 16485) and contains layered still images that use JPEG 2000 and other encodings. In addition to its own specifications, JPM file format inherits features from its parent i.e. the jp2 file format.
+            JPM is an extension to the JP2 format and was developed for multi-page documents with multiple objects per page.
 
-          link: "https://docs.fileformat.com/image/jpm/"
+          link: "https://docs.fileformat.com/image/jp2/"
 
     format:
         # format loop
-        - icon: "far fa-file-HTML"
+        - icon: "far fa-file-code"
           title: " About HTML File Format"
           content: |
-            HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well. Each HTML page is made up of HTML elements such as forms, text, images, animations, links, etc. These elements are represented by tags such as img, a, p and several others where each tag has start and end. It can also embed applications written in scripting languages such as JavaScript and Style Sheets (CSS) for overall layout representation.
+            HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well.
 
           link: "https://docs.fileformat.com/web/html/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPM TO JPM"
-          link: "https://products.groupdocs.com/conversion/net/jpm-to-jpm/"
+        - name: "JPM TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

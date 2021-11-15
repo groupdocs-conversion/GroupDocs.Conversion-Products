@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:43+03:00
+date: 2021-11-15T08:26:28
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPF"
+        - icon: "far fa-image"
           title: " About JPF File Format"
           content: |
-            A file with .jpf extension is an extension to the JPEG 2000 image coding system ISO/IEC 15444 and is referred to as its Part 2 ISO/IEC 15444-2. It defines and specifies a set of lossless (bit-preserving) and lossy compression methods for coding continuous-tone, bi-level, grey-scale, colour digital still images, or multi-component images. The first part of ISO/IEC 15444-1 is referred to the JP2 that uses the wavelet technology to code lossless content and is the base for JPEG 2000 image file formats. The JPF file format didn’t receive a warm reception due to the extensive usage of JPEG format. JPG files can be opened with popular imaging applications such as Adobe Photoshop 2020, Adobe Illustrator 2020, and CorelDraw Graphics Suite 2020.
+            JPEG 2000 is an image coding system and state-of-the-art image compression standard. It uses wavelet technology to code lossless content in any quality at once. Moreover, without any substantial penalty in coding efficiency, JPEG 2000 has the capability to access and decode the same content efficaciously into a variety of other resolutions and qualities. The code streams in JPEG 2000 are significantly scalable having regions of interest that provide the facility for spatial random access.
 
-          link: "https://docs.fileformat.com/image/jpf/"
+          link: "https://docs.fileformat.com/image/jp2/"
 
     format:
         # format loop
-        - icon: "far fa-file-DOTX"
+        - icon: "far fa-file-word"
           title: " About DOTX File Format"
           content: |
-            Files with DOTX extension are template files created by Microsoft Word to have pre-formatted settings for generation of further DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent flies created from these. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms. The DOTX file format was introduced with the release of Microsoft Office 2007 to replace the binary DOT file format, but is supported by higher versions as well. Microsoft Word by default opens every new document based on normal.dot file. If modified, all the new files created will result in same settings as from the template file. In Microsoft Word 2007, the DOT file format has been replaced with Office OpenXML based DOTX file format.
+            Files with DOTX extension are template files created by Microsoft Word to have pre-formatted settings for a generation of further DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from this template. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms.
 
           link: "https://docs.fileformat.com/word-processing/dotx/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPF TO JPF"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-jpf/"
+        - name: "JPF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:22:44+03:00
+date: 2021-11-15T08:26:06
 draft: false
 
 ############################# Head ############################
@@ -106,18 +106,18 @@ about_formats:
         - icon: "far fa-file-DWF"
           title: " About DWF File Format"
           content: |
-            Design Web Format (DWF) represents 2D/3D drawing in compressed format for viewing, reviewing or printing design files. It contains graphics and text as part of design data and reduce the size of the file due to its compressed format. The reduced file size makes the distribution and communication of rich design data efficient. DWF doesn't require the recipient to know about the usage of CAD software that created the original drawing. The contents of DWF file format can be simple and include just a single sheet or complex enough to have fonts, color, and images.
+            Design Web Format (DWF) represents 2D/3D drawing in compressed format for viewing, reviewing, or printing design files. It contains graphics and text as part of design data and reduces the size of the file due to its compressed format. The reduced file size makes the distribution and communication of rich design data efficient. DWF doesn't require the recipient to know about the usage of CAD software that created the original drawing.
 
           link: "https://docs.fileformat.com/cad/dwf/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPTM"
+        - icon: "far fa-file-powerpoint"
           title: " About PPTM File Format"
           content: |
             Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
 
-          link: "https://docs.fileformat.com/presentation/pptm/"
+          link: "https://docs.fileformat.com/presentation/pptm"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DWF TO DWF"
-          link: "https://products.groupdocs.com/conversion/net/dwf-to-dwf/"
+        - name: "DWF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dwf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

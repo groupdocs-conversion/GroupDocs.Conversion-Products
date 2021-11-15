@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:20+03:00
+date: 2021-11-15T08:27:08
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VDX"
+        - icon: "far fa-file-alt"
           title: " About VDX File Format"
           content: |
-            Any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements. Text can also be added to these visual elements Vision drawing XML file. These Visio drawing XML files are integrated with XML-based formatting standards and image data encoding specifications that allow its content to be rendered and stored by the Microsoft Visio software in the VDX file format.
+            Any drawing or chart created in Microsoft Visio, but saved in XML format has a VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements.
 
           link: "https://docs.fileformat.com/image/vdx/"
 
     format:
         # format loop
-        - icon: "far fa-file-FODS"
+        - icon: "far fa-file-excel"
           title: " About FODS File Format"
           content: |
-            A file with .fods extension is a type of OpenDocument Spreadsheet document format that stores data in rows and columns. The format is specified as part of ODF 1.2 specifications published and maintained by OASIS. FODS files cannot be opened with Excel, another Spreadsheet software application by Microsoft. FODS files can be saved as ODS using LibreOffice and can be converted to other formats such as XLS and XLSX.
+            FODS is a ZIP-compressed XML-based file format for spreadsheets, charts, presentations, and word processing documents.
 
-          link: "https://docs.fileformat.com/spreadsheet/fods/"
+          link: "https://en.wikipedia.org/wiki/OpenDocument"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VDX TO VDX"
-          link: "https://products.groupdocs.com/conversion/net/vdx-to-vdx/"
+        - name: "VDX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/vdx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

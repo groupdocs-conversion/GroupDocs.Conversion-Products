@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:57+03:00
+date: 2021-11-15T08:26:42
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-ONENOTE"
           title: " About ONENOTE File Format"
           content: |
-            File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draft pad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
+            [SRC_FORMAT_DESCRIPTION]
 
-          link: "https://docs.fileformat.com/note-taking/one/"
+          link: "[SRC_FORMAT_URI]"
 
     format:
         # format loop
-        - icon: "far fa-file-WORD"
+        - icon: "far fa-file-word"
           title: " About WORD File Format"
           content: |
-            A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing. Microsoft Word for Windows, Mac, iOS and Android is a powerful word processor that can open, read and edit such document file formats in addition to other text editors. Common plain text file extensions and associated file formats include TXT, CSV, while file extensions for rich text documents include DOCX, DOC and RTF.
+            A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features.
 
           link: "https://docs.fileformat.com/word-processing/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "ONENOTE TO ONENOTE"
-          link: "https://products.groupdocs.com/conversion/net/onenote-to-onenote/"
+        - name: "ONENOTE TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/onenote-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

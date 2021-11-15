@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:16+03:00
+date: 2021-11-15T08:26:32
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-LOG"
           title: " About LOG File Format"
           content: |
-            A file with .log extension contains the list of plain text with timestamp. Usually, certain activity detail is logged by the softwares or operating systems to help the developers or users to track what was happening at a certain time period. Users can edit these files very easily by using any text editors. Usually the error reports or login activities are logged by the operating systems, but other softwares or web servers also generate log files to track visitors and to monitor bandwidth usage.
+            A log file is a file that records either events that occur in an operating system or other software runs.
 
-          link: "https://docs.fileformat.com/database/log/"
+          link: "https://en.wikipedia.org/wiki/Log_file"
 
     format:
         # format loop
-        - icon: "far fa-file-XLS"
+        - icon: "far fa-file-excel"
           title: " About XLS File Format"
           content: |
-            Files with XLS extension represent Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. File saved by Excel is known as Workbook where each workbook can have one or more worksheets. Data is stored and displayed to users in table format in worksheet and can span numeric values, text data, formulas, external data connections, images, and charts. Applications like Microsoft Excel lets you export workbook data to several different formats including PDF, CSV, XLSX, TXT, HTML, XPS, and several others. The XLS file format was replaced with a more open and structured format, XLSX, with the release of Microsoft Excel 2007. The latest versions still provide support for creating and reading XLS files, though XLSX is the first choice of use now.
+            Files with XLS extension represent Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. File saved by Excel are known as Workbook where each workbook can have one or more worksheets. Data is stored and displayed to users in table format in worksheet and can span numeric values, text data, formulas, external data connections, images and charts.
 
           link: "https://docs.fileformat.com/spreadsheet/xls/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "LOG TO LOG"
-          link: "https://products.groupdocs.com/conversion/net/log-to-log/"
+        - name: "LOG TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/log-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

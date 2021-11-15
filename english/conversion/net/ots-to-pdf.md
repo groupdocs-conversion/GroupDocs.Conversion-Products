@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:22+03:00
+date: 2021-11-15T08:26:44
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-OTS"
           title: " About OTS File Format"
           content: |
-            A file with .ots extension is an OpenDocument Spreadsheet Template file that is created with the Calc application software included in Apache OpenOffice. Calc application software is the similar to Excel available in Microsoft Office. OTS file format is used to create templates that contain predefine settings related to styles, font, data, spreadsheet layout, and formatting. OTF files have mime-type application/vnd.oasis.opendocument.spreadsheet-template. These template files can be used as a starting point to generate and save actual data files that are saved in ODS file format. OTS files can be used with applications such as OpenOffice and LibreOffice.
+            OTS is a spreadsheet template in OpenDocument format. OTS files are used to create ODS files with same styling and formatting.
 
           link: "https://docs.fileformat.com/spreadsheet/ots/"
 
     format:
         # format loop
-        - icon: "far fa-file-PDF"
+        - icon: "far fa-file-alt"
           title: " About PDF File Format"
           content: |
-            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
+            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins.
 
           link: "https://docs.fileformat.com/view/pdf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OTS TO OTS"
-          link: "https://products.groupdocs.com/conversion/net/ots-to-ots/"
+        - name: "OTS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ots-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

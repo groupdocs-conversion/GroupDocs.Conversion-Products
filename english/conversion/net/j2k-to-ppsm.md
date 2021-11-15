@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:11+03:00
+date: 2021-11-15T08:26:24
 draft: false
 
 ############################# Head ############################
@@ -103,16 +103,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-J2K"
+        - icon: "far fa-image"
           title: " About J2K File Format"
           content: |
-            A J2K file is an image that is compressed using the wavelet compression instead of DCT compression. This file format is used by the Joint Photographic Experts Group (JPEG) 2000 files. J2K files store metadata information about the image file in XML unlike .jpeg or .jpg that use the EXIF format for this purpose. J2K files support 15-bit color, alpha transparency, and lossless compression. Several commercial APIs exist to decode JPEG 2000 imags such as J2K-Codec. A J2K file can be opened on Windows OS using the standard image viewers.
+            A J2K file is an image that is compressed using the wavelet compression instead of DCT compression.
 
           link: "https://docs.fileformat.com/image/j2k/"
 
     format:
         # format loop
-        - icon: "far fa-file-PPSM"
+        - icon: "far fa-file-powerpoint"
           title: " About PPSM File Format"
           content: |
             Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "J2K TO J2K"
-          link: "https://products.groupdocs.com/conversion/net/j2k-to-j2k/"
+        - name: "J2K TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/j2k-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:35+03:00
+date: 2021-11-15T08:26:27
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
     code: |
         ```cs
         // load the JPEG-LS file
-        var converter = new GroupDocs.Conversion.Converter("template.jls");
+        var converter = new GroupDocs.Conversion.Converter("template.jpeg-ls");
         // set the convert options for POTM format
         var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
         // convert to POTM format
@@ -103,16 +103,16 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
-          title: " About JPEG File Format"
+        - icon: "far fa-file-JPEG-LS"
+          title: " About JPEG-LS File Format"
           content: |
-            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
+            [SRC_FORMAT_DESCRIPTION]
 
-          link: "https://docs.fileformat.com/image/jpeg/"
+          link: "[SRC_FORMAT_URI]"
 
     format:
         # format loop
-        - icon: "far fa-file-powerpoint-o"
+        - icon: "far fa-file-powerpoint"
           title: " About POTM File Format"
           content: |
             Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
@@ -250,6 +250,11 @@ more_formats:
         - name: "JPEG-LS TO DOCM"
           link: "https://products.groupdocs.com/conversion/net/jpeg-ls-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
+
+        # format loop
+        - name: "JPEG-LS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpeg-ls-to-docx/"
+          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "JPEG-LS TO DOT"

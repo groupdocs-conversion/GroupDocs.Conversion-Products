@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:03+03:00
+date: 2021-11-15T08:26:17
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-FODP"
+        - icon: "far fa-file-powerpoint"
           title: " About FODP File Format"
           content: |
             FODP is a file format for the presentations saved in OpenDocument format.
 
-          link: "https://docs.fileformat.com/presentation/"
+          link: "https://en.wikipedia.org/wiki/OpenDocument"
 
     format:
         # format loop
         - icon: "far fa-file-EPUB"
           title: " About EPUB File Format"
           content: |
-            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
+            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers.
 
           link: "https://docs.fileformat.com/ebook/epub/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "FODP TO FODP"
-          link: "https://products.groupdocs.com/conversion/net/fodp-to-fodp/"
+        - name: "FODP TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/fodp-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

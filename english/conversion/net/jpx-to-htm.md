@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:04+03:00
+date: 2021-11-15T08:26:30
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-JPX"
+        - icon: "far fa-image"
           title: " About JPX File Format"
           content: |
-            A file with .jpx extension is an extension to the JPEG 2000 file format. It uses the JPEG 2000 compression primarily and also provides advanced features such as multiple layers for an image, various colour spaces, opacity, and fragmented code streams. JPX also allows other compressions such as JBIG, CCITT Group3, CCITT Group4, etc. in addition to the JPEG 2000 compression. The JPX file format was approved as ISO/IEC 15444-2 standard, but couldn’t receive a warm reception due to the extensive usage of JPEG file format. Applications that can open JPX files include Corel PaintShop Pro, Adobe Photoshop 2020, Adobe Illustrator 2020, and CorelDraw Graphics Suite 2020.
+            JPX is a JPEG 2000 extended file-format. JPEG 2000 is an improvement to the JPEG format.
 
-          link: "https://docs.fileformat.com/image/jpx/"
+          link: "https://docs.fileformat.com/image/j2k/"
 
     format:
         # format loop
-        - icon: "far fa-file-HTM"
+        - icon: "far fa-file-code"
           title: " About HTM File Format"
           content: |
-            Files with HTM extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox and a number of others. It defines the markups for creating static pages to be published on World Wide Web (WWW) for access by others. These markups tell the browsers how to display a web page's contents. Such pages can contain plain text, images, hyperlinks to other pages, videos and other media information. When a web page is published, you can have a look at the markup code behind it by viewing its page source. Modern browsers allow to inspect each section of a web page where each sub-division or markup element in the HTM source is elaborated.
+            Files with .htm extension represent Hypertext Markup Language for creating web pages for display in web browsers such as Google Chrome, Internet Explorer, Firefox, and a number of others.
 
           link: "https://docs.fileformat.com/web/htm/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "JPX TO JPX"
-          link: "https://products.groupdocs.com/conversion/net/jpx-to-jpx/"
+        - name: "JPX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

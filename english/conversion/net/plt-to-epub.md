@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:58+03:00
+date: 2021-11-15T08:26:49
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-PLT"
           title: " About PLT File Format"
           content: |
-            The PLT file format is a vector-based plotter file introduced by Autodesk, Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production, and usage of PLT file guarantee this as all images are printed using lines instead of dots. The format is based on the HPGL file format which is used for sending information to plotter printers. PLT files can be viewed with its original applications i.e. Autodesk's AutoCAD, but there are other applications as well that can be used to manipulate these files such as CorelDRAW Graphics Suite. A number of applications and APIs support conversion of PLT file format to DXF, PDF, JPEG, TIFF, PNG, BMP, CGM, SVG, PS and PCL.
+            An HPGL(Hewlett-Packard Graphics Language) file contains an instruction set for plotter control, developed by Hewlett-Packard. Hewlett-Packard plotters use this file to draw and print vector and raster content on the paper.
 
-          link: "https://docs.fileformat.com/cad/plt/"
+          link: "https://docs.fileformat.com/cad/hpgl/"
 
     format:
         # format loop
         - icon: "far fa-file-EPUB"
           title: " About EPUB File Format"
           content: |
-            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
+            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers.
 
           link: "https://docs.fileformat.com/ebook/epub/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PLT TO PLT"
-          link: "https://products.groupdocs.com/conversion/net/plt-to-plt/"
+        - name: "PLT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/plt-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

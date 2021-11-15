@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:09+03:00
+date: 2021-11-15T08:26:23
 draft: false
 
 ############################# Head ############################
@@ -103,10 +103,10 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-J2K"
+        - icon: "far fa-image"
           title: " About J2K File Format"
           content: |
-            A J2K file is an image that is compressed using the wavelet compression instead of DCT compression. This file format is used by the Joint Photographic Experts Group (JPEG) 2000 files. J2K files store metadata information about the image file in XML unlike .jpeg or .jpg that use the EXIF format for this purpose. J2K files support 15-bit color, alpha transparency, and lossless compression. Several commercial APIs exist to decode JPEG 2000 imags such as J2K-Codec. A J2K file can be opened on Windows OS using the standard image viewers.
+            A J2K file is an image that is compressed using the wavelet compression instead of DCT compression.
 
           link: "https://docs.fileformat.com/image/j2k/"
 
@@ -115,9 +115,9 @@ about_formats:
         - icon: "far fa-file-JPEG"
           title: " About JPEG File Format"
           content: |
-            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image. The higher the compression value, the higher the degradation in image quality. JPEG image file format was standardized by the Joint Photographic Experts Group and, hence, the name JPEG. The format has been the choice of storing and transmitting photographic images on the web. Almost all Operating systems now have viewers that support visualization of JPEG images, which are often stored with JPG extension as well. Even the web browsers support visualization of JPEG images.
+            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality. JPEG image file format was standardized by the Joint Photographic Experts Group and, hence, the name JPEG. The format has been the choice of storing and transmitting photographic images on the web. Almost all Operating systems now have viewers that support visualization of JPEG images, which are often stored with JPG extension as well. Even the web browsers support visualization of JPEG images.
 
-          link: "https://docs.fileformat.com/image/jpeg/"
+          link: "https://docs.fileformat.com/image/jpeg"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "J2K TO J2K"
-          link: "https://products.groupdocs.com/conversion/net/j2k-to-j2k/"
+        - name: "J2K TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/j2k-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

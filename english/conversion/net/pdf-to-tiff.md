@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:54+03:00
+date: 2021-11-15T08:26:48
 draft: false
 
 ############################# Head ############################
@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Steps to Convert PDF to TIFF in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the PDF file to TIFF using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the PDF file to TIFF using a few lines of code.
 
         *   Create an instance of Converter class and load the PDF file with full path
         *   Create & set ConvertOptions for the tiff type
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-PDF"
+        - icon: "far fa-file-alt"
           title: " About PDF File Format"
           content: |
-            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
+            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins.
 
           link: "https://docs.fileformat.com/view/pdf/"
 
     format:
         # format loop
-        - icon: "far fa-file-TIFF"
+        - icon: "far fa-image"
           title: " About TIFF File Format"
           content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format. The format is extensible and has underwent several revisions that allows the inclusion of an unlimited amount of private or special-purpose information. The format is not machine dependent and is free from bounds like processor, operating system, or file systems.
+            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
 
           link: "https://docs.fileformat.com/image/tiff/"
 
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "PDF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-epub"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "PDF TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-xps"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-xps/"
           description: "Open XML Paper Specification"
 
         # format loop
         - name: "PDF TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-tex"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-tex/"
           description: "LaTeX Source Document"
 
         # format loop
         - name: "PDF TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-ppt"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "PDF TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-pps"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PDF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-pptx"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "PDF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-ppsx"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PDF TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-odp"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-odp/"
           description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PDF TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-otp"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-otp/"
           description: "Origin Graph Template"
 
         # format loop
         - name: "PDF TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-potx"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "PDF TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-potm"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PDF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-pptm"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "PDF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-ppsm"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PDF TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-xls"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PDF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-xlsx"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PDF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-xlsm"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PDF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-xlsb"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "PDF TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-ods"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PDF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-xltx"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-xltx/"
           description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PDF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-xltm"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PDF TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-tsv"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-tsv/"
           description: "Tab Separated Values File"
 
         # format loop
         - name: "PDF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-xlam"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PDF TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-csv"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
         - name: "PDF TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-doc"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "PDF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-docm"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PDF TO PDF"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-pdf"
+        - name: "PDF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PDF TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-dot"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PDF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-dotm"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PDF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-dotx"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "PDF TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-rtf"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-rtf/"
           description: "Rich Text File Format"
 
         # format loop
         - name: "PDF TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-odt"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "PDF TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-ott"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-ott/"
           description: "Open Document Template"
 
         # format loop
         - name: "PDF TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-txt"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-txt/"
           description: "Plain Text File Format"
 
         # format loop
         - name: "PDF TO MD"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-md"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-md/"
           description: "Markdown"
 
         # format loop
         - name: "PDF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-tiff"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PDF TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-tif"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-tif/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "PDF TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-jpg"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PDF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-jpeg"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "PDF TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-png"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "PDF TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-gif"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PDF TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-bmp"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "PDF TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-ico"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-ico/"
           description: "Microsoft Icon File"
 
         # format loop
         - name: "PDF TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-psd"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PDF TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-wmf"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "PDF TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-emf"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PDF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-webp"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "PDF TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-svg"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-svg/"
           description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PDF TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-jp2"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PDF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-emz"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PDF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-wmz"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-wmz/"
           description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PDF TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-html"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PDF TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-mht"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PDF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/pdf-to-mhtml"
+          link: "https://products.groupdocs.com/conversion/net/pdf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
 

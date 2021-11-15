@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:06+03:00
+date: 2021-11-15T08:26:17
 draft: false
 
 ############################# Head ############################
@@ -103,21 +103,21 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-FODP"
+        - icon: "far fa-file-powerpoint"
           title: " About FODP File Format"
           content: |
             FODP is a file format for the presentations saved in OpenDocument format.
 
-          link: "https://docs.fileformat.com/presentation/"
+          link: "https://en.wikipedia.org/wiki/OpenDocument"
 
     format:
         # format loop
-        - icon: "far fa-file-PPTM"
+        - icon: "far fa-file-powerpoint"
           title: " About PPTM File Format"
           content: |
             Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
 
-          link: "https://docs.fileformat.com/presentation/pptm/"
+          link: "https://docs.fileformat.com/presentation/pptm"
 
 ############################# More Formats ############################
 more_formats:
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "FODP TO FODP"
-          link: "https://products.groupdocs.com/conversion/net/fodp-to-fodp/"
+        - name: "FODP TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/fodp-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

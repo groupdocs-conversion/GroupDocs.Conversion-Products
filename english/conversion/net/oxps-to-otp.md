@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:37+03:00
+date: 2021-11-15T08:26:46
 draft: false
 
 ############################# Head ############################
@@ -106,13 +106,13 @@ about_formats:
         - icon: "far fa-file-OXPS"
           title: " About OXPS File Format"
           content: |
-            The file format OXPS is known as Open XML Paper Specification. It’s a page description language and document format. Microsoft is the developer of this format. OXPS file format is very much familiar to these PDF files. The setup of the OXPS file is the same as an XPS format. The only difference is the description of OXPS as an open format. The .oxps file extension is the most current version of the XPS file format originated by Microsoft and Ecma International. If we talk about the specification, the OXPS and XPS files are used to publish, share, and allocate fixed-layout documents. As a substitute to PDFs, the OXPS file format can store text and multimedia data, with arranging features and printing layout characteristics.
+            Open XML Paper Specification (also referred to as OpenXPS) is an open specification for a page description language and a fixed-document format.
 
-          link: "https://docs.fileformat.com/page-description-language/oxps/"
+          link: "https://en.wikipedia.org/wiki/Open_XML_Paper_Specification"
 
     format:
         # format loop
-        - icon: "far fa-file-OTP"
+        - icon: "far fa-file-powerpoint"
           title: " About OTP File Format"
           content: |
             Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OXPS TO OXPS"
-          link: "https://products.groupdocs.com/conversion/net/oxps-to-oxps/"
+        - name: "OXPS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/oxps-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

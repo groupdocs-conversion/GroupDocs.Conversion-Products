@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:12+03:00
+date: 2021-11-15T08:26:18
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-FODS"
+        - icon: "far fa-file-excel"
           title: " About FODS File Format"
           content: |
-            A file with .fods extension is a type of OpenDocument Spreadsheet document format that stores data in rows and columns. The format is specified as part of ODF 1.2 specifications published and maintained by OASIS. FODS files cannot be opened with Excel, another Spreadsheet software application by Microsoft. FODS files can be saved as ODS using LibreOffice and can be converted to other formats such as XLS and XLSX.
+            FODS is a ZIP-compressed XML-based file format for spreadsheets, charts, presentations, and word processing documents.
 
-          link: "https://docs.fileformat.com/spreadsheet/fods/"
+          link: "https://en.wikipedia.org/wiki/OpenDocument"
 
     format:
         # format loop
-        - icon: "far fa-file-ODS"
+        - icon: "far fa-file-excel"
           title: " About ODS File Format"
           content: |
-            Files with ODS extension stand for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. It is XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS. A number of applications on Windows as well as other operating systems can open ODS files for editing and manipulation including Microsoft Excel, NeoOffice and LibreOffice. ODS files can also be converted into other spreadsheet formats as well like XLS, XLSX and others by different applications.
+            Files with ODS extension stand for OpenDocument Spreadsheet Document format that is editable by the user. Data is stored inside the ODF file into rows and columns. It is an XML-based format and is one of the several subtypes in the Open Document Formats (ODF) family. The format is specified as part of the ODF 1.2 specifications published and maintained by OASIS.
 
           link: "https://docs.fileformat.com/spreadsheet/ods/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "FODS TO FODS"
-          link: "https://products.groupdocs.com/conversion/net/fods-to-fods/"
+        - name: "FODS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/fods-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

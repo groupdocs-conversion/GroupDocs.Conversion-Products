@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:57+03:00
+date: 2021-11-15T08:26:42
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-ONENOTE"
           title: " About ONENOTE File Format"
           content: |
-            File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draft pad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
+            [SRC_FORMAT_DESCRIPTION]
 
-          link: "https://docs.fileformat.com/note-taking/one/"
+          link: "[SRC_FORMAT_URI]"
 
     format:
         # format loop
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI. Common web file extensions and their associate file formats include HTML (Hypertext Markup Language), ASP (Active Server Pages), and CSS (Cascading Style Sheets).
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
           link: "https://docs.fileformat.com/web/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "ONENOTE TO ONENOTE"
-          link: "https://products.groupdocs.com/conversion/net/onenote-to-onenote/"
+        - name: "ONENOTE TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/onenote-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

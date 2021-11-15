@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:20:10+03:00
+date: 2021-11-15T08:25:52
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-CAD"
           title: " About CAD File Format"
           content: |
-            CAD stands for Computer Aided Design. The term CADD (for Computer Aided Design and Drafting) is also used. It is used for a 3D graphics file format and may contain 2D or 3D designs. CAD file is a digital file format of an object generated and used by CAD software. A CAD file contains a technical drawing, blueprint, schematic, or 3D rendering of an object. There may be other CAD tools that can be used to create, open, edit and export these .cad files to more widely used CAD drawing file formats. Below we are going to discuss about the most popular CAD File Formats and the most recommended software that can open, modify and convert it other popular formats.
+            CAD stands for Computer Aided Design. The term CADD (for Computer Aided Design and Drafting) is also used. It is used for a 3D graphics file format and may contain 2D or 3D designs. CAD file is a digital file format of an object generated and used by CAD software. A CAD file contains a technical drawing, blueprint, schematic, or 3D rendering of an object.
 
           link: "https://docs.fileformat.com/cad/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EBOOK"
           title: " About EBOOK File Format"
           content: |
-            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub. An ebook can contain different types of contents such as text, image, and video. Common ebook file extensions and their file formats include EPUB (electronic publication), FB2 (FictionBook 2.0) and Mobi (MobiPocket eBook File).
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub that can easily be read by several applications. Some popular eReaders include Amazon Kindle, Sony Reader, Hanlin and IRIX. An eBook can contain different types of contents such as text, image, and video.
 
           link: "https://docs.fileformat.com/ebook/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "CAD TO CAD"
-          link: "https://products.groupdocs.com/conversion/net/cad-to-cad/"
+        - name: "CAD TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/cad-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

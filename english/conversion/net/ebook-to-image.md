@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:23:15+03:00
+date: 2021-11-15T08:26:11
 draft: false
 
 ############################# Head ############################
-head_title: "Convert eBook to Image in C# .NET VB.NET"
-head_description: "Convert eBook files to Image and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+head_title: "EBOOK to IMAGE Converter – Convert EBOOK to IMAGE in C# .NET"
+head_description: "How to convert EBOOK to IMAGE in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
 
 ############################# Header ############################
-title: "Convert eBook to Image in C# .NET"
-description: "Convert eBook files to Image and 80+ other file formats using native documents conversion API for .NET (C#, ASP.NET, VB.NET, .NET Core) applications."
+title: "Convert EBOOK to IMAGE in C#"
+description: "Native and high performance EBOOK to IMAGE conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -63,13 +63,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert eBook to Image in C#"
+    title_left: "Steps to Convert EBOOK to IMAGE in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert the eBook file to Image using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the EBOOK file to IMAGE using a few lines of code.
 
-        *   Create an instance of Converter class and load the eBook file with full path
+        *   Create an instance of Converter class and load the EBOOK file with full path
         *   Create & set ConvertOptions for the image type
-        *   Call Converter.Convert method and pass the full path and format (Image) as parameter
+        *   Call Converter.Convert method and pass the full path and format (IMAGE) as parameter
         
     title_right: "System Requirements"
     content_right: |
@@ -82,20 +82,20 @@ steps:
         
     code: |
         ```cs
-        // load the eBook file
-        var converter = new GroupDocs.Conversion.Converter("template.epub");
-        // set the convert options for Image format
-        var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
-        // convert to Image format
-        converter.Convert("output.jpg", convertOptions);
+        // load the EBOOK file
+        var converter = new GroupDocs.Conversion.Converter("template.ebook");
+        // set the convert options for IMAGE format
+        var convertOptions = converter.GetPossibleConversions()["image"].ConvertOptions;
+        // convert to IMAGE format
+        converter.Convert("output.image", convertOptions);
         ```
         
 ############################# Demos ############################
 demos:
     enable: true
-    title: "eBook to Image Live Demos"
+    title: "EBOOK to IMAGE Live Demos"
     content: |
-        Convert eBook to Image right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/ebook-to-image) website.  
+        Convert EBOOK to IMAGE right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -103,17 +103,17 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-eBook"
-          title: " About eBook File Format"
+        - icon: "far fa-file-EBOOK"
+          title: " About EBOOK File Format"
           content: |
-            Files with .epub extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
+            Ebook files are electronic files that can be opened on digital devices known as eReaders. An eReader can be any device such as a computer, a tablet or a smartphone. The most popular ebook file format is the XML based ePub that can easily be read by several applications. Some popular eReaders include Amazon Kindle, Sony Reader, Hanlin and IRIX. An eBook can contain different types of contents such as text, image, and video.
 
-          link: "https://docs.fileformat.com/ebook/epub/"
+          link: "https://docs.fileformat.com/ebook/"
 
     format:
         # format loop
-        - icon: "far fa-file-Image"
-          title: " About Image File Format"
+        - icon: "far fa-file-IMAGE"
+          title: " About IMAGE File Format"
           content: |
             An image file format is a standard method for organizing and storing images on devices like computers, tablets and smartphones. Digital images store image data in 2-dimensional grid of pixels where each pixel is a representation of colour in terms of number of bits. Image file types are classified into vector image formats and raster image formats. 3D Images are another type of vector image file format that is used for managing 3D images.
 
@@ -124,47 +124,272 @@ more_formats:
     enable: true
     title: "Other Supported Conversions"
     content: |
-        You can also convert eBook into many other file formats. Please see the complete list below.
+        You can also convert EBOOK into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "EBOOK TO EMAIL"
-          link: "https://products.groupdocs.com/conversion/net/ebook-to-email"
-          description: "Email Document File Formats"
+        - name: "EBOOK TO EPUB"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-epub/"
+          description: "Digital E-Book File Format"
 
         # format loop
-        - name: "EBOOK TO EXCEL"
-          link: "https://products.groupdocs.com/conversion/net/ebook-to-excel"
-          description: "Excel Document File Formats"
+        - name: "EBOOK TO XPS"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-xps/"
+          description: "Open XML Paper Specification"
 
         # format loop
-        - name: "EBOOK TO IMAGE"
-          link: "https://products.groupdocs.com/conversion/net/ebook-to-image"
-          description: "Image Document File Formats"
+        - name: "EBOOK TO TEX"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-tex/"
+          description: "LaTeX Source Document"
 
         # format loop
-        - name: "EBOOK TO PDF"
-          link: "https://products.groupdocs.com/conversion/net/ebook-to-pdf"
-          description: "PDF File Format"
+        - name: "EBOOK TO PPT"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-ppt/"
+          description: "PowerPoint Presentation"
 
         # format loop
-        - name: "EBOOK TO PHOTOSHOP"
-          link: "https://products.groupdocs.com/conversion/net/ebook-to-photoshop"
-          description: "Photoshop File Formats"
+        - name: "EBOOK TO PPS"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
-        - name: "EBOOK TO POWERPOINT"
-          link: "https://products.groupdocs.com/conversion/net/ebook-to-powerpoint"
-          description: "PowerPoint Presentation File Formats"
+        - name: "EBOOK TO PPTX"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
 
         # format loop
-        - name: "EBOOK TO WEB"
-          link: "https://products.groupdocs.com/conversion/net/ebook-to-web"
-          description: "Web Document File Formats"
+        - name: "EBOOK TO PPSX"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
 
         # format loop
-        - name: "EBOOK TO WORD"
-          link: "https://products.groupdocs.com/conversion/net/ebook-to-word"
-          description: "Word Document File Formats"
+        - name: "EBOOK TO ODP"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "EBOOK TO OTP"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "EBOOK TO POTX"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "EBOOK TO POTM"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "EBOOK TO PPTM"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "EBOOK TO PPSM"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "EBOOK TO XLS"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "EBOOK TO XLSX"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "EBOOK TO XLSM"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "EBOOK TO XLSB"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "EBOOK TO ODS"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "EBOOK TO XLTX"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "EBOOK TO XLTM"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "EBOOK TO TSV"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "EBOOK TO XLAM"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "EBOOK TO CSV"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-csv/"
+          description: "Comma Separated Values File"
+
+        # format loop
+        - name: "EBOOK TO DOC"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-doc/"
+          description: "Microsoft Word Document"
+
+        # format loop
+        - name: "EBOOK TO DOCM"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-docm/"
+          description: "Microsoft Word Macro-Enabled Document"
+
+        # format loop
+        - name: "EBOOK TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop
+        - name: "EBOOK TO DOT"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-dot/"
+          description: "Microsoft Word Document Template"
+
+        # format loop
+        - name: "EBOOK TO DOTM"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
+
+        # format loop
+        - name: "EBOOK TO DOTX"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-dotx/"
+          description: "Word Open XML Document Template"
+
+        # format loop
+        - name: "EBOOK TO RTF"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "EBOOK TO ODT"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "EBOOK TO OTT"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "EBOOK TO TXT"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "EBOOK TO MD"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-md/"
+          description: "Markdown"
+
+        # format loop
+        - name: "EBOOK TO TIFF"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "EBOOK TO TIF"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "EBOOK TO JPG"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "EBOOK TO JPEG"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "EBOOK TO PNG"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "EBOOK TO GIF"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "EBOOK TO BMP"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-bmp/"
+          description: "Bitmap File Format"
+
+        # format loop
+        - name: "EBOOK TO ICO"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "EBOOK TO PSD"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "EBOOK TO WMF"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "EBOOK TO EMF"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-emf/"
+          description: "Enhanced Metafile Format"
+
+        # format loop
+        - name: "EBOOK TO WEBP"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "EBOOK TO SVG"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "EBOOK TO JP2"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "EBOOK TO EMZ"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-emz/"
+          description: "Enhanced Windows Metafile Compressed"
+
+        # format loop
+        - name: "EBOOK TO WMZ"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "EBOOK TO HTML"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-html/"
+          description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "EBOOK TO MHT"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "EBOOK TO MHTML"
+          link: "https://products.groupdocs.com/conversion/net/ebook-to-mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
 
 ############################# Back to top ###############################

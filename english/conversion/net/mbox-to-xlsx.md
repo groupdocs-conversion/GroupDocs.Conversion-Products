@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:26:23+03:00
+date: 2021-11-15T08:26:32
 draft: false
 
 ############################# Head ############################
@@ -112,7 +112,7 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-XLSX"
+        - icon: "far fa-file-excel"
           title: " About XLSX File Format"
           content: |
             XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "MBOX TO MBOX"
-          link: "https://products.groupdocs.com/conversion/net/mbox-to-mbox/"
+        - name: "MBOX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/mbox-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

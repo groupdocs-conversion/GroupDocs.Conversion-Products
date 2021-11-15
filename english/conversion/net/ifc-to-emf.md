@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:45+03:00
+date: 2021-11-15T08:26:21
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-IFC"
           title: " About IFC File Format"
           content: |
-            Files with IFC extension refer to Industry Foundation Classes (IFC) file format that establishes international standards to import and export building objects and their properties. This file format provides interoperability between different software applications. Specifications for this file format are developed and maintained by buildingSMART International as its Data Standard. The ultimate objective of IFC file format is to improve communication, productivity, delivery time and quality throughout the life cycle of a building. Due to the established standards for common objects in the building industry, it reduces the loss of information during transmission from one application to another. IFC can hold data for geometry, calculation, quantities, facility management, pricing etc. for many different professions (architect, electrical, HVAC, structural, terrain etc.).
+            Files with IFC extension refer to  Industry Foundation Classes (IFC) file format that establishes international standards to import and export building objects and their properties. This file format provides interoperability between different software applications. Specifications for this file format are developed and maintained by buildingSMART International as its Data Standard.
 
           link: "https://docs.fileformat.com/cad/ifc/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EMF"
           title: " About EMF File Format"
           content: |
-            Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately. When a device opens an EMF metafile using its own graphics environment, the proportions, dimensions, colors and other graphic properties of original image remains same regardless of the opening device platform.
+            Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately.
 
           link: "https://docs.fileformat.com/image/emf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "IFC TO IFC"
-          link: "https://products.groupdocs.com/conversion/net/ifc-to-ifc/"
+        - name: "IFC TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ifc-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:33+03:00
+date: 2021-11-15T08:26:46
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-OUTLOOK"
           title: " About OUTLOOK File Format"
           content: |
-            Have you ever come across Email file formats and failed to open it? You have come to the right place, we are going to explain what Email file formats are and what are the recommended software that can open or use them. Email file formats are used by email applications to store their various data including email messages, attachments, folders, address books etc. Email file formats are mainly associated with Outlook Express Email Message file. Additional types of files may also be using the Email file extension. There are several common file types used with regards to email.  Below is the list of the most popular file formats used by various email clients to store e-mail messages and other related data.
+            Outlook Data Files are created and used by Microsoft Outlook to store messages, contacts, calendars, and other account information.
 
           link: "https://docs.fileformat.com/email/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI. Common web file extensions and their associate file formats include HTML (Hypertext Markup Language), ASP (Active Server Pages), and CSS (Cascading Style Sheets).
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
           link: "https://docs.fileformat.com/web/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OUTLOOK TO OUTLOOK"
-          link: "https://products.groupdocs.com/conversion/net/outlook-to-outlook/"
+        - name: "OUTLOOK TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/outlook-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

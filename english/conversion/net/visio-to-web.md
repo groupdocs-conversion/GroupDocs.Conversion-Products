@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:27+03:00
+date: 2021-11-15T08:27:08
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VISIO"
+        - icon: "far fa-file-alt"
           title: " About VISIO File Format"
           content: |
-            Files with .vsdx extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Visio documents include formats used by Microsoft Visio. These formats contain technical drawings with figures. You can open these files with Microsoft Visio.
 
-          link: "https://docs.fileformat.com/image/vsdx/"
+          link: "https://docs.fileformat.com/image/"
 
     format:
         # format loop
         - icon: "far fa-file-WEB"
           title: " About WEB File Format"
           content: |
-            It takes a number of file types when building a webpage. Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI. Common web file extensions and their associate file formats include HTML (Hypertext Markup Language), ASP (Active Server Pages), and CSS (Cascading Style Sheets).
+            Web file formats define the standards for development of webpages and are related to platform in which these are built. A complete website can be built consisting of static as well as dynamic webpages. Most modern websites are built on server side technology such as Active Server Pages (ASP) that are loaded and run on the web server. These also include cascading styling sheets (CSS) and scripting files used for the styling the overall look and feel of UI.
 
           link: "https://docs.fileformat.com/web/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VISIO TO VISIO"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-visio/"
+        - name: "VISIO TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

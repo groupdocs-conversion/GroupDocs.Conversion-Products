@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:30:20+03:00
+date: 2021-11-15T08:26:57
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-PROJECT"
           title: " About PROJECT File Format"
           content: |
-            Have you ever come across and wondered what is an MPP file? MPP and other similar files are Project file formats that are created by Project Management software. A project file is a collection of tasks, resources, and scheduling to get a measurable output in the form of a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation. Common Project Management file extensions and their associated file formats include MPP, MPX and XER.
+            MPP and other similar files are Project file formats that are created by Project Management software such as Microsoft Project. A project file is a collection of tasks, resources, and their scheduling to get a measurable output in the form or a product or a service. Gantt charts are used to establish a visual flow of activities against time for the identified tasks that can also be exported to PDF or image formats for documentation. Primavera P6 is another Project Management Software by Oracle that provides complete project planning.
 
           link: "https://docs.fileformat.com/project-management/"
 
     format:
         # format loop
-        - icon: "far fa-file-PDF"
+        - icon: "far fa-file-alt"
           title: " About PDF File Format"
           content: |
-            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins. Most of the commercially available software suites also offer conversion of their documents to PDF file format without the requirement of any additional software component. Thus, PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, digital signatures, attachments, metadata, Geospatial features and 3D objects in it that can become as part of source document.
+            Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins.
 
           link: "https://docs.fileformat.com/view/pdf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "PROJECT TO PROJECT"
-          link: "https://products.groupdocs.com/conversion/net/project-to-project/"
+        - name: "PROJECT TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/project-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

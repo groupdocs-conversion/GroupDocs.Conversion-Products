@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-03T14:25:12+03:00
+date: 2021-11-15T08:26:11
 draft: false
 
 ############################# Head ############################
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "EMF TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-emf/"
+        - name: "EMF TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/emf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

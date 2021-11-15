@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:22:50+03:00
+date: 2021-11-15T08:26:07
 draft: false
 
 ############################# Head ############################
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "DWFX TO DWFX"
-          link: "https://products.groupdocs.com/conversion/net/dwfx-to-dwfx/"
+        - name: "DWFX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/dwfx-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

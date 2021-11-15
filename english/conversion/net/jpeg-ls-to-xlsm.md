@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:25:35+03:00
+date: 2021-11-15T08:26:27
 draft: false
 
 ############################# Head ############################
@@ -83,7 +83,7 @@ steps:
     code: |
         ```cs
         // load the JPEG-LS file
-        var converter = new GroupDocs.Conversion.Converter("template.jls");
+        var converter = new GroupDocs.Conversion.Converter("template.jpeg-ls");
         // set the convert options for XLSM format
         var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
         // convert to XLSM format
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-image-o"
-          title: " About JPEG File Format"
+        - icon: "far fa-file-JPEG-LS"
+          title: " About JPEG-LS File Format"
           content: |
-            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
+            [SRC_FORMAT_DESCRIPTION]
 
-          link: "https://docs.fileformat.com/image/jpeg/"
+          link: "[SRC_FORMAT_URI]"
 
     format:
         # format loop
-        - icon: "far fa-file-excel-o"
+        - icon: "far fa-file-excel"
           title: " About XLSM File Format"
           content: |
-            Files with XLSM extension is a type of Spreadsheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft’s Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there. XLSM files are similar to XLM file formats but are based on the Open XML format introduced in Microsoft Office 2007. In other words, XLSM are XLSX files but with support of macros. By default, Excel itself provides several macros for common use. However, you can also record your own macros with required functions.
+            Files with XLSM extension is a type of Spreasheet files that support Macros. From application point of view, a Macro is set of instructions that are used for automating processes. A macro is used to record the steps that are performed repeatedly and facilitates performing the actions by running the macro again. Macros are programmed with Microsoft's Visual Basic for Applications (VBA) from within the Excel Workbook using the Visual Basic Editor and can be run/debug directly from there.
 
           link: "https://docs.fileformat.com/spreadsheet/xlsm/"
 
@@ -250,6 +250,11 @@ more_formats:
         - name: "JPEG-LS TO DOCM"
           link: "https://products.groupdocs.com/conversion/net/jpeg-ls-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
+
+        # format loop
+        - name: "JPEG-LS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/jpeg-ls-to-docx/"
+          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "JPEG-LS TO DOT"

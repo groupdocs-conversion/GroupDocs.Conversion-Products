@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:24:56+03:00
+date: 2021-11-15T08:26:22
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-IGS"
           title: " About IGS File Format"
           content: |
-            A file with .igs (Initial Graphics Exchange) extension is a 2D-3D design exchange file format that is independent of source or destination file format specifications used by CAD applications. It is be used to exchange design information about circuit diagrams, wireframe, freeform surface between two independent systems. It is similar to IGES and is primary requirement of manufacturers for pricing and designing molds for your product. IGS has most recently been replaced by the newer STEP(.STP) file format. IGS files can be opened by applications such as Autodesk, FreeCAD, CADEX CAD Exchanger and other similar applications.
+            A file with .igs (Initial Graphics Exchange) extension is a 2D-3D design exchange file format that is independent of source or destination file format specifications used by CAD applications. It is used to exchange design information about circuit diagrams, wireframes, the freeform surfaces between two independent systems. IGS files can be opened by applications such as Autodesk, FreeCAD, CADEX CAD Exchanger, and other similar applications.
 
           link: "https://docs.fileformat.com/cad/igs/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-RTF"
           title: " About RTF File Format"
           content: |
-            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting. The file format specifications are available by Microsoft for public download and can be referred to from developer's perspective.
+            Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications. The format facilitates cross-platform document exchange with other Microsoft Products, thus serving the purpose of interoperability. This capability makes it a standard of data transfer between word processing software and, hence, contents can be transferred from one operating system to another without losing document formatting.
 
           link: "https://docs.fileformat.com/word-processing/rtf/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "IGS TO IGS"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-igs/"
+        - name: "IGS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/igs-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:28:20+03:00
+date: 2021-11-15T08:26:44
 draft: false
 
 ############################# Head ############################
@@ -106,7 +106,7 @@ about_formats:
         - icon: "far fa-file-OTS"
           title: " About OTS File Format"
           content: |
-            A file with .ots extension is an OpenDocument Spreadsheet Template file that is created with the Calc application software included in Apache OpenOffice. Calc application software is the similar to Excel available in Microsoft Office. OTS file format is used to create templates that contain predefine settings related to styles, font, data, spreadsheet layout, and formatting. OTF files have mime-type application/vnd.oasis.opendocument.spreadsheet-template. These template files can be used as a starting point to generate and save actual data files that are saved in ODS file format. OTS files can be used with applications such as OpenOffice and LibreOffice.
+            OTS is a spreadsheet template in OpenDocument format. OTS files are used to create ODS files with same styling and formatting.
 
           link: "https://docs.fileformat.com/spreadsheet/ots/"
 
@@ -115,7 +115,7 @@ about_formats:
         - icon: "far fa-file-EPUB"
           title: " About EPUB File Format"
           content: |
-            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). The version EPUB 3 is also endorsed by the Book Industry Study Group (BISG), a leading book trade association for standardized best practices, research, information and events, for packaging of content.
+            Files with .EPUB extension are an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, there are a lot of compatible software available for smartphones, tablets and computers.
 
           link: "https://docs.fileformat.com/ebook/epub/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "OTS TO OTS"
-          link: "https://products.groupdocs.com/conversion/net/ots-to-ots/"
+        - name: "OTS TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/ots-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

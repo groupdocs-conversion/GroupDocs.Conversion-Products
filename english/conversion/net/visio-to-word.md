@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:32:27+03:00
+date: 2021-11-15T08:27:08
 draft: false
 
 ############################# Head ############################
@@ -103,19 +103,19 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-VISIO"
+        - icon: "far fa-file-alt"
           title: " About VISIO File Format"
           content: |
-            Files with .vsdx extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. It is also supported on Visio Services in Microsoft SharePoint Server 2013 and does not require an intermediary file format for publishing to SharePoint Server. Visio files are used to create drawings that contain visual objects, flow charts, UML diagram, information flow, organizational charts, software diagrams, network layout, database models, objects mapping and other similar information. Files generated using Visio can also be exported to different file formats such as PNG, BMP, PDF and others.
+            Visio documents include formats used by Microsoft Visio. These formats contain technical drawings with figures. You can open these files with Microsoft Visio.
 
-          link: "https://docs.fileformat.com/image/vsdx/"
+          link: "https://docs.fileformat.com/image/"
 
     format:
         # format loop
-        - icon: "far fa-file-WORD"
+        - icon: "far fa-file-word"
           title: " About WORD File Format"
           content: |
-            A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing. Microsoft Word for Windows, Mac, iOS and Android is a powerful word processor that can open, read and edit such document file formats in addition to other text editors. Common plain text file extensions and associated file formats include TXT, CSV, while file extensions for rich text documents include DOCX, DOC and RTF.
+            A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features.
 
           link: "https://docs.fileformat.com/word-processing/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "VISIO TO VISIO"
-          link: "https://products.groupdocs.com/conversion/net/visio-to-visio/"
+        - name: "VISIO TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/visio-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

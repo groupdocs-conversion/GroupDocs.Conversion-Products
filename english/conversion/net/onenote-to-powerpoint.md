@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-05-13T14:27:57+03:00
+date: 2021-11-15T08:26:42
 draft: false
 
 ############################# Head ############################
@@ -106,16 +106,16 @@ about_formats:
         - icon: "far fa-file-ONENOTE"
           title: " About ONENOTE File Format"
           content: |
-            File represented by .ONE extension are created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draft pad for taking notes. OneNote files can contain different elements that can be placed at non-fixed locations on document pages. These elements may contain text, digitized handwriting, and objects copied from other applications including images, drawings and multimedia (audio/video) clips. Microsoft now offers online version of OneNote as part of Office365 where Notes can be shared with other OneNote users over the internet.
+            [SRC_FORMAT_DESCRIPTION]
 
-          link: "https://docs.fileformat.com/note-taking/one/"
+          link: "[SRC_FORMAT_URI]"
 
     format:
         # format loop
-        - icon: "far fa-file-POWERPOINT"
+        - icon: "far fa-file-powerpoint"
           title: " About POWERPOINT File Format"
           content: |
-            You must be familiar with PPTX and PPT extension files while working with Microsoft PowerPoint. These are Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects. A presentation can be saved/converted into other file formats as well such as PDF, BMP, PNG, JPEG, and XPS. PowerPoint Viewer lets you a number of supported Presentation file formats and is available for free. Common Presentation file extensions and their associated file formats include PPTX, PPT and ODP.
+            Presentation file formats that store collection of records to accommodate presentation data such as slides, shapes, text, animations, video, audio and embedded objects.
 
           link: "https://docs.fileformat.com/presentation/"
 
@@ -252,8 +252,8 @@ more_formats:
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
-        - name: "ONENOTE TO ONENOTE"
-          link: "https://products.groupdocs.com/conversion/net/onenote-to-onenote/"
+        - name: "ONENOTE TO DOCX"
+          link: "https://products.groupdocs.com/conversion/net/onenote-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop

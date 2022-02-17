@@ -15,7 +15,7 @@ head_description: "Java Document Conversion API. Convert PDF Word DOC DOCX, Exce
 
 ############################# Header ############################
 title: "Java API for Images & Documents Conversion"
-description: "‎Native Java API to Integrate Document Conversion Functionality in Java Applications, Supporting 80+ Document & Image File Formats.‎"
+description: "Native Java API to Integrate Document Conversion Functionality in Java Applications, Supporting 80+ Document & Image File Formats."
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -63,9 +63,9 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Conversion for Java combines a powerful set of document conversion APIs to display images and document formats in your Java applications without needing to install additional software. It natively rasterizes the documents and converts them into SVG+HTML+CSS to enhance the quality of document viewing while delivering a true-text, high-fidelity output. Using the document rendering API – quickly view PDF, HTML, XML, Microsoft Office Word, Excel worksheets, PowerPoint presentations, Outlook emails, Visio diagrams, Project, metafiles, images and various other file formats with ease and fewer programming hazards. It can also display password-protected files and allow to get document representation as HTML, image or PDF form after the rendering. Our file conversion library is quite customizable, as it allows you to display the whole ‎document, or render it partially to speed up the process. Through GroupDocs.Conversion for Java ‎API, you can view pages, specific cell range in a spreadsheet or even render an individual ‎document layer in formats, such as, PDF and CAD.  
+      GroupDocs.Conversion for Java combines a powerful set of document conversion APIs to display images and document formats in your Java applications without needing to install additional software. It natively rasterizes the documents and converts them into SVG+HTML+CSS to enhance the quality of document viewing while delivering a true-text, high-fidelity output. Using the document rendering API – quickly view PDF, HTML, XML, Microsoft Office Word, Excel worksheets, PowerPoint presentations, Outlook emails, Visio diagrams, Project, metafiles, images and various other file formats with ease and fewer programming hazards. It can also display password-protected files and allow to get document representation as HTML, image or PDF form after the rendering. Our file conversion library is quite customizable, as it allows you to display the whole document, or render it partially to speed up the process. Through GroupDocs.Conversion for Java API, you can view pages, specific cell range in a spreadsheet or even render an individual document layer in formats, such as, PDF and CAD.  
         
-      GroupDocs.Conversion for Java API allows you to ‎render documents with/without annotation or comments for supported file formats.‎ It also enables you to add custom font directories and extract basic document information such as FileType, Extension, Name, PageCount, etc.‎  
+      GroupDocs.Conversion for Java API allows you to render documents with/without annotation or comments for supported file formats. It also enables you to add custom font directories and extract basic document information such as FileType, Extension, Name, PageCount, etc.  
         
       GroupDocs.Conversion for Java is compatible with all Java versions and supports popular operating systems (Windows, Linux, macOS) that are capable to run Java runtime.
     tabs:
@@ -142,7 +142,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Conversion for Java supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Conversion for Java supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -214,7 +214,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Convert and Get Output as Path or IO Stream‎"
+        content: "Convert and Get Output as Path or IO Stream"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -304,7 +304,7 @@ features:
 
       # more_feature_loop
       - title: "Comprehensive Technical Support"
-        content: "GroupDocs.Conversion for Java is a simple and to-the-point API that you can integrate into your Java-based applications pretty easily. However, to get you up and running in no time, we also provide easy to follow code samples and comprehensive API documentation.‎"
+        content: "GroupDocs.Conversion for Java is a simple and to-the-point API that you can integrate into your Java-based applications pretty easily. However, to get you up and running in no time, we also provide easy to follow code samples and comprehensive API documentation."
 
 ############################# Support ############################
 support:

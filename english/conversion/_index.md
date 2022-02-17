@@ -13,7 +13,7 @@ head_description: "Get all-in-one Document Conversion Solution for .NET, Java an
 
 ############################# Header ############################
 title: "Document and Image Conversion Solution"
-description: "‎Convert popular document and image file formats on any platform with app and api-based solutions.‎"
+description: "Convert popular document and image file formats on any platform with app and api-based solutions."
 
 ############################# APIs ###############################
 apis:

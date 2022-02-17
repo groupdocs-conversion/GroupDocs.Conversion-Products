@@ -15,7 +15,7 @@ head_description: "C# .NET Document Conversion API. Convert PDF Word DOC DOCX, E
 
 ############################# Header ############################
 title: ".NET API to Convert 80+ File Formats"
-description: "‎Simple API to Integrate Document & Image Conversion Functionality into .NET Applications without Installing any External Software.‎"
+description: "Simple API to Integrate Document & Image Conversion Functionality into .NET Applications without Installing any External Software."
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -216,7 +216,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Set Custom Font Directories & Explicitly Load/Substitute Font during Document Conversion‎"
+        content: "Set Custom Font Directories & Explicitly Load/Substitute Font during Document Conversion"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -303,7 +303,7 @@ features:
           * Get the file path as input
           * Get the file storage path
           * Convert the input document file
-          * Return the output, as path or stream (as per requirement)‎  
+          * Return the output, as path or stream (as per requirement)  
             
             
           ```cs

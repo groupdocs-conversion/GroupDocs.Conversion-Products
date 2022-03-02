@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:00
+date: 2022-03-01T15:20:23
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "VDW TO DIF"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "VDW TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "VDW TO DOCM"

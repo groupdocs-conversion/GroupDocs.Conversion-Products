@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:28
+date: 2022-03-01T15:18:42
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "PPTM TO PSD"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "PPTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "PPTM TO SVG"

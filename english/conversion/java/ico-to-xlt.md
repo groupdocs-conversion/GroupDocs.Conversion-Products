@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:05
+date: 2022-03-01T15:14:03
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "ICO TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/ico-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "ICO TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "ICO TO XLTM"

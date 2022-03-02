@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:04
+date: 2022-03-01T15:16:07
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "MPX TO JPG"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "MPX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "MPX TO MHT"

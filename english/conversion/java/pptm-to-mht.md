@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:26
+date: 2022-03-01T15:18:40
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "PPTM TO MD"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "PPTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PPTM TO MHTML"

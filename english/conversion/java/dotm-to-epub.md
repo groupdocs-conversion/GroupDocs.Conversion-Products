@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:07
+date: 2022-03-01T15:11:48
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "DOTM TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/dotm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "DOTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "DOTM TO FODP"

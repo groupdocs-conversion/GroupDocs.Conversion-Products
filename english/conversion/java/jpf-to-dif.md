@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:53
+date: 2022-03-01T15:14:51
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "JPF TO DCM"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "JPF TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "JPF TO DOC"

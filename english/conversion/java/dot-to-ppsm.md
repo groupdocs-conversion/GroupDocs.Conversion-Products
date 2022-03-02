@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:03
+date: 2022-03-01T15:11:44
 draft: false
 
 ############################# Head ############################
@@ -300,11 +300,6 @@ more_formats:
         # format loop
         - name: "DOT TO PPS"
           link: "https://products.groupdocs.com/conversion/java/dot-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DOT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

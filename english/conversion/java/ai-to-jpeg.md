@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:34
+date: 2022-03-01T15:10:12
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "AI TO JP2"
           link: "https://products.groupdocs.com/conversion/java/ai-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "AI TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "AI TO JPG"

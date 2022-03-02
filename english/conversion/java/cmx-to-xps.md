@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:07
+date: 2022-03-01T15:10:47
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "CMX TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "CMX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

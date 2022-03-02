@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:25
+date: 2022-03-01T15:18:38
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "PPTM TO DIF"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "PPTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "PPTM TO DOCM"

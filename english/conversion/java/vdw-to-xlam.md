@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:06
+date: 2022-03-01T15:20:27
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "VDW TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "VDW TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "VDW TO XLS"

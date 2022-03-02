@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:13
+date: 2022-03-01T15:11:55
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "DOTX TO ICO"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "DOTX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DOTX TO JPEG"

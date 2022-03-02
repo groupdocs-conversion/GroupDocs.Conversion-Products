@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:20
+date: 2022-03-01T15:11:01
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "DGN TO MD"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "DGN TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DGN TO MHTML"

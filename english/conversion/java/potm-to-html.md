@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:52
+date: 2022-03-01T15:18:03
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "POTM TO HTM"
           link: "https://products.groupdocs.com/conversion/java/potm-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "POTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "POTM TO ICO"

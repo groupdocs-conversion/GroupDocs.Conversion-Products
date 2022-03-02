@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:17
+date: 2022-03-01T15:16:22
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "ODG TO ODS"
           link: "https://products.groupdocs.com/conversion/java/odg-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "ODG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "ODG TO OTP"

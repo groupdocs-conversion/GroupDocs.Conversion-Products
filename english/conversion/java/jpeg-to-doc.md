@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:48
+date: 2022-03-01T15:14:46
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "JPEG TO DIF"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "JPEG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "JPEG TO DOCM"

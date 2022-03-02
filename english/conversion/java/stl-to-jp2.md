@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:03
+date: 2022-03-01T15:19:20
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "STL TO ICO"
           link: "https://products.groupdocs.com/conversion/java/stl-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "STL TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "STL TO JPEG"

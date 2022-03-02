@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:16
+date: 2022-03-01T15:13:10
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "EPS TO JP2"
           link: "https://products.groupdocs.com/conversion/java/eps-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "EPS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "EPS TO JPG"

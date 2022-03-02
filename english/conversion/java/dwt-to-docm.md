@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:35
+date: 2022-03-01T15:12:18
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "DWT TO DOC"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "DWT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DWT TO DOCX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:42
+date: 2022-03-01T15:13:37
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "FODS TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/fods-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "FODS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "FODS TO WMZ"

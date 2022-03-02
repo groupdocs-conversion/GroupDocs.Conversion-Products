@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:35
+date: 2022-03-01T15:11:14
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "DJVU TO PSD"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DJVU TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "DJVU TO SVG"

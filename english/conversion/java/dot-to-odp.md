@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:02
+date: 2022-03-01T15:11:43
 draft: false
 
 ############################# Head ############################
@@ -246,11 +246,6 @@ more_formats:
         - name: "DOT TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/dot-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "DOT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DOT TO ODS"

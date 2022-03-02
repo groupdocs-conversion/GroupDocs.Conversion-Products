@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:42
+date: 2022-03-01T15:20:06
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "TSV TO JP2"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "TSV TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "TSV TO JPG"

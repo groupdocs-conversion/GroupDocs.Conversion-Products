@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:28
+date: 2022-03-01T15:13:23
 draft: false
 
 ############################# Head ############################
@@ -230,11 +230,6 @@ more_formats:
         # format loop
         - name: "EXCEL TO MHT"
           link: "https://products.groupdocs.com/conversion/java/excel-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "EXCEL TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

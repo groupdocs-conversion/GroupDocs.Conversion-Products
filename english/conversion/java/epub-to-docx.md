@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:20
+date: 2022-03-01T15:13:15
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "EPUB TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/epub-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "EPUB TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "EPUB TO DOT"

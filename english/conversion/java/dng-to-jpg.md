@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:38
+date: 2022-03-01T15:11:18
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "DNG TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/dng-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "DNG TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DNG TO MD"

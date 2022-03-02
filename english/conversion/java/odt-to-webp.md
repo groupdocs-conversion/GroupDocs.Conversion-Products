@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:36
+date: 2022-03-01T15:16:42
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "ODT TO TXT"
           link: "https://products.groupdocs.com/conversion/java/odt-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "ODT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "ODT TO WMF"

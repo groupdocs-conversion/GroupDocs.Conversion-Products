@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:45
+date: 2022-03-01T15:15:47
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "MOBI TO DCM"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "MOBI TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "MOBI TO DOC"

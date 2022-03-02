@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:57
+date: 2022-03-01T15:13:54
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "HTML TO PNG"
           link: "https://products.groupdocs.com/conversion/java/html-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "HTML TO POT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "HTML TO POTM"

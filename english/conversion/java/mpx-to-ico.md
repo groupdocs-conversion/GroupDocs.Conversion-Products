@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:04
+date: 2022-03-01T15:16:07
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "MPX TO HTML"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "MPX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "MPX TO JP2"

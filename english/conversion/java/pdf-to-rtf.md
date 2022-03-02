@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:31
+date: 2022-03-01T15:17:41
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "PDF TO PSD"
           link: "https://products.groupdocs.com/conversion/java/pdf-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "PDF TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "PDF TO SVG"

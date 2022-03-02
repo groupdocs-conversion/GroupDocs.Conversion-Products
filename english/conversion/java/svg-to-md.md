@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:09
+date: 2022-03-01T15:19:27
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "SVG TO JPG"
           link: "https://products.groupdocs.com/conversion/java/svg-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "SVG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "SVG TO MHT"

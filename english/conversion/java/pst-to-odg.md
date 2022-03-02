@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:52
+date: 2022-03-01T15:19:08
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "PST TO MSG"
           link: "https://products.groupdocs.com/conversion/java/pst-to-msg/"
           description: "Microsoft Outlook Email Format"
-
-        # format loop
-        - name: "PST TO ODG"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-odg/"
-          description: "OpenDocument Drawing File"
 
         # format loop
         - name: "PST TO ODP"

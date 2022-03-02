@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:58
+date: 2022-03-01T15:19:15
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "RTF TO OTT"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "RTF TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "RTF TO PNG"

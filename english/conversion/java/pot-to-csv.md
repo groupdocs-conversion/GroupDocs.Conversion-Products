@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:45
+date: 2022-03-01T15:17:55
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "POT TO BMP"
           link: "https://products.groupdocs.com/conversion/java/pot-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "POT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "POT TO DCM"

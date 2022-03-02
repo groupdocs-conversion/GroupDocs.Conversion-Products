@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:33
+date: 2022-03-01T15:16:39
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "ODT TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/odt-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "ODT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "ODT TO MD"

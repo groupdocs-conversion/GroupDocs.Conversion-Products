@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:07
+date: 2022-03-01T15:10:47
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "CMX TO XLT"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "CMX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "CMX TO XLTX"

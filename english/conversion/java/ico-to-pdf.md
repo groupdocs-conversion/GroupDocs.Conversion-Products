@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:02
+date: 2022-03-01T15:14:00
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "ICO TO OTT"
           link: "https://products.groupdocs.com/conversion/java/ico-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "ICO TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "ICO TO PNG"

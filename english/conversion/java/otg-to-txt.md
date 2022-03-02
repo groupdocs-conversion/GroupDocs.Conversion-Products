@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:53
+date: 2022-03-01T15:17:02
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "OTG TO TSV"
           link: "https://products.groupdocs.com/conversion/java/otg-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "OTG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "OTG TO WEBP"

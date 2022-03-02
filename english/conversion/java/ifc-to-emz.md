@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:07
+date: 2022-03-01T15:14:04
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "IFC TO EMF"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "IFC TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "IFC TO EPUB"

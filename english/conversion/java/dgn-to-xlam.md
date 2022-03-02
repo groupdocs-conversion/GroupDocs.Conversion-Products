@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:23
+date: 2022-03-01T15:11:04
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "DGN TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "DGN TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DGN TO XLS"

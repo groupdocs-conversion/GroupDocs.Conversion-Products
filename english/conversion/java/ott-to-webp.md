@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:11
+date: 2022-03-01T15:17:20
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "OTT TO TXT"
           link: "https://products.groupdocs.com/conversion/java/ott-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "OTT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "OTT TO WMF"

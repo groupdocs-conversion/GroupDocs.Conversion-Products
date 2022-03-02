@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:15
+date: 2022-03-01T15:14:13
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "IGS TO SVG"
           link: "https://products.groupdocs.com/conversion/java/igs-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "IGS TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "IGS TO SXC"

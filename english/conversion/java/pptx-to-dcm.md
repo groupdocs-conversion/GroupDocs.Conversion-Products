@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:30
+date: 2022-03-01T15:18:44
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "PPTX TO CSV"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "PPTX TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "PPTX TO DIF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:20
+date: 2022-03-01T15:17:29
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "OXPS TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "OXPS TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "OXPS TO XLTM"

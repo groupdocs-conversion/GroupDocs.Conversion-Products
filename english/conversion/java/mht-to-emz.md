@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:35
+date: 2022-03-01T15:15:36
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "MHT TO EMF"
           link: "https://products.groupdocs.com/conversion/java/mht-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "MHT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "MHT TO EPUB"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:40
+date: 2022-03-01T15:11:20
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "DNG TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/dng-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "DNG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "DNG TO PPTM"

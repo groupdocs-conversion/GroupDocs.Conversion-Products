@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:11
+date: 2022-03-01T15:11:53
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert DOTX into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "DOTX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "DOTX TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-csv/"

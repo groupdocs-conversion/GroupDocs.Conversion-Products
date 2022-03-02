@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:49
+date: 2022-03-01T15:11:30
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "DOCM TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/docm-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "DOCM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DOCM TO EMZ"

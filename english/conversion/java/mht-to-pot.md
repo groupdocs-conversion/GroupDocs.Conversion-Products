@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:36
+date: 2022-03-01T15:15:38
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "MHT TO PNG"
           link: "https://products.groupdocs.com/conversion/java/mht-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "MHT TO POT"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "MHT TO POTM"

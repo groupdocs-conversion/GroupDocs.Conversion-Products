@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:23
+date: 2022-03-01T15:12:05
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "DWF TO XLT"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "DWF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DWF TO XLTX"

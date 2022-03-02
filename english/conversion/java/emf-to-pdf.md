@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:53
+date: 2022-03-01T15:12:45
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "EMF TO OTT"
           link: "https://products.groupdocs.com/conversion/java/emf-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "EMF TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "EMF TO PNG"

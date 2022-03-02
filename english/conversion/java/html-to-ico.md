@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:55
+date: 2022-03-01T15:13:52
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "HTML TO HTM"
           link: "https://products.groupdocs.com/conversion/java/html-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "HTML TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "HTML TO JP2"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:32
+date: 2022-03-01T15:19:56
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "TIF TO POTX"
           link: "https://products.groupdocs.com/conversion/java/tif-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "TIF TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "TIF TO PPSM"

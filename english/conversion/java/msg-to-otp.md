@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:11
+date: 2022-03-01T15:16:15
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "MSG TO ODT"
           link: "https://products.groupdocs.com/conversion/java/msg-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "MSG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "MSG TO OTT"

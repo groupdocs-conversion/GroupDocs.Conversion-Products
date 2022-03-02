@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:40
+date: 2022-03-01T15:12:24
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "DXF TO BMP"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "DXF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "DXF TO DCM"

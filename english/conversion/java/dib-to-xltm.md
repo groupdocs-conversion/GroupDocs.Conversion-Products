@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:30
+date: 2022-03-01T15:11:10
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "DIB TO XLT"
           link: "https://products.groupdocs.com/conversion/java/dib-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "DIB TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DIB TO XLTX"

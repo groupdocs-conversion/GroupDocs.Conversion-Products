@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:16
+date: 2022-03-01T15:13:10
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "EPS TO JPG"
           link: "https://products.groupdocs.com/conversion/java/eps-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "EPS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "EPS TO MHT"

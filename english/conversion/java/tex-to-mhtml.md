@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:26
+date: 2022-03-01T15:19:49
 draft: false
 
 ############################# Head ############################
@@ -250,11 +250,6 @@ more_formats:
         # format loop
         - name: "TEX TO MHT"
           link: "https://products.groupdocs.com/conversion/java/tex-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "TEX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

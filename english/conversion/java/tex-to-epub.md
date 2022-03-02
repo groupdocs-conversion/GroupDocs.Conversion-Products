@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:24
+date: 2022-03-01T15:19:47
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "TEX TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/tex-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "TEX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "TEX TO FODP"

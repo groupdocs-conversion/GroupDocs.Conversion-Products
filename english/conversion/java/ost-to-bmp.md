@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:42
+date: 2022-03-01T15:16:50
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert OST into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "OST TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "OST TO CSV"
           link: "https://products.groupdocs.com/conversion/java/ost-to-csv/"

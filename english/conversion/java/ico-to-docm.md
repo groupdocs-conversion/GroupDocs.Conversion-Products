@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:00
+date: 2022-03-01T15:13:57
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "ICO TO DOC"
           link: "https://products.groupdocs.com/conversion/java/ico-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "ICO TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "ICO TO DOCX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:47
+date: 2022-03-01T15:10:27
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "CDR TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "CDR TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "CDR TO PSD"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:13
+date: 2022-03-01T15:14:11
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "IGS TO JPG"
           link: "https://products.groupdocs.com/conversion/java/igs-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "IGS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "IGS TO MHT"

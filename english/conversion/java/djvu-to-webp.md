@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:35
+date: 2022-03-01T15:11:15
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "DJVU TO TXT"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "DJVU TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "DJVU TO WMF"

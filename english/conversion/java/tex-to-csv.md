@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:23
+date: 2022-03-01T15:19:46
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "TEX TO BMP"
           link: "https://products.groupdocs.com/conversion/java/tex-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "TEX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "TEX TO DCM"

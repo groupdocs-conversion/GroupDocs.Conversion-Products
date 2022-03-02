@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:02
+date: 2022-03-01T15:10:42
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "CMX TO FODS"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "CMX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "CMX TO HTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:13
+date: 2022-03-01T15:13:07
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "EMZ TO TXT"
           link: "https://products.groupdocs.com/conversion/java/emz-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "EMZ TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "EMZ TO WMF"

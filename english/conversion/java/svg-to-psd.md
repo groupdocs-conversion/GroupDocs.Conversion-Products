@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:11
+date: 2022-03-01T15:19:29
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "SVG TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/svg-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "SVG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "SVG TO RTF"

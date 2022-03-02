@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:16
+date: 2022-03-01T15:15:16
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "JPX TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "JPX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

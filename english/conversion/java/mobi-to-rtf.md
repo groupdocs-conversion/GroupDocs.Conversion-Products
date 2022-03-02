@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:49
+date: 2022-03-01T15:15:51
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "MOBI TO PSD"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "MOBI TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "MOBI TO SVG"

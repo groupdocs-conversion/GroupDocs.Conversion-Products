@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:23
+date: 2022-03-01T15:18:37
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "PPT TO WMF"
           link: "https://products.groupdocs.com/conversion/java/ppt-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "PPT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ppt-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PPT TO XLAM"

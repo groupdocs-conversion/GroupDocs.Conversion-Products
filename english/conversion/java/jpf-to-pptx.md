@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:57
+date: 2022-03-01T15:14:55
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "JPF TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "JPF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "JPF TO PSD"

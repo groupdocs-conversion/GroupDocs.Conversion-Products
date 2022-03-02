@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:50
+date: 2022-03-01T15:15:52
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "MOBI TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "MOBI TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "MOBI TO XLSB"

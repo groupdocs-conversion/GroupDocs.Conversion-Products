@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:17
+date: 2022-03-01T15:10:57
 draft: false
 
 ############################# Head ############################
@@ -366,11 +366,6 @@ more_formats:
         - name: "DCM TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DCM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "DCM TO TXT"

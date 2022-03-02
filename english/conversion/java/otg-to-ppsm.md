@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:52
+date: 2022-03-01T15:17:00
 draft: false
 
 ############################# Head ############################
@@ -305,11 +305,6 @@ more_formats:
         # format loop
         - name: "OTG TO PPS"
           link: "https://products.groupdocs.com/conversion/java/otg-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "OTG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

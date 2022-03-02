@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:58
+date: 2022-03-01T15:10:38
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "CGM TO POTM"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-potm/"
           description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "CGM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "CGM TO PPS"

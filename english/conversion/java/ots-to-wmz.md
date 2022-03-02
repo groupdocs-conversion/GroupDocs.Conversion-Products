@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:05
+date: 2022-03-01T15:17:14
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "OTS TO WMF"
           link: "https://products.groupdocs.com/conversion/java/ots-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "OTS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "OTS TO XLAM"

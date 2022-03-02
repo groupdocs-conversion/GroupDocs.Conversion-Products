@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:31
+date: 2022-03-01T15:14:30
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "JLS TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/jls-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "JLS TO MOBI"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-mobi/"
-          description: "Mobipocket eBook"
 
         # format loop
         - name: "JLS TO ODP"

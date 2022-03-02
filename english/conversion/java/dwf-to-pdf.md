@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:20
+date: 2022-03-01T15:12:02
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "DWF TO OTT"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "DWF TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "DWF TO PNG"

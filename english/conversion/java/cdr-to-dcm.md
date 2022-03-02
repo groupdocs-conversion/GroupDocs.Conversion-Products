@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:44
+date: 2022-03-01T15:10:23
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "CDR TO CSV"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "CDR TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "CDR TO DIF"

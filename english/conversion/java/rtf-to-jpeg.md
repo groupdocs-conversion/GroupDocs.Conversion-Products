@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:58
+date: 2022-03-01T15:19:14
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "RTF TO JP2"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "RTF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "RTF TO JPG"

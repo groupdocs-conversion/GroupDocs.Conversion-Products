@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:09
+date: 2022-03-01T15:16:13
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "MSG TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/msg-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "MSG TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "MSG TO EML"

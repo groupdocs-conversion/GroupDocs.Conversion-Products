@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:23
+date: 2022-03-01T15:12:06
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "DWFX TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "DWFX TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DWFX TO DOT"

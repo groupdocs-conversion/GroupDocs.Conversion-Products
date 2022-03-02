@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:02
+date: 2022-03-01T15:18:13
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "POTX TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/potx-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "POTX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

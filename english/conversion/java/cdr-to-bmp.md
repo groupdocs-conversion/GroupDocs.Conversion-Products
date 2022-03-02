@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:43
+date: 2022-03-01T15:10:23
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert CDR into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "CDR TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "CDR TO CSV"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-csv/"

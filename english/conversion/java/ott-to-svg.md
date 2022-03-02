@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:10
+date: 2022-03-01T15:17:19
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "OTT TO RTF"
           link: "https://products.groupdocs.com/conversion/java/ott-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "OTT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "OTT TO SVGZ"

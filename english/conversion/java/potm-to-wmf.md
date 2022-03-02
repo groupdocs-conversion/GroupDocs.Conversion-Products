@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:55
+date: 2022-03-01T15:18:06
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "POTM TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/potm-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "POTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "POTM TO WMZ"

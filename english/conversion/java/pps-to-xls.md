@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:07
+date: 2022-03-01T15:18:19
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "PPS TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/pps-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "PPS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PPS TO XLSB"

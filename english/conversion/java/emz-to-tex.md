@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:13
+date: 2022-03-01T15:13:06
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "EMZ TO SXC"
           link: "https://products.groupdocs.com/conversion/java/emz-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "EMZ TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "EMZ TO TIF"

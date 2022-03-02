@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:36
+date: 2022-03-01T15:18:51
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "PROJECT TO PDF"
           link: "https://products.groupdocs.com/conversion/java/project-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "PROJECT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/project-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "PROJECT TO POTX"

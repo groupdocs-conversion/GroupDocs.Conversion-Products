@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:34
+date: 2022-03-01T15:19:58
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "TIF TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/tif-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "TIF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "TIF TO XLSX"

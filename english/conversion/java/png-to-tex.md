@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:43
+date: 2022-03-01T15:17:54
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "PNG TO SXC"
           link: "https://products.groupdocs.com/conversion/java/png-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "PNG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/png-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "PNG TO TIF"

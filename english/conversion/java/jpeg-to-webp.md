@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:52
+date: 2022-03-01T15:14:50
 draft: false
 
 ############################# Head ############################
@@ -366,11 +366,6 @@ more_formats:
         - name: "JPEG TO TXT"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "JPEG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "JPEG TO WMF"

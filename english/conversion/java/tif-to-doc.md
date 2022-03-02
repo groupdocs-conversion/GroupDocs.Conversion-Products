@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:29
+date: 2022-03-01T15:19:53
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "TIF TO DIF"
           link: "https://products.groupdocs.com/conversion/java/tif-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "TIF TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "TIF TO DOCM"

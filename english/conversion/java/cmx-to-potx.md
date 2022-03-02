@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:04
+date: 2022-03-01T15:10:44
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "CMX TO POTM"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-potm/"
           description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "CMX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "CMX TO PPS"

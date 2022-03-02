@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:54
+date: 2022-03-01T15:20:17
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "VCF TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "VCF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "VCF TO FODP"

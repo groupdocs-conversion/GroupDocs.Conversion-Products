@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:46
+date: 2022-03-01T15:10:25
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "CDR TO ODP"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "CDR TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "CDR TO ODT"

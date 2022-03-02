@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:28
+date: 2022-03-01T15:18:42
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "PPTM TO SVG"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "PPTM TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "PPTM TO SXC"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:57
+date: 2022-03-01T15:17:06
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "OTP TO OTT"
           link: "https://products.groupdocs.com/conversion/java/otp-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "OTP TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "OTP TO PNG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:22
+date: 2022-03-01T15:13:16
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "EPUB TO JPG"
           link: "https://products.groupdocs.com/conversion/java/epub-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "EPUB TO MD"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "EPUB TO MHT"

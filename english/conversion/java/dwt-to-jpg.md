@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:37
+date: 2022-03-01T15:12:20
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "DWT TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "DWT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DWT TO MD"

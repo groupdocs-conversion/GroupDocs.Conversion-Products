@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:14
+date: 2022-03-01T15:17:22
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "OUTLOOK TO TEX"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "OUTLOOK TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "OUTLOOK TO TXT"

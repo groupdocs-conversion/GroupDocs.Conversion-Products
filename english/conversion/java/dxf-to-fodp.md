@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:41
+date: 2022-03-01T15:12:26
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "DXF TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "DXF TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "DXF TO FODS"

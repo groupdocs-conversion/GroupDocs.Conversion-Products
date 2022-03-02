@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:35
+date: 2022-03-01T15:18:49
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "PPTX TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "PPTX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "PPTX TO WMZ"

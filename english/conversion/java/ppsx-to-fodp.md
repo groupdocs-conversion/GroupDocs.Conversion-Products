@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:14
+date: 2022-03-01T15:18:28
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "PPSX TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "PPSX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "PPSX TO FODS"

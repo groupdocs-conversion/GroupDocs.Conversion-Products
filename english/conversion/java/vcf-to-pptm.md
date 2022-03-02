@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:57
+date: 2022-03-01T15:20:20
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "VCF TO PPT"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "VCF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "VCF TO PPTX"

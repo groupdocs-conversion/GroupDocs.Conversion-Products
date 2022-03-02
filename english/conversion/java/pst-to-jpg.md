@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:51
+date: 2022-03-01T15:19:08
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "PST TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/pst-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "PST TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PST TO MD"

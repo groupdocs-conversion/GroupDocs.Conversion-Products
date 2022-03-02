@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:40
+date: 2022-03-01T15:13:35
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "FODS TO PNG"
           link: "https://products.groupdocs.com/conversion/java/fods-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "FODS TO POT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "FODS TO POTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:20
+date: 2022-03-01T15:15:21
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "LOG TO SXC"
           link: "https://products.groupdocs.com/conversion/java/log-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "LOG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/log-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "LOG TO TIF"

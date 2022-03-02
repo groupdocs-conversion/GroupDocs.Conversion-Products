@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:29
+date: 2022-03-01T15:14:27
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "J2K TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "J2K TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "J2K TO XLSX"

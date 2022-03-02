@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:35
+date: 2022-03-01T15:17:45
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "PLT TO FODP"
           link: "https://products.groupdocs.com/conversion/java/plt-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "PLT TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "PLT TO GIF"

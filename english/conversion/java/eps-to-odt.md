@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:16
+date: 2022-03-01T15:13:11
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "EPS TO ODS"
           link: "https://products.groupdocs.com/conversion/java/eps-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "EPS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "EPS TO OTP"

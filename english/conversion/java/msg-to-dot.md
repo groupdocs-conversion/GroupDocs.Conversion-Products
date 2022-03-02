@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:09
+date: 2022-03-01T15:16:12
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "MSG TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/msg-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "MSG TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "MSG TO DOTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:12
+date: 2022-03-01T15:18:24
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "PPSM TO SXC"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "PPSM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "PPSM TO TIF"

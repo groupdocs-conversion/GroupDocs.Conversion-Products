@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:48
+date: 2022-03-01T15:16:56
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "OST TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/ost-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "OST TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "OST TO XLSB"

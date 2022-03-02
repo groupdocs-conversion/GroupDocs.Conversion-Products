@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:54
+date: 2022-03-01T15:12:46
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "EMF TO PSD"
           link: "https://products.groupdocs.com/conversion/java/emf-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "EMF TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "EMF TO SVG"

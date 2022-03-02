@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:30
+date: 2022-03-01T15:12:13
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "DWG TO HTM"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "DWG TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DWG TO ICO"

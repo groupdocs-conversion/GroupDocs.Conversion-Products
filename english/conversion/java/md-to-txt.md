@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:32
+date: 2022-03-01T15:15:33
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "MD TO TSV"
           link: "https://products.groupdocs.com/conversion/java/md-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "MD TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/md-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "MD TO WEBP"

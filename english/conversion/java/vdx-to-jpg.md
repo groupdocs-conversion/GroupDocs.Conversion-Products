@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:15
+date: 2022-03-01T15:20:30
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "VDX TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "VDX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "VDX TO MD"

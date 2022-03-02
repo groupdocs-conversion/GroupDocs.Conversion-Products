@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:07
+date: 2022-03-01T15:17:16
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "OTT TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/ott-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "OTT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "OTT TO FODP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:26
+date: 2022-03-01T15:19:49
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "TEX TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/tex-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "TEX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "TEX TO ODS"

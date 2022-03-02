@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:15
+date: 2022-03-01T15:15:16
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "JPX TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "JPX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "JPX TO XLSB"

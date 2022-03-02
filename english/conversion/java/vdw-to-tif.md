@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:04
+date: 2022-03-01T15:20:27
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "VDW TO TEX"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "VDW TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "VDW TO TIFF"

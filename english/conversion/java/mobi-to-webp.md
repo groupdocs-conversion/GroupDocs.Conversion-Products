@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:49
+date: 2022-03-01T15:15:52
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "MOBI TO TXT"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "MOBI TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "MOBI TO WMF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:23
+date: 2022-03-01T15:18:37
 draft: false
 
 ############################# Head ############################
@@ -360,11 +360,6 @@ more_formats:
         # format loop
         - name: "PPT TO TIF"
           link: "https://products.groupdocs.com/conversion/java/ppt-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "PPT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ppt-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

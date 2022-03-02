@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:43
+date: 2022-03-01T15:16:51
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "OST TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/ost-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "OST TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "OST TO EML"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:46
+date: 2022-03-01T15:17:57
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "POT TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/pot-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "POT TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "POT TO FODS"

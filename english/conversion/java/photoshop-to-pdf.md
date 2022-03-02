@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:33
+date: 2022-03-01T15:17:43
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert PHOTOSHOP into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "PHOTOSHOP TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-pdf/"
-          description: "Portable Document"
-
         # format loop
         - name: "PHOTOSHOP TO POTX"
           link: "https://products.groupdocs.com/conversion/java/photoshop-to-potx/"

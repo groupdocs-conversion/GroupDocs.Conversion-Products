@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:11
+date: 2022-03-01T15:19:30
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "SVG TO TEX"
           link: "https://products.groupdocs.com/conversion/java/svg-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "SVG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "SVG TO TIFF"

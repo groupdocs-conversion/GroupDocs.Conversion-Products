@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:18
+date: 2022-03-01T15:16:24
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "ODG TO SVG"
           link: "https://products.groupdocs.com/conversion/java/odg-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "ODG TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "ODG TO SXC"

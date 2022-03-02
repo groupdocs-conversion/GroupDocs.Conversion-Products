@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:07
+date: 2022-03-01T15:14:05
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "IFC TO HTML"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "IFC TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "IFC TO JP2"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:00
+date: 2022-03-01T15:16:03
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "MPT TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "MPT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "MPT TO PSD"

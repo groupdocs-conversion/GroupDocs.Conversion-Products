@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:27
+date: 2022-03-01T15:14:26
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "J2K TO SXC"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "J2K TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "J2K TO TIF"

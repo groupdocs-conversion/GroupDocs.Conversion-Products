@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:19
+date: 2022-03-01T15:19:40
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "SXC TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "SXC TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "SXC TO EMZ"

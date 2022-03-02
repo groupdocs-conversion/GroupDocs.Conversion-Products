@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:58
+date: 2022-03-01T15:20:21
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "VCF TO TXT"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "VCF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "VCF TO WMF"

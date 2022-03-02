@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:13
+date: 2022-03-01T15:17:22
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "OUTLOOK TO MD"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "OUTLOOK TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "OUTLOOK TO MHTML"

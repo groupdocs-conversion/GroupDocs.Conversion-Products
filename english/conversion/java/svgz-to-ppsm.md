@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:16
+date: 2022-03-01T15:19:36
 draft: false
 
 ############################# Head ############################
@@ -305,11 +305,6 @@ more_formats:
         # format loop
         - name: "SVGZ TO PPS"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "SVGZ TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

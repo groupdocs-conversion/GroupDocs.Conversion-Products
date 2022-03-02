@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:14
+date: 2022-03-01T15:15:15
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "JPX TO RTF"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "JPX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "JPX TO SVGZ"

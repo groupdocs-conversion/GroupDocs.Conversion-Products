@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:50
+date: 2022-03-01T15:12:41
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "EMAIL TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/email-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "EMAIL TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "EMAIL TO XLTX"

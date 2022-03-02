@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:54
+date: 2022-03-01T15:19:11
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "PST TO TSV"
           link: "https://products.groupdocs.com/conversion/java/pst-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "PST TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "PST TO WEBP"

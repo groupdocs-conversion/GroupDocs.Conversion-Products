@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:29
+date: 2022-03-01T15:12:11
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert DWG into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "DWG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "DWG TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-csv/"

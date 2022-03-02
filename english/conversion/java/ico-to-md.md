@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:02
+date: 2022-03-01T15:13:59
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "ICO TO JPG"
           link: "https://products.groupdocs.com/conversion/java/ico-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "ICO TO MD"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "ICO TO MHT"

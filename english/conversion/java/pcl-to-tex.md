@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:25
+date: 2022-03-01T15:17:34
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "PCL TO SXC"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "PCL TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "PCL TO TIF"

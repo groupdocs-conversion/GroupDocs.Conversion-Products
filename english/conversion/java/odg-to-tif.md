@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:19
+date: 2022-03-01T15:16:24
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "ODG TO TEX"
           link: "https://products.groupdocs.com/conversion/java/odg-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "ODG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "ODG TO TIFF"

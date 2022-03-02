@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:44
+date: 2022-03-01T15:10:24
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "CDR TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "CDR TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "CDR TO EMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:17
+date: 2022-03-01T15:18:30
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "PPSX TO PSD"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "PPSX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "PPSX TO SVG"

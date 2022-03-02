@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:51
+date: 2022-03-01T15:20:15
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "TXT TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/txt-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "TXT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/txt-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "TXT TO WMZ"

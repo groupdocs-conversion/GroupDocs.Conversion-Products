@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:39
+date: 2022-03-01T15:17:49
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert PNG into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "PNG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/png-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "PNG TO CSV"
           link: "https://products.groupdocs.com/conversion/java/png-to-csv/"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:43
+date: 2022-03-01T15:12:28
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "DXF TO ODS"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "DXF TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "DXF TO OTP"

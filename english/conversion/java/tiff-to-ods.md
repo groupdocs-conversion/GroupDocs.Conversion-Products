@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:37
+date: 2022-03-01T15:20:01
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "TIFF TO ODP"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "TIFF TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "TIFF TO ODT"

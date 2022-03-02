@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:02
+date: 2022-03-01T15:11:43
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "DOT TO JPG"
           link: "https://products.groupdocs.com/conversion/java/dot-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "DOT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "DOT TO MHT"

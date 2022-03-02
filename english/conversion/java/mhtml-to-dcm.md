@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:39
+date: 2022-03-01T15:15:41
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "MHTML TO CSV"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "MHTML TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "MHTML TO DIF"

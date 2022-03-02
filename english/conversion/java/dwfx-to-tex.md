@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:27
+date: 2022-03-01T15:12:10
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "DWFX TO SXC"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "DWFX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "DWFX TO TIF"

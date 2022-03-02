@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:07
+date: 2022-03-01T15:17:16
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "OTT TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/ott-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "OTT TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "OTT TO DOTM"

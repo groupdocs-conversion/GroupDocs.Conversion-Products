@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:35
+date: 2022-03-01T15:12:18
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "DWT TO BMP"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "DWT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "DWT TO DCM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:10
+date: 2022-03-01T15:16:13
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "MSG TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/msg-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "MSG TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "MSG TO FODS"

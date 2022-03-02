@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:38
+date: 2022-03-01T15:11:18
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "DNG TO FODP"
           link: "https://products.groupdocs.com/conversion/java/dng-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "DNG TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "DNG TO GIF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:37
+date: 2022-03-01T15:13:33
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "FODS TO BMP"
           link: "https://products.groupdocs.com/conversion/java/fods-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "FODS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "FODS TO DCM"

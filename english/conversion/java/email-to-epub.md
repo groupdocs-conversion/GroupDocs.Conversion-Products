@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:47
+date: 2022-03-01T15:12:37
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "EMAIL TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/email-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "EMAIL TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/email-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "EMAIL TO GIF"

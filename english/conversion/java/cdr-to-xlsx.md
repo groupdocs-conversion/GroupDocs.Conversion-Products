@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:49
+date: 2022-03-01T15:10:28
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "CDR TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "CDR TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "CDR TO XLT"

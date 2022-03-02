@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:47
+date: 2022-03-01T15:11:29
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "DOC TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/doc-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "DOC TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DOC TO XLSB"

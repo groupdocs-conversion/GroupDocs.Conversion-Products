@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:34
+date: 2022-03-01T15:13:29
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "FODP TO OTP"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "FODP TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "FODP TO PDF"

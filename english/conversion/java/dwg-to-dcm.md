@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:29
+date: 2022-03-01T15:12:12
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "DWG TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "DWG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "DWG TO DIF"

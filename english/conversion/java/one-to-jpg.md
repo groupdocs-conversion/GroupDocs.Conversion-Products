@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:39
+date: 2022-03-01T15:16:46
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "ONE TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/one-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "ONE TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/one-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "ONE TO MD"

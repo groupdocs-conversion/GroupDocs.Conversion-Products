@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:40
+date: 2022-03-01T15:20:04
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "TIFF TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "TIFF TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "TIFF TO XLSB"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:59
+date: 2022-03-01T15:10:39
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "CGM TO PPT"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "CGM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "CGM TO PPTX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:33
+date: 2022-03-01T15:17:43
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "PDF TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/pdf-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "PDF TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "PDF TO XLTM"

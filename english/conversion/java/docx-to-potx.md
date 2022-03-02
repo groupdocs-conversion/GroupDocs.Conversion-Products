@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:57
+date: 2022-03-01T15:11:38
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "DOCX TO POTM"
           link: "https://products.groupdocs.com/conversion/java/docx-to-potm/"
           description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "DOCX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/docx-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "DOCX TO PPS"

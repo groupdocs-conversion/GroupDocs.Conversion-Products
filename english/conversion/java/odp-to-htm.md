@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:21
+date: 2022-03-01T15:16:27
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "ODP TO GIF"
           link: "https://products.groupdocs.com/conversion/java/odp-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "ODP TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "ODP TO HTML"

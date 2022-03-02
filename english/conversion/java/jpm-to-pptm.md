@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:08
+date: 2022-03-01T15:15:08
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "JPM TO PPT"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "JPM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "JPM TO PPTX"

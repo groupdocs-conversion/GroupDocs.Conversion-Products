@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:56
+date: 2022-03-01T15:10:36
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "CGM TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "CGM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "CGM TO EMZ"

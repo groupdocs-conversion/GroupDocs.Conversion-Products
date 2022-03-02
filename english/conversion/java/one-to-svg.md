@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:41
+date: 2022-03-01T15:16:48
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "ONE TO RTF"
           link: "https://products.groupdocs.com/conversion/java/one-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "ONE TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/one-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "ONE TO SVGZ"

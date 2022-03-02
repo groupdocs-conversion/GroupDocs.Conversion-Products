@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:55
+date: 2022-03-01T15:12:47
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "EMF TO TSV"
           link: "https://products.groupdocs.com/conversion/java/emf-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "EMF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "EMF TO WEBP"

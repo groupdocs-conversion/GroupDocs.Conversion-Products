@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:32
+date: 2022-03-01T15:20:35
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "VSD TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "VSD TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "VSD TO EMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:04
+date: 2022-03-01T15:15:03
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "JPG TO XLS"
           link: "https://products.groupdocs.com/conversion/java/jpg-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "JPG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "JPG TO XLSM"

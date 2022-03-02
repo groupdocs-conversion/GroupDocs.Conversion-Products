@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:04
+date: 2022-03-01T15:12:58
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "EMLX TO JPG"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "EMLX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "EMLX TO MHT"

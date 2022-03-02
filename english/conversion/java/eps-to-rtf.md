@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:18
+date: 2022-03-01T15:13:12
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "EPS TO PSD"
           link: "https://products.groupdocs.com/conversion/java/eps-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "EPS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "EPS TO SVG"

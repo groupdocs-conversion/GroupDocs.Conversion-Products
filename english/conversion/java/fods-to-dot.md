@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:38
+date: 2022-03-01T15:13:33
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "FODS TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/fods-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "FODS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "FODS TO DOTM"

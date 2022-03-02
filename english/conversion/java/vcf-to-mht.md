@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:56
+date: 2022-03-01T15:20:19
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "VCF TO MD"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "VCF TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "VCF TO MHTML"

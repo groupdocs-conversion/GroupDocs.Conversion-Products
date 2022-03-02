@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:30
+date: 2022-03-01T15:15:31
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "MD TO JP2"
           link: "https://products.groupdocs.com/conversion/java/md-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "MD TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/md-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "MD TO JPG"

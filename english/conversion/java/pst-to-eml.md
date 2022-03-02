@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:50
+date: 2022-03-01T15:19:06
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "PST TO EMF"
           link: "https://products.groupdocs.com/conversion/java/pst-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "PST TO EML"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-eml/"
-          description: "E-Mail Message File"
 
         # format loop
         - name: "PST TO EMLX"

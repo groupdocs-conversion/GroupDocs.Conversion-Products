@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:18
+date: 2022-03-01T15:16:23
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "ODG TO POTX"
           link: "https://products.groupdocs.com/conversion/java/odg-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "ODG TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "ODG TO PPSM"

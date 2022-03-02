@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:26
+date: 2022-03-01T15:12:08
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "DWFX TO PDF"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "DWFX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "DWFX TO POT"

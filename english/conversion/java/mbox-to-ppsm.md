@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:25
+date: 2022-03-01T15:15:26
 draft: false
 
 ############################# Head ############################
@@ -305,11 +305,6 @@ more_formats:
         # format loop
         - name: "MBOX TO PPS"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "MBOX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

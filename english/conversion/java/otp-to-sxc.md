@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:59
+date: 2022-03-01T15:17:07
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "OTP TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/otp-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "OTP TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "OTP TO TEX"

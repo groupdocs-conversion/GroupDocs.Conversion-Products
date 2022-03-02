@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:28
+date: 2022-03-01T15:11:08
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "DIB TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/dib-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "DIB TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DIB TO PSD"

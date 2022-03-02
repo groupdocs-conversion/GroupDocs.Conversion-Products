@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:57
+date: 2022-03-01T15:19:14
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "RTF TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "RTF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "RTF TO FODP"

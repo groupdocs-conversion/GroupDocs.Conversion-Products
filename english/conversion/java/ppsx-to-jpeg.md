@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:15
+date: 2022-03-01T15:18:28
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "PPSX TO JP2"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "PPSX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "PPSX TO JPG"

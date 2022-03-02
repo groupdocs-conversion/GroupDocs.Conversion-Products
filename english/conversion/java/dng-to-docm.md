@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:37
+date: 2022-03-01T15:11:17
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "DNG TO DOC"
           link: "https://products.groupdocs.com/conversion/java/dng-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "DNG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DNG TO DOCX"

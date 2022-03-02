@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:36
+date: 2022-03-01T15:13:32
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "FODP TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "FODP TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "FODP TO WMZ"

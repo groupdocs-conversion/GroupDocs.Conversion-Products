@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:31
+date: 2022-03-01T15:16:37
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "ODS TO XLS"
           link: "https://products.groupdocs.com/conversion/java/ods-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "ODS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ods-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "ODS TO XLSM"

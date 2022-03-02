@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:14
+date: 2022-03-01T15:16:18
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "MSG TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/msg-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "MSG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "MSG TO XLSX"

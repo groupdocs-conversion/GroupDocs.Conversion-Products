@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:21
+date: 2022-03-01T15:14:19
 draft: false
 
 ############################# Head ############################
@@ -305,11 +305,6 @@ more_formats:
         # format loop
         - name: "J2C TO PPS"
           link: "https://products.groupdocs.com/conversion/java/j2c-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "J2C TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

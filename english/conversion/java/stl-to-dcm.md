@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:01
+date: 2022-03-01T15:19:19
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "STL TO CSV"
           link: "https://products.groupdocs.com/conversion/java/stl-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "STL TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "STL TO DIF"

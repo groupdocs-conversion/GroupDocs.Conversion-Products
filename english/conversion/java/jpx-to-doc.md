@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:11
+date: 2022-03-01T15:15:10
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "JPX TO DIF"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "JPX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "JPX TO DOCM"

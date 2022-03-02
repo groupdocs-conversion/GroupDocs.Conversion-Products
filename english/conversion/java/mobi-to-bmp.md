@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:45
+date: 2022-03-01T15:15:47
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert MOBI into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "MOBI TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "MOBI TO CSV"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-csv/"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:24
+date: 2022-03-01T15:18:38
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert PPTM into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "PPTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "PPTM TO CSV"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-csv/"

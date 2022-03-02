@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:27
+date: 2022-03-01T15:17:36
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "PDF TO DOC"
           link: "https://products.groupdocs.com/conversion/java/pdf-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "PDF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PDF TO DOCX"

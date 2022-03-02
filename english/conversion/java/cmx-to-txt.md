@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:06
+date: 2022-03-01T15:10:46
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "CMX TO TSV"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "CMX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "CMX TO WEBP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:06
+date: 2022-03-01T15:17:15
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert OTT into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "OTT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "OTT TO CSV"
           link: "https://products.groupdocs.com/conversion/java/ott-to-csv/"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:21
+date: 2022-03-01T15:13:16
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "EPUB TO HTML"
           link: "https://products.groupdocs.com/conversion/java/epub-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "EPUB TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "EPUB TO JP2"

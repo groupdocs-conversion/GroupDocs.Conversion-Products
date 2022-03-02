@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:24
+date: 2022-03-01T15:17:34
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "PCL TO PSD"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "PCL TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "PCL TO SVG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:24
+date: 2022-03-01T15:13:19
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "EPUB TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/epub-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "EPUB TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "EPUB TO XLS"

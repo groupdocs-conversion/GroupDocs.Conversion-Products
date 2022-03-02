@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:38
+date: 2022-03-01T15:20:37
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "VSD TO ODT"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "VSD TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "VSD TO OTT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:14
+date: 2022-03-01T15:11:56
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "DOTX TO PNG"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "DOTX TO POT"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "DOTX TO POTM"

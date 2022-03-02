@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:06
+date: 2022-03-01T15:11:48
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "DOTM TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/dotm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "DOTM TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DOTM TO DOT"

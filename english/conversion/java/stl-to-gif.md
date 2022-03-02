@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:03
+date: 2022-03-01T15:19:20
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "STL TO FODS"
           link: "https://products.groupdocs.com/conversion/java/stl-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "STL TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "STL TO HTM"

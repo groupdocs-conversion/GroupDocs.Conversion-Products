@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:07
+date: 2022-03-01T15:14:04
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "IFC TO FODP"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "IFC TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "IFC TO GIF"

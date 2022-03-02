@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:15
+date: 2022-03-01T15:15:15
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "JPX TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "JPX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "JPX TO XLS"

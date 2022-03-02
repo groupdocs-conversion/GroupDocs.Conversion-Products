@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:47
+date: 2022-03-01T15:17:57
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "POT TO MD"
           link: "https://products.groupdocs.com/conversion/java/pot-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "POT TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "POT TO MHTML"

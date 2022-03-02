@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:17
+date: 2022-03-01T15:18:31
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "PPSX TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "PPSX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "PPSX TO TEX"

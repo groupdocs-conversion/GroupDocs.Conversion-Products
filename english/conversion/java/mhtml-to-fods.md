@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:40
+date: 2022-03-01T15:15:43
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "MHTML TO FODP"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "MHTML TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "MHTML TO GIF"

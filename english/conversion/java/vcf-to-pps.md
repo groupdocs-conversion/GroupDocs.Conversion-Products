@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:57
+date: 2022-03-01T15:20:20
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "VCF TO POTX"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "VCF TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VCF TO PPSM"

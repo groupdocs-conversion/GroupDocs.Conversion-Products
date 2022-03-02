@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:03
+date: 2022-03-01T15:16:06
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "MPX TO DOT"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "MPX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "MPX TO DOTX"

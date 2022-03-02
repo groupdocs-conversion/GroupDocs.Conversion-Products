@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:36
+date: 2022-03-01T15:10:14
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "AI TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/ai-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "AI TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "AI TO PSD"

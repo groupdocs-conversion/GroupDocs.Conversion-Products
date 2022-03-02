@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:41
+date: 2022-03-01T15:20:05
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "TSV TO DOT"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "TSV TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "TSV TO DOTX"

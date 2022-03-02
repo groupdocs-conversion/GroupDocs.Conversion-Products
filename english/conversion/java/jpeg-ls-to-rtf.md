@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:48
+date: 2022-03-01T15:14:46
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "JPEG-LS TO POTM"
           link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-potm/"
           description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "JPEG-LS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "JPEG-LS TO XLS"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:46
+date: 2022-03-01T15:12:35
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "EBOOK TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/ebook-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "EBOOK TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "EBOOK TO PDF"

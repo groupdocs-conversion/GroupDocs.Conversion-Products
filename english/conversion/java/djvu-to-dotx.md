@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:31
+date: 2022-03-01T15:11:11
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "DJVU TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "DJVU TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "DJVU TO EMF"

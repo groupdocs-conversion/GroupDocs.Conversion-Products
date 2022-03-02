@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:08
+date: 2022-03-01T15:16:12
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "MSG TO CSV"
           link: "https://products.groupdocs.com/conversion/java/msg-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "MSG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "MSG TO DIF"

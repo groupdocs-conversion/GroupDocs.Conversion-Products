@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:54
+date: 2022-03-01T15:20:41
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "VSDM TO FODP"
           link: "https://products.groupdocs.com/conversion/java/vsdm-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "VSDM TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/vsdm-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "VSDM TO GIF"

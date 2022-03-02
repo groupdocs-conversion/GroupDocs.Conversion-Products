@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:03
+date: 2022-03-01T15:19:20
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "STL TO HTM"
           link: "https://products.groupdocs.com/conversion/java/stl-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "STL TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "STL TO ICO"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:00
+date: 2022-03-01T15:14:59
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "JPG TO GIF"
           link: "https://products.groupdocs.com/conversion/java/jpg-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "JPG TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "JPG TO HTML"

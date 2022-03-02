@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:11
+date: 2022-03-01T15:17:20
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "OTT TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/ott-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "OTT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "OTT TO WMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:37
+date: 2022-03-01T15:16:44
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert ONE into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "ONE TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/one-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "ONE TO CSV"
           link: "https://products.groupdocs.com/conversion/java/one-to-csv/"

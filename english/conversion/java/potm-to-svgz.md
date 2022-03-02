@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:54
+date: 2022-03-01T15:18:05
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "POTM TO SVG"
           link: "https://products.groupdocs.com/conversion/java/potm-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "POTM TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "POTM TO SXC"

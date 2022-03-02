@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:27
+date: 2022-03-01T15:14:25
 draft: false
 
 ############################# Head ############################
@@ -311,11 +311,6 @@ more_formats:
         - name: "J2K TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "J2K TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "J2K TO PPT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:29
+date: 2022-03-01T15:11:09
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "DIB TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/dib-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DIB TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "DIB TO TEX"

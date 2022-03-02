@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:53
+date: 2022-03-01T15:20:17
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "VCF TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "VCF TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "VCF TO EMZ"

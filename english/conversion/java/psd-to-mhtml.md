@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:45
+date: 2022-03-01T15:19:01
 draft: false
 
 ############################# Head ############################
@@ -245,11 +245,6 @@ more_formats:
         # format loop
         - name: "PSD TO MHT"
           link: "https://products.groupdocs.com/conversion/java/psd-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "PSD TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:41
+date: 2022-03-01T15:16:48
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "ONE TO SVG"
           link: "https://products.groupdocs.com/conversion/java/one-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "ONE TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/one-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "ONE TO SXC"

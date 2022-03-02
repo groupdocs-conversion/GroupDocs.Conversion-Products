@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:34
+date: 2022-03-01T15:17:44
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "PLT TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/plt-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "PLT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PLT TO EMZ"

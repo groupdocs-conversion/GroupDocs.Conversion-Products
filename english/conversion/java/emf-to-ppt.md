@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:54
+date: 2022-03-01T15:12:46
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "EMF TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/emf-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "EMF TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "EMF TO PPTM"

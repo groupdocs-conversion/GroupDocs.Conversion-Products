@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:34
+date: 2022-03-01T15:15:35
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "MHT TO DOT"
           link: "https://products.groupdocs.com/conversion/java/mht-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "MHT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "MHT TO DOTX"

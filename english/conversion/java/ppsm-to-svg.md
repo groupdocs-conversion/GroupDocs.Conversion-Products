@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:11
+date: 2022-03-01T15:18:24
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "PPSM TO RTF"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "PPSM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PPSM TO SVGZ"

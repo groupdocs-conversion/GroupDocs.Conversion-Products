@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:32
+date: 2022-03-01T15:15:33
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "MD TO RTF"
           link: "https://products.groupdocs.com/conversion/java/md-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "MD TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/md-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "MD TO SVGZ"

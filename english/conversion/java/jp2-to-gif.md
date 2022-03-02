@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:37
+date: 2022-03-01T15:14:35
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "JP2 TO FODS"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "JP2 TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "JP2 TO HTM"

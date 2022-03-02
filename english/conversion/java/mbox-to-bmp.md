@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:22
+date: 2022-03-01T15:15:23
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert MBOX into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "MBOX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "MBOX TO CSV"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-csv/"

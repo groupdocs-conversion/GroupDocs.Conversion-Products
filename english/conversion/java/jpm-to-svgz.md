@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:08
+date: 2022-03-01T15:15:08
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "JPM TO SVG"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "JPM TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "JPM TO SXC"

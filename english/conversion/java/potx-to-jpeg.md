@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:58
+date: 2022-03-01T15:18:09
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "POTX TO JP2"
           link: "https://products.groupdocs.com/conversion/java/potx-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "POTX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "POTX TO JPG"

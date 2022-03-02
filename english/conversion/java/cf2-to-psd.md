@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:53
+date: 2022-03-01T15:10:33
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "CF2 TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "CF2 TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "CF2 TO RTF"

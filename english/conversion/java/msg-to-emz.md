@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:09
+date: 2022-03-01T15:16:13
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "MSG TO EMLX"
           link: "https://products.groupdocs.com/conversion/java/msg-to-emlx/"
           description: "Apple Mail Message"
-
-        # format loop
-        - name: "MSG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "MSG TO EPUB"

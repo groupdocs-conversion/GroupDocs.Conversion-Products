@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:07
+date: 2022-03-01T15:19:25
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert SVG into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "SVG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "SVG TO CSV"
           link: "https://products.groupdocs.com/conversion/java/svg-to-csv/"

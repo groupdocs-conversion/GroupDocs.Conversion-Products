@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:56
+date: 2022-03-01T15:18:08
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "POTX TO DIF"
           link: "https://products.groupdocs.com/conversion/java/potx-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "POTX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "POTX TO DOCM"

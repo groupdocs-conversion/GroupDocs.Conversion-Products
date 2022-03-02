@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:45
+date: 2022-03-01T15:19:01
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "PSD TO JPG"
           link: "https://products.groupdocs.com/conversion/java/psd-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "PSD TO MD"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "PSD TO MHT"

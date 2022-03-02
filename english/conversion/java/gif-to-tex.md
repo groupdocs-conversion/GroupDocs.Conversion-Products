@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:47
+date: 2022-03-01T15:13:43
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "GIF TO SXC"
           link: "https://products.groupdocs.com/conversion/java/gif-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "GIF TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "GIF TO TIF"

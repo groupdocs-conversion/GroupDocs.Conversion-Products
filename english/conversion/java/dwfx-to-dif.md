@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:23
+date: 2022-03-01T15:12:05
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "DWFX TO DCM"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "DWFX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "DWFX TO DOC"

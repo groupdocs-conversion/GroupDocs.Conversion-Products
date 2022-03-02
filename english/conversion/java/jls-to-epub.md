@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:30
+date: 2022-03-01T15:14:29
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "JLS TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/jls-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "JLS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "JLS TO FODP"

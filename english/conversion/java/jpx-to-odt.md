@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:13
+date: 2022-03-01T15:15:13
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "JPX TO ODS"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "JPX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "JPX TO OTP"

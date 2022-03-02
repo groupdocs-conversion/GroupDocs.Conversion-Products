@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:06
+date: 2022-03-01T15:14:04
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "IFC TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "IFC TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "IFC TO DOTM"

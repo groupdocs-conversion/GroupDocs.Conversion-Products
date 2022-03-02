@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:38
+date: 2022-03-01T15:17:49
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "PLT TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/plt-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "PLT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "PLT TO XLSB"

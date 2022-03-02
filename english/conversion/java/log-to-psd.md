@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:20
+date: 2022-03-01T15:15:21
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "LOG TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/log-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "LOG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/log-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "LOG TO RTF"

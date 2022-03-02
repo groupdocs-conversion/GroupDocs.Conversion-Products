@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:52
+date: 2022-03-01T15:17:00
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "OTG TO PNG"
           link: "https://products.groupdocs.com/conversion/java/otg-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "OTG TO POT"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "OTG TO POTM"

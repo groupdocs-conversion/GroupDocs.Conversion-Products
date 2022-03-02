@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:39
+date: 2022-03-01T15:12:22
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "DWT TO SVG"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DWT TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "DWT TO SXC"

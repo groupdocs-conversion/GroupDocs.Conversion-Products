@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:56
+date: 2022-03-01T15:20:19
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "VCF TO ODS"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "VCF TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "VCF TO OTP"

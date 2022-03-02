@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:46
+date: 2022-03-01T15:12:34
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "DXF TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "DXF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DXF TO XLT"

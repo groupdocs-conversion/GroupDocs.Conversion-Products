@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:36
+date: 2022-03-01T15:17:46
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "PLT TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/plt-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "PLT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PLT TO ODS"

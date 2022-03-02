@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:56
+date: 2022-03-01T15:13:53
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "HTML TO ODP"
           link: "https://products.groupdocs.com/conversion/java/html-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "HTML TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "HTML TO ODT"

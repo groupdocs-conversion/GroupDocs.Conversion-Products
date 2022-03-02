@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:58
+date: 2022-03-01T15:20:21
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "VCF TO TEX"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "VCF TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "VCF TO TIFF"

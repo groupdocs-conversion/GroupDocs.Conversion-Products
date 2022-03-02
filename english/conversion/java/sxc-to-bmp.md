@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:18
+date: 2022-03-01T15:19:39
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert SXC into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "SXC TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "SXC TO CSV"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-csv/"

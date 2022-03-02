@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:38
+date: 2022-03-01T15:16:45
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "ONE TO FODS"
           link: "https://products.groupdocs.com/conversion/java/one-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "ONE TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/one-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "ONE TO HTM"

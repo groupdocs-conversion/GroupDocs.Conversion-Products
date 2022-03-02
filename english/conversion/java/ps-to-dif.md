@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:38
+date: 2022-03-01T15:18:53
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "PS TO DCM"
           link: "https://products.groupdocs.com/conversion/java/ps-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "PS TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/ps-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "PS TO DOC"

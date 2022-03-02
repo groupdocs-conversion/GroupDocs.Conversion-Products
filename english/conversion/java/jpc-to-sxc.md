@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:46
+date: 2022-03-01T15:14:44
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "JPC TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "JPC TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "JPC TO TEX"

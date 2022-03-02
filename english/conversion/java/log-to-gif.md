@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:17
+date: 2022-03-01T15:15:18
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "LOG TO FODS"
           link: "https://products.groupdocs.com/conversion/java/log-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "LOG TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/log-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "LOG TO HTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:36
+date: 2022-03-01T15:12:19
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "DWT TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "DWT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "DWT TO FODP"

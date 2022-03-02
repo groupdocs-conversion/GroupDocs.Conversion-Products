@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:27
+date: 2022-03-01T15:11:07
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "DIB TO OTP"
           link: "https://products.groupdocs.com/conversion/java/dib-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "DIB TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "DIB TO PDF"

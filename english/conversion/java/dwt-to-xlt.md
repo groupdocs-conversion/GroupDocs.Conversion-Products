@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:40
+date: 2022-03-01T15:12:24
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "DWT TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "DWT TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "DWT TO XLTM"

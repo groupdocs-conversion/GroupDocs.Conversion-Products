@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:44
+date: 2022-03-01T15:15:46
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "MHTML TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "MHTML TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "MHTML TO XLSB"

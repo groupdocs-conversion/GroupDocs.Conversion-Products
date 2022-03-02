@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:14
+date: 2022-03-01T15:19:33
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "SVGZ TO GIF"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "SVGZ TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "SVGZ TO HTML"

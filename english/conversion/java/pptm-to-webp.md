@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:29
+date: 2022-03-01T15:18:42
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "PPTM TO TXT"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "PPTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "PPTM TO WMF"

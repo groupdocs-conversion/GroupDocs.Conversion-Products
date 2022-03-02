@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:32
+date: 2022-03-01T15:19:56
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "TIF TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/tif-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "TIF TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "TIF TO PPTM"

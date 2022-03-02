@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:43
+date: 2022-03-01T15:13:39
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "GIF TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/gif-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "GIF TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "GIF TO DOTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:00
+date: 2022-03-01T15:10:40
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "CGM TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "CGM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "CGM TO WMZ"

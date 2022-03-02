@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:30
+date: 2022-03-01T15:18:44
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "PPTM TO XLT"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "PPTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PPTM TO XLTX"

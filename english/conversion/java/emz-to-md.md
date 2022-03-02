@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:10
+date: 2022-03-01T15:13:04
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "EMZ TO JPG"
           link: "https://products.groupdocs.com/conversion/java/emz-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "EMZ TO MD"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "EMZ TO MHT"

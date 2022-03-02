@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:15
+date: 2022-03-01T15:11:56
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "DOTX TO PPT"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "DOTX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DOTX TO PPTX"

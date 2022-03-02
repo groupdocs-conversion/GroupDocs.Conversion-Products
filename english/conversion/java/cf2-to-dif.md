@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:50
+date: 2022-03-01T15:10:29
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "CF2 TO DCM"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "CF2 TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "CF2 TO DOC"

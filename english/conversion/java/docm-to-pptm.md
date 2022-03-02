@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:52
+date: 2022-03-01T15:11:33
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "DOCM TO PPT"
           link: "https://products.groupdocs.com/conversion/java/docm-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "DOCM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DOCM TO PPTX"

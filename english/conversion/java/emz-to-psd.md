@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:12
+date: 2022-03-01T15:13:06
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "EMZ TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/emz-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "EMZ TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "EMZ TO RTF"

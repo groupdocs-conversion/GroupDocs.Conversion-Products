@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:05
+date: 2022-03-01T15:12:58
 draft: false
 
 ############################# Head ############################
@@ -250,11 +250,6 @@ more_formats:
         # format loop
         - name: "EMLX TO MHT"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "EMLX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

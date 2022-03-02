@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:30
+date: 2022-03-01T15:13:25
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "EXCEL TO TSV"
           link: "https://products.groupdocs.com/conversion/java/excel-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "EXCEL TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "EXCEL TO WEBP"

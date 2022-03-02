@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:17
+date: 2022-03-01T15:13:11
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "EPS TO POTM"
           link: "https://products.groupdocs.com/conversion/java/eps-to-potm/"
           description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "EPS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "EPS TO PPS"

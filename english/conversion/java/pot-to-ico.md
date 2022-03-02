@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:46
+date: 2022-03-01T15:17:57
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "POT TO HTML"
           link: "https://products.groupdocs.com/conversion/java/pot-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "POT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "POT TO JP2"

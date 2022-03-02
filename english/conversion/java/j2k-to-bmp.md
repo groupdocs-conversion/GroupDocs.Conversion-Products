@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:23
+date: 2022-03-01T15:14:22
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert J2K into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "J2K TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "J2K TO CSV"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-csv/"

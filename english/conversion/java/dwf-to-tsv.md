@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:21
+date: 2022-03-01T15:12:03
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "DWF TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DWF TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "DWF TO TXT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:02
+date: 2022-03-01T15:10:42
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "CMX TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "CMX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "CMX TO EMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:12
+date: 2022-03-01T15:15:13
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "JPX TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "JPX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "JPX TO ODS"

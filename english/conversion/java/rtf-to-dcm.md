@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:56
+date: 2022-03-01T15:19:13
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "RTF TO CSV"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "RTF TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "RTF TO DIF"

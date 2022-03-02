@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:28
+date: 2022-03-01T15:11:08
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "DIB TO PSD"
           link: "https://products.groupdocs.com/conversion/java/dib-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DIB TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "DIB TO SVG"

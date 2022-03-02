@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:16
+date: 2022-03-01T15:18:29
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "PPSX TO ODS"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "PPSX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "PPSX TO OTP"

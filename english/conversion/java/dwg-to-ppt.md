@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:32
+date: 2022-03-01T15:12:15
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "DWG TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "DWG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "DWG TO PPTM"

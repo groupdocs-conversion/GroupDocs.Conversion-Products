@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:24
+date: 2022-03-01T15:15:25
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "MBOX TO MD"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "MBOX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MBOX TO MHTML"

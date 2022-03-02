@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:24
+date: 2022-03-01T15:11:04
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "DGN TO XLT"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "DGN TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DGN TO XLTX"

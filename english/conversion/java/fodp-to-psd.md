@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:35
+date: 2022-03-01T15:13:30
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "FODP TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "FODP TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "FODP TO RTF"

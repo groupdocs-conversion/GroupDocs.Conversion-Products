@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:08
+date: 2022-03-01T15:17:17
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "OTT TO FODP"
           link: "https://products.groupdocs.com/conversion/java/ott-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "OTT TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "OTT TO GIF"

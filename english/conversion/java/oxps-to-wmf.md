@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:19
+date: 2022-03-01T15:17:28
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "OXPS TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "OXPS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "OXPS TO WMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:14
+date: 2022-03-01T15:20:30
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "VDX TO HTM"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "VDX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "VDX TO ICO"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:51
+date: 2022-03-01T15:10:31
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "CF2 TO JP2"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "CF2 TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "CF2 TO JPG"

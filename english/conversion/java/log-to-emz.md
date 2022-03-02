@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:17
+date: 2022-03-01T15:15:18
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "LOG TO EMF"
           link: "https://products.groupdocs.com/conversion/java/log-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "LOG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/log-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "LOG TO EPUB"

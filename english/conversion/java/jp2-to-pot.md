@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:39
+date: 2022-03-01T15:14:36
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "JP2 TO PNG"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "JP2 TO POT"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "JP2 TO POTM"

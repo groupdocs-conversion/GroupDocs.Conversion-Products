@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:20
+date: 2022-03-01T15:12:02
 draft: false
 
 ############################# Head ############################
@@ -311,11 +311,6 @@ more_formats:
         - name: "DWF TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DWF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "DWF TO PPT"

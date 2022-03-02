@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:45
+date: 2022-03-01T15:10:24
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "CDR TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "CDR TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "CDR TO FODP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:18
+date: 2022-03-01T15:20:31
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "VDX TO OTT"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "VDX TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "VDX TO PNG"

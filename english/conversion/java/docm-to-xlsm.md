@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:53
+date: 2022-03-01T15:11:35
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "DOCM TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/docm-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "DOCM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DOCM TO XLSX"

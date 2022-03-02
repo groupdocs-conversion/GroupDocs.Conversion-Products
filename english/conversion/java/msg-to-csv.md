@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:08
+date: 2022-03-01T15:16:12
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "MSG TO BMP"
           link: "https://products.groupdocs.com/conversion/java/msg-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "MSG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "MSG TO DCM"

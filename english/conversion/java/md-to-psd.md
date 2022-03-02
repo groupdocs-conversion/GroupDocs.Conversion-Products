@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:31
+date: 2022-03-01T15:15:32
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "MD TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/md-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "MD TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/md-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "MD TO RTF"

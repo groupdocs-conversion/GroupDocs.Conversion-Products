@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:35
+date: 2022-03-01T15:11:14
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "DJVU TO SVG"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DJVU TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "DJVU TO SXC"

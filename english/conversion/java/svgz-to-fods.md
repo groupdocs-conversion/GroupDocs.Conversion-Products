@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:14
+date: 2022-03-01T15:19:33
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "SVGZ TO FODP"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "SVGZ TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "SVGZ TO GIF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:20
+date: 2022-03-01T15:19:41
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "SXC TO ODP"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "SXC TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "SXC TO ODT"

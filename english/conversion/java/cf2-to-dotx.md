@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:50
+date: 2022-03-01T15:10:30
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "CF2 TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "CF2 TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "CF2 TO EMF"

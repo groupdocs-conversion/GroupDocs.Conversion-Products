@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:26
+date: 2022-03-01T15:12:09
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "DWFX TO PPT"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "DWFX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DWFX TO PPTX"

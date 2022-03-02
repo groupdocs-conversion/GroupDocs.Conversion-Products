@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:38
+date: 2022-03-01T15:20:02
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "TIFF TO POT"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "TIFF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "TIFF TO POTX"

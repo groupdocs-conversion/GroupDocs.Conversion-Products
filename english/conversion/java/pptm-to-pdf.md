@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:27
+date: 2022-03-01T15:18:41
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "PPTM TO OTT"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "PPTM TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "PPTM TO PNG"

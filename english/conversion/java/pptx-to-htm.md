@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:31
+date: 2022-03-01T15:18:46
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "PPTX TO GIF"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "PPTX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "PPTX TO HTML"

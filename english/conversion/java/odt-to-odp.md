@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:33
+date: 2022-03-01T15:16:40
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "ODT TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/odt-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "ODT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "ODT TO ODS"

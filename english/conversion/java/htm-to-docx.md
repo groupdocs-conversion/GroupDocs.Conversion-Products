@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:49
+date: 2022-03-01T15:13:45
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "HTM TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/htm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "HTM TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "HTM TO DOT"

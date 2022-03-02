@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:15
+date: 2022-03-01T15:16:19
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "ODG TO DOC"
           link: "https://products.groupdocs.com/conversion/java/odg-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "ODG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "ODG TO DOCX"

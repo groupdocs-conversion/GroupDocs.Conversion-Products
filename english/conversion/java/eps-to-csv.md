@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:14
+date: 2022-03-01T15:13:08
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "EPS TO BMP"
           link: "https://products.groupdocs.com/conversion/java/eps-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "EPS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "EPS TO DCM"

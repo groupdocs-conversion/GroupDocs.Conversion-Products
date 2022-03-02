@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:59
+date: 2022-03-01T15:19:16
 draft: false
 
 ############################# Head ############################
@@ -311,11 +311,6 @@ more_formats:
         - name: "RTF TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "RTF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "RTF TO PPT"

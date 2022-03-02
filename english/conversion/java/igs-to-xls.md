@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:16
+date: 2022-03-01T15:14:15
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "IGS TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/igs-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "IGS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "IGS TO XLSB"

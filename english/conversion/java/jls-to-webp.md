@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:34
+date: 2022-03-01T15:14:32
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "JLS TO TXT"
           link: "https://products.groupdocs.com/conversion/java/jls-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "JLS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "JLS TO WMF"

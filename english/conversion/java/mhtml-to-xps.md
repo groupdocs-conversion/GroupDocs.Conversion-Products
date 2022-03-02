@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:45
+date: 2022-03-01T15:15:47
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "MHTML TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "MHTML TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

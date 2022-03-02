@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:21
+date: 2022-03-01T15:15:22
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "LOG TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/log-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "LOG TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/log-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "LOG TO XLTM"

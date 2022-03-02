@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:57
+date: 2022-03-01T15:12:49
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "EML TO EMF"
           link: "https://products.groupdocs.com/conversion/java/eml-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "EML TO EMLX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-emlx/"
-          description: "Apple Mail Message"
 
         # format loop
         - name: "EML TO EMZ"

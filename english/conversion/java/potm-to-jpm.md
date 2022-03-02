@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:52
+date: 2022-03-01T15:18:03
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "POTM TO JPG"
           link: "https://products.groupdocs.com/conversion/java/potm-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "POTM TO JPM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jpm/"
-          description: "JPEG 2000 Image File"
 
         # format loop
         - name: "POTM TO MD"

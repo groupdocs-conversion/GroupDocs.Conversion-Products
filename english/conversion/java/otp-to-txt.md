@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:59
+date: 2022-03-01T15:17:08
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "OTP TO TSV"
           link: "https://products.groupdocs.com/conversion/java/otp-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "OTP TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "OTP TO WEBP"

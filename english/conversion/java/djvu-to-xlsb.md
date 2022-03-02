@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:36
+date: 2022-03-01T15:11:16
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "DJVU TO XLS"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "DJVU TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DJVU TO XLSM"

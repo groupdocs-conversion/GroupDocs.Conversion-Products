@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:53
+date: 2022-03-01T15:11:34
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "DOCM TO TSV"
           link: "https://products.groupdocs.com/conversion/java/docm-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "DOCM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "DOCM TO WEBP"

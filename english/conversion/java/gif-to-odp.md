@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:45
+date: 2022-03-01T15:13:41
 draft: false
 
 ############################# Head ############################
@@ -246,11 +246,6 @@ more_formats:
         - name: "GIF TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/gif-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "GIF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "GIF TO ODS"

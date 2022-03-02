@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:52
+date: 2022-03-01T15:15:54
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "MPP TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "MPP TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "MPP TO FODS"

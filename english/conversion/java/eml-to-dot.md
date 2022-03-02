@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:57
+date: 2022-03-01T15:12:49
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "EML TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/eml-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "EML TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "EML TO DOTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:27
+date: 2022-03-01T15:17:37
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "PDF TO EMF"
           link: "https://products.groupdocs.com/conversion/java/pdf-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "PDF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PDF TO EPUB"

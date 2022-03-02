@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:11
+date: 2022-03-01T15:13:04
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "EMZ TO ODT"
           link: "https://products.groupdocs.com/conversion/java/emz-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "EMZ TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "EMZ TO OTT"

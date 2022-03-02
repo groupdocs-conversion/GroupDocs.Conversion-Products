@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:45
+date: 2022-03-01T15:13:41
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "GIF TO ODS"
           link: "https://products.groupdocs.com/conversion/java/gif-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "GIF TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "GIF TO OTP"

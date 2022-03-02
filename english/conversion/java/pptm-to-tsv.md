@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:29
+date: 2022-03-01T15:18:42
 draft: false
 
 ############################# Head ############################
@@ -366,11 +366,6 @@ more_formats:
         - name: "PPTM TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "PPTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "PPTM TO TXT"

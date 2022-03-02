@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:17
+date: 2022-03-01T15:17:26
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "OXPS TO MOBI"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-mobi/"
           description: "Mobipocket eBook"
-
-        # format loop
-        - name: "OXPS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "OXPS TO ODS"

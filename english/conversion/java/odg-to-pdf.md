@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:17
+date: 2022-03-01T15:16:22
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "ODG TO OTT"
           link: "https://products.groupdocs.com/conversion/java/odg-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "ODG TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "ODG TO PNG"

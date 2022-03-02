@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:24
+date: 2022-03-01T15:16:30
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "ODP TO RTF"
           link: "https://products.groupdocs.com/conversion/java/odp-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "ODP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "ODP TO SVGZ"

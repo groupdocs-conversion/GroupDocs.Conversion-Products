@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:42
+date: 2022-03-01T15:15:44
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "MHTML TO PDF"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "MHTML TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "MHTML TO POT"

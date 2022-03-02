@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:25
+date: 2022-03-01T15:12:07
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "DWFX TO ICO"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "DWFX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DWFX TO JPEG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:12
+date: 2022-03-01T15:10:53
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "CSV TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/csv-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "CSV TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "CSV TO XLTM"

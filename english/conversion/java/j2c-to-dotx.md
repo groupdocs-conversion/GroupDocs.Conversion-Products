@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:18
+date: 2022-03-01T15:14:17
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "J2C TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/j2c-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "J2C TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "J2C TO EMF"

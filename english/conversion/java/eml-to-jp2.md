@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:58
+date: 2022-03-01T15:12:50
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "EML TO ICO"
           link: "https://products.groupdocs.com/conversion/java/eml-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "EML TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "EML TO JPEG"

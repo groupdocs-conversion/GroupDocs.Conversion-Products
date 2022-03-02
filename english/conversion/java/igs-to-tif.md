@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:16
+date: 2022-03-01T15:14:14
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "IGS TO TEX"
           link: "https://products.groupdocs.com/conversion/java/igs-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "IGS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "IGS TO TIFF"

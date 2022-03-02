@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:19
+date: 2022-03-01T15:19:40
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "SXC TO GIF"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "SXC TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "SXC TO HTML"

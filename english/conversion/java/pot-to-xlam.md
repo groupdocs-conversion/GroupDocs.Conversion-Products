@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:49
+date: 2022-03-01T15:18:00
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "POT TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/pot-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "POT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "POT TO XLS"

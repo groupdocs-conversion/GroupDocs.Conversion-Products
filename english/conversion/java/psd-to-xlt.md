@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:49
+date: 2022-03-01T15:19:05
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "PSD TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/psd-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "PSD TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "PSD TO XLTM"

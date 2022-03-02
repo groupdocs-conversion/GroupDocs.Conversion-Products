@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:25
+date: 2022-03-01T15:19:48
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "TEX TO GIF"
           link: "https://products.groupdocs.com/conversion/java/tex-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "TEX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "TEX TO HTML"

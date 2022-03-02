@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:50
+date: 2022-03-01T15:11:32
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "DOCM TO MD"
           link: "https://products.groupdocs.com/conversion/java/docm-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "DOCM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DOCM TO MHTML"

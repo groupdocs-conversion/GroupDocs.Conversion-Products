@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:14
+date: 2022-03-01T15:10:54
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "DCM TO GIF"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "DCM TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "DCM TO HTML"

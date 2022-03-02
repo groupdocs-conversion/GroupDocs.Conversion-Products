@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:58
+date: 2022-03-01T15:19:15
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "RTF TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "RTF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "RTF TO ODS"

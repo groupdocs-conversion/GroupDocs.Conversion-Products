@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:57
+date: 2022-03-01T15:14:56
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "JPF TO SXC"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "JPF TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "JPF TO TIF"

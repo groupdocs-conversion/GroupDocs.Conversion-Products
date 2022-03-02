@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:35
+date: 2022-03-01T15:17:45
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "PLT TO GIF"
           link: "https://products.groupdocs.com/conversion/java/plt-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "PLT TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "PLT TO HTML"

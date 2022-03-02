@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:19
+date: 2022-03-01T15:16:25
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "ODG TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/odg-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "ODG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "ODG TO WMZ"

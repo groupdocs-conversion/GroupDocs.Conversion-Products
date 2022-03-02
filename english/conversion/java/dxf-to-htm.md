@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:42
+date: 2022-03-01T15:12:27
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "DXF TO GIF"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "DXF TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "DXF TO HTML"

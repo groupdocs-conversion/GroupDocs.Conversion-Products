@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:46
+date: 2022-03-01T15:12:36
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "EBOOK TO PPT"
           link: "https://products.groupdocs.com/conversion/java/ebook-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "EBOOK TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "EBOOK TO WEBP"

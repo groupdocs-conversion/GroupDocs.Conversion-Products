@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:27
+date: 2022-03-01T15:16:33
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "ODS TO GIF"
           link: "https://products.groupdocs.com/conversion/java/ods-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "ODS TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/ods-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "ODS TO HTML"

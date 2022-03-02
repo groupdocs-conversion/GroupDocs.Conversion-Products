@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:58
+date: 2022-03-01T15:17:06
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "OTP TO POTM"
           link: "https://products.groupdocs.com/conversion/java/otp-to-potm/"
           description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "OTP TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "OTP TO PPS"

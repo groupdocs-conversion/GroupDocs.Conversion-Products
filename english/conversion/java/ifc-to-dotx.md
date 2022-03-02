@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:06
+date: 2022-03-01T15:14:04
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "IFC TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "IFC TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "IFC TO EMF"

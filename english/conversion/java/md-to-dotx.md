@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:29
+date: 2022-03-01T15:15:29
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "MD TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/md-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "MD TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/md-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "MD TO EMF"

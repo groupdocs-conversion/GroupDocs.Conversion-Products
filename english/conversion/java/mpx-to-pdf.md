@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:05
+date: 2022-03-01T15:16:08
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "MPX TO OTT"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "MPX TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "MPX TO PNG"

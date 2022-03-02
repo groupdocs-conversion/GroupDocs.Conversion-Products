@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:32
+date: 2022-03-01T15:17:42
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "PDF TO WMF"
           link: "https://products.groupdocs.com/conversion/java/pdf-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "PDF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PDF TO XLAM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:44
+date: 2022-03-01T15:12:30
 draft: false
 
 ############################# Head ############################
@@ -305,11 +305,6 @@ more_formats:
         # format loop
         - name: "DXF TO PPS"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DXF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

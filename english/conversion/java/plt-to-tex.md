@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:37
+date: 2022-03-01T15:17:48
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "PLT TO SXC"
           link: "https://products.groupdocs.com/conversion/java/plt-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "PLT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "PLT TO TIF"

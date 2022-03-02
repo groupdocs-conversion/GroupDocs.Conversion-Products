@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:59
+date: 2022-03-01T15:10:39
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "CGM TO SXC"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "CGM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "CGM TO TIF"

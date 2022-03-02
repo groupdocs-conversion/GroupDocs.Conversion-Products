@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:39
+date: 2022-03-01T15:18:54
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "PS TO HTML"
           link: "https://products.groupdocs.com/conversion/java/ps-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "PS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ps-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "PS TO JP2"

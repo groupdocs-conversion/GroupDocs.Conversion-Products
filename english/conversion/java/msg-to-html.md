@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:10
+date: 2022-03-01T15:16:14
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "MSG TO HTM"
           link: "https://products.groupdocs.com/conversion/java/msg-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "MSG TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "MSG TO ICO"

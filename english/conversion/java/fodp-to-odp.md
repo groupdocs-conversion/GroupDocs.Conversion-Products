@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:34
+date: 2022-03-01T15:13:29
 draft: false
 
 ############################# Head ############################
@@ -246,11 +246,6 @@ more_formats:
         - name: "FODP TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "FODP TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "FODP TO ODS"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:32
+date: 2022-03-01T15:19:55
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "TIF TO PNG"
           link: "https://products.groupdocs.com/conversion/java/tif-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "TIF TO POT"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "TIF TO POTM"

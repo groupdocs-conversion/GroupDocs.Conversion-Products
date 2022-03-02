@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:03
+date: 2022-03-01T15:10:43
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "CMX TO JPG"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "CMX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "CMX TO MHT"

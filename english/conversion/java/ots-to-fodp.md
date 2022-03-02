@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:02
+date: 2022-03-01T15:17:10
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "OTS TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/ots-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "OTS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "OTS TO FODS"

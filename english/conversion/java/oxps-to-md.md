@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:16
+date: 2022-03-01T15:17:25
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "OXPS TO JPG"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "OXPS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "OXPS TO MHT"

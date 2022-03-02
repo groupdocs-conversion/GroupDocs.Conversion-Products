@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:17
+date: 2022-03-01T15:13:11
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "EPS TO OTT"
           link: "https://products.groupdocs.com/conversion/java/eps-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "EPS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "EPS TO PNG"

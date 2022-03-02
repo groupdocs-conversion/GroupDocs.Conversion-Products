@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:35
+date: 2022-03-01T15:10:13
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "AI TO PNG"
           link: "https://products.groupdocs.com/conversion/java/ai-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "AI TO POT"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "AI TO POTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:36
+date: 2022-03-01T15:17:47
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "PLT TO POTX"
           link: "https://products.groupdocs.com/conversion/java/plt-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "PLT TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "PLT TO PPSM"

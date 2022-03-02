@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:32
+date: 2022-03-01T15:13:27
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "FODP TO BMP"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "FODP TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "FODP TO DCM"

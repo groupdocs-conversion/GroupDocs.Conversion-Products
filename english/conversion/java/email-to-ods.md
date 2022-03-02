@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:48
+date: 2022-03-01T15:12:38
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "EMAIL TO ODP"
           link: "https://products.groupdocs.com/conversion/java/email-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "EMAIL TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "EMAIL TO ODT"

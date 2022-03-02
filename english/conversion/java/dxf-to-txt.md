@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:45
+date: 2022-03-01T15:12:32
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "DXF TO TSV"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "DXF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "DXF TO WEBP"

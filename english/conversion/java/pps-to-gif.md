@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:03
+date: 2022-03-01T15:18:15
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "PPS TO FODS"
           link: "https://products.groupdocs.com/conversion/java/pps-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "PPS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PPS TO HTM"

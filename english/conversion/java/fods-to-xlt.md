@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:42
+date: 2022-03-01T15:13:38
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "FODS TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/fods-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "FODS TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "FODS TO XLTM"

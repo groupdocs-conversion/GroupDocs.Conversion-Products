@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:47
+date: 2022-03-01T15:12:37
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "EMAIL TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/email-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "EMAIL TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "EMAIL TO HTML"

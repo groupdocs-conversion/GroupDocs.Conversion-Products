@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:52
+date: 2022-03-01T15:11:33
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "DOCM TO RTF"
           link: "https://products.groupdocs.com/conversion/java/docm-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "DOCM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DOCM TO SVGZ"

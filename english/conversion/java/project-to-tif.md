@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:37
+date: 2022-03-01T15:18:52
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "PROJECT TO TEX"
           link: "https://products.groupdocs.com/conversion/java/project-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "PROJECT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/project-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "PROJECT TO TIFF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:56
+date: 2022-03-01T15:14:54
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "JPF TO OTT"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "JPF TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "JPF TO PNG"

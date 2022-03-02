@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:34
+date: 2022-03-01T15:15:35
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "MHT TO DCM"
           link: "https://products.groupdocs.com/conversion/java/mht-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "MHT TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "MHT TO DOC"

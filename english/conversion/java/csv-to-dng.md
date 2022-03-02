@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:07
+date: 2022-03-01T15:10:47
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "CSV TO DIF"
           link: "https://products.groupdocs.com/conversion/java/csv-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "CSV TO DNG"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-dng/"
-          description: "Digital Camera Image Format"
 
         # format loop
         - name: "CSV TO DOC"

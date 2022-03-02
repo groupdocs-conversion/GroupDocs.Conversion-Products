@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:36
+date: 2022-03-01T15:16:42
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "ODT TO WMF"
           link: "https://products.groupdocs.com/conversion/java/odt-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "ODT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "ODT TO XLAM"

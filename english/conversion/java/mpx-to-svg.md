@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:06
+date: 2022-03-01T15:16:09
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "MPX TO RTF"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "MPX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "MPX TO SVGZ"

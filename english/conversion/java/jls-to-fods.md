@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:30
+date: 2022-03-01T15:14:29
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "JLS TO FODP"
           link: "https://products.groupdocs.com/conversion/java/jls-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "JLS TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "JLS TO GIF"

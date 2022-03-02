@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:15
+date: 2022-03-01T15:11:57
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "DOTX TO RTF"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "DOTX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DOTX TO SVGZ"

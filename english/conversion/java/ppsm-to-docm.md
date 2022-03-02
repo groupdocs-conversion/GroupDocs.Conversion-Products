@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:08
+date: 2022-03-01T15:18:20
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "PPSM TO DOC"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "PPSM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PPSM TO DOCX"

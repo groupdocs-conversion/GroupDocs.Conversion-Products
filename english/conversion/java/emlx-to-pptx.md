@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:06
+date: 2022-03-01T15:12:59
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "EMLX TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "EMLX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "EMLX TO PSD"

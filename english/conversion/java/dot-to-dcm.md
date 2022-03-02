@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:00
+date: 2022-03-01T15:11:41
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "DOT TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dot-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "DOT TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "DOT TO DIF"

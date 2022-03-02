@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:47
+date: 2022-03-01T15:13:43
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "GIF TO SVG"
           link: "https://products.groupdocs.com/conversion/java/gif-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "GIF TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "GIF TO SXC"

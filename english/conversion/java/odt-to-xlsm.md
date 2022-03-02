@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:36
+date: 2022-03-01T15:16:43
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "ODT TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/odt-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "ODT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "ODT TO XLSX"

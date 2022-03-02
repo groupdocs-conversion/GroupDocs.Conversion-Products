@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:41
+date: 2022-03-01T15:16:49
 draft: false
 
 ############################# Head ############################
@@ -365,11 +365,6 @@ more_formats:
         # format loop
         - name: "ONE TO TIF"
           link: "https://products.groupdocs.com/conversion/java/one-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "ONE TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/one-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

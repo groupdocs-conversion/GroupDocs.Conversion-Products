@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:11
+date: 2022-03-01T15:11:52
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "DOTM TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "DOTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DOTM TO XLT"

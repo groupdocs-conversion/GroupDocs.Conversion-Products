@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:40
+date: 2022-03-01T15:11:20
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "DNG TO RTF"
           link: "https://products.groupdocs.com/conversion/java/dng-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "DNG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DNG TO SVGZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:38
+date: 2022-03-01T15:15:39
 draft: false
 
 ############################# Head ############################
@@ -366,11 +366,6 @@ more_formats:
         - name: "MHT TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/mht-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "MHT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "MHT TO TXT"

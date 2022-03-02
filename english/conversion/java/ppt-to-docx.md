@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:19
+date: 2022-03-01T15:18:33
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "PPT TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/ppt-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "PPT TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/ppt-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PPT TO DOT"

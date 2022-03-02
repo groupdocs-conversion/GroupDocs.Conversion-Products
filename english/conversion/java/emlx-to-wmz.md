@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:07
+date: 2022-03-01T15:13:01
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "EMLX TO WMF"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "EMLX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "EMLX TO XLAM"

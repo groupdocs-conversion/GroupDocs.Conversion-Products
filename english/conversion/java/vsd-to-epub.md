@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:33
+date: 2022-03-01T15:20:36
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "VSD TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "VSD TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "VSD TO FODP"

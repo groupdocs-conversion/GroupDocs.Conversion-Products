@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:02
+date: 2022-03-01T15:18:14
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "PPS TO CSV"
           link: "https://products.groupdocs.com/conversion/java/pps-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "PPS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "PPS TO DIF"

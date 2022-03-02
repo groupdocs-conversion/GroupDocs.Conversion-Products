@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:37
+date: 2022-03-01T15:15:39
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "MHT TO RTF"
           link: "https://products.groupdocs.com/conversion/java/mht-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "MHT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "MHT TO SVGZ"

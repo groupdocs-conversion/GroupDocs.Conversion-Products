@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:23
+date: 2022-03-01T15:16:29
 draft: false
 
 ############################# Head ############################
@@ -306,11 +306,6 @@ more_formats:
         - name: "ODP TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/odp-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "ODP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "ODP TO PPT"

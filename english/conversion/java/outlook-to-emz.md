@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:12
+date: 2022-03-01T15:17:21
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "OUTLOOK TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "OUTLOOK TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "OUTLOOK TO EPUB"

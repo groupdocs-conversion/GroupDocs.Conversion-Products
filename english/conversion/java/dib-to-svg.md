@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:28
+date: 2022-03-01T15:11:09
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "DIB TO RTF"
           link: "https://products.groupdocs.com/conversion/java/dib-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "DIB TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DIB TO SVGZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:03
+date: 2022-03-01T15:16:07
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "MPX TO FODS"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "MPX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "MPX TO HTM"

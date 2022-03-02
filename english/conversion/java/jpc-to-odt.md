@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:44
+date: 2022-03-01T15:14:42
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "JPC TO ODS"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "JPC TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "JPC TO OTP"

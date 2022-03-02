@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:57
+date: 2022-03-01T15:10:36
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "CGM TO GIF"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "CGM TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "CGM TO HTML"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:22
+date: 2022-03-01T15:15:23
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "MBOX TO DOC"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "MBOX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "MBOX TO DOCX"

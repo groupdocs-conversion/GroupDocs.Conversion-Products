@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:54
+date: 2022-03-01T15:19:11
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "PST TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/pst-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "PST TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "PST TO WMZ"

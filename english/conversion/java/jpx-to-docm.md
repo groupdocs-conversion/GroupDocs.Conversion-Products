@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:11
+date: 2022-03-01T15:15:11
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "JPX TO DOC"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "JPX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "JPX TO DOCX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:15
+date: 2022-03-01T15:18:28
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "PPSX TO HTM"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "PPSX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "PPSX TO ICO"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:20
+date: 2022-03-01T15:17:29
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "PCL TO BMP"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "PCL TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "PCL TO DCM"

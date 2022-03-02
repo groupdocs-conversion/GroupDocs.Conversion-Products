@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:52
+date: 2022-03-01T15:10:31
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "CF2 TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "CF2 TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "CF2 TO ODS"

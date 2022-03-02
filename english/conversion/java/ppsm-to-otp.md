@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:10
+date: 2022-03-01T15:18:22
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "PPSM TO ODT"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "PPSM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "PPSM TO OTT"

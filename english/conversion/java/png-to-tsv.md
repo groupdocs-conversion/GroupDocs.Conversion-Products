@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:43
+date: 2022-03-01T15:17:54
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "PNG TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/png-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "PNG TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/png-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "PNG TO TXT"

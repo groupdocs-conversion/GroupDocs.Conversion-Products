@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:08
+date: 2022-03-01T15:10:48
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "CSV TO FODP"
           link: "https://products.groupdocs.com/conversion/java/csv-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "CSV TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "CSV TO GIF"

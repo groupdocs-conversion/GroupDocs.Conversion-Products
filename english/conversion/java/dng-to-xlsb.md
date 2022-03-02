@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:42
+date: 2022-03-01T15:11:22
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "DNG TO XLS"
           link: "https://products.groupdocs.com/conversion/java/dng-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "DNG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DNG TO XLSM"

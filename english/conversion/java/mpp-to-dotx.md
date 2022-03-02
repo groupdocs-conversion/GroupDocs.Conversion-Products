@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:51
+date: 2022-03-01T15:15:54
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "MPP TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "MPP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "MPP TO EMF"

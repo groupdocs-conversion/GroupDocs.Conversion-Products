@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:33
+date: 2022-03-01T15:13:28
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "FODP TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "FODP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "FODP TO FODS"

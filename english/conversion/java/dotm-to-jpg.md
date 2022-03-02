@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:07
+date: 2022-03-01T15:11:49
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "DOTM TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/dotm-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "DOTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DOTM TO MD"

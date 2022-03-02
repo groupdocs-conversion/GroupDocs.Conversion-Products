@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:33
+date: 2022-03-01T15:16:39
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "ODT TO GIF"
           link: "https://products.groupdocs.com/conversion/java/odt-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "ODT TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "ODT TO HTML"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:43
+date: 2022-03-01T15:15:45
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "MHTML TO SVG"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "MHTML TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "MHTML TO SXC"

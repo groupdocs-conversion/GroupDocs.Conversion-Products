@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:33
+date: 2022-03-01T15:13:28
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "FODP TO JP2"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "FODP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "FODP TO JPG"

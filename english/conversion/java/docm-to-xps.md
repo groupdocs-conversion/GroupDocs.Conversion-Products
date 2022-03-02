@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:54
+date: 2022-03-01T15:11:35
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "DOCM TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/docm-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "DOCM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:00
+date: 2022-03-01T15:12:53
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "EML TO SVG"
           link: "https://products.groupdocs.com/conversion/java/eml-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "EML TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "EML TO SXC"

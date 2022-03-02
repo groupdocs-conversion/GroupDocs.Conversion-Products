@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:00
+date: 2022-03-01T15:11:41
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert DOT into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "DOT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "DOT TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dot-to-csv/"

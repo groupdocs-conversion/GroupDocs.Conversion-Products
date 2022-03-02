@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:56
+date: 2022-03-01T15:13:53
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "HTML TO JP2"
           link: "https://products.groupdocs.com/conversion/java/html-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "HTML TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/html-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "HTML TO JPG"

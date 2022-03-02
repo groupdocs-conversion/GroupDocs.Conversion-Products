@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:35
+date: 2022-03-01T15:11:15
 draft: false
 
 ############################# Head ############################
@@ -365,11 +365,6 @@ more_formats:
         # format loop
         - name: "DJVU TO TIF"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DJVU TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:40
+date: 2022-03-01T15:17:51
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "PNG TO FODP"
           link: "https://products.groupdocs.com/conversion/java/png-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "PNG TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/png-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "PNG TO GIF"

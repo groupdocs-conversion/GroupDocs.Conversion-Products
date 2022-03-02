@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:32
+date: 2022-03-01T15:18:47
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "PPTX TO ODS"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "PPTX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "PPTX TO OTP"

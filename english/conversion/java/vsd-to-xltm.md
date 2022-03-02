@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:48
+date: 2022-03-01T15:20:40
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "VSD TO XLT"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "VSD TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "VSD TO XLTX"

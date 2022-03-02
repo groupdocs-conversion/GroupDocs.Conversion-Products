@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:19
+date: 2022-03-01T15:19:40
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "SXC TO EMF"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "SXC TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "SXC TO EPUB"

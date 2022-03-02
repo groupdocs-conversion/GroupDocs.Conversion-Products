@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:06
+date: 2022-03-01T15:19:24
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "STL TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/stl-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "STL TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "STL TO XLSB"

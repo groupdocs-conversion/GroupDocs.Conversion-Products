@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:51
+date: 2022-03-01T15:19:07
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "PST TO GIF"
           link: "https://products.groupdocs.com/conversion/java/pst-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "PST TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "PST TO HTML"

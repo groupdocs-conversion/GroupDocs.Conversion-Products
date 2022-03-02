@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:15
+date: 2022-03-01T15:18:29
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "PPSX TO MD"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "PPSX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PPSX TO MHTML"

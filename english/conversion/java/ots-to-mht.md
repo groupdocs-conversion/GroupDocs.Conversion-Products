@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:03
+date: 2022-03-01T15:17:11
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "OTS TO MD"
           link: "https://products.groupdocs.com/conversion/java/ots-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "OTS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "OTS TO MHTML"

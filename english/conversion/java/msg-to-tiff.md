@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:13
+date: 2022-03-01T15:16:17
 draft: false
 
 ############################# Head ############################
@@ -375,11 +375,6 @@ more_formats:
         # format loop
         - name: "MSG TO TIF"
           link: "https://products.groupdocs.com/conversion/java/msg-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "MSG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

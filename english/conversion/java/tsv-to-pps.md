@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:44
+date: 2022-03-01T15:20:08
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "TSV TO POTX"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "TSV TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "TSV TO PPSM"

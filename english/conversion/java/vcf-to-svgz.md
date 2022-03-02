@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:58
+date: 2022-03-01T15:20:20
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "VCF TO SVG"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "VCF TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "VCF TO SXC"

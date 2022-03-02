@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:42
+date: 2022-03-01T15:16:50
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert ONENOTE into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "ONENOTE TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/onenote-to-pdf/"
-          description: "Portable Document"
-
 
 
 ############################# Back to top ###############################

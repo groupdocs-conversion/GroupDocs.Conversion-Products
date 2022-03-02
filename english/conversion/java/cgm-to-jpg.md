@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:57
+date: 2022-03-01T15:10:37
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "CGM TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "CGM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "CGM TO MD"

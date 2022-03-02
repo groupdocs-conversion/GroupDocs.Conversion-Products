@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:18
+date: 2022-03-01T15:12:00
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "DWF TO EMF"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "DWF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DWF TO EPUB"

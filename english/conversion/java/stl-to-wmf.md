@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:06
+date: 2022-03-01T15:19:23
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "STL TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/stl-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "STL TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "STL TO WMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:15
+date: 2022-03-01T15:13:09
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "EPS TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/eps-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "EPS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "EPS TO FODS"

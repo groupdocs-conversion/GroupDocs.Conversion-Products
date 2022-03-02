@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:17
+date: 2022-03-01T15:10:58
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "DCM TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "DCM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "DCM TO WMZ"

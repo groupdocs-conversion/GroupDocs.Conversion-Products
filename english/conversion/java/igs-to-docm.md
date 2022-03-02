@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:12
+date: 2022-03-01T15:14:10
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "IGS TO DOC"
           link: "https://products.groupdocs.com/conversion/java/igs-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "IGS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "IGS TO DOCX"

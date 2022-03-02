@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:00
+date: 2022-03-01T15:17:09
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "OTP TO XLS"
           link: "https://products.groupdocs.com/conversion/java/otp-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "OTP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "OTP TO XLSM"

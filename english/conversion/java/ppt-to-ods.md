@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:21
+date: 2022-03-01T15:18:35
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "PPT TO ODP"
           link: "https://products.groupdocs.com/conversion/java/ppt-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "PPT TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ppt-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PPT TO ODT"

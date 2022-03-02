@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:29
+date: 2022-03-01T15:11:09
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "DIB TO TXT"
           link: "https://products.groupdocs.com/conversion/java/dib-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "DIB TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "DIB TO WMF"

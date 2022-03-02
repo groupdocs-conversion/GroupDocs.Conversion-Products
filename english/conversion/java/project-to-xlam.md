@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:37
+date: 2022-03-01T15:18:52
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "PROJECT TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/project-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "PROJECT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/project-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PROJECT TO XLS"

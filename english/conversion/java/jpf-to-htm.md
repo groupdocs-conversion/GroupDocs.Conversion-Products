@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:54
+date: 2022-03-01T15:14:53
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "JPF TO GIF"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "JPF TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "JPF TO HTML"

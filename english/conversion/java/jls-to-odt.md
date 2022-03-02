@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:32
+date: 2022-03-01T15:14:30
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "JLS TO ODS"
           link: "https://products.groupdocs.com/conversion/java/jls-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "JLS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "JLS TO OTP"

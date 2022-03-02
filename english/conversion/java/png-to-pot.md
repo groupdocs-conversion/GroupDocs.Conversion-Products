@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:42
+date: 2022-03-01T15:17:52
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "PNG TO PDF"
           link: "https://products.groupdocs.com/conversion/java/png-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "PNG TO POT"
-          link: "https://products.groupdocs.com/conversion/java/png-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "PNG TO POTM"

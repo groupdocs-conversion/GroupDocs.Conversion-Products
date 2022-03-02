@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:46
+date: 2022-03-01T15:12:35
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "DXF TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "DXF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

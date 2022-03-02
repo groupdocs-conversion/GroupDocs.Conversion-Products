@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:38
+date: 2022-03-01T15:11:17
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "DNG TO EMF"
           link: "https://products.groupdocs.com/conversion/java/dng-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "DNG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DNG TO EPUB"

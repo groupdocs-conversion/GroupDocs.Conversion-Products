@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:20
+date: 2022-03-01T15:18:33
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "PPT TO EMF"
           link: "https://products.groupdocs.com/conversion/java/ppt-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "PPT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ppt-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PPT TO EPUB"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:43
+date: 2022-03-01T15:14:41
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "JPC TO FODP"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "JPC TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "JPC TO GIF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:13
+date: 2022-03-01T15:16:17
 draft: false
 
 ############################# Head ############################
@@ -366,11 +366,6 @@ more_formats:
         - name: "MSG TO SXC"
           link: "https://products.groupdocs.com/conversion/java/msg-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "MSG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "MSG TO TIF"

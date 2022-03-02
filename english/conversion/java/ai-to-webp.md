@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:37
+date: 2022-03-01T15:10:15
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "AI TO TXT"
           link: "https://products.groupdocs.com/conversion/java/ai-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "AI TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "AI TO WMF"

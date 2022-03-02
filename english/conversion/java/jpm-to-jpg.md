@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:06
+date: 2022-03-01T15:15:06
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "JPM TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "JPM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "JPM TO MD"

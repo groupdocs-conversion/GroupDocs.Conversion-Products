@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:09
+date: 2022-03-01T15:17:18
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "OTT TO PDF"
           link: "https://products.groupdocs.com/conversion/java/ott-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "OTT TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "OTT TO POT"

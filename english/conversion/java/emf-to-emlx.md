@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:51
+date: 2022-03-01T15:12:43
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "EMF TO EML"
           link: "https://products.groupdocs.com/conversion/java/emf-to-eml/"
           description: "E-Mail Message File"
-
-        # format loop
-        - name: "EMF TO EMLX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-emlx/"
-          description: "Apple Mail Message"
 
         # format loop
         - name: "EMF TO EMZ"

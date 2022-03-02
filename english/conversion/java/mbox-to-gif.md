@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:23
+date: 2022-03-01T15:15:24
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "MBOX TO FODS"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "MBOX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "MBOX TO HTM"

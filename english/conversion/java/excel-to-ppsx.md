@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:29
+date: 2022-03-01T15:13:24
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "EXCEL TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/excel-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "EXCEL TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "EXCEL TO PPT"

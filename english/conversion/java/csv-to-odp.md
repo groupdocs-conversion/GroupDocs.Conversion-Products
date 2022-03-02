@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:09
+date: 2022-03-01T15:10:49
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "CSV TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/csv-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "CSV TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "CSV TO ODS"

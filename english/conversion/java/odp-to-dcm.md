@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:20
+date: 2022-03-01T15:16:26
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "ODP TO CSV"
           link: "https://products.groupdocs.com/conversion/java/odp-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "ODP TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "ODP TO DIF"

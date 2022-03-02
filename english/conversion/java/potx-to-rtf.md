@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:00
+date: 2022-03-01T15:18:11
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "POTX TO PSD"
           link: "https://products.groupdocs.com/conversion/java/potx-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "POTX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "POTX TO SVG"

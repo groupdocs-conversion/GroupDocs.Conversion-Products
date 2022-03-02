@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:50
+date: 2022-03-01T15:11:31
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "DOCM TO ICO"
           link: "https://products.groupdocs.com/conversion/java/docm-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "DOCM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DOCM TO JPEG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:01
+date: 2022-03-01T15:20:24
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "VDW TO HTM"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "VDW TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "VDW TO ICO"

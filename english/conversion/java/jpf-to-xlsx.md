@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:58
+date: 2022-03-01T15:14:57
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "JPF TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "JPF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "JPF TO XLT"

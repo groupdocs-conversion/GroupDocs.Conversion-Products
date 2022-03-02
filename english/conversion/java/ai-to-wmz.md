@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:37
+date: 2022-03-01T15:10:15
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "AI TO WMF"
           link: "https://products.groupdocs.com/conversion/java/ai-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "AI TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "AI TO XLAM"

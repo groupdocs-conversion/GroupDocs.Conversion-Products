@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:37
+date: 2022-03-01T15:18:52
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "PROJECT TO WMF"
           link: "https://products.groupdocs.com/conversion/java/project-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "PROJECT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/project-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PROJECT TO XLAM"

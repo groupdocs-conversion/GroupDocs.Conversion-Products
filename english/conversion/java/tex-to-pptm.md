@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:27
+date: 2022-03-01T15:19:50
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "TEX TO PPT"
           link: "https://products.groupdocs.com/conversion/java/tex-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "TEX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "TEX TO PPTX"

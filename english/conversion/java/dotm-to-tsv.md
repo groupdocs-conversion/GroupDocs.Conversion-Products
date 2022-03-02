@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:10
+date: 2022-03-01T15:11:52
 draft: false
 
 ############################# Head ############################
@@ -366,11 +366,6 @@ more_formats:
         - name: "DOTM TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/dotm-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DOTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "DOTM TO TXT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:09
+date: 2022-03-01T15:20:28
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert VDX into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "VDX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "VDX TO CSV"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-csv/"

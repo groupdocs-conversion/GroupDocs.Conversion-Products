@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:00
+date: 2022-03-01T15:16:04
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "MPT TO SXC"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "MPT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "MPT TO TIF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:05
+date: 2022-03-01T15:17:14
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "OTS TO SXC"
           link: "https://products.groupdocs.com/conversion/java/ots-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "OTS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "OTS TO TIF"

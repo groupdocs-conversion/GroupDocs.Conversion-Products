@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:09
+date: 2022-03-01T15:14:06
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "IFC TO POT"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "IFC TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "IFC TO POTX"

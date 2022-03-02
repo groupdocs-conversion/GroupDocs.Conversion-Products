@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:26
+date: 2022-03-01T15:17:36
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "PDF TO CSV"
           link: "https://products.groupdocs.com/conversion/java/pdf-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "PDF TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "PDF TO DIF"

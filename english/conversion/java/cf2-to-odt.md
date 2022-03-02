@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:52
+date: 2022-03-01T15:10:31
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "CF2 TO ODS"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "CF2 TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "CF2 TO OTP"

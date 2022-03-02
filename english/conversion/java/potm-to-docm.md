@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:51
+date: 2022-03-01T15:18:02
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "POTM TO DOC"
           link: "https://products.groupdocs.com/conversion/java/potm-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "POTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "POTM TO DOCX"

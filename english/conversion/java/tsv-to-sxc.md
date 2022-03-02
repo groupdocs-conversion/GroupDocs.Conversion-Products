@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:44
+date: 2022-03-01T15:20:09
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "TSV TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "TSV TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "TSV TO TEX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:20
+date: 2022-03-01T15:16:26
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "ODP TO DIF"
           link: "https://products.groupdocs.com/conversion/java/odp-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "ODP TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "ODP TO DOCM"

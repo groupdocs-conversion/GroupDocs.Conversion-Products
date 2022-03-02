@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:02
+date: 2022-03-01T15:17:11
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "OTS TO HTML"
           link: "https://products.groupdocs.com/conversion/java/ots-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "OTS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "OTS TO JP2"

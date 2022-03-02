@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:59
+date: 2022-03-01T15:19:16
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "RTF TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "RTF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "RTF TO SVG"

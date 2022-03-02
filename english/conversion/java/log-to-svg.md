@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:20
+date: 2022-03-01T15:15:21
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "LOG TO RTF"
           link: "https://products.groupdocs.com/conversion/java/log-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "LOG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/log-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "LOG TO SVGZ"

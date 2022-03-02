@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:10
+date: 2022-03-01T15:14:08
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "IFC TO WMF"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "IFC TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "IFC TO XLAM"

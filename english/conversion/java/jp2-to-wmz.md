@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:41
+date: 2022-03-01T15:14:38
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "JP2 TO WMF"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "JP2 TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "JP2 TO XLAM"

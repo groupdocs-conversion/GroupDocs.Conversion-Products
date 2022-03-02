@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:37
+date: 2022-03-01T15:14:35
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "JP2 TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "JP2 TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "JP2 TO FODS"

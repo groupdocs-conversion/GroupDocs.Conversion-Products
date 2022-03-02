@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:05
+date: 2022-03-01T15:15:05
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "JPM TO EMF"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "JPM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "JPM TO EPUB"

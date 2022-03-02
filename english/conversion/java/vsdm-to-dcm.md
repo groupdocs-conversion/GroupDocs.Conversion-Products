@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:50
+date: 2022-03-01T15:20:40
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "VSDM TO CSV"
           link: "https://products.groupdocs.com/conversion/java/vsdm-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "VSDM TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/vsdm-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "VSDM TO DIF"

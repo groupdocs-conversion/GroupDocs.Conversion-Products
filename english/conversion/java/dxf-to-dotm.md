@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:41
+date: 2022-03-01T15:12:26
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "DXF TO DOT"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "DXF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DXF TO DOTX"

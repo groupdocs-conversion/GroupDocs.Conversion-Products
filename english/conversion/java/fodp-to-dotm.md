@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:32
+date: 2022-03-01T15:13:27
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "FODP TO DOT"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "FODP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "FODP TO DOTX"

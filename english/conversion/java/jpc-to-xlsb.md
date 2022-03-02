@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:47
+date: 2022-03-01T15:14:45
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "JPC TO XLS"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "JPC TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "JPC TO XLSM"

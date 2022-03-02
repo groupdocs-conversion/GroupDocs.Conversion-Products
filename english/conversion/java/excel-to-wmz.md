@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:31
+date: 2022-03-01T15:13:26
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "EXCEL TO WMF"
           link: "https://products.groupdocs.com/conversion/java/excel-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "EXCEL TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "EXCEL TO XLAM"

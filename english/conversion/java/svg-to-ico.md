@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:09
+date: 2022-03-01T15:19:27
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "SVG TO HTML"
           link: "https://products.groupdocs.com/conversion/java/svg-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "SVG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "SVG TO JP2"

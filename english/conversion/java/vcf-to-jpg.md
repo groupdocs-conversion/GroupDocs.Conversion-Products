@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:55
+date: 2022-03-01T15:20:18
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "VCF TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "VCF TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "VCF TO MD"

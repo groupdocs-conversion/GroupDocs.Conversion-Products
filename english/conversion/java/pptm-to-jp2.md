@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:26
+date: 2022-03-01T15:18:40
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "PPTM TO ICO"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "PPTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PPTM TO JPEG"

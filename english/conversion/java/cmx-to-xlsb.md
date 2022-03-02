@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:06
+date: 2022-03-01T15:10:46
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "CMX TO XLS"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "CMX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "CMX TO XLSM"

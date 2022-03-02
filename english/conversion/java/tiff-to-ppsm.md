@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:38
+date: 2022-03-01T15:20:02
 draft: false
 
 ############################# Head ############################
@@ -310,11 +310,6 @@ more_formats:
         # format loop
         - name: "TIFF TO PPS"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "TIFF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

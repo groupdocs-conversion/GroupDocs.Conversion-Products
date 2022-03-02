@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:16
+date: 2022-03-01T15:11:58
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "DOTX TO TSV"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "DOTX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "DOTX TO WEBP"

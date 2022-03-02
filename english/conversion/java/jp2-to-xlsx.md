@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:41
+date: 2022-03-01T15:14:39
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "JP2 TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "JP2 TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "JP2 TO XLT"

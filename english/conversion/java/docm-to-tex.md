@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:52
+date: 2022-03-01T15:11:34
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "DOCM TO SXC"
           link: "https://products.groupdocs.com/conversion/java/docm-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "DOCM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "DOCM TO TIF"

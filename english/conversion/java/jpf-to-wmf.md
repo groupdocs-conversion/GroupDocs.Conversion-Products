@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:58
+date: 2022-03-01T15:14:57
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "JPF TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "JPF TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "JPF TO WMZ"

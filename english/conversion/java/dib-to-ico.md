@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:26
+date: 2022-03-01T15:11:06
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "DIB TO HTML"
           link: "https://products.groupdocs.com/conversion/java/dib-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "DIB TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "DIB TO JP2"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:13
+date: 2022-03-01T15:17:22
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "OUTLOOK TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "OUTLOOK TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "OUTLOOK TO TEX"

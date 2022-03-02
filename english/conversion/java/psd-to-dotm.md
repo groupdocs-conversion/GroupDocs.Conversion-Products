@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:44
+date: 2022-03-01T15:19:00
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "PSD TO DOT"
           link: "https://products.groupdocs.com/conversion/java/psd-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "PSD TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "PSD TO DOTX"

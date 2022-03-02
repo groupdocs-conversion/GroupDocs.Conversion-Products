@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:35
+date: 2022-03-01T15:19:59
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "TIFF TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "TIFF TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "TIFF TO DOTM"

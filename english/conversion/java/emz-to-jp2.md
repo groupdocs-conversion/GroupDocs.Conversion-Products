@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:10
+date: 2022-03-01T15:13:04
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "EMZ TO ICO"
           link: "https://products.groupdocs.com/conversion/java/emz-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "EMZ TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "EMZ TO JPEG"

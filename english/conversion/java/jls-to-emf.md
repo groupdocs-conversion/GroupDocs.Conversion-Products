@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:30
+date: 2022-03-01T15:14:29
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "JLS TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/jls-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "JLS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "JLS TO EMZ"

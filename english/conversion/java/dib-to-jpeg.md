@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:26
+date: 2022-03-01T15:11:06
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "DIB TO JP2"
           link: "https://products.groupdocs.com/conversion/java/dib-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "DIB TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "DIB TO JPG"

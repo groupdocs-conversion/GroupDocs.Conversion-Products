@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:22
+date: 2022-03-01T15:17:32
 draft: false
 
 ############################# Head ############################
@@ -245,11 +245,6 @@ more_formats:
         # format loop
         - name: "PCL TO MHT"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "PCL TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

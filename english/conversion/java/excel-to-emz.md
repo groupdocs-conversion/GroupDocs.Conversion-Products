@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:26
+date: 2022-03-01T15:13:21
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "EXCEL TO EMF"
           link: "https://products.groupdocs.com/conversion/java/excel-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "EXCEL TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "EXCEL TO FODP"

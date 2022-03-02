@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:42
+date: 2022-03-01T15:15:44
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "MHTML TO ODS"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "MHTML TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "MHTML TO OTP"

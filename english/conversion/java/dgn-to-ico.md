@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:20
+date: 2022-03-01T15:11:00
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "DGN TO HTML"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "DGN TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "DGN TO JP2"

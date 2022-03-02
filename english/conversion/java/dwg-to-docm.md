@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:29
+date: 2022-03-01T15:12:12
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "DWG TO DOC"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "DWG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DWG TO DOCX"

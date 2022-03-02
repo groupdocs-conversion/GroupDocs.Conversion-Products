@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:18
+date: 2022-03-01T15:10:58
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "DCM TO XLS"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "DCM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DCM TO XLSM"

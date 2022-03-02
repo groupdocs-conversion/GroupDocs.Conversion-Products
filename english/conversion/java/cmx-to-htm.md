@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:03
+date: 2022-03-01T15:10:43
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "CMX TO GIF"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "CMX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "CMX TO HTML"

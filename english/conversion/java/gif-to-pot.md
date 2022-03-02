@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:46
+date: 2022-03-01T15:13:42
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "GIF TO PNG"
           link: "https://products.groupdocs.com/conversion/java/gif-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "GIF TO POT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "GIF TO POTM"

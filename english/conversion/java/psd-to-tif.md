@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:47
+date: 2022-03-01T15:19:04
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "PSD TO TEX"
           link: "https://products.groupdocs.com/conversion/java/psd-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "PSD TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "PSD TO TIFF"

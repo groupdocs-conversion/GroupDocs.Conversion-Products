@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:19
+date: 2022-03-01T15:12:01
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "DWF TO JP2"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "DWF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "DWF TO JPG"

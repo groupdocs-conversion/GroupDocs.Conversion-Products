@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:01
+date: 2022-03-01T15:13:59
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "ICO TO JP2"
           link: "https://products.groupdocs.com/conversion/java/ico-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "ICO TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "ICO TO JPG"

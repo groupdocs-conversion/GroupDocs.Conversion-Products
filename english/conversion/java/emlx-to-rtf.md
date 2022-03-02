@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:06
+date: 2022-03-01T15:13:00
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "EMLX TO PSD"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "EMLX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "EMLX TO SVG"

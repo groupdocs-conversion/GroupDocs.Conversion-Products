@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:20
+date: 2022-03-01T15:15:22
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "LOG TO TXT"
           link: "https://products.groupdocs.com/conversion/java/log-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "LOG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/log-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "LOG TO WMF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:39
+date: 2022-03-01T15:17:50
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "PNG TO DIF"
           link: "https://products.groupdocs.com/conversion/java/png-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "PNG TO DJVU"
-          link: "https://products.groupdocs.com/conversion/java/png-to-djvu/"
-          description: "Graphics File format"
 
         # format loop
         - name: "PNG TO DOC"

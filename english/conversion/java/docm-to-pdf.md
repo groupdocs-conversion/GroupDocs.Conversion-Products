@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:51
+date: 2022-03-01T15:11:32
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "DOCM TO OTT"
           link: "https://products.groupdocs.com/conversion/java/docm-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "DOCM TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "DOCM TO PNG"

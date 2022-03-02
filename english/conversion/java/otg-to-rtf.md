@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:53
+date: 2022-03-01T15:17:01
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "OTG TO PSD"
           link: "https://products.groupdocs.com/conversion/java/otg-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "OTG TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "OTG TO SVG"

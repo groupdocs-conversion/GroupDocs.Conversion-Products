@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:01
+date: 2022-03-01T15:16:04
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "MPT TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "MPT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "MPT TO TXT"

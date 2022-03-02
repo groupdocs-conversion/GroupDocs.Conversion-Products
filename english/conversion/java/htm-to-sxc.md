@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:52
+date: 2022-03-01T15:13:49
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "HTM TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/htm-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "HTM TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "HTM TO TEX"

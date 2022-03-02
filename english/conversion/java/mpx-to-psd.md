@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:06
+date: 2022-03-01T15:16:09
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "MPX TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "MPX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "MPX TO RTF"

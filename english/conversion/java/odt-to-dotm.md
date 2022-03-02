@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:32
+date: 2022-03-01T15:16:38
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "ODT TO DOT"
           link: "https://products.groupdocs.com/conversion/java/odt-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "ODT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "ODT TO DOTX"

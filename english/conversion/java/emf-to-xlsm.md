@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:55
+date: 2022-03-01T15:12:47
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "EMF TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/emf-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "EMF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "EMF TO XLSX"

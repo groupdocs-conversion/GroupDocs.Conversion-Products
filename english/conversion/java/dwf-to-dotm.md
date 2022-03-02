@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:18
+date: 2022-03-01T15:12:00
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "DWF TO DOT"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "DWF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "DWF TO DOTX"

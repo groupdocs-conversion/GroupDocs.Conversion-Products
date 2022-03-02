@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:29
+date: 2022-03-01T15:19:52
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "TIF TO BMP"
           link: "https://products.groupdocs.com/conversion/java/tif-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "TIF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "TIF TO DCM"

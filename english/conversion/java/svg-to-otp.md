@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:09
+date: 2022-03-01T15:19:28
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "SVG TO ODT"
           link: "https://products.groupdocs.com/conversion/java/svg-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "SVG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "SVG TO OTT"

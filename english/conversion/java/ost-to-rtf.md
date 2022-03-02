@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:47
+date: 2022-03-01T15:16:55
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "OST TO PSD"
           link: "https://products.groupdocs.com/conversion/java/ost-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "OST TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "OST TO SVG"

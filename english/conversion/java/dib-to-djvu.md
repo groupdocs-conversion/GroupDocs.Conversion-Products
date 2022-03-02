@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:24
+date: 2022-03-01T15:11:05
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "DIB TO DIF"
           link: "https://products.groupdocs.com/conversion/java/dib-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "DIB TO DJVU"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-djvu/"
-          description: "Graphics File format"
 
         # format loop
         - name: "DIB TO DOC"

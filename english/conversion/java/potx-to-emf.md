@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:57
+date: 2022-03-01T15:18:08
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "POTX TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/potx-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "POTX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "POTX TO EMZ"

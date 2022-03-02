@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:24
+date: 2022-03-01T15:20:33
 draft: false
 
 ############################# Head ############################
@@ -365,11 +365,6 @@ more_formats:
         # format loop
         - name: "VDX TO TIF"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "VDX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

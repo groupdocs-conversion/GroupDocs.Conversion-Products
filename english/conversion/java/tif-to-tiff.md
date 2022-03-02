@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:33
+date: 2022-03-01T15:19:57
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "TIF TO TEX"
           link: "https://products.groupdocs.com/conversion/java/tif-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "TIF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-tiff/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "TIF TO TSV"

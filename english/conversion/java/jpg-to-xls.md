@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:04
+date: 2022-03-01T15:15:03
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "JPG TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/jpg-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "JPG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "JPG TO XLSB"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:21
+date: 2022-03-01T15:20:32
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "VDX TO PPT"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "VDX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "VDX TO PPTX"

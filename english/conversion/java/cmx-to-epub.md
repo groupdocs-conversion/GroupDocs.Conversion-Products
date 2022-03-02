@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:02
+date: 2022-03-01T15:10:42
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "CMX TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "CMX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "CMX TO FODP"

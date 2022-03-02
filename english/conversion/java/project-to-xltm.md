@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:37
+date: 2022-03-01T15:18:53
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "PROJECT TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/project-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "PROJECT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/project-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PROJECT TO XLTX"

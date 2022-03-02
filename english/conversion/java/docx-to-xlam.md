@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:59
+date: 2022-03-01T15:11:40
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "DOCX TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/docx-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "DOCX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/docx-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DOCX TO XLS"

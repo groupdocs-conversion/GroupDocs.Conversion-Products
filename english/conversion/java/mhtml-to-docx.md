@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:40
+date: 2022-03-01T15:15:42
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "MHTML TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "MHTML TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "MHTML TO DOT"

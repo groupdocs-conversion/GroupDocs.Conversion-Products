@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:23
+date: 2022-03-01T15:18:36
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "PPT TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/ppt-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "PPT TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/ppt-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "PPT TO TEX"

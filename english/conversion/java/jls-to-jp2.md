@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:31
+date: 2022-03-01T15:14:29
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "JLS TO ICO"
           link: "https://products.groupdocs.com/conversion/java/jls-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "JLS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "JLS TO JPEG"

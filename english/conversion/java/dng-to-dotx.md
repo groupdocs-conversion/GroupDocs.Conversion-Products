@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:37
+date: 2022-03-01T15:11:17
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "DNG TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/dng-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "DNG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "DNG TO EMF"

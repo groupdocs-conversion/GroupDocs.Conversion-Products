@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:15
+date: 2022-03-01T15:10:56
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "DCM TO PDF"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "DCM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "DCM TO POT"

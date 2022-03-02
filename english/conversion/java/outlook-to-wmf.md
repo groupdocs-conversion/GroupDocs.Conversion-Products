@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:14
+date: 2022-03-01T15:17:23
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "OUTLOOK TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "OUTLOOK TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "OUTLOOK TO WMZ"

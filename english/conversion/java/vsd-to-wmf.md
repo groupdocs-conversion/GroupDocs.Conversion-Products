@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:45
+date: 2022-03-01T15:20:39
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "VSD TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "VSD TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "VSD TO WMZ"

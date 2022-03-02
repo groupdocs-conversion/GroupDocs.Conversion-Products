@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:51
+date: 2022-03-01T15:16:59
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "OTG TO JPG"
           link: "https://products.groupdocs.com/conversion/java/otg-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "OTG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "OTG TO MHT"

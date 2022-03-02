@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:45
+date: 2022-03-01T15:12:33
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "DXF TO WMF"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "DXF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DXF TO XLAM"

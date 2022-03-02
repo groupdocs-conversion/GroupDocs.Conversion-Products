@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:00
+date: 2022-03-01T15:12:53
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "EML TO PSD"
           link: "https://products.groupdocs.com/conversion/java/eml-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "EML TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "EML TO SVG"

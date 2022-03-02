@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:26
+date: 2022-03-01T15:15:27
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "MBOX TO TEX"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "MBOX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "MBOX TO TIFF"

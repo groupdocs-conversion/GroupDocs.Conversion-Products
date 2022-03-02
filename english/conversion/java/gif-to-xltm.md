@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:48
+date: 2022-03-01T15:13:44
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "GIF TO XLT"
           link: "https://products.groupdocs.com/conversion/java/gif-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "GIF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "GIF TO XLTX"

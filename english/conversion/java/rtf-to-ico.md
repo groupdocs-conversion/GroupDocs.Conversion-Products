@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:57
+date: 2022-03-01T15:19:14
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "RTF TO HTML"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "RTF TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "RTF TO JP2"

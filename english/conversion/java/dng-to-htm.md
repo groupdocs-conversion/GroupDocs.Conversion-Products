@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:38
+date: 2022-03-01T15:11:18
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "DNG TO GIF"
           link: "https://products.groupdocs.com/conversion/java/dng-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "DNG TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "DNG TO HTML"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:00
+date: 2022-03-01T15:14:58
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "JPG TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/jpg-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "JPG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "JPG TO EMF"

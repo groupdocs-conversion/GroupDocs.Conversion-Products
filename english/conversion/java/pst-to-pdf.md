@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:52
+date: 2022-03-01T15:19:09
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "PST TO OTT"
           link: "https://products.groupdocs.com/conversion/java/pst-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "PST TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "PST TO PNG"

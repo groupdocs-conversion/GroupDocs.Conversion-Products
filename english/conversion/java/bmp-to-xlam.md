@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:43
+date: 2022-03-01T15:10:21
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "BMP TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "BMP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "BMP TO XLS"

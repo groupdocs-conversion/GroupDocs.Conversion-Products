@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:03
+date: 2022-03-01T15:12:56
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "EMLX TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "EMLX TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "EMLX TO DOT"

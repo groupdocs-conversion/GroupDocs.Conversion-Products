@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:04
+date: 2022-03-01T15:14:01
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "ICO TO TEX"
           link: "https://products.groupdocs.com/conversion/java/ico-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "ICO TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "ICO TO TIFF"

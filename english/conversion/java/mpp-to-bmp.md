@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:50
+date: 2022-03-01T15:15:53
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert MPP into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "MPP TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "MPP TO CSV"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-csv/"

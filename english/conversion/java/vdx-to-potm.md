@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:19
+date: 2022-03-01T15:20:31
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "VDX TO POT"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "VDX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "VDX TO POTX"

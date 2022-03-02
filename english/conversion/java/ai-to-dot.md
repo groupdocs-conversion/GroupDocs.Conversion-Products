@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:32
+date: 2022-03-01T15:10:10
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "AI TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/ai-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "AI TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "AI TO DOTM"

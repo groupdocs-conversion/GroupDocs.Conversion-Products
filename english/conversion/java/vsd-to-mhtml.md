@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:37
+date: 2022-03-01T15:20:37
 draft: false
 
 ############################# Head ############################
@@ -245,11 +245,6 @@ more_formats:
         # format loop
         - name: "VSD TO MHT"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "VSD TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

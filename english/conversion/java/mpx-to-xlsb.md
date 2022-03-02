@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:07
+date: 2022-03-01T15:16:11
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "MPX TO XLS2003"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-xls2003/"
           description: "Microsoft Excel Spreadsheet"
-
-        # format loop
-        - name: "MPX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "MPX TO XLSM"

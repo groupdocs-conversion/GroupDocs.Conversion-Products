@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:51
+date: 2022-03-01T15:11:32
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "DOCM TO ODT"
           link: "https://products.groupdocs.com/conversion/java/docm-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "DOCM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "DOCM TO OTT"

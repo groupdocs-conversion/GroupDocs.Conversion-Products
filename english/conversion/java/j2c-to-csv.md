@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:18
+date: 2022-03-01T15:14:16
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "J2C TO BMP"
           link: "https://products.groupdocs.com/conversion/java/j2c-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "J2C TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "J2C TO DCM"

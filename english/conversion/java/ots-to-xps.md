@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:06
+date: 2022-03-01T15:17:15
 draft: false
 
 ############################# Head ############################
@@ -441,11 +441,6 @@ more_formats:
         - name: "OTS TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/ots-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "OTS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

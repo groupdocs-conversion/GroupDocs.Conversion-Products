@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:04
+date: 2022-03-01T15:14:02
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "ICO TO TXT"
           link: "https://products.groupdocs.com/conversion/java/ico-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "ICO TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "ICO TO WMF"

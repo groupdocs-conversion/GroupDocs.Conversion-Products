@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:34
+date: 2022-03-01T15:15:35
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "MHT TO BMP"
           link: "https://products.groupdocs.com/conversion/java/mht-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "MHT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "MHT TO DCM"

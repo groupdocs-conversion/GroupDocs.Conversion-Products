@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:14
+date: 2022-03-01T15:14:12
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "IGS TO PDF"
           link: "https://products.groupdocs.com/conversion/java/igs-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "IGS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "IGS TO POT"

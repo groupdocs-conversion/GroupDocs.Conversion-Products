@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:06
+date: 2022-03-01T15:14:03
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert IFC into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "IFC TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "IFC TO CSV"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-csv/"

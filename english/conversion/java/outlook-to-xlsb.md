@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:14
+date: 2022-03-01T15:17:23
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "OUTLOOK TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "OUTLOOK TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "OUTLOOK TO XLSM"

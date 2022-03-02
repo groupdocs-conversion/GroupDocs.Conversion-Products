@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:06
+date: 2022-03-01T15:14:04
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "IFC TO DOC"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "IFC TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "IFC TO DOCX"

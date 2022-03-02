@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:49
+date: 2022-03-01T15:19:05
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert PST into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "PST TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "PST TO CSV"
           link: "https://products.groupdocs.com/conversion/java/pst-to-csv/"

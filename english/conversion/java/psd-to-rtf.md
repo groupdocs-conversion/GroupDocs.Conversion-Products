@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:47
+date: 2022-03-01T15:19:03
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "PSD TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/psd-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "PSD TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "PSD TO SVG"

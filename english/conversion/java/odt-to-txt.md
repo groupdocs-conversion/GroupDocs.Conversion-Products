@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:35
+date: 2022-03-01T15:16:42
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "ODT TO TSV"
           link: "https://products.groupdocs.com/conversion/java/odt-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "ODT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "ODT TO WEBP"

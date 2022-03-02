@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:19
+date: 2022-03-01T15:13:13
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "EPS TO WMF"
           link: "https://products.groupdocs.com/conversion/java/eps-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "EPS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "EPS TO XLAM"

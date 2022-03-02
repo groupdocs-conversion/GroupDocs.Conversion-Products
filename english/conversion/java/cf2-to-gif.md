@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:51
+date: 2022-03-01T15:10:30
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "CF2 TO FODS"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "CF2 TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "CF2 TO HTM"

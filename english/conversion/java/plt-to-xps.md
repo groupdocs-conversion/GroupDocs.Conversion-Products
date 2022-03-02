@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:39
+date: 2022-03-01T15:17:49
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "PLT TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/plt-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "PLT TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

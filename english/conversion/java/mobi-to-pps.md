@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:48
+date: 2022-03-01T15:15:50
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "MOBI TO POTX"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "MOBI TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "MOBI TO PPSM"

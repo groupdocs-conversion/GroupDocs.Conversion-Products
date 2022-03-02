@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:55
+date: 2022-03-01T15:15:58
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "MPP TO TXT"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "MPP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "MPP TO WMF"

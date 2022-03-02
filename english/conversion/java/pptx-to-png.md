@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:33
+date: 2022-03-01T15:18:47
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "PPTX TO PDF"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "PPTX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "PPTX TO POT"

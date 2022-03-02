@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:10
+date: 2022-03-01T15:15:09
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "JPM TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "JPM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "JPM TO XLSX"

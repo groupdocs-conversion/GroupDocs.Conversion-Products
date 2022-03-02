@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:48
+date: 2022-03-01T15:10:27
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "CDR TO SVG"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "CDR TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "CDR TO SXC"

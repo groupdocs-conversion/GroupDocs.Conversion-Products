@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:47
+date: 2022-03-01T15:16:55
 draft: false
 
 ############################# Head ############################
@@ -380,11 +380,6 @@ more_formats:
         # format loop
         - name: "OST TO TIF"
           link: "https://products.groupdocs.com/conversion/java/ost-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "OST TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

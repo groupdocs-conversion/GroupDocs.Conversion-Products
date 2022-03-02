@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:49
+date: 2022-03-01T15:20:40
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert VSDM into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "VSDM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/vsdm-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "VSDM TO CSV"
           link: "https://products.groupdocs.com/conversion/java/vsdm-to-csv/"

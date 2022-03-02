@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:45
+date: 2022-03-01T15:12:33
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "DXF TO TXT"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "DXF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "DXF TO WMF"

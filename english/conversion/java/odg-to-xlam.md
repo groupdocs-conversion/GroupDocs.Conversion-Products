@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:19
+date: 2022-03-01T15:16:25
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "ODG TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/odg-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "ODG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "ODG TO XLS"

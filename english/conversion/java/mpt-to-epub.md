@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:57
+date: 2022-03-01T15:16:01
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "MPT TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "MPT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "MPT TO FODP"

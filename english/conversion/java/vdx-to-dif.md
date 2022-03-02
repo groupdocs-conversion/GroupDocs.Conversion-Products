@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:10
+date: 2022-03-01T15:20:29
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "VDX TO DCM"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "VDX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "VDX TO DOC"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:59
+date: 2022-03-01T15:20:22
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "VCF TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "VCF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

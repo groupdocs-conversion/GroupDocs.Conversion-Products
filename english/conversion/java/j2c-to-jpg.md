@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:19
+date: 2022-03-01T15:14:18
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "J2C TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/j2c-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "J2C TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "J2C TO MD"

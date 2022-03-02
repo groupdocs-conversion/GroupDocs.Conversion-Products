@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:14
+date: 2022-03-01T15:13:08
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "EMZ TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/emz-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "EMZ TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "EMZ TO XPS"

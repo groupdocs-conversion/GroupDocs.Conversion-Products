@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:56
+date: 2022-03-01T15:18:07
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "POTM TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/potm-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "POTM TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "POTM TO XLTM"

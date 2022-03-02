@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:00
+date: 2022-03-01T15:18:12
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "POTX TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/potx-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "POTX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "POTX TO TEX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:08
+date: 2022-03-01T15:19:26
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "SVG TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/svg-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "SVG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "SVG TO EMF"

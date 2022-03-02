@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:44
+date: 2022-03-01T15:13:40
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "GIF TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/gif-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "GIF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "GIF TO FODP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:13
+date: 2022-03-01T15:14:12
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "IGS TO MD"
           link: "https://products.groupdocs.com/conversion/java/igs-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "IGS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "IGS TO MHTML"

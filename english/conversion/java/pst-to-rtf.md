@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:54
+date: 2022-03-01T15:19:10
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "PST TO PSD"
           link: "https://products.groupdocs.com/conversion/java/pst-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "PST TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "PST TO SVG"

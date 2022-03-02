@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:41
+date: 2022-03-01T15:15:43
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "MHTML TO HTML"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "MHTML TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "MHTML TO JP2"

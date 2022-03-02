@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:59
+date: 2022-03-01T15:11:40
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "DOCX TO XLS"
           link: "https://products.groupdocs.com/conversion/java/docx-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "DOCX TO XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/docx-to-xls2003/"
-          description: "Microsoft Excel Spreadsheet"
 
         # format loop
         - name: "DOCX TO XLSB"

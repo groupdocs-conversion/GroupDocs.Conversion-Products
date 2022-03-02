@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:58
+date: 2022-03-01T15:17:07
 draft: false
 
 ############################# Head ############################
@@ -311,11 +311,6 @@ more_formats:
         - name: "OTP TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/otp-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "OTP TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "OTP TO PPTM"

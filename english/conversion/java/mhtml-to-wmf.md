@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:44
+date: 2022-03-01T15:15:46
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "MHTML TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "MHTML TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "MHTML TO WMZ"

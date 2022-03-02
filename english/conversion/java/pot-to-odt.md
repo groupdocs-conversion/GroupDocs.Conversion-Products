@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:47
+date: 2022-03-01T15:17:58
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "POT TO ODS"
           link: "https://products.groupdocs.com/conversion/java/pot-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "POT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "POT TO OTP"

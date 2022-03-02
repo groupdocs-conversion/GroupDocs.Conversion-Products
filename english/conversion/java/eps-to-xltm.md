@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:19
+date: 2022-03-01T15:13:14
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "EPS TO XLT"
           link: "https://products.groupdocs.com/conversion/java/eps-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "EPS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "EPS TO XLTX"

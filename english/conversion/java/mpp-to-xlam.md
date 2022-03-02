@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:55
+date: 2022-03-01T15:15:59
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "MPP TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "MPP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "MPP TO XLS"

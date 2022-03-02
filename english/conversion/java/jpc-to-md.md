@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:44
+date: 2022-03-01T15:14:42
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "JPC TO JPG"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "JPC TO MD"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "JPC TO MHT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:56
+date: 2022-03-01T15:17:04
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "OTP TO EMF"
           link: "https://products.groupdocs.com/conversion/java/otp-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "OTP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "OTP TO EPUB"

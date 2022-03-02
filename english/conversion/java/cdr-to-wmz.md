@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:48
+date: 2022-03-01T15:10:28
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "CDR TO WMF"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "CDR TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "CDR TO XLAM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:56
+date: 2022-03-01T15:17:05
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "OTP TO ICO"
           link: "https://products.groupdocs.com/conversion/java/otp-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "OTP TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "OTP TO JPEG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:35
+date: 2022-03-01T15:15:36
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "MHT TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/mht-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "MHT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "MHT TO EMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:31
+date: 2022-03-01T15:15:32
 draft: false
 
 ############################# Head ############################
@@ -311,11 +311,6 @@ more_formats:
         - name: "MD TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/md-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "MD TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/md-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "MD TO PPTM"

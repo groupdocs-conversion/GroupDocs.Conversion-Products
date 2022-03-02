@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:02
+date: 2022-03-01T15:19:19
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "STL TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/stl-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "STL TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "STL TO EMZ"

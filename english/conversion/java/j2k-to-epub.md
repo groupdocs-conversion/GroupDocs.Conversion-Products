@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:24
+date: 2022-03-01T15:14:23
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "J2K TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "J2K TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "J2K TO FODP"

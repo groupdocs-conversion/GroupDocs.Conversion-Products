@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:26
+date: 2022-03-01T15:11:06
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "DIB TO HTM"
           link: "https://products.groupdocs.com/conversion/java/dib-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "DIB TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "DIB TO ICO"

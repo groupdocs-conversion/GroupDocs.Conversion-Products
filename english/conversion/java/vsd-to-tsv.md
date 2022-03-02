@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:44
+date: 2022-03-01T15:20:39
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "VSD TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "VSD TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "VSD TO TXT"

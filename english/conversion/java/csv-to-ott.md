@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:09
+date: 2022-03-01T15:10:50
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "CSV TO OTP"
           link: "https://products.groupdocs.com/conversion/java/csv-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "CSV TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "CSV TO PDF"

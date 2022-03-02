@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:09
+date: 2022-03-01T15:18:21
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "PPSM TO FODS"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "PPSM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PPSM TO HTM"

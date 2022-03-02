@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:15
+date: 2022-03-01T15:13:10
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "EPS TO GIF"
           link: "https://products.groupdocs.com/conversion/java/eps-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "EPS TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "EPS TO HTML"

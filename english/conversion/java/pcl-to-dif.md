@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:20
+date: 2022-03-01T15:17:30
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "PCL TO DCM"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "PCL TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "PCL TO DOC"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:38
+date: 2022-03-01T15:18:54
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "PS TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/ps-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "PS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/ps-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "PS TO EMZ"

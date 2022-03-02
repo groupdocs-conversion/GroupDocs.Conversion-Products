@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:15
+date: 2022-03-01T15:17:24
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "OXPS TO DOT"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "OXPS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "OXPS TO DOTX"

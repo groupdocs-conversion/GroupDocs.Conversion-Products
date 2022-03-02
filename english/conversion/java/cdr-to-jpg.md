@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:45
+date: 2022-03-01T15:10:25
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "CDR TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "CDR TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "CDR TO MD"

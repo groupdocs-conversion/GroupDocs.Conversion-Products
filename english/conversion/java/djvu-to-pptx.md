@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:34
+date: 2022-03-01T15:11:14
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "DJVU TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "DJVU TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DJVU TO PSD"

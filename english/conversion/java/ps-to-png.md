@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:40
+date: 2022-03-01T15:18:56
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "PS TO PDF"
           link: "https://products.groupdocs.com/conversion/java/ps-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "PS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ps-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "PS TO POT"

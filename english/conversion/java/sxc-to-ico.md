@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:20
+date: 2022-03-01T15:19:40
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "SXC TO HTML"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "SXC TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "SXC TO JP2"

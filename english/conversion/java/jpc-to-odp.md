@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:44
+date: 2022-03-01T15:14:42
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "JPC TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "JPC TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "JPC TO ODS"

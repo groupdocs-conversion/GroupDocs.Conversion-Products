@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:05
+date: 2022-03-01T15:16:08
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "MPX TO PNG"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "MPX TO POT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "MPX TO POTM"

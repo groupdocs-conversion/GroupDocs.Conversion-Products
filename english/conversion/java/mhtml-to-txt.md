@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:44
+date: 2022-03-01T15:15:46
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "MHTML TO TSV"
           link: "https://products.groupdocs.com/conversion/java/mhtml-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "MHTML TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "MHTML TO WEBP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:35
+date: 2022-03-01T15:13:30
 draft: false
 
 ############################# Head ############################
@@ -300,11 +300,6 @@ more_formats:
         # format loop
         - name: "FODP TO PPS"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "FODP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

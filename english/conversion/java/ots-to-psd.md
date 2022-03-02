@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:04
+date: 2022-03-01T15:17:13
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "OTS TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/ots-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "OTS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "OTS TO RTF"

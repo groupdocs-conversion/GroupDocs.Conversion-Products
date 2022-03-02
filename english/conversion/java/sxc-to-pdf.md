@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:21
+date: 2022-03-01T15:19:42
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "SXC TO OTT"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "SXC TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "SXC TO PNG"

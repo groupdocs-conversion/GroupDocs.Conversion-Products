@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:03
+date: 2022-03-01T15:14:01
 draft: false
 
 ############################# Head ############################
@@ -311,11 +311,6 @@ more_formats:
         - name: "ICO TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/ico-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "ICO TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "ICO TO PPTM"

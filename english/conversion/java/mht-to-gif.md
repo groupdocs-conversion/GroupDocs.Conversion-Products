@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:35
+date: 2022-03-01T15:15:36
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "MHT TO FODS"
           link: "https://products.groupdocs.com/conversion/java/mht-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "MHT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "MHT TO HTM"

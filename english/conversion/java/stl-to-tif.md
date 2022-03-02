@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:05
+date: 2022-03-01T15:19:23
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "STL TO TEX"
           link: "https://products.groupdocs.com/conversion/java/stl-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "STL TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "STL TO TIFF"

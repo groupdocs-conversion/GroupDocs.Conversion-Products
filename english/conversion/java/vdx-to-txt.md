@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:24
+date: 2022-03-01T15:20:33
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "VDX TO TSV"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "VDX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "VDX TO WEBP"

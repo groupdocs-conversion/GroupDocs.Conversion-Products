@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:05
+date: 2022-03-01T15:11:46
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "DOT TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/dot-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "DOT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DOT TO XLSX"

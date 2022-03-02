@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:10
+date: 2022-03-01T15:15:10
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "JPX TO CSV"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "JPX TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "JPX TO DIF"

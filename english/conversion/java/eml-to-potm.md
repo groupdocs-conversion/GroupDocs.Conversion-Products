@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:59
+date: 2022-03-01T15:12:52
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "EML TO POT"
           link: "https://products.groupdocs.com/conversion/java/eml-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "EML TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "EML TO POTX"

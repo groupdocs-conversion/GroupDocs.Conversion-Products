@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:17
+date: 2022-03-01T15:17:26
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "OXPS TO POT"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "OXPS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "OXPS TO POTX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:44
+date: 2022-03-01T15:12:31
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "DXF TO PSD"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DXF TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "DXF TO SVG"

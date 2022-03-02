@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:47
+date: 2022-03-01T15:12:36
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "EMAIL TO CSV"
           link: "https://products.groupdocs.com/conversion/java/email-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "EMAIL TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/email-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "EMAIL TO DOCM"

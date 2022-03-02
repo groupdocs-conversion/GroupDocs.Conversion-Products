@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:57
+date: 2022-03-01T15:14:56
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "JPF TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "JPF TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "JPF TO TXT"

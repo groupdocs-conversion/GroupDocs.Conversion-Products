@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:38
+date: 2022-03-01T15:13:34
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "FODS TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/fods-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "FODS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "FODS TO GIF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:00
+date: 2022-03-01T15:17:09
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "OTS TO BMP"
           link: "https://products.groupdocs.com/conversion/java/ots-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "OTS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "OTS TO DCM"

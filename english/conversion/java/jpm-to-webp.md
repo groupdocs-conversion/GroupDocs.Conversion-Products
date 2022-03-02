@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:09
+date: 2022-03-01T15:15:09
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "JPM TO TXT"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "JPM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "JPM TO WMF"

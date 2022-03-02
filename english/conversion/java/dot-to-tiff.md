@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:04
+date: 2022-03-01T15:11:46
 draft: false
 
 ############################# Head ############################
@@ -360,11 +360,6 @@ more_formats:
         # format loop
         - name: "DOT TO TIF"
           link: "https://products.groupdocs.com/conversion/java/dot-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DOT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:46
+date: 2022-03-01T15:15:48
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "MOBI TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "MOBI TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "MOBI TO FODS"

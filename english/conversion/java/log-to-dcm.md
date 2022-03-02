@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:16
+date: 2022-03-01T15:15:16
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "LOG TO CSV"
           link: "https://products.groupdocs.com/conversion/java/log-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "LOG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "LOG TO DIF"

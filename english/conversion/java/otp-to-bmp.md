@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:55
+date: 2022-03-01T15:17:03
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert OTP into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "OTP TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "OTP TO CSV"
           link: "https://products.groupdocs.com/conversion/java/otp-to-csv/"

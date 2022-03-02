@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:35
+date: 2022-03-01T15:10:13
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "AI TO OTP"
           link: "https://products.groupdocs.com/conversion/java/ai-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "AI TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "AI TO PDF"

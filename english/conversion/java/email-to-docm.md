@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:47
+date: 2022-03-01T15:12:36
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "EMAIL TO DOC"
           link: "https://products.groupdocs.com/conversion/java/email-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "EMAIL TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "EMAIL TO DOT"

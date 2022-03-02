@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:18
+date: 2022-03-01T15:14:16
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "J2C TO DCM"
           link: "https://products.groupdocs.com/conversion/java/j2c-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "J2C TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "J2C TO DOC"

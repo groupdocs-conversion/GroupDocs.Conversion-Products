@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:12
+date: 2022-03-01T15:19:31
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "SVG TO XLT"
           link: "https://products.groupdocs.com/conversion/java/svg-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "SVG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "SVG TO XLTX"

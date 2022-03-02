@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:30
+date: 2022-03-01T15:20:35
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "VSD TO DCM"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "VSD TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "VSD TO DOC"

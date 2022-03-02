@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:03
+date: 2022-03-01T15:17:12
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "OTS TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/ots-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "OTS TO MOBI"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-mobi/"
-          description: "Mobipocket eBook"
 
         # format loop
         - name: "OTS TO ODP"

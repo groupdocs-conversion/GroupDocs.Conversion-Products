@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:15
+date: 2022-03-01T15:16:19
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "ODG TO DCM"
           link: "https://products.groupdocs.com/conversion/java/odg-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "ODG TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "ODG TO DOC"

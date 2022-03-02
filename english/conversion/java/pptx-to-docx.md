@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:30
+date: 2022-03-01T15:18:45
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "PPTX TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "PPTX TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "PPTX TO DOT"

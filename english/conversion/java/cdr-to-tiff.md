@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:48
+date: 2022-03-01T15:10:27
 draft: false
 
 ############################# Head ############################
@@ -365,11 +365,6 @@ more_formats:
         # format loop
         - name: "CDR TO TIF"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "CDR TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

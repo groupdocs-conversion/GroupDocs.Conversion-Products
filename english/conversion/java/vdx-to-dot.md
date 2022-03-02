@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:11
+date: 2022-03-01T15:20:29
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "VDX TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "VDX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "VDX TO DOTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:48
+date: 2022-03-01T15:16:55
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "OST TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/ost-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "OST TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "OST TO WMZ"

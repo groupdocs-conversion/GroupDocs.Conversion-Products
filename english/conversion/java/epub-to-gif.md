@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:21
+date: 2022-03-01T15:13:15
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "EPUB TO FODS"
           link: "https://products.groupdocs.com/conversion/java/epub-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "EPUB TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "EPUB TO HTM"

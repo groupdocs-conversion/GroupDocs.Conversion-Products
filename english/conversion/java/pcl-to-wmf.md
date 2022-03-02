@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:25
+date: 2022-03-01T15:17:35
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "PCL TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "PCL TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "PCL TO WMZ"

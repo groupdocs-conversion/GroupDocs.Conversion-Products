@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:33
+date: 2022-03-01T15:12:16
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "DWG TO TSV"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "DWG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "DWG TO WEBP"

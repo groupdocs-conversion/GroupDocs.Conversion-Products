@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:11
+date: 2022-03-01T15:15:11
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "JPX TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "JPX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "JPX TO EMZ"

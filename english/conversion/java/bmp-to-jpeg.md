@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:40
+date: 2022-03-01T15:10:18
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "BMP TO JP2"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "BMP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "BMP TO JPG"

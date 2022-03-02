@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:01
+date: 2022-03-01T15:19:18
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "STL TO BMP"
           link: "https://products.groupdocs.com/conversion/java/stl-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "STL TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "STL TO DCM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:28
+date: 2022-03-01T15:12:11
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "DWFX TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "DWFX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DWFX TO XLSB"

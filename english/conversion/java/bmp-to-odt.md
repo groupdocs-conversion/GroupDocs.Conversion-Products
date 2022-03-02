@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:40
+date: 2022-03-01T15:10:18
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "BMP TO ODS"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "BMP TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "BMP TO OTP"

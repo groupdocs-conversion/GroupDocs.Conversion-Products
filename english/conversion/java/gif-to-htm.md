@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:44
+date: 2022-03-01T15:13:40
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "GIF TO FODS"
           link: "https://products.groupdocs.com/conversion/java/gif-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "GIF TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "GIF TO HTML"

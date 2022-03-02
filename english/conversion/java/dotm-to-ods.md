@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:08
+date: 2022-03-01T15:11:49
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "DOTM TO ODP"
           link: "https://products.groupdocs.com/conversion/java/dotm-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "DOTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DOTM TO ODT"

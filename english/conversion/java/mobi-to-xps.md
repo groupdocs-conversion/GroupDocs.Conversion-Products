@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:50
+date: 2022-03-01T15:15:53
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "MOBI TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "MOBI TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:55
+date: 2022-03-01T15:18:06
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "POTM TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/potm-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "POTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "POTM TO TXT"

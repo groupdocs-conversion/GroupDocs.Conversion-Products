@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:39
+date: 2022-03-01T15:11:19
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "DNG TO ODS"
           link: "https://products.groupdocs.com/conversion/java/dng-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "DNG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "DNG TO OTP"

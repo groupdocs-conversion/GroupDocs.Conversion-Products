@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:08
+date: 2022-03-01T15:11:49
 draft: false
 
 ############################# Head ############################
@@ -240,11 +240,6 @@ more_formats:
         # format loop
         - name: "DOTM TO MHT"
           link: "https://products.groupdocs.com/conversion/java/dotm-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "DOTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

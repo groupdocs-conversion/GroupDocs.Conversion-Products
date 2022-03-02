@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:59
+date: 2022-03-01T15:19:15
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "RTF TO PNG"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "RTF TO POT"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "RTF TO POTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:35
+date: 2022-03-01T15:19:58
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "TIFF TO BMP"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "TIFF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "TIFF TO DCM"

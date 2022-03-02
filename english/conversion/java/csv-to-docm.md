@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:07
+date: 2022-03-01T15:10:48
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "CSV TO DOC"
           link: "https://products.groupdocs.com/conversion/java/csv-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "CSV TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "CSV TO DOCX"

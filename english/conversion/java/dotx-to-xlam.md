@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:16
+date: 2022-03-01T15:11:58
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "DOTX TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "DOTX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DOTX TO XLS"

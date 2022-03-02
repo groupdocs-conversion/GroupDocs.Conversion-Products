@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:07
+date: 2022-03-01T15:18:19
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "PPS TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/pps-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "PPS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

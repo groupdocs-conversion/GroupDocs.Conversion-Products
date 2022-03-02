@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:58
+date: 2022-03-01T15:16:01
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "MPT TO FODS"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "MPT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "MPT TO HTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:42
+date: 2022-03-01T15:12:27
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "DXF TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "DXF TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DXF TO MD"

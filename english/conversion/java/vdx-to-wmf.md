@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:25
+date: 2022-03-01T15:20:33
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "VDX TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "VDX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "VDX TO WMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:34
+date: 2022-03-01T15:14:32
 draft: false
 
 ############################# Head ############################
@@ -370,11 +370,6 @@ more_formats:
         # format loop
         - name: "JLS TO TIF"
           link: "https://products.groupdocs.com/conversion/java/jls-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "JLS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

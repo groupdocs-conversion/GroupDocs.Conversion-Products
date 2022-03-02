@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:24
+date: 2022-03-01T15:14:22
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "J2K TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "J2K TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "J2K TO DOT"

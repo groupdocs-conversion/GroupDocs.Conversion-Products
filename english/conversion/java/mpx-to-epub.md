@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:03
+date: 2022-03-01T15:16:06
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "MPX TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "MPX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "MPX TO FODP"

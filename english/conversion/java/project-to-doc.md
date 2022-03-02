@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:36
+date: 2022-03-01T15:18:50
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert PROJECT into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "PROJECT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/project-to-doc/"
-          description: "Microsoft Word Document"
-
         # format loop
         - name: "PROJECT TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/project-to-dotm/"

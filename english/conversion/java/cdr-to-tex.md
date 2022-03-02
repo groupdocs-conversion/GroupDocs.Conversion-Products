@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:48
+date: 2022-03-01T15:10:27
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "CDR TO SXC"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "CDR TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "CDR TO TIF"

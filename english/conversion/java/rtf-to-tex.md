@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:00
+date: 2022-03-01T15:19:17
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "RTF TO SXC"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "RTF TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "RTF TO TIF"

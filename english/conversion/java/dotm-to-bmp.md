@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:06
+date: 2022-03-01T15:11:47
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert DOTM into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "DOTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "DOTM TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dotm-to-csv/"

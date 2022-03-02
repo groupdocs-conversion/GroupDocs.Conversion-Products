@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:52
+date: 2022-03-01T15:13:49
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "HTM TO SXC"
           link: "https://products.groupdocs.com/conversion/java/htm-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "HTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "HTM TO TIF"

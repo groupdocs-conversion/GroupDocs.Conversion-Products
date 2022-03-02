@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:59
+date: 2022-03-01T15:18:10
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "POTX TO ODT"
           link: "https://products.groupdocs.com/conversion/java/potx-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "POTX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "POTX TO OTT"

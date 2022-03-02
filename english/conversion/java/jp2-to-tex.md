@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:40
+date: 2022-03-01T15:14:38
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "JP2 TO SXC"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "JP2 TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "JP2 TO TIF"

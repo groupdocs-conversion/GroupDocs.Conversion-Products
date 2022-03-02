@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:39
+date: 2022-03-01T15:20:04
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "TIFF TO WMF"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "TIFF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "TIFF TO XLAM"

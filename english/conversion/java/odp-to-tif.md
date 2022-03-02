@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:24
+date: 2022-03-01T15:16:30
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "ODP TO TEX"
           link: "https://products.groupdocs.com/conversion/java/odp-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "ODP TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "ODP TO TIFF"

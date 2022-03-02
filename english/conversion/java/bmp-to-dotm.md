@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:39
+date: 2022-03-01T15:10:17
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "BMP TO DOT"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "BMP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "BMP TO DOTX"

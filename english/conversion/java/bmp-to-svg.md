@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:42
+date: 2022-03-01T15:10:20
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "BMP TO RTF"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "BMP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "BMP TO SVGZ"

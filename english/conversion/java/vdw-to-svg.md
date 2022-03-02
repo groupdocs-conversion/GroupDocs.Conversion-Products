@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:04
+date: 2022-03-01T15:20:26
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "VDW TO RTF"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "VDW TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "VDW TO SVGZ"

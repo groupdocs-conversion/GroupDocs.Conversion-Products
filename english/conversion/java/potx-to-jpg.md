@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:58
+date: 2022-03-01T15:18:10
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "POTX TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/potx-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "POTX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "POTX TO MD"

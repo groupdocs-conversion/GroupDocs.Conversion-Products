@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:54
+date: 2022-03-01T15:14:52
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "JPF TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "JPF TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "JPF TO FODS"

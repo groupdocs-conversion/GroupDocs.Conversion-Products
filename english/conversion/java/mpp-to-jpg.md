@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:52
+date: 2022-03-01T15:15:55
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "MPP TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "MPP TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "MPP TO MD"

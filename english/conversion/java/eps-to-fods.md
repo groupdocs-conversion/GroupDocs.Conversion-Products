@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:15
+date: 2022-03-01T15:13:09
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "EPS TO FODP"
           link: "https://products.groupdocs.com/conversion/java/eps-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "EPS TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "EPS TO GIF"

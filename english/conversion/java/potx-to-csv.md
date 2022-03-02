@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:56
+date: 2022-03-01T15:18:08
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "POTX TO BMP"
           link: "https://products.groupdocs.com/conversion/java/potx-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "POTX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "POTX TO DCM"

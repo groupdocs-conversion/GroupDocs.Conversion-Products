@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:16
+date: 2022-03-01T15:19:36
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "SVGZ TO PSD"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "SVGZ TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "SVGZ TO SVG"

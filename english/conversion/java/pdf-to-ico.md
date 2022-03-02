@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:28
+date: 2022-03-01T15:17:38
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "PDF TO HTML"
           link: "https://products.groupdocs.com/conversion/java/pdf-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "PDF TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "PDF TO JP2"

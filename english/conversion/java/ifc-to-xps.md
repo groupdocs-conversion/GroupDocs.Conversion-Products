@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:11
+date: 2022-03-01T15:14:09
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "IFC TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "IFC TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

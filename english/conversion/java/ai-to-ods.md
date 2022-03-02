@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:35
+date: 2022-03-01T15:10:12
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "AI TO ODP"
           link: "https://products.groupdocs.com/conversion/java/ai-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "AI TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "AI TO ODT"

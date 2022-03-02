@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:27
+date: 2022-03-01T15:12:10
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "DWFX TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DWFX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "DWFX TO TEX"

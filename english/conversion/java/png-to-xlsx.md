@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:44
+date: 2022-03-01T15:17:55
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "PNG TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/png-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "PNG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/png-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PNG TO XLT"

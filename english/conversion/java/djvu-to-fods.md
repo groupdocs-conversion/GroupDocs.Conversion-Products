@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:32
+date: 2022-03-01T15:11:12
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "DJVU TO FODP"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "DJVU TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "DJVU TO GIF"

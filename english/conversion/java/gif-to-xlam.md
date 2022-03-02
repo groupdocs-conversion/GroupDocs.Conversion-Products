@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:47
+date: 2022-03-01T15:13:44
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "GIF TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/gif-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "GIF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "GIF TO XLS"

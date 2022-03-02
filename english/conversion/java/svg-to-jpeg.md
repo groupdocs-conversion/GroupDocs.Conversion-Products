@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:09
+date: 2022-03-01T15:19:27
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "SVG TO JP2"
           link: "https://products.groupdocs.com/conversion/java/svg-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "SVG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "SVG TO JPG"

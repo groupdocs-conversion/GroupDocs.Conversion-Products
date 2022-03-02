@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:56
+date: 2022-03-01T15:17:05
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "OTP TO FODS"
           link: "https://products.groupdocs.com/conversion/java/otp-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "OTP TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "OTP TO HTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:00
+date: 2022-03-01T15:18:12
 draft: false
 
 ############################# Head ############################
@@ -360,11 +360,6 @@ more_formats:
         # format loop
         - name: "POTX TO TIF"
           link: "https://products.groupdocs.com/conversion/java/potx-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "POTX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:30
+date: 2022-03-01T15:11:10
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "DIB TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/dib-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "DIB TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DIB TO XLSB"

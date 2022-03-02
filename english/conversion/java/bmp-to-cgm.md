@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:38
+date: 2022-03-01T15:10:16
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert BMP into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "BMP TO CGM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-cgm/"
-          description: "Computer Graphics Metafile"
-
         # format loop
         - name: "BMP TO DCM"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-dcm/"

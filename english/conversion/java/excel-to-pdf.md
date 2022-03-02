@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:28
+date: 2022-03-01T15:13:23
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "EXCEL TO OTT"
           link: "https://products.groupdocs.com/conversion/java/excel-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "EXCEL TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "EXCEL TO PNG"

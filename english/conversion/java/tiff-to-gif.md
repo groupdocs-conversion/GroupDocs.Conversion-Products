@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:36
+date: 2022-03-01T15:20:00
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "TIFF TO FODS"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "TIFF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "TIFF TO HTM"

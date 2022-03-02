@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:12
+date: 2022-03-01T15:15:12
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "JPX TO JP2"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "JPX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "JPX TO JPG"

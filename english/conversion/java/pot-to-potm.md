@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:48
+date: 2022-03-01T15:17:58
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "POT TO PNG"
           link: "https://products.groupdocs.com/conversion/java/pot-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "POT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "POT TO POTX"

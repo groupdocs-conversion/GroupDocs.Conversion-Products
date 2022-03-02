@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:24
+date: 2022-03-01T15:13:18
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "EPUB TO TEX"
           link: "https://products.groupdocs.com/conversion/java/epub-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "EPUB TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "EPUB TO TIFF"

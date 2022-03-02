@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:37
+date: 2022-03-01T15:20:37
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "VSD TO ODP"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "VSD TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "VSD TO ODT"

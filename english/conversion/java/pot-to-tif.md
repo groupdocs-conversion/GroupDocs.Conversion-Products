@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:49
+date: 2022-03-01T15:18:00
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "POT TO TEX"
           link: "https://products.groupdocs.com/conversion/java/pot-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "POT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "POT TO TIFF"

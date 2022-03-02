@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:26
+date: 2022-03-01T15:12:09
 draft: false
 
 ############################# Head ############################
@@ -306,11 +306,6 @@ more_formats:
         - name: "DWFX TO POTX"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "DWFX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DWFX TO PPSM"

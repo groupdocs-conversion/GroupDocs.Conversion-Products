@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:11
+date: 2022-03-01T15:19:31
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "SVG TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/svg-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "SVG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "SVG TO WMZ"

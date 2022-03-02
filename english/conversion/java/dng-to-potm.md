@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:40
+date: 2022-03-01T15:11:19
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "DNG TO POT"
           link: "https://products.groupdocs.com/conversion/java/dng-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "DNG TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DNG TO POTX"

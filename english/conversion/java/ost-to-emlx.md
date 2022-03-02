@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:44
+date: 2022-03-01T15:16:51
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "OST TO EML"
           link: "https://products.groupdocs.com/conversion/java/ost-to-eml/"
           description: "E-Mail Message File"
-
-        # format loop
-        - name: "OST TO EMLX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-emlx/"
-          description: "Apple Mail Message"
 
         # format loop
         - name: "OST TO EMZ"

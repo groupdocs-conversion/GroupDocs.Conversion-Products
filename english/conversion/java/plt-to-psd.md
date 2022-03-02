@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:37
+date: 2022-03-01T15:17:47
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "PLT TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/plt-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "PLT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "PLT TO RTF"

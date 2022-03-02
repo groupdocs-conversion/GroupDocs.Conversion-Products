@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:48
+date: 2022-03-01T15:13:44
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "GIF TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/gif-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "GIF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "GIF TO XLSX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:33
+date: 2022-03-01T15:17:44
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "PLT TO CSV"
           link: "https://products.groupdocs.com/conversion/java/plt-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "PLT TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "PLT TO DIF"

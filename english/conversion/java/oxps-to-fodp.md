@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:15
+date: 2022-03-01T15:17:25
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "OXPS TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "OXPS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "OXPS TO FODS"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:00
+date: 2022-03-01T15:20:23
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "VDW TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "VDW TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "VDW TO DOT"

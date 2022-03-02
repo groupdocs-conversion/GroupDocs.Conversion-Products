@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:56
+date: 2022-03-01T15:14:55
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "JPF TO POT"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "JPF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "JPF TO POTX"

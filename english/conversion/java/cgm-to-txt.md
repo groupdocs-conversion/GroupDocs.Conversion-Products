@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:00
+date: 2022-03-01T15:10:40
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "CGM TO TSV"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "CGM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "CGM TO WEBP"

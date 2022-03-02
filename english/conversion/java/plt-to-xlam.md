@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:38
+date: 2022-03-01T15:17:48
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "PLT TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/plt-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "PLT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PLT TO XLS"

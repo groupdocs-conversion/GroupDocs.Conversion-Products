@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:13
+date: 2022-03-01T15:17:22
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "OUTLOOK TO POTX"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "OUTLOOK TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "OUTLOOK TO PPT"

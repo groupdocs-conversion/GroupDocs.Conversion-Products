@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:23
+date: 2022-03-01T15:15:24
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "MBOX TO HTML"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "MBOX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "MBOX TO JP2"

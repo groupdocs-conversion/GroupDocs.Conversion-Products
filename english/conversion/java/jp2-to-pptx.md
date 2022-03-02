@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:40
+date: 2022-03-01T15:14:37
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "JP2 TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "JP2 TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "JP2 TO PSD"

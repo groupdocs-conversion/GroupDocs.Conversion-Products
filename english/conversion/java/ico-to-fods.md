@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:01
+date: 2022-03-01T15:13:58
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "ICO TO FODP"
           link: "https://products.groupdocs.com/conversion/java/ico-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "ICO TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "ICO TO GIF"

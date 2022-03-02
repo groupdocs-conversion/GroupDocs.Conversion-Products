@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:41
+date: 2022-03-01T15:13:36
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "FODS TO PSD"
           link: "https://products.groupdocs.com/conversion/java/fods-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "FODS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "FODS TO SVG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:10
+date: 2022-03-01T15:14:08
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "IFC TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "IFC TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "IFC TO WMZ"

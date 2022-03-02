@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:17
+date: 2022-03-01T15:14:15
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert IMAGE into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "IMAGE TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/image-to-ico/"
-          description: "Microsoft Icon File"
-
         # format loop
         - name: "IMAGE TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/image-to-jpeg/"

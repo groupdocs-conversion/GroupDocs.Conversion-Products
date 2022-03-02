@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:16
+date: 2022-03-01T15:19:37
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "SVGZ TO SXC"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "SVGZ TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "SVGZ TO TIF"

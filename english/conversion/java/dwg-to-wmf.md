@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:34
+date: 2022-03-01T15:12:17
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "DWG TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "DWG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "DWG TO WMZ"

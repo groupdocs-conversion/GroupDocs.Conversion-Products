@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:05
+date: 2022-03-01T15:15:04
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "JPM TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "JPM TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "JPM TO DOT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:46
+date: 2022-03-01T15:11:27
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "DOC TO PPT"
           link: "https://products.groupdocs.com/conversion/java/doc-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "DOC TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DOC TO PPTX"

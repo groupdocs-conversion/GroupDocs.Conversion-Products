@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:45
+date: 2022-03-01T15:16:53
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "OST TO MSG"
           link: "https://products.groupdocs.com/conversion/java/ost-to-msg/"
           description: "Microsoft Outlook Email Format"
-
-        # format loop
-        - name: "OST TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "OST TO ODS"

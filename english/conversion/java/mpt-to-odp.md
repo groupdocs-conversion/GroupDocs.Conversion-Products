@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:59
+date: 2022-03-01T15:16:02
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "MPT TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "MPT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "MPT TO ODS"

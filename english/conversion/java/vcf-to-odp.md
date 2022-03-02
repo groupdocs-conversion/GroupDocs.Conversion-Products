@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:56
+date: 2022-03-01T15:20:19
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "VCF TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "VCF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "VCF TO ODS"

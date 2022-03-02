@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:58
+date: 2022-03-01T15:13:55
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "HTML TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/html-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "HTML TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/html-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "HTML TO TEX"

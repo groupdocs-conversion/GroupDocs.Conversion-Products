@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:13
+date: 2022-03-01T15:14:11
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "IGS TO HTM"
           link: "https://products.groupdocs.com/conversion/java/igs-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "IGS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "IGS TO ICO"

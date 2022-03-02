@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:40
+date: 2022-03-01T15:13:35
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "FODS TO OTT"
           link: "https://products.groupdocs.com/conversion/java/fods-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "FODS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "FODS TO PNG"

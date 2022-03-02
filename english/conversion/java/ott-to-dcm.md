@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:07
+date: 2022-03-01T15:17:15
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "OTT TO CSV"
           link: "https://products.groupdocs.com/conversion/java/ott-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "OTT TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "OTT TO DIF"

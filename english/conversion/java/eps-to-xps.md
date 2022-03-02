@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:20
+date: 2022-03-01T15:13:14
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "EPS TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/eps-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "EPS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

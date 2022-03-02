@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:00
+date: 2022-03-01T15:19:17
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "RTF TO SVG"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "RTF TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "RTF TO SXC"

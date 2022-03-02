@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:48
+date: 2022-03-01T15:13:45
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "HTM TO CSV"
           link: "https://products.groupdocs.com/conversion/java/htm-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "HTM TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "HTM TO DIF"

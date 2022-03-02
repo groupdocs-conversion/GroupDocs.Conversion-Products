@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:27
+date: 2022-03-01T15:18:40
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "PPTM TO ODP"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "PPTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PPTM TO ODT"

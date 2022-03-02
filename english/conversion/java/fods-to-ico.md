@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:39
+date: 2022-03-01T15:13:34
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "FODS TO HTML"
           link: "https://products.groupdocs.com/conversion/java/fods-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "FODS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "FODS TO JP2"

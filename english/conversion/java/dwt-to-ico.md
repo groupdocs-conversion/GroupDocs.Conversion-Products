@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:36
+date: 2022-03-01T15:12:19
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "DWT TO HTML"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "DWT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "DWT TO JP2"

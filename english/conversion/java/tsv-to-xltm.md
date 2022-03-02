@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:46
+date: 2022-03-01T15:20:10
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "TSV TO XLT"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "TSV TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "TSV TO XLTX"

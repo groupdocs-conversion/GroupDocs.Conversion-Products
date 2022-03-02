@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:22
+date: 2022-03-01T15:19:44
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "SXC TO WMF"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "SXC TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "SXC TO XLAM"

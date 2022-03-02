@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:01
+date: 2022-03-01T15:10:41
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "CMX TO BMP"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "CMX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "CMX TO DCM"

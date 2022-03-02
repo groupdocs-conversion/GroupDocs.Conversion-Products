@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:10
+date: 2022-03-01T15:10:50
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "CSV TO POTX"
           link: "https://products.groupdocs.com/conversion/java/csv-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "CSV TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "CSV TO PPSM"

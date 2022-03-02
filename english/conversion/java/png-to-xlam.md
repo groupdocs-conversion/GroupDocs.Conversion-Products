@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:44
+date: 2022-03-01T15:17:55
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "PNG TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/png-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "PNG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/png-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PNG TO XLS"

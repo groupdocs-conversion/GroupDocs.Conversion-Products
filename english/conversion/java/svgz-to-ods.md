@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:15
+date: 2022-03-01T15:19:35
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "SVGZ TO ODP"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "SVGZ TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "SVGZ TO ODT"

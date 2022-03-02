@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:54
+date: 2022-03-01T15:10:34
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "CF2 TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "CF2 TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "CF2 TO XLSB"

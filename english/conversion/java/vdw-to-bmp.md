@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:59
+date: 2022-03-01T15:20:22
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert VDW into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "VDW TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "VDW TO CSV"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-csv/"

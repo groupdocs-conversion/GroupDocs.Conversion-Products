@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:57
+date: 2022-03-01T15:11:38
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "DOCX TO OTP"
           link: "https://products.groupdocs.com/conversion/java/docx-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "DOCX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/docx-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "DOCX TO PDF"

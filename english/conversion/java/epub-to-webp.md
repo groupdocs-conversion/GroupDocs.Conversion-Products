@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:24
+date: 2022-03-01T15:13:19
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "EPUB TO TXT"
           link: "https://products.groupdocs.com/conversion/java/epub-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "EPUB TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "EPUB TO WMF"

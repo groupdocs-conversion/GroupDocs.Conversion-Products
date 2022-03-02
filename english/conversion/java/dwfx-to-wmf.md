@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:28
+date: 2022-03-01T15:12:10
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "DWFX TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "DWFX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "DWFX TO WMZ"

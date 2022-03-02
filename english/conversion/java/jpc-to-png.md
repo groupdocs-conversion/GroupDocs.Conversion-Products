@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:45
+date: 2022-03-01T15:14:42
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "JPC TO PDF"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "JPC TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "JPC TO POT"

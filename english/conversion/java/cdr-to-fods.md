@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:45
+date: 2022-03-01T15:10:24
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "CDR TO FODP"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "CDR TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "CDR TO GIF"

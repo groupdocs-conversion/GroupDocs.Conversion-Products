@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:57
+date: 2022-03-01T15:18:09
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "POTX TO FODP"
           link: "https://products.groupdocs.com/conversion/java/potx-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "POTX TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "POTX TO GIF"

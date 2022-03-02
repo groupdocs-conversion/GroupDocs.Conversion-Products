@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:13
+date: 2022-03-01T15:20:29
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "VDX TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "VDX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "VDX TO FODP"

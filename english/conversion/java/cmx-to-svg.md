@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:05
+date: 2022-03-01T15:10:45
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "CMX TO RTF"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "CMX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "CMX TO SVGZ"

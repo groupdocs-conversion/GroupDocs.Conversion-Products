@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:50
+date: 2022-03-01T15:19:07
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "PST TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/pst-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "PST TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "PST TO FODS"

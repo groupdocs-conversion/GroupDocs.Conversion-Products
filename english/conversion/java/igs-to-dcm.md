@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:11
+date: 2022-03-01T15:14:09
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "IGS TO CSV"
           link: "https://products.groupdocs.com/conversion/java/igs-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "IGS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "IGS TO DIF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:36
+date: 2022-03-01T15:20:36
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "VSD TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "VSD TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "VSD TO MD"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:01
+date: 2022-03-01T15:16:04
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "MPT TO TEX"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "MPT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "MPT TO TIFF"

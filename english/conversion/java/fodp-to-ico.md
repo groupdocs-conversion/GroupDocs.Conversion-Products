@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:33
+date: 2022-03-01T15:13:28
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "FODP TO HTML"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "FODP TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "FODP TO JP2"

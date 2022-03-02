@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:52
+date: 2022-03-01T15:20:16
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "VCF TO BMP"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "VCF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "VCF TO DCM"

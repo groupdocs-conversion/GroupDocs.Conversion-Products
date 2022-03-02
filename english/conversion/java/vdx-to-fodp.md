@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:13
+date: 2022-03-01T15:20:29
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "VDX TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "VDX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "VDX TO FODS"

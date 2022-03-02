@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:43
+date: 2022-03-01T15:14:41
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "JPC TO HTM"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "JPC TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "JPC TO ICO"

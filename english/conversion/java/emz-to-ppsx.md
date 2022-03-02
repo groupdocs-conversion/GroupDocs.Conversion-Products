@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:12
+date: 2022-03-01T15:13:05
 draft: false
 
 ############################# Head ############################
@@ -306,11 +306,6 @@ more_formats:
         - name: "EMZ TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/emz-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "EMZ TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "EMZ TO PPT"

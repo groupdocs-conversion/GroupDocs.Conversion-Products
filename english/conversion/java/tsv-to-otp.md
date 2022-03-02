@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:43
+date: 2022-03-01T15:20:07
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "TSV TO ODT"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "TSV TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "TSV TO OTT"

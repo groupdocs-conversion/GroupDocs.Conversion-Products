@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:51
+date: 2022-03-01T15:11:33
 draft: false
 
 ############################# Head ############################
@@ -300,11 +300,6 @@ more_formats:
         # format loop
         - name: "DOCM TO PPS"
           link: "https://products.groupdocs.com/conversion/java/docm-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DOCM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

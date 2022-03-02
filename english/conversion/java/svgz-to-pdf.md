@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:15
+date: 2022-03-01T15:19:35
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "SVGZ TO OTT"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "SVGZ TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "SVGZ TO PNG"

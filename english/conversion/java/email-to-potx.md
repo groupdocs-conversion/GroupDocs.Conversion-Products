@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:48
+date: 2022-03-01T15:12:39
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "EMAIL TO POTM"
           link: "https://products.groupdocs.com/conversion/java/email-to-potm/"
           description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "EMAIL TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "EMAIL TO PPS"

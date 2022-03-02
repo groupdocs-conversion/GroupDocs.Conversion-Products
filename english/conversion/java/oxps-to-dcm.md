@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:14
+date: 2022-03-01T15:17:23
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "OXPS TO CSV"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "OXPS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "OXPS TO DIF"

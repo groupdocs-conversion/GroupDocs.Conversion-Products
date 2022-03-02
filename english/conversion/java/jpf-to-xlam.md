@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:58
+date: 2022-03-01T15:14:57
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "JPF TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "JPF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "JPF TO XLS"

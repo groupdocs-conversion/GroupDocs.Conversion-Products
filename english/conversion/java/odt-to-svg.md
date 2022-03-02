@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:35
+date: 2022-03-01T15:16:41
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "ODT TO RTF"
           link: "https://products.groupdocs.com/conversion/java/odt-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "ODT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "ODT TO SVGZ"

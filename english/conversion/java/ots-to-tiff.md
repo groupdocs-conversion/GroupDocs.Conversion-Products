@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:05
+date: 2022-03-01T15:17:14
 draft: false
 
 ############################# Head ############################
@@ -370,11 +370,6 @@ more_formats:
         # format loop
         - name: "OTS TO TIF"
           link: "https://products.groupdocs.com/conversion/java/ots-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "OTS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

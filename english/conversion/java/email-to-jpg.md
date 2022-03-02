@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:48
+date: 2022-03-01T15:12:38
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "EMAIL TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/email-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "EMAIL TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/email-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "EMAIL TO MHT"

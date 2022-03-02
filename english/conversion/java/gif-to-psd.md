@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:46
+date: 2022-03-01T15:13:42
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "GIF TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/gif-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "GIF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "GIF TO RTF"

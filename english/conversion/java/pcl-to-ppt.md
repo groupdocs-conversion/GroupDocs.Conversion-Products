@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:24
+date: 2022-03-01T15:17:33
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "PCL TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "PCL TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "PCL TO PPTM"

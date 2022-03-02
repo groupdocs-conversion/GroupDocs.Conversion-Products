@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:56
+date: 2022-03-01T15:20:42
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "VSDM TO JP2"
           link: "https://products.groupdocs.com/conversion/java/vsdm-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "VSDM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/vsdm-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "VSDM TO JPG"

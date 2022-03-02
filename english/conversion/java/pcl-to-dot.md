@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:21
+date: 2022-03-01T15:17:30
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "PCL TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "PCL TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PCL TO DOTM"

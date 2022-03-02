@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:05
+date: 2022-03-01T15:18:16
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "PPS TO OTT"
           link: "https://products.groupdocs.com/conversion/java/pps-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "PPS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "PPS TO PNG"

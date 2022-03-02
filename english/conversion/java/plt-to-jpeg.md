@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:35
+date: 2022-03-01T15:17:45
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "PLT TO JP2"
           link: "https://products.groupdocs.com/conversion/java/plt-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "PLT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "PLT TO JPG"

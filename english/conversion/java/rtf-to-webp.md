@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:00
+date: 2022-03-01T15:19:17
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "RTF TO TXT"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "RTF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "RTF TO WMF"

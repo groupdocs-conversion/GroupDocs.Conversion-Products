@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:21
+date: 2022-03-01T15:19:42
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "SXC TO POT"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "SXC TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "SXC TO POTX"

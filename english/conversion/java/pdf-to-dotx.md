@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:27
+date: 2022-03-01T15:17:37
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "PDF TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/pdf-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "PDF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "PDF TO EMF"

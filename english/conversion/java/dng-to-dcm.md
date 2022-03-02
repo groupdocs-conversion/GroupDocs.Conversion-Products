@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:37
+date: 2022-03-01T15:11:16
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "DNG TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dng-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "DNG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "DNG TO DIF"

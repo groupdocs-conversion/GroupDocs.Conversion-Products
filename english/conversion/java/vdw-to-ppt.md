@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:04
+date: 2022-03-01T15:20:26
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "VDW TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "VDW TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "VDW TO PPTM"

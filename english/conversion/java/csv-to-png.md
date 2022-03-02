@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:10
+date: 2022-03-01T15:10:50
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "CSV TO PDF"
           link: "https://products.groupdocs.com/conversion/java/csv-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "CSV TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "CSV TO POT"

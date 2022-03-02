@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:55
+date: 2022-03-01T15:10:35
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "CGM TO BMP"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "CGM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "CGM TO DCM"

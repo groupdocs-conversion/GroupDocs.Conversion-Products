@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:00
+date: 2022-03-01T15:20:22
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "VDW TO CSV"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "VDW TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "VDW TO DIF"

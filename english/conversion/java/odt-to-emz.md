@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:32
+date: 2022-03-01T15:16:38
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "ODT TO EMF"
           link: "https://products.groupdocs.com/conversion/java/odt-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "ODT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "ODT TO EPUB"

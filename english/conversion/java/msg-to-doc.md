@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:09
+date: 2022-03-01T15:16:12
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "MSG TO DIF"
           link: "https://products.groupdocs.com/conversion/java/msg-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "MSG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "MSG TO DOCM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:39
+date: 2022-03-01T15:10:17
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "BMP TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "BMP TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "BMP TO EMZ"

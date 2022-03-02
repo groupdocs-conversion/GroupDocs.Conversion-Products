@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:42
+date: 2022-03-01T15:13:38
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "FODS TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/fods-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "FODS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "FODS TO XLS"

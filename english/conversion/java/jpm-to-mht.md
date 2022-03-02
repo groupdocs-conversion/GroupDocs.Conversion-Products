@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:07
+date: 2022-03-01T15:15:06
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "JPM TO MD"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "JPM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "JPM TO MHTML"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:12
+date: 2022-03-01T15:16:16
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "MSG TO RTF"
           link: "https://products.groupdocs.com/conversion/java/msg-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "MSG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "MSG TO SVGZ"

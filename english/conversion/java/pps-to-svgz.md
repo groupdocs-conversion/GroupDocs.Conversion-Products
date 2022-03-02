@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:06
+date: 2022-03-01T15:18:18
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "PPS TO SVG"
           link: "https://products.groupdocs.com/conversion/java/pps-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "PPS TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "PPS TO SXC"

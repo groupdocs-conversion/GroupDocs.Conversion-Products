@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:16
+date: 2022-03-01T15:19:35
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "SVGZ TO POTX"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "SVGZ TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "SVGZ TO PPSM"

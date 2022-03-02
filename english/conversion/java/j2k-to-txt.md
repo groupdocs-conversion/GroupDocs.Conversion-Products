@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:28
+date: 2022-03-01T15:14:26
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "J2K TO TSV"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "J2K TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "J2K TO WEBP"

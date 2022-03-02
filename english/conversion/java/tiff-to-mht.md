@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:37
+date: 2022-03-01T15:20:01
 draft: false
 
 ############################# Head ############################
@@ -246,11 +246,6 @@ more_formats:
         - name: "TIFF TO MD"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "TIFF TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "TIFF TO MHTML"

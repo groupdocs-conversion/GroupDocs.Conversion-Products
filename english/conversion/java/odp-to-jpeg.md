@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:22
+date: 2022-03-01T15:16:28
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "ODP TO JP2"
           link: "https://products.groupdocs.com/conversion/java/odp-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "ODP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "ODP TO JPG"

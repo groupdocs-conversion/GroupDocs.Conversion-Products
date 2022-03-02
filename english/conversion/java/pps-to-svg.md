@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:06
+date: 2022-03-01T15:18:17
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "PPS TO RTF"
           link: "https://products.groupdocs.com/conversion/java/pps-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "PPS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PPS TO SVGZ"

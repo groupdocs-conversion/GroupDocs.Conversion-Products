@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:27
+date: 2022-03-01T15:14:25
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "J2K TO RTF"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "J2K TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "J2K TO SVGZ"

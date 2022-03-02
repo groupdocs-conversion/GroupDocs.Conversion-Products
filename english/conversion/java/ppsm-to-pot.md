@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:10
+date: 2022-03-01T15:18:23
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "PPSM TO PNG"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "PPSM TO POT"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "PPSM TO POTM"

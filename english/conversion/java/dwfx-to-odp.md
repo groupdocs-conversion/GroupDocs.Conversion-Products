@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:25
+date: 2022-03-01T15:12:08
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "DWFX TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "DWFX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DWFX TO ODS"

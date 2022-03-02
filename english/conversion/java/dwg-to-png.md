@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:32
+date: 2022-03-01T15:12:14
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "DWG TO PDF"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "DWG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "DWG TO POT"

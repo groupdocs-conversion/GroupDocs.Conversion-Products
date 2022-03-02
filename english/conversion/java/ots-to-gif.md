@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:02
+date: 2022-03-01T15:17:11
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "OTS TO FODS"
           link: "https://products.groupdocs.com/conversion/java/ots-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "OTS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "OTS TO HTM"

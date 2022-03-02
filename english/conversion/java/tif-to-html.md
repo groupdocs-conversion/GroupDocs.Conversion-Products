@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:31
+date: 2022-03-01T15:19:54
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "TIF TO HTM"
           link: "https://products.groupdocs.com/conversion/java/tif-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "TIF TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "TIF TO ICO"

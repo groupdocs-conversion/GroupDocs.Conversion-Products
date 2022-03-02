@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:03
+date: 2022-03-01T15:20:25
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "VDW TO OTT"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "VDW TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "VDW TO PNG"

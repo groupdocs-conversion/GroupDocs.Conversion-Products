@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:22
+date: 2022-03-01T15:19:44
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "SXC TO SVG"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "SXC TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "SXC TO TEX"

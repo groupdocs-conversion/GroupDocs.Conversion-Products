@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:45
+date: 2022-03-01T15:17:56
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "POT TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/pot-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "POT TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "POT TO DOTM"

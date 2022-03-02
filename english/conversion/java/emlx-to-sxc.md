@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:07
+date: 2022-03-01T15:13:00
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "EMLX TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "EMLX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "EMLX TO TEX"

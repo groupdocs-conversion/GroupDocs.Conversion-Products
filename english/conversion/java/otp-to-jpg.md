@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:57
+date: 2022-03-01T15:17:05
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "OTP TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/otp-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "OTP TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "OTP TO MD"

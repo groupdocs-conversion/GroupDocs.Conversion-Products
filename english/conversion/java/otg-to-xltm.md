@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:54
+date: 2022-03-01T15:17:03
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "OTG TO XLT"
           link: "https://products.groupdocs.com/conversion/java/otg-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "OTG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "OTG TO XLTX"

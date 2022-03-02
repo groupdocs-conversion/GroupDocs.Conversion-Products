@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:01
+date: 2022-03-01T15:10:40
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "CGM TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "CGM TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "CGM TO XLTM"

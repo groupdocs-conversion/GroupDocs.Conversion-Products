@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:33
+date: 2022-03-01T15:15:34
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "MD TO XLS"
           link: "https://products.groupdocs.com/conversion/java/md-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "MD TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/md-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "MD TO XLSM"

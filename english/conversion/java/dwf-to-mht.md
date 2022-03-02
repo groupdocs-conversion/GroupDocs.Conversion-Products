@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:19
+date: 2022-03-01T15:12:01
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "DWF TO MD"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "DWF TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DWF TO MHTML"

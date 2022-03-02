@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:33
+date: 2022-03-01T15:10:11
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "AI TO EMF"
           link: "https://products.groupdocs.com/conversion/java/ai-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "AI TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "AI TO EPUB"

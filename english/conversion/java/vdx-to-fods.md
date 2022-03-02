@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:13
+date: 2022-03-01T15:20:30
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "VDX TO FODP"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "VDX TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "VDX TO GIF"

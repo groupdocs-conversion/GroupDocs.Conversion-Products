@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:33
+date: 2022-03-01T15:14:31
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "JLS TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/jls-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "JLS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "JLS TO PSD"

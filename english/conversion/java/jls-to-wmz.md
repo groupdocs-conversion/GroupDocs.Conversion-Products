@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:34
+date: 2022-03-01T15:14:33
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "JLS TO WMF"
           link: "https://products.groupdocs.com/conversion/java/jls-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "JLS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "JLS TO XLAM"

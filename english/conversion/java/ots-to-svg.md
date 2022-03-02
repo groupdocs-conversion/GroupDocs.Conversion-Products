@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:04
+date: 2022-03-01T15:17:13
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "OTS TO RTF"
           link: "https://products.groupdocs.com/conversion/java/ots-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "OTS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "OTS TO SVGZ"

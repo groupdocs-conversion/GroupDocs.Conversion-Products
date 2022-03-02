@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:18
+date: 2022-03-01T15:19:39
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "SXC TO DOC"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "SXC TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "SXC TO DOCX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:34
+date: 2022-03-01T15:17:44
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "PLT TO DIF"
           link: "https://products.groupdocs.com/conversion/java/plt-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "PLT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "PLT TO DOCM"

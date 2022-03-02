@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:50
+date: 2022-03-01T15:18:01
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "POT TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/pot-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "POT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "POT TO XLT"

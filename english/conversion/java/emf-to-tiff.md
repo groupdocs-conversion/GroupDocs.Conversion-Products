@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:55
+date: 2022-03-01T15:12:47
 draft: false
 
 ############################# Head ############################
@@ -370,11 +370,6 @@ more_formats:
         # format loop
         - name: "EMF TO TIF"
           link: "https://products.groupdocs.com/conversion/java/emf-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "EMF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

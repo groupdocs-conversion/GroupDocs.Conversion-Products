@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:40
+date: 2022-03-01T15:16:48
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "ONE TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/one-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "ONE TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/one-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "ONE TO PSD"

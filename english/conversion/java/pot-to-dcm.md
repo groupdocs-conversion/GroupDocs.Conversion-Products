@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:45
+date: 2022-03-01T15:17:56
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "POT TO CSV"
           link: "https://products.groupdocs.com/conversion/java/pot-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "POT TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "POT TO DIF"

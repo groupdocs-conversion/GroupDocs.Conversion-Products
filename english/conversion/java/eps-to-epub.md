@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:15
+date: 2022-03-01T15:13:09
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "EPS TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/eps-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "EPS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "EPS TO FODP"

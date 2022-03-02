@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:12
+date: 2022-03-01T15:18:25
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "PPSM TO TSV"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "PPSM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "PPSM TO WEBP"

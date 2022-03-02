@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:19
+date: 2022-03-01T15:17:28
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "OXPS TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "OXPS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "OXPS TO TXT"

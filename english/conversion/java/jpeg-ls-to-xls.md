@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:48
+date: 2022-03-01T15:14:46
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "JPEG-LS TO RTF"
           link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "JPEG-LS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "JPEG-LS TO XLS2003"

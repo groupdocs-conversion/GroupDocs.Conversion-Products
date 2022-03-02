@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:37
+date: 2022-03-01T15:20:01
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "TIFF TO OTP"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "TIFF TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "TIFF TO PDF"

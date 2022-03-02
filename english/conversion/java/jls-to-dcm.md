@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:29
+date: 2022-03-01T15:14:28
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "JLS TO CSV"
           link: "https://products.groupdocs.com/conversion/java/jls-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "JLS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "JLS TO DIF"

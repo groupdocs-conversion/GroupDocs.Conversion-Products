@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:25
+date: 2022-03-01T15:11:06
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "DIB TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/dib-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "DIB TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "DIB TO FODP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:17
+date: 2022-03-01T15:11:59
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "DWF TO BMP"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "DWF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "DWF TO DCM"

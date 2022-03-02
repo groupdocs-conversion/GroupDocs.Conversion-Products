@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:37
+date: 2022-03-01T15:15:39
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "MHT TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/mht-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "MHT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "MHT TO RTF"

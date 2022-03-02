@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:07
+date: 2022-03-01T15:17:16
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "OTT TO DCM"
           link: "https://products.groupdocs.com/conversion/java/ott-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "OTT TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "OTT TO DOC"

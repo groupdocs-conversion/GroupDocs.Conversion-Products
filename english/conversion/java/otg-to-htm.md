@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:50
+date: 2022-03-01T15:16:58
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "OTG TO GIF"
           link: "https://products.groupdocs.com/conversion/java/otg-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "OTG TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "OTG TO HTML"

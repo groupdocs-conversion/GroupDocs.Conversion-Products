@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:21
+date: 2022-03-01T15:15:22
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "LOG TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/log-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "LOG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/log-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "LOG TO WMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:54
+date: 2022-03-01T15:19:11
 draft: false
 
 ############################# Head ############################
@@ -390,11 +390,6 @@ more_formats:
         # format loop
         - name: "PST TO TIF"
           link: "https://products.groupdocs.com/conversion/java/pst-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "PST TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

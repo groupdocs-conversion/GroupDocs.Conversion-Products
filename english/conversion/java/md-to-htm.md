@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:29
+date: 2022-03-01T15:15:30
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "MD TO GIF"
           link: "https://products.groupdocs.com/conversion/java/md-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "MD TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "MD TO HTML"

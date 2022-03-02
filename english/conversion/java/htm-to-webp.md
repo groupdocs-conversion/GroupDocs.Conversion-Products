@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:53
+date: 2022-03-01T15:13:50
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "HTM TO TXT"
           link: "https://products.groupdocs.com/conversion/java/htm-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "HTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "HTM TO WMF"

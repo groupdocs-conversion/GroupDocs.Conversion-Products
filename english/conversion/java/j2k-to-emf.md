@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:24
+date: 2022-03-01T15:14:22
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "J2K TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "J2K TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "J2K TO EMZ"

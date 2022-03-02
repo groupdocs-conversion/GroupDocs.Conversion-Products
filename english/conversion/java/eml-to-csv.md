@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:56
+date: 2022-03-01T15:12:48
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "EML TO BMP"
           link: "https://products.groupdocs.com/conversion/java/eml-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "EML TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "EML TO DCM"

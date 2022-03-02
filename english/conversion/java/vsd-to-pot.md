@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:39
+date: 2022-03-01T15:20:37
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "VSD TO PNG"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "VSD TO POT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "VSD TO POTM"

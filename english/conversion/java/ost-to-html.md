@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:44
+date: 2022-03-01T15:16:52
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "OST TO HTM"
           link: "https://products.groupdocs.com/conversion/java/ost-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "OST TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "OST TO ICO"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:14
+date: 2022-03-01T15:18:28
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "PPSX TO EMF"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "PPSX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "PPSX TO EPUB"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:37
+date: 2022-03-01T15:16:44
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "ONE TO DOC"
           link: "https://products.groupdocs.com/conversion/java/one-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "ONE TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/one-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "ONE TO DOCX"

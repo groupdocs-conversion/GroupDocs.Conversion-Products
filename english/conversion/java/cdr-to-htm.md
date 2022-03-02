@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:45
+date: 2022-03-01T15:10:24
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "CDR TO GIF"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "CDR TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "CDR TO HTML"

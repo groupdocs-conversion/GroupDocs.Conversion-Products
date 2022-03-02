@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:56
+date: 2022-03-01T15:11:37
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "DOCX TO JP2"
           link: "https://products.groupdocs.com/conversion/java/docx-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "DOCX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/docx-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "DOCX TO JPG"

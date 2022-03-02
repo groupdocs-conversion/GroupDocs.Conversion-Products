@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:17
+date: 2022-03-01T15:14:15
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "IMAGE TO PDF"
           link: "https://products.groupdocs.com/conversion/java/image-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "IMAGE TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/image-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "IMAGE TO XLSB"

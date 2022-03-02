@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:46
+date: 2022-03-01T15:19:02
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "PSD TO ODT"
           link: "https://products.groupdocs.com/conversion/java/psd-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "PSD TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "PSD TO OTT"

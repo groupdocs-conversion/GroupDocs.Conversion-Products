@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:36
+date: 2022-03-01T15:15:38
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "MHT TO OTT"
           link: "https://products.groupdocs.com/conversion/java/mht-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "MHT TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "MHT TO PNG"

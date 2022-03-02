@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:06
+date: 2022-03-01T15:19:23
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "STL TO TSV"
           link: "https://products.groupdocs.com/conversion/java/stl-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "STL TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "STL TO WEBP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:06
+date: 2022-03-01T15:14:03
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "IFC TO DCM"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "IFC TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "IFC TO DOC"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:13
+date: 2022-03-01T15:19:32
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "SVGZ TO DCM"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "SVGZ TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "SVGZ TO DOC"

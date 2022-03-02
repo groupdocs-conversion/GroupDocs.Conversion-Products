@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:49
+date: 2022-03-01T15:16:56
 draft: false
 
 ############################# Head ############################
@@ -446,11 +446,6 @@ more_formats:
         - name: "OST TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/ost-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "OST TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "OST TO XPS"

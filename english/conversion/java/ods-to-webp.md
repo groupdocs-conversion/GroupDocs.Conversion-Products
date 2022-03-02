@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:30
+date: 2022-03-01T15:16:36
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "ODS TO TXT"
           link: "https://products.groupdocs.com/conversion/java/ods-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "ODS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ods-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "ODS TO WMF"

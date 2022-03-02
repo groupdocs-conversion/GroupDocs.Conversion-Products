@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:22
+date: 2022-03-01T15:11:02
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "DGN TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "DGN TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DGN TO RTF"

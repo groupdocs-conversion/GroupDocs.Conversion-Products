@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:40
+date: 2022-03-01T15:20:05
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "TSV TO BMP"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "TSV TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "TSV TO DCM"

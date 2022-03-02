@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:44
+date: 2022-03-01T15:19:00
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "PSD TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/psd-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "PSD TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PSD TO DOTM"

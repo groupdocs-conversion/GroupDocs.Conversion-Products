@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:46
+date: 2022-03-01T15:17:57
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "POT TO FODS"
           link: "https://products.groupdocs.com/conversion/java/pot-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "POT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "POT TO HTM"

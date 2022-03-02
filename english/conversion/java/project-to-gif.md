@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:36
+date: 2022-03-01T15:18:51
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "PROJECT TO EMF"
           link: "https://products.groupdocs.com/conversion/java/project-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "PROJECT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/project-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PROJECT TO HTML"

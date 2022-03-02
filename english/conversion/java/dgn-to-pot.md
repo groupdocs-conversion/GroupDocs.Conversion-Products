@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:21
+date: 2022-03-01T15:11:02
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "DGN TO PNG"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "DGN TO POT"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "DGN TO POTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:43
+date: 2022-03-01T15:10:23
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert CAD into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "CAD TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/cad-to-pdf/"
-          description: "Portable Document"
-
 
 
 ############################# Back to top ###############################

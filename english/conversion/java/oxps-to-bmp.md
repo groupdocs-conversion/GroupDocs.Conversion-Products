@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:14
+date: 2022-03-01T15:17:23
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert OXPS into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "OXPS TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "OXPS TO CSV"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-csv/"

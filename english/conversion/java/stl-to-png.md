@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:04
+date: 2022-03-01T15:19:21
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "STL TO PDF"
           link: "https://products.groupdocs.com/conversion/java/stl-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "STL TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "STL TO POT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:06
+date: 2022-03-01T15:18:18
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "PPS TO TXT"
           link: "https://products.groupdocs.com/conversion/java/pps-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "PPS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "PPS TO WMF"

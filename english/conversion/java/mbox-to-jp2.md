@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:24
+date: 2022-03-01T15:15:24
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "MBOX TO ICO"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "MBOX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "MBOX TO JPEG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:21
+date: 2022-03-01T15:11:02
 draft: false
 
 ############################# Head ############################
@@ -305,11 +305,6 @@ more_formats:
         # format loop
         - name: "DGN TO PPS"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DGN TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

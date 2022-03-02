@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:42
+date: 2022-03-01T15:11:22
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "DNG TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/dng-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "DNG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "DNG TO XLT"

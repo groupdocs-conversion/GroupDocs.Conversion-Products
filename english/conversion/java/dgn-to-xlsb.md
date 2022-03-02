@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:23
+date: 2022-03-01T15:11:04
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "DGN TO XLS"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "DGN TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DGN TO XLSM"

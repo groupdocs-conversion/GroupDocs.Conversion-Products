@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:39
+date: 2022-03-01T15:17:49
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "PLT TO XLT"
           link: "https://products.groupdocs.com/conversion/java/plt-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "PLT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PLT TO XLTX"

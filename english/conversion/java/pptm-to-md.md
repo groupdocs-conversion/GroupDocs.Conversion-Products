@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:26
+date: 2022-03-01T15:18:40
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "PPTM TO JPG"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "PPTM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "PPTM TO MHT"

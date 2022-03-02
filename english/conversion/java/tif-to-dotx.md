@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:30
+date: 2022-03-01T15:19:53
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "TIF TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/tif-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "TIF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "TIF TO EMF"

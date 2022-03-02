@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:05
+date: 2022-03-01T15:12:58
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "EMLX TO ODP"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "EMLX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "EMLX TO ODT"

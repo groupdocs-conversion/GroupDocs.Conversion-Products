@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:29
+date: 2022-03-01T15:11:09
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "DIB TO WMF"
           link: "https://products.groupdocs.com/conversion/java/dib-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "DIB TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "DIB TO XLAM"

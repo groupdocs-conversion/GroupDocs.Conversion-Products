@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:27
+date: 2022-03-01T15:15:28
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "MBOX TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "MBOX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "MBOX TO WMZ"

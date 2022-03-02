@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:59
+date: 2022-03-01T15:12:51
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "EML TO MSG"
           link: "https://products.groupdocs.com/conversion/java/eml-to-msg/"
           description: "Microsoft Outlook Email Format"
-
-        # format loop
-        - name: "EML TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "EML TO ODS"

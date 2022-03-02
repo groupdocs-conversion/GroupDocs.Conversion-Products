@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:38
+date: 2022-03-01T15:11:18
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "DNG TO ICO"
           link: "https://products.groupdocs.com/conversion/java/dng-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "DNG TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DNG TO JPEG"

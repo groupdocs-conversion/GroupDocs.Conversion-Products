@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:08
+date: 2022-03-01T15:17:17
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "OTT TO ICO"
           link: "https://products.groupdocs.com/conversion/java/ott-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "OTT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "OTT TO JPEG"

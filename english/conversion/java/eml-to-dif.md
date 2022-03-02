@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:56
+date: 2022-03-01T15:12:48
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "EML TO DCM"
           link: "https://products.groupdocs.com/conversion/java/eml-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "EML TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "EML TO DOC"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:45:52
+date: 2022-03-01T15:21:34
 draft: false
 
 ############################# Head ############################
@@ -127,320 +127,315 @@ more_formats:
     content: |
         You can also convert VSX into many other file formats. Please see the complete list below.
     format: 
-            # format loop
-    - name: "VSX TO BMP"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-bmp/"
-      description: "Bitmap File Format"
+        # format loop
+        - name: "VSX TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-bmp/"
+          description: "Bitmap File Format"
 
-    # format loop
-    - name: "VSX TO CSV"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-csv/"
-      description: "Comma Separated Values File"
+        # format loop
+        - name: "VSX TO CSV"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-csv/"
+          description: "Comma Separated Values File"
 
-    # format loop
-    - name: "VSX TO DCM"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-dcm/"
-      description: "DICOM Image"
+        # format loop
+        - name: "VSX TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-dcm/"
+          description: "DICOM Image"
 
-    # format loop
-    - name: "VSX TO DIF"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-dif/"
-      description: "Data Interchange Format"
+        # format loop
+        - name: "VSX TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-dif/"
+          description: "Data Interchange Format"
 
-    # format loop
-    - name: "VSX TO DOC"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-doc/"
-      description: "Microsoft Word Document"
+        # format loop
+        - name: "VSX TO DOC"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-doc/"
+          description: "Microsoft Word Document"
 
-    # format loop
-    - name: "VSX TO DOCM"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-docm/"
-      description: "Microsoft Word Macro-Enabled Document"
+        # format loop
+        - name: "VSX TO DOCM"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-docm/"
+          description: "Microsoft Word Macro-Enabled Document"
 
-    # format loop
-    - name: "VSX TO DOCX"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-docx/"
-      description: "Microsoft Word Open XML Document"
+        # format loop
+        - name: "VSX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-docx/"
+          description: "Microsoft Word Open XML Document"
 
-    # format loop
-    - name: "VSX TO DOT"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-dot/"
-      description: "Microsoft Word Document Template"
+        # format loop
+        - name: "VSX TO DOT"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-dot/"
+          description: "Microsoft Word Document Template"
 
-    # format loop
-    - name: "VSX TO DOTM"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-dotm/"
-      description: "Microsoft Word Macro-Enabled Template"
+        # format loop
+        - name: "VSX TO DOTM"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
 
-    # format loop
-    - name: "VSX TO DOTX"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-dotx/"
-      description: "Word Open XML Document Template"
+        # format loop
+        - name: "VSX TO DOTX"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-dotx/"
+          description: "Word Open XML Document Template"
 
-    # format loop
-    - name: "VSX TO EMF"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-emf/"
-      description: "Enhanced Metafile Format"
+        # format loop
+        - name: "VSX TO EMF"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-emf/"
+          description: "Enhanced Metafile Format"
 
-    # format loop
-    - name: "VSX TO EMZ"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-emz/"
-      description: "Enhanced Windows Metafile Compressed"
+        # format loop
+        - name: "VSX TO EMZ"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-emz/"
+          description: "Enhanced Windows Metafile Compressed"
 
-    # format loop
-    - name: "VSX TO EPUB"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-epub/"
-      description: "Digital E-Book File Format"
+        # format loop
+        - name: "VSX TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-epub/"
+          description: "Digital E-Book File Format"
 
-    # format loop
-    - name: "VSX TO FODP"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-fodp/"
-      description: "OpenDocument Flat XML Presentation"
+        # format loop
+        - name: "VSX TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
 
-    # format loop
-    - name: "VSX TO FODS"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-fods/"
-      description: "OpenDocument Flat XML Spreadsheet"
+        # format loop
+        - name: "VSX TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
 
-    # format loop
-    - name: "VSX TO GIF"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-gif/"
-      description: "Graphical Interchange Format File"
+        # format loop
+        - name: "VSX TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-gif/"
+          description: "Graphical Interchange Format File"
 
-    # format loop
-    - name: "VSX TO HTM"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-htm/"
-      description: "Hypertext Markup Language File"
+        # format loop
+        - name: "VSX TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-htm/"
+          description: "Hypertext Markup Language File"
 
-    # format loop
-    - name: "VSX TO HTML"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-html/"
-      description: "Hyper Text Markup Language"
+        # format loop
+        - name: "VSX TO HTML"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-html/"
+          description: "Hyper Text Markup Language"
 
-    # format loop
-    - name: "VSX TO ICO"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-ico/"
-      description: "Microsoft Icon File"
+        # format loop
+        - name: "VSX TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-ico/"
+          description: "Microsoft Icon File"
 
-    # format loop
-    - name: "VSX TO JP2"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-jp2/"
-      description: "JPEG 2000 Core Image File"
+        # format loop
+        - name: "VSX TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-jp2/"
+          description: "JPEG 2000 Core Image File"
 
-    # format loop
-    - name: "VSX TO JPEG"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-jpeg/"
-      description: "JPEG Image"
+        # format loop
+        - name: "VSX TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-jpeg/"
+          description: "JPEG Image"
 
-    # format loop
-    - name: "VSX TO JPG"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-jpg/"
-      description: "Joint Photographic Expert Group Image File"
+        # format loop
+        - name: "VSX TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
 
-    # format loop
-    - name: "VSX TO MD"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-md/"
-      description: "Markdown"
+        # format loop
+        - name: "VSX TO MD"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-md/"
+          description: "Markdown"
 
-    # format loop
-    - name: "VSX TO MHT"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-mht/"
-      description: "MIME Encapsulation of Aggregate HTML"
+        # format loop
+        - name: "VSX TO MHT"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-    # format loop
-    - name: "VSX TO MHTML"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-mhtml/"
-      description: "MIME Encapsulation of Aggregate HTML"
+        # format loop
+        - name: "VSX TO MHTML"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-    # format loop
-    - name: "VSX TO ODP"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-odp/"
-      description: "OpenDocument Presentation File Format"
+        # format loop
+        - name: "VSX TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-odp/"
+          description: "OpenDocument Presentation File Format"
 
-    # format loop
-    - name: "VSX TO ODS"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-ods/"
-      description: "Open Document Spreadsheet"
+        # format loop
+        - name: "VSX TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-ods/"
+          description: "Open Document Spreadsheet"
 
-    # format loop
-    - name: "VSX TO ODT"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-odt/"
-      description: "Open Document Text"
+        # format loop
+        - name: "VSX TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-odt/"
+          description: "Open Document Text"
 
-    # format loop
-    - name: "VSX TO OTP"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-otp/"
-      description: "Origin Graph Template"
+        # format loop
+        - name: "VSX TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-otp/"
+          description: "Origin Graph Template"
 
-    # format loop
-    - name: "VSX TO OTT"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-ott/"
-      description: "Open Document Template"
+        # format loop
+        - name: "VSX TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-ott/"
+          description: "Open Document Template"
 
-    # format loop
-    - name: "VSX TO PDF"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-pdf/"
-      description: "Portable Document"
+        # format loop
+        - name: "VSX TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-pdf/"
+          description: "Portable Document"
 
-    # format loop
-    - name: "VSX TO PNG"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-png/"
-      description: "Portable Network Graphic"
+        # format loop
+        - name: "VSX TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-png/"
+          description: "Portable Network Graphic"
 
-    # format loop
-    - name: "VSX TO POT"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-pot/"
-      description: "PowerPoint Template"
+        # format loop
+        - name: "VSX TO POT"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-pot/"
+          description: "PowerPoint Template"
 
-    # format loop
-    - name: "VSX TO POTM"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-potm/"
-      description: "Microsoft PowerPoint Template"
+        # format loop
+        - name: "VSX TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-potm/"
+          description: "Microsoft PowerPoint Template"
 
-    # format loop
-    - name: "VSX TO POTX"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-potx/"
-      description: "Microsoft PowerPoint Open XML Template"
+        # format loop
+        - name: "VSX TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
 
-    # format loop
-    - name: "VSX TO PPS"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-pps/"
-      description: "Microsoft PowerPoint Slide Show"
+        # format loop
+        - name: "VSX TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
 
-    # format loop
-    - name: "VSX TO PPSM"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-ppsm/"
-      description: "Microsoft PowerPoint Slide Show"
+        # format loop
+        - name: "VSX TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
 
-    # format loop
-    - name: "VSX TO PPSX"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-ppsx/"
-      description: "PowerPoint Open XML Slide Show"
+        # format loop
+        - name: "VSX TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-ppt/"
+          description: "PowerPoint Presentation"
 
-    # format loop
-    - name: "VSX TO PPT"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-ppt/"
-      description: "PowerPoint Presentation"
+        # format loop
+        - name: "VSX TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
 
-    # format loop
-    - name: "VSX TO PPTM"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-pptm/"
-      description: "Microsoft PowerPoint Presentation"
+        # format loop
+        - name: "VSX TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
 
-    # format loop
-    - name: "VSX TO PPTX"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-pptx/"
-      description: "PowerPoint Open XML Presentation"
+        # format loop
+        - name: "VSX TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-psd/"
+          description: "Adobe Photoshop Document"
 
-    # format loop
-    - name: "VSX TO PSD"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-psd/"
-      description: "Adobe Photoshop Document"
+        # format loop
+        - name: "VSX TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-rtf/"
+          description: "Rich Text File Format"
 
-    # format loop
-    - name: "VSX TO RTF"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-rtf/"
-      description: "Rich Text File Format"
+        # format loop
+        - name: "VSX TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-svg/"
+          description: "Scalable Vector Graphics File"
 
-    # format loop
-    - name: "VSX TO SVG"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-svg/"
-      description: "Scalable Vector Graphics File"
+        # format loop
+        - name: "VSX TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
 
-    # format loop
-    - name: "VSX TO SVGZ"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-svgz/"
-      description: "Compressed Scalable Vector Graphics File"
+        # format loop
+        - name: "VSX TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
 
-    # format loop
-    - name: "VSX TO SXC"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-sxc/"
-      description: "StarOffice Calc Spreadsheet"
+        # format loop
+        - name: "VSX TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-tex/"
+          description: "LaTeX Source Document"
 
-    # format loop
-    - name: "VSX TO TEX"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-tex/"
-      description: "LaTeX Source Document"
+        # format loop
+        - name: "VSX TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-tif/"
+          description: "Tagged Image File Format"
 
-    # format loop
-    - name: "VSX TO TIF"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-tif/"
-      description: "Tagged Image File Format"
+        # format loop
+        - name: "VSX TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-tiff/"
+          description: "Tagged Image File Format"
 
-    # format loop
-    - name: "VSX TO TIFF"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-tiff/"
-      description: "Tagged Image File Format"
+        # format loop
+        - name: "VSX TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-tsv/"
+          description: "Tab Separated Values File"
 
-    # format loop
-    - name: "VSX TO TSV"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-tsv/"
-      description: "Tab Separated Values File"
+        # format loop
+        - name: "VSX TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-txt/"
+          description: "Plain Text File Format"
 
-    # format loop
-    - name: "VSX TO TXT"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-txt/"
-      description: "Plain Text File Format"
+        # format loop
+        - name: "VSX TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-webp/"
+          description: "Raster Web Image File Format"
 
-    # format loop
-    - name: "VSX TO WEBP"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-webp/"
-      description: "Raster Web Image File Format"
+        # format loop
+        - name: "VSX TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-wmf/"
+          description: "Windows Metafile"
 
-    # format loop
-    - name: "VSX TO WMF"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-wmf/"
-      description: "Windows Metafile"
+        # format loop
+        - name: "VSX TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-wmz/"
+          description: "Windows Metafile Compressed"
 
-    # format loop
-    - name: "VSX TO WMZ"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-wmz/"
-      description: "Windows Metafile Compressed"
+        # format loop
+        - name: "VSX TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
 
-    # format loop
-    - name: "VSX TO XLAM"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-xlam/"
-      description: "Microsoft Excel Macro-Enabled Add-In"
+        # format loop
+        - name: "VSX TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-xls/"
+          description: "Microsoft Excel Binary File Format"
 
-    # format loop
-    - name: "VSX TO XLS"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-xls/"
-      description: "Microsoft Excel Binary File Format"
+        # format loop
+        - name: "VSX TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
 
-    # format loop
-    - name: "VSX TO XLSB"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-xlsb/"
-      description: "Microsoft Excel Binary Spreadsheet File"
+        # format loop
+        - name: "VSX TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
-    # format loop
-    - name: "VSX TO XLSM"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-xlsm/"
-      description: "Microsoft Excel Macro-Enabled Spreadsheet"
+        # format loop
+        - name: "VSX TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
 
-    # format loop
-    - name: "VSX TO XLSX"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-xlsx/"
-      description: "Microsoft Excel Open XML Spreadsheet"
+        # format loop
+        - name: "VSX TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-xlt/"
+          description: "Microsoft Excel Template"
 
-    # format loop
-    - name: "VSX TO XLT"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-xlt/"
-      description: "Microsoft Excel Template"
+        # format loop
+        - name: "VSX TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
 
-    # format loop
-    - name: "VSX TO XLTM"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-xltm/"
-      description: "Microsoft Excel Macro-Enabled Template"
+        # format loop
+        - name: "VSX TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
 
-    # format loop
-    - name: "VSX TO XLTX"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-xltx/"
-      description: "Microsoft Excel Open XML Template"
-
-    # format loop
-    - name: "VSX TO XPS"
-      link: "https://products.groupdocs.com/conversion/java/vsx-to-xps/"
-      description: "Open XML Paper Specification"
+        # format loop
+        - name: "VSX TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/vsx-to-xps/"
+          description: "Open XML Paper Specification"
 
 
 

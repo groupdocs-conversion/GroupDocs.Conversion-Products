@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:16
+date: 2022-03-01T15:17:25
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "OXPS TO HTML"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "OXPS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "OXPS TO JP2"

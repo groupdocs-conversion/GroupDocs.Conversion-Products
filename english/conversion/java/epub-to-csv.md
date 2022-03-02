@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:20
+date: 2022-03-01T15:13:14
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "EPUB TO BMP"
           link: "https://products.groupdocs.com/conversion/java/epub-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "EPUB TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "EPUB TO DCM"

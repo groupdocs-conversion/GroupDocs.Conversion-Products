@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:16
+date: 2022-03-01T15:16:21
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "ODG TO ICO"
           link: "https://products.groupdocs.com/conversion/java/odg-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "ODG TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "ODG TO JPEG"

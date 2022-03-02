@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:02
+date: 2022-03-01T15:20:25
 draft: false
 
 ############################# Head ############################
@@ -245,11 +245,6 @@ more_formats:
         # format loop
         - name: "VDW TO MHT"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "VDW TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

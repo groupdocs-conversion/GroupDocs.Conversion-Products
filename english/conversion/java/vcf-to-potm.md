@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:57
+date: 2022-03-01T15:20:19
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "VCF TO POT"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "VCF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "VCF TO POTX"

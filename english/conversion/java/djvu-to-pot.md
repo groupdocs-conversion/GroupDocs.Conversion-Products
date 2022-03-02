@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:34
+date: 2022-03-01T15:11:13
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "DJVU TO PNG"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "DJVU TO POT"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "DJVU TO POTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:38
+date: 2022-03-01T15:12:21
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "DWT TO POT"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "DWT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DWT TO POTX"

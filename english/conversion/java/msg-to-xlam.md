@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:13
+date: 2022-03-01T15:16:18
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "MSG TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/msg-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "MSG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "MSG TO XLS"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:05
+date: 2022-03-01T15:10:45
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "CMX TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "CMX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "CMX TO PPTM"

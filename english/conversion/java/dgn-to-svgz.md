@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:22
+date: 2022-03-01T15:11:03
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "DGN TO SVG"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DGN TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "DGN TO SXC"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:50
+date: 2022-03-01T15:13:46
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "HTM TO JPG"
           link: "https://products.groupdocs.com/conversion/java/htm-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "HTM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "HTM TO MHT"

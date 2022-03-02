@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:26
+date: 2022-03-01T15:16:32
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "ODS TO CSV"
           link: "https://products.groupdocs.com/conversion/java/ods-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "ODS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/ods-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "ODS TO DIF"

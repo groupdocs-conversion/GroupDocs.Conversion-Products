@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:39
+date: 2022-03-01T15:13:35
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "FODS TO MD"
           link: "https://products.groupdocs.com/conversion/java/fods-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "FODS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "FODS TO MHTML"

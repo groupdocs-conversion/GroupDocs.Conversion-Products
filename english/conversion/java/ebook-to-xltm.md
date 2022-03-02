@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:47
+date: 2022-03-01T15:12:36
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "EBOOK TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/ebook-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "EBOOK TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
 
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:38
+date: 2022-03-01T15:12:22
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "DWT TO PSD"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DWT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "DWT TO SVG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:58
+date: 2022-03-01T15:20:21
 draft: false
 
 ############################# Head ############################
@@ -365,11 +365,6 @@ more_formats:
         # format loop
         - name: "VCF TO TIF"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "VCF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

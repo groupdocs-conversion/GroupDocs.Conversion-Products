@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:13
+date: 2022-03-01T15:19:33
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "SVGZ TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "SVGZ TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "SVGZ TO FODP"

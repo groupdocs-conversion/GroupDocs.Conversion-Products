@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:12
+date: 2022-03-01T15:11:54
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "DOTX TO GIF"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "DOTX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "DOTX TO HTML"

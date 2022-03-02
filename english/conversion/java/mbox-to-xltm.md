@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:28
+date: 2022-03-01T15:15:28
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "MBOX TO XLT"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "MBOX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "MBOX TO XLTX"

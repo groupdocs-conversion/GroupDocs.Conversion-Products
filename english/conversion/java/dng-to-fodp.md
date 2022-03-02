@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:38
+date: 2022-03-01T15:11:18
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "DNG TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/dng-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "DNG TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "DNG TO FODS"

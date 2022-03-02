@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:48
+date: 2022-03-01T15:12:37
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "EMAIL TO HTML"
           link: "https://products.groupdocs.com/conversion/java/email-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "EMAIL TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "EMAIL TO JPEG"

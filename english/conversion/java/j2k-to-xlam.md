@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:28
+date: 2022-03-01T15:14:27
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "J2K TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "J2K TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "J2K TO XLS"

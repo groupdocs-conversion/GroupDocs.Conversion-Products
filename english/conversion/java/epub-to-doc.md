@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:20
+date: 2022-03-01T15:13:14
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "EPUB TO DIF"
           link: "https://products.groupdocs.com/conversion/java/epub-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "EPUB TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "EPUB TO DOCM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:14
+date: 2022-03-01T15:14:12
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "IGS TO POT"
           link: "https://products.groupdocs.com/conversion/java/igs-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "IGS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "IGS TO POTX"

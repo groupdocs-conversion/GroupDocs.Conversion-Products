@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:34
+date: 2022-03-01T15:18:49
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "PPTX TO TEX"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "PPTX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "PPTX TO TIFF"

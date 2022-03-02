@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:04
+date: 2022-03-01T15:11:45
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "DOT TO PSD"
           link: "https://products.groupdocs.com/conversion/java/dot-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DOT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "DOT TO SVG"

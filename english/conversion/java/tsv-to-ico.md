@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:42
+date: 2022-03-01T15:20:06
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "TSV TO HTML"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "TSV TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "TSV TO JP2"

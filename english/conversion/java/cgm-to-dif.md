@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:55
+date: 2022-03-01T15:10:35
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "CGM TO DCM"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "CGM TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "CGM TO DOC"

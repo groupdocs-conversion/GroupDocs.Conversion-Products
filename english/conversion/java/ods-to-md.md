@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:28
+date: 2022-03-01T15:16:34
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "ODS TO JPG"
           link: "https://products.groupdocs.com/conversion/java/ods-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "ODS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/ods-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "ODS TO MHT"

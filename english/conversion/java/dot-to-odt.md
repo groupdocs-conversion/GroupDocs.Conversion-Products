@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:02
+date: 2022-03-01T15:11:44
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "DOT TO ODS"
           link: "https://products.groupdocs.com/conversion/java/dot-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "DOT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "DOT TO OTP"

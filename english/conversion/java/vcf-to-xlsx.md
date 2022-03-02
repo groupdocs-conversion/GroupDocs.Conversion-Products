@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:59
+date: 2022-03-01T15:20:22
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "VCF TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "VCF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "VCF TO XLT"

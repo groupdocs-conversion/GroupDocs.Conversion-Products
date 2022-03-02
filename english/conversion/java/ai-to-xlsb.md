@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:37
+date: 2022-03-01T15:10:15
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "AI TO XLS"
           link: "https://products.groupdocs.com/conversion/java/ai-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "AI TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "AI TO XLSM"

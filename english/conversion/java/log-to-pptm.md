@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:19
+date: 2022-03-01T15:15:21
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "LOG TO PPT"
           link: "https://products.groupdocs.com/conversion/java/log-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "LOG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "LOG TO PPTX"

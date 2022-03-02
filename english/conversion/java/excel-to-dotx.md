@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:26
+date: 2022-03-01T15:13:21
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "EXCEL TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/excel-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "EXCEL TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "EXCEL TO EMF"

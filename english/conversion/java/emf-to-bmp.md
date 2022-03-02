@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:50
+date: 2022-03-01T15:12:41
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert EMF into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "EMF TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "EMF TO CSV"
           link: "https://products.groupdocs.com/conversion/java/emf-to-csv/"

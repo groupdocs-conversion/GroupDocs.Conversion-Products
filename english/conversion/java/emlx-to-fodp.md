@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:04
+date: 2022-03-01T15:12:57
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "EMLX TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "EMLX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "EMLX TO FODS"

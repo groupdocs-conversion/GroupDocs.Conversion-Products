@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:23
+date: 2022-03-01T15:13:17
 draft: false
 
 ############################# Head ############################
@@ -306,11 +306,6 @@ more_formats:
         - name: "EPUB TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/epub-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "EPUB TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "EPUB TO PPT"

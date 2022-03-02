@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:25
+date: 2022-03-01T15:11:06
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "DIB TO FODS"
           link: "https://products.groupdocs.com/conversion/java/dib-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "DIB TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DIB TO HTM"

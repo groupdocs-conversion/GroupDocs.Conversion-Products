@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:47
+date: 2022-03-01T15:10:26
 draft: false
 
 ############################# Head ############################
@@ -311,11 +311,6 @@ more_formats:
         - name: "CDR TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "CDR TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "CDR TO PPT"

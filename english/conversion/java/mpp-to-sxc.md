@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:55
+date: 2022-03-01T15:15:58
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "MPP TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "MPP TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "MPP TO TEX"

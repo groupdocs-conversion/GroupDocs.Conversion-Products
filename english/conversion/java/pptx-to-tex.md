@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:34
+date: 2022-03-01T15:18:48
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "PPTX TO SXC"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "PPTX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "PPTX TO TIF"

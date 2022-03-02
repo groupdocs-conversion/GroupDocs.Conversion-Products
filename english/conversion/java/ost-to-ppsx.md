@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:46
+date: 2022-03-01T15:16:54
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "OST TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/ost-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "OST TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "OST TO PPT"

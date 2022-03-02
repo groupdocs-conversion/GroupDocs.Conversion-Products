@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:03
+date: 2022-03-01T15:20:25
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "VDW TO ODT"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "VDW TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "VDW TO OTT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:26
+date: 2022-03-01T15:14:24
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "J2K TO OTP"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "J2K TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "J2K TO PDF"

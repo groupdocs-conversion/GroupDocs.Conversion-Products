@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:15
+date: 2022-03-01T15:17:24
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "OXPS TO DIF"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "OXPS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "OXPS TO DOCM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:36
+date: 2022-03-01T15:13:32
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "FODP TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "FODP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "FODP TO XLS"

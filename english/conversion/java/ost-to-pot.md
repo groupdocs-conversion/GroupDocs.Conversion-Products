@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:46
+date: 2022-03-01T15:16:54
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "OST TO PNG"
           link: "https://products.groupdocs.com/conversion/java/ost-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "OST TO POT"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "OST TO POTM"

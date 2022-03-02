@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:46
+date: 2022-03-01T15:20:10
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "TSV TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "TSV TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

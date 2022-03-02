@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:35
+date: 2022-03-01T15:19:58
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "TIF TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/tif-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "TIF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:04
+date: 2022-03-01T15:18:16
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "PPS TO ODP"
           link: "https://products.groupdocs.com/conversion/java/pps-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "PPS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "PPS TO ODT"

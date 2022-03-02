@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:36
+date: 2022-03-01T15:11:15
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "DJVU TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "DJVU TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DJVU TO XLS"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:01
+date: 2022-03-01T15:20:24
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "VDW TO FODP"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "VDW TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "VDW TO GIF"

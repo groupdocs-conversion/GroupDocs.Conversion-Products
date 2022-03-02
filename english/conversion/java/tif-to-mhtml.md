@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:31
+date: 2022-03-01T15:19:55
 draft: false
 
 ############################# Head ############################
@@ -245,11 +245,6 @@ more_formats:
         # format loop
         - name: "TIF TO MHT"
           link: "https://products.groupdocs.com/conversion/java/tif-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "TIF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

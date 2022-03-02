@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:50
+date: 2022-03-01T15:14:48
 draft: false
 
 ############################# Head ############################
@@ -235,11 +235,6 @@ more_formats:
         # format loop
         - name: "JPEG TO MHT"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "JPEG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:31
+date: 2022-03-01T15:20:35
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "VSD TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "VSD TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "VSD TO DOTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:08
+date: 2022-03-01T15:10:48
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "CSV TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/csv-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "CSV TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "CSV TO EMZ"

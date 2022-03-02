@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:17
+date: 2022-03-01T15:19:38
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "SVGZ TO XLS"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "SVGZ TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "SVGZ TO XLSM"

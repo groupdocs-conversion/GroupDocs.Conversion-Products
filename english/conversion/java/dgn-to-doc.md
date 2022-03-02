@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:19
+date: 2022-03-01T15:10:59
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "DGN TO DIF"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "DGN TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "DGN TO DOCM"

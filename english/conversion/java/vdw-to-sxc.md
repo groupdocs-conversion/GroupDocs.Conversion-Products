@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:04
+date: 2022-03-01T15:20:27
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "VDW TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "VDW TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "VDW TO TEX"

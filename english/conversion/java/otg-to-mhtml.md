@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:51
+date: 2022-03-01T15:16:59
 draft: false
 
 ############################# Head ############################
@@ -245,11 +245,6 @@ more_formats:
         # format loop
         - name: "OTG TO MHT"
           link: "https://products.groupdocs.com/conversion/java/otg-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "OTG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

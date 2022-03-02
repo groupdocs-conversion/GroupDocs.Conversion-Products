@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:16
+date: 2022-03-01T15:10:56
 draft: false
 
 ############################# Head ############################
@@ -300,11 +300,6 @@ more_formats:
         # format loop
         - name: "DCM TO PPS"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DCM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

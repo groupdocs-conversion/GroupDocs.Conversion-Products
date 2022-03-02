@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:14
+date: 2022-03-01T15:10:54
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "DCM TO HTML"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "DCM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "DCM TO JP2"

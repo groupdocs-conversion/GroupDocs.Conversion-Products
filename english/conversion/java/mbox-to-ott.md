@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:25
+date: 2022-03-01T15:15:25
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "MBOX TO OTP"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "MBOX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "MBOX TO PDF"

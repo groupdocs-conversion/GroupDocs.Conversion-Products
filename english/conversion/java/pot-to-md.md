@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:47
+date: 2022-03-01T15:17:57
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "POT TO JPG"
           link: "https://products.groupdocs.com/conversion/java/pot-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "POT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "POT TO MHT"

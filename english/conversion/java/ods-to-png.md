@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:28
+date: 2022-03-01T15:16:34
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "ODS TO PDF"
           link: "https://products.groupdocs.com/conversion/java/ods-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "ODS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ods-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "ODS TO POT"

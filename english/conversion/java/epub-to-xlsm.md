@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:25
+date: 2022-03-01T15:13:19
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "EPUB TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/epub-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "EPUB TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "EPUB TO XLSX"

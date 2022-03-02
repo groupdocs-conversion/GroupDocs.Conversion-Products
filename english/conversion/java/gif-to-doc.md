@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:43
+date: 2022-03-01T15:13:39
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "GIF TO DIF"
           link: "https://products.groupdocs.com/conversion/java/gif-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "GIF TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "GIF TO DOCM"

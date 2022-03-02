@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:34
+date: 2022-03-01T15:17:44
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "PLT TO DOC"
           link: "https://products.groupdocs.com/conversion/java/plt-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "PLT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "PLT TO DOCX"

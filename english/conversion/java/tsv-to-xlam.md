@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:45
+date: 2022-03-01T15:20:10
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "TSV TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "TSV TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "TSV TO XLS"

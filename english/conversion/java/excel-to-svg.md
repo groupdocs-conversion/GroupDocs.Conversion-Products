@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:30
+date: 2022-03-01T15:13:25
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "EXCEL TO RTF"
           link: "https://products.groupdocs.com/conversion/java/excel-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "EXCEL TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "EXCEL TO SVGZ"

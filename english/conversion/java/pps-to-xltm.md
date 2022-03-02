@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:07
+date: 2022-03-01T15:18:19
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "PPS TO XLT"
           link: "https://products.groupdocs.com/conversion/java/pps-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "PPS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PPS TO XLTX"

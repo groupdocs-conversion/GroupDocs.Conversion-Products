@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:11
+date: 2022-03-01T15:10:51
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "CSV TO SVG"
           link: "https://products.groupdocs.com/conversion/java/csv-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "CSV TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "CSV TO SXC"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:07
+date: 2022-03-01T15:15:06
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "JPM TO ODP"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "JPM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "JPM TO ODT"

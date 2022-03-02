@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:13
+date: 2022-03-01T15:11:55
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "DOTX TO HTML"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "DOTX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "DOTX TO JP2"

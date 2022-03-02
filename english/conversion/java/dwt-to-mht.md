@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:37
+date: 2022-03-01T15:12:20
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "DWT TO MD"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "DWT TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DWT TO MHTML"

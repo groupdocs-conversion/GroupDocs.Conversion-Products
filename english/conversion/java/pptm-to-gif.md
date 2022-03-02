@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:26
+date: 2022-03-01T15:18:39
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "PPTM TO FODS"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "PPTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PPTM TO HTM"

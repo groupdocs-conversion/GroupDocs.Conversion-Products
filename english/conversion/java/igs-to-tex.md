@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:15
+date: 2022-03-01T15:14:14
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "IGS TO SXC"
           link: "https://products.groupdocs.com/conversion/java/igs-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "IGS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "IGS TO TIF"

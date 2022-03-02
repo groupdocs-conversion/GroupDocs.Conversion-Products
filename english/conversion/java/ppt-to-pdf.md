@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:21
+date: 2022-03-01T15:18:35
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "PPT TO OTT"
           link: "https://products.groupdocs.com/conversion/java/ppt-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "PPT TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/ppt-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "PPT TO PNG"

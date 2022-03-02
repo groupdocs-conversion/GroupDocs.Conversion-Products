@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:57
+date: 2022-03-01T15:20:20
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "VCF TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "VCF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "VCF TO RTF"

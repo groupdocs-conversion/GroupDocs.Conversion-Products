@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:21
+date: 2022-03-01T15:13:15
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "EPUB TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/epub-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "EPUB TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "EPUB TO EMZ"

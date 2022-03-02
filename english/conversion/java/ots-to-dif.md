@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:01
+date: 2022-03-01T15:17:09
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "OTS TO DCM"
           link: "https://products.groupdocs.com/conversion/java/ots-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "OTS TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "OTS TO DOC"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:50
+date: 2022-03-01T15:10:29
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "CF2 TO DIF"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "CF2 TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "CF2 TO DOCM"

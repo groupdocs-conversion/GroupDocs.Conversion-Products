@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:07
+date: 2022-03-01T15:13:00
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "EMLX TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "EMLX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "EMLX TO TXT"

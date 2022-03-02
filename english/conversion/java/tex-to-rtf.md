@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:27
+date: 2022-03-01T15:19:50
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "TEX TO PSD"
           link: "https://products.groupdocs.com/conversion/java/tex-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "TEX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "TEX TO SVG"

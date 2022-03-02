@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:12
+date: 2022-03-01T15:18:25
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "PPSM TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "PPSM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "PPSM TO WMZ"

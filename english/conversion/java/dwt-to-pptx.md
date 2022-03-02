@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:38
+date: 2022-03-01T15:12:22
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "DWT TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "DWT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "DWT TO PSD"

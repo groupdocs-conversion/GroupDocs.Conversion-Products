@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:15
+date: 2022-03-01T15:14:13
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "IGS TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/igs-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "IGS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "IGS TO PPTM"

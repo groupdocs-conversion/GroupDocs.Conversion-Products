@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:55
+date: 2022-03-01T15:12:47
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "EMF TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/emf-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "EMF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "EMF TO XLS"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:39
+date: 2022-03-01T15:12:23
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "DWT TO TXT"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "DWT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "DWT TO WMF"

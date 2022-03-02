@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:29
+date: 2022-03-01T15:20:34
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "VSD TO BMP"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "VSD TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "VSD TO DCM"

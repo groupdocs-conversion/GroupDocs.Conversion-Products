@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:37
+date: 2022-03-01T15:20:01
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "TIFF TO JPG"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "TIFF TO MD"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "TIFF TO MHT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:01
+date: 2022-03-01T15:10:41
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "CMX TO DCM"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "CMX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "CMX TO DOC"

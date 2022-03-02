@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:42
+date: 2022-03-01T15:20:07
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "TSV TO MD"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "TSV TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "TSV TO MHTML"

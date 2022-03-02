@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:36
+date: 2022-03-01T15:16:43
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "ODT TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/odt-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "ODT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "ODT TO XPS"

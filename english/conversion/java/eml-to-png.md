@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:59
+date: 2022-03-01T15:12:51
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "EML TO PDF"
           link: "https://products.groupdocs.com/conversion/java/eml-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "EML TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "EML TO POT"

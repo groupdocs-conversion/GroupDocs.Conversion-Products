@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:51
+date: 2022-03-01T15:10:30
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "CF2 TO HTM"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "CF2 TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "CF2 TO ICO"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:50
+date: 2022-03-01T15:10:30
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "CF2 TO EMF"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "CF2 TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "CF2 TO EPUB"

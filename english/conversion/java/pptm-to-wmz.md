@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:29
+date: 2022-03-01T15:18:43
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "PPTM TO WMF"
           link: "https://products.groupdocs.com/conversion/java/pptm-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "PPTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pptm-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PPTM TO XLAM"

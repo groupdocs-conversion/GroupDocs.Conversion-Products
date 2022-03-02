@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:46
+date: 2022-03-01T15:12:35
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert EBOOK into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "EBOOK TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
         # format loop
         - name: "EBOOK TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/ebook-to-epub/"

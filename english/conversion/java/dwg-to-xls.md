@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:34
+date: 2022-03-01T15:12:17
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "DWG TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "DWG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DWG TO XLSB"

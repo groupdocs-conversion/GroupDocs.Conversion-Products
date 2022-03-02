@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:13
+date: 2022-03-01T15:15:14
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "JPX TO POT"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "JPX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "JPX TO POTX"

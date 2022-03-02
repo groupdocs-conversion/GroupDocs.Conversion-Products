@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:15
+date: 2022-03-01T15:10:56
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "DCM TO POT"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "DCM TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DCM TO POTX"

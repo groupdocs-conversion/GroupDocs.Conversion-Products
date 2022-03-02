@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:49
+date: 2022-03-01T15:17:59
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "POT TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/pot-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "POT TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "POT TO TEX"

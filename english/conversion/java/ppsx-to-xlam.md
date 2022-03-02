@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:18
+date: 2022-03-01T15:18:31
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "PPSX TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "PPSX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PPSX TO XLS"

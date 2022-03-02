@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:35
+date: 2022-03-01T15:12:18
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "DWT TO DCM"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "DWT TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "DWT TO DOC"

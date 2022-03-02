@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:10
+date: 2022-03-01T15:16:14
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "MSG TO JP2"
           link: "https://products.groupdocs.com/conversion/java/msg-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "MSG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "MSG TO JPG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:52
+date: 2022-03-01T15:12:43
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "EMF TO FODS"
           link: "https://products.groupdocs.com/conversion/java/emf-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "EMF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "EMF TO HTM"

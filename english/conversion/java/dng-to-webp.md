@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:41
+date: 2022-03-01T15:11:21
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "DNG TO TXT"
           link: "https://products.groupdocs.com/conversion/java/dng-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "DNG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "DNG TO WMF"

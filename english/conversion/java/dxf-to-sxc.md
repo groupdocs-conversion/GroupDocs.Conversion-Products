@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:44
+date: 2022-03-01T15:12:31
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "DXF TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DXF TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "DXF TO TEX"

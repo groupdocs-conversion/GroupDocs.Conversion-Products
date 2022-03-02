@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:05
+date: 2022-03-01T15:15:04
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "JPM TO CSV"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "JPM TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "JPM TO DIF"

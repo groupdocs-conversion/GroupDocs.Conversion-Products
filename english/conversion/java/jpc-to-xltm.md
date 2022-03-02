@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:47
+date: 2022-03-01T15:14:45
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "JPC TO XLT"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "JPC TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "JPC TO XLTX"

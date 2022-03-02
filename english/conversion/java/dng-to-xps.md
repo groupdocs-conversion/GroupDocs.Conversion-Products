@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:42
+date: 2022-03-01T15:11:22
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "DNG TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/dng-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "DNG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

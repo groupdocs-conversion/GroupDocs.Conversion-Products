@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:14
+date: 2022-03-01T15:10:55
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "DCM TO JP2"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "DCM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "DCM TO JPG"

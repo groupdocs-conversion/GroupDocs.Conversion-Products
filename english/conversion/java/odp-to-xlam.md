@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:25
+date: 2022-03-01T15:16:31
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "ODP TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/odp-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "ODP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "ODP TO XLS"

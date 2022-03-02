@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:03
+date: 2022-03-01T15:10:43
 draft: false
 
 ############################# Head ############################
@@ -245,11 +245,6 @@ more_formats:
         # format loop
         - name: "CMX TO MHT"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "CMX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

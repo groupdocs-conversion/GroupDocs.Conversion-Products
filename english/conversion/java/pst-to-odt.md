@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:52
+date: 2022-03-01T15:19:08
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "PST TO ODS"
           link: "https://products.groupdocs.com/conversion/java/pst-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "PST TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "PST TO OTP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:34
+date: 2022-03-01T15:16:40
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "ODT TO PNG"
           link: "https://products.groupdocs.com/conversion/java/odt-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "ODT TO POT"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "ODT TO POTM"

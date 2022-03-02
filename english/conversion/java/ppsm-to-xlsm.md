@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:13
+date: 2022-03-01T15:18:26
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "PPSM TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "PPSM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PPSM TO XLSX"

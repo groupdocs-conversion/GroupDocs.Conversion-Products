@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:38
+date: 2022-03-01T15:17:48
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "PLT TO TXT"
           link: "https://products.groupdocs.com/conversion/java/plt-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "PLT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "PLT TO WMF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:49
+date: 2022-03-01T15:18:00
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "POT TO TSV"
           link: "https://products.groupdocs.com/conversion/java/pot-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "POT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "POT TO WEBP"

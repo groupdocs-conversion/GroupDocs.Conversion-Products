@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:29
+date: 2022-03-01T15:16:36
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "ODS TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/ods-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "ODS TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/ods-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "ODS TO TEX"

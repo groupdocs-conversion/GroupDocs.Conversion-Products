@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:37
+date: 2022-03-01T15:13:32
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "FODP TO XLS"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "FODP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "FODP TO XLSM"

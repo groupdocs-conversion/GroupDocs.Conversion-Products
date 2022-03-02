@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:32
+date: 2022-03-01T15:13:27
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "FODP TO DIF"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "FODP TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "FODP TO DOCM"

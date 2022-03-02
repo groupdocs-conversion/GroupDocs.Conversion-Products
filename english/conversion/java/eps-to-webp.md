@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:19
+date: 2022-03-01T15:13:13
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "EPS TO TXT"
           link: "https://products.groupdocs.com/conversion/java/eps-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "EPS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "EPS TO WMF"

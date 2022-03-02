@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:16
+date: 2022-03-01T15:10:57
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "DCM TO SVG"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DCM TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "DCM TO SXC"

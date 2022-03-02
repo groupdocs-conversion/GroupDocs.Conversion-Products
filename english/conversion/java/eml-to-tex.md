@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:01
+date: 2022-03-01T15:12:53
 draft: false
 
 ############################# Head ############################
@@ -366,11 +366,6 @@ more_formats:
         - name: "EML TO SXC"
           link: "https://products.groupdocs.com/conversion/java/eml-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "EML TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "EML TO TIF"

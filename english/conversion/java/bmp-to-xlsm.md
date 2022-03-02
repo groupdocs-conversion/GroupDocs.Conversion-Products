@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:43
+date: 2022-03-01T15:10:22
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "BMP TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "BMP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "BMP TO XLSX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:47
+date: 2022-03-01T15:15:50
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "MOBI TO PDF"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "MOBI TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "MOBI TO POT"

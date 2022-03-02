@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:36
+date: 2022-03-01T15:15:37
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "MHT TO OTP"
           link: "https://products.groupdocs.com/conversion/java/mht-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "MHT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "MHT TO PDF"

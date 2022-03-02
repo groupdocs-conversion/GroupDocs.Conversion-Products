@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:28
+date: 2022-03-01T15:19:51
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "TEX TO TSV"
           link: "https://products.groupdocs.com/conversion/java/tex-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "TEX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "TEX TO WEBP"

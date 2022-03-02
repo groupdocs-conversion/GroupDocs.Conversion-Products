@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:22
+date: 2022-03-01T15:13:17
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "EPUB TO PDF"
           link: "https://products.groupdocs.com/conversion/java/epub-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "EPUB TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "EPUB TO POT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:45
+date: 2022-03-01T15:19:01
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "PSD TO GIF"
           link: "https://products.groupdocs.com/conversion/java/psd-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "PSD TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "PSD TO HTML"

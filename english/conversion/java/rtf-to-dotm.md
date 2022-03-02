@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:56
+date: 2022-03-01T15:19:13
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "RTF TO DOT"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "RTF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "RTF TO DOTX"

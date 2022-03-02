@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:01
+date: 2022-03-01T15:15:00
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "JPG TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/jpg-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "JPG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "JPG TO MHT"

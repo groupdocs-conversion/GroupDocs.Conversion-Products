@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:56
+date: 2022-03-01T15:11:38
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "DOCX TO MOBI"
           link: "https://products.groupdocs.com/conversion/java/docx-to-mobi/"
           description: "Mobipocket eBook"
-
-        # format loop
-        - name: "DOCX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/docx-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DOCX TO ODS"

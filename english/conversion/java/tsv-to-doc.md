@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:41
+date: 2022-03-01T15:20:05
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "TSV TO DIF"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "TSV TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "TSV TO DOCM"

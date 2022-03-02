@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:24
+date: 2022-03-01T15:18:37
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "PPT TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/ppt-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "PPT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ppt-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "PPT TO XLSX"

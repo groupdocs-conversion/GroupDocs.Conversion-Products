@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:13
+date: 2022-03-01T15:18:26
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "PPSM TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "PPSM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PPSM TO XPS"

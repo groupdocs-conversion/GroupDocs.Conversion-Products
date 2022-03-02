@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:24
+date: 2022-03-01T15:12:06
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "DWFX TO DWF"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-dwf/"
           description: "Design Web Format"
-
-        # format loop
-        - name: "DWFX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DWFX TO EMZ"

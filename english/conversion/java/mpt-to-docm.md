@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:57
+date: 2022-03-01T15:16:00
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "MPT TO DOC"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "MPT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "MPT TO DOCX"

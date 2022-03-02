@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:56
+date: 2022-03-01T15:16:00
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "MPT TO CSV"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "MPT TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "MPT TO DIF"

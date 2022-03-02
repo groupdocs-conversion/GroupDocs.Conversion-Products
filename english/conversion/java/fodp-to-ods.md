@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:34
+date: 2022-03-01T15:13:29
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "FODP TO ODP"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "FODP TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "FODP TO ODT"

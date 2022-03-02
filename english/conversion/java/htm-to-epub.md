@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:49
+date: 2022-03-01T15:13:46
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "HTM TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/htm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "HTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "HTM TO FODP"

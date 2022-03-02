@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:57
+date: 2022-03-01T15:19:14
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "RTF TO FODS"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "RTF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "RTF TO HTM"

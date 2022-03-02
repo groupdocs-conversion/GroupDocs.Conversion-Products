@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:59
+date: 2022-03-01T15:16:02
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "MPT TO OTT"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "MPT TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "MPT TO PNG"

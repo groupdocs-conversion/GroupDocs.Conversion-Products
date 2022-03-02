@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:53
+date: 2022-03-01T15:20:17
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "VCF TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "VCF TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "VCF TO DOTM"

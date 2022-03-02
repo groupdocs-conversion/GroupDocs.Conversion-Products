@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:25
+date: 2022-03-01T15:12:07
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "DWFX TO HTML"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "DWFX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "DWFX TO JP2"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:47
+date: 2022-03-01T15:15:49
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "MOBI TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "MOBI TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "MOBI TO MD"

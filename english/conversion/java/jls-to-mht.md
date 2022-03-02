@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:31
+date: 2022-03-01T15:14:30
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "JLS TO MD"
           link: "https://products.groupdocs.com/conversion/java/jls-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "JLS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "JLS TO MHTML"

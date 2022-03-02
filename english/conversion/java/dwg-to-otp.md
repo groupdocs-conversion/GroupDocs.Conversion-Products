@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:31
+date: 2022-03-01T15:12:14
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "DWG TO ODT"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "DWG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "DWG TO OTT"

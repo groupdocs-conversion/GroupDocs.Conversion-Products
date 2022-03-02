@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:21
+date: 2022-03-01T15:19:43
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "SXC TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "SXC TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "SXC TO PPTM"

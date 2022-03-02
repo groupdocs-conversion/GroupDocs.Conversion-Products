@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:52
+date: 2022-03-01T15:20:41
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "VSDM TO EMF"
           link: "https://products.groupdocs.com/conversion/java/vsdm-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "VSDM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/vsdm-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "VSDM TO EPUB"

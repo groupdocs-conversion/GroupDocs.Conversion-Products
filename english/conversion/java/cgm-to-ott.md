@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:58
+date: 2022-03-01T15:10:38
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "CGM TO OTP"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "CGM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "CGM TO PDF"

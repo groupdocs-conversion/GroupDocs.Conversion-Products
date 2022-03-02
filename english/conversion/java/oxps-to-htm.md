@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:16
+date: 2022-03-01T15:17:25
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "OXPS TO GIF"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "OXPS TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "OXPS TO HTML"

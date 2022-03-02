@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:57
+date: 2022-03-01T15:18:09
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "POTX TO GIF"
           link: "https://products.groupdocs.com/conversion/java/potx-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "POTX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "POTX TO HTML"

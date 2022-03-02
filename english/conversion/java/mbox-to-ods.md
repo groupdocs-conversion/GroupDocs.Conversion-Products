@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:24
+date: 2022-03-01T15:15:25
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "MBOX TO ODP"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "MBOX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "MBOX TO ODT"

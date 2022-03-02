@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:56
+date: 2022-03-01T15:15:59
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "MPP TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "MPP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "MPP TO XPS"

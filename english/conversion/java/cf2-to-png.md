@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:52
+date: 2022-03-01T15:10:32
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "CF2 TO PDF"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "CF2 TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "CF2 TO POT"

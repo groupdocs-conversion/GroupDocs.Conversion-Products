@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:22
+date: 2022-03-01T15:11:02
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "DGN TO PSD"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DGN TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "DGN TO SVG"

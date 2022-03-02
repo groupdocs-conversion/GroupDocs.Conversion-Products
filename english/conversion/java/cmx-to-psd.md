@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:05
+date: 2022-03-01T15:10:45
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "CMX TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "CMX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "CMX TO RTF"

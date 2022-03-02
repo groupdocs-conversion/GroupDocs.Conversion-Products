@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:37
+date: 2022-03-01T15:15:38
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "MHT TO PPT"
           link: "https://products.groupdocs.com/conversion/java/mht-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "MHT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "MHT TO PPTX"

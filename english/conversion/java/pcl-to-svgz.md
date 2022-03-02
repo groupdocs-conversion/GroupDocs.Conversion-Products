@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:24
+date: 2022-03-01T15:17:34
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "PCL TO SVG"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "PCL TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "PCL TO SXC"

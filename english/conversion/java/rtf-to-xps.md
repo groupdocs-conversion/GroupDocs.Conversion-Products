@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:01
+date: 2022-03-01T15:19:18
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "RTF TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "RTF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

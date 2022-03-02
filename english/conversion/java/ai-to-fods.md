@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:33
+date: 2022-03-01T15:10:11
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "AI TO FODP"
           link: "https://products.groupdocs.com/conversion/java/ai-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "AI TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "AI TO GIF"

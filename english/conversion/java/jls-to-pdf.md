@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:32
+date: 2022-03-01T15:14:30
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "JLS TO OTT"
           link: "https://products.groupdocs.com/conversion/java/jls-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "JLS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "JLS TO PNG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:21
+date: 2022-03-01T15:14:19
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "J2C TO POT"
           link: "https://products.groupdocs.com/conversion/java/j2c-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "J2C TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "J2C TO POTX"

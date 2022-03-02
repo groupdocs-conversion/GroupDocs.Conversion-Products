@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:30
+date: 2022-03-01T15:14:28
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "JLS TO DOT"
           link: "https://products.groupdocs.com/conversion/java/jls-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "JLS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "JLS TO DOTX"

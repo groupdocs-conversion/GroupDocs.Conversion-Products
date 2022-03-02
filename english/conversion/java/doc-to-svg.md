@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:46
+date: 2022-03-01T15:11:27
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "DOC TO RTF"
           link: "https://products.groupdocs.com/conversion/java/doc-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "DOC TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DOC TO SVGZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:23
+date: 2022-03-01T15:15:24
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "MBOX TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "MBOX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "MBOX TO FODS"

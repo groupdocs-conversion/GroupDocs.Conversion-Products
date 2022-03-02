@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:49
+date: 2022-03-01T15:12:40
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "EMAIL TO SVG"
           link: "https://products.groupdocs.com/conversion/java/email-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "EMAIL TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "EMAIL TO TSV"

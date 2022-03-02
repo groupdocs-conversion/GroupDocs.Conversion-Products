@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:51
+date: 2022-03-01T15:19:08
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "PST TO MD"
           link: "https://products.groupdocs.com/conversion/java/pst-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "PST TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "PST TO MHTML"

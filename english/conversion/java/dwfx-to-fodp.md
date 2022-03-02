@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:24
+date: 2022-03-01T15:12:06
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "DWFX TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "DWFX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "DWFX TO FODS"

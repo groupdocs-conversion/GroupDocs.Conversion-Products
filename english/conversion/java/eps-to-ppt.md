@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:17
+date: 2022-03-01T15:13:12
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "EPS TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/eps-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "EPS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "EPS TO PPTM"

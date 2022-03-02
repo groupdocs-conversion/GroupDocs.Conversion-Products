@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:23
+date: 2022-03-01T15:11:03
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "DGN TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DGN TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "DGN TO TXT"

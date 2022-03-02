@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:08
+date: 2022-03-01T15:18:19
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "PPSM TO BMP"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "PPSM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "PPSM TO DCM"

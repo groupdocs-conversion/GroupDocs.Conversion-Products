@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:02
+date: 2022-03-01T15:20:24
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "VDW TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "VDW TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "VDW TO MD"

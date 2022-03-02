@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:51
+date: 2022-03-01T15:13:48
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "HTM TO PDF"
           link: "https://products.groupdocs.com/conversion/java/htm-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "HTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "HTM TO POT"

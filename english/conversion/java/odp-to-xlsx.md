@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:25
+date: 2022-03-01T15:16:31
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "ODP TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/odp-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "ODP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "ODP TO XLT"

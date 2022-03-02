@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:25
+date: 2022-03-01T15:19:47
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "TEX TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/tex-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "TEX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/tex-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "TEX TO FODS"

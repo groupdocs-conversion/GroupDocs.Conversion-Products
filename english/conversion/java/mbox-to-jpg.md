@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:24
+date: 2022-03-01T15:15:25
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "MBOX TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "MBOX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "MBOX TO MD"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:50
+date: 2022-03-01T15:14:48
 draft: false
 
 ############################# Head ############################
@@ -246,11 +246,6 @@ more_formats:
         - name: "JPEG TO ODP"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "JPEG TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "JPEG TO ODT"

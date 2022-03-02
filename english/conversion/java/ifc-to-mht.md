@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:08
+date: 2022-03-01T15:14:05
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "IFC TO MD"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "IFC TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "IFC TO MHTML"

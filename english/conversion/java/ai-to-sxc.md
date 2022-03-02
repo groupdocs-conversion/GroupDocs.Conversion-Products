@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:36
+date: 2022-03-01T15:10:14
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "AI TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/ai-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "AI TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "AI TO TEX"

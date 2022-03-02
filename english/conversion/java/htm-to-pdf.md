@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:51
+date: 2022-03-01T15:13:47
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "HTM TO OTT"
           link: "https://products.groupdocs.com/conversion/java/htm-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "HTM TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "HTM TO PNG"

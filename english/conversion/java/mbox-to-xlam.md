@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:27
+date: 2022-03-01T15:15:28
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "MBOX TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "MBOX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "MBOX TO XLS"

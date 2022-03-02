@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:39
+date: 2022-03-01T15:12:22
 draft: false
 
 ############################# Head ############################
@@ -365,11 +365,6 @@ more_formats:
         # format loop
         - name: "DWT TO TIF"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DWT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

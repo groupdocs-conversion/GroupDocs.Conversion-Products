@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:50
+date: 2022-03-01T15:12:42
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "EMF TO CSV"
           link: "https://products.groupdocs.com/conversion/java/emf-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "EMF TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "EMF TO DIF"

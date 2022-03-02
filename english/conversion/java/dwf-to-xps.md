@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:23
+date: 2022-03-01T15:12:05
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "DWF TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "DWF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

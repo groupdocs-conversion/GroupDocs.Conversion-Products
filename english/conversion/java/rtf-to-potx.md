@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:59
+date: 2022-03-01T15:19:16
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "RTF TO POTM"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-potm/"
           description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "RTF TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "RTF TO PPS"

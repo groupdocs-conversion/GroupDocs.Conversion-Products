@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:24
+date: 2022-03-01T15:12:07
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "DWFX TO FODP"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "DWFX TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "DWFX TO GIF"

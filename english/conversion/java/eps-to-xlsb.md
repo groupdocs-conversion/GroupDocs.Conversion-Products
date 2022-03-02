@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:19
+date: 2022-03-01T15:13:13
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "EPS TO XLS"
           link: "https://products.groupdocs.com/conversion/java/eps-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "EPS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "EPS TO XLSM"

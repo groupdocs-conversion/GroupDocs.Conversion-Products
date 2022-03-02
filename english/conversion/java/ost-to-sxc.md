@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:47
+date: 2022-03-01T15:16:55
 draft: false
 
 ############################# Head ############################
@@ -366,11 +366,6 @@ more_formats:
         - name: "OST TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/ost-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "OST TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "OST TO TEX"

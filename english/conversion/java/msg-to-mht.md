@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:10
+date: 2022-03-01T15:16:14
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "MSG TO MD"
           link: "https://products.groupdocs.com/conversion/java/msg-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "MSG TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MSG TO MHTML"

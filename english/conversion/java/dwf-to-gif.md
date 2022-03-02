@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:18
+date: 2022-03-01T15:12:00
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "DWF TO FODS"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "DWF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DWF TO HTM"

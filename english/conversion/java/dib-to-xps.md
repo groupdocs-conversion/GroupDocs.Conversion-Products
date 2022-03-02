@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:30
+date: 2022-03-01T15:11:10
 draft: false
 
 ############################# Head ############################
@@ -441,11 +441,6 @@ more_formats:
         - name: "DIB TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/dib-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "DIB TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

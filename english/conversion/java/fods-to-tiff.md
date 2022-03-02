@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:41
+date: 2022-03-01T15:13:37
 draft: false
 
 ############################# Head ############################
@@ -360,11 +360,6 @@ more_formats:
         # format loop
         - name: "FODS TO TIF"
           link: "https://products.groupdocs.com/conversion/java/fods-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "FODS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

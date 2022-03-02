@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:41
+date: 2022-03-01T15:20:06
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "TSV TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "TSV TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "TSV TO FODP"

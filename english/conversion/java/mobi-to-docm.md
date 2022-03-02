@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:45
+date: 2022-03-01T15:15:47
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "MOBI TO DOC"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "MOBI TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "MOBI TO DOCX"

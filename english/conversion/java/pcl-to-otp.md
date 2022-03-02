@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:23
+date: 2022-03-01T15:17:32
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "PCL TO ODT"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "PCL TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "PCL TO OTT"

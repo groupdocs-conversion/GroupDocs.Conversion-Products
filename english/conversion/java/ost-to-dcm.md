@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:43
+date: 2022-03-01T15:16:50
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "OST TO CSV"
           link: "https://products.groupdocs.com/conversion/java/ost-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "OST TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "OST TO DIF"

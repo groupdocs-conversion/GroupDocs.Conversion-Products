@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:20
+date: 2022-03-01T15:14:18
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "J2C TO ODS"
           link: "https://products.groupdocs.com/conversion/java/j2c-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "J2C TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "J2C TO OTP"

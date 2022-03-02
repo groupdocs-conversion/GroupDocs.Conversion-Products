@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:50
+date: 2022-03-01T15:15:52
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "MOBI TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "MOBI TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "MOBI TO XLS"

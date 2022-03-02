@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:45
+date: 2022-03-01T15:17:55
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "PNG TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/png-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "PNG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/png-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:54
+date: 2022-03-01T15:10:34
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "CF2 TO TXT"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "CF2 TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "CF2 TO WMF"

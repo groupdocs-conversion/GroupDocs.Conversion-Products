@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:43
+date: 2022-03-01T15:12:27
 draft: false
 
 ############################# Head ############################
@@ -245,11 +245,6 @@ more_formats:
         # format loop
         - name: "DXF TO MHT"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "DXF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

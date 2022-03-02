@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:39
+date: 2022-03-01T15:20:03
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "TIFF TO TSV"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "TIFF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "TIFF TO WEBP"

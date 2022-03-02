@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:21
+date: 2022-03-01T15:12:03
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "DWF TO PPT"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "DWF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "DWF TO PPTX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:06
+date: 2022-03-01T15:17:15
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "OTS TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/ots-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "OTS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "OTS TO XLT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:04
+date: 2022-03-01T15:16:08
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "MPX TO MD"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "MPX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MPX TO MHTML"

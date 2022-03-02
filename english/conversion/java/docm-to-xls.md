@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:53
+date: 2022-03-01T15:11:35
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "DOCM TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/docm-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "DOCM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "DOCM TO XLSB"

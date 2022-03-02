@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:09
+date: 2022-03-01T15:18:21
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "PPSM TO HTML"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "PPSM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "PPSM TO JP2"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:38
+date: 2022-03-01T15:13:34
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "FODS TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/fods-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "FODS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "FODS TO FODP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:24
+date: 2022-03-01T15:11:05
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "DIB TO BMP"
           link: "https://products.groupdocs.com/conversion/java/dib-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "DIB TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "DIB TO DCM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:42
+date: 2022-03-01T15:10:21
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "BMP TO WMF"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "BMP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "BMP TO XLAM"

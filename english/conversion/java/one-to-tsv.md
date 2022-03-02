@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:41
+date: 2022-03-01T15:16:49
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "ONE TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/one-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "ONE TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/one-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "ONE TO TXT"

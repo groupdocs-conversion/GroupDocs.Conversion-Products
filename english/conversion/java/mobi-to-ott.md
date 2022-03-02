@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:47
+date: 2022-03-01T15:15:50
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "MOBI TO OTP"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "MOBI TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "MOBI TO PDF"

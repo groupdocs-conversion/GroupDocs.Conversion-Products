@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:51
+date: 2022-03-01T15:20:16
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "TXT TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/txt-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "TXT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/txt-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "TXT TO XLSX"

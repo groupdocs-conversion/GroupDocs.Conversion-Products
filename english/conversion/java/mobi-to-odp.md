@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:47
+date: 2022-03-01T15:15:49
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "MOBI TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/mobi-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "MOBI TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "MOBI TO ODS"

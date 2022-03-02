@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:00
+date: 2022-03-01T15:13:57
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "ICO TO CSV"
           link: "https://products.groupdocs.com/conversion/java/ico-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "ICO TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "ICO TO DIF"

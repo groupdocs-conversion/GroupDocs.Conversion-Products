@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:42
+date: 2022-03-01T15:16:50
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "ONE TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/one-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "ONE TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/one-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "ONE TO XLTM"

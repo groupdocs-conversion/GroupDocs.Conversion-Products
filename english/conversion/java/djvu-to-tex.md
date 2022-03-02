@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:35
+date: 2022-03-01T15:11:15
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "DJVU TO SXC"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "DJVU TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "DJVU TO TIF"

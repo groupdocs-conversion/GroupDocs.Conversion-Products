@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:54
+date: 2022-03-01T15:17:02
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "OTG TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/otg-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "OTG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "OTG TO XLSX"

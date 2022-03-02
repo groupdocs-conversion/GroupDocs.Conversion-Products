@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:06
+date: 2022-03-01T15:15:05
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "JPM TO FODS"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "JPM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "JPM TO HTM"

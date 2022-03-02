@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:27
+date: 2022-03-01T15:11:08
 draft: false
 
 ############################# Head ############################
@@ -306,11 +306,6 @@ more_formats:
         - name: "DIB TO POTX"
           link: "https://products.groupdocs.com/conversion/java/dib-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "DIB TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "DIB TO PPSM"

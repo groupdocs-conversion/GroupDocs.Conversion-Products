@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:43
+date: 2022-03-01T15:11:23
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "DOC TO DNG"
           link: "https://products.groupdocs.com/conversion/java/doc-to-dng/"
           description: "Digital Camera Image Format"
-
-        # format loop
-        - name: "DOC TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DOC TO DOCX"

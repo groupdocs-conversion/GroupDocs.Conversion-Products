@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:54
+date: 2022-03-01T15:19:11
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "PST TO SXC"
           link: "https://products.groupdocs.com/conversion/java/pst-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "PST TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "PST TO TIF"

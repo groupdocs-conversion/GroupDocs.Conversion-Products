@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:47
+date: 2022-03-01T15:20:40
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "VSD TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "VSD TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "VSD TO XLSX"

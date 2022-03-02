@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:13
+date: 2022-03-01T15:17:22
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "OUTLOOK TO PSD"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "OUTLOOK TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "OUTLOOK TO TSV"

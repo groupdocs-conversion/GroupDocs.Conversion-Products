@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:30
+date: 2022-03-01T15:16:36
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "ODS TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/ods-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "ODS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ods-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "ODS TO XLS"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:20
+date: 2022-03-01T15:16:25
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "ODG TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/odg-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "ODG TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "ODG TO XLTM"

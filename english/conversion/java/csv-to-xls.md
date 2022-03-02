@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:12
+date: 2022-03-01T15:10:52
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "CSV TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/csv-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "CSV TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "CSV TO XLSB"

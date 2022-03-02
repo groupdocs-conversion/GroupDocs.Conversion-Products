@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:32
+date: 2022-03-01T15:18:46
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "PPTX TO JP2"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "PPTX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "PPTX TO JPG"

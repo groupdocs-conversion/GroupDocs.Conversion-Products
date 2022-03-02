@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:51
+date: 2022-03-01T15:12:42
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "EMF TO DIF"
           link: "https://products.groupdocs.com/conversion/java/emf-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "EMF TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "EMF TO DOCM"

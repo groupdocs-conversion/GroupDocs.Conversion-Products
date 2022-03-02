@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:16
+date: 2022-03-01T15:17:25
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "OXPS TO MD"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "OXPS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "OXPS TO MHTML"

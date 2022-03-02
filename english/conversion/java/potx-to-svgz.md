@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:00
+date: 2022-03-01T15:18:12
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "POTX TO SVG"
           link: "https://products.groupdocs.com/conversion/java/potx-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "POTX TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "POTX TO SXC"

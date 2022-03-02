@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:51
+date: 2022-03-01T15:19:07
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "PST TO ICO"
           link: "https://products.groupdocs.com/conversion/java/pst-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "PST TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "PST TO JPEG"

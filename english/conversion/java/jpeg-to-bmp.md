@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:48
+date: 2022-03-01T15:14:46
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert JPEG into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "JPEG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "JPEG TO DCM"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-dcm/"

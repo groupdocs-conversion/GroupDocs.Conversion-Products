@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:21
+date: 2022-03-01T15:16:27
 draft: false
 
 ############################# Head ############################
@@ -171,11 +171,6 @@ more_formats:
         - name: "ODP TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/odp-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "ODP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "ODP TO EMF"

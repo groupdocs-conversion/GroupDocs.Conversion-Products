@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:43
+date: 2022-03-01T15:10:22
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "BMP TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "BMP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "BMP TO XPS"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:35
+date: 2022-03-01T15:10:13
 draft: false
 
 ############################# Head ############################
@@ -305,11 +305,6 @@ more_formats:
         # format loop
         - name: "AI TO PPS"
           link: "https://products.groupdocs.com/conversion/java/ai-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "AI TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

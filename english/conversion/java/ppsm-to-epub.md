@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:09
+date: 2022-03-01T15:18:20
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "PPSM TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "PPSM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "PPSM TO FODP"

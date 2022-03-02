@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:59
+date: 2022-03-01T15:16:02
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "MPT TO ODS"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "MPT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "MPT TO OTP"

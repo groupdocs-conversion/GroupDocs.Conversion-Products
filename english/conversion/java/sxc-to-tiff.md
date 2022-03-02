@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:22
+date: 2022-03-01T15:19:44
 draft: false
 
 ############################# Head ############################
@@ -360,11 +360,6 @@ more_formats:
         # format loop
         - name: "SXC TO TIF"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "SXC TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:11
+date: 2022-03-01T15:16:15
 draft: false
 
 ############################# Head ############################
@@ -306,11 +306,6 @@ more_formats:
         - name: "MSG TO POTM"
           link: "https://products.groupdocs.com/conversion/java/msg-to-potm/"
           description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "MSG TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "MSG TO PPS"

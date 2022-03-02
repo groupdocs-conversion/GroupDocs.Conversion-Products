@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:51
+date: 2022-03-01T15:14:49
 draft: false
 
 ############################# Head ############################
@@ -306,11 +306,6 @@ more_formats:
         - name: "JPEG TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "JPEG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "JPEG TO PPTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:34
+date: 2022-03-01T15:20:36
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "VSD TO FODS"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "VSD TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "VSD TO HTM"

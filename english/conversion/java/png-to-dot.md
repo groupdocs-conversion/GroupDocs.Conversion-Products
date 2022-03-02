@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:40
+date: 2022-03-01T15:17:50
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "PNG TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/png-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "PNG TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/png-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "PNG TO DOTM"

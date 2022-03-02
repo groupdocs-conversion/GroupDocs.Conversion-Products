@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:26
+date: 2022-03-01T15:14:24
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "J2K TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "J2K TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "J2K TO ODS"

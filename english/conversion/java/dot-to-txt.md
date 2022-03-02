@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:04
+date: 2022-03-01T15:11:46
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "DOT TO TSV"
           link: "https://products.groupdocs.com/conversion/java/dot-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "DOT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "DOT TO WEBP"

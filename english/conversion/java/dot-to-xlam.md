@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:05
+date: 2022-03-01T15:11:46
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "DOT TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/dot-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "DOT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DOT TO XLS"

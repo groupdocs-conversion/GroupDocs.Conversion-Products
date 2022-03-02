@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:04
+date: 2022-03-01T15:10:44
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "CMX TO PNG"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "CMX TO POT"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "CMX TO POTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:05
+date: 2022-03-01T15:16:08
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "MPX TO ODT"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "MPX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "MPX TO OTT"

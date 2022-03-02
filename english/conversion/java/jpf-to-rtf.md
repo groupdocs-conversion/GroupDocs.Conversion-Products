@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:57
+date: 2022-03-01T15:14:56
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "JPF TO PSD"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "JPF TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "JPF TO SVG"

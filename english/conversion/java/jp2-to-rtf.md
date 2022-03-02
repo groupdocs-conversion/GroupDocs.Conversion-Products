@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:40
+date: 2022-03-01T15:14:37
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "JP2 TO PSD"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "JP2 TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "JP2 TO SVG"

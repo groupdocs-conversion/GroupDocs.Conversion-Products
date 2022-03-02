@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:09
+date: 2022-03-01T15:14:07
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "IFC TO PPT"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "IFC TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "IFC TO PPTX"

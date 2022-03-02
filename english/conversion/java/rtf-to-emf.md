@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:56
+date: 2022-03-01T15:19:13
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "RTF TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "RTF TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "RTF TO EMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:03
+date: 2022-03-01T15:19:20
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "STL TO MD"
           link: "https://products.groupdocs.com/conversion/java/stl-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "STL TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "STL TO MHTML"

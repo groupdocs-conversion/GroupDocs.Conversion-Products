@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:16
+date: 2022-03-01T15:16:20
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "ODG TO FODP"
           link: "https://products.groupdocs.com/conversion/java/odg-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "ODG TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "ODG TO GIF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:08
+date: 2022-03-01T15:13:01
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "EMLX TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "EMLX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "EMLX TO XLS"

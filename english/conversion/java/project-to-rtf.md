@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:37
+date: 2022-03-01T15:18:52
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "PROJECT TO PPT"
           link: "https://products.groupdocs.com/conversion/java/project-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "PROJECT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/project-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "PROJECT TO SVG"

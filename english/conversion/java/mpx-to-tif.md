@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:06
+date: 2022-03-01T15:16:10
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "MPX TO TEX"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "MPX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "MPX TO TIFF"

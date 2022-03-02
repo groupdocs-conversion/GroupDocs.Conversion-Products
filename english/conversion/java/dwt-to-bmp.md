@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:35
+date: 2022-03-01T15:12:18
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert DWT into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "DWT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "DWT TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-csv/"

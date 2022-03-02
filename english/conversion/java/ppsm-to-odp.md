@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:10
+date: 2022-03-01T15:18:22
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "PPSM TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/ppsm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "PPSM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/ppsm-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PPSM TO ODS"

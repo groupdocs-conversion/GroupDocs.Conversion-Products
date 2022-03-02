@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:12
+date: 2022-03-01T15:10:52
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "CSV TO WMF"
           link: "https://products.groupdocs.com/conversion/java/csv-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "CSV TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "CSV TO XLAM"

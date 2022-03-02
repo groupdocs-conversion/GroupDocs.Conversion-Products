@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:25
+date: 2022-03-01T15:17:35
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "PCL TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "PCL TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "PCL TO XLS"

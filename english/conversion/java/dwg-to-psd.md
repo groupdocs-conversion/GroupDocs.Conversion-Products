@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:33
+date: 2022-03-01T15:12:15
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "DWG TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "DWG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DWG TO RTF"

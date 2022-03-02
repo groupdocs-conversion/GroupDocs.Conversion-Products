@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:16
+date: 2022-03-01T15:11:58
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "DOTX TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "DOTX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "DOTX TO XLSX"

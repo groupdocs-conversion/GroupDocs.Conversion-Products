@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:52
+date: 2022-03-01T15:15:54
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "MPP TO GIF"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "MPP TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "MPP TO HTML"

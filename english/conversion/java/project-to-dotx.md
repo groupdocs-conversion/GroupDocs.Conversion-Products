@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:36
+date: 2022-03-01T15:18:50
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "PROJECT TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/project-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "PROJECT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/project-to-dotx/"
-          description: "Word Open XML Document Template"
 
         # format loop
         - name: "PROJECT TO EMF"

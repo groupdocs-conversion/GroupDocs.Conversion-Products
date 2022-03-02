@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:10
+date: 2022-03-01T15:13:03
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "EMZ TO HTM"
           link: "https://products.groupdocs.com/conversion/java/emz-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "EMZ TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "EMZ TO ICO"

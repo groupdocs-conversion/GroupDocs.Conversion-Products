@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:53
+date: 2022-03-01T15:10:32
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "CF2 TO PPT"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "CF2 TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "CF2 TO PPTX"

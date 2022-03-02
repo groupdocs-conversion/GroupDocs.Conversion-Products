@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:02
+date: 2022-03-01T15:10:42
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "CMX TO DOT"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "CMX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "CMX TO DOTX"

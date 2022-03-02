@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:34
+date: 2022-03-01T15:14:33
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "JLS TO XLS"
           link: "https://products.groupdocs.com/conversion/java/jls-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "JLS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "JLS TO XLSM"

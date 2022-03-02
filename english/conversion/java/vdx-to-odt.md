@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:17
+date: 2022-03-01T15:20:31
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "VDX TO ODS"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-ods/"
           description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "VDX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "VDX TO OTP"

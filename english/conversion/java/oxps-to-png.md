@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:17
+date: 2022-03-01T15:17:26
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "OXPS TO PDF"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "OXPS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "OXPS TO POT"

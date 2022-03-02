@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:39
+date: 2022-03-01T15:17:50
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "PNG TO DJVU"
           link: "https://products.groupdocs.com/conversion/java/png-to-djvu/"
           description: "Graphics File format"
-
-        # format loop
-        - name: "PNG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/png-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "PNG TO DOCM"

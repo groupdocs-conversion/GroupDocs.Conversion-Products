@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:13
+date: 2022-03-01T15:10:53
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "DCM TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dcm-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "DCM TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dcm-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "DCM TO DOC"

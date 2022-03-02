@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:37
+date: 2022-03-01T15:18:52
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "PROJECT TO SVG"
           link: "https://products.groupdocs.com/conversion/java/project-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "PROJECT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/project-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "PROJECT TO TIF"

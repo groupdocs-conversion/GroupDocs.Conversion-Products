@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:45
+date: 2022-03-01T15:20:09
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "TSV TO TEX"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "TSV TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "TSV TO TIFF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:42
+date: 2022-03-01T15:10:21
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "BMP TO SXC"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "BMP TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "BMP TO TIF"

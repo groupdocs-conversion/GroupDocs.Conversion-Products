@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:54
+date: 2022-03-01T15:15:57
 draft: false
 
 ############################# Head ############################
@@ -310,11 +310,6 @@ more_formats:
         # format loop
         - name: "MPP TO PPS"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "MPP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

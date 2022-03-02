@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:14
+date: 2022-03-01T15:16:19
 draft: false
 
 ############################# Head ############################
@@ -446,11 +446,6 @@ more_formats:
         - name: "MSG TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/msg-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "MSG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

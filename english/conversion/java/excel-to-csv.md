@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:25
+date: 2022-03-01T15:13:20
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "EXCEL TO BMP"
           link: "https://products.groupdocs.com/conversion/java/excel-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "EXCEL TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "EXCEL TO DIF"

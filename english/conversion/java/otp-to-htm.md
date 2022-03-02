@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:56
+date: 2022-03-01T15:17:05
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "OTP TO GIF"
           link: "https://products.groupdocs.com/conversion/java/otp-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "OTP TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "OTP TO HTML"

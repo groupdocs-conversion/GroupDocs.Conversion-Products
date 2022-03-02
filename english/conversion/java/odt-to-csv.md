@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:31
+date: 2022-03-01T15:16:37
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "ODT TO BMP"
           link: "https://products.groupdocs.com/conversion/java/odt-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "ODT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "ODT TO DCM"

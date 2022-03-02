@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:55
+date: 2022-03-01T15:17:04
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "OTP TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/otp-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "OTP TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "OTP TO DOT"

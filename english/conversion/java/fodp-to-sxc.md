@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:36
+date: 2022-03-01T15:13:31
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "FODP TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "FODP TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "FODP TO TEX"

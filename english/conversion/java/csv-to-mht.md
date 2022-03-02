@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:09
+date: 2022-03-01T15:10:49
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "CSV TO MD"
           link: "https://products.groupdocs.com/conversion/java/csv-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "CSV TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "CSV TO MHTML"

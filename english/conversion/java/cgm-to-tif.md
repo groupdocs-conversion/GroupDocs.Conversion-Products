@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:00
+date: 2022-03-01T15:10:39
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "CGM TO TEX"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "CGM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "CGM TO TIFF"

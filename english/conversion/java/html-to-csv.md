@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:54
+date: 2022-03-01T15:13:51
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "HTML TO BMP"
           link: "https://products.groupdocs.com/conversion/java/html-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "HTML TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/html-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "HTML TO DCM"

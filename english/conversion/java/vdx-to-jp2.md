@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:15
+date: 2022-03-01T15:20:30
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "VDX TO ICO"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "VDX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "VDX TO JPEG"

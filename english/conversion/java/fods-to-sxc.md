@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:41
+date: 2022-03-01T15:13:37
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "FODS TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/fods-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "FODS TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "FODS TO TEX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:03
+date: 2022-03-01T15:18:15
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "PPS TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/pps-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "PPS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "PPS TO FODP"

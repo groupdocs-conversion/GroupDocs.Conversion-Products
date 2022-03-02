@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:31
+date: 2022-03-01T15:11:11
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "DJVU TO DOC"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "DJVU TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DJVU TO DOCX"

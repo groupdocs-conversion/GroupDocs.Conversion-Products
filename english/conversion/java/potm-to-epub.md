@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:51
+date: 2022-03-01T15:18:02
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "POTM TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/potm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "POTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "POTM TO FODP"

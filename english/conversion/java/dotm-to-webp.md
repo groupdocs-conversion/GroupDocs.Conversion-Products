@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:10
+date: 2022-03-01T15:11:52
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "DOTM TO TXT"
           link: "https://products.groupdocs.com/conversion/java/dotm-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "DOTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "DOTM TO WMF"

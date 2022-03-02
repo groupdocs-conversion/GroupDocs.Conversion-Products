@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:58
+date: 2022-03-01T15:11:39
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "DOCX TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/docx-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DOCX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/docx-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "DOCX TO TEX"

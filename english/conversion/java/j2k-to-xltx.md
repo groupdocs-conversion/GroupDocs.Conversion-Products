@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:29
+date: 2022-03-01T15:14:27
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "J2K TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "J2K TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "J2K TO XPS"

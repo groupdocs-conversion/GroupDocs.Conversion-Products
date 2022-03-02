@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:46
+date: 2022-03-01T15:14:44
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "JPC TO TEX"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "JPC TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "JPC TO TIFF"

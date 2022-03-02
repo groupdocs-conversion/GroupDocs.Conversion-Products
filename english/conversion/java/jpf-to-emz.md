@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:54
+date: 2022-03-01T15:14:52
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "JPF TO EMF"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "JPF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "JPF TO EPUB"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:14
+date: 2022-03-01T15:17:23
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "OUTLOOK TO TSV"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "OUTLOOK TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "OUTLOOK TO WEBP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:22
+date: 2022-03-01T15:20:32
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "VDX TO RTF"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "VDX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "VDX TO SVGZ"

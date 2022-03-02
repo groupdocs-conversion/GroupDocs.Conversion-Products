@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:33
+date: 2022-03-01T15:11:12
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "DJVU TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "DJVU TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DJVU TO MD"

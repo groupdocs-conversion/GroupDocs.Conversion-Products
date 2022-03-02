@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:59
+date: 2022-03-01T15:11:41
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "DOCX TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/docx-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "DOCX TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/docx-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "DOCX TO XLTM"

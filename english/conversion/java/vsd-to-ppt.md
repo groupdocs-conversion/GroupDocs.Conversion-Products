@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:41
+date: 2022-03-01T15:20:38
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "VSD TO PPSX"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-ppsx/"
           description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "VSD TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-ppt/"
-          description: "PowerPoint Presentation"
 
         # format loop
         - name: "VSD TO PPTM"

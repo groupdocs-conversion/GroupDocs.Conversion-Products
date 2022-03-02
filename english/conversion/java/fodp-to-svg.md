@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:35
+date: 2022-03-01T15:13:31
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "FODP TO RTF"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "FODP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "FODP TO SVGZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:39
+date: 2022-03-01T15:11:19
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "DNG TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/dng-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "DNG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "DNG TO ODS"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:09
+date: 2022-03-01T15:10:49
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "CSV TO ICO"
           link: "https://products.groupdocs.com/conversion/java/csv-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "CSV TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "CSV TO JPEG"

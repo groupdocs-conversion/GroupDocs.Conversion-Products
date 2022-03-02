@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:18
+date: 2022-03-01T15:13:12
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "EPS TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/eps-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "EPS TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "EPS TO TEX"

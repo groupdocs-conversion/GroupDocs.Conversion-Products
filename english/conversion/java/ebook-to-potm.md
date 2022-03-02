@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:46
+date: 2022-03-01T15:12:35
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "EBOOK TO PDF"
           link: "https://products.groupdocs.com/conversion/java/ebook-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "EBOOK TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "EBOOK TO POTX"

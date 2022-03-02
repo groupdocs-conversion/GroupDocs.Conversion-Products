@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:11
+date: 2022-03-01T15:14:09
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "IFC TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "IFC TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "IFC TO XLSX"

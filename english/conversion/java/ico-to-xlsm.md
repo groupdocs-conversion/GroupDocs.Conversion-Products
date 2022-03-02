@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:05
+date: 2022-03-01T15:14:03
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "ICO TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/ico-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "ICO TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "ICO TO XLSX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:23
+date: 2022-03-01T15:15:24
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "MBOX TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "MBOX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "MBOX TO EMZ"

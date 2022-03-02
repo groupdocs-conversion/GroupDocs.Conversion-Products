@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:05
+date: 2022-03-01T15:15:04
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert JPM into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "JPM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "JPM TO CSV"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-csv/"

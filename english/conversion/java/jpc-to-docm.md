@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:42
+date: 2022-03-01T15:14:40
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "JPC TO DOC"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "JPC TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "JPC TO DOCX"

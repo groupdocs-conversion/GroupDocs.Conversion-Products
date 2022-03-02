@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:35
+date: 2022-03-01T15:19:59
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "TIFF TO DIF"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "TIFF TO DJVU"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-djvu/"
-          description: "Graphics File format"
 
         # format loop
         - name: "TIFF TO DOC"

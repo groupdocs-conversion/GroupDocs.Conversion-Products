@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:18
+date: 2022-03-01T15:10:59
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert DGN into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "DGN TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "DGN TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-csv/"

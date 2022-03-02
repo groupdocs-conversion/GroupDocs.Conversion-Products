@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:04
+date: 2022-03-01T15:10:44
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "CMX TO OTP"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "CMX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "CMX TO PDF"

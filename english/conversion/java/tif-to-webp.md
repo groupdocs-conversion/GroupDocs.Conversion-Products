@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:34
+date: 2022-03-01T15:19:57
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "TIF TO TXT"
           link: "https://products.groupdocs.com/conversion/java/tif-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "TIF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/tif-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "TIF TO WMF"

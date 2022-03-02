@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:49
+date: 2022-03-01T15:19:05
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "PST TO CSV"
           link: "https://products.groupdocs.com/conversion/java/pst-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "PST TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "PST TO DIF"

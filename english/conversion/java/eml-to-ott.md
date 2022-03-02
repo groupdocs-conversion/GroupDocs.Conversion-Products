@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:59
+date: 2022-03-01T15:12:51
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "EML TO OTP"
           link: "https://products.groupdocs.com/conversion/java/eml-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "EML TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "EML TO PDF"

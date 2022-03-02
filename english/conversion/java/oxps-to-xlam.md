@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:19
+date: 2022-03-01T15:17:28
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "OXPS TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "OXPS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "OXPS TO XLS"

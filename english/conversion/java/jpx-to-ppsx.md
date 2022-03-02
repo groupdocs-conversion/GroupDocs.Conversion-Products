@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:14
+date: 2022-03-01T15:15:14
 draft: false
 
 ############################# Head ############################
@@ -311,11 +311,6 @@ more_formats:
         - name: "JPX TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "JPX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "JPX TO PPT"

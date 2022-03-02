@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:12
+date: 2022-03-01T15:17:21
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "OUTLOOK TO DOC"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "OUTLOOK TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "OUTLOOK TO DOTX"

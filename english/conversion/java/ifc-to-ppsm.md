@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:09
+date: 2022-03-01T15:14:07
 draft: false
 
 ############################# Head ############################
@@ -305,11 +305,6 @@ more_formats:
         # format loop
         - name: "IFC TO PPS"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "IFC TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop

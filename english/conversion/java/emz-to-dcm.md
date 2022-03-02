@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:09
+date: 2022-03-01T15:13:02
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "EMZ TO CSV"
           link: "https://products.groupdocs.com/conversion/java/emz-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "EMZ TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "EMZ TO DIF"

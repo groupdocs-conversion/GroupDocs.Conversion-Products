@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:20
+date: 2022-03-01T15:19:42
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "SXC TO OTP"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-otp/"
           description: "Origin Graph Template"
-
-        # format loop
-        - name: "SXC TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-ott/"
-          description: "Open Document Template"
 
         # format loop
         - name: "SXC TO PDF"

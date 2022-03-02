@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:42
+date: 2022-03-01T15:18:58
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "PS TO WMF"
           link: "https://products.groupdocs.com/conversion/java/ps-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "PS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ps-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "PS TO XLAM"

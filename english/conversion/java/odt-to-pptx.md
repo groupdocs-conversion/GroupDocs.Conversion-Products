@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:35
+date: 2022-03-01T15:16:41
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "ODT TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/odt-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "ODT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "ODT TO PSD"

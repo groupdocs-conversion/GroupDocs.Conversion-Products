@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:23
+date: 2022-03-01T15:14:21
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "J2C TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/j2c-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "J2C TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "J2C TO XLSB"

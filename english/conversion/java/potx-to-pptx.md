@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:00
+date: 2022-03-01T15:18:11
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "POTX TO PPTM"
           link: "https://products.groupdocs.com/conversion/java/potx-to-pptm/"
           description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "POTX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/potx-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "POTX TO PSD"

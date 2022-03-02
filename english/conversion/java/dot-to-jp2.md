@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:01
+date: 2022-03-01T15:11:43
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "DOT TO ICO"
           link: "https://products.groupdocs.com/conversion/java/dot-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "DOT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DOT TO JPEG"

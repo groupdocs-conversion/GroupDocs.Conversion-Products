@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:41
+date: 2022-03-01T15:13:36
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "FODS TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/fods-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "FODS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "FODS TO RTF"

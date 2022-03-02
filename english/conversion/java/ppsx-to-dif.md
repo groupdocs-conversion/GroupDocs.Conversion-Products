@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:13
+date: 2022-03-01T15:18:27
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "PPSX TO DCM"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "PPSX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "PPSX TO DOC"

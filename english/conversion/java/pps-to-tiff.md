@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:06
+date: 2022-03-01T15:18:18
 draft: false
 
 ############################# Head ############################
@@ -360,11 +360,6 @@ more_formats:
         # format loop
         - name: "PPS TO TIF"
           link: "https://products.groupdocs.com/conversion/java/pps-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "PPS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

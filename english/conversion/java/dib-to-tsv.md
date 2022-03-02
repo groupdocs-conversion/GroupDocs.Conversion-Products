@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:29
+date: 2022-03-01T15:11:09
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "DIB TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/dib-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DIB TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "DIB TO TXT"

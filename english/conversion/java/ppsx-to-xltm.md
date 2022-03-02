@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:18
+date: 2022-03-01T15:18:32
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "PPSX TO XLT"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "PPSX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "PPSX TO XLTX"

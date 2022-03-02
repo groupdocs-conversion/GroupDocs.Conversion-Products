@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:55
+date: 2022-03-01T15:14:54
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "JPF TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "JPF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "JPF TO ODS"

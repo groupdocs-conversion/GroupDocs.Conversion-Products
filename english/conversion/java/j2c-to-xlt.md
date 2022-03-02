@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:23
+date: 2022-03-01T15:14:21
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "J2C TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/j2c-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "J2C TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "J2C TO XLTM"

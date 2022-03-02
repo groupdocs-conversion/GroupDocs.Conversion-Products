@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:03
+date: 2022-03-01T15:20:25
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "VDW TO POT"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "VDW TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "VDW TO POTX"

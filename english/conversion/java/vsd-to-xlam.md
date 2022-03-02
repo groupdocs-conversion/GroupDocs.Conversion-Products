@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:46
+date: 2022-03-01T15:20:39
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "VSD TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "VSD TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "VSD TO XLS"

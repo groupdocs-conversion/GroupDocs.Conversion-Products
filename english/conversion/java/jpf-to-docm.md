@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:53
+date: 2022-03-01T15:14:52
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "JPF TO DOC"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "JPF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "JPF TO DOCX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:07
+date: 2022-03-01T15:19:24
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "STL TO XLT"
           link: "https://products.groupdocs.com/conversion/java/stl-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "STL TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "STL TO XLTX"

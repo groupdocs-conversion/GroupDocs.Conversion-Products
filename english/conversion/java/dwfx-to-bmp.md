@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:23
+date: 2022-03-01T15:12:05
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert DWFX into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "DWFX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "DWFX TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-csv/"

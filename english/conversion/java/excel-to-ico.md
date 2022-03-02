@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:27
+date: 2022-03-01T15:13:22
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "EXCEL TO HTML"
           link: "https://products.groupdocs.com/conversion/java/excel-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "EXCEL TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "EXCEL TO JP2"

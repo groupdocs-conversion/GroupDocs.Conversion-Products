@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:17
+date: 2022-03-01T15:14:15
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "IMAGE TO ICO"
           link: "https://products.groupdocs.com/conversion/java/image-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "IMAGE TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/image-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "IMAGE TO MHTML"

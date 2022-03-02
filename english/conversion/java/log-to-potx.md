@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:19
+date: 2022-03-01T15:15:20
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "LOG TO POTM"
           link: "https://products.groupdocs.com/conversion/java/log-to-potm/"
           description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "LOG TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/log-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "LOG TO PPS"

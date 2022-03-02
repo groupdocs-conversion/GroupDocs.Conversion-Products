@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:04
+date: 2022-03-01T15:14:01
 draft: false
 
 ############################# Head ############################
@@ -351,11 +351,6 @@ more_formats:
         - name: "ICO TO SXC"
           link: "https://products.groupdocs.com/conversion/java/ico-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "ICO TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "ICO TO TIF"

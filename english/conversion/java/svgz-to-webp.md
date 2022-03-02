@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:17
+date: 2022-03-01T15:19:37
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "SVGZ TO TXT"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "SVGZ TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "SVGZ TO WMF"

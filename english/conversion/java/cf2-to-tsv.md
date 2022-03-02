@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:54
+date: 2022-03-01T15:10:33
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "CF2 TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "CF2 TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "CF2 TO TXT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:55
+date: 2022-03-01T15:19:12
 draft: false
 
 ############################# Head ############################
@@ -456,11 +456,6 @@ more_formats:
         - name: "PST TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/pst-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "PST TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/pst-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "PST TO XPS"

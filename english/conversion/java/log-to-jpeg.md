@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:18
+date: 2022-03-01T15:15:19
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "LOG TO JP2"
           link: "https://products.groupdocs.com/conversion/java/log-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "LOG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/log-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "LOG TO JPG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:05
+date: 2022-03-01T15:19:22
 draft: false
 
 ############################# Head ############################
@@ -331,11 +331,6 @@ more_formats:
         - name: "STL TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/stl-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "STL TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/stl-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "STL TO RTF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:55
+date: 2022-03-01T15:17:03
 draft: false
 
 ############################# Head ############################
@@ -136,11 +136,6 @@ more_formats:
         - name: "OTP TO CSV"
           link: "https://products.groupdocs.com/conversion/java/otp-to-csv/"
           description: "Comma Separated Values File"
-
-        # format loop
-        - name: "OTP TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-dcm/"
-          description: "DICOM Image"
 
         # format loop
         - name: "OTP TO DIF"

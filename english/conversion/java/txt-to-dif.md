@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:46
+date: 2022-03-01T15:20:11
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "TXT TO DCM"
           link: "https://products.groupdocs.com/conversion/java/txt-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "TXT TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/txt-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "TXT TO DOC"

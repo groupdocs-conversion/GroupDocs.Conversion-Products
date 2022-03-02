@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:30
+date: 2022-03-01T15:13:25
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "EXCEL TO SXC"
           link: "https://products.groupdocs.com/conversion/java/excel-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "EXCEL TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "EXCEL TO TIF"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:07
+date: 2022-03-01T15:15:07
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "JPM TO ODT"
           link: "https://products.groupdocs.com/conversion/java/jpm-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "JPM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "JPM TO OTT"

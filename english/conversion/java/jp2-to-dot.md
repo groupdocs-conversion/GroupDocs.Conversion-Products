@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:36
+date: 2022-03-01T15:14:34
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "JP2 TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "JP2 TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "JP2 TO DOTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:09
+date: 2022-03-01T15:13:03
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "EMZ TO EMF"
           link: "https://products.groupdocs.com/conversion/java/emz-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "EMZ TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "EMZ TO FODP"

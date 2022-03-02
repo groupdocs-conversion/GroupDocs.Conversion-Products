@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:50
+date: 2022-03-01T15:18:01
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "POT TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/pot-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "POT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "POT TO XPS"

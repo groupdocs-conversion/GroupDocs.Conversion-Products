@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:38
+date: 2022-03-01T15:20:02
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "TIFF TO PDF"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "TIFF TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "TIFF TO POT"

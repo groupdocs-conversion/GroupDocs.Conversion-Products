@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:32
+date: 2022-03-01T15:10:10
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "AI TO DOC"
           link: "https://products.groupdocs.com/conversion/java/ai-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "AI TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "AI TO DOCX"

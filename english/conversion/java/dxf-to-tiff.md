@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:45
+date: 2022-03-01T15:12:32
 draft: false
 
 ############################# Head ############################
@@ -365,11 +365,6 @@ more_formats:
         # format loop
         - name: "DXF TO TIF"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DXF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

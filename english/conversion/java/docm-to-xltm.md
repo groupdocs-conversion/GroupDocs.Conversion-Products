@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:54
+date: 2022-03-01T15:11:35
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "DOCM TO XLT"
           link: "https://products.groupdocs.com/conversion/java/docm-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "DOCM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "DOCM TO XLTX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:16
+date: 2022-03-01T15:13:10
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "EPS TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/eps-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "EPS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "EPS TO ODS"

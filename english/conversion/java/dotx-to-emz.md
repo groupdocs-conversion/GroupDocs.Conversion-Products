@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:12
+date: 2022-03-01T15:11:54
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "DOTX TO EMF"
           link: "https://products.groupdocs.com/conversion/java/dotx-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "DOTX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DOTX TO EPUB"

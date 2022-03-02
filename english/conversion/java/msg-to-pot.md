@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:11
+date: 2022-03-01T15:16:15
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "MSG TO PNG"
           link: "https://products.groupdocs.com/conversion/java/msg-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "MSG TO POT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "MSG TO POTM"

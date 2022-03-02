@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:41
+date: 2022-03-01T15:10:19
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "BMP TO POT"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "BMP TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "BMP TO POTX"

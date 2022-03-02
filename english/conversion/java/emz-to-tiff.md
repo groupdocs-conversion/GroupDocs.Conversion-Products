@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:13
+date: 2022-03-01T15:13:06
 draft: false
 
 ############################# Head ############################
@@ -360,11 +360,6 @@ more_formats:
         # format loop
         - name: "EMZ TO TIF"
           link: "https://products.groupdocs.com/conversion/java/emz-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "EMZ TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

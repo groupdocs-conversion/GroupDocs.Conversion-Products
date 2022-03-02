@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:04
+date: 2022-03-01T15:14:01
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "ICO TO RTF"
           link: "https://products.groupdocs.com/conversion/java/ico-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "ICO TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "ICO TO SVGZ"

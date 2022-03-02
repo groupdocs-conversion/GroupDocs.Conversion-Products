@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:41
+date: 2022-03-01T15:17:52
 draft: false
 
 ############################# Head ############################
@@ -256,11 +256,6 @@ more_formats:
         - name: "PNG TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/png-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "PNG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/png-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "PNG TO ODS"

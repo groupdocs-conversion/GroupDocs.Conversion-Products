@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:42
+date: 2022-03-01T15:20:06
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "TSV TO FODS"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "TSV TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "TSV TO HTM"

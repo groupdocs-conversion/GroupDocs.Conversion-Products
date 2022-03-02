@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:26
+date: 2022-03-01T15:17:36
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "PCL TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "PCL TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

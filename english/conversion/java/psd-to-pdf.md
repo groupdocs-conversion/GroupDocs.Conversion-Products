@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:46
+date: 2022-03-01T15:19:02
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "PSD TO OTT"
           link: "https://products.groupdocs.com/conversion/java/psd-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "PSD TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "PSD TO PNG"

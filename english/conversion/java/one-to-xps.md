@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:42
+date: 2022-03-01T15:16:50
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "ONE TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/one-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "ONE TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/one-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

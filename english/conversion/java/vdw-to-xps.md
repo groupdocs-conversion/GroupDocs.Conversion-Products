@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:08
+date: 2022-03-01T15:20:28
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "VDW TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "VDW TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

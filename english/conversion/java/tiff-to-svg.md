@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:39
+date: 2022-03-01T15:20:03
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "TIFF TO RTF"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "TIFF TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "TIFF TO SVGZ"

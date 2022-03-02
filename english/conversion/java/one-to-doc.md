@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:37
+date: 2022-03-01T15:16:44
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "ONE TO DIF"
           link: "https://products.groupdocs.com/conversion/java/one-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "ONE TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/one-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "ONE TO DOCM"

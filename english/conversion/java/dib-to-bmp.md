@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:24
+date: 2022-03-01T15:11:04
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert DIB into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "DIB TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "DIB TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dib-to-csv/"

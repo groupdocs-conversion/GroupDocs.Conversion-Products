@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:09
+date: 2022-03-01T15:19:27
 draft: false
 
 ############################# Head ############################
@@ -245,11 +245,6 @@ more_formats:
         # format loop
         - name: "SVG TO MHT"
           link: "https://products.groupdocs.com/conversion/java/svg-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "SVG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop

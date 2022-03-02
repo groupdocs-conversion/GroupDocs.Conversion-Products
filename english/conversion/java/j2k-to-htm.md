@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:25
+date: 2022-03-01T15:14:23
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "J2K TO GIF"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "J2K TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "J2K TO HTML"

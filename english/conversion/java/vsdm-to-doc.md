@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:50
+date: 2022-03-01T15:20:41
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "VSDM TO DIF"
           link: "https://products.groupdocs.com/conversion/java/vsdm-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "VSDM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/vsdm-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "VSDM TO DOCM"

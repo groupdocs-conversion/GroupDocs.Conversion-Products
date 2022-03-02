@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:08
+date: 2022-03-01T15:13:01
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "EMLX TO XLS2003"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-xls2003/"
           description: "Microsoft Excel Spreadsheet"
-
-        # format loop
-        - name: "EMLX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "EMLX TO XLSM"

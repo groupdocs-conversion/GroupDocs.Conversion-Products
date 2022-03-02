@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:44
+date: 2022-03-01T15:20:08
 draft: false
 
 ############################# Head ############################
@@ -321,11 +321,6 @@ more_formats:
         - name: "TSV TO PPT"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-ppt/"
           description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "TSV TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "TSV TO PPTX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:41
+date: 2022-03-01T15:11:21
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "DNG TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/dng-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "DNG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DNG TO XLS"

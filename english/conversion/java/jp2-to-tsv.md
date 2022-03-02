@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:41
+date: 2022-03-01T15:14:38
 draft: false
 
 ############################# Head ############################
@@ -366,11 +366,6 @@ more_formats:
         - name: "JP2 TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "JP2 TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "JP2 TO TXT"

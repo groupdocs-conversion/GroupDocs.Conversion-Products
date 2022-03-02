@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:01
+date: 2022-03-01T15:16:04
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "MPT TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "MPT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "MPT TO WMZ"

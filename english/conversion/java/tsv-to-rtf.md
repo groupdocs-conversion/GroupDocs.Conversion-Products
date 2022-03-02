@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:44
+date: 2022-03-01T15:20:08
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "TSV TO PSD"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "TSV TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "TSV TO SVG"

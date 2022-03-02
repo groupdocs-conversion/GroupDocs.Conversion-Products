@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:50
+date: 2022-03-01T15:14:48
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "JPEG TO OTT"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "JPEG TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "JPEG TO PNG"

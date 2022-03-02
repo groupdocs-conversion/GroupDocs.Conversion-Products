@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:51
+date: 2022-03-01T15:10:31
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "CF2 TO JPG"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "CF2 TO MD"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "CF2 TO MHT"

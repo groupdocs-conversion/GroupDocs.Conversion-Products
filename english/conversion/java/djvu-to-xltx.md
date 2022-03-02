@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:36
+date: 2022-03-01T15:11:16
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "DJVU TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "DJVU TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "DJVU TO XPS"

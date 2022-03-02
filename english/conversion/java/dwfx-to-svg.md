@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:27
+date: 2022-03-01T15:12:10
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "DWFX TO RTF"
           link: "https://products.groupdocs.com/conversion/java/dwfx-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "DWFX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "DWFX TO SVGZ"

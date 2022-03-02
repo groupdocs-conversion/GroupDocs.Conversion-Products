@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:20
+date: 2022-03-01T15:11:01
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "DGN TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "DGN TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "DGN TO MD"

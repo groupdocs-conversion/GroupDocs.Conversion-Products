@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:53
+date: 2022-03-01T15:12:45
 draft: false
 
 ############################# Head ############################
@@ -296,11 +296,6 @@ more_formats:
         - name: "EMF TO POT"
           link: "https://products.groupdocs.com/conversion/java/emf-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "EMF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "EMF TO POTX"

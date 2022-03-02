@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:52
+date: 2022-03-01T15:20:17
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "VCF TO DCM"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "VCF TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "VCF TO DOC"

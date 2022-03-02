@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:12
+date: 2022-03-01T15:17:21
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert OUTLOOK into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "OUTLOOK TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "OUTLOOK TO DOC"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-doc/"

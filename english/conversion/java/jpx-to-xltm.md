@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:16
+date: 2022-03-01T15:15:16
 draft: false
 
 ############################# Head ############################
@@ -426,11 +426,6 @@ more_formats:
         - name: "JPX TO XLT"
           link: "https://products.groupdocs.com/conversion/java/jpx-to-xlt/"
           description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "JPX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "JPX TO XLTX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:31
+date: 2022-03-01T15:17:41
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "PDF TO TEX"
           link: "https://products.groupdocs.com/conversion/java/pdf-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "PDF TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/pdf-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "PDF TO TIFF"

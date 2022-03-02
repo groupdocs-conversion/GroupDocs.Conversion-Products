@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:56
+date: 2022-03-01T15:13:53
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "HTML TO JPG"
           link: "https://products.groupdocs.com/conversion/java/html-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "HTML TO MD"
-          link: "https://products.groupdocs.com/conversion/java/html-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "HTML TO MHT"

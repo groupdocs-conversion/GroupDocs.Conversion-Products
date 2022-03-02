@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:58
+date: 2022-03-01T15:11:39
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "DOCX TO PSD"
           link: "https://products.groupdocs.com/conversion/java/docx-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DOCX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/docx-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "DOCX TO SVG"

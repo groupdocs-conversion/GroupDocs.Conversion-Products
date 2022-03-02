@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:19
+date: 2022-03-01T15:11:00
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "DGN TO EMF"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "DGN TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "DGN TO EPUB"

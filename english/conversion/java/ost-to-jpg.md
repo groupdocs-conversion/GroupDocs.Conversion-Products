@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:45
+date: 2022-03-01T15:16:52
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "OST TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/ost-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "OST TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "OST TO MD"

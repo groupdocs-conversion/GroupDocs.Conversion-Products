@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:52
+date: 2022-03-01T15:10:32
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "CF2 TO POT"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "CF2 TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "CF2 TO POTX"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:13
+date: 2022-03-01T15:18:26
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert PPSX into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "PPSX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "PPSX TO CSV"
           link: "https://products.groupdocs.com/conversion/java/ppsx-to-csv/"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:30
+date: 2022-03-01T15:18:44
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "PPTX TO DCM"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "PPTX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "PPTX TO DOC"

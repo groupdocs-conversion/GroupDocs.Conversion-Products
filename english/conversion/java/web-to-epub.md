@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:46:08
+date: 2022-03-01T15:21:44
 draft: false
 
 ############################# Head ############################
@@ -127,45 +127,40 @@ more_formats:
     content: |
         You can also convert WEB into many other file formats. Please see the complete list below.
     format: 
-            # format loop
-    - name: "WEB TO DOCM"
-      link: "https://products.groupdocs.com/conversion/java/web-to-docm/"
-      description: "Microsoft Word Macro-Enabled Document"
+        # format loop
+        - name: "WEB TO DOCM"
+          link: "https://products.groupdocs.com/conversion/java/web-to-docm/"
+          description: "Microsoft Word Macro-Enabled Document"
 
-    # format loop
-    - name: "WEB TO DOCX"
-      link: "https://products.groupdocs.com/conversion/java/web-to-docx/"
-      description: "Microsoft Word Open XML Document"
+        # format loop
+        - name: "WEB TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/web-to-docx/"
+          description: "Microsoft Word Open XML Document"
 
-    # format loop
-    - name: "WEB TO EPUB"
-      link: "https://products.groupdocs.com/conversion/java/web-to-epub/"
-      description: "Digital E-Book File Format"
+        # format loop
+        - name: "WEB TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/web-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
 
-    # format loop
-    - name: "WEB TO FODS"
-      link: "https://products.groupdocs.com/conversion/java/web-to-fods/"
-      description: "OpenDocument Flat XML Spreadsheet"
+        # format loop
+        - name: "WEB TO MHTML"
+          link: "https://products.groupdocs.com/conversion/java/web-to-mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-    # format loop
-    - name: "WEB TO MHTML"
-      link: "https://products.groupdocs.com/conversion/java/web-to-mhtml/"
-      description: "MIME Encapsulation of Aggregate HTML"
+        # format loop
+        - name: "WEB TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/web-to-pdf/"
+          description: "Portable Document"
 
-    # format loop
-    - name: "WEB TO PDF"
-      link: "https://products.groupdocs.com/conversion/java/web-to-pdf/"
-      description: "Portable Document"
+        # format loop
+        - name: "WEB TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/web-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
-    # format loop
-    - name: "WEB TO POTX"
-      link: "https://products.groupdocs.com/conversion/java/web-to-potx/"
-      description: "Microsoft PowerPoint Open XML Template"
-
-    # format loop
-    - name: "WEB TO PPTX"
-      link: "https://products.groupdocs.com/conversion/java/web-to-pptx/"
-      description: "PowerPoint Open XML Presentation"
+        # format loop
+        - name: "WEB TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/web-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
 
 
 

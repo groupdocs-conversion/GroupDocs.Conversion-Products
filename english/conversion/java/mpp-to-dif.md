@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:51
+date: 2022-03-01T15:15:53
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "MPP TO DCM"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "MPP TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "MPP TO DOC"

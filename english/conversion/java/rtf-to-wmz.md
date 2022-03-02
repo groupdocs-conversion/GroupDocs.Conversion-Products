@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:00
+date: 2022-03-01T15:19:17
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "RTF TO WMF"
           link: "https://products.groupdocs.com/conversion/java/rtf-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "RTF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "RTF TO XLAM"

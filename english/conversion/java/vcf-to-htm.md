@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:55
+date: 2022-03-01T15:20:18
 draft: false
 
 ############################# Head ############################
@@ -206,11 +206,6 @@ more_formats:
         - name: "VCF TO GIF"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "VCF TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "VCF TO HTML"

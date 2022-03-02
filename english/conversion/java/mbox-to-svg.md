@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:26
+date: 2022-03-01T15:15:27
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "MBOX TO RTF"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "MBOX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "MBOX TO SVGZ"

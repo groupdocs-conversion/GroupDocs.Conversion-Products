@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:25
+date: 2022-03-01T15:14:24
 draft: false
 
 ############################# Head ############################
@@ -241,11 +241,6 @@ more_formats:
         - name: "J2K TO MD"
           link: "https://products.groupdocs.com/conversion/java/j2k-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "J2K TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "J2K TO MHTML"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:53
+date: 2022-03-01T15:14:51
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "JPEG TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "JPEG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "JPEG TO XPS"

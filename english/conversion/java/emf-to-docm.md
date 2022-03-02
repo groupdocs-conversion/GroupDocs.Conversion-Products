@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:51
+date: 2022-03-01T15:12:42
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "EMF TO DOC"
           link: "https://products.groupdocs.com/conversion/java/emf-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "EMF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "EMF TO DOCX"

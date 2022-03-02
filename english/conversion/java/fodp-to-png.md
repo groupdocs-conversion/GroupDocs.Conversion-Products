@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:34
+date: 2022-03-01T15:13:30
 draft: false
 
 ############################# Head ############################
@@ -276,11 +276,6 @@ more_formats:
         - name: "FODP TO PDF"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "FODP TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "FODP TO POT"

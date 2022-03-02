@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:37
+date: 2022-03-01T15:17:47
 draft: false
 
 ############################# Head ############################
@@ -311,11 +311,6 @@ more_formats:
         - name: "PLT TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/plt-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "PLT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PLT TO PPT"

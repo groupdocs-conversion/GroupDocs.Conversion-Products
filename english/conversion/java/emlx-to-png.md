@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:05
+date: 2022-03-01T15:12:59
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "EMLX TO PDF"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "EMLX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "EMLX TO POT"

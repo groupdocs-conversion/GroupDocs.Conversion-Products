@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:32
+date: 2022-03-01T15:11:12
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "DJVU TO HTML"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "DJVU TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "DJVU TO JP2"

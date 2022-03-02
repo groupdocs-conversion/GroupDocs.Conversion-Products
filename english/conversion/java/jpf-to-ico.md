@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:55
+date: 2022-03-01T15:14:53
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "JPF TO HTML"
           link: "https://products.groupdocs.com/conversion/java/jpf-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "JPF TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "JPF TO JP2"

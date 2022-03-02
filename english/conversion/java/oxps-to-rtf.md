@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:18
+date: 2022-03-01T15:17:27
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "OXPS TO PSD"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "OXPS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "OXPS TO SVG"

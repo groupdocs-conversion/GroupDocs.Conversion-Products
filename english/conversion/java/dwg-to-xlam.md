@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:34
+date: 2022-03-01T15:12:17
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "DWG TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "DWG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DWG TO XLS"

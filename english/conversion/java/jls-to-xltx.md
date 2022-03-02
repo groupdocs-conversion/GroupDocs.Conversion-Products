@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:35
+date: 2022-03-01T15:14:33
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "JLS TO XLTM"
           link: "https://products.groupdocs.com/conversion/java/jls-to-xltm/"
           description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "JLS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
 
         # format loop
         - name: "JLS TO XPS"

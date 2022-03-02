@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:22
+date: 2022-03-01T15:17:31
 draft: false
 
 ############################# Head ############################
@@ -201,11 +201,6 @@ more_formats:
         - name: "PCL TO FODS"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "PCL TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "PCL TO HTM"

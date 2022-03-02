@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:58
+date: 2022-03-01T15:20:21
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "VCF TO TSV"
           link: "https://products.groupdocs.com/conversion/java/vcf-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "VCF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/vcf-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "VCF TO WEBP"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:25
+date: 2022-03-01T15:17:35
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "PCL TO TIFF"
           link: "https://products.groupdocs.com/conversion/java/pcl-to-tiff/"
           description: "Tagged Image File Format"
-
-        # format loop
-        - name: "PCL TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-tsv/"
-          description: "Tab Separated Values File"
 
         # format loop
         - name: "PCL TO TXT"

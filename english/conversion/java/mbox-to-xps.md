@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:28
+date: 2022-03-01T15:15:28
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "MBOX TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "MBOX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

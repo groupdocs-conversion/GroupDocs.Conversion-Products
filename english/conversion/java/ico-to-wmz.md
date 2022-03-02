@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:05
+date: 2022-03-01T15:14:02
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "ICO TO WMF"
           link: "https://products.groupdocs.com/conversion/java/ico-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "ICO TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "ICO TO XLAM"

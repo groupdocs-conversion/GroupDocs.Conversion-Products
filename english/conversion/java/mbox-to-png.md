@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:25
+date: 2022-03-01T15:15:26
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "MBOX TO PDF"
           link: "https://products.groupdocs.com/conversion/java/mbox-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "MBOX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "MBOX TO POT"

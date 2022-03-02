@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:05
+date: 2022-03-01T15:14:03
 draft: false
 
 ############################# Head ############################
@@ -436,11 +436,6 @@ more_formats:
         - name: "ICO TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/ico-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "ICO TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

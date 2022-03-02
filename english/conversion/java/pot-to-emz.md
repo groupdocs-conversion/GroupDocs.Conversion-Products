@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:46
+date: 2022-03-01T15:17:56
 draft: false
 
 ############################# Head ############################
@@ -181,11 +181,6 @@ more_formats:
         - name: "POT TO EMF"
           link: "https://products.groupdocs.com/conversion/java/pot-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "POT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
 
         # format loop
         - name: "POT TO EPUB"

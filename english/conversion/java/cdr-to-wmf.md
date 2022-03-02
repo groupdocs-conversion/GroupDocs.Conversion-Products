@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:48
+date: 2022-03-01T15:10:28
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "CDR TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "CDR TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "CDR TO WMZ"

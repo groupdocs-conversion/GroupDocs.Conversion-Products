@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:37
+date: 2022-03-01T15:17:47
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "PLT TO RTF"
           link: "https://products.groupdocs.com/conversion/java/plt-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "PLT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "PLT TO SVGZ"

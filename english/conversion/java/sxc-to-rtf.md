@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:22
+date: 2022-03-01T15:19:43
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "SXC TO PSD"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-psd/"
           description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "SXC TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-rtf/"
-          description: "Rich Text File Format"
 
         # format loop
         - name: "SXC TO SVG"

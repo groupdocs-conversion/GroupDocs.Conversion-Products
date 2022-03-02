@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:33
+date: 2022-03-01T15:13:28
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "FODP TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "FODP TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "FODP TO EMZ"

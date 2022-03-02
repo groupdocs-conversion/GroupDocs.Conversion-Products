@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:41
+date: 2022-03-01T15:11:21
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "DNG TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/dng-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "DNG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "DNG TO WMZ"

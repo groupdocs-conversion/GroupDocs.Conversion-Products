@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:31
+date: 2022-03-01T15:13:26
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "EXCEL TO XLS"
           link: "https://products.groupdocs.com/conversion/java/excel-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "EXCEL TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "EXCEL TO XLSM"

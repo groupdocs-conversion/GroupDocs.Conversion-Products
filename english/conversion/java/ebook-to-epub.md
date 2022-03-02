@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:46
+date: 2022-03-01T15:12:35
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "EBOOK TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/ebook-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "EBOOK TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "EBOOK TO ODS"

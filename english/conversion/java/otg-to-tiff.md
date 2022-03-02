@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:53
+date: 2022-03-01T15:17:01
 draft: false
 
 ############################# Head ############################
@@ -365,11 +365,6 @@ more_formats:
         # format loop
         - name: "OTG TO TIF"
           link: "https://products.groupdocs.com/conversion/java/otg-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "OTG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

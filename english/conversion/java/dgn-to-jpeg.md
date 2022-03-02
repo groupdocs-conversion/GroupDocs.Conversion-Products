@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:20
+date: 2022-03-01T15:11:00
 draft: false
 
 ############################# Head ############################
@@ -226,11 +226,6 @@ more_formats:
         - name: "DGN TO JP2"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "DGN TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "DGN TO JPG"

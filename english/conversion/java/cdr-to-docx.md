@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:44
+date: 2022-03-01T15:10:23
 draft: false
 
 ############################# Head ############################
@@ -156,11 +156,6 @@ more_formats:
         - name: "CDR TO DOCM"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "CDR TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-docx/"
-          description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "CDR TO DOT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:12
+date: 2022-03-01T15:16:16
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "MSG TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/msg-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "MSG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "MSG TO RTF"

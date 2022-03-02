@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:58
+date: 2022-03-01T15:16:01
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "MPT TO ICO"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "MPT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "MPT TO JPEG"

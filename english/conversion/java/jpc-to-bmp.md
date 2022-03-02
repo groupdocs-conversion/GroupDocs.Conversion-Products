@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:42
+date: 2022-03-01T15:14:39
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert JPC into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "JPC TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/jpc-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "JPC TO CSV"
           link: "https://products.groupdocs.com/conversion/java/jpc-to-csv/"

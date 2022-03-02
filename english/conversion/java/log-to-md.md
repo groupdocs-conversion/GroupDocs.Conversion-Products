@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:18
+date: 2022-03-01T15:15:19
 draft: false
 
 ############################# Head ############################
@@ -236,11 +236,6 @@ more_formats:
         - name: "LOG TO JPG"
           link: "https://products.groupdocs.com/conversion/java/log-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "LOG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/log-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "LOG TO MHT"

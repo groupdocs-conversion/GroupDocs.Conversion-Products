@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:45
+date: 2022-03-01T15:17:56
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "POT TO DIF"
           link: "https://products.groupdocs.com/conversion/java/pot-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "POT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "POT TO DOCM"

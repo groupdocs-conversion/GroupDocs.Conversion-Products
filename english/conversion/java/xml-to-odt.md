@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:17:06
+date: 2022-03-01T15:23:06
 draft: false
 
 ############################# Head ############################
@@ -127,325 +127,320 @@ more_formats:
     content: |
         You can also convert XML into many other file formats. Please see the complete list below.
     format: 
-            # format loop
-    - name: "XML TO BMP"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-bmp/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-bmp/"
+          description: "Bitmap File Format"
 
-    # format loop
-    - name: "XML TO CSV"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-csv/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO CSV"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-csv/"
+          description: "Comma Separated Values File"
 
-    # format loop
-    - name: "XML TO DCM"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-dcm/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-dcm/"
+          description: "DICOM Image"
 
-    # format loop
-    - name: "XML TO DIF"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-dif/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-dif/"
+          description: "Data Interchange Format"
 
-    # format loop
-    - name: "XML TO DOC"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-doc/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO DOC"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-doc/"
+          description: "Microsoft Word Document"
 
-    # format loop
-    - name: "XML TO DOCM"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-docm/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO DOCM"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-docm/"
+          description: "Microsoft Word Macro-Enabled Document"
 
-    # format loop
-    - name: "XML TO DOCX"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-docx/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-docx/"
+          description: "Microsoft Word Open XML Document"
 
-    # format loop
-    - name: "XML TO DOT"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-dot/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO DOT"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-dot/"
+          description: "Microsoft Word Document Template"
 
-    # format loop
-    - name: "XML TO DOTM"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-dotm/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO DOTM"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
 
-    # format loop
-    - name: "XML TO DOTX"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-dotx/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO DOTX"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-dotx/"
+          description: "Word Open XML Document Template"
 
-    # format loop
-    - name: "XML TO EMF"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-emf/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO EMF"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-emf/"
+          description: "Enhanced Metafile Format"
 
-    # format loop
-    - name: "XML TO EMZ"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-emz/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO EMZ"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-emz/"
+          description: "Enhanced Windows Metafile Compressed"
 
-    # format loop
-    - name: "XML TO EPUB"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-epub/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-epub/"
+          description: "Digital E-Book File Format"
 
-    # format loop
-    - name: "XML TO FODP"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-fodp/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
 
-    # format loop
-    - name: "XML TO FODS"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-fods/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
 
-    # format loop
-    - name: "XML TO GIF"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-gif/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-gif/"
+          description: "Graphical Interchange Format File"
 
-    # format loop
-    - name: "XML TO HTM"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-htm/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-htm/"
+          description: "Hypertext Markup Language File"
 
-    # format loop
-    - name: "XML TO HTML"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-html/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO HTML"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-html/"
+          description: "Hyper Text Markup Language"
 
-    # format loop
-    - name: "XML TO ICO"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-ico/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-ico/"
+          description: "Microsoft Icon File"
 
-    # format loop
-    - name: "XML TO JP2"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-jp2/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-jp2/"
+          description: "JPEG 2000 Core Image File"
 
-    # format loop
-    - name: "XML TO JPEG"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-jpeg/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-jpeg/"
+          description: "JPEG Image"
 
-    # format loop
-    - name: "XML TO JPG"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-jpg/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
 
-    # format loop
-    - name: "XML TO MD"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-md/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO MD"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-md/"
+          description: "Markdown"
 
-    # format loop
-    - name: "XML TO MHT"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-mht/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO MHT"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-    # format loop
-    - name: "XML TO MHTML"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-mhtml/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO MHTML"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-    # format loop
-    - name: "XML TO ODP"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-odp/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-odp/"
+          description: "OpenDocument Presentation File Format"
 
-    # format loop
-    - name: "XML TO ODS"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-ods/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-ods/"
+          description: "Open Document Spreadsheet"
 
-    # format loop
-    - name: "XML TO ODT"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-odt/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-otp/"
+          description: "Origin Graph Template"
 
-    # format loop
-    - name: "XML TO OTP"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-otp/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-ott/"
+          description: "Open Document Template"
 
-    # format loop
-    - name: "XML TO OTT"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-ott/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-pdf/"
+          description: "Portable Document"
 
-    # format loop
-    - name: "XML TO PDF"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-pdf/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-png/"
+          description: "Portable Network Graphic"
 
-    # format loop
-    - name: "XML TO PNG"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-png/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO POT"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-pot/"
+          description: "PowerPoint Template"
 
-    # format loop
-    - name: "XML TO POT"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-pot/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-potm/"
+          description: "Microsoft PowerPoint Template"
 
-    # format loop
-    - name: "XML TO POTM"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-potm/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
-    # format loop
-    - name: "XML TO POTX"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-potx/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
 
-    # format loop
-    - name: "XML TO PPS"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-pps/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
 
-    # format loop
-    - name: "XML TO PPSM"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-ppsm/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
 
-    # format loop
-    - name: "XML TO PPSX"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-ppsx/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-ppt/"
+          description: "PowerPoint Presentation"
 
-    # format loop
-    - name: "XML TO PPT"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-ppt/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
 
-    # format loop
-    - name: "XML TO PPTM"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-pptm/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
 
-    # format loop
-    - name: "XML TO PPTX"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-pptx/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-psd/"
+          description: "Adobe Photoshop Document"
 
-    # format loop
-    - name: "XML TO PSD"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-psd/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-rtf/"
+          description: "Rich Text File Format"
 
-    # format loop
-    - name: "XML TO RTF"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-rtf/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-svg/"
+          description: "Scalable Vector Graphics File"
 
-    # format loop
-    - name: "XML TO SVG"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-svg/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
 
-    # format loop
-    - name: "XML TO SVGZ"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-svgz/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
 
-    # format loop
-    - name: "XML TO SXC"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-sxc/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-tex/"
+          description: "LaTeX Source Document"
 
-    # format loop
-    - name: "XML TO TEX"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-tex/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-tif/"
+          description: "Tagged Image File Format"
 
-    # format loop
-    - name: "XML TO TIF"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-tif/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-tiff/"
+          description: "Tagged Image File Format"
 
-    # format loop
-    - name: "XML TO TIFF"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-tiff/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-tsv/"
+          description: "Tab Separated Values File"
 
-    # format loop
-    - name: "XML TO TSV"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-tsv/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-txt/"
+          description: "Plain Text File Format"
 
-    # format loop
-    - name: "XML TO TXT"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-txt/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-webp/"
+          description: "Raster Web Image File Format"
 
-    # format loop
-    - name: "XML TO WEBP"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-webp/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-wmf/"
+          description: "Windows Metafile"
 
-    # format loop
-    - name: "XML TO WMF"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-wmf/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-wmz/"
+          description: "Windows Metafile Compressed"
 
-    # format loop
-    - name: "XML TO WMZ"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-wmz/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
 
-    # format loop
-    - name: "XML TO XLAM"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-xlam/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-xls/"
+          description: "Microsoft Excel Binary File Format"
 
-    # format loop
-    - name: "XML TO XLS"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-xls/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO XLS2003"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-xls2003/"
+          description: "Microsoft Excel Spreadsheet"
 
-    # format loop
-    - name: "XML TO XLS2003"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-xls2003/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
 
-    # format loop
-    - name: "XML TO XLSB"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-xlsb/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
-    # format loop
-    - name: "XML TO XLSM"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-xlsm/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
 
-    # format loop
-    - name: "XML TO XLSX"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-xlsx/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-xlt/"
+          description: "Microsoft Excel Template"
 
-    # format loop
-    - name: "XML TO XLT"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-xlt/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
 
-    # format loop
-    - name: "XML TO XLTM"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-xltm/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
 
-    # format loop
-    - name: "XML TO XLTX"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-xltx/"
-      description: "Extended Markup Language"
-
-    # format loop
-    - name: "XML TO XPS"
-      link: "https://products.groupdocs.com/conversion/java/xml-to-xps/"
-      description: "Extended Markup Language"
+        # format loop
+        - name: "XML TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/xml-to-xps/"
+          description: "Open XML Paper Specification"
 
 
 

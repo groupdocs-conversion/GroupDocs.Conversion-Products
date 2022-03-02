@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:11
+date: 2022-03-01T15:14:08
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "IFC TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "IFC TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "IFC TO XLSB"

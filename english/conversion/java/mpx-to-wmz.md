@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:07
+date: 2022-03-01T15:16:10
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "MPX TO WMF"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "MPX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "MPX TO XLAM"

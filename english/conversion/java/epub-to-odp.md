@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:22
+date: 2022-03-01T15:13:16
 draft: false
 
 ############################# Head ############################
@@ -246,11 +246,6 @@ more_formats:
         - name: "EPUB TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/epub-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "EPUB TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "EPUB TO ODS"

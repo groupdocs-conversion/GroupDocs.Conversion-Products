@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:14
+date: 2022-03-01T15:17:23
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "OUTLOOK TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "OUTLOOK TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
 
         # format loop
         - name: "OUTLOOK TO XPS"

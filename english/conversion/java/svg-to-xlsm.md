@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:12
+date: 2022-03-01T15:19:31
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "SVG TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/svg-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "SVG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "SVG TO XLSX"

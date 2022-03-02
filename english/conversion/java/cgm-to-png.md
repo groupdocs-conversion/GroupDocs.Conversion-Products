@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:58
+date: 2022-03-01T15:10:38
 draft: false
 
 ############################# Head ############################
@@ -281,11 +281,6 @@ more_formats:
         - name: "CGM TO PDF"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-pdf/"
           description: "Portable Document"
-
-        # format loop
-        - name: "CGM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-png/"
-          description: "Portable Network Graphic"
 
         # format loop
         - name: "CGM TO POT"

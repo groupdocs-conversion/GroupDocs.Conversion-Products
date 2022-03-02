@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:20
+date: 2022-03-01T15:20:32
 draft: false
 
 ############################# Head ############################
@@ -301,11 +301,6 @@ more_formats:
         - name: "VDX TO POTX"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-potx/"
           description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "VDX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "VDX TO PPSM"

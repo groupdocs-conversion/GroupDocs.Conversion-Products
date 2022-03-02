@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:27
+date: 2022-03-01T15:20:34
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "VDX TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/vdx-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "VDX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "VDX TO XLT"

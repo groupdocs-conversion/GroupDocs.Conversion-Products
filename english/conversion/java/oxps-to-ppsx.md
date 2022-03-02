@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:18
+date: 2022-03-01T15:17:27
 draft: false
 
 ############################# Head ############################
@@ -316,11 +316,6 @@ more_formats:
         - name: "OXPS TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "OXPS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "OXPS TO PPT"

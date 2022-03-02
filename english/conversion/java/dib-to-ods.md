@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:26
+date: 2022-03-01T15:11:07
 draft: false
 
 ############################# Head ############################
@@ -261,11 +261,6 @@ more_formats:
         - name: "DIB TO ODP"
           link: "https://products.groupdocs.com/conversion/java/dib-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "DIB TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "DIB TO ODT"

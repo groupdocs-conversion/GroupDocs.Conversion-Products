@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:16
+date: 2022-03-01T15:17:25
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "OXPS TO FODP"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-fodp/"
           description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "OXPS TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
 
         # format loop
         - name: "OXPS TO GIF"

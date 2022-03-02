@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:55
+date: 2022-03-01T15:10:34
 draft: false
 
 ############################# Head ############################
@@ -421,11 +421,6 @@ more_formats:
         - name: "CF2 TO XLSX"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "CF2 TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xlt/"
-          description: "Microsoft Excel Template"
 
         # format loop
         - name: "CF2 TO XLTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:05
+date: 2022-03-01T15:20:27
 draft: false
 
 ############################# Head ############################
@@ -381,11 +381,6 @@ more_formats:
         - name: "VDW TO TXT"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "VDW TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "VDW TO WMF"

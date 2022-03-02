@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:01
+date: 2022-03-01T15:20:23
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "VDW TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/vdw-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "VDW TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "VDW TO FODP"

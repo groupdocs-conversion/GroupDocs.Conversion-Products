@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:39
+date: 2022-03-01T15:12:23
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "DWT TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/dwt-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "DWT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "DWT TO XLS"

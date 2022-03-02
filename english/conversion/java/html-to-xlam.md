@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:59
+date: 2022-03-01T15:13:56
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "HTML TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/html-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "HTML TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "HTML TO XLS"

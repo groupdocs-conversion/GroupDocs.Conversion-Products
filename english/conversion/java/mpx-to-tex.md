@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:06
+date: 2022-03-01T15:16:10
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "MPX TO SXC"
           link: "https://products.groupdocs.com/conversion/java/mpx-to-sxc/"
           description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "MPX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-tex/"
-          description: "LaTeX Source Document"
 
         # format loop
         - name: "MPX TO TIF"

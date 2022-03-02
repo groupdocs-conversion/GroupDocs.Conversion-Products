@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:52
+date: 2022-03-01T15:11:33
 draft: false
 
 ############################# Head ############################
@@ -326,11 +326,6 @@ more_formats:
         - name: "DOCM TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/docm-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "DOCM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "DOCM TO RTF"

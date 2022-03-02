@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:22
+date: 2022-03-01T15:12:04
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "DWF TO XLS"
           link: "https://products.groupdocs.com/conversion/java/dwf-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "DWF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "DWF TO XLSM"

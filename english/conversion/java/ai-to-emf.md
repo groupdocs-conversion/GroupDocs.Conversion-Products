@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:33
+date: 2022-03-01T15:10:11
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "AI TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/ai-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "AI TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "AI TO EMZ"

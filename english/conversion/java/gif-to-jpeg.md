@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:45
+date: 2022-03-01T15:13:40
 draft: false
 
 ############################# Head ############################
@@ -221,11 +221,6 @@ more_formats:
         - name: "GIF TO JP2"
           link: "https://products.groupdocs.com/conversion/java/gif-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "GIF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "GIF TO JPG"

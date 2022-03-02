@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:31
+date: 2022-03-01T15:18:45
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "PPTX TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/pptx-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "PPTX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "PPTX TO FODP"

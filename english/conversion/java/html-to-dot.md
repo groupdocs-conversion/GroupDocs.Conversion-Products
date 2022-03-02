@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:54
+date: 2022-03-01T15:13:52
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "HTML TO DOCX"
           link: "https://products.groupdocs.com/conversion/java/html-to-docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "HTML TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-dot/"
-          description: "Microsoft Word Document Template"
 
         # format loop
         - name: "HTML TO DOTM"

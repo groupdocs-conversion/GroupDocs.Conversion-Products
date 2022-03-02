@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:39
+date: 2022-03-01T15:13:35
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "FODS TO ODP"
           link: "https://products.groupdocs.com/conversion/java/fods-to-odp/"
           description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "FODS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ods/"
-          description: "Open Document Spreadsheet"
 
         # format loop
         - name: "FODS TO ODT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:15
+date: 2022-03-01T15:17:24
 draft: false
 
 ############################# Head ############################
@@ -186,11 +186,6 @@ more_formats:
         - name: "OXPS TO EMZ"
           link: "https://products.groupdocs.com/conversion/java/oxps-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "OXPS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/oxps-to-epub/"
-          description: "Digital E-Book File Format"
 
         # format loop
         - name: "OXPS TO FODP"

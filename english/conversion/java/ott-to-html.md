@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:08
+date: 2022-03-01T15:17:17
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "OTT TO HTM"
           link: "https://products.groupdocs.com/conversion/java/ott-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "OTT TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "OTT TO ICO"

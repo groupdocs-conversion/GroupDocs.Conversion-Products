@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:40
+date: 2022-03-01T15:10:18
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "BMP TO JPG"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-jpg/"
           description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "BMP TO MD"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-md/"
-          description: "Markdown"
 
         # format loop
         - name: "BMP TO MHT"

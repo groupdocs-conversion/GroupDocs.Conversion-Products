@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:13
+date: 2022-03-01T15:13:07
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "EMZ TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/emz-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "EMZ TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "EMZ TO XLSB"

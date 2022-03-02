@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:36
+date: 2022-03-01T15:18:52
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "PROJECT TO PPS"
           link: "https://products.groupdocs.com/conversion/java/project-to-pps/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "PROJECT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/project-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "PROJECT TO PPT"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:54
+date: 2022-03-01T15:10:34
 draft: false
 
 ############################# Head ############################
@@ -391,11 +391,6 @@ more_formats:
         - name: "CF2 TO WMF"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "CF2 TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "CF2 TO XLAM"

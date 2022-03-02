@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:15
+date: 2022-03-01T15:13:09
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "EPS TO DOT"
           link: "https://products.groupdocs.com/conversion/java/eps-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "EPS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "EPS TO DOTX"

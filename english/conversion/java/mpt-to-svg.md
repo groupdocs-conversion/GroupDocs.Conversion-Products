@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:00
+date: 2022-03-01T15:16:03
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "MPT TO RTF"
           link: "https://products.groupdocs.com/conversion/java/mpt-to-rtf/"
           description: "Rich Text File Format"
-
-        # format loop
-        - name: "MPT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-svg/"
-          description: "Scalable Vector Graphics File"
 
         # format loop
         - name: "MPT TO SVGZ"

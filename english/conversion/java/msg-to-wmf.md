@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:13
+date: 2022-03-01T15:16:18
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "MSG TO WEBP"
           link: "https://products.groupdocs.com/conversion/java/msg-to-webp/"
           description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "MSG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-wmf/"
-          description: "Windows Metafile"
 
         # format loop
         - name: "MSG TO WMZ"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:36
+date: 2022-03-01T15:17:46
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "PLT TO ODT"
           link: "https://products.groupdocs.com/conversion/java/plt-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "PLT TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "PLT TO OTT"

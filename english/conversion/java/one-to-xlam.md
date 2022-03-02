@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:41
+date: 2022-03-01T15:16:49
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "ONE TO WMZ"
           link: "https://products.groupdocs.com/conversion/java/one-to-wmz/"
           description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "ONE TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/one-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
 
         # format loop
         - name: "ONE TO XLS"

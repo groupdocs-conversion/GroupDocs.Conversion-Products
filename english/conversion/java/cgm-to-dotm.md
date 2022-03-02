@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:56
+date: 2022-03-01T15:10:36
 draft: false
 
 ############################# Head ############################
@@ -166,11 +166,6 @@ more_formats:
         - name: "CGM TO DOT"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-dot/"
           description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "CGM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "CGM TO DOTX"

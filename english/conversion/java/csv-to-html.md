@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:08
+date: 2022-03-01T15:10:49
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "CSV TO HTM"
           link: "https://products.groupdocs.com/conversion/java/csv-to-htm/"
           description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "CSV TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-html/"
-          description: "Hyper Text Markup Language"
 
         # format loop
         - name: "CSV TO ICO"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:43
+date: 2022-03-01T15:12:29
 draft: false
 
 ############################# Head ############################
@@ -291,11 +291,6 @@ more_formats:
         - name: "DXF TO POT"
           link: "https://products.groupdocs.com/conversion/java/dxf-to-pot/"
           description: "PowerPoint Template"
-
-        # format loop
-        - name: "DXF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dxf-to-potm/"
-          description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "DXF TO POTX"

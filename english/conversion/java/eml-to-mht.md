@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:58
+date: 2022-03-01T15:12:50
 draft: false
 
 ############################# Head ############################
@@ -246,11 +246,6 @@ more_formats:
         - name: "EML TO MD"
           link: "https://products.groupdocs.com/conversion/java/eml-to-md/"
           description: "Markdown"
-
-        # format loop
-        - name: "EML TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "EML TO MHTML"

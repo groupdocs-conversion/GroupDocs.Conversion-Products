@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:18
+date: 2022-03-01T15:15:18
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "LOG TO HTML"
           link: "https://products.groupdocs.com/conversion/java/log-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "LOG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/log-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "LOG TO JP2"

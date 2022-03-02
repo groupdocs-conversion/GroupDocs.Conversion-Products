@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:21
+date: 2022-03-01T15:11:01
 draft: false
 
 ############################# Head ############################
@@ -266,11 +266,6 @@ more_formats:
         - name: "DGN TO ODT"
           link: "https://products.groupdocs.com/conversion/java/dgn-to-odt/"
           description: "Open Document Text"
-
-        # format loop
-        - name: "DGN TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dgn-to-otp/"
-          description: "Origin Graph Template"
 
         # format loop
         - name: "DGN TO OTT"

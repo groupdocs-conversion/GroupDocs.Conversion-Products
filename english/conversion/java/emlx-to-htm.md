@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:04
+date: 2022-03-01T15:12:57
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "EMLX TO GIF"
           link: "https://products.groupdocs.com/conversion/java/emlx-to-gif/"
           description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "EMLX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/emlx-to-htm/"
-          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "EMLX TO HTML"

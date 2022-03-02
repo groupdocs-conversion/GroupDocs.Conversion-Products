@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:49
+date: 2022-03-01T15:16:57
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "OTG TO DIF"
           link: "https://products.groupdocs.com/conversion/java/otg-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "OTG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "OTG TO DOCM"

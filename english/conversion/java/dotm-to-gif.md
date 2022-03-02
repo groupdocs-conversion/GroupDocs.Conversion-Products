@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:07
+date: 2022-03-01T15:11:48
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "DOTM TO FODS"
           link: "https://products.groupdocs.com/conversion/java/dotm-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "DOTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dotm-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "DOTM TO HTM"

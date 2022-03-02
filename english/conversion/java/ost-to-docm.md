@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:43
+date: 2022-03-01T15:16:51
 draft: false
 
 ############################# Head ############################
@@ -151,11 +151,6 @@ more_formats:
         - name: "OST TO DOC"
           link: "https://products.groupdocs.com/conversion/java/ost-to-doc/"
           description: "Microsoft Word Document"
-
-        # format loop
-        - name: "OST TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "OST TO DOCX"

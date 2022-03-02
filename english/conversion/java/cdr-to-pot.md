@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:46
+date: 2022-03-01T15:10:26
 draft: false
 
 ############################# Head ############################
@@ -286,11 +286,6 @@ more_formats:
         - name: "CDR TO PNG"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-png/"
           description: "Portable Network Graphic"
-
-        # format loop
-        - name: "CDR TO POT"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-pot/"
-          description: "PowerPoint Template"
 
         # format loop
         - name: "CDR TO POTM"

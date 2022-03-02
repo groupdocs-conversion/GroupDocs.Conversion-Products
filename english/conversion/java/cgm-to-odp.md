@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:57
+date: 2022-03-01T15:10:37
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "CGM TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "CGM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "CGM TO ODS"

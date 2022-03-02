@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:17
+date: 2022-03-01T15:19:37
 draft: false
 
 ############################# Head ############################
@@ -386,11 +386,6 @@ more_formats:
         - name: "SVGZ TO WMF"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-wmf/"
           description: "Windows Metafile"
-
-        # format loop
-        - name: "SVGZ TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-wmz/"
-          description: "Windows Metafile Compressed"
 
         # format loop
         - name: "SVGZ TO XLAM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:19
+date: 2022-03-01T15:18:32
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert PPT into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "PPT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ppt-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "PPT TO CSV"
           link: "https://products.groupdocs.com/conversion/java/ppt-to-csv/"

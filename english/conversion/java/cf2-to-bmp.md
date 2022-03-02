@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:49
+date: 2022-03-01T15:10:29
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert CF2 into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "CF2 TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "CF2 TO CSV"
           link: "https://products.groupdocs.com/conversion/java/cf2-to-csv/"

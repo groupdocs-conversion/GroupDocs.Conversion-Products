@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:49
+date: 2022-03-01T15:16:57
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "OTG TO BMP"
           link: "https://products.groupdocs.com/conversion/java/otg-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "OTG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "OTG TO DCM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:56
+date: 2022-03-01T15:15:59
 draft: false
 
 ############################# Head ############################
@@ -411,11 +411,6 @@ more_formats:
         - name: "MPP TO XLS"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "MPP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "MPP TO XLSM"

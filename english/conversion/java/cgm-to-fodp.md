@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:56
+date: 2022-03-01T15:10:36
 draft: false
 
 ############################# Head ############################
@@ -191,11 +191,6 @@ more_formats:
         - name: "CGM TO EPUB"
           link: "https://products.groupdocs.com/conversion/java/cgm-to-epub/"
           description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "CGM TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
 
         # format loop
         - name: "CGM TO FODS"

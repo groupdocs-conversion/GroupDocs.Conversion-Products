@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:53
+date: 2022-03-01T15:13:50
 draft: false
 
 ############################# Head ############################
@@ -401,11 +401,6 @@ more_formats:
         - name: "HTM TO XLS"
           link: "https://products.groupdocs.com/conversion/java/htm-to-xls/"
           description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "HTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
 
         # format loop
         - name: "HTM TO XLSM"

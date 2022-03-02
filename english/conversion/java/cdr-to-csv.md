@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:44
+date: 2022-03-01T15:10:23
 draft: false
 
 ############################# Head ############################
@@ -131,11 +131,6 @@ more_formats:
         - name: "CDR TO BMP"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-bmp/"
           description: "Bitmap File Format"
-
-        # format loop
-        - name: "CDR TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-csv/"
-          description: "Comma Separated Values File"
 
         # format loop
         - name: "CDR TO DCM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:40
+date: 2022-03-01T15:10:19
 draft: false
 
 ############################# Head ############################
@@ -271,11 +271,6 @@ more_formats:
         - name: "BMP TO OTT"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-ott/"
           description: "Open Document Template"
-
-        # format loop
-        - name: "BMP TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-pdf/"
-          description: "Portable Document"
 
         # format loop
         - name: "BMP TO PNG"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:10
+date: 2022-03-01T15:14:08
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "IFC TO TEX"
           link: "https://products.groupdocs.com/conversion/java/ifc-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "IFC TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "IFC TO TIFF"

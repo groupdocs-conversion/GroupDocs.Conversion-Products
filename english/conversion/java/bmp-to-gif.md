@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:39
+date: 2022-03-01T15:10:17
 draft: false
 
 ############################# Head ############################
@@ -196,11 +196,6 @@ more_formats:
         - name: "BMP TO FODS"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-fods/"
           description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "BMP TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-gif/"
-          description: "Graphical Interchange Format File"
 
         # format loop
         - name: "BMP TO HTM"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:12
+date: 2022-03-01T15:19:32
 draft: false
 
 ############################# Head ############################
@@ -431,11 +431,6 @@ more_formats:
         - name: "SVG TO XLTX"
           link: "https://products.groupdocs.com/conversion/java/svg-to-xltx/"
           description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "SVG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xps/"
-          description: "Open XML Paper Specification"
 
 
 

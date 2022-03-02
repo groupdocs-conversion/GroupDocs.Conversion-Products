@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:50
+date: 2022-03-01T15:18:01
 draft: false
 
 ############################# Head ############################
@@ -127,11 +127,6 @@ more_formats:
     content: |
         You can also convert POTM into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "POTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-bmp/"
-          description: "Bitmap File Format"
-
         # format loop
         - name: "POTM TO CSV"
           link: "https://products.groupdocs.com/conversion/java/potm-to-csv/"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:38
+date: 2022-03-01T15:20:02
 draft: false
 
 ############################# Head ############################
@@ -336,11 +336,6 @@ more_formats:
         - name: "TIFF TO PPTX"
           link: "https://products.groupdocs.com/conversion/java/tiff-to-pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "TIFF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-psd/"
-          description: "Adobe Photoshop Document"
 
         # format loop
         - name: "TIFF TO RTF"

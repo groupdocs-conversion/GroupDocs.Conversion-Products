@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:03
+date: 2022-03-01T15:15:03
 draft: false
 
 ############################# Head ############################
@@ -371,11 +371,6 @@ more_formats:
         - name: "JPG TO TSV"
           link: "https://products.groupdocs.com/conversion/java/jpg-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "JPG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "JPG TO WEBP"

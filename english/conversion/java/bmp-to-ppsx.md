@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:41
+date: 2022-03-01T15:10:20
 draft: false
 
 ############################# Head ############################
@@ -306,11 +306,6 @@ more_formats:
         - name: "BMP TO PPSM"
           link: "https://products.groupdocs.com/conversion/java/bmp-to-ppsm/"
           description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "BMP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "BMP TO PPT"

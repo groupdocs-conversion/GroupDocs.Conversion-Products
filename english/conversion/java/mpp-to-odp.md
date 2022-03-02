@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:03:53
+date: 2022-03-01T15:15:55
 draft: false
 
 ############################# Head ############################
@@ -251,11 +251,6 @@ more_formats:
         - name: "MPP TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/mpp-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "MPP TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mpp-to-odp/"
-          description: "OpenDocument Presentation File Format"
 
         # format loop
         - name: "MPP TO ODS"

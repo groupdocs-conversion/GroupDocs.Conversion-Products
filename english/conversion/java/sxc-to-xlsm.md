@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:23
+date: 2022-03-01T15:19:45
 draft: false
 
 ############################# Head ############################
@@ -406,11 +406,6 @@ more_formats:
         - name: "SXC TO XLSB"
           link: "https://products.groupdocs.com/conversion/java/sxc-to-xlsb/"
           description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "SXC TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/sxc-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "SXC TO XLSX"

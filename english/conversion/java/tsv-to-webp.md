@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:07:45
+date: 2022-03-01T15:20:09
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "TSV TO TXT"
           link: "https://products.groupdocs.com/conversion/java/tsv-to-txt/"
           description: "Plain Text File Format"
-
-        # format loop
-        - name: "TSV TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-webp/"
-          description: "Raster Web Image File Format"
 
         # format loop
         - name: "TSV TO WMF"

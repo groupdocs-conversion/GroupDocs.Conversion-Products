@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:04
+date: 2022-03-01T15:18:15
 draft: false
 
 ############################# Head ############################
@@ -231,11 +231,6 @@ more_formats:
         - name: "PPS TO JPEG"
           link: "https://products.groupdocs.com/conversion/java/pps-to-jpeg/"
           description: "JPEG Image"
-
-        # format loop
-        - name: "PPS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/pps-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
 
         # format loop
         - name: "PPS TO MD"

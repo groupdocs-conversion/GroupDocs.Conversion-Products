@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:53
+date: 2022-03-01T15:13:49
 draft: false
 
 ############################# Head ############################
@@ -360,11 +360,6 @@ more_formats:
         # format loop
         - name: "HTM TO TIF"
           link: "https://products.groupdocs.com/conversion/java/htm-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "HTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/htm-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

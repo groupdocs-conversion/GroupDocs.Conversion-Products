@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:53
+date: 2022-03-01T15:11:34
 draft: false
 
 ############################# Head ############################
@@ -360,11 +360,6 @@ more_formats:
         # format loop
         - name: "DOCM TO TIF"
           link: "https://products.groupdocs.com/conversion/java/docm-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DOCM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/docm-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

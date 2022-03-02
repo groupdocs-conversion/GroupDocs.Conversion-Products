@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:54
+date: 2022-03-01T15:13:51
 draft: false
 
 ############################# Head ############################
@@ -146,11 +146,6 @@ more_formats:
         - name: "HTML TO DIF"
           link: "https://products.groupdocs.com/conversion/java/html-to-dif/"
           description: "Data Interchange Format"
-
-        # format loop
-        - name: "HTML TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/html-to-doc/"
-          description: "Microsoft Word Document"
 
         # format loop
         - name: "HTML TO DOCM"

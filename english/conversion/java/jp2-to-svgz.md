@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:40
+date: 2022-03-01T15:14:37
 draft: false
 
 ############################# Head ############################
@@ -341,11 +341,6 @@ more_formats:
         - name: "JP2 TO SVG"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-svg/"
           description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "JP2 TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
 
         # format loop
         - name: "JP2 TO SXC"

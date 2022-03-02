@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:36
+date: 2022-03-01T15:18:51
 draft: false
 
 ############################# Head ############################
@@ -161,11 +161,6 @@ more_formats:
         - name: "PROJECT TO ICO"
           link: "https://products.groupdocs.com/conversion/java/project-to-ico/"
           description: "Microsoft Icon File"
-
-        # format loop
-        - name: "PROJECT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/project-to-odt/"
-          description: "Open Document Text"
 
         # format loop
         - name: "PROJECT TO OTP"

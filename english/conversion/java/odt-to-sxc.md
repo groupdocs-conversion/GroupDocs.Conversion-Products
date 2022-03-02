@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:04:35
+date: 2022-03-01T15:16:41
 draft: false
 
 ############################# Head ############################
@@ -346,11 +346,6 @@ more_formats:
         - name: "ODT TO SVGZ"
           link: "https://products.groupdocs.com/conversion/java/odt-to-svgz/"
           description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "ODT TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/odt-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
 
         # format loop
         - name: "ODT TO TEX"

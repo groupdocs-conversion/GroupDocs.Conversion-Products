@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:00:30
+date: 2022-03-01T15:12:12
 draft: false
 
 ############################# Head ############################
@@ -176,11 +176,6 @@ more_formats:
         - name: "DWG TO DOTX"
           link: "https://products.groupdocs.com/conversion/java/dwg-to-dotx/"
           description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "DWG TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-emf/"
-          description: "Enhanced Metafile Format"
 
         # format loop
         - name: "DWG TO EMZ"

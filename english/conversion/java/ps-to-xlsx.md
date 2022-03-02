@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:06:43
+date: 2022-03-01T15:18:58
 draft: false
 
 ############################# Head ############################
@@ -416,11 +416,6 @@ more_formats:
         - name: "PS TO XLSM"
           link: "https://products.groupdocs.com/conversion/java/ps-to-xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "PS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ps-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "PS TO XLT"

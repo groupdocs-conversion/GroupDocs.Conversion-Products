@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:58:48
+date: 2022-03-01T15:10:28
 draft: false
 
 ############################# Head ############################
@@ -376,11 +376,6 @@ more_formats:
         - name: "CDR TO TSV"
           link: "https://products.groupdocs.com/conversion/java/cdr-to-tsv/"
           description: "Tab Separated Values File"
-
-        # format loop
-        - name: "CDR TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-txt/"
-          description: "Plain Text File Format"
 
         # format loop
         - name: "CDR TO WEBP"

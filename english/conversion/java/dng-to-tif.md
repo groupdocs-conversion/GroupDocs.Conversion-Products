@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:41
+date: 2022-03-01T15:11:21
 draft: false
 
 ############################# Head ############################
@@ -361,11 +361,6 @@ more_formats:
         - name: "DNG TO TEX"
           link: "https://products.groupdocs.com/conversion/java/dng-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "DNG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "DNG TO TIFF"

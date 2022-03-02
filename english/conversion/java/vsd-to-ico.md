@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:08:35
+date: 2022-03-01T15:20:36
 draft: false
 
 ############################# Head ############################
@@ -216,11 +216,6 @@ more_formats:
         - name: "VSD TO HTML"
           link: "https://products.groupdocs.com/conversion/java/vsd-to-html/"
           description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "VSD TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-ico/"
-          description: "Microsoft Icon File"
 
         # format loop
         - name: "VSD TO JP2"

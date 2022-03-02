@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:05:11
+date: 2022-03-01T15:17:20
 draft: false
 
 ############################# Head ############################
@@ -396,11 +396,6 @@ more_formats:
         - name: "OTT TO XLAM"
           link: "https://products.groupdocs.com/conversion/java/ott-to-xlam/"
           description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "OTT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xls/"
-          description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "OTT TO XLSB"

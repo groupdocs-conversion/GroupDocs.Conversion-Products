@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:59:31
+date: 2022-03-01T15:11:11
 draft: false
 
 ############################# Head ############################
@@ -141,11 +141,6 @@ more_formats:
         - name: "DJVU TO DCM"
           link: "https://products.groupdocs.com/conversion/java/djvu-to-dcm/"
           description: "DICOM Image"
-
-        # format loop
-        - name: "DJVU TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/djvu-to-dif/"
-          description: "Data Interchange Format"
 
         # format loop
         - name: "DJVU TO DOC"

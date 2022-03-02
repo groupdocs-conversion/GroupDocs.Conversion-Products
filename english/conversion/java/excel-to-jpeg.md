@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:27
+date: 2022-03-01T15:13:22
 draft: false
 
 ############################# Head ############################
@@ -211,11 +211,6 @@ more_formats:
         - name: "EXCEL TO JP2"
           link: "https://products.groupdocs.com/conversion/java/excel-to-jp2/"
           description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "EXCEL TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-jpeg/"
-          description: "JPEG Image"
 
         # format loop
         - name: "EXCEL TO JPG"

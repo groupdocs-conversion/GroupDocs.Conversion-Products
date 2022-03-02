@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:01:36
+date: 2022-03-01T15:13:31
 draft: false
 
 ############################# Head ############################
@@ -356,11 +356,6 @@ more_formats:
         - name: "FODP TO TEX"
           link: "https://products.groupdocs.com/conversion/java/fodp-to-tex/"
           description: "LaTeX Source Document"
-
-        # format loop
-        - name: "FODP TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-tif/"
-          description: "Tagged Image File Format"
 
         # format loop
         - name: "FODP TO TIFF"

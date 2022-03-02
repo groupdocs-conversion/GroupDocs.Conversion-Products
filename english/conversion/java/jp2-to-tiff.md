@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T14:02:40
+date: 2022-03-01T15:14:38
 draft: false
 
 ############################# Head ############################
@@ -360,11 +360,6 @@ more_formats:
         # format loop
         - name: "JP2 TO TIF"
           link: "https://products.groupdocs.com/conversion/java/jp2-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "JP2 TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/jp2-to-tiff/"
           description: "Tagged Image File Format"
 
         # format loop

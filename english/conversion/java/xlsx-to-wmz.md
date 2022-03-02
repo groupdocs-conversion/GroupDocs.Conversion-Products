@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2022-03-01T13:47:09
+date: 2022-03-01T15:22:44
 draft: false
 
 ############################# Head ############################
@@ -127,315 +127,310 @@ more_formats:
     content: |
         You can also convert XLSX into many other file formats. Please see the complete list below.
     format: 
-            # format loop
-    - name: "XLSX TO BMP"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-bmp/"
-      description: "Bitmap File Format"
+        # format loop
+        - name: "XLSX TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-bmp/"
+          description: "Bitmap File Format"
 
-    # format loop
-    - name: "XLSX TO CSV"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-csv/"
-      description: "Comma Separated Values File"
+        # format loop
+        - name: "XLSX TO CSV"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-csv/"
+          description: "Comma Separated Values File"
 
-    # format loop
-    - name: "XLSX TO DCM"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-dcm/"
-      description: "DICOM Image"
+        # format loop
+        - name: "XLSX TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-dcm/"
+          description: "DICOM Image"
 
-    # format loop
-    - name: "XLSX TO DIF"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-dif/"
-      description: "Data Interchange Format"
+        # format loop
+        - name: "XLSX TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-dif/"
+          description: "Data Interchange Format"
 
-    # format loop
-    - name: "XLSX TO DOC"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-doc/"
-      description: "Microsoft Word Document"
+        # format loop
+        - name: "XLSX TO DOC"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-doc/"
+          description: "Microsoft Word Document"
 
-    # format loop
-    - name: "XLSX TO DOCM"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-docm/"
-      description: "Microsoft Word Macro-Enabled Document"
+        # format loop
+        - name: "XLSX TO DOCM"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-docm/"
+          description: "Microsoft Word Macro-Enabled Document"
 
-    # format loop
-    - name: "XLSX TO DOCX"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-docx/"
-      description: "Microsoft Word Open XML Document"
+        # format loop
+        - name: "XLSX TO DOCX"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-docx/"
+          description: "Microsoft Word Open XML Document"
 
-    # format loop
-    - name: "XLSX TO DOT"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-dot/"
-      description: "Microsoft Word Document Template"
+        # format loop
+        - name: "XLSX TO DOT"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-dot/"
+          description: "Microsoft Word Document Template"
 
-    # format loop
-    - name: "XLSX TO DOTM"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-dotm/"
-      description: "Microsoft Word Macro-Enabled Template"
+        # format loop
+        - name: "XLSX TO DOTM"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-dotm/"
+          description: "Microsoft Word Macro-Enabled Template"
 
-    # format loop
-    - name: "XLSX TO DOTX"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-dotx/"
-      description: "Word Open XML Document Template"
+        # format loop
+        - name: "XLSX TO DOTX"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-dotx/"
+          description: "Word Open XML Document Template"
 
-    # format loop
-    - name: "XLSX TO EMF"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-emf/"
-      description: "Enhanced Metafile Format"
+        # format loop
+        - name: "XLSX TO EMF"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-emf/"
+          description: "Enhanced Metafile Format"
 
-    # format loop
-    - name: "XLSX TO EMZ"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-emz/"
-      description: "Enhanced Windows Metafile Compressed"
+        # format loop
+        - name: "XLSX TO EMZ"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-emz/"
+          description: "Enhanced Windows Metafile Compressed"
 
-    # format loop
-    - name: "XLSX TO EPUB"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-epub/"
-      description: "Digital E-Book File Format"
+        # format loop
+        - name: "XLSX TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-epub/"
+          description: "Digital E-Book File Format"
 
-    # format loop
-    - name: "XLSX TO FODP"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-fodp/"
-      description: "OpenDocument Flat XML Presentation"
+        # format loop
+        - name: "XLSX TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
 
-    # format loop
-    - name: "XLSX TO FODS"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-fods/"
-      description: "OpenDocument Flat XML Spreadsheet"
+        # format loop
+        - name: "XLSX TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
 
-    # format loop
-    - name: "XLSX TO GIF"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-gif/"
-      description: "Graphical Interchange Format File"
+        # format loop
+        - name: "XLSX TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-gif/"
+          description: "Graphical Interchange Format File"
 
-    # format loop
-    - name: "XLSX TO HTM"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-htm/"
-      description: "Hypertext Markup Language File"
+        # format loop
+        - name: "XLSX TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-htm/"
+          description: "Hypertext Markup Language File"
 
-    # format loop
-    - name: "XLSX TO HTML"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-html/"
-      description: "Hyper Text Markup Language"
+        # format loop
+        - name: "XLSX TO HTML"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-html/"
+          description: "Hyper Text Markup Language"
 
-    # format loop
-    - name: "XLSX TO ICO"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-ico/"
-      description: "Microsoft Icon File"
+        # format loop
+        - name: "XLSX TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-ico/"
+          description: "Microsoft Icon File"
 
-    # format loop
-    - name: "XLSX TO JP2"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-jp2/"
-      description: "JPEG 2000 Core Image File"
+        # format loop
+        - name: "XLSX TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-jp2/"
+          description: "JPEG 2000 Core Image File"
 
-    # format loop
-    - name: "XLSX TO JPEG"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-jpeg/"
-      description: "JPEG Image"
+        # format loop
+        - name: "XLSX TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-jpeg/"
+          description: "JPEG Image"
 
-    # format loop
-    - name: "XLSX TO JPG"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-jpg/"
-      description: "Joint Photographic Expert Group Image File"
+        # format loop
+        - name: "XLSX TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
 
-    # format loop
-    - name: "XLSX TO MD"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-md/"
-      description: "Markdown"
+        # format loop
+        - name: "XLSX TO MD"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-md/"
+          description: "Markdown"
 
-    # format loop
-    - name: "XLSX TO MHT"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-mht/"
-      description: "MIME Encapsulation of Aggregate HTML"
+        # format loop
+        - name: "XLSX TO MHT"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-mht/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-    # format loop
-    - name: "XLSX TO MHTML"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-mhtml/"
-      description: "MIME Encapsulation of Aggregate HTML"
+        # format loop
+        - name: "XLSX TO MHTML"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-mhtml/"
+          description: "MIME Encapsulation of Aggregate HTML"
 
-    # format loop
-    - name: "XLSX TO ODP"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-odp/"
-      description: "OpenDocument Presentation File Format"
+        # format loop
+        - name: "XLSX TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-odp/"
+          description: "OpenDocument Presentation File Format"
 
-    # format loop
-    - name: "XLSX TO ODS"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-ods/"
-      description: "Open Document Spreadsheet"
+        # format loop
+        - name: "XLSX TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-ods/"
+          description: "Open Document Spreadsheet"
 
-    # format loop
-    - name: "XLSX TO ODT"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-odt/"
-      description: "Open Document Text"
+        # format loop
+        - name: "XLSX TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-odt/"
+          description: "Open Document Text"
 
-    # format loop
-    - name: "XLSX TO OTP"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-otp/"
-      description: "Origin Graph Template"
+        # format loop
+        - name: "XLSX TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-otp/"
+          description: "Origin Graph Template"
 
-    # format loop
-    - name: "XLSX TO OTT"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-ott/"
-      description: "Open Document Template"
+        # format loop
+        - name: "XLSX TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-ott/"
+          description: "Open Document Template"
 
-    # format loop
-    - name: "XLSX TO PDF"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-pdf/"
-      description: "Portable Document"
+        # format loop
+        - name: "XLSX TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-pdf/"
+          description: "Portable Document"
 
-    # format loop
-    - name: "XLSX TO PNG"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-png/"
-      description: "Portable Network Graphic"
+        # format loop
+        - name: "XLSX TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-png/"
+          description: "Portable Network Graphic"
 
-    # format loop
-    - name: "XLSX TO POT"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-pot/"
-      description: "PowerPoint Template"
+        # format loop
+        - name: "XLSX TO POT"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-pot/"
+          description: "PowerPoint Template"
 
-    # format loop
-    - name: "XLSX TO POTM"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-potm/"
-      description: "Microsoft PowerPoint Template"
+        # format loop
+        - name: "XLSX TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-potm/"
+          description: "Microsoft PowerPoint Template"
 
-    # format loop
-    - name: "XLSX TO POTX"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-potx/"
-      description: "Microsoft PowerPoint Open XML Template"
+        # format loop
+        - name: "XLSX TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
 
-    # format loop
-    - name: "XLSX TO PPS"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-pps/"
-      description: "Microsoft PowerPoint Slide Show"
+        # format loop
+        - name: "XLSX TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
 
-    # format loop
-    - name: "XLSX TO PPSM"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-ppsm/"
-      description: "Microsoft PowerPoint Slide Show"
+        # format loop
+        - name: "XLSX TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
 
-    # format loop
-    - name: "XLSX TO PPSX"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-ppsx/"
-      description: "PowerPoint Open XML Slide Show"
+        # format loop
+        - name: "XLSX TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
 
-    # format loop
-    - name: "XLSX TO PPT"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-ppt/"
-      description: "PowerPoint Presentation"
+        # format loop
+        - name: "XLSX TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-ppt/"
+          description: "PowerPoint Presentation"
 
-    # format loop
-    - name: "XLSX TO PPTM"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-pptm/"
-      description: "Microsoft PowerPoint Presentation"
+        # format loop
+        - name: "XLSX TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
 
-    # format loop
-    - name: "XLSX TO PPTX"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-pptx/"
-      description: "PowerPoint Open XML Presentation"
+        # format loop
+        - name: "XLSX TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
 
-    # format loop
-    - name: "XLSX TO PSD"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-psd/"
-      description: "Adobe Photoshop Document"
+        # format loop
+        - name: "XLSX TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-psd/"
+          description: "Adobe Photoshop Document"
 
-    # format loop
-    - name: "XLSX TO RTF"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-rtf/"
-      description: "Rich Text File Format"
+        # format loop
+        - name: "XLSX TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-rtf/"
+          description: "Rich Text File Format"
 
-    # format loop
-    - name: "XLSX TO SVG"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-svg/"
-      description: "Scalable Vector Graphics File"
+        # format loop
+        - name: "XLSX TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-svg/"
+          description: "Scalable Vector Graphics File"
 
-    # format loop
-    - name: "XLSX TO SVGZ"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-svgz/"
-      description: "Compressed Scalable Vector Graphics File"
+        # format loop
+        - name: "XLSX TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
 
-    # format loop
-    - name: "XLSX TO SXC"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-sxc/"
-      description: "StarOffice Calc Spreadsheet"
+        # format loop
+        - name: "XLSX TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
 
-    # format loop
-    - name: "XLSX TO TEX"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-tex/"
-      description: "LaTeX Source Document"
+        # format loop
+        - name: "XLSX TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-tex/"
+          description: "LaTeX Source Document"
 
-    # format loop
-    - name: "XLSX TO TIF"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-tif/"
-      description: "Tagged Image File Format"
+        # format loop
+        - name: "XLSX TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-tif/"
+          description: "Tagged Image File Format"
 
-    # format loop
-    - name: "XLSX TO TIFF"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-tiff/"
-      description: "Tagged Image File Format"
+        # format loop
+        - name: "XLSX TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-tiff/"
+          description: "Tagged Image File Format"
 
-    # format loop
-    - name: "XLSX TO TSV"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-tsv/"
-      description: "Tab Separated Values File"
+        # format loop
+        - name: "XLSX TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-tsv/"
+          description: "Tab Separated Values File"
 
-    # format loop
-    - name: "XLSX TO TXT"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-txt/"
-      description: "Plain Text File Format"
+        # format loop
+        - name: "XLSX TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-txt/"
+          description: "Plain Text File Format"
 
-    # format loop
-    - name: "XLSX TO WEBP"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-webp/"
-      description: "Raster Web Image File Format"
+        # format loop
+        - name: "XLSX TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-webp/"
+          description: "Raster Web Image File Format"
 
-    # format loop
-    - name: "XLSX TO WMF"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-wmf/"
-      description: "Windows Metafile"
+        # format loop
+        - name: "XLSX TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-wmf/"
+          description: "Windows Metafile"
 
-    # format loop
-    - name: "XLSX TO WMZ"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-wmz/"
-      description: "Windows Metafile Compressed"
+        # format loop
+        - name: "XLSX TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
 
-    # format loop
-    - name: "XLSX TO XLAM"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-xlam/"
-      description: "Microsoft Excel Macro-Enabled Add-In"
+        # format loop
+        - name: "XLSX TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-xls/"
+          description: "Microsoft Excel Binary File Format"
 
-    # format loop
-    - name: "XLSX TO XLS"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-xls/"
-      description: "Microsoft Excel Binary File Format"
+        # format loop
+        - name: "XLSX TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
 
-    # format loop
-    - name: "XLSX TO XLSB"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-xlsb/"
-      description: "Microsoft Excel Binary Spreadsheet File"
+        # format loop
+        - name: "XLSX TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
-    # format loop
-    - name: "XLSX TO XLSM"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-xlsm/"
-      description: "Microsoft Excel Macro-Enabled Spreadsheet"
+        # format loop
+        - name: "XLSX TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-xlt/"
+          description: "Microsoft Excel Template"
 
-    # format loop
-    - name: "XLSX TO XLT"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-xlt/"
-      description: "Microsoft Excel Template"
+        # format loop
+        - name: "XLSX TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
 
-    # format loop
-    - name: "XLSX TO XLTM"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-xltm/"
-      description: "Microsoft Excel Macro-Enabled Template"
+        # format loop
+        - name: "XLSX TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
 
-    # format loop
-    - name: "XLSX TO XLTX"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-xltx/"
-      description: "Microsoft Excel Open XML Template"
-
-    # format loop
-    - name: "XLSX TO XPS"
-      link: "https://products.groupdocs.com/conversion/java/xlsx-to-xps/"
-      description: "Open XML Paper Specification"
+        # format loop
+        - name: "XLSX TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/xlsx-to-xps/"
+          description: "Open XML Paper Specification"
 
 
 

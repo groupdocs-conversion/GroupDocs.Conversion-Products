@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T17:05:34
+date: 2022-03-01T14:07:14
 draft: false
 
 ############################# Head ############################
@@ -128,119 +128,24 @@ more_formats:
         You can also convert SVGZ into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "SVGZ TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "SVGZ TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "SVGZ TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "SVGZ TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "SVGZ TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "SVGZ TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "SVGZ TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "SVGZ TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "SVGZ TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "SVGZ TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "SVGZ TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "SVGZ TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "SVGZ TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "SVGZ TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "SVGZ TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "SVGZ TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "SVGZ TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "SVGZ TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "SVGZ TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "SVGZ TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "SVGZ TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "SVGZ TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "SVGZ TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "SVGZ TO CSV"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-csv/"
           description: "Comma Separated Values File"
+
+        # format loop
+        - name: "SVGZ TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "SVGZ TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-dif/"
+          description: "Data Interchange Format"
 
         # format loop
         - name: "SVGZ TO DOC"
@@ -273,99 +178,9 @@ more_formats:
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "SVGZ TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "SVGZ TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "SVGZ TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "SVGZ TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "SVGZ TO MD"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "SVGZ TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "SVGZ TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "SVGZ TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "SVGZ TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "SVGZ TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "SVGZ TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "SVGZ TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "SVGZ TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "SVGZ TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "SVGZ TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "SVGZ TO EMF"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "SVGZ TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "SVGZ TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "SVGZ TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "SVGZ TO EMZ"
@@ -373,14 +188,59 @@ more_formats:
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "SVGZ TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/svgz-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "SVGZ TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "SVGZ TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "SVGZ TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "SVGZ TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "SVGZ TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "SVGZ TO HTML"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-html/"
           description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "SVGZ TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "SVGZ TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "SVGZ TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "SVGZ TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "SVGZ TO MD"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-md/"
+          description: "Markdown"
 
         # format loop
         - name: "SVGZ TO MHT"
@@ -391,6 +251,192 @@ more_formats:
         - name: "SVGZ TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/svgz-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "SVGZ TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "SVGZ TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "SVGZ TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "SVGZ TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "SVGZ TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "SVGZ TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "SVGZ TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "SVGZ TO POT"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "SVGZ TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "SVGZ TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "SVGZ TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "SVGZ TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "SVGZ TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "SVGZ TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "SVGZ TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "SVGZ TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "SVGZ TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "SVGZ TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "SVGZ TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "SVGZ TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "SVGZ TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "SVGZ TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "SVGZ TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "SVGZ TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "SVGZ TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "SVGZ TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "SVGZ TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "SVGZ TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "SVGZ TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "SVGZ TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "SVGZ TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "SVGZ TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "SVGZ TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "SVGZ TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "SVGZ TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "SVGZ TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "SVGZ TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/svgz-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

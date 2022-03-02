@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T17:04:50
+date: 2022-03-01T14:00:51
 draft: false
 
 ############################# Head ############################
@@ -116,7 +116,7 @@ about_formats:
         - icon: "far fa-file-word"
           title: " About DOCX File Format"
           content: |
-            Docx is well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
+            Docx is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
 
           link: "https://docs.fileformat.com/word-processing/docx/"
 
@@ -128,119 +128,24 @@ more_formats:
         You can also convert EMF into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "EMF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "EMF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "EMF TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "EMF TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "EMF TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "EMF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "EMF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "EMF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "EMF TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "EMF TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "EMF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "EMF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "EMF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "EMF TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "EMF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "EMF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "EMF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "EMF TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "EMF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "EMF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "EMF TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "EMF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "EMF TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "EMF TO CSV"
           link: "https://products.groupdocs.com/conversion/java/emf-to-csv/"
           description: "Comma Separated Values File"
+
+        # format loop
+        - name: "EMF TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "EMF TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-dif/"
+          description: "Data Interchange Format"
 
         # format loop
         - name: "EMF TO DOC"
@@ -273,99 +178,14 @@ more_formats:
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "EMF TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-rtf/"
-          description: "Rich Text File Format"
+        - name: "EMF TO EML"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-eml/"
+          description: "E-Mail Message File"
 
         # format loop
-        - name: "EMF TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "EMF TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "EMF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "EMF TO MD"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "EMF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "EMF TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "EMF TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "EMF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "EMF TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "EMF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "EMF TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "EMF TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "EMF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "EMF TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "EMF TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "EMF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "EMF TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "EMF TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-jp2/"
-          description: "JPEG 2000 Core Image File"
+        - name: "EMF TO EMLX"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-emlx/"
+          description: "Apple Mail Message"
 
         # format loop
         - name: "EMF TO EMZ"
@@ -373,14 +193,59 @@ more_formats:
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "EMF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "EMF TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "EMF TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "EMF TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "EMF TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "EMF TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "EMF TO HTML"
           link: "https://products.groupdocs.com/conversion/java/emf-to-html/"
           description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "EMF TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "EMF TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "EMF TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "EMF TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "EMF TO MD"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-md/"
+          description: "Markdown"
 
         # format loop
         - name: "EMF TO MHT"
@@ -391,6 +256,197 @@ more_formats:
         - name: "EMF TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/emf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "EMF TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "EMF TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "EMF TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "EMF TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "EMF TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "EMF TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "EMF TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "EMF TO POT"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "EMF TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "EMF TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "EMF TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "EMF TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "EMF TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "EMF TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "EMF TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "EMF TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "EMF TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "EMF TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "EMF TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "EMF TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "EMF TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "EMF TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "EMF TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "EMF TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "EMF TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "EMF TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "EMF TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "EMF TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "EMF TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "EMF TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "EMF TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "EMF TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "EMF TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "EMF TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "EMF TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "EMF TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "EMF TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "EMF TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/emf-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

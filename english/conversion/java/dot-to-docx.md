@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T17:04:44
+date: 2022-03-01T14:00:00
 draft: false
 
 ############################# Head ############################
@@ -116,7 +116,7 @@ about_formats:
         - icon: "far fa-file-word"
           title: " About DOCX File Format"
           content: |
-            Docx is well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
+            Docx is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
 
           link: "https://docs.fileformat.com/word-processing/docx/"
 
@@ -128,119 +128,24 @@ more_formats:
         You can also convert DOT into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "DOT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "DOT TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "DOT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "DOT TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "DOT TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DOT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "DOT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "DOT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "DOT TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "DOT TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "DOT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "DOT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "DOT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DOT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "DOT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "DOT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "DOT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "DOT TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "DOT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "DOT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "DOT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "DOT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "DOT TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "DOT TO CSV"
           link: "https://products.groupdocs.com/conversion/java/dot-to-csv/"
           description: "Comma Separated Values File"
+
+        # format loop
+        - name: "DOT TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "DOT TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-dif/"
+          description: "Data Interchange Format"
 
         # format loop
         - name: "DOT TO DOC"
@@ -258,11 +163,6 @@ more_formats:
           description: "Microsoft Word Open XML Document"
 
         # format loop
-        - name: "DOT TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
         - name: "DOT TO DOTM"
           link: "https://products.groupdocs.com/conversion/java/dot-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
@@ -273,99 +173,9 @@ more_formats:
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "DOT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "DOT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "DOT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "DOT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "DOT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "DOT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DOT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DOT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "DOT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "DOT TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "DOT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "DOT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "DOT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "DOT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DOT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "DOT TO EMF"
           link: "https://products.groupdocs.com/conversion/java/dot-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "DOT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "DOT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DOT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "DOT TO EMZ"
@@ -373,14 +183,59 @@ more_formats:
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "DOT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "DOT TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "DOT TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "DOT TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "DOT TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "DOT TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "DOT TO HTML"
           link: "https://products.groupdocs.com/conversion/java/dot-to-html/"
           description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "DOT TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "DOT TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "DOT TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "DOT TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "DOT TO MD"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-md/"
+          description: "Markdown"
 
         # format loop
         - name: "DOT TO MHT"
@@ -391,6 +246,202 @@ more_formats:
         - name: "DOT TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/dot-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "DOT TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "DOT TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "DOT TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "DOT TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "DOT TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "DOT TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "DOT TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "DOT TO POT"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "DOT TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "DOT TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "DOT TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "DOT TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "DOT TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "DOT TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "DOT TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "DOT TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "DOT TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "DOT TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "DOT TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "DOT TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "DOT TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "DOT TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "DOT TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "DOT TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "DOT TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "DOT TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "DOT TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "DOT TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "DOT TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "DOT TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "DOT TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "DOT TO XLS2003"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-xls2003/"
+          description: "Microsoft Excel Spreadsheet"
+
+        # format loop
+        - name: "DOT TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "DOT TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "DOT TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "DOT TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "DOT TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "DOT TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "DOT TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/dot-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T17:05:24
+date: 2022-03-01T14:05:51
 draft: false
 
 ############################# Head ############################
@@ -128,119 +128,24 @@ more_formats:
         You can also convert POTM into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "POTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "POTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "POTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "POTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "POTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "POTM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "POTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "POTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "POTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "POTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "POTM TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "POTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "POTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "POTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "POTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "POTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "POTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "POTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "POTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "POTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "POTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "POTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "POTM TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "POTM TO CSV"
           link: "https://products.groupdocs.com/conversion/java/potm-to-csv/"
           description: "Comma Separated Values File"
+
+        # format loop
+        - name: "POTM TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "POTM TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-dif/"
+          description: "Data Interchange Format"
 
         # format loop
         - name: "POTM TO DOC"
@@ -273,99 +178,9 @@ more_formats:
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "POTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "POTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "POTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "POTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "POTM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "POTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "POTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "POTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "POTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "POTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "POTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "POTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "POTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "POTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "POTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "POTM TO EMF"
           link: "https://products.groupdocs.com/conversion/java/potm-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "POTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "POTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "POTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "POTM TO EMZ"
@@ -373,14 +188,64 @@ more_formats:
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "POTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "POTM TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "POTM TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "POTM TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "POTM TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "POTM TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "POTM TO HTML"
           link: "https://products.groupdocs.com/conversion/java/potm-to-html/"
           description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "POTM TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "POTM TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "POTM TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "POTM TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "POTM TO JPM"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-jpm/"
+          description: "JPEG 2000 Image File"
+
+        # format loop
+        - name: "POTM TO MD"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-md/"
+          description: "Markdown"
 
         # format loop
         - name: "POTM TO MHT"
@@ -391,6 +256,192 @@ more_formats:
         - name: "POTM TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/potm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "POTM TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "POTM TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "POTM TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "POTM TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "POTM TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "POTM TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "POTM TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "POTM TO POT"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "POTM TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "POTM TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "POTM TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "POTM TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "POTM TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "POTM TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "POTM TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "POTM TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "POTM TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "POTM TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "POTM TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "POTM TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "POTM TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "POTM TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "POTM TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "POTM TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "POTM TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "POTM TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "POTM TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "POTM TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "POTM TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "POTM TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "POTM TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "POTM TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "POTM TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "POTM TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "POTM TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "POTM TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "POTM TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/potm-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

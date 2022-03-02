@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T17:04:38
+date: 2022-03-01T13:59:02
 draft: false
 
 ############################# Head ############################
@@ -128,119 +128,24 @@ more_formats:
         You can also convert CMX into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "CMX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "CMX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "CMX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "CMX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "CMX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "CMX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "CMX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "CMX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "CMX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "CMX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "CMX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "CMX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "CMX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "CMX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "CMX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "CMX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "CMX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "CMX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "CMX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "CMX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "CMX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "CMX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "CMX TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "CMX TO CSV"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-csv/"
           description: "Comma Separated Values File"
+
+        # format loop
+        - name: "CMX TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "CMX TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-dif/"
+          description: "Data Interchange Format"
 
         # format loop
         - name: "CMX TO DOC"
@@ -273,99 +178,9 @@ more_formats:
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "CMX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "CMX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "CMX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "CMX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "CMX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "CMX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "CMX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "CMX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "CMX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "CMX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "CMX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "CMX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "CMX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "CMX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "CMX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "CMX TO EMF"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "CMX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "CMX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "CMX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "CMX TO EMZ"
@@ -373,14 +188,59 @@ more_formats:
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "CMX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/cmx-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "CMX TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "CMX TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "CMX TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "CMX TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "CMX TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "CMX TO HTML"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-html/"
           description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "CMX TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "CMX TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "CMX TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "CMX TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "CMX TO MD"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-md/"
+          description: "Markdown"
 
         # format loop
         - name: "CMX TO MHT"
@@ -391,6 +251,197 @@ more_formats:
         - name: "CMX TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/cmx-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "CMX TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "CMX TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "CMX TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "CMX TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "CMX TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "CMX TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "CMX TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "CMX TO POT"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "CMX TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "CMX TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "CMX TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "CMX TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "CMX TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "CMX TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "CMX TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "CMX TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "CMX TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "CMX TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "CMX TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "CMX TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "CMX TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "CMX TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "CMX TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "CMX TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "CMX TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "CMX TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "CMX TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "CMX TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "CMX TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "CMX TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "CMX TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "CMX TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "CMX TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "CMX TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "CMX TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "CMX TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "CMX TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "CMX TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/cmx-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

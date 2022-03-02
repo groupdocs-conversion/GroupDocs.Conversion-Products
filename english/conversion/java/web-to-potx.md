@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T17:05:48
+date: 2022-03-01T13:46:08
 draft: false
 
 ############################# Head ############################
@@ -127,270 +127,46 @@ more_formats:
     content: |
         You can also convert WEB into many other file formats. Please see the complete list below.
     format: 
-        # format loop
-        - name: "WEB TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/web-to-epub/"
-          description: "Digital E-Book File Format"
+            # format loop
+    - name: "WEB TO DOCM"
+      link: "https://products.groupdocs.com/conversion/java/web-to-docm/"
+      description: "Microsoft Word Macro-Enabled Document"
 
-        # format loop
-        - name: "WEB TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xps/"
-          description: "Open XML Paper Specification"
+    # format loop
+    - name: "WEB TO DOCX"
+      link: "https://products.groupdocs.com/conversion/java/web-to-docx/"
+      description: "Microsoft Word Open XML Document"
 
-        # format loop
-        - name: "WEB TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-tex/"
-          description: "LaTeX Source Document"
+    # format loop
+    - name: "WEB TO EPUB"
+      link: "https://products.groupdocs.com/conversion/java/web-to-epub/"
+      description: "Digital E-Book File Format"
 
-        # format loop
-        - name: "WEB TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ppt/"
-          description: "PowerPoint Presentation"
+    # format loop
+    - name: "WEB TO FODS"
+      link: "https://products.groupdocs.com/conversion/java/web-to-fods/"
+      description: "OpenDocument Flat XML Spreadsheet"
 
-        # format loop
-        - name: "WEB TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/web-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
+    # format loop
+    - name: "WEB TO MHTML"
+      link: "https://products.groupdocs.com/conversion/java/web-to-mhtml/"
+      description: "MIME Encapsulation of Aggregate HTML"
 
-        # format loop
-        - name: "WEB TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
+    # format loop
+    - name: "WEB TO PDF"
+      link: "https://products.groupdocs.com/conversion/java/web-to-pdf/"
+      description: "Portable Document"
 
-        # format loop
-        - name: "WEB TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
+    # format loop
+    - name: "WEB TO POTX"
+      link: "https://products.groupdocs.com/conversion/java/web-to-potx/"
+      description: "Microsoft PowerPoint Open XML Template"
 
-        # format loop
-        - name: "WEB TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/web-to-odp/"
-          description: "OpenDocument Presentation File Format"
+    # format loop
+    - name: "WEB TO PPTX"
+      link: "https://products.groupdocs.com/conversion/java/web-to-pptx/"
+      description: "PowerPoint Open XML Presentation"
 
-        # format loop
-        - name: "WEB TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/web-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "WEB TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "WEB TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "WEB TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "WEB TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "WEB TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "WEB TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "WEB TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "WEB TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "WEB TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "WEB TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "WEB TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "WEB TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/web-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "WEB TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "WEB TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/web-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "WEB TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/web-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "WEB TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "WEB TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "WEB TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "WEB TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "WEB TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "WEB TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "WEB TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "WEB TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "WEB TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "WEB TO MD"
-          link: "https://products.groupdocs.com/conversion/java/web-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "WEB TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "WEB TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "WEB TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/web-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "WEB TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/web-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "WEB TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/web-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "WEB TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "WEB TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/web-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "WEB TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "WEB TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/web-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "WEB TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "WEB TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "WEB TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/web-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "WEB TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/web-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "WEB TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/web-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "WEB TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/web-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "WEB TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/web-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "WEB TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/web-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "WEB TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "WEB TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/web-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
 
 
 ############################# Back to top ###############################

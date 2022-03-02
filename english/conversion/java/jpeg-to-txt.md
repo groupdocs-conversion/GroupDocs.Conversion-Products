@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T17:05:04
+date: 2022-03-01T14:02:52
 draft: false
 
 ############################# Head ############################
@@ -128,119 +128,19 @@ more_formats:
         You can also convert JPEG into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "JPEG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-epub/"
-          description: "Digital E-Book File Format"
+        - name: "JPEG TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
-        - name: "JPEG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xps/"
-          description: "Open XML Paper Specification"
+        - name: "JPEG TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-dcm/"
+          description: "DICOM Image"
 
         # format loop
-        - name: "JPEG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "JPEG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "JPEG TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "JPEG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "JPEG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "JPEG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "JPEG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "JPEG TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "JPEG TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "JPEG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "JPEG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "JPEG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "JPEG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "JPEG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "JPEG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "JPEG TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "JPEG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "JPEG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "JPEG TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "JPEG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "JPEG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-csv/"
-          description: "Comma Separated Values File"
+        - name: "JPEG TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-dif/"
+          description: "Data Interchange Format"
 
         # format loop
         - name: "JPEG TO DOC"
@@ -273,99 +173,9 @@ more_formats:
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "JPEG TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "JPEG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "JPEG TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "JPEG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "JPEG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "JPEG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "JPEG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "JPEG TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "JPEG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "JPEG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "JPEG TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "JPEG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "JPEG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "JPEG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "JPEG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "JPEG TO EMF"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-emf/"
           description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "JPEG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "JPEG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "JPEG TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-jp2/"
-          description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "JPEG TO EMZ"
@@ -373,14 +183,54 @@ more_formats:
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "JPEG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "JPEG TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "JPEG TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "JPEG TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "JPEG TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "JPEG TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "JPEG TO HTML"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-html/"
           description: "Hyper Text Markup Language"
+
+        # format loop
+        - name: "JPEG TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "JPEG TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "JPEG TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "JPEG TO MD"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-md/"
+          description: "Markdown"
 
         # format loop
         - name: "JPEG TO MHT"
@@ -391,6 +241,192 @@ more_formats:
         - name: "JPEG TO MHTML"
           link: "https://products.groupdocs.com/conversion/java/jpeg-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "JPEG TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "JPEG TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "JPEG TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "JPEG TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "JPEG TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "JPEG TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "JPEG TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "JPEG TO POT"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "JPEG TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "JPEG TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "JPEG TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "JPEG TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "JPEG TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "JPEG TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "JPEG TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "JPEG TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "JPEG TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "JPEG TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "JPEG TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "JPEG TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "JPEG TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "JPEG TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "JPEG TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "JPEG TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "JPEG TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "JPEG TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "JPEG TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "JPEG TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "JPEG TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "JPEG TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "JPEG TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "JPEG TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "JPEG TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "JPEG TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "JPEG TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "JPEG TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "JPEG TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/jpeg-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

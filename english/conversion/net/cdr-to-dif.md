@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T08:25:52
+date: 2022-03-01T19:08:08
 draft: false
 
 ############################# Head ############################
@@ -127,269 +127,315 @@ more_formats:
         You can also convert CDR into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "CDR TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "CDR TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "CDR TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "CDR TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "CDR TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "CDR TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "CDR TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "CDR TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "CDR TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "CDR TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "CDR TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "CDR TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "CDR TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "CDR TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "CDR TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "CDR TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "CDR TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "CDR TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "CDR TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "CDR TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "CDR TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "CDR TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "CDR TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "CDR TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
+        - name: "CDR TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
         - name: "CDR TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "CDR TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "CDR TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-docx/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "CDR TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "CDR TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-dotm/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "CDR TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "CDR TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "CDR TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "CDR TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "CDR TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "CDR TO MD"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "CDR TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "CDR TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "CDR TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "CDR TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "CDR TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "CDR TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "CDR TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "CDR TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "CDR TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "CDR TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "CDR TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "CDR TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "CDR TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "CDR TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
         - name: "CDR TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "CDR TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "CDR TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "CDR TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "CDR TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "CDR TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "CDR TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "CDR TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
+        - name: "CDR TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "CDR TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "CDR TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "CDR TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "CDR TO MD"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-md/"
+          description: "Markdown"
+
+        # format loop
         - name: "CDR TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "CDR TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/cdr-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "CDR TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "CDR TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "CDR TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "CDR TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "CDR TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "CDR TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "CDR TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "CDR TO POT"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "CDR TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "CDR TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "CDR TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "CDR TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "CDR TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "CDR TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "CDR TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "CDR TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "CDR TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "CDR TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "CDR TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "CDR TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "CDR TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "CDR TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "CDR TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "CDR TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "CDR TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "CDR TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "CDR TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "CDR TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "CDR TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "CDR TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "CDR TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "CDR TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "CDR TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "CDR TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "CDR TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "CDR TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "CDR TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "CDR TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/cdr-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

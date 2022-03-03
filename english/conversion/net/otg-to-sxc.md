@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T08:26:43
+date: 2022-03-01T19:15:03
 draft: false
 
 ############################# Head ############################
@@ -127,269 +127,315 @@ more_formats:
         You can also convert OTG into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "OTG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "OTG TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "OTG TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "OTG TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "OTG TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "OTG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "OTG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "OTG TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "OTG TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "OTG TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "OTG TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "OTG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "OTG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "OTG TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "OTG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "OTG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "OTG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "OTG TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "OTG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "OTG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "OTG TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "OTG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "OTG TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "OTG TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
+        - name: "OTG TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "OTG TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-dif/"
+          description: "Data Interchange Format"
+
+        # format loop
         - name: "OTG TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "OTG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "OTG TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-docx/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "OTG TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "OTG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-dotm/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "OTG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "OTG TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "OTG TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "OTG TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "OTG TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "OTG TO MD"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "OTG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "OTG TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "OTG TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "OTG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "OTG TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "OTG TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "OTG TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "OTG TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "OTG TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "OTG TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "OTG TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "OTG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "OTG TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "OTG TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
         - name: "OTG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "OTG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "OTG TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "OTG TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "OTG TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "OTG TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "OTG TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "OTG TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
+        - name: "OTG TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "OTG TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "OTG TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "OTG TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "OTG TO MD"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-md/"
+          description: "Markdown"
+
+        # format loop
         - name: "OTG TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "OTG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/otg-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "OTG TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "OTG TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "OTG TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "OTG TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "OTG TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "OTG TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "OTG TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "OTG TO POT"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "OTG TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "OTG TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "OTG TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "OTG TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "OTG TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "OTG TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "OTG TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "OTG TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "OTG TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "OTG TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "OTG TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "OTG TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "OTG TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "OTG TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "OTG TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "OTG TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "OTG TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "OTG TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "OTG TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "OTG TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "OTG TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "OTG TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "OTG TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "OTG TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "OTG TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "OTG TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "OTG TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "OTG TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "OTG TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/otg-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

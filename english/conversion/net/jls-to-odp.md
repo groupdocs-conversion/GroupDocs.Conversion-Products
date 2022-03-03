@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T08:26:24
+date: 2022-03-01T19:12:29
 draft: false
 
 ############################# Head ############################
@@ -127,269 +127,320 @@ more_formats:
         You can also convert JLS into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "JLS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "JLS TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "JLS TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "JLS TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "JLS TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "JLS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "JLS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "JLS TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "JLS TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "JLS TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "JLS TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "JLS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "JLS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "JLS TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "JLS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "JLS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "JLS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "JLS TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "JLS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "JLS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "JLS TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "JLS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "JLS TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "JLS TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
+        - name: "JLS TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "JLS TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-dif/"
+          description: "Data Interchange Format"
+
+        # format loop
         - name: "JLS TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "JLS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "JLS TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-docx/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "JLS TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "JLS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-dotm/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "JLS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "JLS TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "JLS TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "JLS TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "JLS TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "JLS TO MD"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "JLS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "JLS TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "JLS TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "JLS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "JLS TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "JLS TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "JLS TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "JLS TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "JLS TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "JLS TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "JLS TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "JLS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "JLS TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "JLS TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
         - name: "JLS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "JLS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "JLS TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "JLS TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "JLS TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "JLS TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "JLS TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "JLS TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
+        - name: "JLS TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "JLS TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "JLS TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "JLS TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "JLS TO MD"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-md/"
+          description: "Markdown"
+
+        # format loop
         - name: "JLS TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "JLS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/jls-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "JLS TO MOBI"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-mobi/"
+          description: "Mobipocket eBook"
+
+        # format loop
+        - name: "JLS TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "JLS TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "JLS TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "JLS TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "JLS TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "JLS TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "JLS TO POT"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "JLS TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "JLS TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "JLS TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "JLS TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "JLS TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "JLS TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "JLS TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "JLS TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "JLS TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "JLS TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "JLS TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "JLS TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "JLS TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "JLS TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "JLS TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "JLS TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "JLS TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "JLS TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "JLS TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "JLS TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "JLS TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "JLS TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "JLS TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "JLS TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "JLS TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "JLS TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "JLS TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "JLS TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "JLS TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "JLS TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/jls-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

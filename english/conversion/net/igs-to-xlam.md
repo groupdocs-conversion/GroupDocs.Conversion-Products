@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T08:26:22
+date: 2022-03-01T19:12:12
 draft: false
 
 ############################# Head ############################
@@ -127,269 +127,315 @@ more_formats:
         You can also convert IGS into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "IGS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "IGS TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "IGS TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "IGS TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "IGS TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "IGS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "IGS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "IGS TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "IGS TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "IGS TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "IGS TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "IGS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "IGS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "IGS TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "IGS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "IGS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "IGS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "IGS TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "IGS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "IGS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "IGS TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "IGS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "IGS TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "IGS TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
+        - name: "IGS TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "IGS TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-dif/"
+          description: "Data Interchange Format"
+
+        # format loop
         - name: "IGS TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "IGS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "IGS TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-docx/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "IGS TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "IGS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-dotm/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "IGS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "IGS TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "IGS TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "IGS TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "IGS TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "IGS TO MD"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "IGS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "IGS TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "IGS TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "IGS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "IGS TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "IGS TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "IGS TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "IGS TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "IGS TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "IGS TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "IGS TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "IGS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "IGS TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "IGS TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
         - name: "IGS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "IGS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "IGS TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "IGS TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "IGS TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "IGS TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "IGS TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "IGS TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
+        - name: "IGS TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "IGS TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "IGS TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "IGS TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "IGS TO MD"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-md/"
+          description: "Markdown"
+
+        # format loop
         - name: "IGS TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "IGS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/igs-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "IGS TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "IGS TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "IGS TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "IGS TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "IGS TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "IGS TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "IGS TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "IGS TO POT"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "IGS TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "IGS TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "IGS TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "IGS TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "IGS TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "IGS TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "IGS TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "IGS TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "IGS TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "IGS TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "IGS TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "IGS TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "IGS TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "IGS TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "IGS TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "IGS TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "IGS TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "IGS TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "IGS TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "IGS TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "IGS TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "IGS TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "IGS TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "IGS TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "IGS TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "IGS TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "IGS TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "IGS TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "IGS TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/igs-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

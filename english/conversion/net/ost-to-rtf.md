@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T08:26:42
+date: 2022-03-01T19:14:56
 draft: false
 
 ############################# Head ############################
@@ -127,269 +127,330 @@ more_formats:
         You can also convert OST into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "OST TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "OST TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "OST TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "OST TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "OST TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "OST TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "OST TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "OST TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "OST TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "OST TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "OST TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "OST TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "OST TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "OST TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "OST TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "OST TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "OST TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "OST TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "OST TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "OST TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "OST TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "OST TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "OST TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "OST TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
+        - name: "OST TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "OST TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-dif/"
+          description: "Data Interchange Format"
+
+        # format loop
         - name: "OST TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "OST TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "OST TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-docx/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "OST TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "OST TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-dotm/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "OST TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "OST TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "OST TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "OST TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "OST TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "OST TO MD"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "OST TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "OST TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "OST TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "OST TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "OST TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "OST TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "OST TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "OST TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "OST TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "OST TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "OST TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "OST TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-webp/"
-          description: "Raster Web Image File Format"
+        - name: "OST TO EML"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-eml/"
+          description: "E-Mail Message File"
 
         # format loop
-        - name: "OST TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "OST TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-jp2/"
-          description: "JPEG 2000 Core Image File"
+        - name: "OST TO EMLX"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-emlx/"
+          description: "Apple Mail Message"
 
         # format loop
         - name: "OST TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "OST TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "OST TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "OST TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "OST TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "OST TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "OST TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "OST TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
+        - name: "OST TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "OST TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "OST TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "OST TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "OST TO MD"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-md/"
+          description: "Markdown"
+
+        # format loop
         - name: "OST TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "OST TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/ost-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "OST TO MSG"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-msg/"
+          description: "Microsoft Outlook Email Format"
+
+        # format loop
+        - name: "OST TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "OST TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "OST TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "OST TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "OST TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "OST TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "OST TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "OST TO POT"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "OST TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "OST TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "OST TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "OST TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "OST TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "OST TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "OST TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "OST TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "OST TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "OST TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "OST TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "OST TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "OST TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "OST TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "OST TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "OST TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "OST TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "OST TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "OST TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "OST TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "OST TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "OST TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "OST TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "OST TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "OST TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "OST TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "OST TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "OST TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "OST TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/ost-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

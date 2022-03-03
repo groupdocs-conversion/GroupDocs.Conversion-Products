@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T08:26:05
+date: 2022-03-01T19:09:43
 draft: false
 
 ############################# Head ############################
@@ -127,269 +127,310 @@ more_formats:
         You can also convert DOTM into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "DOTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "DOTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "DOTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "DOTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "DOTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DOTM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "DOTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "DOTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "DOTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "DOTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "DOTM TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "DOTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "DOTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DOTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "DOTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "DOTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "DOTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "DOTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "DOTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "DOTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "DOTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "DOTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "DOTM TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "DOTM TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
+        - name: "DOTM TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "DOTM TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-dif/"
+          description: "Data Interchange Format"
+
+        # format loop
         - name: "DOTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "DOTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "DOTM TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-docx/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "DOTM TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
-        - name: "DOTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
         - name: "DOTM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "DOTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "DOTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "DOTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "DOTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "DOTM TO MD"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "DOTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DOTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DOTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "DOTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "DOTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "DOTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "DOTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "DOTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "DOTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DOTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "DOTM TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "DOTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "DOTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DOTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
         - name: "DOTM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "DOTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "DOTM TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "DOTM TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "DOTM TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "DOTM TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "DOTM TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "DOTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
+        - name: "DOTM TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "DOTM TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "DOTM TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "DOTM TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "DOTM TO MD"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-md/"
+          description: "Markdown"
+
+        # format loop
         - name: "DOTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "DOTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/dotm-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "DOTM TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "DOTM TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "DOTM TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "DOTM TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "DOTM TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "DOTM TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "DOTM TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "DOTM TO POT"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "DOTM TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "DOTM TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "DOTM TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "DOTM TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "DOTM TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "DOTM TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "DOTM TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "DOTM TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "DOTM TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "DOTM TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "DOTM TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "DOTM TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "DOTM TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "DOTM TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "DOTM TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "DOTM TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "DOTM TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "DOTM TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "DOTM TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "DOTM TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "DOTM TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "DOTM TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "DOTM TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "DOTM TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "DOTM TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "DOTM TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "DOTM TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "DOTM TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "DOTM TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/dotm-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

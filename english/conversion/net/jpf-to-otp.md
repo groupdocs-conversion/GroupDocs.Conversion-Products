@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T08:26:28
+date: 2022-03-01T19:12:55
 draft: false
 
 ############################# Head ############################
@@ -127,269 +127,315 @@ more_formats:
         You can also convert JPF into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "JPF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "JPF TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "JPF TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "JPF TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "JPF TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "JPF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "JPF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "JPF TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "JPF TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "JPF TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "JPF TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "JPF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "JPF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "JPF TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "JPF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "JPF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "JPF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "JPF TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "JPF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "JPF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "JPF TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "JPF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "JPF TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "JPF TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
+        - name: "JPF TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "JPF TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-dif/"
+          description: "Data Interchange Format"
+
+        # format loop
         - name: "JPF TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "JPF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "JPF TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-docx/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "JPF TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "JPF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-dotm/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "JPF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "JPF TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "JPF TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "JPF TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "JPF TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "JPF TO MD"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "JPF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "JPF TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "JPF TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "JPF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "JPF TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "JPF TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "JPF TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "JPF TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "JPF TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "JPF TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "JPF TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "JPF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "JPF TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "JPF TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
         - name: "JPF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "JPF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "JPF TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "JPF TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "JPF TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "JPF TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "JPF TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "JPF TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
+        - name: "JPF TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "JPF TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "JPF TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "JPF TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "JPF TO MD"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-md/"
+          description: "Markdown"
+
+        # format loop
         - name: "JPF TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "JPF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/jpf-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "JPF TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "JPF TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "JPF TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "JPF TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "JPF TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "JPF TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "JPF TO POT"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "JPF TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "JPF TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "JPF TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "JPF TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "JPF TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "JPF TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "JPF TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "JPF TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "JPF TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "JPF TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "JPF TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "JPF TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "JPF TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "JPF TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "JPF TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "JPF TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "JPF TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "JPF TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "JPF TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "JPF TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "JPF TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "JPF TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "JPF TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "JPF TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "JPF TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "JPF TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "JPF TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "JPF TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "JPF TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "JPF TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/jpf-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

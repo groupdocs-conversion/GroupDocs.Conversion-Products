@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T08:26:38
+date: 2022-03-01T19:14:18
 draft: false
 
 ############################# Head ############################
@@ -127,269 +127,325 @@ more_formats:
         You can also convert MSG into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "MSG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "MSG TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "MSG TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "MSG TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "MSG TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "MSG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "MSG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "MSG TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "MSG TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "MSG TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "MSG TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "MSG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "MSG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "MSG TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "MSG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "MSG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "MSG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "MSG TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "MSG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "MSG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "MSG TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "MSG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "MSG TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "MSG TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
+        - name: "MSG TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "MSG TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-dif/"
+          description: "Data Interchange Format"
+
+        # format loop
         - name: "MSG TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "MSG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "MSG TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-docx/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "MSG TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "MSG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-dotm/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "MSG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "MSG TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "MSG TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "MSG TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "MSG TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "MSG TO MD"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "MSG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "MSG TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "MSG TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "MSG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "MSG TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "MSG TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "MSG TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "MSG TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "MSG TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "MSG TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "MSG TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "MSG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-webp/"
-          description: "Raster Web Image File Format"
+        - name: "MSG TO EML"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-eml/"
+          description: "E-Mail Message File"
 
         # format loop
-        - name: "MSG TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "MSG TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-jp2/"
-          description: "JPEG 2000 Core Image File"
+        - name: "MSG TO EMLX"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-emlx/"
+          description: "Apple Mail Message"
 
         # format loop
         - name: "MSG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "MSG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "MSG TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "MSG TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "MSG TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "MSG TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "MSG TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "MSG TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
+        - name: "MSG TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "MSG TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "MSG TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "MSG TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "MSG TO MD"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-md/"
+          description: "Markdown"
+
+        # format loop
         - name: "MSG TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "MSG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/msg-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "MSG TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "MSG TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "MSG TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "MSG TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "MSG TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "MSG TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "MSG TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "MSG TO POT"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "MSG TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "MSG TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "MSG TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "MSG TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "MSG TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "MSG TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "MSG TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "MSG TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "MSG TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "MSG TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "MSG TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "MSG TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "MSG TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "MSG TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "MSG TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "MSG TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "MSG TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "MSG TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "MSG TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "MSG TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "MSG TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "MSG TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "MSG TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "MSG TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "MSG TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "MSG TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "MSG TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "MSG TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "MSG TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/msg-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

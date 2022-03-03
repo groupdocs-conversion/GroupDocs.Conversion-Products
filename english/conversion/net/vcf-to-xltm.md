@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T08:27:07
+date: 2022-03-01T19:18:28
 draft: false
 
 ############################# Head ############################
@@ -127,269 +127,315 @@ more_formats:
         You can also convert VCF into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "VCF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "VCF TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "VCF TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "VCF TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "VCF TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "VCF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "VCF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "VCF TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "VCF TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "VCF TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "VCF TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "VCF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "VCF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "VCF TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "VCF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "VCF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "VCF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "VCF TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "VCF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "VCF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "VCF TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "VCF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "VCF TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "VCF TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
+        - name: "VCF TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "VCF TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-dif/"
+          description: "Data Interchange Format"
+
+        # format loop
         - name: "VCF TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "VCF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "VCF TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-docx/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "VCF TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "VCF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-dotm/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "VCF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "VCF TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "VCF TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "VCF TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "VCF TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "VCF TO MD"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "VCF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "VCF TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "VCF TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "VCF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "VCF TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "VCF TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "VCF TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "VCF TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "VCF TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "VCF TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "VCF TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "VCF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "VCF TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "VCF TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
         - name: "VCF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "VCF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "VCF TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "VCF TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "VCF TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "VCF TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "VCF TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "VCF TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
+        - name: "VCF TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "VCF TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "VCF TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "VCF TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "VCF TO MD"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-md/"
+          description: "Markdown"
+
+        # format loop
         - name: "VCF TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "VCF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/vcf-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "VCF TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "VCF TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "VCF TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "VCF TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "VCF TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "VCF TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "VCF TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "VCF TO POT"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "VCF TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "VCF TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "VCF TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "VCF TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "VCF TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "VCF TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "VCF TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "VCF TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "VCF TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "VCF TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "VCF TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "VCF TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "VCF TO SXC"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-sxc/"
+          description: "StarOffice Calc Spreadsheet"
+
+        # format loop
+        - name: "VCF TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "VCF TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "VCF TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "VCF TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "VCF TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "VCF TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "VCF TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "VCF TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "VCF TO XLAM"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-xlam/"
+          description: "Microsoft Excel Macro-Enabled Add-In"
+
+        # format loop
+        - name: "VCF TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "VCF TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "VCF TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "VCF TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "VCF TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "VCF TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "VCF TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/vcf-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen"
-date: 2021-11-15T08:27:20
+date: 2022-03-01T19:20:28
 draft: false
 
 ############################# Head ############################
@@ -127,269 +127,315 @@ more_formats:
         You can also convert XLAM into many other file formats. Please see the complete list below.
     format: 
         # format loop
-        - name: "XLAM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "XLAM TO XPS"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xps/"
-          description: "Open XML Paper Specification"
-
-        # format loop
-        - name: "XLAM TO TEX"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "XLAM TO PPT"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "XLAM TO PPS"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "XLAM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "XLAM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "XLAM TO ODP"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "XLAM TO OTP"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "XLAM TO POTX"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "XLAM TO POTM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "XLAM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "XLAM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "XLAM TO XLS"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "XLAM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "XLAM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "XLAM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "XLAM TO ODS"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "XLAM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "XLAM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "XLAM TO TSV"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "XLAM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
+        - name: "XLAM TO BMP"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-bmp/"
+          description: "Bitmap File Format"
 
         # format loop
         - name: "XLAM TO CSV"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-csv/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-csv/"
           description: "Comma Separated Values File"
 
         # format loop
+        - name: "XLAM TO DCM"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-dcm/"
+          description: "DICOM Image"
+
+        # format loop
+        - name: "XLAM TO DIF"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-dif/"
+          description: "Data Interchange Format"
+
+        # format loop
         - name: "XLAM TO DOC"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-doc/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "XLAM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-docm/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "XLAM TO DOCX"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-docx/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "XLAM TO DOT"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-dot/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "XLAM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-dotm/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-dotm/"
           description: "Microsoft Word Macro-Enabled Template"
 
         # format loop
         - name: "XLAM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-dotx/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
-        - name: "XLAM TO RTF"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "XLAM TO ODT"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "XLAM TO OTT"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "XLAM TO TXT"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "XLAM TO MD"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "XLAM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "XLAM TO TIF"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "XLAM TO JPG"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "XLAM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "XLAM TO PNG"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "XLAM TO GIF"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "XLAM TO BMP"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "XLAM TO ICO"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "XLAM TO PSD"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "XLAM TO WMF"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
         - name: "XLAM TO EMF"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-emf/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
-        - name: "XLAM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "XLAM TO SVG"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "XLAM TO JP2"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
         - name: "XLAM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-emz/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-emz/"
           description: "Enhanced Windows Metafile Compressed"
 
         # format loop
-        - name: "XLAM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-wmz/"
-          description: "Windows Metafile Compressed"
+        - name: "XLAM TO EPUB"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-epub/"
+          description: "Digital E-Book File Format"
+
+        # format loop
+        - name: "XLAM TO FODP"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-fodp/"
+          description: "OpenDocument Flat XML Presentation"
+
+        # format loop
+        - name: "XLAM TO FODS"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-fods/"
+          description: "OpenDocument Flat XML Spreadsheet"
+
+        # format loop
+        - name: "XLAM TO GIF"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop
+        - name: "XLAM TO HTM"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-htm/"
+          description: "Hypertext Markup Language File"
 
         # format loop
         - name: "XLAM TO HTML"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-html/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-html/"
           description: "Hyper Text Markup Language"
 
         # format loop
+        - name: "XLAM TO ICO"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-ico/"
+          description: "Microsoft Icon File"
+
+        # format loop
+        - name: "XLAM TO JP2"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-jp2/"
+          description: "JPEG 2000 Core Image File"
+
+        # format loop
+        - name: "XLAM TO JPEG"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-jpeg/"
+          description: "JPEG Image"
+
+        # format loop
+        - name: "XLAM TO JPG"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-jpg/"
+          description: "Joint Photographic Expert Group Image File"
+
+        # format loop
+        - name: "XLAM TO MD"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-md/"
+          description: "Markdown"
+
+        # format loop
         - name: "XLAM TO MHT"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-mht/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-mht/"
           description: "MIME Encapsulation of Aggregate HTML"
 
         # format loop
         - name: "XLAM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/net/xlam-to-mhtml/"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-mhtml/"
           description: "MIME Encapsulation of Aggregate HTML"
+
+        # format loop
+        - name: "XLAM TO ODP"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-odp/"
+          description: "OpenDocument Presentation File Format"
+
+        # format loop
+        - name: "XLAM TO ODS"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-ods/"
+          description: "Open Document Spreadsheet"
+
+        # format loop
+        - name: "XLAM TO ODT"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-odt/"
+          description: "Open Document Text"
+
+        # format loop
+        - name: "XLAM TO OTP"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-otp/"
+          description: "Origin Graph Template"
+
+        # format loop
+        - name: "XLAM TO OTT"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-ott/"
+          description: "Open Document Template"
+
+        # format loop
+        - name: "XLAM TO PDF"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-pdf/"
+          description: "Portable Document"
+
+        # format loop
+        - name: "XLAM TO PNG"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-png/"
+          description: "Portable Network Graphic"
+
+        # format loop
+        - name: "XLAM TO POT"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-pot/"
+          description: "PowerPoint Template"
+
+        # format loop
+        - name: "XLAM TO POTM"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-potm/"
+          description: "Microsoft PowerPoint Template"
+
+        # format loop
+        - name: "XLAM TO POTX"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-potx/"
+          description: "Microsoft PowerPoint Open XML Template"
+
+        # format loop
+        - name: "XLAM TO PPS"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-pps/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "XLAM TO PPSM"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-ppsm/"
+          description: "Microsoft PowerPoint Slide Show"
+
+        # format loop
+        - name: "XLAM TO PPSX"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-ppsx/"
+          description: "PowerPoint Open XML Slide Show"
+
+        # format loop
+        - name: "XLAM TO PPT"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-ppt/"
+          description: "PowerPoint Presentation"
+
+        # format loop
+        - name: "XLAM TO PPTM"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-pptm/"
+          description: "Microsoft PowerPoint Presentation"
+
+        # format loop
+        - name: "XLAM TO PPTX"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop
+        - name: "XLAM TO PSD"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-psd/"
+          description: "Adobe Photoshop Document"
+
+        # format loop
+        - name: "XLAM TO RTF"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-rtf/"
+          description: "Rich Text File Format"
+
+        # format loop
+        - name: "XLAM TO SVG"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-svg/"
+          description: "Scalable Vector Graphics File"
+
+        # format loop
+        - name: "XLAM TO SVGZ"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-svgz/"
+          description: "Compressed Scalable Vector Graphics File"
+
+        # format loop
+        - name: "XLAM TO TEX"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-tex/"
+          description: "LaTeX Source Document"
+
+        # format loop
+        - name: "XLAM TO TIF"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-tif/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "XLAM TO TIFF"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-tiff/"
+          description: "Tagged Image File Format"
+
+        # format loop
+        - name: "XLAM TO TSV"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-tsv/"
+          description: "Tab Separated Values File"
+
+        # format loop
+        - name: "XLAM TO TXT"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-txt/"
+          description: "Plain Text File Format"
+
+        # format loop
+        - name: "XLAM TO WEBP"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-webp/"
+          description: "Raster Web Image File Format"
+
+        # format loop
+        - name: "XLAM TO WMF"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-wmf/"
+          description: "Windows Metafile"
+
+        # format loop
+        - name: "XLAM TO WMZ"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-wmz/"
+          description: "Windows Metafile Compressed"
+
+        # format loop
+        - name: "XLAM TO XLS"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-xls/"
+          description: "Microsoft Excel Binary File Format"
+
+        # format loop
+        - name: "XLAM TO XLS2003"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-xls2003/"
+          description: "Microsoft Excel Spreadsheet"
+
+        # format loop
+        - name: "XLAM TO XLSB"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-xlsb/"
+          description: "Microsoft Excel Binary Spreadsheet File"
+
+        # format loop
+        - name: "XLAM TO XLSM"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-xlsm/"
+          description: "Microsoft Excel Macro-Enabled Spreadsheet"
+
+        # format loop
+        - name: "XLAM TO XLSX"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop
+        - name: "XLAM TO XLT"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-xlt/"
+          description: "Microsoft Excel Template"
+
+        # format loop
+        - name: "XLAM TO XLTM"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-xltm/"
+          description: "Microsoft Excel Macro-Enabled Template"
+
+        # format loop
+        - name: "XLAM TO XLTX"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-xltx/"
+          description: "Microsoft Excel Open XML Template"
+
+        # format loop
+        - name: "XLAM TO XPS"
+          link: "https://products.groupdocs.com/conversion/java/xlam-to-xps/"
+          description: "Open XML Paper Specification"
+
 
 
 ############################# Back to top ###############################

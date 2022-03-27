@@ -28,7 +28,7 @@ apis:
         # api_product loop
         - link: "/conversion/net/"
           img_alt: "GroupDocs.Conversion for .NET"
-          image: "/border/groupdocs-comparison-net.svg"
+          image: "/border/groupdocs-conversion-net.svg"
           product: "GroupDocs.Conversion for"
           platform: ".NET"
           content: "API nativa de .NET para convertir con precisión documentos y formatos de archivos de imagen en cualquier tipo de aplicación .NET. Admite agregar marcas de agua de imagen durante la conversión."

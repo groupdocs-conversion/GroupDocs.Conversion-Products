@@ -28,7 +28,7 @@ apis:
         # api_product loop
         - link: "/conversion/net/"
           img_alt: "GroupDocs.Conversion for .NET"
-          image: "/border/groupdocs-comparison-net.svg"
+          image: "/border/groupdocs-conversion-net.svg"
           product: "GroupDocs.Conversion for"
           platform: ".NET"
           content: "本机 .NET API 可在任何类型的 .NET 应用程序中准确转换文档和图像文件格式。支持在转换时添加图像水印."

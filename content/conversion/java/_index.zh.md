@@ -319,7 +319,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Conversion for .NET"
-          image: "/border/groupdocs-comparison-net.svg"
+          image: "/border/groupdocs-conversion-net.svg"
           product: "GroupDocs.Conversion"
           platform: ".NET"
           link: "/conversion/net/"

@@ -78,7 +78,7 @@ steps:
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среда разработки: NetBeans, Intellij IDEA, Eclipse и т. д.
         * Среда выполнения Java: J2SE 6.0 и выше
-        * Получите последнюю версию GroupDocs.Conversion для Java от [Maven] (https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Получите последнюю версию GroupDocs.Conversion для Java от [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
         
     code: |
         ```java
@@ -96,7 +96,7 @@ demos:
     enable: true
     title: "Живые демонстрации AI в BMP"
     content: |
-        Преобразуйте AI в BMP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family).
+        Преобразуйте AI в BMP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
         Живая демонстрация имеет следующие преимущества
         
 ############################# About Formats ############################

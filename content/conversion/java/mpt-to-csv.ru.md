@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования MPT в CSV в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла MPT в CSV с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла MPT в CSV с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл MPT с полным путем
         * Установите ConvertOptions для типа документа CSV
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать MPT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MPT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-bmp/"
+        - name: "MPT к BMP"
+          link: "/conversion/java/mpt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MPT TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-dcm/"
+        - name: "MPT к DCM"
+          link: "/conversion/java/mpt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MPT TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-dif/"
+        - name: "MPT к DIF"
+          link: "/conversion/java/mpt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MPT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-doc/"
+        - name: "MPT к DOC"
+          link: "/conversion/java/mpt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MPT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-docm/"
+        - name: "MPT к DOCM"
+          link: "/conversion/java/mpt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MPT TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-docx/"
+        - name: "MPT к DOCX"
+          link: "/conversion/java/mpt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MPT TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-dot/"
+        - name: "MPT к DOT"
+          link: "/conversion/java/mpt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MPT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-dotm/"
+        - name: "MPT к DOTM"
+          link: "/conversion/java/mpt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MPT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-dotx/"
+        - name: "MPT к DOTX"
+          link: "/conversion/java/mpt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MPT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-emf/"
+        - name: "MPT к EMF"
+          link: "/conversion/java/mpt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MPT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-emz/"
+        - name: "MPT к EMZ"
+          link: "/conversion/java/mpt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MPT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-epub/"
+        - name: "MPT к EPUB"
+          link: "/conversion/java/mpt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MPT TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-fodp/"
+        - name: "MPT к FODP"
+          link: "/conversion/java/mpt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MPT TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-fods/"
+        - name: "MPT к FODS"
+          link: "/conversion/java/mpt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MPT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-gif/"
+        - name: "MPT к GIF"
+          link: "/conversion/java/mpt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MPT TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-htm/"
+        - name: "MPT к HTM"
+          link: "/conversion/java/mpt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MPT TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-html/"
+        - name: "MPT к HTML"
+          link: "/conversion/java/mpt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MPT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-ico/"
+        - name: "MPT к ICO"
+          link: "/conversion/java/mpt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MPT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-jp2/"
+        - name: "MPT к JP2"
+          link: "/conversion/java/mpt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MPT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-jpeg/"
+        - name: "MPT к JPEG"
+          link: "/conversion/java/mpt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MPT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-jpg/"
+        - name: "MPT к JPG"
+          link: "/conversion/java/mpt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MPT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-md/"
+        - name: "MPT к MD"
+          link: "/conversion/java/mpt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MPT TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-mht/"
+        - name: "MPT к MHT"
+          link: "/conversion/java/mpt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MPT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-mhtml/"
+        - name: "MPT к MHTML"
+          link: "/conversion/java/mpt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MPT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-odp/"
+        - name: "MPT к ODP"
+          link: "/conversion/java/mpt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MPT TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-ods/"
+        - name: "MPT к ODS"
+          link: "/conversion/java/mpt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MPT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-odt/"
+        - name: "MPT к ODT"
+          link: "/conversion/java/mpt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MPT TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-otp/"
+        - name: "MPT к OTP"
+          link: "/conversion/java/mpt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MPT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-ott/"
+        - name: "MPT к OTT"
+          link: "/conversion/java/mpt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MPT TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-pdf/"
+        - name: "MPT к PDF"
+          link: "/conversion/java/mpt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MPT TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-png/"
+        - name: "MPT к PNG"
+          link: "/conversion/java/mpt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MPT TO POT"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-pot/"
+        - name: "MPT к POT"
+          link: "/conversion/java/mpt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MPT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-potm/"
+        - name: "MPT к POTM"
+          link: "/conversion/java/mpt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MPT TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-potx/"
+        - name: "MPT к POTX"
+          link: "/conversion/java/mpt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MPT TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-pps/"
+        - name: "MPT к PPS"
+          link: "/conversion/java/mpt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MPT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-ppsm/"
+        - name: "MPT к PPSM"
+          link: "/conversion/java/mpt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MPT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-ppsx/"
+        - name: "MPT к PPSX"
+          link: "/conversion/java/mpt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MPT TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-ppt/"
+        - name: "MPT к PPT"
+          link: "/conversion/java/mpt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MPT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-pptm/"
+        - name: "MPT к PPTM"
+          link: "/conversion/java/mpt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MPT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-pptx/"
+        - name: "MPT к PPTX"
+          link: "/conversion/java/mpt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MPT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-psd/"
+        - name: "MPT к PSD"
+          link: "/conversion/java/mpt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MPT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-rtf/"
+        - name: "MPT к RTF"
+          link: "/conversion/java/mpt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MPT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-svg/"
+        - name: "MPT к SVG"
+          link: "/conversion/java/mpt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MPT TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-svgz/"
+        - name: "MPT к SVGZ"
+          link: "/conversion/java/mpt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MPT TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-sxc/"
+        - name: "MPT к SXC"
+          link: "/conversion/java/mpt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MPT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-tex/"
+        - name: "MPT к TEX"
+          link: "/conversion/java/mpt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MPT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-tif/"
+        - name: "MPT к TIF"
+          link: "/conversion/java/mpt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MPT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-tiff/"
+        - name: "MPT к TIFF"
+          link: "/conversion/java/mpt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MPT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-tsv/"
+        - name: "MPT к TSV"
+          link: "/conversion/java/mpt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MPT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-txt/"
+        - name: "MPT к TXT"
+          link: "/conversion/java/mpt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MPT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-webp/"
+        - name: "MPT к WEBP"
+          link: "/conversion/java/mpt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MPT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-wmf/"
+        - name: "MPT к WMF"
+          link: "/conversion/java/mpt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MPT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-wmz/"
+        - name: "MPT к WMZ"
+          link: "/conversion/java/mpt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MPT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-xlam/"
+        - name: "MPT к XLAM"
+          link: "/conversion/java/mpt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-xls/"
+        - name: "MPT к XLS"
+          link: "/conversion/java/mpt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MPT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-xlsb/"
+        - name: "MPT к XLSB"
+          link: "/conversion/java/mpt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MPT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-xlsm/"
+        - name: "MPT к XLSM"
+          link: "/conversion/java/mpt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-xlsx/"
+        - name: "MPT к XLSX"
+          link: "/conversion/java/mpt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MPT TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-xlt/"
+        - name: "MPT к XLT"
+          link: "/conversion/java/mpt-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MPT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-xltm/"
+        - name: "MPT к XLTM"
+          link: "/conversion/java/mpt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-xltx/"
+        - name: "MPT к XLTX"
+          link: "/conversion/java/mpt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MPT TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mpt-to-xps/"
+        - name: "MPT к XPS"
+          link: "/conversion/java/mpt-to-xps/"
           description: "Спецификация документа Open XML"
 
 

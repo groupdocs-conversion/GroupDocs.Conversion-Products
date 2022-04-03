@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования OST в TIF в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл OST в TIF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл OST в TIF с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл OST с полным путем
         * Установите ConvertOptions для типа документа TIF
@@ -128,328 +128,328 @@ more_formats:
         Вы также можете конвертировать OST во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OST TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-bmp/"
+        - name: "OST к BMP"
+          link: "/conversion/java/ost-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "OST TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-csv/"
+        - name: "OST к CSV"
+          link: "/conversion/java/ost-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "OST TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-dcm/"
+        - name: "OST к DCM"
+          link: "/conversion/java/ost-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "OST TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-dif/"
+        - name: "OST к DIF"
+          link: "/conversion/java/ost-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "OST TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-doc/"
+        - name: "OST к DOC"
+          link: "/conversion/java/ost-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OST TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-docm/"
+        - name: "OST к DOCM"
+          link: "/conversion/java/ost-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OST TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-docx/"
+        - name: "OST к DOCX"
+          link: "/conversion/java/ost-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "OST TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-dot/"
+        - name: "OST к DOT"
+          link: "/conversion/java/ost-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "OST TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-dotm/"
+        - name: "OST к DOTM"
+          link: "/conversion/java/ost-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OST TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-dotx/"
+        - name: "OST к DOTX"
+          link: "/conversion/java/ost-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "OST TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-emf/"
+        - name: "OST к EMF"
+          link: "/conversion/java/ost-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "OST TO EML"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-eml/"
+        - name: "OST к EML"
+          link: "/conversion/java/ost-to-eml/"
           description: "Файл сообщения электронной почты"
 
         # format loop
-        - name: "OST TO EMLX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-emlx/"
+        - name: "OST к EMLX"
+          link: "/conversion/java/ost-to-emlx/"
           description: "Почтовое сообщение Apple"
 
         # format loop
-        - name: "OST TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-emz/"
+        - name: "OST к EMZ"
+          link: "/conversion/java/ost-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OST TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-epub/"
+        - name: "OST к EPUB"
+          link: "/conversion/java/ost-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OST TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-fodp/"
+        - name: "OST к FODP"
+          link: "/conversion/java/ost-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "OST TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-fods/"
+        - name: "OST к FODS"
+          link: "/conversion/java/ost-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "OST TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-gif/"
+        - name: "OST к GIF"
+          link: "/conversion/java/ost-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "OST TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-htm/"
+        - name: "OST к HTM"
+          link: "/conversion/java/ost-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "OST TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-html/"
+        - name: "OST к HTML"
+          link: "/conversion/java/ost-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OST TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-ico/"
+        - name: "OST к ICO"
+          link: "/conversion/java/ost-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "OST TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-jp2/"
+        - name: "OST к JP2"
+          link: "/conversion/java/ost-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "OST TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-jpeg/"
+        - name: "OST к JPEG"
+          link: "/conversion/java/ost-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "OST TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-jpg/"
+        - name: "OST к JPG"
+          link: "/conversion/java/ost-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "OST TO MD"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-md/"
+        - name: "OST к MD"
+          link: "/conversion/java/ost-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OST TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-mht/"
+        - name: "OST к MHT"
+          link: "/conversion/java/ost-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OST TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-mhtml/"
+        - name: "OST к MHTML"
+          link: "/conversion/java/ost-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OST TO MSG"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-msg/"
+        - name: "OST к MSG"
+          link: "/conversion/java/ost-to-msg/"
           description: "Формат электронной почты Microsoft Outlook"
 
         # format loop
-        - name: "OST TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-odp/"
+        - name: "OST к ODP"
+          link: "/conversion/java/ost-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "OST TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-ods/"
+        - name: "OST к ODS"
+          link: "/conversion/java/ost-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OST TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-odt/"
+        - name: "OST к ODT"
+          link: "/conversion/java/ost-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "OST TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-otp/"
+        - name: "OST к OTP"
+          link: "/conversion/java/ost-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "OST TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-ott/"
+        - name: "OST к OTT"
+          link: "/conversion/java/ost-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "OST TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-pdf/"
+        - name: "OST к PDF"
+          link: "/conversion/java/ost-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "OST TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-png/"
+        - name: "OST к PNG"
+          link: "/conversion/java/ost-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "OST TO POT"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-pot/"
+        - name: "OST к POT"
+          link: "/conversion/java/ost-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "OST TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-potm/"
+        - name: "OST к POTM"
+          link: "/conversion/java/ost-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OST TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-potx/"
+        - name: "OST к POTX"
+          link: "/conversion/java/ost-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OST TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-pps/"
+        - name: "OST к PPS"
+          link: "/conversion/java/ost-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OST TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-ppsm/"
+        - name: "OST к PPSM"
+          link: "/conversion/java/ost-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OST TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-ppsx/"
+        - name: "OST к PPSX"
+          link: "/conversion/java/ost-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "OST TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-ppt/"
+        - name: "OST к PPT"
+          link: "/conversion/java/ost-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OST TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-pptm/"
+        - name: "OST к PPTM"
+          link: "/conversion/java/ost-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OST TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-pptx/"
+        - name: "OST к PPTX"
+          link: "/conversion/java/ost-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "OST TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-psd/"
+        - name: "OST к PSD"
+          link: "/conversion/java/ost-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OST TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-rtf/"
+        - name: "OST к RTF"
+          link: "/conversion/java/ost-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "OST TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-svg/"
+        - name: "OST к SVG"
+          link: "/conversion/java/ost-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OST TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-svgz/"
+        - name: "OST к SVGZ"
+          link: "/conversion/java/ost-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OST TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-sxc/"
+        - name: "OST к SXC"
+          link: "/conversion/java/ost-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "OST TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-tex/"
+        - name: "OST к TEX"
+          link: "/conversion/java/ost-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OST TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-tiff/"
+        - name: "OST к TIFF"
+          link: "/conversion/java/ost-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OST TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-tsv/"
+        - name: "OST к TSV"
+          link: "/conversion/java/ost-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OST TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-txt/"
+        - name: "OST к TXT"
+          link: "/conversion/java/ost-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OST TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-webp/"
+        - name: "OST к WEBP"
+          link: "/conversion/java/ost-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OST TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-wmf/"
+        - name: "OST к WMF"
+          link: "/conversion/java/ost-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "OST TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-wmz/"
+        - name: "OST к WMZ"
+          link: "/conversion/java/ost-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OST TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xlam/"
+        - name: "OST к XLAM"
+          link: "/conversion/java/ost-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OST TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xls/"
+        - name: "OST к XLS"
+          link: "/conversion/java/ost-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "OST TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xlsb/"
+        - name: "OST к XLSB"
+          link: "/conversion/java/ost-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OST TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xlsm/"
+        - name: "OST к XLSM"
+          link: "/conversion/java/ost-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OST TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xlsx/"
+        - name: "OST к XLSX"
+          link: "/conversion/java/ost-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OST TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xlt/"
+        - name: "OST к XLT"
+          link: "/conversion/java/ost-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "OST TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xltm/"
+        - name: "OST к XLTM"
+          link: "/conversion/java/ost-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OST TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xltx/"
+        - name: "OST к XLTX"
+          link: "/conversion/java/ost-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "OST TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ost-to-xps/"
+        - name: "OST к XPS"
+          link: "/conversion/java/ost-to-xps/"
           description: "Спецификация документа Open XML"
 
 

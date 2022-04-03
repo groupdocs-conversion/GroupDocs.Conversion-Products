@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию ODG в ODG в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл ODG в ODG с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл ODG в ODG с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл ODG с полным путем
         * Создайте и установите ConvertOptions для типа odg
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать ODG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "ODG TO EPUB"
+        - name: "ODG к EPUB"
           link: "https://products.groupdocs.com/conversion/net/odg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "ODG TO XPS"
+        - name: "ODG к XPS"
           link: "https://products.groupdocs.com/conversion/net/odg-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "ODG TO TEX"
+        - name: "ODG к TEX"
           link: "https://products.groupdocs.com/conversion/net/odg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "ODG TO PPT"
+        - name: "ODG к PPT"
           link: "https://products.groupdocs.com/conversion/net/odg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "ODG TO PPS"
+        - name: "ODG к PPS"
           link: "https://products.groupdocs.com/conversion/net/odg-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ODG TO PPTX"
+        - name: "ODG к PPTX"
           link: "https://products.groupdocs.com/conversion/net/odg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "ODG TO PPSX"
+        - name: "ODG к PPSX"
           link: "https://products.groupdocs.com/conversion/net/odg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "ODG TO ODP"
+        - name: "ODG к ODP"
           link: "https://products.groupdocs.com/conversion/net/odg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "ODG TO OTP"
+        - name: "ODG к OTP"
           link: "https://products.groupdocs.com/conversion/net/odg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "ODG TO POTX"
+        - name: "ODG к POTX"
           link: "https://products.groupdocs.com/conversion/net/odg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ODG TO POTM"
+        - name: "ODG к POTM"
           link: "https://products.groupdocs.com/conversion/net/odg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ODG TO PPTM"
+        - name: "ODG к PPTM"
           link: "https://products.groupdocs.com/conversion/net/odg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "ODG TO PPSM"
+        - name: "ODG к PPSM"
           link: "https://products.groupdocs.com/conversion/net/odg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ODG TO XLS"
+        - name: "ODG к XLS"
           link: "https://products.groupdocs.com/conversion/net/odg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "ODG TO XLSX"
+        - name: "ODG к XLSX"
           link: "https://products.groupdocs.com/conversion/net/odg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "ODG TO XLSM"
+        - name: "ODG к XLSM"
           link: "https://products.groupdocs.com/conversion/net/odg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODG TO XLSB"
+        - name: "ODG к XLSB"
           link: "https://products.groupdocs.com/conversion/net/odg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "ODG TO ODS"
+        - name: "ODG к ODS"
           link: "https://products.groupdocs.com/conversion/net/odg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "ODG TO XLTX"
+        - name: "ODG к XLTX"
           link: "https://products.groupdocs.com/conversion/net/odg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "ODG TO XLTM"
+        - name: "ODG к XLTM"
           link: "https://products.groupdocs.com/conversion/net/odg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODG TO TSV"
+        - name: "ODG к TSV"
           link: "https://products.groupdocs.com/conversion/net/odg-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "ODG TO XLAM"
+        - name: "ODG к XLAM"
           link: "https://products.groupdocs.com/conversion/net/odg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODG TO CSV"
+        - name: "ODG к CSV"
           link: "https://products.groupdocs.com/conversion/net/odg-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "ODG TO DOC"
+        - name: "ODG к DOC"
           link: "https://products.groupdocs.com/conversion/net/odg-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "ODG TO DOCM"
+        - name: "ODG к DOCM"
           link: "https://products.groupdocs.com/conversion/net/odg-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ODG TO ODG"
+        - name: "ODG к ODG"
           link: "https://products.groupdocs.com/conversion/net/odg-to-odg/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "ODG TO DOT"
+        - name: "ODG к DOT"
           link: "https://products.groupdocs.com/conversion/net/odg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "ODG TO DOTM"
+        - name: "ODG к DOTM"
           link: "https://products.groupdocs.com/conversion/net/odg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ODG TO DOTX"
+        - name: "ODG к DOTX"
           link: "https://products.groupdocs.com/conversion/net/odg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "ODG TO RTF"
+        - name: "ODG к RTF"
           link: "https://products.groupdocs.com/conversion/net/odg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "ODG TO ODT"
+        - name: "ODG к ODT"
           link: "https://products.groupdocs.com/conversion/net/odg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "ODG TO OTT"
+        - name: "ODG к OTT"
           link: "https://products.groupdocs.com/conversion/net/odg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "ODG TO TXT"
+        - name: "ODG к TXT"
           link: "https://products.groupdocs.com/conversion/net/odg-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "ODG TO MD"
+        - name: "ODG к MD"
           link: "https://products.groupdocs.com/conversion/net/odg-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "ODG TO TIFF"
+        - name: "ODG к TIFF"
           link: "https://products.groupdocs.com/conversion/net/odg-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ODG TO TIF"
+        - name: "ODG к TIF"
           link: "https://products.groupdocs.com/conversion/net/odg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ODG TO JPG"
+        - name: "ODG к JPG"
           link: "https://products.groupdocs.com/conversion/net/odg-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "ODG TO JPEG"
+        - name: "ODG к JPEG"
           link: "https://products.groupdocs.com/conversion/net/odg-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "ODG TO PNG"
+        - name: "ODG к PNG"
           link: "https://products.groupdocs.com/conversion/net/odg-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "ODG TO GIF"
+        - name: "ODG к GIF"
           link: "https://products.groupdocs.com/conversion/net/odg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "ODG TO BMP"
+        - name: "ODG к BMP"
           link: "https://products.groupdocs.com/conversion/net/odg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "ODG TO ICO"
+        - name: "ODG к ICO"
           link: "https://products.groupdocs.com/conversion/net/odg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "ODG TO PSD"
+        - name: "ODG к PSD"
           link: "https://products.groupdocs.com/conversion/net/odg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "ODG TO WMF"
+        - name: "ODG к WMF"
           link: "https://products.groupdocs.com/conversion/net/odg-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "ODG TO EMF"
+        - name: "ODG к EMF"
           link: "https://products.groupdocs.com/conversion/net/odg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "ODG TO WEBP"
+        - name: "ODG к WEBP"
           link: "https://products.groupdocs.com/conversion/net/odg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "ODG TO SVG"
+        - name: "ODG к SVG"
           link: "https://products.groupdocs.com/conversion/net/odg-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ODG TO JP2"
+        - name: "ODG к JP2"
           link: "https://products.groupdocs.com/conversion/net/odg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "ODG TO EMZ"
+        - name: "ODG к EMZ"
           link: "https://products.groupdocs.com/conversion/net/odg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "ODG TO WMZ"
+        - name: "ODG к WMZ"
           link: "https://products.groupdocs.com/conversion/net/odg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "ODG TO HTML"
+        - name: "ODG к HTML"
           link: "https://products.groupdocs.com/conversion/net/odg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "ODG TO MHT"
+        - name: "ODG к MHT"
           link: "https://products.groupdocs.com/conversion/net/odg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ODG TO MHTML"
+        - name: "ODG к MHTML"
           link: "https://products.groupdocs.com/conversion/net/odg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

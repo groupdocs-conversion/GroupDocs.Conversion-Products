@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию DWT в OTP в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла DWT в OTP с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла DWT в OTP с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DWT с полным путем
         * Создайте и установите ConvertOptions для типа otp
@@ -127,318 +127,318 @@ more_formats:
         Вы также можете конвертировать DWT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DWT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-bmp/"
+        - name: "DWT к BMP"
+          link: "/conversion/net/dwt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DWT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-csv/"
+        - name: "DWT к CSV"
+          link: "/conversion/net/dwt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DWT TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-dcm/"
+        - name: "DWT к DCM"
+          link: "/conversion/net/dwt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DWT TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-dif/"
+        - name: "DWT к DIF"
+          link: "/conversion/net/dwt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DWT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-doc/"
+        - name: "DWT к DOC"
+          link: "/conversion/net/dwt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DWT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-docm/"
+        - name: "DWT к DOCM"
+          link: "/conversion/net/dwt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWT TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-docx/"
+        - name: "DWT к DOCX"
+          link: "/conversion/net/dwt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DWT TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-dot/"
+        - name: "DWT к DOT"
+          link: "/conversion/net/dwt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DWT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-dotm/"
+        - name: "DWT к DOTM"
+          link: "/conversion/net/dwt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-dotx/"
+        - name: "DWT к DOTX"
+          link: "/conversion/net/dwt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DWT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-emf/"
+        - name: "DWT к EMF"
+          link: "/conversion/net/dwt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DWT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-emz/"
+        - name: "DWT к EMZ"
+          link: "/conversion/net/dwt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DWT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-epub/"
+        - name: "DWT к EPUB"
+          link: "/conversion/net/dwt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DWT TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-fodp/"
+        - name: "DWT к FODP"
+          link: "/conversion/net/dwt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DWT TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-fods/"
+        - name: "DWT к FODS"
+          link: "/conversion/net/dwt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DWT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-gif/"
+        - name: "DWT к GIF"
+          link: "/conversion/net/dwt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DWT TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-htm/"
+        - name: "DWT к HTM"
+          link: "/conversion/net/dwt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DWT TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-html/"
+        - name: "DWT к HTML"
+          link: "/conversion/net/dwt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DWT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-ico/"
+        - name: "DWT к ICO"
+          link: "/conversion/net/dwt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DWT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-jp2/"
+        - name: "DWT к JP2"
+          link: "/conversion/net/dwt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DWT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-jpeg/"
+        - name: "DWT к JPEG"
+          link: "/conversion/net/dwt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DWT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-jpg/"
+        - name: "DWT к JPG"
+          link: "/conversion/net/dwt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DWT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-md/"
+        - name: "DWT к MD"
+          link: "/conversion/net/dwt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DWT TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-mht/"
+        - name: "DWT к MHT"
+          link: "/conversion/net/dwt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-mhtml/"
+        - name: "DWT к MHTML"
+          link: "/conversion/net/dwt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-odp/"
+        - name: "DWT к ODP"
+          link: "/conversion/net/dwt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DWT TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-ods/"
+        - name: "DWT к ODS"
+          link: "/conversion/net/dwt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DWT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-odt/"
+        - name: "DWT к ODT"
+          link: "/conversion/net/dwt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DWT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-ott/"
+        - name: "DWT к OTT"
+          link: "/conversion/net/dwt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DWT TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-pdf/"
+        - name: "DWT к PDF"
+          link: "/conversion/net/dwt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DWT TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-png/"
+        - name: "DWT к PNG"
+          link: "/conversion/net/dwt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DWT TO POT"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-pot/"
+        - name: "DWT к POT"
+          link: "/conversion/net/dwt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DWT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-potm/"
+        - name: "DWT к POTM"
+          link: "/conversion/net/dwt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWT TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-potx/"
+        - name: "DWT к POTX"
+          link: "/conversion/net/dwt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWT TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-pps/"
+        - name: "DWT к PPS"
+          link: "/conversion/net/dwt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-ppsm/"
+        - name: "DWT к PPSM"
+          link: "/conversion/net/dwt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-ppsx/"
+        - name: "DWT к PPSX"
+          link: "/conversion/net/dwt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DWT TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-ppt/"
+        - name: "DWT к PPT"
+          link: "/conversion/net/dwt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DWT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-pptm/"
+        - name: "DWT к PPTM"
+          link: "/conversion/net/dwt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DWT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-pptx/"
+        - name: "DWT к PPTX"
+          link: "/conversion/net/dwt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DWT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-psd/"
+        - name: "DWT к PSD"
+          link: "/conversion/net/dwt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DWT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-rtf/"
+        - name: "DWT к RTF"
+          link: "/conversion/net/dwt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DWT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-svg/"
+        - name: "DWT к SVG"
+          link: "/conversion/net/dwt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWT TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-svgz/"
+        - name: "DWT к SVGZ"
+          link: "/conversion/net/dwt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWT TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-sxc/"
+        - name: "DWT к SXC"
+          link: "/conversion/net/dwt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DWT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-tex/"
+        - name: "DWT к TEX"
+          link: "/conversion/net/dwt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DWT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-tif/"
+        - name: "DWT к TIF"
+          link: "/conversion/net/dwt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-tiff/"
+        - name: "DWT к TIFF"
+          link: "/conversion/net/dwt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-tsv/"
+        - name: "DWT к TSV"
+          link: "/conversion/net/dwt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DWT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-txt/"
+        - name: "DWT к TXT"
+          link: "/conversion/net/dwt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DWT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-webp/"
+        - name: "DWT к WEBP"
+          link: "/conversion/net/dwt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DWT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-wmf/"
+        - name: "DWT к WMF"
+          link: "/conversion/net/dwt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DWT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-wmz/"
+        - name: "DWT к WMZ"
+          link: "/conversion/net/dwt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DWT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xlam/"
+        - name: "DWT к XLAM"
+          link: "/conversion/net/dwt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xls/"
+        - name: "DWT к XLS"
+          link: "/conversion/net/dwt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DWT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xlsb/"
+        - name: "DWT к XLSB"
+          link: "/conversion/net/dwt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DWT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xlsm/"
+        - name: "DWT к XLSM"
+          link: "/conversion/net/dwt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xlsx/"
+        - name: "DWT к XLSX"
+          link: "/conversion/net/dwt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DWT TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xlt/"
+        - name: "DWT к XLT"
+          link: "/conversion/net/dwt-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xltm/"
+        - name: "DWT к XLTM"
+          link: "/conversion/net/dwt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xltx/"
+        - name: "DWT к XLTX"
+          link: "/conversion/net/dwt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWT TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dwt-to-xps/"
+        - name: "DWT к XPS"
+          link: "/conversion/net/dwt-to-xps/"
           description: "Спецификация документа Open XML"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

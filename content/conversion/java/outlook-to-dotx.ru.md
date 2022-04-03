@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги по преобразованию OUTLOOK в DOTX в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл OUTLOOK в DOTX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл OUTLOOK в DOTX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл OUTLOOK с полным путем
         * Установите ConvertOptions для типа документа DOTX
@@ -128,148 +128,148 @@ more_formats:
         Вы также можете конвертировать OUTLOOK во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OUTLOOK TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-bmp/"
+        - name: "OUTLOOK к BMP"
+          link: "/conversion/java/outlook-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "OUTLOOK TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-doc/"
+        - name: "OUTLOOK к DOC"
+          link: "/conversion/java/outlook-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OUTLOOK TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-docm/"
+        - name: "OUTLOOK к DOCM"
+          link: "/conversion/java/outlook-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OUTLOOK TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-emz/"
+        - name: "OUTLOOK к EMZ"
+          link: "/conversion/java/outlook-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OUTLOOK TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-epub/"
+        - name: "OUTLOOK к EPUB"
+          link: "/conversion/java/outlook-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OUTLOOK TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-html/"
+        - name: "OUTLOOK к HTML"
+          link: "/conversion/java/outlook-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OUTLOOK TO MD"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-md/"
+        - name: "OUTLOOK к MD"
+          link: "/conversion/java/outlook-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OUTLOOK TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-mht/"
+        - name: "OUTLOOK к MHT"
+          link: "/conversion/java/outlook-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OUTLOOK TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-mhtml/"
+        - name: "OUTLOOK к MHTML"
+          link: "/conversion/java/outlook-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OUTLOOK TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-ods/"
+        - name: "OUTLOOK к ODS"
+          link: "/conversion/java/outlook-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OUTLOOK TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-pdf/"
+        - name: "OUTLOOK к PDF"
+          link: "/conversion/java/outlook-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "OUTLOOK TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-potm/"
+        - name: "OUTLOOK к POTM"
+          link: "/conversion/java/outlook-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OUTLOOK TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-potx/"
+        - name: "OUTLOOK к POTX"
+          link: "/conversion/java/outlook-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OUTLOOK TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-pps/"
+        - name: "OUTLOOK к PPS"
+          link: "/conversion/java/outlook-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OUTLOOK TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-ppt/"
+        - name: "OUTLOOK к PPT"
+          link: "/conversion/java/outlook-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OUTLOOK TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-pptm/"
+        - name: "OUTLOOK к PPTM"
+          link: "/conversion/java/outlook-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OUTLOOK TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-psd/"
+        - name: "OUTLOOK к PSD"
+          link: "/conversion/java/outlook-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OUTLOOK TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-tex/"
+        - name: "OUTLOOK к TEX"
+          link: "/conversion/java/outlook-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OUTLOOK TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-tsv/"
+        - name: "OUTLOOK к TSV"
+          link: "/conversion/java/outlook-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OUTLOOK TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-txt/"
+        - name: "OUTLOOK к TXT"
+          link: "/conversion/java/outlook-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OUTLOOK TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-webp/"
+        - name: "OUTLOOK к WEBP"
+          link: "/conversion/java/outlook-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OUTLOOK TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-wmf/"
+        - name: "OUTLOOK к WMF"
+          link: "/conversion/java/outlook-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "OUTLOOK TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-wmz/"
+        - name: "OUTLOOK к WMZ"
+          link: "/conversion/java/outlook-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OUTLOOK TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlam/"
+        - name: "OUTLOOK к XLAM"
+          link: "/conversion/java/outlook-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OUTLOOK TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsb/"
+        - name: "OUTLOOK к XLSB"
+          link: "/conversion/java/outlook-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OUTLOOK TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsm/"
+        - name: "OUTLOOK к XLSM"
+          link: "/conversion/java/outlook-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OUTLOOK TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xlsx/"
+        - name: "OUTLOOK к XLSX"
+          link: "/conversion/java/outlook-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OUTLOOK TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xltm/"
+        - name: "OUTLOOK к XLTM"
+          link: "/conversion/java/outlook-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OUTLOOK TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/outlook-to-xps/"
+        - name: "OUTLOOK к XPS"
+          link: "/conversion/java/outlook-to-xps/"
           description: "Спецификация документа Open XML"
 
 

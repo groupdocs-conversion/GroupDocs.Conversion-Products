@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования GIF в FODS в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл GIF в FODS с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл GIF в FODS с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл GIF с полным путем
         * Установите ConvertOptions для типа документа FODS
@@ -129,302 +129,302 @@ more_formats:
     format: 
         # format loop
         - name: "GIF к BMP"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-bmp/"
+          link: "/conversion/java/gif-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "GIF к CSV"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-csv/"
+          link: "/conversion/java/gif-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "GIF к DCM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-dcm/"
+          link: "/conversion/java/gif-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "GIF к DIF"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-dif/"
+          link: "/conversion/java/gif-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "GIF к DOC"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-doc/"
+          link: "/conversion/java/gif-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "GIF к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-docm/"
+          link: "/conversion/java/gif-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "GIF к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-docx/"
+          link: "/conversion/java/gif-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "GIF к DOT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-dot/"
+          link: "/conversion/java/gif-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "GIF к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-dotm/"
+          link: "/conversion/java/gif-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "GIF к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-dotx/"
+          link: "/conversion/java/gif-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "GIF к EMF"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-emf/"
+          link: "/conversion/java/gif-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "GIF к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-emz/"
+          link: "/conversion/java/gif-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "GIF к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-epub/"
+          link: "/conversion/java/gif-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "GIF к FODP"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-fodp/"
+          link: "/conversion/java/gif-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "GIF к HTM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-htm/"
+          link: "/conversion/java/gif-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "GIF к HTML"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-html/"
+          link: "/conversion/java/gif-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "GIF к ICO"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-ico/"
+          link: "/conversion/java/gif-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "GIF к JP2"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-jp2/"
+          link: "/conversion/java/gif-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "GIF к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-jpeg/"
+          link: "/conversion/java/gif-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "GIF к JPG"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-jpg/"
+          link: "/conversion/java/gif-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "GIF к MD"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-md/"
+          link: "/conversion/java/gif-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "GIF к MHT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-mht/"
+          link: "/conversion/java/gif-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "GIF к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-mhtml/"
+          link: "/conversion/java/gif-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "GIF к ODP"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-odp/"
+          link: "/conversion/java/gif-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "GIF к ODS"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-ods/"
+          link: "/conversion/java/gif-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "GIF к ODT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-odt/"
+          link: "/conversion/java/gif-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "GIF к OTP"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-otp/"
+          link: "/conversion/java/gif-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "GIF к OTT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-ott/"
+          link: "/conversion/java/gif-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "GIF к PDF"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-pdf/"
+          link: "/conversion/java/gif-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "GIF к PNG"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-png/"
+          link: "/conversion/java/gif-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "GIF к POT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-pot/"
+          link: "/conversion/java/gif-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "GIF к POTM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-potm/"
+          link: "/conversion/java/gif-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "GIF к POTX"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-potx/"
+          link: "/conversion/java/gif-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "GIF к PPS"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-pps/"
+          link: "/conversion/java/gif-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "GIF к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-ppsm/"
+          link: "/conversion/java/gif-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "GIF к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-ppsx/"
+          link: "/conversion/java/gif-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "GIF к PPT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-ppt/"
+          link: "/conversion/java/gif-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "GIF к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-pptm/"
+          link: "/conversion/java/gif-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "GIF к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-pptx/"
+          link: "/conversion/java/gif-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "GIF к PSD"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-psd/"
+          link: "/conversion/java/gif-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "GIF к RTF"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-rtf/"
+          link: "/conversion/java/gif-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "GIF к SVG"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-svg/"
+          link: "/conversion/java/gif-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "GIF к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-svgz/"
+          link: "/conversion/java/gif-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "GIF к SXC"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-sxc/"
+          link: "/conversion/java/gif-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "GIF к TEX"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-tex/"
+          link: "/conversion/java/gif-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "GIF к TIF"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-tif/"
+          link: "/conversion/java/gif-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "GIF к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-tiff/"
+          link: "/conversion/java/gif-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "GIF к TXT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-txt/"
+          link: "/conversion/java/gif-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "GIF к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-webp/"
+          link: "/conversion/java/gif-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "GIF к WMF"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-wmf/"
+          link: "/conversion/java/gif-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "GIF к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-wmz/"
+          link: "/conversion/java/gif-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "GIF к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xlam/"
+          link: "/conversion/java/gif-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "GIF к XLS"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xls/"
+          link: "/conversion/java/gif-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "GIF к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xlsb/"
+          link: "/conversion/java/gif-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "GIF к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xlsm/"
+          link: "/conversion/java/gif-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "GIF к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xlsx/"
+          link: "/conversion/java/gif-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "GIF к XLT"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xlt/"
+          link: "/conversion/java/gif-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "GIF к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xltm/"
+          link: "/conversion/java/gif-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "GIF к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xltx/"
+          link: "/conversion/java/gif-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "GIF к XPS"
-          link: "https://products.groupdocs.com/conversion/java/gif-to-xps/"
+          link: "/conversion/java/gif-to-xps/"
           description: "Спецификация документа Open XML"
 
 

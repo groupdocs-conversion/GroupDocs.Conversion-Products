@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию TIFF в ODT в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла TIFF в формат ODT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла TIFF в формат ODT с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл TIFF с полным путем
         * Создайте и установите ConvertOptions для типа odt
@@ -127,313 +127,313 @@ more_formats:
         Вы также можете конвертировать TIFF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "TIFF TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-bmp/"
+        - name: "TIFF к BMP"
+          link: "/conversion/net/tiff-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "TIFF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-csv/"
+        - name: "TIFF к CSV"
+          link: "/conversion/net/tiff-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "TIFF TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-dcm/"
+        - name: "TIFF к DCM"
+          link: "/conversion/net/tiff-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "TIFF TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-dif/"
+        - name: "TIFF к DIF"
+          link: "/conversion/net/tiff-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "TIFF TO DJVU"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-djvu/"
+        - name: "TIFF к DJVU"
+          link: "/conversion/net/tiff-to-djvu/"
           description: "Формат графического файла"
 
         # format loop
-        - name: "TIFF TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-doc/"
+        - name: "TIFF к DOC"
+          link: "/conversion/net/tiff-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "TIFF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-docm/"
+        - name: "TIFF к DOCM"
+          link: "/conversion/net/tiff-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TIFF TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-docx/"
+        - name: "TIFF к DOCX"
+          link: "/conversion/net/tiff-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "TIFF TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-dot/"
+        - name: "TIFF к DOT"
+          link: "/conversion/net/tiff-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "TIFF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-dotm/"
+        - name: "TIFF к DOTM"
+          link: "/conversion/net/tiff-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TIFF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-dotx/"
+        - name: "TIFF к DOTX"
+          link: "/conversion/net/tiff-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "TIFF TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-emf/"
+        - name: "TIFF к EMF"
+          link: "/conversion/net/tiff-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "TIFF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-emz/"
+        - name: "TIFF к EMZ"
+          link: "/conversion/net/tiff-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "TIFF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-epub/"
+        - name: "TIFF к EPUB"
+          link: "/conversion/net/tiff-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "TIFF TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-fodp/"
+        - name: "TIFF к FODP"
+          link: "/conversion/net/tiff-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "TIFF TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-fods/"
+        - name: "TIFF к FODS"
+          link: "/conversion/net/tiff-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "TIFF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-gif/"
+        - name: "TIFF к GIF"
+          link: "/conversion/net/tiff-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "TIFF TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-htm/"
+        - name: "TIFF к HTM"
+          link: "/conversion/net/tiff-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "TIFF TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-html/"
+        - name: "TIFF к HTML"
+          link: "/conversion/net/tiff-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "TIFF TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-ico/"
+        - name: "TIFF к ICO"
+          link: "/conversion/net/tiff-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "TIFF TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-jp2/"
+        - name: "TIFF к JP2"
+          link: "/conversion/net/tiff-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "TIFF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-jpeg/"
+        - name: "TIFF к JPEG"
+          link: "/conversion/net/tiff-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "TIFF TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-jpg/"
+        - name: "TIFF к JPG"
+          link: "/conversion/net/tiff-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "TIFF TO MD"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-md/"
+        - name: "TIFF к MD"
+          link: "/conversion/net/tiff-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "TIFF TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-mht/"
+        - name: "TIFF к MHT"
+          link: "/conversion/net/tiff-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TIFF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-mhtml/"
+        - name: "TIFF к MHTML"
+          link: "/conversion/net/tiff-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TIFF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-odp/"
+        - name: "TIFF к ODP"
+          link: "/conversion/net/tiff-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "TIFF TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-ods/"
+        - name: "TIFF к ODS"
+          link: "/conversion/net/tiff-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "TIFF TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-otp/"
+        - name: "TIFF к OTP"
+          link: "/conversion/net/tiff-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "TIFF TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-ott/"
+        - name: "TIFF к OTT"
+          link: "/conversion/net/tiff-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "TIFF TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-pdf/"
+        - name: "TIFF к PDF"
+          link: "/conversion/net/tiff-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "TIFF TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-png/"
+        - name: "TIFF к PNG"
+          link: "/conversion/net/tiff-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "TIFF TO POT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-pot/"
+        - name: "TIFF к POT"
+          link: "/conversion/net/tiff-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "TIFF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-potm/"
+        - name: "TIFF к POTM"
+          link: "/conversion/net/tiff-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TIFF TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-potx/"
+        - name: "TIFF к POTX"
+          link: "/conversion/net/tiff-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TIFF TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-pps/"
+        - name: "TIFF к PPS"
+          link: "/conversion/net/tiff-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TIFF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-ppsm/"
+        - name: "TIFF к PPSM"
+          link: "/conversion/net/tiff-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TIFF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-ppsx/"
+        - name: "TIFF к PPSX"
+          link: "/conversion/net/tiff-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "TIFF TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-ppt/"
+        - name: "TIFF к PPT"
+          link: "/conversion/net/tiff-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "TIFF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-pptm/"
+        - name: "TIFF к PPTM"
+          link: "/conversion/net/tiff-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "TIFF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-pptx/"
+        - name: "TIFF к PPTX"
+          link: "/conversion/net/tiff-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "TIFF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-psd/"
+        - name: "TIFF к PSD"
+          link: "/conversion/net/tiff-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "TIFF TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-rtf/"
+        - name: "TIFF к RTF"
+          link: "/conversion/net/tiff-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "TIFF TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-svg/"
+        - name: "TIFF к SVG"
+          link: "/conversion/net/tiff-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TIFF TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-svgz/"
+        - name: "TIFF к SVGZ"
+          link: "/conversion/net/tiff-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TIFF TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-sxc/"
+        - name: "TIFF к SXC"
+          link: "/conversion/net/tiff-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "TIFF TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-tex/"
+        - name: "TIFF к TEX"
+          link: "/conversion/net/tiff-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "TIFF TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-tif/"
+        - name: "TIFF к TIF"
+          link: "/conversion/net/tiff-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TIFF TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-tsv/"
+        - name: "TIFF к TSV"
+          link: "/conversion/net/tiff-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "TIFF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-txt/"
+        - name: "TIFF к TXT"
+          link: "/conversion/net/tiff-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "TIFF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-webp/"
+        - name: "TIFF к WEBP"
+          link: "/conversion/net/tiff-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "TIFF TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-wmf/"
+        - name: "TIFF к WMF"
+          link: "/conversion/net/tiff-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "TIFF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-wmz/"
+        - name: "TIFF к WMZ"
+          link: "/conversion/net/tiff-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "TIFF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-xlam/"
+        - name: "TIFF к XLAM"
+          link: "/conversion/net/tiff-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIFF TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-xls/"
+        - name: "TIFF к XLS"
+          link: "/conversion/net/tiff-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "TIFF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-xlsb/"
+        - name: "TIFF к XLSB"
+          link: "/conversion/net/tiff-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "TIFF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-xlsm/"
+        - name: "TIFF к XLSM"
+          link: "/conversion/net/tiff-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIFF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-xlsx/"
+        - name: "TIFF к XLSX"
+          link: "/conversion/net/tiff-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "TIFF TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-xlt/"
+        - name: "TIFF к XLT"
+          link: "/conversion/net/tiff-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "TIFF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-xltm/"
+        - name: "TIFF к XLTM"
+          link: "/conversion/net/tiff-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIFF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-xltx/"
+        - name: "TIFF к XLTX"
+          link: "/conversion/net/tiff-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "TIFF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/tiff-to-xps/"
+        - name: "TIFF к XPS"
+          link: "/conversion/net/tiff-to-xps/"
           description: "Спецификация документа Open XML"
 
 

@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования JPG в PNG в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл JPG в PNG с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл JPG в PNG с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл JPG с полным путем
         * Установите ConvertOptions для типа документа PNG
@@ -129,307 +129,307 @@ more_formats:
     format: 
         # format loop
         - name: "JPG к BMP"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-bmp/"
+          link: "/conversion/java/jpg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "JPG к CSV"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-csv/"
+          link: "/conversion/java/jpg-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "JPG к DCM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-dcm/"
+          link: "/conversion/java/jpg-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "JPG к DIF"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-dif/"
+          link: "/conversion/java/jpg-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "JPG к DOC"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-doc/"
+          link: "/conversion/java/jpg-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "JPG к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-docm/"
+          link: "/conversion/java/jpg-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "JPG к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-docx/"
+          link: "/conversion/java/jpg-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "JPG к DOT"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-dot/"
+          link: "/conversion/java/jpg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "JPG к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-dotm/"
+          link: "/conversion/java/jpg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "JPG к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-dotx/"
+          link: "/conversion/java/jpg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "JPG к EMF"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-emf/"
+          link: "/conversion/java/jpg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "JPG к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-emz/"
+          link: "/conversion/java/jpg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "JPG к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-epub/"
+          link: "/conversion/java/jpg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "JPG к FODP"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-fodp/"
+          link: "/conversion/java/jpg-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "JPG к FODS"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-fods/"
+          link: "/conversion/java/jpg-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "JPG к GIF"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-gif/"
+          link: "/conversion/java/jpg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "JPG к HTM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-htm/"
+          link: "/conversion/java/jpg-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "JPG к HTML"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-html/"
+          link: "/conversion/java/jpg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "JPG к ICO"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-ico/"
+          link: "/conversion/java/jpg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "JPG к JP2"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-jp2/"
+          link: "/conversion/java/jpg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "JPG к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-jpeg/"
+          link: "/conversion/java/jpg-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "JPG к MD"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-md/"
+          link: "/conversion/java/jpg-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "JPG к MHT"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-mht/"
+          link: "/conversion/java/jpg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "JPG к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-mhtml/"
+          link: "/conversion/java/jpg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "JPG к ODP"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-odp/"
+          link: "/conversion/java/jpg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "JPG к ODS"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-ods/"
+          link: "/conversion/java/jpg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "JPG к ODT"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-odt/"
+          link: "/conversion/java/jpg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "JPG к OTP"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-otp/"
+          link: "/conversion/java/jpg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "JPG к OTT"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-ott/"
+          link: "/conversion/java/jpg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "JPG к PDF"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-pdf/"
+          link: "/conversion/java/jpg-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "JPG к POT"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-pot/"
+          link: "/conversion/java/jpg-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "JPG к POTM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-potm/"
+          link: "/conversion/java/jpg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "JPG к POTX"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-potx/"
+          link: "/conversion/java/jpg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "JPG к PPS"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-pps/"
+          link: "/conversion/java/jpg-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "JPG к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-ppsm/"
+          link: "/conversion/java/jpg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "JPG к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-ppsx/"
+          link: "/conversion/java/jpg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "JPG к PPT"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-ppt/"
+          link: "/conversion/java/jpg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "JPG к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-pptm/"
+          link: "/conversion/java/jpg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "JPG к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-pptx/"
+          link: "/conversion/java/jpg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "JPG к PSD"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-psd/"
+          link: "/conversion/java/jpg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "JPG к RTF"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-rtf/"
+          link: "/conversion/java/jpg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "JPG к SVG"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-svg/"
+          link: "/conversion/java/jpg-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "JPG к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-svgz/"
+          link: "/conversion/java/jpg-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "JPG к SXC"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-sxc/"
+          link: "/conversion/java/jpg-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "JPG к TEX"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-tex/"
+          link: "/conversion/java/jpg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "JPG к TIF"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-tif/"
+          link: "/conversion/java/jpg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "JPG к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-tiff/"
+          link: "/conversion/java/jpg-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "JPG к TSV"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-tsv/"
+          link: "/conversion/java/jpg-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "JPG к TXT"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-txt/"
+          link: "/conversion/java/jpg-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "JPG к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-webp/"
+          link: "/conversion/java/jpg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "JPG к WMF"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-wmf/"
+          link: "/conversion/java/jpg-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "JPG к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-wmz/"
+          link: "/conversion/java/jpg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "JPG к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xlam/"
+          link: "/conversion/java/jpg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "JPG к XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xls/"
+          link: "/conversion/java/jpg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "JPG к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xlsb/"
+          link: "/conversion/java/jpg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "JPG к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xlsm/"
+          link: "/conversion/java/jpg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "JPG к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xlsx/"
+          link: "/conversion/java/jpg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "JPG к XLT"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xlt/"
+          link: "/conversion/java/jpg-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "JPG к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xltm/"
+          link: "/conversion/java/jpg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "JPG к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xltx/"
+          link: "/conversion/java/jpg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "JPG к XPS"
-          link: "https://products.groupdocs.com/conversion/java/jpg-to-xps/"
+          link: "/conversion/java/jpg-to-xps/"
           description: "Спецификация документа Open XML"
 
 

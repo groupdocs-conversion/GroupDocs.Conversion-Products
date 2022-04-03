@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования WEB в WEB в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл WEB в файл WEB с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл WEB в файл WEB с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите WEB-файл с полным путем
         * Установите ConvertOptions для типа документа WEB
@@ -128,268 +128,268 @@ more_formats:
         Вы также можете конвертировать WEB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WEB TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/web-to-epub/"
+        - name: "WEB к EPUB"
+          link: "/conversion/java/web-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WEB TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xps/"
+        - name: "WEB к XPS"
+          link: "/conversion/java/web-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "WEB TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-tex/"
+        - name: "WEB к TEX"
+          link: "/conversion/java/web-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WEB TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ppt/"
+        - name: "WEB к PPT"
+          link: "/conversion/java/web-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WEB TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/web-to-pps/"
+        - name: "WEB к PPS"
+          link: "/conversion/java/web-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-pptx/"
+        - name: "WEB к PPTX"
+          link: "/conversion/java/web-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WEB TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ppsx/"
+        - name: "WEB к PPSX"
+          link: "/conversion/java/web-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WEB TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/web-to-odp/"
+        - name: "WEB к ODP"
+          link: "/conversion/java/web-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WEB TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/web-to-otp/"
+        - name: "WEB к OTP"
+          link: "/conversion/java/web-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WEB TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-potx/"
+        - name: "WEB к POTX"
+          link: "/conversion/java/web-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-potm/"
+        - name: "WEB к POTM"
+          link: "/conversion/java/web-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-pptm/"
+        - name: "WEB к PPTM"
+          link: "/conversion/java/web-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ppsm/"
+        - name: "WEB к PPSM"
+          link: "/conversion/java/web-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xls/"
+        - name: "WEB к XLS"
+          link: "/conversion/java/web-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WEB TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xlsx/"
+        - name: "WEB к XLSX"
+          link: "/conversion/java/web-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WEB TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xlsm/"
+        - name: "WEB к XLSM"
+          link: "/conversion/java/web-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xlsb/"
+        - name: "WEB к XLSB"
+          link: "/conversion/java/web-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WEB TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ods/"
+        - name: "WEB к ODS"
+          link: "/conversion/java/web-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WEB TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xltx/"
+        - name: "WEB к XLTX"
+          link: "/conversion/java/web-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WEB TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xltm/"
+        - name: "WEB к XLTM"
+          link: "/conversion/java/web-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/web-to-tsv/"
+        - name: "WEB к TSV"
+          link: "/conversion/java/web-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WEB TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-xlam/"
+        - name: "WEB к XLAM"
+          link: "/conversion/java/web-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/web-to-csv/"
+        - name: "WEB к CSV"
+          link: "/conversion/java/web-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WEB TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/web-to-doc/"
+        - name: "WEB к DOC"
+          link: "/conversion/java/web-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WEB TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-docm/"
+        - name: "WEB к DOCM"
+          link: "/conversion/java/web-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO WEB"
-          link: "https://products.groupdocs.com/conversion/java/web-to-web/"
+        - name: "WEB к WEB"
+          link: "/conversion/java/web-to-web/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WEB TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-dot/"
+        - name: "WEB к DOT"
+          link: "/conversion/java/web-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WEB TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-dotm/"
+        - name: "WEB к DOTM"
+          link: "/conversion/java/web-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-dotx/"
+        - name: "WEB к DOTX"
+          link: "/conversion/java/web-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WEB TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-rtf/"
+        - name: "WEB к RTF"
+          link: "/conversion/java/web-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WEB TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-odt/"
+        - name: "WEB к ODT"
+          link: "/conversion/java/web-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WEB TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ott/"
+        - name: "WEB к OTT"
+          link: "/conversion/java/web-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WEB TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-txt/"
+        - name: "WEB к TXT"
+          link: "/conversion/java/web-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WEB TO MD"
-          link: "https://products.groupdocs.com/conversion/java/web-to-md/"
+        - name: "WEB к MD"
+          link: "/conversion/java/web-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WEB TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-tiff/"
+        - name: "WEB к TIFF"
+          link: "/conversion/java/web-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WEB TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-tif/"
+        - name: "WEB к TIF"
+          link: "/conversion/java/web-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WEB TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/web-to-jpg/"
+        - name: "WEB к JPG"
+          link: "/conversion/java/web-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WEB TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/web-to-jpeg/"
+        - name: "WEB к JPEG"
+          link: "/conversion/java/web-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WEB TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/web-to-png/"
+        - name: "WEB к PNG"
+          link: "/conversion/java/web-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WEB TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-gif/"
+        - name: "WEB к GIF"
+          link: "/conversion/java/web-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WEB TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/web-to-bmp/"
+        - name: "WEB к BMP"
+          link: "/conversion/java/web-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WEB TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/web-to-ico/"
+        - name: "WEB к ICO"
+          link: "/conversion/java/web-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WEB TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/web-to-psd/"
+        - name: "WEB к PSD"
+          link: "/conversion/java/web-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WEB TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-wmf/"
+        - name: "WEB к WMF"
+          link: "/conversion/java/web-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WEB TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-emf/"
+        - name: "WEB к EMF"
+          link: "/conversion/java/web-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WEB TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/web-to-webp/"
+        - name: "WEB к WEBP"
+          link: "/conversion/java/web-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WEB TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/web-to-svg/"
+        - name: "WEB к SVG"
+          link: "/conversion/java/web-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WEB TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/web-to-jp2/"
+        - name: "WEB к JP2"
+          link: "/conversion/java/web-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WEB TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/web-to-emz/"
+        - name: "WEB к EMZ"
+          link: "/conversion/java/web-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WEB TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/web-to-wmz/"
+        - name: "WEB к WMZ"
+          link: "/conversion/java/web-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WEB TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/web-to-html/"
+        - name: "WEB к HTML"
+          link: "/conversion/java/web-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WEB TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/web-to-mht/"
+        - name: "WEB к MHT"
+          link: "/conversion/java/web-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WEB TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/web-to-mhtml/"
+        - name: "WEB к MHTML"
+          link: "/conversion/java/web-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 

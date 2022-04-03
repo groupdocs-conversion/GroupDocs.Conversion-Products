@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования PPSX в XLAM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла PPSX в XLAM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла PPSX в XLAM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл PPSX с полным путем
         * Установите ConvertOptions для типа документа XLAM
@@ -128,308 +128,308 @@ more_formats:
         Вы также можете конвертировать PPSX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PPSX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-bmp/"
+        - name: "PPSX к BMP"
+          link: "/conversion/java/ppsx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PPSX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-csv/"
+        - name: "PPSX к CSV"
+          link: "/conversion/java/ppsx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PPSX TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dcm/"
+        - name: "PPSX к DCM"
+          link: "/conversion/java/ppsx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PPSX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dif/"
+        - name: "PPSX к DIF"
+          link: "/conversion/java/ppsx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PPSX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-doc/"
+        - name: "PPSX к DOC"
+          link: "/conversion/java/ppsx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PPSX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-docm/"
+        - name: "PPSX к DOCM"
+          link: "/conversion/java/ppsx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPSX TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-docx/"
+        - name: "PPSX к DOCX"
+          link: "/conversion/java/ppsx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PPSX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dot/"
+        - name: "PPSX к DOT"
+          link: "/conversion/java/ppsx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PPSX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dotm/"
+        - name: "PPSX к DOTM"
+          link: "/conversion/java/ppsx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPSX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-dotx/"
+        - name: "PPSX к DOTX"
+          link: "/conversion/java/ppsx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PPSX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-emf/"
+        - name: "PPSX к EMF"
+          link: "/conversion/java/ppsx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PPSX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-emz/"
+        - name: "PPSX к EMZ"
+          link: "/conversion/java/ppsx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PPSX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-epub/"
+        - name: "PPSX к EPUB"
+          link: "/conversion/java/ppsx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PPSX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-fodp/"
+        - name: "PPSX к FODP"
+          link: "/conversion/java/ppsx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PPSX TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-fods/"
+        - name: "PPSX к FODS"
+          link: "/conversion/java/ppsx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PPSX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-gif/"
+        - name: "PPSX к GIF"
+          link: "/conversion/java/ppsx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PPSX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-htm/"
+        - name: "PPSX к HTM"
+          link: "/conversion/java/ppsx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PPSX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-html/"
+        - name: "PPSX к HTML"
+          link: "/conversion/java/ppsx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PPSX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ico/"
+        - name: "PPSX к ICO"
+          link: "/conversion/java/ppsx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PPSX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-jp2/"
+        - name: "PPSX к JP2"
+          link: "/conversion/java/ppsx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PPSX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-jpeg/"
+        - name: "PPSX к JPEG"
+          link: "/conversion/java/ppsx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PPSX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-jpg/"
+        - name: "PPSX к JPG"
+          link: "/conversion/java/ppsx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PPSX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-md/"
+        - name: "PPSX к MD"
+          link: "/conversion/java/ppsx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PPSX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-mht/"
+        - name: "PPSX к MHT"
+          link: "/conversion/java/ppsx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPSX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-mhtml/"
+        - name: "PPSX к MHTML"
+          link: "/conversion/java/ppsx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPSX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-odp/"
+        - name: "PPSX к ODP"
+          link: "/conversion/java/ppsx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PPSX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ods/"
+        - name: "PPSX к ODS"
+          link: "/conversion/java/ppsx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PPSX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-odt/"
+        - name: "PPSX к ODT"
+          link: "/conversion/java/ppsx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PPSX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-otp/"
+        - name: "PPSX к OTP"
+          link: "/conversion/java/ppsx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PPSX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ott/"
+        - name: "PPSX к OTT"
+          link: "/conversion/java/ppsx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PPSX TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pdf/"
+        - name: "PPSX к PDF"
+          link: "/conversion/java/ppsx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PPSX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-png/"
+        - name: "PPSX к PNG"
+          link: "/conversion/java/ppsx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PPSX TO POT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pot/"
+        - name: "PPSX к POT"
+          link: "/conversion/java/ppsx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PPSX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-potm/"
+        - name: "PPSX к POTM"
+          link: "/conversion/java/ppsx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPSX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-potx/"
+        - name: "PPSX к POTX"
+          link: "/conversion/java/ppsx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPSX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pps/"
+        - name: "PPSX к PPS"
+          link: "/conversion/java/ppsx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPSX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ppsm/"
+        - name: "PPSX к PPSM"
+          link: "/conversion/java/ppsx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPSX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-ppt/"
+        - name: "PPSX к PPT"
+          link: "/conversion/java/ppsx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PPSX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pptm/"
+        - name: "PPSX к PPTM"
+          link: "/conversion/java/ppsx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PPSX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-pptx/"
+        - name: "PPSX к PPTX"
+          link: "/conversion/java/ppsx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PPSX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-psd/"
+        - name: "PPSX к PSD"
+          link: "/conversion/java/ppsx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PPSX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-rtf/"
+        - name: "PPSX к RTF"
+          link: "/conversion/java/ppsx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PPSX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-svg/"
+        - name: "PPSX к SVG"
+          link: "/conversion/java/ppsx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPSX TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-svgz/"
+        - name: "PPSX к SVGZ"
+          link: "/conversion/java/ppsx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPSX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-sxc/"
+        - name: "PPSX к SXC"
+          link: "/conversion/java/ppsx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PPSX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tex/"
+        - name: "PPSX к TEX"
+          link: "/conversion/java/ppsx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PPSX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tif/"
+        - name: "PPSX к TIF"
+          link: "/conversion/java/ppsx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPSX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tiff/"
+        - name: "PPSX к TIFF"
+          link: "/conversion/java/ppsx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPSX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-tsv/"
+        - name: "PPSX к TSV"
+          link: "/conversion/java/ppsx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PPSX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-txt/"
+        - name: "PPSX к TXT"
+          link: "/conversion/java/ppsx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PPSX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-webp/"
+        - name: "PPSX к WEBP"
+          link: "/conversion/java/ppsx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PPSX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-wmf/"
+        - name: "PPSX к WMF"
+          link: "/conversion/java/ppsx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PPSX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-wmz/"
+        - name: "PPSX к WMZ"
+          link: "/conversion/java/ppsx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PPSX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xls/"
+        - name: "PPSX к XLS"
+          link: "/conversion/java/ppsx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PPSX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlsb/"
+        - name: "PPSX к XLSB"
+          link: "/conversion/java/ppsx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PPSX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlsm/"
+        - name: "PPSX к XLSM"
+          link: "/conversion/java/ppsx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPSX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlsx/"
+        - name: "PPSX к XLSX"
+          link: "/conversion/java/ppsx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PPSX TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xlt/"
+        - name: "PPSX к XLT"
+          link: "/conversion/java/ppsx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPSX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xltm/"
+        - name: "PPSX к XLTM"
+          link: "/conversion/java/ppsx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPSX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xltx/"
+        - name: "PPSX к XLTX"
+          link: "/conversion/java/ppsx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPSX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ppsx-to-xps/"
+        - name: "PPSX к XPS"
+          link: "/conversion/java/ppsx-to-xps/"
           description: "Спецификация документа Open XML"
 
 

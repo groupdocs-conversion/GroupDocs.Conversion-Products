@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования MPX в DOTM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла MPX в DOTM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла MPX в DOTM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл MPX с полным путем
         * Установите ConvertOptions для типа документа DOTM
@@ -128,318 +128,318 @@ more_formats:
         Вы также можете конвертировать MPX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MPX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-bmp/"
+        - name: "MPX к BMP"
+          link: "/conversion/java/mpx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MPX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-csv/"
+        - name: "MPX к CSV"
+          link: "/conversion/java/mpx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MPX TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-dcm/"
+        - name: "MPX к DCM"
+          link: "/conversion/java/mpx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MPX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-dif/"
+        - name: "MPX к DIF"
+          link: "/conversion/java/mpx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MPX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-doc/"
+        - name: "MPX к DOC"
+          link: "/conversion/java/mpx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MPX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-docm/"
+        - name: "MPX к DOCM"
+          link: "/conversion/java/mpx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MPX TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-docx/"
+        - name: "MPX к DOCX"
+          link: "/conversion/java/mpx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MPX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-dot/"
+        - name: "MPX к DOT"
+          link: "/conversion/java/mpx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MPX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-dotx/"
+        - name: "MPX к DOTX"
+          link: "/conversion/java/mpx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MPX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-emf/"
+        - name: "MPX к EMF"
+          link: "/conversion/java/mpx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MPX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-emz/"
+        - name: "MPX к EMZ"
+          link: "/conversion/java/mpx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MPX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-epub/"
+        - name: "MPX к EPUB"
+          link: "/conversion/java/mpx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MPX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-fodp/"
+        - name: "MPX к FODP"
+          link: "/conversion/java/mpx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MPX TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-fods/"
+        - name: "MPX к FODS"
+          link: "/conversion/java/mpx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MPX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-gif/"
+        - name: "MPX к GIF"
+          link: "/conversion/java/mpx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MPX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-htm/"
+        - name: "MPX к HTM"
+          link: "/conversion/java/mpx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MPX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-html/"
+        - name: "MPX к HTML"
+          link: "/conversion/java/mpx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MPX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ico/"
+        - name: "MPX к ICO"
+          link: "/conversion/java/mpx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MPX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-jp2/"
+        - name: "MPX к JP2"
+          link: "/conversion/java/mpx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MPX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-jpeg/"
+        - name: "MPX к JPEG"
+          link: "/conversion/java/mpx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MPX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-jpg/"
+        - name: "MPX к JPG"
+          link: "/conversion/java/mpx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MPX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-md/"
+        - name: "MPX к MD"
+          link: "/conversion/java/mpx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MPX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-mht/"
+        - name: "MPX к MHT"
+          link: "/conversion/java/mpx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MPX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-mhtml/"
+        - name: "MPX к MHTML"
+          link: "/conversion/java/mpx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MPX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-odp/"
+        - name: "MPX к ODP"
+          link: "/conversion/java/mpx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MPX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ods/"
+        - name: "MPX к ODS"
+          link: "/conversion/java/mpx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MPX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-odt/"
+        - name: "MPX к ODT"
+          link: "/conversion/java/mpx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MPX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-otp/"
+        - name: "MPX к OTP"
+          link: "/conversion/java/mpx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MPX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ott/"
+        - name: "MPX к OTT"
+          link: "/conversion/java/mpx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MPX TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-pdf/"
+        - name: "MPX к PDF"
+          link: "/conversion/java/mpx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MPX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-png/"
+        - name: "MPX к PNG"
+          link: "/conversion/java/mpx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MPX TO POT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-pot/"
+        - name: "MPX к POT"
+          link: "/conversion/java/mpx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MPX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-potm/"
+        - name: "MPX к POTM"
+          link: "/conversion/java/mpx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MPX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-potx/"
+        - name: "MPX к POTX"
+          link: "/conversion/java/mpx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MPX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-pps/"
+        - name: "MPX к PPS"
+          link: "/conversion/java/mpx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MPX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ppsm/"
+        - name: "MPX к PPSM"
+          link: "/conversion/java/mpx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MPX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ppsx/"
+        - name: "MPX к PPSX"
+          link: "/conversion/java/mpx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MPX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-ppt/"
+        - name: "MPX к PPT"
+          link: "/conversion/java/mpx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MPX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-pptm/"
+        - name: "MPX к PPTM"
+          link: "/conversion/java/mpx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MPX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-pptx/"
+        - name: "MPX к PPTX"
+          link: "/conversion/java/mpx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MPX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-psd/"
+        - name: "MPX к PSD"
+          link: "/conversion/java/mpx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MPX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-rtf/"
+        - name: "MPX к RTF"
+          link: "/conversion/java/mpx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MPX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-svg/"
+        - name: "MPX к SVG"
+          link: "/conversion/java/mpx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MPX TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-svgz/"
+        - name: "MPX к SVGZ"
+          link: "/conversion/java/mpx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MPX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-sxc/"
+        - name: "MPX к SXC"
+          link: "/conversion/java/mpx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MPX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-tex/"
+        - name: "MPX к TEX"
+          link: "/conversion/java/mpx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MPX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-tif/"
+        - name: "MPX к TIF"
+          link: "/conversion/java/mpx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MPX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-tiff/"
+        - name: "MPX к TIFF"
+          link: "/conversion/java/mpx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MPX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-tsv/"
+        - name: "MPX к TSV"
+          link: "/conversion/java/mpx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MPX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-txt/"
+        - name: "MPX к TXT"
+          link: "/conversion/java/mpx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MPX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-webp/"
+        - name: "MPX к WEBP"
+          link: "/conversion/java/mpx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MPX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-wmf/"
+        - name: "MPX к WMF"
+          link: "/conversion/java/mpx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MPX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-wmz/"
+        - name: "MPX к WMZ"
+          link: "/conversion/java/mpx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MPX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlam/"
+        - name: "MPX к XLAM"
+          link: "/conversion/java/mpx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xls/"
+        - name: "MPX к XLS"
+          link: "/conversion/java/mpx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MPX TO XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xls2003/"
+        - name: "MPX к XLS2003"
+          link: "/conversion/java/mpx-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "MPX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlsb/"
+        - name: "MPX к XLSB"
+          link: "/conversion/java/mpx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MPX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlsm/"
+        - name: "MPX к XLSM"
+          link: "/conversion/java/mpx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlsx/"
+        - name: "MPX к XLSX"
+          link: "/conversion/java/mpx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MPX TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xlt/"
+        - name: "MPX к XLT"
+          link: "/conversion/java/mpx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MPX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xltm/"
+        - name: "MPX к XLTM"
+          link: "/conversion/java/mpx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xltx/"
+        - name: "MPX к XLTX"
+          link: "/conversion/java/mpx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MPX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mpx-to-xps/"
+        - name: "MPX к XPS"
+          link: "/conversion/java/mpx-to-xps/"
           description: "Спецификация документа Open XML"
 
 

@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию изображения в изображение в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) упрощает для разработчиков преобразование файла изображения в изображение с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла изображения в изображение с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл изображения с полным путем
         * Создайте и установите ConvertOptions для типа изображения
@@ -127,47 +127,47 @@ more_formats:
         Вы также можете конвертировать изображения во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "IMAGE TO EBOOK"
+        - name: "IMAGE к EBOOK"
           link: "https://products.groupdocs.com/conversion/net/image-to-ebook"
           description: "Форматы файлов электронных книг"
 
         # format loop
-        - name: "IMAGE TO EXCEL"
+        - name: "IMAGE к EXCEL"
           link: "https://products.groupdocs.com/conversion/net/image-to-excel"
           description: "Форматы файлов документов Excel"
 
         # format loop
-        - name: "IMAGE TO EMAIL"
+        - name: "IMAGE к EMAIL"
           link: "https://products.groupdocs.com/conversion/net/image-to-email"
           description: "Форматы файлов электронной почты"
 
         # format loop
-        - name: "IMAGE TO PDF"
+        - name: "IMAGE к PDF"
           link: "https://products.groupdocs.com/conversion/net/image-to-pdf"
           description: "Формат файла PDF"
 
         # format loop
-        - name: "IMAGE TO PHOTOSHOP"
+        - name: "IMAGE к PHOTOSHOP"
           link: "https://products.groupdocs.com/conversion/net/image-to-photoshop"
           description: "Форматы файлов Photoshop"
 
         # format loop
-        - name: "IMAGE TO POWERPOINT"
+        - name: "IMAGE к POWERPOINT"
           link: "https://products.groupdocs.com/conversion/net/image-to-powerpoint"
           description: "Форматы файлов презентаций PowerPoint"
 
         # format loop
-        - name: "IMAGE TO WEB"
+        - name: "IMAGE к WEB"
           link: "https://products.groupdocs.com/conversion/net/image-to-web"
           description: "Форматы файлов веб-документов"
 
         # format loop
-        - name: "IMAGE TO WORD"
+        - name: "IMAGE к WORD"
           link: "https://products.groupdocs.com/conversion/net/image-to-word"
           description: "Форматы файлов документов Word"
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию WEB в WEB на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла WEB в формат WEB с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла WEB в формат WEB с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите WEB-файл с полным путем
         * Создайте и установите ConvertOptions для веб-типа
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать WEB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WEB TO EPUB"
+        - name: "WEB к EPUB"
           link: "https://products.groupdocs.com/conversion/net/web-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WEB TO XPS"
+        - name: "WEB к XPS"
           link: "https://products.groupdocs.com/conversion/net/web-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "WEB TO TEX"
+        - name: "WEB к TEX"
           link: "https://products.groupdocs.com/conversion/net/web-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WEB TO PPT"
+        - name: "WEB к PPT"
           link: "https://products.groupdocs.com/conversion/net/web-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WEB TO PPS"
+        - name: "WEB к PPS"
           link: "https://products.groupdocs.com/conversion/net/web-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO PPTX"
+        - name: "WEB к PPTX"
           link: "https://products.groupdocs.com/conversion/net/web-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WEB TO PPSX"
+        - name: "WEB к PPSX"
           link: "https://products.groupdocs.com/conversion/net/web-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WEB TO ODP"
+        - name: "WEB к ODP"
           link: "https://products.groupdocs.com/conversion/net/web-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WEB TO OTP"
+        - name: "WEB к OTP"
           link: "https://products.groupdocs.com/conversion/net/web-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WEB TO POTX"
+        - name: "WEB к POTX"
           link: "https://products.groupdocs.com/conversion/net/web-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO POTM"
+        - name: "WEB к POTM"
           link: "https://products.groupdocs.com/conversion/net/web-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO PPTM"
+        - name: "WEB к PPTM"
           link: "https://products.groupdocs.com/conversion/net/web-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO PPSM"
+        - name: "WEB к PPSM"
           link: "https://products.groupdocs.com/conversion/net/web-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO XLS"
+        - name: "WEB к XLS"
           link: "https://products.groupdocs.com/conversion/net/web-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WEB TO XLSX"
+        - name: "WEB к XLSX"
           link: "https://products.groupdocs.com/conversion/net/web-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WEB TO XLSM"
+        - name: "WEB к XLSM"
           link: "https://products.groupdocs.com/conversion/net/web-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO XLSB"
+        - name: "WEB к XLSB"
           link: "https://products.groupdocs.com/conversion/net/web-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WEB TO ODS"
+        - name: "WEB к ODS"
           link: "https://products.groupdocs.com/conversion/net/web-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WEB TO XLTX"
+        - name: "WEB к XLTX"
           link: "https://products.groupdocs.com/conversion/net/web-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WEB TO XLTM"
+        - name: "WEB к XLTM"
           link: "https://products.groupdocs.com/conversion/net/web-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO TSV"
+        - name: "WEB к TSV"
           link: "https://products.groupdocs.com/conversion/net/web-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WEB TO XLAM"
+        - name: "WEB к XLAM"
           link: "https://products.groupdocs.com/conversion/net/web-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO CSV"
+        - name: "WEB к CSV"
           link: "https://products.groupdocs.com/conversion/net/web-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WEB TO DOC"
+        - name: "WEB к DOC"
           link: "https://products.groupdocs.com/conversion/net/web-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WEB TO DOCM"
+        - name: "WEB к DOCM"
           link: "https://products.groupdocs.com/conversion/net/web-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO WEB"
+        - name: "WEB к WEB"
           link: "https://products.groupdocs.com/conversion/net/web-to-web/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WEB TO DOT"
+        - name: "WEB к DOT"
           link: "https://products.groupdocs.com/conversion/net/web-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WEB TO DOTM"
+        - name: "WEB к DOTM"
           link: "https://products.groupdocs.com/conversion/net/web-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO DOTX"
+        - name: "WEB к DOTX"
           link: "https://products.groupdocs.com/conversion/net/web-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WEB TO RTF"
+        - name: "WEB к RTF"
           link: "https://products.groupdocs.com/conversion/net/web-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WEB TO ODT"
+        - name: "WEB к ODT"
           link: "https://products.groupdocs.com/conversion/net/web-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WEB TO OTT"
+        - name: "WEB к OTT"
           link: "https://products.groupdocs.com/conversion/net/web-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WEB TO TXT"
+        - name: "WEB к TXT"
           link: "https://products.groupdocs.com/conversion/net/web-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WEB TO MD"
+        - name: "WEB к MD"
           link: "https://products.groupdocs.com/conversion/net/web-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WEB TO TIFF"
+        - name: "WEB к TIFF"
           link: "https://products.groupdocs.com/conversion/net/web-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WEB TO TIF"
+        - name: "WEB к TIF"
           link: "https://products.groupdocs.com/conversion/net/web-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WEB TO JPG"
+        - name: "WEB к JPG"
           link: "https://products.groupdocs.com/conversion/net/web-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WEB TO JPEG"
+        - name: "WEB к JPEG"
           link: "https://products.groupdocs.com/conversion/net/web-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WEB TO PNG"
+        - name: "WEB к PNG"
           link: "https://products.groupdocs.com/conversion/net/web-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WEB TO GIF"
+        - name: "WEB к GIF"
           link: "https://products.groupdocs.com/conversion/net/web-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WEB TO BMP"
+        - name: "WEB к BMP"
           link: "https://products.groupdocs.com/conversion/net/web-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WEB TO ICO"
+        - name: "WEB к ICO"
           link: "https://products.groupdocs.com/conversion/net/web-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WEB TO PSD"
+        - name: "WEB к PSD"
           link: "https://products.groupdocs.com/conversion/net/web-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WEB TO WMF"
+        - name: "WEB к WMF"
           link: "https://products.groupdocs.com/conversion/net/web-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WEB TO EMF"
+        - name: "WEB к EMF"
           link: "https://products.groupdocs.com/conversion/net/web-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WEB TO WEBP"
+        - name: "WEB к WEBP"
           link: "https://products.groupdocs.com/conversion/net/web-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WEB TO SVG"
+        - name: "WEB к SVG"
           link: "https://products.groupdocs.com/conversion/net/web-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WEB TO JP2"
+        - name: "WEB к JP2"
           link: "https://products.groupdocs.com/conversion/net/web-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WEB TO EMZ"
+        - name: "WEB к EMZ"
           link: "https://products.groupdocs.com/conversion/net/web-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WEB TO WMZ"
+        - name: "WEB к WMZ"
           link: "https://products.groupdocs.com/conversion/net/web-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WEB TO HTML"
+        - name: "WEB к HTML"
           link: "https://products.groupdocs.com/conversion/net/web-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WEB TO MHT"
+        - name: "WEB к MHT"
           link: "https://products.groupdocs.com/conversion/net/web-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WEB TO MHTML"
+        - name: "WEB к MHTML"
           link: "https://products.groupdocs.com/conversion/net/web-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

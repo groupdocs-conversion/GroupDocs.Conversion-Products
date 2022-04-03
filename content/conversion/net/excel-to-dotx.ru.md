@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию EXCEL в DOTX в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл EXCEL в DOTX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл EXCEL в DOTX с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл EXCEL с полным путем
         * Создайте и установите ConvertOptions для типа dotx
@@ -127,293 +127,293 @@ more_formats:
         Вы также можете конвертировать EXCEL во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EXCEL TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-bmp/"
+        - name: "EXCEL к BMP"
+          link: "/conversion/net/excel-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EXCEL TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-csv/"
+        - name: "EXCEL к CSV"
+          link: "/conversion/net/excel-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EXCEL TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-dif/"
+        - name: "EXCEL к DIF"
+          link: "/conversion/net/excel-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "EXCEL TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-doc/"
+        - name: "EXCEL к DOC"
+          link: "/conversion/net/excel-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EXCEL TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-docm/"
+        - name: "EXCEL к DOCM"
+          link: "/conversion/net/excel-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EXCEL TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-docx/"
+        - name: "EXCEL к DOCX"
+          link: "/conversion/net/excel-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EXCEL TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-dot/"
+        - name: "EXCEL к DOT"
+          link: "/conversion/net/excel-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EXCEL TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-dotm/"
+        - name: "EXCEL к DOTM"
+          link: "/conversion/net/excel-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EXCEL TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-emf/"
+        - name: "EXCEL к EMF"
+          link: "/conversion/net/excel-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EXCEL TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-emz/"
+        - name: "EXCEL к EMZ"
+          link: "/conversion/net/excel-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EXCEL TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-fodp/"
+        - name: "EXCEL к FODP"
+          link: "/conversion/net/excel-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "EXCEL TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-fods/"
+        - name: "EXCEL к FODS"
+          link: "/conversion/net/excel-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "EXCEL TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-gif/"
+        - name: "EXCEL к GIF"
+          link: "/conversion/net/excel-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EXCEL TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-html/"
+        - name: "EXCEL к HTML"
+          link: "/conversion/net/excel-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EXCEL TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-ico/"
+        - name: "EXCEL к ICO"
+          link: "/conversion/net/excel-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EXCEL TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-jp2/"
+        - name: "EXCEL к JP2"
+          link: "/conversion/net/excel-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EXCEL TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-jpeg/"
+        - name: "EXCEL к JPEG"
+          link: "/conversion/net/excel-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EXCEL TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-jpg/"
+        - name: "EXCEL к JPG"
+          link: "/conversion/net/excel-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EXCEL TO MD"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-md/"
+        - name: "EXCEL к MD"
+          link: "/conversion/net/excel-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EXCEL TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-mht/"
+        - name: "EXCEL к MHT"
+          link: "/conversion/net/excel-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EXCEL TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-mhtml/"
+        - name: "EXCEL к MHTML"
+          link: "/conversion/net/excel-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EXCEL TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-odp/"
+        - name: "EXCEL к ODP"
+          link: "/conversion/net/excel-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EXCEL TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-ods/"
+        - name: "EXCEL к ODS"
+          link: "/conversion/net/excel-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EXCEL TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-odt/"
+        - name: "EXCEL к ODT"
+          link: "/conversion/net/excel-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EXCEL TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-otp/"
+        - name: "EXCEL к OTP"
+          link: "/conversion/net/excel-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EXCEL TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-ott/"
+        - name: "EXCEL к OTT"
+          link: "/conversion/net/excel-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EXCEL TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-pdf/"
+        - name: "EXCEL к PDF"
+          link: "/conversion/net/excel-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EXCEL TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-png/"
+        - name: "EXCEL к PNG"
+          link: "/conversion/net/excel-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EXCEL TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-potm/"
+        - name: "EXCEL к POTM"
+          link: "/conversion/net/excel-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EXCEL TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-potx/"
+        - name: "EXCEL к POTX"
+          link: "/conversion/net/excel-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EXCEL TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-pps/"
+        - name: "EXCEL к PPS"
+          link: "/conversion/net/excel-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EXCEL TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-ppsm/"
+        - name: "EXCEL к PPSM"
+          link: "/conversion/net/excel-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EXCEL TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-ppsx/"
+        - name: "EXCEL к PPSX"
+          link: "/conversion/net/excel-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EXCEL TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-ppt/"
+        - name: "EXCEL к PPT"
+          link: "/conversion/net/excel-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EXCEL TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-pptm/"
+        - name: "EXCEL к PPTM"
+          link: "/conversion/net/excel-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EXCEL TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-pptx/"
+        - name: "EXCEL к PPTX"
+          link: "/conversion/net/excel-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EXCEL TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-psd/"
+        - name: "EXCEL к PSD"
+          link: "/conversion/net/excel-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EXCEL TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-rtf/"
+        - name: "EXCEL к RTF"
+          link: "/conversion/net/excel-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EXCEL TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-svg/"
+        - name: "EXCEL к SVG"
+          link: "/conversion/net/excel-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EXCEL TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-svgz/"
+        - name: "EXCEL к SVGZ"
+          link: "/conversion/net/excel-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EXCEL TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-sxc/"
+        - name: "EXCEL к SXC"
+          link: "/conversion/net/excel-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "EXCEL TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-tex/"
+        - name: "EXCEL к TEX"
+          link: "/conversion/net/excel-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EXCEL TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-tif/"
+        - name: "EXCEL к TIF"
+          link: "/conversion/net/excel-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EXCEL TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-tiff/"
+        - name: "EXCEL к TIFF"
+          link: "/conversion/net/excel-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EXCEL TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-tsv/"
+        - name: "EXCEL к TSV"
+          link: "/conversion/net/excel-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EXCEL TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-txt/"
+        - name: "EXCEL к TXT"
+          link: "/conversion/net/excel-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EXCEL TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-webp/"
+        - name: "EXCEL к WEBP"
+          link: "/conversion/net/excel-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EXCEL TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-wmf/"
+        - name: "EXCEL к WMF"
+          link: "/conversion/net/excel-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EXCEL TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-wmz/"
+        - name: "EXCEL к WMZ"
+          link: "/conversion/net/excel-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EXCEL TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-xlam/"
+        - name: "EXCEL к XLAM"
+          link: "/conversion/net/excel-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EXCEL TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-xls/"
+        - name: "EXCEL к XLS"
+          link: "/conversion/net/excel-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EXCEL TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-xlsb/"
+        - name: "EXCEL к XLSB"
+          link: "/conversion/net/excel-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EXCEL TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-xlsm/"
+        - name: "EXCEL к XLSM"
+          link: "/conversion/net/excel-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EXCEL TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-xlsx/"
+        - name: "EXCEL к XLSX"
+          link: "/conversion/net/excel-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EXCEL TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-xltm/"
+        - name: "EXCEL к XLTM"
+          link: "/conversion/net/excel-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EXCEL TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-xltx/"
+        - name: "EXCEL к XLTX"
+          link: "/conversion/net/excel-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EXCEL TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/excel-to-xps/"
+        - name: "EXCEL к XPS"
+          link: "/conversion/net/excel-to-xps/"
           description: "Спецификация документа Open XML"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

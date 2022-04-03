@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию WMF в WMF на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла WMF в формат WMF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла WMF в формат WMF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл WMF с полным путем
         * Создайте и установите ConvertOptions для типа wmf
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать WMF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WMF TO EPUB"
+        - name: "WMF к EPUB"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WMF TO XPS"
+        - name: "WMF к XPS"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "WMF TO TEX"
+        - name: "WMF к TEX"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WMF TO PPT"
+        - name: "WMF к PPT"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WMF TO PPS"
+        - name: "WMF к PPS"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WMF TO PPTX"
+        - name: "WMF к PPTX"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WMF TO PPSX"
+        - name: "WMF к PPSX"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WMF TO ODP"
+        - name: "WMF к ODP"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WMF TO OTP"
+        - name: "WMF к OTP"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WMF TO POTX"
+        - name: "WMF к POTX"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WMF TO POTM"
+        - name: "WMF к POTM"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WMF TO PPTM"
+        - name: "WMF к PPTM"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WMF TO PPSM"
+        - name: "WMF к PPSM"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WMF TO XLS"
+        - name: "WMF к XLS"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WMF TO XLSX"
+        - name: "WMF к XLSX"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WMF TO XLSM"
+        - name: "WMF к XLSM"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMF TO XLSB"
+        - name: "WMF к XLSB"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WMF TO ODS"
+        - name: "WMF к ODS"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WMF TO XLTX"
+        - name: "WMF к XLTX"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WMF TO XLTM"
+        - name: "WMF к XLTM"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMF TO TSV"
+        - name: "WMF к TSV"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WMF TO XLAM"
+        - name: "WMF к XLAM"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMF TO CSV"
+        - name: "WMF к CSV"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WMF TO DOC"
+        - name: "WMF к DOC"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WMF TO DOCM"
+        - name: "WMF к DOCM"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WMF TO WMF"
+        - name: "WMF к WMF"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-wmf/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WMF TO DOT"
+        - name: "WMF к DOT"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WMF TO DOTM"
+        - name: "WMF к DOTM"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WMF TO DOTX"
+        - name: "WMF к DOTX"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WMF TO RTF"
+        - name: "WMF к RTF"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WMF TO ODT"
+        - name: "WMF к ODT"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WMF TO OTT"
+        - name: "WMF к OTT"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WMF TO TXT"
+        - name: "WMF к TXT"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WMF TO MD"
+        - name: "WMF к MD"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WMF TO TIFF"
+        - name: "WMF к TIFF"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WMF TO TIF"
+        - name: "WMF к TIF"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WMF TO JPG"
+        - name: "WMF к JPG"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WMF TO JPEG"
+        - name: "WMF к JPEG"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WMF TO PNG"
+        - name: "WMF к PNG"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WMF TO GIF"
+        - name: "WMF к GIF"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WMF TO BMP"
+        - name: "WMF к BMP"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WMF TO ICO"
+        - name: "WMF к ICO"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WMF TO PSD"
+        - name: "WMF к PSD"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WMF TO WMF"
+        - name: "WMF к WMF"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WMF TO EMF"
+        - name: "WMF к EMF"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WMF TO WEBP"
+        - name: "WMF к WEBP"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WMF TO SVG"
+        - name: "WMF к SVG"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WMF TO JP2"
+        - name: "WMF к JP2"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WMF TO EMZ"
+        - name: "WMF к EMZ"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WMF TO WMZ"
+        - name: "WMF к WMZ"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WMF TO HTML"
+        - name: "WMF к HTML"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WMF TO MHT"
+        - name: "WMF к MHT"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WMF TO MHTML"
+        - name: "WMF к MHTML"
           link: "https://products.groupdocs.com/conversion/net/wmf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

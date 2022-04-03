@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования IGS в XLAM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла IGS в XLAM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла IGS в XLAM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл IGS с полным путем
         * Установите ConvertOptions для типа документа XLAM
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать IGS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "IGS TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-bmp/"
+        - name: "IGS к BMP"
+          link: "/conversion/java/igs-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "IGS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-csv/"
+        - name: "IGS к CSV"
+          link: "/conversion/java/igs-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "IGS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-dcm/"
+        - name: "IGS к DCM"
+          link: "/conversion/java/igs-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "IGS TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-dif/"
+        - name: "IGS к DIF"
+          link: "/conversion/java/igs-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "IGS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-doc/"
+        - name: "IGS к DOC"
+          link: "/conversion/java/igs-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "IGS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-docm/"
+        - name: "IGS к DOCM"
+          link: "/conversion/java/igs-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IGS TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-docx/"
+        - name: "IGS к DOCX"
+          link: "/conversion/java/igs-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "IGS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-dot/"
+        - name: "IGS к DOT"
+          link: "/conversion/java/igs-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "IGS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-dotm/"
+        - name: "IGS к DOTM"
+          link: "/conversion/java/igs-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IGS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-dotx/"
+        - name: "IGS к DOTX"
+          link: "/conversion/java/igs-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "IGS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-emf/"
+        - name: "IGS к EMF"
+          link: "/conversion/java/igs-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "IGS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-emz/"
+        - name: "IGS к EMZ"
+          link: "/conversion/java/igs-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "IGS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-epub/"
+        - name: "IGS к EPUB"
+          link: "/conversion/java/igs-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "IGS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-fodp/"
+        - name: "IGS к FODP"
+          link: "/conversion/java/igs-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "IGS TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-fods/"
+        - name: "IGS к FODS"
+          link: "/conversion/java/igs-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "IGS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-gif/"
+        - name: "IGS к GIF"
+          link: "/conversion/java/igs-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "IGS TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-htm/"
+        - name: "IGS к HTM"
+          link: "/conversion/java/igs-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "IGS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-html/"
+        - name: "IGS к HTML"
+          link: "/conversion/java/igs-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "IGS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-ico/"
+        - name: "IGS к ICO"
+          link: "/conversion/java/igs-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "IGS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-jp2/"
+        - name: "IGS к JP2"
+          link: "/conversion/java/igs-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "IGS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-jpeg/"
+        - name: "IGS к JPEG"
+          link: "/conversion/java/igs-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "IGS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-jpg/"
+        - name: "IGS к JPG"
+          link: "/conversion/java/igs-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "IGS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-md/"
+        - name: "IGS к MD"
+          link: "/conversion/java/igs-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "IGS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-mht/"
+        - name: "IGS к MHT"
+          link: "/conversion/java/igs-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "IGS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-mhtml/"
+        - name: "IGS к MHTML"
+          link: "/conversion/java/igs-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "IGS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-odp/"
+        - name: "IGS к ODP"
+          link: "/conversion/java/igs-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "IGS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-ods/"
+        - name: "IGS к ODS"
+          link: "/conversion/java/igs-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "IGS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-odt/"
+        - name: "IGS к ODT"
+          link: "/conversion/java/igs-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "IGS TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-otp/"
+        - name: "IGS к OTP"
+          link: "/conversion/java/igs-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "IGS TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-ott/"
+        - name: "IGS к OTT"
+          link: "/conversion/java/igs-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "IGS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-pdf/"
+        - name: "IGS к PDF"
+          link: "/conversion/java/igs-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "IGS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-png/"
+        - name: "IGS к PNG"
+          link: "/conversion/java/igs-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "IGS TO POT"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-pot/"
+        - name: "IGS к POT"
+          link: "/conversion/java/igs-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "IGS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-potm/"
+        - name: "IGS к POTM"
+          link: "/conversion/java/igs-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IGS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-potx/"
+        - name: "IGS к POTX"
+          link: "/conversion/java/igs-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IGS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-pps/"
+        - name: "IGS к PPS"
+          link: "/conversion/java/igs-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IGS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-ppsm/"
+        - name: "IGS к PPSM"
+          link: "/conversion/java/igs-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IGS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-ppsx/"
+        - name: "IGS к PPSX"
+          link: "/conversion/java/igs-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "IGS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-ppt/"
+        - name: "IGS к PPT"
+          link: "/conversion/java/igs-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "IGS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-pptm/"
+        - name: "IGS к PPTM"
+          link: "/conversion/java/igs-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "IGS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-pptx/"
+        - name: "IGS к PPTX"
+          link: "/conversion/java/igs-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "IGS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-psd/"
+        - name: "IGS к PSD"
+          link: "/conversion/java/igs-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "IGS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-rtf/"
+        - name: "IGS к RTF"
+          link: "/conversion/java/igs-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "IGS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-svg/"
+        - name: "IGS к SVG"
+          link: "/conversion/java/igs-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "IGS TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-svgz/"
+        - name: "IGS к SVGZ"
+          link: "/conversion/java/igs-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "IGS TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-sxc/"
+        - name: "IGS к SXC"
+          link: "/conversion/java/igs-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "IGS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-tex/"
+        - name: "IGS к TEX"
+          link: "/conversion/java/igs-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "IGS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-tif/"
+        - name: "IGS к TIF"
+          link: "/conversion/java/igs-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IGS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-tiff/"
+        - name: "IGS к TIFF"
+          link: "/conversion/java/igs-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IGS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-tsv/"
+        - name: "IGS к TSV"
+          link: "/conversion/java/igs-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "IGS TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-txt/"
+        - name: "IGS к TXT"
+          link: "/conversion/java/igs-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "IGS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-webp/"
+        - name: "IGS к WEBP"
+          link: "/conversion/java/igs-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "IGS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-wmf/"
+        - name: "IGS к WMF"
+          link: "/conversion/java/igs-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "IGS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-wmz/"
+        - name: "IGS к WMZ"
+          link: "/conversion/java/igs-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "IGS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-xls/"
+        - name: "IGS к XLS"
+          link: "/conversion/java/igs-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "IGS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-xlsb/"
+        - name: "IGS к XLSB"
+          link: "/conversion/java/igs-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "IGS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-xlsm/"
+        - name: "IGS к XLSM"
+          link: "/conversion/java/igs-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IGS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-xlsx/"
+        - name: "IGS к XLSX"
+          link: "/conversion/java/igs-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "IGS TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-xlt/"
+        - name: "IGS к XLT"
+          link: "/conversion/java/igs-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "IGS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-xltm/"
+        - name: "IGS к XLTM"
+          link: "/conversion/java/igs-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IGS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-xltx/"
+        - name: "IGS к XLTX"
+          link: "/conversion/java/igs-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "IGS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/igs-to-xps/"
+        - name: "IGS к XPS"
+          link: "/conversion/java/igs-to-xps/"
           description: "Спецификация документа Open XML"
 
 

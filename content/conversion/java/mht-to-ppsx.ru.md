@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования MHT в PPSX в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла MHT в PPSX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла MHT в PPSX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл MHT с полным путем
         * Установите ConvertOptions для типа документа PPSX.
@@ -129,307 +129,307 @@ more_formats:
     format: 
         # format loop
         - name: "MHT к BMP"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-bmp/"
+          link: "/conversion/java/mht-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "MHT к CSV"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-csv/"
+          link: "/conversion/java/mht-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "MHT к DCM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-dcm/"
+          link: "/conversion/java/mht-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "MHT к DIF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-dif/"
+          link: "/conversion/java/mht-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "MHT к DOC"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-doc/"
+          link: "/conversion/java/mht-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "MHT к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-docm/"
+          link: "/conversion/java/mht-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "MHT к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-docx/"
+          link: "/conversion/java/mht-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "MHT к DOT"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-dot/"
+          link: "/conversion/java/mht-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "MHT к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-dotm/"
+          link: "/conversion/java/mht-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "MHT к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-dotx/"
+          link: "/conversion/java/mht-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "MHT к EMF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-emf/"
+          link: "/conversion/java/mht-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "MHT к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-emz/"
+          link: "/conversion/java/mht-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "MHT к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-epub/"
+          link: "/conversion/java/mht-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "MHT к FODP"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-fodp/"
+          link: "/conversion/java/mht-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "MHT к FODS"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-fods/"
+          link: "/conversion/java/mht-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "MHT к GIF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-gif/"
+          link: "/conversion/java/mht-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "MHT к HTM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-htm/"
+          link: "/conversion/java/mht-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "MHT к HTML"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-html/"
+          link: "/conversion/java/mht-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "MHT к ICO"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-ico/"
+          link: "/conversion/java/mht-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "MHT к JP2"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-jp2/"
+          link: "/conversion/java/mht-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "MHT к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-jpeg/"
+          link: "/conversion/java/mht-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "MHT к JPG"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-jpg/"
+          link: "/conversion/java/mht-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "MHT к MD"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-md/"
+          link: "/conversion/java/mht-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "MHT к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-mhtml/"
+          link: "/conversion/java/mht-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "MHT к ODP"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-odp/"
+          link: "/conversion/java/mht-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "MHT к ODS"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-ods/"
+          link: "/conversion/java/mht-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "MHT к ODT"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-odt/"
+          link: "/conversion/java/mht-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "MHT к OTP"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-otp/"
+          link: "/conversion/java/mht-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "MHT к OTT"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-ott/"
+          link: "/conversion/java/mht-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "MHT к PDF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-pdf/"
+          link: "/conversion/java/mht-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "MHT к PNG"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-png/"
+          link: "/conversion/java/mht-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "MHT к POT"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-pot/"
+          link: "/conversion/java/mht-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "MHT к POTM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-potm/"
+          link: "/conversion/java/mht-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "MHT к POTX"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-potx/"
+          link: "/conversion/java/mht-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "MHT к PPS"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-pps/"
+          link: "/conversion/java/mht-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "MHT к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-ppsm/"
+          link: "/conversion/java/mht-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "MHT к PPT"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-ppt/"
+          link: "/conversion/java/mht-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "MHT к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-pptm/"
+          link: "/conversion/java/mht-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "MHT к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-pptx/"
+          link: "/conversion/java/mht-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "MHT к PSD"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-psd/"
+          link: "/conversion/java/mht-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "MHT к RTF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-rtf/"
+          link: "/conversion/java/mht-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "MHT к SVG"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-svg/"
+          link: "/conversion/java/mht-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "MHT к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-svgz/"
+          link: "/conversion/java/mht-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "MHT к SXC"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-sxc/"
+          link: "/conversion/java/mht-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "MHT к TEX"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-tex/"
+          link: "/conversion/java/mht-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "MHT к TIF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-tif/"
+          link: "/conversion/java/mht-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "MHT к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-tiff/"
+          link: "/conversion/java/mht-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "MHT к TSV"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-tsv/"
+          link: "/conversion/java/mht-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "MHT к TXT"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-txt/"
+          link: "/conversion/java/mht-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "MHT к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-webp/"
+          link: "/conversion/java/mht-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "MHT к WMF"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-wmf/"
+          link: "/conversion/java/mht-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "MHT к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-wmz/"
+          link: "/conversion/java/mht-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "MHT к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-xlam/"
+          link: "/conversion/java/mht-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "MHT к XLS"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-xls/"
+          link: "/conversion/java/mht-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "MHT к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-xlsb/"
+          link: "/conversion/java/mht-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "MHT к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-xlsm/"
+          link: "/conversion/java/mht-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "MHT к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-xlsx/"
+          link: "/conversion/java/mht-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "MHT к XLT"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-xlt/"
+          link: "/conversion/java/mht-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "MHT к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-xltm/"
+          link: "/conversion/java/mht-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "MHT к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-xltx/"
+          link: "/conversion/java/mht-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "MHT к XPS"
-          link: "https://products.groupdocs.com/conversion/java/mht-to-xps/"
+          link: "/conversion/java/mht-to-xps/"
           description: "Спецификация документа Open XML"
 
 

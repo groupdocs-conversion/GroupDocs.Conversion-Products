@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги по преобразованию MD в MHTML в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла MD в MHTML с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла MD в MHTML с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл MD с полным путем
         * Установите ConvertOptions для типа документа MHTML.
@@ -128,308 +128,308 @@ more_formats:
         Вы также можете конвертировать MD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MD TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/md-to-bmp/"
+        - name: "MD к BMP"
+          link: "/conversion/java/md-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MD TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/md-to-csv/"
+        - name: "MD к CSV"
+          link: "/conversion/java/md-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MD TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-dcm/"
+        - name: "MD к DCM"
+          link: "/conversion/java/md-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MD TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/md-to-dif/"
+        - name: "MD к DIF"
+          link: "/conversion/java/md-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MD TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/md-to-doc/"
+        - name: "MD к DOC"
+          link: "/conversion/java/md-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MD TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-docm/"
+        - name: "MD к DOCM"
+          link: "/conversion/java/md-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MD TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/md-to-docx/"
+        - name: "MD к DOCX"
+          link: "/conversion/java/md-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MD TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/md-to-dot/"
+        - name: "MD к DOT"
+          link: "/conversion/java/md-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MD TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-dotm/"
+        - name: "MD к DOTM"
+          link: "/conversion/java/md-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MD TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/md-to-dotx/"
+        - name: "MD к DOTX"
+          link: "/conversion/java/md-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MD TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/md-to-emf/"
+        - name: "MD к EMF"
+          link: "/conversion/java/md-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MD TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/md-to-emz/"
+        - name: "MD к EMZ"
+          link: "/conversion/java/md-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MD TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/md-to-epub/"
+        - name: "MD к EPUB"
+          link: "/conversion/java/md-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MD TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/md-to-fodp/"
+        - name: "MD к FODP"
+          link: "/conversion/java/md-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MD TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/md-to-fods/"
+        - name: "MD к FODS"
+          link: "/conversion/java/md-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MD TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/md-to-gif/"
+        - name: "MD к GIF"
+          link: "/conversion/java/md-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MD TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-htm/"
+        - name: "MD к HTM"
+          link: "/conversion/java/md-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MD TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/md-to-html/"
+        - name: "MD к HTML"
+          link: "/conversion/java/md-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MD TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/md-to-ico/"
+        - name: "MD к ICO"
+          link: "/conversion/java/md-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MD TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/md-to-jp2/"
+        - name: "MD к JP2"
+          link: "/conversion/java/md-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MD TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/md-to-jpeg/"
+        - name: "MD к JPEG"
+          link: "/conversion/java/md-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MD TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/md-to-jpg/"
+        - name: "MD к JPG"
+          link: "/conversion/java/md-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MD TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/md-to-mht/"
+        - name: "MD к MHT"
+          link: "/conversion/java/md-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MD TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/md-to-odp/"
+        - name: "MD к ODP"
+          link: "/conversion/java/md-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MD TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/md-to-ods/"
+        - name: "MD к ODS"
+          link: "/conversion/java/md-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MD TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/md-to-odt/"
+        - name: "MD к ODT"
+          link: "/conversion/java/md-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MD TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/md-to-otp/"
+        - name: "MD к OTP"
+          link: "/conversion/java/md-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MD TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/md-to-ott/"
+        - name: "MD к OTT"
+          link: "/conversion/java/md-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MD TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/md-to-pdf/"
+        - name: "MD к PDF"
+          link: "/conversion/java/md-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MD TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/md-to-png/"
+        - name: "MD к PNG"
+          link: "/conversion/java/md-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MD TO POT"
-          link: "https://products.groupdocs.com/conversion/java/md-to-pot/"
+        - name: "MD к POT"
+          link: "/conversion/java/md-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MD TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-potm/"
+        - name: "MD к POTM"
+          link: "/conversion/java/md-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MD TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/md-to-potx/"
+        - name: "MD к POTX"
+          link: "/conversion/java/md-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MD TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/md-to-pps/"
+        - name: "MD к PPS"
+          link: "/conversion/java/md-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MD TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-ppsm/"
+        - name: "MD к PPSM"
+          link: "/conversion/java/md-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MD TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/md-to-ppsx/"
+        - name: "MD к PPSX"
+          link: "/conversion/java/md-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MD TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/md-to-ppt/"
+        - name: "MD к PPT"
+          link: "/conversion/java/md-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MD TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-pptm/"
+        - name: "MD к PPTM"
+          link: "/conversion/java/md-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MD TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/md-to-pptx/"
+        - name: "MD к PPTX"
+          link: "/conversion/java/md-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MD TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/md-to-psd/"
+        - name: "MD к PSD"
+          link: "/conversion/java/md-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MD TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/md-to-rtf/"
+        - name: "MD к RTF"
+          link: "/conversion/java/md-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MD TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/md-to-svg/"
+        - name: "MD к SVG"
+          link: "/conversion/java/md-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MD TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/md-to-svgz/"
+        - name: "MD к SVGZ"
+          link: "/conversion/java/md-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MD TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/md-to-sxc/"
+        - name: "MD к SXC"
+          link: "/conversion/java/md-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MD TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/md-to-tex/"
+        - name: "MD к TEX"
+          link: "/conversion/java/md-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MD TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/md-to-tif/"
+        - name: "MD к TIF"
+          link: "/conversion/java/md-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MD TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/md-to-tiff/"
+        - name: "MD к TIFF"
+          link: "/conversion/java/md-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MD TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/md-to-tsv/"
+        - name: "MD к TSV"
+          link: "/conversion/java/md-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MD TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/md-to-txt/"
+        - name: "MD к TXT"
+          link: "/conversion/java/md-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MD TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/md-to-webp/"
+        - name: "MD к WEBP"
+          link: "/conversion/java/md-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MD TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/md-to-wmf/"
+        - name: "MD к WMF"
+          link: "/conversion/java/md-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MD TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/md-to-wmz/"
+        - name: "MD к WMZ"
+          link: "/conversion/java/md-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MD TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-xlam/"
+        - name: "MD к XLAM"
+          link: "/conversion/java/md-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MD TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/md-to-xls/"
+        - name: "MD к XLS"
+          link: "/conversion/java/md-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MD TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/md-to-xlsb/"
+        - name: "MD к XLSB"
+          link: "/conversion/java/md-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MD TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-xlsm/"
+        - name: "MD к XLSM"
+          link: "/conversion/java/md-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MD TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/md-to-xlsx/"
+        - name: "MD к XLSX"
+          link: "/conversion/java/md-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MD TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/md-to-xlt/"
+        - name: "MD к XLT"
+          link: "/conversion/java/md-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MD TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/md-to-xltm/"
+        - name: "MD к XLTM"
+          link: "/conversion/java/md-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MD TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/md-to-xltx/"
+        - name: "MD к XLTX"
+          link: "/conversion/java/md-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MD TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/md-to-xps/"
+        - name: "MD к XPS"
+          link: "/conversion/java/md-to-xps/"
           description: "Спецификация документа Open XML"
 
 

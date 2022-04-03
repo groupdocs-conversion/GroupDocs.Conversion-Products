@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги по преобразованию J2C в XLSM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла J2C в XLSM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла J2C в XLSM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл J2C с полным путем
         * Установите ConvertOptions для типа документа XLSM.
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать J2C во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "J2C TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-bmp/"
+        - name: "J2C к BMP"
+          link: "/conversion/java/j2c-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "J2C TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-csv/"
+        - name: "J2C к CSV"
+          link: "/conversion/java/j2c-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "J2C TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-dcm/"
+        - name: "J2C к DCM"
+          link: "/conversion/java/j2c-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "J2C TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-dif/"
+        - name: "J2C к DIF"
+          link: "/conversion/java/j2c-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "J2C TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-doc/"
+        - name: "J2C к DOC"
+          link: "/conversion/java/j2c-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "J2C TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-docm/"
+        - name: "J2C к DOCM"
+          link: "/conversion/java/j2c-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "J2C TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-docx/"
+        - name: "J2C к DOCX"
+          link: "/conversion/java/j2c-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "J2C TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-dot/"
+        - name: "J2C к DOT"
+          link: "/conversion/java/j2c-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "J2C TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-dotm/"
+        - name: "J2C к DOTM"
+          link: "/conversion/java/j2c-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "J2C TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-dotx/"
+        - name: "J2C к DOTX"
+          link: "/conversion/java/j2c-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "J2C TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-emf/"
+        - name: "J2C к EMF"
+          link: "/conversion/java/j2c-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "J2C TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-emz/"
+        - name: "J2C к EMZ"
+          link: "/conversion/java/j2c-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "J2C TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-epub/"
+        - name: "J2C к EPUB"
+          link: "/conversion/java/j2c-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "J2C TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-fodp/"
+        - name: "J2C к FODP"
+          link: "/conversion/java/j2c-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "J2C TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-fods/"
+        - name: "J2C к FODS"
+          link: "/conversion/java/j2c-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "J2C TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-gif/"
+        - name: "J2C к GIF"
+          link: "/conversion/java/j2c-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "J2C TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-htm/"
+        - name: "J2C к HTM"
+          link: "/conversion/java/j2c-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "J2C TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-html/"
+        - name: "J2C к HTML"
+          link: "/conversion/java/j2c-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "J2C TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-ico/"
+        - name: "J2C к ICO"
+          link: "/conversion/java/j2c-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "J2C TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-jp2/"
+        - name: "J2C к JP2"
+          link: "/conversion/java/j2c-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "J2C TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-jpeg/"
+        - name: "J2C к JPEG"
+          link: "/conversion/java/j2c-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "J2C TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-jpg/"
+        - name: "J2C к JPG"
+          link: "/conversion/java/j2c-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "J2C TO MD"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-md/"
+        - name: "J2C к MD"
+          link: "/conversion/java/j2c-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "J2C TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-mht/"
+        - name: "J2C к MHT"
+          link: "/conversion/java/j2c-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "J2C TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-mhtml/"
+        - name: "J2C к MHTML"
+          link: "/conversion/java/j2c-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "J2C TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-odp/"
+        - name: "J2C к ODP"
+          link: "/conversion/java/j2c-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "J2C TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-ods/"
+        - name: "J2C к ODS"
+          link: "/conversion/java/j2c-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "J2C TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-odt/"
+        - name: "J2C к ODT"
+          link: "/conversion/java/j2c-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "J2C TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-otp/"
+        - name: "J2C к OTP"
+          link: "/conversion/java/j2c-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "J2C TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-ott/"
+        - name: "J2C к OTT"
+          link: "/conversion/java/j2c-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "J2C TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-pdf/"
+        - name: "J2C к PDF"
+          link: "/conversion/java/j2c-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "J2C TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-png/"
+        - name: "J2C к PNG"
+          link: "/conversion/java/j2c-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "J2C TO POT"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-pot/"
+        - name: "J2C к POT"
+          link: "/conversion/java/j2c-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "J2C TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-potm/"
+        - name: "J2C к POTM"
+          link: "/conversion/java/j2c-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "J2C TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-potx/"
+        - name: "J2C к POTX"
+          link: "/conversion/java/j2c-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "J2C TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-pps/"
+        - name: "J2C к PPS"
+          link: "/conversion/java/j2c-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "J2C TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-ppsm/"
+        - name: "J2C к PPSM"
+          link: "/conversion/java/j2c-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "J2C TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-ppsx/"
+        - name: "J2C к PPSX"
+          link: "/conversion/java/j2c-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "J2C TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-ppt/"
+        - name: "J2C к PPT"
+          link: "/conversion/java/j2c-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "J2C TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-pptm/"
+        - name: "J2C к PPTM"
+          link: "/conversion/java/j2c-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "J2C TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-pptx/"
+        - name: "J2C к PPTX"
+          link: "/conversion/java/j2c-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "J2C TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-psd/"
+        - name: "J2C к PSD"
+          link: "/conversion/java/j2c-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "J2C TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-rtf/"
+        - name: "J2C к RTF"
+          link: "/conversion/java/j2c-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "J2C TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-svg/"
+        - name: "J2C к SVG"
+          link: "/conversion/java/j2c-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "J2C TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-svgz/"
+        - name: "J2C к SVGZ"
+          link: "/conversion/java/j2c-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "J2C TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-sxc/"
+        - name: "J2C к SXC"
+          link: "/conversion/java/j2c-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "J2C TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-tex/"
+        - name: "J2C к TEX"
+          link: "/conversion/java/j2c-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "J2C TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-tif/"
+        - name: "J2C к TIF"
+          link: "/conversion/java/j2c-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "J2C TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-tiff/"
+        - name: "J2C к TIFF"
+          link: "/conversion/java/j2c-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "J2C TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-tsv/"
+        - name: "J2C к TSV"
+          link: "/conversion/java/j2c-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "J2C TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-txt/"
+        - name: "J2C к TXT"
+          link: "/conversion/java/j2c-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "J2C TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-webp/"
+        - name: "J2C к WEBP"
+          link: "/conversion/java/j2c-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "J2C TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-wmf/"
+        - name: "J2C к WMF"
+          link: "/conversion/java/j2c-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "J2C TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-wmz/"
+        - name: "J2C к WMZ"
+          link: "/conversion/java/j2c-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "J2C TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-xlam/"
+        - name: "J2C к XLAM"
+          link: "/conversion/java/j2c-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "J2C TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-xls/"
+        - name: "J2C к XLS"
+          link: "/conversion/java/j2c-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "J2C TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-xlsb/"
+        - name: "J2C к XLSB"
+          link: "/conversion/java/j2c-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "J2C TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-xlsx/"
+        - name: "J2C к XLSX"
+          link: "/conversion/java/j2c-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "J2C TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-xlt/"
+        - name: "J2C к XLT"
+          link: "/conversion/java/j2c-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "J2C TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-xltm/"
+        - name: "J2C к XLTM"
+          link: "/conversion/java/j2c-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "J2C TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-xltx/"
+        - name: "J2C к XLTX"
+          link: "/conversion/java/j2c-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "J2C TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/j2c-to-xps/"
+        - name: "J2C к XPS"
+          link: "/conversion/java/j2c-to-xps/"
           description: "Спецификация документа Open XML"
 
 

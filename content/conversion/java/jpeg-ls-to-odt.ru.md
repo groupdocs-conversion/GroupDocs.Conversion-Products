@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования JPEG-LS в ODT в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл JPEG-LS в ODT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл JPEG-LS в ODT с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл JPEG-LS с полным путем
         * Установите ConvertOptions для типа документа ODT.
@@ -128,43 +128,43 @@ more_formats:
         Вы также можете конвертировать JPEG-LS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JPEG-LS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-docm/"
+        - name: "JPEG-LS к DOCM"
+          link: "/conversion/java/jpeg-ls-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPEG-LS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-jpg/"
+        - name: "JPEG-LS к JPG"
+          link: "/conversion/java/jpeg-ls-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JPEG-LS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-ods/"
+        - name: "JPEG-LS к ODS"
+          link: "/conversion/java/jpeg-ls-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JPEG-LS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-potm/"
+        - name: "JPEG-LS к POTM"
+          link: "/conversion/java/jpeg-ls-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPEG-LS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-rtf/"
+        - name: "JPEG-LS к RTF"
+          link: "/conversion/java/jpeg-ls-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JPEG-LS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xls/"
+        - name: "JPEG-LS к XLS"
+          link: "/conversion/java/jpeg-ls-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JPEG-LS TO XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xls2003/"
+        - name: "JPEG-LS к XLS2003"
+          link: "/conversion/java/jpeg-ls-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "JPEG-LS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xlsm/"
+        - name: "JPEG-LS к XLSM"
+          link: "/conversion/java/jpeg-ls-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
 

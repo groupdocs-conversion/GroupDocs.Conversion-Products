@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Преобразование Excel в Excel в C# .NET"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) позволяет разработчикам легко преобразовать файл Excel в Excel с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл Excel в Excel с помощью нескольких строк кода.
 
         * Создайте экземпляр класса **Converter** и загрузите файл Excel с полным путем
         * Создайте и установите **ConvertOptions** для типа Excel
@@ -127,272 +127,272 @@ more_formats:
         Вы также можете конвертировать Excel во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "Excel TO EPUB Conversion"
+        - name: "Excel к EPUB Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "Excel TO XPS Conversion"
+        - name: "Excel к XPS Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "Excel TO TEX Conversion"
+        - name: "Excel к TEX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "Excel TO PPT Conversion"
+        - name: "Excel к PPT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "Excel TO PPS Conversion"
+        - name: "Excel к PPS Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "Excel TO PPTX Conversion"
+        - name: "Excel к PPTX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "Excel TO PPSX Conversion"
+        - name: "Excel к PPSX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "Excel TO ODP Conversion"
+        - name: "Excel к ODP Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "Excel TO OTP Conversion"
+        - name: "Excel к OTP Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "Excel TO POTX Conversion"
+        - name: "Excel к POTX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "Excel TO POTM Conversion"
+        - name: "Excel к POTM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "Excel TO PPTM Conversion"
+        - name: "Excel к PPTM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "Excel TO PPSM Conversion"
+        - name: "Excel к PPSM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "Excel TO XLS Conversion"
+        - name: "Excel к XLS Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "Excel TO XLSX Conversion"
+        - name: "Excel к XLSX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "Excel TO XLSM Conversion"
+        - name: "Excel к XLSM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "Excel TO XLSB Conversion"
+        - name: "Excel к XLSB Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "Excel TO ODS Conversion"
+        - name: "Excel к ODS Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "Excel TO XLTX Conversion"
+        - name: "Excel к XLTX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "Excel TO XLTM Conversion"
+        - name: "Excel к XLTM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "Excel TO TSV Conversion"
+        - name: "Excel к TSV Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "Excel TO XLAM Conversion"
+        - name: "Excel к XLAM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "Excel TO CSV Conversion"
+        - name: "Excel к CSV Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "Excel TO DOC Conversion"
+        - name: "Excel к DOC Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "Excel TO DOCM Conversion"
+        - name: "Excel к DOCM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "Excel TO Excel Conversion"
+        - name: "Excel к Excel Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-excel/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "Excel TO DOT Conversion"
+        - name: "Excel к DOT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "Excel TO DOTM Conversion"
+        - name: "Excel к DOTM Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "Excel TO DOTX Conversion"
+        - name: "Excel к DOTX Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "Excel TO RTF Conversion"
+        - name: "Excel к RTF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "Excel TO ODT Conversion"
+        - name: "Excel к ODT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "Excel TO OTT Conversion"
+        - name: "Excel к OTT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "Excel TO TXT Conversion"
+        - name: "Excel к TXT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "Excel TO MD Conversion"
+        - name: "Excel к MD Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "Excel TO TIFF Conversion"
+        - name: "Excel к TIFF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "Excel TO TIF Conversion"
+        - name: "Excel к TIF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "Excel TO JPG Conversion"
+        - name: "Excel к JPG Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "Excel TO JPEG Conversion"
+        - name: "Excel к JPEG Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "Excel TO PNG Conversion"
+        - name: "Excel к PNG Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "Excel TO GIF Conversion"
+        - name: "Excel к GIF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "Excel TO BMP Conversion"
+        - name: "Excel к BMP Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "Excel TO ICO Conversion"
+        - name: "Excel к ICO Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "Excel TO PSD Conversion"
+        - name: "Excel к PSD Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "Excel TO WMF Conversion"
+        - name: "Excel к WMF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "Excel TO EMF Conversion"
+        - name: "Excel к EMF Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "Excel TO WEBP Conversion"
+        - name: "Excel к WEBP Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "Excel TO SVG Conversion"
+        - name: "Excel к SVG Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "Excel TO JP2 Conversion"
+        - name: "Excel к JP2 Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "Excel TO EMZ Conversion"
+        - name: "Excel к EMZ Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "Excel TO WMZ Conversion"
+        - name: "Excel к WMZ Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "Excel TO HTML Conversion"
+        - name: "Excel к HTML Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "Excel TO MHT Conversion"
+        - name: "Excel к MHT Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "Excel TO MHTML Conversion"
+        - name: "Excel к MHTML Conversion"
           link: "https://products.groupdocs.com/conversion/net/excel-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

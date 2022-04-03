@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования EMAIL в EMZ в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла EMAIL в EMZ с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла EMAIL в EMZ с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл EMAIL с полным путем
         * Установите ConvertOptions для типа документа EMZ
@@ -129,207 +129,207 @@ more_formats:
     format: 
         # format loop
         - name: "EMAIL к BMP"
-          link: "https://products.groupdocs.com/conversion/java/email-to-bmp/"
+          link: "/conversion/java/email-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "EMAIL к CSV"
-          link: "https://products.groupdocs.com/conversion/java/email-to-csv/"
+          link: "/conversion/java/email-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "EMAIL к DOC"
-          link: "https://products.groupdocs.com/conversion/java/email-to-doc/"
+          link: "/conversion/java/email-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "EMAIL к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-docm/"
+          link: "/conversion/java/email-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "EMAIL к DOT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-dot/"
+          link: "/conversion/java/email-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "EMAIL к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-dotx/"
+          link: "/conversion/java/email-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "EMAIL к EMF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-emf/"
+          link: "/conversion/java/email-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "EMAIL к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/email-to-epub/"
+          link: "/conversion/java/email-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "EMAIL к GIF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-gif/"
+          link: "/conversion/java/email-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "EMAIL к HTML"
-          link: "https://products.groupdocs.com/conversion/java/email-to-html/"
+          link: "/conversion/java/email-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "EMAIL к ICO"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ico/"
+          link: "/conversion/java/email-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "EMAIL к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/email-to-jpeg/"
+          link: "/conversion/java/email-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "EMAIL к JPG"
-          link: "https://products.groupdocs.com/conversion/java/email-to-jpg/"
+          link: "/conversion/java/email-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "EMAIL к MHT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-mht/"
+          link: "/conversion/java/email-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "EMAIL к ODP"
-          link: "https://products.groupdocs.com/conversion/java/email-to-odp/"
+          link: "/conversion/java/email-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "EMAIL к ODS"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ods/"
+          link: "/conversion/java/email-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "EMAIL к ODT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-odt/"
+          link: "/conversion/java/email-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "EMAIL к OTT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ott/"
+          link: "/conversion/java/email-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "EMAIL к PDF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-pdf/"
+          link: "/conversion/java/email-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "EMAIL к PNG"
-          link: "https://products.groupdocs.com/conversion/java/email-to-png/"
+          link: "/conversion/java/email-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "EMAIL к POTM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-potm/"
+          link: "/conversion/java/email-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "EMAIL к POTX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-potx/"
+          link: "/conversion/java/email-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "EMAIL к PPS"
-          link: "https://products.groupdocs.com/conversion/java/email-to-pps/"
+          link: "/conversion/java/email-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "EMAIL к PPT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-ppt/"
+          link: "/conversion/java/email-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "EMAIL к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-pptm/"
+          link: "/conversion/java/email-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "EMAIL к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-pptx/"
+          link: "/conversion/java/email-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "EMAIL к PSD"
-          link: "https://products.groupdocs.com/conversion/java/email-to-psd/"
+          link: "/conversion/java/email-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "EMAIL к RTF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-rtf/"
+          link: "/conversion/java/email-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "EMAIL к SVG"
-          link: "https://products.groupdocs.com/conversion/java/email-to-svg/"
+          link: "/conversion/java/email-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "EMAIL к TIF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-tif/"
+          link: "/conversion/java/email-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "EMAIL к TSV"
-          link: "https://products.groupdocs.com/conversion/java/email-to-tsv/"
+          link: "/conversion/java/email-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "EMAIL к TXT"
-          link: "https://products.groupdocs.com/conversion/java/email-to-txt/"
+          link: "/conversion/java/email-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "EMAIL к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/email-to-webp/"
+          link: "/conversion/java/email-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "EMAIL к WMF"
-          link: "https://products.groupdocs.com/conversion/java/email-to-wmf/"
+          link: "/conversion/java/email-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "EMAIL к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/email-to-wmz/"
+          link: "/conversion/java/email-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "EMAIL к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xlam/"
+          link: "/conversion/java/email-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "EMAIL к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xlsb/"
+          link: "/conversion/java/email-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "EMAIL к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xlsm/"
+          link: "/conversion/java/email-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "EMAIL к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xltm/"
+          link: "/conversion/java/email-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "EMAIL к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xltx/"
+          link: "/conversion/java/email-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "EMAIL к XPS"
-          link: "https://products.groupdocs.com/conversion/java/email-to-xps/"
+          link: "/conversion/java/email-to-xps/"
           description: "Спецификация документа Open XML"
 
 

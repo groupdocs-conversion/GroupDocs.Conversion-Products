@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования PHOTOSHOP в PHOTOSHOP в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл PHOTOSHOP в PHOTOSHOP с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл PHOTOSHOP в PHOTOSHOP с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл PHOTOSHOP с полным путем
         * Установите ConvertOptions для типа документа PHOTOSHOP
@@ -128,268 +128,268 @@ more_formats:
         Вы также можете конвертировать PHOTOSHOP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PHOTOSHOP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-epub/"
+        - name: "PHOTOSHOP к EPUB"
+          link: "/conversion/java/photoshop-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PHOTOSHOP TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-xps/"
+        - name: "PHOTOSHOP к XPS"
+          link: "/conversion/java/photoshop-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "PHOTOSHOP TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-tex/"
+        - name: "PHOTOSHOP к TEX"
+          link: "/conversion/java/photoshop-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PHOTOSHOP TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-ppt/"
+        - name: "PHOTOSHOP к PPT"
+          link: "/conversion/java/photoshop-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-pps/"
+        - name: "PHOTOSHOP к PPS"
+          link: "/conversion/java/photoshop-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-pptx/"
+        - name: "PHOTOSHOP к PPTX"
+          link: "/conversion/java/photoshop-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PHOTOSHOP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-ppsx/"
+        - name: "PHOTOSHOP к PPSX"
+          link: "/conversion/java/photoshop-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PHOTOSHOP TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-odp/"
+        - name: "PHOTOSHOP к ODP"
+          link: "/conversion/java/photoshop-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PHOTOSHOP TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-otp/"
+        - name: "PHOTOSHOP к OTP"
+          link: "/conversion/java/photoshop-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PHOTOSHOP TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-potx/"
+        - name: "PHOTOSHOP к POTX"
+          link: "/conversion/java/photoshop-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-potm/"
+        - name: "PHOTOSHOP к POTM"
+          link: "/conversion/java/photoshop-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-pptm/"
+        - name: "PHOTOSHOP к PPTM"
+          link: "/conversion/java/photoshop-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-ppsm/"
+        - name: "PHOTOSHOP к PPSM"
+          link: "/conversion/java/photoshop-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-xls/"
+        - name: "PHOTOSHOP к XLS"
+          link: "/conversion/java/photoshop-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PHOTOSHOP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-xlsx/"
+        - name: "PHOTOSHOP к XLSX"
+          link: "/conversion/java/photoshop-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PHOTOSHOP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-xlsm/"
+        - name: "PHOTOSHOP к XLSM"
+          link: "/conversion/java/photoshop-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PHOTOSHOP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-xlsb/"
+        - name: "PHOTOSHOP к XLSB"
+          link: "/conversion/java/photoshop-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PHOTOSHOP TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-ods/"
+        - name: "PHOTOSHOP к ODS"
+          link: "/conversion/java/photoshop-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PHOTOSHOP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-xltx/"
+        - name: "PHOTOSHOP к XLTX"
+          link: "/conversion/java/photoshop-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PHOTOSHOP TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-xltm/"
+        - name: "PHOTOSHOP к XLTM"
+          link: "/conversion/java/photoshop-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PHOTOSHOP TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-tsv/"
+        - name: "PHOTOSHOP к TSV"
+          link: "/conversion/java/photoshop-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PHOTOSHOP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-xlam/"
+        - name: "PHOTOSHOP к XLAM"
+          link: "/conversion/java/photoshop-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PHOTOSHOP TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-csv/"
+        - name: "PHOTOSHOP к CSV"
+          link: "/conversion/java/photoshop-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PHOTOSHOP TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-doc/"
+        - name: "PHOTOSHOP к DOC"
+          link: "/conversion/java/photoshop-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PHOTOSHOP TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-docm/"
+        - name: "PHOTOSHOP к DOCM"
+          link: "/conversion/java/photoshop-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PHOTOSHOP TO PHOTOSHOP"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-photoshop/"
+        - name: "PHOTOSHOP к PHOTOSHOP"
+          link: "/conversion/java/photoshop-to-photoshop/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PHOTOSHOP TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-dot/"
+        - name: "PHOTOSHOP к DOT"
+          link: "/conversion/java/photoshop-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PHOTOSHOP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-dotm/"
+        - name: "PHOTOSHOP к DOTM"
+          link: "/conversion/java/photoshop-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PHOTOSHOP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-dotx/"
+        - name: "PHOTOSHOP к DOTX"
+          link: "/conversion/java/photoshop-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PHOTOSHOP TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-rtf/"
+        - name: "PHOTOSHOP к RTF"
+          link: "/conversion/java/photoshop-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PHOTOSHOP TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-odt/"
+        - name: "PHOTOSHOP к ODT"
+          link: "/conversion/java/photoshop-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PHOTOSHOP TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-ott/"
+        - name: "PHOTOSHOP к OTT"
+          link: "/conversion/java/photoshop-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PHOTOSHOP TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-txt/"
+        - name: "PHOTOSHOP к TXT"
+          link: "/conversion/java/photoshop-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PHOTOSHOP TO MD"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-md/"
+        - name: "PHOTOSHOP к MD"
+          link: "/conversion/java/photoshop-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PHOTOSHOP TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-tiff/"
+        - name: "PHOTOSHOP к TIFF"
+          link: "/conversion/java/photoshop-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PHOTOSHOP TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-tif/"
+        - name: "PHOTOSHOP к TIF"
+          link: "/conversion/java/photoshop-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PHOTOSHOP TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-jpg/"
+        - name: "PHOTOSHOP к JPG"
+          link: "/conversion/java/photoshop-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PHOTOSHOP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-jpeg/"
+        - name: "PHOTOSHOP к JPEG"
+          link: "/conversion/java/photoshop-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PHOTOSHOP TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-png/"
+        - name: "PHOTOSHOP к PNG"
+          link: "/conversion/java/photoshop-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PHOTOSHOP TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-gif/"
+        - name: "PHOTOSHOP к GIF"
+          link: "/conversion/java/photoshop-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PHOTOSHOP TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-bmp/"
+        - name: "PHOTOSHOP к BMP"
+          link: "/conversion/java/photoshop-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PHOTOSHOP TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-ico/"
+        - name: "PHOTOSHOP к ICO"
+          link: "/conversion/java/photoshop-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PHOTOSHOP TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-psd/"
+        - name: "PHOTOSHOP к PSD"
+          link: "/conversion/java/photoshop-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PHOTOSHOP TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-wmf/"
+        - name: "PHOTOSHOP к WMF"
+          link: "/conversion/java/photoshop-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PHOTOSHOP TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-emf/"
+        - name: "PHOTOSHOP к EMF"
+          link: "/conversion/java/photoshop-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PHOTOSHOP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-webp/"
+        - name: "PHOTOSHOP к WEBP"
+          link: "/conversion/java/photoshop-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PHOTOSHOP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-svg/"
+        - name: "PHOTOSHOP к SVG"
+          link: "/conversion/java/photoshop-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PHOTOSHOP TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-jp2/"
+        - name: "PHOTOSHOP к JP2"
+          link: "/conversion/java/photoshop-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PHOTOSHOP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-emz/"
+        - name: "PHOTOSHOP к EMZ"
+          link: "/conversion/java/photoshop-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PHOTOSHOP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-wmz/"
+        - name: "PHOTOSHOP к WMZ"
+          link: "/conversion/java/photoshop-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PHOTOSHOP TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-html/"
+        - name: "PHOTOSHOP к HTML"
+          link: "/conversion/java/photoshop-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PHOTOSHOP TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-mht/"
+        - name: "PHOTOSHOP к MHT"
+          link: "/conversion/java/photoshop-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PHOTOSHOP TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-mhtml/"
+        - name: "PHOTOSHOP к MHTML"
+          link: "/conversion/java/photoshop-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 

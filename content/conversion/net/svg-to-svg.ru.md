@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию SVG в SVG на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл SVG в SVG с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл SVG в SVG с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл SVG с полным путем
         * Создайте и установите ConvertOptions для типа svg
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать SVG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "SVG TO EPUB"
+        - name: "SVG к EPUB"
           link: "https://products.groupdocs.com/conversion/net/svg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "SVG TO XPS"
+        - name: "SVG к XPS"
           link: "https://products.groupdocs.com/conversion/net/svg-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "SVG TO TEX"
+        - name: "SVG к TEX"
           link: "https://products.groupdocs.com/conversion/net/svg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "SVG TO PPT"
+        - name: "SVG к PPT"
           link: "https://products.groupdocs.com/conversion/net/svg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "SVG TO PPS"
+        - name: "SVG к PPS"
           link: "https://products.groupdocs.com/conversion/net/svg-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "SVG TO PPTX"
+        - name: "SVG к PPTX"
           link: "https://products.groupdocs.com/conversion/net/svg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "SVG TO PPSX"
+        - name: "SVG к PPSX"
           link: "https://products.groupdocs.com/conversion/net/svg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "SVG TO ODP"
+        - name: "SVG к ODP"
           link: "https://products.groupdocs.com/conversion/net/svg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "SVG TO OTP"
+        - name: "SVG к OTP"
           link: "https://products.groupdocs.com/conversion/net/svg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "SVG TO POTX"
+        - name: "SVG к POTX"
           link: "https://products.groupdocs.com/conversion/net/svg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "SVG TO POTM"
+        - name: "SVG к POTM"
           link: "https://products.groupdocs.com/conversion/net/svg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "SVG TO PPTM"
+        - name: "SVG к PPTM"
           link: "https://products.groupdocs.com/conversion/net/svg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "SVG TO PPSM"
+        - name: "SVG к PPSM"
           link: "https://products.groupdocs.com/conversion/net/svg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "SVG TO XLS"
+        - name: "SVG к XLS"
           link: "https://products.groupdocs.com/conversion/net/svg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "SVG TO XLSX"
+        - name: "SVG к XLSX"
           link: "https://products.groupdocs.com/conversion/net/svg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "SVG TO XLSM"
+        - name: "SVG к XLSM"
           link: "https://products.groupdocs.com/conversion/net/svg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVG TO XLSB"
+        - name: "SVG к XLSB"
           link: "https://products.groupdocs.com/conversion/net/svg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "SVG TO ODS"
+        - name: "SVG к ODS"
           link: "https://products.groupdocs.com/conversion/net/svg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "SVG TO XLTX"
+        - name: "SVG к XLTX"
           link: "https://products.groupdocs.com/conversion/net/svg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "SVG TO XLTM"
+        - name: "SVG к XLTM"
           link: "https://products.groupdocs.com/conversion/net/svg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVG TO TSV"
+        - name: "SVG к TSV"
           link: "https://products.groupdocs.com/conversion/net/svg-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "SVG TO XLAM"
+        - name: "SVG к XLAM"
           link: "https://products.groupdocs.com/conversion/net/svg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVG TO CSV"
+        - name: "SVG к CSV"
           link: "https://products.groupdocs.com/conversion/net/svg-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "SVG TO DOC"
+        - name: "SVG к DOC"
           link: "https://products.groupdocs.com/conversion/net/svg-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "SVG TO DOCM"
+        - name: "SVG к DOCM"
           link: "https://products.groupdocs.com/conversion/net/svg-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "SVG TO SVG"
+        - name: "SVG к SVG"
           link: "https://products.groupdocs.com/conversion/net/svg-to-svg/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "SVG TO DOT"
+        - name: "SVG к DOT"
           link: "https://products.groupdocs.com/conversion/net/svg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "SVG TO DOTM"
+        - name: "SVG к DOTM"
           link: "https://products.groupdocs.com/conversion/net/svg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "SVG TO DOTX"
+        - name: "SVG к DOTX"
           link: "https://products.groupdocs.com/conversion/net/svg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "SVG TO RTF"
+        - name: "SVG к RTF"
           link: "https://products.groupdocs.com/conversion/net/svg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "SVG TO ODT"
+        - name: "SVG к ODT"
           link: "https://products.groupdocs.com/conversion/net/svg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "SVG TO OTT"
+        - name: "SVG к OTT"
           link: "https://products.groupdocs.com/conversion/net/svg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "SVG TO TXT"
+        - name: "SVG к TXT"
           link: "https://products.groupdocs.com/conversion/net/svg-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "SVG TO MD"
+        - name: "SVG к MD"
           link: "https://products.groupdocs.com/conversion/net/svg-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "SVG TO TIFF"
+        - name: "SVG к TIFF"
           link: "https://products.groupdocs.com/conversion/net/svg-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "SVG TO TIF"
+        - name: "SVG к TIF"
           link: "https://products.groupdocs.com/conversion/net/svg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "SVG TO JPG"
+        - name: "SVG к JPG"
           link: "https://products.groupdocs.com/conversion/net/svg-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "SVG TO JPEG"
+        - name: "SVG к JPEG"
           link: "https://products.groupdocs.com/conversion/net/svg-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "SVG TO PNG"
+        - name: "SVG к PNG"
           link: "https://products.groupdocs.com/conversion/net/svg-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "SVG TO GIF"
+        - name: "SVG к GIF"
           link: "https://products.groupdocs.com/conversion/net/svg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "SVG TO BMP"
+        - name: "SVG к BMP"
           link: "https://products.groupdocs.com/conversion/net/svg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "SVG TO ICO"
+        - name: "SVG к ICO"
           link: "https://products.groupdocs.com/conversion/net/svg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "SVG TO PSD"
+        - name: "SVG к PSD"
           link: "https://products.groupdocs.com/conversion/net/svg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "SVG TO WMF"
+        - name: "SVG к WMF"
           link: "https://products.groupdocs.com/conversion/net/svg-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "SVG TO EMF"
+        - name: "SVG к EMF"
           link: "https://products.groupdocs.com/conversion/net/svg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "SVG TO WEBP"
+        - name: "SVG к WEBP"
           link: "https://products.groupdocs.com/conversion/net/svg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "SVG TO SVG"
+        - name: "SVG к SVG"
           link: "https://products.groupdocs.com/conversion/net/svg-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "SVG TO JP2"
+        - name: "SVG к JP2"
           link: "https://products.groupdocs.com/conversion/net/svg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "SVG TO EMZ"
+        - name: "SVG к EMZ"
           link: "https://products.groupdocs.com/conversion/net/svg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "SVG TO WMZ"
+        - name: "SVG к WMZ"
           link: "https://products.groupdocs.com/conversion/net/svg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "SVG TO HTML"
+        - name: "SVG к HTML"
           link: "https://products.groupdocs.com/conversion/net/svg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "SVG TO MHT"
+        - name: "SVG к MHT"
           link: "https://products.groupdocs.com/conversion/net/svg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "SVG TO MHTML"
+        - name: "SVG к MHTML"
           link: "https://products.groupdocs.com/conversion/net/svg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги по преобразованию JPF в OTP в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла JPF в OTP с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла JPF в OTP с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл JPF с полным путем
         * Установите ConvertOptions для типа документа OTP
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать JPF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JPF TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-bmp/"
+        - name: "JPF к BMP"
+          link: "/conversion/java/jpf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JPF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-csv/"
+        - name: "JPF к CSV"
+          link: "/conversion/java/jpf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "JPF TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-dcm/"
+        - name: "JPF к DCM"
+          link: "/conversion/java/jpf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "JPF TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-dif/"
+        - name: "JPF к DIF"
+          link: "/conversion/java/jpf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "JPF TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-doc/"
+        - name: "JPF к DOC"
+          link: "/conversion/java/jpf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JPF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-docm/"
+        - name: "JPF к DOCM"
+          link: "/conversion/java/jpf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPF TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-docx/"
+        - name: "JPF к DOCX"
+          link: "/conversion/java/jpf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JPF TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-dot/"
+        - name: "JPF к DOT"
+          link: "/conversion/java/jpf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JPF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-dotm/"
+        - name: "JPF к DOTM"
+          link: "/conversion/java/jpf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-dotx/"
+        - name: "JPF к DOTX"
+          link: "/conversion/java/jpf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JPF TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-emf/"
+        - name: "JPF к EMF"
+          link: "/conversion/java/jpf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JPF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-emz/"
+        - name: "JPF к EMZ"
+          link: "/conversion/java/jpf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JPF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-epub/"
+        - name: "JPF к EPUB"
+          link: "/conversion/java/jpf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JPF TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-fodp/"
+        - name: "JPF к FODP"
+          link: "/conversion/java/jpf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "JPF TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-fods/"
+        - name: "JPF к FODS"
+          link: "/conversion/java/jpf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "JPF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-gif/"
+        - name: "JPF к GIF"
+          link: "/conversion/java/jpf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "JPF TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-htm/"
+        - name: "JPF к HTM"
+          link: "/conversion/java/jpf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "JPF TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-html/"
+        - name: "JPF к HTML"
+          link: "/conversion/java/jpf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "JPF TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-ico/"
+        - name: "JPF к ICO"
+          link: "/conversion/java/jpf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JPF TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-jp2/"
+        - name: "JPF к JP2"
+          link: "/conversion/java/jpf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "JPF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-jpeg/"
+        - name: "JPF к JPEG"
+          link: "/conversion/java/jpf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "JPF TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-jpg/"
+        - name: "JPF к JPG"
+          link: "/conversion/java/jpf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JPF TO MD"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-md/"
+        - name: "JPF к MD"
+          link: "/conversion/java/jpf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JPF TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-mht/"
+        - name: "JPF к MHT"
+          link: "/conversion/java/jpf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-mhtml/"
+        - name: "JPF к MHTML"
+          link: "/conversion/java/jpf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-odp/"
+        - name: "JPF к ODP"
+          link: "/conversion/java/jpf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JPF TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-ods/"
+        - name: "JPF к ODS"
+          link: "/conversion/java/jpf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JPF TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-odt/"
+        - name: "JPF к ODT"
+          link: "/conversion/java/jpf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JPF TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-ott/"
+        - name: "JPF к OTT"
+          link: "/conversion/java/jpf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JPF TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-pdf/"
+        - name: "JPF к PDF"
+          link: "/conversion/java/jpf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "JPF TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-png/"
+        - name: "JPF к PNG"
+          link: "/conversion/java/jpf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JPF TO POT"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-pot/"
+        - name: "JPF к POT"
+          link: "/conversion/java/jpf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "JPF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-potm/"
+        - name: "JPF к POTM"
+          link: "/conversion/java/jpf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPF TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-potx/"
+        - name: "JPF к POTX"
+          link: "/conversion/java/jpf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPF TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-pps/"
+        - name: "JPF к PPS"
+          link: "/conversion/java/jpf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-ppsm/"
+        - name: "JPF к PPSM"
+          link: "/conversion/java/jpf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-ppsx/"
+        - name: "JPF к PPSX"
+          link: "/conversion/java/jpf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JPF TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-ppt/"
+        - name: "JPF к PPT"
+          link: "/conversion/java/jpf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JPF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-pptm/"
+        - name: "JPF к PPTM"
+          link: "/conversion/java/jpf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JPF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-pptx/"
+        - name: "JPF к PPTX"
+          link: "/conversion/java/jpf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JPF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-psd/"
+        - name: "JPF к PSD"
+          link: "/conversion/java/jpf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JPF TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-rtf/"
+        - name: "JPF к RTF"
+          link: "/conversion/java/jpf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JPF TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-svg/"
+        - name: "JPF к SVG"
+          link: "/conversion/java/jpf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPF TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-svgz/"
+        - name: "JPF к SVGZ"
+          link: "/conversion/java/jpf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPF TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-sxc/"
+        - name: "JPF к SXC"
+          link: "/conversion/java/jpf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "JPF TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-tex/"
+        - name: "JPF к TEX"
+          link: "/conversion/java/jpf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JPF TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-tif/"
+        - name: "JPF к TIF"
+          link: "/conversion/java/jpf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-tiff/"
+        - name: "JPF к TIFF"
+          link: "/conversion/java/jpf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPF TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-tsv/"
+        - name: "JPF к TSV"
+          link: "/conversion/java/jpf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "JPF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-txt/"
+        - name: "JPF к TXT"
+          link: "/conversion/java/jpf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JPF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-webp/"
+        - name: "JPF к WEBP"
+          link: "/conversion/java/jpf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JPF TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-wmf/"
+        - name: "JPF к WMF"
+          link: "/conversion/java/jpf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JPF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-wmz/"
+        - name: "JPF к WMZ"
+          link: "/conversion/java/jpf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JPF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlam/"
+        - name: "JPF к XLAM"
+          link: "/conversion/java/jpf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPF TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xls/"
+        - name: "JPF к XLS"
+          link: "/conversion/java/jpf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JPF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlsb/"
+        - name: "JPF к XLSB"
+          link: "/conversion/java/jpf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JPF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlsm/"
+        - name: "JPF к XLSM"
+          link: "/conversion/java/jpf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlsx/"
+        - name: "JPF к XLSX"
+          link: "/conversion/java/jpf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JPF TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xlt/"
+        - name: "JPF к XLT"
+          link: "/conversion/java/jpf-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xltm/"
+        - name: "JPF к XLTM"
+          link: "/conversion/java/jpf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xltx/"
+        - name: "JPF к XLTX"
+          link: "/conversion/java/jpf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/jpf-to-xps/"
+        - name: "JPF к XPS"
+          link: "/conversion/java/jpf-to-xps/"
           description: "Спецификация документа Open XML"
 
 

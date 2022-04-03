@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию CGM в XPS на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла CGM в XPS с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла CGM в XPS с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл CGM с полным путем
         * Создайте и установите ConvertOptions для типа xps
@@ -128,312 +128,312 @@ more_formats:
     format: 
         # format loop
         - name: "CGM к BMP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-bmp/"
+          link: "/conversion/net/cgm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "CGM к CSV"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-csv/"
+          link: "/conversion/net/cgm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "CGM к DCM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-dcm/"
+          link: "/conversion/net/cgm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "CGM к DIF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-dif/"
+          link: "/conversion/net/cgm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "CGM к DOC"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-doc/"
+          link: "/conversion/net/cgm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "CGM к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-docm/"
+          link: "/conversion/net/cgm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "CGM к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-docx/"
+          link: "/conversion/net/cgm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "CGM к DOT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-dot/"
+          link: "/conversion/net/cgm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "CGM к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-dotm/"
+          link: "/conversion/net/cgm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "CGM к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-dotx/"
+          link: "/conversion/net/cgm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "CGM к EMF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-emf/"
+          link: "/conversion/net/cgm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "CGM к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-emz/"
+          link: "/conversion/net/cgm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "CGM к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-epub/"
+          link: "/conversion/net/cgm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "CGM к FODP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-fodp/"
+          link: "/conversion/net/cgm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "CGM к FODS"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-fods/"
+          link: "/conversion/net/cgm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "CGM к GIF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-gif/"
+          link: "/conversion/net/cgm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "CGM к HTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-htm/"
+          link: "/conversion/net/cgm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "CGM к HTML"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-html/"
+          link: "/conversion/net/cgm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "CGM к ICO"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ico/"
+          link: "/conversion/net/cgm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "CGM к JP2"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-jp2/"
+          link: "/conversion/net/cgm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "CGM к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-jpeg/"
+          link: "/conversion/net/cgm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "CGM к JPG"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-jpg/"
+          link: "/conversion/net/cgm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "CGM к MD"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-md/"
+          link: "/conversion/net/cgm-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "CGM к MHT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-mht/"
+          link: "/conversion/net/cgm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "CGM к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-mhtml/"
+          link: "/conversion/net/cgm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "CGM к ODP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-odp/"
+          link: "/conversion/net/cgm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "CGM к ODS"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ods/"
+          link: "/conversion/net/cgm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "CGM к ODT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-odt/"
+          link: "/conversion/net/cgm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "CGM к OTP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-otp/"
+          link: "/conversion/net/cgm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "CGM к OTT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ott/"
+          link: "/conversion/net/cgm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "CGM к PDF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-pdf/"
+          link: "/conversion/net/cgm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "CGM к PNG"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-png/"
+          link: "/conversion/net/cgm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "CGM к POT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-pot/"
+          link: "/conversion/net/cgm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "CGM к POTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-potm/"
+          link: "/conversion/net/cgm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "CGM к POTX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-potx/"
+          link: "/conversion/net/cgm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "CGM к PPS"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-pps/"
+          link: "/conversion/net/cgm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "CGM к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ppsm/"
+          link: "/conversion/net/cgm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "CGM к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ppsx/"
+          link: "/conversion/net/cgm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "CGM к PPT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-ppt/"
+          link: "/conversion/net/cgm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "CGM к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-pptm/"
+          link: "/conversion/net/cgm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "CGM к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-pptx/"
+          link: "/conversion/net/cgm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "CGM к PSD"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-psd/"
+          link: "/conversion/net/cgm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "CGM к RTF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-rtf/"
+          link: "/conversion/net/cgm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "CGM к SVG"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-svg/"
+          link: "/conversion/net/cgm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "CGM к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-svgz/"
+          link: "/conversion/net/cgm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "CGM к SXC"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-sxc/"
+          link: "/conversion/net/cgm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "CGM к TEX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-tex/"
+          link: "/conversion/net/cgm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "CGM к TIF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-tif/"
+          link: "/conversion/net/cgm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "CGM к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-tiff/"
+          link: "/conversion/net/cgm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "CGM к TSV"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-tsv/"
+          link: "/conversion/net/cgm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "CGM к TXT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-txt/"
+          link: "/conversion/net/cgm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "CGM к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-webp/"
+          link: "/conversion/net/cgm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "CGM к WMF"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-wmf/"
+          link: "/conversion/net/cgm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "CGM к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-wmz/"
+          link: "/conversion/net/cgm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "CGM к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlam/"
+          link: "/conversion/net/cgm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "CGM к XLS"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xls/"
+          link: "/conversion/net/cgm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "CGM к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlsb/"
+          link: "/conversion/net/cgm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "CGM к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlsm/"
+          link: "/conversion/net/cgm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "CGM к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlsx/"
+          link: "/conversion/net/cgm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "CGM к XLT"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xlt/"
+          link: "/conversion/net/cgm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "CGM к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xltm/"
+          link: "/conversion/net/cgm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "CGM к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/cgm-to-xltx/"
+          link: "/conversion/net/cgm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
 

@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования EML в EPUB в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла EML в EPUB с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла EML в EPUB с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл EML с полным путем
         * Установите ConvertOptions для типа документа EPUB
@@ -128,323 +128,323 @@ more_formats:
         Вы также можете конвертировать EML во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EML TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-bmp/"
+        - name: "EML к BMP"
+          link: "/conversion/java/eml-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EML TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-csv/"
+        - name: "EML к CSV"
+          link: "/conversion/java/eml-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EML TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-dcm/"
+        - name: "EML к DCM"
+          link: "/conversion/java/eml-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "EML TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-dif/"
+        - name: "EML к DIF"
+          link: "/conversion/java/eml-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "EML TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-doc/"
+        - name: "EML к DOC"
+          link: "/conversion/java/eml-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EML TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-docm/"
+        - name: "EML к DOCM"
+          link: "/conversion/java/eml-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EML TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-docx/"
+        - name: "EML к DOCX"
+          link: "/conversion/java/eml-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EML TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-dot/"
+        - name: "EML к DOT"
+          link: "/conversion/java/eml-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EML TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-dotm/"
+        - name: "EML к DOTM"
+          link: "/conversion/java/eml-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EML TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-dotx/"
+        - name: "EML к DOTX"
+          link: "/conversion/java/eml-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EML TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-emf/"
+        - name: "EML к EMF"
+          link: "/conversion/java/eml-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EML TO EMLX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-emlx/"
+        - name: "EML к EMLX"
+          link: "/conversion/java/eml-to-emlx/"
           description: "Почтовое сообщение Apple"
 
         # format loop
-        - name: "EML TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-emz/"
+        - name: "EML к EMZ"
+          link: "/conversion/java/eml-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EML TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-fodp/"
+        - name: "EML к FODP"
+          link: "/conversion/java/eml-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "EML TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-fods/"
+        - name: "EML к FODS"
+          link: "/conversion/java/eml-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "EML TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-gif/"
+        - name: "EML к GIF"
+          link: "/conversion/java/eml-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EML TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-htm/"
+        - name: "EML к HTM"
+          link: "/conversion/java/eml-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "EML TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-html/"
+        - name: "EML к HTML"
+          link: "/conversion/java/eml-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EML TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ico/"
+        - name: "EML к ICO"
+          link: "/conversion/java/eml-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EML TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-jp2/"
+        - name: "EML к JP2"
+          link: "/conversion/java/eml-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EML TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-jpeg/"
+        - name: "EML к JPEG"
+          link: "/conversion/java/eml-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EML TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-jpg/"
+        - name: "EML к JPG"
+          link: "/conversion/java/eml-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EML TO MD"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-md/"
+        - name: "EML к MD"
+          link: "/conversion/java/eml-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EML TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-mht/"
+        - name: "EML к MHT"
+          link: "/conversion/java/eml-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EML TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-mhtml/"
+        - name: "EML к MHTML"
+          link: "/conversion/java/eml-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EML TO MSG"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-msg/"
+        - name: "EML к MSG"
+          link: "/conversion/java/eml-to-msg/"
           description: "Формат электронной почты Microsoft Outlook"
 
         # format loop
-        - name: "EML TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-odp/"
+        - name: "EML к ODP"
+          link: "/conversion/java/eml-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EML TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ods/"
+        - name: "EML к ODS"
+          link: "/conversion/java/eml-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EML TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-odt/"
+        - name: "EML к ODT"
+          link: "/conversion/java/eml-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EML TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-otp/"
+        - name: "EML к OTP"
+          link: "/conversion/java/eml-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EML TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ott/"
+        - name: "EML к OTT"
+          link: "/conversion/java/eml-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EML TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-pdf/"
+        - name: "EML к PDF"
+          link: "/conversion/java/eml-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EML TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-png/"
+        - name: "EML к PNG"
+          link: "/conversion/java/eml-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EML TO POT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-pot/"
+        - name: "EML к POT"
+          link: "/conversion/java/eml-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "EML TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-potm/"
+        - name: "EML к POTM"
+          link: "/conversion/java/eml-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EML TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-potx/"
+        - name: "EML к POTX"
+          link: "/conversion/java/eml-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EML TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-pps/"
+        - name: "EML к PPS"
+          link: "/conversion/java/eml-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EML TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ppsm/"
+        - name: "EML к PPSM"
+          link: "/conversion/java/eml-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EML TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ppsx/"
+        - name: "EML к PPSX"
+          link: "/conversion/java/eml-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EML TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-ppt/"
+        - name: "EML к PPT"
+          link: "/conversion/java/eml-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EML TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-pptm/"
+        - name: "EML к PPTM"
+          link: "/conversion/java/eml-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EML TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-pptx/"
+        - name: "EML к PPTX"
+          link: "/conversion/java/eml-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EML TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-psd/"
+        - name: "EML к PSD"
+          link: "/conversion/java/eml-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EML TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-rtf/"
+        - name: "EML к RTF"
+          link: "/conversion/java/eml-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EML TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-svg/"
+        - name: "EML к SVG"
+          link: "/conversion/java/eml-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EML TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-svgz/"
+        - name: "EML к SVGZ"
+          link: "/conversion/java/eml-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EML TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-sxc/"
+        - name: "EML к SXC"
+          link: "/conversion/java/eml-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "EML TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-tex/"
+        - name: "EML к TEX"
+          link: "/conversion/java/eml-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EML TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-tif/"
+        - name: "EML к TIF"
+          link: "/conversion/java/eml-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EML TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-tiff/"
+        - name: "EML к TIFF"
+          link: "/conversion/java/eml-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EML TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-tsv/"
+        - name: "EML к TSV"
+          link: "/conversion/java/eml-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EML TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-txt/"
+        - name: "EML к TXT"
+          link: "/conversion/java/eml-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EML TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-webp/"
+        - name: "EML к WEBP"
+          link: "/conversion/java/eml-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EML TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-wmf/"
+        - name: "EML к WMF"
+          link: "/conversion/java/eml-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EML TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-wmz/"
+        - name: "EML к WMZ"
+          link: "/conversion/java/eml-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EML TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xlam/"
+        - name: "EML к XLAM"
+          link: "/conversion/java/eml-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EML TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xls/"
+        - name: "EML к XLS"
+          link: "/conversion/java/eml-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EML TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xlsb/"
+        - name: "EML к XLSB"
+          link: "/conversion/java/eml-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EML TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xlsm/"
+        - name: "EML к XLSM"
+          link: "/conversion/java/eml-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EML TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xlsx/"
+        - name: "EML к XLSX"
+          link: "/conversion/java/eml-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EML TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xlt/"
+        - name: "EML к XLT"
+          link: "/conversion/java/eml-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "EML TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xltm/"
+        - name: "EML к XLTM"
+          link: "/conversion/java/eml-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EML TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xltx/"
+        - name: "EML к XLTX"
+          link: "/conversion/java/eml-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EML TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/eml-to-xps/"
+        - name: "EML к XPS"
+          link: "/conversion/java/eml-to-xps/"
           description: "Спецификация документа Open XML"
 
 

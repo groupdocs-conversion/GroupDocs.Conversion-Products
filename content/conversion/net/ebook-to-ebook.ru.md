@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию электронной книги в электронную книгу на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) упрощает для разработчиков преобразование файла электронной книги в электронную книгу с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла электронной книги в электронную книгу с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл электронной книги с полным путем
         * Создайте и установите ConvertOptions для типа электронной книги
@@ -93,7 +93,7 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "eBook to eBook Живые демонстрации"
+    title: "eBook к eBook Живые демонстрации"
     content: |
         Преобразуйте электронную книгу в электронную прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/ebook-to-ebook).
         Живая демонстрация имеет следующие преимущества
@@ -127,47 +127,47 @@ more_formats:
         Вы также можете конвертировать электронную книгу во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EBOOK TO EMAIL"
+        - name: "EBOOK к EMAIL"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-email"
           description: "Форматы файлов документов электронной почты"
 
         # format loop
-        - name: "EBOOK TO EXCEL"
+        - name: "EBOOK к EXCEL"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-excel"
           description: "Форматы файлов документов Excel"
 
         # format loop
-        - name: "EBOOK TO IMAGE"
+        - name: "EBOOK к IMAGE"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-image"
           description: "Форматы файлов документов изображений"
 
         # format loop
-        - name: "EBOOK TO PDF"
+        - name: "EBOOK к PDF"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-pdf"
           description: "Формат файла PDF"
 
         # format loop
-        - name: "EBOOK TO PHOTOSHOP"
+        - name: "EBOOK к PHOTOSHOP"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-photoshop"
           description: "Форматы файлов Photoshop"
 
         # format loop
-        - name: "EBOOK TO POWERPOINT"
+        - name: "EBOOK к POWERPOINT"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-powerpoint"
           description: "Форматы файлов презентаций PowerPoint"
 
         # format loop
-        - name: "EBOOK TO WEB"
+        - name: "EBOOK к WEB"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-web"
           description: "Форматы файлов веб-документов"
 
         # format loop
-        - name: "EBOOK TO WORD"
+        - name: "EBOOK к WORD"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-word"
           description: "Форматы файлов документов Word"
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

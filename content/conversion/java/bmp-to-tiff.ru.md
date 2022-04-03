@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования BMP в TIFF в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл BMP в TIFF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл BMP в TIFF с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл BMP с полным путем
         * Установите ConvertOptions для типа документа TIFF
@@ -128,303 +128,303 @@ more_formats:
         Вы также можете конвертировать BMP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "BMP TO CGM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-cgm/"
+        - name: "BMP к CGM"
+          link: "/conversion/java/bmp-to-cgm/"
           description: "Метафайл компьютерной графики"
 
         # format loop
-        - name: "BMP TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-dcm/"
+        - name: "BMP к DCM"
+          link: "/conversion/java/bmp-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "BMP TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-dif/"
+        - name: "BMP к DIF"
+          link: "/conversion/java/bmp-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "BMP TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-doc/"
+        - name: "BMP к DOC"
+          link: "/conversion/java/bmp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "BMP TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-docm/"
+        - name: "BMP к DOCM"
+          link: "/conversion/java/bmp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "BMP TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-docx/"
+        - name: "BMP к DOCX"
+          link: "/conversion/java/bmp-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "BMP TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-dot/"
+        - name: "BMP к DOT"
+          link: "/conversion/java/bmp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "BMP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-dotm/"
+        - name: "BMP к DOTM"
+          link: "/conversion/java/bmp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "BMP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-dotx/"
+        - name: "BMP к DOTX"
+          link: "/conversion/java/bmp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "BMP TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-emf/"
+        - name: "BMP к EMF"
+          link: "/conversion/java/bmp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "BMP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-emz/"
+        - name: "BMP к EMZ"
+          link: "/conversion/java/bmp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "BMP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-epub/"
+        - name: "BMP к EPUB"
+          link: "/conversion/java/bmp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "BMP TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-fodp/"
+        - name: "BMP к FODP"
+          link: "/conversion/java/bmp-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "BMP TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-fods/"
+        - name: "BMP к FODS"
+          link: "/conversion/java/bmp-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "BMP TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-gif/"
+        - name: "BMP к GIF"
+          link: "/conversion/java/bmp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "BMP TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-htm/"
+        - name: "BMP к HTM"
+          link: "/conversion/java/bmp-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "BMP TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-html/"
+        - name: "BMP к HTML"
+          link: "/conversion/java/bmp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "BMP TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-ico/"
+        - name: "BMP к ICO"
+          link: "/conversion/java/bmp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "BMP TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-jp2/"
+        - name: "BMP к JP2"
+          link: "/conversion/java/bmp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "BMP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-jpeg/"
+        - name: "BMP к JPEG"
+          link: "/conversion/java/bmp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "BMP TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-jpg/"
+        - name: "BMP к JPG"
+          link: "/conversion/java/bmp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "BMP TO MD"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-md/"
+        - name: "BMP к MD"
+          link: "/conversion/java/bmp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "BMP TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-mht/"
+        - name: "BMP к MHT"
+          link: "/conversion/java/bmp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "BMP TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-mhtml/"
+        - name: "BMP к MHTML"
+          link: "/conversion/java/bmp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "BMP TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-odp/"
+        - name: "BMP к ODP"
+          link: "/conversion/java/bmp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "BMP TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-ods/"
+        - name: "BMP к ODS"
+          link: "/conversion/java/bmp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "BMP TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-odt/"
+        - name: "BMP к ODT"
+          link: "/conversion/java/bmp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "BMP TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-otp/"
+        - name: "BMP к OTP"
+          link: "/conversion/java/bmp-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "BMP TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-ott/"
+        - name: "BMP к OTT"
+          link: "/conversion/java/bmp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "BMP TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-pdf/"
+        - name: "BMP к PDF"
+          link: "/conversion/java/bmp-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "BMP TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-png/"
+        - name: "BMP к PNG"
+          link: "/conversion/java/bmp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "BMP TO POT"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-pot/"
+        - name: "BMP к POT"
+          link: "/conversion/java/bmp-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "BMP TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-potm/"
+        - name: "BMP к POTM"
+          link: "/conversion/java/bmp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "BMP TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-potx/"
+        - name: "BMP к POTX"
+          link: "/conversion/java/bmp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "BMP TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-pps/"
+        - name: "BMP к PPS"
+          link: "/conversion/java/bmp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "BMP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-ppsm/"
+        - name: "BMP к PPSM"
+          link: "/conversion/java/bmp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "BMP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-ppsx/"
+        - name: "BMP к PPSX"
+          link: "/conversion/java/bmp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "BMP TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-ppt/"
+        - name: "BMP к PPT"
+          link: "/conversion/java/bmp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "BMP TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-pptm/"
+        - name: "BMP к PPTM"
+          link: "/conversion/java/bmp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "BMP TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-pptx/"
+        - name: "BMP к PPTX"
+          link: "/conversion/java/bmp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "BMP TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-psd/"
+        - name: "BMP к PSD"
+          link: "/conversion/java/bmp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "BMP TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-rtf/"
+        - name: "BMP к RTF"
+          link: "/conversion/java/bmp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "BMP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-svg/"
+        - name: "BMP к SVG"
+          link: "/conversion/java/bmp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "BMP TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-svgz/"
+        - name: "BMP к SVGZ"
+          link: "/conversion/java/bmp-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "BMP TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-sxc/"
+        - name: "BMP к SXC"
+          link: "/conversion/java/bmp-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "BMP TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-tex/"
+        - name: "BMP к TEX"
+          link: "/conversion/java/bmp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "BMP TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-tif/"
+        - name: "BMP к TIF"
+          link: "/conversion/java/bmp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "BMP TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-txt/"
+        - name: "BMP к TXT"
+          link: "/conversion/java/bmp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "BMP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-webp/"
+        - name: "BMP к WEBP"
+          link: "/conversion/java/bmp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "BMP TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-wmf/"
+        - name: "BMP к WMF"
+          link: "/conversion/java/bmp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "BMP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-wmz/"
+        - name: "BMP к WMZ"
+          link: "/conversion/java/bmp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "BMP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xlam/"
+        - name: "BMP к XLAM"
+          link: "/conversion/java/bmp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "BMP TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xls/"
+        - name: "BMP к XLS"
+          link: "/conversion/java/bmp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "BMP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xlsb/"
+        - name: "BMP к XLSB"
+          link: "/conversion/java/bmp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "BMP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xlsm/"
+        - name: "BMP к XLSM"
+          link: "/conversion/java/bmp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "BMP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xlsx/"
+        - name: "BMP к XLSX"
+          link: "/conversion/java/bmp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "BMP TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xlt/"
+        - name: "BMP к XLT"
+          link: "/conversion/java/bmp-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "BMP TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xltm/"
+        - name: "BMP к XLTM"
+          link: "/conversion/java/bmp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "BMP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xltx/"
+        - name: "BMP к XLTX"
+          link: "/conversion/java/bmp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "BMP TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/bmp-to-xps/"
+        - name: "BMP к XPS"
+          link: "/conversion/java/bmp-to-xps/"
           description: "Спецификация документа Open XML"
 
 

@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги по преобразованию EBOOK в POWERPOINT на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла EBOOK в формат POWERPOINT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла EBOOK в формат POWERPOINT с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл EBOOK с полным путем
         * Установите ConvertOptions для типа документа POWERPOINT.
@@ -128,58 +128,58 @@ more_formats:
         Вы также можете конвертировать EBOOK во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EBOOK TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-docm/"
+        - name: "EBOOK к DOCM"
+          link: "/conversion/java/ebook-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EBOOK TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-epub/"
+        - name: "EBOOK к EPUB"
+          link: "/conversion/java/ebook-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EBOOK TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ods/"
+        - name: "EBOOK к ODS"
+          link: "/conversion/java/ebook-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EBOOK TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-pdf/"
+        - name: "EBOOK к PDF"
+          link: "/conversion/java/ebook-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EBOOK TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-potm/"
+        - name: "EBOOK к POTM"
+          link: "/conversion/java/ebook-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-potx/"
+        - name: "EBOOK к POTX"
+          link: "/conversion/java/ebook-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ppt/"
+        - name: "EBOOK к PPT"
+          link: "/conversion/java/ebook-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EBOOK TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-svg/"
+        - name: "EBOOK к SVG"
+          link: "/conversion/java/ebook-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EBOOK TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-webp/"
+        - name: "EBOOK к WEBP"
+          link: "/conversion/java/ebook-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EBOOK TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xlsx/"
+        - name: "EBOOK к XLSX"
+          link: "/conversion/java/ebook-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EBOOK TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xltm/"
+        - name: "EBOOK к XLTM"
+          link: "/conversion/java/ebook-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
 

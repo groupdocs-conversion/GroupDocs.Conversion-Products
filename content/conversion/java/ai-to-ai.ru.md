@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги по преобразованию ИИ в ИИ в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл AI в AI с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл AI в AI с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл AI с полным путем
         * Установите ConvertOptions для типа документа AI
@@ -128,267 +128,267 @@ more_formats:
     format: 
         # format loop
         - name: "AI к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-epub/"
+          link: "/conversion/java/ai-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "AI к XPS"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-xps/"
+          link: "/conversion/java/ai-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
         - name: "AI к TEX"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-tex/"
+          link: "/conversion/java/ai-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "AI к PPT"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-ppt/"
+          link: "/conversion/java/ai-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "AI к PPS"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-pps/"
+          link: "/conversion/java/ai-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "AI к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-pptx/"
+          link: "/conversion/java/ai-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "AI к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-ppsx/"
+          link: "/conversion/java/ai-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "AI к ODP"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-odp/"
+          link: "/conversion/java/ai-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "AI к OTP"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-otp/"
+          link: "/conversion/java/ai-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "AI к POTX"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-potx/"
+          link: "/conversion/java/ai-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "AI к POTM"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-potm/"
+          link: "/conversion/java/ai-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "AI к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-pptm/"
+          link: "/conversion/java/ai-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "AI к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-ppsm/"
+          link: "/conversion/java/ai-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "AI к XLS"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-xls/"
+          link: "/conversion/java/ai-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "AI к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-xlsx/"
+          link: "/conversion/java/ai-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "AI к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-xlsm/"
+          link: "/conversion/java/ai-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "AI к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-xlsb/"
+          link: "/conversion/java/ai-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "AI к ODS"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-ods/"
+          link: "/conversion/java/ai-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "AI к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-xltx/"
+          link: "/conversion/java/ai-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "AI к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-xltm/"
+          link: "/conversion/java/ai-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "AI к TSV"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-tsv/"
+          link: "/conversion/java/ai-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "AI к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-xlam/"
+          link: "/conversion/java/ai-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "AI к CSV"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-csv/"
+          link: "/conversion/java/ai-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "AI к DOC"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-doc/"
+          link: "/conversion/java/ai-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "AI к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-docm/"
+          link: "/conversion/java/ai-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "AI к AI"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-ai/"
+          link: "/conversion/java/ai-to-ai/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "AI к DOT"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-dot/"
+          link: "/conversion/java/ai-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "AI к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-dotm/"
+          link: "/conversion/java/ai-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "AI к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-dotx/"
+          link: "/conversion/java/ai-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "AI к RTF"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-rtf/"
+          link: "/conversion/java/ai-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "AI к ODT"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-odt/"
+          link: "/conversion/java/ai-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "AI к OTT"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-ott/"
+          link: "/conversion/java/ai-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "AI к TXT"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-txt/"
+          link: "/conversion/java/ai-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "AI к MD"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-md/"
+          link: "/conversion/java/ai-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "AI к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-tiff/"
+          link: "/conversion/java/ai-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "AI к TIF"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-tif/"
+          link: "/conversion/java/ai-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "AI к JPG"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-jpg/"
+          link: "/conversion/java/ai-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "AI к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-jpeg/"
+          link: "/conversion/java/ai-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "AI к PNG"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-png/"
+          link: "/conversion/java/ai-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "AI к GIF"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-gif/"
+          link: "/conversion/java/ai-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "AI к BMP"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-bmp/"
+          link: "/conversion/java/ai-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "AI к ICO"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-ico/"
+          link: "/conversion/java/ai-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "AI к PSD"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-psd/"
+          link: "/conversion/java/ai-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "AI к WMF"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-wmf/"
+          link: "/conversion/java/ai-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "AI к EMF"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-emf/"
+          link: "/conversion/java/ai-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "AI к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-webp/"
+          link: "/conversion/java/ai-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "AI к SVG"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-svg/"
+          link: "/conversion/java/ai-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "AI к JP2"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-jp2/"
+          link: "/conversion/java/ai-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "AI к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-emz/"
+          link: "/conversion/java/ai-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "AI к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-wmz/"
+          link: "/conversion/java/ai-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "AI к HTML"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-html/"
+          link: "/conversion/java/ai-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "AI к MHT"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-mht/"
+          link: "/conversion/java/ai-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "AI к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ai-to-mhtml/"
+          link: "/conversion/java/ai-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 

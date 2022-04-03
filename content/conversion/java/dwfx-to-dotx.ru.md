@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования DWFX в DOTX в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл DWFX в DOTX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл DWFX в DOTX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл DWFX с полным путем
         * Установите ConvertOptions для типа документа DOTX
@@ -129,317 +129,317 @@ more_formats:
     format: 
         # format loop
         - name: "DWFX к BMP"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-bmp/"
+          link: "/conversion/java/dwfx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "DWFX к CSV"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-csv/"
+          link: "/conversion/java/dwfx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "DWFX к DCM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-dcm/"
+          link: "/conversion/java/dwfx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "DWFX к DIF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-dif/"
+          link: "/conversion/java/dwfx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "DWFX к DOC"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-doc/"
+          link: "/conversion/java/dwfx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "DWFX к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-docm/"
+          link: "/conversion/java/dwfx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "DWFX к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-docx/"
+          link: "/conversion/java/dwfx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "DWFX к DOT"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-dot/"
+          link: "/conversion/java/dwfx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "DWFX к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-dotm/"
+          link: "/conversion/java/dwfx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "DWFX к DWF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-dwf/"
+          link: "/conversion/java/dwfx-to-dwf/"
           description: "Дизайн веб-формата"
 
         # format loop
         - name: "DWFX к EMF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-emf/"
+          link: "/conversion/java/dwfx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "DWFX к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-emz/"
+          link: "/conversion/java/dwfx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "DWFX к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-epub/"
+          link: "/conversion/java/dwfx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "DWFX к FODP"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-fodp/"
+          link: "/conversion/java/dwfx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "DWFX к FODS"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-fods/"
+          link: "/conversion/java/dwfx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "DWFX к GIF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-gif/"
+          link: "/conversion/java/dwfx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "DWFX к HTM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-htm/"
+          link: "/conversion/java/dwfx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "DWFX к HTML"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-html/"
+          link: "/conversion/java/dwfx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "DWFX к ICO"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-ico/"
+          link: "/conversion/java/dwfx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "DWFX к JP2"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-jp2/"
+          link: "/conversion/java/dwfx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "DWFX к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-jpeg/"
+          link: "/conversion/java/dwfx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "DWFX к JPG"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-jpg/"
+          link: "/conversion/java/dwfx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "DWFX к MD"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-md/"
+          link: "/conversion/java/dwfx-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "DWFX к MHT"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-mht/"
+          link: "/conversion/java/dwfx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "DWFX к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-mhtml/"
+          link: "/conversion/java/dwfx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "DWFX к ODP"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-odp/"
+          link: "/conversion/java/dwfx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "DWFX к ODS"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-ods/"
+          link: "/conversion/java/dwfx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "DWFX к ODT"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-odt/"
+          link: "/conversion/java/dwfx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "DWFX к OTP"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-otp/"
+          link: "/conversion/java/dwfx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "DWFX к OTT"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-ott/"
+          link: "/conversion/java/dwfx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "DWFX к PDF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-pdf/"
+          link: "/conversion/java/dwfx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "DWFX к PNG"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-png/"
+          link: "/conversion/java/dwfx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "DWFX к POT"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-pot/"
+          link: "/conversion/java/dwfx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "DWFX к POTM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-potm/"
+          link: "/conversion/java/dwfx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "DWFX к POTX"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-potx/"
+          link: "/conversion/java/dwfx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "DWFX к PPS"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-pps/"
+          link: "/conversion/java/dwfx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "DWFX к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-ppsm/"
+          link: "/conversion/java/dwfx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "DWFX к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-ppsx/"
+          link: "/conversion/java/dwfx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "DWFX к PPT"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-ppt/"
+          link: "/conversion/java/dwfx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "DWFX к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-pptm/"
+          link: "/conversion/java/dwfx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "DWFX к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-pptx/"
+          link: "/conversion/java/dwfx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "DWFX к PSD"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-psd/"
+          link: "/conversion/java/dwfx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "DWFX к RTF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-rtf/"
+          link: "/conversion/java/dwfx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "DWFX к SVG"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-svg/"
+          link: "/conversion/java/dwfx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "DWFX к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-svgz/"
+          link: "/conversion/java/dwfx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "DWFX к SXC"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-sxc/"
+          link: "/conversion/java/dwfx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "DWFX к TEX"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-tex/"
+          link: "/conversion/java/dwfx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "DWFX к TIF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-tif/"
+          link: "/conversion/java/dwfx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "DWFX к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-tiff/"
+          link: "/conversion/java/dwfx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "DWFX к TSV"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-tsv/"
+          link: "/conversion/java/dwfx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "DWFX к TXT"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-txt/"
+          link: "/conversion/java/dwfx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "DWFX к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-webp/"
+          link: "/conversion/java/dwfx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "DWFX к WMF"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-wmf/"
+          link: "/conversion/java/dwfx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "DWFX к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-wmz/"
+          link: "/conversion/java/dwfx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "DWFX к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-xlam/"
+          link: "/conversion/java/dwfx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "DWFX к XLS"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-xls/"
+          link: "/conversion/java/dwfx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "DWFX к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-xlsb/"
+          link: "/conversion/java/dwfx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "DWFX к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-xlsm/"
+          link: "/conversion/java/dwfx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "DWFX к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-xlsx/"
+          link: "/conversion/java/dwfx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "DWFX к XLT"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-xlt/"
+          link: "/conversion/java/dwfx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "DWFX к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-xltm/"
+          link: "/conversion/java/dwfx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "DWFX к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-xltx/"
+          link: "/conversion/java/dwfx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "DWFX к XPS"
-          link: "https://products.groupdocs.com/conversion/java/dwfx-to-xps/"
+          link: "/conversion/java/dwfx-to-xps/"
           description: "Спецификация документа Open XML"
 
 

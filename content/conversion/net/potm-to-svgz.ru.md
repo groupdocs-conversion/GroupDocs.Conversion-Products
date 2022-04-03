@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию POTM в SVGZ на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла POTM в SVGZ с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла POTM в SVGZ с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл POTM с полным путем
         * Создайте и установите ConvertOptions для типа svgz
@@ -127,313 +127,313 @@ more_formats:
         Вы также можете конвертировать POTM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "POTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-bmp/"
+        - name: "POTM к BMP"
+          link: "/conversion/net/potm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "POTM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-csv/"
+        - name: "POTM к CSV"
+          link: "/conversion/net/potm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "POTM TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-dcm/"
+        - name: "POTM к DCM"
+          link: "/conversion/net/potm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "POTM TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-dif/"
+        - name: "POTM к DIF"
+          link: "/conversion/net/potm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "POTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-doc/"
+        - name: "POTM к DOC"
+          link: "/conversion/net/potm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "POTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-docm/"
+        - name: "POTM к DOCM"
+          link: "/conversion/net/potm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "POTM TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-docx/"
+        - name: "POTM к DOCX"
+          link: "/conversion/net/potm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "POTM TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-dot/"
+        - name: "POTM к DOT"
+          link: "/conversion/net/potm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "POTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-dotm/"
+        - name: "POTM к DOTM"
+          link: "/conversion/net/potm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "POTM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-dotx/"
+        - name: "POTM к DOTX"
+          link: "/conversion/net/potm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "POTM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-emf/"
+        - name: "POTM к EMF"
+          link: "/conversion/net/potm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "POTM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-emz/"
+        - name: "POTM к EMZ"
+          link: "/conversion/net/potm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "POTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-epub/"
+        - name: "POTM к EPUB"
+          link: "/conversion/net/potm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "POTM TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-fodp/"
+        - name: "POTM к FODP"
+          link: "/conversion/net/potm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "POTM TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-fods/"
+        - name: "POTM к FODS"
+          link: "/conversion/net/potm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "POTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-gif/"
+        - name: "POTM к GIF"
+          link: "/conversion/net/potm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "POTM TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-htm/"
+        - name: "POTM к HTM"
+          link: "/conversion/net/potm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "POTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-html/"
+        - name: "POTM к HTML"
+          link: "/conversion/net/potm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "POTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ico/"
+        - name: "POTM к ICO"
+          link: "/conversion/net/potm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "POTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jp2/"
+        - name: "POTM к JP2"
+          link: "/conversion/net/potm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "POTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jpeg/"
+        - name: "POTM к JPEG"
+          link: "/conversion/net/potm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "POTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jpg/"
+        - name: "POTM к JPG"
+          link: "/conversion/net/potm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "POTM TO JPM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jpm/"
+        - name: "POTM к JPM"
+          link: "/conversion/net/potm-to-jpm/"
           description: "Файл изображения JPEG 2000"
 
         # format loop
-        - name: "POTM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-md/"
+        - name: "POTM к MD"
+          link: "/conversion/net/potm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "POTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-mht/"
+        - name: "POTM к MHT"
+          link: "/conversion/net/potm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "POTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-mhtml/"
+        - name: "POTM к MHTML"
+          link: "/conversion/net/potm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "POTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-odp/"
+        - name: "POTM к ODP"
+          link: "/conversion/net/potm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "POTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ods/"
+        - name: "POTM к ODS"
+          link: "/conversion/net/potm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "POTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-odt/"
+        - name: "POTM к ODT"
+          link: "/conversion/net/potm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "POTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-otp/"
+        - name: "POTM к OTP"
+          link: "/conversion/net/potm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "POTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ott/"
+        - name: "POTM к OTT"
+          link: "/conversion/net/potm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "POTM TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pdf/"
+        - name: "POTM к PDF"
+          link: "/conversion/net/potm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "POTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-png/"
+        - name: "POTM к PNG"
+          link: "/conversion/net/potm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "POTM TO POT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pot/"
+        - name: "POTM к POT"
+          link: "/conversion/net/potm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "POTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-potx/"
+        - name: "POTM к POTX"
+          link: "/conversion/net/potm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "POTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pps/"
+        - name: "POTM к PPS"
+          link: "/conversion/net/potm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "POTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ppsm/"
+        - name: "POTM к PPSM"
+          link: "/conversion/net/potm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "POTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ppsx/"
+        - name: "POTM к PPSX"
+          link: "/conversion/net/potm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "POTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ppt/"
+        - name: "POTM к PPT"
+          link: "/conversion/net/potm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "POTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pptm/"
+        - name: "POTM к PPTM"
+          link: "/conversion/net/potm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "POTM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pptx/"
+        - name: "POTM к PPTX"
+          link: "/conversion/net/potm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "POTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-psd/"
+        - name: "POTM к PSD"
+          link: "/conversion/net/potm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "POTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-rtf/"
+        - name: "POTM к RTF"
+          link: "/conversion/net/potm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "POTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-svg/"
+        - name: "POTM к SVG"
+          link: "/conversion/net/potm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "POTM TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-sxc/"
+        - name: "POTM к SXC"
+          link: "/conversion/net/potm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "POTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tex/"
+        - name: "POTM к TEX"
+          link: "/conversion/net/potm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "POTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tif/"
+        - name: "POTM к TIF"
+          link: "/conversion/net/potm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "POTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tiff/"
+        - name: "POTM к TIFF"
+          link: "/conversion/net/potm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "POTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tsv/"
+        - name: "POTM к TSV"
+          link: "/conversion/net/potm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "POTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-txt/"
+        - name: "POTM к TXT"
+          link: "/conversion/net/potm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "POTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-webp/"
+        - name: "POTM к WEBP"
+          link: "/conversion/net/potm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "POTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-wmf/"
+        - name: "POTM к WMF"
+          link: "/conversion/net/potm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "POTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-wmz/"
+        - name: "POTM к WMZ"
+          link: "/conversion/net/potm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "POTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlam/"
+        - name: "POTM к XLAM"
+          link: "/conversion/net/potm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "POTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xls/"
+        - name: "POTM к XLS"
+          link: "/conversion/net/potm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "POTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsb/"
+        - name: "POTM к XLSB"
+          link: "/conversion/net/potm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "POTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsm/"
+        - name: "POTM к XLSM"
+          link: "/conversion/net/potm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "POTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsx/"
+        - name: "POTM к XLSX"
+          link: "/conversion/net/potm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "POTM TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlt/"
+        - name: "POTM к XLT"
+          link: "/conversion/net/potm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "POTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xltm/"
+        - name: "POTM к XLTM"
+          link: "/conversion/net/potm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "POTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xltx/"
+        - name: "POTM к XLTX"
+          link: "/conversion/net/potm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "POTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xps/"
+        - name: "POTM к XPS"
+          link: "/conversion/net/potm-to-xps/"
           description: "Спецификация документа Open XML"
 
 

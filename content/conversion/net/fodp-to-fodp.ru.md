@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию FODP в FODP в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла FODP в FODP с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла FODP в FODP с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл FODP с полным путем
         * Создайте и установите ConvertOptions для типа fodp
@@ -127,272 +127,272 @@ more_formats:
         Вы также можете конвертировать FODP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "FODP TO EPUB"
+        - name: "FODP к EPUB"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "FODP TO XPS"
+        - name: "FODP к XPS"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "FODP TO TEX"
+        - name: "FODP к TEX"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "FODP TO PPT"
+        - name: "FODP к PPT"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "FODP TO PPS"
+        - name: "FODP к PPS"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP TO PPTX"
+        - name: "FODP к PPTX"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "FODP TO PPSX"
+        - name: "FODP к PPSX"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "FODP TO ODP"
+        - name: "FODP к ODP"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "FODP TO OTP"
+        - name: "FODP к OTP"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "FODP TO POTX"
+        - name: "FODP к POTX"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP TO POTM"
+        - name: "FODP к POTM"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP TO PPTM"
+        - name: "FODP к PPTM"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP TO PPSM"
+        - name: "FODP к PPSM"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP TO XLS"
+        - name: "FODP к XLS"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "FODP TO XLSX"
+        - name: "FODP к XLSX"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "FODP TO XLSM"
+        - name: "FODP к XLSM"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODP TO XLSB"
+        - name: "FODP к XLSB"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "FODP TO ODS"
+        - name: "FODP к ODS"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "FODP TO XLTX"
+        - name: "FODP к XLTX"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "FODP TO XLTM"
+        - name: "FODP к XLTM"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODP TO TSV"
+        - name: "FODP к TSV"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "FODP TO XLAM"
+        - name: "FODP к XLAM"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODP TO CSV"
+        - name: "FODP к CSV"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "FODP TO DOC"
+        - name: "FODP к DOC"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "FODP TO DOCM"
+        - name: "FODP к DOCM"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "FODP TO FODP"
+        - name: "FODP к FODP"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-fodp/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "FODP TO DOT"
+        - name: "FODP к DOT"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "FODP TO DOTM"
+        - name: "FODP к DOTM"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "FODP TO DOTX"
+        - name: "FODP к DOTX"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "FODP TO RTF"
+        - name: "FODP к RTF"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "FODP TO ODT"
+        - name: "FODP к ODT"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "FODP TO OTT"
+        - name: "FODP к OTT"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "FODP TO TXT"
+        - name: "FODP к TXT"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "FODP TO MD"
+        - name: "FODP к MD"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "FODP TO TIFF"
+        - name: "FODP к TIFF"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "FODP TO TIF"
+        - name: "FODP к TIF"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "FODP TO JPG"
+        - name: "FODP к JPG"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "FODP TO JPEG"
+        - name: "FODP к JPEG"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "FODP TO PNG"
+        - name: "FODP к PNG"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "FODP TO GIF"
+        - name: "FODP к GIF"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "FODP TO BMP"
+        - name: "FODP к BMP"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "FODP TO ICO"
+        - name: "FODP к ICO"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "FODP TO PSD"
+        - name: "FODP к PSD"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "FODP TO WMF"
+        - name: "FODP к WMF"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "FODP TO EMF"
+        - name: "FODP к EMF"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "FODP TO WEBP"
+        - name: "FODP к WEBP"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "FODP TO SVG"
+        - name: "FODP к SVG"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "FODP TO JP2"
+        - name: "FODP к JP2"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "FODP TO EMZ"
+        - name: "FODP к EMZ"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "FODP TO WMZ"
+        - name: "FODP к WMZ"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "FODP TO HTML"
+        - name: "FODP к HTML"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "FODP TO MHT"
+        - name: "FODP к MHT"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "FODP TO MHTML"
+        - name: "FODP к MHTML"
           link: "https://products.groupdocs.com/conversion/net/fodp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

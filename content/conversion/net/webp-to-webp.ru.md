@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию WEBP в WEBP на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла WEBP в WEBP с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла WEBP в WEBP с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл WEBP с полным путем
         * Создайте и установите ConvertOptions для типа webp
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать WEBP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WEBP TO EPUB"
+        - name: "WEBP к EPUB"
           link: "https://products.groupdocs.com/conversion/net/webp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WEBP TO XPS"
+        - name: "WEBP к XPS"
           link: "https://products.groupdocs.com/conversion/net/webp-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "WEBP TO TEX"
+        - name: "WEBP к TEX"
           link: "https://products.groupdocs.com/conversion/net/webp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WEBP TO PPT"
+        - name: "WEBP к PPT"
           link: "https://products.groupdocs.com/conversion/net/webp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WEBP TO PPS"
+        - name: "WEBP к PPS"
           link: "https://products.groupdocs.com/conversion/net/webp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WEBP TO PPTX"
+        - name: "WEBP к PPTX"
           link: "https://products.groupdocs.com/conversion/net/webp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WEBP TO PPSX"
+        - name: "WEBP к PPSX"
           link: "https://products.groupdocs.com/conversion/net/webp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WEBP TO ODP"
+        - name: "WEBP к ODP"
           link: "https://products.groupdocs.com/conversion/net/webp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WEBP TO OTP"
+        - name: "WEBP к OTP"
           link: "https://products.groupdocs.com/conversion/net/webp-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WEBP TO POTX"
+        - name: "WEBP к POTX"
           link: "https://products.groupdocs.com/conversion/net/webp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEBP TO POTM"
+        - name: "WEBP к POTM"
           link: "https://products.groupdocs.com/conversion/net/webp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEBP TO PPTM"
+        - name: "WEBP к PPTM"
           link: "https://products.groupdocs.com/conversion/net/webp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WEBP TO PPSM"
+        - name: "WEBP к PPSM"
           link: "https://products.groupdocs.com/conversion/net/webp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WEBP TO XLS"
+        - name: "WEBP к XLS"
           link: "https://products.groupdocs.com/conversion/net/webp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WEBP TO XLSX"
+        - name: "WEBP к XLSX"
           link: "https://products.groupdocs.com/conversion/net/webp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WEBP TO XLSM"
+        - name: "WEBP к XLSM"
           link: "https://products.groupdocs.com/conversion/net/webp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEBP TO XLSB"
+        - name: "WEBP к XLSB"
           link: "https://products.groupdocs.com/conversion/net/webp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WEBP TO ODS"
+        - name: "WEBP к ODS"
           link: "https://products.groupdocs.com/conversion/net/webp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WEBP TO XLTX"
+        - name: "WEBP к XLTX"
           link: "https://products.groupdocs.com/conversion/net/webp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WEBP TO XLTM"
+        - name: "WEBP к XLTM"
           link: "https://products.groupdocs.com/conversion/net/webp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEBP TO TSV"
+        - name: "WEBP к TSV"
           link: "https://products.groupdocs.com/conversion/net/webp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WEBP TO XLAM"
+        - name: "WEBP к XLAM"
           link: "https://products.groupdocs.com/conversion/net/webp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEBP TO CSV"
+        - name: "WEBP к CSV"
           link: "https://products.groupdocs.com/conversion/net/webp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WEBP TO DOC"
+        - name: "WEBP к DOC"
           link: "https://products.groupdocs.com/conversion/net/webp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WEBP TO DOCM"
+        - name: "WEBP к DOCM"
           link: "https://products.groupdocs.com/conversion/net/webp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEBP TO WEBP"
+        - name: "WEBP к WEBP"
           link: "https://products.groupdocs.com/conversion/net/webp-to-webp/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WEBP TO DOT"
+        - name: "WEBP к DOT"
           link: "https://products.groupdocs.com/conversion/net/webp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WEBP TO DOTM"
+        - name: "WEBP к DOTM"
           link: "https://products.groupdocs.com/conversion/net/webp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEBP TO DOTX"
+        - name: "WEBP к DOTX"
           link: "https://products.groupdocs.com/conversion/net/webp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WEBP TO RTF"
+        - name: "WEBP к RTF"
           link: "https://products.groupdocs.com/conversion/net/webp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WEBP TO ODT"
+        - name: "WEBP к ODT"
           link: "https://products.groupdocs.com/conversion/net/webp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WEBP TO OTT"
+        - name: "WEBP к OTT"
           link: "https://products.groupdocs.com/conversion/net/webp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WEBP TO TXT"
+        - name: "WEBP к TXT"
           link: "https://products.groupdocs.com/conversion/net/webp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WEBP TO MD"
+        - name: "WEBP к MD"
           link: "https://products.groupdocs.com/conversion/net/webp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WEBP TO TIFF"
+        - name: "WEBP к TIFF"
           link: "https://products.groupdocs.com/conversion/net/webp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WEBP TO TIF"
+        - name: "WEBP к TIF"
           link: "https://products.groupdocs.com/conversion/net/webp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WEBP TO JPG"
+        - name: "WEBP к JPG"
           link: "https://products.groupdocs.com/conversion/net/webp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WEBP TO JPEG"
+        - name: "WEBP к JPEG"
           link: "https://products.groupdocs.com/conversion/net/webp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WEBP TO PNG"
+        - name: "WEBP к PNG"
           link: "https://products.groupdocs.com/conversion/net/webp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WEBP TO GIF"
+        - name: "WEBP к GIF"
           link: "https://products.groupdocs.com/conversion/net/webp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WEBP TO BMP"
+        - name: "WEBP к BMP"
           link: "https://products.groupdocs.com/conversion/net/webp-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WEBP TO ICO"
+        - name: "WEBP к ICO"
           link: "https://products.groupdocs.com/conversion/net/webp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WEBP TO PSD"
+        - name: "WEBP к PSD"
           link: "https://products.groupdocs.com/conversion/net/webp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WEBP TO WMF"
+        - name: "WEBP к WMF"
           link: "https://products.groupdocs.com/conversion/net/webp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WEBP TO EMF"
+        - name: "WEBP к EMF"
           link: "https://products.groupdocs.com/conversion/net/webp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WEBP TO WEBP"
+        - name: "WEBP к WEBP"
           link: "https://products.groupdocs.com/conversion/net/webp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WEBP TO SVG"
+        - name: "WEBP к SVG"
           link: "https://products.groupdocs.com/conversion/net/webp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WEBP TO JP2"
+        - name: "WEBP к JP2"
           link: "https://products.groupdocs.com/conversion/net/webp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WEBP TO EMZ"
+        - name: "WEBP к EMZ"
           link: "https://products.groupdocs.com/conversion/net/webp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WEBP TO WMZ"
+        - name: "WEBP к WMZ"
           link: "https://products.groupdocs.com/conversion/net/webp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WEBP TO HTML"
+        - name: "WEBP к HTML"
           link: "https://products.groupdocs.com/conversion/net/webp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WEBP TO MHT"
+        - name: "WEBP к MHT"
           link: "https://products.groupdocs.com/conversion/net/webp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WEBP TO MHTML"
+        - name: "WEBP к MHTML"
           link: "https://products.groupdocs.com/conversion/net/webp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

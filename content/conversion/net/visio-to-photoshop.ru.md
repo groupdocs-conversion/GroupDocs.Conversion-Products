@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию VISIO в PHOTOSHOP на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл VISIO в PHOTOSHOP с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл VISIO в PHOTOSHOP с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл VISIO с полным путем
         * Создайте и установите ConvertOptions для типа фотошопа
@@ -127,8 +127,8 @@ more_formats:
         Вы также можете конвертировать VISIO во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VISIO TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/visio-to-pdf/"
+        - name: "VISIO к PDF"
+          link: "/conversion/net/visio-to-pdf/"
           description: "Портативный документ"
 
 

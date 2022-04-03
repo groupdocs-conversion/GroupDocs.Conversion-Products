@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию VST в TIFF на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл VST в TIFF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл VST в TIFF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл VST с полным путем
         * Создайте и установите ConvertOptions для типа tiff
@@ -127,313 +127,313 @@ more_formats:
         Вы также можете конвертировать VST во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VST TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-bmp/"
+        - name: "VST к BMP"
+          link: "/conversion/net/vst-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VST TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-csv/"
+        - name: "VST к CSV"
+          link: "/conversion/net/vst-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VST TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-dcm/"
+        - name: "VST к DCM"
+          link: "/conversion/net/vst-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VST TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-dif/"
+        - name: "VST к DIF"
+          link: "/conversion/net/vst-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VST TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-doc/"
+        - name: "VST к DOC"
+          link: "/conversion/net/vst-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VST TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-docm/"
+        - name: "VST к DOCM"
+          link: "/conversion/net/vst-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VST TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-docx/"
+        - name: "VST к DOCX"
+          link: "/conversion/net/vst-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VST TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-dot/"
+        - name: "VST к DOT"
+          link: "/conversion/net/vst-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VST TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-dotm/"
+        - name: "VST к DOTM"
+          link: "/conversion/net/vst-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VST TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-dotx/"
+        - name: "VST к DOTX"
+          link: "/conversion/net/vst-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VST TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-emf/"
+        - name: "VST к EMF"
+          link: "/conversion/net/vst-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VST TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-emz/"
+        - name: "VST к EMZ"
+          link: "/conversion/net/vst-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VST TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-epub/"
+        - name: "VST к EPUB"
+          link: "/conversion/net/vst-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VST TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-fodp/"
+        - name: "VST к FODP"
+          link: "/conversion/net/vst-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VST TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-fods/"
+        - name: "VST к FODS"
+          link: "/conversion/net/vst-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VST TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-gif/"
+        - name: "VST к GIF"
+          link: "/conversion/net/vst-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VST TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-htm/"
+        - name: "VST к HTM"
+          link: "/conversion/net/vst-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VST TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-html/"
+        - name: "VST к HTML"
+          link: "/conversion/net/vst-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VST TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-ico/"
+        - name: "VST к ICO"
+          link: "/conversion/net/vst-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VST TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-jp2/"
+        - name: "VST к JP2"
+          link: "/conversion/net/vst-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VST TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-jpeg/"
+        - name: "VST к JPEG"
+          link: "/conversion/net/vst-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VST TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-jpg/"
+        - name: "VST к JPG"
+          link: "/conversion/net/vst-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VST TO MD"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-md/"
+        - name: "VST к MD"
+          link: "/conversion/net/vst-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VST TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-mht/"
+        - name: "VST к MHT"
+          link: "/conversion/net/vst-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VST TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-mhtml/"
+        - name: "VST к MHTML"
+          link: "/conversion/net/vst-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VST TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-odp/"
+        - name: "VST к ODP"
+          link: "/conversion/net/vst-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VST TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-ods/"
+        - name: "VST к ODS"
+          link: "/conversion/net/vst-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VST TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-odt/"
+        - name: "VST к ODT"
+          link: "/conversion/net/vst-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VST TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-otp/"
+        - name: "VST к OTP"
+          link: "/conversion/net/vst-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VST TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-ott/"
+        - name: "VST к OTT"
+          link: "/conversion/net/vst-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VST TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-pdf/"
+        - name: "VST к PDF"
+          link: "/conversion/net/vst-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VST TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-png/"
+        - name: "VST к PNG"
+          link: "/conversion/net/vst-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VST TO POT"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-pot/"
+        - name: "VST к POT"
+          link: "/conversion/net/vst-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VST TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-potm/"
+        - name: "VST к POTM"
+          link: "/conversion/net/vst-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VST TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-potx/"
+        - name: "VST к POTX"
+          link: "/conversion/net/vst-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VST TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-pps/"
+        - name: "VST к PPS"
+          link: "/conversion/net/vst-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VST TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-ppsm/"
+        - name: "VST к PPSM"
+          link: "/conversion/net/vst-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VST TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-ppsx/"
+        - name: "VST к PPSX"
+          link: "/conversion/net/vst-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VST TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-ppt/"
+        - name: "VST к PPT"
+          link: "/conversion/net/vst-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VST TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-pptm/"
+        - name: "VST к PPTM"
+          link: "/conversion/net/vst-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VST TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-pptx/"
+        - name: "VST к PPTX"
+          link: "/conversion/net/vst-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VST TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-psd/"
+        - name: "VST к PSD"
+          link: "/conversion/net/vst-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VST TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-rtf/"
+        - name: "VST к RTF"
+          link: "/conversion/net/vst-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VST TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-svg/"
+        - name: "VST к SVG"
+          link: "/conversion/net/vst-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VST TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-svgz/"
+        - name: "VST к SVGZ"
+          link: "/conversion/net/vst-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VST TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-sxc/"
+        - name: "VST к SXC"
+          link: "/conversion/net/vst-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VST TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-tex/"
+        - name: "VST к TEX"
+          link: "/conversion/net/vst-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VST TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-tif/"
+        - name: "VST к TIF"
+          link: "/conversion/net/vst-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VST TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-tsv/"
+        - name: "VST к TSV"
+          link: "/conversion/net/vst-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VST TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-txt/"
+        - name: "VST к TXT"
+          link: "/conversion/net/vst-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VST TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-webp/"
+        - name: "VST к WEBP"
+          link: "/conversion/net/vst-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VST TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-wmf/"
+        - name: "VST к WMF"
+          link: "/conversion/net/vst-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VST TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-wmz/"
+        - name: "VST к WMZ"
+          link: "/conversion/net/vst-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VST TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-xlam/"
+        - name: "VST к XLAM"
+          link: "/conversion/net/vst-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VST TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-xls/"
+        - name: "VST к XLS"
+          link: "/conversion/net/vst-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VST TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-xlsb/"
+        - name: "VST к XLSB"
+          link: "/conversion/net/vst-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VST TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-xlsm/"
+        - name: "VST к XLSM"
+          link: "/conversion/net/vst-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VST TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-xlsx/"
+        - name: "VST к XLSX"
+          link: "/conversion/net/vst-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VST TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-xlt/"
+        - name: "VST к XLT"
+          link: "/conversion/net/vst-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VST TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-xltm/"
+        - name: "VST к XLTM"
+          link: "/conversion/net/vst-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VST TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-xltx/"
+        - name: "VST к XLTX"
+          link: "/conversion/net/vst-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VST TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/vst-to-xps/"
+        - name: "VST к XPS"
+          link: "/conversion/net/vst-to-xps/"
           description: "Спецификация документа Open XML"
 
 

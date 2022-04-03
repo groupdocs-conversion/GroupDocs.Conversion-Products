@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию DWG в DOC на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла DWG в формат DOC с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла DWG в формат DOC с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DWG с полным путем
         * Создайте и установите ConvertOptions для типа документа
@@ -127,318 +127,318 @@ more_formats:
         Вы также можете конвертировать DWG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DWG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-bmp/"
+        - name: "DWG к BMP"
+          link: "/conversion/net/dwg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DWG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-csv/"
+        - name: "DWG к CSV"
+          link: "/conversion/net/dwg-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DWG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dcm/"
+        - name: "DWG к DCM"
+          link: "/conversion/net/dwg-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DWG TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dif/"
+        - name: "DWG к DIF"
+          link: "/conversion/net/dwg-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DWG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-docm/"
+        - name: "DWG к DOCM"
+          link: "/conversion/net/dwg-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWG TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-docx/"
+        - name: "DWG к DOCX"
+          link: "/conversion/net/dwg-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DWG TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dot/"
+        - name: "DWG к DOT"
+          link: "/conversion/net/dwg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DWG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dotm/"
+        - name: "DWG к DOTM"
+          link: "/conversion/net/dwg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dotx/"
+        - name: "DWG к DOTX"
+          link: "/conversion/net/dwg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DWG TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-emf/"
+        - name: "DWG к EMF"
+          link: "/conversion/net/dwg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DWG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-emz/"
+        - name: "DWG к EMZ"
+          link: "/conversion/net/dwg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DWG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-epub/"
+        - name: "DWG к EPUB"
+          link: "/conversion/net/dwg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DWG TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-fodp/"
+        - name: "DWG к FODP"
+          link: "/conversion/net/dwg-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DWG TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-fods/"
+        - name: "DWG к FODS"
+          link: "/conversion/net/dwg-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DWG TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-gif/"
+        - name: "DWG к GIF"
+          link: "/conversion/net/dwg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DWG TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-htm/"
+        - name: "DWG к HTM"
+          link: "/conversion/net/dwg-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DWG TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-html/"
+        - name: "DWG к HTML"
+          link: "/conversion/net/dwg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DWG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ico/"
+        - name: "DWG к ICO"
+          link: "/conversion/net/dwg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DWG TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-jp2/"
+        - name: "DWG к JP2"
+          link: "/conversion/net/dwg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DWG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-jpeg/"
+        - name: "DWG к JPEG"
+          link: "/conversion/net/dwg-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DWG TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-jpg/"
+        - name: "DWG к JPG"
+          link: "/conversion/net/dwg-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DWG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-md/"
+        - name: "DWG к MD"
+          link: "/conversion/net/dwg-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DWG TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-mht/"
+        - name: "DWG к MHT"
+          link: "/conversion/net/dwg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-mhtml/"
+        - name: "DWG к MHTML"
+          link: "/conversion/net/dwg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-odp/"
+        - name: "DWG к ODP"
+          link: "/conversion/net/dwg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DWG TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ods/"
+        - name: "DWG к ODS"
+          link: "/conversion/net/dwg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DWG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-odt/"
+        - name: "DWG к ODT"
+          link: "/conversion/net/dwg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DWG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-otp/"
+        - name: "DWG к OTP"
+          link: "/conversion/net/dwg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DWG TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ott/"
+        - name: "DWG к OTT"
+          link: "/conversion/net/dwg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DWG TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-pdf/"
+        - name: "DWG к PDF"
+          link: "/conversion/net/dwg-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DWG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-png/"
+        - name: "DWG к PNG"
+          link: "/conversion/net/dwg-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DWG TO POT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-pot/"
+        - name: "DWG к POT"
+          link: "/conversion/net/dwg-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DWG TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-potm/"
+        - name: "DWG к POTM"
+          link: "/conversion/net/dwg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWG TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-potx/"
+        - name: "DWG к POTX"
+          link: "/conversion/net/dwg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWG TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-pps/"
+        - name: "DWG к PPS"
+          link: "/conversion/net/dwg-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ppsm/"
+        - name: "DWG к PPSM"
+          link: "/conversion/net/dwg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ppsx/"
+        - name: "DWG к PPSX"
+          link: "/conversion/net/dwg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DWG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ppt/"
+        - name: "DWG к PPT"
+          link: "/conversion/net/dwg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DWG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-pptm/"
+        - name: "DWG к PPTM"
+          link: "/conversion/net/dwg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DWG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-pptx/"
+        - name: "DWG к PPTX"
+          link: "/conversion/net/dwg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DWG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-psd/"
+        - name: "DWG к PSD"
+          link: "/conversion/net/dwg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DWG TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-rtf/"
+        - name: "DWG к RTF"
+          link: "/conversion/net/dwg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DWG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-svg/"
+        - name: "DWG к SVG"
+          link: "/conversion/net/dwg-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWG TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-svgz/"
+        - name: "DWG к SVGZ"
+          link: "/conversion/net/dwg-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWG TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-sxc/"
+        - name: "DWG к SXC"
+          link: "/conversion/net/dwg-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DWG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-tex/"
+        - name: "DWG к TEX"
+          link: "/conversion/net/dwg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DWG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-tif/"
+        - name: "DWG к TIF"
+          link: "/conversion/net/dwg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-tiff/"
+        - name: "DWG к TIFF"
+          link: "/conversion/net/dwg-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWG TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-tsv/"
+        - name: "DWG к TSV"
+          link: "/conversion/net/dwg-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DWG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-txt/"
+        - name: "DWG к TXT"
+          link: "/conversion/net/dwg-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DWG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-webp/"
+        - name: "DWG к WEBP"
+          link: "/conversion/net/dwg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DWG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-wmf/"
+        - name: "DWG к WMF"
+          link: "/conversion/net/dwg-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DWG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-wmz/"
+        - name: "DWG к WMZ"
+          link: "/conversion/net/dwg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DWG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlam/"
+        - name: "DWG к XLAM"
+          link: "/conversion/net/dwg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xls/"
+        - name: "DWG к XLS"
+          link: "/conversion/net/dwg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DWG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlsb/"
+        - name: "DWG к XLSB"
+          link: "/conversion/net/dwg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DWG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlsm/"
+        - name: "DWG к XLSM"
+          link: "/conversion/net/dwg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlsx/"
+        - name: "DWG к XLSX"
+          link: "/conversion/net/dwg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DWG TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlt/"
+        - name: "DWG к XLT"
+          link: "/conversion/net/dwg-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xltm/"
+        - name: "DWG к XLTM"
+          link: "/conversion/net/dwg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xltx/"
+        - name: "DWG к XLTX"
+          link: "/conversion/net/dwg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xps/"
+        - name: "DWG к XPS"
+          link: "/conversion/net/dwg-to-xps/"
           description: "Спецификация документа Open XML"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

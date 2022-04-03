@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования PPTX в TXT в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл PPTX в TXT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл PPTX в TXT с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл PPTX с полным путем
         * Установите ConvertOptions для типа документа TXT
@@ -128,308 +128,308 @@ more_formats:
         Вы также можете конвертировать PPTX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PPTX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-bmp/"
+        - name: "PPTX к BMP"
+          link: "/conversion/java/pptx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PPTX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-csv/"
+        - name: "PPTX к CSV"
+          link: "/conversion/java/pptx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PPTX TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-dcm/"
+        - name: "PPTX к DCM"
+          link: "/conversion/java/pptx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PPTX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-dif/"
+        - name: "PPTX к DIF"
+          link: "/conversion/java/pptx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PPTX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-doc/"
+        - name: "PPTX к DOC"
+          link: "/conversion/java/pptx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PPTX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-docm/"
+        - name: "PPTX к DOCM"
+          link: "/conversion/java/pptx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPTX TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-docx/"
+        - name: "PPTX к DOCX"
+          link: "/conversion/java/pptx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PPTX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-dot/"
+        - name: "PPTX к DOT"
+          link: "/conversion/java/pptx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PPTX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-dotm/"
+        - name: "PPTX к DOTM"
+          link: "/conversion/java/pptx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPTX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-dotx/"
+        - name: "PPTX к DOTX"
+          link: "/conversion/java/pptx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PPTX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-emf/"
+        - name: "PPTX к EMF"
+          link: "/conversion/java/pptx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PPTX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-emz/"
+        - name: "PPTX к EMZ"
+          link: "/conversion/java/pptx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PPTX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-epub/"
+        - name: "PPTX к EPUB"
+          link: "/conversion/java/pptx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PPTX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-fodp/"
+        - name: "PPTX к FODP"
+          link: "/conversion/java/pptx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PPTX TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-fods/"
+        - name: "PPTX к FODS"
+          link: "/conversion/java/pptx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PPTX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-gif/"
+        - name: "PPTX к GIF"
+          link: "/conversion/java/pptx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PPTX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-htm/"
+        - name: "PPTX к HTM"
+          link: "/conversion/java/pptx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PPTX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-html/"
+        - name: "PPTX к HTML"
+          link: "/conversion/java/pptx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PPTX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-ico/"
+        - name: "PPTX к ICO"
+          link: "/conversion/java/pptx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PPTX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-jp2/"
+        - name: "PPTX к JP2"
+          link: "/conversion/java/pptx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PPTX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-jpeg/"
+        - name: "PPTX к JPEG"
+          link: "/conversion/java/pptx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PPTX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-jpg/"
+        - name: "PPTX к JPG"
+          link: "/conversion/java/pptx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PPTX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-md/"
+        - name: "PPTX к MD"
+          link: "/conversion/java/pptx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PPTX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-mht/"
+        - name: "PPTX к MHT"
+          link: "/conversion/java/pptx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPTX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-mhtml/"
+        - name: "PPTX к MHTML"
+          link: "/conversion/java/pptx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPTX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-odp/"
+        - name: "PPTX к ODP"
+          link: "/conversion/java/pptx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PPTX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-ods/"
+        - name: "PPTX к ODS"
+          link: "/conversion/java/pptx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PPTX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-odt/"
+        - name: "PPTX к ODT"
+          link: "/conversion/java/pptx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PPTX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-otp/"
+        - name: "PPTX к OTP"
+          link: "/conversion/java/pptx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PPTX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-ott/"
+        - name: "PPTX к OTT"
+          link: "/conversion/java/pptx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PPTX TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-pdf/"
+        - name: "PPTX к PDF"
+          link: "/conversion/java/pptx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PPTX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-png/"
+        - name: "PPTX к PNG"
+          link: "/conversion/java/pptx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PPTX TO POT"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-pot/"
+        - name: "PPTX к POT"
+          link: "/conversion/java/pptx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PPTX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-potm/"
+        - name: "PPTX к POTM"
+          link: "/conversion/java/pptx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-potx/"
+        - name: "PPTX к POTX"
+          link: "/conversion/java/pptx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-pps/"
+        - name: "PPTX к PPS"
+          link: "/conversion/java/pptx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-ppsm/"
+        - name: "PPTX к PPSM"
+          link: "/conversion/java/pptx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-ppsx/"
+        - name: "PPTX к PPSX"
+          link: "/conversion/java/pptx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PPTX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-ppt/"
+        - name: "PPTX к PPT"
+          link: "/conversion/java/pptx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PPTX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-pptm/"
+        - name: "PPTX к PPTM"
+          link: "/conversion/java/pptx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-psd/"
+        - name: "PPTX к PSD"
+          link: "/conversion/java/pptx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PPTX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-rtf/"
+        - name: "PPTX к RTF"
+          link: "/conversion/java/pptx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PPTX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-svg/"
+        - name: "PPTX к SVG"
+          link: "/conversion/java/pptx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPTX TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-svgz/"
+        - name: "PPTX к SVGZ"
+          link: "/conversion/java/pptx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPTX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-sxc/"
+        - name: "PPTX к SXC"
+          link: "/conversion/java/pptx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PPTX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-tex/"
+        - name: "PPTX к TEX"
+          link: "/conversion/java/pptx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PPTX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-tif/"
+        - name: "PPTX к TIF"
+          link: "/conversion/java/pptx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPTX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-tiff/"
+        - name: "PPTX к TIFF"
+          link: "/conversion/java/pptx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPTX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-tsv/"
+        - name: "PPTX к TSV"
+          link: "/conversion/java/pptx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PPTX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-webp/"
+        - name: "PPTX к WEBP"
+          link: "/conversion/java/pptx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PPTX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-wmf/"
+        - name: "PPTX к WMF"
+          link: "/conversion/java/pptx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PPTX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-wmz/"
+        - name: "PPTX к WMZ"
+          link: "/conversion/java/pptx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PPTX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-xlam/"
+        - name: "PPTX к XLAM"
+          link: "/conversion/java/pptx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPTX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-xls/"
+        - name: "PPTX к XLS"
+          link: "/conversion/java/pptx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PPTX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-xlsb/"
+        - name: "PPTX к XLSB"
+          link: "/conversion/java/pptx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PPTX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-xlsm/"
+        - name: "PPTX к XLSM"
+          link: "/conversion/java/pptx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPTX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-xlsx/"
+        - name: "PPTX к XLSX"
+          link: "/conversion/java/pptx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PPTX TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-xlt/"
+        - name: "PPTX к XLT"
+          link: "/conversion/java/pptx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPTX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-xltm/"
+        - name: "PPTX к XLTM"
+          link: "/conversion/java/pptx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-xltx/"
+        - name: "PPTX к XLTX"
+          link: "/conversion/java/pptx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPTX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/pptx-to-xps/"
+        - name: "PPTX к XPS"
+          link: "/conversion/java/pptx-to-xps/"
           description: "Спецификация документа Open XML"
 
 

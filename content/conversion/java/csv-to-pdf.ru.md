@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования CSV в PDF в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование CSV-файла в PDF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование CSV-файла в PDF с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл CSV с полным путем
         * Установите ConvertOptions для типа документа PDF
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать CSV во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "CSV TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-bmp/"
+        - name: "CSV к BMP"
+          link: "/conversion/java/csv-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "CSV TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-dcm/"
+        - name: "CSV к DCM"
+          link: "/conversion/java/csv-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "CSV TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-dif/"
+        - name: "CSV к DIF"
+          link: "/conversion/java/csv-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "CSV TO DNG"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-dng/"
+        - name: "CSV к DNG"
+          link: "/conversion/java/csv-to-dng/"
           description: "Формат изображения цифровой камеры"
 
         # format loop
-        - name: "CSV TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-doc/"
+        - name: "CSV к DOC"
+          link: "/conversion/java/csv-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "CSV TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-docm/"
+        - name: "CSV к DOCM"
+          link: "/conversion/java/csv-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CSV TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-docx/"
+        - name: "CSV к DOCX"
+          link: "/conversion/java/csv-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "CSV TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-dot/"
+        - name: "CSV к DOT"
+          link: "/conversion/java/csv-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "CSV TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-dotm/"
+        - name: "CSV к DOTM"
+          link: "/conversion/java/csv-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CSV TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-dotx/"
+        - name: "CSV к DOTX"
+          link: "/conversion/java/csv-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "CSV TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-emf/"
+        - name: "CSV к EMF"
+          link: "/conversion/java/csv-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "CSV TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-emz/"
+        - name: "CSV к EMZ"
+          link: "/conversion/java/csv-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "CSV TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-epub/"
+        - name: "CSV к EPUB"
+          link: "/conversion/java/csv-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "CSV TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-fodp/"
+        - name: "CSV к FODP"
+          link: "/conversion/java/csv-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "CSV TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-fods/"
+        - name: "CSV к FODS"
+          link: "/conversion/java/csv-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "CSV TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-gif/"
+        - name: "CSV к GIF"
+          link: "/conversion/java/csv-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "CSV TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-htm/"
+        - name: "CSV к HTM"
+          link: "/conversion/java/csv-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "CSV TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-html/"
+        - name: "CSV к HTML"
+          link: "/conversion/java/csv-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "CSV TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-ico/"
+        - name: "CSV к ICO"
+          link: "/conversion/java/csv-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "CSV TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-jp2/"
+        - name: "CSV к JP2"
+          link: "/conversion/java/csv-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "CSV TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-jpeg/"
+        - name: "CSV к JPEG"
+          link: "/conversion/java/csv-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "CSV TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-jpg/"
+        - name: "CSV к JPG"
+          link: "/conversion/java/csv-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "CSV TO MD"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-md/"
+        - name: "CSV к MD"
+          link: "/conversion/java/csv-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "CSV TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-mht/"
+        - name: "CSV к MHT"
+          link: "/conversion/java/csv-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CSV TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-mhtml/"
+        - name: "CSV к MHTML"
+          link: "/conversion/java/csv-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CSV TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-odp/"
+        - name: "CSV к ODP"
+          link: "/conversion/java/csv-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "CSV TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-ods/"
+        - name: "CSV к ODS"
+          link: "/conversion/java/csv-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "CSV TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-odt/"
+        - name: "CSV к ODT"
+          link: "/conversion/java/csv-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "CSV TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-otp/"
+        - name: "CSV к OTP"
+          link: "/conversion/java/csv-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "CSV TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-ott/"
+        - name: "CSV к OTT"
+          link: "/conversion/java/csv-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "CSV TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-png/"
+        - name: "CSV к PNG"
+          link: "/conversion/java/csv-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "CSV TO POT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-pot/"
+        - name: "CSV к POT"
+          link: "/conversion/java/csv-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "CSV TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-potm/"
+        - name: "CSV к POTM"
+          link: "/conversion/java/csv-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CSV TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-potx/"
+        - name: "CSV к POTX"
+          link: "/conversion/java/csv-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CSV TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-pps/"
+        - name: "CSV к PPS"
+          link: "/conversion/java/csv-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CSV TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-ppsm/"
+        - name: "CSV к PPSM"
+          link: "/conversion/java/csv-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CSV TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-ppsx/"
+        - name: "CSV к PPSX"
+          link: "/conversion/java/csv-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "CSV TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-ppt/"
+        - name: "CSV к PPT"
+          link: "/conversion/java/csv-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "CSV TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-pptm/"
+        - name: "CSV к PPTM"
+          link: "/conversion/java/csv-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "CSV TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-pptx/"
+        - name: "CSV к PPTX"
+          link: "/conversion/java/csv-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "CSV TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-psd/"
+        - name: "CSV к PSD"
+          link: "/conversion/java/csv-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "CSV TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-rtf/"
+        - name: "CSV к RTF"
+          link: "/conversion/java/csv-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "CSV TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-svg/"
+        - name: "CSV к SVG"
+          link: "/conversion/java/csv-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CSV TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-svgz/"
+        - name: "CSV к SVGZ"
+          link: "/conversion/java/csv-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CSV TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-sxc/"
+        - name: "CSV к SXC"
+          link: "/conversion/java/csv-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "CSV TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-tex/"
+        - name: "CSV к TEX"
+          link: "/conversion/java/csv-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "CSV TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-tif/"
+        - name: "CSV к TIF"
+          link: "/conversion/java/csv-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CSV TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-tiff/"
+        - name: "CSV к TIFF"
+          link: "/conversion/java/csv-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CSV TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-tsv/"
+        - name: "CSV к TSV"
+          link: "/conversion/java/csv-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "CSV TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-txt/"
+        - name: "CSV к TXT"
+          link: "/conversion/java/csv-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "CSV TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-webp/"
+        - name: "CSV к WEBP"
+          link: "/conversion/java/csv-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "CSV TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-wmf/"
+        - name: "CSV к WMF"
+          link: "/conversion/java/csv-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "CSV TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-wmz/"
+        - name: "CSV к WMZ"
+          link: "/conversion/java/csv-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "CSV TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xlam/"
+        - name: "CSV к XLAM"
+          link: "/conversion/java/csv-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CSV TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xls/"
+        - name: "CSV к XLS"
+          link: "/conversion/java/csv-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "CSV TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xlsb/"
+        - name: "CSV к XLSB"
+          link: "/conversion/java/csv-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "CSV TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xlsm/"
+        - name: "CSV к XLSM"
+          link: "/conversion/java/csv-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CSV TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xlsx/"
+        - name: "CSV к XLSX"
+          link: "/conversion/java/csv-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "CSV TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xlt/"
+        - name: "CSV к XLT"
+          link: "/conversion/java/csv-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "CSV TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xltm/"
+        - name: "CSV к XLTM"
+          link: "/conversion/java/csv-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CSV TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xltx/"
+        - name: "CSV к XLTX"
+          link: "/conversion/java/csv-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "CSV TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/csv-to-xps/"
+        - name: "CSV к XPS"
+          link: "/conversion/java/csv-to-xps/"
           description: "Спецификация документа Open XML"
 
 

@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию VSD в DIF в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла VSD в формат DIF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла VSD в формат DIF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл VSD с полным путем
         * Создайте и установите ConvertOptions для типа dif
@@ -127,313 +127,313 @@ more_formats:
         Вы также можете конвертировать VSD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VSD TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-bmp/"
+        - name: "VSD к BMP"
+          link: "/conversion/net/vsd-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VSD TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-csv/"
+        - name: "VSD к CSV"
+          link: "/conversion/net/vsd-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VSD TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-dcm/"
+        - name: "VSD к DCM"
+          link: "/conversion/net/vsd-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VSD TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-doc/"
+        - name: "VSD к DOC"
+          link: "/conversion/net/vsd-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VSD TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-docm/"
+        - name: "VSD к DOCM"
+          link: "/conversion/net/vsd-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSD TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-docx/"
+        - name: "VSD к DOCX"
+          link: "/conversion/net/vsd-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VSD TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-dot/"
+        - name: "VSD к DOT"
+          link: "/conversion/net/vsd-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VSD TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-dotm/"
+        - name: "VSD к DOTM"
+          link: "/conversion/net/vsd-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSD TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-dotx/"
+        - name: "VSD к DOTX"
+          link: "/conversion/net/vsd-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VSD TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-emf/"
+        - name: "VSD к EMF"
+          link: "/conversion/net/vsd-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VSD TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-emz/"
+        - name: "VSD к EMZ"
+          link: "/conversion/net/vsd-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VSD TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-epub/"
+        - name: "VSD к EPUB"
+          link: "/conversion/net/vsd-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VSD TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-fodp/"
+        - name: "VSD к FODP"
+          link: "/conversion/net/vsd-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VSD TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-fods/"
+        - name: "VSD к FODS"
+          link: "/conversion/net/vsd-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VSD TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-gif/"
+        - name: "VSD к GIF"
+          link: "/conversion/net/vsd-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VSD TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-htm/"
+        - name: "VSD к HTM"
+          link: "/conversion/net/vsd-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VSD TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-html/"
+        - name: "VSD к HTML"
+          link: "/conversion/net/vsd-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VSD TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-ico/"
+        - name: "VSD к ICO"
+          link: "/conversion/net/vsd-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VSD TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-jp2/"
+        - name: "VSD к JP2"
+          link: "/conversion/net/vsd-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VSD TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-jpeg/"
+        - name: "VSD к JPEG"
+          link: "/conversion/net/vsd-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VSD TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-jpg/"
+        - name: "VSD к JPG"
+          link: "/conversion/net/vsd-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VSD TO MD"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-md/"
+        - name: "VSD к MD"
+          link: "/conversion/net/vsd-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VSD TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-mht/"
+        - name: "VSD к MHT"
+          link: "/conversion/net/vsd-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSD TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-mhtml/"
+        - name: "VSD к MHTML"
+          link: "/conversion/net/vsd-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSD TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-odp/"
+        - name: "VSD к ODP"
+          link: "/conversion/net/vsd-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VSD TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-ods/"
+        - name: "VSD к ODS"
+          link: "/conversion/net/vsd-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VSD TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-odt/"
+        - name: "VSD к ODT"
+          link: "/conversion/net/vsd-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VSD TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-otp/"
+        - name: "VSD к OTP"
+          link: "/conversion/net/vsd-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VSD TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-ott/"
+        - name: "VSD к OTT"
+          link: "/conversion/net/vsd-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VSD TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-pdf/"
+        - name: "VSD к PDF"
+          link: "/conversion/net/vsd-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VSD TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-png/"
+        - name: "VSD к PNG"
+          link: "/conversion/net/vsd-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VSD TO POT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-pot/"
+        - name: "VSD к POT"
+          link: "/conversion/net/vsd-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VSD TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-potm/"
+        - name: "VSD к POTM"
+          link: "/conversion/net/vsd-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSD TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-potx/"
+        - name: "VSD к POTX"
+          link: "/conversion/net/vsd-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSD TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-pps/"
+        - name: "VSD к PPS"
+          link: "/conversion/net/vsd-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSD TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-ppsm/"
+        - name: "VSD к PPSM"
+          link: "/conversion/net/vsd-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSD TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-ppsx/"
+        - name: "VSD к PPSX"
+          link: "/conversion/net/vsd-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VSD TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-ppt/"
+        - name: "VSD к PPT"
+          link: "/conversion/net/vsd-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VSD TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-pptm/"
+        - name: "VSD к PPTM"
+          link: "/conversion/net/vsd-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VSD TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-pptx/"
+        - name: "VSD к PPTX"
+          link: "/conversion/net/vsd-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VSD TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-psd/"
+        - name: "VSD к PSD"
+          link: "/conversion/net/vsd-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VSD TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-rtf/"
+        - name: "VSD к RTF"
+          link: "/conversion/net/vsd-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VSD TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-svg/"
+        - name: "VSD к SVG"
+          link: "/conversion/net/vsd-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSD TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-svgz/"
+        - name: "VSD к SVGZ"
+          link: "/conversion/net/vsd-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSD TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-sxc/"
+        - name: "VSD к SXC"
+          link: "/conversion/net/vsd-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VSD TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-tex/"
+        - name: "VSD к TEX"
+          link: "/conversion/net/vsd-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VSD TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-tif/"
+        - name: "VSD к TIF"
+          link: "/conversion/net/vsd-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSD TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-tiff/"
+        - name: "VSD к TIFF"
+          link: "/conversion/net/vsd-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSD TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-tsv/"
+        - name: "VSD к TSV"
+          link: "/conversion/net/vsd-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VSD TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-txt/"
+        - name: "VSD к TXT"
+          link: "/conversion/net/vsd-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VSD TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-webp/"
+        - name: "VSD к WEBP"
+          link: "/conversion/net/vsd-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VSD TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-wmf/"
+        - name: "VSD к WMF"
+          link: "/conversion/net/vsd-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VSD TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-wmz/"
+        - name: "VSD к WMZ"
+          link: "/conversion/net/vsd-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VSD TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xlam/"
+        - name: "VSD к XLAM"
+          link: "/conversion/net/vsd-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSD TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xls/"
+        - name: "VSD к XLS"
+          link: "/conversion/net/vsd-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VSD TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xlsb/"
+        - name: "VSD к XLSB"
+          link: "/conversion/net/vsd-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VSD TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xlsm/"
+        - name: "VSD к XLSM"
+          link: "/conversion/net/vsd-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSD TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xlsx/"
+        - name: "VSD к XLSX"
+          link: "/conversion/net/vsd-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VSD TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xlt/"
+        - name: "VSD к XLT"
+          link: "/conversion/net/vsd-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSD TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xltm/"
+        - name: "VSD к XLTM"
+          link: "/conversion/net/vsd-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSD TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xltx/"
+        - name: "VSD к XLTX"
+          link: "/conversion/net/vsd-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSD TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/vsd-to-xps/"
+        - name: "VSD к XPS"
+          link: "/conversion/net/vsd-to-xps/"
           description: "Спецификация документа Open XML"
 
 

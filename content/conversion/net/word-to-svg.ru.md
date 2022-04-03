@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию WORD в SVG на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла WORD в SVG с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла WORD в SVG с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл WORD с полным путем
         * Создайте и установите ConvertOptions для типа svg
@@ -127,293 +127,293 @@ more_formats:
         Вы также можете конвертировать WORD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WORD TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/word-to-bmp/"
+        - name: "WORD к BMP"
+          link: "/conversion/net/word-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WORD TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/word-to-csv/"
+        - name: "WORD к CSV"
+          link: "/conversion/net/word-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WORD TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/word-to-dif/"
+        - name: "WORD к DIF"
+          link: "/conversion/net/word-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "WORD TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/word-to-doc/"
+        - name: "WORD к DOC"
+          link: "/conversion/net/word-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WORD TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/word-to-docm/"
+        - name: "WORD к DOCM"
+          link: "/conversion/net/word-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WORD TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/word-to-docx/"
+        - name: "WORD к DOCX"
+          link: "/conversion/net/word-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WORD TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/word-to-dot/"
+        - name: "WORD к DOT"
+          link: "/conversion/net/word-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WORD TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/word-to-dotm/"
+        - name: "WORD к DOTM"
+          link: "/conversion/net/word-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WORD TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/word-to-dotx/"
+        - name: "WORD к DOTX"
+          link: "/conversion/net/word-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WORD TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/word-to-emf/"
+        - name: "WORD к EMF"
+          link: "/conversion/net/word-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WORD TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/word-to-emz/"
+        - name: "WORD к EMZ"
+          link: "/conversion/net/word-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WORD TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/word-to-epub/"
+        - name: "WORD к EPUB"
+          link: "/conversion/net/word-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WORD TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/word-to-fodp/"
+        - name: "WORD к FODP"
+          link: "/conversion/net/word-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "WORD TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/word-to-fods/"
+        - name: "WORD к FODS"
+          link: "/conversion/net/word-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "WORD TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/word-to-gif/"
+        - name: "WORD к GIF"
+          link: "/conversion/net/word-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WORD TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/word-to-html/"
+        - name: "WORD к HTML"
+          link: "/conversion/net/word-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WORD TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/word-to-ico/"
+        - name: "WORD к ICO"
+          link: "/conversion/net/word-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WORD TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/word-to-jp2/"
+        - name: "WORD к JP2"
+          link: "/conversion/net/word-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WORD TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/word-to-jpeg/"
+        - name: "WORD к JPEG"
+          link: "/conversion/net/word-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WORD TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/word-to-jpg/"
+        - name: "WORD к JPG"
+          link: "/conversion/net/word-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WORD TO MD"
-          link: "https://products.groupdocs.com/conversion/java/word-to-md/"
+        - name: "WORD к MD"
+          link: "/conversion/net/word-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WORD TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/word-to-mht/"
+        - name: "WORD к MHT"
+          link: "/conversion/net/word-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WORD TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/word-to-mhtml/"
+        - name: "WORD к MHTML"
+          link: "/conversion/net/word-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WORD TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/word-to-odp/"
+        - name: "WORD к ODP"
+          link: "/conversion/net/word-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WORD TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/word-to-ods/"
+        - name: "WORD к ODS"
+          link: "/conversion/net/word-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WORD TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/word-to-odt/"
+        - name: "WORD к ODT"
+          link: "/conversion/net/word-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WORD TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/word-to-otp/"
+        - name: "WORD к OTP"
+          link: "/conversion/net/word-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WORD TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/word-to-ott/"
+        - name: "WORD к OTT"
+          link: "/conversion/net/word-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WORD TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/word-to-pdf/"
+        - name: "WORD к PDF"
+          link: "/conversion/net/word-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "WORD TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/word-to-png/"
+        - name: "WORD к PNG"
+          link: "/conversion/net/word-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WORD TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/word-to-potm/"
+        - name: "WORD к POTM"
+          link: "/conversion/net/word-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/word-to-potx/"
+        - name: "WORD к POTX"
+          link: "/conversion/net/word-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/word-to-pps/"
+        - name: "WORD к PPS"
+          link: "/conversion/net/word-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/word-to-ppsm/"
+        - name: "WORD к PPSM"
+          link: "/conversion/net/word-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/word-to-ppsx/"
+        - name: "WORD к PPSX"
+          link: "/conversion/net/word-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WORD TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/word-to-ppt/"
+        - name: "WORD к PPT"
+          link: "/conversion/net/word-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WORD TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/word-to-pptm/"
+        - name: "WORD к PPTM"
+          link: "/conversion/net/word-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/word-to-pptx/"
+        - name: "WORD к PPTX"
+          link: "/conversion/net/word-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WORD TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/word-to-psd/"
+        - name: "WORD к PSD"
+          link: "/conversion/net/word-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WORD TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/word-to-rtf/"
+        - name: "WORD к RTF"
+          link: "/conversion/net/word-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WORD TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/word-to-svgz/"
+        - name: "WORD к SVGZ"
+          link: "/conversion/net/word-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WORD TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/word-to-sxc/"
+        - name: "WORD к SXC"
+          link: "/conversion/net/word-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "WORD TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/word-to-tex/"
+        - name: "WORD к TEX"
+          link: "/conversion/net/word-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WORD TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/word-to-tif/"
+        - name: "WORD к TIF"
+          link: "/conversion/net/word-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WORD TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/word-to-tiff/"
+        - name: "WORD к TIFF"
+          link: "/conversion/net/word-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WORD TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/word-to-tsv/"
+        - name: "WORD к TSV"
+          link: "/conversion/net/word-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WORD TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/word-to-txt/"
+        - name: "WORD к TXT"
+          link: "/conversion/net/word-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WORD TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/word-to-webp/"
+        - name: "WORD к WEBP"
+          link: "/conversion/net/word-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WORD TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/word-to-wmf/"
+        - name: "WORD к WMF"
+          link: "/conversion/net/word-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WORD TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/word-to-wmz/"
+        - name: "WORD к WMZ"
+          link: "/conversion/net/word-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WORD TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/word-to-xlam/"
+        - name: "WORD к XLAM"
+          link: "/conversion/net/word-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WORD TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/word-to-xls/"
+        - name: "WORD к XLS"
+          link: "/conversion/net/word-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WORD TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/word-to-xlsb/"
+        - name: "WORD к XLSB"
+          link: "/conversion/net/word-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WORD TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/word-to-xlsm/"
+        - name: "WORD к XLSM"
+          link: "/conversion/net/word-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WORD TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/word-to-xlsx/"
+        - name: "WORD к XLSX"
+          link: "/conversion/net/word-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WORD TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/word-to-xltm/"
+        - name: "WORD к XLTM"
+          link: "/conversion/net/word-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WORD TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/word-to-xltx/"
+        - name: "WORD к XLTX"
+          link: "/conversion/net/word-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WORD TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/word-to-xps/"
+        - name: "WORD к XPS"
+          link: "/conversion/net/word-to-xps/"
           description: "Спецификация документа Open XML"
 
 

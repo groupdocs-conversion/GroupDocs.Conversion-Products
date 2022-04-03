@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования MSG в DOCM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла MSG в DOCM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла MSG в DOCM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл MSG с полным путем
         * Установите ConvertOptions для типа документа DOCM.
@@ -129,322 +129,322 @@ more_formats:
     format: 
         # format loop
         - name: "MSG к BMP"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-bmp/"
+          link: "/conversion/java/msg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "MSG к CSV"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-csv/"
+          link: "/conversion/java/msg-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "MSG к DCM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-dcm/"
+          link: "/conversion/java/msg-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "MSG к DIF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-dif/"
+          link: "/conversion/java/msg-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "MSG к DOC"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-doc/"
+          link: "/conversion/java/msg-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "MSG к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-docx/"
+          link: "/conversion/java/msg-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "MSG к DOT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-dot/"
+          link: "/conversion/java/msg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "MSG к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-dotm/"
+          link: "/conversion/java/msg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "MSG к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-dotx/"
+          link: "/conversion/java/msg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "MSG к EMF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-emf/"
+          link: "/conversion/java/msg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "MSG к EML"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-eml/"
+          link: "/conversion/java/msg-to-eml/"
           description: "Файл сообщения электронной почты"
 
         # format loop
         - name: "MSG к EMLX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-emlx/"
+          link: "/conversion/java/msg-to-emlx/"
           description: "Почтовое сообщение Apple"
 
         # format loop
         - name: "MSG к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-emz/"
+          link: "/conversion/java/msg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "MSG к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-epub/"
+          link: "/conversion/java/msg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "MSG к FODP"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-fodp/"
+          link: "/conversion/java/msg-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "MSG к FODS"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-fods/"
+          link: "/conversion/java/msg-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "MSG к GIF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-gif/"
+          link: "/conversion/java/msg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "MSG к HTM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-htm/"
+          link: "/conversion/java/msg-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "MSG к HTML"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-html/"
+          link: "/conversion/java/msg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "MSG к ICO"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-ico/"
+          link: "/conversion/java/msg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "MSG к JP2"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-jp2/"
+          link: "/conversion/java/msg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "MSG к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-jpeg/"
+          link: "/conversion/java/msg-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "MSG к JPG"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-jpg/"
+          link: "/conversion/java/msg-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "MSG к MD"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-md/"
+          link: "/conversion/java/msg-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "MSG к MHT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-mht/"
+          link: "/conversion/java/msg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "MSG к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-mhtml/"
+          link: "/conversion/java/msg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "MSG к ODP"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-odp/"
+          link: "/conversion/java/msg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "MSG к ODS"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-ods/"
+          link: "/conversion/java/msg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "MSG к ODT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-odt/"
+          link: "/conversion/java/msg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "MSG к OTP"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-otp/"
+          link: "/conversion/java/msg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "MSG к OTT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-ott/"
+          link: "/conversion/java/msg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "MSG к PDF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-pdf/"
+          link: "/conversion/java/msg-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "MSG к PNG"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-png/"
+          link: "/conversion/java/msg-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "MSG к POT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-pot/"
+          link: "/conversion/java/msg-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "MSG к POTM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-potm/"
+          link: "/conversion/java/msg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "MSG к POTX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-potx/"
+          link: "/conversion/java/msg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "MSG к PPS"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-pps/"
+          link: "/conversion/java/msg-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "MSG к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-ppsm/"
+          link: "/conversion/java/msg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "MSG к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-ppsx/"
+          link: "/conversion/java/msg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "MSG к PPT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-ppt/"
+          link: "/conversion/java/msg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "MSG к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-pptm/"
+          link: "/conversion/java/msg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "MSG к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-pptx/"
+          link: "/conversion/java/msg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "MSG к PSD"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-psd/"
+          link: "/conversion/java/msg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "MSG к RTF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-rtf/"
+          link: "/conversion/java/msg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "MSG к SVG"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-svg/"
+          link: "/conversion/java/msg-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "MSG к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-svgz/"
+          link: "/conversion/java/msg-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "MSG к SXC"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-sxc/"
+          link: "/conversion/java/msg-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "MSG к TEX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-tex/"
+          link: "/conversion/java/msg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "MSG к TIF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-tif/"
+          link: "/conversion/java/msg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "MSG к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-tiff/"
+          link: "/conversion/java/msg-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "MSG к TSV"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-tsv/"
+          link: "/conversion/java/msg-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "MSG к TXT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-txt/"
+          link: "/conversion/java/msg-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "MSG к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-webp/"
+          link: "/conversion/java/msg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "MSG к WMF"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-wmf/"
+          link: "/conversion/java/msg-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "MSG к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-wmz/"
+          link: "/conversion/java/msg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "MSG к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xlam/"
+          link: "/conversion/java/msg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "MSG к XLS"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xls/"
+          link: "/conversion/java/msg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "MSG к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xlsb/"
+          link: "/conversion/java/msg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "MSG к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xlsm/"
+          link: "/conversion/java/msg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "MSG к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xlsx/"
+          link: "/conversion/java/msg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "MSG к XLT"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xlt/"
+          link: "/conversion/java/msg-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "MSG к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xltm/"
+          link: "/conversion/java/msg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "MSG к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xltx/"
+          link: "/conversion/java/msg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "MSG к XPS"
-          link: "https://products.groupdocs.com/conversion/java/msg-to-xps/"
+          link: "/conversion/java/msg-to-xps/"
           description: "Спецификация документа Open XML"
 
 

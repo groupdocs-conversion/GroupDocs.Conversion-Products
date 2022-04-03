@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования DOT в PPS в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла DOT в PPS с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла DOT в PPS с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл DOT с полным путем
         * Установите ConvertOptions для типа документа PPS
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать DOT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DOT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-bmp/"
+        - name: "DOT к BMP"
+          link: "/conversion/java/dot-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DOT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-csv/"
+        - name: "DOT к CSV"
+          link: "/conversion/java/dot-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DOT TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-dcm/"
+        - name: "DOT к DCM"
+          link: "/conversion/java/dot-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DOT TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-dif/"
+        - name: "DOT к DIF"
+          link: "/conversion/java/dot-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DOT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-doc/"
+        - name: "DOT к DOC"
+          link: "/conversion/java/dot-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DOT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-docm/"
+        - name: "DOT к DOCM"
+          link: "/conversion/java/dot-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOT TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-docx/"
+        - name: "DOT к DOCX"
+          link: "/conversion/java/dot-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DOT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-dotm/"
+        - name: "DOT к DOTM"
+          link: "/conversion/java/dot-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-dotx/"
+        - name: "DOT к DOTX"
+          link: "/conversion/java/dot-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DOT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-emf/"
+        - name: "DOT к EMF"
+          link: "/conversion/java/dot-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DOT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-emz/"
+        - name: "DOT к EMZ"
+          link: "/conversion/java/dot-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DOT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-epub/"
+        - name: "DOT к EPUB"
+          link: "/conversion/java/dot-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DOT TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-fodp/"
+        - name: "DOT к FODP"
+          link: "/conversion/java/dot-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DOT TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-fods/"
+        - name: "DOT к FODS"
+          link: "/conversion/java/dot-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DOT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-gif/"
+        - name: "DOT к GIF"
+          link: "/conversion/java/dot-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DOT TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-htm/"
+        - name: "DOT к HTM"
+          link: "/conversion/java/dot-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DOT TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-html/"
+        - name: "DOT к HTML"
+          link: "/conversion/java/dot-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DOT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ico/"
+        - name: "DOT к ICO"
+          link: "/conversion/java/dot-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DOT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-jp2/"
+        - name: "DOT к JP2"
+          link: "/conversion/java/dot-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DOT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-jpeg/"
+        - name: "DOT к JPEG"
+          link: "/conversion/java/dot-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DOT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-jpg/"
+        - name: "DOT к JPG"
+          link: "/conversion/java/dot-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DOT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-md/"
+        - name: "DOT к MD"
+          link: "/conversion/java/dot-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DOT TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-mht/"
+        - name: "DOT к MHT"
+          link: "/conversion/java/dot-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-mhtml/"
+        - name: "DOT к MHTML"
+          link: "/conversion/java/dot-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-odp/"
+        - name: "DOT к ODP"
+          link: "/conversion/java/dot-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DOT TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ods/"
+        - name: "DOT к ODS"
+          link: "/conversion/java/dot-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DOT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-odt/"
+        - name: "DOT к ODT"
+          link: "/conversion/java/dot-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DOT TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-otp/"
+        - name: "DOT к OTP"
+          link: "/conversion/java/dot-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DOT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ott/"
+        - name: "DOT к OTT"
+          link: "/conversion/java/dot-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DOT TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-pdf/"
+        - name: "DOT к PDF"
+          link: "/conversion/java/dot-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DOT TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-png/"
+        - name: "DOT к PNG"
+          link: "/conversion/java/dot-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DOT TO POT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-pot/"
+        - name: "DOT к POT"
+          link: "/conversion/java/dot-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DOT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-potm/"
+        - name: "DOT к POTM"
+          link: "/conversion/java/dot-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOT TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-potx/"
+        - name: "DOT к POTX"
+          link: "/conversion/java/dot-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ppsm/"
+        - name: "DOT к PPSM"
+          link: "/conversion/java/dot-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ppsx/"
+        - name: "DOT к PPSX"
+          link: "/conversion/java/dot-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DOT TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-ppt/"
+        - name: "DOT к PPT"
+          link: "/conversion/java/dot-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DOT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-pptm/"
+        - name: "DOT к PPTM"
+          link: "/conversion/java/dot-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DOT TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-pptx/"
+        - name: "DOT к PPTX"
+          link: "/conversion/java/dot-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DOT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-psd/"
+        - name: "DOT к PSD"
+          link: "/conversion/java/dot-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DOT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-rtf/"
+        - name: "DOT к RTF"
+          link: "/conversion/java/dot-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DOT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-svg/"
+        - name: "DOT к SVG"
+          link: "/conversion/java/dot-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOT TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-svgz/"
+        - name: "DOT к SVGZ"
+          link: "/conversion/java/dot-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOT TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-sxc/"
+        - name: "DOT к SXC"
+          link: "/conversion/java/dot-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DOT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-tex/"
+        - name: "DOT к TEX"
+          link: "/conversion/java/dot-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DOT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-tif/"
+        - name: "DOT к TIF"
+          link: "/conversion/java/dot-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-tiff/"
+        - name: "DOT к TIFF"
+          link: "/conversion/java/dot-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-tsv/"
+        - name: "DOT к TSV"
+          link: "/conversion/java/dot-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DOT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-txt/"
+        - name: "DOT к TXT"
+          link: "/conversion/java/dot-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DOT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-webp/"
+        - name: "DOT к WEBP"
+          link: "/conversion/java/dot-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DOT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-wmf/"
+        - name: "DOT к WMF"
+          link: "/conversion/java/dot-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DOT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-wmz/"
+        - name: "DOT к WMZ"
+          link: "/conversion/java/dot-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DOT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlam/"
+        - name: "DOT к XLAM"
+          link: "/conversion/java/dot-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xls/"
+        - name: "DOT к XLS"
+          link: "/conversion/java/dot-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DOT TO XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xls2003/"
+        - name: "DOT к XLS2003"
+          link: "/conversion/java/dot-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "DOT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlsb/"
+        - name: "DOT к XLSB"
+          link: "/conversion/java/dot-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DOT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlsm/"
+        - name: "DOT к XLSM"
+          link: "/conversion/java/dot-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlsx/"
+        - name: "DOT к XLSX"
+          link: "/conversion/java/dot-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DOT TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xlt/"
+        - name: "DOT к XLT"
+          link: "/conversion/java/dot-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xltm/"
+        - name: "DOT к XLTM"
+          link: "/conversion/java/dot-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xltx/"
+        - name: "DOT к XLTX"
+          link: "/conversion/java/dot-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOT TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dot-to-xps/"
+        - name: "DOT к XPS"
+          link: "/conversion/java/dot-to-xps/"
           description: "Спецификация документа Open XML"
 
 

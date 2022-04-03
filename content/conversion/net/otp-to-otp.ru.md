@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию OTP в OTP в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл OTP в OTP с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл OTP в OTP с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл OTP с полным путем
         * Создайте и установите ConvertOptions для типа otp
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать OTP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OTP TO EPUB"
+        - name: "OTP к EPUB"
           link: "https://products.groupdocs.com/conversion/net/otp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OTP TO XPS"
+        - name: "OTP к XPS"
           link: "https://products.groupdocs.com/conversion/net/otp-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "OTP TO TEX"
+        - name: "OTP к TEX"
           link: "https://products.groupdocs.com/conversion/net/otp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OTP TO PPT"
+        - name: "OTP к PPT"
           link: "https://products.groupdocs.com/conversion/net/otp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OTP TO PPS"
+        - name: "OTP к PPS"
           link: "https://products.groupdocs.com/conversion/net/otp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP TO PPTX"
+        - name: "OTP к PPTX"
           link: "https://products.groupdocs.com/conversion/net/otp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "OTP TO PPSX"
+        - name: "OTP к PPSX"
           link: "https://products.groupdocs.com/conversion/net/otp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "OTP TO ODP"
+        - name: "OTP к ODP"
           link: "https://products.groupdocs.com/conversion/net/otp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "OTP TO OTP"
+        - name: "OTP к OTP"
           link: "https://products.groupdocs.com/conversion/net/otp-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "OTP TO POTX"
+        - name: "OTP к POTX"
           link: "https://products.groupdocs.com/conversion/net/otp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP TO POTM"
+        - name: "OTP к POTM"
           link: "https://products.groupdocs.com/conversion/net/otp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP TO PPTM"
+        - name: "OTP к PPTM"
           link: "https://products.groupdocs.com/conversion/net/otp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP TO PPSM"
+        - name: "OTP к PPSM"
           link: "https://products.groupdocs.com/conversion/net/otp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP TO XLS"
+        - name: "OTP к XLS"
           link: "https://products.groupdocs.com/conversion/net/otp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "OTP TO XLSX"
+        - name: "OTP к XLSX"
           link: "https://products.groupdocs.com/conversion/net/otp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OTP TO XLSM"
+        - name: "OTP к XLSM"
           link: "https://products.groupdocs.com/conversion/net/otp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTP TO XLSB"
+        - name: "OTP к XLSB"
           link: "https://products.groupdocs.com/conversion/net/otp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OTP TO ODS"
+        - name: "OTP к ODS"
           link: "https://products.groupdocs.com/conversion/net/otp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OTP TO XLTX"
+        - name: "OTP к XLTX"
           link: "https://products.groupdocs.com/conversion/net/otp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTP TO XLTM"
+        - name: "OTP к XLTM"
           link: "https://products.groupdocs.com/conversion/net/otp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTP TO TSV"
+        - name: "OTP к TSV"
           link: "https://products.groupdocs.com/conversion/net/otp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OTP TO XLAM"
+        - name: "OTP к XLAM"
           link: "https://products.groupdocs.com/conversion/net/otp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTP TO CSV"
+        - name: "OTP к CSV"
           link: "https://products.groupdocs.com/conversion/net/otp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "OTP TO DOC"
+        - name: "OTP к DOC"
           link: "https://products.groupdocs.com/conversion/net/otp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OTP TO DOCM"
+        - name: "OTP к DOCM"
           link: "https://products.groupdocs.com/conversion/net/otp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTP TO OTP"
+        - name: "OTP к OTP"
           link: "https://products.groupdocs.com/conversion/net/otp-to-otp/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "OTP TO DOT"
+        - name: "OTP к DOT"
           link: "https://products.groupdocs.com/conversion/net/otp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "OTP TO DOTM"
+        - name: "OTP к DOTM"
           link: "https://products.groupdocs.com/conversion/net/otp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTP TO DOTX"
+        - name: "OTP к DOTX"
           link: "https://products.groupdocs.com/conversion/net/otp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "OTP TO RTF"
+        - name: "OTP к RTF"
           link: "https://products.groupdocs.com/conversion/net/otp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "OTP TO ODT"
+        - name: "OTP к ODT"
           link: "https://products.groupdocs.com/conversion/net/otp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "OTP TO OTT"
+        - name: "OTP к OTT"
           link: "https://products.groupdocs.com/conversion/net/otp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "OTP TO TXT"
+        - name: "OTP к TXT"
           link: "https://products.groupdocs.com/conversion/net/otp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OTP TO MD"
+        - name: "OTP к MD"
           link: "https://products.groupdocs.com/conversion/net/otp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OTP TO TIFF"
+        - name: "OTP к TIFF"
           link: "https://products.groupdocs.com/conversion/net/otp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTP TO TIF"
+        - name: "OTP к TIF"
           link: "https://products.groupdocs.com/conversion/net/otp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTP TO JPG"
+        - name: "OTP к JPG"
           link: "https://products.groupdocs.com/conversion/net/otp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "OTP TO JPEG"
+        - name: "OTP к JPEG"
           link: "https://products.groupdocs.com/conversion/net/otp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "OTP TO PNG"
+        - name: "OTP к PNG"
           link: "https://products.groupdocs.com/conversion/net/otp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "OTP TO GIF"
+        - name: "OTP к GIF"
           link: "https://products.groupdocs.com/conversion/net/otp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "OTP TO BMP"
+        - name: "OTP к BMP"
           link: "https://products.groupdocs.com/conversion/net/otp-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "OTP TO ICO"
+        - name: "OTP к ICO"
           link: "https://products.groupdocs.com/conversion/net/otp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "OTP TO PSD"
+        - name: "OTP к PSD"
           link: "https://products.groupdocs.com/conversion/net/otp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OTP TO WMF"
+        - name: "OTP к WMF"
           link: "https://products.groupdocs.com/conversion/net/otp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "OTP TO EMF"
+        - name: "OTP к EMF"
           link: "https://products.groupdocs.com/conversion/net/otp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "OTP TO WEBP"
+        - name: "OTP к WEBP"
           link: "https://products.groupdocs.com/conversion/net/otp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OTP TO SVG"
+        - name: "OTP к SVG"
           link: "https://products.groupdocs.com/conversion/net/otp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTP TO JP2"
+        - name: "OTP к JP2"
           link: "https://products.groupdocs.com/conversion/net/otp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "OTP TO EMZ"
+        - name: "OTP к EMZ"
           link: "https://products.groupdocs.com/conversion/net/otp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OTP TO WMZ"
+        - name: "OTP к WMZ"
           link: "https://products.groupdocs.com/conversion/net/otp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OTP TO HTML"
+        - name: "OTP к HTML"
           link: "https://products.groupdocs.com/conversion/net/otp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OTP TO MHT"
+        - name: "OTP к MHT"
           link: "https://products.groupdocs.com/conversion/net/otp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTP TO MHTML"
+        - name: "OTP к MHTML"
           link: "https://products.groupdocs.com/conversion/net/otp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

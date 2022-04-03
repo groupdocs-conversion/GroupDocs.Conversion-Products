@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования PLT в XLAM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла PLT в XLAM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла PLT в XLAM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл PLT с полным путем
         * Установите ConvertOptions для типа документа XLAM
@@ -129,312 +129,312 @@ more_formats:
     format: 
         # format loop
         - name: "PLT к BMP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-bmp/"
+          link: "/conversion/java/plt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "PLT к CSV"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-csv/"
+          link: "/conversion/java/plt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "PLT к DCM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-dcm/"
+          link: "/conversion/java/plt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "PLT к DIF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-dif/"
+          link: "/conversion/java/plt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "PLT к DOC"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-doc/"
+          link: "/conversion/java/plt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "PLT к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-docm/"
+          link: "/conversion/java/plt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "PLT к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-docx/"
+          link: "/conversion/java/plt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "PLT к DOT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-dot/"
+          link: "/conversion/java/plt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "PLT к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-dotm/"
+          link: "/conversion/java/plt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "PLT к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-dotx/"
+          link: "/conversion/java/plt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "PLT к EMF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-emf/"
+          link: "/conversion/java/plt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "PLT к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-emz/"
+          link: "/conversion/java/plt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "PLT к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-epub/"
+          link: "/conversion/java/plt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "PLT к FODP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-fodp/"
+          link: "/conversion/java/plt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "PLT к FODS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-fods/"
+          link: "/conversion/java/plt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "PLT к GIF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-gif/"
+          link: "/conversion/java/plt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "PLT к HTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-htm/"
+          link: "/conversion/java/plt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "PLT к HTML"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-html/"
+          link: "/conversion/java/plt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "PLT к ICO"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ico/"
+          link: "/conversion/java/plt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "PLT к JP2"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-jp2/"
+          link: "/conversion/java/plt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "PLT к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-jpeg/"
+          link: "/conversion/java/plt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "PLT к JPG"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-jpg/"
+          link: "/conversion/java/plt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "PLT к MD"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-md/"
+          link: "/conversion/java/plt-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "PLT к MHT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-mht/"
+          link: "/conversion/java/plt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "PLT к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-mhtml/"
+          link: "/conversion/java/plt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "PLT к ODP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-odp/"
+          link: "/conversion/java/plt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "PLT к ODS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ods/"
+          link: "/conversion/java/plt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "PLT к ODT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-odt/"
+          link: "/conversion/java/plt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "PLT к OTP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-otp/"
+          link: "/conversion/java/plt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "PLT к OTT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ott/"
+          link: "/conversion/java/plt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "PLT к PDF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-pdf/"
+          link: "/conversion/java/plt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "PLT к PNG"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-png/"
+          link: "/conversion/java/plt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "PLT к POT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-pot/"
+          link: "/conversion/java/plt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "PLT к POTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-potm/"
+          link: "/conversion/java/plt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "PLT к POTX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-potx/"
+          link: "/conversion/java/plt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "PLT к PPS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-pps/"
+          link: "/conversion/java/plt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "PLT к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ppsm/"
+          link: "/conversion/java/plt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "PLT к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ppsx/"
+          link: "/conversion/java/plt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "PLT к PPT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-ppt/"
+          link: "/conversion/java/plt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "PLT к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-pptm/"
+          link: "/conversion/java/plt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "PLT к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-pptx/"
+          link: "/conversion/java/plt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "PLT к PSD"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-psd/"
+          link: "/conversion/java/plt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "PLT к RTF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-rtf/"
+          link: "/conversion/java/plt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "PLT к SVG"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-svg/"
+          link: "/conversion/java/plt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "PLT к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-svgz/"
+          link: "/conversion/java/plt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "PLT к SXC"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-sxc/"
+          link: "/conversion/java/plt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "PLT к TEX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-tex/"
+          link: "/conversion/java/plt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "PLT к TIF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-tif/"
+          link: "/conversion/java/plt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "PLT к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-tiff/"
+          link: "/conversion/java/plt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "PLT к TSV"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-tsv/"
+          link: "/conversion/java/plt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "PLT к TXT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-txt/"
+          link: "/conversion/java/plt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "PLT к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-webp/"
+          link: "/conversion/java/plt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "PLT к WMF"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-wmf/"
+          link: "/conversion/java/plt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "PLT к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-wmz/"
+          link: "/conversion/java/plt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "PLT к XLS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xls/"
+          link: "/conversion/java/plt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "PLT к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xlsb/"
+          link: "/conversion/java/plt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "PLT к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xlsm/"
+          link: "/conversion/java/plt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "PLT к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xlsx/"
+          link: "/conversion/java/plt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "PLT к XLT"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xlt/"
+          link: "/conversion/java/plt-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "PLT к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xltm/"
+          link: "/conversion/java/plt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "PLT к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xltx/"
+          link: "/conversion/java/plt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "PLT к XPS"
-          link: "https://products.groupdocs.com/conversion/java/plt-to-xps/"
+          link: "/conversion/java/plt-to-xps/"
           description: "Спецификация документа Open XML"
 
 

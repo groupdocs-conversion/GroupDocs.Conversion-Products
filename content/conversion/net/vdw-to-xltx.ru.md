@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию VDW в XLTX в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла VDW в XLTX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла VDW в XLTX с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл VDW с полным путем
         * Создайте и установите ConvertOptions для типа xltx
@@ -127,313 +127,313 @@ more_formats:
         Вы также можете конвертировать VDW во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VDW TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-bmp/"
+        - name: "VDW к BMP"
+          link: "/conversion/net/vdw-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VDW TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-csv/"
+        - name: "VDW к CSV"
+          link: "/conversion/net/vdw-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VDW TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-dcm/"
+        - name: "VDW к DCM"
+          link: "/conversion/net/vdw-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VDW TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-dif/"
+        - name: "VDW к DIF"
+          link: "/conversion/net/vdw-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VDW TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-doc/"
+        - name: "VDW к DOC"
+          link: "/conversion/net/vdw-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VDW TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-docm/"
+        - name: "VDW к DOCM"
+          link: "/conversion/net/vdw-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VDW TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-docx/"
+        - name: "VDW к DOCX"
+          link: "/conversion/net/vdw-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VDW TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-dot/"
+        - name: "VDW к DOT"
+          link: "/conversion/net/vdw-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VDW TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-dotm/"
+        - name: "VDW к DOTM"
+          link: "/conversion/net/vdw-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VDW TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-dotx/"
+        - name: "VDW к DOTX"
+          link: "/conversion/net/vdw-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VDW TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-emf/"
+        - name: "VDW к EMF"
+          link: "/conversion/net/vdw-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VDW TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-emz/"
+        - name: "VDW к EMZ"
+          link: "/conversion/net/vdw-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VDW TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-epub/"
+        - name: "VDW к EPUB"
+          link: "/conversion/net/vdw-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VDW TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-fodp/"
+        - name: "VDW к FODP"
+          link: "/conversion/net/vdw-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VDW TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-fods/"
+        - name: "VDW к FODS"
+          link: "/conversion/net/vdw-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VDW TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-gif/"
+        - name: "VDW к GIF"
+          link: "/conversion/net/vdw-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VDW TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-htm/"
+        - name: "VDW к HTM"
+          link: "/conversion/net/vdw-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VDW TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-html/"
+        - name: "VDW к HTML"
+          link: "/conversion/net/vdw-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VDW TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ico/"
+        - name: "VDW к ICO"
+          link: "/conversion/net/vdw-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VDW TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-jp2/"
+        - name: "VDW к JP2"
+          link: "/conversion/net/vdw-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VDW TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-jpeg/"
+        - name: "VDW к JPEG"
+          link: "/conversion/net/vdw-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VDW TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-jpg/"
+        - name: "VDW к JPG"
+          link: "/conversion/net/vdw-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VDW TO MD"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-md/"
+        - name: "VDW к MD"
+          link: "/conversion/net/vdw-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VDW TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-mht/"
+        - name: "VDW к MHT"
+          link: "/conversion/net/vdw-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VDW TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-mhtml/"
+        - name: "VDW к MHTML"
+          link: "/conversion/net/vdw-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VDW TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-odp/"
+        - name: "VDW к ODP"
+          link: "/conversion/net/vdw-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VDW TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ods/"
+        - name: "VDW к ODS"
+          link: "/conversion/net/vdw-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VDW TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-odt/"
+        - name: "VDW к ODT"
+          link: "/conversion/net/vdw-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VDW TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-otp/"
+        - name: "VDW к OTP"
+          link: "/conversion/net/vdw-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VDW TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ott/"
+        - name: "VDW к OTT"
+          link: "/conversion/net/vdw-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VDW TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-pdf/"
+        - name: "VDW к PDF"
+          link: "/conversion/net/vdw-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VDW TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-png/"
+        - name: "VDW к PNG"
+          link: "/conversion/net/vdw-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VDW TO POT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-pot/"
+        - name: "VDW к POT"
+          link: "/conversion/net/vdw-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VDW TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-potm/"
+        - name: "VDW к POTM"
+          link: "/conversion/net/vdw-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VDW TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-potx/"
+        - name: "VDW к POTX"
+          link: "/conversion/net/vdw-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VDW TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-pps/"
+        - name: "VDW к PPS"
+          link: "/conversion/net/vdw-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VDW TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ppsm/"
+        - name: "VDW к PPSM"
+          link: "/conversion/net/vdw-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VDW TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ppsx/"
+        - name: "VDW к PPSX"
+          link: "/conversion/net/vdw-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VDW TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-ppt/"
+        - name: "VDW к PPT"
+          link: "/conversion/net/vdw-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VDW TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-pptm/"
+        - name: "VDW к PPTM"
+          link: "/conversion/net/vdw-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VDW TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-pptx/"
+        - name: "VDW к PPTX"
+          link: "/conversion/net/vdw-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VDW TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-psd/"
+        - name: "VDW к PSD"
+          link: "/conversion/net/vdw-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VDW TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-rtf/"
+        - name: "VDW к RTF"
+          link: "/conversion/net/vdw-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VDW TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-svg/"
+        - name: "VDW к SVG"
+          link: "/conversion/net/vdw-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VDW TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-svgz/"
+        - name: "VDW к SVGZ"
+          link: "/conversion/net/vdw-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VDW TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-sxc/"
+        - name: "VDW к SXC"
+          link: "/conversion/net/vdw-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VDW TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-tex/"
+        - name: "VDW к TEX"
+          link: "/conversion/net/vdw-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VDW TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-tif/"
+        - name: "VDW к TIF"
+          link: "/conversion/net/vdw-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VDW TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-tiff/"
+        - name: "VDW к TIFF"
+          link: "/conversion/net/vdw-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VDW TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-tsv/"
+        - name: "VDW к TSV"
+          link: "/conversion/net/vdw-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VDW TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-txt/"
+        - name: "VDW к TXT"
+          link: "/conversion/net/vdw-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VDW TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-webp/"
+        - name: "VDW к WEBP"
+          link: "/conversion/net/vdw-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VDW TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-wmf/"
+        - name: "VDW к WMF"
+          link: "/conversion/net/vdw-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VDW TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-wmz/"
+        - name: "VDW к WMZ"
+          link: "/conversion/net/vdw-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VDW TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlam/"
+        - name: "VDW к XLAM"
+          link: "/conversion/net/vdw-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VDW TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xls/"
+        - name: "VDW к XLS"
+          link: "/conversion/net/vdw-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VDW TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlsb/"
+        - name: "VDW к XLSB"
+          link: "/conversion/net/vdw-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VDW TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlsm/"
+        - name: "VDW к XLSM"
+          link: "/conversion/net/vdw-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VDW TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlsx/"
+        - name: "VDW к XLSX"
+          link: "/conversion/net/vdw-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VDW TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xlt/"
+        - name: "VDW к XLT"
+          link: "/conversion/net/vdw-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VDW TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xltm/"
+        - name: "VDW к XLTM"
+          link: "/conversion/net/vdw-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VDW TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/vdw-to-xps/"
+        - name: "VDW к XPS"
+          link: "/conversion/net/vdw-to-xps/"
           description: "Спецификация документа Open XML"
 
 

@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию PDF в PDF на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) позволяет разработчикам легко преобразовать PDF-файл в PDF-файл с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать PDF-файл в PDF-файл с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл PDF с полным путем
         * Создайте и установите ConvertOptions для типа pdf
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать PDF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PDF TO EPUB"
+        - name: "PDF к EPUB"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-epub"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PDF TO XPS"
+        - name: "PDF к XPS"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-xps"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "PDF TO TEX"
+        - name: "PDF к TEX"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-tex"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PDF TO PPT"
+        - name: "PDF к PPT"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-ppt"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PDF TO PPS"
+        - name: "PDF к PPS"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-pps"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PDF TO PPTX"
+        - name: "PDF к PPTX"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-pptx"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PDF TO PPSX"
+        - name: "PDF к PPSX"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-ppsx"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PDF TO ODP"
+        - name: "PDF к ODP"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-odp"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PDF TO OTP"
+        - name: "PDF к OTP"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-otp"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PDF TO POTX"
+        - name: "PDF к POTX"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-potx"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PDF TO POTM"
+        - name: "PDF к POTM"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-potm"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PDF TO PPTM"
+        - name: "PDF к PPTM"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-pptm"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PDF TO PPSM"
+        - name: "PDF к PPSM"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-ppsm"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PDF TO XLS"
+        - name: "PDF к XLS"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-xls"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PDF TO XLSX"
+        - name: "PDF к XLSX"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-xlsx"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PDF TO XLSM"
+        - name: "PDF к XLSM"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-xlsm"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PDF TO XLSB"
+        - name: "PDF к XLSB"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-xlsb"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PDF TO ODS"
+        - name: "PDF к ODS"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-ods"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PDF TO XLTX"
+        - name: "PDF к XLTX"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-xltx"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PDF TO XLTM"
+        - name: "PDF к XLTM"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-xltm"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PDF TO TSV"
+        - name: "PDF к TSV"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-tsv"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PDF TO XLAM"
+        - name: "PDF к XLAM"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-xlam"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PDF TO CSV"
+        - name: "PDF к CSV"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-csv"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PDF TO DOC"
+        - name: "PDF к DOC"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-doc"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PDF TO DOCM"
+        - name: "PDF к DOCM"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-docm"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PDF TO PDF"
+        - name: "PDF к PDF"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-pdf"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PDF TO DOT"
+        - name: "PDF к DOT"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-dot"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PDF TO DOTM"
+        - name: "PDF к DOTM"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-dotm"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PDF TO DOTX"
+        - name: "PDF к DOTX"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-dotx"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PDF TO RTF"
+        - name: "PDF к RTF"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-rtf"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PDF TO ODT"
+        - name: "PDF к ODT"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-odt"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PDF TO OTT"
+        - name: "PDF к OTT"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-ott"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PDF TO TXT"
+        - name: "PDF к TXT"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-txt"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PDF TO MD"
+        - name: "PDF к MD"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-md"
           description: "Уценка"
 
         # format loop
-        - name: "PDF TO TIFF"
+        - name: "PDF к TIFF"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-tiff"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PDF TO TIF"
+        - name: "PDF к TIF"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-tif"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PDF TO JPG"
+        - name: "PDF к JPG"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-jpg"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PDF TO JPEG"
+        - name: "PDF к JPEG"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-jpeg"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PDF TO PNG"
+        - name: "PDF к PNG"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-png"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PDF TO GIF"
+        - name: "PDF к GIF"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-gif"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PDF TO BMP"
+        - name: "PDF к BMP"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-bmp"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PDF TO ICO"
+        - name: "PDF к ICO"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-ico"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PDF TO PSD"
+        - name: "PDF к PSD"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-psd"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PDF TO WMF"
+        - name: "PDF к WMF"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-wmf"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PDF TO EMF"
+        - name: "PDF к EMF"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-emf"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PDF TO WEBP"
+        - name: "PDF к WEBP"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-webp"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PDF TO SVG"
+        - name: "PDF к SVG"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-svg"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PDF TO JP2"
+        - name: "PDF к JP2"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-jp2"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PDF TO EMZ"
+        - name: "PDF к EMZ"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-emz"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PDF TO WMZ"
+        - name: "PDF к WMZ"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-wmz"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PDF TO HTML"
+        - name: "PDF к HTML"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-html"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PDF TO MHT"
+        - name: "PDF к MHT"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-mht"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PDF TO MHTML"
+        - name: "PDF к MHTML"
           link: "https://products.groupdocs.com/conversion/net/pdf-to-mhtml"
           description: "MIME-инкапсуляция совокупного HTML"
 

@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования LOG в HTML в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла LOG в HTML с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла LOG в HTML с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл журнала с полным путем
         * Установите ConvertOptions для типа документа HTML
@@ -129,312 +129,312 @@ more_formats:
     format: 
         # format loop
         - name: "LOG к BMP"
-          link: "https://products.groupdocs.com/conversion/java/log-to-bmp/"
+          link: "/conversion/java/log-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "LOG к CSV"
-          link: "https://products.groupdocs.com/conversion/java/log-to-csv/"
+          link: "/conversion/java/log-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "LOG к DCM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-dcm/"
+          link: "/conversion/java/log-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "LOG к DIF"
-          link: "https://products.groupdocs.com/conversion/java/log-to-dif/"
+          link: "/conversion/java/log-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "LOG к DOC"
-          link: "https://products.groupdocs.com/conversion/java/log-to-doc/"
+          link: "/conversion/java/log-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "LOG к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-docm/"
+          link: "/conversion/java/log-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "LOG к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/log-to-docx/"
+          link: "/conversion/java/log-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "LOG к DOT"
-          link: "https://products.groupdocs.com/conversion/java/log-to-dot/"
+          link: "/conversion/java/log-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "LOG к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-dotm/"
+          link: "/conversion/java/log-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "LOG к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/log-to-dotx/"
+          link: "/conversion/java/log-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "LOG к EMF"
-          link: "https://products.groupdocs.com/conversion/java/log-to-emf/"
+          link: "/conversion/java/log-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "LOG к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/log-to-emz/"
+          link: "/conversion/java/log-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "LOG к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/log-to-epub/"
+          link: "/conversion/java/log-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "LOG к FODP"
-          link: "https://products.groupdocs.com/conversion/java/log-to-fodp/"
+          link: "/conversion/java/log-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "LOG к FODS"
-          link: "https://products.groupdocs.com/conversion/java/log-to-fods/"
+          link: "/conversion/java/log-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "LOG к GIF"
-          link: "https://products.groupdocs.com/conversion/java/log-to-gif/"
+          link: "/conversion/java/log-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "LOG к HTM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-htm/"
+          link: "/conversion/java/log-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "LOG к ICO"
-          link: "https://products.groupdocs.com/conversion/java/log-to-ico/"
+          link: "/conversion/java/log-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "LOG к JP2"
-          link: "https://products.groupdocs.com/conversion/java/log-to-jp2/"
+          link: "/conversion/java/log-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "LOG к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/log-to-jpeg/"
+          link: "/conversion/java/log-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "LOG к JPG"
-          link: "https://products.groupdocs.com/conversion/java/log-to-jpg/"
+          link: "/conversion/java/log-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "LOG к MD"
-          link: "https://products.groupdocs.com/conversion/java/log-to-md/"
+          link: "/conversion/java/log-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "LOG к MHT"
-          link: "https://products.groupdocs.com/conversion/java/log-to-mht/"
+          link: "/conversion/java/log-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "LOG к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/log-to-mhtml/"
+          link: "/conversion/java/log-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "LOG к ODP"
-          link: "https://products.groupdocs.com/conversion/java/log-to-odp/"
+          link: "/conversion/java/log-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "LOG к ODS"
-          link: "https://products.groupdocs.com/conversion/java/log-to-ods/"
+          link: "/conversion/java/log-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "LOG к ODT"
-          link: "https://products.groupdocs.com/conversion/java/log-to-odt/"
+          link: "/conversion/java/log-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "LOG к OTP"
-          link: "https://products.groupdocs.com/conversion/java/log-to-otp/"
+          link: "/conversion/java/log-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "LOG к OTT"
-          link: "https://products.groupdocs.com/conversion/java/log-to-ott/"
+          link: "/conversion/java/log-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "LOG к PDF"
-          link: "https://products.groupdocs.com/conversion/java/log-to-pdf/"
+          link: "/conversion/java/log-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "LOG к PNG"
-          link: "https://products.groupdocs.com/conversion/java/log-to-png/"
+          link: "/conversion/java/log-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "LOG к POT"
-          link: "https://products.groupdocs.com/conversion/java/log-to-pot/"
+          link: "/conversion/java/log-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "LOG к POTM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-potm/"
+          link: "/conversion/java/log-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "LOG к POTX"
-          link: "https://products.groupdocs.com/conversion/java/log-to-potx/"
+          link: "/conversion/java/log-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "LOG к PPS"
-          link: "https://products.groupdocs.com/conversion/java/log-to-pps/"
+          link: "/conversion/java/log-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "LOG к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-ppsm/"
+          link: "/conversion/java/log-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "LOG к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/log-to-ppsx/"
+          link: "/conversion/java/log-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "LOG к PPT"
-          link: "https://products.groupdocs.com/conversion/java/log-to-ppt/"
+          link: "/conversion/java/log-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "LOG к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-pptm/"
+          link: "/conversion/java/log-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "LOG к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/log-to-pptx/"
+          link: "/conversion/java/log-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "LOG к PSD"
-          link: "https://products.groupdocs.com/conversion/java/log-to-psd/"
+          link: "/conversion/java/log-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "LOG к RTF"
-          link: "https://products.groupdocs.com/conversion/java/log-to-rtf/"
+          link: "/conversion/java/log-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "LOG к SVG"
-          link: "https://products.groupdocs.com/conversion/java/log-to-svg/"
+          link: "/conversion/java/log-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "LOG к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/log-to-svgz/"
+          link: "/conversion/java/log-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "LOG к SXC"
-          link: "https://products.groupdocs.com/conversion/java/log-to-sxc/"
+          link: "/conversion/java/log-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "LOG к TEX"
-          link: "https://products.groupdocs.com/conversion/java/log-to-tex/"
+          link: "/conversion/java/log-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "LOG к TIF"
-          link: "https://products.groupdocs.com/conversion/java/log-to-tif/"
+          link: "/conversion/java/log-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "LOG к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/log-to-tiff/"
+          link: "/conversion/java/log-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "LOG к TSV"
-          link: "https://products.groupdocs.com/conversion/java/log-to-tsv/"
+          link: "/conversion/java/log-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "LOG к TXT"
-          link: "https://products.groupdocs.com/conversion/java/log-to-txt/"
+          link: "/conversion/java/log-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "LOG к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/log-to-webp/"
+          link: "/conversion/java/log-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "LOG к WMF"
-          link: "https://products.groupdocs.com/conversion/java/log-to-wmf/"
+          link: "/conversion/java/log-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "LOG к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/log-to-wmz/"
+          link: "/conversion/java/log-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "LOG к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-xlam/"
+          link: "/conversion/java/log-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "LOG к XLS"
-          link: "https://products.groupdocs.com/conversion/java/log-to-xls/"
+          link: "/conversion/java/log-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "LOG к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/log-to-xlsb/"
+          link: "/conversion/java/log-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "LOG к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-xlsm/"
+          link: "/conversion/java/log-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "LOG к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/log-to-xlsx/"
+          link: "/conversion/java/log-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "LOG к XLT"
-          link: "https://products.groupdocs.com/conversion/java/log-to-xlt/"
+          link: "/conversion/java/log-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "LOG к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/log-to-xltm/"
+          link: "/conversion/java/log-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "LOG к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/log-to-xltx/"
+          link: "/conversion/java/log-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "LOG к XPS"
-          link: "https://products.groupdocs.com/conversion/java/log-to-xps/"
+          link: "/conversion/java/log-to-xps/"
           description: "Спецификация документа Open XML"
 
 

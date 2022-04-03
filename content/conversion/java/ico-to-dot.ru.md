@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования ICO в DOT в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл ICO в DOT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл ICO в DOT с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл ICO с полным путем
         * Установите ConvertOptions для типа документа DOT
@@ -129,312 +129,312 @@ more_formats:
     format: 
         # format loop
         - name: "ICO к BMP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-bmp/"
+          link: "/conversion/java/ico-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "ICO к CSV"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-csv/"
+          link: "/conversion/java/ico-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "ICO к DCM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-dcm/"
+          link: "/conversion/java/ico-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "ICO к DIF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-dif/"
+          link: "/conversion/java/ico-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "ICO к DOC"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-doc/"
+          link: "/conversion/java/ico-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "ICO к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-docm/"
+          link: "/conversion/java/ico-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "ICO к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-docx/"
+          link: "/conversion/java/ico-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "ICO к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-dotm/"
+          link: "/conversion/java/ico-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "ICO к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-dotx/"
+          link: "/conversion/java/ico-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "ICO к EMF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-emf/"
+          link: "/conversion/java/ico-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "ICO к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-emz/"
+          link: "/conversion/java/ico-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "ICO к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-epub/"
+          link: "/conversion/java/ico-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "ICO к FODP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-fodp/"
+          link: "/conversion/java/ico-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "ICO к FODS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-fods/"
+          link: "/conversion/java/ico-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "ICO к GIF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-gif/"
+          link: "/conversion/java/ico-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "ICO к HTM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-htm/"
+          link: "/conversion/java/ico-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "ICO к HTML"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-html/"
+          link: "/conversion/java/ico-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "ICO к JP2"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-jp2/"
+          link: "/conversion/java/ico-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "ICO к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-jpeg/"
+          link: "/conversion/java/ico-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "ICO к JPG"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-jpg/"
+          link: "/conversion/java/ico-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "ICO к MD"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-md/"
+          link: "/conversion/java/ico-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "ICO к MHT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-mht/"
+          link: "/conversion/java/ico-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "ICO к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-mhtml/"
+          link: "/conversion/java/ico-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "ICO к ODP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-odp/"
+          link: "/conversion/java/ico-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "ICO к ODS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ods/"
+          link: "/conversion/java/ico-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "ICO к ODT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-odt/"
+          link: "/conversion/java/ico-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "ICO к OTP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-otp/"
+          link: "/conversion/java/ico-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "ICO к OTT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ott/"
+          link: "/conversion/java/ico-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "ICO к PDF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pdf/"
+          link: "/conversion/java/ico-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "ICO к PNG"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-png/"
+          link: "/conversion/java/ico-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "ICO к POT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pot/"
+          link: "/conversion/java/ico-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "ICO к POTM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-potm/"
+          link: "/conversion/java/ico-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "ICO к POTX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-potx/"
+          link: "/conversion/java/ico-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "ICO к PPS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pps/"
+          link: "/conversion/java/ico-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "ICO к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ppsm/"
+          link: "/conversion/java/ico-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "ICO к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ppsx/"
+          link: "/conversion/java/ico-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "ICO к PPT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ppt/"
+          link: "/conversion/java/ico-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "ICO к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pptm/"
+          link: "/conversion/java/ico-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "ICO к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pptx/"
+          link: "/conversion/java/ico-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "ICO к PSD"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-psd/"
+          link: "/conversion/java/ico-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "ICO к RTF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-rtf/"
+          link: "/conversion/java/ico-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "ICO к SVG"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-svg/"
+          link: "/conversion/java/ico-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "ICO к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-svgz/"
+          link: "/conversion/java/ico-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "ICO к SXC"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-sxc/"
+          link: "/conversion/java/ico-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "ICO к TEX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-tex/"
+          link: "/conversion/java/ico-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "ICO к TIF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-tif/"
+          link: "/conversion/java/ico-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "ICO к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-tiff/"
+          link: "/conversion/java/ico-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "ICO к TSV"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-tsv/"
+          link: "/conversion/java/ico-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "ICO к TXT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-txt/"
+          link: "/conversion/java/ico-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "ICO к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-webp/"
+          link: "/conversion/java/ico-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "ICO к WMF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-wmf/"
+          link: "/conversion/java/ico-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "ICO к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-wmz/"
+          link: "/conversion/java/ico-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "ICO к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlam/"
+          link: "/conversion/java/ico-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "ICO к XLS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xls/"
+          link: "/conversion/java/ico-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "ICO к XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xls2003/"
+          link: "/conversion/java/ico-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
         - name: "ICO к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlsb/"
+          link: "/conversion/java/ico-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "ICO к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlsm/"
+          link: "/conversion/java/ico-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "ICO к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlsx/"
+          link: "/conversion/java/ico-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "ICO к XLT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlt/"
+          link: "/conversion/java/ico-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "ICO к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xltm/"
+          link: "/conversion/java/ico-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "ICO к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xltx/"
+          link: "/conversion/java/ico-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "ICO к XPS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xps/"
+          link: "/conversion/java/ico-to-xps/"
           description: "Спецификация документа Open XML"
 
 

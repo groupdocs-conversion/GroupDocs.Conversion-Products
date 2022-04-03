@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования PSD в XLSM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл PSD в XLSM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл PSD в XLSM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл PSD с полным путем
         * Установите ConvertOptions для типа документа XLSM.
@@ -129,312 +129,312 @@ more_formats:
     format: 
         # format loop
         - name: "PSD к BMP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-bmp/"
+          link: "/conversion/java/psd-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "PSD к CSV"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-csv/"
+          link: "/conversion/java/psd-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "PSD к DCM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dcm/"
+          link: "/conversion/java/psd-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "PSD к DIF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dif/"
+          link: "/conversion/java/psd-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "PSD к DOC"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-doc/"
+          link: "/conversion/java/psd-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "PSD к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-docm/"
+          link: "/conversion/java/psd-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "PSD к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-docx/"
+          link: "/conversion/java/psd-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "PSD к DOT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dot/"
+          link: "/conversion/java/psd-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "PSD к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dotm/"
+          link: "/conversion/java/psd-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "PSD к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dotx/"
+          link: "/conversion/java/psd-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "PSD к EMF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-emf/"
+          link: "/conversion/java/psd-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "PSD к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-emz/"
+          link: "/conversion/java/psd-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "PSD к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-epub/"
+          link: "/conversion/java/psd-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "PSD к FODP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-fodp/"
+          link: "/conversion/java/psd-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "PSD к FODS"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-fods/"
+          link: "/conversion/java/psd-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "PSD к GIF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-gif/"
+          link: "/conversion/java/psd-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "PSD к HTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-htm/"
+          link: "/conversion/java/psd-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "PSD к HTML"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-html/"
+          link: "/conversion/java/psd-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "PSD к ICO"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ico/"
+          link: "/conversion/java/psd-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "PSD к JP2"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-jp2/"
+          link: "/conversion/java/psd-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "PSD к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-jpeg/"
+          link: "/conversion/java/psd-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "PSD к JPG"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-jpg/"
+          link: "/conversion/java/psd-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "PSD к MD"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-md/"
+          link: "/conversion/java/psd-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "PSD к MHT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-mht/"
+          link: "/conversion/java/psd-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "PSD к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-mhtml/"
+          link: "/conversion/java/psd-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "PSD к ODG"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-odg/"
+          link: "/conversion/java/psd-to-odg/"
           description: "Файл чертежа OpenDocument"
 
         # format loop
         - name: "PSD к ODP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-odp/"
+          link: "/conversion/java/psd-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "PSD к ODS"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ods/"
+          link: "/conversion/java/psd-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "PSD к ODT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-odt/"
+          link: "/conversion/java/psd-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "PSD к OTP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-otp/"
+          link: "/conversion/java/psd-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "PSD к OTT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ott/"
+          link: "/conversion/java/psd-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "PSD к PDF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pdf/"
+          link: "/conversion/java/psd-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "PSD к PNG"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-png/"
+          link: "/conversion/java/psd-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "PSD к POT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pot/"
+          link: "/conversion/java/psd-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "PSD к POTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-potm/"
+          link: "/conversion/java/psd-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "PSD к POTX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-potx/"
+          link: "/conversion/java/psd-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "PSD к PPS"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pps/"
+          link: "/conversion/java/psd-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "PSD к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ppsm/"
+          link: "/conversion/java/psd-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "PSD к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ppsx/"
+          link: "/conversion/java/psd-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "PSD к PPT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ppt/"
+          link: "/conversion/java/psd-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "PSD к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pptm/"
+          link: "/conversion/java/psd-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "PSD к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pptx/"
+          link: "/conversion/java/psd-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "PSD к RTF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-rtf/"
+          link: "/conversion/java/psd-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "PSD к SVG"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-svg/"
+          link: "/conversion/java/psd-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "PSD к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-svgz/"
+          link: "/conversion/java/psd-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "PSD к SXC"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-sxc/"
+          link: "/conversion/java/psd-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "PSD к TEX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-tex/"
+          link: "/conversion/java/psd-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "PSD к TIF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-tif/"
+          link: "/conversion/java/psd-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "PSD к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-tiff/"
+          link: "/conversion/java/psd-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "PSD к TSV"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-tsv/"
+          link: "/conversion/java/psd-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "PSD к TXT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-txt/"
+          link: "/conversion/java/psd-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "PSD к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-webp/"
+          link: "/conversion/java/psd-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "PSD к WMF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-wmf/"
+          link: "/conversion/java/psd-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "PSD к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-wmz/"
+          link: "/conversion/java/psd-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "PSD к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xlam/"
+          link: "/conversion/java/psd-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "PSD к XLS"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xls/"
+          link: "/conversion/java/psd-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "PSD к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xlsb/"
+          link: "/conversion/java/psd-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "PSD к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xlsx/"
+          link: "/conversion/java/psd-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "PSD к XLT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xlt/"
+          link: "/conversion/java/psd-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "PSD к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xltm/"
+          link: "/conversion/java/psd-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "PSD к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xltx/"
+          link: "/conversion/java/psd-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "PSD к XPS"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xps/"
+          link: "/conversion/java/psd-to-xps/"
           description: "Спецификация документа Open XML"
 
 

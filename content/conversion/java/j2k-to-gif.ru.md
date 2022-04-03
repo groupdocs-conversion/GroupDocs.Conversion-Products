@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования J2K в GIF в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл J2K в GIF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл J2K в GIF с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл J2K с полным путем
         * Установите ConvertOptions для типа документа GIF
@@ -129,312 +129,312 @@ more_formats:
     format: 
         # format loop
         - name: "J2K к BMP"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-bmp/"
+          link: "/conversion/java/j2k-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "J2K к CSV"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-csv/"
+          link: "/conversion/java/j2k-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "J2K к DCM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-dcm/"
+          link: "/conversion/java/j2k-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "J2K к DIF"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-dif/"
+          link: "/conversion/java/j2k-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "J2K к DOC"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-doc/"
+          link: "/conversion/java/j2k-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "J2K к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-docm/"
+          link: "/conversion/java/j2k-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "J2K к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-docx/"
+          link: "/conversion/java/j2k-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "J2K к DOT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-dot/"
+          link: "/conversion/java/j2k-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "J2K к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-dotm/"
+          link: "/conversion/java/j2k-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "J2K к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-dotx/"
+          link: "/conversion/java/j2k-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "J2K к EMF"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-emf/"
+          link: "/conversion/java/j2k-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "J2K к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-emz/"
+          link: "/conversion/java/j2k-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "J2K к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-epub/"
+          link: "/conversion/java/j2k-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "J2K к FODP"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-fodp/"
+          link: "/conversion/java/j2k-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "J2K к FODS"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-fods/"
+          link: "/conversion/java/j2k-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "J2K к HTM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-htm/"
+          link: "/conversion/java/j2k-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "J2K к HTML"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-html/"
+          link: "/conversion/java/j2k-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "J2K к ICO"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-ico/"
+          link: "/conversion/java/j2k-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "J2K к JP2"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-jp2/"
+          link: "/conversion/java/j2k-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "J2K к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-jpeg/"
+          link: "/conversion/java/j2k-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "J2K к JPG"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-jpg/"
+          link: "/conversion/java/j2k-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "J2K к MD"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-md/"
+          link: "/conversion/java/j2k-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "J2K к MHT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-mht/"
+          link: "/conversion/java/j2k-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "J2K к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-mhtml/"
+          link: "/conversion/java/j2k-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "J2K к ODP"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-odp/"
+          link: "/conversion/java/j2k-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "J2K к ODS"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-ods/"
+          link: "/conversion/java/j2k-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "J2K к ODT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-odt/"
+          link: "/conversion/java/j2k-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "J2K к OTP"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-otp/"
+          link: "/conversion/java/j2k-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "J2K к OTT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-ott/"
+          link: "/conversion/java/j2k-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "J2K к PDF"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-pdf/"
+          link: "/conversion/java/j2k-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "J2K к PNG"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-png/"
+          link: "/conversion/java/j2k-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "J2K к POT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-pot/"
+          link: "/conversion/java/j2k-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "J2K к POTM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-potm/"
+          link: "/conversion/java/j2k-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "J2K к POTX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-potx/"
+          link: "/conversion/java/j2k-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "J2K к PPS"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-pps/"
+          link: "/conversion/java/j2k-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "J2K к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-ppsm/"
+          link: "/conversion/java/j2k-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "J2K к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-ppsx/"
+          link: "/conversion/java/j2k-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "J2K к PPT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-ppt/"
+          link: "/conversion/java/j2k-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "J2K к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-pptm/"
+          link: "/conversion/java/j2k-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "J2K к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-pptx/"
+          link: "/conversion/java/j2k-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "J2K к PSD"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-psd/"
+          link: "/conversion/java/j2k-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "J2K к RTF"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-rtf/"
+          link: "/conversion/java/j2k-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "J2K к SVG"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-svg/"
+          link: "/conversion/java/j2k-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "J2K к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-svgz/"
+          link: "/conversion/java/j2k-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "J2K к SXC"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-sxc/"
+          link: "/conversion/java/j2k-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "J2K к TEX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-tex/"
+          link: "/conversion/java/j2k-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "J2K к TIF"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-tif/"
+          link: "/conversion/java/j2k-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "J2K к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-tiff/"
+          link: "/conversion/java/j2k-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "J2K к TSV"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-tsv/"
+          link: "/conversion/java/j2k-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "J2K к TXT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-txt/"
+          link: "/conversion/java/j2k-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "J2K к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-webp/"
+          link: "/conversion/java/j2k-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "J2K к WMF"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-wmf/"
+          link: "/conversion/java/j2k-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "J2K к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-wmz/"
+          link: "/conversion/java/j2k-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "J2K к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xlam/"
+          link: "/conversion/java/j2k-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "J2K к XLS"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xls/"
+          link: "/conversion/java/j2k-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "J2K к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xlsb/"
+          link: "/conversion/java/j2k-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "J2K к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xlsm/"
+          link: "/conversion/java/j2k-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "J2K к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xlsx/"
+          link: "/conversion/java/j2k-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "J2K к XLT"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xlt/"
+          link: "/conversion/java/j2k-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "J2K к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xltm/"
+          link: "/conversion/java/j2k-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "J2K к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xltx/"
+          link: "/conversion/java/j2k-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "J2K к XPS"
-          link: "https://products.groupdocs.com/conversion/java/j2k-to-xps/"
+          link: "/conversion/java/j2k-to-xps/"
           description: "Спецификация документа Open XML"
 
 

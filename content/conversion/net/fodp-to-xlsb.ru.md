@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию FODP в XLSB в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла FODP в XLSB с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла FODP в XLSB с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл FODP с полным путем
         * Создайте и установите ConvertOptions для типа xlsb
@@ -127,313 +127,313 @@ more_formats:
         Вы также можете конвертировать FODP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "FODP TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-bmp/"
+        - name: "FODP к BMP"
+          link: "/conversion/net/fodp-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "FODP TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-csv/"
+        - name: "FODP к CSV"
+          link: "/conversion/net/fodp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "FODP TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-dcm/"
+        - name: "FODP к DCM"
+          link: "/conversion/net/fodp-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "FODP TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-dif/"
+        - name: "FODP к DIF"
+          link: "/conversion/net/fodp-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "FODP TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-doc/"
+        - name: "FODP к DOC"
+          link: "/conversion/net/fodp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "FODP TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-docm/"
+        - name: "FODP к DOCM"
+          link: "/conversion/net/fodp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "FODP TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-docx/"
+        - name: "FODP к DOCX"
+          link: "/conversion/net/fodp-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "FODP TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-dot/"
+        - name: "FODP к DOT"
+          link: "/conversion/net/fodp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "FODP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-dotm/"
+        - name: "FODP к DOTM"
+          link: "/conversion/net/fodp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "FODP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-dotx/"
+        - name: "FODP к DOTX"
+          link: "/conversion/net/fodp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "FODP TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-emf/"
+        - name: "FODP к EMF"
+          link: "/conversion/net/fodp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "FODP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-emz/"
+        - name: "FODP к EMZ"
+          link: "/conversion/net/fodp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "FODP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-epub/"
+        - name: "FODP к EPUB"
+          link: "/conversion/net/fodp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "FODP TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-fods/"
+        - name: "FODP к FODS"
+          link: "/conversion/net/fodp-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "FODP TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-gif/"
+        - name: "FODP к GIF"
+          link: "/conversion/net/fodp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "FODP TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-htm/"
+        - name: "FODP к HTM"
+          link: "/conversion/net/fodp-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "FODP TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-html/"
+        - name: "FODP к HTML"
+          link: "/conversion/net/fodp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "FODP TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ico/"
+        - name: "FODP к ICO"
+          link: "/conversion/net/fodp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "FODP TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-jp2/"
+        - name: "FODP к JP2"
+          link: "/conversion/net/fodp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "FODP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-jpeg/"
+        - name: "FODP к JPEG"
+          link: "/conversion/net/fodp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "FODP TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-jpg/"
+        - name: "FODP к JPG"
+          link: "/conversion/net/fodp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "FODP TO MD"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-md/"
+        - name: "FODP к MD"
+          link: "/conversion/net/fodp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "FODP TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-mht/"
+        - name: "FODP к MHT"
+          link: "/conversion/net/fodp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "FODP TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-mhtml/"
+        - name: "FODP к MHTML"
+          link: "/conversion/net/fodp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "FODP TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-odp/"
+        - name: "FODP к ODP"
+          link: "/conversion/net/fodp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "FODP TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ods/"
+        - name: "FODP к ODS"
+          link: "/conversion/net/fodp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "FODP TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-odt/"
+        - name: "FODP к ODT"
+          link: "/conversion/net/fodp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "FODP TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-otp/"
+        - name: "FODP к OTP"
+          link: "/conversion/net/fodp-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "FODP TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ott/"
+        - name: "FODP к OTT"
+          link: "/conversion/net/fodp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "FODP TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-pdf/"
+        - name: "FODP к PDF"
+          link: "/conversion/net/fodp-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "FODP TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-png/"
+        - name: "FODP к PNG"
+          link: "/conversion/net/fodp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "FODP TO POT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-pot/"
+        - name: "FODP к POT"
+          link: "/conversion/net/fodp-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "FODP TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-potm/"
+        - name: "FODP к POTM"
+          link: "/conversion/net/fodp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-potx/"
+        - name: "FODP к POTX"
+          link: "/conversion/net/fodp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-pps/"
+        - name: "FODP к PPS"
+          link: "/conversion/net/fodp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ppsm/"
+        - name: "FODP к PPSM"
+          link: "/conversion/net/fodp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ppsx/"
+        - name: "FODP к PPSX"
+          link: "/conversion/net/fodp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "FODP TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-ppt/"
+        - name: "FODP к PPT"
+          link: "/conversion/net/fodp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "FODP TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-pptm/"
+        - name: "FODP к PPTM"
+          link: "/conversion/net/fodp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-pptx/"
+        - name: "FODP к PPTX"
+          link: "/conversion/net/fodp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "FODP TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-psd/"
+        - name: "FODP к PSD"
+          link: "/conversion/net/fodp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "FODP TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-rtf/"
+        - name: "FODP к RTF"
+          link: "/conversion/net/fodp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "FODP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-svg/"
+        - name: "FODP к SVG"
+          link: "/conversion/net/fodp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "FODP TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-svgz/"
+        - name: "FODP к SVGZ"
+          link: "/conversion/net/fodp-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "FODP TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-sxc/"
+        - name: "FODP к SXC"
+          link: "/conversion/net/fodp-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "FODP TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-tex/"
+        - name: "FODP к TEX"
+          link: "/conversion/net/fodp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "FODP TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-tif/"
+        - name: "FODP к TIF"
+          link: "/conversion/net/fodp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "FODP TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-tiff/"
+        - name: "FODP к TIFF"
+          link: "/conversion/net/fodp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "FODP TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-tsv/"
+        - name: "FODP к TSV"
+          link: "/conversion/net/fodp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "FODP TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-txt/"
+        - name: "FODP к TXT"
+          link: "/conversion/net/fodp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "FODP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-webp/"
+        - name: "FODP к WEBP"
+          link: "/conversion/net/fodp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "FODP TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-wmf/"
+        - name: "FODP к WMF"
+          link: "/conversion/net/fodp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "FODP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-wmz/"
+        - name: "FODP к WMZ"
+          link: "/conversion/net/fodp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "FODP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlam/"
+        - name: "FODP к XLAM"
+          link: "/conversion/net/fodp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODP TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xls/"
+        - name: "FODP к XLS"
+          link: "/conversion/net/fodp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "FODP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlsm/"
+        - name: "FODP к XLSM"
+          link: "/conversion/net/fodp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlsx/"
+        - name: "FODP к XLSX"
+          link: "/conversion/net/fodp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "FODP TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xlt/"
+        - name: "FODP к XLT"
+          link: "/conversion/net/fodp-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "FODP TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xltm/"
+        - name: "FODP к XLTM"
+          link: "/conversion/net/fodp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xltx/"
+        - name: "FODP к XLTX"
+          link: "/conversion/net/fodp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "FODP TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/fodp-to-xps/"
+        - name: "FODP к XPS"
+          link: "/conversion/net/fodp-to-xps/"
           description: "Спецификация документа Open XML"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

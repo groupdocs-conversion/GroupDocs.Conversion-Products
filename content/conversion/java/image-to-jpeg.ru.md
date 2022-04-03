@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования IMAGE в JPEG в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл IMAGE в JPEG, написав всего несколько строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл IMAGE в JPEG, написав всего несколько строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл IMAGE с полным путем
         * Установите ConvertOptions для типа документа JPEG
@@ -128,38 +128,38 @@ more_formats:
         Вы также можете конвертировать IMAGE во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "IMAGE TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/image-to-ico/"
+        - name: "IMAGE к ICO"
+          link: "/conversion/java/image-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "IMAGE TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/image-to-mhtml/"
+        - name: "IMAGE к MHTML"
+          link: "/conversion/java/image-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "IMAGE TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/image-to-otp/"
+        - name: "IMAGE к OTP"
+          link: "/conversion/java/image-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "IMAGE TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/image-to-pdf/"
+        - name: "IMAGE к PDF"
+          link: "/conversion/java/image-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "IMAGE TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/image-to-potx/"
+        - name: "IMAGE к POTX"
+          link: "/conversion/java/image-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/image-to-xlsb/"
+        - name: "IMAGE к XLSB"
+          link: "/conversion/java/image-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "IMAGE TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/image-to-xltm/"
+        - name: "IMAGE к XLTM"
+          link: "/conversion/java/image-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
 

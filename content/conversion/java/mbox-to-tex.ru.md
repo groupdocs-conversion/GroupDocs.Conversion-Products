@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования MBOX в TEX в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла MBOX в TEX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла MBOX в TEX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл MBOX с полным путем
         * Установите ConvertOptions для типа документа TEX
@@ -129,312 +129,312 @@ more_formats:
     format: 
         # format loop
         - name: "MBOX к BMP"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-bmp/"
+          link: "/conversion/java/mbox-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "MBOX к CSV"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-csv/"
+          link: "/conversion/java/mbox-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "MBOX к DCM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-dcm/"
+          link: "/conversion/java/mbox-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "MBOX к DIF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-dif/"
+          link: "/conversion/java/mbox-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "MBOX к DOC"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-doc/"
+          link: "/conversion/java/mbox-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "MBOX к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-docm/"
+          link: "/conversion/java/mbox-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "MBOX к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-docx/"
+          link: "/conversion/java/mbox-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "MBOX к DOT"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-dot/"
+          link: "/conversion/java/mbox-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "MBOX к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-dotm/"
+          link: "/conversion/java/mbox-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "MBOX к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-dotx/"
+          link: "/conversion/java/mbox-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "MBOX к EMF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-emf/"
+          link: "/conversion/java/mbox-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "MBOX к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-emz/"
+          link: "/conversion/java/mbox-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "MBOX к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-epub/"
+          link: "/conversion/java/mbox-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "MBOX к FODP"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-fodp/"
+          link: "/conversion/java/mbox-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "MBOX к FODS"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-fods/"
+          link: "/conversion/java/mbox-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "MBOX к GIF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-gif/"
+          link: "/conversion/java/mbox-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "MBOX к HTM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-htm/"
+          link: "/conversion/java/mbox-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "MBOX к HTML"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-html/"
+          link: "/conversion/java/mbox-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "MBOX к ICO"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-ico/"
+          link: "/conversion/java/mbox-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "MBOX к JP2"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-jp2/"
+          link: "/conversion/java/mbox-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "MBOX к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-jpeg/"
+          link: "/conversion/java/mbox-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "MBOX к JPG"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-jpg/"
+          link: "/conversion/java/mbox-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "MBOX к MD"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-md/"
+          link: "/conversion/java/mbox-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "MBOX к MHT"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-mht/"
+          link: "/conversion/java/mbox-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "MBOX к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-mhtml/"
+          link: "/conversion/java/mbox-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "MBOX к ODP"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-odp/"
+          link: "/conversion/java/mbox-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "MBOX к ODS"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-ods/"
+          link: "/conversion/java/mbox-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "MBOX к ODT"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-odt/"
+          link: "/conversion/java/mbox-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "MBOX к OTP"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-otp/"
+          link: "/conversion/java/mbox-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "MBOX к OTT"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-ott/"
+          link: "/conversion/java/mbox-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "MBOX к PDF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-pdf/"
+          link: "/conversion/java/mbox-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "MBOX к PNG"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-png/"
+          link: "/conversion/java/mbox-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "MBOX к POT"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-pot/"
+          link: "/conversion/java/mbox-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "MBOX к POTM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-potm/"
+          link: "/conversion/java/mbox-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "MBOX к POTX"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-potx/"
+          link: "/conversion/java/mbox-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "MBOX к PPS"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-pps/"
+          link: "/conversion/java/mbox-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "MBOX к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-ppsm/"
+          link: "/conversion/java/mbox-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "MBOX к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-ppsx/"
+          link: "/conversion/java/mbox-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "MBOX к PPT"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-ppt/"
+          link: "/conversion/java/mbox-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "MBOX к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-pptm/"
+          link: "/conversion/java/mbox-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "MBOX к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-pptx/"
+          link: "/conversion/java/mbox-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "MBOX к PSD"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-psd/"
+          link: "/conversion/java/mbox-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "MBOX к RTF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-rtf/"
+          link: "/conversion/java/mbox-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "MBOX к SVG"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-svg/"
+          link: "/conversion/java/mbox-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "MBOX к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-svgz/"
+          link: "/conversion/java/mbox-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "MBOX к SXC"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-sxc/"
+          link: "/conversion/java/mbox-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "MBOX к TIF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-tif/"
+          link: "/conversion/java/mbox-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "MBOX к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-tiff/"
+          link: "/conversion/java/mbox-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "MBOX к TSV"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-tsv/"
+          link: "/conversion/java/mbox-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "MBOX к TXT"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-txt/"
+          link: "/conversion/java/mbox-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "MBOX к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-webp/"
+          link: "/conversion/java/mbox-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "MBOX к WMF"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-wmf/"
+          link: "/conversion/java/mbox-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "MBOX к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-wmz/"
+          link: "/conversion/java/mbox-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "MBOX к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xlam/"
+          link: "/conversion/java/mbox-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "MBOX к XLS"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xls/"
+          link: "/conversion/java/mbox-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "MBOX к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xlsb/"
+          link: "/conversion/java/mbox-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "MBOX к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xlsm/"
+          link: "/conversion/java/mbox-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "MBOX к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xlsx/"
+          link: "/conversion/java/mbox-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "MBOX к XLT"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xlt/"
+          link: "/conversion/java/mbox-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "MBOX к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xltm/"
+          link: "/conversion/java/mbox-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "MBOX к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xltx/"
+          link: "/conversion/java/mbox-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "MBOX к XPS"
-          link: "https://products.groupdocs.com/conversion/java/mbox-to-xps/"
+          link: "/conversion/java/mbox-to-xps/"
           description: "Спецификация документа Open XML"
 
 

@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования SVG в WMF в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл SVG в WMF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл SVG в WMF с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл SVG с полным путем
         * Установите ConvertOptions для типа документа WMF
@@ -128,308 +128,308 @@ more_formats:
         Вы также можете конвертировать SVG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "SVG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-bmp/"
+        - name: "SVG к BMP"
+          link: "/conversion/java/svg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "SVG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-csv/"
+        - name: "SVG к CSV"
+          link: "/conversion/java/svg-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "SVG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-dcm/"
+        - name: "SVG к DCM"
+          link: "/conversion/java/svg-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "SVG TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-dif/"
+        - name: "SVG к DIF"
+          link: "/conversion/java/svg-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "SVG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-doc/"
+        - name: "SVG к DOC"
+          link: "/conversion/java/svg-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "SVG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-docm/"
+        - name: "SVG к DOCM"
+          link: "/conversion/java/svg-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "SVG TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-docx/"
+        - name: "SVG к DOCX"
+          link: "/conversion/java/svg-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "SVG TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-dot/"
+        - name: "SVG к DOT"
+          link: "/conversion/java/svg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "SVG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-dotm/"
+        - name: "SVG к DOTM"
+          link: "/conversion/java/svg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "SVG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-dotx/"
+        - name: "SVG к DOTX"
+          link: "/conversion/java/svg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "SVG TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-emf/"
+        - name: "SVG к EMF"
+          link: "/conversion/java/svg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "SVG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-emz/"
+        - name: "SVG к EMZ"
+          link: "/conversion/java/svg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "SVG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-epub/"
+        - name: "SVG к EPUB"
+          link: "/conversion/java/svg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "SVG TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-fodp/"
+        - name: "SVG к FODP"
+          link: "/conversion/java/svg-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "SVG TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-fods/"
+        - name: "SVG к FODS"
+          link: "/conversion/java/svg-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "SVG TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-gif/"
+        - name: "SVG к GIF"
+          link: "/conversion/java/svg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "SVG TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-htm/"
+        - name: "SVG к HTM"
+          link: "/conversion/java/svg-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "SVG TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-html/"
+        - name: "SVG к HTML"
+          link: "/conversion/java/svg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "SVG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-ico/"
+        - name: "SVG к ICO"
+          link: "/conversion/java/svg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "SVG TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-jp2/"
+        - name: "SVG к JP2"
+          link: "/conversion/java/svg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "SVG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-jpeg/"
+        - name: "SVG к JPEG"
+          link: "/conversion/java/svg-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "SVG TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-jpg/"
+        - name: "SVG к JPG"
+          link: "/conversion/java/svg-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "SVG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-md/"
+        - name: "SVG к MD"
+          link: "/conversion/java/svg-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "SVG TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-mht/"
+        - name: "SVG к MHT"
+          link: "/conversion/java/svg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "SVG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-mhtml/"
+        - name: "SVG к MHTML"
+          link: "/conversion/java/svg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "SVG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-odp/"
+        - name: "SVG к ODP"
+          link: "/conversion/java/svg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "SVG TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-ods/"
+        - name: "SVG к ODS"
+          link: "/conversion/java/svg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "SVG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-odt/"
+        - name: "SVG к ODT"
+          link: "/conversion/java/svg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "SVG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-otp/"
+        - name: "SVG к OTP"
+          link: "/conversion/java/svg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "SVG TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-ott/"
+        - name: "SVG к OTT"
+          link: "/conversion/java/svg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "SVG TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-pdf/"
+        - name: "SVG к PDF"
+          link: "/conversion/java/svg-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "SVG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-png/"
+        - name: "SVG к PNG"
+          link: "/conversion/java/svg-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "SVG TO POT"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-pot/"
+        - name: "SVG к POT"
+          link: "/conversion/java/svg-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "SVG TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-potm/"
+        - name: "SVG к POTM"
+          link: "/conversion/java/svg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "SVG TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-potx/"
+        - name: "SVG к POTX"
+          link: "/conversion/java/svg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "SVG TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-pps/"
+        - name: "SVG к PPS"
+          link: "/conversion/java/svg-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "SVG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-ppsm/"
+        - name: "SVG к PPSM"
+          link: "/conversion/java/svg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "SVG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-ppsx/"
+        - name: "SVG к PPSX"
+          link: "/conversion/java/svg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "SVG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-ppt/"
+        - name: "SVG к PPT"
+          link: "/conversion/java/svg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "SVG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-pptm/"
+        - name: "SVG к PPTM"
+          link: "/conversion/java/svg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "SVG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-pptx/"
+        - name: "SVG к PPTX"
+          link: "/conversion/java/svg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "SVG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-psd/"
+        - name: "SVG к PSD"
+          link: "/conversion/java/svg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "SVG TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-rtf/"
+        - name: "SVG к RTF"
+          link: "/conversion/java/svg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "SVG TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-svgz/"
+        - name: "SVG к SVGZ"
+          link: "/conversion/java/svg-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "SVG TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-sxc/"
+        - name: "SVG к SXC"
+          link: "/conversion/java/svg-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "SVG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-tex/"
+        - name: "SVG к TEX"
+          link: "/conversion/java/svg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "SVG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-tif/"
+        - name: "SVG к TIF"
+          link: "/conversion/java/svg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "SVG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-tiff/"
+        - name: "SVG к TIFF"
+          link: "/conversion/java/svg-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "SVG TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-tsv/"
+        - name: "SVG к TSV"
+          link: "/conversion/java/svg-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "SVG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-txt/"
+        - name: "SVG к TXT"
+          link: "/conversion/java/svg-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "SVG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-webp/"
+        - name: "SVG к WEBP"
+          link: "/conversion/java/svg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "SVG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-wmz/"
+        - name: "SVG к WMZ"
+          link: "/conversion/java/svg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "SVG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xlam/"
+        - name: "SVG к XLAM"
+          link: "/conversion/java/svg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xls/"
+        - name: "SVG к XLS"
+          link: "/conversion/java/svg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "SVG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xlsb/"
+        - name: "SVG к XLSB"
+          link: "/conversion/java/svg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "SVG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xlsm/"
+        - name: "SVG к XLSM"
+          link: "/conversion/java/svg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xlsx/"
+        - name: "SVG к XLSX"
+          link: "/conversion/java/svg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "SVG TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xlt/"
+        - name: "SVG к XLT"
+          link: "/conversion/java/svg-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "SVG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xltm/"
+        - name: "SVG к XLTM"
+          link: "/conversion/java/svg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xltx/"
+        - name: "SVG к XLTX"
+          link: "/conversion/java/svg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "SVG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/svg-to-xps/"
+        - name: "SVG к XPS"
+          link: "/conversion/java/svg-to-xps/"
           description: "Спецификация документа Open XML"
 
 

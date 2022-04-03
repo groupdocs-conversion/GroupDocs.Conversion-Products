@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию электронной почты в электронную почту на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) позволяет разработчикам легко преобразовать файл электронной почты в электронную почту, используя несколько строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл электронной почты в электронную почту, используя несколько строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл электронной почты с полным путем
         * Создайте и установите ConvertOptions для типа электронной почты
@@ -127,47 +127,47 @@ more_formats:
         Вы также можете конвертировать электронную почту во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EMAIL TO EBOOK"
+        - name: "EMAIL к EBOOK"
           link: "https://products.groupdocs.com/conversion/net/email-to-ebook"
           description: "Форматы файлов электронных книг"
 
         # format loop
-        - name: "EMAIL TO EXCEL"
+        - name: "EMAIL к EXCEL"
           link: "https://products.groupdocs.com/conversion/net/email-to-excel"
           description: "Форматы файлов документов Excel"
 
         # format loop
-        - name: "EMAIL TO IMAGE"
+        - name: "EMAIL к IMAGE"
           link: "https://products.groupdocs.com/conversion/net/email-to-image"
           description: "Форматы файлов документов изображений"
 
         # format loop
-        - name: "EMAIL TO PDF"
+        - name: "EMAIL к PDF"
           link: "https://products.groupdocs.com/conversion/net/email-to-pdf"
           description: "Формат файла PDF"
 
         # format loop
-        - name: "EMAIL TO PHOTOSHOP"
+        - name: "EMAIL к PHOTOSHOP"
           link: "https://products.groupdocs.com/conversion/net/email-to-photoshop"
           description: "Форматы файлов Photoshop"
 
         # format loop
-        - name: "EMAIL TO POWERPOINT"
+        - name: "EMAIL к POWERPOINT"
           link: "https://products.groupdocs.com/conversion/net/email-to-powerpoint"
           description: "Форматы файлов презентаций PowerPoint"
 
         # format loop
-        - name: "EMAIL TO WEB"
+        - name: "EMAIL к WEB"
           link: "https://products.groupdocs.com/conversion/net/email-to-web"
           description: "Форматы файлов веб-документов"
 
         # format loop
-        - name: "EMAIL TO WORD"
+        - name: "EMAIL к WORD"
           link: "https://products.groupdocs.com/conversion/net/email-to-word"
           description: "Форматы файлов документов Word"
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

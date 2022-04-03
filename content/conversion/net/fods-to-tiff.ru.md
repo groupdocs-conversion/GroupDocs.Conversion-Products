@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию FODS в TIFF на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл FODS в TIFF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл FODS в TIFF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл FODS с полным путем
         * Создайте и установите ConvertOptions для типа tiff
@@ -127,313 +127,313 @@ more_formats:
         Вы также можете конвертировать FODS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "FODS TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-bmp/"
+        - name: "FODS к BMP"
+          link: "/conversion/net/fods-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "FODS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-csv/"
+        - name: "FODS к CSV"
+          link: "/conversion/net/fods-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "FODS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dcm/"
+        - name: "FODS к DCM"
+          link: "/conversion/net/fods-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "FODS TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dif/"
+        - name: "FODS к DIF"
+          link: "/conversion/net/fods-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "FODS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-doc/"
+        - name: "FODS к DOC"
+          link: "/conversion/net/fods-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "FODS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-docm/"
+        - name: "FODS к DOCM"
+          link: "/conversion/net/fods-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "FODS TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-docx/"
+        - name: "FODS к DOCX"
+          link: "/conversion/net/fods-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "FODS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dot/"
+        - name: "FODS к DOT"
+          link: "/conversion/net/fods-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "FODS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dotm/"
+        - name: "FODS к DOTM"
+          link: "/conversion/net/fods-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "FODS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dotx/"
+        - name: "FODS к DOTX"
+          link: "/conversion/net/fods-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "FODS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-emf/"
+        - name: "FODS к EMF"
+          link: "/conversion/net/fods-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "FODS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-emz/"
+        - name: "FODS к EMZ"
+          link: "/conversion/net/fods-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "FODS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-epub/"
+        - name: "FODS к EPUB"
+          link: "/conversion/net/fods-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "FODS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-fodp/"
+        - name: "FODS к FODP"
+          link: "/conversion/net/fods-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "FODS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-gif/"
+        - name: "FODS к GIF"
+          link: "/conversion/net/fods-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "FODS TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-htm/"
+        - name: "FODS к HTM"
+          link: "/conversion/net/fods-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "FODS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-html/"
+        - name: "FODS к HTML"
+          link: "/conversion/net/fods-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "FODS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ico/"
+        - name: "FODS к ICO"
+          link: "/conversion/net/fods-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "FODS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-jp2/"
+        - name: "FODS к JP2"
+          link: "/conversion/net/fods-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "FODS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-jpeg/"
+        - name: "FODS к JPEG"
+          link: "/conversion/net/fods-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "FODS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-jpg/"
+        - name: "FODS к JPG"
+          link: "/conversion/net/fods-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "FODS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-md/"
+        - name: "FODS к MD"
+          link: "/conversion/net/fods-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "FODS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-mht/"
+        - name: "FODS к MHT"
+          link: "/conversion/net/fods-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "FODS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-mhtml/"
+        - name: "FODS к MHTML"
+          link: "/conversion/net/fods-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "FODS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-odp/"
+        - name: "FODS к ODP"
+          link: "/conversion/net/fods-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "FODS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ods/"
+        - name: "FODS к ODS"
+          link: "/conversion/net/fods-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "FODS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-odt/"
+        - name: "FODS к ODT"
+          link: "/conversion/net/fods-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "FODS TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-otp/"
+        - name: "FODS к OTP"
+          link: "/conversion/net/fods-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "FODS TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ott/"
+        - name: "FODS к OTT"
+          link: "/conversion/net/fods-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "FODS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pdf/"
+        - name: "FODS к PDF"
+          link: "/conversion/net/fods-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "FODS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-png/"
+        - name: "FODS к PNG"
+          link: "/conversion/net/fods-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "FODS TO POT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pot/"
+        - name: "FODS к POT"
+          link: "/conversion/net/fods-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "FODS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-potm/"
+        - name: "FODS к POTM"
+          link: "/conversion/net/fods-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "FODS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-potx/"
+        - name: "FODS к POTX"
+          link: "/conversion/net/fods-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "FODS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pps/"
+        - name: "FODS к PPS"
+          link: "/conversion/net/fods-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "FODS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ppsm/"
+        - name: "FODS к PPSM"
+          link: "/conversion/net/fods-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "FODS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ppsx/"
+        - name: "FODS к PPSX"
+          link: "/conversion/net/fods-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "FODS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ppt/"
+        - name: "FODS к PPT"
+          link: "/conversion/net/fods-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "FODS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pptm/"
+        - name: "FODS к PPTM"
+          link: "/conversion/net/fods-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "FODS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pptx/"
+        - name: "FODS к PPTX"
+          link: "/conversion/net/fods-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "FODS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-psd/"
+        - name: "FODS к PSD"
+          link: "/conversion/net/fods-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "FODS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-rtf/"
+        - name: "FODS к RTF"
+          link: "/conversion/net/fods-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "FODS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-svg/"
+        - name: "FODS к SVG"
+          link: "/conversion/net/fods-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "FODS TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-svgz/"
+        - name: "FODS к SVGZ"
+          link: "/conversion/net/fods-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "FODS TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-sxc/"
+        - name: "FODS к SXC"
+          link: "/conversion/net/fods-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "FODS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tex/"
+        - name: "FODS к TEX"
+          link: "/conversion/net/fods-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "FODS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tif/"
+        - name: "FODS к TIF"
+          link: "/conversion/net/fods-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "FODS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tsv/"
+        - name: "FODS к TSV"
+          link: "/conversion/net/fods-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "FODS TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-txt/"
+        - name: "FODS к TXT"
+          link: "/conversion/net/fods-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "FODS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-webp/"
+        - name: "FODS к WEBP"
+          link: "/conversion/net/fods-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "FODS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-wmf/"
+        - name: "FODS к WMF"
+          link: "/conversion/net/fods-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "FODS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-wmz/"
+        - name: "FODS к WMZ"
+          link: "/conversion/net/fods-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "FODS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlam/"
+        - name: "FODS к XLAM"
+          link: "/conversion/net/fods-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xls/"
+        - name: "FODS к XLS"
+          link: "/conversion/net/fods-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "FODS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsb/"
+        - name: "FODS к XLSB"
+          link: "/conversion/net/fods-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "FODS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsm/"
+        - name: "FODS к XLSM"
+          link: "/conversion/net/fods-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsx/"
+        - name: "FODS к XLSX"
+          link: "/conversion/net/fods-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "FODS TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlt/"
+        - name: "FODS к XLT"
+          link: "/conversion/net/fods-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "FODS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xltm/"
+        - name: "FODS к XLTM"
+          link: "/conversion/net/fods-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xltx/"
+        - name: "FODS к XLTX"
+          link: "/conversion/net/fods-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "FODS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xps/"
+        - name: "FODS к XPS"
+          link: "/conversion/net/fods-to-xps/"
           description: "Спецификация документа Open XML"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

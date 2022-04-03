@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования WEBP в TIF в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла WEBP в TIF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла WEBP в TIF с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл WEBP с полным путем
         * Установите ConvertOptions для типа документа TIF
@@ -128,308 +128,308 @@ more_formats:
         Вы также можете конвертировать WEBP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WEBP TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-bmp/"
+        - name: "WEBP к BMP"
+          link: "/conversion/java/webp-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WEBP TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-csv/"
+        - name: "WEBP к CSV"
+          link: "/conversion/java/webp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WEBP TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-dcm/"
+        - name: "WEBP к DCM"
+          link: "/conversion/java/webp-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "WEBP TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-dif/"
+        - name: "WEBP к DIF"
+          link: "/conversion/java/webp-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "WEBP TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-doc/"
+        - name: "WEBP к DOC"
+          link: "/conversion/java/webp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WEBP TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-docm/"
+        - name: "WEBP к DOCM"
+          link: "/conversion/java/webp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEBP TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-docx/"
+        - name: "WEBP к DOCX"
+          link: "/conversion/java/webp-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WEBP TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-dot/"
+        - name: "WEBP к DOT"
+          link: "/conversion/java/webp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WEBP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-dotm/"
+        - name: "WEBP к DOTM"
+          link: "/conversion/java/webp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEBP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-dotx/"
+        - name: "WEBP к DOTX"
+          link: "/conversion/java/webp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WEBP TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-emf/"
+        - name: "WEBP к EMF"
+          link: "/conversion/java/webp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WEBP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-emz/"
+        - name: "WEBP к EMZ"
+          link: "/conversion/java/webp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WEBP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-epub/"
+        - name: "WEBP к EPUB"
+          link: "/conversion/java/webp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WEBP TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-fodp/"
+        - name: "WEBP к FODP"
+          link: "/conversion/java/webp-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "WEBP TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-fods/"
+        - name: "WEBP к FODS"
+          link: "/conversion/java/webp-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "WEBP TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-gif/"
+        - name: "WEBP к GIF"
+          link: "/conversion/java/webp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WEBP TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-htm/"
+        - name: "WEBP к HTM"
+          link: "/conversion/java/webp-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "WEBP TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-html/"
+        - name: "WEBP к HTML"
+          link: "/conversion/java/webp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WEBP TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-ico/"
+        - name: "WEBP к ICO"
+          link: "/conversion/java/webp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WEBP TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-jp2/"
+        - name: "WEBP к JP2"
+          link: "/conversion/java/webp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WEBP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-jpeg/"
+        - name: "WEBP к JPEG"
+          link: "/conversion/java/webp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WEBP TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-jpg/"
+        - name: "WEBP к JPG"
+          link: "/conversion/java/webp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WEBP TO MD"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-md/"
+        - name: "WEBP к MD"
+          link: "/conversion/java/webp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WEBP TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-mht/"
+        - name: "WEBP к MHT"
+          link: "/conversion/java/webp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WEBP TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-mhtml/"
+        - name: "WEBP к MHTML"
+          link: "/conversion/java/webp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WEBP TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-odp/"
+        - name: "WEBP к ODP"
+          link: "/conversion/java/webp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WEBP TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-ods/"
+        - name: "WEBP к ODS"
+          link: "/conversion/java/webp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WEBP TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-odt/"
+        - name: "WEBP к ODT"
+          link: "/conversion/java/webp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WEBP TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-otp/"
+        - name: "WEBP к OTP"
+          link: "/conversion/java/webp-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WEBP TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-ott/"
+        - name: "WEBP к OTT"
+          link: "/conversion/java/webp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WEBP TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-pdf/"
+        - name: "WEBP к PDF"
+          link: "/conversion/java/webp-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "WEBP TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-png/"
+        - name: "WEBP к PNG"
+          link: "/conversion/java/webp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WEBP TO POT"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-pot/"
+        - name: "WEBP к POT"
+          link: "/conversion/java/webp-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "WEBP TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-potm/"
+        - name: "WEBP к POTM"
+          link: "/conversion/java/webp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEBP TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-potx/"
+        - name: "WEBP к POTX"
+          link: "/conversion/java/webp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEBP TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-pps/"
+        - name: "WEBP к PPS"
+          link: "/conversion/java/webp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WEBP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-ppsm/"
+        - name: "WEBP к PPSM"
+          link: "/conversion/java/webp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WEBP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-ppsx/"
+        - name: "WEBP к PPSX"
+          link: "/conversion/java/webp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WEBP TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-ppt/"
+        - name: "WEBP к PPT"
+          link: "/conversion/java/webp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WEBP TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-pptm/"
+        - name: "WEBP к PPTM"
+          link: "/conversion/java/webp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WEBP TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-pptx/"
+        - name: "WEBP к PPTX"
+          link: "/conversion/java/webp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WEBP TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-psd/"
+        - name: "WEBP к PSD"
+          link: "/conversion/java/webp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WEBP TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-rtf/"
+        - name: "WEBP к RTF"
+          link: "/conversion/java/webp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WEBP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-svg/"
+        - name: "WEBP к SVG"
+          link: "/conversion/java/webp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WEBP TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-svgz/"
+        - name: "WEBP к SVGZ"
+          link: "/conversion/java/webp-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WEBP TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-sxc/"
+        - name: "WEBP к SXC"
+          link: "/conversion/java/webp-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "WEBP TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-tex/"
+        - name: "WEBP к TEX"
+          link: "/conversion/java/webp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WEBP TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-tiff/"
+        - name: "WEBP к TIFF"
+          link: "/conversion/java/webp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WEBP TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-tsv/"
+        - name: "WEBP к TSV"
+          link: "/conversion/java/webp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WEBP TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-txt/"
+        - name: "WEBP к TXT"
+          link: "/conversion/java/webp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WEBP TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-wmf/"
+        - name: "WEBP к WMF"
+          link: "/conversion/java/webp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WEBP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-wmz/"
+        - name: "WEBP к WMZ"
+          link: "/conversion/java/webp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WEBP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-xlam/"
+        - name: "WEBP к XLAM"
+          link: "/conversion/java/webp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEBP TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-xls/"
+        - name: "WEBP к XLS"
+          link: "/conversion/java/webp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WEBP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-xlsb/"
+        - name: "WEBP к XLSB"
+          link: "/conversion/java/webp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WEBP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-xlsm/"
+        - name: "WEBP к XLSM"
+          link: "/conversion/java/webp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEBP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-xlsx/"
+        - name: "WEBP к XLSX"
+          link: "/conversion/java/webp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WEBP TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-xlt/"
+        - name: "WEBP к XLT"
+          link: "/conversion/java/webp-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "WEBP TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-xltm/"
+        - name: "WEBP к XLTM"
+          link: "/conversion/java/webp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEBP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-xltx/"
+        - name: "WEBP к XLTX"
+          link: "/conversion/java/webp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WEBP TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/webp-to-xps/"
+        - name: "WEBP к XPS"
+          link: "/conversion/java/webp-to-xps/"
           description: "Спецификация документа Open XML"
 
 

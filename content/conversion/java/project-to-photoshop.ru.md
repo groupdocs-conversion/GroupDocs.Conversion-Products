@@ -5,11 +5,11 @@ date: 2022-03-01T15:18:51
 draft: false
 
 ############################# Head ############################
-head_title: "Преобразование PROJECT в PHOTOSHOP в Java — преобразование PROJECT в PHOTOSHOP"
-head_description: "Преобразуйте PROJECT в PHOTOSHOP на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Преобразование PROJECT в PHOкSHOP в Java — преобразование PROJECT в PHOкSHOP"
+head_description: "Преобразуйте PROJECT в PHOкSHOP на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов PROJECT в PHOTOSHOP на Java"
+title: "Преобразование файлов PROJECT в PHOкSHOP на Java"
 description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -58,18 +58,18 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования PROJECT в PHOTOSHOP в Java"
+    title_left: "Шаги для преобразования PROJECT в PHOкSHOP в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл PROJECT в PHOTOSHOP с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл PROJECT в PHOкSHOP с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл PROJECT с полным путем
-        * Установите ConvertOptions для типа документа PHOTOSHOP
-        * Вызовите метод convert() и передайте имя документа (полный путь) и формат (PHOTOSHOP) в качестве параметра
+        * Установите ConvertOptions для типа документа PHOкSHOP
+        * Вызовите метод convert() и передайте имя документа (полный путь) и формат (PHOкSHOP) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
@@ -84,9 +84,9 @@ steps:
         ```java
         // Загрузите исходный файл PROJECT для преобразования
         Converter converter = new Converter("input.project");
-        // Подготовьте параметры преобразования для целевого формата PHOTOSHOP
+        // Подготовьте параметры преобразования для целевого формата PHOкSHOP
         ConvertOptions convertOptions = new FileType().fromExtension("photoshop").getConvertOptions();
-        // Преобразование в формат PHOTOSHOP
+        // Преобразование в формат PHOкSHOP
         converter.convert("output.photoshop", convertOptions);
         
         ```
@@ -94,9 +94,9 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "PROJECT в PHOTOSHOP Живые демонстрации"
+    title: "PROJECT в PHOкSHOP Живые демонстрации"
     content: |
-        Преобразуйте PROJECT в PHOTOSHOP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
+        Преобразуйте PROJECT в PHOкSHOP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
         Живая демонстрация имеет следующие преимущества
         
 ############################# About Formats ############################
@@ -113,8 +113,8 @@ about_formats:
 
     format:
         # format loop
-        - icon: "far fa-file-PHOTOSHOP"
-          title: " О формате файла PHOTOSHOP"
+        - icon: "far fa-file-PHOкSHOP"
+          title: " О формате файла PHOкSHOP"
           content: |
             Представлен собственными форматами файлов Photoshop PSD и PSB, используемыми для графического дизайна и разработки. Файлы PSD и PSB могут включать в себя слои изображений, корректирующие слои, маски слоев, аннотации, информацию о файле, ключевые слова и другие графические элементы.
 
@@ -128,148 +128,148 @@ more_formats:
         Вы также можете конвертировать PROJECT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PROJECT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/project-to-doc/"
+        - name: "PROJECT к DOC"
+          link: "/conversion/java/project-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PROJECT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/project-to-dotm/"
+        - name: "PROJECT к DOTM"
+          link: "/conversion/java/project-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PROJECT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/project-to-dotx/"
+        - name: "PROJECT к DOTX"
+          link: "/conversion/java/project-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PROJECT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/project-to-emf/"
+        - name: "PROJECT к EMF"
+          link: "/conversion/java/project-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PROJECT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/project-to-gif/"
+        - name: "PROJECT к GIF"
+          link: "/conversion/java/project-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PROJECT TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/project-to-html/"
+        - name: "PROJECT к HTML"
+          link: "/conversion/java/project-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PROJECT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/project-to-ico/"
+        - name: "PROJECT к ICO"
+          link: "/conversion/java/project-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PROJECT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/project-to-odt/"
+        - name: "PROJECT к ODT"
+          link: "/conversion/java/project-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PROJECT TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/project-to-otp/"
+        - name: "PROJECT к OTP"
+          link: "/conversion/java/project-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PROJECT TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/project-to-pdf/"
+        - name: "PROJECT к PDF"
+          link: "/conversion/java/project-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PROJECT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/project-to-potm/"
+        - name: "PROJECT к POTM"
+          link: "/conversion/java/project-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PROJECT TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/project-to-potx/"
+        - name: "PROJECT к POTX"
+          link: "/conversion/java/project-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PROJECT TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/project-to-pps/"
+        - name: "PROJECT к PPS"
+          link: "/conversion/java/project-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PROJECT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/project-to-ppsx/"
+        - name: "PROJECT к PPSX"
+          link: "/conversion/java/project-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PROJECT TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/project-to-ppt/"
+        - name: "PROJECT к PPT"
+          link: "/conversion/java/project-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PROJECT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/project-to-rtf/"
+        - name: "PROJECT к RTF"
+          link: "/conversion/java/project-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PROJECT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/project-to-svg/"
+        - name: "PROJECT к SVG"
+          link: "/conversion/java/project-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PROJECT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/project-to-tex/"
+        - name: "PROJECT к TEX"
+          link: "/conversion/java/project-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PROJECT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/project-to-tif/"
+        - name: "PROJECT к TIF"
+          link: "/conversion/java/project-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PROJECT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/project-to-tiff/"
+        - name: "PROJECT к TIFF"
+          link: "/conversion/java/project-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PROJECT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/project-to-txt/"
+        - name: "PROJECT к TXT"
+          link: "/conversion/java/project-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PROJECT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/project-to-wmf/"
+        - name: "PROJECT к WMF"
+          link: "/conversion/java/project-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PROJECT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/project-to-wmz/"
+        - name: "PROJECT к WMZ"
+          link: "/conversion/java/project-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PROJECT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/project-to-xlam/"
+        - name: "PROJECT к XLAM"
+          link: "/conversion/java/project-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PROJECT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/project-to-xls/"
+        - name: "PROJECT к XLS"
+          link: "/conversion/java/project-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PROJECT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/project-to-xlsb/"
+        - name: "PROJECT к XLSB"
+          link: "/conversion/java/project-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PROJECT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/project-to-xlsx/"
+        - name: "PROJECT к XLSX"
+          link: "/conversion/java/project-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PROJECT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/project-to-xltm/"
+        - name: "PROJECT к XLTM"
+          link: "/conversion/java/project-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PROJECT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/project-to-xltx/"
+        - name: "PROJECT к XLTX"
+          link: "/conversion/java/project-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
 

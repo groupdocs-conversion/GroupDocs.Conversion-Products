@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию ONENOTE в IMAGE в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла ONENOTE в IMAGE с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла ONENOTE в IMAGE с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл ONENOTE с полным путем
         * Создайте и установите ConvertOptions для типа изображения
@@ -127,13 +127,13 @@ more_formats:
         Вы также можете конвертировать ONENOTE во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "ONENOTE TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/onenote-to-pdf/"
+        - name: "ONENOTE к PDF"
+          link: "/conversion/net/onenote-to-pdf/"
           description: "Портативный документ"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

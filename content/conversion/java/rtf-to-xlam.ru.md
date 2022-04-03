@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования RTF в XLAM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла RTF в XLAM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла RTF в XLAM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл RTF с полным путем
         * Установите ConvertOptions для типа документа XLAM
@@ -128,308 +128,308 @@ more_formats:
         Вы также можете конвертировать RTF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "RTF TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-bmp/"
+        - name: "RTF к BMP"
+          link: "/conversion/java/rtf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "RTF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-csv/"
+        - name: "RTF к CSV"
+          link: "/conversion/java/rtf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "RTF TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-dcm/"
+        - name: "RTF к DCM"
+          link: "/conversion/java/rtf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "RTF TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-dif/"
+        - name: "RTF к DIF"
+          link: "/conversion/java/rtf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "RTF TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-doc/"
+        - name: "RTF к DOC"
+          link: "/conversion/java/rtf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "RTF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-docm/"
+        - name: "RTF к DOCM"
+          link: "/conversion/java/rtf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "RTF TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-docx/"
+        - name: "RTF к DOCX"
+          link: "/conversion/java/rtf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "RTF TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-dot/"
+        - name: "RTF к DOT"
+          link: "/conversion/java/rtf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "RTF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-dotm/"
+        - name: "RTF к DOTM"
+          link: "/conversion/java/rtf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "RTF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-dotx/"
+        - name: "RTF к DOTX"
+          link: "/conversion/java/rtf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "RTF TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-emf/"
+        - name: "RTF к EMF"
+          link: "/conversion/java/rtf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "RTF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-emz/"
+        - name: "RTF к EMZ"
+          link: "/conversion/java/rtf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "RTF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-epub/"
+        - name: "RTF к EPUB"
+          link: "/conversion/java/rtf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "RTF TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-fodp/"
+        - name: "RTF к FODP"
+          link: "/conversion/java/rtf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "RTF TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-fods/"
+        - name: "RTF к FODS"
+          link: "/conversion/java/rtf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "RTF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-gif/"
+        - name: "RTF к GIF"
+          link: "/conversion/java/rtf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "RTF TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-htm/"
+        - name: "RTF к HTM"
+          link: "/conversion/java/rtf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "RTF TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-html/"
+        - name: "RTF к HTML"
+          link: "/conversion/java/rtf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "RTF TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-ico/"
+        - name: "RTF к ICO"
+          link: "/conversion/java/rtf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "RTF TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-jp2/"
+        - name: "RTF к JP2"
+          link: "/conversion/java/rtf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "RTF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-jpeg/"
+        - name: "RTF к JPEG"
+          link: "/conversion/java/rtf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "RTF TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-jpg/"
+        - name: "RTF к JPG"
+          link: "/conversion/java/rtf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "RTF TO MD"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-md/"
+        - name: "RTF к MD"
+          link: "/conversion/java/rtf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "RTF TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-mht/"
+        - name: "RTF к MHT"
+          link: "/conversion/java/rtf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "RTF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-mhtml/"
+        - name: "RTF к MHTML"
+          link: "/conversion/java/rtf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "RTF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-odp/"
+        - name: "RTF к ODP"
+          link: "/conversion/java/rtf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "RTF TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-ods/"
+        - name: "RTF к ODS"
+          link: "/conversion/java/rtf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "RTF TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-odt/"
+        - name: "RTF к ODT"
+          link: "/conversion/java/rtf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "RTF TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-otp/"
+        - name: "RTF к OTP"
+          link: "/conversion/java/rtf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "RTF TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-ott/"
+        - name: "RTF к OTT"
+          link: "/conversion/java/rtf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "RTF TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-pdf/"
+        - name: "RTF к PDF"
+          link: "/conversion/java/rtf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "RTF TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-png/"
+        - name: "RTF к PNG"
+          link: "/conversion/java/rtf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "RTF TO POT"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-pot/"
+        - name: "RTF к POT"
+          link: "/conversion/java/rtf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "RTF TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-potm/"
+        - name: "RTF к POTM"
+          link: "/conversion/java/rtf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "RTF TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-potx/"
+        - name: "RTF к POTX"
+          link: "/conversion/java/rtf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "RTF TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-pps/"
+        - name: "RTF к PPS"
+          link: "/conversion/java/rtf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "RTF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-ppsm/"
+        - name: "RTF к PPSM"
+          link: "/conversion/java/rtf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "RTF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-ppsx/"
+        - name: "RTF к PPSX"
+          link: "/conversion/java/rtf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "RTF TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-ppt/"
+        - name: "RTF к PPT"
+          link: "/conversion/java/rtf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "RTF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-pptm/"
+        - name: "RTF к PPTM"
+          link: "/conversion/java/rtf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "RTF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-pptx/"
+        - name: "RTF к PPTX"
+          link: "/conversion/java/rtf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "RTF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-psd/"
+        - name: "RTF к PSD"
+          link: "/conversion/java/rtf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "RTF TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-svg/"
+        - name: "RTF к SVG"
+          link: "/conversion/java/rtf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "RTF TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-svgz/"
+        - name: "RTF к SVGZ"
+          link: "/conversion/java/rtf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "RTF TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-sxc/"
+        - name: "RTF к SXC"
+          link: "/conversion/java/rtf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "RTF TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-tex/"
+        - name: "RTF к TEX"
+          link: "/conversion/java/rtf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "RTF TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-tif/"
+        - name: "RTF к TIF"
+          link: "/conversion/java/rtf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "RTF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-tiff/"
+        - name: "RTF к TIFF"
+          link: "/conversion/java/rtf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "RTF TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-tsv/"
+        - name: "RTF к TSV"
+          link: "/conversion/java/rtf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "RTF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-txt/"
+        - name: "RTF к TXT"
+          link: "/conversion/java/rtf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "RTF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-webp/"
+        - name: "RTF к WEBP"
+          link: "/conversion/java/rtf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "RTF TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-wmf/"
+        - name: "RTF к WMF"
+          link: "/conversion/java/rtf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "RTF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-wmz/"
+        - name: "RTF к WMZ"
+          link: "/conversion/java/rtf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "RTF TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-xls/"
+        - name: "RTF к XLS"
+          link: "/conversion/java/rtf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "RTF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-xlsb/"
+        - name: "RTF к XLSB"
+          link: "/conversion/java/rtf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "RTF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-xlsm/"
+        - name: "RTF к XLSM"
+          link: "/conversion/java/rtf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "RTF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-xlsx/"
+        - name: "RTF к XLSX"
+          link: "/conversion/java/rtf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "RTF TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-xlt/"
+        - name: "RTF к XLT"
+          link: "/conversion/java/rtf-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "RTF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-xltm/"
+        - name: "RTF к XLTM"
+          link: "/conversion/java/rtf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "RTF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-xltx/"
+        - name: "RTF к XLTX"
+          link: "/conversion/java/rtf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "RTF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/rtf-to-xps/"
+        - name: "RTF к XPS"
+          link: "/conversion/java/rtf-to-xps/"
           description: "Спецификация документа Open XML"
 
 

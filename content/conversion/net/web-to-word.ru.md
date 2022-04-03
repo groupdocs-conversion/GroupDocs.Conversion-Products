@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию WEB в WORD на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла WEB в формат WORD с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла WEB в формат WORD с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите WEB-файл с полным путем
         * Создайте и установите ConvertOptions для типа слова
@@ -127,43 +127,43 @@ more_formats:
         Вы также можете конвертировать WEB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WEB TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-docm/"
+        - name: "WEB к DOCM"
+          link: "/conversion/net/web-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-docx/"
+        - name: "WEB к DOCX"
+          link: "/conversion/net/web-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WEB TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/web-to-epub/"
+        - name: "WEB к EPUB"
+          link: "/conversion/net/web-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WEB TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/web-to-fods/"
+        - name: "WEB к FODS"
+          link: "/conversion/net/web-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "WEB TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/web-to-mhtml/"
+        - name: "WEB к MHTML"
+          link: "/conversion/net/web-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WEB TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-pdf/"
+        - name: "WEB к PDF"
+          link: "/conversion/net/web-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "WEB TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-potx/"
+        - name: "WEB к POTX"
+          link: "/conversion/net/web-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-pptx/"
+        - name: "WEB к PPTX"
+          link: "/conversion/net/web-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
 

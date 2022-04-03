@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию CF2 в EMZ в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла CF2 в EMZ с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла CF2 в EMZ с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл CF2 с полным путем
         * Создайте и установите ConvertOptions для типа emz
@@ -128,312 +128,312 @@ more_formats:
     format: 
         # format loop
         - name: "CF2 к BMP"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-bmp/"
+          link: "/conversion/net/cf2-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "CF2 к CSV"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-csv/"
+          link: "/conversion/net/cf2-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "CF2 к DCM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-dcm/"
+          link: "/conversion/net/cf2-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "CF2 к DIF"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-dif/"
+          link: "/conversion/net/cf2-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "CF2 к DOC"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-doc/"
+          link: "/conversion/net/cf2-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "CF2 к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-docm/"
+          link: "/conversion/net/cf2-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "CF2 к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-docx/"
+          link: "/conversion/net/cf2-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "CF2 к DOT"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-dot/"
+          link: "/conversion/net/cf2-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "CF2 к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-dotm/"
+          link: "/conversion/net/cf2-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "CF2 к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-dotx/"
+          link: "/conversion/net/cf2-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "CF2 к EMF"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-emf/"
+          link: "/conversion/net/cf2-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "CF2 к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-epub/"
+          link: "/conversion/net/cf2-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "CF2 к FODP"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-fodp/"
+          link: "/conversion/net/cf2-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "CF2 к FODS"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-fods/"
+          link: "/conversion/net/cf2-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "CF2 к GIF"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-gif/"
+          link: "/conversion/net/cf2-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "CF2 к HTM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-htm/"
+          link: "/conversion/net/cf2-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "CF2 к HTML"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-html/"
+          link: "/conversion/net/cf2-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "CF2 к ICO"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-ico/"
+          link: "/conversion/net/cf2-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "CF2 к JP2"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-jp2/"
+          link: "/conversion/net/cf2-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "CF2 к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-jpeg/"
+          link: "/conversion/net/cf2-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "CF2 к JPG"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-jpg/"
+          link: "/conversion/net/cf2-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "CF2 к MD"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-md/"
+          link: "/conversion/net/cf2-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "CF2 к MHT"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-mht/"
+          link: "/conversion/net/cf2-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "CF2 к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-mhtml/"
+          link: "/conversion/net/cf2-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "CF2 к ODP"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-odp/"
+          link: "/conversion/net/cf2-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "CF2 к ODS"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-ods/"
+          link: "/conversion/net/cf2-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "CF2 к ODT"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-odt/"
+          link: "/conversion/net/cf2-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "CF2 к OTP"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-otp/"
+          link: "/conversion/net/cf2-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "CF2 к OTT"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-ott/"
+          link: "/conversion/net/cf2-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "CF2 к PDF"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-pdf/"
+          link: "/conversion/net/cf2-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "CF2 к PNG"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-png/"
+          link: "/conversion/net/cf2-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "CF2 к POT"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-pot/"
+          link: "/conversion/net/cf2-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "CF2 к POTM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-potm/"
+          link: "/conversion/net/cf2-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "CF2 к POTX"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-potx/"
+          link: "/conversion/net/cf2-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "CF2 к PPS"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-pps/"
+          link: "/conversion/net/cf2-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "CF2 к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-ppsm/"
+          link: "/conversion/net/cf2-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "CF2 к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-ppsx/"
+          link: "/conversion/net/cf2-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "CF2 к PPT"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-ppt/"
+          link: "/conversion/net/cf2-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "CF2 к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-pptm/"
+          link: "/conversion/net/cf2-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "CF2 к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-pptx/"
+          link: "/conversion/net/cf2-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "CF2 к PSD"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-psd/"
+          link: "/conversion/net/cf2-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "CF2 к RTF"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-rtf/"
+          link: "/conversion/net/cf2-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "CF2 к SVG"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-svg/"
+          link: "/conversion/net/cf2-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "CF2 к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-svgz/"
+          link: "/conversion/net/cf2-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "CF2 к SXC"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-sxc/"
+          link: "/conversion/net/cf2-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "CF2 к TEX"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-tex/"
+          link: "/conversion/net/cf2-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "CF2 к TIF"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-tif/"
+          link: "/conversion/net/cf2-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "CF2 к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-tiff/"
+          link: "/conversion/net/cf2-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "CF2 к TSV"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-tsv/"
+          link: "/conversion/net/cf2-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "CF2 к TXT"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-txt/"
+          link: "/conversion/net/cf2-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "CF2 к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-webp/"
+          link: "/conversion/net/cf2-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "CF2 к WMF"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-wmf/"
+          link: "/conversion/net/cf2-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "CF2 к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-wmz/"
+          link: "/conversion/net/cf2-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "CF2 к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xlam/"
+          link: "/conversion/net/cf2-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "CF2 к XLS"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xls/"
+          link: "/conversion/net/cf2-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "CF2 к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xlsb/"
+          link: "/conversion/net/cf2-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "CF2 к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xlsm/"
+          link: "/conversion/net/cf2-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "CF2 к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xlsx/"
+          link: "/conversion/net/cf2-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "CF2 к XLT"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xlt/"
+          link: "/conversion/net/cf2-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "CF2 к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xltm/"
+          link: "/conversion/net/cf2-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "CF2 к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xltx/"
+          link: "/conversion/net/cf2-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "CF2 к XPS"
-          link: "https://products.groupdocs.com/conversion/java/cf2-to-xps/"
+          link: "/conversion/net/cf2-to-xps/"
           description: "Спецификация документа Open XML"
 
 

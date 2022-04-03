@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию PHOTOSHOP в POTX на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла PHOTOSHOP в POTX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла PHOTOSHOP в POTX с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл PHOTOSHOP с полным путем
         * Создайте и установите ConvertOptions для типа potx
@@ -127,8 +127,8 @@ more_formats:
         Вы также можете конвертировать PHOTOSHOP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PHOTOSHOP TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/photoshop-to-pdf/"
+        - name: "PHOTOSHOP к PDF"
+          link: "/conversion/net/photoshop-to-pdf/"
           description: "Портативный документ"
 
 

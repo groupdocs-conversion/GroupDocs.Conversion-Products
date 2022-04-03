@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию XLTM в XLTM в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла XLTM в XLTM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла XLTM в XLTM с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл XLTM с полным путем
         * Создайте и установите ConvertOptions для типа xltm
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать XLTM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "XLTM TO EPUB"
+        - name: "XLTM к EPUB"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "XLTM TO XPS"
+        - name: "XLTM к XPS"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "XLTM TO TEX"
+        - name: "XLTM к TEX"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "XLTM TO PPT"
+        - name: "XLTM к PPT"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "XLTM TO PPS"
+        - name: "XLTM к PPS"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLTM TO PPTX"
+        - name: "XLTM к PPTX"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "XLTM TO PPSX"
+        - name: "XLTM к PPSX"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "XLTM TO ODP"
+        - name: "XLTM к ODP"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "XLTM TO OTP"
+        - name: "XLTM к OTP"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "XLTM TO POTX"
+        - name: "XLTM к POTX"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLTM TO POTM"
+        - name: "XLTM к POTM"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLTM TO PPTM"
+        - name: "XLTM к PPTM"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "XLTM TO PPSM"
+        - name: "XLTM к PPSM"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLTM TO XLS"
+        - name: "XLTM к XLS"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "XLTM TO XLSX"
+        - name: "XLTM к XLSX"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "XLTM TO XLSM"
+        - name: "XLTM к XLSM"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLTM TO XLSB"
+        - name: "XLTM к XLSB"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "XLTM TO ODS"
+        - name: "XLTM к ODS"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "XLTM TO XLTX"
+        - name: "XLTM к XLTX"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLTM TO XLTM"
+        - name: "XLTM к XLTM"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLTM TO TSV"
+        - name: "XLTM к TSV"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "XLTM TO XLAM"
+        - name: "XLTM к XLAM"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLTM TO CSV"
+        - name: "XLTM к CSV"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "XLTM TO DOC"
+        - name: "XLTM к DOC"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "XLTM TO DOCM"
+        - name: "XLTM к DOCM"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLTM TO XLTM"
+        - name: "XLTM к XLTM"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-xltm/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "XLTM TO DOT"
+        - name: "XLTM к DOT"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "XLTM TO DOTM"
+        - name: "XLTM к DOTM"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLTM TO DOTX"
+        - name: "XLTM к DOTX"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "XLTM TO RTF"
+        - name: "XLTM к RTF"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "XLTM TO ODT"
+        - name: "XLTM к ODT"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "XLTM TO OTT"
+        - name: "XLTM к OTT"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "XLTM TO TXT"
+        - name: "XLTM к TXT"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "XLTM TO MD"
+        - name: "XLTM к MD"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "XLTM TO TIFF"
+        - name: "XLTM к TIFF"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLTM TO TIF"
+        - name: "XLTM к TIF"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLTM TO JPG"
+        - name: "XLTM к JPG"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "XLTM TO JPEG"
+        - name: "XLTM к JPEG"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "XLTM TO PNG"
+        - name: "XLTM к PNG"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "XLTM TO GIF"
+        - name: "XLTM к GIF"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "XLTM TO BMP"
+        - name: "XLTM к BMP"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "XLTM TO ICO"
+        - name: "XLTM к ICO"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "XLTM TO PSD"
+        - name: "XLTM к PSD"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "XLTM TO WMF"
+        - name: "XLTM к WMF"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "XLTM TO EMF"
+        - name: "XLTM к EMF"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "XLTM TO WEBP"
+        - name: "XLTM к WEBP"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "XLTM TO SVG"
+        - name: "XLTM к SVG"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLTM TO JP2"
+        - name: "XLTM к JP2"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "XLTM TO EMZ"
+        - name: "XLTM к EMZ"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "XLTM TO WMZ"
+        - name: "XLTM к WMZ"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "XLTM TO HTML"
+        - name: "XLTM к HTML"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "XLTM TO MHT"
+        - name: "XLTM к MHT"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLTM TO MHTML"
+        - name: "XLTM к MHTML"
           link: "https://products.groupdocs.com/conversion/net/xltm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

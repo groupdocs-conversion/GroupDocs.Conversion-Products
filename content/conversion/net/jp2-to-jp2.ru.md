@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги для преобразования JP2 в JP2 в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла JP2 в JP2 с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла JP2 в JP2 с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл JP2 с полным путем
         * Создайте и установите ConvertOptions для типа jp2
@@ -127,272 +127,272 @@ more_formats:
         Вы также можете конвертировать JP2 во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JP2 TO EPUB"
+        - name: "JP2 к EPUB"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JP2 TO XPS"
+        - name: "JP2 к XPS"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "JP2 TO TEX"
+        - name: "JP2 к TEX"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JP2 TO PPT"
+        - name: "JP2 к PPT"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JP2 TO PPS"
+        - name: "JP2 к PPS"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JP2 TO PPTX"
+        - name: "JP2 к PPTX"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JP2 TO PPSX"
+        - name: "JP2 к PPSX"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JP2 TO ODP"
+        - name: "JP2 к ODP"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JP2 TO OTP"
+        - name: "JP2 к OTP"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "JP2 TO POTX"
+        - name: "JP2 к POTX"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JP2 TO POTM"
+        - name: "JP2 к POTM"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JP2 TO PPTM"
+        - name: "JP2 к PPTM"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JP2 TO PPSM"
+        - name: "JP2 к PPSM"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JP2 TO XLS"
+        - name: "JP2 к XLS"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JP2 TO XLSX"
+        - name: "JP2 к XLSX"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JP2 TO XLSM"
+        - name: "JP2 к XLSM"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JP2 TO XLSB"
+        - name: "JP2 к XLSB"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JP2 TO ODS"
+        - name: "JP2 к ODS"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JP2 TO XLTX"
+        - name: "JP2 к XLTX"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JP2 TO XLTM"
+        - name: "JP2 к XLTM"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JP2 TO TSV"
+        - name: "JP2 к TSV"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "JP2 TO XLAM"
+        - name: "JP2 к XLAM"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JP2 TO CSV"
+        - name: "JP2 к CSV"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "JP2 TO DOC"
+        - name: "JP2 к DOC"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JP2 TO DOCM"
+        - name: "JP2 к DOCM"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JP2 TO JP2"
+        - name: "JP2 к JP2"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-jp2/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JP2 TO DOT"
+        - name: "JP2 к DOT"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JP2 TO DOTM"
+        - name: "JP2 к DOTM"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JP2 TO DOTX"
+        - name: "JP2 к DOTX"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JP2 TO RTF"
+        - name: "JP2 к RTF"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JP2 TO ODT"
+        - name: "JP2 к ODT"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JP2 TO OTT"
+        - name: "JP2 к OTT"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JP2 TO TXT"
+        - name: "JP2 к TXT"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JP2 TO MD"
+        - name: "JP2 к MD"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JP2 TO TIFF"
+        - name: "JP2 к TIFF"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JP2 TO TIF"
+        - name: "JP2 к TIF"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JP2 TO JPG"
+        - name: "JP2 к JPG"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JP2 TO JPEG"
+        - name: "JP2 к JPEG"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "JP2 TO PNG"
+        - name: "JP2 к PNG"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JP2 TO GIF"
+        - name: "JP2 к GIF"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "JP2 TO BMP"
+        - name: "JP2 к BMP"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JP2 TO ICO"
+        - name: "JP2 к ICO"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JP2 TO PSD"
+        - name: "JP2 к PSD"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JP2 TO WMF"
+        - name: "JP2 к WMF"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JP2 TO EMF"
+        - name: "JP2 к EMF"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JP2 TO WEBP"
+        - name: "JP2 к WEBP"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JP2 TO SVG"
+        - name: "JP2 к SVG"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JP2 TO JP2"
+        - name: "JP2 к JP2"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "JP2 TO EMZ"
+        - name: "JP2 к EMZ"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JP2 TO WMZ"
+        - name: "JP2 к WMZ"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JP2 TO HTML"
+        - name: "JP2 к HTML"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "JP2 TO MHT"
+        - name: "JP2 к MHT"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JP2 TO MHTML"
+        - name: "JP2 к MHTML"
           link: "https://products.groupdocs.com/conversion/net/jp2-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

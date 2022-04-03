@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию MHTML в CSV на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла MHTML в CSV с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла MHTML в CSV с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл MHTML с полным путем
         * Создайте и установите ConvertOptions для типа csv
@@ -127,308 +127,308 @@ more_formats:
         Вы также можете конвертировать MHTML во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MHTML TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-bmp/"
+        - name: "MHTML к BMP"
+          link: "/conversion/net/mhtml-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MHTML TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-dcm/"
+        - name: "MHTML к DCM"
+          link: "/conversion/net/mhtml-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MHTML TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-dif/"
+        - name: "MHTML к DIF"
+          link: "/conversion/net/mhtml-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MHTML TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-doc/"
+        - name: "MHTML к DOC"
+          link: "/conversion/net/mhtml-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MHTML TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-docm/"
+        - name: "MHTML к DOCM"
+          link: "/conversion/net/mhtml-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MHTML TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-docx/"
+        - name: "MHTML к DOCX"
+          link: "/conversion/net/mhtml-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MHTML TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-dot/"
+        - name: "MHTML к DOT"
+          link: "/conversion/net/mhtml-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MHTML TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-dotm/"
+        - name: "MHTML к DOTM"
+          link: "/conversion/net/mhtml-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MHTML TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-dotx/"
+        - name: "MHTML к DOTX"
+          link: "/conversion/net/mhtml-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MHTML TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-emf/"
+        - name: "MHTML к EMF"
+          link: "/conversion/net/mhtml-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MHTML TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-emz/"
+        - name: "MHTML к EMZ"
+          link: "/conversion/net/mhtml-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MHTML TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-epub/"
+        - name: "MHTML к EPUB"
+          link: "/conversion/net/mhtml-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MHTML TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-fodp/"
+        - name: "MHTML к FODP"
+          link: "/conversion/net/mhtml-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MHTML TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-fods/"
+        - name: "MHTML к FODS"
+          link: "/conversion/net/mhtml-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MHTML TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-gif/"
+        - name: "MHTML к GIF"
+          link: "/conversion/net/mhtml-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MHTML TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-htm/"
+        - name: "MHTML к HTM"
+          link: "/conversion/net/mhtml-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MHTML TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-html/"
+        - name: "MHTML к HTML"
+          link: "/conversion/net/mhtml-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MHTML TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ico/"
+        - name: "MHTML к ICO"
+          link: "/conversion/net/mhtml-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MHTML TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-jp2/"
+        - name: "MHTML к JP2"
+          link: "/conversion/net/mhtml-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MHTML TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-jpeg/"
+        - name: "MHTML к JPEG"
+          link: "/conversion/net/mhtml-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MHTML TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-jpg/"
+        - name: "MHTML к JPG"
+          link: "/conversion/net/mhtml-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MHTML TO MD"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-md/"
+        - name: "MHTML к MD"
+          link: "/conversion/net/mhtml-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MHTML TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-mht/"
+        - name: "MHTML к MHT"
+          link: "/conversion/net/mhtml-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MHTML TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-odp/"
+        - name: "MHTML к ODP"
+          link: "/conversion/net/mhtml-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MHTML TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ods/"
+        - name: "MHTML к ODS"
+          link: "/conversion/net/mhtml-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MHTML TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-odt/"
+        - name: "MHTML к ODT"
+          link: "/conversion/net/mhtml-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MHTML TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-otp/"
+        - name: "MHTML к OTP"
+          link: "/conversion/net/mhtml-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MHTML TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ott/"
+        - name: "MHTML к OTT"
+          link: "/conversion/net/mhtml-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MHTML TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-pdf/"
+        - name: "MHTML к PDF"
+          link: "/conversion/net/mhtml-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MHTML TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-png/"
+        - name: "MHTML к PNG"
+          link: "/conversion/net/mhtml-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MHTML TO POT"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-pot/"
+        - name: "MHTML к POT"
+          link: "/conversion/net/mhtml-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MHTML TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-potm/"
+        - name: "MHTML к POTM"
+          link: "/conversion/net/mhtml-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MHTML TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-potx/"
+        - name: "MHTML к POTX"
+          link: "/conversion/net/mhtml-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MHTML TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-pps/"
+        - name: "MHTML к PPS"
+          link: "/conversion/net/mhtml-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MHTML TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ppsm/"
+        - name: "MHTML к PPSM"
+          link: "/conversion/net/mhtml-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MHTML TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ppsx/"
+        - name: "MHTML к PPSX"
+          link: "/conversion/net/mhtml-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MHTML TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-ppt/"
+        - name: "MHTML к PPT"
+          link: "/conversion/net/mhtml-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MHTML TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-pptm/"
+        - name: "MHTML к PPTM"
+          link: "/conversion/net/mhtml-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MHTML TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-pptx/"
+        - name: "MHTML к PPTX"
+          link: "/conversion/net/mhtml-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MHTML TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-psd/"
+        - name: "MHTML к PSD"
+          link: "/conversion/net/mhtml-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MHTML TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-rtf/"
+        - name: "MHTML к RTF"
+          link: "/conversion/net/mhtml-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MHTML TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-svg/"
+        - name: "MHTML к SVG"
+          link: "/conversion/net/mhtml-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MHTML TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-svgz/"
+        - name: "MHTML к SVGZ"
+          link: "/conversion/net/mhtml-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MHTML TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-sxc/"
+        - name: "MHTML к SXC"
+          link: "/conversion/net/mhtml-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MHTML TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-tex/"
+        - name: "MHTML к TEX"
+          link: "/conversion/net/mhtml-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MHTML TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-tif/"
+        - name: "MHTML к TIF"
+          link: "/conversion/net/mhtml-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MHTML TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-tiff/"
+        - name: "MHTML к TIFF"
+          link: "/conversion/net/mhtml-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MHTML TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-tsv/"
+        - name: "MHTML к TSV"
+          link: "/conversion/net/mhtml-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MHTML TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-txt/"
+        - name: "MHTML к TXT"
+          link: "/conversion/net/mhtml-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MHTML TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-webp/"
+        - name: "MHTML к WEBP"
+          link: "/conversion/net/mhtml-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MHTML TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-wmf/"
+        - name: "MHTML к WMF"
+          link: "/conversion/net/mhtml-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MHTML TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-wmz/"
+        - name: "MHTML к WMZ"
+          link: "/conversion/net/mhtml-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MHTML TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xlam/"
+        - name: "MHTML к XLAM"
+          link: "/conversion/net/mhtml-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MHTML TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xls/"
+        - name: "MHTML к XLS"
+          link: "/conversion/net/mhtml-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MHTML TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xlsb/"
+        - name: "MHTML к XLSB"
+          link: "/conversion/net/mhtml-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MHTML TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xlsm/"
+        - name: "MHTML к XLSM"
+          link: "/conversion/net/mhtml-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MHTML TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xlsx/"
+        - name: "MHTML к XLSX"
+          link: "/conversion/net/mhtml-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MHTML TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xlt/"
+        - name: "MHTML к XLT"
+          link: "/conversion/net/mhtml-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MHTML TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xltm/"
+        - name: "MHTML к XLTM"
+          link: "/conversion/net/mhtml-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MHTML TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xltx/"
+        - name: "MHTML к XLTX"
+          link: "/conversion/net/mhtml-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MHTML TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mhtml-to-xps/"
+        - name: "MHTML к XPS"
+          link: "/conversion/net/mhtml-to-xps/"
           description: "Спецификация документа Open XML"
 
 

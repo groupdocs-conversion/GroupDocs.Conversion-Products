@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию DOTX в TIF на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла DOTX в TIF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла DOTX в TIF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DOTX с полным путем
         * Создайте и установите ConvertOptions для типа tif
@@ -127,318 +127,318 @@ more_formats:
         Вы также можете конвертировать DOTX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DOTX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-bmp/"
+        - name: "DOTX к BMP"
+          link: "/conversion/net/dotx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DOTX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-csv/"
+        - name: "DOTX к CSV"
+          link: "/conversion/net/dotx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DOTX TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-dcm/"
+        - name: "DOTX к DCM"
+          link: "/conversion/net/dotx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DOTX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-dif/"
+        - name: "DOTX к DIF"
+          link: "/conversion/net/dotx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DOTX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-doc/"
+        - name: "DOTX к DOC"
+          link: "/conversion/net/dotx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DOTX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-docm/"
+        - name: "DOTX к DOCM"
+          link: "/conversion/net/dotx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOTX TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-docx/"
+        - name: "DOTX к DOCX"
+          link: "/conversion/net/dotx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DOTX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-dot/"
+        - name: "DOTX к DOT"
+          link: "/conversion/net/dotx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DOTX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-dotm/"
+        - name: "DOTX к DOTM"
+          link: "/conversion/net/dotx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOTX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-emf/"
+        - name: "DOTX к EMF"
+          link: "/conversion/net/dotx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DOTX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-emz/"
+        - name: "DOTX к EMZ"
+          link: "/conversion/net/dotx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DOTX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-epub/"
+        - name: "DOTX к EPUB"
+          link: "/conversion/net/dotx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DOTX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-fodp/"
+        - name: "DOTX к FODP"
+          link: "/conversion/net/dotx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DOTX TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-fods/"
+        - name: "DOTX к FODS"
+          link: "/conversion/net/dotx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DOTX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-gif/"
+        - name: "DOTX к GIF"
+          link: "/conversion/net/dotx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DOTX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-htm/"
+        - name: "DOTX к HTM"
+          link: "/conversion/net/dotx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DOTX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-html/"
+        - name: "DOTX к HTML"
+          link: "/conversion/net/dotx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DOTX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-ico/"
+        - name: "DOTX к ICO"
+          link: "/conversion/net/dotx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DOTX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-jp2/"
+        - name: "DOTX к JP2"
+          link: "/conversion/net/dotx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DOTX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-jpeg/"
+        - name: "DOTX к JPEG"
+          link: "/conversion/net/dotx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DOTX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-jpg/"
+        - name: "DOTX к JPG"
+          link: "/conversion/net/dotx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DOTX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-md/"
+        - name: "DOTX к MD"
+          link: "/conversion/net/dotx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DOTX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-mht/"
+        - name: "DOTX к MHT"
+          link: "/conversion/net/dotx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOTX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-mhtml/"
+        - name: "DOTX к MHTML"
+          link: "/conversion/net/dotx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOTX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-odp/"
+        - name: "DOTX к ODP"
+          link: "/conversion/net/dotx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DOTX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-ods/"
+        - name: "DOTX к ODS"
+          link: "/conversion/net/dotx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DOTX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-odt/"
+        - name: "DOTX к ODT"
+          link: "/conversion/net/dotx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DOTX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-otp/"
+        - name: "DOTX к OTP"
+          link: "/conversion/net/dotx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DOTX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-ott/"
+        - name: "DOTX к OTT"
+          link: "/conversion/net/dotx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DOTX TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-pdf/"
+        - name: "DOTX к PDF"
+          link: "/conversion/net/dotx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DOTX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-png/"
+        - name: "DOTX к PNG"
+          link: "/conversion/net/dotx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DOTX TO POT"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-pot/"
+        - name: "DOTX к POT"
+          link: "/conversion/net/dotx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DOTX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-potm/"
+        - name: "DOTX к POTM"
+          link: "/conversion/net/dotx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-potx/"
+        - name: "DOTX к POTX"
+          link: "/conversion/net/dotx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-pps/"
+        - name: "DOTX к PPS"
+          link: "/conversion/net/dotx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-ppsm/"
+        - name: "DOTX к PPSM"
+          link: "/conversion/net/dotx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-ppsx/"
+        - name: "DOTX к PPSX"
+          link: "/conversion/net/dotx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DOTX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-ppt/"
+        - name: "DOTX к PPT"
+          link: "/conversion/net/dotx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DOTX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-pptm/"
+        - name: "DOTX к PPTM"
+          link: "/conversion/net/dotx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-pptx/"
+        - name: "DOTX к PPTX"
+          link: "/conversion/net/dotx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DOTX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-psd/"
+        - name: "DOTX к PSD"
+          link: "/conversion/net/dotx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DOTX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-rtf/"
+        - name: "DOTX к RTF"
+          link: "/conversion/net/dotx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DOTX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-svg/"
+        - name: "DOTX к SVG"
+          link: "/conversion/net/dotx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOTX TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-svgz/"
+        - name: "DOTX к SVGZ"
+          link: "/conversion/net/dotx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOTX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-sxc/"
+        - name: "DOTX к SXC"
+          link: "/conversion/net/dotx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DOTX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-tex/"
+        - name: "DOTX к TEX"
+          link: "/conversion/net/dotx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DOTX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-tiff/"
+        - name: "DOTX к TIFF"
+          link: "/conversion/net/dotx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOTX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-tsv/"
+        - name: "DOTX к TSV"
+          link: "/conversion/net/dotx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DOTX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-txt/"
+        - name: "DOTX к TXT"
+          link: "/conversion/net/dotx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DOTX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-webp/"
+        - name: "DOTX к WEBP"
+          link: "/conversion/net/dotx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DOTX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-wmf/"
+        - name: "DOTX к WMF"
+          link: "/conversion/net/dotx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DOTX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-wmz/"
+        - name: "DOTX к WMZ"
+          link: "/conversion/net/dotx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DOTX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xlam/"
+        - name: "DOTX к XLAM"
+          link: "/conversion/net/dotx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xls/"
+        - name: "DOTX к XLS"
+          link: "/conversion/net/dotx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DOTX TO XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xls2003/"
+        - name: "DOTX к XLS2003"
+          link: "/conversion/net/dotx-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "DOTX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xlsb/"
+        - name: "DOTX к XLSB"
+          link: "/conversion/net/dotx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DOTX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xlsm/"
+        - name: "DOTX к XLSM"
+          link: "/conversion/net/dotx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xlsx/"
+        - name: "DOTX к XLSX"
+          link: "/conversion/net/dotx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DOTX TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xlt/"
+        - name: "DOTX к XLT"
+          link: "/conversion/net/dotx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOTX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xltm/"
+        - name: "DOTX к XLTM"
+          link: "/conversion/net/dotx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xltx/"
+        - name: "DOTX к XLTX"
+          link: "/conversion/net/dotx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOTX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dotx-to-xps/"
+        - name: "DOTX к XPS"
+          link: "/conversion/net/dotx-to-xps/"
           description: "Спецификация документа Open XML"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию TEX в TEX на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл TEX в TEX, используя несколько строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл TEX в TEX, используя несколько строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл TEX с полным путем
         * Создайте и установите ConvertOptions для типа tex
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать TEX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "TEX TO EPUB"
+        - name: "TEX к EPUB"
           link: "https://products.groupdocs.com/conversion/net/tex-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "TEX TO XPS"
+        - name: "TEX к XPS"
           link: "https://products.groupdocs.com/conversion/net/tex-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "TEX TO TEX"
+        - name: "TEX к TEX"
           link: "https://products.groupdocs.com/conversion/net/tex-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "TEX TO PPT"
+        - name: "TEX к PPT"
           link: "https://products.groupdocs.com/conversion/net/tex-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "TEX TO PPS"
+        - name: "TEX к PPS"
           link: "https://products.groupdocs.com/conversion/net/tex-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TEX TO PPTX"
+        - name: "TEX к PPTX"
           link: "https://products.groupdocs.com/conversion/net/tex-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "TEX TO PPSX"
+        - name: "TEX к PPSX"
           link: "https://products.groupdocs.com/conversion/net/tex-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "TEX TO ODP"
+        - name: "TEX к ODP"
           link: "https://products.groupdocs.com/conversion/net/tex-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "TEX TO OTP"
+        - name: "TEX к OTP"
           link: "https://products.groupdocs.com/conversion/net/tex-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "TEX TO POTX"
+        - name: "TEX к POTX"
           link: "https://products.groupdocs.com/conversion/net/tex-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TEX TO POTM"
+        - name: "TEX к POTM"
           link: "https://products.groupdocs.com/conversion/net/tex-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TEX TO PPTM"
+        - name: "TEX к PPTM"
           link: "https://products.groupdocs.com/conversion/net/tex-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "TEX TO PPSM"
+        - name: "TEX к PPSM"
           link: "https://products.groupdocs.com/conversion/net/tex-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TEX TO XLS"
+        - name: "TEX к XLS"
           link: "https://products.groupdocs.com/conversion/net/tex-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "TEX TO XLSX"
+        - name: "TEX к XLSX"
           link: "https://products.groupdocs.com/conversion/net/tex-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "TEX TO XLSM"
+        - name: "TEX к XLSM"
           link: "https://products.groupdocs.com/conversion/net/tex-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TEX TO XLSB"
+        - name: "TEX к XLSB"
           link: "https://products.groupdocs.com/conversion/net/tex-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "TEX TO ODS"
+        - name: "TEX к ODS"
           link: "https://products.groupdocs.com/conversion/net/tex-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "TEX TO XLTX"
+        - name: "TEX к XLTX"
           link: "https://products.groupdocs.com/conversion/net/tex-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "TEX TO XLTM"
+        - name: "TEX к XLTM"
           link: "https://products.groupdocs.com/conversion/net/tex-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TEX TO TSV"
+        - name: "TEX к TSV"
           link: "https://products.groupdocs.com/conversion/net/tex-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "TEX TO XLAM"
+        - name: "TEX к XLAM"
           link: "https://products.groupdocs.com/conversion/net/tex-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TEX TO CSV"
+        - name: "TEX к CSV"
           link: "https://products.groupdocs.com/conversion/net/tex-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "TEX TO DOC"
+        - name: "TEX к DOC"
           link: "https://products.groupdocs.com/conversion/net/tex-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "TEX TO DOCM"
+        - name: "TEX к DOCM"
           link: "https://products.groupdocs.com/conversion/net/tex-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TEX TO TEX"
+        - name: "TEX к TEX"
           link: "https://products.groupdocs.com/conversion/net/tex-to-tex/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "TEX TO DOT"
+        - name: "TEX к DOT"
           link: "https://products.groupdocs.com/conversion/net/tex-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "TEX TO DOTM"
+        - name: "TEX к DOTM"
           link: "https://products.groupdocs.com/conversion/net/tex-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TEX TO DOTX"
+        - name: "TEX к DOTX"
           link: "https://products.groupdocs.com/conversion/net/tex-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "TEX TO RTF"
+        - name: "TEX к RTF"
           link: "https://products.groupdocs.com/conversion/net/tex-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "TEX TO ODT"
+        - name: "TEX к ODT"
           link: "https://products.groupdocs.com/conversion/net/tex-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "TEX TO OTT"
+        - name: "TEX к OTT"
           link: "https://products.groupdocs.com/conversion/net/tex-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "TEX TO TXT"
+        - name: "TEX к TXT"
           link: "https://products.groupdocs.com/conversion/net/tex-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "TEX TO MD"
+        - name: "TEX к MD"
           link: "https://products.groupdocs.com/conversion/net/tex-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "TEX TO TIFF"
+        - name: "TEX к TIFF"
           link: "https://products.groupdocs.com/conversion/net/tex-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TEX TO TIF"
+        - name: "TEX к TIF"
           link: "https://products.groupdocs.com/conversion/net/tex-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TEX TO JPG"
+        - name: "TEX к JPG"
           link: "https://products.groupdocs.com/conversion/net/tex-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "TEX TO JPEG"
+        - name: "TEX к JPEG"
           link: "https://products.groupdocs.com/conversion/net/tex-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "TEX TO PNG"
+        - name: "TEX к PNG"
           link: "https://products.groupdocs.com/conversion/net/tex-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "TEX TO GIF"
+        - name: "TEX к GIF"
           link: "https://products.groupdocs.com/conversion/net/tex-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "TEX TO BMP"
+        - name: "TEX к BMP"
           link: "https://products.groupdocs.com/conversion/net/tex-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "TEX TO ICO"
+        - name: "TEX к ICO"
           link: "https://products.groupdocs.com/conversion/net/tex-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "TEX TO PSD"
+        - name: "TEX к PSD"
           link: "https://products.groupdocs.com/conversion/net/tex-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "TEX TO WMF"
+        - name: "TEX к WMF"
           link: "https://products.groupdocs.com/conversion/net/tex-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "TEX TO EMF"
+        - name: "TEX к EMF"
           link: "https://products.groupdocs.com/conversion/net/tex-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "TEX TO WEBP"
+        - name: "TEX к WEBP"
           link: "https://products.groupdocs.com/conversion/net/tex-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "TEX TO SVG"
+        - name: "TEX к SVG"
           link: "https://products.groupdocs.com/conversion/net/tex-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TEX TO JP2"
+        - name: "TEX к JP2"
           link: "https://products.groupdocs.com/conversion/net/tex-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "TEX TO EMZ"
+        - name: "TEX к EMZ"
           link: "https://products.groupdocs.com/conversion/net/tex-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "TEX TO WMZ"
+        - name: "TEX к WMZ"
           link: "https://products.groupdocs.com/conversion/net/tex-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "TEX TO HTML"
+        - name: "TEX к HTML"
           link: "https://products.groupdocs.com/conversion/net/tex-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "TEX TO MHT"
+        - name: "TEX к MHT"
           link: "https://products.groupdocs.com/conversion/net/tex-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TEX TO MHTML"
+        - name: "TEX к MHTML"
           link: "https://products.groupdocs.com/conversion/net/tex-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования EPS в POTM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла EPS в POTM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла EPS в POTM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл EPS с полным путем
         * Установите ConvertOptions для типа документа POTM
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать EPS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EPS TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-bmp/"
+        - name: "EPS к BMP"
+          link: "/conversion/java/eps-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EPS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-csv/"
+        - name: "EPS к CSV"
+          link: "/conversion/java/eps-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EPS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-dcm/"
+        - name: "EPS к DCM"
+          link: "/conversion/java/eps-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "EPS TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-dif/"
+        - name: "EPS к DIF"
+          link: "/conversion/java/eps-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "EPS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-doc/"
+        - name: "EPS к DOC"
+          link: "/conversion/java/eps-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EPS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-docm/"
+        - name: "EPS к DOCM"
+          link: "/conversion/java/eps-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EPS TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-docx/"
+        - name: "EPS к DOCX"
+          link: "/conversion/java/eps-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EPS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-dot/"
+        - name: "EPS к DOT"
+          link: "/conversion/java/eps-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EPS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-dotm/"
+        - name: "EPS к DOTM"
+          link: "/conversion/java/eps-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EPS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-dotx/"
+        - name: "EPS к DOTX"
+          link: "/conversion/java/eps-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EPS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-emf/"
+        - name: "EPS к EMF"
+          link: "/conversion/java/eps-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EPS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-emz/"
+        - name: "EPS к EMZ"
+          link: "/conversion/java/eps-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EPS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-epub/"
+        - name: "EPS к EPUB"
+          link: "/conversion/java/eps-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EPS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-fodp/"
+        - name: "EPS к FODP"
+          link: "/conversion/java/eps-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "EPS TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-fods/"
+        - name: "EPS к FODS"
+          link: "/conversion/java/eps-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "EPS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-gif/"
+        - name: "EPS к GIF"
+          link: "/conversion/java/eps-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EPS TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-htm/"
+        - name: "EPS к HTM"
+          link: "/conversion/java/eps-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "EPS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-html/"
+        - name: "EPS к HTML"
+          link: "/conversion/java/eps-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EPS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-ico/"
+        - name: "EPS к ICO"
+          link: "/conversion/java/eps-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EPS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-jp2/"
+        - name: "EPS к JP2"
+          link: "/conversion/java/eps-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EPS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-jpeg/"
+        - name: "EPS к JPEG"
+          link: "/conversion/java/eps-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EPS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-jpg/"
+        - name: "EPS к JPG"
+          link: "/conversion/java/eps-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EPS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-md/"
+        - name: "EPS к MD"
+          link: "/conversion/java/eps-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EPS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-mht/"
+        - name: "EPS к MHT"
+          link: "/conversion/java/eps-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EPS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-mhtml/"
+        - name: "EPS к MHTML"
+          link: "/conversion/java/eps-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EPS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-odp/"
+        - name: "EPS к ODP"
+          link: "/conversion/java/eps-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EPS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-ods/"
+        - name: "EPS к ODS"
+          link: "/conversion/java/eps-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EPS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-odt/"
+        - name: "EPS к ODT"
+          link: "/conversion/java/eps-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EPS TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-otp/"
+        - name: "EPS к OTP"
+          link: "/conversion/java/eps-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EPS TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-ott/"
+        - name: "EPS к OTT"
+          link: "/conversion/java/eps-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EPS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-pdf/"
+        - name: "EPS к PDF"
+          link: "/conversion/java/eps-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EPS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-png/"
+        - name: "EPS к PNG"
+          link: "/conversion/java/eps-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EPS TO POT"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-pot/"
+        - name: "EPS к POT"
+          link: "/conversion/java/eps-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "EPS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-potx/"
+        - name: "EPS к POTX"
+          link: "/conversion/java/eps-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EPS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-pps/"
+        - name: "EPS к PPS"
+          link: "/conversion/java/eps-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EPS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-ppsm/"
+        - name: "EPS к PPSM"
+          link: "/conversion/java/eps-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EPS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-ppsx/"
+        - name: "EPS к PPSX"
+          link: "/conversion/java/eps-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EPS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-ppt/"
+        - name: "EPS к PPT"
+          link: "/conversion/java/eps-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EPS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-pptm/"
+        - name: "EPS к PPTM"
+          link: "/conversion/java/eps-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EPS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-pptx/"
+        - name: "EPS к PPTX"
+          link: "/conversion/java/eps-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EPS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-psd/"
+        - name: "EPS к PSD"
+          link: "/conversion/java/eps-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EPS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-rtf/"
+        - name: "EPS к RTF"
+          link: "/conversion/java/eps-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EPS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-svg/"
+        - name: "EPS к SVG"
+          link: "/conversion/java/eps-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EPS TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-svgz/"
+        - name: "EPS к SVGZ"
+          link: "/conversion/java/eps-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EPS TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-sxc/"
+        - name: "EPS к SXC"
+          link: "/conversion/java/eps-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "EPS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-tex/"
+        - name: "EPS к TEX"
+          link: "/conversion/java/eps-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EPS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-tif/"
+        - name: "EPS к TIF"
+          link: "/conversion/java/eps-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EPS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-tiff/"
+        - name: "EPS к TIFF"
+          link: "/conversion/java/eps-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EPS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-tsv/"
+        - name: "EPS к TSV"
+          link: "/conversion/java/eps-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EPS TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-txt/"
+        - name: "EPS к TXT"
+          link: "/conversion/java/eps-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EPS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-webp/"
+        - name: "EPS к WEBP"
+          link: "/conversion/java/eps-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EPS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-wmf/"
+        - name: "EPS к WMF"
+          link: "/conversion/java/eps-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EPS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-wmz/"
+        - name: "EPS к WMZ"
+          link: "/conversion/java/eps-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EPS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xlam/"
+        - name: "EPS к XLAM"
+          link: "/conversion/java/eps-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EPS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xls/"
+        - name: "EPS к XLS"
+          link: "/conversion/java/eps-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EPS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xlsb/"
+        - name: "EPS к XLSB"
+          link: "/conversion/java/eps-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EPS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xlsm/"
+        - name: "EPS к XLSM"
+          link: "/conversion/java/eps-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EPS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xlsx/"
+        - name: "EPS к XLSX"
+          link: "/conversion/java/eps-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EPS TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xlt/"
+        - name: "EPS к XLT"
+          link: "/conversion/java/eps-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "EPS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xltm/"
+        - name: "EPS к XLTM"
+          link: "/conversion/java/eps-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EPS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xltx/"
+        - name: "EPS к XLTX"
+          link: "/conversion/java/eps-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EPS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/eps-to-xps/"
+        - name: "EPS к XPS"
+          link: "/conversion/java/eps-to-xps/"
           description: "Спецификация документа Open XML"
 
 

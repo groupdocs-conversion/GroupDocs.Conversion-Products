@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования IMAGE в IMAGE в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл IMAGE в IMAGE с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл IMAGE в IMAGE с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл IMAGE с полным путем
         * Установите ConvertOptions для типа документа IMAGE
@@ -128,268 +128,268 @@ more_formats:
         Вы также можете конвертировать IMAGE во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "IMAGE TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/image-to-epub/"
+        - name: "IMAGE к EPUB"
+          link: "/conversion/java/image-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "IMAGE TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/image-to-xps/"
+        - name: "IMAGE к XPS"
+          link: "/conversion/java/image-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "IMAGE TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/image-to-tex/"
+        - name: "IMAGE к TEX"
+          link: "/conversion/java/image-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "IMAGE TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/image-to-ppt/"
+        - name: "IMAGE к PPT"
+          link: "/conversion/java/image-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "IMAGE TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/image-to-pps/"
+        - name: "IMAGE к PPS"
+          link: "/conversion/java/image-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/image-to-pptx/"
+        - name: "IMAGE к PPTX"
+          link: "/conversion/java/image-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "IMAGE TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/image-to-ppsx/"
+        - name: "IMAGE к PPSX"
+          link: "/conversion/java/image-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "IMAGE TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/image-to-odp/"
+        - name: "IMAGE к ODP"
+          link: "/conversion/java/image-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "IMAGE TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/image-to-otp/"
+        - name: "IMAGE к OTP"
+          link: "/conversion/java/image-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "IMAGE TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/image-to-potx/"
+        - name: "IMAGE к POTX"
+          link: "/conversion/java/image-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/image-to-potm/"
+        - name: "IMAGE к POTM"
+          link: "/conversion/java/image-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/image-to-pptm/"
+        - name: "IMAGE к PPTM"
+          link: "/conversion/java/image-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/image-to-ppsm/"
+        - name: "IMAGE к PPSM"
+          link: "/conversion/java/image-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/image-to-xls/"
+        - name: "IMAGE к XLS"
+          link: "/conversion/java/image-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "IMAGE TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/image-to-xlsx/"
+        - name: "IMAGE к XLSX"
+          link: "/conversion/java/image-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "IMAGE TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/image-to-xlsm/"
+        - name: "IMAGE к XLSM"
+          link: "/conversion/java/image-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IMAGE TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/image-to-xlsb/"
+        - name: "IMAGE к XLSB"
+          link: "/conversion/java/image-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "IMAGE TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/image-to-ods/"
+        - name: "IMAGE к ODS"
+          link: "/conversion/java/image-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "IMAGE TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/image-to-xltx/"
+        - name: "IMAGE к XLTX"
+          link: "/conversion/java/image-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "IMAGE TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/image-to-xltm/"
+        - name: "IMAGE к XLTM"
+          link: "/conversion/java/image-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IMAGE TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/image-to-tsv/"
+        - name: "IMAGE к TSV"
+          link: "/conversion/java/image-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "IMAGE TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/image-to-xlam/"
+        - name: "IMAGE к XLAM"
+          link: "/conversion/java/image-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IMAGE TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/image-to-csv/"
+        - name: "IMAGE к CSV"
+          link: "/conversion/java/image-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "IMAGE TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/image-to-doc/"
+        - name: "IMAGE к DOC"
+          link: "/conversion/java/image-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "IMAGE TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/image-to-docm/"
+        - name: "IMAGE к DOCM"
+          link: "/conversion/java/image-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IMAGE TO IMAGE"
-          link: "https://products.groupdocs.com/conversion/java/image-to-image/"
+        - name: "IMAGE к IMAGE"
+          link: "/conversion/java/image-to-image/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "IMAGE TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/image-to-dot/"
+        - name: "IMAGE к DOT"
+          link: "/conversion/java/image-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "IMAGE TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/image-to-dotm/"
+        - name: "IMAGE к DOTM"
+          link: "/conversion/java/image-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IMAGE TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/image-to-dotx/"
+        - name: "IMAGE к DOTX"
+          link: "/conversion/java/image-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "IMAGE TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/image-to-rtf/"
+        - name: "IMAGE к RTF"
+          link: "/conversion/java/image-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "IMAGE TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/image-to-odt/"
+        - name: "IMAGE к ODT"
+          link: "/conversion/java/image-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "IMAGE TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/image-to-ott/"
+        - name: "IMAGE к OTT"
+          link: "/conversion/java/image-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "IMAGE TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/image-to-txt/"
+        - name: "IMAGE к TXT"
+          link: "/conversion/java/image-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "IMAGE TO MD"
-          link: "https://products.groupdocs.com/conversion/java/image-to-md/"
+        - name: "IMAGE к MD"
+          link: "/conversion/java/image-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "IMAGE TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/image-to-tiff/"
+        - name: "IMAGE к TIFF"
+          link: "/conversion/java/image-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IMAGE TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/image-to-tif/"
+        - name: "IMAGE к TIF"
+          link: "/conversion/java/image-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IMAGE TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/image-to-jpg/"
+        - name: "IMAGE к JPG"
+          link: "/conversion/java/image-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "IMAGE TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/image-to-jpeg/"
+        - name: "IMAGE к JPEG"
+          link: "/conversion/java/image-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "IMAGE TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/image-to-png/"
+        - name: "IMAGE к PNG"
+          link: "/conversion/java/image-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "IMAGE TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/image-to-gif/"
+        - name: "IMAGE к GIF"
+          link: "/conversion/java/image-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "IMAGE TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/image-to-bmp/"
+        - name: "IMAGE к BMP"
+          link: "/conversion/java/image-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "IMAGE TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/image-to-ico/"
+        - name: "IMAGE к ICO"
+          link: "/conversion/java/image-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "IMAGE TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/image-to-psd/"
+        - name: "IMAGE к PSD"
+          link: "/conversion/java/image-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "IMAGE TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/image-to-wmf/"
+        - name: "IMAGE к WMF"
+          link: "/conversion/java/image-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "IMAGE TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/image-to-emf/"
+        - name: "IMAGE к EMF"
+          link: "/conversion/java/image-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "IMAGE TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/image-to-webp/"
+        - name: "IMAGE к WEBP"
+          link: "/conversion/java/image-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "IMAGE TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/image-to-svg/"
+        - name: "IMAGE к SVG"
+          link: "/conversion/java/image-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "IMAGE TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/image-to-jp2/"
+        - name: "IMAGE к JP2"
+          link: "/conversion/java/image-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "IMAGE TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/image-to-emz/"
+        - name: "IMAGE к EMZ"
+          link: "/conversion/java/image-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "IMAGE TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/image-to-wmz/"
+        - name: "IMAGE к WMZ"
+          link: "/conversion/java/image-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "IMAGE TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/image-to-html/"
+        - name: "IMAGE к HTML"
+          link: "/conversion/java/image-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "IMAGE TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/image-to-mht/"
+        - name: "IMAGE к MHT"
+          link: "/conversion/java/image-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "IMAGE TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/image-to-mhtml/"
+        - name: "IMAGE к MHTML"
+          link: "/conversion/java/image-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 

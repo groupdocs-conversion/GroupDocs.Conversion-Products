@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию EPUB в RTF на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла EPUB в RTF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла EPUB в RTF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл EPUB с полным путем
         * Создайте и установите ConvertOptions для типа rtf
@@ -127,313 +127,313 @@ more_formats:
         Вы также можете конвертировать EPUB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EPUB TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-bmp/"
+        - name: "EPUB к BMP"
+          link: "/conversion/net/epub-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EPUB TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-csv/"
+        - name: "EPUB к CSV"
+          link: "/conversion/net/epub-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EPUB TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-dcm/"
+        - name: "EPUB к DCM"
+          link: "/conversion/net/epub-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "EPUB TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-dif/"
+        - name: "EPUB к DIF"
+          link: "/conversion/net/epub-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "EPUB TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-doc/"
+        - name: "EPUB к DOC"
+          link: "/conversion/net/epub-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EPUB TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-docm/"
+        - name: "EPUB к DOCM"
+          link: "/conversion/net/epub-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EPUB TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-docx/"
+        - name: "EPUB к DOCX"
+          link: "/conversion/net/epub-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EPUB TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-dot/"
+        - name: "EPUB к DOT"
+          link: "/conversion/net/epub-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EPUB TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-dotm/"
+        - name: "EPUB к DOTM"
+          link: "/conversion/net/epub-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EPUB TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-dotx/"
+        - name: "EPUB к DOTX"
+          link: "/conversion/net/epub-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EPUB TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-emf/"
+        - name: "EPUB к EMF"
+          link: "/conversion/net/epub-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EPUB TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-emz/"
+        - name: "EPUB к EMZ"
+          link: "/conversion/net/epub-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EPUB TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-fodp/"
+        - name: "EPUB к FODP"
+          link: "/conversion/net/epub-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "EPUB TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-fods/"
+        - name: "EPUB к FODS"
+          link: "/conversion/net/epub-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "EPUB TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-gif/"
+        - name: "EPUB к GIF"
+          link: "/conversion/net/epub-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EPUB TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-htm/"
+        - name: "EPUB к HTM"
+          link: "/conversion/net/epub-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "EPUB TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-html/"
+        - name: "EPUB к HTML"
+          link: "/conversion/net/epub-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EPUB TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-ico/"
+        - name: "EPUB к ICO"
+          link: "/conversion/net/epub-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EPUB TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-jp2/"
+        - name: "EPUB к JP2"
+          link: "/conversion/net/epub-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EPUB TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-jpeg/"
+        - name: "EPUB к JPEG"
+          link: "/conversion/net/epub-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EPUB TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-jpg/"
+        - name: "EPUB к JPG"
+          link: "/conversion/net/epub-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EPUB TO MD"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-md/"
+        - name: "EPUB к MD"
+          link: "/conversion/net/epub-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EPUB TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-mht/"
+        - name: "EPUB к MHT"
+          link: "/conversion/net/epub-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EPUB TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-mhtml/"
+        - name: "EPUB к MHTML"
+          link: "/conversion/net/epub-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EPUB TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-odp/"
+        - name: "EPUB к ODP"
+          link: "/conversion/net/epub-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EPUB TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-ods/"
+        - name: "EPUB к ODS"
+          link: "/conversion/net/epub-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EPUB TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-odt/"
+        - name: "EPUB к ODT"
+          link: "/conversion/net/epub-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EPUB TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-otp/"
+        - name: "EPUB к OTP"
+          link: "/conversion/net/epub-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EPUB TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-ott/"
+        - name: "EPUB к OTT"
+          link: "/conversion/net/epub-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EPUB TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-pdf/"
+        - name: "EPUB к PDF"
+          link: "/conversion/net/epub-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EPUB TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-png/"
+        - name: "EPUB к PNG"
+          link: "/conversion/net/epub-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EPUB TO POT"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-pot/"
+        - name: "EPUB к POT"
+          link: "/conversion/net/epub-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "EPUB TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-potm/"
+        - name: "EPUB к POTM"
+          link: "/conversion/net/epub-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EPUB TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-potx/"
+        - name: "EPUB к POTX"
+          link: "/conversion/net/epub-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EPUB TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-pps/"
+        - name: "EPUB к PPS"
+          link: "/conversion/net/epub-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EPUB TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-ppsm/"
+        - name: "EPUB к PPSM"
+          link: "/conversion/net/epub-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EPUB TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-ppsx/"
+        - name: "EPUB к PPSX"
+          link: "/conversion/net/epub-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EPUB TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-ppt/"
+        - name: "EPUB к PPT"
+          link: "/conversion/net/epub-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EPUB TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-pptm/"
+        - name: "EPUB к PPTM"
+          link: "/conversion/net/epub-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EPUB TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-pptx/"
+        - name: "EPUB к PPTX"
+          link: "/conversion/net/epub-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EPUB TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-psd/"
+        - name: "EPUB к PSD"
+          link: "/conversion/net/epub-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EPUB TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-svg/"
+        - name: "EPUB к SVG"
+          link: "/conversion/net/epub-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EPUB TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-svgz/"
+        - name: "EPUB к SVGZ"
+          link: "/conversion/net/epub-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EPUB TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-sxc/"
+        - name: "EPUB к SXC"
+          link: "/conversion/net/epub-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "EPUB TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-tex/"
+        - name: "EPUB к TEX"
+          link: "/conversion/net/epub-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EPUB TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-tif/"
+        - name: "EPUB к TIF"
+          link: "/conversion/net/epub-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EPUB TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-tiff/"
+        - name: "EPUB к TIFF"
+          link: "/conversion/net/epub-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EPUB TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-tsv/"
+        - name: "EPUB к TSV"
+          link: "/conversion/net/epub-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EPUB TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-txt/"
+        - name: "EPUB к TXT"
+          link: "/conversion/net/epub-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EPUB TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-webp/"
+        - name: "EPUB к WEBP"
+          link: "/conversion/net/epub-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EPUB TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-wmf/"
+        - name: "EPUB к WMF"
+          link: "/conversion/net/epub-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EPUB TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-wmz/"
+        - name: "EPUB к WMZ"
+          link: "/conversion/net/epub-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EPUB TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xlam/"
+        - name: "EPUB к XLAM"
+          link: "/conversion/net/epub-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EPUB TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xls/"
+        - name: "EPUB к XLS"
+          link: "/conversion/net/epub-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EPUB TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xlsb/"
+        - name: "EPUB к XLSB"
+          link: "/conversion/net/epub-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EPUB TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xlsm/"
+        - name: "EPUB к XLSM"
+          link: "/conversion/net/epub-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EPUB TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xlsx/"
+        - name: "EPUB к XLSX"
+          link: "/conversion/net/epub-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EPUB TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xlt/"
+        - name: "EPUB к XLT"
+          link: "/conversion/net/epub-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "EPUB TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xltm/"
+        - name: "EPUB к XLTM"
+          link: "/conversion/net/epub-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EPUB TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xltx/"
+        - name: "EPUB к XLTX"
+          link: "/conversion/net/epub-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EPUB TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/epub-to-xps/"
+        - name: "EPUB к XPS"
+          link: "/conversion/net/epub-to-xps/"
           description: "Спецификация документа Open XML"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

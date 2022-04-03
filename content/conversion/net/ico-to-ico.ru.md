@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию ICO в ICO на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл ICO в ICO с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл ICO в ICO с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл ICO с полным путем
         * Создайте и установите ConvertOptions для типа ico
@@ -127,272 +127,272 @@ more_formats:
         Вы также можете конвертировать ICO во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "ICO TO EPUB"
+        - name: "ICO к EPUB"
           link: "https://products.groupdocs.com/conversion/net/ico-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "ICO TO XPS"
+        - name: "ICO к XPS"
           link: "https://products.groupdocs.com/conversion/net/ico-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "ICO TO TEX"
+        - name: "ICO к TEX"
           link: "https://products.groupdocs.com/conversion/net/ico-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "ICO TO PPT"
+        - name: "ICO к PPT"
           link: "https://products.groupdocs.com/conversion/net/ico-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "ICO TO PPS"
+        - name: "ICO к PPS"
           link: "https://products.groupdocs.com/conversion/net/ico-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ICO TO PPTX"
+        - name: "ICO к PPTX"
           link: "https://products.groupdocs.com/conversion/net/ico-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "ICO TO PPSX"
+        - name: "ICO к PPSX"
           link: "https://products.groupdocs.com/conversion/net/ico-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "ICO TO ODP"
+        - name: "ICO к ODP"
           link: "https://products.groupdocs.com/conversion/net/ico-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "ICO TO OTP"
+        - name: "ICO к OTP"
           link: "https://products.groupdocs.com/conversion/net/ico-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "ICO TO POTX"
+        - name: "ICO к POTX"
           link: "https://products.groupdocs.com/conversion/net/ico-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ICO TO POTM"
+        - name: "ICO к POTM"
           link: "https://products.groupdocs.com/conversion/net/ico-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ICO TO PPTM"
+        - name: "ICO к PPTM"
           link: "https://products.groupdocs.com/conversion/net/ico-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "ICO TO PPSM"
+        - name: "ICO к PPSM"
           link: "https://products.groupdocs.com/conversion/net/ico-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ICO TO XLS"
+        - name: "ICO к XLS"
           link: "https://products.groupdocs.com/conversion/net/ico-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "ICO TO XLSX"
+        - name: "ICO к XLSX"
           link: "https://products.groupdocs.com/conversion/net/ico-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "ICO TO XLSM"
+        - name: "ICO к XLSM"
           link: "https://products.groupdocs.com/conversion/net/ico-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ICO TO XLSB"
+        - name: "ICO к XLSB"
           link: "https://products.groupdocs.com/conversion/net/ico-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "ICO TO ODS"
+        - name: "ICO к ODS"
           link: "https://products.groupdocs.com/conversion/net/ico-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "ICO TO XLTX"
+        - name: "ICO к XLTX"
           link: "https://products.groupdocs.com/conversion/net/ico-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "ICO TO XLTM"
+        - name: "ICO к XLTM"
           link: "https://products.groupdocs.com/conversion/net/ico-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ICO TO TSV"
+        - name: "ICO к TSV"
           link: "https://products.groupdocs.com/conversion/net/ico-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "ICO TO XLAM"
+        - name: "ICO к XLAM"
           link: "https://products.groupdocs.com/conversion/net/ico-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ICO TO CSV"
+        - name: "ICO к CSV"
           link: "https://products.groupdocs.com/conversion/net/ico-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "ICO TO DOC"
+        - name: "ICO к DOC"
           link: "https://products.groupdocs.com/conversion/net/ico-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "ICO TO DOCM"
+        - name: "ICO к DOCM"
           link: "https://products.groupdocs.com/conversion/net/ico-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ICO TO ICO"
+        - name: "ICO к ICO"
           link: "https://products.groupdocs.com/conversion/net/ico-to-ico/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "ICO TO DOT"
+        - name: "ICO к DOT"
           link: "https://products.groupdocs.com/conversion/net/ico-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "ICO TO DOTM"
+        - name: "ICO к DOTM"
           link: "https://products.groupdocs.com/conversion/net/ico-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ICO TO DOTX"
+        - name: "ICO к DOTX"
           link: "https://products.groupdocs.com/conversion/net/ico-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "ICO TO RTF"
+        - name: "ICO к RTF"
           link: "https://products.groupdocs.com/conversion/net/ico-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "ICO TO ODT"
+        - name: "ICO к ODT"
           link: "https://products.groupdocs.com/conversion/net/ico-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "ICO TO OTT"
+        - name: "ICO к OTT"
           link: "https://products.groupdocs.com/conversion/net/ico-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "ICO TO TXT"
+        - name: "ICO к TXT"
           link: "https://products.groupdocs.com/conversion/net/ico-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "ICO TO MD"
+        - name: "ICO к MD"
           link: "https://products.groupdocs.com/conversion/net/ico-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "ICO TO TIFF"
+        - name: "ICO к TIFF"
           link: "https://products.groupdocs.com/conversion/net/ico-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ICO TO TIF"
+        - name: "ICO к TIF"
           link: "https://products.groupdocs.com/conversion/net/ico-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ICO TO JPG"
+        - name: "ICO к JPG"
           link: "https://products.groupdocs.com/conversion/net/ico-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "ICO TO JPEG"
+        - name: "ICO к JPEG"
           link: "https://products.groupdocs.com/conversion/net/ico-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "ICO TO PNG"
+        - name: "ICO к PNG"
           link: "https://products.groupdocs.com/conversion/net/ico-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "ICO TO GIF"
+        - name: "ICO к GIF"
           link: "https://products.groupdocs.com/conversion/net/ico-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "ICO TO BMP"
+        - name: "ICO к BMP"
           link: "https://products.groupdocs.com/conversion/net/ico-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "ICO TO ICO"
+        - name: "ICO к ICO"
           link: "https://products.groupdocs.com/conversion/net/ico-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "ICO TO PSD"
+        - name: "ICO к PSD"
           link: "https://products.groupdocs.com/conversion/net/ico-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "ICO TO WMF"
+        - name: "ICO к WMF"
           link: "https://products.groupdocs.com/conversion/net/ico-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "ICO TO EMF"
+        - name: "ICO к EMF"
           link: "https://products.groupdocs.com/conversion/net/ico-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "ICO TO WEBP"
+        - name: "ICO к WEBP"
           link: "https://products.groupdocs.com/conversion/net/ico-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "ICO TO SVG"
+        - name: "ICO к SVG"
           link: "https://products.groupdocs.com/conversion/net/ico-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ICO TO JP2"
+        - name: "ICO к JP2"
           link: "https://products.groupdocs.com/conversion/net/ico-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "ICO TO EMZ"
+        - name: "ICO к EMZ"
           link: "https://products.groupdocs.com/conversion/net/ico-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "ICO TO WMZ"
+        - name: "ICO к WMZ"
           link: "https://products.groupdocs.com/conversion/net/ico-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "ICO TO HTML"
+        - name: "ICO к HTML"
           link: "https://products.groupdocs.com/conversion/net/ico-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "ICO TO MHT"
+        - name: "ICO к MHT"
           link: "https://products.groupdocs.com/conversion/net/ico-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ICO TO MHTML"
+        - name: "ICO к MHTML"
           link: "https://products.groupdocs.com/conversion/net/ico-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования POT в DOCM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла POT в DOCM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла POT в DOCM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл POT с полным путем
         * Установите ConvertOptions для типа документа DOCM.
@@ -129,307 +129,307 @@ more_formats:
     format: 
         # format loop
         - name: "POT к BMP"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-bmp/"
+          link: "/conversion/java/pot-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "POT к CSV"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-csv/"
+          link: "/conversion/java/pot-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "POT к DCM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-dcm/"
+          link: "/conversion/java/pot-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "POT к DIF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-dif/"
+          link: "/conversion/java/pot-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "POT к DOC"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-doc/"
+          link: "/conversion/java/pot-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "POT к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-docx/"
+          link: "/conversion/java/pot-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "POT к DOT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-dot/"
+          link: "/conversion/java/pot-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "POT к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-dotm/"
+          link: "/conversion/java/pot-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "POT к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-dotx/"
+          link: "/conversion/java/pot-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "POT к EMF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-emf/"
+          link: "/conversion/java/pot-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "POT к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-emz/"
+          link: "/conversion/java/pot-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "POT к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-epub/"
+          link: "/conversion/java/pot-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "POT к FODP"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-fodp/"
+          link: "/conversion/java/pot-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "POT к FODS"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-fods/"
+          link: "/conversion/java/pot-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "POT к GIF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-gif/"
+          link: "/conversion/java/pot-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "POT к HTM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-htm/"
+          link: "/conversion/java/pot-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "POT к HTML"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-html/"
+          link: "/conversion/java/pot-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "POT к ICO"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ico/"
+          link: "/conversion/java/pot-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "POT к JP2"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-jp2/"
+          link: "/conversion/java/pot-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "POT к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-jpeg/"
+          link: "/conversion/java/pot-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "POT к JPG"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-jpg/"
+          link: "/conversion/java/pot-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "POT к MD"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-md/"
+          link: "/conversion/java/pot-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "POT к MHT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-mht/"
+          link: "/conversion/java/pot-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "POT к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-mhtml/"
+          link: "/conversion/java/pot-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "POT к ODP"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-odp/"
+          link: "/conversion/java/pot-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "POT к ODS"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ods/"
+          link: "/conversion/java/pot-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "POT к ODT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-odt/"
+          link: "/conversion/java/pot-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "POT к OTP"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-otp/"
+          link: "/conversion/java/pot-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "POT к OTT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ott/"
+          link: "/conversion/java/pot-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "POT к PDF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-pdf/"
+          link: "/conversion/java/pot-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "POT к PNG"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-png/"
+          link: "/conversion/java/pot-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "POT к POTM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-potm/"
+          link: "/conversion/java/pot-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "POT к POTX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-potx/"
+          link: "/conversion/java/pot-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "POT к PPS"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-pps/"
+          link: "/conversion/java/pot-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "POT к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ppsm/"
+          link: "/conversion/java/pot-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "POT к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ppsx/"
+          link: "/conversion/java/pot-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "POT к PPT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-ppt/"
+          link: "/conversion/java/pot-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "POT к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-pptm/"
+          link: "/conversion/java/pot-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "POT к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-pptx/"
+          link: "/conversion/java/pot-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "POT к PSD"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-psd/"
+          link: "/conversion/java/pot-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "POT к RTF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-rtf/"
+          link: "/conversion/java/pot-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "POT к SVG"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-svg/"
+          link: "/conversion/java/pot-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "POT к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-svgz/"
+          link: "/conversion/java/pot-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "POT к SXC"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-sxc/"
+          link: "/conversion/java/pot-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "POT к TEX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-tex/"
+          link: "/conversion/java/pot-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "POT к TIF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-tif/"
+          link: "/conversion/java/pot-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "POT к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-tiff/"
+          link: "/conversion/java/pot-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "POT к TSV"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-tsv/"
+          link: "/conversion/java/pot-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "POT к TXT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-txt/"
+          link: "/conversion/java/pot-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "POT к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-webp/"
+          link: "/conversion/java/pot-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "POT к WMF"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-wmf/"
+          link: "/conversion/java/pot-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "POT к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-wmz/"
+          link: "/conversion/java/pot-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "POT к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlam/"
+          link: "/conversion/java/pot-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "POT к XLS"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xls/"
+          link: "/conversion/java/pot-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "POT к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlsb/"
+          link: "/conversion/java/pot-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "POT к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlsm/"
+          link: "/conversion/java/pot-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "POT к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlsx/"
+          link: "/conversion/java/pot-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "POT к XLT"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xlt/"
+          link: "/conversion/java/pot-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "POT к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xltm/"
+          link: "/conversion/java/pot-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "POT к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xltx/"
+          link: "/conversion/java/pot-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "POT к XPS"
-          link: "https://products.groupdocs.com/conversion/java/pot-to-xps/"
+          link: "/conversion/java/pot-to-xps/"
           description: "Спецификация документа Open XML"
 
 

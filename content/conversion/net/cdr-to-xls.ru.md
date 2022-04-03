@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию CDR в XLS в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла CDR в XLS с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла CDR в XLS с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл CDR с полным путем
         * Создайте и установите ConvertOptions для типа xls
@@ -128,312 +128,312 @@ more_formats:
     format: 
         # format loop
         - name: "CDR к BMP"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-bmp/"
+          link: "/conversion/net/cdr-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "CDR к CSV"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-csv/"
+          link: "/conversion/net/cdr-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "CDR к DCM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-dcm/"
+          link: "/conversion/net/cdr-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "CDR к DIF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-dif/"
+          link: "/conversion/net/cdr-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "CDR к DOC"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-doc/"
+          link: "/conversion/net/cdr-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "CDR к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-docm/"
+          link: "/conversion/net/cdr-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "CDR к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-docx/"
+          link: "/conversion/net/cdr-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "CDR к DOT"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-dot/"
+          link: "/conversion/net/cdr-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "CDR к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-dotm/"
+          link: "/conversion/net/cdr-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "CDR к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-dotx/"
+          link: "/conversion/net/cdr-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "CDR к EMF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-emf/"
+          link: "/conversion/net/cdr-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "CDR к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-emz/"
+          link: "/conversion/net/cdr-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "CDR к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-epub/"
+          link: "/conversion/net/cdr-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "CDR к FODP"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-fodp/"
+          link: "/conversion/net/cdr-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "CDR к FODS"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-fods/"
+          link: "/conversion/net/cdr-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "CDR к GIF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-gif/"
+          link: "/conversion/net/cdr-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "CDR к HTM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-htm/"
+          link: "/conversion/net/cdr-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "CDR к HTML"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-html/"
+          link: "/conversion/net/cdr-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "CDR к ICO"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-ico/"
+          link: "/conversion/net/cdr-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "CDR к JP2"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-jp2/"
+          link: "/conversion/net/cdr-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "CDR к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-jpeg/"
+          link: "/conversion/net/cdr-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "CDR к JPG"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-jpg/"
+          link: "/conversion/net/cdr-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "CDR к MD"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-md/"
+          link: "/conversion/net/cdr-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "CDR к MHT"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-mht/"
+          link: "/conversion/net/cdr-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "CDR к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-mhtml/"
+          link: "/conversion/net/cdr-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "CDR к ODP"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-odp/"
+          link: "/conversion/net/cdr-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "CDR к ODS"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-ods/"
+          link: "/conversion/net/cdr-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "CDR к ODT"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-odt/"
+          link: "/conversion/net/cdr-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "CDR к OTP"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-otp/"
+          link: "/conversion/net/cdr-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "CDR к OTT"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-ott/"
+          link: "/conversion/net/cdr-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "CDR к PDF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-pdf/"
+          link: "/conversion/net/cdr-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "CDR к PNG"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-png/"
+          link: "/conversion/net/cdr-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "CDR к POT"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-pot/"
+          link: "/conversion/net/cdr-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "CDR к POTM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-potm/"
+          link: "/conversion/net/cdr-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "CDR к POTX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-potx/"
+          link: "/conversion/net/cdr-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "CDR к PPS"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-pps/"
+          link: "/conversion/net/cdr-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "CDR к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-ppsm/"
+          link: "/conversion/net/cdr-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "CDR к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-ppsx/"
+          link: "/conversion/net/cdr-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "CDR к PPT"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-ppt/"
+          link: "/conversion/net/cdr-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "CDR к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-pptm/"
+          link: "/conversion/net/cdr-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "CDR к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-pptx/"
+          link: "/conversion/net/cdr-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "CDR к PSD"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-psd/"
+          link: "/conversion/net/cdr-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "CDR к RTF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-rtf/"
+          link: "/conversion/net/cdr-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "CDR к SVG"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-svg/"
+          link: "/conversion/net/cdr-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "CDR к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-svgz/"
+          link: "/conversion/net/cdr-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "CDR к SXC"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-sxc/"
+          link: "/conversion/net/cdr-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "CDR к TEX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-tex/"
+          link: "/conversion/net/cdr-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "CDR к TIF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-tif/"
+          link: "/conversion/net/cdr-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "CDR к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-tiff/"
+          link: "/conversion/net/cdr-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "CDR к TSV"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-tsv/"
+          link: "/conversion/net/cdr-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "CDR к TXT"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-txt/"
+          link: "/conversion/net/cdr-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "CDR к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-webp/"
+          link: "/conversion/net/cdr-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "CDR к WMF"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-wmf/"
+          link: "/conversion/net/cdr-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "CDR к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-wmz/"
+          link: "/conversion/net/cdr-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "CDR к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlam/"
+          link: "/conversion/net/cdr-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "CDR к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlsb/"
+          link: "/conversion/net/cdr-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "CDR к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlsm/"
+          link: "/conversion/net/cdr-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "CDR к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlsx/"
+          link: "/conversion/net/cdr-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "CDR к XLT"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-xlt/"
+          link: "/conversion/net/cdr-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "CDR к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-xltm/"
+          link: "/conversion/net/cdr-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "CDR к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-xltx/"
+          link: "/conversion/net/cdr-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "CDR к XPS"
-          link: "https://products.groupdocs.com/conversion/java/cdr-to-xps/"
+          link: "/conversion/net/cdr-to-xps/"
           description: "Спецификация документа Open XML"
 
 

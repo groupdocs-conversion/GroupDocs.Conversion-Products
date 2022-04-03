@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования WEB в POTX в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла WEB в POTX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла WEB в POTX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите WEB-файл с полным путем
         * Установите ConvertOptions для типа документа POTX
@@ -128,38 +128,38 @@ more_formats:
         Вы также можете конвертировать WEB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WEB TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/web-to-docm/"
+        - name: "WEB к DOCM"
+          link: "/conversion/java/web-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEB TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-docx/"
+        - name: "WEB к DOCX"
+          link: "/conversion/java/web-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WEB TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/web-to-epub/"
+        - name: "WEB к EPUB"
+          link: "/conversion/java/web-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WEB TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/web-to-fods/"
+        - name: "WEB к FODS"
+          link: "/conversion/java/web-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "WEB TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/web-to-mhtml/"
+        - name: "WEB к MHTML"
+          link: "/conversion/java/web-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WEB TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/web-to-pdf/"
+        - name: "WEB к PDF"
+          link: "/conversion/java/web-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "WEB TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/web-to-pptx/"
+        - name: "WEB к PPTX"
+          link: "/conversion/java/web-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
 

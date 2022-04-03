@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию PCL в PPSM в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла PCL в PPSM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла PCL в PPSM с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл PCL с полным путем
         * Создайте и установите ConvertOptions для типа ppsm
@@ -127,313 +127,313 @@ more_formats:
         Вы также можете конвертировать PCL во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PCL TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-bmp/"
+        - name: "PCL к BMP"
+          link: "/conversion/net/pcl-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PCL TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-csv/"
+        - name: "PCL к CSV"
+          link: "/conversion/net/pcl-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PCL TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-dcm/"
+        - name: "PCL к DCM"
+          link: "/conversion/net/pcl-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PCL TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-dif/"
+        - name: "PCL к DIF"
+          link: "/conversion/net/pcl-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PCL TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-doc/"
+        - name: "PCL к DOC"
+          link: "/conversion/net/pcl-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PCL TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-docm/"
+        - name: "PCL к DOCM"
+          link: "/conversion/net/pcl-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PCL TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-docx/"
+        - name: "PCL к DOCX"
+          link: "/conversion/net/pcl-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PCL TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-dot/"
+        - name: "PCL к DOT"
+          link: "/conversion/net/pcl-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PCL TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-dotm/"
+        - name: "PCL к DOTM"
+          link: "/conversion/net/pcl-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PCL TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-dotx/"
+        - name: "PCL к DOTX"
+          link: "/conversion/net/pcl-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PCL TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-emf/"
+        - name: "PCL к EMF"
+          link: "/conversion/net/pcl-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PCL TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-emz/"
+        - name: "PCL к EMZ"
+          link: "/conversion/net/pcl-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PCL TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-epub/"
+        - name: "PCL к EPUB"
+          link: "/conversion/net/pcl-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PCL TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-fodp/"
+        - name: "PCL к FODP"
+          link: "/conversion/net/pcl-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PCL TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-fods/"
+        - name: "PCL к FODS"
+          link: "/conversion/net/pcl-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PCL TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-gif/"
+        - name: "PCL к GIF"
+          link: "/conversion/net/pcl-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PCL TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-htm/"
+        - name: "PCL к HTM"
+          link: "/conversion/net/pcl-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PCL TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-html/"
+        - name: "PCL к HTML"
+          link: "/conversion/net/pcl-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PCL TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-ico/"
+        - name: "PCL к ICO"
+          link: "/conversion/net/pcl-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PCL TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-jp2/"
+        - name: "PCL к JP2"
+          link: "/conversion/net/pcl-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PCL TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-jpeg/"
+        - name: "PCL к JPEG"
+          link: "/conversion/net/pcl-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PCL TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-jpg/"
+        - name: "PCL к JPG"
+          link: "/conversion/net/pcl-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PCL TO MD"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-md/"
+        - name: "PCL к MD"
+          link: "/conversion/net/pcl-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PCL TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-mht/"
+        - name: "PCL к MHT"
+          link: "/conversion/net/pcl-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PCL TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-mhtml/"
+        - name: "PCL к MHTML"
+          link: "/conversion/net/pcl-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PCL TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-odp/"
+        - name: "PCL к ODP"
+          link: "/conversion/net/pcl-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PCL TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-ods/"
+        - name: "PCL к ODS"
+          link: "/conversion/net/pcl-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PCL TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-odt/"
+        - name: "PCL к ODT"
+          link: "/conversion/net/pcl-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PCL TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-otp/"
+        - name: "PCL к OTP"
+          link: "/conversion/net/pcl-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PCL TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-ott/"
+        - name: "PCL к OTT"
+          link: "/conversion/net/pcl-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PCL TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-pdf/"
+        - name: "PCL к PDF"
+          link: "/conversion/net/pcl-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PCL TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-png/"
+        - name: "PCL к PNG"
+          link: "/conversion/net/pcl-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PCL TO POT"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-pot/"
+        - name: "PCL к POT"
+          link: "/conversion/net/pcl-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PCL TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-potm/"
+        - name: "PCL к POTM"
+          link: "/conversion/net/pcl-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PCL TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-potx/"
+        - name: "PCL к POTX"
+          link: "/conversion/net/pcl-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PCL TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-pps/"
+        - name: "PCL к PPS"
+          link: "/conversion/net/pcl-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PCL TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-ppsx/"
+        - name: "PCL к PPSX"
+          link: "/conversion/net/pcl-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PCL TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-ppt/"
+        - name: "PCL к PPT"
+          link: "/conversion/net/pcl-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PCL TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-pptm/"
+        - name: "PCL к PPTM"
+          link: "/conversion/net/pcl-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PCL TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-pptx/"
+        - name: "PCL к PPTX"
+          link: "/conversion/net/pcl-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PCL TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-psd/"
+        - name: "PCL к PSD"
+          link: "/conversion/net/pcl-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PCL TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-rtf/"
+        - name: "PCL к RTF"
+          link: "/conversion/net/pcl-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PCL TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-svg/"
+        - name: "PCL к SVG"
+          link: "/conversion/net/pcl-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PCL TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-svgz/"
+        - name: "PCL к SVGZ"
+          link: "/conversion/net/pcl-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PCL TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-sxc/"
+        - name: "PCL к SXC"
+          link: "/conversion/net/pcl-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PCL TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-tex/"
+        - name: "PCL к TEX"
+          link: "/conversion/net/pcl-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PCL TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-tif/"
+        - name: "PCL к TIF"
+          link: "/conversion/net/pcl-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PCL TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-tiff/"
+        - name: "PCL к TIFF"
+          link: "/conversion/net/pcl-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PCL TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-tsv/"
+        - name: "PCL к TSV"
+          link: "/conversion/net/pcl-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PCL TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-txt/"
+        - name: "PCL к TXT"
+          link: "/conversion/net/pcl-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PCL TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-webp/"
+        - name: "PCL к WEBP"
+          link: "/conversion/net/pcl-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PCL TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-wmf/"
+        - name: "PCL к WMF"
+          link: "/conversion/net/pcl-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PCL TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-wmz/"
+        - name: "PCL к WMZ"
+          link: "/conversion/net/pcl-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PCL TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xlam/"
+        - name: "PCL к XLAM"
+          link: "/conversion/net/pcl-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PCL TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xls/"
+        - name: "PCL к XLS"
+          link: "/conversion/net/pcl-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PCL TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xlsb/"
+        - name: "PCL к XLSB"
+          link: "/conversion/net/pcl-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PCL TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xlsm/"
+        - name: "PCL к XLSM"
+          link: "/conversion/net/pcl-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PCL TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xlsx/"
+        - name: "PCL к XLSX"
+          link: "/conversion/net/pcl-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PCL TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xlt/"
+        - name: "PCL к XLT"
+          link: "/conversion/net/pcl-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PCL TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xltm/"
+        - name: "PCL к XLTM"
+          link: "/conversion/net/pcl-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PCL TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xltx/"
+        - name: "PCL к XLTX"
+          link: "/conversion/net/pcl-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PCL TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/pcl-to-xps/"
+        - name: "PCL к XPS"
+          link: "/conversion/net/pcl-to-xps/"
           description: "Спецификация документа Open XML"
 
 

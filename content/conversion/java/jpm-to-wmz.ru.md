@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования JPM в WMZ в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла JPM в WMZ с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла JPM в WMZ с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл JPM с полным путем
         * Установите ConvertOptions для типа документа WMZ
@@ -129,312 +129,312 @@ more_formats:
     format: 
         # format loop
         - name: "JPM к BMP"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-bmp/"
+          link: "/conversion/java/jpm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "JPM к CSV"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-csv/"
+          link: "/conversion/java/jpm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "JPM к DCM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-dcm/"
+          link: "/conversion/java/jpm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "JPM к DIF"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-dif/"
+          link: "/conversion/java/jpm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "JPM к DOC"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-doc/"
+          link: "/conversion/java/jpm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "JPM к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-docm/"
+          link: "/conversion/java/jpm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "JPM к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-docx/"
+          link: "/conversion/java/jpm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "JPM к DOT"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-dot/"
+          link: "/conversion/java/jpm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "JPM к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-dotm/"
+          link: "/conversion/java/jpm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "JPM к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-dotx/"
+          link: "/conversion/java/jpm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "JPM к EMF"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-emf/"
+          link: "/conversion/java/jpm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "JPM к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-emz/"
+          link: "/conversion/java/jpm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "JPM к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-epub/"
+          link: "/conversion/java/jpm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "JPM к FODP"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-fodp/"
+          link: "/conversion/java/jpm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "JPM к FODS"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-fods/"
+          link: "/conversion/java/jpm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "JPM к GIF"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-gif/"
+          link: "/conversion/java/jpm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "JPM к HTM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-htm/"
+          link: "/conversion/java/jpm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "JPM к HTML"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-html/"
+          link: "/conversion/java/jpm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "JPM к ICO"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-ico/"
+          link: "/conversion/java/jpm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "JPM к JP2"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-jp2/"
+          link: "/conversion/java/jpm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "JPM к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-jpeg/"
+          link: "/conversion/java/jpm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "JPM к JPG"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-jpg/"
+          link: "/conversion/java/jpm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "JPM к MD"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-md/"
+          link: "/conversion/java/jpm-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "JPM к MHT"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-mht/"
+          link: "/conversion/java/jpm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "JPM к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-mhtml/"
+          link: "/conversion/java/jpm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "JPM к ODP"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-odp/"
+          link: "/conversion/java/jpm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "JPM к ODS"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-ods/"
+          link: "/conversion/java/jpm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "JPM к ODT"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-odt/"
+          link: "/conversion/java/jpm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "JPM к OTP"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-otp/"
+          link: "/conversion/java/jpm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "JPM к OTT"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-ott/"
+          link: "/conversion/java/jpm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "JPM к PDF"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-pdf/"
+          link: "/conversion/java/jpm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "JPM к PNG"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-png/"
+          link: "/conversion/java/jpm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "JPM к POT"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-pot/"
+          link: "/conversion/java/jpm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "JPM к POTM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-potm/"
+          link: "/conversion/java/jpm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "JPM к POTX"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-potx/"
+          link: "/conversion/java/jpm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "JPM к PPS"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-pps/"
+          link: "/conversion/java/jpm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "JPM к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-ppsm/"
+          link: "/conversion/java/jpm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "JPM к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-ppsx/"
+          link: "/conversion/java/jpm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "JPM к PPT"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-ppt/"
+          link: "/conversion/java/jpm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "JPM к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-pptm/"
+          link: "/conversion/java/jpm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "JPM к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-pptx/"
+          link: "/conversion/java/jpm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "JPM к PSD"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-psd/"
+          link: "/conversion/java/jpm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "JPM к RTF"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-rtf/"
+          link: "/conversion/java/jpm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "JPM к SVG"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-svg/"
+          link: "/conversion/java/jpm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "JPM к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-svgz/"
+          link: "/conversion/java/jpm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "JPM к SXC"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-sxc/"
+          link: "/conversion/java/jpm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "JPM к TEX"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-tex/"
+          link: "/conversion/java/jpm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "JPM к TIF"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-tif/"
+          link: "/conversion/java/jpm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "JPM к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-tiff/"
+          link: "/conversion/java/jpm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "JPM к TSV"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-tsv/"
+          link: "/conversion/java/jpm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "JPM к TXT"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-txt/"
+          link: "/conversion/java/jpm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "JPM к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-webp/"
+          link: "/conversion/java/jpm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "JPM к WMF"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-wmf/"
+          link: "/conversion/java/jpm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "JPM к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-xlam/"
+          link: "/conversion/java/jpm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "JPM к XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-xls/"
+          link: "/conversion/java/jpm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "JPM к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-xlsb/"
+          link: "/conversion/java/jpm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "JPM к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-xlsm/"
+          link: "/conversion/java/jpm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "JPM к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-xlsx/"
+          link: "/conversion/java/jpm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "JPM к XLT"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-xlt/"
+          link: "/conversion/java/jpm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "JPM к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-xltm/"
+          link: "/conversion/java/jpm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "JPM к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-xltx/"
+          link: "/conversion/java/jpm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "JPM к XPS"
-          link: "https://products.groupdocs.com/conversion/java/jpm-to-xps/"
+          link: "/conversion/java/jpm-to-xps/"
           description: "Спецификация документа Open XML"
 
 

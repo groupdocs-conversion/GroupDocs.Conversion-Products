@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования EMZ в TEX в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл EMZ в TEX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл EMZ в TEX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл EMZ с полным путем
         * Установите ConvertOptions для типа документа TEX
@@ -129,307 +129,307 @@ more_formats:
     format: 
         # format loop
         - name: "EMZ к BMP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-bmp/"
+          link: "/conversion/java/emz-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "EMZ к CSV"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-csv/"
+          link: "/conversion/java/emz-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "EMZ к DCM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-dcm/"
+          link: "/conversion/java/emz-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "EMZ к DIF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-dif/"
+          link: "/conversion/java/emz-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "EMZ к DOC"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-doc/"
+          link: "/conversion/java/emz-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "EMZ к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-docm/"
+          link: "/conversion/java/emz-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "EMZ к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-docx/"
+          link: "/conversion/java/emz-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "EMZ к DOT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-dot/"
+          link: "/conversion/java/emz-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "EMZ к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-dotm/"
+          link: "/conversion/java/emz-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "EMZ к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-dotx/"
+          link: "/conversion/java/emz-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "EMZ к EMF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-emf/"
+          link: "/conversion/java/emz-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "EMZ к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-epub/"
+          link: "/conversion/java/emz-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "EMZ к FODP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-fodp/"
+          link: "/conversion/java/emz-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "EMZ к FODS"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-fods/"
+          link: "/conversion/java/emz-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "EMZ к GIF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-gif/"
+          link: "/conversion/java/emz-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "EMZ к HTM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-htm/"
+          link: "/conversion/java/emz-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "EMZ к HTML"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-html/"
+          link: "/conversion/java/emz-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "EMZ к ICO"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ico/"
+          link: "/conversion/java/emz-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "EMZ к JP2"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-jp2/"
+          link: "/conversion/java/emz-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "EMZ к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-jpeg/"
+          link: "/conversion/java/emz-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "EMZ к JPG"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-jpg/"
+          link: "/conversion/java/emz-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "EMZ к MD"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-md/"
+          link: "/conversion/java/emz-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "EMZ к MHT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-mht/"
+          link: "/conversion/java/emz-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "EMZ к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-mhtml/"
+          link: "/conversion/java/emz-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "EMZ к ODP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-odp/"
+          link: "/conversion/java/emz-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "EMZ к ODS"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ods/"
+          link: "/conversion/java/emz-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "EMZ к ODT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-odt/"
+          link: "/conversion/java/emz-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "EMZ к OTP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-otp/"
+          link: "/conversion/java/emz-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "EMZ к OTT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ott/"
+          link: "/conversion/java/emz-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "EMZ к PDF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-pdf/"
+          link: "/conversion/java/emz-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "EMZ к PNG"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-png/"
+          link: "/conversion/java/emz-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "EMZ к POT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-pot/"
+          link: "/conversion/java/emz-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "EMZ к POTM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-potm/"
+          link: "/conversion/java/emz-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "EMZ к POTX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-potx/"
+          link: "/conversion/java/emz-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "EMZ к PPS"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-pps/"
+          link: "/conversion/java/emz-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "EMZ к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ppsm/"
+          link: "/conversion/java/emz-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "EMZ к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ppsx/"
+          link: "/conversion/java/emz-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "EMZ к PPT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-ppt/"
+          link: "/conversion/java/emz-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "EMZ к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-pptm/"
+          link: "/conversion/java/emz-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "EMZ к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-pptx/"
+          link: "/conversion/java/emz-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "EMZ к PSD"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-psd/"
+          link: "/conversion/java/emz-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "EMZ к RTF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-rtf/"
+          link: "/conversion/java/emz-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "EMZ к SVG"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-svg/"
+          link: "/conversion/java/emz-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "EMZ к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-svgz/"
+          link: "/conversion/java/emz-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "EMZ к SXC"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-sxc/"
+          link: "/conversion/java/emz-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "EMZ к TIF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-tif/"
+          link: "/conversion/java/emz-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "EMZ к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-tiff/"
+          link: "/conversion/java/emz-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "EMZ к TSV"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-tsv/"
+          link: "/conversion/java/emz-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "EMZ к TXT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-txt/"
+          link: "/conversion/java/emz-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "EMZ к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-webp/"
+          link: "/conversion/java/emz-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "EMZ к WMF"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-wmf/"
+          link: "/conversion/java/emz-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "EMZ к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-wmz/"
+          link: "/conversion/java/emz-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "EMZ к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xlam/"
+          link: "/conversion/java/emz-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "EMZ к XLS"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xls/"
+          link: "/conversion/java/emz-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "EMZ к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xlsb/"
+          link: "/conversion/java/emz-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "EMZ к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xlsm/"
+          link: "/conversion/java/emz-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "EMZ к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xlsx/"
+          link: "/conversion/java/emz-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "EMZ к XLT"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xlt/"
+          link: "/conversion/java/emz-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "EMZ к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xltm/"
+          link: "/conversion/java/emz-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "EMZ к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xltx/"
+          link: "/conversion/java/emz-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "EMZ к XPS"
-          link: "https://products.groupdocs.com/conversion/java/emz-to-xps/"
+          link: "/conversion/java/emz-to-xps/"
           description: "Спецификация документа Open XML"
 
 

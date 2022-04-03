@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию EMF в EMF в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла EMF в формат EMF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла EMF в формат EMF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл EMF с полным путем
         * Создайте и установите ConvertOptions для типа emf
@@ -127,272 +127,272 @@ more_formats:
         Вы также можете конвертировать EMF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EMF TO EPUB"
+        - name: "EMF к EPUB"
           link: "https://products.groupdocs.com/conversion/net/emf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EMF TO XPS"
+        - name: "EMF к XPS"
           link: "https://products.groupdocs.com/conversion/net/emf-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "EMF TO TEX"
+        - name: "EMF к TEX"
           link: "https://products.groupdocs.com/conversion/net/emf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EMF TO PPT"
+        - name: "EMF к PPT"
           link: "https://products.groupdocs.com/conversion/net/emf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EMF TO PPS"
+        - name: "EMF к PPS"
           link: "https://products.groupdocs.com/conversion/net/emf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EMF TO PPTX"
+        - name: "EMF к PPTX"
           link: "https://products.groupdocs.com/conversion/net/emf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EMF TO PPSX"
+        - name: "EMF к PPSX"
           link: "https://products.groupdocs.com/conversion/net/emf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EMF TO ODP"
+        - name: "EMF к ODP"
           link: "https://products.groupdocs.com/conversion/net/emf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EMF TO OTP"
+        - name: "EMF к OTP"
           link: "https://products.groupdocs.com/conversion/net/emf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EMF TO POTX"
+        - name: "EMF к POTX"
           link: "https://products.groupdocs.com/conversion/net/emf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EMF TO POTM"
+        - name: "EMF к POTM"
           link: "https://products.groupdocs.com/conversion/net/emf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EMF TO PPTM"
+        - name: "EMF к PPTM"
           link: "https://products.groupdocs.com/conversion/net/emf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EMF TO PPSM"
+        - name: "EMF к PPSM"
           link: "https://products.groupdocs.com/conversion/net/emf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EMF TO XLS"
+        - name: "EMF к XLS"
           link: "https://products.groupdocs.com/conversion/net/emf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EMF TO XLSX"
+        - name: "EMF к XLSX"
           link: "https://products.groupdocs.com/conversion/net/emf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EMF TO XLSM"
+        - name: "EMF к XLSM"
           link: "https://products.groupdocs.com/conversion/net/emf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMF TO XLSB"
+        - name: "EMF к XLSB"
           link: "https://products.groupdocs.com/conversion/net/emf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EMF TO ODS"
+        - name: "EMF к ODS"
           link: "https://products.groupdocs.com/conversion/net/emf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EMF TO XLTX"
+        - name: "EMF к XLTX"
           link: "https://products.groupdocs.com/conversion/net/emf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EMF TO XLTM"
+        - name: "EMF к XLTM"
           link: "https://products.groupdocs.com/conversion/net/emf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMF TO TSV"
+        - name: "EMF к TSV"
           link: "https://products.groupdocs.com/conversion/net/emf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EMF TO XLAM"
+        - name: "EMF к XLAM"
           link: "https://products.groupdocs.com/conversion/net/emf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMF TO CSV"
+        - name: "EMF к CSV"
           link: "https://products.groupdocs.com/conversion/net/emf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EMF TO DOC"
+        - name: "EMF к DOC"
           link: "https://products.groupdocs.com/conversion/net/emf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EMF TO DOCM"
+        - name: "EMF к DOCM"
           link: "https://products.groupdocs.com/conversion/net/emf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EMF TO EMF"
+        - name: "EMF к EMF"
           link: "https://products.groupdocs.com/conversion/net/emf-to-emf/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EMF TO DOT"
+        - name: "EMF к DOT"
           link: "https://products.groupdocs.com/conversion/net/emf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EMF TO DOTM"
+        - name: "EMF к DOTM"
           link: "https://products.groupdocs.com/conversion/net/emf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EMF TO DOTX"
+        - name: "EMF к DOTX"
           link: "https://products.groupdocs.com/conversion/net/emf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EMF TO RTF"
+        - name: "EMF к RTF"
           link: "https://products.groupdocs.com/conversion/net/emf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EMF TO ODT"
+        - name: "EMF к ODT"
           link: "https://products.groupdocs.com/conversion/net/emf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EMF TO OTT"
+        - name: "EMF к OTT"
           link: "https://products.groupdocs.com/conversion/net/emf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EMF TO TXT"
+        - name: "EMF к TXT"
           link: "https://products.groupdocs.com/conversion/net/emf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EMF TO MD"
+        - name: "EMF к MD"
           link: "https://products.groupdocs.com/conversion/net/emf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EMF TO TIFF"
+        - name: "EMF к TIFF"
           link: "https://products.groupdocs.com/conversion/net/emf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EMF TO TIF"
+        - name: "EMF к TIF"
           link: "https://products.groupdocs.com/conversion/net/emf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EMF TO JPG"
+        - name: "EMF к JPG"
           link: "https://products.groupdocs.com/conversion/net/emf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EMF TO JPEG"
+        - name: "EMF к JPEG"
           link: "https://products.groupdocs.com/conversion/net/emf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EMF TO PNG"
+        - name: "EMF к PNG"
           link: "https://products.groupdocs.com/conversion/net/emf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EMF TO GIF"
+        - name: "EMF к GIF"
           link: "https://products.groupdocs.com/conversion/net/emf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EMF TO BMP"
+        - name: "EMF к BMP"
           link: "https://products.groupdocs.com/conversion/net/emf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EMF TO ICO"
+        - name: "EMF к ICO"
           link: "https://products.groupdocs.com/conversion/net/emf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EMF TO PSD"
+        - name: "EMF к PSD"
           link: "https://products.groupdocs.com/conversion/net/emf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EMF TO WMF"
+        - name: "EMF к WMF"
           link: "https://products.groupdocs.com/conversion/net/emf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EMF TO EMF"
+        - name: "EMF к EMF"
           link: "https://products.groupdocs.com/conversion/net/emf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EMF TO WEBP"
+        - name: "EMF к WEBP"
           link: "https://products.groupdocs.com/conversion/net/emf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EMF TO SVG"
+        - name: "EMF к SVG"
           link: "https://products.groupdocs.com/conversion/net/emf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EMF TO JP2"
+        - name: "EMF к JP2"
           link: "https://products.groupdocs.com/conversion/net/emf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EMF TO EMZ"
+        - name: "EMF к EMZ"
           link: "https://products.groupdocs.com/conversion/net/emf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EMF TO WMZ"
+        - name: "EMF к WMZ"
           link: "https://products.groupdocs.com/conversion/net/emf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EMF TO HTML"
+        - name: "EMF к HTML"
           link: "https://products.groupdocs.com/conversion/net/emf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EMF TO MHT"
+        - name: "EMF к MHT"
           link: "https://products.groupdocs.com/conversion/net/emf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EMF TO MHTML"
+        - name: "EMF к MHTML"
           link: "https://products.groupdocs.com/conversion/net/emf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

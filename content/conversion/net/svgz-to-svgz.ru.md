@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию SVGZ в SVGZ на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла SVGZ в SVGZ с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла SVGZ в SVGZ с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл SVGZ с полным путем
         * Создайте и установите ConvertOptions для типа svgz
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать SVGZ во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "SVGZ TO EPUB"
+        - name: "SVGZ к EPUB"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "SVGZ TO XPS"
+        - name: "SVGZ к XPS"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "SVGZ TO TEX"
+        - name: "SVGZ к TEX"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "SVGZ TO PPT"
+        - name: "SVGZ к PPT"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "SVGZ TO PPS"
+        - name: "SVGZ к PPS"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "SVGZ TO PPTX"
+        - name: "SVGZ к PPTX"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "SVGZ TO PPSX"
+        - name: "SVGZ к PPSX"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "SVGZ TO ODP"
+        - name: "SVGZ к ODP"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "SVGZ TO OTP"
+        - name: "SVGZ к OTP"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "SVGZ TO POTX"
+        - name: "SVGZ к POTX"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "SVGZ TO POTM"
+        - name: "SVGZ к POTM"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "SVGZ TO PPTM"
+        - name: "SVGZ к PPTM"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "SVGZ TO PPSM"
+        - name: "SVGZ к PPSM"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "SVGZ TO XLS"
+        - name: "SVGZ к XLS"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "SVGZ TO XLSX"
+        - name: "SVGZ к XLSX"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "SVGZ TO XLSM"
+        - name: "SVGZ к XLSM"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVGZ TO XLSB"
+        - name: "SVGZ к XLSB"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "SVGZ TO ODS"
+        - name: "SVGZ к ODS"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "SVGZ TO XLTX"
+        - name: "SVGZ к XLTX"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "SVGZ TO XLTM"
+        - name: "SVGZ к XLTM"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVGZ TO TSV"
+        - name: "SVGZ к TSV"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "SVGZ TO XLAM"
+        - name: "SVGZ к XLAM"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVGZ TO CSV"
+        - name: "SVGZ к CSV"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "SVGZ TO DOC"
+        - name: "SVGZ к DOC"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "SVGZ TO DOCM"
+        - name: "SVGZ к DOCM"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "SVGZ TO SVGZ"
+        - name: "SVGZ к SVGZ"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-svgz/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "SVGZ TO DOT"
+        - name: "SVGZ к DOT"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "SVGZ TO DOTM"
+        - name: "SVGZ к DOTM"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "SVGZ TO DOTX"
+        - name: "SVGZ к DOTX"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "SVGZ TO RTF"
+        - name: "SVGZ к RTF"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "SVGZ TO ODT"
+        - name: "SVGZ к ODT"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "SVGZ TO OTT"
+        - name: "SVGZ к OTT"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "SVGZ TO TXT"
+        - name: "SVGZ к TXT"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "SVGZ TO MD"
+        - name: "SVGZ к MD"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "SVGZ TO TIFF"
+        - name: "SVGZ к TIFF"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "SVGZ TO TIF"
+        - name: "SVGZ к TIF"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "SVGZ TO JPG"
+        - name: "SVGZ к JPG"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "SVGZ TO JPEG"
+        - name: "SVGZ к JPEG"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "SVGZ TO PNG"
+        - name: "SVGZ к PNG"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "SVGZ TO GIF"
+        - name: "SVGZ к GIF"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "SVGZ TO BMP"
+        - name: "SVGZ к BMP"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "SVGZ TO ICO"
+        - name: "SVGZ к ICO"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "SVGZ TO PSD"
+        - name: "SVGZ к PSD"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "SVGZ TO WMF"
+        - name: "SVGZ к WMF"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "SVGZ TO EMF"
+        - name: "SVGZ к EMF"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "SVGZ TO WEBP"
+        - name: "SVGZ к WEBP"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "SVGZ TO SVG"
+        - name: "SVGZ к SVG"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "SVGZ TO JP2"
+        - name: "SVGZ к JP2"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "SVGZ TO EMZ"
+        - name: "SVGZ к EMZ"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "SVGZ TO WMZ"
+        - name: "SVGZ к WMZ"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "SVGZ TO HTML"
+        - name: "SVGZ к HTML"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "SVGZ TO MHT"
+        - name: "SVGZ к MHT"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "SVGZ TO MHTML"
+        - name: "SVGZ к MHTML"
           link: "https://products.groupdocs.com/conversion/net/svgz-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

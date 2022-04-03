@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию MOBI в MOBI на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла MOBI в MOBI с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла MOBI в MOBI с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл MOBI с полным путем
         * Создайте и установите ConvertOptions для типа mobi
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать MOBI во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MOBI TO EPUB"
+        - name: "MOBI к EPUB"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MOBI TO XPS"
+        - name: "MOBI к XPS"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "MOBI TO TEX"
+        - name: "MOBI к TEX"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MOBI TO PPT"
+        - name: "MOBI к PPT"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MOBI TO PPS"
+        - name: "MOBI к PPS"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI TO PPTX"
+        - name: "MOBI к PPTX"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MOBI TO PPSX"
+        - name: "MOBI к PPSX"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MOBI TO ODP"
+        - name: "MOBI к ODP"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MOBI TO OTP"
+        - name: "MOBI к OTP"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MOBI TO POTX"
+        - name: "MOBI к POTX"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI TO POTM"
+        - name: "MOBI к POTM"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI TO PPTM"
+        - name: "MOBI к PPTM"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI TO PPSM"
+        - name: "MOBI к PPSM"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI TO XLS"
+        - name: "MOBI к XLS"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MOBI TO XLSX"
+        - name: "MOBI к XLSX"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MOBI TO XLSM"
+        - name: "MOBI к XLSM"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MOBI TO XLSB"
+        - name: "MOBI к XLSB"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MOBI TO ODS"
+        - name: "MOBI к ODS"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MOBI TO XLTX"
+        - name: "MOBI к XLTX"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MOBI TO XLTM"
+        - name: "MOBI к XLTM"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MOBI TO TSV"
+        - name: "MOBI к TSV"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MOBI TO XLAM"
+        - name: "MOBI к XLAM"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MOBI TO CSV"
+        - name: "MOBI к CSV"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MOBI TO DOC"
+        - name: "MOBI к DOC"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MOBI TO DOCM"
+        - name: "MOBI к DOCM"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MOBI TO MOBI"
+        - name: "MOBI к MOBI"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-mobi/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MOBI TO DOT"
+        - name: "MOBI к DOT"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MOBI TO DOTM"
+        - name: "MOBI к DOTM"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MOBI TO DOTX"
+        - name: "MOBI к DOTX"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MOBI TO RTF"
+        - name: "MOBI к RTF"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MOBI TO ODT"
+        - name: "MOBI к ODT"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MOBI TO OTT"
+        - name: "MOBI к OTT"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MOBI TO TXT"
+        - name: "MOBI к TXT"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MOBI TO MD"
+        - name: "MOBI к MD"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MOBI TO TIFF"
+        - name: "MOBI к TIFF"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MOBI TO TIF"
+        - name: "MOBI к TIF"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MOBI TO JPG"
+        - name: "MOBI к JPG"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MOBI TO JPEG"
+        - name: "MOBI к JPEG"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MOBI TO PNG"
+        - name: "MOBI к PNG"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MOBI TO GIF"
+        - name: "MOBI к GIF"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MOBI TO BMP"
+        - name: "MOBI к BMP"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MOBI TO ICO"
+        - name: "MOBI к ICO"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MOBI TO PSD"
+        - name: "MOBI к PSD"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MOBI TO WMF"
+        - name: "MOBI к WMF"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MOBI TO EMF"
+        - name: "MOBI к EMF"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MOBI TO WEBP"
+        - name: "MOBI к WEBP"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MOBI TO SVG"
+        - name: "MOBI к SVG"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MOBI TO JP2"
+        - name: "MOBI к JP2"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MOBI TO EMZ"
+        - name: "MOBI к EMZ"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MOBI TO WMZ"
+        - name: "MOBI к WMZ"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MOBI TO HTML"
+        - name: "MOBI к HTML"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MOBI TO MHT"
+        - name: "MOBI к MHT"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MOBI TO MHTML"
+        - name: "MOBI к MHTML"
           link: "https://products.groupdocs.com/conversion/net/mobi-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

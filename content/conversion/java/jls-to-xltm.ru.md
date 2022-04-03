@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги по преобразованию JLS в XLTM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл JLS в XLTM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл JLS в XLTM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл JLS с полным путем
         * Установите ConvertOptions для типа документа XLTM
@@ -129,317 +129,317 @@ more_formats:
     format: 
         # format loop
         - name: "JLS к BMP"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-bmp/"
+          link: "/conversion/java/jls-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "JLS к CSV"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-csv/"
+          link: "/conversion/java/jls-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "JLS к DCM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-dcm/"
+          link: "/conversion/java/jls-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "JLS к DIF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-dif/"
+          link: "/conversion/java/jls-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "JLS к DOC"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-doc/"
+          link: "/conversion/java/jls-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "JLS к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-docm/"
+          link: "/conversion/java/jls-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "JLS к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-docx/"
+          link: "/conversion/java/jls-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "JLS к DOT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-dot/"
+          link: "/conversion/java/jls-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "JLS к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-dotm/"
+          link: "/conversion/java/jls-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "JLS к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-dotx/"
+          link: "/conversion/java/jls-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "JLS к EMF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-emf/"
+          link: "/conversion/java/jls-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "JLS к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-emz/"
+          link: "/conversion/java/jls-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "JLS к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-epub/"
+          link: "/conversion/java/jls-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "JLS к FODP"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-fodp/"
+          link: "/conversion/java/jls-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "JLS к FODS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-fods/"
+          link: "/conversion/java/jls-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "JLS к GIF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-gif/"
+          link: "/conversion/java/jls-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "JLS к HTM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-htm/"
+          link: "/conversion/java/jls-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "JLS к HTML"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-html/"
+          link: "/conversion/java/jls-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "JLS к ICO"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ico/"
+          link: "/conversion/java/jls-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "JLS к JP2"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-jp2/"
+          link: "/conversion/java/jls-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "JLS к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-jpeg/"
+          link: "/conversion/java/jls-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "JLS к JPG"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-jpg/"
+          link: "/conversion/java/jls-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "JLS к MD"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-md/"
+          link: "/conversion/java/jls-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "JLS к MHT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-mht/"
+          link: "/conversion/java/jls-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "JLS к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-mhtml/"
+          link: "/conversion/java/jls-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "JLS к MOBI"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-mobi/"
+          link: "/conversion/java/jls-to-mobi/"
           description: "Электронная книга Mobipocket"
 
         # format loop
         - name: "JLS к ODP"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-odp/"
+          link: "/conversion/java/jls-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "JLS к ODS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ods/"
+          link: "/conversion/java/jls-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "JLS к ODT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-odt/"
+          link: "/conversion/java/jls-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "JLS к OTP"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-otp/"
+          link: "/conversion/java/jls-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "JLS к OTT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ott/"
+          link: "/conversion/java/jls-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "JLS к PDF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-pdf/"
+          link: "/conversion/java/jls-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "JLS к PNG"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-png/"
+          link: "/conversion/java/jls-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "JLS к POT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-pot/"
+          link: "/conversion/java/jls-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "JLS к POTM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-potm/"
+          link: "/conversion/java/jls-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "JLS к POTX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-potx/"
+          link: "/conversion/java/jls-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "JLS к PPS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-pps/"
+          link: "/conversion/java/jls-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "JLS к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ppsm/"
+          link: "/conversion/java/jls-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "JLS к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ppsx/"
+          link: "/conversion/java/jls-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "JLS к PPT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-ppt/"
+          link: "/conversion/java/jls-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "JLS к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-pptm/"
+          link: "/conversion/java/jls-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "JLS к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-pptx/"
+          link: "/conversion/java/jls-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "JLS к PSD"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-psd/"
+          link: "/conversion/java/jls-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "JLS к RTF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-rtf/"
+          link: "/conversion/java/jls-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "JLS к SVG"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-svg/"
+          link: "/conversion/java/jls-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "JLS к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-svgz/"
+          link: "/conversion/java/jls-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "JLS к SXC"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-sxc/"
+          link: "/conversion/java/jls-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "JLS к TEX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-tex/"
+          link: "/conversion/java/jls-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "JLS к TIF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-tif/"
+          link: "/conversion/java/jls-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "JLS к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-tiff/"
+          link: "/conversion/java/jls-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "JLS к TSV"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-tsv/"
+          link: "/conversion/java/jls-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "JLS к TXT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-txt/"
+          link: "/conversion/java/jls-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "JLS к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-webp/"
+          link: "/conversion/java/jls-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "JLS к WMF"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-wmf/"
+          link: "/conversion/java/jls-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "JLS к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-wmz/"
+          link: "/conversion/java/jls-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "JLS к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xlam/"
+          link: "/conversion/java/jls-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "JLS к XLS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xls/"
+          link: "/conversion/java/jls-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "JLS к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xlsb/"
+          link: "/conversion/java/jls-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "JLS к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xlsm/"
+          link: "/conversion/java/jls-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "JLS к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xlsx/"
+          link: "/conversion/java/jls-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "JLS к XLT"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xlt/"
+          link: "/conversion/java/jls-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "JLS к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xltx/"
+          link: "/conversion/java/jls-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "JLS к XPS"
-          link: "https://products.groupdocs.com/conversion/java/jls-to-xps/"
+          link: "/conversion/java/jls-to-xps/"
           description: "Спецификация документа Open XML"
 
 

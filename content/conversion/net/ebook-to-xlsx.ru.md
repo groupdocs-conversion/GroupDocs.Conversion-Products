@@ -5,7 +5,7 @@ date: 2022-03-01T19:10:30
 draft: false
 
 ############################# Head ############################
-head_title: "EBOOK to XLSX Converter — конвертируйте EBOOK в XLSX на C# .NET"
+head_title: "EBOOK к XLSX Converter — конвертируйте EBOOK в XLSX на C# .NET"
 head_description: "Как преобразовать EBOOK в XLSX в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию EBOOK в XLSX на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл EBOOK в XLSX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл EBOOK в XLSX с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл EBOOK с полным путем
         * Создайте и установите ConvertOptions для типа xlsx
@@ -127,58 +127,58 @@ more_formats:
         Вы также можете конвертировать EBOOK во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EBOOK TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-docm/"
+        - name: "EBOOK к DOCM"
+          link: "/conversion/net/ebook-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EBOOK TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-epub/"
+        - name: "EBOOK к EPUB"
+          link: "/conversion/net/ebook-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EBOOK TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ods/"
+        - name: "EBOOK к ODS"
+          link: "/conversion/net/ebook-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EBOOK TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-pdf/"
+        - name: "EBOOK к PDF"
+          link: "/conversion/net/ebook-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EBOOK TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-potm/"
+        - name: "EBOOK к POTM"
+          link: "/conversion/net/ebook-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-potx/"
+        - name: "EBOOK к POTX"
+          link: "/conversion/net/ebook-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-ppt/"
+        - name: "EBOOK к PPT"
+          link: "/conversion/net/ebook-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EBOOK TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-svg/"
+        - name: "EBOOK к SVG"
+          link: "/conversion/net/ebook-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EBOOK TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-webp/"
+        - name: "EBOOK к WEBP"
+          link: "/conversion/net/ebook-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EBOOK TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ebook-to-xltm/"
+        - name: "EBOOK к XLTM"
+          link: "/conversion/net/ebook-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

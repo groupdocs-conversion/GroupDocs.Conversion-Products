@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию POWERPOINT в POWERPOINT на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла POWERPOINT в POWERPOINT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла POWERPOINT в POWERPOINT с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл POWERPOINT с полным путем
         * Создайте и установите ConvertOptions для типа PowerPoint
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать POWERPOINT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "POWERPOINT TO EPUB"
+        - name: "POWERPOINT к EPUB"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "POWERPOINT TO XPS"
+        - name: "POWERPOINT к XPS"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "POWERPOINT TO TEX"
+        - name: "POWERPOINT к TEX"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "POWERPOINT TO PPT"
+        - name: "POWERPOINT к PPT"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "POWERPOINT TO PPS"
+        - name: "POWERPOINT к PPS"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "POWERPOINT TO PPTX"
+        - name: "POWERPOINT к PPTX"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "POWERPOINT TO PPSX"
+        - name: "POWERPOINT к PPSX"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "POWERPOINT TO ODP"
+        - name: "POWERPOINT к ODP"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "POWERPOINT TO OTP"
+        - name: "POWERPOINT к OTP"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "POWERPOINT TO POTX"
+        - name: "POWERPOINT к POTX"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "POWERPOINT TO POTM"
+        - name: "POWERPOINT к POTM"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "POWERPOINT TO PPTM"
+        - name: "POWERPOINT к PPTM"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "POWERPOINT TO PPSM"
+        - name: "POWERPOINT к PPSM"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "POWERPOINT TO XLS"
+        - name: "POWERPOINT к XLS"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "POWERPOINT TO XLSX"
+        - name: "POWERPOINT к XLSX"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "POWERPOINT TO XLSM"
+        - name: "POWERPOINT к XLSM"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "POWERPOINT TO XLSB"
+        - name: "POWERPOINT к XLSB"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "POWERPOINT TO ODS"
+        - name: "POWERPOINT к ODS"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "POWERPOINT TO XLTX"
+        - name: "POWERPOINT к XLTX"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "POWERPOINT TO XLTM"
+        - name: "POWERPOINT к XLTM"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "POWERPOINT TO TSV"
+        - name: "POWERPOINT к TSV"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "POWERPOINT TO XLAM"
+        - name: "POWERPOINT к XLAM"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "POWERPOINT TO CSV"
+        - name: "POWERPOINT к CSV"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "POWERPOINT TO DOC"
+        - name: "POWERPOINT к DOC"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "POWERPOINT TO DOCM"
+        - name: "POWERPOINT к DOCM"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "POWERPOINT TO POWERPOINT"
+        - name: "POWERPOINT к POWERPOINT"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-powerpoint/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "POWERPOINT TO DOT"
+        - name: "POWERPOINT к DOT"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "POWERPOINT TO DOTM"
+        - name: "POWERPOINT к DOTM"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "POWERPOINT TO DOTX"
+        - name: "POWERPOINT к DOTX"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "POWERPOINT TO RTF"
+        - name: "POWERPOINT к RTF"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "POWERPOINT TO ODT"
+        - name: "POWERPOINT к ODT"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "POWERPOINT TO OTT"
+        - name: "POWERPOINT к OTT"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "POWERPOINT TO TXT"
+        - name: "POWERPOINT к TXT"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "POWERPOINT TO MD"
+        - name: "POWERPOINT к MD"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "POWERPOINT TO TIFF"
+        - name: "POWERPOINT к TIFF"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "POWERPOINT TO TIF"
+        - name: "POWERPOINT к TIF"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "POWERPOINT TO JPG"
+        - name: "POWERPOINT к JPG"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "POWERPOINT TO JPEG"
+        - name: "POWERPOINT к JPEG"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "POWERPOINT TO PNG"
+        - name: "POWERPOINT к PNG"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "POWERPOINT TO GIF"
+        - name: "POWERPOINT к GIF"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "POWERPOINT TO BMP"
+        - name: "POWERPOINT к BMP"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "POWERPOINT TO ICO"
+        - name: "POWERPOINT к ICO"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "POWERPOINT TO PSD"
+        - name: "POWERPOINT к PSD"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "POWERPOINT TO WMF"
+        - name: "POWERPOINT к WMF"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "POWERPOINT TO EMF"
+        - name: "POWERPOINT к EMF"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "POWERPOINT TO WEBP"
+        - name: "POWERPOINT к WEBP"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "POWERPOINT TO SVG"
+        - name: "POWERPOINT к SVG"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "POWERPOINT TO JP2"
+        - name: "POWERPOINT к JP2"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "POWERPOINT TO EMZ"
+        - name: "POWERPOINT к EMZ"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "POWERPOINT TO WMZ"
+        - name: "POWERPOINT к WMZ"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "POWERPOINT TO HTML"
+        - name: "POWERPOINT к HTML"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "POWERPOINT TO MHT"
+        - name: "POWERPOINT к MHT"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "POWERPOINT TO MHTML"
+        - name: "POWERPOINT к MHTML"
           link: "https://products.groupdocs.com/conversion/net/powerpoint-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

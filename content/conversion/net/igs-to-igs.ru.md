@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию IGS в IGS на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла IGS в формат IGS с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла IGS в формат IGS с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл IGS с полным путем
         * Создайте и установите ConvertOptions для типа igs
@@ -127,272 +127,272 @@ more_formats:
         Вы также можете конвертировать IGS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "IGS TO EPUB"
+        - name: "IGS к EPUB"
           link: "https://products.groupdocs.com/conversion/net/igs-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "IGS TO XPS"
+        - name: "IGS к XPS"
           link: "https://products.groupdocs.com/conversion/net/igs-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "IGS TO TEX"
+        - name: "IGS к TEX"
           link: "https://products.groupdocs.com/conversion/net/igs-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "IGS TO PPT"
+        - name: "IGS к PPT"
           link: "https://products.groupdocs.com/conversion/net/igs-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "IGS TO PPS"
+        - name: "IGS к PPS"
           link: "https://products.groupdocs.com/conversion/net/igs-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IGS TO PPTX"
+        - name: "IGS к PPTX"
           link: "https://products.groupdocs.com/conversion/net/igs-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "IGS TO PPSX"
+        - name: "IGS к PPSX"
           link: "https://products.groupdocs.com/conversion/net/igs-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "IGS TO ODP"
+        - name: "IGS к ODP"
           link: "https://products.groupdocs.com/conversion/net/igs-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "IGS TO OTP"
+        - name: "IGS к OTP"
           link: "https://products.groupdocs.com/conversion/net/igs-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "IGS TO POTX"
+        - name: "IGS к POTX"
           link: "https://products.groupdocs.com/conversion/net/igs-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IGS TO POTM"
+        - name: "IGS к POTM"
           link: "https://products.groupdocs.com/conversion/net/igs-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IGS TO PPTM"
+        - name: "IGS к PPTM"
           link: "https://products.groupdocs.com/conversion/net/igs-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "IGS TO PPSM"
+        - name: "IGS к PPSM"
           link: "https://products.groupdocs.com/conversion/net/igs-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IGS TO XLS"
+        - name: "IGS к XLS"
           link: "https://products.groupdocs.com/conversion/net/igs-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "IGS TO XLSX"
+        - name: "IGS к XLSX"
           link: "https://products.groupdocs.com/conversion/net/igs-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "IGS TO XLSM"
+        - name: "IGS к XLSM"
           link: "https://products.groupdocs.com/conversion/net/igs-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IGS TO XLSB"
+        - name: "IGS к XLSB"
           link: "https://products.groupdocs.com/conversion/net/igs-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "IGS TO ODS"
+        - name: "IGS к ODS"
           link: "https://products.groupdocs.com/conversion/net/igs-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "IGS TO XLTX"
+        - name: "IGS к XLTX"
           link: "https://products.groupdocs.com/conversion/net/igs-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "IGS TO XLTM"
+        - name: "IGS к XLTM"
           link: "https://products.groupdocs.com/conversion/net/igs-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IGS TO TSV"
+        - name: "IGS к TSV"
           link: "https://products.groupdocs.com/conversion/net/igs-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "IGS TO XLAM"
+        - name: "IGS к XLAM"
           link: "https://products.groupdocs.com/conversion/net/igs-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IGS TO CSV"
+        - name: "IGS к CSV"
           link: "https://products.groupdocs.com/conversion/net/igs-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "IGS TO DOC"
+        - name: "IGS к DOC"
           link: "https://products.groupdocs.com/conversion/net/igs-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "IGS TO DOCM"
+        - name: "IGS к DOCM"
           link: "https://products.groupdocs.com/conversion/net/igs-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IGS TO IGS"
+        - name: "IGS к IGS"
           link: "https://products.groupdocs.com/conversion/net/igs-to-igs/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "IGS TO DOT"
+        - name: "IGS к DOT"
           link: "https://products.groupdocs.com/conversion/net/igs-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "IGS TO DOTM"
+        - name: "IGS к DOTM"
           link: "https://products.groupdocs.com/conversion/net/igs-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IGS TO DOTX"
+        - name: "IGS к DOTX"
           link: "https://products.groupdocs.com/conversion/net/igs-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "IGS TO RTF"
+        - name: "IGS к RTF"
           link: "https://products.groupdocs.com/conversion/net/igs-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "IGS TO ODT"
+        - name: "IGS к ODT"
           link: "https://products.groupdocs.com/conversion/net/igs-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "IGS TO OTT"
+        - name: "IGS к OTT"
           link: "https://products.groupdocs.com/conversion/net/igs-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "IGS TO TXT"
+        - name: "IGS к TXT"
           link: "https://products.groupdocs.com/conversion/net/igs-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "IGS TO MD"
+        - name: "IGS к MD"
           link: "https://products.groupdocs.com/conversion/net/igs-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "IGS TO TIFF"
+        - name: "IGS к TIFF"
           link: "https://products.groupdocs.com/conversion/net/igs-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IGS TO TIF"
+        - name: "IGS к TIF"
           link: "https://products.groupdocs.com/conversion/net/igs-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IGS TO JPG"
+        - name: "IGS к JPG"
           link: "https://products.groupdocs.com/conversion/net/igs-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "IGS TO JPEG"
+        - name: "IGS к JPEG"
           link: "https://products.groupdocs.com/conversion/net/igs-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "IGS TO PNG"
+        - name: "IGS к PNG"
           link: "https://products.groupdocs.com/conversion/net/igs-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "IGS TO GIF"
+        - name: "IGS к GIF"
           link: "https://products.groupdocs.com/conversion/net/igs-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "IGS TO BMP"
+        - name: "IGS к BMP"
           link: "https://products.groupdocs.com/conversion/net/igs-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "IGS TO ICO"
+        - name: "IGS к ICO"
           link: "https://products.groupdocs.com/conversion/net/igs-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "IGS TO PSD"
+        - name: "IGS к PSD"
           link: "https://products.groupdocs.com/conversion/net/igs-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "IGS TO WMF"
+        - name: "IGS к WMF"
           link: "https://products.groupdocs.com/conversion/net/igs-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "IGS TO EMF"
+        - name: "IGS к EMF"
           link: "https://products.groupdocs.com/conversion/net/igs-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "IGS TO WEBP"
+        - name: "IGS к WEBP"
           link: "https://products.groupdocs.com/conversion/net/igs-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "IGS TO SVG"
+        - name: "IGS к SVG"
           link: "https://products.groupdocs.com/conversion/net/igs-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "IGS TO JP2"
+        - name: "IGS к JP2"
           link: "https://products.groupdocs.com/conversion/net/igs-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "IGS TO EMZ"
+        - name: "IGS к EMZ"
           link: "https://products.groupdocs.com/conversion/net/igs-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "IGS TO WMZ"
+        - name: "IGS к WMZ"
           link: "https://products.groupdocs.com/conversion/net/igs-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "IGS TO HTML"
+        - name: "IGS к HTML"
           link: "https://products.groupdocs.com/conversion/net/igs-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "IGS TO MHT"
+        - name: "IGS к MHT"
           link: "https://products.groupdocs.com/conversion/net/igs-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "IGS TO MHTML"
+        - name: "IGS к MHTML"
           link: "https://products.groupdocs.com/conversion/net/igs-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

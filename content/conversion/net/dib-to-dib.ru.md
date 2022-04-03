@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию DIB в DIB в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла DIB в формат DIB с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла DIB в формат DIB с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DIB с полным путем
         * Создайте и установите ConvertOptions для типа dib

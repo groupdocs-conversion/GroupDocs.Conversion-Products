@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования EMF в PPS в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл EMF в PPS с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл EMF в PPS с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл EMF с полным путем
         * Установите ConvertOptions для типа документа PPS
@@ -129,317 +129,317 @@ more_formats:
     format: 
         # format loop
         - name: "EMF к BMP"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-bmp/"
+          link: "/conversion/java/emf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "EMF к CSV"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-csv/"
+          link: "/conversion/java/emf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "EMF к DCM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-dcm/"
+          link: "/conversion/java/emf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "EMF к DIF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-dif/"
+          link: "/conversion/java/emf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "EMF к DOC"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-doc/"
+          link: "/conversion/java/emf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "EMF к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-docm/"
+          link: "/conversion/java/emf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "EMF к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-docx/"
+          link: "/conversion/java/emf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "EMF к DOT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-dot/"
+          link: "/conversion/java/emf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "EMF к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-dotm/"
+          link: "/conversion/java/emf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "EMF к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-dotx/"
+          link: "/conversion/java/emf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "EMF к EML"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-eml/"
+          link: "/conversion/java/emf-to-eml/"
           description: "Файл сообщения электронной почты"
 
         # format loop
         - name: "EMF к EMLX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-emlx/"
+          link: "/conversion/java/emf-to-emlx/"
           description: "Почтовое сообщение Apple"
 
         # format loop
         - name: "EMF к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-emz/"
+          link: "/conversion/java/emf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "EMF к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-epub/"
+          link: "/conversion/java/emf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "EMF к FODP"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-fodp/"
+          link: "/conversion/java/emf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "EMF к FODS"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-fods/"
+          link: "/conversion/java/emf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "EMF к GIF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-gif/"
+          link: "/conversion/java/emf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "EMF к HTM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-htm/"
+          link: "/conversion/java/emf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "EMF к HTML"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-html/"
+          link: "/conversion/java/emf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "EMF к ICO"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ico/"
+          link: "/conversion/java/emf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "EMF к JP2"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-jp2/"
+          link: "/conversion/java/emf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "EMF к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-jpeg/"
+          link: "/conversion/java/emf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "EMF к JPG"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-jpg/"
+          link: "/conversion/java/emf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "EMF к MD"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-md/"
+          link: "/conversion/java/emf-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "EMF к MHT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-mht/"
+          link: "/conversion/java/emf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "EMF к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-mhtml/"
+          link: "/conversion/java/emf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "EMF к ODP"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-odp/"
+          link: "/conversion/java/emf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "EMF к ODS"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ods/"
+          link: "/conversion/java/emf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "EMF к ODT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-odt/"
+          link: "/conversion/java/emf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "EMF к OTP"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-otp/"
+          link: "/conversion/java/emf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "EMF к OTT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ott/"
+          link: "/conversion/java/emf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "EMF к PDF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-pdf/"
+          link: "/conversion/java/emf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "EMF к PNG"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-png/"
+          link: "/conversion/java/emf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "EMF к POT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-pot/"
+          link: "/conversion/java/emf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "EMF к POTM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-potm/"
+          link: "/conversion/java/emf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "EMF к POTX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-potx/"
+          link: "/conversion/java/emf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "EMF к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ppsm/"
+          link: "/conversion/java/emf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "EMF к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ppsx/"
+          link: "/conversion/java/emf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "EMF к PPT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-ppt/"
+          link: "/conversion/java/emf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "EMF к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-pptm/"
+          link: "/conversion/java/emf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "EMF к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-pptx/"
+          link: "/conversion/java/emf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "EMF к PSD"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-psd/"
+          link: "/conversion/java/emf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "EMF к RTF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-rtf/"
+          link: "/conversion/java/emf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "EMF к SVG"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-svg/"
+          link: "/conversion/java/emf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "EMF к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-svgz/"
+          link: "/conversion/java/emf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "EMF к SXC"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-sxc/"
+          link: "/conversion/java/emf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "EMF к TEX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-tex/"
+          link: "/conversion/java/emf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "EMF к TIF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-tif/"
+          link: "/conversion/java/emf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "EMF к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-tiff/"
+          link: "/conversion/java/emf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "EMF к TSV"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-tsv/"
+          link: "/conversion/java/emf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "EMF к TXT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-txt/"
+          link: "/conversion/java/emf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "EMF к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-webp/"
+          link: "/conversion/java/emf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "EMF к WMF"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-wmf/"
+          link: "/conversion/java/emf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "EMF к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-wmz/"
+          link: "/conversion/java/emf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "EMF к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlam/"
+          link: "/conversion/java/emf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "EMF к XLS"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xls/"
+          link: "/conversion/java/emf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "EMF к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlsb/"
+          link: "/conversion/java/emf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "EMF к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlsm/"
+          link: "/conversion/java/emf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "EMF к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlsx/"
+          link: "/conversion/java/emf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "EMF к XLT"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xlt/"
+          link: "/conversion/java/emf-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "EMF к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xltm/"
+          link: "/conversion/java/emf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "EMF к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xltx/"
+          link: "/conversion/java/emf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "EMF к XPS"
-          link: "https://products.groupdocs.com/conversion/java/emf-to-xps/"
+          link: "/conversion/java/emf-to-xps/"
           description: "Спецификация документа Open XML"
 
 

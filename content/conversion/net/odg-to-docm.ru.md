@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию ODG в DOCM на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла ODG в DOCM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла ODG в DOCM с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл ODG с полным путем
         * Создайте и установите ConvertOptions для типа docm
@@ -127,313 +127,313 @@ more_formats:
         Вы также можете конвертировать ODG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "ODG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-bmp/"
+        - name: "ODG к BMP"
+          link: "/conversion/net/odg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "ODG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-csv/"
+        - name: "ODG к CSV"
+          link: "/conversion/net/odg-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "ODG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-dcm/"
+        - name: "ODG к DCM"
+          link: "/conversion/net/odg-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "ODG TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-dif/"
+        - name: "ODG к DIF"
+          link: "/conversion/net/odg-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "ODG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-doc/"
+        - name: "ODG к DOC"
+          link: "/conversion/net/odg-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "ODG TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-docx/"
+        - name: "ODG к DOCX"
+          link: "/conversion/net/odg-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "ODG TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-dot/"
+        - name: "ODG к DOT"
+          link: "/conversion/net/odg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "ODG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-dotm/"
+        - name: "ODG к DOTM"
+          link: "/conversion/net/odg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ODG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-dotx/"
+        - name: "ODG к DOTX"
+          link: "/conversion/net/odg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "ODG TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-emf/"
+        - name: "ODG к EMF"
+          link: "/conversion/net/odg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "ODG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-emz/"
+        - name: "ODG к EMZ"
+          link: "/conversion/net/odg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "ODG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-epub/"
+        - name: "ODG к EPUB"
+          link: "/conversion/net/odg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "ODG TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-fodp/"
+        - name: "ODG к FODP"
+          link: "/conversion/net/odg-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "ODG TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-fods/"
+        - name: "ODG к FODS"
+          link: "/conversion/net/odg-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "ODG TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-gif/"
+        - name: "ODG к GIF"
+          link: "/conversion/net/odg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "ODG TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-htm/"
+        - name: "ODG к HTM"
+          link: "/conversion/net/odg-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "ODG TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-html/"
+        - name: "ODG к HTML"
+          link: "/conversion/net/odg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "ODG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ico/"
+        - name: "ODG к ICO"
+          link: "/conversion/net/odg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "ODG TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-jp2/"
+        - name: "ODG к JP2"
+          link: "/conversion/net/odg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "ODG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-jpeg/"
+        - name: "ODG к JPEG"
+          link: "/conversion/net/odg-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "ODG TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-jpg/"
+        - name: "ODG к JPG"
+          link: "/conversion/net/odg-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "ODG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-md/"
+        - name: "ODG к MD"
+          link: "/conversion/net/odg-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "ODG TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-mht/"
+        - name: "ODG к MHT"
+          link: "/conversion/net/odg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ODG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-mhtml/"
+        - name: "ODG к MHTML"
+          link: "/conversion/net/odg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ODG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-odp/"
+        - name: "ODG к ODP"
+          link: "/conversion/net/odg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "ODG TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ods/"
+        - name: "ODG к ODS"
+          link: "/conversion/net/odg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "ODG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-odt/"
+        - name: "ODG к ODT"
+          link: "/conversion/net/odg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "ODG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-otp/"
+        - name: "ODG к OTP"
+          link: "/conversion/net/odg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "ODG TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ott/"
+        - name: "ODG к OTT"
+          link: "/conversion/net/odg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "ODG TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pdf/"
+        - name: "ODG к PDF"
+          link: "/conversion/net/odg-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "ODG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-png/"
+        - name: "ODG к PNG"
+          link: "/conversion/net/odg-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "ODG TO POT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pot/"
+        - name: "ODG к POT"
+          link: "/conversion/net/odg-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "ODG TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-potm/"
+        - name: "ODG к POTM"
+          link: "/conversion/net/odg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ODG TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-potx/"
+        - name: "ODG к POTX"
+          link: "/conversion/net/odg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ODG TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pps/"
+        - name: "ODG к PPS"
+          link: "/conversion/net/odg-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ODG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ppsm/"
+        - name: "ODG к PPSM"
+          link: "/conversion/net/odg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ODG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ppsx/"
+        - name: "ODG к PPSX"
+          link: "/conversion/net/odg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "ODG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ppt/"
+        - name: "ODG к PPT"
+          link: "/conversion/net/odg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "ODG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pptm/"
+        - name: "ODG к PPTM"
+          link: "/conversion/net/odg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "ODG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pptx/"
+        - name: "ODG к PPTX"
+          link: "/conversion/net/odg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "ODG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-psd/"
+        - name: "ODG к PSD"
+          link: "/conversion/net/odg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "ODG TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-rtf/"
+        - name: "ODG к RTF"
+          link: "/conversion/net/odg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "ODG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-svg/"
+        - name: "ODG к SVG"
+          link: "/conversion/net/odg-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ODG TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-svgz/"
+        - name: "ODG к SVGZ"
+          link: "/conversion/net/odg-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ODG TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-sxc/"
+        - name: "ODG к SXC"
+          link: "/conversion/net/odg-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "ODG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-tex/"
+        - name: "ODG к TEX"
+          link: "/conversion/net/odg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "ODG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-tif/"
+        - name: "ODG к TIF"
+          link: "/conversion/net/odg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ODG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-tiff/"
+        - name: "ODG к TIFF"
+          link: "/conversion/net/odg-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ODG TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-tsv/"
+        - name: "ODG к TSV"
+          link: "/conversion/net/odg-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "ODG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-txt/"
+        - name: "ODG к TXT"
+          link: "/conversion/net/odg-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "ODG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-webp/"
+        - name: "ODG к WEBP"
+          link: "/conversion/net/odg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "ODG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-wmf/"
+        - name: "ODG к WMF"
+          link: "/conversion/net/odg-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "ODG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-wmz/"
+        - name: "ODG к WMZ"
+          link: "/conversion/net/odg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "ODG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlam/"
+        - name: "ODG к XLAM"
+          link: "/conversion/net/odg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xls/"
+        - name: "ODG к XLS"
+          link: "/conversion/net/odg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "ODG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlsb/"
+        - name: "ODG к XLSB"
+          link: "/conversion/net/odg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "ODG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlsm/"
+        - name: "ODG к XLSM"
+          link: "/conversion/net/odg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlsx/"
+        - name: "ODG к XLSX"
+          link: "/conversion/net/odg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "ODG TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlt/"
+        - name: "ODG к XLT"
+          link: "/conversion/net/odg-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "ODG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xltm/"
+        - name: "ODG к XLTM"
+          link: "/conversion/net/odg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xltx/"
+        - name: "ODG к XLTX"
+          link: "/conversion/net/odg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "ODG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xps/"
+        - name: "ODG к XPS"
+          link: "/conversion/net/odg-to-xps/"
           description: "Спецификация документа Open XML"
 
 

@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию GIF в GIF на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла GIF в формат GIF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла GIF в формат GIF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл GIF с полным путем
         * Создайте и установите ConvertOptions для типа gif
@@ -127,272 +127,272 @@ more_formats:
         Вы также можете конвертировать GIF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "GIF TO EPUB"
+        - name: "GIF к EPUB"
           link: "https://products.groupdocs.com/conversion/net/gif-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "GIF TO XPS"
+        - name: "GIF к XPS"
           link: "https://products.groupdocs.com/conversion/net/gif-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "GIF TO TEX"
+        - name: "GIF к TEX"
           link: "https://products.groupdocs.com/conversion/net/gif-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "GIF TO PPT"
+        - name: "GIF к PPT"
           link: "https://products.groupdocs.com/conversion/net/gif-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "GIF TO PPS"
+        - name: "GIF к PPS"
           link: "https://products.groupdocs.com/conversion/net/gif-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "GIF TO PPTX"
+        - name: "GIF к PPTX"
           link: "https://products.groupdocs.com/conversion/net/gif-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "GIF TO PPSX"
+        - name: "GIF к PPSX"
           link: "https://products.groupdocs.com/conversion/net/gif-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "GIF TO ODP"
+        - name: "GIF к ODP"
           link: "https://products.groupdocs.com/conversion/net/gif-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "GIF TO OTP"
+        - name: "GIF к OTP"
           link: "https://products.groupdocs.com/conversion/net/gif-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "GIF TO POTX"
+        - name: "GIF к POTX"
           link: "https://products.groupdocs.com/conversion/net/gif-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "GIF TO POTM"
+        - name: "GIF к POTM"
           link: "https://products.groupdocs.com/conversion/net/gif-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "GIF TO PPTM"
+        - name: "GIF к PPTM"
           link: "https://products.groupdocs.com/conversion/net/gif-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "GIF TO PPSM"
+        - name: "GIF к PPSM"
           link: "https://products.groupdocs.com/conversion/net/gif-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "GIF TO XLS"
+        - name: "GIF к XLS"
           link: "https://products.groupdocs.com/conversion/net/gif-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "GIF TO XLSX"
+        - name: "GIF к XLSX"
           link: "https://products.groupdocs.com/conversion/net/gif-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "GIF TO XLSM"
+        - name: "GIF к XLSM"
           link: "https://products.groupdocs.com/conversion/net/gif-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "GIF TO XLSB"
+        - name: "GIF к XLSB"
           link: "https://products.groupdocs.com/conversion/net/gif-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "GIF TO ODS"
+        - name: "GIF к ODS"
           link: "https://products.groupdocs.com/conversion/net/gif-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "GIF TO XLTX"
+        - name: "GIF к XLTX"
           link: "https://products.groupdocs.com/conversion/net/gif-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "GIF TO XLTM"
+        - name: "GIF к XLTM"
           link: "https://products.groupdocs.com/conversion/net/gif-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "GIF TO TSV"
+        - name: "GIF к TSV"
           link: "https://products.groupdocs.com/conversion/net/gif-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "GIF TO XLAM"
+        - name: "GIF к XLAM"
           link: "https://products.groupdocs.com/conversion/net/gif-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "GIF TO CSV"
+        - name: "GIF к CSV"
           link: "https://products.groupdocs.com/conversion/net/gif-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "GIF TO DOC"
+        - name: "GIF к DOC"
           link: "https://products.groupdocs.com/conversion/net/gif-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "GIF TO DOCM"
+        - name: "GIF к DOCM"
           link: "https://products.groupdocs.com/conversion/net/gif-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "GIF TO GIF"
+        - name: "GIF к GIF"
           link: "https://products.groupdocs.com/conversion/net/gif-to-gif/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "GIF TO DOT"
+        - name: "GIF к DOT"
           link: "https://products.groupdocs.com/conversion/net/gif-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "GIF TO DOTM"
+        - name: "GIF к DOTM"
           link: "https://products.groupdocs.com/conversion/net/gif-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "GIF TO DOTX"
+        - name: "GIF к DOTX"
           link: "https://products.groupdocs.com/conversion/net/gif-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "GIF TO RTF"
+        - name: "GIF к RTF"
           link: "https://products.groupdocs.com/conversion/net/gif-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "GIF TO ODT"
+        - name: "GIF к ODT"
           link: "https://products.groupdocs.com/conversion/net/gif-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "GIF TO OTT"
+        - name: "GIF к OTT"
           link: "https://products.groupdocs.com/conversion/net/gif-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "GIF TO TXT"
+        - name: "GIF к TXT"
           link: "https://products.groupdocs.com/conversion/net/gif-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "GIF TO MD"
+        - name: "GIF к MD"
           link: "https://products.groupdocs.com/conversion/net/gif-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "GIF TO TIFF"
+        - name: "GIF к TIFF"
           link: "https://products.groupdocs.com/conversion/net/gif-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "GIF TO TIF"
+        - name: "GIF к TIF"
           link: "https://products.groupdocs.com/conversion/net/gif-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "GIF TO JPG"
+        - name: "GIF к JPG"
           link: "https://products.groupdocs.com/conversion/net/gif-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "GIF TO JPEG"
+        - name: "GIF к JPEG"
           link: "https://products.groupdocs.com/conversion/net/gif-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "GIF TO PNG"
+        - name: "GIF к PNG"
           link: "https://products.groupdocs.com/conversion/net/gif-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "GIF TO GIF"
+        - name: "GIF к GIF"
           link: "https://products.groupdocs.com/conversion/net/gif-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "GIF TO BMP"
+        - name: "GIF к BMP"
           link: "https://products.groupdocs.com/conversion/net/gif-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "GIF TO ICO"
+        - name: "GIF к ICO"
           link: "https://products.groupdocs.com/conversion/net/gif-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "GIF TO PSD"
+        - name: "GIF к PSD"
           link: "https://products.groupdocs.com/conversion/net/gif-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "GIF TO WMF"
+        - name: "GIF к WMF"
           link: "https://products.groupdocs.com/conversion/net/gif-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "GIF TO EMF"
+        - name: "GIF к EMF"
           link: "https://products.groupdocs.com/conversion/net/gif-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "GIF TO WEBP"
+        - name: "GIF к WEBP"
           link: "https://products.groupdocs.com/conversion/net/gif-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "GIF TO SVG"
+        - name: "GIF к SVG"
           link: "https://products.groupdocs.com/conversion/net/gif-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "GIF TO JP2"
+        - name: "GIF к JP2"
           link: "https://products.groupdocs.com/conversion/net/gif-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "GIF TO EMZ"
+        - name: "GIF к EMZ"
           link: "https://products.groupdocs.com/conversion/net/gif-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "GIF TO WMZ"
+        - name: "GIF к WMZ"
           link: "https://products.groupdocs.com/conversion/net/gif-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "GIF TO HTML"
+        - name: "GIF к HTML"
           link: "https://products.groupdocs.com/conversion/net/gif-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "GIF TO MHT"
+        - name: "GIF к MHT"
           link: "https://products.groupdocs.com/conversion/net/gif-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "GIF TO MHTML"
+        - name: "GIF к MHTML"
           link: "https://products.groupdocs.com/conversion/net/gif-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

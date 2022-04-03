@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования IFC в PPTX в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла IFC в PPTX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла IFC в PPTX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл IFC с полным путем
         * Установите ConvertOptions для типа документа PPTX.
@@ -129,312 +129,312 @@ more_formats:
     format: 
         # format loop
         - name: "IFC к BMP"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-bmp/"
+          link: "/conversion/java/ifc-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "IFC к CSV"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-csv/"
+          link: "/conversion/java/ifc-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "IFC к DCM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dcm/"
+          link: "/conversion/java/ifc-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "IFC к DIF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dif/"
+          link: "/conversion/java/ifc-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "IFC к DOC"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-doc/"
+          link: "/conversion/java/ifc-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "IFC к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-docm/"
+          link: "/conversion/java/ifc-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "IFC к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-docx/"
+          link: "/conversion/java/ifc-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "IFC к DOT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dot/"
+          link: "/conversion/java/ifc-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
         - name: "IFC к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dotm/"
+          link: "/conversion/java/ifc-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "IFC к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-dotx/"
+          link: "/conversion/java/ifc-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "IFC к EMF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-emf/"
+          link: "/conversion/java/ifc-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "IFC к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-emz/"
+          link: "/conversion/java/ifc-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "IFC к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-epub/"
+          link: "/conversion/java/ifc-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "IFC к FODP"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-fodp/"
+          link: "/conversion/java/ifc-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "IFC к FODS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-fods/"
+          link: "/conversion/java/ifc-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "IFC к GIF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-gif/"
+          link: "/conversion/java/ifc-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "IFC к HTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-htm/"
+          link: "/conversion/java/ifc-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "IFC к HTML"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-html/"
+          link: "/conversion/java/ifc-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "IFC к ICO"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ico/"
+          link: "/conversion/java/ifc-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "IFC к JP2"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-jp2/"
+          link: "/conversion/java/ifc-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "IFC к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-jpeg/"
+          link: "/conversion/java/ifc-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "IFC к JPG"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-jpg/"
+          link: "/conversion/java/ifc-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "IFC к MD"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-md/"
+          link: "/conversion/java/ifc-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "IFC к MHT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-mht/"
+          link: "/conversion/java/ifc-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "IFC к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-mhtml/"
+          link: "/conversion/java/ifc-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "IFC к ODP"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-odp/"
+          link: "/conversion/java/ifc-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "IFC к ODS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ods/"
+          link: "/conversion/java/ifc-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "IFC к ODT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-odt/"
+          link: "/conversion/java/ifc-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "IFC к OTP"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-otp/"
+          link: "/conversion/java/ifc-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "IFC к OTT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ott/"
+          link: "/conversion/java/ifc-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
         - name: "IFC к PDF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-pdf/"
+          link: "/conversion/java/ifc-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "IFC к PNG"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-png/"
+          link: "/conversion/java/ifc-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "IFC к POT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-pot/"
+          link: "/conversion/java/ifc-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "IFC к POTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-potm/"
+          link: "/conversion/java/ifc-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "IFC к POTX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-potx/"
+          link: "/conversion/java/ifc-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "IFC к PPS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-pps/"
+          link: "/conversion/java/ifc-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "IFC к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ppsm/"
+          link: "/conversion/java/ifc-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "IFC к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ppsx/"
+          link: "/conversion/java/ifc-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "IFC к PPT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-ppt/"
+          link: "/conversion/java/ifc-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "IFC к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-pptm/"
+          link: "/conversion/java/ifc-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "IFC к PSD"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-psd/"
+          link: "/conversion/java/ifc-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "IFC к RTF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-rtf/"
+          link: "/conversion/java/ifc-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "IFC к SVG"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-svg/"
+          link: "/conversion/java/ifc-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "IFC к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-svgz/"
+          link: "/conversion/java/ifc-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "IFC к SXC"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-sxc/"
+          link: "/conversion/java/ifc-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "IFC к TEX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-tex/"
+          link: "/conversion/java/ifc-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "IFC к TIF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-tif/"
+          link: "/conversion/java/ifc-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "IFC к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-tiff/"
+          link: "/conversion/java/ifc-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "IFC к TSV"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-tsv/"
+          link: "/conversion/java/ifc-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "IFC к TXT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-txt/"
+          link: "/conversion/java/ifc-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "IFC к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-webp/"
+          link: "/conversion/java/ifc-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "IFC к WMF"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-wmf/"
+          link: "/conversion/java/ifc-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "IFC к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-wmz/"
+          link: "/conversion/java/ifc-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "IFC к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlam/"
+          link: "/conversion/java/ifc-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "IFC к XLS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xls/"
+          link: "/conversion/java/ifc-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "IFC к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsb/"
+          link: "/conversion/java/ifc-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "IFC к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsm/"
+          link: "/conversion/java/ifc-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "IFC к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlsx/"
+          link: "/conversion/java/ifc-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "IFC к XLT"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xlt/"
+          link: "/conversion/java/ifc-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "IFC к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xltm/"
+          link: "/conversion/java/ifc-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "IFC к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xltx/"
+          link: "/conversion/java/ifc-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "IFC к XPS"
-          link: "https://products.groupdocs.com/conversion/java/ifc-to-xps/"
+          link: "/conversion/java/ifc-to-xps/"
           description: "Спецификация документа Open XML"
 
 

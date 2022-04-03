@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования ODP в TEX в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла ODP в TEX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла ODP в TEX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл ODP с полным путем
         * Установите ConvertOptions для типа документа TEX
@@ -128,308 +128,308 @@ more_formats:
         Вы также можете конвертировать ODP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "ODP TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-bmp/"
+        - name: "ODP к BMP"
+          link: "/conversion/java/odp-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "ODP TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-csv/"
+        - name: "ODP к CSV"
+          link: "/conversion/java/odp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "ODP TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-dcm/"
+        - name: "ODP к DCM"
+          link: "/conversion/java/odp-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "ODP TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-dif/"
+        - name: "ODP к DIF"
+          link: "/conversion/java/odp-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "ODP TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-doc/"
+        - name: "ODP к DOC"
+          link: "/conversion/java/odp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "ODP TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-docm/"
+        - name: "ODP к DOCM"
+          link: "/conversion/java/odp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ODP TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-docx/"
+        - name: "ODP к DOCX"
+          link: "/conversion/java/odp-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "ODP TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-dot/"
+        - name: "ODP к DOT"
+          link: "/conversion/java/odp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "ODP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-dotm/"
+        - name: "ODP к DOTM"
+          link: "/conversion/java/odp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ODP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-dotx/"
+        - name: "ODP к DOTX"
+          link: "/conversion/java/odp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "ODP TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-emf/"
+        - name: "ODP к EMF"
+          link: "/conversion/java/odp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "ODP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-emz/"
+        - name: "ODP к EMZ"
+          link: "/conversion/java/odp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "ODP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-epub/"
+        - name: "ODP к EPUB"
+          link: "/conversion/java/odp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "ODP TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-fodp/"
+        - name: "ODP к FODP"
+          link: "/conversion/java/odp-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "ODP TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-fods/"
+        - name: "ODP к FODS"
+          link: "/conversion/java/odp-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "ODP TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-gif/"
+        - name: "ODP к GIF"
+          link: "/conversion/java/odp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "ODP TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-htm/"
+        - name: "ODP к HTM"
+          link: "/conversion/java/odp-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "ODP TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-html/"
+        - name: "ODP к HTML"
+          link: "/conversion/java/odp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "ODP TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ico/"
+        - name: "ODP к ICO"
+          link: "/conversion/java/odp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "ODP TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-jp2/"
+        - name: "ODP к JP2"
+          link: "/conversion/java/odp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "ODP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-jpeg/"
+        - name: "ODP к JPEG"
+          link: "/conversion/java/odp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "ODP TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-jpg/"
+        - name: "ODP к JPG"
+          link: "/conversion/java/odp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "ODP TO MD"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-md/"
+        - name: "ODP к MD"
+          link: "/conversion/java/odp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "ODP TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-mht/"
+        - name: "ODP к MHT"
+          link: "/conversion/java/odp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ODP TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-mhtml/"
+        - name: "ODP к MHTML"
+          link: "/conversion/java/odp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ODP TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ods/"
+        - name: "ODP к ODS"
+          link: "/conversion/java/odp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "ODP TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-odt/"
+        - name: "ODP к ODT"
+          link: "/conversion/java/odp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "ODP TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-otp/"
+        - name: "ODP к OTP"
+          link: "/conversion/java/odp-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "ODP TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ott/"
+        - name: "ODP к OTT"
+          link: "/conversion/java/odp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "ODP TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-pdf/"
+        - name: "ODP к PDF"
+          link: "/conversion/java/odp-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "ODP TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-png/"
+        - name: "ODP к PNG"
+          link: "/conversion/java/odp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "ODP TO POT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-pot/"
+        - name: "ODP к POT"
+          link: "/conversion/java/odp-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "ODP TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-potm/"
+        - name: "ODP к POTM"
+          link: "/conversion/java/odp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ODP TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-potx/"
+        - name: "ODP к POTX"
+          link: "/conversion/java/odp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ODP TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-pps/"
+        - name: "ODP к PPS"
+          link: "/conversion/java/odp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ODP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ppsm/"
+        - name: "ODP к PPSM"
+          link: "/conversion/java/odp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ODP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ppsx/"
+        - name: "ODP к PPSX"
+          link: "/conversion/java/odp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "ODP TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-ppt/"
+        - name: "ODP к PPT"
+          link: "/conversion/java/odp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "ODP TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-pptm/"
+        - name: "ODP к PPTM"
+          link: "/conversion/java/odp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "ODP TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-pptx/"
+        - name: "ODP к PPTX"
+          link: "/conversion/java/odp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "ODP TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-psd/"
+        - name: "ODP к PSD"
+          link: "/conversion/java/odp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "ODP TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-rtf/"
+        - name: "ODP к RTF"
+          link: "/conversion/java/odp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "ODP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-svg/"
+        - name: "ODP к SVG"
+          link: "/conversion/java/odp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ODP TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-svgz/"
+        - name: "ODP к SVGZ"
+          link: "/conversion/java/odp-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ODP TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-sxc/"
+        - name: "ODP к SXC"
+          link: "/conversion/java/odp-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "ODP TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-tif/"
+        - name: "ODP к TIF"
+          link: "/conversion/java/odp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ODP TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-tiff/"
+        - name: "ODP к TIFF"
+          link: "/conversion/java/odp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ODP TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-tsv/"
+        - name: "ODP к TSV"
+          link: "/conversion/java/odp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "ODP TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-txt/"
+        - name: "ODP к TXT"
+          link: "/conversion/java/odp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "ODP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-webp/"
+        - name: "ODP к WEBP"
+          link: "/conversion/java/odp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "ODP TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-wmf/"
+        - name: "ODP к WMF"
+          link: "/conversion/java/odp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "ODP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-wmz/"
+        - name: "ODP к WMZ"
+          link: "/conversion/java/odp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "ODP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlam/"
+        - name: "ODP к XLAM"
+          link: "/conversion/java/odp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODP TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xls/"
+        - name: "ODP к XLS"
+          link: "/conversion/java/odp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "ODP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlsb/"
+        - name: "ODP к XLSB"
+          link: "/conversion/java/odp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "ODP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlsm/"
+        - name: "ODP к XLSM"
+          link: "/conversion/java/odp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlsx/"
+        - name: "ODP к XLSX"
+          link: "/conversion/java/odp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "ODP TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xlt/"
+        - name: "ODP к XLT"
+          link: "/conversion/java/odp-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "ODP TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xltm/"
+        - name: "ODP к XLTM"
+          link: "/conversion/java/odp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xltx/"
+        - name: "ODP к XLTX"
+          link: "/conversion/java/odp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "ODP TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/odp-to-xps/"
+        - name: "ODP к XPS"
+          link: "/conversion/java/odp-to-xps/"
           description: "Спецификация документа Open XML"
 
 

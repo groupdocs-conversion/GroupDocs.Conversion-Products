@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования MOBI в CSV в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла MOBI в CSV с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла MOBI в CSV с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл MOBI с полным путем
         * Установите ConvertOptions для типа документа CSV
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать MOBI во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MOBI TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-bmp/"
+        - name: "MOBI к BMP"
+          link: "/conversion/java/mobi-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MOBI TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dcm/"
+        - name: "MOBI к DCM"
+          link: "/conversion/java/mobi-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MOBI TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dif/"
+        - name: "MOBI к DIF"
+          link: "/conversion/java/mobi-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MOBI TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-doc/"
+        - name: "MOBI к DOC"
+          link: "/conversion/java/mobi-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MOBI TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-docm/"
+        - name: "MOBI к DOCM"
+          link: "/conversion/java/mobi-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MOBI TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-docx/"
+        - name: "MOBI к DOCX"
+          link: "/conversion/java/mobi-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MOBI TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dot/"
+        - name: "MOBI к DOT"
+          link: "/conversion/java/mobi-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MOBI TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dotm/"
+        - name: "MOBI к DOTM"
+          link: "/conversion/java/mobi-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MOBI TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dotx/"
+        - name: "MOBI к DOTX"
+          link: "/conversion/java/mobi-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MOBI TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-emf/"
+        - name: "MOBI к EMF"
+          link: "/conversion/java/mobi-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MOBI TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-emz/"
+        - name: "MOBI к EMZ"
+          link: "/conversion/java/mobi-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MOBI TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-epub/"
+        - name: "MOBI к EPUB"
+          link: "/conversion/java/mobi-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MOBI TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-fodp/"
+        - name: "MOBI к FODP"
+          link: "/conversion/java/mobi-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MOBI TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-fods/"
+        - name: "MOBI к FODS"
+          link: "/conversion/java/mobi-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MOBI TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-gif/"
+        - name: "MOBI к GIF"
+          link: "/conversion/java/mobi-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MOBI TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-htm/"
+        - name: "MOBI к HTM"
+          link: "/conversion/java/mobi-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MOBI TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-html/"
+        - name: "MOBI к HTML"
+          link: "/conversion/java/mobi-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MOBI TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ico/"
+        - name: "MOBI к ICO"
+          link: "/conversion/java/mobi-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MOBI TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-jp2/"
+        - name: "MOBI к JP2"
+          link: "/conversion/java/mobi-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MOBI TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-jpeg/"
+        - name: "MOBI к JPEG"
+          link: "/conversion/java/mobi-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MOBI TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-jpg/"
+        - name: "MOBI к JPG"
+          link: "/conversion/java/mobi-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MOBI TO MD"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-md/"
+        - name: "MOBI к MD"
+          link: "/conversion/java/mobi-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MOBI TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-mht/"
+        - name: "MOBI к MHT"
+          link: "/conversion/java/mobi-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MOBI TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-mhtml/"
+        - name: "MOBI к MHTML"
+          link: "/conversion/java/mobi-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MOBI TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-odp/"
+        - name: "MOBI к ODP"
+          link: "/conversion/java/mobi-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MOBI TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ods/"
+        - name: "MOBI к ODS"
+          link: "/conversion/java/mobi-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MOBI TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-odt/"
+        - name: "MOBI к ODT"
+          link: "/conversion/java/mobi-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MOBI TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-otp/"
+        - name: "MOBI к OTP"
+          link: "/conversion/java/mobi-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MOBI TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ott/"
+        - name: "MOBI к OTT"
+          link: "/conversion/java/mobi-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MOBI TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pdf/"
+        - name: "MOBI к PDF"
+          link: "/conversion/java/mobi-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MOBI TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-png/"
+        - name: "MOBI к PNG"
+          link: "/conversion/java/mobi-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MOBI TO POT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pot/"
+        - name: "MOBI к POT"
+          link: "/conversion/java/mobi-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MOBI TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-potm/"
+        - name: "MOBI к POTM"
+          link: "/conversion/java/mobi-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-potx/"
+        - name: "MOBI к POTX"
+          link: "/conversion/java/mobi-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pps/"
+        - name: "MOBI к PPS"
+          link: "/conversion/java/mobi-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppsm/"
+        - name: "MOBI к PPSM"
+          link: "/conversion/java/mobi-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppsx/"
+        - name: "MOBI к PPSX"
+          link: "/conversion/java/mobi-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MOBI TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppt/"
+        - name: "MOBI к PPT"
+          link: "/conversion/java/mobi-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MOBI TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pptm/"
+        - name: "MOBI к PPTM"
+          link: "/conversion/java/mobi-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pptx/"
+        - name: "MOBI к PPTX"
+          link: "/conversion/java/mobi-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MOBI TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-psd/"
+        - name: "MOBI к PSD"
+          link: "/conversion/java/mobi-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MOBI TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-rtf/"
+        - name: "MOBI к RTF"
+          link: "/conversion/java/mobi-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MOBI TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-svg/"
+        - name: "MOBI к SVG"
+          link: "/conversion/java/mobi-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MOBI TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-svgz/"
+        - name: "MOBI к SVGZ"
+          link: "/conversion/java/mobi-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MOBI TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-sxc/"
+        - name: "MOBI к SXC"
+          link: "/conversion/java/mobi-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MOBI TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tex/"
+        - name: "MOBI к TEX"
+          link: "/conversion/java/mobi-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MOBI TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tif/"
+        - name: "MOBI к TIF"
+          link: "/conversion/java/mobi-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MOBI TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tiff/"
+        - name: "MOBI к TIFF"
+          link: "/conversion/java/mobi-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MOBI TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tsv/"
+        - name: "MOBI к TSV"
+          link: "/conversion/java/mobi-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MOBI TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-txt/"
+        - name: "MOBI к TXT"
+          link: "/conversion/java/mobi-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MOBI TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-webp/"
+        - name: "MOBI к WEBP"
+          link: "/conversion/java/mobi-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MOBI TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-wmf/"
+        - name: "MOBI к WMF"
+          link: "/conversion/java/mobi-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MOBI TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-wmz/"
+        - name: "MOBI к WMZ"
+          link: "/conversion/java/mobi-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MOBI TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlam/"
+        - name: "MOBI к XLAM"
+          link: "/conversion/java/mobi-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MOBI TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xls/"
+        - name: "MOBI к XLS"
+          link: "/conversion/java/mobi-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MOBI TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsb/"
+        - name: "MOBI к XLSB"
+          link: "/conversion/java/mobi-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MOBI TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsm/"
+        - name: "MOBI к XLSM"
+          link: "/conversion/java/mobi-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MOBI TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsx/"
+        - name: "MOBI к XLSX"
+          link: "/conversion/java/mobi-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MOBI TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlt/"
+        - name: "MOBI к XLT"
+          link: "/conversion/java/mobi-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MOBI TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xltm/"
+        - name: "MOBI к XLTM"
+          link: "/conversion/java/mobi-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MOBI TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xltx/"
+        - name: "MOBI к XLTX"
+          link: "/conversion/java/mobi-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MOBI TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xps/"
+        - name: "MOBI к XPS"
+          link: "/conversion/java/mobi-to-xps/"
           description: "Спецификация документа Open XML"
 
 

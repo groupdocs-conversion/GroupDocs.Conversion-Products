@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования XLT в PPTX в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл XLT в PPTX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл XLT в PPTX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл XLT с полным путем
         * Установите ConvertOptions для типа документа PPTX.
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать XLT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "XLT TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-bmp/"
+        - name: "XLT к BMP"
+          link: "/conversion/java/xlt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "XLT TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-csv/"
+        - name: "XLT к CSV"
+          link: "/conversion/java/xlt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "XLT TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-dcm/"
+        - name: "XLT к DCM"
+          link: "/conversion/java/xlt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "XLT TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-dif/"
+        - name: "XLT к DIF"
+          link: "/conversion/java/xlt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "XLT TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-doc/"
+        - name: "XLT к DOC"
+          link: "/conversion/java/xlt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "XLT TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-docm/"
+        - name: "XLT к DOCM"
+          link: "/conversion/java/xlt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLT TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-docx/"
+        - name: "XLT к DOCX"
+          link: "/conversion/java/xlt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "XLT TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-dot/"
+        - name: "XLT к DOT"
+          link: "/conversion/java/xlt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "XLT TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-dotm/"
+        - name: "XLT к DOTM"
+          link: "/conversion/java/xlt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLT TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-dotx/"
+        - name: "XLT к DOTX"
+          link: "/conversion/java/xlt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "XLT TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-emf/"
+        - name: "XLT к EMF"
+          link: "/conversion/java/xlt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "XLT TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-emz/"
+        - name: "XLT к EMZ"
+          link: "/conversion/java/xlt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "XLT TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-epub/"
+        - name: "XLT к EPUB"
+          link: "/conversion/java/xlt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "XLT TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-fodp/"
+        - name: "XLT к FODP"
+          link: "/conversion/java/xlt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "XLT TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-fods/"
+        - name: "XLT к FODS"
+          link: "/conversion/java/xlt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "XLT TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-gif/"
+        - name: "XLT к GIF"
+          link: "/conversion/java/xlt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "XLT TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-htm/"
+        - name: "XLT к HTM"
+          link: "/conversion/java/xlt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "XLT TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-html/"
+        - name: "XLT к HTML"
+          link: "/conversion/java/xlt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "XLT TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-ico/"
+        - name: "XLT к ICO"
+          link: "/conversion/java/xlt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "XLT TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-jp2/"
+        - name: "XLT к JP2"
+          link: "/conversion/java/xlt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "XLT TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-jpeg/"
+        - name: "XLT к JPEG"
+          link: "/conversion/java/xlt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "XLT TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-jpg/"
+        - name: "XLT к JPG"
+          link: "/conversion/java/xlt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "XLT TO MD"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-md/"
+        - name: "XLT к MD"
+          link: "/conversion/java/xlt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "XLT TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-mht/"
+        - name: "XLT к MHT"
+          link: "/conversion/java/xlt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLT TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-mhtml/"
+        - name: "XLT к MHTML"
+          link: "/conversion/java/xlt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLT TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-odp/"
+        - name: "XLT к ODP"
+          link: "/conversion/java/xlt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "XLT TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-ods/"
+        - name: "XLT к ODS"
+          link: "/conversion/java/xlt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "XLT TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-odt/"
+        - name: "XLT к ODT"
+          link: "/conversion/java/xlt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "XLT TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-otp/"
+        - name: "XLT к OTP"
+          link: "/conversion/java/xlt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "XLT TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-ott/"
+        - name: "XLT к OTT"
+          link: "/conversion/java/xlt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "XLT TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-pdf/"
+        - name: "XLT к PDF"
+          link: "/conversion/java/xlt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "XLT TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-png/"
+        - name: "XLT к PNG"
+          link: "/conversion/java/xlt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "XLT TO POT"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-pot/"
+        - name: "XLT к POT"
+          link: "/conversion/java/xlt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "XLT TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-potm/"
+        - name: "XLT к POTM"
+          link: "/conversion/java/xlt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLT TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-potx/"
+        - name: "XLT к POTX"
+          link: "/conversion/java/xlt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLT TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-pps/"
+        - name: "XLT к PPS"
+          link: "/conversion/java/xlt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLT TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-ppsm/"
+        - name: "XLT к PPSM"
+          link: "/conversion/java/xlt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLT TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-ppsx/"
+        - name: "XLT к PPSX"
+          link: "/conversion/java/xlt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "XLT TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-ppt/"
+        - name: "XLT к PPT"
+          link: "/conversion/java/xlt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "XLT TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-pptm/"
+        - name: "XLT к PPTM"
+          link: "/conversion/java/xlt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "XLT TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-psd/"
+        - name: "XLT к PSD"
+          link: "/conversion/java/xlt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "XLT TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-rtf/"
+        - name: "XLT к RTF"
+          link: "/conversion/java/xlt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "XLT TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-svg/"
+        - name: "XLT к SVG"
+          link: "/conversion/java/xlt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLT TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-svgz/"
+        - name: "XLT к SVGZ"
+          link: "/conversion/java/xlt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLT TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-sxc/"
+        - name: "XLT к SXC"
+          link: "/conversion/java/xlt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "XLT TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-tex/"
+        - name: "XLT к TEX"
+          link: "/conversion/java/xlt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "XLT TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-tif/"
+        - name: "XLT к TIF"
+          link: "/conversion/java/xlt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLT TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-tiff/"
+        - name: "XLT к TIFF"
+          link: "/conversion/java/xlt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLT TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-tsv/"
+        - name: "XLT к TSV"
+          link: "/conversion/java/xlt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "XLT TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-txt/"
+        - name: "XLT к TXT"
+          link: "/conversion/java/xlt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "XLT TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-webp/"
+        - name: "XLT к WEBP"
+          link: "/conversion/java/xlt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "XLT TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-wmf/"
+        - name: "XLT к WMF"
+          link: "/conversion/java/xlt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "XLT TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-wmz/"
+        - name: "XLT к WMZ"
+          link: "/conversion/java/xlt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "XLT TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-xlam/"
+        - name: "XLT к XLAM"
+          link: "/conversion/java/xlt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLT TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-xls/"
+        - name: "XLT к XLS"
+          link: "/conversion/java/xlt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "XLT TO XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-xls2003/"
+        - name: "XLT к XLS2003"
+          link: "/conversion/java/xlt-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "XLT TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-xlsb/"
+        - name: "XLT к XLSB"
+          link: "/conversion/java/xlt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "XLT TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-xlsm/"
+        - name: "XLT к XLSM"
+          link: "/conversion/java/xlt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLT TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-xlsx/"
+        - name: "XLT к XLSX"
+          link: "/conversion/java/xlt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "XLT TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-xltm/"
+        - name: "XLT к XLTM"
+          link: "/conversion/java/xlt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLT TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-xltx/"
+        - name: "XLT к XLTX"
+          link: "/conversion/java/xlt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLT TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/xlt-to-xps/"
+        - name: "XLT к XPS"
+          link: "/conversion/java/xlt-to-xps/"
           description: "Спецификация документа Open XML"
 
 

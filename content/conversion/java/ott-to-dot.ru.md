@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги по преобразованию OTT в DOT в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл OTT в DOT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл OTT в DOT с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл OTT с полным путем
         * Установите ConvertOptions для типа документа DOT
@@ -129,307 +129,307 @@ more_formats:
     format: 
         # format loop
         - name: "OTT к BMP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-bmp/"
+          link: "/conversion/java/ott-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
         - name: "OTT к CSV"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-csv/"
+          link: "/conversion/java/ott-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
         - name: "OTT к DCM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-dcm/"
+          link: "/conversion/java/ott-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
         - name: "OTT к DIF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-dif/"
+          link: "/conversion/java/ott-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
         - name: "OTT к DOC"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-doc/"
+          link: "/conversion/java/ott-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
         - name: "OTT к DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-docm/"
+          link: "/conversion/java/ott-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "OTT к DOCX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-docx/"
+          link: "/conversion/java/ott-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
         - name: "OTT к DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-dotm/"
+          link: "/conversion/java/ott-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
         - name: "OTT к DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-dotx/"
+          link: "/conversion/java/ott-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
         - name: "OTT к EMF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-emf/"
+          link: "/conversion/java/ott-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
         - name: "OTT к EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-emz/"
+          link: "/conversion/java/ott-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
         - name: "OTT к EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-epub/"
+          link: "/conversion/java/ott-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
         - name: "OTT к FODP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-fodp/"
+          link: "/conversion/java/ott-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
         - name: "OTT к FODS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-fods/"
+          link: "/conversion/java/ott-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
         - name: "OTT к GIF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-gif/"
+          link: "/conversion/java/ott-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
         - name: "OTT к HTM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-htm/"
+          link: "/conversion/java/ott-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
         - name: "OTT к HTML"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-html/"
+          link: "/conversion/java/ott-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
         - name: "OTT к ICO"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ico/"
+          link: "/conversion/java/ott-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
         - name: "OTT к JP2"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-jp2/"
+          link: "/conversion/java/ott-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
         - name: "OTT к JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-jpeg/"
+          link: "/conversion/java/ott-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
         - name: "OTT к JPG"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-jpg/"
+          link: "/conversion/java/ott-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
         - name: "OTT к MD"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-md/"
+          link: "/conversion/java/ott-to-md/"
           description: "Уценка"
 
         # format loop
         - name: "OTT к MHT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-mht/"
+          link: "/conversion/java/ott-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "OTT к MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-mhtml/"
+          link: "/conversion/java/ott-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
         - name: "OTT к ODP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-odp/"
+          link: "/conversion/java/ott-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
         - name: "OTT к ODS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ods/"
+          link: "/conversion/java/ott-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
         - name: "OTT к ODT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-odt/"
+          link: "/conversion/java/ott-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
         - name: "OTT к OTP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-otp/"
+          link: "/conversion/java/ott-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
         - name: "OTT к PDF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-pdf/"
+          link: "/conversion/java/ott-to-pdf/"
           description: "Портативный документ"
 
         # format loop
         - name: "OTT к PNG"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-png/"
+          link: "/conversion/java/ott-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
         - name: "OTT к POT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-pot/"
+          link: "/conversion/java/ott-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
         - name: "OTT к POTM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-potm/"
+          link: "/conversion/java/ott-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "OTT к POTX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-potx/"
+          link: "/conversion/java/ott-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
         - name: "OTT к PPS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-pps/"
+          link: "/conversion/java/ott-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "OTT к PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ppsm/"
+          link: "/conversion/java/ott-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
         - name: "OTT к PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ppsx/"
+          link: "/conversion/java/ott-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
         - name: "OTT к PPT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-ppt/"
+          link: "/conversion/java/ott-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
         - name: "OTT к PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-pptm/"
+          link: "/conversion/java/ott-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
         - name: "OTT к PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-pptx/"
+          link: "/conversion/java/ott-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
         - name: "OTT к PSD"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-psd/"
+          link: "/conversion/java/ott-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
         - name: "OTT к RTF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-rtf/"
+          link: "/conversion/java/ott-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
         - name: "OTT к SVG"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-svg/"
+          link: "/conversion/java/ott-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
         - name: "OTT к SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-svgz/"
+          link: "/conversion/java/ott-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
         - name: "OTT к SXC"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-sxc/"
+          link: "/conversion/java/ott-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
         - name: "OTT к TEX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-tex/"
+          link: "/conversion/java/ott-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
         - name: "OTT к TIF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-tif/"
+          link: "/conversion/java/ott-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "OTT к TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-tiff/"
+          link: "/conversion/java/ott-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
         - name: "OTT к TSV"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-tsv/"
+          link: "/conversion/java/ott-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
         - name: "OTT к TXT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-txt/"
+          link: "/conversion/java/ott-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
         - name: "OTT к WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-webp/"
+          link: "/conversion/java/ott-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
         - name: "OTT к WMF"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-wmf/"
+          link: "/conversion/java/ott-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
         - name: "OTT к WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-wmz/"
+          link: "/conversion/java/ott-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
         - name: "OTT к XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xlam/"
+          link: "/conversion/java/ott-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "OTT к XLS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xls/"
+          link: "/conversion/java/ott-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
         - name: "OTT к XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xlsb/"
+          link: "/conversion/java/ott-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
         - name: "OTT к XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xlsm/"
+          link: "/conversion/java/ott-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "OTT к XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xlsx/"
+          link: "/conversion/java/ott-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
         - name: "OTT к XLT"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xlt/"
+          link: "/conversion/java/ott-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
         - name: "OTT к XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xltm/"
+          link: "/conversion/java/ott-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
         - name: "OTT к XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xltx/"
+          link: "/conversion/java/ott-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
         - name: "OTT к XPS"
-          link: "https://products.groupdocs.com/conversion/java/ott-to-xps/"
+          link: "/conversion/java/ott-to-xps/"
           description: "Спецификация документа Open XML"
 
 

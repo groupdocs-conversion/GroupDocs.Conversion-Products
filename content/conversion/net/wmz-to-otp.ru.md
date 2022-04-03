@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по конвертации WMZ в OTP на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл WMZ в OTP, используя несколько строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл WMZ в OTP, используя несколько строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл WMZ с полным путем
         * Создайте и установите ConvertOptions для типа otp
@@ -127,308 +127,308 @@ more_formats:
         Вы также можете конвертировать WMZ во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WMZ TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-bmp/"
+        - name: "WMZ к BMP"
+          link: "/conversion/net/wmz-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WMZ TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-csv/"
+        - name: "WMZ к CSV"
+          link: "/conversion/net/wmz-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WMZ TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-dcm/"
+        - name: "WMZ к DCM"
+          link: "/conversion/net/wmz-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "WMZ TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-dif/"
+        - name: "WMZ к DIF"
+          link: "/conversion/net/wmz-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "WMZ TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-doc/"
+        - name: "WMZ к DOC"
+          link: "/conversion/net/wmz-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WMZ TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-docm/"
+        - name: "WMZ к DOCM"
+          link: "/conversion/net/wmz-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WMZ TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-docx/"
+        - name: "WMZ к DOCX"
+          link: "/conversion/net/wmz-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WMZ TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-dot/"
+        - name: "WMZ к DOT"
+          link: "/conversion/net/wmz-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WMZ TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-dotm/"
+        - name: "WMZ к DOTM"
+          link: "/conversion/net/wmz-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WMZ TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-dotx/"
+        - name: "WMZ к DOTX"
+          link: "/conversion/net/wmz-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WMZ TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-emf/"
+        - name: "WMZ к EMF"
+          link: "/conversion/net/wmz-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WMZ TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-emz/"
+        - name: "WMZ к EMZ"
+          link: "/conversion/net/wmz-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WMZ TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-epub/"
+        - name: "WMZ к EPUB"
+          link: "/conversion/net/wmz-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WMZ TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-fodp/"
+        - name: "WMZ к FODP"
+          link: "/conversion/net/wmz-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "WMZ TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-fods/"
+        - name: "WMZ к FODS"
+          link: "/conversion/net/wmz-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "WMZ TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-gif/"
+        - name: "WMZ к GIF"
+          link: "/conversion/net/wmz-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WMZ TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-htm/"
+        - name: "WMZ к HTM"
+          link: "/conversion/net/wmz-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "WMZ TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-html/"
+        - name: "WMZ к HTML"
+          link: "/conversion/net/wmz-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WMZ TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-ico/"
+        - name: "WMZ к ICO"
+          link: "/conversion/net/wmz-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WMZ TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-jp2/"
+        - name: "WMZ к JP2"
+          link: "/conversion/net/wmz-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WMZ TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-jpeg/"
+        - name: "WMZ к JPEG"
+          link: "/conversion/net/wmz-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WMZ TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-jpg/"
+        - name: "WMZ к JPG"
+          link: "/conversion/net/wmz-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WMZ TO MD"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-md/"
+        - name: "WMZ к MD"
+          link: "/conversion/net/wmz-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WMZ TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-mht/"
+        - name: "WMZ к MHT"
+          link: "/conversion/net/wmz-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WMZ TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-mhtml/"
+        - name: "WMZ к MHTML"
+          link: "/conversion/net/wmz-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WMZ TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-odp/"
+        - name: "WMZ к ODP"
+          link: "/conversion/net/wmz-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WMZ TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-ods/"
+        - name: "WMZ к ODS"
+          link: "/conversion/net/wmz-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WMZ TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-odt/"
+        - name: "WMZ к ODT"
+          link: "/conversion/net/wmz-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WMZ TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-ott/"
+        - name: "WMZ к OTT"
+          link: "/conversion/net/wmz-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WMZ TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-pdf/"
+        - name: "WMZ к PDF"
+          link: "/conversion/net/wmz-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "WMZ TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-png/"
+        - name: "WMZ к PNG"
+          link: "/conversion/net/wmz-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WMZ TO POT"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-pot/"
+        - name: "WMZ к POT"
+          link: "/conversion/net/wmz-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "WMZ TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-potm/"
+        - name: "WMZ к POTM"
+          link: "/conversion/net/wmz-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WMZ TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-potx/"
+        - name: "WMZ к POTX"
+          link: "/conversion/net/wmz-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WMZ TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-pps/"
+        - name: "WMZ к PPS"
+          link: "/conversion/net/wmz-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WMZ TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-ppsm/"
+        - name: "WMZ к PPSM"
+          link: "/conversion/net/wmz-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WMZ TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-ppsx/"
+        - name: "WMZ к PPSX"
+          link: "/conversion/net/wmz-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WMZ TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-ppt/"
+        - name: "WMZ к PPT"
+          link: "/conversion/net/wmz-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WMZ TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-pptm/"
+        - name: "WMZ к PPTM"
+          link: "/conversion/net/wmz-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WMZ TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-pptx/"
+        - name: "WMZ к PPTX"
+          link: "/conversion/net/wmz-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WMZ TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-psd/"
+        - name: "WMZ к PSD"
+          link: "/conversion/net/wmz-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WMZ TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-rtf/"
+        - name: "WMZ к RTF"
+          link: "/conversion/net/wmz-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WMZ TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-svg/"
+        - name: "WMZ к SVG"
+          link: "/conversion/net/wmz-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WMZ TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-svgz/"
+        - name: "WMZ к SVGZ"
+          link: "/conversion/net/wmz-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WMZ TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-sxc/"
+        - name: "WMZ к SXC"
+          link: "/conversion/net/wmz-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "WMZ TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-tex/"
+        - name: "WMZ к TEX"
+          link: "/conversion/net/wmz-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WMZ TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-tif/"
+        - name: "WMZ к TIF"
+          link: "/conversion/net/wmz-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WMZ TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-tiff/"
+        - name: "WMZ к TIFF"
+          link: "/conversion/net/wmz-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WMZ TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-tsv/"
+        - name: "WMZ к TSV"
+          link: "/conversion/net/wmz-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WMZ TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-txt/"
+        - name: "WMZ к TXT"
+          link: "/conversion/net/wmz-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WMZ TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-webp/"
+        - name: "WMZ к WEBP"
+          link: "/conversion/net/wmz-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WMZ TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-wmf/"
+        - name: "WMZ к WMF"
+          link: "/conversion/net/wmz-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WMZ TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-xlam/"
+        - name: "WMZ к XLAM"
+          link: "/conversion/net/wmz-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMZ TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-xls/"
+        - name: "WMZ к XLS"
+          link: "/conversion/net/wmz-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WMZ TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-xlsb/"
+        - name: "WMZ к XLSB"
+          link: "/conversion/net/wmz-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WMZ TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-xlsm/"
+        - name: "WMZ к XLSM"
+          link: "/conversion/net/wmz-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMZ TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-xlsx/"
+        - name: "WMZ к XLSX"
+          link: "/conversion/net/wmz-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WMZ TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-xlt/"
+        - name: "WMZ к XLT"
+          link: "/conversion/net/wmz-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "WMZ TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-xltm/"
+        - name: "WMZ к XLTM"
+          link: "/conversion/net/wmz-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMZ TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-xltx/"
+        - name: "WMZ к XLTX"
+          link: "/conversion/net/wmz-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WMZ TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/wmz-to-xps/"
+        - name: "WMZ к XPS"
+          link: "/conversion/net/wmz-to-xps/"
           description: "Спецификация документа Open XML"
 
 

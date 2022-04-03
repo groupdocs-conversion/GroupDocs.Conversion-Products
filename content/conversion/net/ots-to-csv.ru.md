@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию OTS в CSV на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла OTS в CSV с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла OTS в CSV с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл OTS с полным путем
         * Создайте и установите ConvertOptions для типа csv
@@ -127,318 +127,318 @@ more_formats:
         Вы также можете конвертировать OTS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OTS TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-bmp/"
+        - name: "OTS к BMP"
+          link: "/conversion/net/ots-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "OTS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-dcm/"
+        - name: "OTS к DCM"
+          link: "/conversion/net/ots-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "OTS TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-dif/"
+        - name: "OTS к DIF"
+          link: "/conversion/net/ots-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "OTS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-doc/"
+        - name: "OTS к DOC"
+          link: "/conversion/net/ots-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OTS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-docm/"
+        - name: "OTS к DOCM"
+          link: "/conversion/net/ots-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTS TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-docx/"
+        - name: "OTS к DOCX"
+          link: "/conversion/net/ots-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "OTS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-dot/"
+        - name: "OTS к DOT"
+          link: "/conversion/net/ots-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "OTS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-dotm/"
+        - name: "OTS к DOTM"
+          link: "/conversion/net/ots-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-dotx/"
+        - name: "OTS к DOTX"
+          link: "/conversion/net/ots-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "OTS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-emf/"
+        - name: "OTS к EMF"
+          link: "/conversion/net/ots-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "OTS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-emz/"
+        - name: "OTS к EMZ"
+          link: "/conversion/net/ots-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OTS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-epub/"
+        - name: "OTS к EPUB"
+          link: "/conversion/net/ots-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OTS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-fodp/"
+        - name: "OTS к FODP"
+          link: "/conversion/net/ots-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "OTS TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-fods/"
+        - name: "OTS к FODS"
+          link: "/conversion/net/ots-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "OTS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-gif/"
+        - name: "OTS к GIF"
+          link: "/conversion/net/ots-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "OTS TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-htm/"
+        - name: "OTS к HTM"
+          link: "/conversion/net/ots-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "OTS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-html/"
+        - name: "OTS к HTML"
+          link: "/conversion/net/ots-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OTS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-ico/"
+        - name: "OTS к ICO"
+          link: "/conversion/net/ots-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "OTS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-jp2/"
+        - name: "OTS к JP2"
+          link: "/conversion/net/ots-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "OTS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-jpeg/"
+        - name: "OTS к JPEG"
+          link: "/conversion/net/ots-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "OTS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-jpg/"
+        - name: "OTS к JPG"
+          link: "/conversion/net/ots-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "OTS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-md/"
+        - name: "OTS к MD"
+          link: "/conversion/net/ots-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OTS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-mht/"
+        - name: "OTS к MHT"
+          link: "/conversion/net/ots-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-mhtml/"
+        - name: "OTS к MHTML"
+          link: "/conversion/net/ots-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTS TO MOBI"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-mobi/"
+        - name: "OTS к MOBI"
+          link: "/conversion/net/ots-to-mobi/"
           description: "Электронная книга Mobipocket"
 
         # format loop
-        - name: "OTS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-odp/"
+        - name: "OTS к ODP"
+          link: "/conversion/net/ots-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "OTS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-ods/"
+        - name: "OTS к ODS"
+          link: "/conversion/net/ots-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OTS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-odt/"
+        - name: "OTS к ODT"
+          link: "/conversion/net/ots-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "OTS TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-otp/"
+        - name: "OTS к OTP"
+          link: "/conversion/net/ots-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "OTS TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-ott/"
+        - name: "OTS к OTT"
+          link: "/conversion/net/ots-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "OTS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-pdf/"
+        - name: "OTS к PDF"
+          link: "/conversion/net/ots-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "OTS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-png/"
+        - name: "OTS к PNG"
+          link: "/conversion/net/ots-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "OTS TO POT"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-pot/"
+        - name: "OTS к POT"
+          link: "/conversion/net/ots-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "OTS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-potm/"
+        - name: "OTS к POTM"
+          link: "/conversion/net/ots-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-potx/"
+        - name: "OTS к POTX"
+          link: "/conversion/net/ots-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-pps/"
+        - name: "OTS к PPS"
+          link: "/conversion/net/ots-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-ppsm/"
+        - name: "OTS к PPSM"
+          link: "/conversion/net/ots-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-ppsx/"
+        - name: "OTS к PPSX"
+          link: "/conversion/net/ots-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "OTS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-ppt/"
+        - name: "OTS к PPT"
+          link: "/conversion/net/ots-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OTS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-pptm/"
+        - name: "OTS к PPTM"
+          link: "/conversion/net/ots-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OTS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-pptx/"
+        - name: "OTS к PPTX"
+          link: "/conversion/net/ots-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "OTS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-psd/"
+        - name: "OTS к PSD"
+          link: "/conversion/net/ots-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OTS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-rtf/"
+        - name: "OTS к RTF"
+          link: "/conversion/net/ots-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "OTS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-svg/"
+        - name: "OTS к SVG"
+          link: "/conversion/net/ots-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTS TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-svgz/"
+        - name: "OTS к SVGZ"
+          link: "/conversion/net/ots-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTS TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-sxc/"
+        - name: "OTS к SXC"
+          link: "/conversion/net/ots-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "OTS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-tex/"
+        - name: "OTS к TEX"
+          link: "/conversion/net/ots-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OTS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-tif/"
+        - name: "OTS к TIF"
+          link: "/conversion/net/ots-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-tiff/"
+        - name: "OTS к TIFF"
+          link: "/conversion/net/ots-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-tsv/"
+        - name: "OTS к TSV"
+          link: "/conversion/net/ots-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OTS TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-txt/"
+        - name: "OTS к TXT"
+          link: "/conversion/net/ots-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OTS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-webp/"
+        - name: "OTS к WEBP"
+          link: "/conversion/net/ots-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OTS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-wmf/"
+        - name: "OTS к WMF"
+          link: "/conversion/net/ots-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "OTS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-wmz/"
+        - name: "OTS к WMZ"
+          link: "/conversion/net/ots-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OTS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xlam/"
+        - name: "OTS к XLAM"
+          link: "/conversion/net/ots-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xls/"
+        - name: "OTS к XLS"
+          link: "/conversion/net/ots-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "OTS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xlsb/"
+        - name: "OTS к XLSB"
+          link: "/conversion/net/ots-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OTS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xlsm/"
+        - name: "OTS к XLSM"
+          link: "/conversion/net/ots-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xlsx/"
+        - name: "OTS к XLSX"
+          link: "/conversion/net/ots-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OTS TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xlt/"
+        - name: "OTS к XLT"
+          link: "/conversion/net/ots-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xltm/"
+        - name: "OTS к XLTM"
+          link: "/conversion/net/ots-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xltx/"
+        - name: "OTS к XLTX"
+          link: "/conversion/net/ots-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ots-to-xps/"
+        - name: "OTS к XPS"
+          link: "/conversion/net/ots-to-xps/"
           description: "Спецификация документа Open XML"
 
 

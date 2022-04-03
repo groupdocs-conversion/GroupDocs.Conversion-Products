@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования XPS в JPEG в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл XPS в JPEG с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл XPS в JPEG с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл XPS с полным путем
         * Установите ConvertOptions для типа документа JPEG
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать XPS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "XPS TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-bmp/"
+        - name: "XPS к BMP"
+          link: "/conversion/java/xps-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "XPS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-csv/"
+        - name: "XPS к CSV"
+          link: "/conversion/java/xps-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "XPS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-dcm/"
+        - name: "XPS к DCM"
+          link: "/conversion/java/xps-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "XPS TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-dif/"
+        - name: "XPS к DIF"
+          link: "/conversion/java/xps-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "XPS TO DJVU"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-djvu/"
+        - name: "XPS к DJVU"
+          link: "/conversion/java/xps-to-djvu/"
           description: "Формат графического файла"
 
         # format loop
-        - name: "XPS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-doc/"
+        - name: "XPS к DOC"
+          link: "/conversion/java/xps-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "XPS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-docm/"
+        - name: "XPS к DOCM"
+          link: "/conversion/java/xps-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XPS TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-docx/"
+        - name: "XPS к DOCX"
+          link: "/conversion/java/xps-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "XPS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-dot/"
+        - name: "XPS к DOT"
+          link: "/conversion/java/xps-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "XPS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-dotm/"
+        - name: "XPS к DOTM"
+          link: "/conversion/java/xps-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XPS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-dotx/"
+        - name: "XPS к DOTX"
+          link: "/conversion/java/xps-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "XPS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-emf/"
+        - name: "XPS к EMF"
+          link: "/conversion/java/xps-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "XPS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-emz/"
+        - name: "XPS к EMZ"
+          link: "/conversion/java/xps-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "XPS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-epub/"
+        - name: "XPS к EPUB"
+          link: "/conversion/java/xps-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "XPS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-fodp/"
+        - name: "XPS к FODP"
+          link: "/conversion/java/xps-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "XPS TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-fods/"
+        - name: "XPS к FODS"
+          link: "/conversion/java/xps-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "XPS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-gif/"
+        - name: "XPS к GIF"
+          link: "/conversion/java/xps-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "XPS TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-htm/"
+        - name: "XPS к HTM"
+          link: "/conversion/java/xps-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "XPS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-html/"
+        - name: "XPS к HTML"
+          link: "/conversion/java/xps-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "XPS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-ico/"
+        - name: "XPS к ICO"
+          link: "/conversion/java/xps-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "XPS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-jp2/"
+        - name: "XPS к JP2"
+          link: "/conversion/java/xps-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "XPS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-jpg/"
+        - name: "XPS к JPG"
+          link: "/conversion/java/xps-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "XPS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-md/"
+        - name: "XPS к MD"
+          link: "/conversion/java/xps-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "XPS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-mht/"
+        - name: "XPS к MHT"
+          link: "/conversion/java/xps-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XPS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-mhtml/"
+        - name: "XPS к MHTML"
+          link: "/conversion/java/xps-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XPS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-odp/"
+        - name: "XPS к ODP"
+          link: "/conversion/java/xps-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "XPS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-ods/"
+        - name: "XPS к ODS"
+          link: "/conversion/java/xps-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "XPS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-odt/"
+        - name: "XPS к ODT"
+          link: "/conversion/java/xps-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "XPS TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-otp/"
+        - name: "XPS к OTP"
+          link: "/conversion/java/xps-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "XPS TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-ott/"
+        - name: "XPS к OTT"
+          link: "/conversion/java/xps-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "XPS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-pdf/"
+        - name: "XPS к PDF"
+          link: "/conversion/java/xps-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "XPS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-png/"
+        - name: "XPS к PNG"
+          link: "/conversion/java/xps-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "XPS TO POT"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-pot/"
+        - name: "XPS к POT"
+          link: "/conversion/java/xps-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "XPS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-potm/"
+        - name: "XPS к POTM"
+          link: "/conversion/java/xps-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XPS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-potx/"
+        - name: "XPS к POTX"
+          link: "/conversion/java/xps-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XPS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-pps/"
+        - name: "XPS к PPS"
+          link: "/conversion/java/xps-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XPS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-ppsm/"
+        - name: "XPS к PPSM"
+          link: "/conversion/java/xps-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XPS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-ppsx/"
+        - name: "XPS к PPSX"
+          link: "/conversion/java/xps-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "XPS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-ppt/"
+        - name: "XPS к PPT"
+          link: "/conversion/java/xps-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "XPS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-pptm/"
+        - name: "XPS к PPTM"
+          link: "/conversion/java/xps-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "XPS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-pptx/"
+        - name: "XPS к PPTX"
+          link: "/conversion/java/xps-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "XPS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-psd/"
+        - name: "XPS к PSD"
+          link: "/conversion/java/xps-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "XPS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-rtf/"
+        - name: "XPS к RTF"
+          link: "/conversion/java/xps-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "XPS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-svg/"
+        - name: "XPS к SVG"
+          link: "/conversion/java/xps-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XPS TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-svgz/"
+        - name: "XPS к SVGZ"
+          link: "/conversion/java/xps-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XPS TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-sxc/"
+        - name: "XPS к SXC"
+          link: "/conversion/java/xps-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "XPS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-tex/"
+        - name: "XPS к TEX"
+          link: "/conversion/java/xps-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "XPS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-tif/"
+        - name: "XPS к TIF"
+          link: "/conversion/java/xps-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XPS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-tiff/"
+        - name: "XPS к TIFF"
+          link: "/conversion/java/xps-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XPS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-tsv/"
+        - name: "XPS к TSV"
+          link: "/conversion/java/xps-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "XPS TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-txt/"
+        - name: "XPS к TXT"
+          link: "/conversion/java/xps-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "XPS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-webp/"
+        - name: "XPS к WEBP"
+          link: "/conversion/java/xps-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "XPS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-wmf/"
+        - name: "XPS к WMF"
+          link: "/conversion/java/xps-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "XPS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-wmz/"
+        - name: "XPS к WMZ"
+          link: "/conversion/java/xps-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "XPS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-xlam/"
+        - name: "XPS к XLAM"
+          link: "/conversion/java/xps-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XPS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-xls/"
+        - name: "XPS к XLS"
+          link: "/conversion/java/xps-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "XPS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-xlsb/"
+        - name: "XPS к XLSB"
+          link: "/conversion/java/xps-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "XPS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-xlsm/"
+        - name: "XPS к XLSM"
+          link: "/conversion/java/xps-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XPS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-xlsx/"
+        - name: "XPS к XLSX"
+          link: "/conversion/java/xps-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "XPS TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-xlt/"
+        - name: "XPS к XLT"
+          link: "/conversion/java/xps-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "XPS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-xltm/"
+        - name: "XPS к XLTM"
+          link: "/conversion/java/xps-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XPS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/xps-to-xltx/"
+        - name: "XPS к XLTX"
+          link: "/conversion/java/xps-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
 

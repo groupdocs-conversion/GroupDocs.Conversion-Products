@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования OTP в TIF в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла OTP в TIF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла OTP в TIF с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл OTP с полным путем
         * Установите ConvertOptions для типа документа TIF
@@ -128,308 +128,308 @@ more_formats:
         Вы также можете конвертировать OTP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OTP TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-bmp/"
+        - name: "OTP к BMP"
+          link: "/conversion/java/otp-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "OTP TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-csv/"
+        - name: "OTP к CSV"
+          link: "/conversion/java/otp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "OTP TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-dcm/"
+        - name: "OTP к DCM"
+          link: "/conversion/java/otp-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "OTP TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-dif/"
+        - name: "OTP к DIF"
+          link: "/conversion/java/otp-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "OTP TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-doc/"
+        - name: "OTP к DOC"
+          link: "/conversion/java/otp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OTP TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-docm/"
+        - name: "OTP к DOCM"
+          link: "/conversion/java/otp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTP TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-docx/"
+        - name: "OTP к DOCX"
+          link: "/conversion/java/otp-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "OTP TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-dot/"
+        - name: "OTP к DOT"
+          link: "/conversion/java/otp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "OTP TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-dotm/"
+        - name: "OTP к DOTM"
+          link: "/conversion/java/otp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTP TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-dotx/"
+        - name: "OTP к DOTX"
+          link: "/conversion/java/otp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "OTP TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-emf/"
+        - name: "OTP к EMF"
+          link: "/conversion/java/otp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "OTP TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-emz/"
+        - name: "OTP к EMZ"
+          link: "/conversion/java/otp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OTP TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-epub/"
+        - name: "OTP к EPUB"
+          link: "/conversion/java/otp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OTP TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-fodp/"
+        - name: "OTP к FODP"
+          link: "/conversion/java/otp-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "OTP TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-fods/"
+        - name: "OTP к FODS"
+          link: "/conversion/java/otp-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "OTP TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-gif/"
+        - name: "OTP к GIF"
+          link: "/conversion/java/otp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "OTP TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-htm/"
+        - name: "OTP к HTM"
+          link: "/conversion/java/otp-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "OTP TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-html/"
+        - name: "OTP к HTML"
+          link: "/conversion/java/otp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OTP TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-ico/"
+        - name: "OTP к ICO"
+          link: "/conversion/java/otp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "OTP TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-jp2/"
+        - name: "OTP к JP2"
+          link: "/conversion/java/otp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "OTP TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-jpeg/"
+        - name: "OTP к JPEG"
+          link: "/conversion/java/otp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "OTP TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-jpg/"
+        - name: "OTP к JPG"
+          link: "/conversion/java/otp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "OTP TO MD"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-md/"
+        - name: "OTP к MD"
+          link: "/conversion/java/otp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OTP TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-mht/"
+        - name: "OTP к MHT"
+          link: "/conversion/java/otp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTP TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-mhtml/"
+        - name: "OTP к MHTML"
+          link: "/conversion/java/otp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTP TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-odp/"
+        - name: "OTP к ODP"
+          link: "/conversion/java/otp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "OTP TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-ods/"
+        - name: "OTP к ODS"
+          link: "/conversion/java/otp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OTP TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-odt/"
+        - name: "OTP к ODT"
+          link: "/conversion/java/otp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "OTP TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-ott/"
+        - name: "OTP к OTT"
+          link: "/conversion/java/otp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "OTP TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-pdf/"
+        - name: "OTP к PDF"
+          link: "/conversion/java/otp-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "OTP TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-png/"
+        - name: "OTP к PNG"
+          link: "/conversion/java/otp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "OTP TO POT"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-pot/"
+        - name: "OTP к POT"
+          link: "/conversion/java/otp-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "OTP TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-potm/"
+        - name: "OTP к POTM"
+          link: "/conversion/java/otp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-potx/"
+        - name: "OTP к POTX"
+          link: "/conversion/java/otp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-pps/"
+        - name: "OTP к PPS"
+          link: "/conversion/java/otp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-ppsm/"
+        - name: "OTP к PPSM"
+          link: "/conversion/java/otp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-ppsx/"
+        - name: "OTP к PPSX"
+          link: "/conversion/java/otp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "OTP TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-ppt/"
+        - name: "OTP к PPT"
+          link: "/conversion/java/otp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OTP TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-pptm/"
+        - name: "OTP к PPTM"
+          link: "/conversion/java/otp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-pptx/"
+        - name: "OTP к PPTX"
+          link: "/conversion/java/otp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "OTP TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-psd/"
+        - name: "OTP к PSD"
+          link: "/conversion/java/otp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OTP TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-rtf/"
+        - name: "OTP к RTF"
+          link: "/conversion/java/otp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "OTP TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-svg/"
+        - name: "OTP к SVG"
+          link: "/conversion/java/otp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTP TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-svgz/"
+        - name: "OTP к SVGZ"
+          link: "/conversion/java/otp-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTP TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-sxc/"
+        - name: "OTP к SXC"
+          link: "/conversion/java/otp-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "OTP TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-tex/"
+        - name: "OTP к TEX"
+          link: "/conversion/java/otp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OTP TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-tiff/"
+        - name: "OTP к TIFF"
+          link: "/conversion/java/otp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTP TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-tsv/"
+        - name: "OTP к TSV"
+          link: "/conversion/java/otp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OTP TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-txt/"
+        - name: "OTP к TXT"
+          link: "/conversion/java/otp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OTP TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-webp/"
+        - name: "OTP к WEBP"
+          link: "/conversion/java/otp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OTP TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-wmf/"
+        - name: "OTP к WMF"
+          link: "/conversion/java/otp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "OTP TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-wmz/"
+        - name: "OTP к WMZ"
+          link: "/conversion/java/otp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OTP TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-xlam/"
+        - name: "OTP к XLAM"
+          link: "/conversion/java/otp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTP TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-xls/"
+        - name: "OTP к XLS"
+          link: "/conversion/java/otp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "OTP TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-xlsb/"
+        - name: "OTP к XLSB"
+          link: "/conversion/java/otp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OTP TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-xlsm/"
+        - name: "OTP к XLSM"
+          link: "/conversion/java/otp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTP TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-xlsx/"
+        - name: "OTP к XLSX"
+          link: "/conversion/java/otp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OTP TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-xlt/"
+        - name: "OTP к XLT"
+          link: "/conversion/java/otp-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTP TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-xltm/"
+        - name: "OTP к XLTM"
+          link: "/conversion/java/otp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTP TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-xltx/"
+        - name: "OTP к XLTX"
+          link: "/conversion/java/otp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTP TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/otp-to-xps/"
+        - name: "OTP к XPS"
+          link: "/conversion/java/otp-to-xps/"
           description: "Спецификация документа Open XML"
 
 

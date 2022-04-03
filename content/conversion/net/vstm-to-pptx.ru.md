@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию VSTM в PPTX на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл VSTM в PPTX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл VSTM в PPTX с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл VSTM с полным путем
         * Создайте и установите ConvertOptions для типа pptx
@@ -127,323 +127,323 @@ more_formats:
         Вы также можете конвертировать VSTM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VSTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-bmp/"
+        - name: "VSTM к BMP"
+          link: "/conversion/net/vstm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VSTM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-csv/"
+        - name: "VSTM к CSV"
+          link: "/conversion/net/vstm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VSTM TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-dcm/"
+        - name: "VSTM к DCM"
+          link: "/conversion/net/vstm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VSTM TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-dif/"
+        - name: "VSTM к DIF"
+          link: "/conversion/net/vstm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VSTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-doc/"
+        - name: "VSTM к DOC"
+          link: "/conversion/net/vstm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VSTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-docm/"
+        - name: "VSTM к DOCM"
+          link: "/conversion/net/vstm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSTM TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-docx/"
+        - name: "VSTM к DOCX"
+          link: "/conversion/net/vstm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VSTM TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-dot/"
+        - name: "VSTM к DOT"
+          link: "/conversion/net/vstm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VSTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-dotm/"
+        - name: "VSTM к DOTM"
+          link: "/conversion/net/vstm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSTM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-dotx/"
+        - name: "VSTM к DOTX"
+          link: "/conversion/net/vstm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VSTM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-emf/"
+        - name: "VSTM к EMF"
+          link: "/conversion/net/vstm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VSTM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-emz/"
+        - name: "VSTM к EMZ"
+          link: "/conversion/net/vstm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VSTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-epub/"
+        - name: "VSTM к EPUB"
+          link: "/conversion/net/vstm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VSTM TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-fodp/"
+        - name: "VSTM к FODP"
+          link: "/conversion/net/vstm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VSTM TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-fods/"
+        - name: "VSTM к FODS"
+          link: "/conversion/net/vstm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VSTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-gif/"
+        - name: "VSTM к GIF"
+          link: "/conversion/net/vstm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VSTM TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-htm/"
+        - name: "VSTM к HTM"
+          link: "/conversion/net/vstm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VSTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-html/"
+        - name: "VSTM к HTML"
+          link: "/conversion/net/vstm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VSTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ico/"
+        - name: "VSTM к ICO"
+          link: "/conversion/net/vstm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VSTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-jp2/"
+        - name: "VSTM к JP2"
+          link: "/conversion/net/vstm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VSTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-jpeg/"
+        - name: "VSTM к JPEG"
+          link: "/conversion/net/vstm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VSTM TO JPF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-jpf/"
+        - name: "VSTM к JPF"
+          link: "/conversion/net/vstm-to-jpf/"
           description: "Файл изображения JPEG 2000"
 
         # format loop
-        - name: "VSTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-jpg/"
+        - name: "VSTM к JPG"
+          link: "/conversion/net/vstm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VSTM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-md/"
+        - name: "VSTM к MD"
+          link: "/conversion/net/vstm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VSTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-mht/"
+        - name: "VSTM к MHT"
+          link: "/conversion/net/vstm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-mhtml/"
+        - name: "VSTM к MHTML"
+          link: "/conversion/net/vstm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-odp/"
+        - name: "VSTM к ODP"
+          link: "/conversion/net/vstm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VSTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ods/"
+        - name: "VSTM к ODS"
+          link: "/conversion/net/vstm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VSTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-odt/"
+        - name: "VSTM к ODT"
+          link: "/conversion/net/vstm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VSTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-otp/"
+        - name: "VSTM к OTP"
+          link: "/conversion/net/vstm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VSTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ott/"
+        - name: "VSTM к OTT"
+          link: "/conversion/net/vstm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VSTM TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-pdf/"
+        - name: "VSTM к PDF"
+          link: "/conversion/net/vstm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VSTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-png/"
+        - name: "VSTM к PNG"
+          link: "/conversion/net/vstm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VSTM TO POT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-pot/"
+        - name: "VSTM к POT"
+          link: "/conversion/net/vstm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VSTM TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-potm/"
+        - name: "VSTM к POTM"
+          link: "/conversion/net/vstm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-potx/"
+        - name: "VSTM к POTX"
+          link: "/conversion/net/vstm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-pps/"
+        - name: "VSTM к PPS"
+          link: "/conversion/net/vstm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ppsm/"
+        - name: "VSTM к PPSM"
+          link: "/conversion/net/vstm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ppsx/"
+        - name: "VSTM к PPSX"
+          link: "/conversion/net/vstm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VSTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-ppt/"
+        - name: "VSTM к PPT"
+          link: "/conversion/net/vstm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VSTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-pptm/"
+        - name: "VSTM к PPTM"
+          link: "/conversion/net/vstm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VSTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-psd/"
+        - name: "VSTM к PSD"
+          link: "/conversion/net/vstm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VSTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-rtf/"
+        - name: "VSTM к RTF"
+          link: "/conversion/net/vstm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VSTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-svg/"
+        - name: "VSTM к SVG"
+          link: "/conversion/net/vstm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSTM TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-svgz/"
+        - name: "VSTM к SVGZ"
+          link: "/conversion/net/vstm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSTM TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-sxc/"
+        - name: "VSTM к SXC"
+          link: "/conversion/net/vstm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VSTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-tex/"
+        - name: "VSTM к TEX"
+          link: "/conversion/net/vstm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VSTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-tif/"
+        - name: "VSTM к TIF"
+          link: "/conversion/net/vstm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-tiff/"
+        - name: "VSTM к TIFF"
+          link: "/conversion/net/vstm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-tsv/"
+        - name: "VSTM к TSV"
+          link: "/conversion/net/vstm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VSTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-txt/"
+        - name: "VSTM к TXT"
+          link: "/conversion/net/vstm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VSTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-webp/"
+        - name: "VSTM к WEBP"
+          link: "/conversion/net/vstm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VSTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-wmf/"
+        - name: "VSTM к WMF"
+          link: "/conversion/net/vstm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VSTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-wmz/"
+        - name: "VSTM к WMZ"
+          link: "/conversion/net/vstm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VSTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlam/"
+        - name: "VSTM к XLAM"
+          link: "/conversion/net/vstm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xls/"
+        - name: "VSTM к XLS"
+          link: "/conversion/net/vstm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VSTM TO XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xls2003/"
+        - name: "VSTM к XLS2003"
+          link: "/conversion/net/vstm-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "VSTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlsb/"
+        - name: "VSTM к XLSB"
+          link: "/conversion/net/vstm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VSTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlsm/"
+        - name: "VSTM к XLSM"
+          link: "/conversion/net/vstm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlsx/"
+        - name: "VSTM к XLSX"
+          link: "/conversion/net/vstm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VSTM TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xlt/"
+        - name: "VSTM к XLT"
+          link: "/conversion/net/vstm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xltm/"
+        - name: "VSTM к XLTM"
+          link: "/conversion/net/vstm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xltx/"
+        - name: "VSTM к XLTX"
+          link: "/conversion/net/vstm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/vstm-to-xps/"
+        - name: "VSTM к XPS"
+          link: "/conversion/net/vstm-to-xps/"
           description: "Спецификация документа Open XML"
 
 

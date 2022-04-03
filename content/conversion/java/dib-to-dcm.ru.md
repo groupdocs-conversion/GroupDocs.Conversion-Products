@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги по преобразованию DIB в DCM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл DIB в DCM, написав всего несколько строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл DIB в DCM, написав всего несколько строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл DIB с полным путем
         * Установите ConvertOptions для типа документа DCM.
@@ -128,318 +128,318 @@ more_formats:
         Вы также можете конвертировать DIB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DIB TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-bmp/"
+        - name: "DIB к BMP"
+          link: "/conversion/java/dib-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DIB TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-csv/"
+        - name: "DIB к CSV"
+          link: "/conversion/java/dib-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DIB TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-dif/"
+        - name: "DIB к DIF"
+          link: "/conversion/java/dib-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DIB TO DJVU"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-djvu/"
+        - name: "DIB к DJVU"
+          link: "/conversion/java/dib-to-djvu/"
           description: "Формат графического файла"
 
         # format loop
-        - name: "DIB TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-doc/"
+        - name: "DIB к DOC"
+          link: "/conversion/java/dib-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DIB TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-docm/"
+        - name: "DIB к DOCM"
+          link: "/conversion/java/dib-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DIB TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-docx/"
+        - name: "DIB к DOCX"
+          link: "/conversion/java/dib-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DIB TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-dot/"
+        - name: "DIB к DOT"
+          link: "/conversion/java/dib-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DIB TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-dotm/"
+        - name: "DIB к DOTM"
+          link: "/conversion/java/dib-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DIB TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-dotx/"
+        - name: "DIB к DOTX"
+          link: "/conversion/java/dib-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DIB TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-emf/"
+        - name: "DIB к EMF"
+          link: "/conversion/java/dib-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DIB TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-emz/"
+        - name: "DIB к EMZ"
+          link: "/conversion/java/dib-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DIB TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-epub/"
+        - name: "DIB к EPUB"
+          link: "/conversion/java/dib-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DIB TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-fodp/"
+        - name: "DIB к FODP"
+          link: "/conversion/java/dib-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DIB TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-fods/"
+        - name: "DIB к FODS"
+          link: "/conversion/java/dib-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DIB TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-gif/"
+        - name: "DIB к GIF"
+          link: "/conversion/java/dib-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DIB TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-htm/"
+        - name: "DIB к HTM"
+          link: "/conversion/java/dib-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DIB TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-html/"
+        - name: "DIB к HTML"
+          link: "/conversion/java/dib-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DIB TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-ico/"
+        - name: "DIB к ICO"
+          link: "/conversion/java/dib-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DIB TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-jp2/"
+        - name: "DIB к JP2"
+          link: "/conversion/java/dib-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DIB TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-jpeg/"
+        - name: "DIB к JPEG"
+          link: "/conversion/java/dib-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DIB TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-jpg/"
+        - name: "DIB к JPG"
+          link: "/conversion/java/dib-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DIB TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-md/"
+        - name: "DIB к MD"
+          link: "/conversion/java/dib-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DIB TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-mht/"
+        - name: "DIB к MHT"
+          link: "/conversion/java/dib-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DIB TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-mhtml/"
+        - name: "DIB к MHTML"
+          link: "/conversion/java/dib-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DIB TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-odp/"
+        - name: "DIB к ODP"
+          link: "/conversion/java/dib-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DIB TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-ods/"
+        - name: "DIB к ODS"
+          link: "/conversion/java/dib-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DIB TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-odt/"
+        - name: "DIB к ODT"
+          link: "/conversion/java/dib-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DIB TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-otp/"
+        - name: "DIB к OTP"
+          link: "/conversion/java/dib-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DIB TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-ott/"
+        - name: "DIB к OTT"
+          link: "/conversion/java/dib-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DIB TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-pdf/"
+        - name: "DIB к PDF"
+          link: "/conversion/java/dib-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DIB TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-png/"
+        - name: "DIB к PNG"
+          link: "/conversion/java/dib-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DIB TO POT"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-pot/"
+        - name: "DIB к POT"
+          link: "/conversion/java/dib-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DIB TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-potm/"
+        - name: "DIB к POTM"
+          link: "/conversion/java/dib-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-potx/"
+        - name: "DIB к POTX"
+          link: "/conversion/java/dib-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-pps/"
+        - name: "DIB к PPS"
+          link: "/conversion/java/dib-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-ppsm/"
+        - name: "DIB к PPSM"
+          link: "/conversion/java/dib-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-ppsx/"
+        - name: "DIB к PPSX"
+          link: "/conversion/java/dib-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DIB TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-ppt/"
+        - name: "DIB к PPT"
+          link: "/conversion/java/dib-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DIB TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-pptm/"
+        - name: "DIB к PPTM"
+          link: "/conversion/java/dib-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-pptx/"
+        - name: "DIB к PPTX"
+          link: "/conversion/java/dib-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DIB TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-psd/"
+        - name: "DIB к PSD"
+          link: "/conversion/java/dib-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DIB TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-rtf/"
+        - name: "DIB к RTF"
+          link: "/conversion/java/dib-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DIB TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-svg/"
+        - name: "DIB к SVG"
+          link: "/conversion/java/dib-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DIB TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-svgz/"
+        - name: "DIB к SVGZ"
+          link: "/conversion/java/dib-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DIB TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-sxc/"
+        - name: "DIB к SXC"
+          link: "/conversion/java/dib-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DIB TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-tex/"
+        - name: "DIB к TEX"
+          link: "/conversion/java/dib-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DIB TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-tif/"
+        - name: "DIB к TIF"
+          link: "/conversion/java/dib-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DIB TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-tiff/"
+        - name: "DIB к TIFF"
+          link: "/conversion/java/dib-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DIB TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-tsv/"
+        - name: "DIB к TSV"
+          link: "/conversion/java/dib-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DIB TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-txt/"
+        - name: "DIB к TXT"
+          link: "/conversion/java/dib-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DIB TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-webp/"
+        - name: "DIB к WEBP"
+          link: "/conversion/java/dib-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DIB TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-wmf/"
+        - name: "DIB к WMF"
+          link: "/conversion/java/dib-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DIB TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-wmz/"
+        - name: "DIB к WMZ"
+          link: "/conversion/java/dib-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DIB TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xlam/"
+        - name: "DIB к XLAM"
+          link: "/conversion/java/dib-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DIB TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xls/"
+        - name: "DIB к XLS"
+          link: "/conversion/java/dib-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DIB TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xlsb/"
+        - name: "DIB к XLSB"
+          link: "/conversion/java/dib-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DIB TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xlsm/"
+        - name: "DIB к XLSM"
+          link: "/conversion/java/dib-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DIB TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xlsx/"
+        - name: "DIB к XLSX"
+          link: "/conversion/java/dib-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DIB TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xlt/"
+        - name: "DIB к XLT"
+          link: "/conversion/java/dib-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DIB TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xltm/"
+        - name: "DIB к XLTM"
+          link: "/conversion/java/dib-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DIB TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xltx/"
+        - name: "DIB к XLTX"
+          link: "/conversion/java/dib-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DIB TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dib-to-xps/"
+        - name: "DIB к XPS"
+          link: "/conversion/java/dib-to-xps/"
           description: "Спецификация документа Open XML"
 
 

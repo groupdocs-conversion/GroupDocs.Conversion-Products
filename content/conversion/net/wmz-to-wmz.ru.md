@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию WMZ в WMZ на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла WMZ в WMZ с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла WMZ в WMZ с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл WMZ с полным путем
         * Создайте и установите ConvertOptions для типа wmz
@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать WMZ во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WMZ TO EPUB"
+        - name: "WMZ к EPUB"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WMZ TO XPS"
+        - name: "WMZ к XPS"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "WMZ TO TEX"
+        - name: "WMZ к TEX"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WMZ TO PPT"
+        - name: "WMZ к PPT"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WMZ TO PPS"
+        - name: "WMZ к PPS"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WMZ TO PPTX"
+        - name: "WMZ к PPTX"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WMZ TO PPSX"
+        - name: "WMZ к PPSX"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WMZ TO ODP"
+        - name: "WMZ к ODP"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WMZ TO OTP"
+        - name: "WMZ к OTP"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WMZ TO POTX"
+        - name: "WMZ к POTX"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WMZ TO POTM"
+        - name: "WMZ к POTM"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WMZ TO PPTM"
+        - name: "WMZ к PPTM"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WMZ TO PPSM"
+        - name: "WMZ к PPSM"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WMZ TO XLS"
+        - name: "WMZ к XLS"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WMZ TO XLSX"
+        - name: "WMZ к XLSX"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WMZ TO XLSM"
+        - name: "WMZ к XLSM"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMZ TO XLSB"
+        - name: "WMZ к XLSB"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WMZ TO ODS"
+        - name: "WMZ к ODS"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WMZ TO XLTX"
+        - name: "WMZ к XLTX"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WMZ TO XLTM"
+        - name: "WMZ к XLTM"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMZ TO TSV"
+        - name: "WMZ к TSV"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WMZ TO XLAM"
+        - name: "WMZ к XLAM"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMZ TO CSV"
+        - name: "WMZ к CSV"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WMZ TO DOC"
+        - name: "WMZ к DOC"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WMZ TO DOCM"
+        - name: "WMZ к DOCM"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WMZ TO WMZ"
+        - name: "WMZ к WMZ"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-wmz/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WMZ TO DOT"
+        - name: "WMZ к DOT"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WMZ TO DOTM"
+        - name: "WMZ к DOTM"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WMZ TO DOTX"
+        - name: "WMZ к DOTX"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WMZ TO RTF"
+        - name: "WMZ к RTF"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WMZ TO ODT"
+        - name: "WMZ к ODT"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WMZ TO OTT"
+        - name: "WMZ к OTT"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WMZ TO TXT"
+        - name: "WMZ к TXT"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WMZ TO MD"
+        - name: "WMZ к MD"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WMZ TO TIFF"
+        - name: "WMZ к TIFF"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WMZ TO TIF"
+        - name: "WMZ к TIF"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WMZ TO JPG"
+        - name: "WMZ к JPG"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WMZ TO JPEG"
+        - name: "WMZ к JPEG"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WMZ TO PNG"
+        - name: "WMZ к PNG"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WMZ TO GIF"
+        - name: "WMZ к GIF"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WMZ TO BMP"
+        - name: "WMZ к BMP"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WMZ TO ICO"
+        - name: "WMZ к ICO"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WMZ TO PSD"
+        - name: "WMZ к PSD"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WMZ TO WMF"
+        - name: "WMZ к WMF"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WMZ TO EMF"
+        - name: "WMZ к EMF"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WMZ TO WEBP"
+        - name: "WMZ к WEBP"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WMZ TO SVG"
+        - name: "WMZ к SVG"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WMZ TO JP2"
+        - name: "WMZ к JP2"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WMZ TO EMZ"
+        - name: "WMZ к EMZ"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WMZ TO WMZ"
+        - name: "WMZ к WMZ"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WMZ TO HTML"
+        - name: "WMZ к HTML"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WMZ TO MHT"
+        - name: "WMZ к MHT"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WMZ TO MHTML"
+        - name: "WMZ к MHTML"
           link: "https://products.groupdocs.com/conversion/net/wmz-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

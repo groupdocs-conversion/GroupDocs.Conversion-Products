@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию XLS в WMF на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла XLS в WMF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла XLS в WMF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл XLS с полным путем
         * Создайте и установите ConvertOptions для типа wmf
@@ -127,308 +127,308 @@ more_formats:
         Вы также можете конвертировать XLS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "XLS TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-bmp/"
+        - name: "XLS к BMP"
+          link: "/conversion/net/xls-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "XLS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-csv/"
+        - name: "XLS к CSV"
+          link: "/conversion/net/xls-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "XLS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-dcm/"
+        - name: "XLS к DCM"
+          link: "/conversion/net/xls-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "XLS TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-dif/"
+        - name: "XLS к DIF"
+          link: "/conversion/net/xls-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "XLS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-doc/"
+        - name: "XLS к DOC"
+          link: "/conversion/net/xls-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "XLS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-docm/"
+        - name: "XLS к DOCM"
+          link: "/conversion/net/xls-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLS TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-docx/"
+        - name: "XLS к DOCX"
+          link: "/conversion/net/xls-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "XLS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-dot/"
+        - name: "XLS к DOT"
+          link: "/conversion/net/xls-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "XLS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-dotm/"
+        - name: "XLS к DOTM"
+          link: "/conversion/net/xls-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-dotx/"
+        - name: "XLS к DOTX"
+          link: "/conversion/net/xls-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "XLS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-emf/"
+        - name: "XLS к EMF"
+          link: "/conversion/net/xls-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "XLS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-emz/"
+        - name: "XLS к EMZ"
+          link: "/conversion/net/xls-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "XLS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-epub/"
+        - name: "XLS к EPUB"
+          link: "/conversion/net/xls-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "XLS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-fodp/"
+        - name: "XLS к FODP"
+          link: "/conversion/net/xls-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "XLS TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-fods/"
+        - name: "XLS к FODS"
+          link: "/conversion/net/xls-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "XLS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-gif/"
+        - name: "XLS к GIF"
+          link: "/conversion/net/xls-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "XLS TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-htm/"
+        - name: "XLS к HTM"
+          link: "/conversion/net/xls-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "XLS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-html/"
+        - name: "XLS к HTML"
+          link: "/conversion/net/xls-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "XLS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-ico/"
+        - name: "XLS к ICO"
+          link: "/conversion/net/xls-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "XLS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-jp2/"
+        - name: "XLS к JP2"
+          link: "/conversion/net/xls-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "XLS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-jpeg/"
+        - name: "XLS к JPEG"
+          link: "/conversion/net/xls-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "XLS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-jpg/"
+        - name: "XLS к JPG"
+          link: "/conversion/net/xls-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "XLS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-md/"
+        - name: "XLS к MD"
+          link: "/conversion/net/xls-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "XLS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-mht/"
+        - name: "XLS к MHT"
+          link: "/conversion/net/xls-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-mhtml/"
+        - name: "XLS к MHTML"
+          link: "/conversion/net/xls-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-odp/"
+        - name: "XLS к ODP"
+          link: "/conversion/net/xls-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "XLS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-ods/"
+        - name: "XLS к ODS"
+          link: "/conversion/net/xls-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "XLS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-odt/"
+        - name: "XLS к ODT"
+          link: "/conversion/net/xls-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "XLS TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-otp/"
+        - name: "XLS к OTP"
+          link: "/conversion/net/xls-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "XLS TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-ott/"
+        - name: "XLS к OTT"
+          link: "/conversion/net/xls-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "XLS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-pdf/"
+        - name: "XLS к PDF"
+          link: "/conversion/net/xls-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "XLS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-png/"
+        - name: "XLS к PNG"
+          link: "/conversion/net/xls-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "XLS TO POT"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-pot/"
+        - name: "XLS к POT"
+          link: "/conversion/net/xls-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "XLS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-potm/"
+        - name: "XLS к POTM"
+          link: "/conversion/net/xls-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-potx/"
+        - name: "XLS к POTX"
+          link: "/conversion/net/xls-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-pps/"
+        - name: "XLS к PPS"
+          link: "/conversion/net/xls-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-ppsm/"
+        - name: "XLS к PPSM"
+          link: "/conversion/net/xls-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-ppsx/"
+        - name: "XLS к PPSX"
+          link: "/conversion/net/xls-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "XLS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-ppt/"
+        - name: "XLS к PPT"
+          link: "/conversion/net/xls-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "XLS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-pptm/"
+        - name: "XLS к PPTM"
+          link: "/conversion/net/xls-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "XLS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-pptx/"
+        - name: "XLS к PPTX"
+          link: "/conversion/net/xls-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "XLS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-psd/"
+        - name: "XLS к PSD"
+          link: "/conversion/net/xls-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "XLS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-rtf/"
+        - name: "XLS к RTF"
+          link: "/conversion/net/xls-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "XLS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-svg/"
+        - name: "XLS к SVG"
+          link: "/conversion/net/xls-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLS TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-svgz/"
+        - name: "XLS к SVGZ"
+          link: "/conversion/net/xls-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLS TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-sxc/"
+        - name: "XLS к SXC"
+          link: "/conversion/net/xls-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "XLS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-tex/"
+        - name: "XLS к TEX"
+          link: "/conversion/net/xls-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "XLS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-tif/"
+        - name: "XLS к TIF"
+          link: "/conversion/net/xls-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-tiff/"
+        - name: "XLS к TIFF"
+          link: "/conversion/net/xls-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-tsv/"
+        - name: "XLS к TSV"
+          link: "/conversion/net/xls-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "XLS TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-txt/"
+        - name: "XLS к TXT"
+          link: "/conversion/net/xls-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "XLS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-webp/"
+        - name: "XLS к WEBP"
+          link: "/conversion/net/xls-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "XLS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-wmz/"
+        - name: "XLS к WMZ"
+          link: "/conversion/net/xls-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "XLS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-xlam/"
+        - name: "XLS к XLAM"
+          link: "/conversion/net/xls-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-xlsb/"
+        - name: "XLS к XLSB"
+          link: "/conversion/net/xls-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "XLS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-xlsm/"
+        - name: "XLS к XLSM"
+          link: "/conversion/net/xls-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-xlsx/"
+        - name: "XLS к XLSX"
+          link: "/conversion/net/xls-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "XLS TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-xlt/"
+        - name: "XLS к XLT"
+          link: "/conversion/net/xls-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-xltm/"
+        - name: "XLS к XLTM"
+          link: "/conversion/net/xls-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-xltx/"
+        - name: "XLS к XLTX"
+          link: "/conversion/net/xls-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/xls-to-xps/"
+        - name: "XLS к XPS"
+          link: "/conversion/net/xls-to-xps/"
           description: "Спецификация документа Open XML"
 
 

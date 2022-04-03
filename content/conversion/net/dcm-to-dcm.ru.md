@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию DCM в DCM на C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) позволяет разработчикам легко преобразовать файл DCM в формат DCM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл DCM в формат DCM с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DCM с полным путем
         * Создайте и установите ConvertOptions для типа dcm

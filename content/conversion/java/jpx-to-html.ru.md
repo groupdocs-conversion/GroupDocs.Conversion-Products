@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования JPX в HTML в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) упрощает для разработчиков преобразование файла JPX в HTML с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла JPX в HTML с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл JPX с полным путем
         * Установите ConvertOptions для типа документа HTML
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать JPX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JPX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-bmp/"
+        - name: "JPX к BMP"
+          link: "/conversion/java/jpx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JPX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-csv/"
+        - name: "JPX к CSV"
+          link: "/conversion/java/jpx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "JPX TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-dcm/"
+        - name: "JPX к DCM"
+          link: "/conversion/java/jpx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "JPX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-dif/"
+        - name: "JPX к DIF"
+          link: "/conversion/java/jpx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "JPX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-doc/"
+        - name: "JPX к DOC"
+          link: "/conversion/java/jpx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JPX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-docm/"
+        - name: "JPX к DOCM"
+          link: "/conversion/java/jpx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPX TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-docx/"
+        - name: "JPX к DOCX"
+          link: "/conversion/java/jpx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JPX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-dot/"
+        - name: "JPX к DOT"
+          link: "/conversion/java/jpx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JPX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-dotm/"
+        - name: "JPX к DOTM"
+          link: "/conversion/java/jpx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-dotx/"
+        - name: "JPX к DOTX"
+          link: "/conversion/java/jpx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JPX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-emf/"
+        - name: "JPX к EMF"
+          link: "/conversion/java/jpx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JPX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-emz/"
+        - name: "JPX к EMZ"
+          link: "/conversion/java/jpx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JPX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-epub/"
+        - name: "JPX к EPUB"
+          link: "/conversion/java/jpx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JPX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-fodp/"
+        - name: "JPX к FODP"
+          link: "/conversion/java/jpx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "JPX TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-fods/"
+        - name: "JPX к FODS"
+          link: "/conversion/java/jpx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "JPX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-gif/"
+        - name: "JPX к GIF"
+          link: "/conversion/java/jpx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "JPX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-htm/"
+        - name: "JPX к HTM"
+          link: "/conversion/java/jpx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "JPX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ico/"
+        - name: "JPX к ICO"
+          link: "/conversion/java/jpx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JPX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-jp2/"
+        - name: "JPX к JP2"
+          link: "/conversion/java/jpx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "JPX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-jpeg/"
+        - name: "JPX к JPEG"
+          link: "/conversion/java/jpx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "JPX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-jpg/"
+        - name: "JPX к JPG"
+          link: "/conversion/java/jpx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JPX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-md/"
+        - name: "JPX к MD"
+          link: "/conversion/java/jpx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JPX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-mht/"
+        - name: "JPX к MHT"
+          link: "/conversion/java/jpx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-mhtml/"
+        - name: "JPX к MHTML"
+          link: "/conversion/java/jpx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-odp/"
+        - name: "JPX к ODP"
+          link: "/conversion/java/jpx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JPX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ods/"
+        - name: "JPX к ODS"
+          link: "/conversion/java/jpx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JPX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-odt/"
+        - name: "JPX к ODT"
+          link: "/conversion/java/jpx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JPX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-otp/"
+        - name: "JPX к OTP"
+          link: "/conversion/java/jpx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "JPX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ott/"
+        - name: "JPX к OTT"
+          link: "/conversion/java/jpx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JPX TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-pdf/"
+        - name: "JPX к PDF"
+          link: "/conversion/java/jpx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "JPX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-png/"
+        - name: "JPX к PNG"
+          link: "/conversion/java/jpx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JPX TO POT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-pot/"
+        - name: "JPX к POT"
+          link: "/conversion/java/jpx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "JPX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-potm/"
+        - name: "JPX к POTM"
+          link: "/conversion/java/jpx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-potx/"
+        - name: "JPX к POTX"
+          link: "/conversion/java/jpx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-pps/"
+        - name: "JPX к PPS"
+          link: "/conversion/java/jpx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ppsm/"
+        - name: "JPX к PPSM"
+          link: "/conversion/java/jpx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ppsx/"
+        - name: "JPX к PPSX"
+          link: "/conversion/java/jpx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JPX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-ppt/"
+        - name: "JPX к PPT"
+          link: "/conversion/java/jpx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JPX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-pptm/"
+        - name: "JPX к PPTM"
+          link: "/conversion/java/jpx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JPX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-pptx/"
+        - name: "JPX к PPTX"
+          link: "/conversion/java/jpx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JPX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-psd/"
+        - name: "JPX к PSD"
+          link: "/conversion/java/jpx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JPX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-rtf/"
+        - name: "JPX к RTF"
+          link: "/conversion/java/jpx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JPX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-svg/"
+        - name: "JPX к SVG"
+          link: "/conversion/java/jpx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPX TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-svgz/"
+        - name: "JPX к SVGZ"
+          link: "/conversion/java/jpx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-sxc/"
+        - name: "JPX к SXC"
+          link: "/conversion/java/jpx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "JPX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-tex/"
+        - name: "JPX к TEX"
+          link: "/conversion/java/jpx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JPX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-tif/"
+        - name: "JPX к TIF"
+          link: "/conversion/java/jpx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-tiff/"
+        - name: "JPX к TIFF"
+          link: "/conversion/java/jpx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-tsv/"
+        - name: "JPX к TSV"
+          link: "/conversion/java/jpx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "JPX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-txt/"
+        - name: "JPX к TXT"
+          link: "/conversion/java/jpx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JPX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-webp/"
+        - name: "JPX к WEBP"
+          link: "/conversion/java/jpx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JPX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-wmf/"
+        - name: "JPX к WMF"
+          link: "/conversion/java/jpx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JPX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-wmz/"
+        - name: "JPX к WMZ"
+          link: "/conversion/java/jpx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JPX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlam/"
+        - name: "JPX к XLAM"
+          link: "/conversion/java/jpx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xls/"
+        - name: "JPX к XLS"
+          link: "/conversion/java/jpx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JPX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlsb/"
+        - name: "JPX к XLSB"
+          link: "/conversion/java/jpx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JPX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlsm/"
+        - name: "JPX к XLSM"
+          link: "/conversion/java/jpx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlsx/"
+        - name: "JPX к XLSX"
+          link: "/conversion/java/jpx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JPX TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xlt/"
+        - name: "JPX к XLT"
+          link: "/conversion/java/jpx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPX TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xltm/"
+        - name: "JPX к XLTM"
+          link: "/conversion/java/jpx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xltx/"
+        - name: "JPX к XLTX"
+          link: "/conversion/java/jpx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/jpx-to-xps/"
+        - name: "JPX к XPS"
+          link: "/conversion/java/jpx-to-xps/"
           description: "Спецификация документа Open XML"
 
 

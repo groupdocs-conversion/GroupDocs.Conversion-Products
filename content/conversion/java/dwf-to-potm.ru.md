@@ -58,14 +58,14 @@ about:
     enable: true
     title: "О GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Шаги для преобразования DWF в POTM в Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) позволяет разработчикам легко преобразовать файл DWF в POTM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл DWF в POTM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл DWF с полным путем
         * Установите ConvertOptions для типа документа POTM
@@ -128,313 +128,313 @@ more_formats:
         Вы также можете конвертировать DWF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DWF TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-bmp/"
+        - name: "DWF к BMP"
+          link: "/conversion/java/dwf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DWF TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-csv/"
+        - name: "DWF к CSV"
+          link: "/conversion/java/dwf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DWF TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-dcm/"
+        - name: "DWF к DCM"
+          link: "/conversion/java/dwf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DWF TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-dif/"
+        - name: "DWF к DIF"
+          link: "/conversion/java/dwf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DWF TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-doc/"
+        - name: "DWF к DOC"
+          link: "/conversion/java/dwf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DWF TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-docm/"
+        - name: "DWF к DOCM"
+          link: "/conversion/java/dwf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWF TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-docx/"
+        - name: "DWF к DOCX"
+          link: "/conversion/java/dwf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DWF TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-dot/"
+        - name: "DWF к DOT"
+          link: "/conversion/java/dwf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DWF TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-dotm/"
+        - name: "DWF к DOTM"
+          link: "/conversion/java/dwf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWF TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-dotx/"
+        - name: "DWF к DOTX"
+          link: "/conversion/java/dwf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DWF TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-emf/"
+        - name: "DWF к EMF"
+          link: "/conversion/java/dwf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DWF TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-emz/"
+        - name: "DWF к EMZ"
+          link: "/conversion/java/dwf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DWF TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-epub/"
+        - name: "DWF к EPUB"
+          link: "/conversion/java/dwf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DWF TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-fodp/"
+        - name: "DWF к FODP"
+          link: "/conversion/java/dwf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DWF TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-fods/"
+        - name: "DWF к FODS"
+          link: "/conversion/java/dwf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DWF TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-gif/"
+        - name: "DWF к GIF"
+          link: "/conversion/java/dwf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DWF TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-htm/"
+        - name: "DWF к HTM"
+          link: "/conversion/java/dwf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DWF TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-html/"
+        - name: "DWF к HTML"
+          link: "/conversion/java/dwf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DWF TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-ico/"
+        - name: "DWF к ICO"
+          link: "/conversion/java/dwf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DWF TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-jp2/"
+        - name: "DWF к JP2"
+          link: "/conversion/java/dwf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DWF TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-jpeg/"
+        - name: "DWF к JPEG"
+          link: "/conversion/java/dwf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DWF TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-jpg/"
+        - name: "DWF к JPG"
+          link: "/conversion/java/dwf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DWF TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-md/"
+        - name: "DWF к MD"
+          link: "/conversion/java/dwf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DWF TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-mht/"
+        - name: "DWF к MHT"
+          link: "/conversion/java/dwf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWF TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-mhtml/"
+        - name: "DWF к MHTML"
+          link: "/conversion/java/dwf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWF TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-odp/"
+        - name: "DWF к ODP"
+          link: "/conversion/java/dwf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DWF TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-ods/"
+        - name: "DWF к ODS"
+          link: "/conversion/java/dwf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DWF TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-odt/"
+        - name: "DWF к ODT"
+          link: "/conversion/java/dwf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DWF TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-otp/"
+        - name: "DWF к OTP"
+          link: "/conversion/java/dwf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DWF TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-ott/"
+        - name: "DWF к OTT"
+          link: "/conversion/java/dwf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DWF TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-pdf/"
+        - name: "DWF к PDF"
+          link: "/conversion/java/dwf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DWF TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-png/"
+        - name: "DWF к PNG"
+          link: "/conversion/java/dwf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DWF TO POT"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-pot/"
+        - name: "DWF к POT"
+          link: "/conversion/java/dwf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DWF TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-potx/"
+        - name: "DWF к POTX"
+          link: "/conversion/java/dwf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWF TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-pps/"
+        - name: "DWF к PPS"
+          link: "/conversion/java/dwf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWF TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-ppsm/"
+        - name: "DWF к PPSM"
+          link: "/conversion/java/dwf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWF TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-ppsx/"
+        - name: "DWF к PPSX"
+          link: "/conversion/java/dwf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DWF TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-ppt/"
+        - name: "DWF к PPT"
+          link: "/conversion/java/dwf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DWF TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-pptm/"
+        - name: "DWF к PPTM"
+          link: "/conversion/java/dwf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DWF TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-pptx/"
+        - name: "DWF к PPTX"
+          link: "/conversion/java/dwf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DWF TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-psd/"
+        - name: "DWF к PSD"
+          link: "/conversion/java/dwf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DWF TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-rtf/"
+        - name: "DWF к RTF"
+          link: "/conversion/java/dwf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DWF TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-svg/"
+        - name: "DWF к SVG"
+          link: "/conversion/java/dwf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWF TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-svgz/"
+        - name: "DWF к SVGZ"
+          link: "/conversion/java/dwf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWF TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-sxc/"
+        - name: "DWF к SXC"
+          link: "/conversion/java/dwf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DWF TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-tex/"
+        - name: "DWF к TEX"
+          link: "/conversion/java/dwf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DWF TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-tif/"
+        - name: "DWF к TIF"
+          link: "/conversion/java/dwf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWF TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-tiff/"
+        - name: "DWF к TIFF"
+          link: "/conversion/java/dwf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWF TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-tsv/"
+        - name: "DWF к TSV"
+          link: "/conversion/java/dwf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DWF TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-txt/"
+        - name: "DWF к TXT"
+          link: "/conversion/java/dwf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DWF TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-webp/"
+        - name: "DWF к WEBP"
+          link: "/conversion/java/dwf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DWF TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-wmf/"
+        - name: "DWF к WMF"
+          link: "/conversion/java/dwf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DWF TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-wmz/"
+        - name: "DWF к WMZ"
+          link: "/conversion/java/dwf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DWF TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xlam/"
+        - name: "DWF к XLAM"
+          link: "/conversion/java/dwf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWF TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xls/"
+        - name: "DWF к XLS"
+          link: "/conversion/java/dwf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DWF TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xlsb/"
+        - name: "DWF к XLSB"
+          link: "/conversion/java/dwf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DWF TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xlsm/"
+        - name: "DWF к XLSM"
+          link: "/conversion/java/dwf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWF TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xlsx/"
+        - name: "DWF к XLSX"
+          link: "/conversion/java/dwf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DWF TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xlt/"
+        - name: "DWF к XLT"
+          link: "/conversion/java/dwf-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWF TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xltm/"
+        - name: "DWF к XLTM"
+          link: "/conversion/java/dwf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWF TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xltx/"
+        - name: "DWF к XLTX"
+          link: "/conversion/java/dwf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWF TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dwf-to-xps/"
+        - name: "DWF к XPS"
+          link: "/conversion/java/dwf-to-xps/"
           description: "Спецификация документа Open XML"
 
 

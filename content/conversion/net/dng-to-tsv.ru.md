@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Шаги по преобразованию DNG в TSV в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла DNG в TSV с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла DNG в TSV с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DNG с полным путем
         * Создайте и установите ConvertOptions для типа tsv
@@ -127,318 +127,318 @@ more_formats:
         Вы также можете конвертировать DNG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DNG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-bmp/"
+        - name: "DNG к BMP"
+          link: "/conversion/net/dng-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DNG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-csv/"
+        - name: "DNG к CSV"
+          link: "/conversion/net/dng-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DNG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dcm/"
+        - name: "DNG к DCM"
+          link: "/conversion/net/dng-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DNG TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dif/"
+        - name: "DNG к DIF"
+          link: "/conversion/net/dng-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DNG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-doc/"
+        - name: "DNG к DOC"
+          link: "/conversion/net/dng-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DNG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-docm/"
+        - name: "DNG к DOCM"
+          link: "/conversion/net/dng-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DNG TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-docx/"
+        - name: "DNG к DOCX"
+          link: "/conversion/net/dng-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DNG TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dot/"
+        - name: "DNG к DOT"
+          link: "/conversion/net/dng-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DNG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dotm/"
+        - name: "DNG к DOTM"
+          link: "/conversion/net/dng-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DNG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-dotx/"
+        - name: "DNG к DOTX"
+          link: "/conversion/net/dng-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DNG TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-emf/"
+        - name: "DNG к EMF"
+          link: "/conversion/net/dng-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DNG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-emz/"
+        - name: "DNG к EMZ"
+          link: "/conversion/net/dng-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DNG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-epub/"
+        - name: "DNG к EPUB"
+          link: "/conversion/net/dng-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DNG TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-fodp/"
+        - name: "DNG к FODP"
+          link: "/conversion/net/dng-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DNG TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-fods/"
+        - name: "DNG к FODS"
+          link: "/conversion/net/dng-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DNG TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-gif/"
+        - name: "DNG к GIF"
+          link: "/conversion/net/dng-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DNG TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-htm/"
+        - name: "DNG к HTM"
+          link: "/conversion/net/dng-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DNG TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-html/"
+        - name: "DNG к HTML"
+          link: "/conversion/net/dng-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DNG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ico/"
+        - name: "DNG к ICO"
+          link: "/conversion/net/dng-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DNG TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-jp2/"
+        - name: "DNG к JP2"
+          link: "/conversion/net/dng-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DNG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-jpeg/"
+        - name: "DNG к JPEG"
+          link: "/conversion/net/dng-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DNG TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-jpg/"
+        - name: "DNG к JPG"
+          link: "/conversion/net/dng-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DNG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-md/"
+        - name: "DNG к MD"
+          link: "/conversion/net/dng-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DNG TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-mht/"
+        - name: "DNG к MHT"
+          link: "/conversion/net/dng-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DNG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-mhtml/"
+        - name: "DNG к MHTML"
+          link: "/conversion/net/dng-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DNG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-odp/"
+        - name: "DNG к ODP"
+          link: "/conversion/net/dng-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DNG TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ods/"
+        - name: "DNG к ODS"
+          link: "/conversion/net/dng-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DNG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-odt/"
+        - name: "DNG к ODT"
+          link: "/conversion/net/dng-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DNG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-otp/"
+        - name: "DNG к OTP"
+          link: "/conversion/net/dng-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DNG TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ott/"
+        - name: "DNG к OTT"
+          link: "/conversion/net/dng-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DNG TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-pdf/"
+        - name: "DNG к PDF"
+          link: "/conversion/net/dng-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DNG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-png/"
+        - name: "DNG к PNG"
+          link: "/conversion/net/dng-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DNG TO POT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-pot/"
+        - name: "DNG к POT"
+          link: "/conversion/net/dng-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DNG TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-potm/"
+        - name: "DNG к POTM"
+          link: "/conversion/net/dng-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DNG TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-potx/"
+        - name: "DNG к POTX"
+          link: "/conversion/net/dng-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DNG TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-pps/"
+        - name: "DNG к PPS"
+          link: "/conversion/net/dng-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DNG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ppsm/"
+        - name: "DNG к PPSM"
+          link: "/conversion/net/dng-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DNG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ppsx/"
+        - name: "DNG к PPSX"
+          link: "/conversion/net/dng-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DNG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-ppt/"
+        - name: "DNG к PPT"
+          link: "/conversion/net/dng-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DNG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-pptm/"
+        - name: "DNG к PPTM"
+          link: "/conversion/net/dng-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DNG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-pptx/"
+        - name: "DNG к PPTX"
+          link: "/conversion/net/dng-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DNG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-psd/"
+        - name: "DNG к PSD"
+          link: "/conversion/net/dng-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DNG TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-rtf/"
+        - name: "DNG к RTF"
+          link: "/conversion/net/dng-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DNG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-svg/"
+        - name: "DNG к SVG"
+          link: "/conversion/net/dng-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DNG TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-svgz/"
+        - name: "DNG к SVGZ"
+          link: "/conversion/net/dng-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DNG TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-sxc/"
+        - name: "DNG к SXC"
+          link: "/conversion/net/dng-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DNG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-tex/"
+        - name: "DNG к TEX"
+          link: "/conversion/net/dng-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DNG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-tif/"
+        - name: "DNG к TIF"
+          link: "/conversion/net/dng-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DNG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-tiff/"
+        - name: "DNG к TIFF"
+          link: "/conversion/net/dng-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DNG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-txt/"
+        - name: "DNG к TXT"
+          link: "/conversion/net/dng-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DNG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-webp/"
+        - name: "DNG к WEBP"
+          link: "/conversion/net/dng-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DNG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-wmf/"
+        - name: "DNG к WMF"
+          link: "/conversion/net/dng-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DNG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-wmz/"
+        - name: "DNG к WMZ"
+          link: "/conversion/net/dng-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DNG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlam/"
+        - name: "DNG к XLAM"
+          link: "/conversion/net/dng-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DNG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xls/"
+        - name: "DNG к XLS"
+          link: "/conversion/net/dng-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DNG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsb/"
+        - name: "DNG к XLSB"
+          link: "/conversion/net/dng-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DNG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsm/"
+        - name: "DNG к XLSM"
+          link: "/conversion/net/dng-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DNG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlsx/"
+        - name: "DNG к XLSX"
+          link: "/conversion/net/dng-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DNG TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xlt/"
+        - name: "DNG к XLT"
+          link: "/conversion/net/dng-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DNG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xltm/"
+        - name: "DNG к XLTM"
+          link: "/conversion/net/dng-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DNG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xltx/"
+        - name: "DNG к XLTX"
+          link: "/conversion/net/dng-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DNG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dng-to-xps/"
+        - name: "DNG к XPS"
+          link: "/conversion/net/dng-to-xps/"
           description: "Спецификация документа Open XML"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

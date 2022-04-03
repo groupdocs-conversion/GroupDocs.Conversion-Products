@@ -65,7 +65,7 @@ steps:
     enable: true
     title_left: "Действия по преобразованию JPEG-LS в XLS2003 в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) упрощает для разработчиков преобразование файла JPEG-LS в XLS2003 с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла JPEG-LS в XLS2003 с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл JPEG-LS с полным путем
         * Создайте и установите ConvertOptions для типа xls2003
@@ -127,48 +127,48 @@ more_formats:
         Вы также можете конвертировать JPEG-LS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JPEG-LS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-docm/"
+        - name: "JPEG-LS к DOCM"
+          link: "/conversion/net/jpeg-ls-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPEG-LS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-jpg/"
+        - name: "JPEG-LS к JPG"
+          link: "/conversion/net/jpeg-ls-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JPEG-LS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-ods/"
+        - name: "JPEG-LS к ODS"
+          link: "/conversion/net/jpeg-ls-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JPEG-LS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-odt/"
+        - name: "JPEG-LS к ODT"
+          link: "/conversion/net/jpeg-ls-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JPEG-LS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-potm/"
+        - name: "JPEG-LS к POTM"
+          link: "/conversion/net/jpeg-ls-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPEG-LS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-rtf/"
+        - name: "JPEG-LS к RTF"
+          link: "/conversion/net/jpeg-ls-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JPEG-LS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xls/"
+        - name: "JPEG-LS к XLS"
+          link: "/conversion/net/jpeg-ls-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JPEG-LS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/jpeg-ls-to-xlsm/"
+        - name: "JPEG-LS к XLSM"
+          link: "/conversion/net/jpeg-ls-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
 
 
-############################# Back to top ###############################
+############################# Back к top ###############################
 back_to_top:
     enable: true
 ---

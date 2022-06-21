@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать PLT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PLT к BMP"
+        - name: "PLT в BMP"
           link: "/conversion/java/plt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PLT к CSV"
+        - name: "PLT в CSV"
           link: "/conversion/java/plt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PLT к DCM"
+        - name: "PLT в DCM"
           link: "/conversion/java/plt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PLT к DIF"
+        - name: "PLT в DIF"
           link: "/conversion/java/plt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PLT к DOC"
+        - name: "PLT в DOC"
           link: "/conversion/java/plt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PLT к DOCM"
+        - name: "PLT в DOCM"
           link: "/conversion/java/plt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PLT к DOCX"
+        - name: "PLT в DOCX"
           link: "/conversion/java/plt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PLT к DOT"
+        - name: "PLT в DOT"
           link: "/conversion/java/plt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PLT к DOTM"
+        - name: "PLT в DOTM"
           link: "/conversion/java/plt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PLT к DOTX"
+        - name: "PLT в DOTX"
           link: "/conversion/java/plt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PLT к EMF"
+        - name: "PLT в EMF"
           link: "/conversion/java/plt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PLT к EMZ"
+        - name: "PLT в EMZ"
           link: "/conversion/java/plt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PLT к EPUB"
+        - name: "PLT в EPUB"
           link: "/conversion/java/plt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PLT к FODP"
+        - name: "PLT в FODP"
           link: "/conversion/java/plt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PLT к FODS"
+        - name: "PLT в FODS"
           link: "/conversion/java/plt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PLT к GIF"
+        - name: "PLT в GIF"
           link: "/conversion/java/plt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PLT к HTM"
+        - name: "PLT в HTM"
           link: "/conversion/java/plt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PLT к HTML"
+        - name: "PLT в HTML"
           link: "/conversion/java/plt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PLT к ICO"
+        - name: "PLT в ICO"
           link: "/conversion/java/plt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PLT к JP2"
+        - name: "PLT в JP2"
           link: "/conversion/java/plt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PLT к JPG"
+        - name: "PLT в JPG"
           link: "/conversion/java/plt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PLT к MD"
+        - name: "PLT в MD"
           link: "/conversion/java/plt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PLT к MHT"
+        - name: "PLT в MHT"
           link: "/conversion/java/plt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PLT к MHTML"
+        - name: "PLT в MHTML"
           link: "/conversion/java/plt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PLT к ODP"
+        - name: "PLT в ODP"
           link: "/conversion/java/plt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PLT к ODS"
+        - name: "PLT в ODS"
           link: "/conversion/java/plt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PLT к ODT"
+        - name: "PLT в ODT"
           link: "/conversion/java/plt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PLT к OTP"
+        - name: "PLT в OTP"
           link: "/conversion/java/plt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PLT к OTT"
+        - name: "PLT в OTT"
           link: "/conversion/java/plt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PLT к PDF"
+        - name: "PLT в PDF"
           link: "/conversion/java/plt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PLT к PNG"
+        - name: "PLT в PNG"
           link: "/conversion/java/plt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PLT к POT"
+        - name: "PLT в POT"
           link: "/conversion/java/plt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PLT к POTM"
+        - name: "PLT в POTM"
           link: "/conversion/java/plt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PLT к POTX"
+        - name: "PLT в POTX"
           link: "/conversion/java/plt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PLT к PPS"
+        - name: "PLT в PPS"
           link: "/conversion/java/plt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PLT к PPSM"
+        - name: "PLT в PPSM"
           link: "/conversion/java/plt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PLT к PPSX"
+        - name: "PLT в PPSX"
           link: "/conversion/java/plt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PLT к PPT"
+        - name: "PLT в PPT"
           link: "/conversion/java/plt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PLT к PPTM"
+        - name: "PLT в PPTM"
           link: "/conversion/java/plt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PLT к PPTX"
+        - name: "PLT в PPTX"
           link: "/conversion/java/plt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PLT к PSD"
+        - name: "PLT в PSD"
           link: "/conversion/java/plt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PLT к RTF"
+        - name: "PLT в RTF"
           link: "/conversion/java/plt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PLT к SVG"
+        - name: "PLT в SVG"
           link: "/conversion/java/plt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PLT к SVGZ"
+        - name: "PLT в SVGZ"
           link: "/conversion/java/plt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PLT к SXC"
+        - name: "PLT в SXC"
           link: "/conversion/java/plt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PLT к TEX"
+        - name: "PLT в TEX"
           link: "/conversion/java/plt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PLT к TIF"
+        - name: "PLT в TIF"
           link: "/conversion/java/plt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PLT к TIFF"
+        - name: "PLT в TIFF"
           link: "/conversion/java/plt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PLT к TSV"
+        - name: "PLT в TSV"
           link: "/conversion/java/plt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PLT к TXT"
+        - name: "PLT в TXT"
           link: "/conversion/java/plt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PLT к WEBP"
+        - name: "PLT в WEBP"
           link: "/conversion/java/plt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PLT к WMF"
+        - name: "PLT в WMF"
           link: "/conversion/java/plt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PLT к WMZ"
+        - name: "PLT в WMZ"
           link: "/conversion/java/plt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PLT к XLAM"
+        - name: "PLT в XLAM"
           link: "/conversion/java/plt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PLT к XLS"
+        - name: "PLT в XLS"
           link: "/conversion/java/plt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PLT к XLSB"
+        - name: "PLT в XLSB"
           link: "/conversion/java/plt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PLT к XLSM"
+        - name: "PLT в XLSM"
           link: "/conversion/java/plt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PLT к XLSX"
+        - name: "PLT в XLSX"
           link: "/conversion/java/plt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PLT к XLT"
+        - name: "PLT в XLT"
           link: "/conversion/java/plt-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PLT к XLTM"
+        - name: "PLT в XLTM"
           link: "/conversion/java/plt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PLT к XLTX"
+        - name: "PLT в XLTX"
           link: "/conversion/java/plt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PLT к XPS"
+        - name: "PLT в XPS"
           link: "/conversion/java/plt-to-xps/"
           description: "Спецификация документа Open XML"
 

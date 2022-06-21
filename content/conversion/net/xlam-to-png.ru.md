@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать XLAM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "XLAM к BMP"
+        - name: "XLAM в BMP"
           link: "/conversion/net/xlam-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "XLAM к CSV"
+        - name: "XLAM в CSV"
           link: "/conversion/net/xlam-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "XLAM к DCM"
+        - name: "XLAM в DCM"
           link: "/conversion/net/xlam-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "XLAM к DIF"
+        - name: "XLAM в DIF"
           link: "/conversion/net/xlam-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "XLAM к DOC"
+        - name: "XLAM в DOC"
           link: "/conversion/net/xlam-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "XLAM к DOCM"
+        - name: "XLAM в DOCM"
           link: "/conversion/net/xlam-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLAM к DOCX"
+        - name: "XLAM в DOCX"
           link: "/conversion/net/xlam-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "XLAM к DOT"
+        - name: "XLAM в DOT"
           link: "/conversion/net/xlam-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "XLAM к DOTM"
+        - name: "XLAM в DOTM"
           link: "/conversion/net/xlam-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLAM к DOTX"
+        - name: "XLAM в DOTX"
           link: "/conversion/net/xlam-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "XLAM к EMF"
+        - name: "XLAM в EMF"
           link: "/conversion/net/xlam-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "XLAM к EMZ"
+        - name: "XLAM в EMZ"
           link: "/conversion/net/xlam-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "XLAM к EPUB"
+        - name: "XLAM в EPUB"
           link: "/conversion/net/xlam-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "XLAM к FODP"
+        - name: "XLAM в FODP"
           link: "/conversion/net/xlam-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "XLAM к FODS"
+        - name: "XLAM в FODS"
           link: "/conversion/net/xlam-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "XLAM к GIF"
+        - name: "XLAM в GIF"
           link: "/conversion/net/xlam-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "XLAM к HTM"
+        - name: "XLAM в HTM"
           link: "/conversion/net/xlam-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "XLAM к HTML"
+        - name: "XLAM в HTML"
           link: "/conversion/net/xlam-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "XLAM к ICO"
+        - name: "XLAM в ICO"
           link: "/conversion/net/xlam-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "XLAM к JP2"
+        - name: "XLAM в JP2"
           link: "/conversion/net/xlam-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "XLAM к JPEG"
+        - name: "XLAM в JPEG"
           link: "/conversion/net/xlam-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "XLAM к JPG"
+        - name: "XLAM в JPG"
           link: "/conversion/net/xlam-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "XLAM к MD"
+        - name: "XLAM в MD"
           link: "/conversion/net/xlam-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "XLAM к MHT"
+        - name: "XLAM в MHT"
           link: "/conversion/net/xlam-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLAM к MHTML"
+        - name: "XLAM в MHTML"
           link: "/conversion/net/xlam-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLAM к ODP"
+        - name: "XLAM в ODP"
           link: "/conversion/net/xlam-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "XLAM к ODS"
+        - name: "XLAM в ODS"
           link: "/conversion/net/xlam-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "XLAM к ODT"
+        - name: "XLAM в ODT"
           link: "/conversion/net/xlam-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "XLAM к OTP"
+        - name: "XLAM в OTP"
           link: "/conversion/net/xlam-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "XLAM к OTT"
+        - name: "XLAM в OTT"
           link: "/conversion/net/xlam-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "XLAM к PDF"
+        - name: "XLAM в PDF"
           link: "/conversion/net/xlam-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "XLAM к POT"
+        - name: "XLAM в POT"
           link: "/conversion/net/xlam-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "XLAM к POTM"
+        - name: "XLAM в POTM"
           link: "/conversion/net/xlam-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLAM к POTX"
+        - name: "XLAM в POTX"
           link: "/conversion/net/xlam-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLAM к PPS"
+        - name: "XLAM в PPS"
           link: "/conversion/net/xlam-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLAM к PPSM"
+        - name: "XLAM в PPSM"
           link: "/conversion/net/xlam-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLAM к PPSX"
+        - name: "XLAM в PPSX"
           link: "/conversion/net/xlam-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "XLAM к PPT"
+        - name: "XLAM в PPT"
           link: "/conversion/net/xlam-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "XLAM к PPTM"
+        - name: "XLAM в PPTM"
           link: "/conversion/net/xlam-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "XLAM к PPTX"
+        - name: "XLAM в PPTX"
           link: "/conversion/net/xlam-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "XLAM к PSD"
+        - name: "XLAM в PSD"
           link: "/conversion/net/xlam-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "XLAM к RTF"
+        - name: "XLAM в RTF"
           link: "/conversion/net/xlam-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "XLAM к SVG"
+        - name: "XLAM в SVG"
           link: "/conversion/net/xlam-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLAM к SVGZ"
+        - name: "XLAM в SVGZ"
           link: "/conversion/net/xlam-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLAM к SXC"
+        - name: "XLAM в SXC"
           link: "/conversion/net/xlam-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "XLAM к TEX"
+        - name: "XLAM в TEX"
           link: "/conversion/net/xlam-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "XLAM к TIF"
+        - name: "XLAM в TIF"
           link: "/conversion/net/xlam-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLAM к TIFF"
+        - name: "XLAM в TIFF"
           link: "/conversion/net/xlam-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLAM к TSV"
+        - name: "XLAM в TSV"
           link: "/conversion/net/xlam-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "XLAM к TXT"
+        - name: "XLAM в TXT"
           link: "/conversion/net/xlam-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "XLAM к WEBP"
+        - name: "XLAM в WEBP"
           link: "/conversion/net/xlam-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "XLAM к WMF"
+        - name: "XLAM в WMF"
           link: "/conversion/net/xlam-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "XLAM к WMZ"
+        - name: "XLAM в WMZ"
           link: "/conversion/net/xlam-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "XLAM к XLS"
+        - name: "XLAM в XLS"
           link: "/conversion/net/xlam-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "XLAM к XLS2003"
+        - name: "XLAM в XLS2003"
           link: "/conversion/net/xlam-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "XLAM к XLSB"
+        - name: "XLAM в XLSB"
           link: "/conversion/net/xlam-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "XLAM к XLSM"
+        - name: "XLAM в XLSM"
           link: "/conversion/net/xlam-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLAM к XLSX"
+        - name: "XLAM в XLSX"
           link: "/conversion/net/xlam-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "XLAM к XLT"
+        - name: "XLAM в XLT"
           link: "/conversion/net/xlam-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLAM к XLTM"
+        - name: "XLAM в XLTM"
           link: "/conversion/net/xlam-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLAM к XLTX"
+        - name: "XLAM в XLTX"
           link: "/conversion/net/xlam-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLAM к XPS"
+        - name: "XLAM в XPS"
           link: "/conversion/net/xlam-to-xps/"
           description: "Спецификация документа Open XML"
 

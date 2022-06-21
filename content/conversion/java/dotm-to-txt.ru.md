@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать DOTM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DOTM к BMP"
+        - name: "DOTM в BMP"
           link: "/conversion/java/dotm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DOTM к CSV"
+        - name: "DOTM в CSV"
           link: "/conversion/java/dotm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DOTM к DCM"
+        - name: "DOTM в DCM"
           link: "/conversion/java/dotm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DOTM к DIF"
+        - name: "DOTM в DIF"
           link: "/conversion/java/dotm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DOTM к DOC"
+        - name: "DOTM в DOC"
           link: "/conversion/java/dotm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DOTM к DOCM"
+        - name: "DOTM в DOCM"
           link: "/conversion/java/dotm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOTM к DOCX"
+        - name: "DOTM в DOCX"
           link: "/conversion/java/dotm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DOTM к DOT"
+        - name: "DOTM в DOT"
           link: "/conversion/java/dotm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DOTM к DOTX"
+        - name: "DOTM в DOTX"
           link: "/conversion/java/dotm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DOTM к EMF"
+        - name: "DOTM в EMF"
           link: "/conversion/java/dotm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DOTM к EMZ"
+        - name: "DOTM в EMZ"
           link: "/conversion/java/dotm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DOTM к EPUB"
+        - name: "DOTM в EPUB"
           link: "/conversion/java/dotm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DOTM к FODP"
+        - name: "DOTM в FODP"
           link: "/conversion/java/dotm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DOTM к FODS"
+        - name: "DOTM в FODS"
           link: "/conversion/java/dotm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DOTM к GIF"
+        - name: "DOTM в GIF"
           link: "/conversion/java/dotm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DOTM к HTM"
+        - name: "DOTM в HTM"
           link: "/conversion/java/dotm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DOTM к HTML"
+        - name: "DOTM в HTML"
           link: "/conversion/java/dotm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DOTM к ICO"
+        - name: "DOTM в ICO"
           link: "/conversion/java/dotm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DOTM к JP2"
+        - name: "DOTM в JP2"
           link: "/conversion/java/dotm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DOTM к JPEG"
+        - name: "DOTM в JPEG"
           link: "/conversion/java/dotm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DOTM к JPG"
+        - name: "DOTM в JPG"
           link: "/conversion/java/dotm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DOTM к MD"
+        - name: "DOTM в MD"
           link: "/conversion/java/dotm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DOTM к MHT"
+        - name: "DOTM в MHT"
           link: "/conversion/java/dotm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOTM к MHTML"
+        - name: "DOTM в MHTML"
           link: "/conversion/java/dotm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOTM к ODP"
+        - name: "DOTM в ODP"
           link: "/conversion/java/dotm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DOTM к ODS"
+        - name: "DOTM в ODS"
           link: "/conversion/java/dotm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DOTM к ODT"
+        - name: "DOTM в ODT"
           link: "/conversion/java/dotm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DOTM к OTP"
+        - name: "DOTM в OTP"
           link: "/conversion/java/dotm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DOTM к OTT"
+        - name: "DOTM в OTT"
           link: "/conversion/java/dotm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DOTM к PDF"
+        - name: "DOTM в PDF"
           link: "/conversion/java/dotm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DOTM к PNG"
+        - name: "DOTM в PNG"
           link: "/conversion/java/dotm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DOTM к POT"
+        - name: "DOTM в POT"
           link: "/conversion/java/dotm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DOTM к POTM"
+        - name: "DOTM в POTM"
           link: "/conversion/java/dotm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTM к POTX"
+        - name: "DOTM в POTX"
           link: "/conversion/java/dotm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTM к PPS"
+        - name: "DOTM в PPS"
           link: "/conversion/java/dotm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTM к PPSM"
+        - name: "DOTM в PPSM"
           link: "/conversion/java/dotm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTM к PPSX"
+        - name: "DOTM в PPSX"
           link: "/conversion/java/dotm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DOTM к PPT"
+        - name: "DOTM в PPT"
           link: "/conversion/java/dotm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DOTM к PPTM"
+        - name: "DOTM в PPTM"
           link: "/conversion/java/dotm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTM к PPTX"
+        - name: "DOTM в PPTX"
           link: "/conversion/java/dotm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DOTM к PSD"
+        - name: "DOTM в PSD"
           link: "/conversion/java/dotm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DOTM к RTF"
+        - name: "DOTM в RTF"
           link: "/conversion/java/dotm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DOTM к SVG"
+        - name: "DOTM в SVG"
           link: "/conversion/java/dotm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOTM к SVGZ"
+        - name: "DOTM в SVGZ"
           link: "/conversion/java/dotm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOTM к SXC"
+        - name: "DOTM в SXC"
           link: "/conversion/java/dotm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DOTM к TEX"
+        - name: "DOTM в TEX"
           link: "/conversion/java/dotm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DOTM к TIF"
+        - name: "DOTM в TIF"
           link: "/conversion/java/dotm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOTM к TIFF"
+        - name: "DOTM в TIFF"
           link: "/conversion/java/dotm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOTM к TSV"
+        - name: "DOTM в TSV"
           link: "/conversion/java/dotm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DOTM к WEBP"
+        - name: "DOTM в WEBP"
           link: "/conversion/java/dotm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DOTM к WMF"
+        - name: "DOTM в WMF"
           link: "/conversion/java/dotm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DOTM к WMZ"
+        - name: "DOTM в WMZ"
           link: "/conversion/java/dotm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DOTM к XLAM"
+        - name: "DOTM в XLAM"
           link: "/conversion/java/dotm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTM к XLS"
+        - name: "DOTM в XLS"
           link: "/conversion/java/dotm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DOTM к XLSB"
+        - name: "DOTM в XLSB"
           link: "/conversion/java/dotm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DOTM к XLSM"
+        - name: "DOTM в XLSM"
           link: "/conversion/java/dotm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTM к XLSX"
+        - name: "DOTM в XLSX"
           link: "/conversion/java/dotm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DOTM к XLT"
+        - name: "DOTM в XLT"
           link: "/conversion/java/dotm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOTM к XLTM"
+        - name: "DOTM в XLTM"
           link: "/conversion/java/dotm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTM к XLTX"
+        - name: "DOTM в XLTX"
           link: "/conversion/java/dotm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOTM к XPS"
+        - name: "DOTM в XPS"
           link: "/conversion/java/dotm-to-xps/"
           description: "Спецификация документа Open XML"
 

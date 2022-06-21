@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать MHT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MHT к BMP"
+        - name: "MHT в BMP"
           link: "/conversion/net/mht-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MHT к CSV"
+        - name: "MHT в CSV"
           link: "/conversion/net/mht-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MHT к DCM"
+        - name: "MHT в DCM"
           link: "/conversion/net/mht-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MHT к DIF"
+        - name: "MHT в DIF"
           link: "/conversion/net/mht-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MHT к DOC"
+        - name: "MHT в DOC"
           link: "/conversion/net/mht-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MHT к DOCM"
+        - name: "MHT в DOCM"
           link: "/conversion/net/mht-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MHT к DOCX"
+        - name: "MHT в DOCX"
           link: "/conversion/net/mht-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MHT к DOT"
+        - name: "MHT в DOT"
           link: "/conversion/net/mht-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MHT к DOTM"
+        - name: "MHT в DOTM"
           link: "/conversion/net/mht-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MHT к DOTX"
+        - name: "MHT в DOTX"
           link: "/conversion/net/mht-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MHT к EMF"
+        - name: "MHT в EMF"
           link: "/conversion/net/mht-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MHT к EMZ"
+        - name: "MHT в EMZ"
           link: "/conversion/net/mht-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MHT к EPUB"
+        - name: "MHT в EPUB"
           link: "/conversion/net/mht-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MHT к FODP"
+        - name: "MHT в FODP"
           link: "/conversion/net/mht-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MHT к FODS"
+        - name: "MHT в FODS"
           link: "/conversion/net/mht-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MHT к GIF"
+        - name: "MHT в GIF"
           link: "/conversion/net/mht-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MHT к HTM"
+        - name: "MHT в HTM"
           link: "/conversion/net/mht-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MHT к HTML"
+        - name: "MHT в HTML"
           link: "/conversion/net/mht-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MHT к ICO"
+        - name: "MHT в ICO"
           link: "/conversion/net/mht-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MHT к JP2"
+        - name: "MHT в JP2"
           link: "/conversion/net/mht-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MHT к JPEG"
+        - name: "MHT в JPEG"
           link: "/conversion/net/mht-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MHT к JPG"
+        - name: "MHT в JPG"
           link: "/conversion/net/mht-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MHT к MHTML"
+        - name: "MHT в MHTML"
           link: "/conversion/net/mht-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MHT к ODP"
+        - name: "MHT в ODP"
           link: "/conversion/net/mht-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MHT к ODS"
+        - name: "MHT в ODS"
           link: "/conversion/net/mht-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MHT к ODT"
+        - name: "MHT в ODT"
           link: "/conversion/net/mht-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MHT к OTP"
+        - name: "MHT в OTP"
           link: "/conversion/net/mht-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MHT к OTT"
+        - name: "MHT в OTT"
           link: "/conversion/net/mht-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MHT к PDF"
+        - name: "MHT в PDF"
           link: "/conversion/net/mht-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MHT к PNG"
+        - name: "MHT в PNG"
           link: "/conversion/net/mht-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MHT к POT"
+        - name: "MHT в POT"
           link: "/conversion/net/mht-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MHT к POTM"
+        - name: "MHT в POTM"
           link: "/conversion/net/mht-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MHT к POTX"
+        - name: "MHT в POTX"
           link: "/conversion/net/mht-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MHT к PPS"
+        - name: "MHT в PPS"
           link: "/conversion/net/mht-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MHT к PPSM"
+        - name: "MHT в PPSM"
           link: "/conversion/net/mht-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MHT к PPSX"
+        - name: "MHT в PPSX"
           link: "/conversion/net/mht-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MHT к PPT"
+        - name: "MHT в PPT"
           link: "/conversion/net/mht-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MHT к PPTM"
+        - name: "MHT в PPTM"
           link: "/conversion/net/mht-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MHT к PPTX"
+        - name: "MHT в PPTX"
           link: "/conversion/net/mht-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MHT к PSD"
+        - name: "MHT в PSD"
           link: "/conversion/net/mht-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MHT к RTF"
+        - name: "MHT в RTF"
           link: "/conversion/net/mht-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MHT к SVG"
+        - name: "MHT в SVG"
           link: "/conversion/net/mht-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MHT к SVGZ"
+        - name: "MHT в SVGZ"
           link: "/conversion/net/mht-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MHT к SXC"
+        - name: "MHT в SXC"
           link: "/conversion/net/mht-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MHT к TEX"
+        - name: "MHT в TEX"
           link: "/conversion/net/mht-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MHT к TIF"
+        - name: "MHT в TIF"
           link: "/conversion/net/mht-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MHT к TIFF"
+        - name: "MHT в TIFF"
           link: "/conversion/net/mht-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MHT к TSV"
+        - name: "MHT в TSV"
           link: "/conversion/net/mht-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MHT к TXT"
+        - name: "MHT в TXT"
           link: "/conversion/net/mht-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MHT к WEBP"
+        - name: "MHT в WEBP"
           link: "/conversion/net/mht-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MHT к WMF"
+        - name: "MHT в WMF"
           link: "/conversion/net/mht-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MHT к WMZ"
+        - name: "MHT в WMZ"
           link: "/conversion/net/mht-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MHT к XLAM"
+        - name: "MHT в XLAM"
           link: "/conversion/net/mht-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MHT к XLS"
+        - name: "MHT в XLS"
           link: "/conversion/net/mht-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MHT к XLSB"
+        - name: "MHT в XLSB"
           link: "/conversion/net/mht-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MHT к XLSM"
+        - name: "MHT в XLSM"
           link: "/conversion/net/mht-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MHT к XLSX"
+        - name: "MHT в XLSX"
           link: "/conversion/net/mht-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MHT к XLT"
+        - name: "MHT в XLT"
           link: "/conversion/net/mht-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MHT к XLTM"
+        - name: "MHT в XLTM"
           link: "/conversion/net/mht-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MHT к XLTX"
+        - name: "MHT в XLTX"
           link: "/conversion/net/mht-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MHT к XPS"
+        - name: "MHT в XPS"
           link: "/conversion/net/mht-to-xps/"
           description: "Спецификация документа Open XML"
 

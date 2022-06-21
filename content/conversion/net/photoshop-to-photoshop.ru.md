@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать PHOTOSHOP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PHOTOSHOP к EPUB"
+        - name: "PHOTOSHOP в EPUB"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PHOTOSHOP к XPS"
+        - name: "PHOTOSHOP в XPS"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "PHOTOSHOP к TEX"
+        - name: "PHOTOSHOP в TEX"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PHOTOSHOP к PPT"
+        - name: "PHOTOSHOP в PPT"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP к PPS"
+        - name: "PHOTOSHOP в PPS"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP к PPTX"
+        - name: "PHOTOSHOP в PPTX"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PHOTOSHOP к PPSX"
+        - name: "PHOTOSHOP в PPSX"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PHOTOSHOP к ODP"
+        - name: "PHOTOSHOP в ODP"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PHOTOSHOP к OTP"
+        - name: "PHOTOSHOP в OTP"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PHOTOSHOP к POTX"
+        - name: "PHOTOSHOP в POTX"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP к POTM"
+        - name: "PHOTOSHOP в POTM"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP к PPTM"
+        - name: "PHOTOSHOP в PPTM"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP к PPSM"
+        - name: "PHOTOSHOP в PPSM"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PHOTOSHOP к XLS"
+        - name: "PHOTOSHOP в XLS"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PHOTOSHOP к XLSX"
+        - name: "PHOTOSHOP в XLSX"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PHOTOSHOP к XLSM"
+        - name: "PHOTOSHOP в XLSM"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PHOTOSHOP к XLSB"
+        - name: "PHOTOSHOP в XLSB"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PHOTOSHOP к ODS"
+        - name: "PHOTOSHOP в ODS"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PHOTOSHOP к XLTX"
+        - name: "PHOTOSHOP в XLTX"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PHOTOSHOP к XLTM"
+        - name: "PHOTOSHOP в XLTM"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PHOTOSHOP к TSV"
+        - name: "PHOTOSHOP в TSV"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PHOTOSHOP к XLAM"
+        - name: "PHOTOSHOP в XLAM"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PHOTOSHOP к CSV"
+        - name: "PHOTOSHOP в CSV"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PHOTOSHOP к DOC"
+        - name: "PHOTOSHOP в DOC"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PHOTOSHOP к DOCM"
+        - name: "PHOTOSHOP в DOCM"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PHOTOSHOP к PHOTOSHOP"
+        - name: "PHOTOSHOP в PHOTOSHOP"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-photoshop/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PHOTOSHOP к DOT"
+        - name: "PHOTOSHOP в DOT"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PHOTOSHOP к DOTM"
+        - name: "PHOTOSHOP в DOTM"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PHOTOSHOP к DOTX"
+        - name: "PHOTOSHOP в DOTX"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PHOTOSHOP к RTF"
+        - name: "PHOTOSHOP в RTF"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PHOTOSHOP к ODT"
+        - name: "PHOTOSHOP в ODT"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PHOTOSHOP к OTT"
+        - name: "PHOTOSHOP в OTT"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PHOTOSHOP к TXT"
+        - name: "PHOTOSHOP в TXT"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PHOTOSHOP к MD"
+        - name: "PHOTOSHOP в MD"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PHOTOSHOP к TIFF"
+        - name: "PHOTOSHOP в TIFF"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PHOTOSHOP к TIF"
+        - name: "PHOTOSHOP в TIF"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PHOTOSHOP к JPG"
+        - name: "PHOTOSHOP в JPG"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PHOTOSHOP к JPEG"
+        - name: "PHOTOSHOP в JPEG"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PHOTOSHOP к PNG"
+        - name: "PHOTOSHOP в PNG"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PHOTOSHOP к GIF"
+        - name: "PHOTOSHOP в GIF"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PHOTOSHOP к BMP"
+        - name: "PHOTOSHOP в BMP"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PHOTOSHOP к ICO"
+        - name: "PHOTOSHOP в ICO"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PHOTOSHOP к PSD"
+        - name: "PHOTOSHOP в PSD"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PHOTOSHOP к WMF"
+        - name: "PHOTOSHOP в WMF"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PHOTOSHOP к EMF"
+        - name: "PHOTOSHOP в EMF"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PHOTOSHOP к WEBP"
+        - name: "PHOTOSHOP в WEBP"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PHOTOSHOP к SVG"
+        - name: "PHOTOSHOP в SVG"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PHOTOSHOP к JP2"
+        - name: "PHOTOSHOP в JP2"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PHOTOSHOP к EMZ"
+        - name: "PHOTOSHOP в EMZ"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PHOTOSHOP к WMZ"
+        - name: "PHOTOSHOP в WMZ"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PHOTOSHOP к HTML"
+        - name: "PHOTOSHOP в HTML"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PHOTOSHOP к MHT"
+        - name: "PHOTOSHOP в MHT"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PHOTOSHOP к MHTML"
+        - name: "PHOTOSHOP в MHTML"
           link: "https://products.groupdocs.com/conversion/net/photoshop-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

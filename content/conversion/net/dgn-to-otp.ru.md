@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать DGN во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DGN к BMP"
+        - name: "DGN в BMP"
           link: "/conversion/net/dgn-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DGN к CSV"
+        - name: "DGN в CSV"
           link: "/conversion/net/dgn-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DGN к DCM"
+        - name: "DGN в DCM"
           link: "/conversion/net/dgn-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DGN к DIF"
+        - name: "DGN в DIF"
           link: "/conversion/net/dgn-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DGN к DOC"
+        - name: "DGN в DOC"
           link: "/conversion/net/dgn-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DGN к DOCM"
+        - name: "DGN в DOCM"
           link: "/conversion/net/dgn-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DGN к DOCX"
+        - name: "DGN в DOCX"
           link: "/conversion/net/dgn-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DGN к DOT"
+        - name: "DGN в DOT"
           link: "/conversion/net/dgn-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DGN к DOTM"
+        - name: "DGN в DOTM"
           link: "/conversion/net/dgn-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DGN к DOTX"
+        - name: "DGN в DOTX"
           link: "/conversion/net/dgn-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DGN к EMF"
+        - name: "DGN в EMF"
           link: "/conversion/net/dgn-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DGN к EMZ"
+        - name: "DGN в EMZ"
           link: "/conversion/net/dgn-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DGN к EPUB"
+        - name: "DGN в EPUB"
           link: "/conversion/net/dgn-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DGN к FODP"
+        - name: "DGN в FODP"
           link: "/conversion/net/dgn-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DGN к FODS"
+        - name: "DGN в FODS"
           link: "/conversion/net/dgn-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DGN к GIF"
+        - name: "DGN в GIF"
           link: "/conversion/net/dgn-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DGN к HTM"
+        - name: "DGN в HTM"
           link: "/conversion/net/dgn-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DGN к HTML"
+        - name: "DGN в HTML"
           link: "/conversion/net/dgn-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DGN к ICO"
+        - name: "DGN в ICO"
           link: "/conversion/net/dgn-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DGN к JP2"
+        - name: "DGN в JP2"
           link: "/conversion/net/dgn-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DGN к JPEG"
+        - name: "DGN в JPEG"
           link: "/conversion/net/dgn-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DGN к JPG"
+        - name: "DGN в JPG"
           link: "/conversion/net/dgn-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DGN к MD"
+        - name: "DGN в MD"
           link: "/conversion/net/dgn-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DGN к MHT"
+        - name: "DGN в MHT"
           link: "/conversion/net/dgn-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DGN к MHTML"
+        - name: "DGN в MHTML"
           link: "/conversion/net/dgn-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DGN к ODP"
+        - name: "DGN в ODP"
           link: "/conversion/net/dgn-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DGN к ODS"
+        - name: "DGN в ODS"
           link: "/conversion/net/dgn-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DGN к ODT"
+        - name: "DGN в ODT"
           link: "/conversion/net/dgn-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DGN к OTT"
+        - name: "DGN в OTT"
           link: "/conversion/net/dgn-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DGN к PDF"
+        - name: "DGN в PDF"
           link: "/conversion/net/dgn-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DGN к PNG"
+        - name: "DGN в PNG"
           link: "/conversion/net/dgn-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DGN к POT"
+        - name: "DGN в POT"
           link: "/conversion/net/dgn-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DGN к POTM"
+        - name: "DGN в POTM"
           link: "/conversion/net/dgn-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DGN к POTX"
+        - name: "DGN в POTX"
           link: "/conversion/net/dgn-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DGN к PPS"
+        - name: "DGN в PPS"
           link: "/conversion/net/dgn-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DGN к PPSM"
+        - name: "DGN в PPSM"
           link: "/conversion/net/dgn-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DGN к PPSX"
+        - name: "DGN в PPSX"
           link: "/conversion/net/dgn-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DGN к PPT"
+        - name: "DGN в PPT"
           link: "/conversion/net/dgn-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DGN к PPTM"
+        - name: "DGN в PPTM"
           link: "/conversion/net/dgn-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DGN к PPTX"
+        - name: "DGN в PPTX"
           link: "/conversion/net/dgn-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DGN к PSD"
+        - name: "DGN в PSD"
           link: "/conversion/net/dgn-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DGN к RTF"
+        - name: "DGN в RTF"
           link: "/conversion/net/dgn-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DGN к SVG"
+        - name: "DGN в SVG"
           link: "/conversion/net/dgn-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DGN к SVGZ"
+        - name: "DGN в SVGZ"
           link: "/conversion/net/dgn-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DGN к SXC"
+        - name: "DGN в SXC"
           link: "/conversion/net/dgn-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DGN к TEX"
+        - name: "DGN в TEX"
           link: "/conversion/net/dgn-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DGN к TIF"
+        - name: "DGN в TIF"
           link: "/conversion/net/dgn-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DGN к TIFF"
+        - name: "DGN в TIFF"
           link: "/conversion/net/dgn-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DGN к TSV"
+        - name: "DGN в TSV"
           link: "/conversion/net/dgn-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DGN к TXT"
+        - name: "DGN в TXT"
           link: "/conversion/net/dgn-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DGN к WEBP"
+        - name: "DGN в WEBP"
           link: "/conversion/net/dgn-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DGN к WMF"
+        - name: "DGN в WMF"
           link: "/conversion/net/dgn-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DGN к WMZ"
+        - name: "DGN в WMZ"
           link: "/conversion/net/dgn-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DGN к XLAM"
+        - name: "DGN в XLAM"
           link: "/conversion/net/dgn-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DGN к XLS"
+        - name: "DGN в XLS"
           link: "/conversion/net/dgn-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DGN к XLSB"
+        - name: "DGN в XLSB"
           link: "/conversion/net/dgn-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DGN к XLSM"
+        - name: "DGN в XLSM"
           link: "/conversion/net/dgn-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DGN к XLSX"
+        - name: "DGN в XLSX"
           link: "/conversion/net/dgn-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DGN к XLT"
+        - name: "DGN в XLT"
           link: "/conversion/net/dgn-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DGN к XLTM"
+        - name: "DGN в XLTM"
           link: "/conversion/net/dgn-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DGN к XLTX"
+        - name: "DGN в XLTX"
           link: "/conversion/net/dgn-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DGN к XPS"
+        - name: "DGN в XPS"
           link: "/conversion/net/dgn-to-xps/"
           description: "Спецификация документа Open XML"
 

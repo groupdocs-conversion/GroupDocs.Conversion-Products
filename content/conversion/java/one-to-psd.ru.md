@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать ONE во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "ONE к BMP"
+        - name: "ONE в BMP"
           link: "/conversion/java/one-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "ONE к CSV"
+        - name: "ONE в CSV"
           link: "/conversion/java/one-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "ONE к DCM"
+        - name: "ONE в DCM"
           link: "/conversion/java/one-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "ONE к DIF"
+        - name: "ONE в DIF"
           link: "/conversion/java/one-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "ONE к DOC"
+        - name: "ONE в DOC"
           link: "/conversion/java/one-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "ONE к DOCM"
+        - name: "ONE в DOCM"
           link: "/conversion/java/one-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ONE к DOCX"
+        - name: "ONE в DOCX"
           link: "/conversion/java/one-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "ONE к DOT"
+        - name: "ONE в DOT"
           link: "/conversion/java/one-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "ONE к DOTM"
+        - name: "ONE в DOTM"
           link: "/conversion/java/one-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ONE к DOTX"
+        - name: "ONE в DOTX"
           link: "/conversion/java/one-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "ONE к EMF"
+        - name: "ONE в EMF"
           link: "/conversion/java/one-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "ONE к EMZ"
+        - name: "ONE в EMZ"
           link: "/conversion/java/one-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "ONE к EPUB"
+        - name: "ONE в EPUB"
           link: "/conversion/java/one-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "ONE к FODP"
+        - name: "ONE в FODP"
           link: "/conversion/java/one-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "ONE к FODS"
+        - name: "ONE в FODS"
           link: "/conversion/java/one-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "ONE к GIF"
+        - name: "ONE в GIF"
           link: "/conversion/java/one-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "ONE к HTM"
+        - name: "ONE в HTM"
           link: "/conversion/java/one-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "ONE к HTML"
+        - name: "ONE в HTML"
           link: "/conversion/java/one-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "ONE к ICO"
+        - name: "ONE в ICO"
           link: "/conversion/java/one-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "ONE к JP2"
+        - name: "ONE в JP2"
           link: "/conversion/java/one-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "ONE к JPEG"
+        - name: "ONE в JPEG"
           link: "/conversion/java/one-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "ONE к JPG"
+        - name: "ONE в JPG"
           link: "/conversion/java/one-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "ONE к MD"
+        - name: "ONE в MD"
           link: "/conversion/java/one-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "ONE к MHT"
+        - name: "ONE в MHT"
           link: "/conversion/java/one-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ONE к MHTML"
+        - name: "ONE в MHTML"
           link: "/conversion/java/one-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ONE к ODP"
+        - name: "ONE в ODP"
           link: "/conversion/java/one-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "ONE к ODS"
+        - name: "ONE в ODS"
           link: "/conversion/java/one-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "ONE к ODT"
+        - name: "ONE в ODT"
           link: "/conversion/java/one-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "ONE к OTP"
+        - name: "ONE в OTP"
           link: "/conversion/java/one-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "ONE к OTT"
+        - name: "ONE в OTT"
           link: "/conversion/java/one-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "ONE к PDF"
+        - name: "ONE в PDF"
           link: "/conversion/java/one-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "ONE к PNG"
+        - name: "ONE в PNG"
           link: "/conversion/java/one-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "ONE к POT"
+        - name: "ONE в POT"
           link: "/conversion/java/one-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "ONE к POTM"
+        - name: "ONE в POTM"
           link: "/conversion/java/one-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ONE к POTX"
+        - name: "ONE в POTX"
           link: "/conversion/java/one-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ONE к PPS"
+        - name: "ONE в PPS"
           link: "/conversion/java/one-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ONE к PPSM"
+        - name: "ONE в PPSM"
           link: "/conversion/java/one-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ONE к PPSX"
+        - name: "ONE в PPSX"
           link: "/conversion/java/one-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "ONE к PPT"
+        - name: "ONE в PPT"
           link: "/conversion/java/one-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "ONE к PPTM"
+        - name: "ONE в PPTM"
           link: "/conversion/java/one-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "ONE к PPTX"
+        - name: "ONE в PPTX"
           link: "/conversion/java/one-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "ONE к RTF"
+        - name: "ONE в RTF"
           link: "/conversion/java/one-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "ONE к SVG"
+        - name: "ONE в SVG"
           link: "/conversion/java/one-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ONE к SVGZ"
+        - name: "ONE в SVGZ"
           link: "/conversion/java/one-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ONE к SXC"
+        - name: "ONE в SXC"
           link: "/conversion/java/one-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "ONE к TEX"
+        - name: "ONE в TEX"
           link: "/conversion/java/one-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "ONE к TIF"
+        - name: "ONE в TIF"
           link: "/conversion/java/one-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ONE к TIFF"
+        - name: "ONE в TIFF"
           link: "/conversion/java/one-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ONE к TSV"
+        - name: "ONE в TSV"
           link: "/conversion/java/one-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "ONE к TXT"
+        - name: "ONE в TXT"
           link: "/conversion/java/one-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "ONE к WEBP"
+        - name: "ONE в WEBP"
           link: "/conversion/java/one-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "ONE к WMF"
+        - name: "ONE в WMF"
           link: "/conversion/java/one-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "ONE к WMZ"
+        - name: "ONE в WMZ"
           link: "/conversion/java/one-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "ONE к XLAM"
+        - name: "ONE в XLAM"
           link: "/conversion/java/one-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ONE к XLS"
+        - name: "ONE в XLS"
           link: "/conversion/java/one-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "ONE к XLSB"
+        - name: "ONE в XLSB"
           link: "/conversion/java/one-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "ONE к XLSM"
+        - name: "ONE в XLSM"
           link: "/conversion/java/one-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ONE к XLSX"
+        - name: "ONE в XLSX"
           link: "/conversion/java/one-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "ONE к XLT"
+        - name: "ONE в XLT"
           link: "/conversion/java/one-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "ONE к XLTM"
+        - name: "ONE в XLTM"
           link: "/conversion/java/one-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ONE к XLTX"
+        - name: "ONE в XLTX"
           link: "/conversion/java/one-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "ONE к XPS"
+        - name: "ONE в XPS"
           link: "/conversion/java/one-to-xps/"
           description: "Спецификация документа Open XML"
 

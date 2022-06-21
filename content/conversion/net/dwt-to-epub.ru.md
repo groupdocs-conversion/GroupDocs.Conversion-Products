@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать DWT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DWT к BMP"
+        - name: "DWT в BMP"
           link: "/conversion/net/dwt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DWT к CSV"
+        - name: "DWT в CSV"
           link: "/conversion/net/dwt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DWT к DCM"
+        - name: "DWT в DCM"
           link: "/conversion/net/dwt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DWT к DIF"
+        - name: "DWT в DIF"
           link: "/conversion/net/dwt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DWT к DOC"
+        - name: "DWT в DOC"
           link: "/conversion/net/dwt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DWT к DOCM"
+        - name: "DWT в DOCM"
           link: "/conversion/net/dwt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWT к DOCX"
+        - name: "DWT в DOCX"
           link: "/conversion/net/dwt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DWT к DOT"
+        - name: "DWT в DOT"
           link: "/conversion/net/dwt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DWT к DOTM"
+        - name: "DWT в DOTM"
           link: "/conversion/net/dwt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWT к DOTX"
+        - name: "DWT в DOTX"
           link: "/conversion/net/dwt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DWT к EMF"
+        - name: "DWT в EMF"
           link: "/conversion/net/dwt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DWT к EMZ"
+        - name: "DWT в EMZ"
           link: "/conversion/net/dwt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DWT к FODP"
+        - name: "DWT в FODP"
           link: "/conversion/net/dwt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DWT к FODS"
+        - name: "DWT в FODS"
           link: "/conversion/net/dwt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DWT к GIF"
+        - name: "DWT в GIF"
           link: "/conversion/net/dwt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DWT к HTM"
+        - name: "DWT в HTM"
           link: "/conversion/net/dwt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DWT к HTML"
+        - name: "DWT в HTML"
           link: "/conversion/net/dwt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DWT к ICO"
+        - name: "DWT в ICO"
           link: "/conversion/net/dwt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DWT к JP2"
+        - name: "DWT в JP2"
           link: "/conversion/net/dwt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DWT к JPEG"
+        - name: "DWT в JPEG"
           link: "/conversion/net/dwt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DWT к JPG"
+        - name: "DWT в JPG"
           link: "/conversion/net/dwt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DWT к MD"
+        - name: "DWT в MD"
           link: "/conversion/net/dwt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DWT к MHT"
+        - name: "DWT в MHT"
           link: "/conversion/net/dwt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWT к MHTML"
+        - name: "DWT в MHTML"
           link: "/conversion/net/dwt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWT к ODP"
+        - name: "DWT в ODP"
           link: "/conversion/net/dwt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DWT к ODS"
+        - name: "DWT в ODS"
           link: "/conversion/net/dwt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DWT к ODT"
+        - name: "DWT в ODT"
           link: "/conversion/net/dwt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DWT к OTP"
+        - name: "DWT в OTP"
           link: "/conversion/net/dwt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DWT к OTT"
+        - name: "DWT в OTT"
           link: "/conversion/net/dwt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DWT к PDF"
+        - name: "DWT в PDF"
           link: "/conversion/net/dwt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DWT к PNG"
+        - name: "DWT в PNG"
           link: "/conversion/net/dwt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DWT к POT"
+        - name: "DWT в POT"
           link: "/conversion/net/dwt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DWT к POTM"
+        - name: "DWT в POTM"
           link: "/conversion/net/dwt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWT к POTX"
+        - name: "DWT в POTX"
           link: "/conversion/net/dwt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWT к PPS"
+        - name: "DWT в PPS"
           link: "/conversion/net/dwt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWT к PPSM"
+        - name: "DWT в PPSM"
           link: "/conversion/net/dwt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWT к PPSX"
+        - name: "DWT в PPSX"
           link: "/conversion/net/dwt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DWT к PPT"
+        - name: "DWT в PPT"
           link: "/conversion/net/dwt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DWT к PPTM"
+        - name: "DWT в PPTM"
           link: "/conversion/net/dwt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DWT к PPTX"
+        - name: "DWT в PPTX"
           link: "/conversion/net/dwt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DWT к PSD"
+        - name: "DWT в PSD"
           link: "/conversion/net/dwt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DWT к RTF"
+        - name: "DWT в RTF"
           link: "/conversion/net/dwt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DWT к SVG"
+        - name: "DWT в SVG"
           link: "/conversion/net/dwt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWT к SVGZ"
+        - name: "DWT в SVGZ"
           link: "/conversion/net/dwt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWT к SXC"
+        - name: "DWT в SXC"
           link: "/conversion/net/dwt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DWT к TEX"
+        - name: "DWT в TEX"
           link: "/conversion/net/dwt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DWT к TIF"
+        - name: "DWT в TIF"
           link: "/conversion/net/dwt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWT к TIFF"
+        - name: "DWT в TIFF"
           link: "/conversion/net/dwt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWT к TSV"
+        - name: "DWT в TSV"
           link: "/conversion/net/dwt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DWT к TXT"
+        - name: "DWT в TXT"
           link: "/conversion/net/dwt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DWT к WEBP"
+        - name: "DWT в WEBP"
           link: "/conversion/net/dwt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DWT к WMF"
+        - name: "DWT в WMF"
           link: "/conversion/net/dwt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DWT к WMZ"
+        - name: "DWT в WMZ"
           link: "/conversion/net/dwt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DWT к XLAM"
+        - name: "DWT в XLAM"
           link: "/conversion/net/dwt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWT к XLS"
+        - name: "DWT в XLS"
           link: "/conversion/net/dwt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DWT к XLSB"
+        - name: "DWT в XLSB"
           link: "/conversion/net/dwt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DWT к XLSM"
+        - name: "DWT в XLSM"
           link: "/conversion/net/dwt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWT к XLSX"
+        - name: "DWT в XLSX"
           link: "/conversion/net/dwt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DWT к XLT"
+        - name: "DWT в XLT"
           link: "/conversion/net/dwt-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWT к XLTM"
+        - name: "DWT в XLTM"
           link: "/conversion/net/dwt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWT к XLTX"
+        - name: "DWT в XLTX"
           link: "/conversion/net/dwt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWT к XPS"
+        - name: "DWT в XPS"
           link: "/conversion/net/dwt-to-xps/"
           description: "Спецификация документа Open XML"
 

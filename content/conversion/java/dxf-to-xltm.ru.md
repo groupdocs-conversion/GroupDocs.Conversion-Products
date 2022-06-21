@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать DXF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DXF к BMP"
+        - name: "DXF в BMP"
           link: "/conversion/java/dxf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DXF к CSV"
+        - name: "DXF в CSV"
           link: "/conversion/java/dxf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DXF к DCM"
+        - name: "DXF в DCM"
           link: "/conversion/java/dxf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DXF к DIF"
+        - name: "DXF в DIF"
           link: "/conversion/java/dxf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DXF к DOC"
+        - name: "DXF в DOC"
           link: "/conversion/java/dxf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DXF к DOCM"
+        - name: "DXF в DOCM"
           link: "/conversion/java/dxf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DXF к DOCX"
+        - name: "DXF в DOCX"
           link: "/conversion/java/dxf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DXF к DOT"
+        - name: "DXF в DOT"
           link: "/conversion/java/dxf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DXF к DOTM"
+        - name: "DXF в DOTM"
           link: "/conversion/java/dxf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DXF к DOTX"
+        - name: "DXF в DOTX"
           link: "/conversion/java/dxf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DXF к EMF"
+        - name: "DXF в EMF"
           link: "/conversion/java/dxf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DXF к EMZ"
+        - name: "DXF в EMZ"
           link: "/conversion/java/dxf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DXF к EPUB"
+        - name: "DXF в EPUB"
           link: "/conversion/java/dxf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DXF к FODP"
+        - name: "DXF в FODP"
           link: "/conversion/java/dxf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DXF к FODS"
+        - name: "DXF в FODS"
           link: "/conversion/java/dxf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DXF к GIF"
+        - name: "DXF в GIF"
           link: "/conversion/java/dxf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DXF к HTM"
+        - name: "DXF в HTM"
           link: "/conversion/java/dxf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DXF к HTML"
+        - name: "DXF в HTML"
           link: "/conversion/java/dxf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DXF к ICO"
+        - name: "DXF в ICO"
           link: "/conversion/java/dxf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DXF к JP2"
+        - name: "DXF в JP2"
           link: "/conversion/java/dxf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DXF к JPEG"
+        - name: "DXF в JPEG"
           link: "/conversion/java/dxf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DXF к JPG"
+        - name: "DXF в JPG"
           link: "/conversion/java/dxf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DXF к MD"
+        - name: "DXF в MD"
           link: "/conversion/java/dxf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DXF к MHT"
+        - name: "DXF в MHT"
           link: "/conversion/java/dxf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DXF к MHTML"
+        - name: "DXF в MHTML"
           link: "/conversion/java/dxf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DXF к ODP"
+        - name: "DXF в ODP"
           link: "/conversion/java/dxf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DXF к ODS"
+        - name: "DXF в ODS"
           link: "/conversion/java/dxf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DXF к ODT"
+        - name: "DXF в ODT"
           link: "/conversion/java/dxf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DXF к OTP"
+        - name: "DXF в OTP"
           link: "/conversion/java/dxf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DXF к OTT"
+        - name: "DXF в OTT"
           link: "/conversion/java/dxf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DXF к PDF"
+        - name: "DXF в PDF"
           link: "/conversion/java/dxf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DXF к PNG"
+        - name: "DXF в PNG"
           link: "/conversion/java/dxf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DXF к POT"
+        - name: "DXF в POT"
           link: "/conversion/java/dxf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DXF к POTM"
+        - name: "DXF в POTM"
           link: "/conversion/java/dxf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DXF к POTX"
+        - name: "DXF в POTX"
           link: "/conversion/java/dxf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DXF к PPS"
+        - name: "DXF в PPS"
           link: "/conversion/java/dxf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DXF к PPSM"
+        - name: "DXF в PPSM"
           link: "/conversion/java/dxf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DXF к PPSX"
+        - name: "DXF в PPSX"
           link: "/conversion/java/dxf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DXF к PPT"
+        - name: "DXF в PPT"
           link: "/conversion/java/dxf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DXF к PPTM"
+        - name: "DXF в PPTM"
           link: "/conversion/java/dxf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DXF к PPTX"
+        - name: "DXF в PPTX"
           link: "/conversion/java/dxf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DXF к PSD"
+        - name: "DXF в PSD"
           link: "/conversion/java/dxf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DXF к RTF"
+        - name: "DXF в RTF"
           link: "/conversion/java/dxf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DXF к SVG"
+        - name: "DXF в SVG"
           link: "/conversion/java/dxf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DXF к SVGZ"
+        - name: "DXF в SVGZ"
           link: "/conversion/java/dxf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DXF к SXC"
+        - name: "DXF в SXC"
           link: "/conversion/java/dxf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DXF к TEX"
+        - name: "DXF в TEX"
           link: "/conversion/java/dxf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DXF к TIF"
+        - name: "DXF в TIF"
           link: "/conversion/java/dxf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DXF к TIFF"
+        - name: "DXF в TIFF"
           link: "/conversion/java/dxf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DXF к TSV"
+        - name: "DXF в TSV"
           link: "/conversion/java/dxf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DXF к TXT"
+        - name: "DXF в TXT"
           link: "/conversion/java/dxf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DXF к WEBP"
+        - name: "DXF в WEBP"
           link: "/conversion/java/dxf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DXF к WMF"
+        - name: "DXF в WMF"
           link: "/conversion/java/dxf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DXF к WMZ"
+        - name: "DXF в WMZ"
           link: "/conversion/java/dxf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DXF к XLAM"
+        - name: "DXF в XLAM"
           link: "/conversion/java/dxf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DXF к XLS"
+        - name: "DXF в XLS"
           link: "/conversion/java/dxf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DXF к XLSB"
+        - name: "DXF в XLSB"
           link: "/conversion/java/dxf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DXF к XLSM"
+        - name: "DXF в XLSM"
           link: "/conversion/java/dxf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DXF к XLSX"
+        - name: "DXF в XLSX"
           link: "/conversion/java/dxf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DXF к XLT"
+        - name: "DXF в XLT"
           link: "/conversion/java/dxf-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DXF к XLTX"
+        - name: "DXF в XLTX"
           link: "/conversion/java/dxf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DXF к XPS"
+        - name: "DXF в XPS"
           link: "/conversion/java/dxf-to-xps/"
           description: "Спецификация документа Open XML"
 

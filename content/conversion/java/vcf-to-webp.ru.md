@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать VCF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VCF к BMP"
+        - name: "VCF в BMP"
           link: "/conversion/java/vcf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VCF к CSV"
+        - name: "VCF в CSV"
           link: "/conversion/java/vcf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VCF к DCM"
+        - name: "VCF в DCM"
           link: "/conversion/java/vcf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VCF к DIF"
+        - name: "VCF в DIF"
           link: "/conversion/java/vcf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VCF к DOC"
+        - name: "VCF в DOC"
           link: "/conversion/java/vcf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VCF к DOCM"
+        - name: "VCF в DOCM"
           link: "/conversion/java/vcf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VCF к DOCX"
+        - name: "VCF в DOCX"
           link: "/conversion/java/vcf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VCF к DOT"
+        - name: "VCF в DOT"
           link: "/conversion/java/vcf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VCF к DOTM"
+        - name: "VCF в DOTM"
           link: "/conversion/java/vcf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VCF к DOTX"
+        - name: "VCF в DOTX"
           link: "/conversion/java/vcf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VCF к EMF"
+        - name: "VCF в EMF"
           link: "/conversion/java/vcf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VCF к EMZ"
+        - name: "VCF в EMZ"
           link: "/conversion/java/vcf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VCF к EPUB"
+        - name: "VCF в EPUB"
           link: "/conversion/java/vcf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VCF к FODP"
+        - name: "VCF в FODP"
           link: "/conversion/java/vcf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VCF к FODS"
+        - name: "VCF в FODS"
           link: "/conversion/java/vcf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VCF к GIF"
+        - name: "VCF в GIF"
           link: "/conversion/java/vcf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VCF к HTM"
+        - name: "VCF в HTM"
           link: "/conversion/java/vcf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VCF к HTML"
+        - name: "VCF в HTML"
           link: "/conversion/java/vcf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VCF к ICO"
+        - name: "VCF в ICO"
           link: "/conversion/java/vcf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VCF к JP2"
+        - name: "VCF в JP2"
           link: "/conversion/java/vcf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VCF к JPEG"
+        - name: "VCF в JPEG"
           link: "/conversion/java/vcf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VCF к JPG"
+        - name: "VCF в JPG"
           link: "/conversion/java/vcf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VCF к MD"
+        - name: "VCF в MD"
           link: "/conversion/java/vcf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VCF к MHT"
+        - name: "VCF в MHT"
           link: "/conversion/java/vcf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VCF к MHTML"
+        - name: "VCF в MHTML"
           link: "/conversion/java/vcf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VCF к ODP"
+        - name: "VCF в ODP"
           link: "/conversion/java/vcf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VCF к ODS"
+        - name: "VCF в ODS"
           link: "/conversion/java/vcf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VCF к ODT"
+        - name: "VCF в ODT"
           link: "/conversion/java/vcf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VCF к OTP"
+        - name: "VCF в OTP"
           link: "/conversion/java/vcf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VCF к OTT"
+        - name: "VCF в OTT"
           link: "/conversion/java/vcf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VCF к PDF"
+        - name: "VCF в PDF"
           link: "/conversion/java/vcf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VCF к PNG"
+        - name: "VCF в PNG"
           link: "/conversion/java/vcf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VCF к POT"
+        - name: "VCF в POT"
           link: "/conversion/java/vcf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VCF к POTM"
+        - name: "VCF в POTM"
           link: "/conversion/java/vcf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VCF к POTX"
+        - name: "VCF в POTX"
           link: "/conversion/java/vcf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VCF к PPS"
+        - name: "VCF в PPS"
           link: "/conversion/java/vcf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VCF к PPSM"
+        - name: "VCF в PPSM"
           link: "/conversion/java/vcf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VCF к PPSX"
+        - name: "VCF в PPSX"
           link: "/conversion/java/vcf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VCF к PPT"
+        - name: "VCF в PPT"
           link: "/conversion/java/vcf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VCF к PPTM"
+        - name: "VCF в PPTM"
           link: "/conversion/java/vcf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VCF к PPTX"
+        - name: "VCF в PPTX"
           link: "/conversion/java/vcf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VCF к PSD"
+        - name: "VCF в PSD"
           link: "/conversion/java/vcf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VCF к RTF"
+        - name: "VCF в RTF"
           link: "/conversion/java/vcf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VCF к SVG"
+        - name: "VCF в SVG"
           link: "/conversion/java/vcf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VCF к SVGZ"
+        - name: "VCF в SVGZ"
           link: "/conversion/java/vcf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VCF к SXC"
+        - name: "VCF в SXC"
           link: "/conversion/java/vcf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VCF к TEX"
+        - name: "VCF в TEX"
           link: "/conversion/java/vcf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VCF к TIF"
+        - name: "VCF в TIF"
           link: "/conversion/java/vcf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VCF к TIFF"
+        - name: "VCF в TIFF"
           link: "/conversion/java/vcf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VCF к TSV"
+        - name: "VCF в TSV"
           link: "/conversion/java/vcf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VCF к TXT"
+        - name: "VCF в TXT"
           link: "/conversion/java/vcf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VCF к WMF"
+        - name: "VCF в WMF"
           link: "/conversion/java/vcf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VCF к WMZ"
+        - name: "VCF в WMZ"
           link: "/conversion/java/vcf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VCF к XLAM"
+        - name: "VCF в XLAM"
           link: "/conversion/java/vcf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VCF к XLS"
+        - name: "VCF в XLS"
           link: "/conversion/java/vcf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VCF к XLSB"
+        - name: "VCF в XLSB"
           link: "/conversion/java/vcf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VCF к XLSM"
+        - name: "VCF в XLSM"
           link: "/conversion/java/vcf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VCF к XLSX"
+        - name: "VCF в XLSX"
           link: "/conversion/java/vcf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VCF к XLT"
+        - name: "VCF в XLT"
           link: "/conversion/java/vcf-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VCF к XLTM"
+        - name: "VCF в XLTM"
           link: "/conversion/java/vcf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VCF к XLTX"
+        - name: "VCF в XLTX"
           link: "/conversion/java/vcf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VCF к XPS"
+        - name: "VCF в XPS"
           link: "/conversion/java/vcf-to-xps/"
           description: "Спецификация документа Open XML"
 

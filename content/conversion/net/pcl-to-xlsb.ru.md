@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать PCL во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PCL к BMP"
+        - name: "PCL в BMP"
           link: "/conversion/net/pcl-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PCL к CSV"
+        - name: "PCL в CSV"
           link: "/conversion/net/pcl-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PCL к DCM"
+        - name: "PCL в DCM"
           link: "/conversion/net/pcl-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PCL к DIF"
+        - name: "PCL в DIF"
           link: "/conversion/net/pcl-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PCL к DOC"
+        - name: "PCL в DOC"
           link: "/conversion/net/pcl-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PCL к DOCM"
+        - name: "PCL в DOCM"
           link: "/conversion/net/pcl-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PCL к DOCX"
+        - name: "PCL в DOCX"
           link: "/conversion/net/pcl-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PCL к DOT"
+        - name: "PCL в DOT"
           link: "/conversion/net/pcl-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PCL к DOTM"
+        - name: "PCL в DOTM"
           link: "/conversion/net/pcl-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PCL к DOTX"
+        - name: "PCL в DOTX"
           link: "/conversion/net/pcl-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PCL к EMF"
+        - name: "PCL в EMF"
           link: "/conversion/net/pcl-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PCL к EMZ"
+        - name: "PCL в EMZ"
           link: "/conversion/net/pcl-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PCL к EPUB"
+        - name: "PCL в EPUB"
           link: "/conversion/net/pcl-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PCL к FODP"
+        - name: "PCL в FODP"
           link: "/conversion/net/pcl-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PCL к FODS"
+        - name: "PCL в FODS"
           link: "/conversion/net/pcl-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PCL к GIF"
+        - name: "PCL в GIF"
           link: "/conversion/net/pcl-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PCL к HTM"
+        - name: "PCL в HTM"
           link: "/conversion/net/pcl-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PCL к HTML"
+        - name: "PCL в HTML"
           link: "/conversion/net/pcl-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PCL к ICO"
+        - name: "PCL в ICO"
           link: "/conversion/net/pcl-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PCL к JP2"
+        - name: "PCL в JP2"
           link: "/conversion/net/pcl-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PCL к JPEG"
+        - name: "PCL в JPEG"
           link: "/conversion/net/pcl-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PCL к JPG"
+        - name: "PCL в JPG"
           link: "/conversion/net/pcl-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PCL к MD"
+        - name: "PCL в MD"
           link: "/conversion/net/pcl-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PCL к MHT"
+        - name: "PCL в MHT"
           link: "/conversion/net/pcl-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PCL к MHTML"
+        - name: "PCL в MHTML"
           link: "/conversion/net/pcl-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PCL к ODP"
+        - name: "PCL в ODP"
           link: "/conversion/net/pcl-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PCL к ODS"
+        - name: "PCL в ODS"
           link: "/conversion/net/pcl-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PCL к ODT"
+        - name: "PCL в ODT"
           link: "/conversion/net/pcl-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PCL к OTP"
+        - name: "PCL в OTP"
           link: "/conversion/net/pcl-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PCL к OTT"
+        - name: "PCL в OTT"
           link: "/conversion/net/pcl-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PCL к PDF"
+        - name: "PCL в PDF"
           link: "/conversion/net/pcl-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PCL к PNG"
+        - name: "PCL в PNG"
           link: "/conversion/net/pcl-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PCL к POT"
+        - name: "PCL в POT"
           link: "/conversion/net/pcl-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PCL к POTM"
+        - name: "PCL в POTM"
           link: "/conversion/net/pcl-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PCL к POTX"
+        - name: "PCL в POTX"
           link: "/conversion/net/pcl-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PCL к PPS"
+        - name: "PCL в PPS"
           link: "/conversion/net/pcl-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PCL к PPSM"
+        - name: "PCL в PPSM"
           link: "/conversion/net/pcl-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PCL к PPSX"
+        - name: "PCL в PPSX"
           link: "/conversion/net/pcl-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PCL к PPT"
+        - name: "PCL в PPT"
           link: "/conversion/net/pcl-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PCL к PPTM"
+        - name: "PCL в PPTM"
           link: "/conversion/net/pcl-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PCL к PPTX"
+        - name: "PCL в PPTX"
           link: "/conversion/net/pcl-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PCL к PSD"
+        - name: "PCL в PSD"
           link: "/conversion/net/pcl-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PCL к RTF"
+        - name: "PCL в RTF"
           link: "/conversion/net/pcl-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PCL к SVG"
+        - name: "PCL в SVG"
           link: "/conversion/net/pcl-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PCL к SVGZ"
+        - name: "PCL в SVGZ"
           link: "/conversion/net/pcl-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PCL к SXC"
+        - name: "PCL в SXC"
           link: "/conversion/net/pcl-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PCL к TEX"
+        - name: "PCL в TEX"
           link: "/conversion/net/pcl-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PCL к TIF"
+        - name: "PCL в TIF"
           link: "/conversion/net/pcl-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PCL к TIFF"
+        - name: "PCL в TIFF"
           link: "/conversion/net/pcl-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PCL к TSV"
+        - name: "PCL в TSV"
           link: "/conversion/net/pcl-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PCL к TXT"
+        - name: "PCL в TXT"
           link: "/conversion/net/pcl-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PCL к WEBP"
+        - name: "PCL в WEBP"
           link: "/conversion/net/pcl-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PCL к WMF"
+        - name: "PCL в WMF"
           link: "/conversion/net/pcl-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PCL к WMZ"
+        - name: "PCL в WMZ"
           link: "/conversion/net/pcl-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PCL к XLAM"
+        - name: "PCL в XLAM"
           link: "/conversion/net/pcl-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PCL к XLS"
+        - name: "PCL в XLS"
           link: "/conversion/net/pcl-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PCL к XLSM"
+        - name: "PCL в XLSM"
           link: "/conversion/net/pcl-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PCL к XLSX"
+        - name: "PCL в XLSX"
           link: "/conversion/net/pcl-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PCL к XLT"
+        - name: "PCL в XLT"
           link: "/conversion/net/pcl-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PCL к XLTM"
+        - name: "PCL в XLTM"
           link: "/conversion/net/pcl-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PCL к XLTX"
+        - name: "PCL в XLTX"
           link: "/conversion/net/pcl-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PCL к XPS"
+        - name: "PCL в XPS"
           link: "/conversion/net/pcl-to-xps/"
           description: "Спецификация документа Open XML"
 

@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать DJVU во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DJVU к CSV"
+        - name: "DJVU в CSV"
           link: "/conversion/net/djvu-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DJVU к DCM"
+        - name: "DJVU в DCM"
           link: "/conversion/net/djvu-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DJVU к DIF"
+        - name: "DJVU в DIF"
           link: "/conversion/net/djvu-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DJVU к DOC"
+        - name: "DJVU в DOC"
           link: "/conversion/net/djvu-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DJVU к DOCM"
+        - name: "DJVU в DOCM"
           link: "/conversion/net/djvu-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DJVU к DOCX"
+        - name: "DJVU в DOCX"
           link: "/conversion/net/djvu-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DJVU к DOT"
+        - name: "DJVU в DOT"
           link: "/conversion/net/djvu-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DJVU к DOTM"
+        - name: "DJVU в DOTM"
           link: "/conversion/net/djvu-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DJVU к DOTX"
+        - name: "DJVU в DOTX"
           link: "/conversion/net/djvu-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DJVU к EMF"
+        - name: "DJVU в EMF"
           link: "/conversion/net/djvu-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DJVU к EMZ"
+        - name: "DJVU в EMZ"
           link: "/conversion/net/djvu-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DJVU к EPUB"
+        - name: "DJVU в EPUB"
           link: "/conversion/net/djvu-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DJVU к FODP"
+        - name: "DJVU в FODP"
           link: "/conversion/net/djvu-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DJVU к FODS"
+        - name: "DJVU в FODS"
           link: "/conversion/net/djvu-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DJVU к GIF"
+        - name: "DJVU в GIF"
           link: "/conversion/net/djvu-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DJVU к HTM"
+        - name: "DJVU в HTM"
           link: "/conversion/net/djvu-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DJVU к HTML"
+        - name: "DJVU в HTML"
           link: "/conversion/net/djvu-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DJVU к ICO"
+        - name: "DJVU в ICO"
           link: "/conversion/net/djvu-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DJVU к JP2"
+        - name: "DJVU в JP2"
           link: "/conversion/net/djvu-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DJVU к JPEG"
+        - name: "DJVU в JPEG"
           link: "/conversion/net/djvu-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DJVU к JPG"
+        - name: "DJVU в JPG"
           link: "/conversion/net/djvu-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DJVU к MD"
+        - name: "DJVU в MD"
           link: "/conversion/net/djvu-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DJVU к MHT"
+        - name: "DJVU в MHT"
           link: "/conversion/net/djvu-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DJVU к MHTML"
+        - name: "DJVU в MHTML"
           link: "/conversion/net/djvu-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DJVU к ODP"
+        - name: "DJVU в ODP"
           link: "/conversion/net/djvu-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DJVU к ODS"
+        - name: "DJVU в ODS"
           link: "/conversion/net/djvu-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DJVU к ODT"
+        - name: "DJVU в ODT"
           link: "/conversion/net/djvu-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DJVU к OTP"
+        - name: "DJVU в OTP"
           link: "/conversion/net/djvu-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DJVU к OTT"
+        - name: "DJVU в OTT"
           link: "/conversion/net/djvu-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DJVU к PDF"
+        - name: "DJVU в PDF"
           link: "/conversion/net/djvu-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DJVU к PNG"
+        - name: "DJVU в PNG"
           link: "/conversion/net/djvu-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DJVU к POT"
+        - name: "DJVU в POT"
           link: "/conversion/net/djvu-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DJVU к POTM"
+        - name: "DJVU в POTM"
           link: "/conversion/net/djvu-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DJVU к POTX"
+        - name: "DJVU в POTX"
           link: "/conversion/net/djvu-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DJVU к PPS"
+        - name: "DJVU в PPS"
           link: "/conversion/net/djvu-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DJVU к PPSM"
+        - name: "DJVU в PPSM"
           link: "/conversion/net/djvu-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DJVU к PPSX"
+        - name: "DJVU в PPSX"
           link: "/conversion/net/djvu-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DJVU к PPT"
+        - name: "DJVU в PPT"
           link: "/conversion/net/djvu-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DJVU к PPTM"
+        - name: "DJVU в PPTM"
           link: "/conversion/net/djvu-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DJVU к PPTX"
+        - name: "DJVU в PPTX"
           link: "/conversion/net/djvu-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DJVU к PSD"
+        - name: "DJVU в PSD"
           link: "/conversion/net/djvu-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DJVU к RTF"
+        - name: "DJVU в RTF"
           link: "/conversion/net/djvu-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DJVU к SVG"
+        - name: "DJVU в SVG"
           link: "/conversion/net/djvu-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DJVU к SVGZ"
+        - name: "DJVU в SVGZ"
           link: "/conversion/net/djvu-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DJVU к SXC"
+        - name: "DJVU в SXC"
           link: "/conversion/net/djvu-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DJVU к TEX"
+        - name: "DJVU в TEX"
           link: "/conversion/net/djvu-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DJVU к TIF"
+        - name: "DJVU в TIF"
           link: "/conversion/net/djvu-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DJVU к TIFF"
+        - name: "DJVU в TIFF"
           link: "/conversion/net/djvu-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DJVU к TSV"
+        - name: "DJVU в TSV"
           link: "/conversion/net/djvu-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DJVU к TXT"
+        - name: "DJVU в TXT"
           link: "/conversion/net/djvu-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DJVU к WEBP"
+        - name: "DJVU в WEBP"
           link: "/conversion/net/djvu-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DJVU к WMF"
+        - name: "DJVU в WMF"
           link: "/conversion/net/djvu-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DJVU к WMZ"
+        - name: "DJVU в WMZ"
           link: "/conversion/net/djvu-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DJVU к XLAM"
+        - name: "DJVU в XLAM"
           link: "/conversion/net/djvu-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DJVU к XLS"
+        - name: "DJVU в XLS"
           link: "/conversion/net/djvu-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DJVU к XLSB"
+        - name: "DJVU в XLSB"
           link: "/conversion/net/djvu-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DJVU к XLSM"
+        - name: "DJVU в XLSM"
           link: "/conversion/net/djvu-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DJVU к XLSX"
+        - name: "DJVU в XLSX"
           link: "/conversion/net/djvu-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DJVU к XLT"
+        - name: "DJVU в XLT"
           link: "/conversion/net/djvu-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DJVU к XLTM"
+        - name: "DJVU в XLTM"
           link: "/conversion/net/djvu-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DJVU к XLTX"
+        - name: "DJVU в XLTX"
           link: "/conversion/net/djvu-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DJVU к XPS"
+        - name: "DJVU в XPS"
           link: "/conversion/net/djvu-to-xps/"
           description: "Спецификация документа Open XML"
 

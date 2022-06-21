@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать PS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PS к BMP"
+        - name: "PS в BMP"
           link: "/conversion/java/ps-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PS к CSV"
+        - name: "PS в CSV"
           link: "/conversion/java/ps-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PS к DCM"
+        - name: "PS в DCM"
           link: "/conversion/java/ps-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PS к DIF"
+        - name: "PS в DIF"
           link: "/conversion/java/ps-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PS к DOC"
+        - name: "PS в DOC"
           link: "/conversion/java/ps-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PS к DOCM"
+        - name: "PS в DOCM"
           link: "/conversion/java/ps-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PS к DOCX"
+        - name: "PS в DOCX"
           link: "/conversion/java/ps-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PS к DOT"
+        - name: "PS в DOT"
           link: "/conversion/java/ps-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PS к DOTX"
+        - name: "PS в DOTX"
           link: "/conversion/java/ps-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PS к EMF"
+        - name: "PS в EMF"
           link: "/conversion/java/ps-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PS к EMZ"
+        - name: "PS в EMZ"
           link: "/conversion/java/ps-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PS к EPUB"
+        - name: "PS в EPUB"
           link: "/conversion/java/ps-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PS к FODP"
+        - name: "PS в FODP"
           link: "/conversion/java/ps-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PS к FODS"
+        - name: "PS в FODS"
           link: "/conversion/java/ps-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PS к GIF"
+        - name: "PS в GIF"
           link: "/conversion/java/ps-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PS к HTM"
+        - name: "PS в HTM"
           link: "/conversion/java/ps-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PS к HTML"
+        - name: "PS в HTML"
           link: "/conversion/java/ps-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PS к ICO"
+        - name: "PS в ICO"
           link: "/conversion/java/ps-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PS к JP2"
+        - name: "PS в JP2"
           link: "/conversion/java/ps-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PS к JPEG"
+        - name: "PS в JPEG"
           link: "/conversion/java/ps-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PS к JPG"
+        - name: "PS в JPG"
           link: "/conversion/java/ps-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PS к MD"
+        - name: "PS в MD"
           link: "/conversion/java/ps-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PS к MHT"
+        - name: "PS в MHT"
           link: "/conversion/java/ps-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PS к MHTML"
+        - name: "PS в MHTML"
           link: "/conversion/java/ps-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PS к ODP"
+        - name: "PS в ODP"
           link: "/conversion/java/ps-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PS к ODS"
+        - name: "PS в ODS"
           link: "/conversion/java/ps-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PS к ODT"
+        - name: "PS в ODT"
           link: "/conversion/java/ps-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PS к OTP"
+        - name: "PS в OTP"
           link: "/conversion/java/ps-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PS к OTT"
+        - name: "PS в OTT"
           link: "/conversion/java/ps-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PS к PDF"
+        - name: "PS в PDF"
           link: "/conversion/java/ps-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PS к PNG"
+        - name: "PS в PNG"
           link: "/conversion/java/ps-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PS к POT"
+        - name: "PS в POT"
           link: "/conversion/java/ps-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PS к POTM"
+        - name: "PS в POTM"
           link: "/conversion/java/ps-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PS к POTX"
+        - name: "PS в POTX"
           link: "/conversion/java/ps-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PS к PPS"
+        - name: "PS в PPS"
           link: "/conversion/java/ps-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PS к PPSM"
+        - name: "PS в PPSM"
           link: "/conversion/java/ps-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PS к PPSX"
+        - name: "PS в PPSX"
           link: "/conversion/java/ps-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PS к PPT"
+        - name: "PS в PPT"
           link: "/conversion/java/ps-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PS к PPTM"
+        - name: "PS в PPTM"
           link: "/conversion/java/ps-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PS к PPTX"
+        - name: "PS в PPTX"
           link: "/conversion/java/ps-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PS к PSD"
+        - name: "PS в PSD"
           link: "/conversion/java/ps-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PS к RTF"
+        - name: "PS в RTF"
           link: "/conversion/java/ps-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PS к SVG"
+        - name: "PS в SVG"
           link: "/conversion/java/ps-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PS к SVGZ"
+        - name: "PS в SVGZ"
           link: "/conversion/java/ps-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PS к SXC"
+        - name: "PS в SXC"
           link: "/conversion/java/ps-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PS к TEX"
+        - name: "PS в TEX"
           link: "/conversion/java/ps-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PS к TIF"
+        - name: "PS в TIF"
           link: "/conversion/java/ps-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PS к TIFF"
+        - name: "PS в TIFF"
           link: "/conversion/java/ps-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PS к TSV"
+        - name: "PS в TSV"
           link: "/conversion/java/ps-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PS к TXT"
+        - name: "PS в TXT"
           link: "/conversion/java/ps-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PS к WEBP"
+        - name: "PS в WEBP"
           link: "/conversion/java/ps-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PS к WMF"
+        - name: "PS в WMF"
           link: "/conversion/java/ps-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PS к WMZ"
+        - name: "PS в WMZ"
           link: "/conversion/java/ps-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PS к XLAM"
+        - name: "PS в XLAM"
           link: "/conversion/java/ps-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PS к XLS"
+        - name: "PS в XLS"
           link: "/conversion/java/ps-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PS к XLSB"
+        - name: "PS в XLSB"
           link: "/conversion/java/ps-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PS к XLSM"
+        - name: "PS в XLSM"
           link: "/conversion/java/ps-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PS к XLSX"
+        - name: "PS в XLSX"
           link: "/conversion/java/ps-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PS к XLT"
+        - name: "PS в XLT"
           link: "/conversion/java/ps-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PS к XLTM"
+        - name: "PS в XLTM"
           link: "/conversion/java/ps-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PS к XLTX"
+        - name: "PS в XLTX"
           link: "/conversion/java/ps-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PS к XPS"
+        - name: "PS в XPS"
           link: "/conversion/java/ps-to-xps/"
           description: "Спецификация документа Open XML"
 

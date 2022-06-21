@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать TXT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "TXT к BMP"
+        - name: "TXT в BMP"
           link: "/conversion/java/txt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "TXT к CSV"
+        - name: "TXT в CSV"
           link: "/conversion/java/txt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "TXT к DCM"
+        - name: "TXT в DCM"
           link: "/conversion/java/txt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "TXT к DIF"
+        - name: "TXT в DIF"
           link: "/conversion/java/txt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "TXT к DOC"
+        - name: "TXT в DOC"
           link: "/conversion/java/txt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "TXT к DOCM"
+        - name: "TXT в DOCM"
           link: "/conversion/java/txt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TXT к DOCX"
+        - name: "TXT в DOCX"
           link: "/conversion/java/txt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "TXT к DOT"
+        - name: "TXT в DOT"
           link: "/conversion/java/txt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "TXT к DOTM"
+        - name: "TXT в DOTM"
           link: "/conversion/java/txt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TXT к DOTX"
+        - name: "TXT в DOTX"
           link: "/conversion/java/txt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "TXT к EMF"
+        - name: "TXT в EMF"
           link: "/conversion/java/txt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "TXT к EMZ"
+        - name: "TXT в EMZ"
           link: "/conversion/java/txt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "TXT к EPUB"
+        - name: "TXT в EPUB"
           link: "/conversion/java/txt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "TXT к FODP"
+        - name: "TXT в FODP"
           link: "/conversion/java/txt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "TXT к FODS"
+        - name: "TXT в FODS"
           link: "/conversion/java/txt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "TXT к GIF"
+        - name: "TXT в GIF"
           link: "/conversion/java/txt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "TXT к HTM"
+        - name: "TXT в HTM"
           link: "/conversion/java/txt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "TXT к HTML"
+        - name: "TXT в HTML"
           link: "/conversion/java/txt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "TXT к ICO"
+        - name: "TXT в ICO"
           link: "/conversion/java/txt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "TXT к JP2"
+        - name: "TXT в JP2"
           link: "/conversion/java/txt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "TXT к JPEG"
+        - name: "TXT в JPEG"
           link: "/conversion/java/txt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "TXT к JPG"
+        - name: "TXT в JPG"
           link: "/conversion/java/txt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "TXT к MD"
+        - name: "TXT в MD"
           link: "/conversion/java/txt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "TXT к MHT"
+        - name: "TXT в MHT"
           link: "/conversion/java/txt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TXT к MHTML"
+        - name: "TXT в MHTML"
           link: "/conversion/java/txt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TXT к ODP"
+        - name: "TXT в ODP"
           link: "/conversion/java/txt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "TXT к ODS"
+        - name: "TXT в ODS"
           link: "/conversion/java/txt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "TXT к ODT"
+        - name: "TXT в ODT"
           link: "/conversion/java/txt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "TXT к OTP"
+        - name: "TXT в OTP"
           link: "/conversion/java/txt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "TXT к OTT"
+        - name: "TXT в OTT"
           link: "/conversion/java/txt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "TXT к PDF"
+        - name: "TXT в PDF"
           link: "/conversion/java/txt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "TXT к PNG"
+        - name: "TXT в PNG"
           link: "/conversion/java/txt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "TXT к POT"
+        - name: "TXT в POT"
           link: "/conversion/java/txt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "TXT к POTM"
+        - name: "TXT в POTM"
           link: "/conversion/java/txt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TXT к POTX"
+        - name: "TXT в POTX"
           link: "/conversion/java/txt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TXT к PPS"
+        - name: "TXT в PPS"
           link: "/conversion/java/txt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TXT к PPSM"
+        - name: "TXT в PPSM"
           link: "/conversion/java/txt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TXT к PPSX"
+        - name: "TXT в PPSX"
           link: "/conversion/java/txt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "TXT к PPT"
+        - name: "TXT в PPT"
           link: "/conversion/java/txt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "TXT к PPTM"
+        - name: "TXT в PPTM"
           link: "/conversion/java/txt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "TXT к PPTX"
+        - name: "TXT в PPTX"
           link: "/conversion/java/txt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "TXT к PSD"
+        - name: "TXT в PSD"
           link: "/conversion/java/txt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "TXT к RTF"
+        - name: "TXT в RTF"
           link: "/conversion/java/txt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "TXT к SVG"
+        - name: "TXT в SVG"
           link: "/conversion/java/txt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TXT к SVGZ"
+        - name: "TXT в SVGZ"
           link: "/conversion/java/txt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TXT к SXC"
+        - name: "TXT в SXC"
           link: "/conversion/java/txt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "TXT к TEX"
+        - name: "TXT в TEX"
           link: "/conversion/java/txt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "TXT к TIF"
+        - name: "TXT в TIF"
           link: "/conversion/java/txt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TXT к TIFF"
+        - name: "TXT в TIFF"
           link: "/conversion/java/txt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TXT к TSV"
+        - name: "TXT в TSV"
           link: "/conversion/java/txt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "TXT к WEBP"
+        - name: "TXT в WEBP"
           link: "/conversion/java/txt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "TXT к WMF"
+        - name: "TXT в WMF"
           link: "/conversion/java/txt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "TXT к WMZ"
+        - name: "TXT в WMZ"
           link: "/conversion/java/txt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "TXT к XLAM"
+        - name: "TXT в XLAM"
           link: "/conversion/java/txt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TXT к XLS"
+        - name: "TXT в XLS"
           link: "/conversion/java/txt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "TXT к XLSM"
+        - name: "TXT в XLSM"
           link: "/conversion/java/txt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TXT к XLSX"
+        - name: "TXT в XLSX"
           link: "/conversion/java/txt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "TXT к XLT"
+        - name: "TXT в XLT"
           link: "/conversion/java/txt-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "TXT к XLTM"
+        - name: "TXT в XLTM"
           link: "/conversion/java/txt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TXT к XLTX"
+        - name: "TXT в XLTX"
           link: "/conversion/java/txt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "TXT к XPS"
+        - name: "TXT в XPS"
           link: "/conversion/java/txt-to-xps/"
           description: "Спецификация документа Open XML"
 

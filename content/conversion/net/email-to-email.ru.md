@@ -127,42 +127,42 @@ more_formats:
         Вы также можете конвертировать электронную почту во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EMAIL к EBOOK"
+        - name: "EMAIL в EBOOK"
           link: "https://products.groupdocs.com/conversion/net/email-to-ebook"
           description: "Форматы файлов электронных книг"
 
         # format loop
-        - name: "EMAIL к EXCEL"
+        - name: "EMAIL в EXCEL"
           link: "https://products.groupdocs.com/conversion/net/email-to-excel"
           description: "Форматы файлов документов Excel"
 
         # format loop
-        - name: "EMAIL к IMAGE"
+        - name: "EMAIL в IMAGE"
           link: "https://products.groupdocs.com/conversion/net/email-to-image"
           description: "Форматы файлов документов изображений"
 
         # format loop
-        - name: "EMAIL к PDF"
+        - name: "EMAIL в PDF"
           link: "https://products.groupdocs.com/conversion/net/email-to-pdf"
           description: "Формат файла PDF"
 
         # format loop
-        - name: "EMAIL к PHOTOSHOP"
+        - name: "EMAIL в PHOTOSHOP"
           link: "https://products.groupdocs.com/conversion/net/email-to-photoshop"
           description: "Форматы файлов Photoshop"
 
         # format loop
-        - name: "EMAIL к POWERPOINT"
+        - name: "EMAIL в POWERPOINT"
           link: "https://products.groupdocs.com/conversion/net/email-to-powerpoint"
           description: "Форматы файлов презентаций PowerPoint"
 
         # format loop
-        - name: "EMAIL к WEB"
+        - name: "EMAIL в WEB"
           link: "https://products.groupdocs.com/conversion/net/email-to-web"
           description: "Форматы файлов веб-документов"
 
         # format loop
-        - name: "EMAIL к WORD"
+        - name: "EMAIL в WORD"
           link: "https://products.groupdocs.com/conversion/net/email-to-word"
           description: "Форматы файлов документов Word"
 

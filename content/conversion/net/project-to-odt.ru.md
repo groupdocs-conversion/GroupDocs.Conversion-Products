@@ -127,142 +127,142 @@ more_formats:
         Вы также можете конвертировать PROJECT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PROJECT к DOC"
+        - name: "PROJECT в DOC"
           link: "/conversion/net/project-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PROJECT к DOTM"
+        - name: "PROJECT в DOTM"
           link: "/conversion/net/project-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PROJECT к DOTX"
+        - name: "PROJECT в DOTX"
           link: "/conversion/net/project-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PROJECT к EMF"
+        - name: "PROJECT в EMF"
           link: "/conversion/net/project-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PROJECT к GIF"
+        - name: "PROJECT в GIF"
           link: "/conversion/net/project-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PROJECT к HTML"
+        - name: "PROJECT в HTML"
           link: "/conversion/net/project-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PROJECT к ICO"
+        - name: "PROJECT в ICO"
           link: "/conversion/net/project-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PROJECT к OTP"
+        - name: "PROJECT в OTP"
           link: "/conversion/net/project-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PROJECT к PDF"
+        - name: "PROJECT в PDF"
           link: "/conversion/net/project-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PROJECT к POTM"
+        - name: "PROJECT в POTM"
           link: "/conversion/net/project-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PROJECT к POTX"
+        - name: "PROJECT в POTX"
           link: "/conversion/net/project-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PROJECT к PPS"
+        - name: "PROJECT в PPS"
           link: "/conversion/net/project-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PROJECT к PPSX"
+        - name: "PROJECT в PPSX"
           link: "/conversion/net/project-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PROJECT к PPT"
+        - name: "PROJECT в PPT"
           link: "/conversion/net/project-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PROJECT к RTF"
+        - name: "PROJECT в RTF"
           link: "/conversion/net/project-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PROJECT к SVG"
+        - name: "PROJECT в SVG"
           link: "/conversion/net/project-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PROJECT к TEX"
+        - name: "PROJECT в TEX"
           link: "/conversion/net/project-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PROJECT к TIF"
+        - name: "PROJECT в TIF"
           link: "/conversion/net/project-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PROJECT к TIFF"
+        - name: "PROJECT в TIFF"
           link: "/conversion/net/project-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PROJECT к TXT"
+        - name: "PROJECT в TXT"
           link: "/conversion/net/project-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PROJECT к WMF"
+        - name: "PROJECT в WMF"
           link: "/conversion/net/project-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PROJECT к WMZ"
+        - name: "PROJECT в WMZ"
           link: "/conversion/net/project-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PROJECT к XLAM"
+        - name: "PROJECT в XLAM"
           link: "/conversion/net/project-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PROJECT к XLS"
+        - name: "PROJECT в XLS"
           link: "/conversion/net/project-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PROJECT к XLSB"
+        - name: "PROJECT в XLSB"
           link: "/conversion/net/project-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PROJECT к XLSX"
+        - name: "PROJECT в XLSX"
           link: "/conversion/net/project-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PROJECT к XLTM"
+        - name: "PROJECT в XLTM"
           link: "/conversion/net/project-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PROJECT к XLTX"
+        - name: "PROJECT в XLTX"
           link: "/conversion/net/project-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 

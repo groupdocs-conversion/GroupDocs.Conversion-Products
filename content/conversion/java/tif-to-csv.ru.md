@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать TIF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "TIF к BMP"
+        - name: "TIF в BMP"
           link: "/conversion/java/tif-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "TIF к DCM"
+        - name: "TIF в DCM"
           link: "/conversion/java/tif-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "TIF к DIF"
+        - name: "TIF в DIF"
           link: "/conversion/java/tif-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "TIF к DOC"
+        - name: "TIF в DOC"
           link: "/conversion/java/tif-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "TIF к DOCM"
+        - name: "TIF в DOCM"
           link: "/conversion/java/tif-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TIF к DOCX"
+        - name: "TIF в DOCX"
           link: "/conversion/java/tif-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "TIF к DOT"
+        - name: "TIF в DOT"
           link: "/conversion/java/tif-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "TIF к DOTM"
+        - name: "TIF в DOTM"
           link: "/conversion/java/tif-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TIF к DOTX"
+        - name: "TIF в DOTX"
           link: "/conversion/java/tif-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "TIF к EMF"
+        - name: "TIF в EMF"
           link: "/conversion/java/tif-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "TIF к EMZ"
+        - name: "TIF в EMZ"
           link: "/conversion/java/tif-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "TIF к EPUB"
+        - name: "TIF в EPUB"
           link: "/conversion/java/tif-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "TIF к FODP"
+        - name: "TIF в FODP"
           link: "/conversion/java/tif-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "TIF к FODS"
+        - name: "TIF в FODS"
           link: "/conversion/java/tif-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "TIF к GIF"
+        - name: "TIF в GIF"
           link: "/conversion/java/tif-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "TIF к HTM"
+        - name: "TIF в HTM"
           link: "/conversion/java/tif-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "TIF к HTML"
+        - name: "TIF в HTML"
           link: "/conversion/java/tif-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "TIF к ICO"
+        - name: "TIF в ICO"
           link: "/conversion/java/tif-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "TIF к JP2"
+        - name: "TIF в JP2"
           link: "/conversion/java/tif-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "TIF к JPEG"
+        - name: "TIF в JPEG"
           link: "/conversion/java/tif-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "TIF к JPG"
+        - name: "TIF в JPG"
           link: "/conversion/java/tif-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "TIF к MD"
+        - name: "TIF в MD"
           link: "/conversion/java/tif-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "TIF к MHT"
+        - name: "TIF в MHT"
           link: "/conversion/java/tif-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TIF к MHTML"
+        - name: "TIF в MHTML"
           link: "/conversion/java/tif-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TIF к ODP"
+        - name: "TIF в ODP"
           link: "/conversion/java/tif-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "TIF к ODS"
+        - name: "TIF в ODS"
           link: "/conversion/java/tif-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "TIF к ODT"
+        - name: "TIF в ODT"
           link: "/conversion/java/tif-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "TIF к OTP"
+        - name: "TIF в OTP"
           link: "/conversion/java/tif-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "TIF к OTT"
+        - name: "TIF в OTT"
           link: "/conversion/java/tif-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "TIF к PDF"
+        - name: "TIF в PDF"
           link: "/conversion/java/tif-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "TIF к PNG"
+        - name: "TIF в PNG"
           link: "/conversion/java/tif-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "TIF к POT"
+        - name: "TIF в POT"
           link: "/conversion/java/tif-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "TIF к POTM"
+        - name: "TIF в POTM"
           link: "/conversion/java/tif-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TIF к POTX"
+        - name: "TIF в POTX"
           link: "/conversion/java/tif-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TIF к PPS"
+        - name: "TIF в PPS"
           link: "/conversion/java/tif-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TIF к PPSM"
+        - name: "TIF в PPSM"
           link: "/conversion/java/tif-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TIF к PPSX"
+        - name: "TIF в PPSX"
           link: "/conversion/java/tif-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "TIF к PPT"
+        - name: "TIF в PPT"
           link: "/conversion/java/tif-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "TIF к PPTM"
+        - name: "TIF в PPTM"
           link: "/conversion/java/tif-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "TIF к PPTX"
+        - name: "TIF в PPTX"
           link: "/conversion/java/tif-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "TIF к PSD"
+        - name: "TIF в PSD"
           link: "/conversion/java/tif-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "TIF к RTF"
+        - name: "TIF в RTF"
           link: "/conversion/java/tif-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "TIF к SVG"
+        - name: "TIF в SVG"
           link: "/conversion/java/tif-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TIF к SVGZ"
+        - name: "TIF в SVGZ"
           link: "/conversion/java/tif-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TIF к SXC"
+        - name: "TIF в SXC"
           link: "/conversion/java/tif-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "TIF к TEX"
+        - name: "TIF в TEX"
           link: "/conversion/java/tif-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "TIF к TIFF"
+        - name: "TIF в TIFF"
           link: "/conversion/java/tif-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TIF к TSV"
+        - name: "TIF в TSV"
           link: "/conversion/java/tif-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "TIF к TXT"
+        - name: "TIF в TXT"
           link: "/conversion/java/tif-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "TIF к WEBP"
+        - name: "TIF в WEBP"
           link: "/conversion/java/tif-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "TIF к WMF"
+        - name: "TIF в WMF"
           link: "/conversion/java/tif-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "TIF к WMZ"
+        - name: "TIF в WMZ"
           link: "/conversion/java/tif-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "TIF к XLAM"
+        - name: "TIF в XLAM"
           link: "/conversion/java/tif-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIF к XLS"
+        - name: "TIF в XLS"
           link: "/conversion/java/tif-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "TIF к XLSB"
+        - name: "TIF в XLSB"
           link: "/conversion/java/tif-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "TIF к XLSM"
+        - name: "TIF в XLSM"
           link: "/conversion/java/tif-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIF к XLSX"
+        - name: "TIF в XLSX"
           link: "/conversion/java/tif-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "TIF к XLT"
+        - name: "TIF в XLT"
           link: "/conversion/java/tif-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "TIF к XLTM"
+        - name: "TIF в XLTM"
           link: "/conversion/java/tif-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIF к XLTX"
+        - name: "TIF в XLTX"
           link: "/conversion/java/tif-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "TIF к XPS"
+        - name: "TIF в XPS"
           link: "/conversion/java/tif-to-xps/"
           description: "Спецификация документа Open XML"
 

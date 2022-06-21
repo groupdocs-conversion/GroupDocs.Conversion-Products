@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать VSDM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VSDM к BMP"
+        - name: "VSDM в BMP"
           link: "/conversion/net/vsdm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VSDM к CSV"
+        - name: "VSDM в CSV"
           link: "/conversion/net/vsdm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VSDM к DCM"
+        - name: "VSDM в DCM"
           link: "/conversion/net/vsdm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VSDM к DIF"
+        - name: "VSDM в DIF"
           link: "/conversion/net/vsdm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VSDM к DOC"
+        - name: "VSDM в DOC"
           link: "/conversion/net/vsdm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VSDM к DOCM"
+        - name: "VSDM в DOCM"
           link: "/conversion/net/vsdm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSDM к DOCX"
+        - name: "VSDM в DOCX"
           link: "/conversion/net/vsdm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VSDM к DOT"
+        - name: "VSDM в DOT"
           link: "/conversion/net/vsdm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VSDM к DOTM"
+        - name: "VSDM в DOTM"
           link: "/conversion/net/vsdm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSDM к DOTX"
+        - name: "VSDM в DOTX"
           link: "/conversion/net/vsdm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VSDM к EMF"
+        - name: "VSDM в EMF"
           link: "/conversion/net/vsdm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VSDM к EMZ"
+        - name: "VSDM в EMZ"
           link: "/conversion/net/vsdm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VSDM к EPUB"
+        - name: "VSDM в EPUB"
           link: "/conversion/net/vsdm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VSDM к FODP"
+        - name: "VSDM в FODP"
           link: "/conversion/net/vsdm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VSDM к FODS"
+        - name: "VSDM в FODS"
           link: "/conversion/net/vsdm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VSDM к GIF"
+        - name: "VSDM в GIF"
           link: "/conversion/net/vsdm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VSDM к HTM"
+        - name: "VSDM в HTM"
           link: "/conversion/net/vsdm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VSDM к HTML"
+        - name: "VSDM в HTML"
           link: "/conversion/net/vsdm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VSDM к ICO"
+        - name: "VSDM в ICO"
           link: "/conversion/net/vsdm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VSDM к JP2"
+        - name: "VSDM в JP2"
           link: "/conversion/net/vsdm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VSDM к JPEG"
+        - name: "VSDM в JPEG"
           link: "/conversion/net/vsdm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VSDM к JPG"
+        - name: "VSDM в JPG"
           link: "/conversion/net/vsdm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VSDM к MD"
+        - name: "VSDM в MD"
           link: "/conversion/net/vsdm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VSDM к MHT"
+        - name: "VSDM в MHT"
           link: "/conversion/net/vsdm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSDM к MHTML"
+        - name: "VSDM в MHTML"
           link: "/conversion/net/vsdm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSDM к ODP"
+        - name: "VSDM в ODP"
           link: "/conversion/net/vsdm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VSDM к ODS"
+        - name: "VSDM в ODS"
           link: "/conversion/net/vsdm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VSDM к ODT"
+        - name: "VSDM в ODT"
           link: "/conversion/net/vsdm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VSDM к OTP"
+        - name: "VSDM в OTP"
           link: "/conversion/net/vsdm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VSDM к OTT"
+        - name: "VSDM в OTT"
           link: "/conversion/net/vsdm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VSDM к PDF"
+        - name: "VSDM в PDF"
           link: "/conversion/net/vsdm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VSDM к PNG"
+        - name: "VSDM в PNG"
           link: "/conversion/net/vsdm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VSDM к POT"
+        - name: "VSDM в POT"
           link: "/conversion/net/vsdm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VSDM к POTM"
+        - name: "VSDM в POTM"
           link: "/conversion/net/vsdm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSDM к POTX"
+        - name: "VSDM в POTX"
           link: "/conversion/net/vsdm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSDM к PPS"
+        - name: "VSDM в PPS"
           link: "/conversion/net/vsdm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSDM к PPSM"
+        - name: "VSDM в PPSM"
           link: "/conversion/net/vsdm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSDM к PPSX"
+        - name: "VSDM в PPSX"
           link: "/conversion/net/vsdm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VSDM к PPT"
+        - name: "VSDM в PPT"
           link: "/conversion/net/vsdm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VSDM к PPTM"
+        - name: "VSDM в PPTM"
           link: "/conversion/net/vsdm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VSDM к PPTX"
+        - name: "VSDM в PPTX"
           link: "/conversion/net/vsdm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VSDM к PSD"
+        - name: "VSDM в PSD"
           link: "/conversion/net/vsdm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VSDM к RTF"
+        - name: "VSDM в RTF"
           link: "/conversion/net/vsdm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VSDM к SVG"
+        - name: "VSDM в SVG"
           link: "/conversion/net/vsdm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSDM к SVGZ"
+        - name: "VSDM в SVGZ"
           link: "/conversion/net/vsdm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSDM к SXC"
+        - name: "VSDM в SXC"
           link: "/conversion/net/vsdm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VSDM к TEX"
+        - name: "VSDM в TEX"
           link: "/conversion/net/vsdm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VSDM к TIF"
+        - name: "VSDM в TIF"
           link: "/conversion/net/vsdm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSDM к TSV"
+        - name: "VSDM в TSV"
           link: "/conversion/net/vsdm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VSDM к TXT"
+        - name: "VSDM в TXT"
           link: "/conversion/net/vsdm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VSDM к WEBP"
+        - name: "VSDM в WEBP"
           link: "/conversion/net/vsdm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VSDM к WMF"
+        - name: "VSDM в WMF"
           link: "/conversion/net/vsdm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VSDM к WMZ"
+        - name: "VSDM в WMZ"
           link: "/conversion/net/vsdm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VSDM к XLAM"
+        - name: "VSDM в XLAM"
           link: "/conversion/net/vsdm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSDM к XLS"
+        - name: "VSDM в XLS"
           link: "/conversion/net/vsdm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VSDM к XLSB"
+        - name: "VSDM в XLSB"
           link: "/conversion/net/vsdm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VSDM к XLSM"
+        - name: "VSDM в XLSM"
           link: "/conversion/net/vsdm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSDM к XLSX"
+        - name: "VSDM в XLSX"
           link: "/conversion/net/vsdm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VSDM к XLT"
+        - name: "VSDM в XLT"
           link: "/conversion/net/vsdm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSDM к XLTM"
+        - name: "VSDM в XLTM"
           link: "/conversion/net/vsdm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSDM к XLTX"
+        - name: "VSDM в XLTX"
           link: "/conversion/net/vsdm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSDM к XPS"
+        - name: "VSDM в XPS"
           link: "/conversion/net/vsdm-to-xps/"
           description: "Спецификация документа Open XML"
 

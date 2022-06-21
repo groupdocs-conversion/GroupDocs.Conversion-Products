@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать DCM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DCM к BMP"
+        - name: "DCM в BMP"
           link: "/conversion/java/dcm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DCM к CSV"
+        - name: "DCM в CSV"
           link: "/conversion/java/dcm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DCM к DIF"
+        - name: "DCM в DIF"
           link: "/conversion/java/dcm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DCM к DOC"
+        - name: "DCM в DOC"
           link: "/conversion/java/dcm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DCM к DOCM"
+        - name: "DCM в DOCM"
           link: "/conversion/java/dcm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DCM к DOCX"
+        - name: "DCM в DOCX"
           link: "/conversion/java/dcm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DCM к DOT"
+        - name: "DCM в DOT"
           link: "/conversion/java/dcm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DCM к DOTM"
+        - name: "DCM в DOTM"
           link: "/conversion/java/dcm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DCM к DOTX"
+        - name: "DCM в DOTX"
           link: "/conversion/java/dcm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DCM к EMF"
+        - name: "DCM в EMF"
           link: "/conversion/java/dcm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DCM к EMZ"
+        - name: "DCM в EMZ"
           link: "/conversion/java/dcm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DCM к EPUB"
+        - name: "DCM в EPUB"
           link: "/conversion/java/dcm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DCM к FODP"
+        - name: "DCM в FODP"
           link: "/conversion/java/dcm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DCM к FODS"
+        - name: "DCM в FODS"
           link: "/conversion/java/dcm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DCM к GIF"
+        - name: "DCM в GIF"
           link: "/conversion/java/dcm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DCM к HTM"
+        - name: "DCM в HTM"
           link: "/conversion/java/dcm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DCM к HTML"
+        - name: "DCM в HTML"
           link: "/conversion/java/dcm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DCM к ICO"
+        - name: "DCM в ICO"
           link: "/conversion/java/dcm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DCM к JP2"
+        - name: "DCM в JP2"
           link: "/conversion/java/dcm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DCM к JPEG"
+        - name: "DCM в JPEG"
           link: "/conversion/java/dcm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DCM к JPG"
+        - name: "DCM в JPG"
           link: "/conversion/java/dcm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DCM к MD"
+        - name: "DCM в MD"
           link: "/conversion/java/dcm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DCM к MHT"
+        - name: "DCM в MHT"
           link: "/conversion/java/dcm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DCM к MHTML"
+        - name: "DCM в MHTML"
           link: "/conversion/java/dcm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DCM к ODP"
+        - name: "DCM в ODP"
           link: "/conversion/java/dcm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DCM к ODS"
+        - name: "DCM в ODS"
           link: "/conversion/java/dcm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DCM к ODT"
+        - name: "DCM в ODT"
           link: "/conversion/java/dcm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DCM к OTP"
+        - name: "DCM в OTP"
           link: "/conversion/java/dcm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DCM к OTT"
+        - name: "DCM в OTT"
           link: "/conversion/java/dcm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DCM к PDF"
+        - name: "DCM в PDF"
           link: "/conversion/java/dcm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DCM к PNG"
+        - name: "DCM в PNG"
           link: "/conversion/java/dcm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DCM к POT"
+        - name: "DCM в POT"
           link: "/conversion/java/dcm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DCM к POTM"
+        - name: "DCM в POTM"
           link: "/conversion/java/dcm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DCM к POTX"
+        - name: "DCM в POTX"
           link: "/conversion/java/dcm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DCM к PPS"
+        - name: "DCM в PPS"
           link: "/conversion/java/dcm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DCM к PPSM"
+        - name: "DCM в PPSM"
           link: "/conversion/java/dcm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DCM к PPSX"
+        - name: "DCM в PPSX"
           link: "/conversion/java/dcm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DCM к PPT"
+        - name: "DCM в PPT"
           link: "/conversion/java/dcm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DCM к PPTM"
+        - name: "DCM в PPTM"
           link: "/conversion/java/dcm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DCM к PPTX"
+        - name: "DCM в PPTX"
           link: "/conversion/java/dcm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DCM к PSD"
+        - name: "DCM в PSD"
           link: "/conversion/java/dcm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DCM к RTF"
+        - name: "DCM в RTF"
           link: "/conversion/java/dcm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DCM к SVG"
+        - name: "DCM в SVG"
           link: "/conversion/java/dcm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DCM к SVGZ"
+        - name: "DCM в SVGZ"
           link: "/conversion/java/dcm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DCM к SXC"
+        - name: "DCM в SXC"
           link: "/conversion/java/dcm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DCM к TEX"
+        - name: "DCM в TEX"
           link: "/conversion/java/dcm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DCM к TIF"
+        - name: "DCM в TIF"
           link: "/conversion/java/dcm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DCM к TIFF"
+        - name: "DCM в TIFF"
           link: "/conversion/java/dcm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DCM к TSV"
+        - name: "DCM в TSV"
           link: "/conversion/java/dcm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DCM к TXT"
+        - name: "DCM в TXT"
           link: "/conversion/java/dcm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DCM к WEBP"
+        - name: "DCM в WEBP"
           link: "/conversion/java/dcm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DCM к WMF"
+        - name: "DCM в WMF"
           link: "/conversion/java/dcm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DCM к WMZ"
+        - name: "DCM в WMZ"
           link: "/conversion/java/dcm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DCM к XLAM"
+        - name: "DCM в XLAM"
           link: "/conversion/java/dcm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DCM к XLS"
+        - name: "DCM в XLS"
           link: "/conversion/java/dcm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DCM к XLSB"
+        - name: "DCM в XLSB"
           link: "/conversion/java/dcm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DCM к XLSM"
+        - name: "DCM в XLSM"
           link: "/conversion/java/dcm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DCM к XLSX"
+        - name: "DCM в XLSX"
           link: "/conversion/java/dcm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DCM к XLT"
+        - name: "DCM в XLT"
           link: "/conversion/java/dcm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DCM к XLTM"
+        - name: "DCM в XLTM"
           link: "/conversion/java/dcm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DCM к XLTX"
+        - name: "DCM в XLTX"
           link: "/conversion/java/dcm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 

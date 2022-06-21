@@ -128,267 +128,267 @@ more_formats:
         Вы также можете конвертировать WEB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WEB к EPUB"
+        - name: "WEB в EPUB"
           link: "/conversion/java/web-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WEB к XPS"
+        - name: "WEB в XPS"
           link: "/conversion/java/web-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "WEB к TEX"
+        - name: "WEB в TEX"
           link: "/conversion/java/web-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WEB к PPT"
+        - name: "WEB в PPT"
           link: "/conversion/java/web-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WEB к PPS"
+        - name: "WEB в PPS"
           link: "/conversion/java/web-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB к PPTX"
+        - name: "WEB в PPTX"
           link: "/conversion/java/web-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WEB к PPSX"
+        - name: "WEB в PPSX"
           link: "/conversion/java/web-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WEB к ODP"
+        - name: "WEB в ODP"
           link: "/conversion/java/web-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WEB к OTP"
+        - name: "WEB в OTP"
           link: "/conversion/java/web-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WEB к POTX"
+        - name: "WEB в POTX"
           link: "/conversion/java/web-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB к POTM"
+        - name: "WEB в POTM"
           link: "/conversion/java/web-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB к PPTM"
+        - name: "WEB в PPTM"
           link: "/conversion/java/web-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB к PPSM"
+        - name: "WEB в PPSM"
           link: "/conversion/java/web-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB к XLS"
+        - name: "WEB в XLS"
           link: "/conversion/java/web-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WEB к XLSX"
+        - name: "WEB в XLSX"
           link: "/conversion/java/web-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WEB к XLSM"
+        - name: "WEB в XLSM"
           link: "/conversion/java/web-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEB к XLSB"
+        - name: "WEB в XLSB"
           link: "/conversion/java/web-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WEB к ODS"
+        - name: "WEB в ODS"
           link: "/conversion/java/web-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WEB к XLTX"
+        - name: "WEB в XLTX"
           link: "/conversion/java/web-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WEB к XLTM"
+        - name: "WEB в XLTM"
           link: "/conversion/java/web-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEB к TSV"
+        - name: "WEB в TSV"
           link: "/conversion/java/web-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WEB к XLAM"
+        - name: "WEB в XLAM"
           link: "/conversion/java/web-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WEB к CSV"
+        - name: "WEB в CSV"
           link: "/conversion/java/web-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WEB к DOC"
+        - name: "WEB в DOC"
           link: "/conversion/java/web-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WEB к DOCM"
+        - name: "WEB в DOCM"
           link: "/conversion/java/web-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEB к WEB"
+        - name: "WEB в WEB"
           link: "/conversion/java/web-to-web/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WEB к DOT"
+        - name: "WEB в DOT"
           link: "/conversion/java/web-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WEB к DOTM"
+        - name: "WEB в DOTM"
           link: "/conversion/java/web-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEB к DOTX"
+        - name: "WEB в DOTX"
           link: "/conversion/java/web-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WEB к RTF"
+        - name: "WEB в RTF"
           link: "/conversion/java/web-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WEB к ODT"
+        - name: "WEB в ODT"
           link: "/conversion/java/web-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WEB к OTT"
+        - name: "WEB в OTT"
           link: "/conversion/java/web-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WEB к TXT"
+        - name: "WEB в TXT"
           link: "/conversion/java/web-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WEB к MD"
+        - name: "WEB в MD"
           link: "/conversion/java/web-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WEB к TIFF"
+        - name: "WEB в TIFF"
           link: "/conversion/java/web-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WEB к TIF"
+        - name: "WEB в TIF"
           link: "/conversion/java/web-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WEB к JPG"
+        - name: "WEB в JPG"
           link: "/conversion/java/web-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WEB к JPEG"
+        - name: "WEB в JPEG"
           link: "/conversion/java/web-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WEB к PNG"
+        - name: "WEB в PNG"
           link: "/conversion/java/web-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WEB к GIF"
+        - name: "WEB в GIF"
           link: "/conversion/java/web-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WEB к BMP"
+        - name: "WEB в BMP"
           link: "/conversion/java/web-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WEB к ICO"
+        - name: "WEB в ICO"
           link: "/conversion/java/web-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WEB к PSD"
+        - name: "WEB в PSD"
           link: "/conversion/java/web-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WEB к WMF"
+        - name: "WEB в WMF"
           link: "/conversion/java/web-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WEB к EMF"
+        - name: "WEB в EMF"
           link: "/conversion/java/web-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WEB к WEBP"
+        - name: "WEB в WEBP"
           link: "/conversion/java/web-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WEB к SVG"
+        - name: "WEB в SVG"
           link: "/conversion/java/web-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WEB к JP2"
+        - name: "WEB в JP2"
           link: "/conversion/java/web-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WEB к EMZ"
+        - name: "WEB в EMZ"
           link: "/conversion/java/web-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WEB к WMZ"
+        - name: "WEB в WMZ"
           link: "/conversion/java/web-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WEB к HTML"
+        - name: "WEB в HTML"
           link: "/conversion/java/web-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WEB к MHT"
+        - name: "WEB в MHT"
           link: "/conversion/java/web-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WEB к MHTML"
+        - name: "WEB в MHTML"
           link: "/conversion/java/web-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

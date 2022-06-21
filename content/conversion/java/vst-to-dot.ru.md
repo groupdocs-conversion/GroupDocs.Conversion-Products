@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать VST во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VST к BMP"
+        - name: "VST в BMP"
           link: "/conversion/java/vst-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VST к CSV"
+        - name: "VST в CSV"
           link: "/conversion/java/vst-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VST к DCM"
+        - name: "VST в DCM"
           link: "/conversion/java/vst-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VST к DIF"
+        - name: "VST в DIF"
           link: "/conversion/java/vst-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VST к DOC"
+        - name: "VST в DOC"
           link: "/conversion/java/vst-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VST к DOCM"
+        - name: "VST в DOCM"
           link: "/conversion/java/vst-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VST к DOCX"
+        - name: "VST в DOCX"
           link: "/conversion/java/vst-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VST к DOTM"
+        - name: "VST в DOTM"
           link: "/conversion/java/vst-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VST к DOTX"
+        - name: "VST в DOTX"
           link: "/conversion/java/vst-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VST к EMF"
+        - name: "VST в EMF"
           link: "/conversion/java/vst-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VST к EMZ"
+        - name: "VST в EMZ"
           link: "/conversion/java/vst-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VST к EPUB"
+        - name: "VST в EPUB"
           link: "/conversion/java/vst-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VST к FODP"
+        - name: "VST в FODP"
           link: "/conversion/java/vst-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VST к FODS"
+        - name: "VST в FODS"
           link: "/conversion/java/vst-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VST к GIF"
+        - name: "VST в GIF"
           link: "/conversion/java/vst-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VST к HTM"
+        - name: "VST в HTM"
           link: "/conversion/java/vst-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VST к HTML"
+        - name: "VST в HTML"
           link: "/conversion/java/vst-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VST к ICO"
+        - name: "VST в ICO"
           link: "/conversion/java/vst-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VST к JP2"
+        - name: "VST в JP2"
           link: "/conversion/java/vst-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VST к JPEG"
+        - name: "VST в JPEG"
           link: "/conversion/java/vst-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VST к JPG"
+        - name: "VST в JPG"
           link: "/conversion/java/vst-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VST к MD"
+        - name: "VST в MD"
           link: "/conversion/java/vst-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VST к MHT"
+        - name: "VST в MHT"
           link: "/conversion/java/vst-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VST к MHTML"
+        - name: "VST в MHTML"
           link: "/conversion/java/vst-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VST к ODP"
+        - name: "VST в ODP"
           link: "/conversion/java/vst-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VST к ODS"
+        - name: "VST в ODS"
           link: "/conversion/java/vst-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VST к ODT"
+        - name: "VST в ODT"
           link: "/conversion/java/vst-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VST к OTP"
+        - name: "VST в OTP"
           link: "/conversion/java/vst-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VST к OTT"
+        - name: "VST в OTT"
           link: "/conversion/java/vst-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VST к PDF"
+        - name: "VST в PDF"
           link: "/conversion/java/vst-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VST к PNG"
+        - name: "VST в PNG"
           link: "/conversion/java/vst-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VST к POT"
+        - name: "VST в POT"
           link: "/conversion/java/vst-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VST к POTM"
+        - name: "VST в POTM"
           link: "/conversion/java/vst-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VST к POTX"
+        - name: "VST в POTX"
           link: "/conversion/java/vst-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VST к PPS"
+        - name: "VST в PPS"
           link: "/conversion/java/vst-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VST к PPSM"
+        - name: "VST в PPSM"
           link: "/conversion/java/vst-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VST к PPSX"
+        - name: "VST в PPSX"
           link: "/conversion/java/vst-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VST к PPT"
+        - name: "VST в PPT"
           link: "/conversion/java/vst-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VST к PPTM"
+        - name: "VST в PPTM"
           link: "/conversion/java/vst-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VST к PPTX"
+        - name: "VST в PPTX"
           link: "/conversion/java/vst-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VST к PSD"
+        - name: "VST в PSD"
           link: "/conversion/java/vst-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VST к RTF"
+        - name: "VST в RTF"
           link: "/conversion/java/vst-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VST к SVG"
+        - name: "VST в SVG"
           link: "/conversion/java/vst-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VST к SVGZ"
+        - name: "VST в SVGZ"
           link: "/conversion/java/vst-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VST к SXC"
+        - name: "VST в SXC"
           link: "/conversion/java/vst-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VST к TEX"
+        - name: "VST в TEX"
           link: "/conversion/java/vst-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VST к TIF"
+        - name: "VST в TIF"
           link: "/conversion/java/vst-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VST к TIFF"
+        - name: "VST в TIFF"
           link: "/conversion/java/vst-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VST к TSV"
+        - name: "VST в TSV"
           link: "/conversion/java/vst-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VST к TXT"
+        - name: "VST в TXT"
           link: "/conversion/java/vst-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VST к WEBP"
+        - name: "VST в WEBP"
           link: "/conversion/java/vst-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VST к WMF"
+        - name: "VST в WMF"
           link: "/conversion/java/vst-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VST к WMZ"
+        - name: "VST в WMZ"
           link: "/conversion/java/vst-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VST к XLAM"
+        - name: "VST в XLAM"
           link: "/conversion/java/vst-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VST к XLS"
+        - name: "VST в XLS"
           link: "/conversion/java/vst-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VST к XLSB"
+        - name: "VST в XLSB"
           link: "/conversion/java/vst-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VST к XLSM"
+        - name: "VST в XLSM"
           link: "/conversion/java/vst-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VST к XLSX"
+        - name: "VST в XLSX"
           link: "/conversion/java/vst-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VST к XLT"
+        - name: "VST в XLT"
           link: "/conversion/java/vst-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VST к XLTM"
+        - name: "VST в XLTM"
           link: "/conversion/java/vst-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VST к XLTX"
+        - name: "VST в XLTX"
           link: "/conversion/java/vst-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VST к XPS"
+        - name: "VST в XPS"
           link: "/conversion/java/vst-to-xps/"
           description: "Спецификация документа Open XML"
 

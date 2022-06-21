@@ -127,37 +127,37 @@ more_formats:
         Вы также можете конвертировать IMAGE во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "IMAGE к ICO"
+        - name: "IMAGE в ICO"
           link: "/conversion/net/image-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "IMAGE к JPEG"
+        - name: "IMAGE в JPEG"
           link: "/conversion/net/image-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "IMAGE к MHTML"
+        - name: "IMAGE в MHTML"
           link: "/conversion/net/image-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "IMAGE к OTP"
+        - name: "IMAGE в OTP"
           link: "/conversion/net/image-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "IMAGE к PDF"
+        - name: "IMAGE в PDF"
           link: "/conversion/net/image-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "IMAGE к POTX"
+        - name: "IMAGE в POTX"
           link: "/conversion/net/image-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE к XLSB"
+        - name: "IMAGE в XLSB"
           link: "/conversion/net/image-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 

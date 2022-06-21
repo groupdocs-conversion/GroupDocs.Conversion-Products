@@ -127,7 +127,7 @@ more_formats:
         Вы также можете конвертировать POWERPOINT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "POWERPOINT к PDF"
+        - name: "POWERPOINT в PDF"
           link: "/conversion/net/powerpoint-to-pdf/"
           description: "Портативный документ"
 

@@ -127,42 +127,42 @@ more_formats:
         Вы также можете конвертировать электронную книгу во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EBOOK к EMAIL"
+        - name: "EBOOK в EMAIL"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-email"
           description: "Форматы файлов документов электронной почты"
 
         # format loop
-        - name: "EBOOK к EXCEL"
+        - name: "EBOOK в EXCEL"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-excel"
           description: "Форматы файлов документов Excel"
 
         # format loop
-        - name: "EBOOK к IMAGE"
+        - name: "EBOOK в IMAGE"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-image"
           description: "Форматы файлов документов изображений"
 
         # format loop
-        - name: "EBOOK к PDF"
+        - name: "EBOOK в PDF"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-pdf"
           description: "Формат файла PDF"
 
         # format loop
-        - name: "EBOOK к PHOTOSHOP"
+        - name: "EBOOK в PHOTOSHOP"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-photoshop"
           description: "Форматы файлов Photoshop"
 
         # format loop
-        - name: "EBOOK к POWERPOINT"
+        - name: "EBOOK в POWERPOINT"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-powerpoint"
           description: "Форматы файлов презентаций PowerPoint"
 
         # format loop
-        - name: "EBOOK к WEB"
+        - name: "EBOOK в WEB"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-web"
           description: "Форматы файлов веб-документов"
 
         # format loop
-        - name: "EBOOK к WORD"
+        - name: "EBOOK в WORD"
           link: "https://products.groupdocs.com/conversion/net/ebook-to-word"
           description: "Форматы файлов документов Word"
 

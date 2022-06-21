@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать PPSM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PPSM к BMP"
+        - name: "PPSM в BMP"
           link: "/conversion/java/ppsm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PPSM к CSV"
+        - name: "PPSM в CSV"
           link: "/conversion/java/ppsm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PPSM к DCM"
+        - name: "PPSM в DCM"
           link: "/conversion/java/ppsm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PPSM к DIF"
+        - name: "PPSM в DIF"
           link: "/conversion/java/ppsm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PPSM к DOC"
+        - name: "PPSM в DOC"
           link: "/conversion/java/ppsm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PPSM к DOCM"
+        - name: "PPSM в DOCM"
           link: "/conversion/java/ppsm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPSM к DOCX"
+        - name: "PPSM в DOCX"
           link: "/conversion/java/ppsm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PPSM к DOT"
+        - name: "PPSM в DOT"
           link: "/conversion/java/ppsm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PPSM к DOTM"
+        - name: "PPSM в DOTM"
           link: "/conversion/java/ppsm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPSM к DOTX"
+        - name: "PPSM в DOTX"
           link: "/conversion/java/ppsm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PPSM к EMF"
+        - name: "PPSM в EMF"
           link: "/conversion/java/ppsm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PPSM к EPUB"
+        - name: "PPSM в EPUB"
           link: "/conversion/java/ppsm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PPSM к FODP"
+        - name: "PPSM в FODP"
           link: "/conversion/java/ppsm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PPSM к FODS"
+        - name: "PPSM в FODS"
           link: "/conversion/java/ppsm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PPSM к GIF"
+        - name: "PPSM в GIF"
           link: "/conversion/java/ppsm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PPSM к HTM"
+        - name: "PPSM в HTM"
           link: "/conversion/java/ppsm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PPSM к HTML"
+        - name: "PPSM в HTML"
           link: "/conversion/java/ppsm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PPSM к ICO"
+        - name: "PPSM в ICO"
           link: "/conversion/java/ppsm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PPSM к JP2"
+        - name: "PPSM в JP2"
           link: "/conversion/java/ppsm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PPSM к JPEG"
+        - name: "PPSM в JPEG"
           link: "/conversion/java/ppsm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PPSM к JPG"
+        - name: "PPSM в JPG"
           link: "/conversion/java/ppsm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PPSM к MD"
+        - name: "PPSM в MD"
           link: "/conversion/java/ppsm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PPSM к MHT"
+        - name: "PPSM в MHT"
           link: "/conversion/java/ppsm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPSM к MHTML"
+        - name: "PPSM в MHTML"
           link: "/conversion/java/ppsm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPSM к ODP"
+        - name: "PPSM в ODP"
           link: "/conversion/java/ppsm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PPSM к ODS"
+        - name: "PPSM в ODS"
           link: "/conversion/java/ppsm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PPSM к ODT"
+        - name: "PPSM в ODT"
           link: "/conversion/java/ppsm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PPSM к OTP"
+        - name: "PPSM в OTP"
           link: "/conversion/java/ppsm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PPSM к OTT"
+        - name: "PPSM в OTT"
           link: "/conversion/java/ppsm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PPSM к PDF"
+        - name: "PPSM в PDF"
           link: "/conversion/java/ppsm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PPSM к PNG"
+        - name: "PPSM в PNG"
           link: "/conversion/java/ppsm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PPSM к POT"
+        - name: "PPSM в POT"
           link: "/conversion/java/ppsm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PPSM к POTM"
+        - name: "PPSM в POTM"
           link: "/conversion/java/ppsm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPSM к POTX"
+        - name: "PPSM в POTX"
           link: "/conversion/java/ppsm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPSM к PPS"
+        - name: "PPSM в PPS"
           link: "/conversion/java/ppsm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPSM к PPSX"
+        - name: "PPSM в PPSX"
           link: "/conversion/java/ppsm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PPSM к PPT"
+        - name: "PPSM в PPT"
           link: "/conversion/java/ppsm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PPSM к PPTM"
+        - name: "PPSM в PPTM"
           link: "/conversion/java/ppsm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PPSM к PPTX"
+        - name: "PPSM в PPTX"
           link: "/conversion/java/ppsm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PPSM к PSD"
+        - name: "PPSM в PSD"
           link: "/conversion/java/ppsm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PPSM к RTF"
+        - name: "PPSM в RTF"
           link: "/conversion/java/ppsm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PPSM к SVG"
+        - name: "PPSM в SVG"
           link: "/conversion/java/ppsm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPSM к SVGZ"
+        - name: "PPSM в SVGZ"
           link: "/conversion/java/ppsm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPSM к SXC"
+        - name: "PPSM в SXC"
           link: "/conversion/java/ppsm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PPSM к TEX"
+        - name: "PPSM в TEX"
           link: "/conversion/java/ppsm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PPSM к TIF"
+        - name: "PPSM в TIF"
           link: "/conversion/java/ppsm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPSM к TIFF"
+        - name: "PPSM в TIFF"
           link: "/conversion/java/ppsm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPSM к TSV"
+        - name: "PPSM в TSV"
           link: "/conversion/java/ppsm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PPSM к TXT"
+        - name: "PPSM в TXT"
           link: "/conversion/java/ppsm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PPSM к WEBP"
+        - name: "PPSM в WEBP"
           link: "/conversion/java/ppsm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PPSM к WMF"
+        - name: "PPSM в WMF"
           link: "/conversion/java/ppsm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PPSM к WMZ"
+        - name: "PPSM в WMZ"
           link: "/conversion/java/ppsm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PPSM к XLAM"
+        - name: "PPSM в XLAM"
           link: "/conversion/java/ppsm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPSM к XLS"
+        - name: "PPSM в XLS"
           link: "/conversion/java/ppsm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PPSM к XLS2003"
+        - name: "PPSM в XLS2003"
           link: "/conversion/java/ppsm-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "PPSM к XLSB"
+        - name: "PPSM в XLSB"
           link: "/conversion/java/ppsm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PPSM к XLSM"
+        - name: "PPSM в XLSM"
           link: "/conversion/java/ppsm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPSM к XLSX"
+        - name: "PPSM в XLSX"
           link: "/conversion/java/ppsm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PPSM к XLT"
+        - name: "PPSM в XLT"
           link: "/conversion/java/ppsm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPSM к XLTM"
+        - name: "PPSM в XLTM"
           link: "/conversion/java/ppsm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPSM к XLTX"
+        - name: "PPSM в XLTX"
           link: "/conversion/java/ppsm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPSM к XPS"
+        - name: "PPSM в XPS"
           link: "/conversion/java/ppsm-to-xps/"
           description: "Спецификация документа Open XML"
 

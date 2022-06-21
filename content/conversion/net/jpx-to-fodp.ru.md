@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать JPX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JPX к BMP"
+        - name: "JPX в BMP"
           link: "/conversion/net/jpx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JPX к CSV"
+        - name: "JPX в CSV"
           link: "/conversion/net/jpx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "JPX к DCM"
+        - name: "JPX в DCM"
           link: "/conversion/net/jpx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "JPX к DIF"
+        - name: "JPX в DIF"
           link: "/conversion/net/jpx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "JPX к DOC"
+        - name: "JPX в DOC"
           link: "/conversion/net/jpx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JPX к DOCM"
+        - name: "JPX в DOCM"
           link: "/conversion/net/jpx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPX к DOCX"
+        - name: "JPX в DOCX"
           link: "/conversion/net/jpx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JPX к DOT"
+        - name: "JPX в DOT"
           link: "/conversion/net/jpx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JPX к DOTM"
+        - name: "JPX в DOTM"
           link: "/conversion/net/jpx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPX к DOTX"
+        - name: "JPX в DOTX"
           link: "/conversion/net/jpx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JPX к EMF"
+        - name: "JPX в EMF"
           link: "/conversion/net/jpx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JPX к EMZ"
+        - name: "JPX в EMZ"
           link: "/conversion/net/jpx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JPX к EPUB"
+        - name: "JPX в EPUB"
           link: "/conversion/net/jpx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JPX к FODS"
+        - name: "JPX в FODS"
           link: "/conversion/net/jpx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "JPX к GIF"
+        - name: "JPX в GIF"
           link: "/conversion/net/jpx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "JPX к HTM"
+        - name: "JPX в HTM"
           link: "/conversion/net/jpx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "JPX к HTML"
+        - name: "JPX в HTML"
           link: "/conversion/net/jpx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "JPX к ICO"
+        - name: "JPX в ICO"
           link: "/conversion/net/jpx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JPX к JP2"
+        - name: "JPX в JP2"
           link: "/conversion/net/jpx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "JPX к JPEG"
+        - name: "JPX в JPEG"
           link: "/conversion/net/jpx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "JPX к JPG"
+        - name: "JPX в JPG"
           link: "/conversion/net/jpx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JPX к MD"
+        - name: "JPX в MD"
           link: "/conversion/net/jpx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JPX к MHT"
+        - name: "JPX в MHT"
           link: "/conversion/net/jpx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPX к MHTML"
+        - name: "JPX в MHTML"
           link: "/conversion/net/jpx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPX к ODP"
+        - name: "JPX в ODP"
           link: "/conversion/net/jpx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JPX к ODS"
+        - name: "JPX в ODS"
           link: "/conversion/net/jpx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JPX к ODT"
+        - name: "JPX в ODT"
           link: "/conversion/net/jpx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JPX к OTP"
+        - name: "JPX в OTP"
           link: "/conversion/net/jpx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "JPX к OTT"
+        - name: "JPX в OTT"
           link: "/conversion/net/jpx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JPX к PDF"
+        - name: "JPX в PDF"
           link: "/conversion/net/jpx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "JPX к PNG"
+        - name: "JPX в PNG"
           link: "/conversion/net/jpx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JPX к POT"
+        - name: "JPX в POT"
           link: "/conversion/net/jpx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "JPX к POTM"
+        - name: "JPX в POTM"
           link: "/conversion/net/jpx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPX к POTX"
+        - name: "JPX в POTX"
           link: "/conversion/net/jpx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPX к PPS"
+        - name: "JPX в PPS"
           link: "/conversion/net/jpx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPX к PPSM"
+        - name: "JPX в PPSM"
           link: "/conversion/net/jpx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPX к PPSX"
+        - name: "JPX в PPSX"
           link: "/conversion/net/jpx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JPX к PPT"
+        - name: "JPX в PPT"
           link: "/conversion/net/jpx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JPX к PPTM"
+        - name: "JPX в PPTM"
           link: "/conversion/net/jpx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JPX к PPTX"
+        - name: "JPX в PPTX"
           link: "/conversion/net/jpx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JPX к PSD"
+        - name: "JPX в PSD"
           link: "/conversion/net/jpx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JPX к RTF"
+        - name: "JPX в RTF"
           link: "/conversion/net/jpx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JPX к SVG"
+        - name: "JPX в SVG"
           link: "/conversion/net/jpx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPX к SVGZ"
+        - name: "JPX в SVGZ"
           link: "/conversion/net/jpx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPX к SXC"
+        - name: "JPX в SXC"
           link: "/conversion/net/jpx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "JPX к TEX"
+        - name: "JPX в TEX"
           link: "/conversion/net/jpx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JPX к TIF"
+        - name: "JPX в TIF"
           link: "/conversion/net/jpx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPX к TIFF"
+        - name: "JPX в TIFF"
           link: "/conversion/net/jpx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPX к TSV"
+        - name: "JPX в TSV"
           link: "/conversion/net/jpx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "JPX к TXT"
+        - name: "JPX в TXT"
           link: "/conversion/net/jpx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JPX к WEBP"
+        - name: "JPX в WEBP"
           link: "/conversion/net/jpx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JPX к WMF"
+        - name: "JPX в WMF"
           link: "/conversion/net/jpx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JPX к WMZ"
+        - name: "JPX в WMZ"
           link: "/conversion/net/jpx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JPX к XLAM"
+        - name: "JPX в XLAM"
           link: "/conversion/net/jpx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPX к XLS"
+        - name: "JPX в XLS"
           link: "/conversion/net/jpx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JPX к XLSB"
+        - name: "JPX в XLSB"
           link: "/conversion/net/jpx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JPX к XLSM"
+        - name: "JPX в XLSM"
           link: "/conversion/net/jpx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPX к XLSX"
+        - name: "JPX в XLSX"
           link: "/conversion/net/jpx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JPX к XLT"
+        - name: "JPX в XLT"
           link: "/conversion/net/jpx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPX к XLTM"
+        - name: "JPX в XLTM"
           link: "/conversion/net/jpx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPX к XLTX"
+        - name: "JPX в XLTX"
           link: "/conversion/net/jpx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPX к XPS"
+        - name: "JPX в XPS"
           link: "/conversion/net/jpx-to-xps/"
           description: "Спецификация документа Open XML"
 

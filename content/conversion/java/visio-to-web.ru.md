@@ -128,7 +128,7 @@ more_formats:
         Вы также можете конвертировать VISIO во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VISIO к PDF"
+        - name: "VISIO в PDF"
           link: "/conversion/java/visio-to-pdf/"
           description: "Портативный документ"
 

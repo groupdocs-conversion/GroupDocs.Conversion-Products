@@ -128,322 +128,322 @@ more_formats:
         Вы также можете конвертировать EML во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EML к BMP"
+        - name: "EML в BMP"
           link: "/conversion/java/eml-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EML к CSV"
+        - name: "EML в CSV"
           link: "/conversion/java/eml-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EML к DCM"
+        - name: "EML в DCM"
           link: "/conversion/java/eml-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "EML к DIF"
+        - name: "EML в DIF"
           link: "/conversion/java/eml-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "EML к DOC"
+        - name: "EML в DOC"
           link: "/conversion/java/eml-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EML к DOCM"
+        - name: "EML в DOCM"
           link: "/conversion/java/eml-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EML к DOCX"
+        - name: "EML в DOCX"
           link: "/conversion/java/eml-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EML к DOT"
+        - name: "EML в DOT"
           link: "/conversion/java/eml-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EML к DOTM"
+        - name: "EML в DOTM"
           link: "/conversion/java/eml-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EML к DOTX"
+        - name: "EML в DOTX"
           link: "/conversion/java/eml-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EML к EMF"
+        - name: "EML в EMF"
           link: "/conversion/java/eml-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EML к EMLX"
+        - name: "EML в EMLX"
           link: "/conversion/java/eml-to-emlx/"
           description: "Почтовое сообщение Apple"
 
         # format loop
-        - name: "EML к EMZ"
+        - name: "EML в EMZ"
           link: "/conversion/java/eml-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EML к EPUB"
+        - name: "EML в EPUB"
           link: "/conversion/java/eml-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EML к FODP"
+        - name: "EML в FODP"
           link: "/conversion/java/eml-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "EML к FODS"
+        - name: "EML в FODS"
           link: "/conversion/java/eml-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "EML к GIF"
+        - name: "EML в GIF"
           link: "/conversion/java/eml-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EML к HTM"
+        - name: "EML в HTM"
           link: "/conversion/java/eml-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "EML к HTML"
+        - name: "EML в HTML"
           link: "/conversion/java/eml-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EML к ICO"
+        - name: "EML в ICO"
           link: "/conversion/java/eml-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EML к JP2"
+        - name: "EML в JP2"
           link: "/conversion/java/eml-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EML к JPEG"
+        - name: "EML в JPEG"
           link: "/conversion/java/eml-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EML к JPG"
+        - name: "EML в JPG"
           link: "/conversion/java/eml-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EML к MD"
+        - name: "EML в MD"
           link: "/conversion/java/eml-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EML к MHT"
+        - name: "EML в MHT"
           link: "/conversion/java/eml-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EML к MHTML"
+        - name: "EML в MHTML"
           link: "/conversion/java/eml-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EML к MSG"
+        - name: "EML в MSG"
           link: "/conversion/java/eml-to-msg/"
           description: "Формат электронной почты Microsoft Outlook"
 
         # format loop
-        - name: "EML к ODP"
+        - name: "EML в ODP"
           link: "/conversion/java/eml-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EML к ODS"
+        - name: "EML в ODS"
           link: "/conversion/java/eml-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EML к ODT"
+        - name: "EML в ODT"
           link: "/conversion/java/eml-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EML к OTP"
+        - name: "EML в OTP"
           link: "/conversion/java/eml-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EML к PDF"
+        - name: "EML в PDF"
           link: "/conversion/java/eml-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EML к PNG"
+        - name: "EML в PNG"
           link: "/conversion/java/eml-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EML к POT"
+        - name: "EML в POT"
           link: "/conversion/java/eml-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "EML к POTM"
+        - name: "EML в POTM"
           link: "/conversion/java/eml-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EML к POTX"
+        - name: "EML в POTX"
           link: "/conversion/java/eml-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EML к PPS"
+        - name: "EML в PPS"
           link: "/conversion/java/eml-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EML к PPSM"
+        - name: "EML в PPSM"
           link: "/conversion/java/eml-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EML к PPSX"
+        - name: "EML в PPSX"
           link: "/conversion/java/eml-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EML к PPT"
+        - name: "EML в PPT"
           link: "/conversion/java/eml-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EML к PPTM"
+        - name: "EML в PPTM"
           link: "/conversion/java/eml-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EML к PPTX"
+        - name: "EML в PPTX"
           link: "/conversion/java/eml-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EML к PSD"
+        - name: "EML в PSD"
           link: "/conversion/java/eml-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EML к RTF"
+        - name: "EML в RTF"
           link: "/conversion/java/eml-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EML к SVG"
+        - name: "EML в SVG"
           link: "/conversion/java/eml-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EML к SVGZ"
+        - name: "EML в SVGZ"
           link: "/conversion/java/eml-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EML к SXC"
+        - name: "EML в SXC"
           link: "/conversion/java/eml-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "EML к TEX"
+        - name: "EML в TEX"
           link: "/conversion/java/eml-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EML к TIF"
+        - name: "EML в TIF"
           link: "/conversion/java/eml-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EML к TIFF"
+        - name: "EML в TIFF"
           link: "/conversion/java/eml-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EML к TSV"
+        - name: "EML в TSV"
           link: "/conversion/java/eml-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EML к TXT"
+        - name: "EML в TXT"
           link: "/conversion/java/eml-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EML к WEBP"
+        - name: "EML в WEBP"
           link: "/conversion/java/eml-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EML к WMF"
+        - name: "EML в WMF"
           link: "/conversion/java/eml-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EML к WMZ"
+        - name: "EML в WMZ"
           link: "/conversion/java/eml-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EML к XLAM"
+        - name: "EML в XLAM"
           link: "/conversion/java/eml-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EML к XLS"
+        - name: "EML в XLS"
           link: "/conversion/java/eml-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EML к XLSB"
+        - name: "EML в XLSB"
           link: "/conversion/java/eml-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EML к XLSM"
+        - name: "EML в XLSM"
           link: "/conversion/java/eml-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EML к XLSX"
+        - name: "EML в XLSX"
           link: "/conversion/java/eml-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EML к XLT"
+        - name: "EML в XLT"
           link: "/conversion/java/eml-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "EML к XLTM"
+        - name: "EML в XLTM"
           link: "/conversion/java/eml-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EML к XLTX"
+        - name: "EML в XLTX"
           link: "/conversion/java/eml-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EML к XPS"
+        - name: "EML в XPS"
           link: "/conversion/java/eml-to-xps/"
           description: "Спецификация документа Open XML"
 

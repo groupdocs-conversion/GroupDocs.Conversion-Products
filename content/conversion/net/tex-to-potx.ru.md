@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать TEX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "TEX к BMP"
+        - name: "TEX в BMP"
           link: "/conversion/net/tex-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "TEX к CSV"
+        - name: "TEX в CSV"
           link: "/conversion/net/tex-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "TEX к DCM"
+        - name: "TEX в DCM"
           link: "/conversion/net/tex-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "TEX к DIF"
+        - name: "TEX в DIF"
           link: "/conversion/net/tex-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "TEX к DOC"
+        - name: "TEX в DOC"
           link: "/conversion/net/tex-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "TEX к DOCM"
+        - name: "TEX в DOCM"
           link: "/conversion/net/tex-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TEX к DOCX"
+        - name: "TEX в DOCX"
           link: "/conversion/net/tex-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "TEX к DOT"
+        - name: "TEX в DOT"
           link: "/conversion/net/tex-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "TEX к DOTM"
+        - name: "TEX в DOTM"
           link: "/conversion/net/tex-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TEX к DOTX"
+        - name: "TEX в DOTX"
           link: "/conversion/net/tex-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "TEX к EMF"
+        - name: "TEX в EMF"
           link: "/conversion/net/tex-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "TEX к EMZ"
+        - name: "TEX в EMZ"
           link: "/conversion/net/tex-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "TEX к EPUB"
+        - name: "TEX в EPUB"
           link: "/conversion/net/tex-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "TEX к FODP"
+        - name: "TEX в FODP"
           link: "/conversion/net/tex-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "TEX к FODS"
+        - name: "TEX в FODS"
           link: "/conversion/net/tex-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "TEX к GIF"
+        - name: "TEX в GIF"
           link: "/conversion/net/tex-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "TEX к HTM"
+        - name: "TEX в HTM"
           link: "/conversion/net/tex-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "TEX к HTML"
+        - name: "TEX в HTML"
           link: "/conversion/net/tex-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "TEX к ICO"
+        - name: "TEX в ICO"
           link: "/conversion/net/tex-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "TEX к J2K"
+        - name: "TEX в J2K"
           link: "/conversion/net/tex-to-j2k/"
           description: "Изображение JPEG 2000"
 
         # format loop
-        - name: "TEX к JP2"
+        - name: "TEX в JP2"
           link: "/conversion/net/tex-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "TEX к JPEG"
+        - name: "TEX в JPEG"
           link: "/conversion/net/tex-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "TEX к JPG"
+        - name: "TEX в JPG"
           link: "/conversion/net/tex-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "TEX к MD"
+        - name: "TEX в MD"
           link: "/conversion/net/tex-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "TEX к MHT"
+        - name: "TEX в MHT"
           link: "/conversion/net/tex-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TEX к MHTML"
+        - name: "TEX в MHTML"
           link: "/conversion/net/tex-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TEX к ODP"
+        - name: "TEX в ODP"
           link: "/conversion/net/tex-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "TEX к ODS"
+        - name: "TEX в ODS"
           link: "/conversion/net/tex-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "TEX к ODT"
+        - name: "TEX в ODT"
           link: "/conversion/net/tex-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "TEX к OTP"
+        - name: "TEX в OTP"
           link: "/conversion/net/tex-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "TEX к OTT"
+        - name: "TEX в OTT"
           link: "/conversion/net/tex-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "TEX к PDF"
+        - name: "TEX в PDF"
           link: "/conversion/net/tex-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "TEX к PNG"
+        - name: "TEX в PNG"
           link: "/conversion/net/tex-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "TEX к POT"
+        - name: "TEX в POT"
           link: "/conversion/net/tex-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "TEX к POTM"
+        - name: "TEX в POTM"
           link: "/conversion/net/tex-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TEX к PPS"
+        - name: "TEX в PPS"
           link: "/conversion/net/tex-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TEX к PPSM"
+        - name: "TEX в PPSM"
           link: "/conversion/net/tex-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TEX к PPSX"
+        - name: "TEX в PPSX"
           link: "/conversion/net/tex-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "TEX к PPT"
+        - name: "TEX в PPT"
           link: "/conversion/net/tex-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "TEX к PPTM"
+        - name: "TEX в PPTM"
           link: "/conversion/net/tex-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "TEX к PPTX"
+        - name: "TEX в PPTX"
           link: "/conversion/net/tex-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "TEX к PSD"
+        - name: "TEX в PSD"
           link: "/conversion/net/tex-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "TEX к RTF"
+        - name: "TEX в RTF"
           link: "/conversion/net/tex-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "TEX к SVG"
+        - name: "TEX в SVG"
           link: "/conversion/net/tex-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TEX к SVGZ"
+        - name: "TEX в SVGZ"
           link: "/conversion/net/tex-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TEX к SXC"
+        - name: "TEX в SXC"
           link: "/conversion/net/tex-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "TEX к TIF"
+        - name: "TEX в TIF"
           link: "/conversion/net/tex-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TEX к TIFF"
+        - name: "TEX в TIFF"
           link: "/conversion/net/tex-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TEX к TSV"
+        - name: "TEX в TSV"
           link: "/conversion/net/tex-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "TEX к TXT"
+        - name: "TEX в TXT"
           link: "/conversion/net/tex-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "TEX к WEBP"
+        - name: "TEX в WEBP"
           link: "/conversion/net/tex-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "TEX к WMF"
+        - name: "TEX в WMF"
           link: "/conversion/net/tex-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "TEX к WMZ"
+        - name: "TEX в WMZ"
           link: "/conversion/net/tex-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "TEX к XLAM"
+        - name: "TEX в XLAM"
           link: "/conversion/net/tex-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TEX к XLS"
+        - name: "TEX в XLS"
           link: "/conversion/net/tex-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "TEX к XLSB"
+        - name: "TEX в XLSB"
           link: "/conversion/net/tex-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "TEX к XLSM"
+        - name: "TEX в XLSM"
           link: "/conversion/net/tex-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TEX к XLSX"
+        - name: "TEX в XLSX"
           link: "/conversion/net/tex-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "TEX к XLT"
+        - name: "TEX в XLT"
           link: "/conversion/net/tex-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "TEX к XLTM"
+        - name: "TEX в XLTM"
           link: "/conversion/net/tex-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TEX к XLTX"
+        - name: "TEX в XLTX"
           link: "/conversion/net/tex-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "TEX к XPS"
+        - name: "TEX в XPS"
           link: "/conversion/net/tex-to-xps/"
           description: "Спецификация документа Open XML"
 

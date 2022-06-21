@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать JPF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JPF к BMP"
+        - name: "JPF в BMP"
           link: "/conversion/java/jpf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JPF к CSV"
+        - name: "JPF в CSV"
           link: "/conversion/java/jpf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "JPF к DCM"
+        - name: "JPF в DCM"
           link: "/conversion/java/jpf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "JPF к DIF"
+        - name: "JPF в DIF"
           link: "/conversion/java/jpf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "JPF к DOC"
+        - name: "JPF в DOC"
           link: "/conversion/java/jpf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JPF к DOCM"
+        - name: "JPF в DOCM"
           link: "/conversion/java/jpf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPF к DOCX"
+        - name: "JPF в DOCX"
           link: "/conversion/java/jpf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JPF к DOT"
+        - name: "JPF в DOT"
           link: "/conversion/java/jpf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JPF к DOTM"
+        - name: "JPF в DOTM"
           link: "/conversion/java/jpf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPF к DOTX"
+        - name: "JPF в DOTX"
           link: "/conversion/java/jpf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JPF к EMF"
+        - name: "JPF в EMF"
           link: "/conversion/java/jpf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JPF к EMZ"
+        - name: "JPF в EMZ"
           link: "/conversion/java/jpf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JPF к EPUB"
+        - name: "JPF в EPUB"
           link: "/conversion/java/jpf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JPF к FODP"
+        - name: "JPF в FODP"
           link: "/conversion/java/jpf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "JPF к FODS"
+        - name: "JPF в FODS"
           link: "/conversion/java/jpf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "JPF к GIF"
+        - name: "JPF в GIF"
           link: "/conversion/java/jpf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "JPF к HTM"
+        - name: "JPF в HTM"
           link: "/conversion/java/jpf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "JPF к HTML"
+        - name: "JPF в HTML"
           link: "/conversion/java/jpf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "JPF к ICO"
+        - name: "JPF в ICO"
           link: "/conversion/java/jpf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JPF к JP2"
+        - name: "JPF в JP2"
           link: "/conversion/java/jpf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "JPF к JPEG"
+        - name: "JPF в JPEG"
           link: "/conversion/java/jpf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "JPF к JPG"
+        - name: "JPF в JPG"
           link: "/conversion/java/jpf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JPF к MD"
+        - name: "JPF в MD"
           link: "/conversion/java/jpf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JPF к MHT"
+        - name: "JPF в MHT"
           link: "/conversion/java/jpf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPF к MHTML"
+        - name: "JPF в MHTML"
           link: "/conversion/java/jpf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPF к ODP"
+        - name: "JPF в ODP"
           link: "/conversion/java/jpf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JPF к ODS"
+        - name: "JPF в ODS"
           link: "/conversion/java/jpf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JPF к ODT"
+        - name: "JPF в ODT"
           link: "/conversion/java/jpf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JPF к OTP"
+        - name: "JPF в OTP"
           link: "/conversion/java/jpf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "JPF к OTT"
+        - name: "JPF в OTT"
           link: "/conversion/java/jpf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JPF к PDF"
+        - name: "JPF в PDF"
           link: "/conversion/java/jpf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "JPF к PNG"
+        - name: "JPF в PNG"
           link: "/conversion/java/jpf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JPF к POT"
+        - name: "JPF в POT"
           link: "/conversion/java/jpf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "JPF к POTM"
+        - name: "JPF в POTM"
           link: "/conversion/java/jpf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPF к POTX"
+        - name: "JPF в POTX"
           link: "/conversion/java/jpf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPF к PPS"
+        - name: "JPF в PPS"
           link: "/conversion/java/jpf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPF к PPSM"
+        - name: "JPF в PPSM"
           link: "/conversion/java/jpf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPF к PPSX"
+        - name: "JPF в PPSX"
           link: "/conversion/java/jpf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JPF к PPT"
+        - name: "JPF в PPT"
           link: "/conversion/java/jpf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JPF к PPTM"
+        - name: "JPF в PPTM"
           link: "/conversion/java/jpf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JPF к PPTX"
+        - name: "JPF в PPTX"
           link: "/conversion/java/jpf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JPF к PSD"
+        - name: "JPF в PSD"
           link: "/conversion/java/jpf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JPF к RTF"
+        - name: "JPF в RTF"
           link: "/conversion/java/jpf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JPF к SVG"
+        - name: "JPF в SVG"
           link: "/conversion/java/jpf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPF к SVGZ"
+        - name: "JPF в SVGZ"
           link: "/conversion/java/jpf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPF к SXC"
+        - name: "JPF в SXC"
           link: "/conversion/java/jpf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "JPF к TEX"
+        - name: "JPF в TEX"
           link: "/conversion/java/jpf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JPF к TIF"
+        - name: "JPF в TIF"
           link: "/conversion/java/jpf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPF к TIFF"
+        - name: "JPF в TIFF"
           link: "/conversion/java/jpf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPF к TSV"
+        - name: "JPF в TSV"
           link: "/conversion/java/jpf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "JPF к TXT"
+        - name: "JPF в TXT"
           link: "/conversion/java/jpf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JPF к WEBP"
+        - name: "JPF в WEBP"
           link: "/conversion/java/jpf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JPF к WMF"
+        - name: "JPF в WMF"
           link: "/conversion/java/jpf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JPF к WMZ"
+        - name: "JPF в WMZ"
           link: "/conversion/java/jpf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JPF к XLAM"
+        - name: "JPF в XLAM"
           link: "/conversion/java/jpf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPF к XLS"
+        - name: "JPF в XLS"
           link: "/conversion/java/jpf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JPF к XLSB"
+        - name: "JPF в XLSB"
           link: "/conversion/java/jpf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JPF к XLSM"
+        - name: "JPF в XLSM"
           link: "/conversion/java/jpf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPF к XLSX"
+        - name: "JPF в XLSX"
           link: "/conversion/java/jpf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JPF к XLTM"
+        - name: "JPF в XLTM"
           link: "/conversion/java/jpf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPF к XLTX"
+        - name: "JPF в XLTX"
           link: "/conversion/java/jpf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPF к XPS"
+        - name: "JPF в XPS"
           link: "/conversion/java/jpf-to-xps/"
           description: "Спецификация документа Open XML"
 

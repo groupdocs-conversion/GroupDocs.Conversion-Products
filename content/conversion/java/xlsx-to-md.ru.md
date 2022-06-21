@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать XLSX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "XLSX к BMP"
+        - name: "XLSX в BMP"
           link: "/conversion/java/xlsx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "XLSX к CSV"
+        - name: "XLSX в CSV"
           link: "/conversion/java/xlsx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "XLSX к DCM"
+        - name: "XLSX в DCM"
           link: "/conversion/java/xlsx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "XLSX к DIF"
+        - name: "XLSX в DIF"
           link: "/conversion/java/xlsx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "XLSX к DOC"
+        - name: "XLSX в DOC"
           link: "/conversion/java/xlsx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "XLSX к DOCM"
+        - name: "XLSX в DOCM"
           link: "/conversion/java/xlsx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLSX к DOCX"
+        - name: "XLSX в DOCX"
           link: "/conversion/java/xlsx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "XLSX к DOT"
+        - name: "XLSX в DOT"
           link: "/conversion/java/xlsx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "XLSX к DOTM"
+        - name: "XLSX в DOTM"
           link: "/conversion/java/xlsx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLSX к DOTX"
+        - name: "XLSX в DOTX"
           link: "/conversion/java/xlsx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "XLSX к EMF"
+        - name: "XLSX в EMF"
           link: "/conversion/java/xlsx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "XLSX к EMZ"
+        - name: "XLSX в EMZ"
           link: "/conversion/java/xlsx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "XLSX к EPUB"
+        - name: "XLSX в EPUB"
           link: "/conversion/java/xlsx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "XLSX к FODP"
+        - name: "XLSX в FODP"
           link: "/conversion/java/xlsx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "XLSX к FODS"
+        - name: "XLSX в FODS"
           link: "/conversion/java/xlsx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "XLSX к GIF"
+        - name: "XLSX в GIF"
           link: "/conversion/java/xlsx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "XLSX к HTM"
+        - name: "XLSX в HTM"
           link: "/conversion/java/xlsx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "XLSX к HTML"
+        - name: "XLSX в HTML"
           link: "/conversion/java/xlsx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "XLSX к ICO"
+        - name: "XLSX в ICO"
           link: "/conversion/java/xlsx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "XLSX к JP2"
+        - name: "XLSX в JP2"
           link: "/conversion/java/xlsx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "XLSX к JPEG"
+        - name: "XLSX в JPEG"
           link: "/conversion/java/xlsx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "XLSX к JPG"
+        - name: "XLSX в JPG"
           link: "/conversion/java/xlsx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "XLSX к MHT"
+        - name: "XLSX в MHT"
           link: "/conversion/java/xlsx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLSX к MHTML"
+        - name: "XLSX в MHTML"
           link: "/conversion/java/xlsx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLSX к ODP"
+        - name: "XLSX в ODP"
           link: "/conversion/java/xlsx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "XLSX к ODS"
+        - name: "XLSX в ODS"
           link: "/conversion/java/xlsx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "XLSX к ODT"
+        - name: "XLSX в ODT"
           link: "/conversion/java/xlsx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "XLSX к OTP"
+        - name: "XLSX в OTP"
           link: "/conversion/java/xlsx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "XLSX к OTT"
+        - name: "XLSX в OTT"
           link: "/conversion/java/xlsx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "XLSX к PDF"
+        - name: "XLSX в PDF"
           link: "/conversion/java/xlsx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "XLSX к PNG"
+        - name: "XLSX в PNG"
           link: "/conversion/java/xlsx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "XLSX к POT"
+        - name: "XLSX в POT"
           link: "/conversion/java/xlsx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "XLSX к POTM"
+        - name: "XLSX в POTM"
           link: "/conversion/java/xlsx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLSX к POTX"
+        - name: "XLSX в POTX"
           link: "/conversion/java/xlsx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLSX к PPS"
+        - name: "XLSX в PPS"
           link: "/conversion/java/xlsx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLSX к PPSM"
+        - name: "XLSX в PPSM"
           link: "/conversion/java/xlsx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLSX к PPSX"
+        - name: "XLSX в PPSX"
           link: "/conversion/java/xlsx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "XLSX к PPT"
+        - name: "XLSX в PPT"
           link: "/conversion/java/xlsx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "XLSX к PPTM"
+        - name: "XLSX в PPTM"
           link: "/conversion/java/xlsx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "XLSX к PPTX"
+        - name: "XLSX в PPTX"
           link: "/conversion/java/xlsx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "XLSX к PSD"
+        - name: "XLSX в PSD"
           link: "/conversion/java/xlsx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "XLSX к RTF"
+        - name: "XLSX в RTF"
           link: "/conversion/java/xlsx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "XLSX к SVG"
+        - name: "XLSX в SVG"
           link: "/conversion/java/xlsx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLSX к SVGZ"
+        - name: "XLSX в SVGZ"
           link: "/conversion/java/xlsx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLSX к SXC"
+        - name: "XLSX в SXC"
           link: "/conversion/java/xlsx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "XLSX к TEX"
+        - name: "XLSX в TEX"
           link: "/conversion/java/xlsx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "XLSX к TIF"
+        - name: "XLSX в TIF"
           link: "/conversion/java/xlsx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLSX к TIFF"
+        - name: "XLSX в TIFF"
           link: "/conversion/java/xlsx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLSX к TSV"
+        - name: "XLSX в TSV"
           link: "/conversion/java/xlsx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "XLSX к TXT"
+        - name: "XLSX в TXT"
           link: "/conversion/java/xlsx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "XLSX к WEBP"
+        - name: "XLSX в WEBP"
           link: "/conversion/java/xlsx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "XLSX к WMF"
+        - name: "XLSX в WMF"
           link: "/conversion/java/xlsx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "XLSX к WMZ"
+        - name: "XLSX в WMZ"
           link: "/conversion/java/xlsx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "XLSX к XLAM"
+        - name: "XLSX в XLAM"
           link: "/conversion/java/xlsx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLSX к XLS"
+        - name: "XLSX в XLS"
           link: "/conversion/java/xlsx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "XLSX к XLSB"
+        - name: "XLSX в XLSB"
           link: "/conversion/java/xlsx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "XLSX к XLSM"
+        - name: "XLSX в XLSM"
           link: "/conversion/java/xlsx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLSX к XLT"
+        - name: "XLSX в XLT"
           link: "/conversion/java/xlsx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLSX к XLTM"
+        - name: "XLSX в XLTM"
           link: "/conversion/java/xlsx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLSX к XLTX"
+        - name: "XLSX в XLTX"
           link: "/conversion/java/xlsx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLSX к XPS"
+        - name: "XLSX в XPS"
           link: "/conversion/java/xlsx-to-xps/"
           description: "Спецификация документа Open XML"
 

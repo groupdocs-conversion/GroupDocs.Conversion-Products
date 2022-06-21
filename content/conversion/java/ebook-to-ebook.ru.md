@@ -128,267 +128,267 @@ more_formats:
         Вы также можете конвертировать EBOOK во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EBOOK к EPUB"
+        - name: "EBOOK в EPUB"
           link: "/conversion/java/ebook-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EBOOK к XPS"
+        - name: "EBOOK в XPS"
           link: "/conversion/java/ebook-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "EBOOK к TEX"
+        - name: "EBOOK в TEX"
           link: "/conversion/java/ebook-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EBOOK к PPT"
+        - name: "EBOOK в PPT"
           link: "/conversion/java/ebook-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EBOOK к PPS"
+        - name: "EBOOK в PPS"
           link: "/conversion/java/ebook-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK к PPTX"
+        - name: "EBOOK в PPTX"
           link: "/conversion/java/ebook-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EBOOK к PPSX"
+        - name: "EBOOK в PPSX"
           link: "/conversion/java/ebook-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EBOOK к ODP"
+        - name: "EBOOK в ODP"
           link: "/conversion/java/ebook-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EBOOK к OTP"
+        - name: "EBOOK в OTP"
           link: "/conversion/java/ebook-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EBOOK к POTX"
+        - name: "EBOOK в POTX"
           link: "/conversion/java/ebook-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK к POTM"
+        - name: "EBOOK в POTM"
           link: "/conversion/java/ebook-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK к PPTM"
+        - name: "EBOOK в PPTM"
           link: "/conversion/java/ebook-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK к PPSM"
+        - name: "EBOOK в PPSM"
           link: "/conversion/java/ebook-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK к XLS"
+        - name: "EBOOK в XLS"
           link: "/conversion/java/ebook-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EBOOK к XLSX"
+        - name: "EBOOK в XLSX"
           link: "/conversion/java/ebook-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EBOOK к XLSM"
+        - name: "EBOOK в XLSM"
           link: "/conversion/java/ebook-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EBOOK к XLSB"
+        - name: "EBOOK в XLSB"
           link: "/conversion/java/ebook-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EBOOK к ODS"
+        - name: "EBOOK в ODS"
           link: "/conversion/java/ebook-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EBOOK к XLTX"
+        - name: "EBOOK в XLTX"
           link: "/conversion/java/ebook-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EBOOK к XLTM"
+        - name: "EBOOK в XLTM"
           link: "/conversion/java/ebook-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EBOOK к TSV"
+        - name: "EBOOK в TSV"
           link: "/conversion/java/ebook-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EBOOK к XLAM"
+        - name: "EBOOK в XLAM"
           link: "/conversion/java/ebook-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EBOOK к CSV"
+        - name: "EBOOK в CSV"
           link: "/conversion/java/ebook-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EBOOK к DOC"
+        - name: "EBOOK в DOC"
           link: "/conversion/java/ebook-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EBOOK к DOCM"
+        - name: "EBOOK в DOCM"
           link: "/conversion/java/ebook-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EBOOK к EBOOK"
+        - name: "EBOOK в EBOOK"
           link: "/conversion/java/ebook-to-ebook/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EBOOK к DOT"
+        - name: "EBOOK в DOT"
           link: "/conversion/java/ebook-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EBOOK к DOTM"
+        - name: "EBOOK в DOTM"
           link: "/conversion/java/ebook-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EBOOK к DOTX"
+        - name: "EBOOK в DOTX"
           link: "/conversion/java/ebook-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EBOOK к RTF"
+        - name: "EBOOK в RTF"
           link: "/conversion/java/ebook-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EBOOK к ODT"
+        - name: "EBOOK в ODT"
           link: "/conversion/java/ebook-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EBOOK к OTT"
+        - name: "EBOOK в OTT"
           link: "/conversion/java/ebook-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EBOOK к TXT"
+        - name: "EBOOK в TXT"
           link: "/conversion/java/ebook-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EBOOK к MD"
+        - name: "EBOOK в MD"
           link: "/conversion/java/ebook-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EBOOK к TIFF"
+        - name: "EBOOK в TIFF"
           link: "/conversion/java/ebook-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EBOOK к TIF"
+        - name: "EBOOK в TIF"
           link: "/conversion/java/ebook-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EBOOK к JPG"
+        - name: "EBOOK в JPG"
           link: "/conversion/java/ebook-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EBOOK к JPEG"
+        - name: "EBOOK в JPEG"
           link: "/conversion/java/ebook-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EBOOK к PNG"
+        - name: "EBOOK в PNG"
           link: "/conversion/java/ebook-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EBOOK к GIF"
+        - name: "EBOOK в GIF"
           link: "/conversion/java/ebook-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EBOOK к BMP"
+        - name: "EBOOK в BMP"
           link: "/conversion/java/ebook-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EBOOK к ICO"
+        - name: "EBOOK в ICO"
           link: "/conversion/java/ebook-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EBOOK к PSD"
+        - name: "EBOOK в PSD"
           link: "/conversion/java/ebook-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EBOOK к WMF"
+        - name: "EBOOK в WMF"
           link: "/conversion/java/ebook-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EBOOK к EMF"
+        - name: "EBOOK в EMF"
           link: "/conversion/java/ebook-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EBOOK к WEBP"
+        - name: "EBOOK в WEBP"
           link: "/conversion/java/ebook-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EBOOK к SVG"
+        - name: "EBOOK в SVG"
           link: "/conversion/java/ebook-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EBOOK к JP2"
+        - name: "EBOOK в JP2"
           link: "/conversion/java/ebook-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EBOOK к EMZ"
+        - name: "EBOOK в EMZ"
           link: "/conversion/java/ebook-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EBOOK к WMZ"
+        - name: "EBOOK в WMZ"
           link: "/conversion/java/ebook-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EBOOK к HTML"
+        - name: "EBOOK в HTML"
           link: "/conversion/java/ebook-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EBOOK к MHT"
+        - name: "EBOOK в MHT"
           link: "/conversion/java/ebook-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EBOOK к MHTML"
+        - name: "EBOOK в MHTML"
           link: "/conversion/java/ebook-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

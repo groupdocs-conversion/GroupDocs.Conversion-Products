@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать TSV во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "TSV к BMP"
+        - name: "TSV в BMP"
           link: "/conversion/java/tsv-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "TSV к CSV"
+        - name: "TSV в CSV"
           link: "/conversion/java/tsv-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "TSV к DCM"
+        - name: "TSV в DCM"
           link: "/conversion/java/tsv-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "TSV к DIF"
+        - name: "TSV в DIF"
           link: "/conversion/java/tsv-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "TSV к DOCM"
+        - name: "TSV в DOCM"
           link: "/conversion/java/tsv-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TSV к DOCX"
+        - name: "TSV в DOCX"
           link: "/conversion/java/tsv-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "TSV к DOT"
+        - name: "TSV в DOT"
           link: "/conversion/java/tsv-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "TSV к DOTM"
+        - name: "TSV в DOTM"
           link: "/conversion/java/tsv-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TSV к DOTX"
+        - name: "TSV в DOTX"
           link: "/conversion/java/tsv-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "TSV к EMF"
+        - name: "TSV в EMF"
           link: "/conversion/java/tsv-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "TSV к EMZ"
+        - name: "TSV в EMZ"
           link: "/conversion/java/tsv-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "TSV к EPUB"
+        - name: "TSV в EPUB"
           link: "/conversion/java/tsv-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "TSV к FODP"
+        - name: "TSV в FODP"
           link: "/conversion/java/tsv-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "TSV к FODS"
+        - name: "TSV в FODS"
           link: "/conversion/java/tsv-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "TSV к GIF"
+        - name: "TSV в GIF"
           link: "/conversion/java/tsv-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "TSV к HTM"
+        - name: "TSV в HTM"
           link: "/conversion/java/tsv-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "TSV к HTML"
+        - name: "TSV в HTML"
           link: "/conversion/java/tsv-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "TSV к ICO"
+        - name: "TSV в ICO"
           link: "/conversion/java/tsv-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "TSV к JP2"
+        - name: "TSV в JP2"
           link: "/conversion/java/tsv-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "TSV к JPEG"
+        - name: "TSV в JPEG"
           link: "/conversion/java/tsv-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "TSV к JPG"
+        - name: "TSV в JPG"
           link: "/conversion/java/tsv-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "TSV к MD"
+        - name: "TSV в MD"
           link: "/conversion/java/tsv-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "TSV к MHT"
+        - name: "TSV в MHT"
           link: "/conversion/java/tsv-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TSV к MHTML"
+        - name: "TSV в MHTML"
           link: "/conversion/java/tsv-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TSV к ODP"
+        - name: "TSV в ODP"
           link: "/conversion/java/tsv-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "TSV к ODS"
+        - name: "TSV в ODS"
           link: "/conversion/java/tsv-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "TSV к ODT"
+        - name: "TSV в ODT"
           link: "/conversion/java/tsv-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "TSV к OTP"
+        - name: "TSV в OTP"
           link: "/conversion/java/tsv-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "TSV к OTT"
+        - name: "TSV в OTT"
           link: "/conversion/java/tsv-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "TSV к PDF"
+        - name: "TSV в PDF"
           link: "/conversion/java/tsv-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "TSV к PNG"
+        - name: "TSV в PNG"
           link: "/conversion/java/tsv-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "TSV к POT"
+        - name: "TSV в POT"
           link: "/conversion/java/tsv-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "TSV к POTM"
+        - name: "TSV в POTM"
           link: "/conversion/java/tsv-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TSV к POTX"
+        - name: "TSV в POTX"
           link: "/conversion/java/tsv-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TSV к PPS"
+        - name: "TSV в PPS"
           link: "/conversion/java/tsv-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TSV к PPSM"
+        - name: "TSV в PPSM"
           link: "/conversion/java/tsv-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TSV к PPSX"
+        - name: "TSV в PPSX"
           link: "/conversion/java/tsv-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "TSV к PPT"
+        - name: "TSV в PPT"
           link: "/conversion/java/tsv-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "TSV к PPTM"
+        - name: "TSV в PPTM"
           link: "/conversion/java/tsv-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "TSV к PPTX"
+        - name: "TSV в PPTX"
           link: "/conversion/java/tsv-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "TSV к PSD"
+        - name: "TSV в PSD"
           link: "/conversion/java/tsv-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "TSV к RTF"
+        - name: "TSV в RTF"
           link: "/conversion/java/tsv-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "TSV к SVG"
+        - name: "TSV в SVG"
           link: "/conversion/java/tsv-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TSV к SVGZ"
+        - name: "TSV в SVGZ"
           link: "/conversion/java/tsv-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TSV к SXC"
+        - name: "TSV в SXC"
           link: "/conversion/java/tsv-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "TSV к TEX"
+        - name: "TSV в TEX"
           link: "/conversion/java/tsv-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "TSV к TIF"
+        - name: "TSV в TIF"
           link: "/conversion/java/tsv-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TSV к TIFF"
+        - name: "TSV в TIFF"
           link: "/conversion/java/tsv-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TSV к TXT"
+        - name: "TSV в TXT"
           link: "/conversion/java/tsv-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "TSV к WEBP"
+        - name: "TSV в WEBP"
           link: "/conversion/java/tsv-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "TSV к WMF"
+        - name: "TSV в WMF"
           link: "/conversion/java/tsv-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "TSV к WMZ"
+        - name: "TSV в WMZ"
           link: "/conversion/java/tsv-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "TSV к XLAM"
+        - name: "TSV в XLAM"
           link: "/conversion/java/tsv-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TSV к XLS"
+        - name: "TSV в XLS"
           link: "/conversion/java/tsv-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "TSV к XLSB"
+        - name: "TSV в XLSB"
           link: "/conversion/java/tsv-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "TSV к XLSM"
+        - name: "TSV в XLSM"
           link: "/conversion/java/tsv-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TSV к XLSX"
+        - name: "TSV в XLSX"
           link: "/conversion/java/tsv-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "TSV к XLT"
+        - name: "TSV в XLT"
           link: "/conversion/java/tsv-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "TSV к XLTM"
+        - name: "TSV в XLTM"
           link: "/conversion/java/tsv-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TSV к XLTX"
+        - name: "TSV в XLTX"
           link: "/conversion/java/tsv-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "TSV к XPS"
+        - name: "TSV в XPS"
           link: "/conversion/java/tsv-to-xps/"
           description: "Спецификация документа Open XML"
 

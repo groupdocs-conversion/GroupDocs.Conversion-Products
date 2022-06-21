@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать PSD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PSD к BMP"
+        - name: "PSD в BMP"
           link: "/conversion/java/psd-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PSD к CSV"
+        - name: "PSD в CSV"
           link: "/conversion/java/psd-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PSD к DCM"
+        - name: "PSD в DCM"
           link: "/conversion/java/psd-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PSD к DIF"
+        - name: "PSD в DIF"
           link: "/conversion/java/psd-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PSD к DOC"
+        - name: "PSD в DOC"
           link: "/conversion/java/psd-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PSD к DOCM"
+        - name: "PSD в DOCM"
           link: "/conversion/java/psd-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PSD к DOCX"
+        - name: "PSD в DOCX"
           link: "/conversion/java/psd-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PSD к DOT"
+        - name: "PSD в DOT"
           link: "/conversion/java/psd-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PSD к DOTM"
+        - name: "PSD в DOTM"
           link: "/conversion/java/psd-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PSD к DOTX"
+        - name: "PSD в DOTX"
           link: "/conversion/java/psd-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PSD к EMF"
+        - name: "PSD в EMF"
           link: "/conversion/java/psd-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PSD к EMZ"
+        - name: "PSD в EMZ"
           link: "/conversion/java/psd-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PSD к EPUB"
+        - name: "PSD в EPUB"
           link: "/conversion/java/psd-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PSD к FODP"
+        - name: "PSD в FODP"
           link: "/conversion/java/psd-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PSD к FODS"
+        - name: "PSD в FODS"
           link: "/conversion/java/psd-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PSD к GIF"
+        - name: "PSD в GIF"
           link: "/conversion/java/psd-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PSD к HTM"
+        - name: "PSD в HTM"
           link: "/conversion/java/psd-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PSD к HTML"
+        - name: "PSD в HTML"
           link: "/conversion/java/psd-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PSD к ICO"
+        - name: "PSD в ICO"
           link: "/conversion/java/psd-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PSD к JPEG"
+        - name: "PSD в JPEG"
           link: "/conversion/java/psd-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PSD к JPG"
+        - name: "PSD в JPG"
           link: "/conversion/java/psd-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PSD к MD"
+        - name: "PSD в MD"
           link: "/conversion/java/psd-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PSD к MHT"
+        - name: "PSD в MHT"
           link: "/conversion/java/psd-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PSD к MHTML"
+        - name: "PSD в MHTML"
           link: "/conversion/java/psd-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PSD к ODG"
+        - name: "PSD в ODG"
           link: "/conversion/java/psd-to-odg/"
           description: "Файл чертежа OpenDocument"
 
         # format loop
-        - name: "PSD к ODP"
+        - name: "PSD в ODP"
           link: "/conversion/java/psd-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PSD к ODS"
+        - name: "PSD в ODS"
           link: "/conversion/java/psd-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PSD к ODT"
+        - name: "PSD в ODT"
           link: "/conversion/java/psd-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PSD к OTP"
+        - name: "PSD в OTP"
           link: "/conversion/java/psd-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PSD к OTT"
+        - name: "PSD в OTT"
           link: "/conversion/java/psd-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PSD к PDF"
+        - name: "PSD в PDF"
           link: "/conversion/java/psd-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PSD к PNG"
+        - name: "PSD в PNG"
           link: "/conversion/java/psd-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PSD к POT"
+        - name: "PSD в POT"
           link: "/conversion/java/psd-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PSD к POTM"
+        - name: "PSD в POTM"
           link: "/conversion/java/psd-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PSD к POTX"
+        - name: "PSD в POTX"
           link: "/conversion/java/psd-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PSD к PPS"
+        - name: "PSD в PPS"
           link: "/conversion/java/psd-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PSD к PPSM"
+        - name: "PSD в PPSM"
           link: "/conversion/java/psd-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PSD к PPSX"
+        - name: "PSD в PPSX"
           link: "/conversion/java/psd-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PSD к PPT"
+        - name: "PSD в PPT"
           link: "/conversion/java/psd-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PSD к PPTM"
+        - name: "PSD в PPTM"
           link: "/conversion/java/psd-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PSD к PPTX"
+        - name: "PSD в PPTX"
           link: "/conversion/java/psd-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PSD к RTF"
+        - name: "PSD в RTF"
           link: "/conversion/java/psd-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PSD к SVG"
+        - name: "PSD в SVG"
           link: "/conversion/java/psd-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PSD к SVGZ"
+        - name: "PSD в SVGZ"
           link: "/conversion/java/psd-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PSD к SXC"
+        - name: "PSD в SXC"
           link: "/conversion/java/psd-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PSD к TEX"
+        - name: "PSD в TEX"
           link: "/conversion/java/psd-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PSD к TIF"
+        - name: "PSD в TIF"
           link: "/conversion/java/psd-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PSD к TIFF"
+        - name: "PSD в TIFF"
           link: "/conversion/java/psd-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PSD к TSV"
+        - name: "PSD в TSV"
           link: "/conversion/java/psd-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PSD к TXT"
+        - name: "PSD в TXT"
           link: "/conversion/java/psd-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PSD к WEBP"
+        - name: "PSD в WEBP"
           link: "/conversion/java/psd-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PSD к WMF"
+        - name: "PSD в WMF"
           link: "/conversion/java/psd-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PSD к WMZ"
+        - name: "PSD в WMZ"
           link: "/conversion/java/psd-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PSD к XLAM"
+        - name: "PSD в XLAM"
           link: "/conversion/java/psd-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PSD к XLS"
+        - name: "PSD в XLS"
           link: "/conversion/java/psd-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PSD к XLSB"
+        - name: "PSD в XLSB"
           link: "/conversion/java/psd-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PSD к XLSM"
+        - name: "PSD в XLSM"
           link: "/conversion/java/psd-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PSD к XLSX"
+        - name: "PSD в XLSX"
           link: "/conversion/java/psd-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PSD к XLT"
+        - name: "PSD в XLT"
           link: "/conversion/java/psd-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PSD к XLTM"
+        - name: "PSD в XLTM"
           link: "/conversion/java/psd-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PSD к XLTX"
+        - name: "PSD в XLTX"
           link: "/conversion/java/psd-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PSD к XPS"
+        - name: "PSD в XPS"
           link: "/conversion/java/psd-to-xps/"
           description: "Спецификация документа Open XML"
 

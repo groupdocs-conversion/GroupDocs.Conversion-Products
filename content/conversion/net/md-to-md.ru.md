@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать MD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MD к EPUB"
+        - name: "MD в EPUB"
           link: "https://products.groupdocs.com/conversion/net/md-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MD к XPS"
+        - name: "MD в XPS"
           link: "https://products.groupdocs.com/conversion/net/md-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "MD к TEX"
+        - name: "MD в TEX"
           link: "https://products.groupdocs.com/conversion/net/md-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MD к PPT"
+        - name: "MD в PPT"
           link: "https://products.groupdocs.com/conversion/net/md-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MD к PPS"
+        - name: "MD в PPS"
           link: "https://products.groupdocs.com/conversion/net/md-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MD к PPTX"
+        - name: "MD в PPTX"
           link: "https://products.groupdocs.com/conversion/net/md-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MD к PPSX"
+        - name: "MD в PPSX"
           link: "https://products.groupdocs.com/conversion/net/md-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MD к ODP"
+        - name: "MD в ODP"
           link: "https://products.groupdocs.com/conversion/net/md-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MD к OTP"
+        - name: "MD в OTP"
           link: "https://products.groupdocs.com/conversion/net/md-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MD к POTX"
+        - name: "MD в POTX"
           link: "https://products.groupdocs.com/conversion/net/md-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MD к POTM"
+        - name: "MD в POTM"
           link: "https://products.groupdocs.com/conversion/net/md-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MD к PPTM"
+        - name: "MD в PPTM"
           link: "https://products.groupdocs.com/conversion/net/md-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MD к PPSM"
+        - name: "MD в PPSM"
           link: "https://products.groupdocs.com/conversion/net/md-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MD к XLS"
+        - name: "MD в XLS"
           link: "https://products.groupdocs.com/conversion/net/md-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MD к XLSX"
+        - name: "MD в XLSX"
           link: "https://products.groupdocs.com/conversion/net/md-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MD к XLSM"
+        - name: "MD в XLSM"
           link: "https://products.groupdocs.com/conversion/net/md-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MD к XLSB"
+        - name: "MD в XLSB"
           link: "https://products.groupdocs.com/conversion/net/md-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MD к ODS"
+        - name: "MD в ODS"
           link: "https://products.groupdocs.com/conversion/net/md-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MD к XLTX"
+        - name: "MD в XLTX"
           link: "https://products.groupdocs.com/conversion/net/md-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MD к XLTM"
+        - name: "MD в XLTM"
           link: "https://products.groupdocs.com/conversion/net/md-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MD к TSV"
+        - name: "MD в TSV"
           link: "https://products.groupdocs.com/conversion/net/md-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MD к XLAM"
+        - name: "MD в XLAM"
           link: "https://products.groupdocs.com/conversion/net/md-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MD к CSV"
+        - name: "MD в CSV"
           link: "https://products.groupdocs.com/conversion/net/md-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MD к DOC"
+        - name: "MD в DOC"
           link: "https://products.groupdocs.com/conversion/net/md-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MD к DOCM"
+        - name: "MD в DOCM"
           link: "https://products.groupdocs.com/conversion/net/md-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MD к MD"
+        - name: "MD в MD"
           link: "https://products.groupdocs.com/conversion/net/md-to-md/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MD к DOT"
+        - name: "MD в DOT"
           link: "https://products.groupdocs.com/conversion/net/md-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MD к DOTM"
+        - name: "MD в DOTM"
           link: "https://products.groupdocs.com/conversion/net/md-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MD к DOTX"
+        - name: "MD в DOTX"
           link: "https://products.groupdocs.com/conversion/net/md-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MD к RTF"
+        - name: "MD в RTF"
           link: "https://products.groupdocs.com/conversion/net/md-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MD к ODT"
+        - name: "MD в ODT"
           link: "https://products.groupdocs.com/conversion/net/md-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MD к OTT"
+        - name: "MD в OTT"
           link: "https://products.groupdocs.com/conversion/net/md-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MD к TXT"
+        - name: "MD в TXT"
           link: "https://products.groupdocs.com/conversion/net/md-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MD к MD"
+        - name: "MD в MD"
           link: "https://products.groupdocs.com/conversion/net/md-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MD к TIFF"
+        - name: "MD в TIFF"
           link: "https://products.groupdocs.com/conversion/net/md-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MD к TIF"
+        - name: "MD в TIF"
           link: "https://products.groupdocs.com/conversion/net/md-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MD к JPG"
+        - name: "MD в JPG"
           link: "https://products.groupdocs.com/conversion/net/md-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MD к JPEG"
+        - name: "MD в JPEG"
           link: "https://products.groupdocs.com/conversion/net/md-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MD к PNG"
+        - name: "MD в PNG"
           link: "https://products.groupdocs.com/conversion/net/md-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MD к GIF"
+        - name: "MD в GIF"
           link: "https://products.groupdocs.com/conversion/net/md-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MD к BMP"
+        - name: "MD в BMP"
           link: "https://products.groupdocs.com/conversion/net/md-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MD к ICO"
+        - name: "MD в ICO"
           link: "https://products.groupdocs.com/conversion/net/md-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MD к PSD"
+        - name: "MD в PSD"
           link: "https://products.groupdocs.com/conversion/net/md-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MD к WMF"
+        - name: "MD в WMF"
           link: "https://products.groupdocs.com/conversion/net/md-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MD к EMF"
+        - name: "MD в EMF"
           link: "https://products.groupdocs.com/conversion/net/md-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MD к WEBP"
+        - name: "MD в WEBP"
           link: "https://products.groupdocs.com/conversion/net/md-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MD к SVG"
+        - name: "MD в SVG"
           link: "https://products.groupdocs.com/conversion/net/md-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MD к JP2"
+        - name: "MD в JP2"
           link: "https://products.groupdocs.com/conversion/net/md-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MD к EMZ"
+        - name: "MD в EMZ"
           link: "https://products.groupdocs.com/conversion/net/md-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MD к WMZ"
+        - name: "MD в WMZ"
           link: "https://products.groupdocs.com/conversion/net/md-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MD к HTML"
+        - name: "MD в HTML"
           link: "https://products.groupdocs.com/conversion/net/md-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MD к MHT"
+        - name: "MD в MHT"
           link: "https://products.groupdocs.com/conversion/net/md-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MD к MHTML"
+        - name: "MD в MHTML"
           link: "https://products.groupdocs.com/conversion/net/md-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

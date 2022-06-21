@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать PPTM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PPTM к BMP"
+        - name: "PPTM в BMP"
           link: "/conversion/java/pptm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PPTM к CSV"
+        - name: "PPTM в CSV"
           link: "/conversion/java/pptm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PPTM к DCM"
+        - name: "PPTM в DCM"
           link: "/conversion/java/pptm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PPTM к DIF"
+        - name: "PPTM в DIF"
           link: "/conversion/java/pptm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PPTM к DOC"
+        - name: "PPTM в DOC"
           link: "/conversion/java/pptm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PPTM к DOCM"
+        - name: "PPTM в DOCM"
           link: "/conversion/java/pptm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPTM к DOCX"
+        - name: "PPTM в DOCX"
           link: "/conversion/java/pptm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PPTM к DOT"
+        - name: "PPTM в DOT"
           link: "/conversion/java/pptm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PPTM к DOTM"
+        - name: "PPTM в DOTM"
           link: "/conversion/java/pptm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPTM к DOTX"
+        - name: "PPTM в DOTX"
           link: "/conversion/java/pptm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PPTM к EMF"
+        - name: "PPTM в EMF"
           link: "/conversion/java/pptm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PPTM к EMZ"
+        - name: "PPTM в EMZ"
           link: "/conversion/java/pptm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PPTM к EPUB"
+        - name: "PPTM в EPUB"
           link: "/conversion/java/pptm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PPTM к FODP"
+        - name: "PPTM в FODP"
           link: "/conversion/java/pptm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PPTM к FODS"
+        - name: "PPTM в FODS"
           link: "/conversion/java/pptm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PPTM к GIF"
+        - name: "PPTM в GIF"
           link: "/conversion/java/pptm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PPTM к HTM"
+        - name: "PPTM в HTM"
           link: "/conversion/java/pptm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PPTM к HTML"
+        - name: "PPTM в HTML"
           link: "/conversion/java/pptm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PPTM к ICO"
+        - name: "PPTM в ICO"
           link: "/conversion/java/pptm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PPTM к JP2"
+        - name: "PPTM в JP2"
           link: "/conversion/java/pptm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PPTM к JPEG"
+        - name: "PPTM в JPEG"
           link: "/conversion/java/pptm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PPTM к JPG"
+        - name: "PPTM в JPG"
           link: "/conversion/java/pptm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PPTM к MD"
+        - name: "PPTM в MD"
           link: "/conversion/java/pptm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PPTM к MHT"
+        - name: "PPTM в MHT"
           link: "/conversion/java/pptm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPTM к MHTML"
+        - name: "PPTM в MHTML"
           link: "/conversion/java/pptm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPTM к ODP"
+        - name: "PPTM в ODP"
           link: "/conversion/java/pptm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PPTM к ODS"
+        - name: "PPTM в ODS"
           link: "/conversion/java/pptm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PPTM к ODT"
+        - name: "PPTM в ODT"
           link: "/conversion/java/pptm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PPTM к OTP"
+        - name: "PPTM в OTP"
           link: "/conversion/java/pptm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PPTM к OTT"
+        - name: "PPTM в OTT"
           link: "/conversion/java/pptm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PPTM к PDF"
+        - name: "PPTM в PDF"
           link: "/conversion/java/pptm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PPTM к PNG"
+        - name: "PPTM в PNG"
           link: "/conversion/java/pptm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PPTM к POT"
+        - name: "PPTM в POT"
           link: "/conversion/java/pptm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PPTM к POTM"
+        - name: "PPTM в POTM"
           link: "/conversion/java/pptm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTM к POTX"
+        - name: "PPTM в POTX"
           link: "/conversion/java/pptm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTM к PPS"
+        - name: "PPTM в PPS"
           link: "/conversion/java/pptm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTM к PPSM"
+        - name: "PPTM в PPSM"
           link: "/conversion/java/pptm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTM к PPSX"
+        - name: "PPTM в PPSX"
           link: "/conversion/java/pptm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PPTM к PPT"
+        - name: "PPTM в PPT"
           link: "/conversion/java/pptm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PPTM к PPTX"
+        - name: "PPTM в PPTX"
           link: "/conversion/java/pptm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PPTM к PSD"
+        - name: "PPTM в PSD"
           link: "/conversion/java/pptm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PPTM к RTF"
+        - name: "PPTM в RTF"
           link: "/conversion/java/pptm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PPTM к SVG"
+        - name: "PPTM в SVG"
           link: "/conversion/java/pptm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPTM к SVGZ"
+        - name: "PPTM в SVGZ"
           link: "/conversion/java/pptm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPTM к SXC"
+        - name: "PPTM в SXC"
           link: "/conversion/java/pptm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PPTM к TEX"
+        - name: "PPTM в TEX"
           link: "/conversion/java/pptm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PPTM к TIF"
+        - name: "PPTM в TIF"
           link: "/conversion/java/pptm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPTM к TIFF"
+        - name: "PPTM в TIFF"
           link: "/conversion/java/pptm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPTM к TSV"
+        - name: "PPTM в TSV"
           link: "/conversion/java/pptm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PPTM к TXT"
+        - name: "PPTM в TXT"
           link: "/conversion/java/pptm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PPTM к WEBP"
+        - name: "PPTM в WEBP"
           link: "/conversion/java/pptm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PPTM к WMF"
+        - name: "PPTM в WMF"
           link: "/conversion/java/pptm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PPTM к WMZ"
+        - name: "PPTM в WMZ"
           link: "/conversion/java/pptm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PPTM к XLAM"
+        - name: "PPTM в XLAM"
           link: "/conversion/java/pptm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPTM к XLS"
+        - name: "PPTM в XLS"
           link: "/conversion/java/pptm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PPTM к XLSB"
+        - name: "PPTM в XLSB"
           link: "/conversion/java/pptm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PPTM к XLSX"
+        - name: "PPTM в XLSX"
           link: "/conversion/java/pptm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PPTM к XLT"
+        - name: "PPTM в XLT"
           link: "/conversion/java/pptm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPTM к XLTM"
+        - name: "PPTM в XLTM"
           link: "/conversion/java/pptm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPTM к XLTX"
+        - name: "PPTM в XLTX"
           link: "/conversion/java/pptm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPTM к XPS"
+        - name: "PPTM в XPS"
           link: "/conversion/java/pptm-to-xps/"
           description: "Спецификация документа Open XML"
 

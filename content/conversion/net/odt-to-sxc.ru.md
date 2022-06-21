@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать ODT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "ODT к BMP"
+        - name: "ODT в BMP"
           link: "/conversion/net/odt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "ODT к CSV"
+        - name: "ODT в CSV"
           link: "/conversion/net/odt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "ODT к DCM"
+        - name: "ODT в DCM"
           link: "/conversion/net/odt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "ODT к DIF"
+        - name: "ODT в DIF"
           link: "/conversion/net/odt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "ODT к DOC"
+        - name: "ODT в DOC"
           link: "/conversion/net/odt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "ODT к DOCM"
+        - name: "ODT в DOCM"
           link: "/conversion/net/odt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ODT к DOCX"
+        - name: "ODT в DOCX"
           link: "/conversion/net/odt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "ODT к DOT"
+        - name: "ODT в DOT"
           link: "/conversion/net/odt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "ODT к DOTM"
+        - name: "ODT в DOTM"
           link: "/conversion/net/odt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ODT к DOTX"
+        - name: "ODT в DOTX"
           link: "/conversion/net/odt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "ODT к EMF"
+        - name: "ODT в EMF"
           link: "/conversion/net/odt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "ODT к EMZ"
+        - name: "ODT в EMZ"
           link: "/conversion/net/odt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "ODT к EPUB"
+        - name: "ODT в EPUB"
           link: "/conversion/net/odt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "ODT к FODP"
+        - name: "ODT в FODP"
           link: "/conversion/net/odt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "ODT к FODS"
+        - name: "ODT в FODS"
           link: "/conversion/net/odt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "ODT к GIF"
+        - name: "ODT в GIF"
           link: "/conversion/net/odt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "ODT к HTM"
+        - name: "ODT в HTM"
           link: "/conversion/net/odt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "ODT к HTML"
+        - name: "ODT в HTML"
           link: "/conversion/net/odt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "ODT к ICO"
+        - name: "ODT в ICO"
           link: "/conversion/net/odt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "ODT к JP2"
+        - name: "ODT в JP2"
           link: "/conversion/net/odt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "ODT к JPEG"
+        - name: "ODT в JPEG"
           link: "/conversion/net/odt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "ODT к JPG"
+        - name: "ODT в JPG"
           link: "/conversion/net/odt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "ODT к MD"
+        - name: "ODT в MD"
           link: "/conversion/net/odt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "ODT к MHT"
+        - name: "ODT в MHT"
           link: "/conversion/net/odt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ODT к MHTML"
+        - name: "ODT в MHTML"
           link: "/conversion/net/odt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ODT к ODP"
+        - name: "ODT в ODP"
           link: "/conversion/net/odt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "ODT к ODS"
+        - name: "ODT в ODS"
           link: "/conversion/net/odt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "ODT к OTP"
+        - name: "ODT в OTP"
           link: "/conversion/net/odt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "ODT к OTT"
+        - name: "ODT в OTT"
           link: "/conversion/net/odt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "ODT к PDF"
+        - name: "ODT в PDF"
           link: "/conversion/net/odt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "ODT к PNG"
+        - name: "ODT в PNG"
           link: "/conversion/net/odt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "ODT к POT"
+        - name: "ODT в POT"
           link: "/conversion/net/odt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "ODT к POTM"
+        - name: "ODT в POTM"
           link: "/conversion/net/odt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ODT к POTX"
+        - name: "ODT в POTX"
           link: "/conversion/net/odt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ODT к PPS"
+        - name: "ODT в PPS"
           link: "/conversion/net/odt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ODT к PPSM"
+        - name: "ODT в PPSM"
           link: "/conversion/net/odt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ODT к PPSX"
+        - name: "ODT в PPSX"
           link: "/conversion/net/odt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "ODT к PPT"
+        - name: "ODT в PPT"
           link: "/conversion/net/odt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "ODT к PPTM"
+        - name: "ODT в PPTM"
           link: "/conversion/net/odt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "ODT к PPTX"
+        - name: "ODT в PPTX"
           link: "/conversion/net/odt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "ODT к PSD"
+        - name: "ODT в PSD"
           link: "/conversion/net/odt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "ODT к RTF"
+        - name: "ODT в RTF"
           link: "/conversion/net/odt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "ODT к SVG"
+        - name: "ODT в SVG"
           link: "/conversion/net/odt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ODT к SVGZ"
+        - name: "ODT в SVGZ"
           link: "/conversion/net/odt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ODT к TEX"
+        - name: "ODT в TEX"
           link: "/conversion/net/odt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "ODT к TIF"
+        - name: "ODT в TIF"
           link: "/conversion/net/odt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ODT к TIFF"
+        - name: "ODT в TIFF"
           link: "/conversion/net/odt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ODT к TSV"
+        - name: "ODT в TSV"
           link: "/conversion/net/odt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "ODT к TXT"
+        - name: "ODT в TXT"
           link: "/conversion/net/odt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "ODT к WEBP"
+        - name: "ODT в WEBP"
           link: "/conversion/net/odt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "ODT к WMF"
+        - name: "ODT в WMF"
           link: "/conversion/net/odt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "ODT к WMZ"
+        - name: "ODT в WMZ"
           link: "/conversion/net/odt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "ODT к XLAM"
+        - name: "ODT в XLAM"
           link: "/conversion/net/odt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODT к XLS"
+        - name: "ODT в XLS"
           link: "/conversion/net/odt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "ODT к XLSB"
+        - name: "ODT в XLSB"
           link: "/conversion/net/odt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "ODT к XLSM"
+        - name: "ODT в XLSM"
           link: "/conversion/net/odt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODT к XLSX"
+        - name: "ODT в XLSX"
           link: "/conversion/net/odt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "ODT к XLT"
+        - name: "ODT в XLT"
           link: "/conversion/net/odt-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "ODT к XLTM"
+        - name: "ODT в XLTM"
           link: "/conversion/net/odt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODT к XLTX"
+        - name: "ODT в XLTX"
           link: "/conversion/net/odt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "ODT к XPS"
+        - name: "ODT в XPS"
           link: "/conversion/net/odt-to-xps/"
           description: "Спецификация документа Open XML"
 

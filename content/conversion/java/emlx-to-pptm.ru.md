@@ -128,327 +128,327 @@ more_formats:
         Вы также можете конвертировать EMLX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EMLX к BMP"
+        - name: "EMLX в BMP"
           link: "/conversion/java/emlx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EMLX к CSV"
+        - name: "EMLX в CSV"
           link: "/conversion/java/emlx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EMLX к DCM"
+        - name: "EMLX в DCM"
           link: "/conversion/java/emlx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "EMLX к DIF"
+        - name: "EMLX в DIF"
           link: "/conversion/java/emlx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "EMLX к DOC"
+        - name: "EMLX в DOC"
           link: "/conversion/java/emlx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EMLX к DOCM"
+        - name: "EMLX в DOCM"
           link: "/conversion/java/emlx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EMLX к DOCX"
+        - name: "EMLX в DOCX"
           link: "/conversion/java/emlx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EMLX к DOT"
+        - name: "EMLX в DOT"
           link: "/conversion/java/emlx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EMLX к DOTM"
+        - name: "EMLX в DOTM"
           link: "/conversion/java/emlx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EMLX к DOTX"
+        - name: "EMLX в DOTX"
           link: "/conversion/java/emlx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EMLX к EMF"
+        - name: "EMLX в EMF"
           link: "/conversion/java/emlx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EMLX к EML"
+        - name: "EMLX в EML"
           link: "/conversion/java/emlx-to-eml/"
           description: "Файл сообщения электронной почты"
 
         # format loop
-        - name: "EMLX к EMZ"
+        - name: "EMLX в EMZ"
           link: "/conversion/java/emlx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EMLX к EPUB"
+        - name: "EMLX в EPUB"
           link: "/conversion/java/emlx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EMLX к FODP"
+        - name: "EMLX в FODP"
           link: "/conversion/java/emlx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "EMLX к FODS"
+        - name: "EMLX в FODS"
           link: "/conversion/java/emlx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "EMLX к GIF"
+        - name: "EMLX в GIF"
           link: "/conversion/java/emlx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EMLX к HTM"
+        - name: "EMLX в HTM"
           link: "/conversion/java/emlx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "EMLX к HTML"
+        - name: "EMLX в HTML"
           link: "/conversion/java/emlx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EMLX к ICO"
+        - name: "EMLX в ICO"
           link: "/conversion/java/emlx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EMLX к JP2"
+        - name: "EMLX в JP2"
           link: "/conversion/java/emlx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EMLX к JPEG"
+        - name: "EMLX в JPEG"
           link: "/conversion/java/emlx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EMLX к JPG"
+        - name: "EMLX в JPG"
           link: "/conversion/java/emlx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EMLX к MD"
+        - name: "EMLX в MD"
           link: "/conversion/java/emlx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EMLX к MHT"
+        - name: "EMLX в MHT"
           link: "/conversion/java/emlx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EMLX к MHTML"
+        - name: "EMLX в MHTML"
           link: "/conversion/java/emlx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EMLX к MSG"
+        - name: "EMLX в MSG"
           link: "/conversion/java/emlx-to-msg/"
           description: "Формат электронной почты Microsoft Outlook"
 
         # format loop
-        - name: "EMLX к ODP"
+        - name: "EMLX в ODP"
           link: "/conversion/java/emlx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EMLX к ODS"
+        - name: "EMLX в ODS"
           link: "/conversion/java/emlx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EMLX к ODT"
+        - name: "EMLX в ODT"
           link: "/conversion/java/emlx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EMLX к OTP"
+        - name: "EMLX в OTP"
           link: "/conversion/java/emlx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EMLX к OTT"
+        - name: "EMLX в OTT"
           link: "/conversion/java/emlx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EMLX к PDF"
+        - name: "EMLX в PDF"
           link: "/conversion/java/emlx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EMLX к PNG"
+        - name: "EMLX в PNG"
           link: "/conversion/java/emlx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EMLX к POT"
+        - name: "EMLX в POT"
           link: "/conversion/java/emlx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "EMLX к POTM"
+        - name: "EMLX в POTM"
           link: "/conversion/java/emlx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EMLX к POTX"
+        - name: "EMLX в POTX"
           link: "/conversion/java/emlx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EMLX к PPS"
+        - name: "EMLX в PPS"
           link: "/conversion/java/emlx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EMLX к PPSM"
+        - name: "EMLX в PPSM"
           link: "/conversion/java/emlx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EMLX к PPSX"
+        - name: "EMLX в PPSX"
           link: "/conversion/java/emlx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EMLX к PPT"
+        - name: "EMLX в PPT"
           link: "/conversion/java/emlx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EMLX к PPTX"
+        - name: "EMLX в PPTX"
           link: "/conversion/java/emlx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EMLX к PSD"
+        - name: "EMLX в PSD"
           link: "/conversion/java/emlx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EMLX к RTF"
+        - name: "EMLX в RTF"
           link: "/conversion/java/emlx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EMLX к SVG"
+        - name: "EMLX в SVG"
           link: "/conversion/java/emlx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EMLX к SVGZ"
+        - name: "EMLX в SVGZ"
           link: "/conversion/java/emlx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EMLX к SXC"
+        - name: "EMLX в SXC"
           link: "/conversion/java/emlx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "EMLX к TEX"
+        - name: "EMLX в TEX"
           link: "/conversion/java/emlx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EMLX к TIF"
+        - name: "EMLX в TIF"
           link: "/conversion/java/emlx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EMLX к TIFF"
+        - name: "EMLX в TIFF"
           link: "/conversion/java/emlx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EMLX к TSV"
+        - name: "EMLX в TSV"
           link: "/conversion/java/emlx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EMLX к TXT"
+        - name: "EMLX в TXT"
           link: "/conversion/java/emlx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EMLX к WEBP"
+        - name: "EMLX в WEBP"
           link: "/conversion/java/emlx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EMLX к WMF"
+        - name: "EMLX в WMF"
           link: "/conversion/java/emlx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EMLX к WMZ"
+        - name: "EMLX в WMZ"
           link: "/conversion/java/emlx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EMLX к XLAM"
+        - name: "EMLX в XLAM"
           link: "/conversion/java/emlx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMLX к XLS"
+        - name: "EMLX в XLS"
           link: "/conversion/java/emlx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EMLX к XLS2003"
+        - name: "EMLX в XLS2003"
           link: "/conversion/java/emlx-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "EMLX к XLSB"
+        - name: "EMLX в XLSB"
           link: "/conversion/java/emlx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EMLX к XLSM"
+        - name: "EMLX в XLSM"
           link: "/conversion/java/emlx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMLX к XLSX"
+        - name: "EMLX в XLSX"
           link: "/conversion/java/emlx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EMLX к XLT"
+        - name: "EMLX в XLT"
           link: "/conversion/java/emlx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "EMLX к XLTM"
+        - name: "EMLX в XLTM"
           link: "/conversion/java/emlx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMLX к XLTX"
+        - name: "EMLX в XLTX"
           link: "/conversion/java/emlx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EMLX к XPS"
+        - name: "EMLX в XPS"
           link: "/conversion/java/emlx-to-xps/"
           description: "Спецификация документа Open XML"
 

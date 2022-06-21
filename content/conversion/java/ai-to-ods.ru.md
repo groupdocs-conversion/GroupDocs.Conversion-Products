@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать AI во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "AI к BMP"
+        - name: "AI в BMP"
           link: "/conversion/java/ai-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "AI к CSV"
+        - name: "AI в CSV"
           link: "/conversion/java/ai-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "AI к DCM"
+        - name: "AI в DCM"
           link: "/conversion/java/ai-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "AI к DIF"
+        - name: "AI в DIF"
           link: "/conversion/java/ai-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "AI к DOC"
+        - name: "AI в DOC"
           link: "/conversion/java/ai-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "AI к DOCM"
+        - name: "AI в DOCM"
           link: "/conversion/java/ai-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "AI к DOCX"
+        - name: "AI в DOCX"
           link: "/conversion/java/ai-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "AI к DOT"
+        - name: "AI в DOT"
           link: "/conversion/java/ai-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "AI к DOTM"
+        - name: "AI в DOTM"
           link: "/conversion/java/ai-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "AI к DOTX"
+        - name: "AI в DOTX"
           link: "/conversion/java/ai-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "AI к EMF"
+        - name: "AI в EMF"
           link: "/conversion/java/ai-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "AI к EMZ"
+        - name: "AI в EMZ"
           link: "/conversion/java/ai-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "AI к EPUB"
+        - name: "AI в EPUB"
           link: "/conversion/java/ai-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "AI к FODP"
+        - name: "AI в FODP"
           link: "/conversion/java/ai-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "AI к FODS"
+        - name: "AI в FODS"
           link: "/conversion/java/ai-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "AI к GIF"
+        - name: "AI в GIF"
           link: "/conversion/java/ai-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "AI к HTM"
+        - name: "AI в HTM"
           link: "/conversion/java/ai-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "AI к HTML"
+        - name: "AI в HTML"
           link: "/conversion/java/ai-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "AI к ICO"
+        - name: "AI в ICO"
           link: "/conversion/java/ai-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "AI к JP2"
+        - name: "AI в JP2"
           link: "/conversion/java/ai-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "AI к JPEG"
+        - name: "AI в JPEG"
           link: "/conversion/java/ai-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "AI к JPG"
+        - name: "AI в JPG"
           link: "/conversion/java/ai-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "AI к MD"
+        - name: "AI в MD"
           link: "/conversion/java/ai-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "AI к MHT"
+        - name: "AI в MHT"
           link: "/conversion/java/ai-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "AI к MHTML"
+        - name: "AI в MHTML"
           link: "/conversion/java/ai-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "AI к ODP"
+        - name: "AI в ODP"
           link: "/conversion/java/ai-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "AI к ODT"
+        - name: "AI в ODT"
           link: "/conversion/java/ai-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "AI к OTP"
+        - name: "AI в OTP"
           link: "/conversion/java/ai-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "AI к OTT"
+        - name: "AI в OTT"
           link: "/conversion/java/ai-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "AI к PDF"
+        - name: "AI в PDF"
           link: "/conversion/java/ai-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "AI к PNG"
+        - name: "AI в PNG"
           link: "/conversion/java/ai-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "AI к POT"
+        - name: "AI в POT"
           link: "/conversion/java/ai-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "AI к POTM"
+        - name: "AI в POTM"
           link: "/conversion/java/ai-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "AI к POTX"
+        - name: "AI в POTX"
           link: "/conversion/java/ai-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "AI к PPS"
+        - name: "AI в PPS"
           link: "/conversion/java/ai-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "AI к PPSM"
+        - name: "AI в PPSM"
           link: "/conversion/java/ai-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "AI к PPSX"
+        - name: "AI в PPSX"
           link: "/conversion/java/ai-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "AI к PPT"
+        - name: "AI в PPT"
           link: "/conversion/java/ai-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "AI к PPTM"
+        - name: "AI в PPTM"
           link: "/conversion/java/ai-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "AI к PPTX"
+        - name: "AI в PPTX"
           link: "/conversion/java/ai-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "AI к PSD"
+        - name: "AI в PSD"
           link: "/conversion/java/ai-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "AI к RTF"
+        - name: "AI в RTF"
           link: "/conversion/java/ai-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "AI к SVG"
+        - name: "AI в SVG"
           link: "/conversion/java/ai-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "AI к SVGZ"
+        - name: "AI в SVGZ"
           link: "/conversion/java/ai-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "AI к SXC"
+        - name: "AI в SXC"
           link: "/conversion/java/ai-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "AI к TEX"
+        - name: "AI в TEX"
           link: "/conversion/java/ai-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "AI к TIF"
+        - name: "AI в TIF"
           link: "/conversion/java/ai-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "AI к TIFF"
+        - name: "AI в TIFF"
           link: "/conversion/java/ai-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "AI к TSV"
+        - name: "AI в TSV"
           link: "/conversion/java/ai-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "AI к TXT"
+        - name: "AI в TXT"
           link: "/conversion/java/ai-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "AI к WEBP"
+        - name: "AI в WEBP"
           link: "/conversion/java/ai-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "AI к WMF"
+        - name: "AI в WMF"
           link: "/conversion/java/ai-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "AI к WMZ"
+        - name: "AI в WMZ"
           link: "/conversion/java/ai-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "AI к XLAM"
+        - name: "AI в XLAM"
           link: "/conversion/java/ai-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "AI к XLS"
+        - name: "AI в XLS"
           link: "/conversion/java/ai-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "AI к XLSB"
+        - name: "AI в XLSB"
           link: "/conversion/java/ai-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "AI к XLSM"
+        - name: "AI в XLSM"
           link: "/conversion/java/ai-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "AI к XLSX"
+        - name: "AI в XLSX"
           link: "/conversion/java/ai-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "AI к XLT"
+        - name: "AI в XLT"
           link: "/conversion/java/ai-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "AI к XLTM"
+        - name: "AI в XLTM"
           link: "/conversion/java/ai-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "AI к XLTX"
+        - name: "AI в XLTX"
           link: "/conversion/java/ai-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "AI к XPS"
+        - name: "AI в XPS"
           link: "/conversion/java/ai-to-xps/"
           description: "Спецификация документа Open XML"
 

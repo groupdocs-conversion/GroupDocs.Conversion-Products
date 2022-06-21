@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать XLT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "XLT к BMP"
+        - name: "XLT в BMP"
           link: "/conversion/java/xlt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "XLT к CSV"
+        - name: "XLT в CSV"
           link: "/conversion/java/xlt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "XLT к DCM"
+        - name: "XLT в DCM"
           link: "/conversion/java/xlt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "XLT к DIF"
+        - name: "XLT в DIF"
           link: "/conversion/java/xlt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "XLT к DOC"
+        - name: "XLT в DOC"
           link: "/conversion/java/xlt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "XLT к DOCM"
+        - name: "XLT в DOCM"
           link: "/conversion/java/xlt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLT к DOCX"
+        - name: "XLT в DOCX"
           link: "/conversion/java/xlt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "XLT к DOT"
+        - name: "XLT в DOT"
           link: "/conversion/java/xlt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "XLT к DOTM"
+        - name: "XLT в DOTM"
           link: "/conversion/java/xlt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLT к DOTX"
+        - name: "XLT в DOTX"
           link: "/conversion/java/xlt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "XLT к EMF"
+        - name: "XLT в EMF"
           link: "/conversion/java/xlt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "XLT к EMZ"
+        - name: "XLT в EMZ"
           link: "/conversion/java/xlt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "XLT к EPUB"
+        - name: "XLT в EPUB"
           link: "/conversion/java/xlt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "XLT к FODP"
+        - name: "XLT в FODP"
           link: "/conversion/java/xlt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "XLT к FODS"
+        - name: "XLT в FODS"
           link: "/conversion/java/xlt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "XLT к HTM"
+        - name: "XLT в HTM"
           link: "/conversion/java/xlt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "XLT к HTML"
+        - name: "XLT в HTML"
           link: "/conversion/java/xlt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "XLT к ICO"
+        - name: "XLT в ICO"
           link: "/conversion/java/xlt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "XLT к JP2"
+        - name: "XLT в JP2"
           link: "/conversion/java/xlt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "XLT к JPEG"
+        - name: "XLT в JPEG"
           link: "/conversion/java/xlt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "XLT к JPG"
+        - name: "XLT в JPG"
           link: "/conversion/java/xlt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "XLT к MD"
+        - name: "XLT в MD"
           link: "/conversion/java/xlt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "XLT к MHT"
+        - name: "XLT в MHT"
           link: "/conversion/java/xlt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLT к MHTML"
+        - name: "XLT в MHTML"
           link: "/conversion/java/xlt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLT к ODP"
+        - name: "XLT в ODP"
           link: "/conversion/java/xlt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "XLT к ODS"
+        - name: "XLT в ODS"
           link: "/conversion/java/xlt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "XLT к ODT"
+        - name: "XLT в ODT"
           link: "/conversion/java/xlt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "XLT к OTP"
+        - name: "XLT в OTP"
           link: "/conversion/java/xlt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "XLT к OTT"
+        - name: "XLT в OTT"
           link: "/conversion/java/xlt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "XLT к PDF"
+        - name: "XLT в PDF"
           link: "/conversion/java/xlt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "XLT к PNG"
+        - name: "XLT в PNG"
           link: "/conversion/java/xlt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "XLT к POT"
+        - name: "XLT в POT"
           link: "/conversion/java/xlt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "XLT к POTM"
+        - name: "XLT в POTM"
           link: "/conversion/java/xlt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLT к POTX"
+        - name: "XLT в POTX"
           link: "/conversion/java/xlt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLT к PPS"
+        - name: "XLT в PPS"
           link: "/conversion/java/xlt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLT к PPSM"
+        - name: "XLT в PPSM"
           link: "/conversion/java/xlt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLT к PPSX"
+        - name: "XLT в PPSX"
           link: "/conversion/java/xlt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "XLT к PPT"
+        - name: "XLT в PPT"
           link: "/conversion/java/xlt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "XLT к PPTM"
+        - name: "XLT в PPTM"
           link: "/conversion/java/xlt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "XLT к PPTX"
+        - name: "XLT в PPTX"
           link: "/conversion/java/xlt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "XLT к PSD"
+        - name: "XLT в PSD"
           link: "/conversion/java/xlt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "XLT к RTF"
+        - name: "XLT в RTF"
           link: "/conversion/java/xlt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "XLT к SVG"
+        - name: "XLT в SVG"
           link: "/conversion/java/xlt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLT к SVGZ"
+        - name: "XLT в SVGZ"
           link: "/conversion/java/xlt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLT к SXC"
+        - name: "XLT в SXC"
           link: "/conversion/java/xlt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "XLT к TEX"
+        - name: "XLT в TEX"
           link: "/conversion/java/xlt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "XLT к TIF"
+        - name: "XLT в TIF"
           link: "/conversion/java/xlt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLT к TIFF"
+        - name: "XLT в TIFF"
           link: "/conversion/java/xlt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLT к TSV"
+        - name: "XLT в TSV"
           link: "/conversion/java/xlt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "XLT к TXT"
+        - name: "XLT в TXT"
           link: "/conversion/java/xlt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "XLT к WEBP"
+        - name: "XLT в WEBP"
           link: "/conversion/java/xlt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "XLT к WMF"
+        - name: "XLT в WMF"
           link: "/conversion/java/xlt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "XLT к WMZ"
+        - name: "XLT в WMZ"
           link: "/conversion/java/xlt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "XLT к XLAM"
+        - name: "XLT в XLAM"
           link: "/conversion/java/xlt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLT к XLS"
+        - name: "XLT в XLS"
           link: "/conversion/java/xlt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "XLT к XLS2003"
+        - name: "XLT в XLS2003"
           link: "/conversion/java/xlt-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "XLT к XLSB"
+        - name: "XLT в XLSB"
           link: "/conversion/java/xlt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "XLT к XLSM"
+        - name: "XLT в XLSM"
           link: "/conversion/java/xlt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLT к XLSX"
+        - name: "XLT в XLSX"
           link: "/conversion/java/xlt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "XLT к XLTM"
+        - name: "XLT в XLTM"
           link: "/conversion/java/xlt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLT к XLTX"
+        - name: "XLT в XLTX"
           link: "/conversion/java/xlt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLT к XPS"
+        - name: "XLT в XPS"
           link: "/conversion/java/xlt-to-xps/"
           description: "Спецификация документа Open XML"
 

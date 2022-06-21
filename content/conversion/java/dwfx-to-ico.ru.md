@@ -128,317 +128,317 @@ more_formats:
         Вы также можете конвертировать DWFX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DWFX к BMP"
+        - name: "DWFX в BMP"
           link: "/conversion/java/dwfx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DWFX к CSV"
+        - name: "DWFX в CSV"
           link: "/conversion/java/dwfx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DWFX к DCM"
+        - name: "DWFX в DCM"
           link: "/conversion/java/dwfx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DWFX к DIF"
+        - name: "DWFX в DIF"
           link: "/conversion/java/dwfx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DWFX к DOC"
+        - name: "DWFX в DOC"
           link: "/conversion/java/dwfx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DWFX к DOCM"
+        - name: "DWFX в DOCM"
           link: "/conversion/java/dwfx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWFX к DOCX"
+        - name: "DWFX в DOCX"
           link: "/conversion/java/dwfx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DWFX к DOT"
+        - name: "DWFX в DOT"
           link: "/conversion/java/dwfx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DWFX к DOTM"
+        - name: "DWFX в DOTM"
           link: "/conversion/java/dwfx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWFX к DOTX"
+        - name: "DWFX в DOTX"
           link: "/conversion/java/dwfx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DWFX к DWF"
+        - name: "DWFX в DWF"
           link: "/conversion/java/dwfx-to-dwf/"
           description: "Дизайн веб-формата"
 
         # format loop
-        - name: "DWFX к EMF"
+        - name: "DWFX в EMF"
           link: "/conversion/java/dwfx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DWFX к EMZ"
+        - name: "DWFX в EMZ"
           link: "/conversion/java/dwfx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DWFX к EPUB"
+        - name: "DWFX в EPUB"
           link: "/conversion/java/dwfx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DWFX к FODP"
+        - name: "DWFX в FODP"
           link: "/conversion/java/dwfx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DWFX к FODS"
+        - name: "DWFX в FODS"
           link: "/conversion/java/dwfx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DWFX к GIF"
+        - name: "DWFX в GIF"
           link: "/conversion/java/dwfx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DWFX к HTM"
+        - name: "DWFX в HTM"
           link: "/conversion/java/dwfx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DWFX к HTML"
+        - name: "DWFX в HTML"
           link: "/conversion/java/dwfx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DWFX к JP2"
+        - name: "DWFX в JP2"
           link: "/conversion/java/dwfx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DWFX к JPEG"
+        - name: "DWFX в JPEG"
           link: "/conversion/java/dwfx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DWFX к JPG"
+        - name: "DWFX в JPG"
           link: "/conversion/java/dwfx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DWFX к MD"
+        - name: "DWFX в MD"
           link: "/conversion/java/dwfx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DWFX к MHT"
+        - name: "DWFX в MHT"
           link: "/conversion/java/dwfx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWFX к MHTML"
+        - name: "DWFX в MHTML"
           link: "/conversion/java/dwfx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWFX к ODP"
+        - name: "DWFX в ODP"
           link: "/conversion/java/dwfx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DWFX к ODS"
+        - name: "DWFX в ODS"
           link: "/conversion/java/dwfx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DWFX к ODT"
+        - name: "DWFX в ODT"
           link: "/conversion/java/dwfx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DWFX к OTP"
+        - name: "DWFX в OTP"
           link: "/conversion/java/dwfx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DWFX к OTT"
+        - name: "DWFX в OTT"
           link: "/conversion/java/dwfx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DWFX к PDF"
+        - name: "DWFX в PDF"
           link: "/conversion/java/dwfx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DWFX к PNG"
+        - name: "DWFX в PNG"
           link: "/conversion/java/dwfx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DWFX к POT"
+        - name: "DWFX в POT"
           link: "/conversion/java/dwfx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DWFX к POTM"
+        - name: "DWFX в POTM"
           link: "/conversion/java/dwfx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWFX к POTX"
+        - name: "DWFX в POTX"
           link: "/conversion/java/dwfx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWFX к PPS"
+        - name: "DWFX в PPS"
           link: "/conversion/java/dwfx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWFX к PPSM"
+        - name: "DWFX в PPSM"
           link: "/conversion/java/dwfx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWFX к PPSX"
+        - name: "DWFX в PPSX"
           link: "/conversion/java/dwfx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DWFX к PPT"
+        - name: "DWFX в PPT"
           link: "/conversion/java/dwfx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DWFX к PPTM"
+        - name: "DWFX в PPTM"
           link: "/conversion/java/dwfx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DWFX к PPTX"
+        - name: "DWFX в PPTX"
           link: "/conversion/java/dwfx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DWFX к PSD"
+        - name: "DWFX в PSD"
           link: "/conversion/java/dwfx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DWFX к RTF"
+        - name: "DWFX в RTF"
           link: "/conversion/java/dwfx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DWFX к SVG"
+        - name: "DWFX в SVG"
           link: "/conversion/java/dwfx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWFX к SVGZ"
+        - name: "DWFX в SVGZ"
           link: "/conversion/java/dwfx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWFX к SXC"
+        - name: "DWFX в SXC"
           link: "/conversion/java/dwfx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DWFX к TEX"
+        - name: "DWFX в TEX"
           link: "/conversion/java/dwfx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DWFX к TIF"
+        - name: "DWFX в TIF"
           link: "/conversion/java/dwfx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWFX к TIFF"
+        - name: "DWFX в TIFF"
           link: "/conversion/java/dwfx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWFX к TSV"
+        - name: "DWFX в TSV"
           link: "/conversion/java/dwfx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DWFX к TXT"
+        - name: "DWFX в TXT"
           link: "/conversion/java/dwfx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DWFX к WEBP"
+        - name: "DWFX в WEBP"
           link: "/conversion/java/dwfx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DWFX к WMF"
+        - name: "DWFX в WMF"
           link: "/conversion/java/dwfx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DWFX к WMZ"
+        - name: "DWFX в WMZ"
           link: "/conversion/java/dwfx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DWFX к XLAM"
+        - name: "DWFX в XLAM"
           link: "/conversion/java/dwfx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWFX к XLS"
+        - name: "DWFX в XLS"
           link: "/conversion/java/dwfx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DWFX к XLSB"
+        - name: "DWFX в XLSB"
           link: "/conversion/java/dwfx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DWFX к XLSM"
+        - name: "DWFX в XLSM"
           link: "/conversion/java/dwfx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWFX к XLSX"
+        - name: "DWFX в XLSX"
           link: "/conversion/java/dwfx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DWFX к XLT"
+        - name: "DWFX в XLT"
           link: "/conversion/java/dwfx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWFX к XLTM"
+        - name: "DWFX в XLTM"
           link: "/conversion/java/dwfx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWFX к XLTX"
+        - name: "DWFX в XLTX"
           link: "/conversion/java/dwfx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWFX к XPS"
+        - name: "DWFX в XPS"
           link: "/conversion/java/dwfx-to-xps/"
           description: "Спецификация документа Open XML"
 

@@ -128,7 +128,7 @@ more_formats:
         Вы также можете конвертировать ONENOTE во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "ONENOTE к PDF"
+        - name: "ONENOTE в PDF"
           link: "/conversion/java/onenote-to-pdf/"
           description: "Портативный документ"
 

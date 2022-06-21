@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать DWF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DWF к BMP"
+        - name: "DWF в BMP"
           link: "/conversion/java/dwf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DWF к CSV"
+        - name: "DWF в CSV"
           link: "/conversion/java/dwf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DWF к DCM"
+        - name: "DWF в DCM"
           link: "/conversion/java/dwf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DWF к DIF"
+        - name: "DWF в DIF"
           link: "/conversion/java/dwf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DWF к DOC"
+        - name: "DWF в DOC"
           link: "/conversion/java/dwf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DWF к DOCM"
+        - name: "DWF в DOCM"
           link: "/conversion/java/dwf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWF к DOCX"
+        - name: "DWF в DOCX"
           link: "/conversion/java/dwf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DWF к DOT"
+        - name: "DWF в DOT"
           link: "/conversion/java/dwf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DWF к DOTM"
+        - name: "DWF в DOTM"
           link: "/conversion/java/dwf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWF к DOTX"
+        - name: "DWF в DOTX"
           link: "/conversion/java/dwf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DWF к EMF"
+        - name: "DWF в EMF"
           link: "/conversion/java/dwf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DWF к EMZ"
+        - name: "DWF в EMZ"
           link: "/conversion/java/dwf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DWF к EPUB"
+        - name: "DWF в EPUB"
           link: "/conversion/java/dwf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DWF к FODP"
+        - name: "DWF в FODP"
           link: "/conversion/java/dwf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DWF к FODS"
+        - name: "DWF в FODS"
           link: "/conversion/java/dwf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DWF к GIF"
+        - name: "DWF в GIF"
           link: "/conversion/java/dwf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DWF к HTM"
+        - name: "DWF в HTM"
           link: "/conversion/java/dwf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DWF к HTML"
+        - name: "DWF в HTML"
           link: "/conversion/java/dwf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DWF к ICO"
+        - name: "DWF в ICO"
           link: "/conversion/java/dwf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DWF к JP2"
+        - name: "DWF в JP2"
           link: "/conversion/java/dwf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DWF к JPEG"
+        - name: "DWF в JPEG"
           link: "/conversion/java/dwf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DWF к JPG"
+        - name: "DWF в JPG"
           link: "/conversion/java/dwf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DWF к MD"
+        - name: "DWF в MD"
           link: "/conversion/java/dwf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DWF к MHT"
+        - name: "DWF в MHT"
           link: "/conversion/java/dwf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWF к MHTML"
+        - name: "DWF в MHTML"
           link: "/conversion/java/dwf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWF к ODP"
+        - name: "DWF в ODP"
           link: "/conversion/java/dwf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DWF к ODS"
+        - name: "DWF в ODS"
           link: "/conversion/java/dwf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DWF к ODT"
+        - name: "DWF в ODT"
           link: "/conversion/java/dwf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DWF к OTP"
+        - name: "DWF в OTP"
           link: "/conversion/java/dwf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DWF к OTT"
+        - name: "DWF в OTT"
           link: "/conversion/java/dwf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DWF к PDF"
+        - name: "DWF в PDF"
           link: "/conversion/java/dwf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DWF к PNG"
+        - name: "DWF в PNG"
           link: "/conversion/java/dwf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DWF к POT"
+        - name: "DWF в POT"
           link: "/conversion/java/dwf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DWF к POTM"
+        - name: "DWF в POTM"
           link: "/conversion/java/dwf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWF к POTX"
+        - name: "DWF в POTX"
           link: "/conversion/java/dwf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWF к PPS"
+        - name: "DWF в PPS"
           link: "/conversion/java/dwf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWF к PPSM"
+        - name: "DWF в PPSM"
           link: "/conversion/java/dwf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWF к PPSX"
+        - name: "DWF в PPSX"
           link: "/conversion/java/dwf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DWF к PPT"
+        - name: "DWF в PPT"
           link: "/conversion/java/dwf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DWF к PPTM"
+        - name: "DWF в PPTM"
           link: "/conversion/java/dwf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DWF к PPTX"
+        - name: "DWF в PPTX"
           link: "/conversion/java/dwf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DWF к RTF"
+        - name: "DWF в RTF"
           link: "/conversion/java/dwf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DWF к SVG"
+        - name: "DWF в SVG"
           link: "/conversion/java/dwf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWF к SVGZ"
+        - name: "DWF в SVGZ"
           link: "/conversion/java/dwf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWF к SXC"
+        - name: "DWF в SXC"
           link: "/conversion/java/dwf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DWF к TEX"
+        - name: "DWF в TEX"
           link: "/conversion/java/dwf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DWF к TIF"
+        - name: "DWF в TIF"
           link: "/conversion/java/dwf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWF к TIFF"
+        - name: "DWF в TIFF"
           link: "/conversion/java/dwf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWF к TSV"
+        - name: "DWF в TSV"
           link: "/conversion/java/dwf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DWF к TXT"
+        - name: "DWF в TXT"
           link: "/conversion/java/dwf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DWF к WEBP"
+        - name: "DWF в WEBP"
           link: "/conversion/java/dwf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DWF к WMF"
+        - name: "DWF в WMF"
           link: "/conversion/java/dwf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DWF к WMZ"
+        - name: "DWF в WMZ"
           link: "/conversion/java/dwf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DWF к XLAM"
+        - name: "DWF в XLAM"
           link: "/conversion/java/dwf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWF к XLS"
+        - name: "DWF в XLS"
           link: "/conversion/java/dwf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DWF к XLSB"
+        - name: "DWF в XLSB"
           link: "/conversion/java/dwf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DWF к XLSM"
+        - name: "DWF в XLSM"
           link: "/conversion/java/dwf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWF к XLSX"
+        - name: "DWF в XLSX"
           link: "/conversion/java/dwf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DWF к XLT"
+        - name: "DWF в XLT"
           link: "/conversion/java/dwf-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWF к XLTM"
+        - name: "DWF в XLTM"
           link: "/conversion/java/dwf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWF к XLTX"
+        - name: "DWF в XLTX"
           link: "/conversion/java/dwf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWF к XPS"
+        - name: "DWF в XPS"
           link: "/conversion/java/dwf-to-xps/"
           description: "Спецификация документа Open XML"
 

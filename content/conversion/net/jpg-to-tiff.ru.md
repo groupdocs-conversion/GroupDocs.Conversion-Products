@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать JPG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JPG к BMP"
+        - name: "JPG в BMP"
           link: "/conversion/java/jpg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JPG к CSV"
+        - name: "JPG в CSV"
           link: "/conversion/java/jpg-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "JPG к DCM"
+        - name: "JPG в DCM"
           link: "/conversion/java/jpg-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "JPG к DIF"
+        - name: "JPG в DIF"
           link: "/conversion/java/jpg-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "JPG к DOC"
+        - name: "JPG в DOC"
           link: "/conversion/java/jpg-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JPG к DOCM"
+        - name: "JPG в DOCM"
           link: "/conversion/java/jpg-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPG к DOCX"
+        - name: "JPG в DOCX"
           link: "/conversion/java/jpg-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JPG к DOT"
+        - name: "JPG в DOT"
           link: "/conversion/java/jpg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JPG к DOTM"
+        - name: "JPG в DOTM"
           link: "/conversion/java/jpg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPG к DOTX"
+        - name: "JPG в DOTX"
           link: "/conversion/java/jpg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JPG к EMF"
+        - name: "JPG в EMF"
           link: "/conversion/java/jpg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JPG к EMZ"
+        - name: "JPG в EMZ"
           link: "/conversion/java/jpg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JPG к EPUB"
+        - name: "JPG в EPUB"
           link: "/conversion/java/jpg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JPG к FODP"
+        - name: "JPG в FODP"
           link: "/conversion/java/jpg-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "JPG к FODS"
+        - name: "JPG в FODS"
           link: "/conversion/java/jpg-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "JPG к GIF"
+        - name: "JPG в GIF"
           link: "/conversion/java/jpg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "JPG к HTM"
+        - name: "JPG в HTM"
           link: "/conversion/java/jpg-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "JPG к HTML"
+        - name: "JPG в HTML"
           link: "/conversion/java/jpg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "JPG к ICO"
+        - name: "JPG в ICO"
           link: "/conversion/java/jpg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JPG к JP2"
+        - name: "JPG в JP2"
           link: "/conversion/java/jpg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "JPG к JPEG"
+        - name: "JPG в JPEG"
           link: "/conversion/java/jpg-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "JPG к MD"
+        - name: "JPG в MD"
           link: "/conversion/java/jpg-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JPG к MHT"
+        - name: "JPG в MHT"
           link: "/conversion/java/jpg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPG к MHTML"
+        - name: "JPG в MHTML"
           link: "/conversion/java/jpg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPG к ODP"
+        - name: "JPG в ODP"
           link: "/conversion/java/jpg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JPG к ODS"
+        - name: "JPG в ODS"
           link: "/conversion/java/jpg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JPG к ODT"
+        - name: "JPG в ODT"
           link: "/conversion/java/jpg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JPG к OTP"
+        - name: "JPG в OTP"
           link: "/conversion/java/jpg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "JPG к OTT"
+        - name: "JPG в OTT"
           link: "/conversion/java/jpg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JPG к PDF"
+        - name: "JPG в PDF"
           link: "/conversion/java/jpg-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "JPG к PNG"
+        - name: "JPG в PNG"
           link: "/conversion/java/jpg-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JPG к POT"
+        - name: "JPG в POT"
           link: "/conversion/java/jpg-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "JPG к POTM"
+        - name: "JPG в POTM"
           link: "/conversion/java/jpg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPG к POTX"
+        - name: "JPG в POTX"
           link: "/conversion/java/jpg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPG к PPS"
+        - name: "JPG в PPS"
           link: "/conversion/java/jpg-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPG к PPSM"
+        - name: "JPG в PPSM"
           link: "/conversion/java/jpg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPG к PPSX"
+        - name: "JPG в PPSX"
           link: "/conversion/java/jpg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JPG к PPT"
+        - name: "JPG в PPT"
           link: "/conversion/java/jpg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JPG к PPTM"
+        - name: "JPG в PPTM"
           link: "/conversion/java/jpg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JPG к PPTX"
+        - name: "JPG в PPTX"
           link: "/conversion/java/jpg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JPG к PSD"
+        - name: "JPG в PSD"
           link: "/conversion/java/jpg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JPG к RTF"
+        - name: "JPG в RTF"
           link: "/conversion/java/jpg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JPG к SVG"
+        - name: "JPG в SVG"
           link: "/conversion/java/jpg-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPG к SVGZ"
+        - name: "JPG в SVGZ"
           link: "/conversion/java/jpg-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPG к SXC"
+        - name: "JPG в SXC"
           link: "/conversion/java/jpg-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "JPG к TEX"
+        - name: "JPG в TEX"
           link: "/conversion/java/jpg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JPG к TIF"
+        - name: "JPG в TIF"
           link: "/conversion/java/jpg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPG к TSV"
+        - name: "JPG в TSV"
           link: "/conversion/java/jpg-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "JPG к TXT"
+        - name: "JPG в TXT"
           link: "/conversion/java/jpg-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JPG к WEBP"
+        - name: "JPG в WEBP"
           link: "/conversion/java/jpg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JPG к WMF"
+        - name: "JPG в WMF"
           link: "/conversion/java/jpg-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JPG к WMZ"
+        - name: "JPG в WMZ"
           link: "/conversion/java/jpg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JPG к XLAM"
+        - name: "JPG в XLAM"
           link: "/conversion/java/jpg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPG к XLS"
+        - name: "JPG в XLS"
           link: "/conversion/java/jpg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JPG к XLSB"
+        - name: "JPG в XLSB"
           link: "/conversion/java/jpg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JPG к XLSM"
+        - name: "JPG в XLSM"
           link: "/conversion/java/jpg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPG к XLSX"
+        - name: "JPG в XLSX"
           link: "/conversion/java/jpg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JPG к XLT"
+        - name: "JPG в XLT"
           link: "/conversion/java/jpg-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPG к XLTM"
+        - name: "JPG в XLTM"
           link: "/conversion/java/jpg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPG к XLTX"
+        - name: "JPG в XLTX"
           link: "/conversion/java/jpg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPG к XPS"
+        - name: "JPG в XPS"
           link: "/conversion/java/jpg-to-xps/"
           description: "Спецификация документа Open XML"
 

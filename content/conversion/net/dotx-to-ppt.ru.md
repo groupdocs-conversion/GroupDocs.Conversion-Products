@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать DOTX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DOTX к BMP"
+        - name: "DOTX в BMP"
           link: "/conversion/net/dotx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DOTX к CSV"
+        - name: "DOTX в CSV"
           link: "/conversion/net/dotx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DOTX к DCM"
+        - name: "DOTX в DCM"
           link: "/conversion/net/dotx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DOTX к DIF"
+        - name: "DOTX в DIF"
           link: "/conversion/net/dotx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DOTX к DOC"
+        - name: "DOTX в DOC"
           link: "/conversion/net/dotx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DOTX к DOCM"
+        - name: "DOTX в DOCM"
           link: "/conversion/net/dotx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOTX к DOCX"
+        - name: "DOTX в DOCX"
           link: "/conversion/net/dotx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DOTX к DOT"
+        - name: "DOTX в DOT"
           link: "/conversion/net/dotx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DOTX к DOTM"
+        - name: "DOTX в DOTM"
           link: "/conversion/net/dotx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOTX к EMF"
+        - name: "DOTX в EMF"
           link: "/conversion/net/dotx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DOTX к EMZ"
+        - name: "DOTX в EMZ"
           link: "/conversion/net/dotx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DOTX к EPUB"
+        - name: "DOTX в EPUB"
           link: "/conversion/net/dotx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DOTX к FODP"
+        - name: "DOTX в FODP"
           link: "/conversion/net/dotx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DOTX к FODS"
+        - name: "DOTX в FODS"
           link: "/conversion/net/dotx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DOTX к GIF"
+        - name: "DOTX в GIF"
           link: "/conversion/net/dotx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DOTX к HTM"
+        - name: "DOTX в HTM"
           link: "/conversion/net/dotx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DOTX к HTML"
+        - name: "DOTX в HTML"
           link: "/conversion/net/dotx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DOTX к ICO"
+        - name: "DOTX в ICO"
           link: "/conversion/net/dotx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DOTX к JP2"
+        - name: "DOTX в JP2"
           link: "/conversion/net/dotx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DOTX к JPEG"
+        - name: "DOTX в JPEG"
           link: "/conversion/net/dotx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DOTX к JPG"
+        - name: "DOTX в JPG"
           link: "/conversion/net/dotx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DOTX к MD"
+        - name: "DOTX в MD"
           link: "/conversion/net/dotx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DOTX к MHT"
+        - name: "DOTX в MHT"
           link: "/conversion/net/dotx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOTX к MHTML"
+        - name: "DOTX в MHTML"
           link: "/conversion/net/dotx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOTX к ODP"
+        - name: "DOTX в ODP"
           link: "/conversion/net/dotx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DOTX к ODS"
+        - name: "DOTX в ODS"
           link: "/conversion/net/dotx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DOTX к ODT"
+        - name: "DOTX в ODT"
           link: "/conversion/net/dotx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DOTX к OTP"
+        - name: "DOTX в OTP"
           link: "/conversion/net/dotx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DOTX к OTT"
+        - name: "DOTX в OTT"
           link: "/conversion/net/dotx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DOTX к PDF"
+        - name: "DOTX в PDF"
           link: "/conversion/net/dotx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DOTX к PNG"
+        - name: "DOTX в PNG"
           link: "/conversion/net/dotx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DOTX к POT"
+        - name: "DOTX в POT"
           link: "/conversion/net/dotx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DOTX к POTM"
+        - name: "DOTX в POTM"
           link: "/conversion/net/dotx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX к POTX"
+        - name: "DOTX в POTX"
           link: "/conversion/net/dotx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX к PPS"
+        - name: "DOTX в PPS"
           link: "/conversion/net/dotx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX к PPSM"
+        - name: "DOTX в PPSM"
           link: "/conversion/net/dotx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX к PPSX"
+        - name: "DOTX в PPSX"
           link: "/conversion/net/dotx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DOTX к PPTM"
+        - name: "DOTX в PPTM"
           link: "/conversion/net/dotx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX к PPTX"
+        - name: "DOTX в PPTX"
           link: "/conversion/net/dotx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DOTX к PSD"
+        - name: "DOTX в PSD"
           link: "/conversion/net/dotx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DOTX к RTF"
+        - name: "DOTX в RTF"
           link: "/conversion/net/dotx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DOTX к SVG"
+        - name: "DOTX в SVG"
           link: "/conversion/net/dotx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOTX к SVGZ"
+        - name: "DOTX в SVGZ"
           link: "/conversion/net/dotx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOTX к SXC"
+        - name: "DOTX в SXC"
           link: "/conversion/net/dotx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DOTX к TEX"
+        - name: "DOTX в TEX"
           link: "/conversion/net/dotx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DOTX к TIF"
+        - name: "DOTX в TIF"
           link: "/conversion/net/dotx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOTX к TIFF"
+        - name: "DOTX в TIFF"
           link: "/conversion/net/dotx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOTX к TSV"
+        - name: "DOTX в TSV"
           link: "/conversion/net/dotx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DOTX к TXT"
+        - name: "DOTX в TXT"
           link: "/conversion/net/dotx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DOTX к WEBP"
+        - name: "DOTX в WEBP"
           link: "/conversion/net/dotx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DOTX к WMF"
+        - name: "DOTX в WMF"
           link: "/conversion/net/dotx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DOTX к WMZ"
+        - name: "DOTX в WMZ"
           link: "/conversion/net/dotx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DOTX к XLAM"
+        - name: "DOTX в XLAM"
           link: "/conversion/net/dotx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTX к XLS"
+        - name: "DOTX в XLS"
           link: "/conversion/net/dotx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DOTX к XLS2003"
+        - name: "DOTX в XLS2003"
           link: "/conversion/net/dotx-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "DOTX к XLSB"
+        - name: "DOTX в XLSB"
           link: "/conversion/net/dotx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DOTX к XLSM"
+        - name: "DOTX в XLSM"
           link: "/conversion/net/dotx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTX к XLSX"
+        - name: "DOTX в XLSX"
           link: "/conversion/net/dotx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DOTX к XLT"
+        - name: "DOTX в XLT"
           link: "/conversion/net/dotx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOTX к XLTM"
+        - name: "DOTX в XLTM"
           link: "/conversion/net/dotx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTX к XLTX"
+        - name: "DOTX в XLTX"
           link: "/conversion/net/dotx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOTX к XPS"
+        - name: "DOTX в XPS"
           link: "/conversion/net/dotx-to-xps/"
           description: "Спецификация документа Open XML"
 

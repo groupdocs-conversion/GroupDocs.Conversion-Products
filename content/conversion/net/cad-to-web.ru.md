@@ -127,7 +127,7 @@ more_formats:
         Вы также можете конвертировать CAD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "CAD к PDF"
+        - name: "CAD в PDF"
           link: "/conversion/net/cad-to-pdf/"
           description: "Портативный документ"
 

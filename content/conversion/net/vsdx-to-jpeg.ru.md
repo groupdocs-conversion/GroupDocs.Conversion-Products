@@ -127,317 +127,317 @@ more_formats:
         Вы также можете конвертировать VSDX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VSDX к BMP"
+        - name: "VSDX в BMP"
           link: "/conversion/net/vsdx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VSDX к CSV"
+        - name: "VSDX в CSV"
           link: "/conversion/net/vsdx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VSDX к DCM"
+        - name: "VSDX в DCM"
           link: "/conversion/net/vsdx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VSDX к DIF"
+        - name: "VSDX в DIF"
           link: "/conversion/net/vsdx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VSDX к DOC"
+        - name: "VSDX в DOC"
           link: "/conversion/net/vsdx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VSDX к DOCM"
+        - name: "VSDX в DOCM"
           link: "/conversion/net/vsdx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSDX к DOCX"
+        - name: "VSDX в DOCX"
           link: "/conversion/net/vsdx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VSDX к DOT"
+        - name: "VSDX в DOT"
           link: "/conversion/net/vsdx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VSDX к DOTM"
+        - name: "VSDX в DOTM"
           link: "/conversion/net/vsdx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSDX к DOTX"
+        - name: "VSDX в DOTX"
           link: "/conversion/net/vsdx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VSDX к EMF"
+        - name: "VSDX в EMF"
           link: "/conversion/net/vsdx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VSDX к EMZ"
+        - name: "VSDX в EMZ"
           link: "/conversion/net/vsdx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VSDX к EPUB"
+        - name: "VSDX в EPUB"
           link: "/conversion/net/vsdx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VSDX к FODP"
+        - name: "VSDX в FODP"
           link: "/conversion/net/vsdx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VSDX к FODS"
+        - name: "VSDX в FODS"
           link: "/conversion/net/vsdx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VSDX к GIF"
+        - name: "VSDX в GIF"
           link: "/conversion/net/vsdx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VSDX к HTM"
+        - name: "VSDX в HTM"
           link: "/conversion/net/vsdx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VSDX к HTML"
+        - name: "VSDX в HTML"
           link: "/conversion/net/vsdx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VSDX к ICO"
+        - name: "VSDX в ICO"
           link: "/conversion/net/vsdx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VSDX к JP2"
+        - name: "VSDX в JP2"
           link: "/conversion/net/vsdx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VSDX к JPG"
+        - name: "VSDX в JPG"
           link: "/conversion/net/vsdx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VSDX к JPM"
+        - name: "VSDX в JPM"
           link: "/conversion/net/vsdx-to-jpm/"
           description: "Файл изображения JPEG 2000"
 
         # format loop
-        - name: "VSDX к MD"
+        - name: "VSDX в MD"
           link: "/conversion/net/vsdx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VSDX к MHT"
+        - name: "VSDX в MHT"
           link: "/conversion/net/vsdx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSDX к MHTML"
+        - name: "VSDX в MHTML"
           link: "/conversion/net/vsdx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSDX к ODP"
+        - name: "VSDX в ODP"
           link: "/conversion/net/vsdx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VSDX к ODS"
+        - name: "VSDX в ODS"
           link: "/conversion/net/vsdx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VSDX к ODT"
+        - name: "VSDX в ODT"
           link: "/conversion/net/vsdx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VSDX к OTP"
+        - name: "VSDX в OTP"
           link: "/conversion/net/vsdx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VSDX к OTT"
+        - name: "VSDX в OTT"
           link: "/conversion/net/vsdx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VSDX к PDF"
+        - name: "VSDX в PDF"
           link: "/conversion/net/vsdx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VSDX к PNG"
+        - name: "VSDX в PNG"
           link: "/conversion/net/vsdx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VSDX к POT"
+        - name: "VSDX в POT"
           link: "/conversion/net/vsdx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VSDX к POTM"
+        - name: "VSDX в POTM"
           link: "/conversion/net/vsdx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSDX к POTX"
+        - name: "VSDX в POTX"
           link: "/conversion/net/vsdx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSDX к PPS"
+        - name: "VSDX в PPS"
           link: "/conversion/net/vsdx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSDX к PPSM"
+        - name: "VSDX в PPSM"
           link: "/conversion/net/vsdx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSDX к PPSX"
+        - name: "VSDX в PPSX"
           link: "/conversion/net/vsdx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VSDX к PPT"
+        - name: "VSDX в PPT"
           link: "/conversion/net/vsdx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VSDX к PPTM"
+        - name: "VSDX в PPTM"
           link: "/conversion/net/vsdx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VSDX к PPTX"
+        - name: "VSDX в PPTX"
           link: "/conversion/net/vsdx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VSDX к PSD"
+        - name: "VSDX в PSD"
           link: "/conversion/net/vsdx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VSDX к RTF"
+        - name: "VSDX в RTF"
           link: "/conversion/net/vsdx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VSDX к SVG"
+        - name: "VSDX в SVG"
           link: "/conversion/net/vsdx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSDX к SVGZ"
+        - name: "VSDX в SVGZ"
           link: "/conversion/net/vsdx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSDX к SXC"
+        - name: "VSDX в SXC"
           link: "/conversion/net/vsdx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VSDX к TEX"
+        - name: "VSDX в TEX"
           link: "/conversion/net/vsdx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VSDX к TIF"
+        - name: "VSDX в TIF"
           link: "/conversion/net/vsdx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSDX к TIFF"
+        - name: "VSDX в TIFF"
           link: "/conversion/net/vsdx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSDX к TSV"
+        - name: "VSDX в TSV"
           link: "/conversion/net/vsdx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VSDX к TXT"
+        - name: "VSDX в TXT"
           link: "/conversion/net/vsdx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VSDX к WEBP"
+        - name: "VSDX в WEBP"
           link: "/conversion/net/vsdx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VSDX к WMF"
+        - name: "VSDX в WMF"
           link: "/conversion/net/vsdx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VSDX к WMZ"
+        - name: "VSDX в WMZ"
           link: "/conversion/net/vsdx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VSDX к XLAM"
+        - name: "VSDX в XLAM"
           link: "/conversion/net/vsdx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSDX к XLS"
+        - name: "VSDX в XLS"
           link: "/conversion/net/vsdx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VSDX к XLSB"
+        - name: "VSDX в XLSB"
           link: "/conversion/net/vsdx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VSDX к XLSM"
+        - name: "VSDX в XLSM"
           link: "/conversion/net/vsdx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSDX к XLSX"
+        - name: "VSDX в XLSX"
           link: "/conversion/net/vsdx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VSDX к XLT"
+        - name: "VSDX в XLT"
           link: "/conversion/net/vsdx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSDX к XLTM"
+        - name: "VSDX в XLTM"
           link: "/conversion/net/vsdx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSDX к XLTX"
+        - name: "VSDX в XLTX"
           link: "/conversion/net/vsdx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSDX к XPS"
+        - name: "VSDX в XPS"
           link: "/conversion/net/vsdx-to-xps/"
           description: "Спецификация документа Open XML"
 

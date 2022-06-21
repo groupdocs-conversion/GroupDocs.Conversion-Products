@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать MOBI во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MOBI к BMP"
+        - name: "MOBI в BMP"
           link: "/conversion/java/mobi-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MOBI к CSV"
+        - name: "MOBI в CSV"
           link: "/conversion/java/mobi-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MOBI к DCM"
+        - name: "MOBI в DCM"
           link: "/conversion/java/mobi-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MOBI к DIF"
+        - name: "MOBI в DIF"
           link: "/conversion/java/mobi-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MOBI к DOC"
+        - name: "MOBI в DOC"
           link: "/conversion/java/mobi-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MOBI к DOCM"
+        - name: "MOBI в DOCM"
           link: "/conversion/java/mobi-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MOBI к DOCX"
+        - name: "MOBI в DOCX"
           link: "/conversion/java/mobi-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MOBI к DOT"
+        - name: "MOBI в DOT"
           link: "/conversion/java/mobi-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MOBI к DOTM"
+        - name: "MOBI в DOTM"
           link: "/conversion/java/mobi-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MOBI к DOTX"
+        - name: "MOBI в DOTX"
           link: "/conversion/java/mobi-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MOBI к EMF"
+        - name: "MOBI в EMF"
           link: "/conversion/java/mobi-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MOBI к EMZ"
+        - name: "MOBI в EMZ"
           link: "/conversion/java/mobi-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MOBI к EPUB"
+        - name: "MOBI в EPUB"
           link: "/conversion/java/mobi-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MOBI к FODP"
+        - name: "MOBI в FODP"
           link: "/conversion/java/mobi-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MOBI к FODS"
+        - name: "MOBI в FODS"
           link: "/conversion/java/mobi-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MOBI к GIF"
+        - name: "MOBI в GIF"
           link: "/conversion/java/mobi-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MOBI к HTM"
+        - name: "MOBI в HTM"
           link: "/conversion/java/mobi-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MOBI к HTML"
+        - name: "MOBI в HTML"
           link: "/conversion/java/mobi-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MOBI к ICO"
+        - name: "MOBI в ICO"
           link: "/conversion/java/mobi-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MOBI к JP2"
+        - name: "MOBI в JP2"
           link: "/conversion/java/mobi-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MOBI к JPEG"
+        - name: "MOBI в JPEG"
           link: "/conversion/java/mobi-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MOBI к JPG"
+        - name: "MOBI в JPG"
           link: "/conversion/java/mobi-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MOBI к MD"
+        - name: "MOBI в MD"
           link: "/conversion/java/mobi-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MOBI к MHT"
+        - name: "MOBI в MHT"
           link: "/conversion/java/mobi-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MOBI к MHTML"
+        - name: "MOBI в MHTML"
           link: "/conversion/java/mobi-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MOBI к ODP"
+        - name: "MOBI в ODP"
           link: "/conversion/java/mobi-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MOBI к ODS"
+        - name: "MOBI в ODS"
           link: "/conversion/java/mobi-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MOBI к ODT"
+        - name: "MOBI в ODT"
           link: "/conversion/java/mobi-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MOBI к OTP"
+        - name: "MOBI в OTP"
           link: "/conversion/java/mobi-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MOBI к OTT"
+        - name: "MOBI в OTT"
           link: "/conversion/java/mobi-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MOBI к PDF"
+        - name: "MOBI в PDF"
           link: "/conversion/java/mobi-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MOBI к PNG"
+        - name: "MOBI в PNG"
           link: "/conversion/java/mobi-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MOBI к POT"
+        - name: "MOBI в POT"
           link: "/conversion/java/mobi-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MOBI к POTM"
+        - name: "MOBI в POTM"
           link: "/conversion/java/mobi-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI к POTX"
+        - name: "MOBI в POTX"
           link: "/conversion/java/mobi-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI к PPS"
+        - name: "MOBI в PPS"
           link: "/conversion/java/mobi-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI к PPSM"
+        - name: "MOBI в PPSM"
           link: "/conversion/java/mobi-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI к PPSX"
+        - name: "MOBI в PPSX"
           link: "/conversion/java/mobi-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MOBI к PPT"
+        - name: "MOBI в PPT"
           link: "/conversion/java/mobi-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MOBI к PPTM"
+        - name: "MOBI в PPTM"
           link: "/conversion/java/mobi-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MOBI к PPTX"
+        - name: "MOBI в PPTX"
           link: "/conversion/java/mobi-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MOBI к PSD"
+        - name: "MOBI в PSD"
           link: "/conversion/java/mobi-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MOBI к RTF"
+        - name: "MOBI в RTF"
           link: "/conversion/java/mobi-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MOBI к SVG"
+        - name: "MOBI в SVG"
           link: "/conversion/java/mobi-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MOBI к SVGZ"
+        - name: "MOBI в SVGZ"
           link: "/conversion/java/mobi-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MOBI к SXC"
+        - name: "MOBI в SXC"
           link: "/conversion/java/mobi-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MOBI к TEX"
+        - name: "MOBI в TEX"
           link: "/conversion/java/mobi-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MOBI к TIF"
+        - name: "MOBI в TIF"
           link: "/conversion/java/mobi-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MOBI к TIFF"
+        - name: "MOBI в TIFF"
           link: "/conversion/java/mobi-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MOBI к TSV"
+        - name: "MOBI в TSV"
           link: "/conversion/java/mobi-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MOBI к TXT"
+        - name: "MOBI в TXT"
           link: "/conversion/java/mobi-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MOBI к WEBP"
+        - name: "MOBI в WEBP"
           link: "/conversion/java/mobi-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MOBI к WMF"
+        - name: "MOBI в WMF"
           link: "/conversion/java/mobi-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MOBI к WMZ"
+        - name: "MOBI в WMZ"
           link: "/conversion/java/mobi-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MOBI к XLAM"
+        - name: "MOBI в XLAM"
           link: "/conversion/java/mobi-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MOBI к XLS"
+        - name: "MOBI в XLS"
           link: "/conversion/java/mobi-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MOBI к XLSB"
+        - name: "MOBI в XLSB"
           link: "/conversion/java/mobi-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MOBI к XLSM"
+        - name: "MOBI в XLSM"
           link: "/conversion/java/mobi-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MOBI к XLSX"
+        - name: "MOBI в XLSX"
           link: "/conversion/java/mobi-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MOBI к XLT"
+        - name: "MOBI в XLT"
           link: "/conversion/java/mobi-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MOBI к XLTM"
+        - name: "MOBI в XLTM"
           link: "/conversion/java/mobi-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MOBI к XLTX"
+        - name: "MOBI в XLTX"
           link: "/conversion/java/mobi-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 

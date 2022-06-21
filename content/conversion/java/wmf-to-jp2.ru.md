@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать WMF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WMF к BMP"
+        - name: "WMF в BMP"
           link: "/conversion/java/wmf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WMF к CSV"
+        - name: "WMF в CSV"
           link: "/conversion/java/wmf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WMF к DCM"
+        - name: "WMF в DCM"
           link: "/conversion/java/wmf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "WMF к DIF"
+        - name: "WMF в DIF"
           link: "/conversion/java/wmf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "WMF к DOC"
+        - name: "WMF в DOC"
           link: "/conversion/java/wmf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WMF к DOCM"
+        - name: "WMF в DOCM"
           link: "/conversion/java/wmf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WMF к DOCX"
+        - name: "WMF в DOCX"
           link: "/conversion/java/wmf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WMF к DOT"
+        - name: "WMF в DOT"
           link: "/conversion/java/wmf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WMF к DOTM"
+        - name: "WMF в DOTM"
           link: "/conversion/java/wmf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WMF к DOTX"
+        - name: "WMF в DOTX"
           link: "/conversion/java/wmf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WMF к EMF"
+        - name: "WMF в EMF"
           link: "/conversion/java/wmf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WMF к EMZ"
+        - name: "WMF в EMZ"
           link: "/conversion/java/wmf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WMF к EPUB"
+        - name: "WMF в EPUB"
           link: "/conversion/java/wmf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WMF к FODP"
+        - name: "WMF в FODP"
           link: "/conversion/java/wmf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "WMF к FODS"
+        - name: "WMF в FODS"
           link: "/conversion/java/wmf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "WMF к GIF"
+        - name: "WMF в GIF"
           link: "/conversion/java/wmf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WMF к HTM"
+        - name: "WMF в HTM"
           link: "/conversion/java/wmf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "WMF к HTML"
+        - name: "WMF в HTML"
           link: "/conversion/java/wmf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WMF к ICO"
+        - name: "WMF в ICO"
           link: "/conversion/java/wmf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WMF к JPEG"
+        - name: "WMF в JPEG"
           link: "/conversion/java/wmf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WMF к JPG"
+        - name: "WMF в JPG"
           link: "/conversion/java/wmf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WMF к MD"
+        - name: "WMF в MD"
           link: "/conversion/java/wmf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WMF к MHT"
+        - name: "WMF в MHT"
           link: "/conversion/java/wmf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WMF к MHTML"
+        - name: "WMF в MHTML"
           link: "/conversion/java/wmf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WMF к ODP"
+        - name: "WMF в ODP"
           link: "/conversion/java/wmf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WMF к ODS"
+        - name: "WMF в ODS"
           link: "/conversion/java/wmf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WMF к ODT"
+        - name: "WMF в ODT"
           link: "/conversion/java/wmf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WMF к OTP"
+        - name: "WMF в OTP"
           link: "/conversion/java/wmf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WMF к OTT"
+        - name: "WMF в OTT"
           link: "/conversion/java/wmf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WMF к PDF"
+        - name: "WMF в PDF"
           link: "/conversion/java/wmf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "WMF к PNG"
+        - name: "WMF в PNG"
           link: "/conversion/java/wmf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WMF к POT"
+        - name: "WMF в POT"
           link: "/conversion/java/wmf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "WMF к POTM"
+        - name: "WMF в POTM"
           link: "/conversion/java/wmf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WMF к POTX"
+        - name: "WMF в POTX"
           link: "/conversion/java/wmf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WMF к PPS"
+        - name: "WMF в PPS"
           link: "/conversion/java/wmf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WMF к PPSM"
+        - name: "WMF в PPSM"
           link: "/conversion/java/wmf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WMF к PPSX"
+        - name: "WMF в PPSX"
           link: "/conversion/java/wmf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WMF к PPT"
+        - name: "WMF в PPT"
           link: "/conversion/java/wmf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WMF к PPTM"
+        - name: "WMF в PPTM"
           link: "/conversion/java/wmf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WMF к PPTX"
+        - name: "WMF в PPTX"
           link: "/conversion/java/wmf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WMF к PSD"
+        - name: "WMF в PSD"
           link: "/conversion/java/wmf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WMF к RTF"
+        - name: "WMF в RTF"
           link: "/conversion/java/wmf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WMF к SVG"
+        - name: "WMF в SVG"
           link: "/conversion/java/wmf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WMF к SVGZ"
+        - name: "WMF в SVGZ"
           link: "/conversion/java/wmf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WMF к SXC"
+        - name: "WMF в SXC"
           link: "/conversion/java/wmf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "WMF к TEX"
+        - name: "WMF в TEX"
           link: "/conversion/java/wmf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WMF к TIF"
+        - name: "WMF в TIF"
           link: "/conversion/java/wmf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WMF к TIFF"
+        - name: "WMF в TIFF"
           link: "/conversion/java/wmf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WMF к TSV"
+        - name: "WMF в TSV"
           link: "/conversion/java/wmf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WMF к TXT"
+        - name: "WMF в TXT"
           link: "/conversion/java/wmf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WMF к WEBP"
+        - name: "WMF в WEBP"
           link: "/conversion/java/wmf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WMF к WMZ"
+        - name: "WMF в WMZ"
           link: "/conversion/java/wmf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WMF к XLAM"
+        - name: "WMF в XLAM"
           link: "/conversion/java/wmf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMF к XLS"
+        - name: "WMF в XLS"
           link: "/conversion/java/wmf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WMF к XLSB"
+        - name: "WMF в XLSB"
           link: "/conversion/java/wmf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WMF к XLSM"
+        - name: "WMF в XLSM"
           link: "/conversion/java/wmf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMF к XLSX"
+        - name: "WMF в XLSX"
           link: "/conversion/java/wmf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WMF к XLT"
+        - name: "WMF в XLT"
           link: "/conversion/java/wmf-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "WMF к XLTM"
+        - name: "WMF в XLTM"
           link: "/conversion/java/wmf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WMF к XLTX"
+        - name: "WMF в XLTX"
           link: "/conversion/java/wmf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WMF к XPS"
+        - name: "WMF в XPS"
           link: "/conversion/java/wmf-to-xps/"
           description: "Спецификация документа Open XML"
 

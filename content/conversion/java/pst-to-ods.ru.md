@@ -128,337 +128,337 @@ more_formats:
         Вы также можете конвертировать PST во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PST к BMP"
+        - name: "PST в BMP"
           link: "/conversion/java/pst-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PST к CSV"
+        - name: "PST в CSV"
           link: "/conversion/java/pst-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PST к DCM"
+        - name: "PST в DCM"
           link: "/conversion/java/pst-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PST к DIF"
+        - name: "PST в DIF"
           link: "/conversion/java/pst-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PST к DOC"
+        - name: "PST в DOC"
           link: "/conversion/java/pst-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PST к DOCM"
+        - name: "PST в DOCM"
           link: "/conversion/java/pst-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PST к DOCX"
+        - name: "PST в DOCX"
           link: "/conversion/java/pst-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PST к DOT"
+        - name: "PST в DOT"
           link: "/conversion/java/pst-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PST к DOTM"
+        - name: "PST в DOTM"
           link: "/conversion/java/pst-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PST к DOTX"
+        - name: "PST в DOTX"
           link: "/conversion/java/pst-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PST к EMF"
+        - name: "PST в EMF"
           link: "/conversion/java/pst-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PST к EML"
+        - name: "PST в EML"
           link: "/conversion/java/pst-to-eml/"
           description: "Файл сообщения электронной почты"
 
         # format loop
-        - name: "PST к EMLX"
+        - name: "PST в EMLX"
           link: "/conversion/java/pst-to-emlx/"
           description: "Почтовое сообщение Apple"
 
         # format loop
-        - name: "PST к EMZ"
+        - name: "PST в EMZ"
           link: "/conversion/java/pst-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PST к EPUB"
+        - name: "PST в EPUB"
           link: "/conversion/java/pst-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PST к FODP"
+        - name: "PST в FODP"
           link: "/conversion/java/pst-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PST к FODS"
+        - name: "PST в FODS"
           link: "/conversion/java/pst-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PST к GIF"
+        - name: "PST в GIF"
           link: "/conversion/java/pst-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PST к HTM"
+        - name: "PST в HTM"
           link: "/conversion/java/pst-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PST к HTML"
+        - name: "PST в HTML"
           link: "/conversion/java/pst-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PST к ICO"
+        - name: "PST в ICO"
           link: "/conversion/java/pst-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PST к JP2"
+        - name: "PST в JP2"
           link: "/conversion/java/pst-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PST к JPEG"
+        - name: "PST в JPEG"
           link: "/conversion/java/pst-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PST к JPG"
+        - name: "PST в JPG"
           link: "/conversion/java/pst-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PST к MD"
+        - name: "PST в MD"
           link: "/conversion/java/pst-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PST к MHT"
+        - name: "PST в MHT"
           link: "/conversion/java/pst-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PST к MHTML"
+        - name: "PST в MHTML"
           link: "/conversion/java/pst-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PST к MSG"
+        - name: "PST в MSG"
           link: "/conversion/java/pst-to-msg/"
           description: "Формат электронной почты Microsoft Outlook"
 
         # format loop
-        - name: "PST к ODG"
+        - name: "PST в ODG"
           link: "/conversion/java/pst-to-odg/"
           description: "Файл чертежа OpenDocument"
 
         # format loop
-        - name: "PST к ODP"
+        - name: "PST в ODP"
           link: "/conversion/java/pst-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PST к ODT"
+        - name: "PST в ODT"
           link: "/conversion/java/pst-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PST к OTP"
+        - name: "PST в OTP"
           link: "/conversion/java/pst-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PST к OTT"
+        - name: "PST в OTT"
           link: "/conversion/java/pst-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PST к PDF"
+        - name: "PST в PDF"
           link: "/conversion/java/pst-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PST к PNG"
+        - name: "PST в PNG"
           link: "/conversion/java/pst-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PST к POT"
+        - name: "PST в POT"
           link: "/conversion/java/pst-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PST к POTM"
+        - name: "PST в POTM"
           link: "/conversion/java/pst-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PST к POTX"
+        - name: "PST в POTX"
           link: "/conversion/java/pst-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PST к PPS"
+        - name: "PST в PPS"
           link: "/conversion/java/pst-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PST к PPSM"
+        - name: "PST в PPSM"
           link: "/conversion/java/pst-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PST к PPSX"
+        - name: "PST в PPSX"
           link: "/conversion/java/pst-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PST к PPT"
+        - name: "PST в PPT"
           link: "/conversion/java/pst-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PST к PPTM"
+        - name: "PST в PPTM"
           link: "/conversion/java/pst-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PST к PPTX"
+        - name: "PST в PPTX"
           link: "/conversion/java/pst-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PST к PS"
+        - name: "PST в PS"
           link: "/conversion/java/pst-to-ps/"
           description: "Постскриптум (PS)"
 
         # format loop
-        - name: "PST к PSD"
+        - name: "PST в PSD"
           link: "/conversion/java/pst-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PST к RTF"
+        - name: "PST в RTF"
           link: "/conversion/java/pst-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PST к SVG"
+        - name: "PST в SVG"
           link: "/conversion/java/pst-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PST к SVGZ"
+        - name: "PST в SVGZ"
           link: "/conversion/java/pst-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PST к SXC"
+        - name: "PST в SXC"
           link: "/conversion/java/pst-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PST к TEX"
+        - name: "PST в TEX"
           link: "/conversion/java/pst-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PST к TIF"
+        - name: "PST в TIF"
           link: "/conversion/java/pst-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PST к TIFF"
+        - name: "PST в TIFF"
           link: "/conversion/java/pst-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PST к TSV"
+        - name: "PST в TSV"
           link: "/conversion/java/pst-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PST к TXT"
+        - name: "PST в TXT"
           link: "/conversion/java/pst-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PST к WEBP"
+        - name: "PST в WEBP"
           link: "/conversion/java/pst-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PST к WMF"
+        - name: "PST в WMF"
           link: "/conversion/java/pst-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PST к WMZ"
+        - name: "PST в WMZ"
           link: "/conversion/java/pst-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PST к XLAM"
+        - name: "PST в XLAM"
           link: "/conversion/java/pst-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PST к XLS"
+        - name: "PST в XLS"
           link: "/conversion/java/pst-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PST к XLSB"
+        - name: "PST в XLSB"
           link: "/conversion/java/pst-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PST к XLSM"
+        - name: "PST в XLSM"
           link: "/conversion/java/pst-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PST к XLSX"
+        - name: "PST в XLSX"
           link: "/conversion/java/pst-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PST к XLT"
+        - name: "PST в XLT"
           link: "/conversion/java/pst-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PST к XLTM"
+        - name: "PST в XLTM"
           link: "/conversion/java/pst-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PST к XLTX"
+        - name: "PST в XLTX"
           link: "/conversion/java/pst-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PST к XPS"
+        - name: "PST в XPS"
           link: "/conversion/java/pst-to-xps/"
           description: "Спецификация документа Open XML"
 

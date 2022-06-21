@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать CGM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "CGM к BMP"
+        - name: "CGM в BMP"
           link: "/conversion/java/cgm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "CGM к CSV"
+        - name: "CGM в CSV"
           link: "/conversion/java/cgm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "CGM к DCM"
+        - name: "CGM в DCM"
           link: "/conversion/java/cgm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "CGM к DIF"
+        - name: "CGM в DIF"
           link: "/conversion/java/cgm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "CGM к DOC"
+        - name: "CGM в DOC"
           link: "/conversion/java/cgm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "CGM к DOCM"
+        - name: "CGM в DOCM"
           link: "/conversion/java/cgm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CGM к DOCX"
+        - name: "CGM в DOCX"
           link: "/conversion/java/cgm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "CGM к DOT"
+        - name: "CGM в DOT"
           link: "/conversion/java/cgm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "CGM к DOTM"
+        - name: "CGM в DOTM"
           link: "/conversion/java/cgm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CGM к DOTX"
+        - name: "CGM в DOTX"
           link: "/conversion/java/cgm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "CGM к EMF"
+        - name: "CGM в EMF"
           link: "/conversion/java/cgm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "CGM к EMZ"
+        - name: "CGM в EMZ"
           link: "/conversion/java/cgm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "CGM к EPUB"
+        - name: "CGM в EPUB"
           link: "/conversion/java/cgm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "CGM к FODP"
+        - name: "CGM в FODP"
           link: "/conversion/java/cgm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "CGM к FODS"
+        - name: "CGM в FODS"
           link: "/conversion/java/cgm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "CGM к GIF"
+        - name: "CGM в GIF"
           link: "/conversion/java/cgm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "CGM к HTM"
+        - name: "CGM в HTM"
           link: "/conversion/java/cgm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "CGM к HTML"
+        - name: "CGM в HTML"
           link: "/conversion/java/cgm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "CGM к ICO"
+        - name: "CGM в ICO"
           link: "/conversion/java/cgm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "CGM к JP2"
+        - name: "CGM в JP2"
           link: "/conversion/java/cgm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "CGM к JPEG"
+        - name: "CGM в JPEG"
           link: "/conversion/java/cgm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "CGM к JPG"
+        - name: "CGM в JPG"
           link: "/conversion/java/cgm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "CGM к MD"
+        - name: "CGM в MD"
           link: "/conversion/java/cgm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "CGM к MHT"
+        - name: "CGM в MHT"
           link: "/conversion/java/cgm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CGM к MHTML"
+        - name: "CGM в MHTML"
           link: "/conversion/java/cgm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CGM к ODP"
+        - name: "CGM в ODP"
           link: "/conversion/java/cgm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "CGM к ODS"
+        - name: "CGM в ODS"
           link: "/conversion/java/cgm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "CGM к ODT"
+        - name: "CGM в ODT"
           link: "/conversion/java/cgm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "CGM к OTP"
+        - name: "CGM в OTP"
           link: "/conversion/java/cgm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "CGM к OTT"
+        - name: "CGM в OTT"
           link: "/conversion/java/cgm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "CGM к PDF"
+        - name: "CGM в PDF"
           link: "/conversion/java/cgm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "CGM к PNG"
+        - name: "CGM в PNG"
           link: "/conversion/java/cgm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "CGM к POT"
+        - name: "CGM в POT"
           link: "/conversion/java/cgm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "CGM к POTM"
+        - name: "CGM в POTM"
           link: "/conversion/java/cgm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CGM к POTX"
+        - name: "CGM в POTX"
           link: "/conversion/java/cgm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CGM к PPS"
+        - name: "CGM в PPS"
           link: "/conversion/java/cgm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CGM к PPSM"
+        - name: "CGM в PPSM"
           link: "/conversion/java/cgm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CGM к PPSX"
+        - name: "CGM в PPSX"
           link: "/conversion/java/cgm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "CGM к PPT"
+        - name: "CGM в PPT"
           link: "/conversion/java/cgm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "CGM к PPTM"
+        - name: "CGM в PPTM"
           link: "/conversion/java/cgm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "CGM к PPTX"
+        - name: "CGM в PPTX"
           link: "/conversion/java/cgm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "CGM к PSD"
+        - name: "CGM в PSD"
           link: "/conversion/java/cgm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "CGM к RTF"
+        - name: "CGM в RTF"
           link: "/conversion/java/cgm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "CGM к SVGZ"
+        - name: "CGM в SVGZ"
           link: "/conversion/java/cgm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CGM к SXC"
+        - name: "CGM в SXC"
           link: "/conversion/java/cgm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "CGM к TEX"
+        - name: "CGM в TEX"
           link: "/conversion/java/cgm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "CGM к TIF"
+        - name: "CGM в TIF"
           link: "/conversion/java/cgm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CGM к TIFF"
+        - name: "CGM в TIFF"
           link: "/conversion/java/cgm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CGM к TSV"
+        - name: "CGM в TSV"
           link: "/conversion/java/cgm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "CGM к TXT"
+        - name: "CGM в TXT"
           link: "/conversion/java/cgm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "CGM к WEBP"
+        - name: "CGM в WEBP"
           link: "/conversion/java/cgm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "CGM к WMF"
+        - name: "CGM в WMF"
           link: "/conversion/java/cgm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "CGM к WMZ"
+        - name: "CGM в WMZ"
           link: "/conversion/java/cgm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "CGM к XLAM"
+        - name: "CGM в XLAM"
           link: "/conversion/java/cgm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CGM к XLS"
+        - name: "CGM в XLS"
           link: "/conversion/java/cgm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "CGM к XLSB"
+        - name: "CGM в XLSB"
           link: "/conversion/java/cgm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "CGM к XLSM"
+        - name: "CGM в XLSM"
           link: "/conversion/java/cgm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CGM к XLSX"
+        - name: "CGM в XLSX"
           link: "/conversion/java/cgm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "CGM к XLT"
+        - name: "CGM в XLT"
           link: "/conversion/java/cgm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "CGM к XLTM"
+        - name: "CGM в XLTM"
           link: "/conversion/java/cgm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CGM к XLTX"
+        - name: "CGM в XLTX"
           link: "/conversion/java/cgm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "CGM к XPS"
+        - name: "CGM в XPS"
           link: "/conversion/java/cgm-to-xps/"
           description: "Спецификация документа Open XML"
 

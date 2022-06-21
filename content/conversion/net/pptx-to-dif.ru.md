@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать PPTX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PPTX к BMP"
+        - name: "PPTX в BMP"
           link: "/conversion/net/pptx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PPTX к CSV"
+        - name: "PPTX в CSV"
           link: "/conversion/net/pptx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PPTX к DCM"
+        - name: "PPTX в DCM"
           link: "/conversion/net/pptx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PPTX к DOC"
+        - name: "PPTX в DOC"
           link: "/conversion/net/pptx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PPTX к DOCM"
+        - name: "PPTX в DOCM"
           link: "/conversion/net/pptx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPTX к DOCX"
+        - name: "PPTX в DOCX"
           link: "/conversion/net/pptx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PPTX к DOT"
+        - name: "PPTX в DOT"
           link: "/conversion/net/pptx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PPTX к DOTM"
+        - name: "PPTX в DOTM"
           link: "/conversion/net/pptx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPTX к DOTX"
+        - name: "PPTX в DOTX"
           link: "/conversion/net/pptx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PPTX к EMF"
+        - name: "PPTX в EMF"
           link: "/conversion/net/pptx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PPTX к EMZ"
+        - name: "PPTX в EMZ"
           link: "/conversion/net/pptx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PPTX к EPUB"
+        - name: "PPTX в EPUB"
           link: "/conversion/net/pptx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PPTX к FODP"
+        - name: "PPTX в FODP"
           link: "/conversion/net/pptx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PPTX к FODS"
+        - name: "PPTX в FODS"
           link: "/conversion/net/pptx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PPTX к GIF"
+        - name: "PPTX в GIF"
           link: "/conversion/net/pptx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PPTX к HTM"
+        - name: "PPTX в HTM"
           link: "/conversion/net/pptx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PPTX к HTML"
+        - name: "PPTX в HTML"
           link: "/conversion/net/pptx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PPTX к ICO"
+        - name: "PPTX в ICO"
           link: "/conversion/net/pptx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PPTX к JP2"
+        - name: "PPTX в JP2"
           link: "/conversion/net/pptx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PPTX к JPEG"
+        - name: "PPTX в JPEG"
           link: "/conversion/net/pptx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PPTX к JPG"
+        - name: "PPTX в JPG"
           link: "/conversion/net/pptx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PPTX к MD"
+        - name: "PPTX в MD"
           link: "/conversion/net/pptx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PPTX к MHT"
+        - name: "PPTX в MHT"
           link: "/conversion/net/pptx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPTX к MHTML"
+        - name: "PPTX в MHTML"
           link: "/conversion/net/pptx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPTX к ODP"
+        - name: "PPTX в ODP"
           link: "/conversion/net/pptx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PPTX к ODS"
+        - name: "PPTX в ODS"
           link: "/conversion/net/pptx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PPTX к ODT"
+        - name: "PPTX в ODT"
           link: "/conversion/net/pptx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PPTX к OTP"
+        - name: "PPTX в OTP"
           link: "/conversion/net/pptx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PPTX к OTT"
+        - name: "PPTX в OTT"
           link: "/conversion/net/pptx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PPTX к PDF"
+        - name: "PPTX в PDF"
           link: "/conversion/net/pptx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PPTX к PNG"
+        - name: "PPTX в PNG"
           link: "/conversion/net/pptx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PPTX к POT"
+        - name: "PPTX в POT"
           link: "/conversion/net/pptx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PPTX к POTM"
+        - name: "PPTX в POTM"
           link: "/conversion/net/pptx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTX к POTX"
+        - name: "PPTX в POTX"
           link: "/conversion/net/pptx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTX к PPS"
+        - name: "PPTX в PPS"
           link: "/conversion/net/pptx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTX к PPSM"
+        - name: "PPTX в PPSM"
           link: "/conversion/net/pptx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTX к PPSX"
+        - name: "PPTX в PPSX"
           link: "/conversion/net/pptx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PPTX к PPT"
+        - name: "PPTX в PPT"
           link: "/conversion/net/pptx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PPTX к PPTM"
+        - name: "PPTX в PPTM"
           link: "/conversion/net/pptx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PPTX к PSD"
+        - name: "PPTX в PSD"
           link: "/conversion/net/pptx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PPTX к RTF"
+        - name: "PPTX в RTF"
           link: "/conversion/net/pptx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PPTX к SVG"
+        - name: "PPTX в SVG"
           link: "/conversion/net/pptx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPTX к SVGZ"
+        - name: "PPTX в SVGZ"
           link: "/conversion/net/pptx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPTX к SXC"
+        - name: "PPTX в SXC"
           link: "/conversion/net/pptx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PPTX к TEX"
+        - name: "PPTX в TEX"
           link: "/conversion/net/pptx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PPTX к TIF"
+        - name: "PPTX в TIF"
           link: "/conversion/net/pptx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPTX к TIFF"
+        - name: "PPTX в TIFF"
           link: "/conversion/net/pptx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPTX к TSV"
+        - name: "PPTX в TSV"
           link: "/conversion/net/pptx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PPTX к TXT"
+        - name: "PPTX в TXT"
           link: "/conversion/net/pptx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PPTX к WEBP"
+        - name: "PPTX в WEBP"
           link: "/conversion/net/pptx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PPTX к WMF"
+        - name: "PPTX в WMF"
           link: "/conversion/net/pptx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PPTX к WMZ"
+        - name: "PPTX в WMZ"
           link: "/conversion/net/pptx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PPTX к XLAM"
+        - name: "PPTX в XLAM"
           link: "/conversion/net/pptx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPTX к XLS"
+        - name: "PPTX в XLS"
           link: "/conversion/net/pptx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PPTX к XLSB"
+        - name: "PPTX в XLSB"
           link: "/conversion/net/pptx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PPTX к XLSM"
+        - name: "PPTX в XLSM"
           link: "/conversion/net/pptx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPTX к XLSX"
+        - name: "PPTX в XLSX"
           link: "/conversion/net/pptx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PPTX к XLT"
+        - name: "PPTX в XLT"
           link: "/conversion/net/pptx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPTX к XLTM"
+        - name: "PPTX в XLTM"
           link: "/conversion/net/pptx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPTX к XLTX"
+        - name: "PPTX в XLTX"
           link: "/conversion/net/pptx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPTX к XPS"
+        - name: "PPTX в XPS"
           link: "/conversion/net/pptx-to-xps/"
           description: "Спецификация документа Open XML"
 

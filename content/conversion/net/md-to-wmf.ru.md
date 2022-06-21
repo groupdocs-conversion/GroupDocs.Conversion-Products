@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать MD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MD к BMP"
+        - name: "MD в BMP"
           link: "/conversion/net/md-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MD к CSV"
+        - name: "MD в CSV"
           link: "/conversion/net/md-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MD к DCM"
+        - name: "MD в DCM"
           link: "/conversion/net/md-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MD к DIF"
+        - name: "MD в DIF"
           link: "/conversion/net/md-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MD к DOC"
+        - name: "MD в DOC"
           link: "/conversion/net/md-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MD к DOCM"
+        - name: "MD в DOCM"
           link: "/conversion/net/md-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MD к DOCX"
+        - name: "MD в DOCX"
           link: "/conversion/net/md-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MD к DOT"
+        - name: "MD в DOT"
           link: "/conversion/net/md-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MD к DOTM"
+        - name: "MD в DOTM"
           link: "/conversion/net/md-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MD к DOTX"
+        - name: "MD в DOTX"
           link: "/conversion/net/md-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MD к EMF"
+        - name: "MD в EMF"
           link: "/conversion/net/md-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MD к EMZ"
+        - name: "MD в EMZ"
           link: "/conversion/net/md-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MD к EPUB"
+        - name: "MD в EPUB"
           link: "/conversion/net/md-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MD к FODP"
+        - name: "MD в FODP"
           link: "/conversion/net/md-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MD к FODS"
+        - name: "MD в FODS"
           link: "/conversion/net/md-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MD к GIF"
+        - name: "MD в GIF"
           link: "/conversion/net/md-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MD к HTM"
+        - name: "MD в HTM"
           link: "/conversion/net/md-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MD к HTML"
+        - name: "MD в HTML"
           link: "/conversion/net/md-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MD к ICO"
+        - name: "MD в ICO"
           link: "/conversion/net/md-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MD к JP2"
+        - name: "MD в JP2"
           link: "/conversion/net/md-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MD к JPEG"
+        - name: "MD в JPEG"
           link: "/conversion/net/md-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MD к JPG"
+        - name: "MD в JPG"
           link: "/conversion/net/md-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MD к MHT"
+        - name: "MD в MHT"
           link: "/conversion/net/md-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MD к MHTML"
+        - name: "MD в MHTML"
           link: "/conversion/net/md-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MD к ODP"
+        - name: "MD в ODP"
           link: "/conversion/net/md-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MD к ODS"
+        - name: "MD в ODS"
           link: "/conversion/net/md-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MD к ODT"
+        - name: "MD в ODT"
           link: "/conversion/net/md-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MD к OTP"
+        - name: "MD в OTP"
           link: "/conversion/net/md-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MD к OTT"
+        - name: "MD в OTT"
           link: "/conversion/net/md-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MD к PDF"
+        - name: "MD в PDF"
           link: "/conversion/net/md-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MD к PNG"
+        - name: "MD в PNG"
           link: "/conversion/net/md-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MD к POT"
+        - name: "MD в POT"
           link: "/conversion/net/md-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MD к POTM"
+        - name: "MD в POTM"
           link: "/conversion/net/md-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MD к POTX"
+        - name: "MD в POTX"
           link: "/conversion/net/md-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MD к PPS"
+        - name: "MD в PPS"
           link: "/conversion/net/md-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MD к PPSM"
+        - name: "MD в PPSM"
           link: "/conversion/net/md-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MD к PPSX"
+        - name: "MD в PPSX"
           link: "/conversion/net/md-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MD к PPT"
+        - name: "MD в PPT"
           link: "/conversion/net/md-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MD к PPTM"
+        - name: "MD в PPTM"
           link: "/conversion/net/md-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MD к PPTX"
+        - name: "MD в PPTX"
           link: "/conversion/net/md-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MD к PSD"
+        - name: "MD в PSD"
           link: "/conversion/net/md-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MD к RTF"
+        - name: "MD в RTF"
           link: "/conversion/net/md-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MD к SVG"
+        - name: "MD в SVG"
           link: "/conversion/net/md-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MD к SVGZ"
+        - name: "MD в SVGZ"
           link: "/conversion/net/md-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MD к SXC"
+        - name: "MD в SXC"
           link: "/conversion/net/md-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MD к TEX"
+        - name: "MD в TEX"
           link: "/conversion/net/md-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MD к TIF"
+        - name: "MD в TIF"
           link: "/conversion/net/md-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MD к TIFF"
+        - name: "MD в TIFF"
           link: "/conversion/net/md-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MD к TSV"
+        - name: "MD в TSV"
           link: "/conversion/net/md-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MD к TXT"
+        - name: "MD в TXT"
           link: "/conversion/net/md-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MD к WEBP"
+        - name: "MD в WEBP"
           link: "/conversion/net/md-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MD к WMZ"
+        - name: "MD в WMZ"
           link: "/conversion/net/md-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MD к XLAM"
+        - name: "MD в XLAM"
           link: "/conversion/net/md-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MD к XLS"
+        - name: "MD в XLS"
           link: "/conversion/net/md-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MD к XLSB"
+        - name: "MD в XLSB"
           link: "/conversion/net/md-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MD к XLSM"
+        - name: "MD в XLSM"
           link: "/conversion/net/md-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MD к XLSX"
+        - name: "MD в XLSX"
           link: "/conversion/net/md-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MD к XLT"
+        - name: "MD в XLT"
           link: "/conversion/net/md-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MD к XLTM"
+        - name: "MD в XLTM"
           link: "/conversion/net/md-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MD к XLTX"
+        - name: "MD в XLTX"
           link: "/conversion/net/md-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MD к XPS"
+        - name: "MD в XPS"
           link: "/conversion/net/md-to-xps/"
           description: "Спецификация документа Open XML"
 

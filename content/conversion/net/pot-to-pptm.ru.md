@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать POT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "POT к BMP"
+        - name: "POT в BMP"
           link: "/conversion/net/pot-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "POT к CSV"
+        - name: "POT в CSV"
           link: "/conversion/net/pot-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "POT к DCM"
+        - name: "POT в DCM"
           link: "/conversion/net/pot-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "POT к DIF"
+        - name: "POT в DIF"
           link: "/conversion/net/pot-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "POT к DOC"
+        - name: "POT в DOC"
           link: "/conversion/net/pot-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "POT к DOCM"
+        - name: "POT в DOCM"
           link: "/conversion/net/pot-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "POT к DOCX"
+        - name: "POT в DOCX"
           link: "/conversion/net/pot-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "POT к DOT"
+        - name: "POT в DOT"
           link: "/conversion/net/pot-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "POT к DOTM"
+        - name: "POT в DOTM"
           link: "/conversion/net/pot-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "POT к DOTX"
+        - name: "POT в DOTX"
           link: "/conversion/net/pot-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "POT к EMF"
+        - name: "POT в EMF"
           link: "/conversion/net/pot-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "POT к EMZ"
+        - name: "POT в EMZ"
           link: "/conversion/net/pot-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "POT к EPUB"
+        - name: "POT в EPUB"
           link: "/conversion/net/pot-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "POT к FODP"
+        - name: "POT в FODP"
           link: "/conversion/net/pot-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "POT к FODS"
+        - name: "POT в FODS"
           link: "/conversion/net/pot-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "POT к GIF"
+        - name: "POT в GIF"
           link: "/conversion/net/pot-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "POT к HTM"
+        - name: "POT в HTM"
           link: "/conversion/net/pot-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "POT к HTML"
+        - name: "POT в HTML"
           link: "/conversion/net/pot-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "POT к ICO"
+        - name: "POT в ICO"
           link: "/conversion/net/pot-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "POT к JP2"
+        - name: "POT в JP2"
           link: "/conversion/net/pot-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "POT к JPEG"
+        - name: "POT в JPEG"
           link: "/conversion/net/pot-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "POT к JPG"
+        - name: "POT в JPG"
           link: "/conversion/net/pot-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "POT к MD"
+        - name: "POT в MD"
           link: "/conversion/net/pot-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "POT к MHT"
+        - name: "POT в MHT"
           link: "/conversion/net/pot-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "POT к MHTML"
+        - name: "POT в MHTML"
           link: "/conversion/net/pot-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "POT к ODP"
+        - name: "POT в ODP"
           link: "/conversion/net/pot-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "POT к ODS"
+        - name: "POT в ODS"
           link: "/conversion/net/pot-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "POT к ODT"
+        - name: "POT в ODT"
           link: "/conversion/net/pot-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "POT к OTP"
+        - name: "POT в OTP"
           link: "/conversion/net/pot-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "POT к OTT"
+        - name: "POT в OTT"
           link: "/conversion/net/pot-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "POT к PDF"
+        - name: "POT в PDF"
           link: "/conversion/net/pot-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "POT к PNG"
+        - name: "POT в PNG"
           link: "/conversion/net/pot-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "POT к POTM"
+        - name: "POT в POTM"
           link: "/conversion/net/pot-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "POT к POTX"
+        - name: "POT в POTX"
           link: "/conversion/net/pot-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "POT к PPS"
+        - name: "POT в PPS"
           link: "/conversion/net/pot-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "POT к PPSM"
+        - name: "POT в PPSM"
           link: "/conversion/net/pot-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "POT к PPSX"
+        - name: "POT в PPSX"
           link: "/conversion/net/pot-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "POT к PPT"
+        - name: "POT в PPT"
           link: "/conversion/net/pot-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "POT к PPTX"
+        - name: "POT в PPTX"
           link: "/conversion/net/pot-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "POT к PSD"
+        - name: "POT в PSD"
           link: "/conversion/net/pot-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "POT к RTF"
+        - name: "POT в RTF"
           link: "/conversion/net/pot-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "POT к SVG"
+        - name: "POT в SVG"
           link: "/conversion/net/pot-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "POT к SVGZ"
+        - name: "POT в SVGZ"
           link: "/conversion/net/pot-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "POT к SXC"
+        - name: "POT в SXC"
           link: "/conversion/net/pot-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "POT к TEX"
+        - name: "POT в TEX"
           link: "/conversion/net/pot-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "POT к TIF"
+        - name: "POT в TIF"
           link: "/conversion/net/pot-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "POT к TIFF"
+        - name: "POT в TIFF"
           link: "/conversion/net/pot-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "POT к TSV"
+        - name: "POT в TSV"
           link: "/conversion/net/pot-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "POT к TXT"
+        - name: "POT в TXT"
           link: "/conversion/net/pot-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "POT к WEBP"
+        - name: "POT в WEBP"
           link: "/conversion/net/pot-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "POT к WMF"
+        - name: "POT в WMF"
           link: "/conversion/net/pot-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "POT к WMZ"
+        - name: "POT в WMZ"
           link: "/conversion/net/pot-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "POT к XLAM"
+        - name: "POT в XLAM"
           link: "/conversion/net/pot-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "POT к XLS"
+        - name: "POT в XLS"
           link: "/conversion/net/pot-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "POT к XLSB"
+        - name: "POT в XLSB"
           link: "/conversion/net/pot-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "POT к XLSM"
+        - name: "POT в XLSM"
           link: "/conversion/net/pot-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "POT к XLSX"
+        - name: "POT в XLSX"
           link: "/conversion/net/pot-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "POT к XLT"
+        - name: "POT в XLT"
           link: "/conversion/net/pot-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "POT к XLTM"
+        - name: "POT в XLTM"
           link: "/conversion/net/pot-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "POT к XLTX"
+        - name: "POT в XLTX"
           link: "/conversion/net/pot-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "POT к XPS"
+        - name: "POT в XPS"
           link: "/conversion/net/pot-to-xps/"
           description: "Спецификация документа Open XML"
 

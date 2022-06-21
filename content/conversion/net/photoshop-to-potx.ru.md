@@ -127,7 +127,7 @@ more_formats:
         Вы также можете конвертировать PHOTOSHOP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PHOTOSHOP к PDF"
+        - name: "PHOTOSHOP в PDF"
           link: "/conversion/net/photoshop-to-pdf/"
           description: "Портативный документ"
 

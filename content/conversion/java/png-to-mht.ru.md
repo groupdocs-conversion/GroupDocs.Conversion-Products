@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать PNG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PNG к BMP"
+        - name: "PNG в BMP"
           link: "/conversion/java/png-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PNG к CSV"
+        - name: "PNG в CSV"
           link: "/conversion/java/png-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PNG к DCM"
+        - name: "PNG в DCM"
           link: "/conversion/java/png-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PNG к DIF"
+        - name: "PNG в DIF"
           link: "/conversion/java/png-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PNG к DJVU"
+        - name: "PNG в DJVU"
           link: "/conversion/java/png-to-djvu/"
           description: "Формат графического файла"
 
         # format loop
-        - name: "PNG к DOC"
+        - name: "PNG в DOC"
           link: "/conversion/java/png-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PNG к DOCM"
+        - name: "PNG в DOCM"
           link: "/conversion/java/png-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PNG к DOCX"
+        - name: "PNG в DOCX"
           link: "/conversion/java/png-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PNG к DOT"
+        - name: "PNG в DOT"
           link: "/conversion/java/png-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PNG к DOTM"
+        - name: "PNG в DOTM"
           link: "/conversion/java/png-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PNG к DOTX"
+        - name: "PNG в DOTX"
           link: "/conversion/java/png-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PNG к EMF"
+        - name: "PNG в EMF"
           link: "/conversion/java/png-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PNG к EMZ"
+        - name: "PNG в EMZ"
           link: "/conversion/java/png-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PNG к EPUB"
+        - name: "PNG в EPUB"
           link: "/conversion/java/png-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PNG к FODP"
+        - name: "PNG в FODP"
           link: "/conversion/java/png-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PNG к FODS"
+        - name: "PNG в FODS"
           link: "/conversion/java/png-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PNG к GIF"
+        - name: "PNG в GIF"
           link: "/conversion/java/png-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PNG к HTM"
+        - name: "PNG в HTM"
           link: "/conversion/java/png-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PNG к HTML"
+        - name: "PNG в HTML"
           link: "/conversion/java/png-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PNG к ICO"
+        - name: "PNG в ICO"
           link: "/conversion/java/png-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PNG к JP2"
+        - name: "PNG в JP2"
           link: "/conversion/java/png-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PNG к JPEG"
+        - name: "PNG в JPEG"
           link: "/conversion/java/png-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PNG к JPG"
+        - name: "PNG в JPG"
           link: "/conversion/java/png-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PNG к MD"
+        - name: "PNG в MD"
           link: "/conversion/java/png-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PNG к MHTML"
+        - name: "PNG в MHTML"
           link: "/conversion/java/png-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PNG к ODP"
+        - name: "PNG в ODP"
           link: "/conversion/java/png-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PNG к ODS"
+        - name: "PNG в ODS"
           link: "/conversion/java/png-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PNG к ODT"
+        - name: "PNG в ODT"
           link: "/conversion/java/png-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PNG к OTP"
+        - name: "PNG в OTP"
           link: "/conversion/java/png-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PNG к OTT"
+        - name: "PNG в OTT"
           link: "/conversion/java/png-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PNG к PDF"
+        - name: "PNG в PDF"
           link: "/conversion/java/png-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PNG к POT"
+        - name: "PNG в POT"
           link: "/conversion/java/png-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PNG к POTM"
+        - name: "PNG в POTM"
           link: "/conversion/java/png-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PNG к POTX"
+        - name: "PNG в POTX"
           link: "/conversion/java/png-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PNG к PPS"
+        - name: "PNG в PPS"
           link: "/conversion/java/png-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PNG к PPSM"
+        - name: "PNG в PPSM"
           link: "/conversion/java/png-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PNG к PPSX"
+        - name: "PNG в PPSX"
           link: "/conversion/java/png-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PNG к PPT"
+        - name: "PNG в PPT"
           link: "/conversion/java/png-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PNG к PPTM"
+        - name: "PNG в PPTM"
           link: "/conversion/java/png-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PNG к PPTX"
+        - name: "PNG в PPTX"
           link: "/conversion/java/png-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PNG к PSD"
+        - name: "PNG в PSD"
           link: "/conversion/java/png-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PNG к RTF"
+        - name: "PNG в RTF"
           link: "/conversion/java/png-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PNG к SVG"
+        - name: "PNG в SVG"
           link: "/conversion/java/png-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PNG к SVGZ"
+        - name: "PNG в SVGZ"
           link: "/conversion/java/png-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PNG к SXC"
+        - name: "PNG в SXC"
           link: "/conversion/java/png-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PNG к TEX"
+        - name: "PNG в TEX"
           link: "/conversion/java/png-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PNG к TIF"
+        - name: "PNG в TIF"
           link: "/conversion/java/png-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PNG к TIFF"
+        - name: "PNG в TIFF"
           link: "/conversion/java/png-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PNG к TSV"
+        - name: "PNG в TSV"
           link: "/conversion/java/png-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PNG к TXT"
+        - name: "PNG в TXT"
           link: "/conversion/java/png-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PNG к WEBP"
+        - name: "PNG в WEBP"
           link: "/conversion/java/png-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PNG к WMF"
+        - name: "PNG в WMF"
           link: "/conversion/java/png-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PNG к WMZ"
+        - name: "PNG в WMZ"
           link: "/conversion/java/png-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PNG к XLAM"
+        - name: "PNG в XLAM"
           link: "/conversion/java/png-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PNG к XLS"
+        - name: "PNG в XLS"
           link: "/conversion/java/png-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PNG к XLSB"
+        - name: "PNG в XLSB"
           link: "/conversion/java/png-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PNG к XLSM"
+        - name: "PNG в XLSM"
           link: "/conversion/java/png-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PNG к XLSX"
+        - name: "PNG в XLSX"
           link: "/conversion/java/png-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PNG к XLT"
+        - name: "PNG в XLT"
           link: "/conversion/java/png-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PNG к XLTM"
+        - name: "PNG в XLTM"
           link: "/conversion/java/png-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PNG к XLTX"
+        - name: "PNG в XLTX"
           link: "/conversion/java/png-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PNG к XPS"
+        - name: "PNG в XPS"
           link: "/conversion/java/png-to-xps/"
           description: "Спецификация документа Open XML"
 

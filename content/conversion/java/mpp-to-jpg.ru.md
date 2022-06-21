@@ -128,317 +128,317 @@ more_formats:
         Вы также можете конвертировать MPP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MPP к BMP"
+        - name: "MPP в BMP"
           link: "/conversion/java/mpp-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MPP к CSV"
+        - name: "MPP в CSV"
           link: "/conversion/java/mpp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MPP к DCM"
+        - name: "MPP в DCM"
           link: "/conversion/java/mpp-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MPP к DIF"
+        - name: "MPP в DIF"
           link: "/conversion/java/mpp-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MPP к DOC"
+        - name: "MPP в DOC"
           link: "/conversion/java/mpp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MPP к DOCM"
+        - name: "MPP в DOCM"
           link: "/conversion/java/mpp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MPP к DOCX"
+        - name: "MPP в DOCX"
           link: "/conversion/java/mpp-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MPP к DOT"
+        - name: "MPP в DOT"
           link: "/conversion/java/mpp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MPP к DOTM"
+        - name: "MPP в DOTM"
           link: "/conversion/java/mpp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MPP к DOTX"
+        - name: "MPP в DOTX"
           link: "/conversion/java/mpp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MPP к EMF"
+        - name: "MPP в EMF"
           link: "/conversion/java/mpp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MPP к EMZ"
+        - name: "MPP в EMZ"
           link: "/conversion/java/mpp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MPP к EPUB"
+        - name: "MPP в EPUB"
           link: "/conversion/java/mpp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MPP к FODP"
+        - name: "MPP в FODP"
           link: "/conversion/java/mpp-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MPP к FODS"
+        - name: "MPP в FODS"
           link: "/conversion/java/mpp-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MPP к GIF"
+        - name: "MPP в GIF"
           link: "/conversion/java/mpp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MPP к HTM"
+        - name: "MPP в HTM"
           link: "/conversion/java/mpp-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MPP к HTML"
+        - name: "MPP в HTML"
           link: "/conversion/java/mpp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MPP к ICO"
+        - name: "MPP в ICO"
           link: "/conversion/java/mpp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MPP к JP2"
+        - name: "MPP в JP2"
           link: "/conversion/java/mpp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MPP к JPEG"
+        - name: "MPP в JPEG"
           link: "/conversion/java/mpp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MPP к MD"
+        - name: "MPP в MD"
           link: "/conversion/java/mpp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MPP к MHT"
+        - name: "MPP в MHT"
           link: "/conversion/java/mpp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MPP к MHTML"
+        - name: "MPP в MHTML"
           link: "/conversion/java/mpp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MPP к ODP"
+        - name: "MPP в ODP"
           link: "/conversion/java/mpp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MPP к ODS"
+        - name: "MPP в ODS"
           link: "/conversion/java/mpp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MPP к ODT"
+        - name: "MPP в ODT"
           link: "/conversion/java/mpp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MPP к OTP"
+        - name: "MPP в OTP"
           link: "/conversion/java/mpp-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MPP к OTS"
+        - name: "MPP в OTS"
           link: "/conversion/java/mpp-to-ots/"
           description: "Шаблон электронной таблицы OpenDocument"
 
         # format loop
-        - name: "MPP к OTT"
+        - name: "MPP в OTT"
           link: "/conversion/java/mpp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MPP к PDF"
+        - name: "MPP в PDF"
           link: "/conversion/java/mpp-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MPP к PNG"
+        - name: "MPP в PNG"
           link: "/conversion/java/mpp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MPP к POT"
+        - name: "MPP в POT"
           link: "/conversion/java/mpp-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MPP к POTM"
+        - name: "MPP в POTM"
           link: "/conversion/java/mpp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MPP к POTX"
+        - name: "MPP в POTX"
           link: "/conversion/java/mpp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MPP к PPS"
+        - name: "MPP в PPS"
           link: "/conversion/java/mpp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MPP к PPSM"
+        - name: "MPP в PPSM"
           link: "/conversion/java/mpp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MPP к PPSX"
+        - name: "MPP в PPSX"
           link: "/conversion/java/mpp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MPP к PPT"
+        - name: "MPP в PPT"
           link: "/conversion/java/mpp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MPP к PPTM"
+        - name: "MPP в PPTM"
           link: "/conversion/java/mpp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MPP к PPTX"
+        - name: "MPP в PPTX"
           link: "/conversion/java/mpp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MPP к PSD"
+        - name: "MPP в PSD"
           link: "/conversion/java/mpp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MPP к RTF"
+        - name: "MPP в RTF"
           link: "/conversion/java/mpp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MPP к SVG"
+        - name: "MPP в SVG"
           link: "/conversion/java/mpp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MPP к SVGZ"
+        - name: "MPP в SVGZ"
           link: "/conversion/java/mpp-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MPP к SXC"
+        - name: "MPP в SXC"
           link: "/conversion/java/mpp-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MPP к TEX"
+        - name: "MPP в TEX"
           link: "/conversion/java/mpp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MPP к TIF"
+        - name: "MPP в TIF"
           link: "/conversion/java/mpp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MPP к TIFF"
+        - name: "MPP в TIFF"
           link: "/conversion/java/mpp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MPP к TSV"
+        - name: "MPP в TSV"
           link: "/conversion/java/mpp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MPP к TXT"
+        - name: "MPP в TXT"
           link: "/conversion/java/mpp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MPP к WEBP"
+        - name: "MPP в WEBP"
           link: "/conversion/java/mpp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MPP к WMF"
+        - name: "MPP в WMF"
           link: "/conversion/java/mpp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MPP к WMZ"
+        - name: "MPP в WMZ"
           link: "/conversion/java/mpp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MPP к XLAM"
+        - name: "MPP в XLAM"
           link: "/conversion/java/mpp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPP к XLS"
+        - name: "MPP в XLS"
           link: "/conversion/java/mpp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MPP к XLSB"
+        - name: "MPP в XLSB"
           link: "/conversion/java/mpp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MPP к XLSM"
+        - name: "MPP в XLSM"
           link: "/conversion/java/mpp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPP к XLSX"
+        - name: "MPP в XLSX"
           link: "/conversion/java/mpp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MPP к XLT"
+        - name: "MPP в XLT"
           link: "/conversion/java/mpp-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MPP к XLTM"
+        - name: "MPP в XLTM"
           link: "/conversion/java/mpp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPP к XLTX"
+        - name: "MPP в XLTX"
           link: "/conversion/java/mpp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MPP к XPS"
+        - name: "MPP в XPS"
           link: "/conversion/java/mpp-to-xps/"
           description: "Спецификация документа Open XML"
 

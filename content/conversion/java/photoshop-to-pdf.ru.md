@@ -128,7 +128,7 @@ more_formats:
         Вы также можете конвертировать PHOTOSHOP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PHOTOSHOP к POTX"
+        - name: "PHOTOSHOP в POTX"
           link: "/conversion/java/photoshop-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 

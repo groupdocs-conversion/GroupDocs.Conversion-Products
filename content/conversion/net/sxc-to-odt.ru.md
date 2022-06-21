@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать SXC во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "SXC к BMP"
+        - name: "SXC в BMP"
           link: "/conversion/net/sxc-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "SXC к CSV"
+        - name: "SXC в CSV"
           link: "/conversion/net/sxc-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "SXC к DCM"
+        - name: "SXC в DCM"
           link: "/conversion/net/sxc-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "SXC к DIF"
+        - name: "SXC в DIF"
           link: "/conversion/net/sxc-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "SXC к DOC"
+        - name: "SXC в DOC"
           link: "/conversion/net/sxc-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "SXC к DOCM"
+        - name: "SXC в DOCM"
           link: "/conversion/net/sxc-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "SXC к DOCX"
+        - name: "SXC в DOCX"
           link: "/conversion/net/sxc-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "SXC к DOT"
+        - name: "SXC в DOT"
           link: "/conversion/net/sxc-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "SXC к DOTM"
+        - name: "SXC в DOTM"
           link: "/conversion/net/sxc-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "SXC к DOTX"
+        - name: "SXC в DOTX"
           link: "/conversion/net/sxc-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "SXC к EMF"
+        - name: "SXC в EMF"
           link: "/conversion/net/sxc-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "SXC к EMZ"
+        - name: "SXC в EMZ"
           link: "/conversion/net/sxc-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "SXC к EPUB"
+        - name: "SXC в EPUB"
           link: "/conversion/net/sxc-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "SXC к FODP"
+        - name: "SXC в FODP"
           link: "/conversion/net/sxc-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "SXC к FODS"
+        - name: "SXC в FODS"
           link: "/conversion/net/sxc-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "SXC к GIF"
+        - name: "SXC в GIF"
           link: "/conversion/net/sxc-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "SXC к HTM"
+        - name: "SXC в HTM"
           link: "/conversion/net/sxc-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "SXC к HTML"
+        - name: "SXC в HTML"
           link: "/conversion/net/sxc-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "SXC к ICO"
+        - name: "SXC в ICO"
           link: "/conversion/net/sxc-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "SXC к JP2"
+        - name: "SXC в JP2"
           link: "/conversion/net/sxc-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "SXC к JPEG"
+        - name: "SXC в JPEG"
           link: "/conversion/net/sxc-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "SXC к JPG"
+        - name: "SXC в JPG"
           link: "/conversion/net/sxc-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "SXC к MD"
+        - name: "SXC в MD"
           link: "/conversion/net/sxc-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "SXC к MHT"
+        - name: "SXC в MHT"
           link: "/conversion/net/sxc-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "SXC к MHTML"
+        - name: "SXC в MHTML"
           link: "/conversion/net/sxc-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "SXC к ODP"
+        - name: "SXC в ODP"
           link: "/conversion/net/sxc-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "SXC к ODS"
+        - name: "SXC в ODS"
           link: "/conversion/net/sxc-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "SXC к OTP"
+        - name: "SXC в OTP"
           link: "/conversion/net/sxc-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "SXC к OTT"
+        - name: "SXC в OTT"
           link: "/conversion/net/sxc-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "SXC к PDF"
+        - name: "SXC в PDF"
           link: "/conversion/net/sxc-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "SXC к PNG"
+        - name: "SXC в PNG"
           link: "/conversion/net/sxc-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "SXC к POT"
+        - name: "SXC в POT"
           link: "/conversion/net/sxc-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "SXC к POTM"
+        - name: "SXC в POTM"
           link: "/conversion/net/sxc-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "SXC к POTX"
+        - name: "SXC в POTX"
           link: "/conversion/net/sxc-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "SXC к PPS"
+        - name: "SXC в PPS"
           link: "/conversion/net/sxc-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "SXC к PPSM"
+        - name: "SXC в PPSM"
           link: "/conversion/net/sxc-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "SXC к PPSX"
+        - name: "SXC в PPSX"
           link: "/conversion/net/sxc-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "SXC к PPT"
+        - name: "SXC в PPT"
           link: "/conversion/net/sxc-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "SXC к PPTM"
+        - name: "SXC в PPTM"
           link: "/conversion/net/sxc-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "SXC к PPTX"
+        - name: "SXC в PPTX"
           link: "/conversion/net/sxc-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "SXC к PSD"
+        - name: "SXC в PSD"
           link: "/conversion/net/sxc-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "SXC к RTF"
+        - name: "SXC в RTF"
           link: "/conversion/net/sxc-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "SXC к SVG"
+        - name: "SXC в SVG"
           link: "/conversion/net/sxc-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "SXC к SVGZ"
+        - name: "SXC в SVGZ"
           link: "/conversion/net/sxc-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "SXC к TEX"
+        - name: "SXC в TEX"
           link: "/conversion/net/sxc-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "SXC к TIF"
+        - name: "SXC в TIF"
           link: "/conversion/net/sxc-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "SXC к TIFF"
+        - name: "SXC в TIFF"
           link: "/conversion/net/sxc-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "SXC к TSV"
+        - name: "SXC в TSV"
           link: "/conversion/net/sxc-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "SXC к TXT"
+        - name: "SXC в TXT"
           link: "/conversion/net/sxc-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "SXC к WEBP"
+        - name: "SXC в WEBP"
           link: "/conversion/net/sxc-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "SXC к WMF"
+        - name: "SXC в WMF"
           link: "/conversion/net/sxc-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "SXC к WMZ"
+        - name: "SXC в WMZ"
           link: "/conversion/net/sxc-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "SXC к XLAM"
+        - name: "SXC в XLAM"
           link: "/conversion/net/sxc-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SXC к XLS"
+        - name: "SXC в XLS"
           link: "/conversion/net/sxc-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "SXC к XLSB"
+        - name: "SXC в XLSB"
           link: "/conversion/net/sxc-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "SXC к XLSM"
+        - name: "SXC в XLSM"
           link: "/conversion/net/sxc-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SXC к XLSX"
+        - name: "SXC в XLSX"
           link: "/conversion/net/sxc-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "SXC к XLT"
+        - name: "SXC в XLT"
           link: "/conversion/net/sxc-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "SXC к XLTM"
+        - name: "SXC в XLTM"
           link: "/conversion/net/sxc-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SXC к XLTX"
+        - name: "SXC в XLTX"
           link: "/conversion/net/sxc-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "SXC к XPS"
+        - name: "SXC в XPS"
           link: "/conversion/net/sxc-to-xps/"
           description: "Спецификация документа Open XML"
 

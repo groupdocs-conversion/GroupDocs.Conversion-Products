@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать FODS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "FODS к BMP"
+        - name: "FODS в BMP"
           link: "/conversion/net/fods-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "FODS к CSV"
+        - name: "FODS в CSV"
           link: "/conversion/net/fods-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "FODS к DCM"
+        - name: "FODS в DCM"
           link: "/conversion/net/fods-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "FODS к DIF"
+        - name: "FODS в DIF"
           link: "/conversion/net/fods-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "FODS к DOC"
+        - name: "FODS в DOC"
           link: "/conversion/net/fods-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "FODS к DOCM"
+        - name: "FODS в DOCM"
           link: "/conversion/net/fods-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "FODS к DOCX"
+        - name: "FODS в DOCX"
           link: "/conversion/net/fods-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "FODS к DOT"
+        - name: "FODS в DOT"
           link: "/conversion/net/fods-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "FODS к DOTM"
+        - name: "FODS в DOTM"
           link: "/conversion/net/fods-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "FODS к DOTX"
+        - name: "FODS в DOTX"
           link: "/conversion/net/fods-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "FODS к EMF"
+        - name: "FODS в EMF"
           link: "/conversion/net/fods-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "FODS к EMZ"
+        - name: "FODS в EMZ"
           link: "/conversion/net/fods-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "FODS к EPUB"
+        - name: "FODS в EPUB"
           link: "/conversion/net/fods-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "FODS к FODP"
+        - name: "FODS в FODP"
           link: "/conversion/net/fods-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "FODS к GIF"
+        - name: "FODS в GIF"
           link: "/conversion/net/fods-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "FODS к HTM"
+        - name: "FODS в HTM"
           link: "/conversion/net/fods-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "FODS к HTML"
+        - name: "FODS в HTML"
           link: "/conversion/net/fods-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "FODS к ICO"
+        - name: "FODS в ICO"
           link: "/conversion/net/fods-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "FODS к JP2"
+        - name: "FODS в JP2"
           link: "/conversion/net/fods-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "FODS к JPEG"
+        - name: "FODS в JPEG"
           link: "/conversion/net/fods-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "FODS к JPG"
+        - name: "FODS в JPG"
           link: "/conversion/net/fods-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "FODS к MD"
+        - name: "FODS в MD"
           link: "/conversion/net/fods-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "FODS к MHT"
+        - name: "FODS в MHT"
           link: "/conversion/net/fods-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "FODS к MHTML"
+        - name: "FODS в MHTML"
           link: "/conversion/net/fods-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "FODS к ODP"
+        - name: "FODS в ODP"
           link: "/conversion/net/fods-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "FODS к ODS"
+        - name: "FODS в ODS"
           link: "/conversion/net/fods-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "FODS к ODT"
+        - name: "FODS в ODT"
           link: "/conversion/net/fods-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "FODS к OTP"
+        - name: "FODS в OTP"
           link: "/conversion/net/fods-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "FODS к OTT"
+        - name: "FODS в OTT"
           link: "/conversion/net/fods-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "FODS к PDF"
+        - name: "FODS в PDF"
           link: "/conversion/net/fods-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "FODS к PNG"
+        - name: "FODS в PNG"
           link: "/conversion/net/fods-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "FODS к POT"
+        - name: "FODS в POT"
           link: "/conversion/net/fods-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "FODS к POTM"
+        - name: "FODS в POTM"
           link: "/conversion/net/fods-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "FODS к POTX"
+        - name: "FODS в POTX"
           link: "/conversion/net/fods-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "FODS к PPS"
+        - name: "FODS в PPS"
           link: "/conversion/net/fods-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "FODS к PPSM"
+        - name: "FODS в PPSM"
           link: "/conversion/net/fods-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "FODS к PPSX"
+        - name: "FODS в PPSX"
           link: "/conversion/net/fods-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "FODS к PPT"
+        - name: "FODS в PPT"
           link: "/conversion/net/fods-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "FODS к PPTM"
+        - name: "FODS в PPTM"
           link: "/conversion/net/fods-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "FODS к PPTX"
+        - name: "FODS в PPTX"
           link: "/conversion/net/fods-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "FODS к PSD"
+        - name: "FODS в PSD"
           link: "/conversion/net/fods-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "FODS к SVG"
+        - name: "FODS в SVG"
           link: "/conversion/net/fods-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "FODS к SVGZ"
+        - name: "FODS в SVGZ"
           link: "/conversion/net/fods-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "FODS к SXC"
+        - name: "FODS в SXC"
           link: "/conversion/net/fods-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "FODS к TEX"
+        - name: "FODS в TEX"
           link: "/conversion/net/fods-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "FODS к TIF"
+        - name: "FODS в TIF"
           link: "/conversion/net/fods-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "FODS к TIFF"
+        - name: "FODS в TIFF"
           link: "/conversion/net/fods-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "FODS к TSV"
+        - name: "FODS в TSV"
           link: "/conversion/net/fods-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "FODS к TXT"
+        - name: "FODS в TXT"
           link: "/conversion/net/fods-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "FODS к WEBP"
+        - name: "FODS в WEBP"
           link: "/conversion/net/fods-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "FODS к WMF"
+        - name: "FODS в WMF"
           link: "/conversion/net/fods-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "FODS к WMZ"
+        - name: "FODS в WMZ"
           link: "/conversion/net/fods-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "FODS к XLAM"
+        - name: "FODS в XLAM"
           link: "/conversion/net/fods-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODS к XLS"
+        - name: "FODS в XLS"
           link: "/conversion/net/fods-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "FODS к XLSB"
+        - name: "FODS в XLSB"
           link: "/conversion/net/fods-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "FODS к XLSM"
+        - name: "FODS в XLSM"
           link: "/conversion/net/fods-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODS к XLSX"
+        - name: "FODS в XLSX"
           link: "/conversion/net/fods-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "FODS к XLT"
+        - name: "FODS в XLT"
           link: "/conversion/net/fods-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "FODS к XLTM"
+        - name: "FODS в XLTM"
           link: "/conversion/net/fods-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODS к XLTX"
+        - name: "FODS в XLTX"
           link: "/conversion/net/fods-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "FODS к XPS"
+        - name: "FODS в XPS"
           link: "/conversion/net/fods-to-xps/"
           description: "Спецификация документа Open XML"
 

@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать EPUB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EPUB к BMP"
+        - name: "EPUB в BMP"
           link: "/conversion/net/epub-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EPUB к CSV"
+        - name: "EPUB в CSV"
           link: "/conversion/net/epub-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EPUB к DCM"
+        - name: "EPUB в DCM"
           link: "/conversion/net/epub-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "EPUB к DIF"
+        - name: "EPUB в DIF"
           link: "/conversion/net/epub-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "EPUB к DOC"
+        - name: "EPUB в DOC"
           link: "/conversion/net/epub-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EPUB к DOCM"
+        - name: "EPUB в DOCM"
           link: "/conversion/net/epub-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EPUB к DOCX"
+        - name: "EPUB в DOCX"
           link: "/conversion/net/epub-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EPUB к DOT"
+        - name: "EPUB в DOT"
           link: "/conversion/net/epub-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EPUB к DOTM"
+        - name: "EPUB в DOTM"
           link: "/conversion/net/epub-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EPUB к DOTX"
+        - name: "EPUB в DOTX"
           link: "/conversion/net/epub-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EPUB к EMF"
+        - name: "EPUB в EMF"
           link: "/conversion/net/epub-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EPUB к EMZ"
+        - name: "EPUB в EMZ"
           link: "/conversion/net/epub-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EPUB к FODP"
+        - name: "EPUB в FODP"
           link: "/conversion/net/epub-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "EPUB к FODS"
+        - name: "EPUB в FODS"
           link: "/conversion/net/epub-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "EPUB к GIF"
+        - name: "EPUB в GIF"
           link: "/conversion/net/epub-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EPUB к HTM"
+        - name: "EPUB в HTM"
           link: "/conversion/net/epub-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "EPUB к HTML"
+        - name: "EPUB в HTML"
           link: "/conversion/net/epub-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EPUB к ICO"
+        - name: "EPUB в ICO"
           link: "/conversion/net/epub-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EPUB к JP2"
+        - name: "EPUB в JP2"
           link: "/conversion/net/epub-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EPUB к JPEG"
+        - name: "EPUB в JPEG"
           link: "/conversion/net/epub-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EPUB к JPG"
+        - name: "EPUB в JPG"
           link: "/conversion/net/epub-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EPUB к MD"
+        - name: "EPUB в MD"
           link: "/conversion/net/epub-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EPUB к MHT"
+        - name: "EPUB в MHT"
           link: "/conversion/net/epub-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EPUB к MHTML"
+        - name: "EPUB в MHTML"
           link: "/conversion/net/epub-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EPUB к ODP"
+        - name: "EPUB в ODP"
           link: "/conversion/net/epub-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EPUB к ODS"
+        - name: "EPUB в ODS"
           link: "/conversion/net/epub-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EPUB к ODT"
+        - name: "EPUB в ODT"
           link: "/conversion/net/epub-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EPUB к OTP"
+        - name: "EPUB в OTP"
           link: "/conversion/net/epub-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EPUB к OTT"
+        - name: "EPUB в OTT"
           link: "/conversion/net/epub-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EPUB к PDF"
+        - name: "EPUB в PDF"
           link: "/conversion/net/epub-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EPUB к PNG"
+        - name: "EPUB в PNG"
           link: "/conversion/net/epub-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EPUB к POT"
+        - name: "EPUB в POT"
           link: "/conversion/net/epub-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "EPUB к POTM"
+        - name: "EPUB в POTM"
           link: "/conversion/net/epub-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EPUB к POTX"
+        - name: "EPUB в POTX"
           link: "/conversion/net/epub-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EPUB к PPS"
+        - name: "EPUB в PPS"
           link: "/conversion/net/epub-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EPUB к PPSM"
+        - name: "EPUB в PPSM"
           link: "/conversion/net/epub-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EPUB к PPSX"
+        - name: "EPUB в PPSX"
           link: "/conversion/net/epub-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EPUB к PPT"
+        - name: "EPUB в PPT"
           link: "/conversion/net/epub-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EPUB к PPTM"
+        - name: "EPUB в PPTM"
           link: "/conversion/net/epub-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EPUB к PPTX"
+        - name: "EPUB в PPTX"
           link: "/conversion/net/epub-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EPUB к PSD"
+        - name: "EPUB в PSD"
           link: "/conversion/net/epub-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EPUB к RTF"
+        - name: "EPUB в RTF"
           link: "/conversion/net/epub-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EPUB к SVG"
+        - name: "EPUB в SVG"
           link: "/conversion/net/epub-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EPUB к SVGZ"
+        - name: "EPUB в SVGZ"
           link: "/conversion/net/epub-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EPUB к SXC"
+        - name: "EPUB в SXC"
           link: "/conversion/net/epub-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "EPUB к TEX"
+        - name: "EPUB в TEX"
           link: "/conversion/net/epub-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EPUB к TIF"
+        - name: "EPUB в TIF"
           link: "/conversion/net/epub-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EPUB к TIFF"
+        - name: "EPUB в TIFF"
           link: "/conversion/net/epub-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EPUB к TSV"
+        - name: "EPUB в TSV"
           link: "/conversion/net/epub-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EPUB к TXT"
+        - name: "EPUB в TXT"
           link: "/conversion/net/epub-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EPUB к WEBP"
+        - name: "EPUB в WEBP"
           link: "/conversion/net/epub-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EPUB к WMF"
+        - name: "EPUB в WMF"
           link: "/conversion/net/epub-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EPUB к WMZ"
+        - name: "EPUB в WMZ"
           link: "/conversion/net/epub-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EPUB к XLAM"
+        - name: "EPUB в XLAM"
           link: "/conversion/net/epub-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EPUB к XLS"
+        - name: "EPUB в XLS"
           link: "/conversion/net/epub-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EPUB к XLSB"
+        - name: "EPUB в XLSB"
           link: "/conversion/net/epub-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EPUB к XLSM"
+        - name: "EPUB в XLSM"
           link: "/conversion/net/epub-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EPUB к XLT"
+        - name: "EPUB в XLT"
           link: "/conversion/net/epub-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "EPUB к XLTM"
+        - name: "EPUB в XLTM"
           link: "/conversion/net/epub-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EPUB к XLTX"
+        - name: "EPUB в XLTX"
           link: "/conversion/net/epub-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EPUB к XPS"
+        - name: "EPUB в XPS"
           link: "/conversion/net/epub-to-xps/"
           description: "Спецификация документа Open XML"
 

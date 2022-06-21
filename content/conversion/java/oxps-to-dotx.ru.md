@@ -128,317 +128,317 @@ more_formats:
         Вы также можете конвертировать OXPS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OXPS к BMP"
+        - name: "OXPS в BMP"
           link: "/conversion/java/oxps-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "OXPS к CSV"
+        - name: "OXPS в CSV"
           link: "/conversion/java/oxps-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "OXPS к DCM"
+        - name: "OXPS в DCM"
           link: "/conversion/java/oxps-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "OXPS к DIF"
+        - name: "OXPS в DIF"
           link: "/conversion/java/oxps-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "OXPS к DOC"
+        - name: "OXPS в DOC"
           link: "/conversion/java/oxps-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OXPS к DOCM"
+        - name: "OXPS в DOCM"
           link: "/conversion/java/oxps-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OXPS к DOCX"
+        - name: "OXPS в DOCX"
           link: "/conversion/java/oxps-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "OXPS к DOT"
+        - name: "OXPS в DOT"
           link: "/conversion/java/oxps-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "OXPS к DOTM"
+        - name: "OXPS в DOTM"
           link: "/conversion/java/oxps-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OXPS к EMF"
+        - name: "OXPS в EMF"
           link: "/conversion/java/oxps-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "OXPS к EMZ"
+        - name: "OXPS в EMZ"
           link: "/conversion/java/oxps-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OXPS к EPUB"
+        - name: "OXPS в EPUB"
           link: "/conversion/java/oxps-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OXPS к FODP"
+        - name: "OXPS в FODP"
           link: "/conversion/java/oxps-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "OXPS к FODS"
+        - name: "OXPS в FODS"
           link: "/conversion/java/oxps-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "OXPS к GIF"
+        - name: "OXPS в GIF"
           link: "/conversion/java/oxps-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "OXPS к HTM"
+        - name: "OXPS в HTM"
           link: "/conversion/java/oxps-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "OXPS к HTML"
+        - name: "OXPS в HTML"
           link: "/conversion/java/oxps-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OXPS к ICO"
+        - name: "OXPS в ICO"
           link: "/conversion/java/oxps-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "OXPS к JP2"
+        - name: "OXPS в JP2"
           link: "/conversion/java/oxps-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "OXPS к JPEG"
+        - name: "OXPS в JPEG"
           link: "/conversion/java/oxps-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "OXPS к JPG"
+        - name: "OXPS в JPG"
           link: "/conversion/java/oxps-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "OXPS к MD"
+        - name: "OXPS в MD"
           link: "/conversion/java/oxps-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OXPS к MHT"
+        - name: "OXPS в MHT"
           link: "/conversion/java/oxps-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OXPS к MHTML"
+        - name: "OXPS в MHTML"
           link: "/conversion/java/oxps-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OXPS к MOBI"
+        - name: "OXPS в MOBI"
           link: "/conversion/java/oxps-to-mobi/"
           description: "Электронная книга Mobipocket"
 
         # format loop
-        - name: "OXPS к ODP"
+        - name: "OXPS в ODP"
           link: "/conversion/java/oxps-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "OXPS к ODS"
+        - name: "OXPS в ODS"
           link: "/conversion/java/oxps-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OXPS к ODT"
+        - name: "OXPS в ODT"
           link: "/conversion/java/oxps-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "OXPS к OTP"
+        - name: "OXPS в OTP"
           link: "/conversion/java/oxps-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "OXPS к OTT"
+        - name: "OXPS в OTT"
           link: "/conversion/java/oxps-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "OXPS к PDF"
+        - name: "OXPS в PDF"
           link: "/conversion/java/oxps-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "OXPS к PNG"
+        - name: "OXPS в PNG"
           link: "/conversion/java/oxps-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "OXPS к POT"
+        - name: "OXPS в POT"
           link: "/conversion/java/oxps-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "OXPS к POTM"
+        - name: "OXPS в POTM"
           link: "/conversion/java/oxps-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OXPS к POTX"
+        - name: "OXPS в POTX"
           link: "/conversion/java/oxps-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OXPS к PPS"
+        - name: "OXPS в PPS"
           link: "/conversion/java/oxps-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OXPS к PPSM"
+        - name: "OXPS в PPSM"
           link: "/conversion/java/oxps-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OXPS к PPSX"
+        - name: "OXPS в PPSX"
           link: "/conversion/java/oxps-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "OXPS к PPT"
+        - name: "OXPS в PPT"
           link: "/conversion/java/oxps-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OXPS к PPTM"
+        - name: "OXPS в PPTM"
           link: "/conversion/java/oxps-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OXPS к PPTX"
+        - name: "OXPS в PPTX"
           link: "/conversion/java/oxps-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "OXPS к PSD"
+        - name: "OXPS в PSD"
           link: "/conversion/java/oxps-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OXPS к RTF"
+        - name: "OXPS в RTF"
           link: "/conversion/java/oxps-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "OXPS к SVG"
+        - name: "OXPS в SVG"
           link: "/conversion/java/oxps-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OXPS к SVGZ"
+        - name: "OXPS в SVGZ"
           link: "/conversion/java/oxps-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OXPS к SXC"
+        - name: "OXPS в SXC"
           link: "/conversion/java/oxps-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "OXPS к TEX"
+        - name: "OXPS в TEX"
           link: "/conversion/java/oxps-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OXPS к TIF"
+        - name: "OXPS в TIF"
           link: "/conversion/java/oxps-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OXPS к TIFF"
+        - name: "OXPS в TIFF"
           link: "/conversion/java/oxps-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OXPS к TSV"
+        - name: "OXPS в TSV"
           link: "/conversion/java/oxps-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OXPS к TXT"
+        - name: "OXPS в TXT"
           link: "/conversion/java/oxps-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OXPS к WEBP"
+        - name: "OXPS в WEBP"
           link: "/conversion/java/oxps-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OXPS к WMF"
+        - name: "OXPS в WMF"
           link: "/conversion/java/oxps-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "OXPS к WMZ"
+        - name: "OXPS в WMZ"
           link: "/conversion/java/oxps-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OXPS к XLAM"
+        - name: "OXPS в XLAM"
           link: "/conversion/java/oxps-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OXPS к XLS"
+        - name: "OXPS в XLS"
           link: "/conversion/java/oxps-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "OXPS к XLSB"
+        - name: "OXPS в XLSB"
           link: "/conversion/java/oxps-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OXPS к XLSM"
+        - name: "OXPS в XLSM"
           link: "/conversion/java/oxps-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OXPS к XLSX"
+        - name: "OXPS в XLSX"
           link: "/conversion/java/oxps-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OXPS к XLT"
+        - name: "OXPS в XLT"
           link: "/conversion/java/oxps-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "OXPS к XLTM"
+        - name: "OXPS в XLTM"
           link: "/conversion/java/oxps-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OXPS к XLTX"
+        - name: "OXPS в XLTX"
           link: "/conversion/java/oxps-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "OXPS к XPS"
+        - name: "OXPS в XPS"
           link: "/conversion/java/oxps-to-xps/"
           description: "Спецификация документа Open XML"
 

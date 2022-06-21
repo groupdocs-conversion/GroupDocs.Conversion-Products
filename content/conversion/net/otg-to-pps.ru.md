@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать OTG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OTG к BMP"
+        - name: "OTG в BMP"
           link: "/conversion/net/otg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "OTG к CSV"
+        - name: "OTG в CSV"
           link: "/conversion/net/otg-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "OTG к DCM"
+        - name: "OTG в DCM"
           link: "/conversion/net/otg-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "OTG к DIF"
+        - name: "OTG в DIF"
           link: "/conversion/net/otg-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "OTG к DOC"
+        - name: "OTG в DOC"
           link: "/conversion/net/otg-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OTG к DOCM"
+        - name: "OTG в DOCM"
           link: "/conversion/net/otg-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTG к DOCX"
+        - name: "OTG в DOCX"
           link: "/conversion/net/otg-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "OTG к DOT"
+        - name: "OTG в DOT"
           link: "/conversion/net/otg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "OTG к DOTM"
+        - name: "OTG в DOTM"
           link: "/conversion/net/otg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTG к DOTX"
+        - name: "OTG в DOTX"
           link: "/conversion/net/otg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "OTG к EMF"
+        - name: "OTG в EMF"
           link: "/conversion/net/otg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "OTG к EMZ"
+        - name: "OTG в EMZ"
           link: "/conversion/net/otg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OTG к EPUB"
+        - name: "OTG в EPUB"
           link: "/conversion/net/otg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OTG к FODP"
+        - name: "OTG в FODP"
           link: "/conversion/net/otg-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "OTG к FODS"
+        - name: "OTG в FODS"
           link: "/conversion/net/otg-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "OTG к GIF"
+        - name: "OTG в GIF"
           link: "/conversion/net/otg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "OTG к HTM"
+        - name: "OTG в HTM"
           link: "/conversion/net/otg-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "OTG к HTML"
+        - name: "OTG в HTML"
           link: "/conversion/net/otg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OTG к ICO"
+        - name: "OTG в ICO"
           link: "/conversion/net/otg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "OTG к JP2"
+        - name: "OTG в JP2"
           link: "/conversion/net/otg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "OTG к JPEG"
+        - name: "OTG в JPEG"
           link: "/conversion/net/otg-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "OTG к JPG"
+        - name: "OTG в JPG"
           link: "/conversion/net/otg-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "OTG к MD"
+        - name: "OTG в MD"
           link: "/conversion/net/otg-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OTG к MHT"
+        - name: "OTG в MHT"
           link: "/conversion/net/otg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTG к MHTML"
+        - name: "OTG в MHTML"
           link: "/conversion/net/otg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTG к ODP"
+        - name: "OTG в ODP"
           link: "/conversion/net/otg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "OTG к ODS"
+        - name: "OTG в ODS"
           link: "/conversion/net/otg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OTG к ODT"
+        - name: "OTG в ODT"
           link: "/conversion/net/otg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "OTG к OTP"
+        - name: "OTG в OTP"
           link: "/conversion/net/otg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "OTG к OTT"
+        - name: "OTG в OTT"
           link: "/conversion/net/otg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "OTG к PDF"
+        - name: "OTG в PDF"
           link: "/conversion/net/otg-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "OTG к PNG"
+        - name: "OTG в PNG"
           link: "/conversion/net/otg-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "OTG к POT"
+        - name: "OTG в POT"
           link: "/conversion/net/otg-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "OTG к POTM"
+        - name: "OTG в POTM"
           link: "/conversion/net/otg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTG к POTX"
+        - name: "OTG в POTX"
           link: "/conversion/net/otg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTG к PPSM"
+        - name: "OTG в PPSM"
           link: "/conversion/net/otg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTG к PPSX"
+        - name: "OTG в PPSX"
           link: "/conversion/net/otg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "OTG к PPT"
+        - name: "OTG в PPT"
           link: "/conversion/net/otg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OTG к PPTM"
+        - name: "OTG в PPTM"
           link: "/conversion/net/otg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OTG к PPTX"
+        - name: "OTG в PPTX"
           link: "/conversion/net/otg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "OTG к PSD"
+        - name: "OTG в PSD"
           link: "/conversion/net/otg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OTG к RTF"
+        - name: "OTG в RTF"
           link: "/conversion/net/otg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "OTG к SVG"
+        - name: "OTG в SVG"
           link: "/conversion/net/otg-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTG к SVGZ"
+        - name: "OTG в SVGZ"
           link: "/conversion/net/otg-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTG к SXC"
+        - name: "OTG в SXC"
           link: "/conversion/net/otg-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "OTG к TEX"
+        - name: "OTG в TEX"
           link: "/conversion/net/otg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OTG к TIF"
+        - name: "OTG в TIF"
           link: "/conversion/net/otg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTG к TIFF"
+        - name: "OTG в TIFF"
           link: "/conversion/net/otg-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTG к TSV"
+        - name: "OTG в TSV"
           link: "/conversion/net/otg-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OTG к TXT"
+        - name: "OTG в TXT"
           link: "/conversion/net/otg-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OTG к WEBP"
+        - name: "OTG в WEBP"
           link: "/conversion/net/otg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OTG к WMF"
+        - name: "OTG в WMF"
           link: "/conversion/net/otg-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "OTG к WMZ"
+        - name: "OTG в WMZ"
           link: "/conversion/net/otg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OTG к XLAM"
+        - name: "OTG в XLAM"
           link: "/conversion/net/otg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTG к XLS"
+        - name: "OTG в XLS"
           link: "/conversion/net/otg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "OTG к XLSB"
+        - name: "OTG в XLSB"
           link: "/conversion/net/otg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OTG к XLSM"
+        - name: "OTG в XLSM"
           link: "/conversion/net/otg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTG к XLSX"
+        - name: "OTG в XLSX"
           link: "/conversion/net/otg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OTG к XLT"
+        - name: "OTG в XLT"
           link: "/conversion/net/otg-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTG к XLTM"
+        - name: "OTG в XLTM"
           link: "/conversion/net/otg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTG к XLTX"
+        - name: "OTG в XLTX"
           link: "/conversion/net/otg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTG к XPS"
+        - name: "OTG в XPS"
           link: "/conversion/net/otg-to-xps/"
           description: "Спецификация документа Open XML"
 

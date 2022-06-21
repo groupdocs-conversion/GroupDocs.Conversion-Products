@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать XLAM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "XLAM к BMP"
+        - name: "XLAM в BMP"
           link: "/conversion/java/xlam-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "XLAM к CSV"
+        - name: "XLAM в CSV"
           link: "/conversion/java/xlam-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "XLAM к DCM"
+        - name: "XLAM в DCM"
           link: "/conversion/java/xlam-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "XLAM к DIF"
+        - name: "XLAM в DIF"
           link: "/conversion/java/xlam-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "XLAM к DOC"
+        - name: "XLAM в DOC"
           link: "/conversion/java/xlam-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "XLAM к DOCM"
+        - name: "XLAM в DOCM"
           link: "/conversion/java/xlam-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLAM к DOCX"
+        - name: "XLAM в DOCX"
           link: "/conversion/java/xlam-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "XLAM к DOT"
+        - name: "XLAM в DOT"
           link: "/conversion/java/xlam-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "XLAM к DOTM"
+        - name: "XLAM в DOTM"
           link: "/conversion/java/xlam-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLAM к DOTX"
+        - name: "XLAM в DOTX"
           link: "/conversion/java/xlam-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "XLAM к EMF"
+        - name: "XLAM в EMF"
           link: "/conversion/java/xlam-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "XLAM к EMZ"
+        - name: "XLAM в EMZ"
           link: "/conversion/java/xlam-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "XLAM к EPUB"
+        - name: "XLAM в EPUB"
           link: "/conversion/java/xlam-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "XLAM к FODP"
+        - name: "XLAM в FODP"
           link: "/conversion/java/xlam-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "XLAM к FODS"
+        - name: "XLAM в FODS"
           link: "/conversion/java/xlam-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "XLAM к GIF"
+        - name: "XLAM в GIF"
           link: "/conversion/java/xlam-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "XLAM к HTM"
+        - name: "XLAM в HTM"
           link: "/conversion/java/xlam-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "XLAM к HTML"
+        - name: "XLAM в HTML"
           link: "/conversion/java/xlam-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "XLAM к ICO"
+        - name: "XLAM в ICO"
           link: "/conversion/java/xlam-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "XLAM к JP2"
+        - name: "XLAM в JP2"
           link: "/conversion/java/xlam-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "XLAM к JPEG"
+        - name: "XLAM в JPEG"
           link: "/conversion/java/xlam-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "XLAM к JPG"
+        - name: "XLAM в JPG"
           link: "/conversion/java/xlam-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "XLAM к MD"
+        - name: "XLAM в MD"
           link: "/conversion/java/xlam-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "XLAM к MHT"
+        - name: "XLAM в MHT"
           link: "/conversion/java/xlam-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLAM к MHTML"
+        - name: "XLAM в MHTML"
           link: "/conversion/java/xlam-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLAM к ODP"
+        - name: "XLAM в ODP"
           link: "/conversion/java/xlam-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "XLAM к ODS"
+        - name: "XLAM в ODS"
           link: "/conversion/java/xlam-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "XLAM к ODT"
+        - name: "XLAM в ODT"
           link: "/conversion/java/xlam-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "XLAM к OTP"
+        - name: "XLAM в OTP"
           link: "/conversion/java/xlam-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "XLAM к OTT"
+        - name: "XLAM в OTT"
           link: "/conversion/java/xlam-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "XLAM к PDF"
+        - name: "XLAM в PDF"
           link: "/conversion/java/xlam-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "XLAM к POT"
+        - name: "XLAM в POT"
           link: "/conversion/java/xlam-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "XLAM к POTM"
+        - name: "XLAM в POTM"
           link: "/conversion/java/xlam-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLAM к POTX"
+        - name: "XLAM в POTX"
           link: "/conversion/java/xlam-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLAM к PPS"
+        - name: "XLAM в PPS"
           link: "/conversion/java/xlam-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLAM к PPSM"
+        - name: "XLAM в PPSM"
           link: "/conversion/java/xlam-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLAM к PPSX"
+        - name: "XLAM в PPSX"
           link: "/conversion/java/xlam-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "XLAM к PPT"
+        - name: "XLAM в PPT"
           link: "/conversion/java/xlam-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "XLAM к PPTM"
+        - name: "XLAM в PPTM"
           link: "/conversion/java/xlam-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "XLAM к PPTX"
+        - name: "XLAM в PPTX"
           link: "/conversion/java/xlam-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "XLAM к PSD"
+        - name: "XLAM в PSD"
           link: "/conversion/java/xlam-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "XLAM к RTF"
+        - name: "XLAM в RTF"
           link: "/conversion/java/xlam-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "XLAM к SVG"
+        - name: "XLAM в SVG"
           link: "/conversion/java/xlam-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLAM к SVGZ"
+        - name: "XLAM в SVGZ"
           link: "/conversion/java/xlam-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLAM к SXC"
+        - name: "XLAM в SXC"
           link: "/conversion/java/xlam-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "XLAM к TEX"
+        - name: "XLAM в TEX"
           link: "/conversion/java/xlam-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "XLAM к TIF"
+        - name: "XLAM в TIF"
           link: "/conversion/java/xlam-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLAM к TIFF"
+        - name: "XLAM в TIFF"
           link: "/conversion/java/xlam-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLAM к TSV"
+        - name: "XLAM в TSV"
           link: "/conversion/java/xlam-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "XLAM к TXT"
+        - name: "XLAM в TXT"
           link: "/conversion/java/xlam-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "XLAM к WEBP"
+        - name: "XLAM в WEBP"
           link: "/conversion/java/xlam-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "XLAM к WMF"
+        - name: "XLAM в WMF"
           link: "/conversion/java/xlam-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "XLAM к WMZ"
+        - name: "XLAM в WMZ"
           link: "/conversion/java/xlam-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "XLAM к XLS"
+        - name: "XLAM в XLS"
           link: "/conversion/java/xlam-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "XLAM к XLS2003"
+        - name: "XLAM в XLS2003"
           link: "/conversion/java/xlam-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "XLAM к XLSB"
+        - name: "XLAM в XLSB"
           link: "/conversion/java/xlam-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "XLAM к XLSM"
+        - name: "XLAM в XLSM"
           link: "/conversion/java/xlam-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLAM к XLSX"
+        - name: "XLAM в XLSX"
           link: "/conversion/java/xlam-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "XLAM к XLT"
+        - name: "XLAM в XLT"
           link: "/conversion/java/xlam-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLAM к XLTM"
+        - name: "XLAM в XLTM"
           link: "/conversion/java/xlam-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLAM к XLTX"
+        - name: "XLAM в XLTX"
           link: "/conversion/java/xlam-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLAM к XPS"
+        - name: "XLAM в XPS"
           link: "/conversion/java/xlam-to-xps/"
           description: "Спецификация документа Open XML"
 

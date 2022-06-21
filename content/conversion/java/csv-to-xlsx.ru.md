@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать CSV во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "CSV к BMP"
+        - name: "CSV в BMP"
           link: "/conversion/java/csv-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "CSV к DCM"
+        - name: "CSV в DCM"
           link: "/conversion/java/csv-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "CSV к DIF"
+        - name: "CSV в DIF"
           link: "/conversion/java/csv-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "CSV к DNG"
+        - name: "CSV в DNG"
           link: "/conversion/java/csv-to-dng/"
           description: "Формат изображения цифровой камеры"
 
         # format loop
-        - name: "CSV к DOC"
+        - name: "CSV в DOC"
           link: "/conversion/java/csv-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "CSV к DOCM"
+        - name: "CSV в DOCM"
           link: "/conversion/java/csv-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CSV к DOCX"
+        - name: "CSV в DOCX"
           link: "/conversion/java/csv-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "CSV к DOT"
+        - name: "CSV в DOT"
           link: "/conversion/java/csv-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "CSV к DOTM"
+        - name: "CSV в DOTM"
           link: "/conversion/java/csv-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CSV к DOTX"
+        - name: "CSV в DOTX"
           link: "/conversion/java/csv-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "CSV к EMF"
+        - name: "CSV в EMF"
           link: "/conversion/java/csv-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "CSV к EMZ"
+        - name: "CSV в EMZ"
           link: "/conversion/java/csv-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "CSV к EPUB"
+        - name: "CSV в EPUB"
           link: "/conversion/java/csv-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "CSV к FODP"
+        - name: "CSV в FODP"
           link: "/conversion/java/csv-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "CSV к FODS"
+        - name: "CSV в FODS"
           link: "/conversion/java/csv-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "CSV к GIF"
+        - name: "CSV в GIF"
           link: "/conversion/java/csv-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "CSV к HTM"
+        - name: "CSV в HTM"
           link: "/conversion/java/csv-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "CSV к HTML"
+        - name: "CSV в HTML"
           link: "/conversion/java/csv-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "CSV к ICO"
+        - name: "CSV в ICO"
           link: "/conversion/java/csv-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "CSV к JP2"
+        - name: "CSV в JP2"
           link: "/conversion/java/csv-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "CSV к JPEG"
+        - name: "CSV в JPEG"
           link: "/conversion/java/csv-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "CSV к JPG"
+        - name: "CSV в JPG"
           link: "/conversion/java/csv-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "CSV к MD"
+        - name: "CSV в MD"
           link: "/conversion/java/csv-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "CSV к MHT"
+        - name: "CSV в MHT"
           link: "/conversion/java/csv-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CSV к MHTML"
+        - name: "CSV в MHTML"
           link: "/conversion/java/csv-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CSV к ODP"
+        - name: "CSV в ODP"
           link: "/conversion/java/csv-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "CSV к ODS"
+        - name: "CSV в ODS"
           link: "/conversion/java/csv-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "CSV к ODT"
+        - name: "CSV в ODT"
           link: "/conversion/java/csv-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "CSV к OTP"
+        - name: "CSV в OTP"
           link: "/conversion/java/csv-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "CSV к OTT"
+        - name: "CSV в OTT"
           link: "/conversion/java/csv-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "CSV к PDF"
+        - name: "CSV в PDF"
           link: "/conversion/java/csv-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "CSV к PNG"
+        - name: "CSV в PNG"
           link: "/conversion/java/csv-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "CSV к POT"
+        - name: "CSV в POT"
           link: "/conversion/java/csv-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "CSV к POTM"
+        - name: "CSV в POTM"
           link: "/conversion/java/csv-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CSV к POTX"
+        - name: "CSV в POTX"
           link: "/conversion/java/csv-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CSV к PPS"
+        - name: "CSV в PPS"
           link: "/conversion/java/csv-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CSV к PPSM"
+        - name: "CSV в PPSM"
           link: "/conversion/java/csv-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CSV к PPSX"
+        - name: "CSV в PPSX"
           link: "/conversion/java/csv-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "CSV к PPT"
+        - name: "CSV в PPT"
           link: "/conversion/java/csv-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "CSV к PPTM"
+        - name: "CSV в PPTM"
           link: "/conversion/java/csv-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "CSV к PPTX"
+        - name: "CSV в PPTX"
           link: "/conversion/java/csv-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "CSV к PSD"
+        - name: "CSV в PSD"
           link: "/conversion/java/csv-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "CSV к RTF"
+        - name: "CSV в RTF"
           link: "/conversion/java/csv-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "CSV к SVG"
+        - name: "CSV в SVG"
           link: "/conversion/java/csv-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CSV к SVGZ"
+        - name: "CSV в SVGZ"
           link: "/conversion/java/csv-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CSV к SXC"
+        - name: "CSV в SXC"
           link: "/conversion/java/csv-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "CSV к TEX"
+        - name: "CSV в TEX"
           link: "/conversion/java/csv-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "CSV к TIF"
+        - name: "CSV в TIF"
           link: "/conversion/java/csv-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CSV к TIFF"
+        - name: "CSV в TIFF"
           link: "/conversion/java/csv-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CSV к TSV"
+        - name: "CSV в TSV"
           link: "/conversion/java/csv-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "CSV к TXT"
+        - name: "CSV в TXT"
           link: "/conversion/java/csv-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "CSV к WEBP"
+        - name: "CSV в WEBP"
           link: "/conversion/java/csv-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "CSV к WMF"
+        - name: "CSV в WMF"
           link: "/conversion/java/csv-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "CSV к WMZ"
+        - name: "CSV в WMZ"
           link: "/conversion/java/csv-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "CSV к XLAM"
+        - name: "CSV в XLAM"
           link: "/conversion/java/csv-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CSV к XLS"
+        - name: "CSV в XLS"
           link: "/conversion/java/csv-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "CSV к XLSB"
+        - name: "CSV в XLSB"
           link: "/conversion/java/csv-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "CSV к XLSM"
+        - name: "CSV в XLSM"
           link: "/conversion/java/csv-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CSV к XLT"
+        - name: "CSV в XLT"
           link: "/conversion/java/csv-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "CSV к XLTM"
+        - name: "CSV в XLTM"
           link: "/conversion/java/csv-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CSV к XLTX"
+        - name: "CSV в XLTX"
           link: "/conversion/java/csv-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "CSV к XPS"
+        - name: "CSV в XPS"
           link: "/conversion/java/csv-to-xps/"
           description: "Спецификация документа Open XML"
 

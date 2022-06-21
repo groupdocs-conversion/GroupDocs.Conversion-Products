@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать SVGZ во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "SVGZ к BMP"
+        - name: "SVGZ в BMP"
           link: "/conversion/java/svgz-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "SVGZ к CSV"
+        - name: "SVGZ в CSV"
           link: "/conversion/java/svgz-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "SVGZ к DCM"
+        - name: "SVGZ в DCM"
           link: "/conversion/java/svgz-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "SVGZ к DIF"
+        - name: "SVGZ в DIF"
           link: "/conversion/java/svgz-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "SVGZ к DOC"
+        - name: "SVGZ в DOC"
           link: "/conversion/java/svgz-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "SVGZ к DOCM"
+        - name: "SVGZ в DOCM"
           link: "/conversion/java/svgz-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "SVGZ к DOCX"
+        - name: "SVGZ в DOCX"
           link: "/conversion/java/svgz-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "SVGZ к DOT"
+        - name: "SVGZ в DOT"
           link: "/conversion/java/svgz-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "SVGZ к DOTM"
+        - name: "SVGZ в DOTM"
           link: "/conversion/java/svgz-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "SVGZ к DOTX"
+        - name: "SVGZ в DOTX"
           link: "/conversion/java/svgz-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "SVGZ к EMF"
+        - name: "SVGZ в EMF"
           link: "/conversion/java/svgz-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "SVGZ к EMZ"
+        - name: "SVGZ в EMZ"
           link: "/conversion/java/svgz-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "SVGZ к EPUB"
+        - name: "SVGZ в EPUB"
           link: "/conversion/java/svgz-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "SVGZ к FODP"
+        - name: "SVGZ в FODP"
           link: "/conversion/java/svgz-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "SVGZ к FODS"
+        - name: "SVGZ в FODS"
           link: "/conversion/java/svgz-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "SVGZ к GIF"
+        - name: "SVGZ в GIF"
           link: "/conversion/java/svgz-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "SVGZ к HTM"
+        - name: "SVGZ в HTM"
           link: "/conversion/java/svgz-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "SVGZ к HTML"
+        - name: "SVGZ в HTML"
           link: "/conversion/java/svgz-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "SVGZ к ICO"
+        - name: "SVGZ в ICO"
           link: "/conversion/java/svgz-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "SVGZ к JP2"
+        - name: "SVGZ в JP2"
           link: "/conversion/java/svgz-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "SVGZ к JPEG"
+        - name: "SVGZ в JPEG"
           link: "/conversion/java/svgz-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "SVGZ к JPG"
+        - name: "SVGZ в JPG"
           link: "/conversion/java/svgz-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "SVGZ к MHT"
+        - name: "SVGZ в MHT"
           link: "/conversion/java/svgz-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "SVGZ к MHTML"
+        - name: "SVGZ в MHTML"
           link: "/conversion/java/svgz-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "SVGZ к ODP"
+        - name: "SVGZ в ODP"
           link: "/conversion/java/svgz-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "SVGZ к ODS"
+        - name: "SVGZ в ODS"
           link: "/conversion/java/svgz-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "SVGZ к ODT"
+        - name: "SVGZ в ODT"
           link: "/conversion/java/svgz-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "SVGZ к OTP"
+        - name: "SVGZ в OTP"
           link: "/conversion/java/svgz-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "SVGZ к OTT"
+        - name: "SVGZ в OTT"
           link: "/conversion/java/svgz-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "SVGZ к PDF"
+        - name: "SVGZ в PDF"
           link: "/conversion/java/svgz-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "SVGZ к PNG"
+        - name: "SVGZ в PNG"
           link: "/conversion/java/svgz-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "SVGZ к POT"
+        - name: "SVGZ в POT"
           link: "/conversion/java/svgz-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "SVGZ к POTM"
+        - name: "SVGZ в POTM"
           link: "/conversion/java/svgz-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "SVGZ к POTX"
+        - name: "SVGZ в POTX"
           link: "/conversion/java/svgz-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "SVGZ к PPS"
+        - name: "SVGZ в PPS"
           link: "/conversion/java/svgz-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "SVGZ к PPSM"
+        - name: "SVGZ в PPSM"
           link: "/conversion/java/svgz-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "SVGZ к PPSX"
+        - name: "SVGZ в PPSX"
           link: "/conversion/java/svgz-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "SVGZ к PPT"
+        - name: "SVGZ в PPT"
           link: "/conversion/java/svgz-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "SVGZ к PPTM"
+        - name: "SVGZ в PPTM"
           link: "/conversion/java/svgz-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "SVGZ к PPTX"
+        - name: "SVGZ в PPTX"
           link: "/conversion/java/svgz-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "SVGZ к PSD"
+        - name: "SVGZ в PSD"
           link: "/conversion/java/svgz-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "SVGZ к RTF"
+        - name: "SVGZ в RTF"
           link: "/conversion/java/svgz-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "SVGZ к SVG"
+        - name: "SVGZ в SVG"
           link: "/conversion/java/svgz-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "SVGZ к SXC"
+        - name: "SVGZ в SXC"
           link: "/conversion/java/svgz-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "SVGZ к TEX"
+        - name: "SVGZ в TEX"
           link: "/conversion/java/svgz-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "SVGZ к TIF"
+        - name: "SVGZ в TIF"
           link: "/conversion/java/svgz-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "SVGZ к TIFF"
+        - name: "SVGZ в TIFF"
           link: "/conversion/java/svgz-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "SVGZ к TSV"
+        - name: "SVGZ в TSV"
           link: "/conversion/java/svgz-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "SVGZ к TXT"
+        - name: "SVGZ в TXT"
           link: "/conversion/java/svgz-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "SVGZ к WEBP"
+        - name: "SVGZ в WEBP"
           link: "/conversion/java/svgz-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "SVGZ к WMF"
+        - name: "SVGZ в WMF"
           link: "/conversion/java/svgz-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "SVGZ к WMZ"
+        - name: "SVGZ в WMZ"
           link: "/conversion/java/svgz-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "SVGZ к XLAM"
+        - name: "SVGZ в XLAM"
           link: "/conversion/java/svgz-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVGZ к XLS"
+        - name: "SVGZ в XLS"
           link: "/conversion/java/svgz-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "SVGZ к XLSB"
+        - name: "SVGZ в XLSB"
           link: "/conversion/java/svgz-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "SVGZ к XLSM"
+        - name: "SVGZ в XLSM"
           link: "/conversion/java/svgz-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVGZ к XLSX"
+        - name: "SVGZ в XLSX"
           link: "/conversion/java/svgz-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "SVGZ к XLT"
+        - name: "SVGZ в XLT"
           link: "/conversion/java/svgz-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "SVGZ к XLTM"
+        - name: "SVGZ в XLTM"
           link: "/conversion/java/svgz-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "SVGZ к XLTX"
+        - name: "SVGZ в XLTX"
           link: "/conversion/java/svgz-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "SVGZ к XPS"
+        - name: "SVGZ в XPS"
           link: "/conversion/java/svgz-to-xps/"
           description: "Спецификация документа Open XML"
 

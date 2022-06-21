@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать DWG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DWG к BMP"
+        - name: "DWG в BMP"
           link: "/conversion/net/dwg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DWG к CSV"
+        - name: "DWG в CSV"
           link: "/conversion/net/dwg-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DWG к DCM"
+        - name: "DWG в DCM"
           link: "/conversion/net/dwg-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DWG к DIF"
+        - name: "DWG в DIF"
           link: "/conversion/net/dwg-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DWG к DOC"
+        - name: "DWG в DOC"
           link: "/conversion/net/dwg-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DWG к DOCM"
+        - name: "DWG в DOCM"
           link: "/conversion/net/dwg-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWG к DOCX"
+        - name: "DWG в DOCX"
           link: "/conversion/net/dwg-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DWG к DOT"
+        - name: "DWG в DOT"
           link: "/conversion/net/dwg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DWG к DOTM"
+        - name: "DWG в DOTM"
           link: "/conversion/net/dwg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DWG к DOTX"
+        - name: "DWG в DOTX"
           link: "/conversion/net/dwg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DWG к EMF"
+        - name: "DWG в EMF"
           link: "/conversion/net/dwg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DWG к EMZ"
+        - name: "DWG в EMZ"
           link: "/conversion/net/dwg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DWG к EPUB"
+        - name: "DWG в EPUB"
           link: "/conversion/net/dwg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DWG к FODP"
+        - name: "DWG в FODP"
           link: "/conversion/net/dwg-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DWG к FODS"
+        - name: "DWG в FODS"
           link: "/conversion/net/dwg-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DWG к GIF"
+        - name: "DWG в GIF"
           link: "/conversion/net/dwg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DWG к HTM"
+        - name: "DWG в HTM"
           link: "/conversion/net/dwg-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DWG к HTML"
+        - name: "DWG в HTML"
           link: "/conversion/net/dwg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DWG к ICO"
+        - name: "DWG в ICO"
           link: "/conversion/net/dwg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DWG к JP2"
+        - name: "DWG в JP2"
           link: "/conversion/net/dwg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DWG к JPEG"
+        - name: "DWG в JPEG"
           link: "/conversion/net/dwg-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DWG к JPG"
+        - name: "DWG в JPG"
           link: "/conversion/net/dwg-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DWG к MD"
+        - name: "DWG в MD"
           link: "/conversion/net/dwg-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DWG к MHT"
+        - name: "DWG в MHT"
           link: "/conversion/net/dwg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWG к MHTML"
+        - name: "DWG в MHTML"
           link: "/conversion/net/dwg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DWG к ODP"
+        - name: "DWG в ODP"
           link: "/conversion/net/dwg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DWG к ODS"
+        - name: "DWG в ODS"
           link: "/conversion/net/dwg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DWG к ODT"
+        - name: "DWG в ODT"
           link: "/conversion/net/dwg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DWG к OTP"
+        - name: "DWG в OTP"
           link: "/conversion/net/dwg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DWG к OTT"
+        - name: "DWG в OTT"
           link: "/conversion/net/dwg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DWG к PDF"
+        - name: "DWG в PDF"
           link: "/conversion/net/dwg-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DWG к PNG"
+        - name: "DWG в PNG"
           link: "/conversion/net/dwg-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DWG к POT"
+        - name: "DWG в POT"
           link: "/conversion/net/dwg-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DWG к POTM"
+        - name: "DWG в POTM"
           link: "/conversion/net/dwg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWG к POTX"
+        - name: "DWG в POTX"
           link: "/conversion/net/dwg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DWG к PPS"
+        - name: "DWG в PPS"
           link: "/conversion/net/dwg-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWG к PPSM"
+        - name: "DWG в PPSM"
           link: "/conversion/net/dwg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DWG к PPSX"
+        - name: "DWG в PPSX"
           link: "/conversion/net/dwg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DWG к PPT"
+        - name: "DWG в PPT"
           link: "/conversion/net/dwg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DWG к PPTM"
+        - name: "DWG в PPTM"
           link: "/conversion/net/dwg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DWG к PPTX"
+        - name: "DWG в PPTX"
           link: "/conversion/net/dwg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DWG к PSD"
+        - name: "DWG в PSD"
           link: "/conversion/net/dwg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DWG к RTF"
+        - name: "DWG в RTF"
           link: "/conversion/net/dwg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DWG к SVG"
+        - name: "DWG в SVG"
           link: "/conversion/net/dwg-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWG к SVGZ"
+        - name: "DWG в SVGZ"
           link: "/conversion/net/dwg-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DWG к SXC"
+        - name: "DWG в SXC"
           link: "/conversion/net/dwg-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DWG к TEX"
+        - name: "DWG в TEX"
           link: "/conversion/net/dwg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DWG к TIF"
+        - name: "DWG в TIF"
           link: "/conversion/net/dwg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWG к TIFF"
+        - name: "DWG в TIFF"
           link: "/conversion/net/dwg-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DWG к TSV"
+        - name: "DWG в TSV"
           link: "/conversion/net/dwg-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DWG к WEBP"
+        - name: "DWG в WEBP"
           link: "/conversion/net/dwg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DWG к WMF"
+        - name: "DWG в WMF"
           link: "/conversion/net/dwg-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DWG к WMZ"
+        - name: "DWG в WMZ"
           link: "/conversion/net/dwg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DWG к XLAM"
+        - name: "DWG в XLAM"
           link: "/conversion/net/dwg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWG к XLS"
+        - name: "DWG в XLS"
           link: "/conversion/net/dwg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DWG к XLSB"
+        - name: "DWG в XLSB"
           link: "/conversion/net/dwg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DWG к XLSM"
+        - name: "DWG в XLSM"
           link: "/conversion/net/dwg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWG к XLSX"
+        - name: "DWG в XLSX"
           link: "/conversion/net/dwg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DWG к XLT"
+        - name: "DWG в XLT"
           link: "/conversion/net/dwg-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWG к XLTM"
+        - name: "DWG в XLTM"
           link: "/conversion/net/dwg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DWG к XLTX"
+        - name: "DWG в XLTX"
           link: "/conversion/net/dwg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DWG к XPS"
+        - name: "DWG в XPS"
           link: "/conversion/net/dwg-to-xps/"
           description: "Спецификация документа Open XML"
 

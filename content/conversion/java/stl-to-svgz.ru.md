@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать STL во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "STL к BMP"
+        - name: "STL в BMP"
           link: "/conversion/java/stl-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "STL к CSV"
+        - name: "STL в CSV"
           link: "/conversion/java/stl-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "STL к DCM"
+        - name: "STL в DCM"
           link: "/conversion/java/stl-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "STL к DIF"
+        - name: "STL в DIF"
           link: "/conversion/java/stl-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "STL к DOC"
+        - name: "STL в DOC"
           link: "/conversion/java/stl-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "STL к DOCM"
+        - name: "STL в DOCM"
           link: "/conversion/java/stl-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "STL к DOCX"
+        - name: "STL в DOCX"
           link: "/conversion/java/stl-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "STL к DOT"
+        - name: "STL в DOT"
           link: "/conversion/java/stl-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "STL к DOTM"
+        - name: "STL в DOTM"
           link: "/conversion/java/stl-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "STL к DOTX"
+        - name: "STL в DOTX"
           link: "/conversion/java/stl-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "STL к EMF"
+        - name: "STL в EMF"
           link: "/conversion/java/stl-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "STL к EMZ"
+        - name: "STL в EMZ"
           link: "/conversion/java/stl-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "STL к EPUB"
+        - name: "STL в EPUB"
           link: "/conversion/java/stl-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "STL к FODP"
+        - name: "STL в FODP"
           link: "/conversion/java/stl-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "STL к FODS"
+        - name: "STL в FODS"
           link: "/conversion/java/stl-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "STL к GIF"
+        - name: "STL в GIF"
           link: "/conversion/java/stl-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "STL к HTM"
+        - name: "STL в HTM"
           link: "/conversion/java/stl-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "STL к HTML"
+        - name: "STL в HTML"
           link: "/conversion/java/stl-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "STL к ICO"
+        - name: "STL в ICO"
           link: "/conversion/java/stl-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "STL к JP2"
+        - name: "STL в JP2"
           link: "/conversion/java/stl-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "STL к JPEG"
+        - name: "STL в JPEG"
           link: "/conversion/java/stl-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "STL к JPG"
+        - name: "STL в JPG"
           link: "/conversion/java/stl-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "STL к MD"
+        - name: "STL в MD"
           link: "/conversion/java/stl-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "STL к MHT"
+        - name: "STL в MHT"
           link: "/conversion/java/stl-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "STL к MHTML"
+        - name: "STL в MHTML"
           link: "/conversion/java/stl-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "STL к ODP"
+        - name: "STL в ODP"
           link: "/conversion/java/stl-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "STL к ODS"
+        - name: "STL в ODS"
           link: "/conversion/java/stl-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "STL к ODT"
+        - name: "STL в ODT"
           link: "/conversion/java/stl-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "STL к OTP"
+        - name: "STL в OTP"
           link: "/conversion/java/stl-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "STL к OTT"
+        - name: "STL в OTT"
           link: "/conversion/java/stl-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "STL к PDF"
+        - name: "STL в PDF"
           link: "/conversion/java/stl-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "STL к PNG"
+        - name: "STL в PNG"
           link: "/conversion/java/stl-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "STL к POT"
+        - name: "STL в POT"
           link: "/conversion/java/stl-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "STL к POTM"
+        - name: "STL в POTM"
           link: "/conversion/java/stl-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "STL к POTX"
+        - name: "STL в POTX"
           link: "/conversion/java/stl-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "STL к PPS"
+        - name: "STL в PPS"
           link: "/conversion/java/stl-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "STL к PPSM"
+        - name: "STL в PPSM"
           link: "/conversion/java/stl-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "STL к PPSX"
+        - name: "STL в PPSX"
           link: "/conversion/java/stl-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "STL к PPT"
+        - name: "STL в PPT"
           link: "/conversion/java/stl-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "STL к PPTM"
+        - name: "STL в PPTM"
           link: "/conversion/java/stl-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "STL к PPTX"
+        - name: "STL в PPTX"
           link: "/conversion/java/stl-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "STL к PSD"
+        - name: "STL в PSD"
           link: "/conversion/java/stl-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "STL к RTF"
+        - name: "STL в RTF"
           link: "/conversion/java/stl-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "STL к SVG"
+        - name: "STL в SVG"
           link: "/conversion/java/stl-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "STL к SXC"
+        - name: "STL в SXC"
           link: "/conversion/java/stl-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "STL к TEX"
+        - name: "STL в TEX"
           link: "/conversion/java/stl-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "STL к TIF"
+        - name: "STL в TIF"
           link: "/conversion/java/stl-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "STL к TIFF"
+        - name: "STL в TIFF"
           link: "/conversion/java/stl-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "STL к TSV"
+        - name: "STL в TSV"
           link: "/conversion/java/stl-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "STL к TXT"
+        - name: "STL в TXT"
           link: "/conversion/java/stl-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "STL к WEBP"
+        - name: "STL в WEBP"
           link: "/conversion/java/stl-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "STL к WMF"
+        - name: "STL в WMF"
           link: "/conversion/java/stl-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "STL к WMZ"
+        - name: "STL в WMZ"
           link: "/conversion/java/stl-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "STL к XLAM"
+        - name: "STL в XLAM"
           link: "/conversion/java/stl-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "STL к XLS"
+        - name: "STL в XLS"
           link: "/conversion/java/stl-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "STL к XLSB"
+        - name: "STL в XLSB"
           link: "/conversion/java/stl-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "STL к XLSM"
+        - name: "STL в XLSM"
           link: "/conversion/java/stl-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "STL к XLSX"
+        - name: "STL в XLSX"
           link: "/conversion/java/stl-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "STL к XLT"
+        - name: "STL в XLT"
           link: "/conversion/java/stl-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "STL к XLTM"
+        - name: "STL в XLTM"
           link: "/conversion/java/stl-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "STL к XLTX"
+        - name: "STL в XLTX"
           link: "/conversion/java/stl-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "STL к XPS"
+        - name: "STL в XPS"
           link: "/conversion/java/stl-to-xps/"
           description: "Спецификация документа Open XML"
 

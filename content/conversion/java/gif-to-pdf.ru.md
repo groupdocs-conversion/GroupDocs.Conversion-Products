@@ -128,302 +128,302 @@ more_formats:
         Вы также можете конвертировать GIF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "GIF к BMP"
+        - name: "GIF в BMP"
           link: "/conversion/java/gif-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "GIF к CSV"
+        - name: "GIF в CSV"
           link: "/conversion/java/gif-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "GIF к DCM"
+        - name: "GIF в DCM"
           link: "/conversion/java/gif-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "GIF к DIF"
+        - name: "GIF в DIF"
           link: "/conversion/java/gif-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "GIF к DOC"
+        - name: "GIF в DOC"
           link: "/conversion/java/gif-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "GIF к DOCM"
+        - name: "GIF в DOCM"
           link: "/conversion/java/gif-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "GIF к DOCX"
+        - name: "GIF в DOCX"
           link: "/conversion/java/gif-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "GIF к DOT"
+        - name: "GIF в DOT"
           link: "/conversion/java/gif-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "GIF к DOTM"
+        - name: "GIF в DOTM"
           link: "/conversion/java/gif-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "GIF к DOTX"
+        - name: "GIF в DOTX"
           link: "/conversion/java/gif-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "GIF к EMF"
+        - name: "GIF в EMF"
           link: "/conversion/java/gif-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "GIF к EMZ"
+        - name: "GIF в EMZ"
           link: "/conversion/java/gif-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "GIF к EPUB"
+        - name: "GIF в EPUB"
           link: "/conversion/java/gif-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "GIF к FODP"
+        - name: "GIF в FODP"
           link: "/conversion/java/gif-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "GIF к FODS"
+        - name: "GIF в FODS"
           link: "/conversion/java/gif-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "GIF к HTM"
+        - name: "GIF в HTM"
           link: "/conversion/java/gif-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "GIF к HTML"
+        - name: "GIF в HTML"
           link: "/conversion/java/gif-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "GIF к ICO"
+        - name: "GIF в ICO"
           link: "/conversion/java/gif-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "GIF к JP2"
+        - name: "GIF в JP2"
           link: "/conversion/java/gif-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "GIF к JPEG"
+        - name: "GIF в JPEG"
           link: "/conversion/java/gif-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "GIF к JPG"
+        - name: "GIF в JPG"
           link: "/conversion/java/gif-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "GIF к MD"
+        - name: "GIF в MD"
           link: "/conversion/java/gif-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "GIF к MHT"
+        - name: "GIF в MHT"
           link: "/conversion/java/gif-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "GIF к MHTML"
+        - name: "GIF в MHTML"
           link: "/conversion/java/gif-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "GIF к ODP"
+        - name: "GIF в ODP"
           link: "/conversion/java/gif-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "GIF к ODS"
+        - name: "GIF в ODS"
           link: "/conversion/java/gif-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "GIF к ODT"
+        - name: "GIF в ODT"
           link: "/conversion/java/gif-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "GIF к OTP"
+        - name: "GIF в OTP"
           link: "/conversion/java/gif-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "GIF к OTT"
+        - name: "GIF в OTT"
           link: "/conversion/java/gif-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "GIF к PNG"
+        - name: "GIF в PNG"
           link: "/conversion/java/gif-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "GIF к POT"
+        - name: "GIF в POT"
           link: "/conversion/java/gif-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "GIF к POTM"
+        - name: "GIF в POTM"
           link: "/conversion/java/gif-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "GIF к POTX"
+        - name: "GIF в POTX"
           link: "/conversion/java/gif-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "GIF к PPS"
+        - name: "GIF в PPS"
           link: "/conversion/java/gif-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "GIF к PPSM"
+        - name: "GIF в PPSM"
           link: "/conversion/java/gif-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "GIF к PPSX"
+        - name: "GIF в PPSX"
           link: "/conversion/java/gif-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "GIF к PPT"
+        - name: "GIF в PPT"
           link: "/conversion/java/gif-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "GIF к PPTM"
+        - name: "GIF в PPTM"
           link: "/conversion/java/gif-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "GIF к PPTX"
+        - name: "GIF в PPTX"
           link: "/conversion/java/gif-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "GIF к PSD"
+        - name: "GIF в PSD"
           link: "/conversion/java/gif-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "GIF к RTF"
+        - name: "GIF в RTF"
           link: "/conversion/java/gif-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "GIF к SVG"
+        - name: "GIF в SVG"
           link: "/conversion/java/gif-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "GIF к SVGZ"
+        - name: "GIF в SVGZ"
           link: "/conversion/java/gif-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "GIF к SXC"
+        - name: "GIF в SXC"
           link: "/conversion/java/gif-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "GIF к TEX"
+        - name: "GIF в TEX"
           link: "/conversion/java/gif-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "GIF к TIF"
+        - name: "GIF в TIF"
           link: "/conversion/java/gif-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "GIF к TIFF"
+        - name: "GIF в TIFF"
           link: "/conversion/java/gif-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "GIF к TXT"
+        - name: "GIF в TXT"
           link: "/conversion/java/gif-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "GIF к WEBP"
+        - name: "GIF в WEBP"
           link: "/conversion/java/gif-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "GIF к WMF"
+        - name: "GIF в WMF"
           link: "/conversion/java/gif-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "GIF к WMZ"
+        - name: "GIF в WMZ"
           link: "/conversion/java/gif-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "GIF к XLAM"
+        - name: "GIF в XLAM"
           link: "/conversion/java/gif-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "GIF к XLS"
+        - name: "GIF в XLS"
           link: "/conversion/java/gif-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "GIF к XLSB"
+        - name: "GIF в XLSB"
           link: "/conversion/java/gif-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "GIF к XLSM"
+        - name: "GIF в XLSM"
           link: "/conversion/java/gif-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "GIF к XLSX"
+        - name: "GIF в XLSX"
           link: "/conversion/java/gif-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "GIF к XLT"
+        - name: "GIF в XLT"
           link: "/conversion/java/gif-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "GIF к XLTM"
+        - name: "GIF в XLTM"
           link: "/conversion/java/gif-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "GIF к XLTX"
+        - name: "GIF в XLTX"
           link: "/conversion/java/gif-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "GIF к XPS"
+        - name: "GIF в XPS"
           link: "/conversion/java/gif-to-xps/"
           description: "Спецификация документа Open XML"
 

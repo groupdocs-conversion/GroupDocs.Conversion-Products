@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать DOCM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DOCM к BMP"
+        - name: "DOCM в BMP"
           link: "/conversion/java/docm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DOCM к CSV"
+        - name: "DOCM в CSV"
           link: "/conversion/java/docm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DOCM к DCM"
+        - name: "DOCM в DCM"
           link: "/conversion/java/docm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DOCM к DIF"
+        - name: "DOCM в DIF"
           link: "/conversion/java/docm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DOCM к DOC"
+        - name: "DOCM в DOC"
           link: "/conversion/java/docm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DOCM к DOCX"
+        - name: "DOCM в DOCX"
           link: "/conversion/java/docm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DOCM к DOT"
+        - name: "DOCM в DOT"
           link: "/conversion/java/docm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DOCM к DOTM"
+        - name: "DOCM в DOTM"
           link: "/conversion/java/docm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOCM к DOTX"
+        - name: "DOCM в DOTX"
           link: "/conversion/java/docm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DOCM к EMF"
+        - name: "DOCM в EMF"
           link: "/conversion/java/docm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DOCM к EMZ"
+        - name: "DOCM в EMZ"
           link: "/conversion/java/docm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DOCM к EPUB"
+        - name: "DOCM в EPUB"
           link: "/conversion/java/docm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DOCM к FODP"
+        - name: "DOCM в FODP"
           link: "/conversion/java/docm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DOCM к FODS"
+        - name: "DOCM в FODS"
           link: "/conversion/java/docm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DOCM к GIF"
+        - name: "DOCM в GIF"
           link: "/conversion/java/docm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DOCM к HTM"
+        - name: "DOCM в HTM"
           link: "/conversion/java/docm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DOCM к HTML"
+        - name: "DOCM в HTML"
           link: "/conversion/java/docm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DOCM к ICO"
+        - name: "DOCM в ICO"
           link: "/conversion/java/docm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DOCM к JP2"
+        - name: "DOCM в JP2"
           link: "/conversion/java/docm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DOCM к JPEG"
+        - name: "DOCM в JPEG"
           link: "/conversion/java/docm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DOCM к JPG"
+        - name: "DOCM в JPG"
           link: "/conversion/java/docm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DOCM к MHT"
+        - name: "DOCM в MHT"
           link: "/conversion/java/docm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOCM к MHTML"
+        - name: "DOCM в MHTML"
           link: "/conversion/java/docm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOCM к ODP"
+        - name: "DOCM в ODP"
           link: "/conversion/java/docm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DOCM к ODS"
+        - name: "DOCM в ODS"
           link: "/conversion/java/docm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DOCM к ODT"
+        - name: "DOCM в ODT"
           link: "/conversion/java/docm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DOCM к OTP"
+        - name: "DOCM в OTP"
           link: "/conversion/java/docm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DOCM к OTT"
+        - name: "DOCM в OTT"
           link: "/conversion/java/docm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DOCM к PDF"
+        - name: "DOCM в PDF"
           link: "/conversion/java/docm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DOCM к PNG"
+        - name: "DOCM в PNG"
           link: "/conversion/java/docm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DOCM к POT"
+        - name: "DOCM в POT"
           link: "/conversion/java/docm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DOCM к POTM"
+        - name: "DOCM в POTM"
           link: "/conversion/java/docm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOCM к POTX"
+        - name: "DOCM в POTX"
           link: "/conversion/java/docm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOCM к PPS"
+        - name: "DOCM в PPS"
           link: "/conversion/java/docm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOCM к PPSM"
+        - name: "DOCM в PPSM"
           link: "/conversion/java/docm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOCM к PPSX"
+        - name: "DOCM в PPSX"
           link: "/conversion/java/docm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DOCM к PPT"
+        - name: "DOCM в PPT"
           link: "/conversion/java/docm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DOCM к PPTM"
+        - name: "DOCM в PPTM"
           link: "/conversion/java/docm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DOCM к PPTX"
+        - name: "DOCM в PPTX"
           link: "/conversion/java/docm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DOCM к PSD"
+        - name: "DOCM в PSD"
           link: "/conversion/java/docm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DOCM к RTF"
+        - name: "DOCM в RTF"
           link: "/conversion/java/docm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DOCM к SVG"
+        - name: "DOCM в SVG"
           link: "/conversion/java/docm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOCM к SVGZ"
+        - name: "DOCM в SVGZ"
           link: "/conversion/java/docm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOCM к SXC"
+        - name: "DOCM в SXC"
           link: "/conversion/java/docm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DOCM к TEX"
+        - name: "DOCM в TEX"
           link: "/conversion/java/docm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DOCM к TIF"
+        - name: "DOCM в TIF"
           link: "/conversion/java/docm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOCM к TIFF"
+        - name: "DOCM в TIFF"
           link: "/conversion/java/docm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOCM к TSV"
+        - name: "DOCM в TSV"
           link: "/conversion/java/docm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DOCM к TXT"
+        - name: "DOCM в TXT"
           link: "/conversion/java/docm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DOCM к WEBP"
+        - name: "DOCM в WEBP"
           link: "/conversion/java/docm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DOCM к WMF"
+        - name: "DOCM в WMF"
           link: "/conversion/java/docm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DOCM к WMZ"
+        - name: "DOCM в WMZ"
           link: "/conversion/java/docm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DOCM к XLAM"
+        - name: "DOCM в XLAM"
           link: "/conversion/java/docm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOCM к XLS"
+        - name: "DOCM в XLS"
           link: "/conversion/java/docm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DOCM к XLSB"
+        - name: "DOCM в XLSB"
           link: "/conversion/java/docm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DOCM к XLSM"
+        - name: "DOCM в XLSM"
           link: "/conversion/java/docm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOCM к XLSX"
+        - name: "DOCM в XLSX"
           link: "/conversion/java/docm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DOCM к XLT"
+        - name: "DOCM в XLT"
           link: "/conversion/java/docm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOCM к XLTM"
+        - name: "DOCM в XLTM"
           link: "/conversion/java/docm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOCM к XLTX"
+        - name: "DOCM в XLTX"
           link: "/conversion/java/docm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOCM к XPS"
+        - name: "DOCM в XPS"
           link: "/conversion/java/docm-to-xps/"
           description: "Спецификация документа Open XML"
 

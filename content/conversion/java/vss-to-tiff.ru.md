@@ -128,317 +128,317 @@ more_formats:
         Вы также можете конвертировать VSS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VSS к BMP"
+        - name: "VSS в BMP"
           link: "/conversion/java/vss-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VSS к CSV"
+        - name: "VSS в CSV"
           link: "/conversion/java/vss-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VSS к DCM"
+        - name: "VSS в DCM"
           link: "/conversion/java/vss-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VSS к DIF"
+        - name: "VSS в DIF"
           link: "/conversion/java/vss-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VSS к DOC"
+        - name: "VSS в DOC"
           link: "/conversion/java/vss-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VSS к DOCM"
+        - name: "VSS в DOCM"
           link: "/conversion/java/vss-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSS к DOCX"
+        - name: "VSS в DOCX"
           link: "/conversion/java/vss-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VSS к DOT"
+        - name: "VSS в DOT"
           link: "/conversion/java/vss-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VSS к DOTM"
+        - name: "VSS в DOTM"
           link: "/conversion/java/vss-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSS к DOTX"
+        - name: "VSS в DOTX"
           link: "/conversion/java/vss-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VSS к EMF"
+        - name: "VSS в EMF"
           link: "/conversion/java/vss-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VSS к EMZ"
+        - name: "VSS в EMZ"
           link: "/conversion/java/vss-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VSS к EPUB"
+        - name: "VSS в EPUB"
           link: "/conversion/java/vss-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VSS к FODP"
+        - name: "VSS в FODP"
           link: "/conversion/java/vss-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VSS к FODS"
+        - name: "VSS в FODS"
           link: "/conversion/java/vss-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VSS к GIF"
+        - name: "VSS в GIF"
           link: "/conversion/java/vss-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VSS к HTM"
+        - name: "VSS в HTM"
           link: "/conversion/java/vss-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VSS к HTML"
+        - name: "VSS в HTML"
           link: "/conversion/java/vss-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VSS к ICO"
+        - name: "VSS в ICO"
           link: "/conversion/java/vss-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VSS к JP2"
+        - name: "VSS в JP2"
           link: "/conversion/java/vss-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VSS к JPEG"
+        - name: "VSS в JPEG"
           link: "/conversion/java/vss-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VSS к JPG"
+        - name: "VSS в JPG"
           link: "/conversion/java/vss-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VSS к MD"
+        - name: "VSS в MD"
           link: "/conversion/java/vss-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VSS к MHT"
+        - name: "VSS в MHT"
           link: "/conversion/java/vss-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSS к MHTML"
+        - name: "VSS в MHTML"
           link: "/conversion/java/vss-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSS к MOBI"
+        - name: "VSS в MOBI"
           link: "/conversion/java/vss-to-mobi/"
           description: "Электронная книга Mobipocket"
 
         # format loop
-        - name: "VSS к ODP"
+        - name: "VSS в ODP"
           link: "/conversion/java/vss-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VSS к ODS"
+        - name: "VSS в ODS"
           link: "/conversion/java/vss-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VSS к ODT"
+        - name: "VSS в ODT"
           link: "/conversion/java/vss-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VSS к OTP"
+        - name: "VSS в OTP"
           link: "/conversion/java/vss-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VSS к OTT"
+        - name: "VSS в OTT"
           link: "/conversion/java/vss-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VSS к PDF"
+        - name: "VSS в PDF"
           link: "/conversion/java/vss-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VSS к PNG"
+        - name: "VSS в PNG"
           link: "/conversion/java/vss-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VSS к POT"
+        - name: "VSS в POT"
           link: "/conversion/java/vss-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VSS к POTM"
+        - name: "VSS в POTM"
           link: "/conversion/java/vss-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSS к POTX"
+        - name: "VSS в POTX"
           link: "/conversion/java/vss-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSS к PPS"
+        - name: "VSS в PPS"
           link: "/conversion/java/vss-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSS к PPSM"
+        - name: "VSS в PPSM"
           link: "/conversion/java/vss-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSS к PPSX"
+        - name: "VSS в PPSX"
           link: "/conversion/java/vss-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VSS к PPT"
+        - name: "VSS в PPT"
           link: "/conversion/java/vss-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VSS к PPTM"
+        - name: "VSS в PPTM"
           link: "/conversion/java/vss-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VSS к PPTX"
+        - name: "VSS в PPTX"
           link: "/conversion/java/vss-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VSS к PSD"
+        - name: "VSS в PSD"
           link: "/conversion/java/vss-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VSS к RTF"
+        - name: "VSS в RTF"
           link: "/conversion/java/vss-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VSS к SVG"
+        - name: "VSS в SVG"
           link: "/conversion/java/vss-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSS к SVGZ"
+        - name: "VSS в SVGZ"
           link: "/conversion/java/vss-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSS к SXC"
+        - name: "VSS в SXC"
           link: "/conversion/java/vss-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VSS к TEX"
+        - name: "VSS в TEX"
           link: "/conversion/java/vss-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VSS к TIF"
+        - name: "VSS в TIF"
           link: "/conversion/java/vss-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSS к TSV"
+        - name: "VSS в TSV"
           link: "/conversion/java/vss-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VSS к TXT"
+        - name: "VSS в TXT"
           link: "/conversion/java/vss-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VSS к WEBP"
+        - name: "VSS в WEBP"
           link: "/conversion/java/vss-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VSS к WMF"
+        - name: "VSS в WMF"
           link: "/conversion/java/vss-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VSS к WMZ"
+        - name: "VSS в WMZ"
           link: "/conversion/java/vss-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VSS к XLAM"
+        - name: "VSS в XLAM"
           link: "/conversion/java/vss-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSS к XLS"
+        - name: "VSS в XLS"
           link: "/conversion/java/vss-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VSS к XLSB"
+        - name: "VSS в XLSB"
           link: "/conversion/java/vss-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VSS к XLSM"
+        - name: "VSS в XLSM"
           link: "/conversion/java/vss-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSS к XLSX"
+        - name: "VSS в XLSX"
           link: "/conversion/java/vss-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VSS к XLT"
+        - name: "VSS в XLT"
           link: "/conversion/java/vss-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSS к XLTM"
+        - name: "VSS в XLTM"
           link: "/conversion/java/vss-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSS к XLTX"
+        - name: "VSS в XLTX"
           link: "/conversion/java/vss-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSS к XPS"
+        - name: "VSS в XPS"
           link: "/conversion/java/vss-to-xps/"
           description: "Спецификация документа Open XML"
 

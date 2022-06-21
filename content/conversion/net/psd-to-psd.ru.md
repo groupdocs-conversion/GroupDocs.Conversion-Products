@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать PSD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PSD к EPUB"
+        - name: "PSD в EPUB"
           link: "https://products.groupdocs.com/conversion/net/psd-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PSD к XPS"
+        - name: "PSD в XPS"
           link: "https://products.groupdocs.com/conversion/net/psd-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "PSD к TEX"
+        - name: "PSD в TEX"
           link: "https://products.groupdocs.com/conversion/net/psd-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PSD к PPT"
+        - name: "PSD в PPT"
           link: "https://products.groupdocs.com/conversion/net/psd-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PSD к PPS"
+        - name: "PSD в PPS"
           link: "https://products.groupdocs.com/conversion/net/psd-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PSD к PPTX"
+        - name: "PSD в PPTX"
           link: "https://products.groupdocs.com/conversion/net/psd-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PSD к PPSX"
+        - name: "PSD в PPSX"
           link: "https://products.groupdocs.com/conversion/net/psd-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PSD к ODP"
+        - name: "PSD в ODP"
           link: "https://products.groupdocs.com/conversion/net/psd-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PSD к OTP"
+        - name: "PSD в OTP"
           link: "https://products.groupdocs.com/conversion/net/psd-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PSD к POTX"
+        - name: "PSD в POTX"
           link: "https://products.groupdocs.com/conversion/net/psd-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PSD к POTM"
+        - name: "PSD в POTM"
           link: "https://products.groupdocs.com/conversion/net/psd-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PSD к PPTM"
+        - name: "PSD в PPTM"
           link: "https://products.groupdocs.com/conversion/net/psd-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PSD к PPSM"
+        - name: "PSD в PPSM"
           link: "https://products.groupdocs.com/conversion/net/psd-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PSD к XLS"
+        - name: "PSD в XLS"
           link: "https://products.groupdocs.com/conversion/net/psd-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PSD к XLSX"
+        - name: "PSD в XLSX"
           link: "https://products.groupdocs.com/conversion/net/psd-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PSD к XLSM"
+        - name: "PSD в XLSM"
           link: "https://products.groupdocs.com/conversion/net/psd-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PSD к XLSB"
+        - name: "PSD в XLSB"
           link: "https://products.groupdocs.com/conversion/net/psd-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PSD к ODS"
+        - name: "PSD в ODS"
           link: "https://products.groupdocs.com/conversion/net/psd-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PSD к XLTX"
+        - name: "PSD в XLTX"
           link: "https://products.groupdocs.com/conversion/net/psd-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PSD к XLTM"
+        - name: "PSD в XLTM"
           link: "https://products.groupdocs.com/conversion/net/psd-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PSD к TSV"
+        - name: "PSD в TSV"
           link: "https://products.groupdocs.com/conversion/net/psd-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PSD к XLAM"
+        - name: "PSD в XLAM"
           link: "https://products.groupdocs.com/conversion/net/psd-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PSD к CSV"
+        - name: "PSD в CSV"
           link: "https://products.groupdocs.com/conversion/net/psd-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PSD к DOC"
+        - name: "PSD в DOC"
           link: "https://products.groupdocs.com/conversion/net/psd-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PSD к DOCM"
+        - name: "PSD в DOCM"
           link: "https://products.groupdocs.com/conversion/net/psd-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PSD к PSD"
+        - name: "PSD в PSD"
           link: "https://products.groupdocs.com/conversion/net/psd-to-psd/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PSD к DOT"
+        - name: "PSD в DOT"
           link: "https://products.groupdocs.com/conversion/net/psd-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PSD к DOTM"
+        - name: "PSD в DOTM"
           link: "https://products.groupdocs.com/conversion/net/psd-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PSD к DOTX"
+        - name: "PSD в DOTX"
           link: "https://products.groupdocs.com/conversion/net/psd-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PSD к RTF"
+        - name: "PSD в RTF"
           link: "https://products.groupdocs.com/conversion/net/psd-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PSD к ODT"
+        - name: "PSD в ODT"
           link: "https://products.groupdocs.com/conversion/net/psd-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PSD к OTT"
+        - name: "PSD в OTT"
           link: "https://products.groupdocs.com/conversion/net/psd-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PSD к TXT"
+        - name: "PSD в TXT"
           link: "https://products.groupdocs.com/conversion/net/psd-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PSD к MD"
+        - name: "PSD в MD"
           link: "https://products.groupdocs.com/conversion/net/psd-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PSD к TIFF"
+        - name: "PSD в TIFF"
           link: "https://products.groupdocs.com/conversion/net/psd-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PSD к TIF"
+        - name: "PSD в TIF"
           link: "https://products.groupdocs.com/conversion/net/psd-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PSD к JPG"
+        - name: "PSD в JPG"
           link: "https://products.groupdocs.com/conversion/net/psd-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PSD к JPEG"
+        - name: "PSD в JPEG"
           link: "https://products.groupdocs.com/conversion/net/psd-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PSD к PNG"
+        - name: "PSD в PNG"
           link: "https://products.groupdocs.com/conversion/net/psd-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PSD к GIF"
+        - name: "PSD в GIF"
           link: "https://products.groupdocs.com/conversion/net/psd-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PSD к BMP"
+        - name: "PSD в BMP"
           link: "https://products.groupdocs.com/conversion/net/psd-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PSD к ICO"
+        - name: "PSD в ICO"
           link: "https://products.groupdocs.com/conversion/net/psd-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PSD к PSD"
+        - name: "PSD в PSD"
           link: "https://products.groupdocs.com/conversion/net/psd-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PSD к WMF"
+        - name: "PSD в WMF"
           link: "https://products.groupdocs.com/conversion/net/psd-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PSD к EMF"
+        - name: "PSD в EMF"
           link: "https://products.groupdocs.com/conversion/net/psd-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PSD к WEBP"
+        - name: "PSD в WEBP"
           link: "https://products.groupdocs.com/conversion/net/psd-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PSD к SVG"
+        - name: "PSD в SVG"
           link: "https://products.groupdocs.com/conversion/net/psd-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PSD к JP2"
+        - name: "PSD в JP2"
           link: "https://products.groupdocs.com/conversion/net/psd-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PSD к EMZ"
+        - name: "PSD в EMZ"
           link: "https://products.groupdocs.com/conversion/net/psd-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PSD к WMZ"
+        - name: "PSD в WMZ"
           link: "https://products.groupdocs.com/conversion/net/psd-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PSD к HTML"
+        - name: "PSD в HTML"
           link: "https://products.groupdocs.com/conversion/net/psd-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PSD к MHT"
+        - name: "PSD в MHT"
           link: "https://products.groupdocs.com/conversion/net/psd-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PSD к MHTML"
+        - name: "PSD в MHTML"
           link: "https://products.groupdocs.com/conversion/net/psd-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

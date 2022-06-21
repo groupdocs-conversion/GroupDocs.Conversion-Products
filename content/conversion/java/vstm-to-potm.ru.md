@@ -128,322 +128,322 @@ more_formats:
         Вы также можете конвертировать VSTM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VSTM к BMP"
+        - name: "VSTM в BMP"
           link: "/conversion/java/vstm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VSTM к CSV"
+        - name: "VSTM в CSV"
           link: "/conversion/java/vstm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VSTM к DCM"
+        - name: "VSTM в DCM"
           link: "/conversion/java/vstm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VSTM к DIF"
+        - name: "VSTM в DIF"
           link: "/conversion/java/vstm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VSTM к DOC"
+        - name: "VSTM в DOC"
           link: "/conversion/java/vstm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VSTM к DOCM"
+        - name: "VSTM в DOCM"
           link: "/conversion/java/vstm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSTM к DOCX"
+        - name: "VSTM в DOCX"
           link: "/conversion/java/vstm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VSTM к DOT"
+        - name: "VSTM в DOT"
           link: "/conversion/java/vstm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VSTM к DOTM"
+        - name: "VSTM в DOTM"
           link: "/conversion/java/vstm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSTM к DOTX"
+        - name: "VSTM в DOTX"
           link: "/conversion/java/vstm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VSTM к EMF"
+        - name: "VSTM в EMF"
           link: "/conversion/java/vstm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VSTM к EMZ"
+        - name: "VSTM в EMZ"
           link: "/conversion/java/vstm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VSTM к EPUB"
+        - name: "VSTM в EPUB"
           link: "/conversion/java/vstm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VSTM к FODP"
+        - name: "VSTM в FODP"
           link: "/conversion/java/vstm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VSTM к FODS"
+        - name: "VSTM в FODS"
           link: "/conversion/java/vstm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VSTM к GIF"
+        - name: "VSTM в GIF"
           link: "/conversion/java/vstm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VSTM к HTM"
+        - name: "VSTM в HTM"
           link: "/conversion/java/vstm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VSTM к HTML"
+        - name: "VSTM в HTML"
           link: "/conversion/java/vstm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VSTM к ICO"
+        - name: "VSTM в ICO"
           link: "/conversion/java/vstm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VSTM к JP2"
+        - name: "VSTM в JP2"
           link: "/conversion/java/vstm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VSTM к JPEG"
+        - name: "VSTM в JPEG"
           link: "/conversion/java/vstm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VSTM к JPF"
+        - name: "VSTM в JPF"
           link: "/conversion/java/vstm-to-jpf/"
           description: "Файл изображения JPEG 2000"
 
         # format loop
-        - name: "VSTM к JPG"
+        - name: "VSTM в JPG"
           link: "/conversion/java/vstm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VSTM к MD"
+        - name: "VSTM в MD"
           link: "/conversion/java/vstm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VSTM к MHT"
+        - name: "VSTM в MHT"
           link: "/conversion/java/vstm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSTM к MHTML"
+        - name: "VSTM в MHTML"
           link: "/conversion/java/vstm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSTM к ODP"
+        - name: "VSTM в ODP"
           link: "/conversion/java/vstm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VSTM к ODS"
+        - name: "VSTM в ODS"
           link: "/conversion/java/vstm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VSTM к ODT"
+        - name: "VSTM в ODT"
           link: "/conversion/java/vstm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VSTM к OTP"
+        - name: "VSTM в OTP"
           link: "/conversion/java/vstm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VSTM к OTT"
+        - name: "VSTM в OTT"
           link: "/conversion/java/vstm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VSTM к PDF"
+        - name: "VSTM в PDF"
           link: "/conversion/java/vstm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VSTM к PNG"
+        - name: "VSTM в PNG"
           link: "/conversion/java/vstm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VSTM к POT"
+        - name: "VSTM в POT"
           link: "/conversion/java/vstm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VSTM к POTX"
+        - name: "VSTM в POTX"
           link: "/conversion/java/vstm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSTM к PPS"
+        - name: "VSTM в PPS"
           link: "/conversion/java/vstm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSTM к PPSM"
+        - name: "VSTM в PPSM"
           link: "/conversion/java/vstm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSTM к PPSX"
+        - name: "VSTM в PPSX"
           link: "/conversion/java/vstm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VSTM к PPT"
+        - name: "VSTM в PPT"
           link: "/conversion/java/vstm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VSTM к PPTM"
+        - name: "VSTM в PPTM"
           link: "/conversion/java/vstm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VSTM к PPTX"
+        - name: "VSTM в PPTX"
           link: "/conversion/java/vstm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VSTM к PSD"
+        - name: "VSTM в PSD"
           link: "/conversion/java/vstm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VSTM к RTF"
+        - name: "VSTM в RTF"
           link: "/conversion/java/vstm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VSTM к SVG"
+        - name: "VSTM в SVG"
           link: "/conversion/java/vstm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSTM к SVGZ"
+        - name: "VSTM в SVGZ"
           link: "/conversion/java/vstm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSTM к SXC"
+        - name: "VSTM в SXC"
           link: "/conversion/java/vstm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VSTM к TEX"
+        - name: "VSTM в TEX"
           link: "/conversion/java/vstm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VSTM к TIF"
+        - name: "VSTM в TIF"
           link: "/conversion/java/vstm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSTM к TIFF"
+        - name: "VSTM в TIFF"
           link: "/conversion/java/vstm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSTM к TSV"
+        - name: "VSTM в TSV"
           link: "/conversion/java/vstm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VSTM к TXT"
+        - name: "VSTM в TXT"
           link: "/conversion/java/vstm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VSTM к WEBP"
+        - name: "VSTM в WEBP"
           link: "/conversion/java/vstm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VSTM к WMF"
+        - name: "VSTM в WMF"
           link: "/conversion/java/vstm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VSTM к WMZ"
+        - name: "VSTM в WMZ"
           link: "/conversion/java/vstm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VSTM к XLAM"
+        - name: "VSTM в XLAM"
           link: "/conversion/java/vstm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSTM к XLS"
+        - name: "VSTM в XLS"
           link: "/conversion/java/vstm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VSTM к XLS2003"
+        - name: "VSTM в XLS2003"
           link: "/conversion/java/vstm-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "VSTM к XLSB"
+        - name: "VSTM в XLSB"
           link: "/conversion/java/vstm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VSTM к XLSM"
+        - name: "VSTM в XLSM"
           link: "/conversion/java/vstm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSTM к XLSX"
+        - name: "VSTM в XLSX"
           link: "/conversion/java/vstm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VSTM к XLT"
+        - name: "VSTM в XLT"
           link: "/conversion/java/vstm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSTM к XLTM"
+        - name: "VSTM в XLTM"
           link: "/conversion/java/vstm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSTM к XLTX"
+        - name: "VSTM в XLTX"
           link: "/conversion/java/vstm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSTM к XPS"
+        - name: "VSTM в XPS"
           link: "/conversion/java/vstm-to-xps/"
           description: "Спецификация документа Open XML"
 

@@ -127,287 +127,287 @@ more_formats:
         Вы также можете конвертировать EXCEL во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EXCEL к BMP"
+        - name: "EXCEL в BMP"
           link: "/conversion/net/excel-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EXCEL к CSV"
+        - name: "EXCEL в CSV"
           link: "/conversion/net/excel-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EXCEL к DIF"
+        - name: "EXCEL в DIF"
           link: "/conversion/net/excel-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "EXCEL к DOC"
+        - name: "EXCEL в DOC"
           link: "/conversion/net/excel-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EXCEL к DOCM"
+        - name: "EXCEL в DOCM"
           link: "/conversion/net/excel-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EXCEL к DOCX"
+        - name: "EXCEL в DOCX"
           link: "/conversion/net/excel-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EXCEL к DOT"
+        - name: "EXCEL в DOT"
           link: "/conversion/net/excel-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EXCEL к DOTM"
+        - name: "EXCEL в DOTM"
           link: "/conversion/net/excel-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EXCEL к DOTX"
+        - name: "EXCEL в DOTX"
           link: "/conversion/net/excel-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EXCEL к EMF"
+        - name: "EXCEL в EMF"
           link: "/conversion/net/excel-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EXCEL к EMZ"
+        - name: "EXCEL в EMZ"
           link: "/conversion/net/excel-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EXCEL к FODP"
+        - name: "EXCEL в FODP"
           link: "/conversion/net/excel-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "EXCEL к FODS"
+        - name: "EXCEL в FODS"
           link: "/conversion/net/excel-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "EXCEL к GIF"
+        - name: "EXCEL в GIF"
           link: "/conversion/net/excel-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EXCEL к HTML"
+        - name: "EXCEL в HTML"
           link: "/conversion/net/excel-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EXCEL к ICO"
+        - name: "EXCEL в ICO"
           link: "/conversion/net/excel-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EXCEL к JP2"
+        - name: "EXCEL в JP2"
           link: "/conversion/net/excel-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EXCEL к JPEG"
+        - name: "EXCEL в JPEG"
           link: "/conversion/net/excel-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EXCEL к JPG"
+        - name: "EXCEL в JPG"
           link: "/conversion/net/excel-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EXCEL к MD"
+        - name: "EXCEL в MD"
           link: "/conversion/net/excel-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EXCEL к MHT"
+        - name: "EXCEL в MHT"
           link: "/conversion/net/excel-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EXCEL к MHTML"
+        - name: "EXCEL в MHTML"
           link: "/conversion/net/excel-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EXCEL к ODP"
+        - name: "EXCEL в ODP"
           link: "/conversion/net/excel-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EXCEL к ODS"
+        - name: "EXCEL в ODS"
           link: "/conversion/net/excel-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EXCEL к ODT"
+        - name: "EXCEL в ODT"
           link: "/conversion/net/excel-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EXCEL к OTP"
+        - name: "EXCEL в OTP"
           link: "/conversion/net/excel-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EXCEL к OTT"
+        - name: "EXCEL в OTT"
           link: "/conversion/net/excel-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EXCEL к PDF"
+        - name: "EXCEL в PDF"
           link: "/conversion/net/excel-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EXCEL к PNG"
+        - name: "EXCEL в PNG"
           link: "/conversion/net/excel-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EXCEL к POTM"
+        - name: "EXCEL в POTM"
           link: "/conversion/net/excel-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EXCEL к POTX"
+        - name: "EXCEL в POTX"
           link: "/conversion/net/excel-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EXCEL к PPS"
+        - name: "EXCEL в PPS"
           link: "/conversion/net/excel-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EXCEL к PPSM"
+        - name: "EXCEL в PPSM"
           link: "/conversion/net/excel-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EXCEL к PPT"
+        - name: "EXCEL в PPT"
           link: "/conversion/net/excel-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EXCEL к PPTM"
+        - name: "EXCEL в PPTM"
           link: "/conversion/net/excel-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EXCEL к PPTX"
+        - name: "EXCEL в PPTX"
           link: "/conversion/net/excel-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EXCEL к PSD"
+        - name: "EXCEL в PSD"
           link: "/conversion/net/excel-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EXCEL к RTF"
+        - name: "EXCEL в RTF"
           link: "/conversion/net/excel-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EXCEL к SVG"
+        - name: "EXCEL в SVG"
           link: "/conversion/net/excel-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EXCEL к SVGZ"
+        - name: "EXCEL в SVGZ"
           link: "/conversion/net/excel-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EXCEL к SXC"
+        - name: "EXCEL в SXC"
           link: "/conversion/net/excel-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "EXCEL к TEX"
+        - name: "EXCEL в TEX"
           link: "/conversion/net/excel-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EXCEL к TIF"
+        - name: "EXCEL в TIF"
           link: "/conversion/net/excel-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EXCEL к TIFF"
+        - name: "EXCEL в TIFF"
           link: "/conversion/net/excel-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EXCEL к TSV"
+        - name: "EXCEL в TSV"
           link: "/conversion/net/excel-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EXCEL к TXT"
+        - name: "EXCEL в TXT"
           link: "/conversion/net/excel-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EXCEL к WEBP"
+        - name: "EXCEL в WEBP"
           link: "/conversion/net/excel-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EXCEL к WMF"
+        - name: "EXCEL в WMF"
           link: "/conversion/net/excel-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EXCEL к WMZ"
+        - name: "EXCEL в WMZ"
           link: "/conversion/net/excel-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EXCEL к XLAM"
+        - name: "EXCEL в XLAM"
           link: "/conversion/net/excel-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EXCEL к XLS"
+        - name: "EXCEL в XLS"
           link: "/conversion/net/excel-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EXCEL к XLSB"
+        - name: "EXCEL в XLSB"
           link: "/conversion/net/excel-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EXCEL к XLSM"
+        - name: "EXCEL в XLSM"
           link: "/conversion/net/excel-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EXCEL к XLSX"
+        - name: "EXCEL в XLSX"
           link: "/conversion/net/excel-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EXCEL к XLTM"
+        - name: "EXCEL в XLTM"
           link: "/conversion/net/excel-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EXCEL к XLTX"
+        - name: "EXCEL в XLTX"
           link: "/conversion/net/excel-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EXCEL к XPS"
+        - name: "EXCEL в XPS"
           link: "/conversion/net/excel-to-xps/"
           description: "Спецификация документа Open XML"
 

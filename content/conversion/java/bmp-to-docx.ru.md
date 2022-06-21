@@ -128,302 +128,302 @@ more_formats:
         Вы также можете конвертировать BMP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "BMP к CGM"
+        - name: "BMP в CGM"
           link: "/conversion/java/bmp-to-cgm/"
           description: "Метафайл компьютерной графики"
 
         # format loop
-        - name: "BMP к DCM"
+        - name: "BMP в DCM"
           link: "/conversion/java/bmp-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "BMP к DIF"
+        - name: "BMP в DIF"
           link: "/conversion/java/bmp-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "BMP к DOC"
+        - name: "BMP в DOC"
           link: "/conversion/java/bmp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "BMP к DOCM"
+        - name: "BMP в DOCM"
           link: "/conversion/java/bmp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "BMP к DOT"
+        - name: "BMP в DOT"
           link: "/conversion/java/bmp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "BMP к DOTM"
+        - name: "BMP в DOTM"
           link: "/conversion/java/bmp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "BMP к DOTX"
+        - name: "BMP в DOTX"
           link: "/conversion/java/bmp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "BMP к EMF"
+        - name: "BMP в EMF"
           link: "/conversion/java/bmp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "BMP к EMZ"
+        - name: "BMP в EMZ"
           link: "/conversion/java/bmp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "BMP к EPUB"
+        - name: "BMP в EPUB"
           link: "/conversion/java/bmp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "BMP к FODP"
+        - name: "BMP в FODP"
           link: "/conversion/java/bmp-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "BMP к FODS"
+        - name: "BMP в FODS"
           link: "/conversion/java/bmp-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "BMP к GIF"
+        - name: "BMP в GIF"
           link: "/conversion/java/bmp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "BMP к HTM"
+        - name: "BMP в HTM"
           link: "/conversion/java/bmp-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "BMP к HTML"
+        - name: "BMP в HTML"
           link: "/conversion/java/bmp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "BMP к ICO"
+        - name: "BMP в ICO"
           link: "/conversion/java/bmp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "BMP к JP2"
+        - name: "BMP в JP2"
           link: "/conversion/java/bmp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "BMP к JPEG"
+        - name: "BMP в JPEG"
           link: "/conversion/java/bmp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "BMP к JPG"
+        - name: "BMP в JPG"
           link: "/conversion/java/bmp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "BMP к MD"
+        - name: "BMP в MD"
           link: "/conversion/java/bmp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "BMP к MHT"
+        - name: "BMP в MHT"
           link: "/conversion/java/bmp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "BMP к MHTML"
+        - name: "BMP в MHTML"
           link: "/conversion/java/bmp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "BMP к ODP"
+        - name: "BMP в ODP"
           link: "/conversion/java/bmp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "BMP к ODS"
+        - name: "BMP в ODS"
           link: "/conversion/java/bmp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "BMP к ODT"
+        - name: "BMP в ODT"
           link: "/conversion/java/bmp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "BMP к OTP"
+        - name: "BMP в OTP"
           link: "/conversion/java/bmp-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "BMP к OTT"
+        - name: "BMP в OTT"
           link: "/conversion/java/bmp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "BMP к PDF"
+        - name: "BMP в PDF"
           link: "/conversion/java/bmp-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "BMP к PNG"
+        - name: "BMP в PNG"
           link: "/conversion/java/bmp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "BMP к POT"
+        - name: "BMP в POT"
           link: "/conversion/java/bmp-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "BMP к POTM"
+        - name: "BMP в POTM"
           link: "/conversion/java/bmp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "BMP к POTX"
+        - name: "BMP в POTX"
           link: "/conversion/java/bmp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "BMP к PPS"
+        - name: "BMP в PPS"
           link: "/conversion/java/bmp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "BMP к PPSM"
+        - name: "BMP в PPSM"
           link: "/conversion/java/bmp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "BMP к PPSX"
+        - name: "BMP в PPSX"
           link: "/conversion/java/bmp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "BMP к PPT"
+        - name: "BMP в PPT"
           link: "/conversion/java/bmp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "BMP к PPTM"
+        - name: "BMP в PPTM"
           link: "/conversion/java/bmp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "BMP к PPTX"
+        - name: "BMP в PPTX"
           link: "/conversion/java/bmp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "BMP к PSD"
+        - name: "BMP в PSD"
           link: "/conversion/java/bmp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "BMP к RTF"
+        - name: "BMP в RTF"
           link: "/conversion/java/bmp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "BMP к SVG"
+        - name: "BMP в SVG"
           link: "/conversion/java/bmp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "BMP к SVGZ"
+        - name: "BMP в SVGZ"
           link: "/conversion/java/bmp-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "BMP к SXC"
+        - name: "BMP в SXC"
           link: "/conversion/java/bmp-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "BMP к TEX"
+        - name: "BMP в TEX"
           link: "/conversion/java/bmp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "BMP к TIF"
+        - name: "BMP в TIF"
           link: "/conversion/java/bmp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "BMP к TIFF"
+        - name: "BMP в TIFF"
           link: "/conversion/java/bmp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "BMP к TXT"
+        - name: "BMP в TXT"
           link: "/conversion/java/bmp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "BMP к WEBP"
+        - name: "BMP в WEBP"
           link: "/conversion/java/bmp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "BMP к WMF"
+        - name: "BMP в WMF"
           link: "/conversion/java/bmp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "BMP к WMZ"
+        - name: "BMP в WMZ"
           link: "/conversion/java/bmp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "BMP к XLAM"
+        - name: "BMP в XLAM"
           link: "/conversion/java/bmp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "BMP к XLS"
+        - name: "BMP в XLS"
           link: "/conversion/java/bmp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "BMP к XLSB"
+        - name: "BMP в XLSB"
           link: "/conversion/java/bmp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "BMP к XLSM"
+        - name: "BMP в XLSM"
           link: "/conversion/java/bmp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "BMP к XLSX"
+        - name: "BMP в XLSX"
           link: "/conversion/java/bmp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "BMP к XLT"
+        - name: "BMP в XLT"
           link: "/conversion/java/bmp-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "BMP к XLTM"
+        - name: "BMP в XLTM"
           link: "/conversion/java/bmp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "BMP к XLTX"
+        - name: "BMP в XLTX"
           link: "/conversion/java/bmp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "BMP к XPS"
+        - name: "BMP в XPS"
           link: "/conversion/java/bmp-to-xps/"
           description: "Спецификация документа Open XML"
 

@@ -128,317 +128,317 @@ more_formats:
         Вы также можете конвертировать OTS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OTS к BMP"
+        - name: "OTS в BMP"
           link: "/conversion/java/ots-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "OTS к CSV"
+        - name: "OTS в CSV"
           link: "/conversion/java/ots-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "OTS к DCM"
+        - name: "OTS в DCM"
           link: "/conversion/java/ots-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "OTS к DIF"
+        - name: "OTS в DIF"
           link: "/conversion/java/ots-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "OTS к DOC"
+        - name: "OTS в DOC"
           link: "/conversion/java/ots-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OTS к DOCM"
+        - name: "OTS в DOCM"
           link: "/conversion/java/ots-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTS к DOCX"
+        - name: "OTS в DOCX"
           link: "/conversion/java/ots-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "OTS к DOT"
+        - name: "OTS в DOT"
           link: "/conversion/java/ots-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "OTS к DOTM"
+        - name: "OTS в DOTM"
           link: "/conversion/java/ots-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTS к DOTX"
+        - name: "OTS в DOTX"
           link: "/conversion/java/ots-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "OTS к EMZ"
+        - name: "OTS в EMZ"
           link: "/conversion/java/ots-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OTS к EPUB"
+        - name: "OTS в EPUB"
           link: "/conversion/java/ots-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OTS к FODP"
+        - name: "OTS в FODP"
           link: "/conversion/java/ots-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "OTS к FODS"
+        - name: "OTS в FODS"
           link: "/conversion/java/ots-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "OTS к GIF"
+        - name: "OTS в GIF"
           link: "/conversion/java/ots-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "OTS к HTM"
+        - name: "OTS в HTM"
           link: "/conversion/java/ots-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "OTS к HTML"
+        - name: "OTS в HTML"
           link: "/conversion/java/ots-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OTS к ICO"
+        - name: "OTS в ICO"
           link: "/conversion/java/ots-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "OTS к JP2"
+        - name: "OTS в JP2"
           link: "/conversion/java/ots-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "OTS к JPEG"
+        - name: "OTS в JPEG"
           link: "/conversion/java/ots-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "OTS к JPG"
+        - name: "OTS в JPG"
           link: "/conversion/java/ots-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "OTS к MD"
+        - name: "OTS в MD"
           link: "/conversion/java/ots-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OTS к MHT"
+        - name: "OTS в MHT"
           link: "/conversion/java/ots-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTS к MHTML"
+        - name: "OTS в MHTML"
           link: "/conversion/java/ots-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTS к MOBI"
+        - name: "OTS в MOBI"
           link: "/conversion/java/ots-to-mobi/"
           description: "Электронная книга Mobipocket"
 
         # format loop
-        - name: "OTS к ODP"
+        - name: "OTS в ODP"
           link: "/conversion/java/ots-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "OTS к ODS"
+        - name: "OTS в ODS"
           link: "/conversion/java/ots-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OTS к ODT"
+        - name: "OTS в ODT"
           link: "/conversion/java/ots-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "OTS к OTP"
+        - name: "OTS в OTP"
           link: "/conversion/java/ots-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "OTS к OTT"
+        - name: "OTS в OTT"
           link: "/conversion/java/ots-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "OTS к PDF"
+        - name: "OTS в PDF"
           link: "/conversion/java/ots-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "OTS к PNG"
+        - name: "OTS в PNG"
           link: "/conversion/java/ots-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "OTS к POT"
+        - name: "OTS в POT"
           link: "/conversion/java/ots-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "OTS к POTM"
+        - name: "OTS в POTM"
           link: "/conversion/java/ots-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTS к POTX"
+        - name: "OTS в POTX"
           link: "/conversion/java/ots-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTS к PPS"
+        - name: "OTS в PPS"
           link: "/conversion/java/ots-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTS к PPSM"
+        - name: "OTS в PPSM"
           link: "/conversion/java/ots-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTS к PPSX"
+        - name: "OTS в PPSX"
           link: "/conversion/java/ots-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "OTS к PPT"
+        - name: "OTS в PPT"
           link: "/conversion/java/ots-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OTS к PPTM"
+        - name: "OTS в PPTM"
           link: "/conversion/java/ots-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OTS к PPTX"
+        - name: "OTS в PPTX"
           link: "/conversion/java/ots-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "OTS к PSD"
+        - name: "OTS в PSD"
           link: "/conversion/java/ots-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OTS к RTF"
+        - name: "OTS в RTF"
           link: "/conversion/java/ots-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "OTS к SVG"
+        - name: "OTS в SVG"
           link: "/conversion/java/ots-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTS к SVGZ"
+        - name: "OTS в SVGZ"
           link: "/conversion/java/ots-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTS к SXC"
+        - name: "OTS в SXC"
           link: "/conversion/java/ots-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "OTS к TEX"
+        - name: "OTS в TEX"
           link: "/conversion/java/ots-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OTS к TIF"
+        - name: "OTS в TIF"
           link: "/conversion/java/ots-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTS к TIFF"
+        - name: "OTS в TIFF"
           link: "/conversion/java/ots-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTS к TSV"
+        - name: "OTS в TSV"
           link: "/conversion/java/ots-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OTS к TXT"
+        - name: "OTS в TXT"
           link: "/conversion/java/ots-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OTS к WEBP"
+        - name: "OTS в WEBP"
           link: "/conversion/java/ots-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OTS к WMF"
+        - name: "OTS в WMF"
           link: "/conversion/java/ots-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "OTS к WMZ"
+        - name: "OTS в WMZ"
           link: "/conversion/java/ots-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OTS к XLAM"
+        - name: "OTS в XLAM"
           link: "/conversion/java/ots-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTS к XLS"
+        - name: "OTS в XLS"
           link: "/conversion/java/ots-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "OTS к XLSB"
+        - name: "OTS в XLSB"
           link: "/conversion/java/ots-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OTS к XLSM"
+        - name: "OTS в XLSM"
           link: "/conversion/java/ots-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTS к XLSX"
+        - name: "OTS в XLSX"
           link: "/conversion/java/ots-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OTS к XLT"
+        - name: "OTS в XLT"
           link: "/conversion/java/ots-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTS к XLTM"
+        - name: "OTS в XLTM"
           link: "/conversion/java/ots-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTS к XLTX"
+        - name: "OTS в XLTX"
           link: "/conversion/java/ots-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTS к XPS"
+        - name: "OTS в XPS"
           link: "/conversion/java/ots-to-xps/"
           description: "Спецификация документа Open XML"
 

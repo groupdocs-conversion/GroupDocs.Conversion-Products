@@ -128,52 +128,52 @@ more_formats:
         Вы также можете конвертировать EBOOK во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EBOOK к DOCM"
+        - name: "EBOOK в DOCM"
           link: "/conversion/java/ebook-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EBOOK к EPUB"
+        - name: "EBOOK в EPUB"
           link: "/conversion/java/ebook-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EBOOK к ODS"
+        - name: "EBOOK в ODS"
           link: "/conversion/java/ebook-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EBOOK к PDF"
+        - name: "EBOOK в PDF"
           link: "/conversion/java/ebook-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EBOOK к POTM"
+        - name: "EBOOK в POTM"
           link: "/conversion/java/ebook-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK к POTX"
+        - name: "EBOOK в POTX"
           link: "/conversion/java/ebook-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EBOOK к PPT"
+        - name: "EBOOK в PPT"
           link: "/conversion/java/ebook-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EBOOK к SVG"
+        - name: "EBOOK в SVG"
           link: "/conversion/java/ebook-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EBOOK к WEBP"
+        - name: "EBOOK в WEBP"
           link: "/conversion/java/ebook-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EBOOK к XLSX"
+        - name: "EBOOK в XLSX"
           link: "/conversion/java/ebook-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 

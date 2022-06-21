@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать DOT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DOT к BMP"
+        - name: "DOT в BMP"
           link: "/conversion/net/dot-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DOT к CSV"
+        - name: "DOT в CSV"
           link: "/conversion/net/dot-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DOT к DCM"
+        - name: "DOT в DCM"
           link: "/conversion/net/dot-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DOT к DIF"
+        - name: "DOT в DIF"
           link: "/conversion/net/dot-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DOT к DOC"
+        - name: "DOT в DOC"
           link: "/conversion/net/dot-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DOT к DOCM"
+        - name: "DOT в DOCM"
           link: "/conversion/net/dot-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOT к DOCX"
+        - name: "DOT в DOCX"
           link: "/conversion/net/dot-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DOT к DOTM"
+        - name: "DOT в DOTM"
           link: "/conversion/net/dot-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOT к DOTX"
+        - name: "DOT в DOTX"
           link: "/conversion/net/dot-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DOT к EMF"
+        - name: "DOT в EMF"
           link: "/conversion/net/dot-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DOT к EMZ"
+        - name: "DOT в EMZ"
           link: "/conversion/net/dot-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DOT к EPUB"
+        - name: "DOT в EPUB"
           link: "/conversion/net/dot-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DOT к FODP"
+        - name: "DOT в FODP"
           link: "/conversion/net/dot-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DOT к FODS"
+        - name: "DOT в FODS"
           link: "/conversion/net/dot-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DOT к GIF"
+        - name: "DOT в GIF"
           link: "/conversion/net/dot-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DOT к HTM"
+        - name: "DOT в HTM"
           link: "/conversion/net/dot-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DOT к HTML"
+        - name: "DOT в HTML"
           link: "/conversion/net/dot-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DOT к ICO"
+        - name: "DOT в ICO"
           link: "/conversion/net/dot-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DOT к JP2"
+        - name: "DOT в JP2"
           link: "/conversion/net/dot-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DOT к JPEG"
+        - name: "DOT в JPEG"
           link: "/conversion/net/dot-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DOT к JPG"
+        - name: "DOT в JPG"
           link: "/conversion/net/dot-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DOT к MD"
+        - name: "DOT в MD"
           link: "/conversion/net/dot-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DOT к MHT"
+        - name: "DOT в MHT"
           link: "/conversion/net/dot-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOT к MHTML"
+        - name: "DOT в MHTML"
           link: "/conversion/net/dot-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOT к ODP"
+        - name: "DOT в ODP"
           link: "/conversion/net/dot-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DOT к ODS"
+        - name: "DOT в ODS"
           link: "/conversion/net/dot-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DOT к ODT"
+        - name: "DOT в ODT"
           link: "/conversion/net/dot-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DOT к OTP"
+        - name: "DOT в OTP"
           link: "/conversion/net/dot-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DOT к OTT"
+        - name: "DOT в OTT"
           link: "/conversion/net/dot-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DOT к PDF"
+        - name: "DOT в PDF"
           link: "/conversion/net/dot-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DOT к PNG"
+        - name: "DOT в PNG"
           link: "/conversion/net/dot-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DOT к POT"
+        - name: "DOT в POT"
           link: "/conversion/net/dot-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DOT к POTM"
+        - name: "DOT в POTM"
           link: "/conversion/net/dot-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOT к POTX"
+        - name: "DOT в POTX"
           link: "/conversion/net/dot-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOT к PPS"
+        - name: "DOT в PPS"
           link: "/conversion/net/dot-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOT к PPSM"
+        - name: "DOT в PPSM"
           link: "/conversion/net/dot-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOT к PPSX"
+        - name: "DOT в PPSX"
           link: "/conversion/net/dot-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DOT к PPT"
+        - name: "DOT в PPT"
           link: "/conversion/net/dot-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DOT к PPTM"
+        - name: "DOT в PPTM"
           link: "/conversion/net/dot-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DOT к PPTX"
+        - name: "DOT в PPTX"
           link: "/conversion/net/dot-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DOT к PSD"
+        - name: "DOT в PSD"
           link: "/conversion/net/dot-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DOT к RTF"
+        - name: "DOT в RTF"
           link: "/conversion/net/dot-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DOT к SVG"
+        - name: "DOT в SVG"
           link: "/conversion/net/dot-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOT к SVGZ"
+        - name: "DOT в SVGZ"
           link: "/conversion/net/dot-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOT к SXC"
+        - name: "DOT в SXC"
           link: "/conversion/net/dot-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DOT к TIF"
+        - name: "DOT в TIF"
           link: "/conversion/net/dot-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOT к TIFF"
+        - name: "DOT в TIFF"
           link: "/conversion/net/dot-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOT к TSV"
+        - name: "DOT в TSV"
           link: "/conversion/net/dot-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DOT к TXT"
+        - name: "DOT в TXT"
           link: "/conversion/net/dot-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DOT к WEBP"
+        - name: "DOT в WEBP"
           link: "/conversion/net/dot-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DOT к WMF"
+        - name: "DOT в WMF"
           link: "/conversion/net/dot-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DOT к WMZ"
+        - name: "DOT в WMZ"
           link: "/conversion/net/dot-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DOT к XLAM"
+        - name: "DOT в XLAM"
           link: "/conversion/net/dot-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOT к XLS"
+        - name: "DOT в XLS"
           link: "/conversion/net/dot-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DOT к XLS2003"
+        - name: "DOT в XLS2003"
           link: "/conversion/net/dot-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "DOT к XLSB"
+        - name: "DOT в XLSB"
           link: "/conversion/net/dot-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DOT к XLSM"
+        - name: "DOT в XLSM"
           link: "/conversion/net/dot-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOT к XLSX"
+        - name: "DOT в XLSX"
           link: "/conversion/net/dot-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DOT к XLT"
+        - name: "DOT в XLT"
           link: "/conversion/net/dot-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOT к XLTM"
+        - name: "DOT в XLTM"
           link: "/conversion/net/dot-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOT к XLTX"
+        - name: "DOT в XLTX"
           link: "/conversion/net/dot-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOT к XPS"
+        - name: "DOT в XPS"
           link: "/conversion/net/dot-to-xps/"
           description: "Спецификация документа Open XML"
 

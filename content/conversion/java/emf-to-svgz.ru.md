@@ -128,317 +128,317 @@ more_formats:
         Вы также можете конвертировать EMF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EMF к BMP"
+        - name: "EMF в BMP"
           link: "/conversion/java/emf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EMF к CSV"
+        - name: "EMF в CSV"
           link: "/conversion/java/emf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EMF к DCM"
+        - name: "EMF в DCM"
           link: "/conversion/java/emf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "EMF к DIF"
+        - name: "EMF в DIF"
           link: "/conversion/java/emf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "EMF к DOC"
+        - name: "EMF в DOC"
           link: "/conversion/java/emf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EMF к DOCM"
+        - name: "EMF в DOCM"
           link: "/conversion/java/emf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EMF к DOCX"
+        - name: "EMF в DOCX"
           link: "/conversion/java/emf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EMF к DOT"
+        - name: "EMF в DOT"
           link: "/conversion/java/emf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EMF к DOTM"
+        - name: "EMF в DOTM"
           link: "/conversion/java/emf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EMF к DOTX"
+        - name: "EMF в DOTX"
           link: "/conversion/java/emf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EMF к EML"
+        - name: "EMF в EML"
           link: "/conversion/java/emf-to-eml/"
           description: "Файл сообщения электронной почты"
 
         # format loop
-        - name: "EMF к EMLX"
+        - name: "EMF в EMLX"
           link: "/conversion/java/emf-to-emlx/"
           description: "Почтовое сообщение Apple"
 
         # format loop
-        - name: "EMF к EMZ"
+        - name: "EMF в EMZ"
           link: "/conversion/java/emf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EMF к EPUB"
+        - name: "EMF в EPUB"
           link: "/conversion/java/emf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EMF к FODP"
+        - name: "EMF в FODP"
           link: "/conversion/java/emf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "EMF к FODS"
+        - name: "EMF в FODS"
           link: "/conversion/java/emf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "EMF к GIF"
+        - name: "EMF в GIF"
           link: "/conversion/java/emf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EMF к HTM"
+        - name: "EMF в HTM"
           link: "/conversion/java/emf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "EMF к HTML"
+        - name: "EMF в HTML"
           link: "/conversion/java/emf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EMF к ICO"
+        - name: "EMF в ICO"
           link: "/conversion/java/emf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EMF к JP2"
+        - name: "EMF в JP2"
           link: "/conversion/java/emf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EMF к JPEG"
+        - name: "EMF в JPEG"
           link: "/conversion/java/emf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EMF к JPG"
+        - name: "EMF в JPG"
           link: "/conversion/java/emf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EMF к MD"
+        - name: "EMF в MD"
           link: "/conversion/java/emf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EMF к MHT"
+        - name: "EMF в MHT"
           link: "/conversion/java/emf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EMF к MHTML"
+        - name: "EMF в MHTML"
           link: "/conversion/java/emf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EMF к ODP"
+        - name: "EMF в ODP"
           link: "/conversion/java/emf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EMF к ODS"
+        - name: "EMF в ODS"
           link: "/conversion/java/emf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EMF к ODT"
+        - name: "EMF в ODT"
           link: "/conversion/java/emf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EMF к OTP"
+        - name: "EMF в OTP"
           link: "/conversion/java/emf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EMF к OTT"
+        - name: "EMF в OTT"
           link: "/conversion/java/emf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EMF к PDF"
+        - name: "EMF в PDF"
           link: "/conversion/java/emf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EMF к PNG"
+        - name: "EMF в PNG"
           link: "/conversion/java/emf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EMF к POT"
+        - name: "EMF в POT"
           link: "/conversion/java/emf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "EMF к POTM"
+        - name: "EMF в POTM"
           link: "/conversion/java/emf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EMF к POTX"
+        - name: "EMF в POTX"
           link: "/conversion/java/emf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EMF к PPS"
+        - name: "EMF в PPS"
           link: "/conversion/java/emf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EMF к PPSM"
+        - name: "EMF в PPSM"
           link: "/conversion/java/emf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EMF к PPSX"
+        - name: "EMF в PPSX"
           link: "/conversion/java/emf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EMF к PPT"
+        - name: "EMF в PPT"
           link: "/conversion/java/emf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EMF к PPTM"
+        - name: "EMF в PPTM"
           link: "/conversion/java/emf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EMF к PPTX"
+        - name: "EMF в PPTX"
           link: "/conversion/java/emf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EMF к PSD"
+        - name: "EMF в PSD"
           link: "/conversion/java/emf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EMF к RTF"
+        - name: "EMF в RTF"
           link: "/conversion/java/emf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EMF к SVG"
+        - name: "EMF в SVG"
           link: "/conversion/java/emf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EMF к SXC"
+        - name: "EMF в SXC"
           link: "/conversion/java/emf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "EMF к TEX"
+        - name: "EMF в TEX"
           link: "/conversion/java/emf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EMF к TIF"
+        - name: "EMF в TIF"
           link: "/conversion/java/emf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EMF к TIFF"
+        - name: "EMF в TIFF"
           link: "/conversion/java/emf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EMF к TSV"
+        - name: "EMF в TSV"
           link: "/conversion/java/emf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EMF к TXT"
+        - name: "EMF в TXT"
           link: "/conversion/java/emf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EMF к WEBP"
+        - name: "EMF в WEBP"
           link: "/conversion/java/emf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EMF к WMF"
+        - name: "EMF в WMF"
           link: "/conversion/java/emf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EMF к WMZ"
+        - name: "EMF в WMZ"
           link: "/conversion/java/emf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EMF к XLAM"
+        - name: "EMF в XLAM"
           link: "/conversion/java/emf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMF к XLS"
+        - name: "EMF в XLS"
           link: "/conversion/java/emf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EMF к XLSB"
+        - name: "EMF в XLSB"
           link: "/conversion/java/emf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EMF к XLSM"
+        - name: "EMF в XLSM"
           link: "/conversion/java/emf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMF к XLSX"
+        - name: "EMF в XLSX"
           link: "/conversion/java/emf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EMF к XLT"
+        - name: "EMF в XLT"
           link: "/conversion/java/emf-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "EMF к XLTM"
+        - name: "EMF в XLTM"
           link: "/conversion/java/emf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMF к XLTX"
+        - name: "EMF в XLTX"
           link: "/conversion/java/emf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EMF к XPS"
+        - name: "EMF в XPS"
           link: "/conversion/java/emf-to-xps/"
           description: "Спецификация документа Open XML"
 

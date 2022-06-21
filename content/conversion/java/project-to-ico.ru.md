@@ -128,142 +128,142 @@ more_formats:
         Вы также можете конвертировать PROJECT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PROJECT к DOC"
+        - name: "PROJECT в DOC"
           link: "/conversion/java/project-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PROJECT к DOTM"
+        - name: "PROJECT в DOTM"
           link: "/conversion/java/project-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PROJECT к DOTX"
+        - name: "PROJECT в DOTX"
           link: "/conversion/java/project-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PROJECT к EMF"
+        - name: "PROJECT в EMF"
           link: "/conversion/java/project-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PROJECT к GIF"
+        - name: "PROJECT в GIF"
           link: "/conversion/java/project-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PROJECT к HTML"
+        - name: "PROJECT в HTML"
           link: "/conversion/java/project-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PROJECT к ODT"
+        - name: "PROJECT в ODT"
           link: "/conversion/java/project-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PROJECT к OTP"
+        - name: "PROJECT в OTP"
           link: "/conversion/java/project-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PROJECT к PDF"
+        - name: "PROJECT в PDF"
           link: "/conversion/java/project-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PROJECT к POTM"
+        - name: "PROJECT в POTM"
           link: "/conversion/java/project-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PROJECT к POTX"
+        - name: "PROJECT в POTX"
           link: "/conversion/java/project-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PROJECT к PPS"
+        - name: "PROJECT в PPS"
           link: "/conversion/java/project-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PROJECT к PPSX"
+        - name: "PROJECT в PPSX"
           link: "/conversion/java/project-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PROJECT к PPT"
+        - name: "PROJECT в PPT"
           link: "/conversion/java/project-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PROJECT к RTF"
+        - name: "PROJECT в RTF"
           link: "/conversion/java/project-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PROJECT к SVG"
+        - name: "PROJECT в SVG"
           link: "/conversion/java/project-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PROJECT к TEX"
+        - name: "PROJECT в TEX"
           link: "/conversion/java/project-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PROJECT к TIF"
+        - name: "PROJECT в TIF"
           link: "/conversion/java/project-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PROJECT к TIFF"
+        - name: "PROJECT в TIFF"
           link: "/conversion/java/project-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PROJECT к TXT"
+        - name: "PROJECT в TXT"
           link: "/conversion/java/project-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PROJECT к WMF"
+        - name: "PROJECT в WMF"
           link: "/conversion/java/project-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PROJECT к WMZ"
+        - name: "PROJECT в WMZ"
           link: "/conversion/java/project-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PROJECT к XLAM"
+        - name: "PROJECT в XLAM"
           link: "/conversion/java/project-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PROJECT к XLS"
+        - name: "PROJECT в XLS"
           link: "/conversion/java/project-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PROJECT к XLSB"
+        - name: "PROJECT в XLSB"
           link: "/conversion/java/project-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PROJECT к XLSX"
+        - name: "PROJECT в XLSX"
           link: "/conversion/java/project-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PROJECT к XLTM"
+        - name: "PROJECT в XLTM"
           link: "/conversion/java/project-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PROJECT к XLTX"
+        - name: "PROJECT в XLTX"
           link: "/conversion/java/project-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 

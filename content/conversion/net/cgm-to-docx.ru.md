@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать CGM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "CGM к BMP"
+        - name: "CGM в BMP"
           link: "/conversion/net/cgm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "CGM к CSV"
+        - name: "CGM в CSV"
           link: "/conversion/net/cgm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "CGM к DCM"
+        - name: "CGM в DCM"
           link: "/conversion/net/cgm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "CGM к DIF"
+        - name: "CGM в DIF"
           link: "/conversion/net/cgm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "CGM к DOC"
+        - name: "CGM в DOC"
           link: "/conversion/net/cgm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "CGM к DOCM"
+        - name: "CGM в DOCM"
           link: "/conversion/net/cgm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CGM к DOT"
+        - name: "CGM в DOT"
           link: "/conversion/net/cgm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "CGM к DOTM"
+        - name: "CGM в DOTM"
           link: "/conversion/net/cgm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CGM к DOTX"
+        - name: "CGM в DOTX"
           link: "/conversion/net/cgm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "CGM к EMF"
+        - name: "CGM в EMF"
           link: "/conversion/net/cgm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "CGM к EMZ"
+        - name: "CGM в EMZ"
           link: "/conversion/net/cgm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "CGM к EPUB"
+        - name: "CGM в EPUB"
           link: "/conversion/net/cgm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "CGM к FODP"
+        - name: "CGM в FODP"
           link: "/conversion/net/cgm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "CGM к FODS"
+        - name: "CGM в FODS"
           link: "/conversion/net/cgm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "CGM к GIF"
+        - name: "CGM в GIF"
           link: "/conversion/net/cgm-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "CGM к HTM"
+        - name: "CGM в HTM"
           link: "/conversion/net/cgm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "CGM к HTML"
+        - name: "CGM в HTML"
           link: "/conversion/net/cgm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "CGM к ICO"
+        - name: "CGM в ICO"
           link: "/conversion/net/cgm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "CGM к JP2"
+        - name: "CGM в JP2"
           link: "/conversion/net/cgm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "CGM к JPEG"
+        - name: "CGM в JPEG"
           link: "/conversion/net/cgm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "CGM к JPG"
+        - name: "CGM в JPG"
           link: "/conversion/net/cgm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "CGM к MD"
+        - name: "CGM в MD"
           link: "/conversion/net/cgm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "CGM к MHT"
+        - name: "CGM в MHT"
           link: "/conversion/net/cgm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CGM к MHTML"
+        - name: "CGM в MHTML"
           link: "/conversion/net/cgm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CGM к ODP"
+        - name: "CGM в ODP"
           link: "/conversion/net/cgm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "CGM к ODS"
+        - name: "CGM в ODS"
           link: "/conversion/net/cgm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "CGM к ODT"
+        - name: "CGM в ODT"
           link: "/conversion/net/cgm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "CGM к OTP"
+        - name: "CGM в OTP"
           link: "/conversion/net/cgm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "CGM к OTT"
+        - name: "CGM в OTT"
           link: "/conversion/net/cgm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "CGM к PDF"
+        - name: "CGM в PDF"
           link: "/conversion/net/cgm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "CGM к PNG"
+        - name: "CGM в PNG"
           link: "/conversion/net/cgm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "CGM к POT"
+        - name: "CGM в POT"
           link: "/conversion/net/cgm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "CGM к POTM"
+        - name: "CGM в POTM"
           link: "/conversion/net/cgm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CGM к POTX"
+        - name: "CGM в POTX"
           link: "/conversion/net/cgm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CGM к PPS"
+        - name: "CGM в PPS"
           link: "/conversion/net/cgm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CGM к PPSM"
+        - name: "CGM в PPSM"
           link: "/conversion/net/cgm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CGM к PPSX"
+        - name: "CGM в PPSX"
           link: "/conversion/net/cgm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "CGM к PPT"
+        - name: "CGM в PPT"
           link: "/conversion/net/cgm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "CGM к PPTM"
+        - name: "CGM в PPTM"
           link: "/conversion/net/cgm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "CGM к PPTX"
+        - name: "CGM в PPTX"
           link: "/conversion/net/cgm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "CGM к PSD"
+        - name: "CGM в PSD"
           link: "/conversion/net/cgm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "CGM к RTF"
+        - name: "CGM в RTF"
           link: "/conversion/net/cgm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "CGM к SVG"
+        - name: "CGM в SVG"
           link: "/conversion/net/cgm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CGM к SVGZ"
+        - name: "CGM в SVGZ"
           link: "/conversion/net/cgm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CGM к SXC"
+        - name: "CGM в SXC"
           link: "/conversion/net/cgm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "CGM к TEX"
+        - name: "CGM в TEX"
           link: "/conversion/net/cgm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "CGM к TIF"
+        - name: "CGM в TIF"
           link: "/conversion/net/cgm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CGM к TIFF"
+        - name: "CGM в TIFF"
           link: "/conversion/net/cgm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CGM к TSV"
+        - name: "CGM в TSV"
           link: "/conversion/net/cgm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "CGM к TXT"
+        - name: "CGM в TXT"
           link: "/conversion/net/cgm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "CGM к WEBP"
+        - name: "CGM в WEBP"
           link: "/conversion/net/cgm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "CGM к WMF"
+        - name: "CGM в WMF"
           link: "/conversion/net/cgm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "CGM к WMZ"
+        - name: "CGM в WMZ"
           link: "/conversion/net/cgm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "CGM к XLAM"
+        - name: "CGM в XLAM"
           link: "/conversion/net/cgm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CGM к XLS"
+        - name: "CGM в XLS"
           link: "/conversion/net/cgm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "CGM к XLSB"
+        - name: "CGM в XLSB"
           link: "/conversion/net/cgm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "CGM к XLSM"
+        - name: "CGM в XLSM"
           link: "/conversion/net/cgm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CGM к XLSX"
+        - name: "CGM в XLSX"
           link: "/conversion/net/cgm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "CGM к XLT"
+        - name: "CGM в XLT"
           link: "/conversion/net/cgm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "CGM к XLTM"
+        - name: "CGM в XLTM"
           link: "/conversion/net/cgm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CGM к XLTX"
+        - name: "CGM в XLTX"
           link: "/conversion/net/cgm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "CGM к XPS"
+        - name: "CGM в XPS"
           link: "/conversion/net/cgm-to-xps/"
           description: "Спецификация документа Open XML"
 

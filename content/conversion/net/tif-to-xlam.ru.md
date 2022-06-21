@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать TIF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "TIF к BMP"
+        - name: "TIF в BMP"
           link: "/conversion/net/tif-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "TIF к CSV"
+        - name: "TIF в CSV"
           link: "/conversion/net/tif-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "TIF к DCM"
+        - name: "TIF в DCM"
           link: "/conversion/net/tif-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "TIF к DIF"
+        - name: "TIF в DIF"
           link: "/conversion/net/tif-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "TIF к DOC"
+        - name: "TIF в DOC"
           link: "/conversion/net/tif-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "TIF к DOCM"
+        - name: "TIF в DOCM"
           link: "/conversion/net/tif-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TIF к DOCX"
+        - name: "TIF в DOCX"
           link: "/conversion/net/tif-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "TIF к DOT"
+        - name: "TIF в DOT"
           link: "/conversion/net/tif-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "TIF к DOTM"
+        - name: "TIF в DOTM"
           link: "/conversion/net/tif-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TIF к DOTX"
+        - name: "TIF в DOTX"
           link: "/conversion/net/tif-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "TIF к EMF"
+        - name: "TIF в EMF"
           link: "/conversion/net/tif-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "TIF к EMZ"
+        - name: "TIF в EMZ"
           link: "/conversion/net/tif-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "TIF к EPUB"
+        - name: "TIF в EPUB"
           link: "/conversion/net/tif-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "TIF к FODP"
+        - name: "TIF в FODP"
           link: "/conversion/net/tif-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "TIF к FODS"
+        - name: "TIF в FODS"
           link: "/conversion/net/tif-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "TIF к GIF"
+        - name: "TIF в GIF"
           link: "/conversion/net/tif-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "TIF к HTM"
+        - name: "TIF в HTM"
           link: "/conversion/net/tif-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "TIF к HTML"
+        - name: "TIF в HTML"
           link: "/conversion/net/tif-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "TIF к ICO"
+        - name: "TIF в ICO"
           link: "/conversion/net/tif-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "TIF к JP2"
+        - name: "TIF в JP2"
           link: "/conversion/net/tif-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "TIF к JPEG"
+        - name: "TIF в JPEG"
           link: "/conversion/net/tif-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "TIF к JPG"
+        - name: "TIF в JPG"
           link: "/conversion/net/tif-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "TIF к MD"
+        - name: "TIF в MD"
           link: "/conversion/net/tif-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "TIF к MHT"
+        - name: "TIF в MHT"
           link: "/conversion/net/tif-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TIF к MHTML"
+        - name: "TIF в MHTML"
           link: "/conversion/net/tif-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TIF к ODP"
+        - name: "TIF в ODP"
           link: "/conversion/net/tif-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "TIF к ODS"
+        - name: "TIF в ODS"
           link: "/conversion/net/tif-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "TIF к ODT"
+        - name: "TIF в ODT"
           link: "/conversion/net/tif-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "TIF к OTP"
+        - name: "TIF в OTP"
           link: "/conversion/net/tif-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "TIF к OTT"
+        - name: "TIF в OTT"
           link: "/conversion/net/tif-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "TIF к PDF"
+        - name: "TIF в PDF"
           link: "/conversion/net/tif-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "TIF к PNG"
+        - name: "TIF в PNG"
           link: "/conversion/net/tif-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "TIF к POT"
+        - name: "TIF в POT"
           link: "/conversion/net/tif-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "TIF к POTM"
+        - name: "TIF в POTM"
           link: "/conversion/net/tif-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TIF к POTX"
+        - name: "TIF в POTX"
           link: "/conversion/net/tif-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TIF к PPS"
+        - name: "TIF в PPS"
           link: "/conversion/net/tif-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TIF к PPSM"
+        - name: "TIF в PPSM"
           link: "/conversion/net/tif-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TIF к PPSX"
+        - name: "TIF в PPSX"
           link: "/conversion/net/tif-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "TIF к PPT"
+        - name: "TIF в PPT"
           link: "/conversion/net/tif-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "TIF к PPTM"
+        - name: "TIF в PPTM"
           link: "/conversion/net/tif-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "TIF к PPTX"
+        - name: "TIF в PPTX"
           link: "/conversion/net/tif-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "TIF к PSD"
+        - name: "TIF в PSD"
           link: "/conversion/net/tif-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "TIF к RTF"
+        - name: "TIF в RTF"
           link: "/conversion/net/tif-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "TIF к SVG"
+        - name: "TIF в SVG"
           link: "/conversion/net/tif-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TIF к SVGZ"
+        - name: "TIF в SVGZ"
           link: "/conversion/net/tif-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TIF к SXC"
+        - name: "TIF в SXC"
           link: "/conversion/net/tif-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "TIF к TEX"
+        - name: "TIF в TEX"
           link: "/conversion/net/tif-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "TIF к TIFF"
+        - name: "TIF в TIFF"
           link: "/conversion/net/tif-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TIF к TSV"
+        - name: "TIF в TSV"
           link: "/conversion/net/tif-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "TIF к TXT"
+        - name: "TIF в TXT"
           link: "/conversion/net/tif-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "TIF к WEBP"
+        - name: "TIF в WEBP"
           link: "/conversion/net/tif-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "TIF к WMF"
+        - name: "TIF в WMF"
           link: "/conversion/net/tif-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "TIF к WMZ"
+        - name: "TIF в WMZ"
           link: "/conversion/net/tif-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "TIF к XLS"
+        - name: "TIF в XLS"
           link: "/conversion/net/tif-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "TIF к XLSB"
+        - name: "TIF в XLSB"
           link: "/conversion/net/tif-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "TIF к XLSM"
+        - name: "TIF в XLSM"
           link: "/conversion/net/tif-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIF к XLSX"
+        - name: "TIF в XLSX"
           link: "/conversion/net/tif-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "TIF к XLT"
+        - name: "TIF в XLT"
           link: "/conversion/net/tif-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "TIF к XLTM"
+        - name: "TIF в XLTM"
           link: "/conversion/net/tif-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIF к XLTX"
+        - name: "TIF в XLTX"
           link: "/conversion/net/tif-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "TIF к XPS"
+        - name: "TIF в XPS"
           link: "/conversion/net/tif-to-xps/"
           description: "Спецификация документа Open XML"
 

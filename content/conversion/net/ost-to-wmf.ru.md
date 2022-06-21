@@ -127,327 +127,327 @@ more_formats:
         Вы также можете конвертировать OST во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OST к BMP"
+        - name: "OST в BMP"
           link: "/conversion/net/ost-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "OST к CSV"
+        - name: "OST в CSV"
           link: "/conversion/net/ost-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "OST к DCM"
+        - name: "OST в DCM"
           link: "/conversion/net/ost-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "OST к DIF"
+        - name: "OST в DIF"
           link: "/conversion/net/ost-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "OST к DOC"
+        - name: "OST в DOC"
           link: "/conversion/net/ost-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OST к DOCM"
+        - name: "OST в DOCM"
           link: "/conversion/net/ost-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OST к DOCX"
+        - name: "OST в DOCX"
           link: "/conversion/net/ost-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "OST к DOT"
+        - name: "OST в DOT"
           link: "/conversion/net/ost-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "OST к DOTM"
+        - name: "OST в DOTM"
           link: "/conversion/net/ost-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OST к DOTX"
+        - name: "OST в DOTX"
           link: "/conversion/net/ost-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "OST к EMF"
+        - name: "OST в EMF"
           link: "/conversion/net/ost-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "OST к EML"
+        - name: "OST в EML"
           link: "/conversion/net/ost-to-eml/"
           description: "Файл сообщения электронной почты"
 
         # format loop
-        - name: "OST к EMLX"
+        - name: "OST в EMLX"
           link: "/conversion/net/ost-to-emlx/"
           description: "Почтовое сообщение Apple"
 
         # format loop
-        - name: "OST к EMZ"
+        - name: "OST в EMZ"
           link: "/conversion/net/ost-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OST к EPUB"
+        - name: "OST в EPUB"
           link: "/conversion/net/ost-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OST к FODP"
+        - name: "OST в FODP"
           link: "/conversion/net/ost-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "OST к FODS"
+        - name: "OST в FODS"
           link: "/conversion/net/ost-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "OST к GIF"
+        - name: "OST в GIF"
           link: "/conversion/net/ost-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "OST к HTM"
+        - name: "OST в HTM"
           link: "/conversion/net/ost-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "OST к HTML"
+        - name: "OST в HTML"
           link: "/conversion/net/ost-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OST к ICO"
+        - name: "OST в ICO"
           link: "/conversion/net/ost-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "OST к JP2"
+        - name: "OST в JP2"
           link: "/conversion/net/ost-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "OST к JPEG"
+        - name: "OST в JPEG"
           link: "/conversion/net/ost-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "OST к JPG"
+        - name: "OST в JPG"
           link: "/conversion/net/ost-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "OST к MD"
+        - name: "OST в MD"
           link: "/conversion/net/ost-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OST к MHT"
+        - name: "OST в MHT"
           link: "/conversion/net/ost-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OST к MHTML"
+        - name: "OST в MHTML"
           link: "/conversion/net/ost-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OST к MSG"
+        - name: "OST в MSG"
           link: "/conversion/net/ost-to-msg/"
           description: "Формат электронной почты Microsoft Outlook"
 
         # format loop
-        - name: "OST к ODP"
+        - name: "OST в ODP"
           link: "/conversion/net/ost-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "OST к ODS"
+        - name: "OST в ODS"
           link: "/conversion/net/ost-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OST к ODT"
+        - name: "OST в ODT"
           link: "/conversion/net/ost-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "OST к OTP"
+        - name: "OST в OTP"
           link: "/conversion/net/ost-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "OST к OTT"
+        - name: "OST в OTT"
           link: "/conversion/net/ost-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "OST к PDF"
+        - name: "OST в PDF"
           link: "/conversion/net/ost-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "OST к PNG"
+        - name: "OST в PNG"
           link: "/conversion/net/ost-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "OST к POT"
+        - name: "OST в POT"
           link: "/conversion/net/ost-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "OST к POTM"
+        - name: "OST в POTM"
           link: "/conversion/net/ost-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OST к POTX"
+        - name: "OST в POTX"
           link: "/conversion/net/ost-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OST к PPS"
+        - name: "OST в PPS"
           link: "/conversion/net/ost-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OST к PPSM"
+        - name: "OST в PPSM"
           link: "/conversion/net/ost-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OST к PPSX"
+        - name: "OST в PPSX"
           link: "/conversion/net/ost-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "OST к PPT"
+        - name: "OST в PPT"
           link: "/conversion/net/ost-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OST к PPTM"
+        - name: "OST в PPTM"
           link: "/conversion/net/ost-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OST к PPTX"
+        - name: "OST в PPTX"
           link: "/conversion/net/ost-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "OST к PSD"
+        - name: "OST в PSD"
           link: "/conversion/net/ost-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OST к RTF"
+        - name: "OST в RTF"
           link: "/conversion/net/ost-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "OST к SVG"
+        - name: "OST в SVG"
           link: "/conversion/net/ost-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OST к SVGZ"
+        - name: "OST в SVGZ"
           link: "/conversion/net/ost-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OST к SXC"
+        - name: "OST в SXC"
           link: "/conversion/net/ost-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "OST к TEX"
+        - name: "OST в TEX"
           link: "/conversion/net/ost-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OST к TIF"
+        - name: "OST в TIF"
           link: "/conversion/net/ost-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OST к TIFF"
+        - name: "OST в TIFF"
           link: "/conversion/net/ost-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OST к TSV"
+        - name: "OST в TSV"
           link: "/conversion/net/ost-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OST к TXT"
+        - name: "OST в TXT"
           link: "/conversion/net/ost-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OST к WEBP"
+        - name: "OST в WEBP"
           link: "/conversion/net/ost-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OST к WMZ"
+        - name: "OST в WMZ"
           link: "/conversion/net/ost-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OST к XLAM"
+        - name: "OST в XLAM"
           link: "/conversion/net/ost-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OST к XLS"
+        - name: "OST в XLS"
           link: "/conversion/net/ost-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "OST к XLSB"
+        - name: "OST в XLSB"
           link: "/conversion/net/ost-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OST к XLSM"
+        - name: "OST в XLSM"
           link: "/conversion/net/ost-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OST к XLSX"
+        - name: "OST в XLSX"
           link: "/conversion/net/ost-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OST к XLT"
+        - name: "OST в XLT"
           link: "/conversion/net/ost-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "OST к XLTM"
+        - name: "OST в XLTM"
           link: "/conversion/net/ost-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OST к XLTX"
+        - name: "OST в XLTX"
           link: "/conversion/net/ost-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "OST к XPS"
+        - name: "OST в XPS"
           link: "/conversion/net/ost-to-xps/"
           description: "Спецификация документа Open XML"
 

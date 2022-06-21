@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать DIB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DIB к EPUB"
+        - name: "DIB в EPUB"
           link: "https://products.groupdocs.com/conversion/net/dib-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DIB к XPS"
+        - name: "DIB в XPS"
           link: "https://products.groupdocs.com/conversion/net/dib-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "DIB к TEX"
+        - name: "DIB в TEX"
           link: "https://products.groupdocs.com/conversion/net/dib-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DIB к PPT"
+        - name: "DIB в PPT"
           link: "https://products.groupdocs.com/conversion/net/dib-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DIB к PPS"
+        - name: "DIB в PPS"
           link: "https://products.groupdocs.com/conversion/net/dib-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB к PPTX"
+        - name: "DIB в PPTX"
           link: "https://products.groupdocs.com/conversion/net/dib-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DIB к PPSX"
+        - name: "DIB в PPSX"
           link: "https://products.groupdocs.com/conversion/net/dib-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DIB к ODP"
+        - name: "DIB в ODP"
           link: "https://products.groupdocs.com/conversion/net/dib-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DIB к OTP"
+        - name: "DIB в OTP"
           link: "https://products.groupdocs.com/conversion/net/dib-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DIB к POTX"
+        - name: "DIB в POTX"
           link: "https://products.groupdocs.com/conversion/net/dib-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB к POTM"
+        - name: "DIB в POTM"
           link: "https://products.groupdocs.com/conversion/net/dib-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB к PPTM"
+        - name: "DIB в PPTM"
           link: "https://products.groupdocs.com/conversion/net/dib-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB к PPSM"
+        - name: "DIB в PPSM"
           link: "https://products.groupdocs.com/conversion/net/dib-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB к XLS"
+        - name: "DIB в XLS"
           link: "https://products.groupdocs.com/conversion/net/dib-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DIB к XLSX"
+        - name: "DIB в XLSX"
           link: "https://products.groupdocs.com/conversion/net/dib-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DIB к XLSM"
+        - name: "DIB в XLSM"
           link: "https://products.groupdocs.com/conversion/net/dib-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DIB к XLSB"
+        - name: "DIB в XLSB"
           link: "https://products.groupdocs.com/conversion/net/dib-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DIB к ODS"
+        - name: "DIB в ODS"
           link: "https://products.groupdocs.com/conversion/net/dib-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DIB к XLTX"
+        - name: "DIB в XLTX"
           link: "https://products.groupdocs.com/conversion/net/dib-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DIB к XLTM"
+        - name: "DIB в XLTM"
           link: "https://products.groupdocs.com/conversion/net/dib-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DIB к TSV"
+        - name: "DIB в TSV"
           link: "https://products.groupdocs.com/conversion/net/dib-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DIB к XLAM"
+        - name: "DIB в XLAM"
           link: "https://products.groupdocs.com/conversion/net/dib-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DIB к CSV"
+        - name: "DIB в CSV"
           link: "https://products.groupdocs.com/conversion/net/dib-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DIB к DOC"
+        - name: "DIB в DOC"
           link: "https://products.groupdocs.com/conversion/net/dib-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DIB к DOCM"
+        - name: "DIB в DOCM"
           link: "https://products.groupdocs.com/conversion/net/dib-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DIB к DIB"
+        - name: "DIB в DIB"
           link: "https://products.groupdocs.com/conversion/net/dib-to-dib/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DIB к DOT"
+        - name: "DIB в DOT"
           link: "https://products.groupdocs.com/conversion/net/dib-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DIB к DOTM"
+        - name: "DIB в DOTM"
           link: "https://products.groupdocs.com/conversion/net/dib-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DIB к DOTX"
+        - name: "DIB в DOTX"
           link: "https://products.groupdocs.com/conversion/net/dib-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DIB к RTF"
+        - name: "DIB в RTF"
           link: "https://products.groupdocs.com/conversion/net/dib-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DIB к ODT"
+        - name: "DIB в ODT"
           link: "https://products.groupdocs.com/conversion/net/dib-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DIB к OTT"
+        - name: "DIB в OTT"
           link: "https://products.groupdocs.com/conversion/net/dib-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DIB к TXT"
+        - name: "DIB в TXT"
           link: "https://products.groupdocs.com/conversion/net/dib-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DIB к MD"
+        - name: "DIB в MD"
           link: "https://products.groupdocs.com/conversion/net/dib-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DIB к TIFF"
+        - name: "DIB в TIFF"
           link: "https://products.groupdocs.com/conversion/net/dib-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DIB к TIF"
+        - name: "DIB в TIF"
           link: "https://products.groupdocs.com/conversion/net/dib-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DIB к JPG"
+        - name: "DIB в JPG"
           link: "https://products.groupdocs.com/conversion/net/dib-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DIB к JPEG"
+        - name: "DIB в JPEG"
           link: "https://products.groupdocs.com/conversion/net/dib-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DIB к PNG"
+        - name: "DIB в PNG"
           link: "https://products.groupdocs.com/conversion/net/dib-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DIB к GIF"
+        - name: "DIB в GIF"
           link: "https://products.groupdocs.com/conversion/net/dib-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DIB к BMP"
+        - name: "DIB в BMP"
           link: "https://products.groupdocs.com/conversion/net/dib-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DIB к ICO"
+        - name: "DIB в ICO"
           link: "https://products.groupdocs.com/conversion/net/dib-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DIB к PSD"
+        - name: "DIB в PSD"
           link: "https://products.groupdocs.com/conversion/net/dib-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DIB к WMF"
+        - name: "DIB в WMF"
           link: "https://products.groupdocs.com/conversion/net/dib-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DIB к EMF"
+        - name: "DIB в EMF"
           link: "https://products.groupdocs.com/conversion/net/dib-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DIB к WEBP"
+        - name: "DIB в WEBP"
           link: "https://products.groupdocs.com/conversion/net/dib-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DIB к SVG"
+        - name: "DIB в SVG"
           link: "https://products.groupdocs.com/conversion/net/dib-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DIB к JP2"
+        - name: "DIB в JP2"
           link: "https://products.groupdocs.com/conversion/net/dib-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DIB к EMZ"
+        - name: "DIB в EMZ"
           link: "https://products.groupdocs.com/conversion/net/dib-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DIB к WMZ"
+        - name: "DIB в WMZ"
           link: "https://products.groupdocs.com/conversion/net/dib-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DIB к HTML"
+        - name: "DIB в HTML"
           link: "https://products.groupdocs.com/conversion/net/dib-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DIB к MHT"
+        - name: "DIB в MHT"
           link: "https://products.groupdocs.com/conversion/net/dib-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DIB к MHTML"
+        - name: "DIB в MHTML"
           link: "https://products.groupdocs.com/conversion/net/dib-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

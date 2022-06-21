@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать PPS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PPS к BMP"
+        - name: "PPS в BMP"
           link: "/conversion/net/pps-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PPS к CSV"
+        - name: "PPS в CSV"
           link: "/conversion/net/pps-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PPS к DCM"
+        - name: "PPS в DCM"
           link: "/conversion/net/pps-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PPS к DIF"
+        - name: "PPS в DIF"
           link: "/conversion/net/pps-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PPS к DOC"
+        - name: "PPS в DOC"
           link: "/conversion/net/pps-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PPS к DOCM"
+        - name: "PPS в DOCM"
           link: "/conversion/net/pps-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPS к DOCX"
+        - name: "PPS в DOCX"
           link: "/conversion/net/pps-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PPS к DOT"
+        - name: "PPS в DOT"
           link: "/conversion/net/pps-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PPS к DOTM"
+        - name: "PPS в DOTM"
           link: "/conversion/net/pps-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPS к DOTX"
+        - name: "PPS в DOTX"
           link: "/conversion/net/pps-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PPS к EMF"
+        - name: "PPS в EMF"
           link: "/conversion/net/pps-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PPS к EMZ"
+        - name: "PPS в EMZ"
           link: "/conversion/net/pps-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PPS к EPUB"
+        - name: "PPS в EPUB"
           link: "/conversion/net/pps-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PPS к FODP"
+        - name: "PPS в FODP"
           link: "/conversion/net/pps-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PPS к FODS"
+        - name: "PPS в FODS"
           link: "/conversion/net/pps-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PPS к HTM"
+        - name: "PPS в HTM"
           link: "/conversion/net/pps-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PPS к HTML"
+        - name: "PPS в HTML"
           link: "/conversion/net/pps-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PPS к ICO"
+        - name: "PPS в ICO"
           link: "/conversion/net/pps-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PPS к JP2"
+        - name: "PPS в JP2"
           link: "/conversion/net/pps-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PPS к JPEG"
+        - name: "PPS в JPEG"
           link: "/conversion/net/pps-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PPS к JPG"
+        - name: "PPS в JPG"
           link: "/conversion/net/pps-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PPS к MD"
+        - name: "PPS в MD"
           link: "/conversion/net/pps-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PPS к MHT"
+        - name: "PPS в MHT"
           link: "/conversion/net/pps-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPS к MHTML"
+        - name: "PPS в MHTML"
           link: "/conversion/net/pps-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPS к ODP"
+        - name: "PPS в ODP"
           link: "/conversion/net/pps-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PPS к ODS"
+        - name: "PPS в ODS"
           link: "/conversion/net/pps-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PPS к ODT"
+        - name: "PPS в ODT"
           link: "/conversion/net/pps-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PPS к OTP"
+        - name: "PPS в OTP"
           link: "/conversion/net/pps-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PPS к OTT"
+        - name: "PPS в OTT"
           link: "/conversion/net/pps-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PPS к PDF"
+        - name: "PPS в PDF"
           link: "/conversion/net/pps-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PPS к PNG"
+        - name: "PPS в PNG"
           link: "/conversion/net/pps-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PPS к POT"
+        - name: "PPS в POT"
           link: "/conversion/net/pps-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PPS к POTM"
+        - name: "PPS в POTM"
           link: "/conversion/net/pps-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPS к POTX"
+        - name: "PPS в POTX"
           link: "/conversion/net/pps-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPS к PPSM"
+        - name: "PPS в PPSM"
           link: "/conversion/net/pps-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPS к PPSX"
+        - name: "PPS в PPSX"
           link: "/conversion/net/pps-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PPS к PPT"
+        - name: "PPS в PPT"
           link: "/conversion/net/pps-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PPS к PPTM"
+        - name: "PPS в PPTM"
           link: "/conversion/net/pps-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PPS к PPTX"
+        - name: "PPS в PPTX"
           link: "/conversion/net/pps-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PPS к PSD"
+        - name: "PPS в PSD"
           link: "/conversion/net/pps-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PPS к RTF"
+        - name: "PPS в RTF"
           link: "/conversion/net/pps-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PPS к SVG"
+        - name: "PPS в SVG"
           link: "/conversion/net/pps-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPS к SVGZ"
+        - name: "PPS в SVGZ"
           link: "/conversion/net/pps-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPS к SXC"
+        - name: "PPS в SXC"
           link: "/conversion/net/pps-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PPS к TEX"
+        - name: "PPS в TEX"
           link: "/conversion/net/pps-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PPS к TIF"
+        - name: "PPS в TIF"
           link: "/conversion/net/pps-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPS к TIFF"
+        - name: "PPS в TIFF"
           link: "/conversion/net/pps-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPS к TSV"
+        - name: "PPS в TSV"
           link: "/conversion/net/pps-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PPS к TXT"
+        - name: "PPS в TXT"
           link: "/conversion/net/pps-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PPS к WEBP"
+        - name: "PPS в WEBP"
           link: "/conversion/net/pps-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PPS к WMF"
+        - name: "PPS в WMF"
           link: "/conversion/net/pps-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PPS к WMZ"
+        - name: "PPS в WMZ"
           link: "/conversion/net/pps-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PPS к XLAM"
+        - name: "PPS в XLAM"
           link: "/conversion/net/pps-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPS к XLS"
+        - name: "PPS в XLS"
           link: "/conversion/net/pps-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PPS к XLSB"
+        - name: "PPS в XLSB"
           link: "/conversion/net/pps-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PPS к XLSM"
+        - name: "PPS в XLSM"
           link: "/conversion/net/pps-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPS к XLSX"
+        - name: "PPS в XLSX"
           link: "/conversion/net/pps-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PPS к XLT"
+        - name: "PPS в XLT"
           link: "/conversion/net/pps-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPS к XLTM"
+        - name: "PPS в XLTM"
           link: "/conversion/net/pps-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPS к XLTX"
+        - name: "PPS в XLTX"
           link: "/conversion/net/pps-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPS к XPS"
+        - name: "PPS в XPS"
           link: "/conversion/net/pps-to-xps/"
           description: "Спецификация документа Open XML"
 

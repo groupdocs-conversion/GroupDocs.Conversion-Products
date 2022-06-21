@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать RTF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "RTF к BMP"
+        - name: "RTF в BMP"
           link: "/conversion/net/rtf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "RTF к CSV"
+        - name: "RTF в CSV"
           link: "/conversion/net/rtf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "RTF к DCM"
+        - name: "RTF в DCM"
           link: "/conversion/net/rtf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "RTF к DIF"
+        - name: "RTF в DIF"
           link: "/conversion/net/rtf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "RTF к DOC"
+        - name: "RTF в DOC"
           link: "/conversion/net/rtf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "RTF к DOCM"
+        - name: "RTF в DOCM"
           link: "/conversion/net/rtf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "RTF к DOCX"
+        - name: "RTF в DOCX"
           link: "/conversion/net/rtf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "RTF к DOT"
+        - name: "RTF в DOT"
           link: "/conversion/net/rtf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "RTF к DOTM"
+        - name: "RTF в DOTM"
           link: "/conversion/net/rtf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "RTF к DOTX"
+        - name: "RTF в DOTX"
           link: "/conversion/net/rtf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "RTF к EMF"
+        - name: "RTF в EMF"
           link: "/conversion/net/rtf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "RTF к EMZ"
+        - name: "RTF в EMZ"
           link: "/conversion/net/rtf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "RTF к EPUB"
+        - name: "RTF в EPUB"
           link: "/conversion/net/rtf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "RTF к FODP"
+        - name: "RTF в FODP"
           link: "/conversion/net/rtf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "RTF к FODS"
+        - name: "RTF в FODS"
           link: "/conversion/net/rtf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "RTF к GIF"
+        - name: "RTF в GIF"
           link: "/conversion/net/rtf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "RTF к HTM"
+        - name: "RTF в HTM"
           link: "/conversion/net/rtf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "RTF к HTML"
+        - name: "RTF в HTML"
           link: "/conversion/net/rtf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "RTF к ICO"
+        - name: "RTF в ICO"
           link: "/conversion/net/rtf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "RTF к JP2"
+        - name: "RTF в JP2"
           link: "/conversion/net/rtf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "RTF к JPEG"
+        - name: "RTF в JPEG"
           link: "/conversion/net/rtf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "RTF к JPG"
+        - name: "RTF в JPG"
           link: "/conversion/net/rtf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "RTF к MD"
+        - name: "RTF в MD"
           link: "/conversion/net/rtf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "RTF к MHT"
+        - name: "RTF в MHT"
           link: "/conversion/net/rtf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "RTF к MHTML"
+        - name: "RTF в MHTML"
           link: "/conversion/net/rtf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "RTF к ODP"
+        - name: "RTF в ODP"
           link: "/conversion/net/rtf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "RTF к ODS"
+        - name: "RTF в ODS"
           link: "/conversion/net/rtf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "RTF к ODT"
+        - name: "RTF в ODT"
           link: "/conversion/net/rtf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "RTF к OTP"
+        - name: "RTF в OTP"
           link: "/conversion/net/rtf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "RTF к OTT"
+        - name: "RTF в OTT"
           link: "/conversion/net/rtf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "RTF к PDF"
+        - name: "RTF в PDF"
           link: "/conversion/net/rtf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "RTF к PNG"
+        - name: "RTF в PNG"
           link: "/conversion/net/rtf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "RTF к POT"
+        - name: "RTF в POT"
           link: "/conversion/net/rtf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "RTF к POTM"
+        - name: "RTF в POTM"
           link: "/conversion/net/rtf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "RTF к POTX"
+        - name: "RTF в POTX"
           link: "/conversion/net/rtf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "RTF к PPS"
+        - name: "RTF в PPS"
           link: "/conversion/net/rtf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "RTF к PPSM"
+        - name: "RTF в PPSM"
           link: "/conversion/net/rtf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "RTF к PPSX"
+        - name: "RTF в PPSX"
           link: "/conversion/net/rtf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "RTF к PPT"
+        - name: "RTF в PPT"
           link: "/conversion/net/rtf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "RTF к PPTM"
+        - name: "RTF в PPTM"
           link: "/conversion/net/rtf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "RTF к PPTX"
+        - name: "RTF в PPTX"
           link: "/conversion/net/rtf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "RTF к PSD"
+        - name: "RTF в PSD"
           link: "/conversion/net/rtf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "RTF к SVG"
+        - name: "RTF в SVG"
           link: "/conversion/net/rtf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "RTF к SVGZ"
+        - name: "RTF в SVGZ"
           link: "/conversion/net/rtf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "RTF к SXC"
+        - name: "RTF в SXC"
           link: "/conversion/net/rtf-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "RTF к TEX"
+        - name: "RTF в TEX"
           link: "/conversion/net/rtf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "RTF к TIF"
+        - name: "RTF в TIF"
           link: "/conversion/net/rtf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "RTF к TIFF"
+        - name: "RTF в TIFF"
           link: "/conversion/net/rtf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "RTF к TSV"
+        - name: "RTF в TSV"
           link: "/conversion/net/rtf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "RTF к TXT"
+        - name: "RTF в TXT"
           link: "/conversion/net/rtf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "RTF к WEBP"
+        - name: "RTF в WEBP"
           link: "/conversion/net/rtf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "RTF к WMF"
+        - name: "RTF в WMF"
           link: "/conversion/net/rtf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "RTF к WMZ"
+        - name: "RTF в WMZ"
           link: "/conversion/net/rtf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "RTF к XLAM"
+        - name: "RTF в XLAM"
           link: "/conversion/net/rtf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "RTF к XLS"
+        - name: "RTF в XLS"
           link: "/conversion/net/rtf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "RTF к XLSB"
+        - name: "RTF в XLSB"
           link: "/conversion/net/rtf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "RTF к XLSM"
+        - name: "RTF в XLSM"
           link: "/conversion/net/rtf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "RTF к XLSX"
+        - name: "RTF в XLSX"
           link: "/conversion/net/rtf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "RTF к XLTM"
+        - name: "RTF в XLTM"
           link: "/conversion/net/rtf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "RTF к XLTX"
+        - name: "RTF в XLTX"
           link: "/conversion/net/rtf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "RTF к XPS"
+        - name: "RTF в XPS"
           link: "/conversion/net/rtf-to-xps/"
           description: "Спецификация документа Open XML"
 

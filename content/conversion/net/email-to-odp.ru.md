@@ -127,207 +127,207 @@ more_formats:
         Вы также можете конвертировать EMAIL во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EMAIL к BMP"
+        - name: "EMAIL в BMP"
           link: "/conversion/net/email-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EMAIL к CSV"
+        - name: "EMAIL в CSV"
           link: "/conversion/net/email-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EMAIL к DOC"
+        - name: "EMAIL в DOC"
           link: "/conversion/net/email-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EMAIL к DOCM"
+        - name: "EMAIL в DOCM"
           link: "/conversion/net/email-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EMAIL к DOT"
+        - name: "EMAIL в DOT"
           link: "/conversion/net/email-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EMAIL к DOTX"
+        - name: "EMAIL в DOTX"
           link: "/conversion/net/email-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EMAIL к EMF"
+        - name: "EMAIL в EMF"
           link: "/conversion/net/email-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EMAIL к EMZ"
+        - name: "EMAIL в EMZ"
           link: "/conversion/net/email-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EMAIL к EPUB"
+        - name: "EMAIL в EPUB"
           link: "/conversion/net/email-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EMAIL к GIF"
+        - name: "EMAIL в GIF"
           link: "/conversion/net/email-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EMAIL к HTML"
+        - name: "EMAIL в HTML"
           link: "/conversion/net/email-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EMAIL к ICO"
+        - name: "EMAIL в ICO"
           link: "/conversion/net/email-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EMAIL к JPEG"
+        - name: "EMAIL в JPEG"
           link: "/conversion/net/email-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EMAIL к JPG"
+        - name: "EMAIL в JPG"
           link: "/conversion/net/email-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EMAIL к MHT"
+        - name: "EMAIL в MHT"
           link: "/conversion/net/email-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EMAIL к ODS"
+        - name: "EMAIL в ODS"
           link: "/conversion/net/email-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EMAIL к ODT"
+        - name: "EMAIL в ODT"
           link: "/conversion/net/email-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EMAIL к OTT"
+        - name: "EMAIL в OTT"
           link: "/conversion/net/email-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EMAIL к PDF"
+        - name: "EMAIL в PDF"
           link: "/conversion/net/email-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "EMAIL к PNG"
+        - name: "EMAIL в PNG"
           link: "/conversion/net/email-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EMAIL к POTM"
+        - name: "EMAIL в POTM"
           link: "/conversion/net/email-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EMAIL к POTX"
+        - name: "EMAIL в POTX"
           link: "/conversion/net/email-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EMAIL к PPS"
+        - name: "EMAIL в PPS"
           link: "/conversion/net/email-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EMAIL к PPT"
+        - name: "EMAIL в PPT"
           link: "/conversion/net/email-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EMAIL к PPTM"
+        - name: "EMAIL в PPTM"
           link: "/conversion/net/email-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EMAIL к PPTX"
+        - name: "EMAIL в PPTX"
           link: "/conversion/net/email-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EMAIL к PSD"
+        - name: "EMAIL в PSD"
           link: "/conversion/net/email-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EMAIL к RTF"
+        - name: "EMAIL в RTF"
           link: "/conversion/net/email-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EMAIL к SVG"
+        - name: "EMAIL в SVG"
           link: "/conversion/net/email-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EMAIL к TIF"
+        - name: "EMAIL в TIF"
           link: "/conversion/net/email-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EMAIL к TSV"
+        - name: "EMAIL в TSV"
           link: "/conversion/net/email-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EMAIL к TXT"
+        - name: "EMAIL в TXT"
           link: "/conversion/net/email-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EMAIL к WEBP"
+        - name: "EMAIL в WEBP"
           link: "/conversion/net/email-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EMAIL к WMF"
+        - name: "EMAIL в WMF"
           link: "/conversion/net/email-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EMAIL к WMZ"
+        - name: "EMAIL в WMZ"
           link: "/conversion/net/email-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EMAIL к XLAM"
+        - name: "EMAIL в XLAM"
           link: "/conversion/net/email-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMAIL к XLSB"
+        - name: "EMAIL в XLSB"
           link: "/conversion/net/email-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EMAIL к XLSM"
+        - name: "EMAIL в XLSM"
           link: "/conversion/net/email-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMAIL к XLTM"
+        - name: "EMAIL в XLTM"
           link: "/conversion/net/email-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMAIL к XLTX"
+        - name: "EMAIL в XLTX"
           link: "/conversion/net/email-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EMAIL к XPS"
+        - name: "EMAIL в XPS"
           link: "/conversion/net/email-to-xps/"
           description: "Спецификация документа Open XML"
 

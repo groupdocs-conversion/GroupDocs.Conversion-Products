@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать LOG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "LOG к BMP"
+        - name: "LOG в BMP"
           link: "/conversion/java/log-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "LOG к CSV"
+        - name: "LOG в CSV"
           link: "/conversion/java/log-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "LOG к DCM"
+        - name: "LOG в DCM"
           link: "/conversion/java/log-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "LOG к DIF"
+        - name: "LOG в DIF"
           link: "/conversion/java/log-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "LOG к DOC"
+        - name: "LOG в DOC"
           link: "/conversion/java/log-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "LOG к DOCM"
+        - name: "LOG в DOCM"
           link: "/conversion/java/log-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "LOG к DOCX"
+        - name: "LOG в DOCX"
           link: "/conversion/java/log-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "LOG к DOT"
+        - name: "LOG в DOT"
           link: "/conversion/java/log-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "LOG к DOTM"
+        - name: "LOG в DOTM"
           link: "/conversion/java/log-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "LOG к DOTX"
+        - name: "LOG в DOTX"
           link: "/conversion/java/log-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "LOG к EMF"
+        - name: "LOG в EMF"
           link: "/conversion/java/log-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "LOG к EMZ"
+        - name: "LOG в EMZ"
           link: "/conversion/java/log-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "LOG к EPUB"
+        - name: "LOG в EPUB"
           link: "/conversion/java/log-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "LOG к FODP"
+        - name: "LOG в FODP"
           link: "/conversion/java/log-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "LOG к FODS"
+        - name: "LOG в FODS"
           link: "/conversion/java/log-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "LOG к GIF"
+        - name: "LOG в GIF"
           link: "/conversion/java/log-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "LOG к HTM"
+        - name: "LOG в HTM"
           link: "/conversion/java/log-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "LOG к HTML"
+        - name: "LOG в HTML"
           link: "/conversion/java/log-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "LOG к ICO"
+        - name: "LOG в ICO"
           link: "/conversion/java/log-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "LOG к JP2"
+        - name: "LOG в JP2"
           link: "/conversion/java/log-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "LOG к JPEG"
+        - name: "LOG в JPEG"
           link: "/conversion/java/log-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "LOG к JPG"
+        - name: "LOG в JPG"
           link: "/conversion/java/log-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "LOG к MD"
+        - name: "LOG в MD"
           link: "/conversion/java/log-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "LOG к MHT"
+        - name: "LOG в MHT"
           link: "/conversion/java/log-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "LOG к MHTML"
+        - name: "LOG в MHTML"
           link: "/conversion/java/log-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "LOG к ODP"
+        - name: "LOG в ODP"
           link: "/conversion/java/log-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "LOG к ODS"
+        - name: "LOG в ODS"
           link: "/conversion/java/log-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "LOG к ODT"
+        - name: "LOG в ODT"
           link: "/conversion/java/log-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "LOG к OTP"
+        - name: "LOG в OTP"
           link: "/conversion/java/log-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "LOG к OTT"
+        - name: "LOG в OTT"
           link: "/conversion/java/log-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "LOG к PDF"
+        - name: "LOG в PDF"
           link: "/conversion/java/log-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "LOG к POT"
+        - name: "LOG в POT"
           link: "/conversion/java/log-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "LOG к POTM"
+        - name: "LOG в POTM"
           link: "/conversion/java/log-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "LOG к POTX"
+        - name: "LOG в POTX"
           link: "/conversion/java/log-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "LOG к PPS"
+        - name: "LOG в PPS"
           link: "/conversion/java/log-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "LOG к PPSM"
+        - name: "LOG в PPSM"
           link: "/conversion/java/log-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "LOG к PPSX"
+        - name: "LOG в PPSX"
           link: "/conversion/java/log-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "LOG к PPT"
+        - name: "LOG в PPT"
           link: "/conversion/java/log-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "LOG к PPTM"
+        - name: "LOG в PPTM"
           link: "/conversion/java/log-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "LOG к PPTX"
+        - name: "LOG в PPTX"
           link: "/conversion/java/log-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "LOG к PSD"
+        - name: "LOG в PSD"
           link: "/conversion/java/log-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "LOG к RTF"
+        - name: "LOG в RTF"
           link: "/conversion/java/log-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "LOG к SVG"
+        - name: "LOG в SVG"
           link: "/conversion/java/log-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "LOG к SVGZ"
+        - name: "LOG в SVGZ"
           link: "/conversion/java/log-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "LOG к SXC"
+        - name: "LOG в SXC"
           link: "/conversion/java/log-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "LOG к TEX"
+        - name: "LOG в TEX"
           link: "/conversion/java/log-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "LOG к TIF"
+        - name: "LOG в TIF"
           link: "/conversion/java/log-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "LOG к TIFF"
+        - name: "LOG в TIFF"
           link: "/conversion/java/log-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "LOG к TSV"
+        - name: "LOG в TSV"
           link: "/conversion/java/log-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "LOG к TXT"
+        - name: "LOG в TXT"
           link: "/conversion/java/log-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "LOG к WEBP"
+        - name: "LOG в WEBP"
           link: "/conversion/java/log-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "LOG к WMF"
+        - name: "LOG в WMF"
           link: "/conversion/java/log-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "LOG к WMZ"
+        - name: "LOG в WMZ"
           link: "/conversion/java/log-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "LOG к XLAM"
+        - name: "LOG в XLAM"
           link: "/conversion/java/log-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "LOG к XLS"
+        - name: "LOG в XLS"
           link: "/conversion/java/log-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "LOG к XLSB"
+        - name: "LOG в XLSB"
           link: "/conversion/java/log-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "LOG к XLSM"
+        - name: "LOG в XLSM"
           link: "/conversion/java/log-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "LOG к XLSX"
+        - name: "LOG в XLSX"
           link: "/conversion/java/log-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "LOG к XLT"
+        - name: "LOG в XLT"
           link: "/conversion/java/log-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "LOG к XLTM"
+        - name: "LOG в XLTM"
           link: "/conversion/java/log-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "LOG к XLTX"
+        - name: "LOG в XLTX"
           link: "/conversion/java/log-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "LOG к XPS"
+        - name: "LOG в XPS"
           link: "/conversion/java/log-to-xps/"
           description: "Спецификация документа Open XML"
 

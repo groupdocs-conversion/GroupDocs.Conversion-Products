@@ -127,337 +127,337 @@ more_formats:
         Вы также можете конвертировать PST во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PST к BMP"
+        - name: "PST в BMP"
           link: "/conversion/net/pst-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PST к CSV"
+        - name: "PST в CSV"
           link: "/conversion/net/pst-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PST к DCM"
+        - name: "PST в DCM"
           link: "/conversion/net/pst-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PST к DIF"
+        - name: "PST в DIF"
           link: "/conversion/net/pst-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PST к DOC"
+        - name: "PST в DOC"
           link: "/conversion/net/pst-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PST к DOCM"
+        - name: "PST в DOCM"
           link: "/conversion/net/pst-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PST к DOCX"
+        - name: "PST в DOCX"
           link: "/conversion/net/pst-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PST к DOT"
+        - name: "PST в DOT"
           link: "/conversion/net/pst-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PST к DOTM"
+        - name: "PST в DOTM"
           link: "/conversion/net/pst-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PST к DOTX"
+        - name: "PST в DOTX"
           link: "/conversion/net/pst-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PST к EMF"
+        - name: "PST в EMF"
           link: "/conversion/net/pst-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PST к EML"
+        - name: "PST в EML"
           link: "/conversion/net/pst-to-eml/"
           description: "Файл сообщения электронной почты"
 
         # format loop
-        - name: "PST к EMLX"
+        - name: "PST в EMLX"
           link: "/conversion/net/pst-to-emlx/"
           description: "Почтовое сообщение Apple"
 
         # format loop
-        - name: "PST к EMZ"
+        - name: "PST в EMZ"
           link: "/conversion/net/pst-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PST к EPUB"
+        - name: "PST в EPUB"
           link: "/conversion/net/pst-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PST к FODP"
+        - name: "PST в FODP"
           link: "/conversion/net/pst-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PST к FODS"
+        - name: "PST в FODS"
           link: "/conversion/net/pst-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PST к HTM"
+        - name: "PST в HTM"
           link: "/conversion/net/pst-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PST к HTML"
+        - name: "PST в HTML"
           link: "/conversion/net/pst-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PST к ICO"
+        - name: "PST в ICO"
           link: "/conversion/net/pst-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PST к JP2"
+        - name: "PST в JP2"
           link: "/conversion/net/pst-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PST к JPEG"
+        - name: "PST в JPEG"
           link: "/conversion/net/pst-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PST к JPG"
+        - name: "PST в JPG"
           link: "/conversion/net/pst-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PST к MD"
+        - name: "PST в MD"
           link: "/conversion/net/pst-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PST к MHT"
+        - name: "PST в MHT"
           link: "/conversion/net/pst-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PST к MHTML"
+        - name: "PST в MHTML"
           link: "/conversion/net/pst-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PST к MSG"
+        - name: "PST в MSG"
           link: "/conversion/net/pst-to-msg/"
           description: "Формат электронной почты Microsoft Outlook"
 
         # format loop
-        - name: "PST к ODG"
+        - name: "PST в ODG"
           link: "/conversion/net/pst-to-odg/"
           description: "Файл чертежа OpenDocument"
 
         # format loop
-        - name: "PST к ODP"
+        - name: "PST в ODP"
           link: "/conversion/net/pst-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PST к ODS"
+        - name: "PST в ODS"
           link: "/conversion/net/pst-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PST к ODT"
+        - name: "PST в ODT"
           link: "/conversion/net/pst-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PST к OTP"
+        - name: "PST в OTP"
           link: "/conversion/net/pst-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PST к OTT"
+        - name: "PST в OTT"
           link: "/conversion/net/pst-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PST к PDF"
+        - name: "PST в PDF"
           link: "/conversion/net/pst-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PST к PNG"
+        - name: "PST в PNG"
           link: "/conversion/net/pst-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PST к POT"
+        - name: "PST в POT"
           link: "/conversion/net/pst-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PST к POTM"
+        - name: "PST в POTM"
           link: "/conversion/net/pst-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PST к POTX"
+        - name: "PST в POTX"
           link: "/conversion/net/pst-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PST к PPS"
+        - name: "PST в PPS"
           link: "/conversion/net/pst-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PST к PPSM"
+        - name: "PST в PPSM"
           link: "/conversion/net/pst-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PST к PPSX"
+        - name: "PST в PPSX"
           link: "/conversion/net/pst-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PST к PPT"
+        - name: "PST в PPT"
           link: "/conversion/net/pst-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PST к PPTM"
+        - name: "PST в PPTM"
           link: "/conversion/net/pst-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PST к PPTX"
+        - name: "PST в PPTX"
           link: "/conversion/net/pst-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PST к PS"
+        - name: "PST в PS"
           link: "/conversion/net/pst-to-ps/"
           description: "Постскриптум (PS)"
 
         # format loop
-        - name: "PST к PSD"
+        - name: "PST в PSD"
           link: "/conversion/net/pst-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PST к RTF"
+        - name: "PST в RTF"
           link: "/conversion/net/pst-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PST к SVG"
+        - name: "PST в SVG"
           link: "/conversion/net/pst-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PST к SVGZ"
+        - name: "PST в SVGZ"
           link: "/conversion/net/pst-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PST к SXC"
+        - name: "PST в SXC"
           link: "/conversion/net/pst-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PST к TEX"
+        - name: "PST в TEX"
           link: "/conversion/net/pst-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PST к TIF"
+        - name: "PST в TIF"
           link: "/conversion/net/pst-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PST к TIFF"
+        - name: "PST в TIFF"
           link: "/conversion/net/pst-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PST к TSV"
+        - name: "PST в TSV"
           link: "/conversion/net/pst-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PST к TXT"
+        - name: "PST в TXT"
           link: "/conversion/net/pst-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PST к WEBP"
+        - name: "PST в WEBP"
           link: "/conversion/net/pst-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PST к WMF"
+        - name: "PST в WMF"
           link: "/conversion/net/pst-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PST к WMZ"
+        - name: "PST в WMZ"
           link: "/conversion/net/pst-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PST к XLAM"
+        - name: "PST в XLAM"
           link: "/conversion/net/pst-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PST к XLS"
+        - name: "PST в XLS"
           link: "/conversion/net/pst-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PST к XLSB"
+        - name: "PST в XLSB"
           link: "/conversion/net/pst-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PST к XLSM"
+        - name: "PST в XLSM"
           link: "/conversion/net/pst-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PST к XLSX"
+        - name: "PST в XLSX"
           link: "/conversion/net/pst-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PST к XLT"
+        - name: "PST в XLT"
           link: "/conversion/net/pst-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PST к XLTM"
+        - name: "PST в XLTM"
           link: "/conversion/net/pst-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PST к XLTX"
+        - name: "PST в XLTX"
           link: "/conversion/net/pst-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PST к XPS"
+        - name: "PST в XPS"
           link: "/conversion/net/pst-to-xps/"
           description: "Спецификация документа Open XML"
 

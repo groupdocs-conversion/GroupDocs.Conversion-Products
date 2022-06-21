@@ -128,317 +128,317 @@ more_formats:
         Вы также можете конвертировать MPX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MPX к BMP"
+        - name: "MPX в BMP"
           link: "/conversion/java/mpx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MPX к CSV"
+        - name: "MPX в CSV"
           link: "/conversion/java/mpx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MPX к DCM"
+        - name: "MPX в DCM"
           link: "/conversion/java/mpx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MPX к DIF"
+        - name: "MPX в DIF"
           link: "/conversion/java/mpx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MPX к DOC"
+        - name: "MPX в DOC"
           link: "/conversion/java/mpx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MPX к DOCM"
+        - name: "MPX в DOCM"
           link: "/conversion/java/mpx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MPX к DOCX"
+        - name: "MPX в DOCX"
           link: "/conversion/java/mpx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MPX к DOT"
+        - name: "MPX в DOT"
           link: "/conversion/java/mpx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MPX к DOTM"
+        - name: "MPX в DOTM"
           link: "/conversion/java/mpx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MPX к DOTX"
+        - name: "MPX в DOTX"
           link: "/conversion/java/mpx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MPX к EMF"
+        - name: "MPX в EMF"
           link: "/conversion/java/mpx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MPX к EMZ"
+        - name: "MPX в EMZ"
           link: "/conversion/java/mpx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MPX к EPUB"
+        - name: "MPX в EPUB"
           link: "/conversion/java/mpx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MPX к FODP"
+        - name: "MPX в FODP"
           link: "/conversion/java/mpx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MPX к FODS"
+        - name: "MPX в FODS"
           link: "/conversion/java/mpx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MPX к GIF"
+        - name: "MPX в GIF"
           link: "/conversion/java/mpx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MPX к HTM"
+        - name: "MPX в HTM"
           link: "/conversion/java/mpx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MPX к HTML"
+        - name: "MPX в HTML"
           link: "/conversion/java/mpx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MPX к ICO"
+        - name: "MPX в ICO"
           link: "/conversion/java/mpx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MPX к JP2"
+        - name: "MPX в JP2"
           link: "/conversion/java/mpx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MPX к JPEG"
+        - name: "MPX в JPEG"
           link: "/conversion/java/mpx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MPX к JPG"
+        - name: "MPX в JPG"
           link: "/conversion/java/mpx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MPX к MD"
+        - name: "MPX в MD"
           link: "/conversion/java/mpx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MPX к MHT"
+        - name: "MPX в MHT"
           link: "/conversion/java/mpx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MPX к MHTML"
+        - name: "MPX в MHTML"
           link: "/conversion/java/mpx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MPX к ODP"
+        - name: "MPX в ODP"
           link: "/conversion/java/mpx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MPX к ODS"
+        - name: "MPX в ODS"
           link: "/conversion/java/mpx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MPX к ODT"
+        - name: "MPX в ODT"
           link: "/conversion/java/mpx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MPX к OTP"
+        - name: "MPX в OTP"
           link: "/conversion/java/mpx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MPX к OTT"
+        - name: "MPX в OTT"
           link: "/conversion/java/mpx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MPX к PDF"
+        - name: "MPX в PDF"
           link: "/conversion/java/mpx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MPX к PNG"
+        - name: "MPX в PNG"
           link: "/conversion/java/mpx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MPX к POT"
+        - name: "MPX в POT"
           link: "/conversion/java/mpx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MPX к POTM"
+        - name: "MPX в POTM"
           link: "/conversion/java/mpx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MPX к POTX"
+        - name: "MPX в POTX"
           link: "/conversion/java/mpx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MPX к PPS"
+        - name: "MPX в PPS"
           link: "/conversion/java/mpx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MPX к PPSM"
+        - name: "MPX в PPSM"
           link: "/conversion/java/mpx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MPX к PPSX"
+        - name: "MPX в PPSX"
           link: "/conversion/java/mpx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MPX к PPT"
+        - name: "MPX в PPT"
           link: "/conversion/java/mpx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MPX к PPTM"
+        - name: "MPX в PPTM"
           link: "/conversion/java/mpx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MPX к PPTX"
+        - name: "MPX в PPTX"
           link: "/conversion/java/mpx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MPX к PSD"
+        - name: "MPX в PSD"
           link: "/conversion/java/mpx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MPX к RTF"
+        - name: "MPX в RTF"
           link: "/conversion/java/mpx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MPX к SVG"
+        - name: "MPX в SVG"
           link: "/conversion/java/mpx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MPX к SVGZ"
+        - name: "MPX в SVGZ"
           link: "/conversion/java/mpx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MPX к SXC"
+        - name: "MPX в SXC"
           link: "/conversion/java/mpx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MPX к TEX"
+        - name: "MPX в TEX"
           link: "/conversion/java/mpx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MPX к TIF"
+        - name: "MPX в TIF"
           link: "/conversion/java/mpx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MPX к TSV"
+        - name: "MPX в TSV"
           link: "/conversion/java/mpx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MPX к TXT"
+        - name: "MPX в TXT"
           link: "/conversion/java/mpx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MPX к WEBP"
+        - name: "MPX в WEBP"
           link: "/conversion/java/mpx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MPX к WMF"
+        - name: "MPX в WMF"
           link: "/conversion/java/mpx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MPX к WMZ"
+        - name: "MPX в WMZ"
           link: "/conversion/java/mpx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MPX к XLAM"
+        - name: "MPX в XLAM"
           link: "/conversion/java/mpx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPX к XLS"
+        - name: "MPX в XLS"
           link: "/conversion/java/mpx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MPX к XLS2003"
+        - name: "MPX в XLS2003"
           link: "/conversion/java/mpx-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "MPX к XLSB"
+        - name: "MPX в XLSB"
           link: "/conversion/java/mpx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MPX к XLSM"
+        - name: "MPX в XLSM"
           link: "/conversion/java/mpx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPX к XLSX"
+        - name: "MPX в XLSX"
           link: "/conversion/java/mpx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MPX к XLT"
+        - name: "MPX в XLT"
           link: "/conversion/java/mpx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MPX к XLTM"
+        - name: "MPX в XLTM"
           link: "/conversion/java/mpx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPX к XLTX"
+        - name: "MPX в XLTX"
           link: "/conversion/java/mpx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MPX к XPS"
+        - name: "MPX в XPS"
           link: "/conversion/java/mpx-to-xps/"
           description: "Спецификация документа Open XML"
 

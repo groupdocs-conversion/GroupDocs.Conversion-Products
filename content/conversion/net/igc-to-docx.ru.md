@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать IGC во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "IGC к EPUB"
+        - name: "IGC в EPUB"
           link: "https://products.groupdocs.com/conversion/net/igc-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "IGC к XPS"
+        - name: "IGC в XPS"
           link: "https://products.groupdocs.com/conversion/net/igc-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "IGC к TEX"
+        - name: "IGC в TEX"
           link: "https://products.groupdocs.com/conversion/net/igc-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "IGC к PPT"
+        - name: "IGC в PPT"
           link: "https://products.groupdocs.com/conversion/net/igc-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "IGC к PPS"
+        - name: "IGC в PPS"
           link: "https://products.groupdocs.com/conversion/net/igc-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IGC к PPTX"
+        - name: "IGC в PPTX"
           link: "https://products.groupdocs.com/conversion/net/igc-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "IGC к PPSX"
+        - name: "IGC в PPSX"
           link: "https://products.groupdocs.com/conversion/net/igc-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "IGC к ODP"
+        - name: "IGC в ODP"
           link: "https://products.groupdocs.com/conversion/net/igc-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "IGC к OTP"
+        - name: "IGC в OTP"
           link: "https://products.groupdocs.com/conversion/net/igc-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "IGC к POTX"
+        - name: "IGC в POTX"
           link: "https://products.groupdocs.com/conversion/net/igc-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IGC к POTM"
+        - name: "IGC в POTM"
           link: "https://products.groupdocs.com/conversion/net/igc-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IGC к PPTM"
+        - name: "IGC в PPTM"
           link: "https://products.groupdocs.com/conversion/net/igc-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "IGC к PPSM"
+        - name: "IGC в PPSM"
           link: "https://products.groupdocs.com/conversion/net/igc-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IGC к XLS"
+        - name: "IGC в XLS"
           link: "https://products.groupdocs.com/conversion/net/igc-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "IGC к XLSX"
+        - name: "IGC в XLSX"
           link: "https://products.groupdocs.com/conversion/net/igc-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "IGC к XLSM"
+        - name: "IGC в XLSM"
           link: "https://products.groupdocs.com/conversion/net/igc-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IGC к XLSB"
+        - name: "IGC в XLSB"
           link: "https://products.groupdocs.com/conversion/net/igc-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "IGC к ODS"
+        - name: "IGC в ODS"
           link: "https://products.groupdocs.com/conversion/net/igc-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "IGC к XLTX"
+        - name: "IGC в XLTX"
           link: "https://products.groupdocs.com/conversion/net/igc-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "IGC к XLTM"
+        - name: "IGC в XLTM"
           link: "https://products.groupdocs.com/conversion/net/igc-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IGC к TSV"
+        - name: "IGC в TSV"
           link: "https://products.groupdocs.com/conversion/net/igc-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "IGC к XLAM"
+        - name: "IGC в XLAM"
           link: "https://products.groupdocs.com/conversion/net/igc-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IGC к CSV"
+        - name: "IGC в CSV"
           link: "https://products.groupdocs.com/conversion/net/igc-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "IGC к DOC"
+        - name: "IGC в DOC"
           link: "https://products.groupdocs.com/conversion/net/igc-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "IGC к DOCM"
+        - name: "IGC в DOCM"
           link: "https://products.groupdocs.com/conversion/net/igc-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IGC к IGC"
+        - name: "IGC в IGC"
           link: "https://products.groupdocs.com/conversion/net/igc-to-igc/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "IGC к DOT"
+        - name: "IGC в DOT"
           link: "https://products.groupdocs.com/conversion/net/igc-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "IGC к DOTM"
+        - name: "IGC в DOTM"
           link: "https://products.groupdocs.com/conversion/net/igc-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IGC к DOTX"
+        - name: "IGC в DOTX"
           link: "https://products.groupdocs.com/conversion/net/igc-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "IGC к RTF"
+        - name: "IGC в RTF"
           link: "https://products.groupdocs.com/conversion/net/igc-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "IGC к ODT"
+        - name: "IGC в ODT"
           link: "https://products.groupdocs.com/conversion/net/igc-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "IGC к OTT"
+        - name: "IGC в OTT"
           link: "https://products.groupdocs.com/conversion/net/igc-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "IGC к TXT"
+        - name: "IGC в TXT"
           link: "https://products.groupdocs.com/conversion/net/igc-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "IGC к MD"
+        - name: "IGC в MD"
           link: "https://products.groupdocs.com/conversion/net/igc-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "IGC к TIFF"
+        - name: "IGC в TIFF"
           link: "https://products.groupdocs.com/conversion/net/igc-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IGC к TIF"
+        - name: "IGC в TIF"
           link: "https://products.groupdocs.com/conversion/net/igc-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IGC к JPG"
+        - name: "IGC в JPG"
           link: "https://products.groupdocs.com/conversion/net/igc-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "IGC к JPEG"
+        - name: "IGC в JPEG"
           link: "https://products.groupdocs.com/conversion/net/igc-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "IGC к PNG"
+        - name: "IGC в PNG"
           link: "https://products.groupdocs.com/conversion/net/igc-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "IGC к GIF"
+        - name: "IGC в GIF"
           link: "https://products.groupdocs.com/conversion/net/igc-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "IGC к BMP"
+        - name: "IGC в BMP"
           link: "https://products.groupdocs.com/conversion/net/igc-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "IGC к ICO"
+        - name: "IGC в ICO"
           link: "https://products.groupdocs.com/conversion/net/igc-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "IGC к PSD"
+        - name: "IGC в PSD"
           link: "https://products.groupdocs.com/conversion/net/igc-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "IGC к WMF"
+        - name: "IGC в WMF"
           link: "https://products.groupdocs.com/conversion/net/igc-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "IGC к EMF"
+        - name: "IGC в EMF"
           link: "https://products.groupdocs.com/conversion/net/igc-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "IGC к WEBP"
+        - name: "IGC в WEBP"
           link: "https://products.groupdocs.com/conversion/net/igc-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "IGC к SVG"
+        - name: "IGC в SVG"
           link: "https://products.groupdocs.com/conversion/net/igc-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "IGC к JP2"
+        - name: "IGC в JP2"
           link: "https://products.groupdocs.com/conversion/net/igc-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "IGC к EMZ"
+        - name: "IGC в EMZ"
           link: "https://products.groupdocs.com/conversion/net/igc-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "IGC к WMZ"
+        - name: "IGC в WMZ"
           link: "https://products.groupdocs.com/conversion/net/igc-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "IGC к HTML"
+        - name: "IGC в HTML"
           link: "https://products.groupdocs.com/conversion/net/igc-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "IGC к MHT"
+        - name: "IGC в MHT"
           link: "https://products.groupdocs.com/conversion/net/igc-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "IGC к MHTML"
+        - name: "IGC в MHTML"
           link: "https://products.groupdocs.com/conversion/net/igc-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

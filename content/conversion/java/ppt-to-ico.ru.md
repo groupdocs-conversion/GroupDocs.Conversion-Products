@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать PPT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PPT к BMP"
+        - name: "PPT в BMP"
           link: "/conversion/java/ppt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PPT к CSV"
+        - name: "PPT в CSV"
           link: "/conversion/java/ppt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PPT к DCM"
+        - name: "PPT в DCM"
           link: "/conversion/java/ppt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PPT к DIF"
+        - name: "PPT в DIF"
           link: "/conversion/java/ppt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PPT к DOC"
+        - name: "PPT в DOC"
           link: "/conversion/java/ppt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PPT к DOCM"
+        - name: "PPT в DOCM"
           link: "/conversion/java/ppt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPT к DOCX"
+        - name: "PPT в DOCX"
           link: "/conversion/java/ppt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PPT к DOT"
+        - name: "PPT в DOT"
           link: "/conversion/java/ppt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PPT к DOTM"
+        - name: "PPT в DOTM"
           link: "/conversion/java/ppt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PPT к DOTX"
+        - name: "PPT в DOTX"
           link: "/conversion/java/ppt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PPT к EMF"
+        - name: "PPT в EMF"
           link: "/conversion/java/ppt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PPT к EMZ"
+        - name: "PPT в EMZ"
           link: "/conversion/java/ppt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PPT к EPUB"
+        - name: "PPT в EPUB"
           link: "/conversion/java/ppt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PPT к FODP"
+        - name: "PPT в FODP"
           link: "/conversion/java/ppt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PPT к FODS"
+        - name: "PPT в FODS"
           link: "/conversion/java/ppt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PPT к GIF"
+        - name: "PPT в GIF"
           link: "/conversion/java/ppt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PPT к HTM"
+        - name: "PPT в HTM"
           link: "/conversion/java/ppt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PPT к HTML"
+        - name: "PPT в HTML"
           link: "/conversion/java/ppt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PPT к JP2"
+        - name: "PPT в JP2"
           link: "/conversion/java/ppt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PPT к JPEG"
+        - name: "PPT в JPEG"
           link: "/conversion/java/ppt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PPT к JPG"
+        - name: "PPT в JPG"
           link: "/conversion/java/ppt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PPT к MD"
+        - name: "PPT в MD"
           link: "/conversion/java/ppt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PPT к MHT"
+        - name: "PPT в MHT"
           link: "/conversion/java/ppt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPT к MHTML"
+        - name: "PPT в MHTML"
           link: "/conversion/java/ppt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PPT к ODP"
+        - name: "PPT в ODP"
           link: "/conversion/java/ppt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PPT к ODS"
+        - name: "PPT в ODS"
           link: "/conversion/java/ppt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PPT к ODT"
+        - name: "PPT в ODT"
           link: "/conversion/java/ppt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PPT к OTP"
+        - name: "PPT в OTP"
           link: "/conversion/java/ppt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PPT к OTT"
+        - name: "PPT в OTT"
           link: "/conversion/java/ppt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PPT к PDF"
+        - name: "PPT в PDF"
           link: "/conversion/java/ppt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PPT к PNG"
+        - name: "PPT в PNG"
           link: "/conversion/java/ppt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PPT к POT"
+        - name: "PPT в POT"
           link: "/conversion/java/ppt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PPT к POTM"
+        - name: "PPT в POTM"
           link: "/conversion/java/ppt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPT к POTX"
+        - name: "PPT в POTX"
           link: "/conversion/java/ppt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PPT к PPS"
+        - name: "PPT в PPS"
           link: "/conversion/java/ppt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPT к PPSM"
+        - name: "PPT в PPSM"
           link: "/conversion/java/ppt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PPT к PPSX"
+        - name: "PPT в PPSX"
           link: "/conversion/java/ppt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PPT к PPTM"
+        - name: "PPT в PPTM"
           link: "/conversion/java/ppt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PPT к PPTX"
+        - name: "PPT в PPTX"
           link: "/conversion/java/ppt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PPT к PSD"
+        - name: "PPT в PSD"
           link: "/conversion/java/ppt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PPT к RTF"
+        - name: "PPT в RTF"
           link: "/conversion/java/ppt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PPT к SVG"
+        - name: "PPT в SVG"
           link: "/conversion/java/ppt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPT к SVGZ"
+        - name: "PPT в SVGZ"
           link: "/conversion/java/ppt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PPT к SXC"
+        - name: "PPT в SXC"
           link: "/conversion/java/ppt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PPT к TEX"
+        - name: "PPT в TEX"
           link: "/conversion/java/ppt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PPT к TIF"
+        - name: "PPT в TIF"
           link: "/conversion/java/ppt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPT к TIFF"
+        - name: "PPT в TIFF"
           link: "/conversion/java/ppt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PPT к TSV"
+        - name: "PPT в TSV"
           link: "/conversion/java/ppt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PPT к TXT"
+        - name: "PPT в TXT"
           link: "/conversion/java/ppt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PPT к WEBP"
+        - name: "PPT в WEBP"
           link: "/conversion/java/ppt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PPT к WMF"
+        - name: "PPT в WMF"
           link: "/conversion/java/ppt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "PPT к WMZ"
+        - name: "PPT в WMZ"
           link: "/conversion/java/ppt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PPT к XLAM"
+        - name: "PPT в XLAM"
           link: "/conversion/java/ppt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPT к XLS"
+        - name: "PPT в XLS"
           link: "/conversion/java/ppt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PPT к XLSB"
+        - name: "PPT в XLSB"
           link: "/conversion/java/ppt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PPT к XLSM"
+        - name: "PPT в XLSM"
           link: "/conversion/java/ppt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPT к XLSX"
+        - name: "PPT в XLSX"
           link: "/conversion/java/ppt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PPT к XLT"
+        - name: "PPT в XLT"
           link: "/conversion/java/ppt-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPT к XLTM"
+        - name: "PPT в XLTM"
           link: "/conversion/java/ppt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PPT к XLTX"
+        - name: "PPT в XLTX"
           link: "/conversion/java/ppt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PPT к XPS"
+        - name: "PPT в XPS"
           link: "/conversion/java/ppt-to-xps/"
           description: "Спецификация документа Open XML"
 

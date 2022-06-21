@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать VTX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VTX к BMP"
+        - name: "VTX в BMP"
           link: "/conversion/java/vtx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VTX к CSV"
+        - name: "VTX в CSV"
           link: "/conversion/java/vtx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VTX к DCM"
+        - name: "VTX в DCM"
           link: "/conversion/java/vtx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VTX к DIF"
+        - name: "VTX в DIF"
           link: "/conversion/java/vtx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VTX к DOC"
+        - name: "VTX в DOC"
           link: "/conversion/java/vtx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VTX к DOCM"
+        - name: "VTX в DOCM"
           link: "/conversion/java/vtx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VTX к DOCX"
+        - name: "VTX в DOCX"
           link: "/conversion/java/vtx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VTX к DOT"
+        - name: "VTX в DOT"
           link: "/conversion/java/vtx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VTX к DOTM"
+        - name: "VTX в DOTM"
           link: "/conversion/java/vtx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VTX к DOTX"
+        - name: "VTX в DOTX"
           link: "/conversion/java/vtx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VTX к EMF"
+        - name: "VTX в EMF"
           link: "/conversion/java/vtx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VTX к EMZ"
+        - name: "VTX в EMZ"
           link: "/conversion/java/vtx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VTX к EPUB"
+        - name: "VTX в EPUB"
           link: "/conversion/java/vtx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VTX к FODP"
+        - name: "VTX в FODP"
           link: "/conversion/java/vtx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VTX к FODS"
+        - name: "VTX в FODS"
           link: "/conversion/java/vtx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VTX к HTM"
+        - name: "VTX в HTM"
           link: "/conversion/java/vtx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VTX к HTML"
+        - name: "VTX в HTML"
           link: "/conversion/java/vtx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VTX к ICO"
+        - name: "VTX в ICO"
           link: "/conversion/java/vtx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VTX к JP2"
+        - name: "VTX в JP2"
           link: "/conversion/java/vtx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VTX к JPEG"
+        - name: "VTX в JPEG"
           link: "/conversion/java/vtx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VTX к JPG"
+        - name: "VTX в JPG"
           link: "/conversion/java/vtx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VTX к MD"
+        - name: "VTX в MD"
           link: "/conversion/java/vtx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VTX к MHT"
+        - name: "VTX в MHT"
           link: "/conversion/java/vtx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VTX к MHTML"
+        - name: "VTX в MHTML"
           link: "/conversion/java/vtx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VTX к ODP"
+        - name: "VTX в ODP"
           link: "/conversion/java/vtx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VTX к ODS"
+        - name: "VTX в ODS"
           link: "/conversion/java/vtx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VTX к ODT"
+        - name: "VTX в ODT"
           link: "/conversion/java/vtx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VTX к OTP"
+        - name: "VTX в OTP"
           link: "/conversion/java/vtx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VTX к OTT"
+        - name: "VTX в OTT"
           link: "/conversion/java/vtx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VTX к PDF"
+        - name: "VTX в PDF"
           link: "/conversion/java/vtx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VTX к PNG"
+        - name: "VTX в PNG"
           link: "/conversion/java/vtx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VTX к POT"
+        - name: "VTX в POT"
           link: "/conversion/java/vtx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VTX к POTM"
+        - name: "VTX в POTM"
           link: "/conversion/java/vtx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VTX к POTX"
+        - name: "VTX в POTX"
           link: "/conversion/java/vtx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VTX к PPS"
+        - name: "VTX в PPS"
           link: "/conversion/java/vtx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VTX к PPSM"
+        - name: "VTX в PPSM"
           link: "/conversion/java/vtx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VTX к PPSX"
+        - name: "VTX в PPSX"
           link: "/conversion/java/vtx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VTX к PPT"
+        - name: "VTX в PPT"
           link: "/conversion/java/vtx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VTX к PPTM"
+        - name: "VTX в PPTM"
           link: "/conversion/java/vtx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VTX к PPTX"
+        - name: "VTX в PPTX"
           link: "/conversion/java/vtx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VTX к PSD"
+        - name: "VTX в PSD"
           link: "/conversion/java/vtx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VTX к RTF"
+        - name: "VTX в RTF"
           link: "/conversion/java/vtx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VTX к SVG"
+        - name: "VTX в SVG"
           link: "/conversion/java/vtx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VTX к SVGZ"
+        - name: "VTX в SVGZ"
           link: "/conversion/java/vtx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VTX к SXC"
+        - name: "VTX в SXC"
           link: "/conversion/java/vtx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VTX к TEX"
+        - name: "VTX в TEX"
           link: "/conversion/java/vtx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VTX к TIF"
+        - name: "VTX в TIF"
           link: "/conversion/java/vtx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VTX к TIFF"
+        - name: "VTX в TIFF"
           link: "/conversion/java/vtx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VTX к TSV"
+        - name: "VTX в TSV"
           link: "/conversion/java/vtx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VTX к TXT"
+        - name: "VTX в TXT"
           link: "/conversion/java/vtx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VTX к WEBP"
+        - name: "VTX в WEBP"
           link: "/conversion/java/vtx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VTX к WMF"
+        - name: "VTX в WMF"
           link: "/conversion/java/vtx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VTX к WMZ"
+        - name: "VTX в WMZ"
           link: "/conversion/java/vtx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VTX к XLAM"
+        - name: "VTX в XLAM"
           link: "/conversion/java/vtx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VTX к XLS"
+        - name: "VTX в XLS"
           link: "/conversion/java/vtx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VTX к XLSB"
+        - name: "VTX в XLSB"
           link: "/conversion/java/vtx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VTX к XLSM"
+        - name: "VTX в XLSM"
           link: "/conversion/java/vtx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VTX к XLSX"
+        - name: "VTX в XLSX"
           link: "/conversion/java/vtx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VTX к XLT"
+        - name: "VTX в XLT"
           link: "/conversion/java/vtx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VTX к XLTM"
+        - name: "VTX в XLTM"
           link: "/conversion/java/vtx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VTX к XLTX"
+        - name: "VTX в XLTX"
           link: "/conversion/java/vtx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VTX к XPS"
+        - name: "VTX в XPS"
           link: "/conversion/java/vtx-to-xps/"
           description: "Спецификация документа Open XML"
 

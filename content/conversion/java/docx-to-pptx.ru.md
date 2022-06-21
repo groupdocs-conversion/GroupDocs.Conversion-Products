@@ -128,317 +128,317 @@ more_formats:
         Вы также можете конвертировать DOCX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DOCX к BMP"
+        - name: "DOCX в BMP"
           link: "/conversion/java/docx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DOCX к CSV"
+        - name: "DOCX в CSV"
           link: "/conversion/java/docx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DOCX к DCM"
+        - name: "DOCX в DCM"
           link: "/conversion/java/docx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DOCX к DIF"
+        - name: "DOCX в DIF"
           link: "/conversion/java/docx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DOCX к DOC"
+        - name: "DOCX в DOC"
           link: "/conversion/java/docx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DOCX к DOCM"
+        - name: "DOCX в DOCM"
           link: "/conversion/java/docx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOCX к DOT"
+        - name: "DOCX в DOT"
           link: "/conversion/java/docx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DOCX к DOTM"
+        - name: "DOCX в DOTM"
           link: "/conversion/java/docx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOCX к DOTX"
+        - name: "DOCX в DOTX"
           link: "/conversion/java/docx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DOCX к EMF"
+        - name: "DOCX в EMF"
           link: "/conversion/java/docx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DOCX к EMZ"
+        - name: "DOCX в EMZ"
           link: "/conversion/java/docx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DOCX к EPUB"
+        - name: "DOCX в EPUB"
           link: "/conversion/java/docx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DOCX к FODP"
+        - name: "DOCX в FODP"
           link: "/conversion/java/docx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DOCX к FODS"
+        - name: "DOCX в FODS"
           link: "/conversion/java/docx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DOCX к GIF"
+        - name: "DOCX в GIF"
           link: "/conversion/java/docx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DOCX к HTM"
+        - name: "DOCX в HTM"
           link: "/conversion/java/docx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DOCX к HTML"
+        - name: "DOCX в HTML"
           link: "/conversion/java/docx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DOCX к ICO"
+        - name: "DOCX в ICO"
           link: "/conversion/java/docx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DOCX к JP2"
+        - name: "DOCX в JP2"
           link: "/conversion/java/docx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DOCX к JPEG"
+        - name: "DOCX в JPEG"
           link: "/conversion/java/docx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DOCX к JPG"
+        - name: "DOCX в JPG"
           link: "/conversion/java/docx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DOCX к MD"
+        - name: "DOCX в MD"
           link: "/conversion/java/docx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DOCX к MHT"
+        - name: "DOCX в MHT"
           link: "/conversion/java/docx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOCX к MHTML"
+        - name: "DOCX в MHTML"
           link: "/conversion/java/docx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOCX к MOBI"
+        - name: "DOCX в MOBI"
           link: "/conversion/java/docx-to-mobi/"
           description: "Электронная книга Mobipocket"
 
         # format loop
-        - name: "DOCX к ODP"
+        - name: "DOCX в ODP"
           link: "/conversion/java/docx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DOCX к ODS"
+        - name: "DOCX в ODS"
           link: "/conversion/java/docx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DOCX к ODT"
+        - name: "DOCX в ODT"
           link: "/conversion/java/docx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DOCX к OTP"
+        - name: "DOCX в OTP"
           link: "/conversion/java/docx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DOCX к OTT"
+        - name: "DOCX в OTT"
           link: "/conversion/java/docx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DOCX к PDF"
+        - name: "DOCX в PDF"
           link: "/conversion/java/docx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DOCX к PNG"
+        - name: "DOCX в PNG"
           link: "/conversion/java/docx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DOCX к POT"
+        - name: "DOCX в POT"
           link: "/conversion/java/docx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DOCX к POTM"
+        - name: "DOCX в POTM"
           link: "/conversion/java/docx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOCX к POTX"
+        - name: "DOCX в POTX"
           link: "/conversion/java/docx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOCX к PPS"
+        - name: "DOCX в PPS"
           link: "/conversion/java/docx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOCX к PPSM"
+        - name: "DOCX в PPSM"
           link: "/conversion/java/docx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOCX к PPSX"
+        - name: "DOCX в PPSX"
           link: "/conversion/java/docx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DOCX к PPT"
+        - name: "DOCX в PPT"
           link: "/conversion/java/docx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DOCX к PPTM"
+        - name: "DOCX в PPTM"
           link: "/conversion/java/docx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DOCX к PSD"
+        - name: "DOCX в PSD"
           link: "/conversion/java/docx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DOCX к RTF"
+        - name: "DOCX в RTF"
           link: "/conversion/java/docx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DOCX к SVG"
+        - name: "DOCX в SVG"
           link: "/conversion/java/docx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOCX к SVGZ"
+        - name: "DOCX в SVGZ"
           link: "/conversion/java/docx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOCX к SXC"
+        - name: "DOCX в SXC"
           link: "/conversion/java/docx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DOCX к TEX"
+        - name: "DOCX в TEX"
           link: "/conversion/java/docx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DOCX к TIF"
+        - name: "DOCX в TIF"
           link: "/conversion/java/docx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOCX к TIFF"
+        - name: "DOCX в TIFF"
           link: "/conversion/java/docx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOCX к TSV"
+        - name: "DOCX в TSV"
           link: "/conversion/java/docx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DOCX к TXT"
+        - name: "DOCX в TXT"
           link: "/conversion/java/docx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DOCX к WEBP"
+        - name: "DOCX в WEBP"
           link: "/conversion/java/docx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DOCX к WMF"
+        - name: "DOCX в WMF"
           link: "/conversion/java/docx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DOCX к WMZ"
+        - name: "DOCX в WMZ"
           link: "/conversion/java/docx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DOCX к XLAM"
+        - name: "DOCX в XLAM"
           link: "/conversion/java/docx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOCX к XLS"
+        - name: "DOCX в XLS"
           link: "/conversion/java/docx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DOCX к XLS2003"
+        - name: "DOCX в XLS2003"
           link: "/conversion/java/docx-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "DOCX к XLSB"
+        - name: "DOCX в XLSB"
           link: "/conversion/java/docx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DOCX к XLSM"
+        - name: "DOCX в XLSM"
           link: "/conversion/java/docx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOCX к XLSX"
+        - name: "DOCX в XLSX"
           link: "/conversion/java/docx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DOCX к XLT"
+        - name: "DOCX в XLT"
           link: "/conversion/java/docx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOCX к XLTM"
+        - name: "DOCX в XLTM"
           link: "/conversion/java/docx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOCX к XLTX"
+        - name: "DOCX в XLTX"
           link: "/conversion/java/docx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOCX к XPS"
+        - name: "DOCX в XPS"
           link: "/conversion/java/docx-to-xps/"
           description: "Спецификация документа Open XML"
 

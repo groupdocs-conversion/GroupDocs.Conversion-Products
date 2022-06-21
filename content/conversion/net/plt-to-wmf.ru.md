@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать PLT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "PLT к BMP"
+        - name: "PLT в BMP"
           link: "/conversion/net/plt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "PLT к CSV"
+        - name: "PLT в CSV"
           link: "/conversion/net/plt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "PLT к DCM"
+        - name: "PLT в DCM"
           link: "/conversion/net/plt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "PLT к DIF"
+        - name: "PLT в DIF"
           link: "/conversion/net/plt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "PLT к DOC"
+        - name: "PLT в DOC"
           link: "/conversion/net/plt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "PLT к DOCM"
+        - name: "PLT в DOCM"
           link: "/conversion/net/plt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PLT к DOCX"
+        - name: "PLT в DOCX"
           link: "/conversion/net/plt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "PLT к DOT"
+        - name: "PLT в DOT"
           link: "/conversion/net/plt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "PLT к DOTM"
+        - name: "PLT в DOTM"
           link: "/conversion/net/plt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "PLT к DOTX"
+        - name: "PLT в DOTX"
           link: "/conversion/net/plt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "PLT к EMF"
+        - name: "PLT в EMF"
           link: "/conversion/net/plt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "PLT к EMZ"
+        - name: "PLT в EMZ"
           link: "/conversion/net/plt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "PLT к EPUB"
+        - name: "PLT в EPUB"
           link: "/conversion/net/plt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "PLT к FODP"
+        - name: "PLT в FODP"
           link: "/conversion/net/plt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "PLT к FODS"
+        - name: "PLT в FODS"
           link: "/conversion/net/plt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "PLT к GIF"
+        - name: "PLT в GIF"
           link: "/conversion/net/plt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "PLT к HTM"
+        - name: "PLT в HTM"
           link: "/conversion/net/plt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "PLT к HTML"
+        - name: "PLT в HTML"
           link: "/conversion/net/plt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "PLT к ICO"
+        - name: "PLT в ICO"
           link: "/conversion/net/plt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "PLT к JP2"
+        - name: "PLT в JP2"
           link: "/conversion/net/plt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "PLT к JPEG"
+        - name: "PLT в JPEG"
           link: "/conversion/net/plt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "PLT к JPG"
+        - name: "PLT в JPG"
           link: "/conversion/net/plt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "PLT к MD"
+        - name: "PLT в MD"
           link: "/conversion/net/plt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "PLT к MHT"
+        - name: "PLT в MHT"
           link: "/conversion/net/plt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PLT к MHTML"
+        - name: "PLT в MHTML"
           link: "/conversion/net/plt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "PLT к ODP"
+        - name: "PLT в ODP"
           link: "/conversion/net/plt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "PLT к ODS"
+        - name: "PLT в ODS"
           link: "/conversion/net/plt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "PLT к ODT"
+        - name: "PLT в ODT"
           link: "/conversion/net/plt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "PLT к OTP"
+        - name: "PLT в OTP"
           link: "/conversion/net/plt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "PLT к OTT"
+        - name: "PLT в OTT"
           link: "/conversion/net/plt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "PLT к PDF"
+        - name: "PLT в PDF"
           link: "/conversion/net/plt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "PLT к PNG"
+        - name: "PLT в PNG"
           link: "/conversion/net/plt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "PLT к POT"
+        - name: "PLT в POT"
           link: "/conversion/net/plt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "PLT к POTM"
+        - name: "PLT в POTM"
           link: "/conversion/net/plt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PLT к POTX"
+        - name: "PLT в POTX"
           link: "/conversion/net/plt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "PLT к PPS"
+        - name: "PLT в PPS"
           link: "/conversion/net/plt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PLT к PPSM"
+        - name: "PLT в PPSM"
           link: "/conversion/net/plt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "PLT к PPSX"
+        - name: "PLT в PPSX"
           link: "/conversion/net/plt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "PLT к PPT"
+        - name: "PLT в PPT"
           link: "/conversion/net/plt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "PLT к PPTM"
+        - name: "PLT в PPTM"
           link: "/conversion/net/plt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "PLT к PPTX"
+        - name: "PLT в PPTX"
           link: "/conversion/net/plt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "PLT к PSD"
+        - name: "PLT в PSD"
           link: "/conversion/net/plt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "PLT к RTF"
+        - name: "PLT в RTF"
           link: "/conversion/net/plt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "PLT к SVG"
+        - name: "PLT в SVG"
           link: "/conversion/net/plt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PLT к SVGZ"
+        - name: "PLT в SVGZ"
           link: "/conversion/net/plt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "PLT к SXC"
+        - name: "PLT в SXC"
           link: "/conversion/net/plt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "PLT к TEX"
+        - name: "PLT в TEX"
           link: "/conversion/net/plt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "PLT к TIF"
+        - name: "PLT в TIF"
           link: "/conversion/net/plt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PLT к TIFF"
+        - name: "PLT в TIFF"
           link: "/conversion/net/plt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "PLT к TSV"
+        - name: "PLT в TSV"
           link: "/conversion/net/plt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "PLT к TXT"
+        - name: "PLT в TXT"
           link: "/conversion/net/plt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "PLT к WEBP"
+        - name: "PLT в WEBP"
           link: "/conversion/net/plt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "PLT к WMZ"
+        - name: "PLT в WMZ"
           link: "/conversion/net/plt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "PLT к XLAM"
+        - name: "PLT в XLAM"
           link: "/conversion/net/plt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PLT к XLS"
+        - name: "PLT в XLS"
           link: "/conversion/net/plt-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "PLT к XLSB"
+        - name: "PLT в XLSB"
           link: "/conversion/net/plt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "PLT к XLSM"
+        - name: "PLT в XLSM"
           link: "/conversion/net/plt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PLT к XLSX"
+        - name: "PLT в XLSX"
           link: "/conversion/net/plt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "PLT к XLT"
+        - name: "PLT в XLT"
           link: "/conversion/net/plt-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "PLT к XLTM"
+        - name: "PLT в XLTM"
           link: "/conversion/net/plt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "PLT к XLTX"
+        - name: "PLT в XLTX"
           link: "/conversion/net/plt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "PLT к XPS"
+        - name: "PLT в XPS"
           link: "/conversion/net/plt-to-xps/"
           description: "Спецификация документа Open XML"
 

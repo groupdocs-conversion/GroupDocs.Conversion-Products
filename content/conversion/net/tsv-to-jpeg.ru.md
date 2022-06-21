@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать TSV во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "TSV к BMP"
+        - name: "TSV в BMP"
           link: "/conversion/net/tsv-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "TSV к CSV"
+        - name: "TSV в CSV"
           link: "/conversion/net/tsv-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "TSV к DCM"
+        - name: "TSV в DCM"
           link: "/conversion/net/tsv-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "TSV к DIF"
+        - name: "TSV в DIF"
           link: "/conversion/net/tsv-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "TSV к DOC"
+        - name: "TSV в DOC"
           link: "/conversion/net/tsv-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "TSV к DOCM"
+        - name: "TSV в DOCM"
           link: "/conversion/net/tsv-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TSV к DOCX"
+        - name: "TSV в DOCX"
           link: "/conversion/net/tsv-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "TSV к DOT"
+        - name: "TSV в DOT"
           link: "/conversion/net/tsv-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "TSV к DOTM"
+        - name: "TSV в DOTM"
           link: "/conversion/net/tsv-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TSV к DOTX"
+        - name: "TSV в DOTX"
           link: "/conversion/net/tsv-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "TSV к EMF"
+        - name: "TSV в EMF"
           link: "/conversion/net/tsv-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "TSV к EMZ"
+        - name: "TSV в EMZ"
           link: "/conversion/net/tsv-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "TSV к EPUB"
+        - name: "TSV в EPUB"
           link: "/conversion/net/tsv-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "TSV к FODP"
+        - name: "TSV в FODP"
           link: "/conversion/net/tsv-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "TSV к FODS"
+        - name: "TSV в FODS"
           link: "/conversion/net/tsv-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "TSV к GIF"
+        - name: "TSV в GIF"
           link: "/conversion/net/tsv-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "TSV к HTM"
+        - name: "TSV в HTM"
           link: "/conversion/net/tsv-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "TSV к HTML"
+        - name: "TSV в HTML"
           link: "/conversion/net/tsv-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "TSV к ICO"
+        - name: "TSV в ICO"
           link: "/conversion/net/tsv-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "TSV к JP2"
+        - name: "TSV в JP2"
           link: "/conversion/net/tsv-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "TSV к JPG"
+        - name: "TSV в JPG"
           link: "/conversion/net/tsv-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "TSV к MD"
+        - name: "TSV в MD"
           link: "/conversion/net/tsv-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "TSV к MHT"
+        - name: "TSV в MHT"
           link: "/conversion/net/tsv-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TSV к MHTML"
+        - name: "TSV в MHTML"
           link: "/conversion/net/tsv-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TSV к ODP"
+        - name: "TSV в ODP"
           link: "/conversion/net/tsv-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "TSV к ODS"
+        - name: "TSV в ODS"
           link: "/conversion/net/tsv-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "TSV к ODT"
+        - name: "TSV в ODT"
           link: "/conversion/net/tsv-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "TSV к OTP"
+        - name: "TSV в OTP"
           link: "/conversion/net/tsv-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "TSV к OTT"
+        - name: "TSV в OTT"
           link: "/conversion/net/tsv-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "TSV к PDF"
+        - name: "TSV в PDF"
           link: "/conversion/net/tsv-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "TSV к PNG"
+        - name: "TSV в PNG"
           link: "/conversion/net/tsv-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "TSV к POT"
+        - name: "TSV в POT"
           link: "/conversion/net/tsv-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "TSV к POTM"
+        - name: "TSV в POTM"
           link: "/conversion/net/tsv-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TSV к POTX"
+        - name: "TSV в POTX"
           link: "/conversion/net/tsv-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TSV к PPS"
+        - name: "TSV в PPS"
           link: "/conversion/net/tsv-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TSV к PPSM"
+        - name: "TSV в PPSM"
           link: "/conversion/net/tsv-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TSV к PPSX"
+        - name: "TSV в PPSX"
           link: "/conversion/net/tsv-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "TSV к PPT"
+        - name: "TSV в PPT"
           link: "/conversion/net/tsv-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "TSV к PPTM"
+        - name: "TSV в PPTM"
           link: "/conversion/net/tsv-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "TSV к PPTX"
+        - name: "TSV в PPTX"
           link: "/conversion/net/tsv-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "TSV к PSD"
+        - name: "TSV в PSD"
           link: "/conversion/net/tsv-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "TSV к RTF"
+        - name: "TSV в RTF"
           link: "/conversion/net/tsv-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "TSV к SVG"
+        - name: "TSV в SVG"
           link: "/conversion/net/tsv-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TSV к SVGZ"
+        - name: "TSV в SVGZ"
           link: "/conversion/net/tsv-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TSV к SXC"
+        - name: "TSV в SXC"
           link: "/conversion/net/tsv-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "TSV к TEX"
+        - name: "TSV в TEX"
           link: "/conversion/net/tsv-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "TSV к TIF"
+        - name: "TSV в TIF"
           link: "/conversion/net/tsv-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TSV к TIFF"
+        - name: "TSV в TIFF"
           link: "/conversion/net/tsv-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TSV к TXT"
+        - name: "TSV в TXT"
           link: "/conversion/net/tsv-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "TSV к WEBP"
+        - name: "TSV в WEBP"
           link: "/conversion/net/tsv-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "TSV к WMF"
+        - name: "TSV в WMF"
           link: "/conversion/net/tsv-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "TSV к WMZ"
+        - name: "TSV в WMZ"
           link: "/conversion/net/tsv-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "TSV к XLAM"
+        - name: "TSV в XLAM"
           link: "/conversion/net/tsv-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TSV к XLS"
+        - name: "TSV в XLS"
           link: "/conversion/net/tsv-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "TSV к XLSB"
+        - name: "TSV в XLSB"
           link: "/conversion/net/tsv-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "TSV к XLSM"
+        - name: "TSV в XLSM"
           link: "/conversion/net/tsv-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TSV к XLSX"
+        - name: "TSV в XLSX"
           link: "/conversion/net/tsv-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "TSV к XLT"
+        - name: "TSV в XLT"
           link: "/conversion/net/tsv-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "TSV к XLTM"
+        - name: "TSV в XLTM"
           link: "/conversion/net/tsv-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TSV к XLTX"
+        - name: "TSV в XLTX"
           link: "/conversion/net/tsv-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "TSV к XPS"
+        - name: "TSV в XPS"
           link: "/conversion/net/tsv-to-xps/"
           description: "Спецификация документа Open XML"
 

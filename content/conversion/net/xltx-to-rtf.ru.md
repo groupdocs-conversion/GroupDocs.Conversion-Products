@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать XLTX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "XLTX к BMP"
+        - name: "XLTX в BMP"
           link: "/conversion/net/xltx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "XLTX к CSV"
+        - name: "XLTX в CSV"
           link: "/conversion/net/xltx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "XLTX к DCM"
+        - name: "XLTX в DCM"
           link: "/conversion/net/xltx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "XLTX к DIF"
+        - name: "XLTX в DIF"
           link: "/conversion/net/xltx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "XLTX к DOC"
+        - name: "XLTX в DOC"
           link: "/conversion/net/xltx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "XLTX к DOCM"
+        - name: "XLTX в DOCM"
           link: "/conversion/net/xltx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLTX к DOCX"
+        - name: "XLTX в DOCX"
           link: "/conversion/net/xltx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "XLTX к DOT"
+        - name: "XLTX в DOT"
           link: "/conversion/net/xltx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "XLTX к DOTM"
+        - name: "XLTX в DOTM"
           link: "/conversion/net/xltx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XLTX к DOTX"
+        - name: "XLTX в DOTX"
           link: "/conversion/net/xltx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "XLTX к EMF"
+        - name: "XLTX в EMF"
           link: "/conversion/net/xltx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "XLTX к EMZ"
+        - name: "XLTX в EMZ"
           link: "/conversion/net/xltx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "XLTX к EPUB"
+        - name: "XLTX в EPUB"
           link: "/conversion/net/xltx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "XLTX к FODP"
+        - name: "XLTX в FODP"
           link: "/conversion/net/xltx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "XLTX к FODS"
+        - name: "XLTX в FODS"
           link: "/conversion/net/xltx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "XLTX к GIF"
+        - name: "XLTX в GIF"
           link: "/conversion/net/xltx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "XLTX к HTM"
+        - name: "XLTX в HTM"
           link: "/conversion/net/xltx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "XLTX к HTML"
+        - name: "XLTX в HTML"
           link: "/conversion/net/xltx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "XLTX к ICO"
+        - name: "XLTX в ICO"
           link: "/conversion/net/xltx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "XLTX к JP2"
+        - name: "XLTX в JP2"
           link: "/conversion/net/xltx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "XLTX к JPEG"
+        - name: "XLTX в JPEG"
           link: "/conversion/net/xltx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "XLTX к JPG"
+        - name: "XLTX в JPG"
           link: "/conversion/net/xltx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "XLTX к MD"
+        - name: "XLTX в MD"
           link: "/conversion/net/xltx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "XLTX к MHT"
+        - name: "XLTX в MHT"
           link: "/conversion/net/xltx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLTX к MHTML"
+        - name: "XLTX в MHTML"
           link: "/conversion/net/xltx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XLTX к ODP"
+        - name: "XLTX в ODP"
           link: "/conversion/net/xltx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "XLTX к ODS"
+        - name: "XLTX в ODS"
           link: "/conversion/net/xltx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "XLTX к ODT"
+        - name: "XLTX в ODT"
           link: "/conversion/net/xltx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "XLTX к OTP"
+        - name: "XLTX в OTP"
           link: "/conversion/net/xltx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "XLTX к OTT"
+        - name: "XLTX в OTT"
           link: "/conversion/net/xltx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "XLTX к PDF"
+        - name: "XLTX в PDF"
           link: "/conversion/net/xltx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "XLTX к PNG"
+        - name: "XLTX в PNG"
           link: "/conversion/net/xltx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "XLTX к POT"
+        - name: "XLTX в POT"
           link: "/conversion/net/xltx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "XLTX к POTM"
+        - name: "XLTX в POTM"
           link: "/conversion/net/xltx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLTX к POTX"
+        - name: "XLTX в POTX"
           link: "/conversion/net/xltx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XLTX к PPS"
+        - name: "XLTX в PPS"
           link: "/conversion/net/xltx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLTX к PPSM"
+        - name: "XLTX в PPSM"
           link: "/conversion/net/xltx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XLTX к PPSX"
+        - name: "XLTX в PPSX"
           link: "/conversion/net/xltx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "XLTX к PPT"
+        - name: "XLTX в PPT"
           link: "/conversion/net/xltx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "XLTX к PPTM"
+        - name: "XLTX в PPTM"
           link: "/conversion/net/xltx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "XLTX к PPTX"
+        - name: "XLTX в PPTX"
           link: "/conversion/net/xltx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "XLTX к PSD"
+        - name: "XLTX в PSD"
           link: "/conversion/net/xltx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "XLTX к SVG"
+        - name: "XLTX в SVG"
           link: "/conversion/net/xltx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLTX к SVGZ"
+        - name: "XLTX в SVGZ"
           link: "/conversion/net/xltx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XLTX к SXC"
+        - name: "XLTX в SXC"
           link: "/conversion/net/xltx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "XLTX к TEX"
+        - name: "XLTX в TEX"
           link: "/conversion/net/xltx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "XLTX к TIF"
+        - name: "XLTX в TIF"
           link: "/conversion/net/xltx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLTX к TIFF"
+        - name: "XLTX в TIFF"
           link: "/conversion/net/xltx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XLTX к TSV"
+        - name: "XLTX в TSV"
           link: "/conversion/net/xltx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "XLTX к TXT"
+        - name: "XLTX в TXT"
           link: "/conversion/net/xltx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "XLTX к WEBP"
+        - name: "XLTX в WEBP"
           link: "/conversion/net/xltx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "XLTX к WMF"
+        - name: "XLTX в WMF"
           link: "/conversion/net/xltx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "XLTX к WMZ"
+        - name: "XLTX в WMZ"
           link: "/conversion/net/xltx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "XLTX к XLAM"
+        - name: "XLTX в XLAM"
           link: "/conversion/net/xltx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLTX к XLS"
+        - name: "XLTX в XLS"
           link: "/conversion/net/xltx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "XLTX к XLSB"
+        - name: "XLTX в XLSB"
           link: "/conversion/net/xltx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "XLTX к XLSM"
+        - name: "XLTX в XLSM"
           link: "/conversion/net/xltx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLTX к XLSX"
+        - name: "XLTX в XLSX"
           link: "/conversion/net/xltx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "XLTX к XLT"
+        - name: "XLTX в XLT"
           link: "/conversion/net/xltx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "XLTX к XLTM"
+        - name: "XLTX в XLTM"
           link: "/conversion/net/xltx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XLTX к XPS"
+        - name: "XLTX в XPS"
           link: "/conversion/net/xltx-to-xps/"
           description: "Спецификация документа Open XML"
 

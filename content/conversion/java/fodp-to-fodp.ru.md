@@ -128,267 +128,267 @@ more_formats:
         Вы также можете конвертировать FODP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "FODP к EPUB"
+        - name: "FODP в EPUB"
           link: "/conversion/java/fodp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "FODP к XPS"
+        - name: "FODP в XPS"
           link: "/conversion/java/fodp-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "FODP к TEX"
+        - name: "FODP в TEX"
           link: "/conversion/java/fodp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "FODP к PPT"
+        - name: "FODP в PPT"
           link: "/conversion/java/fodp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "FODP к PPS"
+        - name: "FODP в PPS"
           link: "/conversion/java/fodp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP к PPTX"
+        - name: "FODP в PPTX"
           link: "/conversion/java/fodp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "FODP к PPSX"
+        - name: "FODP в PPSX"
           link: "/conversion/java/fodp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "FODP к ODP"
+        - name: "FODP в ODP"
           link: "/conversion/java/fodp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "FODP к OTP"
+        - name: "FODP в OTP"
           link: "/conversion/java/fodp-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "FODP к POTX"
+        - name: "FODP в POTX"
           link: "/conversion/java/fodp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP к POTM"
+        - name: "FODP в POTM"
           link: "/conversion/java/fodp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP к PPTM"
+        - name: "FODP в PPTM"
           link: "/conversion/java/fodp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP к PPSM"
+        - name: "FODP в PPSM"
           link: "/conversion/java/fodp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "FODP к XLS"
+        - name: "FODP в XLS"
           link: "/conversion/java/fodp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "FODP к XLSX"
+        - name: "FODP в XLSX"
           link: "/conversion/java/fodp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "FODP к XLSM"
+        - name: "FODP в XLSM"
           link: "/conversion/java/fodp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODP к XLSB"
+        - name: "FODP в XLSB"
           link: "/conversion/java/fodp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "FODP к ODS"
+        - name: "FODP в ODS"
           link: "/conversion/java/fodp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "FODP к XLTX"
+        - name: "FODP в XLTX"
           link: "/conversion/java/fodp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "FODP к XLTM"
+        - name: "FODP в XLTM"
           link: "/conversion/java/fodp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODP к TSV"
+        - name: "FODP в TSV"
           link: "/conversion/java/fodp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "FODP к XLAM"
+        - name: "FODP в XLAM"
           link: "/conversion/java/fodp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "FODP к CSV"
+        - name: "FODP в CSV"
           link: "/conversion/java/fodp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "FODP к DOC"
+        - name: "FODP в DOC"
           link: "/conversion/java/fodp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "FODP к DOCM"
+        - name: "FODP в DOCM"
           link: "/conversion/java/fodp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "FODP к FODP"
+        - name: "FODP в FODP"
           link: "/conversion/java/fodp-to-fodp/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "FODP к DOT"
+        - name: "FODP в DOT"
           link: "/conversion/java/fodp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "FODP к DOTM"
+        - name: "FODP в DOTM"
           link: "/conversion/java/fodp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "FODP к DOTX"
+        - name: "FODP в DOTX"
           link: "/conversion/java/fodp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "FODP к RTF"
+        - name: "FODP в RTF"
           link: "/conversion/java/fodp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "FODP к ODT"
+        - name: "FODP в ODT"
           link: "/conversion/java/fodp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "FODP к OTT"
+        - name: "FODP в OTT"
           link: "/conversion/java/fodp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "FODP к TXT"
+        - name: "FODP в TXT"
           link: "/conversion/java/fodp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "FODP к MD"
+        - name: "FODP в MD"
           link: "/conversion/java/fodp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "FODP к TIFF"
+        - name: "FODP в TIFF"
           link: "/conversion/java/fodp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "FODP к TIF"
+        - name: "FODP в TIF"
           link: "/conversion/java/fodp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "FODP к JPG"
+        - name: "FODP в JPG"
           link: "/conversion/java/fodp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "FODP к JPEG"
+        - name: "FODP в JPEG"
           link: "/conversion/java/fodp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "FODP к PNG"
+        - name: "FODP в PNG"
           link: "/conversion/java/fodp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "FODP к GIF"
+        - name: "FODP в GIF"
           link: "/conversion/java/fodp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "FODP к BMP"
+        - name: "FODP в BMP"
           link: "/conversion/java/fodp-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "FODP к ICO"
+        - name: "FODP в ICO"
           link: "/conversion/java/fodp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "FODP к PSD"
+        - name: "FODP в PSD"
           link: "/conversion/java/fodp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "FODP к WMF"
+        - name: "FODP в WMF"
           link: "/conversion/java/fodp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "FODP к EMF"
+        - name: "FODP в EMF"
           link: "/conversion/java/fodp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "FODP к WEBP"
+        - name: "FODP в WEBP"
           link: "/conversion/java/fodp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "FODP к SVG"
+        - name: "FODP в SVG"
           link: "/conversion/java/fodp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "FODP к JP2"
+        - name: "FODP в JP2"
           link: "/conversion/java/fodp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "FODP к EMZ"
+        - name: "FODP в EMZ"
           link: "/conversion/java/fodp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "FODP к WMZ"
+        - name: "FODP в WMZ"
           link: "/conversion/java/fodp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "FODP к HTML"
+        - name: "FODP в HTML"
           link: "/conversion/java/fodp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "FODP к MHT"
+        - name: "FODP в MHT"
           link: "/conversion/java/fodp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "FODP к MHTML"
+        - name: "FODP в MHTML"
           link: "/conversion/java/fodp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

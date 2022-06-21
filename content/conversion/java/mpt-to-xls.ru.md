@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать MPT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MPT к BMP"
+        - name: "MPT в BMP"
           link: "/conversion/java/mpt-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MPT к CSV"
+        - name: "MPT в CSV"
           link: "/conversion/java/mpt-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MPT к DCM"
+        - name: "MPT в DCM"
           link: "/conversion/java/mpt-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MPT к DIF"
+        - name: "MPT в DIF"
           link: "/conversion/java/mpt-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MPT к DOC"
+        - name: "MPT в DOC"
           link: "/conversion/java/mpt-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MPT к DOCM"
+        - name: "MPT в DOCM"
           link: "/conversion/java/mpt-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MPT к DOCX"
+        - name: "MPT в DOCX"
           link: "/conversion/java/mpt-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MPT к DOT"
+        - name: "MPT в DOT"
           link: "/conversion/java/mpt-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MPT к DOTM"
+        - name: "MPT в DOTM"
           link: "/conversion/java/mpt-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MPT к DOTX"
+        - name: "MPT в DOTX"
           link: "/conversion/java/mpt-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MPT к EMF"
+        - name: "MPT в EMF"
           link: "/conversion/java/mpt-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MPT к EMZ"
+        - name: "MPT в EMZ"
           link: "/conversion/java/mpt-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MPT к EPUB"
+        - name: "MPT в EPUB"
           link: "/conversion/java/mpt-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MPT к FODP"
+        - name: "MPT в FODP"
           link: "/conversion/java/mpt-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MPT к FODS"
+        - name: "MPT в FODS"
           link: "/conversion/java/mpt-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MPT к GIF"
+        - name: "MPT в GIF"
           link: "/conversion/java/mpt-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MPT к HTM"
+        - name: "MPT в HTM"
           link: "/conversion/java/mpt-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MPT к HTML"
+        - name: "MPT в HTML"
           link: "/conversion/java/mpt-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MPT к ICO"
+        - name: "MPT в ICO"
           link: "/conversion/java/mpt-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MPT к JP2"
+        - name: "MPT в JP2"
           link: "/conversion/java/mpt-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MPT к JPEG"
+        - name: "MPT в JPEG"
           link: "/conversion/java/mpt-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MPT к JPG"
+        - name: "MPT в JPG"
           link: "/conversion/java/mpt-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MPT к MD"
+        - name: "MPT в MD"
           link: "/conversion/java/mpt-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MPT к MHT"
+        - name: "MPT в MHT"
           link: "/conversion/java/mpt-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MPT к MHTML"
+        - name: "MPT в MHTML"
           link: "/conversion/java/mpt-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MPT к ODP"
+        - name: "MPT в ODP"
           link: "/conversion/java/mpt-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MPT к ODS"
+        - name: "MPT в ODS"
           link: "/conversion/java/mpt-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MPT к ODT"
+        - name: "MPT в ODT"
           link: "/conversion/java/mpt-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MPT к OTP"
+        - name: "MPT в OTP"
           link: "/conversion/java/mpt-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MPT к OTT"
+        - name: "MPT в OTT"
           link: "/conversion/java/mpt-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "MPT к PDF"
+        - name: "MPT в PDF"
           link: "/conversion/java/mpt-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MPT к PNG"
+        - name: "MPT в PNG"
           link: "/conversion/java/mpt-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MPT к POT"
+        - name: "MPT в POT"
           link: "/conversion/java/mpt-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MPT к POTM"
+        - name: "MPT в POTM"
           link: "/conversion/java/mpt-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MPT к POTX"
+        - name: "MPT в POTX"
           link: "/conversion/java/mpt-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MPT к PPS"
+        - name: "MPT в PPS"
           link: "/conversion/java/mpt-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MPT к PPSM"
+        - name: "MPT в PPSM"
           link: "/conversion/java/mpt-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MPT к PPSX"
+        - name: "MPT в PPSX"
           link: "/conversion/java/mpt-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MPT к PPT"
+        - name: "MPT в PPT"
           link: "/conversion/java/mpt-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MPT к PPTM"
+        - name: "MPT в PPTM"
           link: "/conversion/java/mpt-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MPT к PPTX"
+        - name: "MPT в PPTX"
           link: "/conversion/java/mpt-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MPT к PSD"
+        - name: "MPT в PSD"
           link: "/conversion/java/mpt-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MPT к RTF"
+        - name: "MPT в RTF"
           link: "/conversion/java/mpt-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MPT к SVG"
+        - name: "MPT в SVG"
           link: "/conversion/java/mpt-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MPT к SVGZ"
+        - name: "MPT в SVGZ"
           link: "/conversion/java/mpt-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MPT к SXC"
+        - name: "MPT в SXC"
           link: "/conversion/java/mpt-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MPT к TEX"
+        - name: "MPT в TEX"
           link: "/conversion/java/mpt-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MPT к TIF"
+        - name: "MPT в TIF"
           link: "/conversion/java/mpt-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MPT к TIFF"
+        - name: "MPT в TIFF"
           link: "/conversion/java/mpt-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MPT к TSV"
+        - name: "MPT в TSV"
           link: "/conversion/java/mpt-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MPT к TXT"
+        - name: "MPT в TXT"
           link: "/conversion/java/mpt-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MPT к WEBP"
+        - name: "MPT в WEBP"
           link: "/conversion/java/mpt-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MPT к WMF"
+        - name: "MPT в WMF"
           link: "/conversion/java/mpt-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MPT к WMZ"
+        - name: "MPT в WMZ"
           link: "/conversion/java/mpt-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MPT к XLAM"
+        - name: "MPT в XLAM"
           link: "/conversion/java/mpt-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPT к XLSB"
+        - name: "MPT в XLSB"
           link: "/conversion/java/mpt-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MPT к XLSM"
+        - name: "MPT в XLSM"
           link: "/conversion/java/mpt-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPT к XLSX"
+        - name: "MPT в XLSX"
           link: "/conversion/java/mpt-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MPT к XLT"
+        - name: "MPT в XLT"
           link: "/conversion/java/mpt-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MPT к XLTM"
+        - name: "MPT в XLTM"
           link: "/conversion/java/mpt-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MPT к XLTX"
+        - name: "MPT в XLTX"
           link: "/conversion/java/mpt-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MPT к XPS"
+        - name: "MPT в XPS"
           link: "/conversion/java/mpt-to-xps/"
           description: "Спецификация документа Open XML"
 

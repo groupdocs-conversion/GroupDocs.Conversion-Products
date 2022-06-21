@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать DOTX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DOTX к BMP"
+        - name: "DOTX в BMP"
           link: "/conversion/java/dotx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DOTX к CSV"
+        - name: "DOTX в CSV"
           link: "/conversion/java/dotx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DOTX к DCM"
+        - name: "DOTX в DCM"
           link: "/conversion/java/dotx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DOTX к DIF"
+        - name: "DOTX в DIF"
           link: "/conversion/java/dotx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DOTX к DOC"
+        - name: "DOTX в DOC"
           link: "/conversion/java/dotx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DOTX к DOCM"
+        - name: "DOTX в DOCM"
           link: "/conversion/java/dotx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOTX к DOCX"
+        - name: "DOTX в DOCX"
           link: "/conversion/java/dotx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DOTX к DOT"
+        - name: "DOTX в DOT"
           link: "/conversion/java/dotx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DOTX к DOTM"
+        - name: "DOTX в DOTM"
           link: "/conversion/java/dotx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOTX к EMF"
+        - name: "DOTX в EMF"
           link: "/conversion/java/dotx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DOTX к EMZ"
+        - name: "DOTX в EMZ"
           link: "/conversion/java/dotx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DOTX к EPUB"
+        - name: "DOTX в EPUB"
           link: "/conversion/java/dotx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DOTX к FODP"
+        - name: "DOTX в FODP"
           link: "/conversion/java/dotx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DOTX к FODS"
+        - name: "DOTX в FODS"
           link: "/conversion/java/dotx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DOTX к GIF"
+        - name: "DOTX в GIF"
           link: "/conversion/java/dotx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DOTX к HTM"
+        - name: "DOTX в HTM"
           link: "/conversion/java/dotx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DOTX к HTML"
+        - name: "DOTX в HTML"
           link: "/conversion/java/dotx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DOTX к ICO"
+        - name: "DOTX в ICO"
           link: "/conversion/java/dotx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DOTX к JP2"
+        - name: "DOTX в JP2"
           link: "/conversion/java/dotx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DOTX к JPEG"
+        - name: "DOTX в JPEG"
           link: "/conversion/java/dotx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DOTX к JPG"
+        - name: "DOTX в JPG"
           link: "/conversion/java/dotx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DOTX к MD"
+        - name: "DOTX в MD"
           link: "/conversion/java/dotx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DOTX к MHT"
+        - name: "DOTX в MHT"
           link: "/conversion/java/dotx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOTX к MHTML"
+        - name: "DOTX в MHTML"
           link: "/conversion/java/dotx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOTX к ODP"
+        - name: "DOTX в ODP"
           link: "/conversion/java/dotx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DOTX к ODS"
+        - name: "DOTX в ODS"
           link: "/conversion/java/dotx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DOTX к ODT"
+        - name: "DOTX в ODT"
           link: "/conversion/java/dotx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DOTX к OTP"
+        - name: "DOTX в OTP"
           link: "/conversion/java/dotx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DOTX к OTT"
+        - name: "DOTX в OTT"
           link: "/conversion/java/dotx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DOTX к PDF"
+        - name: "DOTX в PDF"
           link: "/conversion/java/dotx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DOTX к POT"
+        - name: "DOTX в POT"
           link: "/conversion/java/dotx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DOTX к POTM"
+        - name: "DOTX в POTM"
           link: "/conversion/java/dotx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX к POTX"
+        - name: "DOTX в POTX"
           link: "/conversion/java/dotx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX к PPS"
+        - name: "DOTX в PPS"
           link: "/conversion/java/dotx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX к PPSM"
+        - name: "DOTX в PPSM"
           link: "/conversion/java/dotx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX к PPSX"
+        - name: "DOTX в PPSX"
           link: "/conversion/java/dotx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DOTX к PPT"
+        - name: "DOTX в PPT"
           link: "/conversion/java/dotx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DOTX к PPTM"
+        - name: "DOTX в PPTM"
           link: "/conversion/java/dotx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DOTX к PPTX"
+        - name: "DOTX в PPTX"
           link: "/conversion/java/dotx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DOTX к PSD"
+        - name: "DOTX в PSD"
           link: "/conversion/java/dotx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DOTX к RTF"
+        - name: "DOTX в RTF"
           link: "/conversion/java/dotx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DOTX к SVG"
+        - name: "DOTX в SVG"
           link: "/conversion/java/dotx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOTX к SVGZ"
+        - name: "DOTX в SVGZ"
           link: "/conversion/java/dotx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOTX к SXC"
+        - name: "DOTX в SXC"
           link: "/conversion/java/dotx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DOTX к TEX"
+        - name: "DOTX в TEX"
           link: "/conversion/java/dotx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DOTX к TIF"
+        - name: "DOTX в TIF"
           link: "/conversion/java/dotx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOTX к TIFF"
+        - name: "DOTX в TIFF"
           link: "/conversion/java/dotx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOTX к TSV"
+        - name: "DOTX в TSV"
           link: "/conversion/java/dotx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DOTX к TXT"
+        - name: "DOTX в TXT"
           link: "/conversion/java/dotx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DOTX к WEBP"
+        - name: "DOTX в WEBP"
           link: "/conversion/java/dotx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DOTX к WMF"
+        - name: "DOTX в WMF"
           link: "/conversion/java/dotx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DOTX к WMZ"
+        - name: "DOTX в WMZ"
           link: "/conversion/java/dotx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DOTX к XLAM"
+        - name: "DOTX в XLAM"
           link: "/conversion/java/dotx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTX к XLS"
+        - name: "DOTX в XLS"
           link: "/conversion/java/dotx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DOTX к XLS2003"
+        - name: "DOTX в XLS2003"
           link: "/conversion/java/dotx-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "DOTX к XLSB"
+        - name: "DOTX в XLSB"
           link: "/conversion/java/dotx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DOTX к XLSM"
+        - name: "DOTX в XLSM"
           link: "/conversion/java/dotx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTX к XLSX"
+        - name: "DOTX в XLSX"
           link: "/conversion/java/dotx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DOTX к XLT"
+        - name: "DOTX в XLT"
           link: "/conversion/java/dotx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOTX к XLTM"
+        - name: "DOTX в XLTM"
           link: "/conversion/java/dotx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOTX к XLTX"
+        - name: "DOTX в XLTX"
           link: "/conversion/java/dotx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOTX к XPS"
+        - name: "DOTX в XPS"
           link: "/conversion/java/dotx-to-xps/"
           description: "Спецификация документа Open XML"
 

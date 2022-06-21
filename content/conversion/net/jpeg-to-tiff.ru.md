@@ -127,297 +127,297 @@ more_formats:
         Вы также можете конвертировать JPEG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JPEG к BMP"
+        - name: "JPEG в BMP"
           link: "/conversion/net/jpeg-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JPEG к DCM"
+        - name: "JPEG в DCM"
           link: "/conversion/net/jpeg-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "JPEG к DIF"
+        - name: "JPEG в DIF"
           link: "/conversion/net/jpeg-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "JPEG к DOC"
+        - name: "JPEG в DOC"
           link: "/conversion/net/jpeg-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JPEG к DOCM"
+        - name: "JPEG в DOCM"
           link: "/conversion/net/jpeg-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPEG к DOCX"
+        - name: "JPEG в DOCX"
           link: "/conversion/net/jpeg-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JPEG к DOT"
+        - name: "JPEG в DOT"
           link: "/conversion/net/jpeg-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JPEG к DOTM"
+        - name: "JPEG в DOTM"
           link: "/conversion/net/jpeg-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPEG к DOTX"
+        - name: "JPEG в DOTX"
           link: "/conversion/net/jpeg-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JPEG к EMF"
+        - name: "JPEG в EMF"
           link: "/conversion/net/jpeg-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JPEG к EMZ"
+        - name: "JPEG в EMZ"
           link: "/conversion/net/jpeg-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JPEG к EPUB"
+        - name: "JPEG в EPUB"
           link: "/conversion/net/jpeg-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JPEG к FODP"
+        - name: "JPEG в FODP"
           link: "/conversion/net/jpeg-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "JPEG к FODS"
+        - name: "JPEG в FODS"
           link: "/conversion/net/jpeg-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "JPEG к GIF"
+        - name: "JPEG в GIF"
           link: "/conversion/net/jpeg-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "JPEG к HTM"
+        - name: "JPEG в HTM"
           link: "/conversion/net/jpeg-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "JPEG к HTML"
+        - name: "JPEG в HTML"
           link: "/conversion/net/jpeg-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "JPEG к ICO"
+        - name: "JPEG в ICO"
           link: "/conversion/net/jpeg-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JPEG к JP2"
+        - name: "JPEG в JP2"
           link: "/conversion/net/jpeg-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "JPEG к JPG"
+        - name: "JPEG в JPG"
           link: "/conversion/net/jpeg-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JPEG к MD"
+        - name: "JPEG в MD"
           link: "/conversion/net/jpeg-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JPEG к MHT"
+        - name: "JPEG в MHT"
           link: "/conversion/net/jpeg-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPEG к MHTML"
+        - name: "JPEG в MHTML"
           link: "/conversion/net/jpeg-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPEG к ODP"
+        - name: "JPEG в ODP"
           link: "/conversion/net/jpeg-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JPEG к ODS"
+        - name: "JPEG в ODS"
           link: "/conversion/net/jpeg-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JPEG к ODT"
+        - name: "JPEG в ODT"
           link: "/conversion/net/jpeg-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JPEG к OTP"
+        - name: "JPEG в OTP"
           link: "/conversion/net/jpeg-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "JPEG к OTT"
+        - name: "JPEG в OTT"
           link: "/conversion/net/jpeg-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JPEG к PDF"
+        - name: "JPEG в PDF"
           link: "/conversion/net/jpeg-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "JPEG к PNG"
+        - name: "JPEG в PNG"
           link: "/conversion/net/jpeg-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JPEG к POT"
+        - name: "JPEG в POT"
           link: "/conversion/net/jpeg-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "JPEG к POTM"
+        - name: "JPEG в POTM"
           link: "/conversion/net/jpeg-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPEG к POTX"
+        - name: "JPEG в POTX"
           link: "/conversion/net/jpeg-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPEG к PPS"
+        - name: "JPEG в PPS"
           link: "/conversion/net/jpeg-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPEG к PPSM"
+        - name: "JPEG в PPSM"
           link: "/conversion/net/jpeg-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPEG к PPSX"
+        - name: "JPEG в PPSX"
           link: "/conversion/net/jpeg-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JPEG к PPT"
+        - name: "JPEG в PPT"
           link: "/conversion/net/jpeg-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JPEG к PPTM"
+        - name: "JPEG в PPTM"
           link: "/conversion/net/jpeg-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JPEG к PPTX"
+        - name: "JPEG в PPTX"
           link: "/conversion/net/jpeg-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JPEG к PSD"
+        - name: "JPEG в PSD"
           link: "/conversion/net/jpeg-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JPEG к RTF"
+        - name: "JPEG в RTF"
           link: "/conversion/net/jpeg-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JPEG к SVG"
+        - name: "JPEG в SVG"
           link: "/conversion/net/jpeg-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPEG к SVGZ"
+        - name: "JPEG в SVGZ"
           link: "/conversion/net/jpeg-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPEG к SXC"
+        - name: "JPEG в SXC"
           link: "/conversion/net/jpeg-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "JPEG к TEX"
+        - name: "JPEG в TEX"
           link: "/conversion/net/jpeg-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JPEG к TIF"
+        - name: "JPEG в TIF"
           link: "/conversion/net/jpeg-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPEG к TXT"
+        - name: "JPEG в TXT"
           link: "/conversion/net/jpeg-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JPEG к WEBP"
+        - name: "JPEG в WEBP"
           link: "/conversion/net/jpeg-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JPEG к WMF"
+        - name: "JPEG в WMF"
           link: "/conversion/net/jpeg-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JPEG к WMZ"
+        - name: "JPEG в WMZ"
           link: "/conversion/net/jpeg-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JPEG к XLAM"
+        - name: "JPEG в XLAM"
           link: "/conversion/net/jpeg-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPEG к XLS"
+        - name: "JPEG в XLS"
           link: "/conversion/net/jpeg-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JPEG к XLSB"
+        - name: "JPEG в XLSB"
           link: "/conversion/net/jpeg-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JPEG к XLSM"
+        - name: "JPEG в XLSM"
           link: "/conversion/net/jpeg-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPEG к XLSX"
+        - name: "JPEG в XLSX"
           link: "/conversion/net/jpeg-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JPEG к XLT"
+        - name: "JPEG в XLT"
           link: "/conversion/net/jpeg-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPEG к XLTM"
+        - name: "JPEG в XLTM"
           link: "/conversion/net/jpeg-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPEG к XLTX"
+        - name: "JPEG в XLTX"
           link: "/conversion/net/jpeg-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPEG к XPS"
+        - name: "JPEG в XPS"
           link: "/conversion/net/jpeg-to-xps/"
           description: "Спецификация документа Open XML"
 

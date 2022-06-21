@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать IFC во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "IFC к BMP"
+        - name: "IFC в BMP"
           link: "/conversion/net/ifc-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "IFC к CSV"
+        - name: "IFC в CSV"
           link: "/conversion/net/ifc-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "IFC к DCM"
+        - name: "IFC в DCM"
           link: "/conversion/net/ifc-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "IFC к DIF"
+        - name: "IFC в DIF"
           link: "/conversion/net/ifc-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "IFC к DOC"
+        - name: "IFC в DOC"
           link: "/conversion/net/ifc-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "IFC к DOCM"
+        - name: "IFC в DOCM"
           link: "/conversion/net/ifc-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IFC к DOCX"
+        - name: "IFC в DOCX"
           link: "/conversion/net/ifc-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "IFC к DOT"
+        - name: "IFC в DOT"
           link: "/conversion/net/ifc-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "IFC к DOTM"
+        - name: "IFC в DOTM"
           link: "/conversion/net/ifc-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IFC к DOTX"
+        - name: "IFC в DOTX"
           link: "/conversion/net/ifc-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "IFC к EMF"
+        - name: "IFC в EMF"
           link: "/conversion/net/ifc-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "IFC к EMZ"
+        - name: "IFC в EMZ"
           link: "/conversion/net/ifc-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "IFC к EPUB"
+        - name: "IFC в EPUB"
           link: "/conversion/net/ifc-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "IFC к FODP"
+        - name: "IFC в FODP"
           link: "/conversion/net/ifc-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "IFC к FODS"
+        - name: "IFC в FODS"
           link: "/conversion/net/ifc-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "IFC к GIF"
+        - name: "IFC в GIF"
           link: "/conversion/net/ifc-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "IFC к HTM"
+        - name: "IFC в HTM"
           link: "/conversion/net/ifc-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "IFC к HTML"
+        - name: "IFC в HTML"
           link: "/conversion/net/ifc-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "IFC к ICO"
+        - name: "IFC в ICO"
           link: "/conversion/net/ifc-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "IFC к JP2"
+        - name: "IFC в JP2"
           link: "/conversion/net/ifc-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "IFC к JPEG"
+        - name: "IFC в JPEG"
           link: "/conversion/net/ifc-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "IFC к JPG"
+        - name: "IFC в JPG"
           link: "/conversion/net/ifc-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "IFC к MD"
+        - name: "IFC в MD"
           link: "/conversion/net/ifc-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "IFC к MHT"
+        - name: "IFC в MHT"
           link: "/conversion/net/ifc-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "IFC к MHTML"
+        - name: "IFC в MHTML"
           link: "/conversion/net/ifc-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "IFC к ODP"
+        - name: "IFC в ODP"
           link: "/conversion/net/ifc-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "IFC к ODS"
+        - name: "IFC в ODS"
           link: "/conversion/net/ifc-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "IFC к ODT"
+        - name: "IFC в ODT"
           link: "/conversion/net/ifc-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "IFC к OTP"
+        - name: "IFC в OTP"
           link: "/conversion/net/ifc-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "IFC к OTT"
+        - name: "IFC в OTT"
           link: "/conversion/net/ifc-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "IFC к PDF"
+        - name: "IFC в PDF"
           link: "/conversion/net/ifc-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "IFC к PNG"
+        - name: "IFC в PNG"
           link: "/conversion/net/ifc-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "IFC к POT"
+        - name: "IFC в POT"
           link: "/conversion/net/ifc-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "IFC к POTM"
+        - name: "IFC в POTM"
           link: "/conversion/net/ifc-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IFC к POTX"
+        - name: "IFC в POTX"
           link: "/conversion/net/ifc-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IFC к PPS"
+        - name: "IFC в PPS"
           link: "/conversion/net/ifc-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IFC к PPSM"
+        - name: "IFC в PPSM"
           link: "/conversion/net/ifc-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IFC к PPSX"
+        - name: "IFC в PPSX"
           link: "/conversion/net/ifc-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "IFC к PPT"
+        - name: "IFC в PPT"
           link: "/conversion/net/ifc-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "IFC к PPTM"
+        - name: "IFC в PPTM"
           link: "/conversion/net/ifc-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "IFC к PPTX"
+        - name: "IFC в PPTX"
           link: "/conversion/net/ifc-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "IFC к PSD"
+        - name: "IFC в PSD"
           link: "/conversion/net/ifc-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "IFC к RTF"
+        - name: "IFC в RTF"
           link: "/conversion/net/ifc-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "IFC к SVG"
+        - name: "IFC в SVG"
           link: "/conversion/net/ifc-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "IFC к SVGZ"
+        - name: "IFC в SVGZ"
           link: "/conversion/net/ifc-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "IFC к TEX"
+        - name: "IFC в TEX"
           link: "/conversion/net/ifc-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "IFC к TIF"
+        - name: "IFC в TIF"
           link: "/conversion/net/ifc-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IFC к TIFF"
+        - name: "IFC в TIFF"
           link: "/conversion/net/ifc-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IFC к TSV"
+        - name: "IFC в TSV"
           link: "/conversion/net/ifc-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "IFC к TXT"
+        - name: "IFC в TXT"
           link: "/conversion/net/ifc-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "IFC к WEBP"
+        - name: "IFC в WEBP"
           link: "/conversion/net/ifc-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "IFC к WMF"
+        - name: "IFC в WMF"
           link: "/conversion/net/ifc-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "IFC к WMZ"
+        - name: "IFC в WMZ"
           link: "/conversion/net/ifc-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "IFC к XLAM"
+        - name: "IFC в XLAM"
           link: "/conversion/net/ifc-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IFC к XLS"
+        - name: "IFC в XLS"
           link: "/conversion/net/ifc-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "IFC к XLSB"
+        - name: "IFC в XLSB"
           link: "/conversion/net/ifc-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "IFC к XLSM"
+        - name: "IFC в XLSM"
           link: "/conversion/net/ifc-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IFC к XLSX"
+        - name: "IFC в XLSX"
           link: "/conversion/net/ifc-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "IFC к XLT"
+        - name: "IFC в XLT"
           link: "/conversion/net/ifc-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "IFC к XLTM"
+        - name: "IFC в XLTM"
           link: "/conversion/net/ifc-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IFC к XLTX"
+        - name: "IFC в XLTX"
           link: "/conversion/net/ifc-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "IFC к XPS"
+        - name: "IFC в XPS"
           link: "/conversion/net/ifc-to-xps/"
           description: "Спецификация документа Open XML"
 

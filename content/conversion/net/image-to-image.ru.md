@@ -127,42 +127,42 @@ more_formats:
         Вы также можете конвертировать изображения во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "IMAGE к EBOOK"
+        - name: "IMAGE в EBOOK"
           link: "https://products.groupdocs.com/conversion/net/image-to-ebook"
           description: "Форматы файлов электронных книг"
 
         # format loop
-        - name: "IMAGE к EXCEL"
+        - name: "IMAGE в EXCEL"
           link: "https://products.groupdocs.com/conversion/net/image-to-excel"
           description: "Форматы файлов документов Excel"
 
         # format loop
-        - name: "IMAGE к EMAIL"
+        - name: "IMAGE в EMAIL"
           link: "https://products.groupdocs.com/conversion/net/image-to-email"
           description: "Форматы файлов электронной почты"
 
         # format loop
-        - name: "IMAGE к PDF"
+        - name: "IMAGE в PDF"
           link: "https://products.groupdocs.com/conversion/net/image-to-pdf"
           description: "Формат файла PDF"
 
         # format loop
-        - name: "IMAGE к PHOTOSHOP"
+        - name: "IMAGE в PHOTOSHOP"
           link: "https://products.groupdocs.com/conversion/net/image-to-photoshop"
           description: "Форматы файлов Photoshop"
 
         # format loop
-        - name: "IMAGE к POWERPOINT"
+        - name: "IMAGE в POWERPOINT"
           link: "https://products.groupdocs.com/conversion/net/image-to-powerpoint"
           description: "Форматы файлов презентаций PowerPoint"
 
         # format loop
-        - name: "IMAGE к WEB"
+        - name: "IMAGE в WEB"
           link: "https://products.groupdocs.com/conversion/net/image-to-web"
           description: "Форматы файлов веб-документов"
 
         # format loop
-        - name: "IMAGE к WORD"
+        - name: "IMAGE в WORD"
           link: "https://products.groupdocs.com/conversion/net/image-to-word"
           description: "Форматы файлов документов Word"
 

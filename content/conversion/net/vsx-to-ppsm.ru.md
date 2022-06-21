@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать VSX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "VSX к BMP"
+        - name: "VSX в BMP"
           link: "/conversion/net/vsx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "VSX к CSV"
+        - name: "VSX в CSV"
           link: "/conversion/net/vsx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "VSX к DCM"
+        - name: "VSX в DCM"
           link: "/conversion/net/vsx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "VSX к DIF"
+        - name: "VSX в DIF"
           link: "/conversion/net/vsx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "VSX к DOC"
+        - name: "VSX в DOC"
           link: "/conversion/net/vsx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "VSX к DOCM"
+        - name: "VSX в DOCM"
           link: "/conversion/net/vsx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSX к DOCX"
+        - name: "VSX в DOCX"
           link: "/conversion/net/vsx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "VSX к DOT"
+        - name: "VSX в DOT"
           link: "/conversion/net/vsx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "VSX к DOTM"
+        - name: "VSX в DOTM"
           link: "/conversion/net/vsx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "VSX к DOTX"
+        - name: "VSX в DOTX"
           link: "/conversion/net/vsx-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "VSX к EMF"
+        - name: "VSX в EMF"
           link: "/conversion/net/vsx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "VSX к EMZ"
+        - name: "VSX в EMZ"
           link: "/conversion/net/vsx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "VSX к EPUB"
+        - name: "VSX в EPUB"
           link: "/conversion/net/vsx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "VSX к FODP"
+        - name: "VSX в FODP"
           link: "/conversion/net/vsx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "VSX к FODS"
+        - name: "VSX в FODS"
           link: "/conversion/net/vsx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "VSX к GIF"
+        - name: "VSX в GIF"
           link: "/conversion/net/vsx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "VSX к HTM"
+        - name: "VSX в HTM"
           link: "/conversion/net/vsx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "VSX к HTML"
+        - name: "VSX в HTML"
           link: "/conversion/net/vsx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "VSX к ICO"
+        - name: "VSX в ICO"
           link: "/conversion/net/vsx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "VSX к JP2"
+        - name: "VSX в JP2"
           link: "/conversion/net/vsx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "VSX к JPEG"
+        - name: "VSX в JPEG"
           link: "/conversion/net/vsx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "VSX к JPG"
+        - name: "VSX в JPG"
           link: "/conversion/net/vsx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "VSX к MD"
+        - name: "VSX в MD"
           link: "/conversion/net/vsx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "VSX к MHT"
+        - name: "VSX в MHT"
           link: "/conversion/net/vsx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSX к MHTML"
+        - name: "VSX в MHTML"
           link: "/conversion/net/vsx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "VSX к ODP"
+        - name: "VSX в ODP"
           link: "/conversion/net/vsx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "VSX к ODS"
+        - name: "VSX в ODS"
           link: "/conversion/net/vsx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "VSX к ODT"
+        - name: "VSX в ODT"
           link: "/conversion/net/vsx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "VSX к OTP"
+        - name: "VSX в OTP"
           link: "/conversion/net/vsx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "VSX к OTT"
+        - name: "VSX в OTT"
           link: "/conversion/net/vsx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "VSX к PDF"
+        - name: "VSX в PDF"
           link: "/conversion/net/vsx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "VSX к PNG"
+        - name: "VSX в PNG"
           link: "/conversion/net/vsx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "VSX к POT"
+        - name: "VSX в POT"
           link: "/conversion/net/vsx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "VSX к POTM"
+        - name: "VSX в POTM"
           link: "/conversion/net/vsx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSX к POTX"
+        - name: "VSX в POTX"
           link: "/conversion/net/vsx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "VSX к PPS"
+        - name: "VSX в PPS"
           link: "/conversion/net/vsx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "VSX к PPSX"
+        - name: "VSX в PPSX"
           link: "/conversion/net/vsx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "VSX к PPT"
+        - name: "VSX в PPT"
           link: "/conversion/net/vsx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "VSX к PPTM"
+        - name: "VSX в PPTM"
           link: "/conversion/net/vsx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "VSX к PPTX"
+        - name: "VSX в PPTX"
           link: "/conversion/net/vsx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "VSX к PSD"
+        - name: "VSX в PSD"
           link: "/conversion/net/vsx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "VSX к RTF"
+        - name: "VSX в RTF"
           link: "/conversion/net/vsx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "VSX к SVG"
+        - name: "VSX в SVG"
           link: "/conversion/net/vsx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSX к SVGZ"
+        - name: "VSX в SVGZ"
           link: "/conversion/net/vsx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "VSX к SXC"
+        - name: "VSX в SXC"
           link: "/conversion/net/vsx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "VSX к TEX"
+        - name: "VSX в TEX"
           link: "/conversion/net/vsx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "VSX к TIF"
+        - name: "VSX в TIF"
           link: "/conversion/net/vsx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSX к TIFF"
+        - name: "VSX в TIFF"
           link: "/conversion/net/vsx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "VSX к TSV"
+        - name: "VSX в TSV"
           link: "/conversion/net/vsx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "VSX к TXT"
+        - name: "VSX в TXT"
           link: "/conversion/net/vsx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "VSX к WEBP"
+        - name: "VSX в WEBP"
           link: "/conversion/net/vsx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "VSX к WMF"
+        - name: "VSX в WMF"
           link: "/conversion/net/vsx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "VSX к WMZ"
+        - name: "VSX в WMZ"
           link: "/conversion/net/vsx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "VSX к XLAM"
+        - name: "VSX в XLAM"
           link: "/conversion/net/vsx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSX к XLS"
+        - name: "VSX в XLS"
           link: "/conversion/net/vsx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "VSX к XLSB"
+        - name: "VSX в XLSB"
           link: "/conversion/net/vsx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "VSX к XLSM"
+        - name: "VSX в XLSM"
           link: "/conversion/net/vsx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSX к XLSX"
+        - name: "VSX в XLSX"
           link: "/conversion/net/vsx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "VSX к XLT"
+        - name: "VSX в XLT"
           link: "/conversion/net/vsx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSX к XLTM"
+        - name: "VSX в XLTM"
           link: "/conversion/net/vsx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "VSX к XLTX"
+        - name: "VSX в XLTX"
           link: "/conversion/net/vsx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "VSX к XPS"
+        - name: "VSX в XPS"
           link: "/conversion/net/vsx-to-xps/"
           description: "Спецификация документа Open XML"
 

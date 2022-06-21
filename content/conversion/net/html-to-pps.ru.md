@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать HTML во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "HTML к BMP"
+        - name: "HTML в BMP"
           link: "/conversion/net/html-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "HTML к CSV"
+        - name: "HTML в CSV"
           link: "/conversion/net/html-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "HTML к DCM"
+        - name: "HTML в DCM"
           link: "/conversion/net/html-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "HTML к DIF"
+        - name: "HTML в DIF"
           link: "/conversion/net/html-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "HTML к DOC"
+        - name: "HTML в DOC"
           link: "/conversion/net/html-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "HTML к DOCM"
+        - name: "HTML в DOCM"
           link: "/conversion/net/html-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "HTML к DOCX"
+        - name: "HTML в DOCX"
           link: "/conversion/net/html-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "HTML к DOT"
+        - name: "HTML в DOT"
           link: "/conversion/net/html-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "HTML к DOTM"
+        - name: "HTML в DOTM"
           link: "/conversion/net/html-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "HTML к DOTX"
+        - name: "HTML в DOTX"
           link: "/conversion/net/html-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "HTML к EMF"
+        - name: "HTML в EMF"
           link: "/conversion/net/html-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "HTML к EMZ"
+        - name: "HTML в EMZ"
           link: "/conversion/net/html-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "HTML к EPUB"
+        - name: "HTML в EPUB"
           link: "/conversion/net/html-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "HTML к FODP"
+        - name: "HTML в FODP"
           link: "/conversion/net/html-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "HTML к FODS"
+        - name: "HTML в FODS"
           link: "/conversion/net/html-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "HTML к GIF"
+        - name: "HTML в GIF"
           link: "/conversion/net/html-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "HTML к HTM"
+        - name: "HTML в HTM"
           link: "/conversion/net/html-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "HTML к ICO"
+        - name: "HTML в ICO"
           link: "/conversion/net/html-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "HTML к JP2"
+        - name: "HTML в JP2"
           link: "/conversion/net/html-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "HTML к JPEG"
+        - name: "HTML в JPEG"
           link: "/conversion/net/html-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "HTML к JPG"
+        - name: "HTML в JPG"
           link: "/conversion/net/html-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "HTML к MD"
+        - name: "HTML в MD"
           link: "/conversion/net/html-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "HTML к MHT"
+        - name: "HTML в MHT"
           link: "/conversion/net/html-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "HTML к MHTML"
+        - name: "HTML в MHTML"
           link: "/conversion/net/html-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "HTML к ODP"
+        - name: "HTML в ODP"
           link: "/conversion/net/html-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "HTML к ODS"
+        - name: "HTML в ODS"
           link: "/conversion/net/html-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "HTML к ODT"
+        - name: "HTML в ODT"
           link: "/conversion/net/html-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "HTML к OTP"
+        - name: "HTML в OTP"
           link: "/conversion/net/html-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "HTML к OTT"
+        - name: "HTML в OTT"
           link: "/conversion/net/html-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "HTML к PDF"
+        - name: "HTML в PDF"
           link: "/conversion/net/html-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "HTML к PNG"
+        - name: "HTML в PNG"
           link: "/conversion/net/html-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "HTML к POT"
+        - name: "HTML в POT"
           link: "/conversion/net/html-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "HTML к POTM"
+        - name: "HTML в POTM"
           link: "/conversion/net/html-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "HTML к POTX"
+        - name: "HTML в POTX"
           link: "/conversion/net/html-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "HTML к PPSM"
+        - name: "HTML в PPSM"
           link: "/conversion/net/html-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "HTML к PPSX"
+        - name: "HTML в PPSX"
           link: "/conversion/net/html-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "HTML к PPT"
+        - name: "HTML в PPT"
           link: "/conversion/net/html-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "HTML к PPTM"
+        - name: "HTML в PPTM"
           link: "/conversion/net/html-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "HTML к PPTX"
+        - name: "HTML в PPTX"
           link: "/conversion/net/html-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "HTML к PSD"
+        - name: "HTML в PSD"
           link: "/conversion/net/html-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "HTML к RTF"
+        - name: "HTML в RTF"
           link: "/conversion/net/html-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "HTML к SVG"
+        - name: "HTML в SVG"
           link: "/conversion/net/html-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "HTML к SVGZ"
+        - name: "HTML в SVGZ"
           link: "/conversion/net/html-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "HTML к SXC"
+        - name: "HTML в SXC"
           link: "/conversion/net/html-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "HTML к TEX"
+        - name: "HTML в TEX"
           link: "/conversion/net/html-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "HTML к TIF"
+        - name: "HTML в TIF"
           link: "/conversion/net/html-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "HTML к TIFF"
+        - name: "HTML в TIFF"
           link: "/conversion/net/html-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "HTML к TSV"
+        - name: "HTML в TSV"
           link: "/conversion/net/html-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "HTML к TXT"
+        - name: "HTML в TXT"
           link: "/conversion/net/html-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "HTML к WEBP"
+        - name: "HTML в WEBP"
           link: "/conversion/net/html-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "HTML к WMF"
+        - name: "HTML в WMF"
           link: "/conversion/net/html-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "HTML к WMZ"
+        - name: "HTML в WMZ"
           link: "/conversion/net/html-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "HTML к XLAM"
+        - name: "HTML в XLAM"
           link: "/conversion/net/html-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "HTML к XLS"
+        - name: "HTML в XLS"
           link: "/conversion/net/html-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "HTML к XLS2003"
+        - name: "HTML в XLS2003"
           link: "/conversion/net/html-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "HTML к XLSB"
+        - name: "HTML в XLSB"
           link: "/conversion/net/html-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "HTML к XLSM"
+        - name: "HTML в XLSM"
           link: "/conversion/net/html-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "HTML к XLSX"
+        - name: "HTML в XLSX"
           link: "/conversion/net/html-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "HTML к XLT"
+        - name: "HTML в XLT"
           link: "/conversion/net/html-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "HTML к XLTM"
+        - name: "HTML в XLTM"
           link: "/conversion/net/html-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "HTML к XLTX"
+        - name: "HTML в XLTX"
           link: "/conversion/net/html-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "HTML к XPS"
+        - name: "HTML в XPS"
           link: "/conversion/net/html-to-xps/"
           description: "Спецификация документа Open XML"
 

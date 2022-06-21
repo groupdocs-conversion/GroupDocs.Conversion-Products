@@ -128,42 +128,42 @@ more_formats:
         Вы также можете конвертировать WEB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WEB к DOCM"
+        - name: "WEB в DOCM"
           link: "/conversion/java/web-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WEB к DOCX"
+        - name: "WEB в DOCX"
           link: "/conversion/java/web-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WEB к EPUB"
+        - name: "WEB в EPUB"
           link: "/conversion/java/web-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WEB к FODS"
+        - name: "WEB в FODS"
           link: "/conversion/java/web-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "WEB к MHTML"
+        - name: "WEB в MHTML"
           link: "/conversion/java/web-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WEB к PDF"
+        - name: "WEB в PDF"
           link: "/conversion/java/web-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "WEB к POTX"
+        - name: "WEB в POTX"
           link: "/conversion/java/web-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WEB к PPTX"
+        - name: "WEB в PPTX"
           link: "/conversion/java/web-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 

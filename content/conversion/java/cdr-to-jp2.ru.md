@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать CDR во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "CDR к BMP"
+        - name: "CDR в BMP"
           link: "/conversion/java/cdr-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "CDR к CSV"
+        - name: "CDR в CSV"
           link: "/conversion/java/cdr-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "CDR к DCM"
+        - name: "CDR в DCM"
           link: "/conversion/java/cdr-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "CDR к DIF"
+        - name: "CDR в DIF"
           link: "/conversion/java/cdr-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "CDR к DOC"
+        - name: "CDR в DOC"
           link: "/conversion/java/cdr-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "CDR к DOCM"
+        - name: "CDR в DOCM"
           link: "/conversion/java/cdr-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CDR к DOCX"
+        - name: "CDR в DOCX"
           link: "/conversion/java/cdr-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "CDR к DOT"
+        - name: "CDR в DOT"
           link: "/conversion/java/cdr-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "CDR к DOTM"
+        - name: "CDR в DOTM"
           link: "/conversion/java/cdr-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CDR к DOTX"
+        - name: "CDR в DOTX"
           link: "/conversion/java/cdr-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "CDR к EMF"
+        - name: "CDR в EMF"
           link: "/conversion/java/cdr-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "CDR к EMZ"
+        - name: "CDR в EMZ"
           link: "/conversion/java/cdr-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "CDR к EPUB"
+        - name: "CDR в EPUB"
           link: "/conversion/java/cdr-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "CDR к FODP"
+        - name: "CDR в FODP"
           link: "/conversion/java/cdr-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "CDR к FODS"
+        - name: "CDR в FODS"
           link: "/conversion/java/cdr-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "CDR к GIF"
+        - name: "CDR в GIF"
           link: "/conversion/java/cdr-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "CDR к HTM"
+        - name: "CDR в HTM"
           link: "/conversion/java/cdr-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "CDR к HTML"
+        - name: "CDR в HTML"
           link: "/conversion/java/cdr-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "CDR к ICO"
+        - name: "CDR в ICO"
           link: "/conversion/java/cdr-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "CDR к JPEG"
+        - name: "CDR в JPEG"
           link: "/conversion/java/cdr-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "CDR к JPG"
+        - name: "CDR в JPG"
           link: "/conversion/java/cdr-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "CDR к MD"
+        - name: "CDR в MD"
           link: "/conversion/java/cdr-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "CDR к MHT"
+        - name: "CDR в MHT"
           link: "/conversion/java/cdr-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CDR к MHTML"
+        - name: "CDR в MHTML"
           link: "/conversion/java/cdr-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CDR к ODP"
+        - name: "CDR в ODP"
           link: "/conversion/java/cdr-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "CDR к ODS"
+        - name: "CDR в ODS"
           link: "/conversion/java/cdr-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "CDR к ODT"
+        - name: "CDR в ODT"
           link: "/conversion/java/cdr-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "CDR к OTP"
+        - name: "CDR в OTP"
           link: "/conversion/java/cdr-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "CDR к OTT"
+        - name: "CDR в OTT"
           link: "/conversion/java/cdr-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "CDR к PDF"
+        - name: "CDR в PDF"
           link: "/conversion/java/cdr-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "CDR к PNG"
+        - name: "CDR в PNG"
           link: "/conversion/java/cdr-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "CDR к POT"
+        - name: "CDR в POT"
           link: "/conversion/java/cdr-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "CDR к POTM"
+        - name: "CDR в POTM"
           link: "/conversion/java/cdr-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CDR к POTX"
+        - name: "CDR в POTX"
           link: "/conversion/java/cdr-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CDR к PPS"
+        - name: "CDR в PPS"
           link: "/conversion/java/cdr-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CDR к PPSM"
+        - name: "CDR в PPSM"
           link: "/conversion/java/cdr-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CDR к PPSX"
+        - name: "CDR в PPSX"
           link: "/conversion/java/cdr-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "CDR к PPT"
+        - name: "CDR в PPT"
           link: "/conversion/java/cdr-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "CDR к PPTM"
+        - name: "CDR в PPTM"
           link: "/conversion/java/cdr-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "CDR к PPTX"
+        - name: "CDR в PPTX"
           link: "/conversion/java/cdr-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "CDR к PSD"
+        - name: "CDR в PSD"
           link: "/conversion/java/cdr-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "CDR к RTF"
+        - name: "CDR в RTF"
           link: "/conversion/java/cdr-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "CDR к SVG"
+        - name: "CDR в SVG"
           link: "/conversion/java/cdr-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CDR к SVGZ"
+        - name: "CDR в SVGZ"
           link: "/conversion/java/cdr-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CDR к SXC"
+        - name: "CDR в SXC"
           link: "/conversion/java/cdr-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "CDR к TEX"
+        - name: "CDR в TEX"
           link: "/conversion/java/cdr-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "CDR к TIF"
+        - name: "CDR в TIF"
           link: "/conversion/java/cdr-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CDR к TIFF"
+        - name: "CDR в TIFF"
           link: "/conversion/java/cdr-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CDR к TSV"
+        - name: "CDR в TSV"
           link: "/conversion/java/cdr-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "CDR к TXT"
+        - name: "CDR в TXT"
           link: "/conversion/java/cdr-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "CDR к WEBP"
+        - name: "CDR в WEBP"
           link: "/conversion/java/cdr-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "CDR к WMF"
+        - name: "CDR в WMF"
           link: "/conversion/java/cdr-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "CDR к WMZ"
+        - name: "CDR в WMZ"
           link: "/conversion/java/cdr-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "CDR к XLAM"
+        - name: "CDR в XLAM"
           link: "/conversion/java/cdr-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CDR к XLS"
+        - name: "CDR в XLS"
           link: "/conversion/java/cdr-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "CDR к XLSB"
+        - name: "CDR в XLSB"
           link: "/conversion/java/cdr-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "CDR к XLSM"
+        - name: "CDR в XLSM"
           link: "/conversion/java/cdr-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CDR к XLSX"
+        - name: "CDR в XLSX"
           link: "/conversion/java/cdr-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "CDR к XLT"
+        - name: "CDR в XLT"
           link: "/conversion/java/cdr-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "CDR к XLTM"
+        - name: "CDR в XLTM"
           link: "/conversion/java/cdr-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CDR к XLTX"
+        - name: "CDR в XLTX"
           link: "/conversion/java/cdr-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "CDR к XPS"
+        - name: "CDR в XPS"
           link: "/conversion/java/cdr-to-xps/"
           description: "Спецификация документа Open XML"
 

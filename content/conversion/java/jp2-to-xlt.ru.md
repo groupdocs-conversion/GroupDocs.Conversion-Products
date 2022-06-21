@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать JP2 во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JP2 к BMP"
+        - name: "JP2 в BMP"
           link: "/conversion/java/jp2-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JP2 к CSV"
+        - name: "JP2 в CSV"
           link: "/conversion/java/jp2-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "JP2 к DCM"
+        - name: "JP2 в DCM"
           link: "/conversion/java/jp2-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "JP2 к DIF"
+        - name: "JP2 в DIF"
           link: "/conversion/java/jp2-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "JP2 к DOC"
+        - name: "JP2 в DOC"
           link: "/conversion/java/jp2-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JP2 к DOCM"
+        - name: "JP2 в DOCM"
           link: "/conversion/java/jp2-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JP2 к DOCX"
+        - name: "JP2 в DOCX"
           link: "/conversion/java/jp2-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JP2 к DOT"
+        - name: "JP2 в DOT"
           link: "/conversion/java/jp2-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JP2 к DOTM"
+        - name: "JP2 в DOTM"
           link: "/conversion/java/jp2-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JP2 к DOTX"
+        - name: "JP2 в DOTX"
           link: "/conversion/java/jp2-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JP2 к EMF"
+        - name: "JP2 в EMF"
           link: "/conversion/java/jp2-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JP2 к EMZ"
+        - name: "JP2 в EMZ"
           link: "/conversion/java/jp2-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JP2 к EPUB"
+        - name: "JP2 в EPUB"
           link: "/conversion/java/jp2-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JP2 к FODP"
+        - name: "JP2 в FODP"
           link: "/conversion/java/jp2-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "JP2 к FODS"
+        - name: "JP2 в FODS"
           link: "/conversion/java/jp2-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "JP2 к GIF"
+        - name: "JP2 в GIF"
           link: "/conversion/java/jp2-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "JP2 к HTM"
+        - name: "JP2 в HTM"
           link: "/conversion/java/jp2-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "JP2 к HTML"
+        - name: "JP2 в HTML"
           link: "/conversion/java/jp2-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "JP2 к ICO"
+        - name: "JP2 в ICO"
           link: "/conversion/java/jp2-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JP2 к JPEG"
+        - name: "JP2 в JPEG"
           link: "/conversion/java/jp2-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "JP2 к JPG"
+        - name: "JP2 в JPG"
           link: "/conversion/java/jp2-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JP2 к MD"
+        - name: "JP2 в MD"
           link: "/conversion/java/jp2-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JP2 к MHT"
+        - name: "JP2 в MHT"
           link: "/conversion/java/jp2-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JP2 к MHTML"
+        - name: "JP2 в MHTML"
           link: "/conversion/java/jp2-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JP2 к ODP"
+        - name: "JP2 в ODP"
           link: "/conversion/java/jp2-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JP2 к ODS"
+        - name: "JP2 в ODS"
           link: "/conversion/java/jp2-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JP2 к ODT"
+        - name: "JP2 в ODT"
           link: "/conversion/java/jp2-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JP2 к OTP"
+        - name: "JP2 в OTP"
           link: "/conversion/java/jp2-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "JP2 к OTT"
+        - name: "JP2 в OTT"
           link: "/conversion/java/jp2-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JP2 к PDF"
+        - name: "JP2 в PDF"
           link: "/conversion/java/jp2-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "JP2 к PNG"
+        - name: "JP2 в PNG"
           link: "/conversion/java/jp2-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JP2 к POT"
+        - name: "JP2 в POT"
           link: "/conversion/java/jp2-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "JP2 к POTM"
+        - name: "JP2 в POTM"
           link: "/conversion/java/jp2-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JP2 к POTX"
+        - name: "JP2 в POTX"
           link: "/conversion/java/jp2-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JP2 к PPS"
+        - name: "JP2 в PPS"
           link: "/conversion/java/jp2-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JP2 к PPSM"
+        - name: "JP2 в PPSM"
           link: "/conversion/java/jp2-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JP2 к PPSX"
+        - name: "JP2 в PPSX"
           link: "/conversion/java/jp2-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JP2 к PPT"
+        - name: "JP2 в PPT"
           link: "/conversion/java/jp2-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JP2 к PPTM"
+        - name: "JP2 в PPTM"
           link: "/conversion/java/jp2-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JP2 к PPTX"
+        - name: "JP2 в PPTX"
           link: "/conversion/java/jp2-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JP2 к PSD"
+        - name: "JP2 в PSD"
           link: "/conversion/java/jp2-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JP2 к RTF"
+        - name: "JP2 в RTF"
           link: "/conversion/java/jp2-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JP2 к SVG"
+        - name: "JP2 в SVG"
           link: "/conversion/java/jp2-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JP2 к SVGZ"
+        - name: "JP2 в SVGZ"
           link: "/conversion/java/jp2-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JP2 к SXC"
+        - name: "JP2 в SXC"
           link: "/conversion/java/jp2-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "JP2 к TEX"
+        - name: "JP2 в TEX"
           link: "/conversion/java/jp2-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JP2 к TIF"
+        - name: "JP2 в TIF"
           link: "/conversion/java/jp2-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JP2 к TIFF"
+        - name: "JP2 в TIFF"
           link: "/conversion/java/jp2-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JP2 к TSV"
+        - name: "JP2 в TSV"
           link: "/conversion/java/jp2-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "JP2 к TXT"
+        - name: "JP2 в TXT"
           link: "/conversion/java/jp2-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JP2 к WEBP"
+        - name: "JP2 в WEBP"
           link: "/conversion/java/jp2-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JP2 к WMF"
+        - name: "JP2 в WMF"
           link: "/conversion/java/jp2-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JP2 к WMZ"
+        - name: "JP2 в WMZ"
           link: "/conversion/java/jp2-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JP2 к XLAM"
+        - name: "JP2 в XLAM"
           link: "/conversion/java/jp2-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JP2 к XLS"
+        - name: "JP2 в XLS"
           link: "/conversion/java/jp2-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JP2 к XLSB"
+        - name: "JP2 в XLSB"
           link: "/conversion/java/jp2-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JP2 к XLSM"
+        - name: "JP2 в XLSM"
           link: "/conversion/java/jp2-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JP2 к XLSX"
+        - name: "JP2 в XLSX"
           link: "/conversion/java/jp2-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JP2 к XLTM"
+        - name: "JP2 в XLTM"
           link: "/conversion/java/jp2-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JP2 к XLTX"
+        - name: "JP2 в XLTX"
           link: "/conversion/java/jp2-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JP2 к XPS"
+        - name: "JP2 в XPS"
           link: "/conversion/java/jp2-to-xps/"
           description: "Спецификация документа Open XML"
 

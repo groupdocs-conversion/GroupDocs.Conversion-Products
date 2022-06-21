@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать MBOX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "MBOX к BMP"
+        - name: "MBOX в BMP"
           link: "/conversion/net/mbox-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "MBOX к CSV"
+        - name: "MBOX в CSV"
           link: "/conversion/net/mbox-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "MBOX к DCM"
+        - name: "MBOX в DCM"
           link: "/conversion/net/mbox-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "MBOX к DIF"
+        - name: "MBOX в DIF"
           link: "/conversion/net/mbox-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "MBOX к DOC"
+        - name: "MBOX в DOC"
           link: "/conversion/net/mbox-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "MBOX к DOCM"
+        - name: "MBOX в DOCM"
           link: "/conversion/net/mbox-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MBOX к DOCX"
+        - name: "MBOX в DOCX"
           link: "/conversion/net/mbox-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "MBOX к DOT"
+        - name: "MBOX в DOT"
           link: "/conversion/net/mbox-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "MBOX к DOTM"
+        - name: "MBOX в DOTM"
           link: "/conversion/net/mbox-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "MBOX к DOTX"
+        - name: "MBOX в DOTX"
           link: "/conversion/net/mbox-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "MBOX к EMF"
+        - name: "MBOX в EMF"
           link: "/conversion/net/mbox-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "MBOX к EMZ"
+        - name: "MBOX в EMZ"
           link: "/conversion/net/mbox-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "MBOX к EPUB"
+        - name: "MBOX в EPUB"
           link: "/conversion/net/mbox-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "MBOX к FODP"
+        - name: "MBOX в FODP"
           link: "/conversion/net/mbox-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "MBOX к FODS"
+        - name: "MBOX в FODS"
           link: "/conversion/net/mbox-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "MBOX к GIF"
+        - name: "MBOX в GIF"
           link: "/conversion/net/mbox-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "MBOX к HTM"
+        - name: "MBOX в HTM"
           link: "/conversion/net/mbox-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "MBOX к HTML"
+        - name: "MBOX в HTML"
           link: "/conversion/net/mbox-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "MBOX к ICO"
+        - name: "MBOX в ICO"
           link: "/conversion/net/mbox-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "MBOX к JP2"
+        - name: "MBOX в JP2"
           link: "/conversion/net/mbox-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "MBOX к JPEG"
+        - name: "MBOX в JPEG"
           link: "/conversion/net/mbox-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "MBOX к JPG"
+        - name: "MBOX в JPG"
           link: "/conversion/net/mbox-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "MBOX к MD"
+        - name: "MBOX в MD"
           link: "/conversion/net/mbox-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "MBOX к MHT"
+        - name: "MBOX в MHT"
           link: "/conversion/net/mbox-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MBOX к MHTML"
+        - name: "MBOX в MHTML"
           link: "/conversion/net/mbox-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "MBOX к ODP"
+        - name: "MBOX в ODP"
           link: "/conversion/net/mbox-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "MBOX к ODS"
+        - name: "MBOX в ODS"
           link: "/conversion/net/mbox-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "MBOX к ODT"
+        - name: "MBOX в ODT"
           link: "/conversion/net/mbox-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "MBOX к OTP"
+        - name: "MBOX в OTP"
           link: "/conversion/net/mbox-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "MBOX к PDF"
+        - name: "MBOX в PDF"
           link: "/conversion/net/mbox-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "MBOX к PNG"
+        - name: "MBOX в PNG"
           link: "/conversion/net/mbox-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "MBOX к POT"
+        - name: "MBOX в POT"
           link: "/conversion/net/mbox-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "MBOX к POTM"
+        - name: "MBOX в POTM"
           link: "/conversion/net/mbox-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MBOX к POTX"
+        - name: "MBOX в POTX"
           link: "/conversion/net/mbox-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "MBOX к PPS"
+        - name: "MBOX в PPS"
           link: "/conversion/net/mbox-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MBOX к PPSM"
+        - name: "MBOX в PPSM"
           link: "/conversion/net/mbox-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "MBOX к PPSX"
+        - name: "MBOX в PPSX"
           link: "/conversion/net/mbox-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "MBOX к PPT"
+        - name: "MBOX в PPT"
           link: "/conversion/net/mbox-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "MBOX к PPTM"
+        - name: "MBOX в PPTM"
           link: "/conversion/net/mbox-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "MBOX к PPTX"
+        - name: "MBOX в PPTX"
           link: "/conversion/net/mbox-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "MBOX к PSD"
+        - name: "MBOX в PSD"
           link: "/conversion/net/mbox-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "MBOX к RTF"
+        - name: "MBOX в RTF"
           link: "/conversion/net/mbox-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "MBOX к SVG"
+        - name: "MBOX в SVG"
           link: "/conversion/net/mbox-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MBOX к SVGZ"
+        - name: "MBOX в SVGZ"
           link: "/conversion/net/mbox-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "MBOX к SXC"
+        - name: "MBOX в SXC"
           link: "/conversion/net/mbox-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "MBOX к TEX"
+        - name: "MBOX в TEX"
           link: "/conversion/net/mbox-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "MBOX к TIF"
+        - name: "MBOX в TIF"
           link: "/conversion/net/mbox-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MBOX к TIFF"
+        - name: "MBOX в TIFF"
           link: "/conversion/net/mbox-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "MBOX к TSV"
+        - name: "MBOX в TSV"
           link: "/conversion/net/mbox-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "MBOX к TXT"
+        - name: "MBOX в TXT"
           link: "/conversion/net/mbox-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "MBOX к WEBP"
+        - name: "MBOX в WEBP"
           link: "/conversion/net/mbox-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "MBOX к WMF"
+        - name: "MBOX в WMF"
           link: "/conversion/net/mbox-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "MBOX к WMZ"
+        - name: "MBOX в WMZ"
           link: "/conversion/net/mbox-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "MBOX к XLAM"
+        - name: "MBOX в XLAM"
           link: "/conversion/net/mbox-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MBOX к XLS"
+        - name: "MBOX в XLS"
           link: "/conversion/net/mbox-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "MBOX к XLSB"
+        - name: "MBOX в XLSB"
           link: "/conversion/net/mbox-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "MBOX к XLSM"
+        - name: "MBOX в XLSM"
           link: "/conversion/net/mbox-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MBOX к XLSX"
+        - name: "MBOX в XLSX"
           link: "/conversion/net/mbox-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "MBOX к XLT"
+        - name: "MBOX в XLT"
           link: "/conversion/net/mbox-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "MBOX к XLTM"
+        - name: "MBOX в XLTM"
           link: "/conversion/net/mbox-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "MBOX к XLTX"
+        - name: "MBOX в XLTX"
           link: "/conversion/net/mbox-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "MBOX к XPS"
+        - name: "MBOX в XPS"
           link: "/conversion/net/mbox-to-xps/"
           description: "Спецификация документа Open XML"
 

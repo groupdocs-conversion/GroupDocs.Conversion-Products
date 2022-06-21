@@ -128,317 +128,317 @@ more_formats:
         Вы также можете конвертировать DIB во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DIB к BMP"
+        - name: "DIB в BMP"
           link: "/conversion/java/dib-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DIB к CSV"
+        - name: "DIB в CSV"
           link: "/conversion/java/dib-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DIB к DCM"
+        - name: "DIB в DCM"
           link: "/conversion/java/dib-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DIB к DIF"
+        - name: "DIB в DIF"
           link: "/conversion/java/dib-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DIB к DJVU"
+        - name: "DIB в DJVU"
           link: "/conversion/java/dib-to-djvu/"
           description: "Формат графического файла"
 
         # format loop
-        - name: "DIB к DOC"
+        - name: "DIB в DOC"
           link: "/conversion/java/dib-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DIB к DOCM"
+        - name: "DIB в DOCM"
           link: "/conversion/java/dib-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DIB к DOCX"
+        - name: "DIB в DOCX"
           link: "/conversion/java/dib-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DIB к DOT"
+        - name: "DIB в DOT"
           link: "/conversion/java/dib-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DIB к DOTM"
+        - name: "DIB в DOTM"
           link: "/conversion/java/dib-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DIB к DOTX"
+        - name: "DIB в DOTX"
           link: "/conversion/java/dib-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DIB к EMF"
+        - name: "DIB в EMF"
           link: "/conversion/java/dib-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DIB к EPUB"
+        - name: "DIB в EPUB"
           link: "/conversion/java/dib-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DIB к FODP"
+        - name: "DIB в FODP"
           link: "/conversion/java/dib-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DIB к FODS"
+        - name: "DIB в FODS"
           link: "/conversion/java/dib-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DIB к GIF"
+        - name: "DIB в GIF"
           link: "/conversion/java/dib-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DIB к HTM"
+        - name: "DIB в HTM"
           link: "/conversion/java/dib-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DIB к HTML"
+        - name: "DIB в HTML"
           link: "/conversion/java/dib-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DIB к ICO"
+        - name: "DIB в ICO"
           link: "/conversion/java/dib-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DIB к JP2"
+        - name: "DIB в JP2"
           link: "/conversion/java/dib-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DIB к JPEG"
+        - name: "DIB в JPEG"
           link: "/conversion/java/dib-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DIB к JPG"
+        - name: "DIB в JPG"
           link: "/conversion/java/dib-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DIB к MD"
+        - name: "DIB в MD"
           link: "/conversion/java/dib-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DIB к MHT"
+        - name: "DIB в MHT"
           link: "/conversion/java/dib-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DIB к MHTML"
+        - name: "DIB в MHTML"
           link: "/conversion/java/dib-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DIB к ODP"
+        - name: "DIB в ODP"
           link: "/conversion/java/dib-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DIB к ODS"
+        - name: "DIB в ODS"
           link: "/conversion/java/dib-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DIB к ODT"
+        - name: "DIB в ODT"
           link: "/conversion/java/dib-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DIB к OTP"
+        - name: "DIB в OTP"
           link: "/conversion/java/dib-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DIB к OTT"
+        - name: "DIB в OTT"
           link: "/conversion/java/dib-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DIB к PDF"
+        - name: "DIB в PDF"
           link: "/conversion/java/dib-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DIB к PNG"
+        - name: "DIB в PNG"
           link: "/conversion/java/dib-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DIB к POT"
+        - name: "DIB в POT"
           link: "/conversion/java/dib-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DIB к POTM"
+        - name: "DIB в POTM"
           link: "/conversion/java/dib-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB к POTX"
+        - name: "DIB в POTX"
           link: "/conversion/java/dib-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB к PPS"
+        - name: "DIB в PPS"
           link: "/conversion/java/dib-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB к PPSM"
+        - name: "DIB в PPSM"
           link: "/conversion/java/dib-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB к PPSX"
+        - name: "DIB в PPSX"
           link: "/conversion/java/dib-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DIB к PPT"
+        - name: "DIB в PPT"
           link: "/conversion/java/dib-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DIB к PPTM"
+        - name: "DIB в PPTM"
           link: "/conversion/java/dib-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DIB к PPTX"
+        - name: "DIB в PPTX"
           link: "/conversion/java/dib-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DIB к PSD"
+        - name: "DIB в PSD"
           link: "/conversion/java/dib-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DIB к RTF"
+        - name: "DIB в RTF"
           link: "/conversion/java/dib-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DIB к SVG"
+        - name: "DIB в SVG"
           link: "/conversion/java/dib-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DIB к SVGZ"
+        - name: "DIB в SVGZ"
           link: "/conversion/java/dib-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DIB к SXC"
+        - name: "DIB в SXC"
           link: "/conversion/java/dib-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DIB к TEX"
+        - name: "DIB в TEX"
           link: "/conversion/java/dib-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DIB к TIF"
+        - name: "DIB в TIF"
           link: "/conversion/java/dib-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DIB к TIFF"
+        - name: "DIB в TIFF"
           link: "/conversion/java/dib-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DIB к TSV"
+        - name: "DIB в TSV"
           link: "/conversion/java/dib-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DIB к TXT"
+        - name: "DIB в TXT"
           link: "/conversion/java/dib-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DIB к WEBP"
+        - name: "DIB в WEBP"
           link: "/conversion/java/dib-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DIB к WMF"
+        - name: "DIB в WMF"
           link: "/conversion/java/dib-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DIB к WMZ"
+        - name: "DIB в WMZ"
           link: "/conversion/java/dib-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DIB к XLAM"
+        - name: "DIB в XLAM"
           link: "/conversion/java/dib-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DIB к XLS"
+        - name: "DIB в XLS"
           link: "/conversion/java/dib-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DIB к XLSB"
+        - name: "DIB в XLSB"
           link: "/conversion/java/dib-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DIB к XLSM"
+        - name: "DIB в XLSM"
           link: "/conversion/java/dib-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DIB к XLSX"
+        - name: "DIB в XLSX"
           link: "/conversion/java/dib-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DIB к XLT"
+        - name: "DIB в XLT"
           link: "/conversion/java/dib-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DIB к XLTM"
+        - name: "DIB в XLTM"
           link: "/conversion/java/dib-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DIB к XLTX"
+        - name: "DIB в XLTX"
           link: "/conversion/java/dib-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DIB к XPS"
+        - name: "DIB в XPS"
           link: "/conversion/java/dib-to-xps/"
           description: "Спецификация документа Open XML"
 

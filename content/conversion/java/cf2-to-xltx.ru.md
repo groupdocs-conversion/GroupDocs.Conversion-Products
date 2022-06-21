@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать CF2 во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "CF2 к BMP"
+        - name: "CF2 в BMP"
           link: "/conversion/java/cf2-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "CF2 к CSV"
+        - name: "CF2 в CSV"
           link: "/conversion/java/cf2-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "CF2 к DCM"
+        - name: "CF2 в DCM"
           link: "/conversion/java/cf2-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "CF2 к DIF"
+        - name: "CF2 в DIF"
           link: "/conversion/java/cf2-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "CF2 к DOC"
+        - name: "CF2 в DOC"
           link: "/conversion/java/cf2-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "CF2 к DOCM"
+        - name: "CF2 в DOCM"
           link: "/conversion/java/cf2-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CF2 к DOCX"
+        - name: "CF2 в DOCX"
           link: "/conversion/java/cf2-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "CF2 к DOT"
+        - name: "CF2 в DOT"
           link: "/conversion/java/cf2-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "CF2 к DOTM"
+        - name: "CF2 в DOTM"
           link: "/conversion/java/cf2-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CF2 к DOTX"
+        - name: "CF2 в DOTX"
           link: "/conversion/java/cf2-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "CF2 к EMF"
+        - name: "CF2 в EMF"
           link: "/conversion/java/cf2-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "CF2 к EMZ"
+        - name: "CF2 в EMZ"
           link: "/conversion/java/cf2-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "CF2 к EPUB"
+        - name: "CF2 в EPUB"
           link: "/conversion/java/cf2-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "CF2 к FODP"
+        - name: "CF2 в FODP"
           link: "/conversion/java/cf2-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "CF2 к FODS"
+        - name: "CF2 в FODS"
           link: "/conversion/java/cf2-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "CF2 к GIF"
+        - name: "CF2 в GIF"
           link: "/conversion/java/cf2-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "CF2 к HTM"
+        - name: "CF2 в HTM"
           link: "/conversion/java/cf2-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "CF2 к HTML"
+        - name: "CF2 в HTML"
           link: "/conversion/java/cf2-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "CF2 к ICO"
+        - name: "CF2 в ICO"
           link: "/conversion/java/cf2-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "CF2 к JP2"
+        - name: "CF2 в JP2"
           link: "/conversion/java/cf2-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "CF2 к JPEG"
+        - name: "CF2 в JPEG"
           link: "/conversion/java/cf2-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "CF2 к JPG"
+        - name: "CF2 в JPG"
           link: "/conversion/java/cf2-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "CF2 к MD"
+        - name: "CF2 в MD"
           link: "/conversion/java/cf2-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "CF2 к MHT"
+        - name: "CF2 в MHT"
           link: "/conversion/java/cf2-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CF2 к MHTML"
+        - name: "CF2 в MHTML"
           link: "/conversion/java/cf2-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CF2 к ODP"
+        - name: "CF2 в ODP"
           link: "/conversion/java/cf2-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "CF2 к ODS"
+        - name: "CF2 в ODS"
           link: "/conversion/java/cf2-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "CF2 к ODT"
+        - name: "CF2 в ODT"
           link: "/conversion/java/cf2-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "CF2 к OTP"
+        - name: "CF2 в OTP"
           link: "/conversion/java/cf2-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "CF2 к OTT"
+        - name: "CF2 в OTT"
           link: "/conversion/java/cf2-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "CF2 к PDF"
+        - name: "CF2 в PDF"
           link: "/conversion/java/cf2-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "CF2 к PNG"
+        - name: "CF2 в PNG"
           link: "/conversion/java/cf2-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "CF2 к POT"
+        - name: "CF2 в POT"
           link: "/conversion/java/cf2-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "CF2 к POTM"
+        - name: "CF2 в POTM"
           link: "/conversion/java/cf2-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CF2 к POTX"
+        - name: "CF2 в POTX"
           link: "/conversion/java/cf2-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CF2 к PPS"
+        - name: "CF2 в PPS"
           link: "/conversion/java/cf2-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CF2 к PPSM"
+        - name: "CF2 в PPSM"
           link: "/conversion/java/cf2-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CF2 к PPSX"
+        - name: "CF2 в PPSX"
           link: "/conversion/java/cf2-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "CF2 к PPT"
+        - name: "CF2 в PPT"
           link: "/conversion/java/cf2-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "CF2 к PPTM"
+        - name: "CF2 в PPTM"
           link: "/conversion/java/cf2-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "CF2 к PPTX"
+        - name: "CF2 в PPTX"
           link: "/conversion/java/cf2-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "CF2 к PSD"
+        - name: "CF2 в PSD"
           link: "/conversion/java/cf2-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "CF2 к RTF"
+        - name: "CF2 в RTF"
           link: "/conversion/java/cf2-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "CF2 к SVG"
+        - name: "CF2 в SVG"
           link: "/conversion/java/cf2-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CF2 к SVGZ"
+        - name: "CF2 в SVGZ"
           link: "/conversion/java/cf2-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CF2 к SXC"
+        - name: "CF2 в SXC"
           link: "/conversion/java/cf2-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "CF2 к TEX"
+        - name: "CF2 в TEX"
           link: "/conversion/java/cf2-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "CF2 к TIF"
+        - name: "CF2 в TIF"
           link: "/conversion/java/cf2-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CF2 к TIFF"
+        - name: "CF2 в TIFF"
           link: "/conversion/java/cf2-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CF2 к TSV"
+        - name: "CF2 в TSV"
           link: "/conversion/java/cf2-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "CF2 к TXT"
+        - name: "CF2 в TXT"
           link: "/conversion/java/cf2-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "CF2 к WEBP"
+        - name: "CF2 в WEBP"
           link: "/conversion/java/cf2-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "CF2 к WMF"
+        - name: "CF2 в WMF"
           link: "/conversion/java/cf2-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "CF2 к WMZ"
+        - name: "CF2 в WMZ"
           link: "/conversion/java/cf2-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "CF2 к XLAM"
+        - name: "CF2 в XLAM"
           link: "/conversion/java/cf2-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CF2 к XLS"
+        - name: "CF2 в XLS"
           link: "/conversion/java/cf2-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "CF2 к XLSB"
+        - name: "CF2 в XLSB"
           link: "/conversion/java/cf2-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "CF2 к XLSM"
+        - name: "CF2 в XLSM"
           link: "/conversion/java/cf2-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CF2 к XLSX"
+        - name: "CF2 в XLSX"
           link: "/conversion/java/cf2-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "CF2 к XLT"
+        - name: "CF2 в XLT"
           link: "/conversion/java/cf2-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "CF2 к XLTM"
+        - name: "CF2 в XLTM"
           link: "/conversion/java/cf2-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CF2 к XPS"
+        - name: "CF2 в XPS"
           link: "/conversion/java/cf2-to-xps/"
           description: "Спецификация документа Open XML"
 

@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать JPM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JPM к BMP"
+        - name: "JPM в BMP"
           link: "/conversion/net/jpm-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JPM к CSV"
+        - name: "JPM в CSV"
           link: "/conversion/net/jpm-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "JPM к DCM"
+        - name: "JPM в DCM"
           link: "/conversion/net/jpm-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "JPM к DIF"
+        - name: "JPM в DIF"
           link: "/conversion/net/jpm-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "JPM к DOC"
+        - name: "JPM в DOC"
           link: "/conversion/net/jpm-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JPM к DOCM"
+        - name: "JPM в DOCM"
           link: "/conversion/net/jpm-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPM к DOCX"
+        - name: "JPM в DOCX"
           link: "/conversion/net/jpm-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JPM к DOT"
+        - name: "JPM в DOT"
           link: "/conversion/net/jpm-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JPM к DOTM"
+        - name: "JPM в DOTM"
           link: "/conversion/net/jpm-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPM к DOTX"
+        - name: "JPM в DOTX"
           link: "/conversion/net/jpm-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JPM к EMF"
+        - name: "JPM в EMF"
           link: "/conversion/net/jpm-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JPM к EMZ"
+        - name: "JPM в EMZ"
           link: "/conversion/net/jpm-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JPM к EPUB"
+        - name: "JPM в EPUB"
           link: "/conversion/net/jpm-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JPM к FODP"
+        - name: "JPM в FODP"
           link: "/conversion/net/jpm-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "JPM к FODS"
+        - name: "JPM в FODS"
           link: "/conversion/net/jpm-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "JPM к HTM"
+        - name: "JPM в HTM"
           link: "/conversion/net/jpm-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "JPM к HTML"
+        - name: "JPM в HTML"
           link: "/conversion/net/jpm-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "JPM к ICO"
+        - name: "JPM в ICO"
           link: "/conversion/net/jpm-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JPM к JP2"
+        - name: "JPM в JP2"
           link: "/conversion/net/jpm-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "JPM к JPEG"
+        - name: "JPM в JPEG"
           link: "/conversion/net/jpm-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "JPM к JPG"
+        - name: "JPM в JPG"
           link: "/conversion/net/jpm-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JPM к MD"
+        - name: "JPM в MD"
           link: "/conversion/net/jpm-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JPM к MHT"
+        - name: "JPM в MHT"
           link: "/conversion/net/jpm-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPM к MHTML"
+        - name: "JPM в MHTML"
           link: "/conversion/net/jpm-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPM к ODP"
+        - name: "JPM в ODP"
           link: "/conversion/net/jpm-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JPM к ODS"
+        - name: "JPM в ODS"
           link: "/conversion/net/jpm-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JPM к ODT"
+        - name: "JPM в ODT"
           link: "/conversion/net/jpm-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JPM к OTP"
+        - name: "JPM в OTP"
           link: "/conversion/net/jpm-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "JPM к OTT"
+        - name: "JPM в OTT"
           link: "/conversion/net/jpm-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JPM к PDF"
+        - name: "JPM в PDF"
           link: "/conversion/net/jpm-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "JPM к PNG"
+        - name: "JPM в PNG"
           link: "/conversion/net/jpm-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JPM к POT"
+        - name: "JPM в POT"
           link: "/conversion/net/jpm-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "JPM к POTM"
+        - name: "JPM в POTM"
           link: "/conversion/net/jpm-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPM к POTX"
+        - name: "JPM в POTX"
           link: "/conversion/net/jpm-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPM к PPS"
+        - name: "JPM в PPS"
           link: "/conversion/net/jpm-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPM к PPSM"
+        - name: "JPM в PPSM"
           link: "/conversion/net/jpm-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPM к PPSX"
+        - name: "JPM в PPSX"
           link: "/conversion/net/jpm-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JPM к PPT"
+        - name: "JPM в PPT"
           link: "/conversion/net/jpm-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JPM к PPTM"
+        - name: "JPM в PPTM"
           link: "/conversion/net/jpm-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JPM к PPTX"
+        - name: "JPM в PPTX"
           link: "/conversion/net/jpm-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JPM к PSD"
+        - name: "JPM в PSD"
           link: "/conversion/net/jpm-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JPM к RTF"
+        - name: "JPM в RTF"
           link: "/conversion/net/jpm-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JPM к SVG"
+        - name: "JPM в SVG"
           link: "/conversion/net/jpm-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPM к SVGZ"
+        - name: "JPM в SVGZ"
           link: "/conversion/net/jpm-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPM к SXC"
+        - name: "JPM в SXC"
           link: "/conversion/net/jpm-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "JPM к TEX"
+        - name: "JPM в TEX"
           link: "/conversion/net/jpm-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JPM к TIF"
+        - name: "JPM в TIF"
           link: "/conversion/net/jpm-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPM к TIFF"
+        - name: "JPM в TIFF"
           link: "/conversion/net/jpm-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPM к TSV"
+        - name: "JPM в TSV"
           link: "/conversion/net/jpm-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "JPM к TXT"
+        - name: "JPM в TXT"
           link: "/conversion/net/jpm-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JPM к WEBP"
+        - name: "JPM в WEBP"
           link: "/conversion/net/jpm-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JPM к WMF"
+        - name: "JPM в WMF"
           link: "/conversion/net/jpm-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JPM к WMZ"
+        - name: "JPM в WMZ"
           link: "/conversion/net/jpm-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JPM к XLAM"
+        - name: "JPM в XLAM"
           link: "/conversion/net/jpm-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPM к XLS"
+        - name: "JPM в XLS"
           link: "/conversion/net/jpm-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JPM к XLSB"
+        - name: "JPM в XLSB"
           link: "/conversion/net/jpm-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JPM к XLSM"
+        - name: "JPM в XLSM"
           link: "/conversion/net/jpm-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPM к XLSX"
+        - name: "JPM в XLSX"
           link: "/conversion/net/jpm-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JPM к XLT"
+        - name: "JPM в XLT"
           link: "/conversion/net/jpm-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPM к XLTM"
+        - name: "JPM в XLTM"
           link: "/conversion/net/jpm-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPM к XLTX"
+        - name: "JPM в XLTX"
           link: "/conversion/net/jpm-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPM к XPS"
+        - name: "JPM в XPS"
           link: "/conversion/net/jpm-to-xps/"
           description: "Спецификация документа Open XML"
 

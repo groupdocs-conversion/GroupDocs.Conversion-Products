@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать DNG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DNG к BMP"
+        - name: "DNG в BMP"
           link: "/conversion/java/dng-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DNG к DCM"
+        - name: "DNG в DCM"
           link: "/conversion/java/dng-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DNG к DIF"
+        - name: "DNG в DIF"
           link: "/conversion/java/dng-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DNG к DOC"
+        - name: "DNG в DOC"
           link: "/conversion/java/dng-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DNG к DOCM"
+        - name: "DNG в DOCM"
           link: "/conversion/java/dng-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DNG к DOCX"
+        - name: "DNG в DOCX"
           link: "/conversion/java/dng-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DNG к DOT"
+        - name: "DNG в DOT"
           link: "/conversion/java/dng-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DNG к DOTM"
+        - name: "DNG в DOTM"
           link: "/conversion/java/dng-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DNG к DOTX"
+        - name: "DNG в DOTX"
           link: "/conversion/java/dng-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DNG к EMF"
+        - name: "DNG в EMF"
           link: "/conversion/java/dng-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DNG к EMZ"
+        - name: "DNG в EMZ"
           link: "/conversion/java/dng-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DNG к EPUB"
+        - name: "DNG в EPUB"
           link: "/conversion/java/dng-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DNG к FODP"
+        - name: "DNG в FODP"
           link: "/conversion/java/dng-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DNG к FODS"
+        - name: "DNG в FODS"
           link: "/conversion/java/dng-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DNG к GIF"
+        - name: "DNG в GIF"
           link: "/conversion/java/dng-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DNG к HTM"
+        - name: "DNG в HTM"
           link: "/conversion/java/dng-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DNG к HTML"
+        - name: "DNG в HTML"
           link: "/conversion/java/dng-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DNG к ICO"
+        - name: "DNG в ICO"
           link: "/conversion/java/dng-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DNG к JP2"
+        - name: "DNG в JP2"
           link: "/conversion/java/dng-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DNG к JPEG"
+        - name: "DNG в JPEG"
           link: "/conversion/java/dng-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DNG к JPG"
+        - name: "DNG в JPG"
           link: "/conversion/java/dng-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DNG к MD"
+        - name: "DNG в MD"
           link: "/conversion/java/dng-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DNG к MHT"
+        - name: "DNG в MHT"
           link: "/conversion/java/dng-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DNG к MHTML"
+        - name: "DNG в MHTML"
           link: "/conversion/java/dng-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DNG к ODP"
+        - name: "DNG в ODP"
           link: "/conversion/java/dng-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DNG к ODS"
+        - name: "DNG в ODS"
           link: "/conversion/java/dng-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DNG к ODT"
+        - name: "DNG в ODT"
           link: "/conversion/java/dng-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DNG к OTP"
+        - name: "DNG в OTP"
           link: "/conversion/java/dng-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DNG к OTT"
+        - name: "DNG в OTT"
           link: "/conversion/java/dng-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DNG к PDF"
+        - name: "DNG в PDF"
           link: "/conversion/java/dng-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DNG к PNG"
+        - name: "DNG в PNG"
           link: "/conversion/java/dng-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DNG к POT"
+        - name: "DNG в POT"
           link: "/conversion/java/dng-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DNG к POTM"
+        - name: "DNG в POTM"
           link: "/conversion/java/dng-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DNG к POTX"
+        - name: "DNG в POTX"
           link: "/conversion/java/dng-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DNG к PPS"
+        - name: "DNG в PPS"
           link: "/conversion/java/dng-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DNG к PPSM"
+        - name: "DNG в PPSM"
           link: "/conversion/java/dng-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DNG к PPSX"
+        - name: "DNG в PPSX"
           link: "/conversion/java/dng-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DNG к PPT"
+        - name: "DNG в PPT"
           link: "/conversion/java/dng-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DNG к PPTM"
+        - name: "DNG в PPTM"
           link: "/conversion/java/dng-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DNG к PPTX"
+        - name: "DNG в PPTX"
           link: "/conversion/java/dng-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DNG к PSD"
+        - name: "DNG в PSD"
           link: "/conversion/java/dng-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DNG к RTF"
+        - name: "DNG в RTF"
           link: "/conversion/java/dng-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DNG к SVG"
+        - name: "DNG в SVG"
           link: "/conversion/java/dng-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DNG к SVGZ"
+        - name: "DNG в SVGZ"
           link: "/conversion/java/dng-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DNG к SXC"
+        - name: "DNG в SXC"
           link: "/conversion/java/dng-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DNG к TEX"
+        - name: "DNG в TEX"
           link: "/conversion/java/dng-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DNG к TIF"
+        - name: "DNG в TIF"
           link: "/conversion/java/dng-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DNG к TIFF"
+        - name: "DNG в TIFF"
           link: "/conversion/java/dng-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DNG к TSV"
+        - name: "DNG в TSV"
           link: "/conversion/java/dng-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DNG к TXT"
+        - name: "DNG в TXT"
           link: "/conversion/java/dng-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DNG к WEBP"
+        - name: "DNG в WEBP"
           link: "/conversion/java/dng-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DNG к WMF"
+        - name: "DNG в WMF"
           link: "/conversion/java/dng-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DNG к WMZ"
+        - name: "DNG в WMZ"
           link: "/conversion/java/dng-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DNG к XLAM"
+        - name: "DNG в XLAM"
           link: "/conversion/java/dng-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DNG к XLS"
+        - name: "DNG в XLS"
           link: "/conversion/java/dng-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DNG к XLSB"
+        - name: "DNG в XLSB"
           link: "/conversion/java/dng-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DNG к XLSM"
+        - name: "DNG в XLSM"
           link: "/conversion/java/dng-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DNG к XLSX"
+        - name: "DNG в XLSX"
           link: "/conversion/java/dng-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DNG к XLT"
+        - name: "DNG в XLT"
           link: "/conversion/java/dng-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DNG к XLTM"
+        - name: "DNG в XLTM"
           link: "/conversion/java/dng-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DNG к XLTX"
+        - name: "DNG в XLTX"
           link: "/conversion/java/dng-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DNG к XPS"
+        - name: "DNG в XPS"
           link: "/conversion/java/dng-to-xps/"
           description: "Спецификация документа Open XML"
 

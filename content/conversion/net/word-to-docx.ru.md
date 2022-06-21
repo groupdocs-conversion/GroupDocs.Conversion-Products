@@ -127,292 +127,292 @@ more_formats:
         Вы также можете конвертировать WORD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WORD к BMP"
+        - name: "WORD в BMP"
           link: "/conversion/net/word-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WORD к CSV"
+        - name: "WORD в CSV"
           link: "/conversion/net/word-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WORD к DIF"
+        - name: "WORD в DIF"
           link: "/conversion/net/word-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "WORD к DOC"
+        - name: "WORD в DOC"
           link: "/conversion/net/word-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WORD к DOCM"
+        - name: "WORD в DOCM"
           link: "/conversion/net/word-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WORD к DOT"
+        - name: "WORD в DOT"
           link: "/conversion/net/word-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WORD к DOTM"
+        - name: "WORD в DOTM"
           link: "/conversion/net/word-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WORD к DOTX"
+        - name: "WORD в DOTX"
           link: "/conversion/net/word-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WORD к EMF"
+        - name: "WORD в EMF"
           link: "/conversion/net/word-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WORD к EMZ"
+        - name: "WORD в EMZ"
           link: "/conversion/net/word-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WORD к EPUB"
+        - name: "WORD в EPUB"
           link: "/conversion/net/word-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WORD к FODP"
+        - name: "WORD в FODP"
           link: "/conversion/net/word-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "WORD к FODS"
+        - name: "WORD в FODS"
           link: "/conversion/net/word-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "WORD к GIF"
+        - name: "WORD в GIF"
           link: "/conversion/net/word-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WORD к HTML"
+        - name: "WORD в HTML"
           link: "/conversion/net/word-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WORD к ICO"
+        - name: "WORD в ICO"
           link: "/conversion/net/word-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WORD к JP2"
+        - name: "WORD в JP2"
           link: "/conversion/net/word-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WORD к JPEG"
+        - name: "WORD в JPEG"
           link: "/conversion/net/word-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WORD к JPG"
+        - name: "WORD в JPG"
           link: "/conversion/net/word-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WORD к MD"
+        - name: "WORD в MD"
           link: "/conversion/net/word-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WORD к MHT"
+        - name: "WORD в MHT"
           link: "/conversion/net/word-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WORD к MHTML"
+        - name: "WORD в MHTML"
           link: "/conversion/net/word-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WORD к ODP"
+        - name: "WORD в ODP"
           link: "/conversion/net/word-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WORD к ODS"
+        - name: "WORD в ODS"
           link: "/conversion/net/word-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WORD к ODT"
+        - name: "WORD в ODT"
           link: "/conversion/net/word-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WORD к OTP"
+        - name: "WORD в OTP"
           link: "/conversion/net/word-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WORD к OTT"
+        - name: "WORD в OTT"
           link: "/conversion/net/word-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WORD к PDF"
+        - name: "WORD в PDF"
           link: "/conversion/net/word-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "WORD к PNG"
+        - name: "WORD в PNG"
           link: "/conversion/net/word-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "WORD к POTM"
+        - name: "WORD в POTM"
           link: "/conversion/net/word-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD к POTX"
+        - name: "WORD в POTX"
           link: "/conversion/net/word-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD к PPS"
+        - name: "WORD в PPS"
           link: "/conversion/net/word-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD к PPSM"
+        - name: "WORD в PPSM"
           link: "/conversion/net/word-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD к PPSX"
+        - name: "WORD в PPSX"
           link: "/conversion/net/word-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WORD к PPT"
+        - name: "WORD в PPT"
           link: "/conversion/net/word-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WORD к PPTM"
+        - name: "WORD в PPTM"
           link: "/conversion/net/word-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD к PPTX"
+        - name: "WORD в PPTX"
           link: "/conversion/net/word-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WORD к PSD"
+        - name: "WORD в PSD"
           link: "/conversion/net/word-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WORD к RTF"
+        - name: "WORD в RTF"
           link: "/conversion/net/word-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WORD к SVG"
+        - name: "WORD в SVG"
           link: "/conversion/net/word-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WORD к SVGZ"
+        - name: "WORD в SVGZ"
           link: "/conversion/net/word-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WORD к SXC"
+        - name: "WORD в SXC"
           link: "/conversion/net/word-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "WORD к TEX"
+        - name: "WORD в TEX"
           link: "/conversion/net/word-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WORD к TIF"
+        - name: "WORD в TIF"
           link: "/conversion/net/word-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WORD к TIFF"
+        - name: "WORD в TIFF"
           link: "/conversion/net/word-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WORD к TSV"
+        - name: "WORD в TSV"
           link: "/conversion/net/word-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WORD к TXT"
+        - name: "WORD в TXT"
           link: "/conversion/net/word-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WORD к WEBP"
+        - name: "WORD в WEBP"
           link: "/conversion/net/word-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WORD к WMF"
+        - name: "WORD в WMF"
           link: "/conversion/net/word-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WORD к WMZ"
+        - name: "WORD в WMZ"
           link: "/conversion/net/word-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WORD к XLAM"
+        - name: "WORD в XLAM"
           link: "/conversion/net/word-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WORD к XLS"
+        - name: "WORD в XLS"
           link: "/conversion/net/word-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WORD к XLSB"
+        - name: "WORD в XLSB"
           link: "/conversion/net/word-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WORD к XLSM"
+        - name: "WORD в XLSM"
           link: "/conversion/net/word-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WORD к XLSX"
+        - name: "WORD в XLSX"
           link: "/conversion/net/word-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WORD к XLTM"
+        - name: "WORD в XLTM"
           link: "/conversion/net/word-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WORD к XLTX"
+        - name: "WORD в XLTX"
           link: "/conversion/net/word-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WORD к XPS"
+        - name: "WORD в XPS"
           link: "/conversion/net/word-to-xps/"
           description: "Спецификация документа Open XML"
 

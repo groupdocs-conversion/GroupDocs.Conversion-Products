@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать TIFF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "TIFF к BMP"
+        - name: "TIFF в BMP"
           link: "/conversion/net/tiff-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "TIFF к CSV"
+        - name: "TIFF в CSV"
           link: "/conversion/net/tiff-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "TIFF к DCM"
+        - name: "TIFF в DCM"
           link: "/conversion/net/tiff-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "TIFF к DIF"
+        - name: "TIFF в DIF"
           link: "/conversion/net/tiff-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "TIFF к DJVU"
+        - name: "TIFF в DJVU"
           link: "/conversion/net/tiff-to-djvu/"
           description: "Формат графического файла"
 
         # format loop
-        - name: "TIFF к DOC"
+        - name: "TIFF в DOC"
           link: "/conversion/net/tiff-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "TIFF к DOCM"
+        - name: "TIFF в DOCM"
           link: "/conversion/net/tiff-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TIFF к DOCX"
+        - name: "TIFF в DOCX"
           link: "/conversion/net/tiff-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "TIFF к DOT"
+        - name: "TIFF в DOT"
           link: "/conversion/net/tiff-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "TIFF к DOTM"
+        - name: "TIFF в DOTM"
           link: "/conversion/net/tiff-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "TIFF к DOTX"
+        - name: "TIFF в DOTX"
           link: "/conversion/net/tiff-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "TIFF к EMF"
+        - name: "TIFF в EMF"
           link: "/conversion/net/tiff-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "TIFF к EMZ"
+        - name: "TIFF в EMZ"
           link: "/conversion/net/tiff-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "TIFF к EPUB"
+        - name: "TIFF в EPUB"
           link: "/conversion/net/tiff-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "TIFF к FODP"
+        - name: "TIFF в FODP"
           link: "/conversion/net/tiff-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "TIFF к FODS"
+        - name: "TIFF в FODS"
           link: "/conversion/net/tiff-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "TIFF к GIF"
+        - name: "TIFF в GIF"
           link: "/conversion/net/tiff-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "TIFF к HTM"
+        - name: "TIFF в HTM"
           link: "/conversion/net/tiff-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "TIFF к HTML"
+        - name: "TIFF в HTML"
           link: "/conversion/net/tiff-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "TIFF к ICO"
+        - name: "TIFF в ICO"
           link: "/conversion/net/tiff-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "TIFF к JP2"
+        - name: "TIFF в JP2"
           link: "/conversion/net/tiff-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "TIFF к JPEG"
+        - name: "TIFF в JPEG"
           link: "/conversion/net/tiff-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "TIFF к JPG"
+        - name: "TIFF в JPG"
           link: "/conversion/net/tiff-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "TIFF к MD"
+        - name: "TIFF в MD"
           link: "/conversion/net/tiff-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "TIFF к MHT"
+        - name: "TIFF в MHT"
           link: "/conversion/net/tiff-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TIFF к MHTML"
+        - name: "TIFF в MHTML"
           link: "/conversion/net/tiff-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "TIFF к ODP"
+        - name: "TIFF в ODP"
           link: "/conversion/net/tiff-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "TIFF к ODS"
+        - name: "TIFF в ODS"
           link: "/conversion/net/tiff-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "TIFF к ODT"
+        - name: "TIFF в ODT"
           link: "/conversion/net/tiff-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "TIFF к OTP"
+        - name: "TIFF в OTP"
           link: "/conversion/net/tiff-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "TIFF к OTT"
+        - name: "TIFF в OTT"
           link: "/conversion/net/tiff-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "TIFF к PNG"
+        - name: "TIFF в PNG"
           link: "/conversion/net/tiff-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "TIFF к POT"
+        - name: "TIFF в POT"
           link: "/conversion/net/tiff-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "TIFF к POTM"
+        - name: "TIFF в POTM"
           link: "/conversion/net/tiff-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TIFF к POTX"
+        - name: "TIFF в POTX"
           link: "/conversion/net/tiff-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "TIFF к PPS"
+        - name: "TIFF в PPS"
           link: "/conversion/net/tiff-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TIFF к PPSM"
+        - name: "TIFF в PPSM"
           link: "/conversion/net/tiff-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "TIFF к PPSX"
+        - name: "TIFF в PPSX"
           link: "/conversion/net/tiff-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "TIFF к PPT"
+        - name: "TIFF в PPT"
           link: "/conversion/net/tiff-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "TIFF к PPTM"
+        - name: "TIFF в PPTM"
           link: "/conversion/net/tiff-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "TIFF к PPTX"
+        - name: "TIFF в PPTX"
           link: "/conversion/net/tiff-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "TIFF к PSD"
+        - name: "TIFF в PSD"
           link: "/conversion/net/tiff-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "TIFF к RTF"
+        - name: "TIFF в RTF"
           link: "/conversion/net/tiff-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "TIFF к SVG"
+        - name: "TIFF в SVG"
           link: "/conversion/net/tiff-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TIFF к SVGZ"
+        - name: "TIFF в SVGZ"
           link: "/conversion/net/tiff-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "TIFF к SXC"
+        - name: "TIFF в SXC"
           link: "/conversion/net/tiff-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "TIFF к TEX"
+        - name: "TIFF в TEX"
           link: "/conversion/net/tiff-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "TIFF к TIF"
+        - name: "TIFF в TIF"
           link: "/conversion/net/tiff-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "TIFF к TSV"
+        - name: "TIFF в TSV"
           link: "/conversion/net/tiff-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "TIFF к TXT"
+        - name: "TIFF в TXT"
           link: "/conversion/net/tiff-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "TIFF к WEBP"
+        - name: "TIFF в WEBP"
           link: "/conversion/net/tiff-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "TIFF к WMF"
+        - name: "TIFF в WMF"
           link: "/conversion/net/tiff-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "TIFF к WMZ"
+        - name: "TIFF в WMZ"
           link: "/conversion/net/tiff-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "TIFF к XLAM"
+        - name: "TIFF в XLAM"
           link: "/conversion/net/tiff-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIFF к XLS"
+        - name: "TIFF в XLS"
           link: "/conversion/net/tiff-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "TIFF к XLSB"
+        - name: "TIFF в XLSB"
           link: "/conversion/net/tiff-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "TIFF к XLSM"
+        - name: "TIFF в XLSM"
           link: "/conversion/net/tiff-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIFF к XLSX"
+        - name: "TIFF в XLSX"
           link: "/conversion/net/tiff-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "TIFF к XLT"
+        - name: "TIFF в XLT"
           link: "/conversion/net/tiff-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "TIFF к XLTM"
+        - name: "TIFF в XLTM"
           link: "/conversion/net/tiff-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "TIFF к XLTX"
+        - name: "TIFF в XLTX"
           link: "/conversion/net/tiff-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "TIFF к XPS"
+        - name: "TIFF в XPS"
           link: "/conversion/net/tiff-to-xps/"
           description: "Спецификация документа Open XML"
 

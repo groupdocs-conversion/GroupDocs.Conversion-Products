@@ -128,312 +128,312 @@ more_formats:
         Вы также можете конвертировать JPC во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JPC к BMP"
+        - name: "JPC в BMP"
           link: "/conversion/java/jpc-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JPC к CSV"
+        - name: "JPC в CSV"
           link: "/conversion/java/jpc-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "JPC к DCM"
+        - name: "JPC в DCM"
           link: "/conversion/java/jpc-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "JPC к DIF"
+        - name: "JPC в DIF"
           link: "/conversion/java/jpc-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "JPC к DOC"
+        - name: "JPC в DOC"
           link: "/conversion/java/jpc-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JPC к DOCM"
+        - name: "JPC в DOCM"
           link: "/conversion/java/jpc-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPC к DOCX"
+        - name: "JPC в DOCX"
           link: "/conversion/java/jpc-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JPC к DOT"
+        - name: "JPC в DOT"
           link: "/conversion/java/jpc-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JPC к DOTM"
+        - name: "JPC в DOTM"
           link: "/conversion/java/jpc-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JPC к DOTX"
+        - name: "JPC в DOTX"
           link: "/conversion/java/jpc-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JPC к EMF"
+        - name: "JPC в EMF"
           link: "/conversion/java/jpc-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JPC к EMZ"
+        - name: "JPC в EMZ"
           link: "/conversion/java/jpc-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JPC к EPUB"
+        - name: "JPC в EPUB"
           link: "/conversion/java/jpc-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JPC к FODP"
+        - name: "JPC в FODP"
           link: "/conversion/java/jpc-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "JPC к FODS"
+        - name: "JPC в FODS"
           link: "/conversion/java/jpc-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "JPC к GIF"
+        - name: "JPC в GIF"
           link: "/conversion/java/jpc-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "JPC к HTM"
+        - name: "JPC в HTM"
           link: "/conversion/java/jpc-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "JPC к HTML"
+        - name: "JPC в HTML"
           link: "/conversion/java/jpc-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "JPC к ICO"
+        - name: "JPC в ICO"
           link: "/conversion/java/jpc-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JPC к JP2"
+        - name: "JPC в JP2"
           link: "/conversion/java/jpc-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "JPC к JPEG"
+        - name: "JPC в JPEG"
           link: "/conversion/java/jpc-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "JPC к JPG"
+        - name: "JPC в JPG"
           link: "/conversion/java/jpc-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JPC к MD"
+        - name: "JPC в MD"
           link: "/conversion/java/jpc-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JPC к MHT"
+        - name: "JPC в MHT"
           link: "/conversion/java/jpc-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPC к MHTML"
+        - name: "JPC в MHTML"
           link: "/conversion/java/jpc-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JPC к ODP"
+        - name: "JPC в ODP"
           link: "/conversion/java/jpc-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JPC к ODS"
+        - name: "JPC в ODS"
           link: "/conversion/java/jpc-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JPC к ODT"
+        - name: "JPC в ODT"
           link: "/conversion/java/jpc-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JPC к OTP"
+        - name: "JPC в OTP"
           link: "/conversion/java/jpc-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "JPC к OTT"
+        - name: "JPC в OTT"
           link: "/conversion/java/jpc-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JPC к PDF"
+        - name: "JPC в PDF"
           link: "/conversion/java/jpc-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "JPC к PNG"
+        - name: "JPC в PNG"
           link: "/conversion/java/jpc-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JPC к POT"
+        - name: "JPC в POT"
           link: "/conversion/java/jpc-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "JPC к POTM"
+        - name: "JPC в POTM"
           link: "/conversion/java/jpc-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPC к POTX"
+        - name: "JPC в POTX"
           link: "/conversion/java/jpc-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JPC к PPS"
+        - name: "JPC в PPS"
           link: "/conversion/java/jpc-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPC к PPSM"
+        - name: "JPC в PPSM"
           link: "/conversion/java/jpc-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JPC к PPSX"
+        - name: "JPC в PPSX"
           link: "/conversion/java/jpc-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JPC к PPT"
+        - name: "JPC в PPT"
           link: "/conversion/java/jpc-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JPC к PPTM"
+        - name: "JPC в PPTM"
           link: "/conversion/java/jpc-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JPC к PPTX"
+        - name: "JPC в PPTX"
           link: "/conversion/java/jpc-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JPC к PSD"
+        - name: "JPC в PSD"
           link: "/conversion/java/jpc-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JPC к RTF"
+        - name: "JPC в RTF"
           link: "/conversion/java/jpc-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JPC к SVG"
+        - name: "JPC в SVG"
           link: "/conversion/java/jpc-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPC к SVGZ"
+        - name: "JPC в SVGZ"
           link: "/conversion/java/jpc-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JPC к SXC"
+        - name: "JPC в SXC"
           link: "/conversion/java/jpc-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "JPC к TEX"
+        - name: "JPC в TEX"
           link: "/conversion/java/jpc-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JPC к TIF"
+        - name: "JPC в TIF"
           link: "/conversion/java/jpc-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPC к TIFF"
+        - name: "JPC в TIFF"
           link: "/conversion/java/jpc-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JPC к TSV"
+        - name: "JPC в TSV"
           link: "/conversion/java/jpc-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "JPC к TXT"
+        - name: "JPC в TXT"
           link: "/conversion/java/jpc-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JPC к WEBP"
+        - name: "JPC в WEBP"
           link: "/conversion/java/jpc-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JPC к WMF"
+        - name: "JPC в WMF"
           link: "/conversion/java/jpc-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JPC к WMZ"
+        - name: "JPC в WMZ"
           link: "/conversion/java/jpc-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JPC к XLAM"
+        - name: "JPC в XLAM"
           link: "/conversion/java/jpc-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPC к XLS"
+        - name: "JPC в XLS"
           link: "/conversion/java/jpc-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "JPC к XLSB"
+        - name: "JPC в XLSB"
           link: "/conversion/java/jpc-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JPC к XLSM"
+        - name: "JPC в XLSM"
           link: "/conversion/java/jpc-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JPC к XLSX"
+        - name: "JPC в XLSX"
           link: "/conversion/java/jpc-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JPC к XLT"
+        - name: "JPC в XLT"
           link: "/conversion/java/jpc-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPC к XLTX"
+        - name: "JPC в XLTX"
           link: "/conversion/java/jpc-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JPC к XPS"
+        - name: "JPC в XPS"
           link: "/conversion/java/jpc-to-xps/"
           description: "Спецификация документа Open XML"
 

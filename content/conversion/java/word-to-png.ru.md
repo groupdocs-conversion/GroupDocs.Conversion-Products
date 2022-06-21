@@ -128,292 +128,292 @@ more_formats:
         Вы также можете конвертировать WORD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "WORD к BMP"
+        - name: "WORD в BMP"
           link: "/conversion/java/word-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "WORD к CSV"
+        - name: "WORD в CSV"
           link: "/conversion/java/word-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "WORD к DIF"
+        - name: "WORD в DIF"
           link: "/conversion/java/word-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "WORD к DOC"
+        - name: "WORD в DOC"
           link: "/conversion/java/word-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "WORD к DOCM"
+        - name: "WORD в DOCM"
           link: "/conversion/java/word-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WORD к DOCX"
+        - name: "WORD в DOCX"
           link: "/conversion/java/word-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "WORD к DOT"
+        - name: "WORD в DOT"
           link: "/conversion/java/word-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "WORD к DOTM"
+        - name: "WORD в DOTM"
           link: "/conversion/java/word-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "WORD к DOTX"
+        - name: "WORD в DOTX"
           link: "/conversion/java/word-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "WORD к EMF"
+        - name: "WORD в EMF"
           link: "/conversion/java/word-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "WORD к EMZ"
+        - name: "WORD в EMZ"
           link: "/conversion/java/word-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "WORD к EPUB"
+        - name: "WORD в EPUB"
           link: "/conversion/java/word-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "WORD к FODP"
+        - name: "WORD в FODP"
           link: "/conversion/java/word-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "WORD к FODS"
+        - name: "WORD в FODS"
           link: "/conversion/java/word-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "WORD к GIF"
+        - name: "WORD в GIF"
           link: "/conversion/java/word-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "WORD к HTML"
+        - name: "WORD в HTML"
           link: "/conversion/java/word-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "WORD к ICO"
+        - name: "WORD в ICO"
           link: "/conversion/java/word-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "WORD к JP2"
+        - name: "WORD в JP2"
           link: "/conversion/java/word-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "WORD к JPEG"
+        - name: "WORD в JPEG"
           link: "/conversion/java/word-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "WORD к JPG"
+        - name: "WORD в JPG"
           link: "/conversion/java/word-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "WORD к MD"
+        - name: "WORD в MD"
           link: "/conversion/java/word-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "WORD к MHT"
+        - name: "WORD в MHT"
           link: "/conversion/java/word-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WORD к MHTML"
+        - name: "WORD в MHTML"
           link: "/conversion/java/word-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "WORD к ODP"
+        - name: "WORD в ODP"
           link: "/conversion/java/word-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "WORD к ODS"
+        - name: "WORD в ODS"
           link: "/conversion/java/word-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "WORD к ODT"
+        - name: "WORD в ODT"
           link: "/conversion/java/word-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "WORD к OTP"
+        - name: "WORD в OTP"
           link: "/conversion/java/word-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "WORD к OTT"
+        - name: "WORD в OTT"
           link: "/conversion/java/word-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "WORD к PDF"
+        - name: "WORD в PDF"
           link: "/conversion/java/word-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "WORD к POTM"
+        - name: "WORD в POTM"
           link: "/conversion/java/word-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD к POTX"
+        - name: "WORD в POTX"
           link: "/conversion/java/word-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD к PPS"
+        - name: "WORD в PPS"
           link: "/conversion/java/word-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD к PPSM"
+        - name: "WORD в PPSM"
           link: "/conversion/java/word-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD к PPSX"
+        - name: "WORD в PPSX"
           link: "/conversion/java/word-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "WORD к PPT"
+        - name: "WORD в PPT"
           link: "/conversion/java/word-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "WORD к PPTM"
+        - name: "WORD в PPTM"
           link: "/conversion/java/word-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "WORD к PPTX"
+        - name: "WORD в PPTX"
           link: "/conversion/java/word-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "WORD к PSD"
+        - name: "WORD в PSD"
           link: "/conversion/java/word-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "WORD к RTF"
+        - name: "WORD в RTF"
           link: "/conversion/java/word-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "WORD к SVG"
+        - name: "WORD в SVG"
           link: "/conversion/java/word-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WORD к SVGZ"
+        - name: "WORD в SVGZ"
           link: "/conversion/java/word-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "WORD к SXC"
+        - name: "WORD в SXC"
           link: "/conversion/java/word-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "WORD к TEX"
+        - name: "WORD в TEX"
           link: "/conversion/java/word-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "WORD к TIF"
+        - name: "WORD в TIF"
           link: "/conversion/java/word-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WORD к TIFF"
+        - name: "WORD в TIFF"
           link: "/conversion/java/word-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "WORD к TSV"
+        - name: "WORD в TSV"
           link: "/conversion/java/word-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "WORD к TXT"
+        - name: "WORD в TXT"
           link: "/conversion/java/word-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "WORD к WEBP"
+        - name: "WORD в WEBP"
           link: "/conversion/java/word-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "WORD к WMF"
+        - name: "WORD в WMF"
           link: "/conversion/java/word-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "WORD к WMZ"
+        - name: "WORD в WMZ"
           link: "/conversion/java/word-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "WORD к XLAM"
+        - name: "WORD в XLAM"
           link: "/conversion/java/word-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WORD к XLS"
+        - name: "WORD в XLS"
           link: "/conversion/java/word-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "WORD к XLSB"
+        - name: "WORD в XLSB"
           link: "/conversion/java/word-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "WORD к XLSM"
+        - name: "WORD в XLSM"
           link: "/conversion/java/word-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WORD к XLSX"
+        - name: "WORD в XLSX"
           link: "/conversion/java/word-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "WORD к XLTM"
+        - name: "WORD в XLTM"
           link: "/conversion/java/word-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "WORD к XLTX"
+        - name: "WORD в XLTX"
           link: "/conversion/java/word-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "WORD к XPS"
+        - name: "WORD в XPS"
           link: "/conversion/java/word-to-xps/"
           description: "Спецификация документа Open XML"
 

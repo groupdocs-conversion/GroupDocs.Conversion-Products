@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать DXF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DXF к BMP"
+        - name: "DXF в BMP"
           link: "/conversion/net/dxf-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DXF к CSV"
+        - name: "DXF в CSV"
           link: "/conversion/net/dxf-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DXF к DCM"
+        - name: "DXF в DCM"
           link: "/conversion/net/dxf-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DXF к DIF"
+        - name: "DXF в DIF"
           link: "/conversion/net/dxf-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DXF к DOC"
+        - name: "DXF в DOC"
           link: "/conversion/net/dxf-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "DXF к DOCM"
+        - name: "DXF в DOCM"
           link: "/conversion/net/dxf-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DXF к DOCX"
+        - name: "DXF в DOCX"
           link: "/conversion/net/dxf-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DXF к DOT"
+        - name: "DXF в DOT"
           link: "/conversion/net/dxf-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DXF к DOTM"
+        - name: "DXF в DOTM"
           link: "/conversion/net/dxf-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DXF к DOTX"
+        - name: "DXF в DOTX"
           link: "/conversion/net/dxf-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DXF к EMF"
+        - name: "DXF в EMF"
           link: "/conversion/net/dxf-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DXF к EMZ"
+        - name: "DXF в EMZ"
           link: "/conversion/net/dxf-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DXF к EPUB"
+        - name: "DXF в EPUB"
           link: "/conversion/net/dxf-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DXF к FODP"
+        - name: "DXF в FODP"
           link: "/conversion/net/dxf-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DXF к FODS"
+        - name: "DXF в FODS"
           link: "/conversion/net/dxf-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DXF к GIF"
+        - name: "DXF в GIF"
           link: "/conversion/net/dxf-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DXF к HTM"
+        - name: "DXF в HTM"
           link: "/conversion/net/dxf-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DXF к HTML"
+        - name: "DXF в HTML"
           link: "/conversion/net/dxf-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DXF к ICO"
+        - name: "DXF в ICO"
           link: "/conversion/net/dxf-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DXF к JP2"
+        - name: "DXF в JP2"
           link: "/conversion/net/dxf-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DXF к JPEG"
+        - name: "DXF в JPEG"
           link: "/conversion/net/dxf-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DXF к JPG"
+        - name: "DXF в JPG"
           link: "/conversion/net/dxf-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DXF к MD"
+        - name: "DXF в MD"
           link: "/conversion/net/dxf-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DXF к MHT"
+        - name: "DXF в MHT"
           link: "/conversion/net/dxf-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DXF к MHTML"
+        - name: "DXF в MHTML"
           link: "/conversion/net/dxf-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DXF к ODP"
+        - name: "DXF в ODP"
           link: "/conversion/net/dxf-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DXF к ODS"
+        - name: "DXF в ODS"
           link: "/conversion/net/dxf-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DXF к ODT"
+        - name: "DXF в ODT"
           link: "/conversion/net/dxf-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DXF к OTP"
+        - name: "DXF в OTP"
           link: "/conversion/net/dxf-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DXF к OTT"
+        - name: "DXF в OTT"
           link: "/conversion/net/dxf-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DXF к PDF"
+        - name: "DXF в PDF"
           link: "/conversion/net/dxf-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DXF к PNG"
+        - name: "DXF в PNG"
           link: "/conversion/net/dxf-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DXF к POT"
+        - name: "DXF в POT"
           link: "/conversion/net/dxf-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DXF к POTM"
+        - name: "DXF в POTM"
           link: "/conversion/net/dxf-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DXF к POTX"
+        - name: "DXF в POTX"
           link: "/conversion/net/dxf-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DXF к PPS"
+        - name: "DXF в PPS"
           link: "/conversion/net/dxf-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DXF к PPSM"
+        - name: "DXF в PPSM"
           link: "/conversion/net/dxf-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DXF к PPSX"
+        - name: "DXF в PPSX"
           link: "/conversion/net/dxf-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DXF к PPT"
+        - name: "DXF в PPT"
           link: "/conversion/net/dxf-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DXF к PPTM"
+        - name: "DXF в PPTM"
           link: "/conversion/net/dxf-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DXF к PPTX"
+        - name: "DXF в PPTX"
           link: "/conversion/net/dxf-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DXF к PSD"
+        - name: "DXF в PSD"
           link: "/conversion/net/dxf-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DXF к RTF"
+        - name: "DXF в RTF"
           link: "/conversion/net/dxf-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DXF к SVG"
+        - name: "DXF в SVG"
           link: "/conversion/net/dxf-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DXF к SVGZ"
+        - name: "DXF в SVGZ"
           link: "/conversion/net/dxf-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DXF к TEX"
+        - name: "DXF в TEX"
           link: "/conversion/net/dxf-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DXF к TIF"
+        - name: "DXF в TIF"
           link: "/conversion/net/dxf-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DXF к TIFF"
+        - name: "DXF в TIFF"
           link: "/conversion/net/dxf-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DXF к TSV"
+        - name: "DXF в TSV"
           link: "/conversion/net/dxf-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DXF к TXT"
+        - name: "DXF в TXT"
           link: "/conversion/net/dxf-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DXF к WEBP"
+        - name: "DXF в WEBP"
           link: "/conversion/net/dxf-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DXF к WMF"
+        - name: "DXF в WMF"
           link: "/conversion/net/dxf-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DXF к WMZ"
+        - name: "DXF в WMZ"
           link: "/conversion/net/dxf-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DXF к XLAM"
+        - name: "DXF в XLAM"
           link: "/conversion/net/dxf-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DXF к XLS"
+        - name: "DXF в XLS"
           link: "/conversion/net/dxf-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DXF к XLSB"
+        - name: "DXF в XLSB"
           link: "/conversion/net/dxf-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DXF к XLSM"
+        - name: "DXF в XLSM"
           link: "/conversion/net/dxf-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DXF к XLSX"
+        - name: "DXF в XLSX"
           link: "/conversion/net/dxf-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DXF к XLT"
+        - name: "DXF в XLT"
           link: "/conversion/net/dxf-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DXF к XLTM"
+        - name: "DXF в XLTM"
           link: "/conversion/net/dxf-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DXF к XLTX"
+        - name: "DXF в XLTX"
           link: "/conversion/net/dxf-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DXF к XPS"
+        - name: "DXF в XPS"
           link: "/conversion/net/dxf-to-xps/"
           description: "Спецификация документа Open XML"
 

@@ -127,317 +127,317 @@ more_formats:
         Вы также можете конвертировать XML во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "XML к BMP"
+        - name: "XML в BMP"
           link: "/conversion/net/xml-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "XML к CSV"
+        - name: "XML в CSV"
           link: "/conversion/net/xml-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "XML к DCM"
+        - name: "XML в DCM"
           link: "/conversion/net/xml-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "XML к DIF"
+        - name: "XML в DIF"
           link: "/conversion/net/xml-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "XML к DOC"
+        - name: "XML в DOC"
           link: "/conversion/net/xml-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "XML к DOCM"
+        - name: "XML в DOCM"
           link: "/conversion/net/xml-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XML к DOCX"
+        - name: "XML в DOCX"
           link: "/conversion/net/xml-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "XML к DOT"
+        - name: "XML в DOT"
           link: "/conversion/net/xml-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "XML к DOTM"
+        - name: "XML в DOTM"
           link: "/conversion/net/xml-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "XML к DOTX"
+        - name: "XML в DOTX"
           link: "/conversion/net/xml-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "XML к EMF"
+        - name: "XML в EMF"
           link: "/conversion/net/xml-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "XML к EMZ"
+        - name: "XML в EMZ"
           link: "/conversion/net/xml-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "XML к EPUB"
+        - name: "XML в EPUB"
           link: "/conversion/net/xml-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "XML к FODP"
+        - name: "XML в FODP"
           link: "/conversion/net/xml-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "XML к FODS"
+        - name: "XML в FODS"
           link: "/conversion/net/xml-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "XML к GIF"
+        - name: "XML в GIF"
           link: "/conversion/net/xml-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "XML к HTM"
+        - name: "XML в HTM"
           link: "/conversion/net/xml-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "XML к HTML"
+        - name: "XML в HTML"
           link: "/conversion/net/xml-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "XML к JP2"
+        - name: "XML в JP2"
           link: "/conversion/net/xml-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "XML к JPEG"
+        - name: "XML в JPEG"
           link: "/conversion/net/xml-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "XML к JPG"
+        - name: "XML в JPG"
           link: "/conversion/net/xml-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "XML к MD"
+        - name: "XML в MD"
           link: "/conversion/net/xml-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "XML к MHT"
+        - name: "XML в MHT"
           link: "/conversion/net/xml-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XML к MHTML"
+        - name: "XML в MHTML"
           link: "/conversion/net/xml-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "XML к ODP"
+        - name: "XML в ODP"
           link: "/conversion/net/xml-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "XML к ODS"
+        - name: "XML в ODS"
           link: "/conversion/net/xml-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "XML к ODT"
+        - name: "XML в ODT"
           link: "/conversion/net/xml-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "XML к OTP"
+        - name: "XML в OTP"
           link: "/conversion/net/xml-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "XML к OTT"
+        - name: "XML в OTT"
           link: "/conversion/net/xml-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "XML к PDF"
+        - name: "XML в PDF"
           link: "/conversion/net/xml-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "XML к PNG"
+        - name: "XML в PNG"
           link: "/conversion/net/xml-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "XML к POT"
+        - name: "XML в POT"
           link: "/conversion/net/xml-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "XML к POTM"
+        - name: "XML в POTM"
           link: "/conversion/net/xml-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XML к POTX"
+        - name: "XML в POTX"
           link: "/conversion/net/xml-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "XML к PPS"
+        - name: "XML в PPS"
           link: "/conversion/net/xml-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XML к PPSM"
+        - name: "XML в PPSM"
           link: "/conversion/net/xml-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "XML к PPSX"
+        - name: "XML в PPSX"
           link: "/conversion/net/xml-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "XML к PPT"
+        - name: "XML в PPT"
           link: "/conversion/net/xml-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "XML к PPTM"
+        - name: "XML в PPTM"
           link: "/conversion/net/xml-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "XML к PPTX"
+        - name: "XML в PPTX"
           link: "/conversion/net/xml-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "XML к PSD"
+        - name: "XML в PSD"
           link: "/conversion/net/xml-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "XML к RTF"
+        - name: "XML в RTF"
           link: "/conversion/net/xml-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "XML к SVG"
+        - name: "XML в SVG"
           link: "/conversion/net/xml-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XML к SVGZ"
+        - name: "XML в SVGZ"
           link: "/conversion/net/xml-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "XML к SXC"
+        - name: "XML в SXC"
           link: "/conversion/net/xml-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "XML к TEX"
+        - name: "XML в TEX"
           link: "/conversion/net/xml-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "XML к TIF"
+        - name: "XML в TIF"
           link: "/conversion/net/xml-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XML к TIFF"
+        - name: "XML в TIFF"
           link: "/conversion/net/xml-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "XML к TSV"
+        - name: "XML в TSV"
           link: "/conversion/net/xml-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "XML к TXT"
+        - name: "XML в TXT"
           link: "/conversion/net/xml-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "XML к WEBP"
+        - name: "XML в WEBP"
           link: "/conversion/net/xml-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "XML к WMF"
+        - name: "XML в WMF"
           link: "/conversion/net/xml-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "XML к WMZ"
+        - name: "XML в WMZ"
           link: "/conversion/net/xml-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "XML к XLAM"
+        - name: "XML в XLAM"
           link: "/conversion/net/xml-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XML к XLS"
+        - name: "XML в XLS"
           link: "/conversion/net/xml-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "XML к XLS2003"
+        - name: "XML в XLS2003"
           link: "/conversion/net/xml-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "XML к XLSB"
+        - name: "XML в XLSB"
           link: "/conversion/net/xml-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "XML к XLSM"
+        - name: "XML в XLSM"
           link: "/conversion/net/xml-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XML к XLSX"
+        - name: "XML в XLSX"
           link: "/conversion/net/xml-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "XML к XLT"
+        - name: "XML в XLT"
           link: "/conversion/net/xml-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "XML к XLTM"
+        - name: "XML в XLTM"
           link: "/conversion/net/xml-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "XML к XLTX"
+        - name: "XML в XLTX"
           link: "/conversion/net/xml-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "XML к XPS"
+        - name: "XML в XPS"
           link: "/conversion/net/xml-to-xps/"
           description: "Спецификация документа Open XML"
 

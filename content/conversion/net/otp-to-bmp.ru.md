@@ -127,307 +127,307 @@ more_formats:
         Вы также можете конвертировать OTP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OTP к CSV"
+        - name: "OTP в CSV"
           link: "/conversion/net/otp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "OTP к DCM"
+        - name: "OTP в DCM"
           link: "/conversion/net/otp-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "OTP к DIF"
+        - name: "OTP в DIF"
           link: "/conversion/net/otp-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "OTP к DOC"
+        - name: "OTP в DOC"
           link: "/conversion/net/otp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OTP к DOCM"
+        - name: "OTP в DOCM"
           link: "/conversion/net/otp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTP к DOCX"
+        - name: "OTP в DOCX"
           link: "/conversion/net/otp-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "OTP к DOT"
+        - name: "OTP в DOT"
           link: "/conversion/net/otp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "OTP к DOTM"
+        - name: "OTP в DOTM"
           link: "/conversion/net/otp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OTP к DOTX"
+        - name: "OTP в DOTX"
           link: "/conversion/net/otp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "OTP к EMF"
+        - name: "OTP в EMF"
           link: "/conversion/net/otp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "OTP к EMZ"
+        - name: "OTP в EMZ"
           link: "/conversion/net/otp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OTP к EPUB"
+        - name: "OTP в EPUB"
           link: "/conversion/net/otp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OTP к FODP"
+        - name: "OTP в FODP"
           link: "/conversion/net/otp-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "OTP к FODS"
+        - name: "OTP в FODS"
           link: "/conversion/net/otp-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "OTP к GIF"
+        - name: "OTP в GIF"
           link: "/conversion/net/otp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "OTP к HTM"
+        - name: "OTP в HTM"
           link: "/conversion/net/otp-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "OTP к HTML"
+        - name: "OTP в HTML"
           link: "/conversion/net/otp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OTP к ICO"
+        - name: "OTP в ICO"
           link: "/conversion/net/otp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "OTP к JP2"
+        - name: "OTP в JP2"
           link: "/conversion/net/otp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "OTP к JPEG"
+        - name: "OTP в JPEG"
           link: "/conversion/net/otp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "OTP к JPG"
+        - name: "OTP в JPG"
           link: "/conversion/net/otp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "OTP к MD"
+        - name: "OTP в MD"
           link: "/conversion/net/otp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OTP к MHT"
+        - name: "OTP в MHT"
           link: "/conversion/net/otp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTP к MHTML"
+        - name: "OTP в MHTML"
           link: "/conversion/net/otp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OTP к ODP"
+        - name: "OTP в ODP"
           link: "/conversion/net/otp-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "OTP к ODS"
+        - name: "OTP в ODS"
           link: "/conversion/net/otp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OTP к ODT"
+        - name: "OTP в ODT"
           link: "/conversion/net/otp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "OTP к OTT"
+        - name: "OTP в OTT"
           link: "/conversion/net/otp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "OTP к PDF"
+        - name: "OTP в PDF"
           link: "/conversion/net/otp-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "OTP к PNG"
+        - name: "OTP в PNG"
           link: "/conversion/net/otp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "OTP к POT"
+        - name: "OTP в POT"
           link: "/conversion/net/otp-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "OTP к POTM"
+        - name: "OTP в POTM"
           link: "/conversion/net/otp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP к POTX"
+        - name: "OTP в POTX"
           link: "/conversion/net/otp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP к PPS"
+        - name: "OTP в PPS"
           link: "/conversion/net/otp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP к PPSM"
+        - name: "OTP в PPSM"
           link: "/conversion/net/otp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP к PPSX"
+        - name: "OTP в PPSX"
           link: "/conversion/net/otp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "OTP к PPT"
+        - name: "OTP в PPT"
           link: "/conversion/net/otp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OTP к PPTM"
+        - name: "OTP в PPTM"
           link: "/conversion/net/otp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OTP к PPTX"
+        - name: "OTP в PPTX"
           link: "/conversion/net/otp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "OTP к PSD"
+        - name: "OTP в PSD"
           link: "/conversion/net/otp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OTP к RTF"
+        - name: "OTP в RTF"
           link: "/conversion/net/otp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "OTP к SVG"
+        - name: "OTP в SVG"
           link: "/conversion/net/otp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTP к SVGZ"
+        - name: "OTP в SVGZ"
           link: "/conversion/net/otp-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "OTP к SXC"
+        - name: "OTP в SXC"
           link: "/conversion/net/otp-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "OTP к TEX"
+        - name: "OTP в TEX"
           link: "/conversion/net/otp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OTP к TIF"
+        - name: "OTP в TIF"
           link: "/conversion/net/otp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTP к TIFF"
+        - name: "OTP в TIFF"
           link: "/conversion/net/otp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "OTP к TSV"
+        - name: "OTP в TSV"
           link: "/conversion/net/otp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OTP к TXT"
+        - name: "OTP в TXT"
           link: "/conversion/net/otp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OTP к WEBP"
+        - name: "OTP в WEBP"
           link: "/conversion/net/otp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OTP к WMF"
+        - name: "OTP в WMF"
           link: "/conversion/net/otp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "OTP к WMZ"
+        - name: "OTP в WMZ"
           link: "/conversion/net/otp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OTP к XLAM"
+        - name: "OTP в XLAM"
           link: "/conversion/net/otp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTP к XLS"
+        - name: "OTP в XLS"
           link: "/conversion/net/otp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "OTP к XLSB"
+        - name: "OTP в XLSB"
           link: "/conversion/net/otp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OTP к XLSM"
+        - name: "OTP в XLSM"
           link: "/conversion/net/otp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTP к XLSX"
+        - name: "OTP в XLSX"
           link: "/conversion/net/otp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OTP к XLT"
+        - name: "OTP в XLT"
           link: "/conversion/net/otp-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTP к XLTM"
+        - name: "OTP в XLTM"
           link: "/conversion/net/otp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OTP к XLTX"
+        - name: "OTP в XLTX"
           link: "/conversion/net/otp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "OTP к XPS"
+        - name: "OTP в XPS"
           link: "/conversion/net/otp-to-xps/"
           description: "Спецификация документа Open XML"
 

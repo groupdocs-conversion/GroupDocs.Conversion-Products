@@ -128,317 +128,317 @@ more_formats:
         Вы также можете конвертировать JLS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "JLS к BMP"
+        - name: "JLS в BMP"
           link: "/conversion/java/jls-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "JLS к CSV"
+        - name: "JLS в CSV"
           link: "/conversion/java/jls-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "JLS к DCM"
+        - name: "JLS в DCM"
           link: "/conversion/java/jls-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "JLS к DIF"
+        - name: "JLS в DIF"
           link: "/conversion/java/jls-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "JLS к DOC"
+        - name: "JLS в DOC"
           link: "/conversion/java/jls-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "JLS к DOCM"
+        - name: "JLS в DOCM"
           link: "/conversion/java/jls-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JLS к DOCX"
+        - name: "JLS в DOCX"
           link: "/conversion/java/jls-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "JLS к DOT"
+        - name: "JLS в DOT"
           link: "/conversion/java/jls-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "JLS к DOTM"
+        - name: "JLS в DOTM"
           link: "/conversion/java/jls-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "JLS к DOTX"
+        - name: "JLS в DOTX"
           link: "/conversion/java/jls-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "JLS к EMF"
+        - name: "JLS в EMF"
           link: "/conversion/java/jls-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "JLS к EMZ"
+        - name: "JLS в EMZ"
           link: "/conversion/java/jls-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "JLS к EPUB"
+        - name: "JLS в EPUB"
           link: "/conversion/java/jls-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "JLS к FODP"
+        - name: "JLS в FODP"
           link: "/conversion/java/jls-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "JLS к FODS"
+        - name: "JLS в FODS"
           link: "/conversion/java/jls-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "JLS к GIF"
+        - name: "JLS в GIF"
           link: "/conversion/java/jls-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "JLS к HTM"
+        - name: "JLS в HTM"
           link: "/conversion/java/jls-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "JLS к HTML"
+        - name: "JLS в HTML"
           link: "/conversion/java/jls-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "JLS к ICO"
+        - name: "JLS в ICO"
           link: "/conversion/java/jls-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "JLS к JP2"
+        - name: "JLS в JP2"
           link: "/conversion/java/jls-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "JLS к JPEG"
+        - name: "JLS в JPEG"
           link: "/conversion/java/jls-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "JLS к JPG"
+        - name: "JLS в JPG"
           link: "/conversion/java/jls-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "JLS к MD"
+        - name: "JLS в MD"
           link: "/conversion/java/jls-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "JLS к MHT"
+        - name: "JLS в MHT"
           link: "/conversion/java/jls-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JLS к MHTML"
+        - name: "JLS в MHTML"
           link: "/conversion/java/jls-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "JLS к MOBI"
+        - name: "JLS в MOBI"
           link: "/conversion/java/jls-to-mobi/"
           description: "Электронная книга Mobipocket"
 
         # format loop
-        - name: "JLS к ODP"
+        - name: "JLS в ODP"
           link: "/conversion/java/jls-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "JLS к ODS"
+        - name: "JLS в ODS"
           link: "/conversion/java/jls-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "JLS к ODT"
+        - name: "JLS в ODT"
           link: "/conversion/java/jls-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "JLS к OTP"
+        - name: "JLS в OTP"
           link: "/conversion/java/jls-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "JLS к OTT"
+        - name: "JLS в OTT"
           link: "/conversion/java/jls-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "JLS к PDF"
+        - name: "JLS в PDF"
           link: "/conversion/java/jls-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "JLS к PNG"
+        - name: "JLS в PNG"
           link: "/conversion/java/jls-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "JLS к POT"
+        - name: "JLS в POT"
           link: "/conversion/java/jls-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "JLS к POTM"
+        - name: "JLS в POTM"
           link: "/conversion/java/jls-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JLS к POTX"
+        - name: "JLS в POTX"
           link: "/conversion/java/jls-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "JLS к PPS"
+        - name: "JLS в PPS"
           link: "/conversion/java/jls-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JLS к PPSM"
+        - name: "JLS в PPSM"
           link: "/conversion/java/jls-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "JLS к PPSX"
+        - name: "JLS в PPSX"
           link: "/conversion/java/jls-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "JLS к PPT"
+        - name: "JLS в PPT"
           link: "/conversion/java/jls-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "JLS к PPTM"
+        - name: "JLS в PPTM"
           link: "/conversion/java/jls-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "JLS к PPTX"
+        - name: "JLS в PPTX"
           link: "/conversion/java/jls-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "JLS к PSD"
+        - name: "JLS в PSD"
           link: "/conversion/java/jls-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "JLS к RTF"
+        - name: "JLS в RTF"
           link: "/conversion/java/jls-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "JLS к SVG"
+        - name: "JLS в SVG"
           link: "/conversion/java/jls-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JLS к SVGZ"
+        - name: "JLS в SVGZ"
           link: "/conversion/java/jls-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "JLS к SXC"
+        - name: "JLS в SXC"
           link: "/conversion/java/jls-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "JLS к TEX"
+        - name: "JLS в TEX"
           link: "/conversion/java/jls-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "JLS к TIF"
+        - name: "JLS в TIF"
           link: "/conversion/java/jls-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JLS к TIFF"
+        - name: "JLS в TIFF"
           link: "/conversion/java/jls-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "JLS к TSV"
+        - name: "JLS в TSV"
           link: "/conversion/java/jls-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "JLS к TXT"
+        - name: "JLS в TXT"
           link: "/conversion/java/jls-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "JLS к WEBP"
+        - name: "JLS в WEBP"
           link: "/conversion/java/jls-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "JLS к WMF"
+        - name: "JLS в WMF"
           link: "/conversion/java/jls-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "JLS к WMZ"
+        - name: "JLS в WMZ"
           link: "/conversion/java/jls-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "JLS к XLAM"
+        - name: "JLS в XLAM"
           link: "/conversion/java/jls-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JLS к XLSB"
+        - name: "JLS в XLSB"
           link: "/conversion/java/jls-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "JLS к XLSM"
+        - name: "JLS в XLSM"
           link: "/conversion/java/jls-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JLS к XLSX"
+        - name: "JLS в XLSX"
           link: "/conversion/java/jls-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "JLS к XLT"
+        - name: "JLS в XLT"
           link: "/conversion/java/jls-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "JLS к XLTM"
+        - name: "JLS в XLTM"
           link: "/conversion/java/jls-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "JLS к XLTX"
+        - name: "JLS в XLTX"
           link: "/conversion/java/jls-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "JLS к XPS"
+        - name: "JLS в XPS"
           link: "/conversion/java/jls-to-xps/"
           description: "Спецификация документа Open XML"
 

@@ -128,307 +128,307 @@ more_formats:
         Вы также можете конвертировать ODP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "ODP к BMP"
+        - name: "ODP в BMP"
           link: "/conversion/java/odp-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "ODP к CSV"
+        - name: "ODP в CSV"
           link: "/conversion/java/odp-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "ODP к DCM"
+        - name: "ODP в DCM"
           link: "/conversion/java/odp-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "ODP к DIF"
+        - name: "ODP в DIF"
           link: "/conversion/java/odp-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "ODP к DOC"
+        - name: "ODP в DOC"
           link: "/conversion/java/odp-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "ODP к DOCM"
+        - name: "ODP в DOCM"
           link: "/conversion/java/odp-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ODP к DOCX"
+        - name: "ODP в DOCX"
           link: "/conversion/java/odp-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "ODP к DOT"
+        - name: "ODP в DOT"
           link: "/conversion/java/odp-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "ODP к DOTM"
+        - name: "ODP в DOTM"
           link: "/conversion/java/odp-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "ODP к DOTX"
+        - name: "ODP в DOTX"
           link: "/conversion/java/odp-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "ODP к EMF"
+        - name: "ODP в EMF"
           link: "/conversion/java/odp-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "ODP к EMZ"
+        - name: "ODP в EMZ"
           link: "/conversion/java/odp-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "ODP к EPUB"
+        - name: "ODP в EPUB"
           link: "/conversion/java/odp-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "ODP к FODP"
+        - name: "ODP в FODP"
           link: "/conversion/java/odp-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "ODP к FODS"
+        - name: "ODP в FODS"
           link: "/conversion/java/odp-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "ODP к GIF"
+        - name: "ODP в GIF"
           link: "/conversion/java/odp-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "ODP к HTM"
+        - name: "ODP в HTM"
           link: "/conversion/java/odp-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "ODP к HTML"
+        - name: "ODP в HTML"
           link: "/conversion/java/odp-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "ODP к ICO"
+        - name: "ODP в ICO"
           link: "/conversion/java/odp-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "ODP к JP2"
+        - name: "ODP в JP2"
           link: "/conversion/java/odp-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "ODP к JPEG"
+        - name: "ODP в JPEG"
           link: "/conversion/java/odp-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "ODP к JPG"
+        - name: "ODP в JPG"
           link: "/conversion/java/odp-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "ODP к MD"
+        - name: "ODP в MD"
           link: "/conversion/java/odp-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "ODP к MHT"
+        - name: "ODP в MHT"
           link: "/conversion/java/odp-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ODP к MHTML"
+        - name: "ODP в MHTML"
           link: "/conversion/java/odp-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "ODP к ODS"
+        - name: "ODP в ODS"
           link: "/conversion/java/odp-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "ODP к ODT"
+        - name: "ODP в ODT"
           link: "/conversion/java/odp-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "ODP к OTT"
+        - name: "ODP в OTT"
           link: "/conversion/java/odp-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "ODP к PDF"
+        - name: "ODP в PDF"
           link: "/conversion/java/odp-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "ODP к PNG"
+        - name: "ODP в PNG"
           link: "/conversion/java/odp-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "ODP к POT"
+        - name: "ODP в POT"
           link: "/conversion/java/odp-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "ODP к POTM"
+        - name: "ODP в POTM"
           link: "/conversion/java/odp-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ODP к POTX"
+        - name: "ODP в POTX"
           link: "/conversion/java/odp-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "ODP к PPS"
+        - name: "ODP в PPS"
           link: "/conversion/java/odp-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ODP к PPSM"
+        - name: "ODP в PPSM"
           link: "/conversion/java/odp-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "ODP к PPSX"
+        - name: "ODP в PPSX"
           link: "/conversion/java/odp-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "ODP к PPT"
+        - name: "ODP в PPT"
           link: "/conversion/java/odp-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "ODP к PPTM"
+        - name: "ODP в PPTM"
           link: "/conversion/java/odp-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "ODP к PPTX"
+        - name: "ODP в PPTX"
           link: "/conversion/java/odp-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "ODP к PSD"
+        - name: "ODP в PSD"
           link: "/conversion/java/odp-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "ODP к RTF"
+        - name: "ODP в RTF"
           link: "/conversion/java/odp-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "ODP к SVG"
+        - name: "ODP в SVG"
           link: "/conversion/java/odp-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ODP к SVGZ"
+        - name: "ODP в SVGZ"
           link: "/conversion/java/odp-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "ODP к SXC"
+        - name: "ODP в SXC"
           link: "/conversion/java/odp-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "ODP к TEX"
+        - name: "ODP в TEX"
           link: "/conversion/java/odp-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "ODP к TIF"
+        - name: "ODP в TIF"
           link: "/conversion/java/odp-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ODP к TIFF"
+        - name: "ODP в TIFF"
           link: "/conversion/java/odp-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "ODP к TSV"
+        - name: "ODP в TSV"
           link: "/conversion/java/odp-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "ODP к TXT"
+        - name: "ODP в TXT"
           link: "/conversion/java/odp-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "ODP к WEBP"
+        - name: "ODP в WEBP"
           link: "/conversion/java/odp-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "ODP к WMF"
+        - name: "ODP в WMF"
           link: "/conversion/java/odp-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "ODP к WMZ"
+        - name: "ODP в WMZ"
           link: "/conversion/java/odp-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "ODP к XLAM"
+        - name: "ODP в XLAM"
           link: "/conversion/java/odp-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODP к XLS"
+        - name: "ODP в XLS"
           link: "/conversion/java/odp-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "ODP к XLSB"
+        - name: "ODP в XLSB"
           link: "/conversion/java/odp-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "ODP к XLSM"
+        - name: "ODP в XLSM"
           link: "/conversion/java/odp-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODP к XLSX"
+        - name: "ODP в XLSX"
           link: "/conversion/java/odp-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "ODP к XLT"
+        - name: "ODP в XLT"
           link: "/conversion/java/odp-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "ODP к XLTM"
+        - name: "ODP в XLTM"
           link: "/conversion/java/odp-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "ODP к XLTX"
+        - name: "ODP в XLTX"
           link: "/conversion/java/odp-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "ODP к XPS"
+        - name: "ODP в XPS"
           link: "/conversion/java/odp-to-xps/"
           description: "Спецификация документа Open XML"
 

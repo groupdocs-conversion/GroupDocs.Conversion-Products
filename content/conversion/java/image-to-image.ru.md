@@ -128,267 +128,267 @@ more_formats:
         Вы также можете конвертировать IMAGE во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "IMAGE к EPUB"
+        - name: "IMAGE в EPUB"
           link: "/conversion/java/image-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "IMAGE к XPS"
+        - name: "IMAGE в XPS"
           link: "/conversion/java/image-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "IMAGE к TEX"
+        - name: "IMAGE в TEX"
           link: "/conversion/java/image-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "IMAGE к PPT"
+        - name: "IMAGE в PPT"
           link: "/conversion/java/image-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "IMAGE к PPS"
+        - name: "IMAGE в PPS"
           link: "/conversion/java/image-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE к PPTX"
+        - name: "IMAGE в PPTX"
           link: "/conversion/java/image-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "IMAGE к PPSX"
+        - name: "IMAGE в PPSX"
           link: "/conversion/java/image-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "IMAGE к ODP"
+        - name: "IMAGE в ODP"
           link: "/conversion/java/image-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "IMAGE к OTP"
+        - name: "IMAGE в OTP"
           link: "/conversion/java/image-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "IMAGE к POTX"
+        - name: "IMAGE в POTX"
           link: "/conversion/java/image-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE к POTM"
+        - name: "IMAGE в POTM"
           link: "/conversion/java/image-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE к PPTM"
+        - name: "IMAGE в PPTM"
           link: "/conversion/java/image-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE к PPSM"
+        - name: "IMAGE в PPSM"
           link: "/conversion/java/image-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "IMAGE к XLS"
+        - name: "IMAGE в XLS"
           link: "/conversion/java/image-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "IMAGE к XLSX"
+        - name: "IMAGE в XLSX"
           link: "/conversion/java/image-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "IMAGE к XLSM"
+        - name: "IMAGE в XLSM"
           link: "/conversion/java/image-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IMAGE к XLSB"
+        - name: "IMAGE в XLSB"
           link: "/conversion/java/image-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "IMAGE к ODS"
+        - name: "IMAGE в ODS"
           link: "/conversion/java/image-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "IMAGE к XLTX"
+        - name: "IMAGE в XLTX"
           link: "/conversion/java/image-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "IMAGE к XLTM"
+        - name: "IMAGE в XLTM"
           link: "/conversion/java/image-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IMAGE к TSV"
+        - name: "IMAGE в TSV"
           link: "/conversion/java/image-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "IMAGE к XLAM"
+        - name: "IMAGE в XLAM"
           link: "/conversion/java/image-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "IMAGE к CSV"
+        - name: "IMAGE в CSV"
           link: "/conversion/java/image-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "IMAGE к DOC"
+        - name: "IMAGE в DOC"
           link: "/conversion/java/image-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "IMAGE к DOCM"
+        - name: "IMAGE в DOCM"
           link: "/conversion/java/image-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IMAGE к IMAGE"
+        - name: "IMAGE в IMAGE"
           link: "/conversion/java/image-to-image/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "IMAGE к DOT"
+        - name: "IMAGE в DOT"
           link: "/conversion/java/image-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "IMAGE к DOTM"
+        - name: "IMAGE в DOTM"
           link: "/conversion/java/image-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "IMAGE к DOTX"
+        - name: "IMAGE в DOTX"
           link: "/conversion/java/image-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "IMAGE к RTF"
+        - name: "IMAGE в RTF"
           link: "/conversion/java/image-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "IMAGE к ODT"
+        - name: "IMAGE в ODT"
           link: "/conversion/java/image-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "IMAGE к OTT"
+        - name: "IMAGE в OTT"
           link: "/conversion/java/image-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "IMAGE к TXT"
+        - name: "IMAGE в TXT"
           link: "/conversion/java/image-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "IMAGE к MD"
+        - name: "IMAGE в MD"
           link: "/conversion/java/image-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "IMAGE к TIFF"
+        - name: "IMAGE в TIFF"
           link: "/conversion/java/image-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IMAGE к TIF"
+        - name: "IMAGE в TIF"
           link: "/conversion/java/image-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "IMAGE к JPG"
+        - name: "IMAGE в JPG"
           link: "/conversion/java/image-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "IMAGE к JPEG"
+        - name: "IMAGE в JPEG"
           link: "/conversion/java/image-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "IMAGE к PNG"
+        - name: "IMAGE в PNG"
           link: "/conversion/java/image-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "IMAGE к GIF"
+        - name: "IMAGE в GIF"
           link: "/conversion/java/image-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "IMAGE к BMP"
+        - name: "IMAGE в BMP"
           link: "/conversion/java/image-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "IMAGE к ICO"
+        - name: "IMAGE в ICO"
           link: "/conversion/java/image-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "IMAGE к PSD"
+        - name: "IMAGE в PSD"
           link: "/conversion/java/image-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "IMAGE к WMF"
+        - name: "IMAGE в WMF"
           link: "/conversion/java/image-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "IMAGE к EMF"
+        - name: "IMAGE в EMF"
           link: "/conversion/java/image-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "IMAGE к WEBP"
+        - name: "IMAGE в WEBP"
           link: "/conversion/java/image-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "IMAGE к SVG"
+        - name: "IMAGE в SVG"
           link: "/conversion/java/image-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "IMAGE к JP2"
+        - name: "IMAGE в JP2"
           link: "/conversion/java/image-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "IMAGE к EMZ"
+        - name: "IMAGE в EMZ"
           link: "/conversion/java/image-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "IMAGE к WMZ"
+        - name: "IMAGE в WMZ"
           link: "/conversion/java/image-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "IMAGE к HTML"
+        - name: "IMAGE в HTML"
           link: "/conversion/java/image-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "IMAGE к MHT"
+        - name: "IMAGE в MHT"
           link: "/conversion/java/image-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "IMAGE к MHTML"
+        - name: "IMAGE в MHTML"
           link: "/conversion/java/image-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

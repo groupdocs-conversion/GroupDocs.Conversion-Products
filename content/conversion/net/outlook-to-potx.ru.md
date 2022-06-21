@@ -127,147 +127,147 @@ more_formats:
         Вы также можете конвертировать OUTLOOK во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "OUTLOOK к BMP"
+        - name: "OUTLOOK в BMP"
           link: "/conversion/net/outlook-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "OUTLOOK к DOC"
+        - name: "OUTLOOK в DOC"
           link: "/conversion/net/outlook-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "OUTLOOK к DOCM"
+        - name: "OUTLOOK в DOCM"
           link: "/conversion/net/outlook-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "OUTLOOK к DOTX"
+        - name: "OUTLOOK в DOTX"
           link: "/conversion/net/outlook-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "OUTLOOK к EMZ"
+        - name: "OUTLOOK в EMZ"
           link: "/conversion/net/outlook-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "OUTLOOK к EPUB"
+        - name: "OUTLOOK в EPUB"
           link: "/conversion/net/outlook-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "OUTLOOK к HTML"
+        - name: "OUTLOOK в HTML"
           link: "/conversion/net/outlook-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "OUTLOOK к MD"
+        - name: "OUTLOOK в MD"
           link: "/conversion/net/outlook-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "OUTLOOK к MHT"
+        - name: "OUTLOOK в MHT"
           link: "/conversion/net/outlook-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OUTLOOK к MHTML"
+        - name: "OUTLOOK в MHTML"
           link: "/conversion/net/outlook-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "OUTLOOK к ODS"
+        - name: "OUTLOOK в ODS"
           link: "/conversion/net/outlook-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "OUTLOOK к PDF"
+        - name: "OUTLOOK в PDF"
           link: "/conversion/net/outlook-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "OUTLOOK к POTM"
+        - name: "OUTLOOK в POTM"
           link: "/conversion/net/outlook-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "OUTLOOK к PPS"
+        - name: "OUTLOOK в PPS"
           link: "/conversion/net/outlook-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "OUTLOOK к PPT"
+        - name: "OUTLOOK в PPT"
           link: "/conversion/net/outlook-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "OUTLOOK к PPTM"
+        - name: "OUTLOOK в PPTM"
           link: "/conversion/net/outlook-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "OUTLOOK к PSD"
+        - name: "OUTLOOK в PSD"
           link: "/conversion/net/outlook-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "OUTLOOK к TEX"
+        - name: "OUTLOOK в TEX"
           link: "/conversion/net/outlook-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "OUTLOOK к TSV"
+        - name: "OUTLOOK в TSV"
           link: "/conversion/net/outlook-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "OUTLOOK к TXT"
+        - name: "OUTLOOK в TXT"
           link: "/conversion/net/outlook-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "OUTLOOK к WEBP"
+        - name: "OUTLOOK в WEBP"
           link: "/conversion/net/outlook-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "OUTLOOK к WMF"
+        - name: "OUTLOOK в WMF"
           link: "/conversion/net/outlook-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "OUTLOOK к WMZ"
+        - name: "OUTLOOK в WMZ"
           link: "/conversion/net/outlook-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "OUTLOOK к XLAM"
+        - name: "OUTLOOK в XLAM"
           link: "/conversion/net/outlook-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OUTLOOK к XLSB"
+        - name: "OUTLOOK в XLSB"
           link: "/conversion/net/outlook-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "OUTLOOK к XLSM"
+        - name: "OUTLOOK в XLSM"
           link: "/conversion/net/outlook-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OUTLOOK к XLSX"
+        - name: "OUTLOOK в XLSX"
           link: "/conversion/net/outlook-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "OUTLOOK к XLTM"
+        - name: "OUTLOOK в XLTM"
           link: "/conversion/net/outlook-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "OUTLOOK к XPS"
+        - name: "OUTLOOK в XPS"
           link: "/conversion/net/outlook-to-xps/"
           description: "Спецификация документа Open XML"
 

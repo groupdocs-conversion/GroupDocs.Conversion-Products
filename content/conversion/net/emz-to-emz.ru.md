@@ -127,267 +127,267 @@ more_formats:
         Вы также можете конвертировать EMZ во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "EMZ к EPUB"
+        - name: "EMZ в EPUB"
           link: "https://products.groupdocs.com/conversion/net/emz-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "EMZ к XPS"
+        - name: "EMZ в XPS"
           link: "https://products.groupdocs.com/conversion/net/emz-to-xps/"
           description: "Спецификация документа Open XML"
 
         # format loop
-        - name: "EMZ к TEX"
+        - name: "EMZ в TEX"
           link: "https://products.groupdocs.com/conversion/net/emz-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "EMZ к PPT"
+        - name: "EMZ в PPT"
           link: "https://products.groupdocs.com/conversion/net/emz-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "EMZ к PPS"
+        - name: "EMZ в PPS"
           link: "https://products.groupdocs.com/conversion/net/emz-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EMZ к PPTX"
+        - name: "EMZ в PPTX"
           link: "https://products.groupdocs.com/conversion/net/emz-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "EMZ к PPSX"
+        - name: "EMZ в PPSX"
           link: "https://products.groupdocs.com/conversion/net/emz-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "EMZ к ODP"
+        - name: "EMZ в ODP"
           link: "https://products.groupdocs.com/conversion/net/emz-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "EMZ к OTP"
+        - name: "EMZ в OTP"
           link: "https://products.groupdocs.com/conversion/net/emz-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "EMZ к POTX"
+        - name: "EMZ в POTX"
           link: "https://products.groupdocs.com/conversion/net/emz-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EMZ к POTM"
+        - name: "EMZ в POTM"
           link: "https://products.groupdocs.com/conversion/net/emz-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "EMZ к PPTM"
+        - name: "EMZ в PPTM"
           link: "https://products.groupdocs.com/conversion/net/emz-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "EMZ к PPSM"
+        - name: "EMZ в PPSM"
           link: "https://products.groupdocs.com/conversion/net/emz-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "EMZ к XLS"
+        - name: "EMZ в XLS"
           link: "https://products.groupdocs.com/conversion/net/emz-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "EMZ к XLSX"
+        - name: "EMZ в XLSX"
           link: "https://products.groupdocs.com/conversion/net/emz-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "EMZ к XLSM"
+        - name: "EMZ в XLSM"
           link: "https://products.groupdocs.com/conversion/net/emz-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMZ к XLSB"
+        - name: "EMZ в XLSB"
           link: "https://products.groupdocs.com/conversion/net/emz-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "EMZ к ODS"
+        - name: "EMZ в ODS"
           link: "https://products.groupdocs.com/conversion/net/emz-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "EMZ к XLTX"
+        - name: "EMZ в XLTX"
           link: "https://products.groupdocs.com/conversion/net/emz-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "EMZ к XLTM"
+        - name: "EMZ в XLTM"
           link: "https://products.groupdocs.com/conversion/net/emz-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMZ к TSV"
+        - name: "EMZ в TSV"
           link: "https://products.groupdocs.com/conversion/net/emz-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "EMZ к XLAM"
+        - name: "EMZ в XLAM"
           link: "https://products.groupdocs.com/conversion/net/emz-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "EMZ к CSV"
+        - name: "EMZ в CSV"
           link: "https://products.groupdocs.com/conversion/net/emz-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "EMZ к DOC"
+        - name: "EMZ в DOC"
           link: "https://products.groupdocs.com/conversion/net/emz-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "EMZ к DOCM"
+        - name: "EMZ в DOCM"
           link: "https://products.groupdocs.com/conversion/net/emz-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EMZ к EMZ"
+        - name: "EMZ в EMZ"
           link: "https://products.groupdocs.com/conversion/net/emz-to-emz/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "EMZ к DOT"
+        - name: "EMZ в DOT"
           link: "https://products.groupdocs.com/conversion/net/emz-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "EMZ к DOTM"
+        - name: "EMZ в DOTM"
           link: "https://products.groupdocs.com/conversion/net/emz-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "EMZ к DOTX"
+        - name: "EMZ в DOTX"
           link: "https://products.groupdocs.com/conversion/net/emz-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "EMZ к RTF"
+        - name: "EMZ в RTF"
           link: "https://products.groupdocs.com/conversion/net/emz-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "EMZ к ODT"
+        - name: "EMZ в ODT"
           link: "https://products.groupdocs.com/conversion/net/emz-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "EMZ к OTT"
+        - name: "EMZ в OTT"
           link: "https://products.groupdocs.com/conversion/net/emz-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "EMZ к TXT"
+        - name: "EMZ в TXT"
           link: "https://products.groupdocs.com/conversion/net/emz-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "EMZ к MD"
+        - name: "EMZ в MD"
           link: "https://products.groupdocs.com/conversion/net/emz-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "EMZ к TIFF"
+        - name: "EMZ в TIFF"
           link: "https://products.groupdocs.com/conversion/net/emz-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EMZ к TIF"
+        - name: "EMZ в TIF"
           link: "https://products.groupdocs.com/conversion/net/emz-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "EMZ к JPG"
+        - name: "EMZ в JPG"
           link: "https://products.groupdocs.com/conversion/net/emz-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "EMZ к JPEG"
+        - name: "EMZ в JPEG"
           link: "https://products.groupdocs.com/conversion/net/emz-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "EMZ к PNG"
+        - name: "EMZ в PNG"
           link: "https://products.groupdocs.com/conversion/net/emz-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "EMZ к GIF"
+        - name: "EMZ в GIF"
           link: "https://products.groupdocs.com/conversion/net/emz-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "EMZ к BMP"
+        - name: "EMZ в BMP"
           link: "https://products.groupdocs.com/conversion/net/emz-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "EMZ к ICO"
+        - name: "EMZ в ICO"
           link: "https://products.groupdocs.com/conversion/net/emz-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "EMZ к PSD"
+        - name: "EMZ в PSD"
           link: "https://products.groupdocs.com/conversion/net/emz-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "EMZ к WMF"
+        - name: "EMZ в WMF"
           link: "https://products.groupdocs.com/conversion/net/emz-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "EMZ к EMF"
+        - name: "EMZ в EMF"
           link: "https://products.groupdocs.com/conversion/net/emz-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "EMZ к WEBP"
+        - name: "EMZ в WEBP"
           link: "https://products.groupdocs.com/conversion/net/emz-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "EMZ к SVG"
+        - name: "EMZ в SVG"
           link: "https://products.groupdocs.com/conversion/net/emz-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "EMZ к JP2"
+        - name: "EMZ в JP2"
           link: "https://products.groupdocs.com/conversion/net/emz-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "EMZ к EMZ"
+        - name: "EMZ в EMZ"
           link: "https://products.groupdocs.com/conversion/net/emz-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "EMZ к WMZ"
+        - name: "EMZ в WMZ"
           link: "https://products.groupdocs.com/conversion/net/emz-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "EMZ к HTML"
+        - name: "EMZ в HTML"
           link: "https://products.groupdocs.com/conversion/net/emz-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "EMZ к MHT"
+        - name: "EMZ в MHT"
           link: "https://products.groupdocs.com/conversion/net/emz-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "EMZ к MHTML"
+        - name: "EMZ в MHTML"
           link: "https://products.groupdocs.com/conversion/net/emz-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 

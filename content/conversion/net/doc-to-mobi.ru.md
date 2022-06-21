@@ -127,317 +127,317 @@ more_formats:
         Вы также можете конвертировать DOC во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "DOC к BMP"
+        - name: "DOC в BMP"
           link: "/conversion/net/doc-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "DOC к CSV"
+        - name: "DOC в CSV"
           link: "/conversion/net/doc-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "DOC к DCM"
+        - name: "DOC в DCM"
           link: "/conversion/net/doc-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "DOC к DIF"
+        - name: "DOC в DIF"
           link: "/conversion/net/doc-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "DOC к DNG"
+        - name: "DOC в DNG"
           link: "/conversion/net/doc-to-dng/"
           description: "Формат изображения цифровой камеры"
 
         # format loop
-        - name: "DOC к DOCM"
+        - name: "DOC в DOCM"
           link: "/conversion/net/doc-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOC к DOCX"
+        - name: "DOC в DOCX"
           link: "/conversion/net/doc-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "DOC к DOT"
+        - name: "DOC в DOT"
           link: "/conversion/net/doc-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "DOC к DOTM"
+        - name: "DOC в DOTM"
           link: "/conversion/net/doc-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "DOC к DOTX"
+        - name: "DOC в DOTX"
           link: "/conversion/net/doc-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "DOC к EMF"
+        - name: "DOC в EMF"
           link: "/conversion/net/doc-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "DOC к EMZ"
+        - name: "DOC в EMZ"
           link: "/conversion/net/doc-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "DOC к EPUB"
+        - name: "DOC в EPUB"
           link: "/conversion/net/doc-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "DOC к FODP"
+        - name: "DOC в FODP"
           link: "/conversion/net/doc-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "DOC к FODS"
+        - name: "DOC в FODS"
           link: "/conversion/net/doc-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "DOC к GIF"
+        - name: "DOC в GIF"
           link: "/conversion/net/doc-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "DOC к HTM"
+        - name: "DOC в HTM"
           link: "/conversion/net/doc-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "DOC к HTML"
+        - name: "DOC в HTML"
           link: "/conversion/net/doc-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "DOC к ICO"
+        - name: "DOC в ICO"
           link: "/conversion/net/doc-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "DOC к JP2"
+        - name: "DOC в JP2"
           link: "/conversion/net/doc-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "DOC к JPEG"
+        - name: "DOC в JPEG"
           link: "/conversion/net/doc-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "DOC к JPG"
+        - name: "DOC в JPG"
           link: "/conversion/net/doc-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "DOC к MD"
+        - name: "DOC в MD"
           link: "/conversion/net/doc-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "DOC к MHT"
+        - name: "DOC в MHT"
           link: "/conversion/net/doc-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOC к MHTML"
+        - name: "DOC в MHTML"
           link: "/conversion/net/doc-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "DOC к ODP"
+        - name: "DOC в ODP"
           link: "/conversion/net/doc-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "DOC к ODS"
+        - name: "DOC в ODS"
           link: "/conversion/net/doc-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "DOC к ODT"
+        - name: "DOC в ODT"
           link: "/conversion/net/doc-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "DOC к OTP"
+        - name: "DOC в OTP"
           link: "/conversion/net/doc-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "DOC к OTT"
+        - name: "DOC в OTT"
           link: "/conversion/net/doc-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "DOC к PDF"
+        - name: "DOC в PDF"
           link: "/conversion/net/doc-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "DOC к PNG"
+        - name: "DOC в PNG"
           link: "/conversion/net/doc-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "DOC к POT"
+        - name: "DOC в POT"
           link: "/conversion/net/doc-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "DOC к POTM"
+        - name: "DOC в POTM"
           link: "/conversion/net/doc-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOC к POTX"
+        - name: "DOC в POTX"
           link: "/conversion/net/doc-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "DOC к PPS"
+        - name: "DOC в PPS"
           link: "/conversion/net/doc-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOC к PPSM"
+        - name: "DOC в PPSM"
           link: "/conversion/net/doc-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "DOC к PPSX"
+        - name: "DOC в PPSX"
           link: "/conversion/net/doc-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "DOC к PPT"
+        - name: "DOC в PPT"
           link: "/conversion/net/doc-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "DOC к PPTM"
+        - name: "DOC в PPTM"
           link: "/conversion/net/doc-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "DOC к PPTX"
+        - name: "DOC в PPTX"
           link: "/conversion/net/doc-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "DOC к PSD"
+        - name: "DOC в PSD"
           link: "/conversion/net/doc-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "DOC к RTF"
+        - name: "DOC в RTF"
           link: "/conversion/net/doc-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "DOC к SVG"
+        - name: "DOC в SVG"
           link: "/conversion/net/doc-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOC к SVGZ"
+        - name: "DOC в SVGZ"
           link: "/conversion/net/doc-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "DOC к SXC"
+        - name: "DOC в SXC"
           link: "/conversion/net/doc-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "DOC к TEX"
+        - name: "DOC в TEX"
           link: "/conversion/net/doc-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "DOC к TIF"
+        - name: "DOC в TIF"
           link: "/conversion/net/doc-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOC к TIFF"
+        - name: "DOC в TIFF"
           link: "/conversion/net/doc-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "DOC к TSV"
+        - name: "DOC в TSV"
           link: "/conversion/net/doc-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "DOC к TXT"
+        - name: "DOC в TXT"
           link: "/conversion/net/doc-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "DOC к WEBP"
+        - name: "DOC в WEBP"
           link: "/conversion/net/doc-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "DOC к WMF"
+        - name: "DOC в WMF"
           link: "/conversion/net/doc-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "DOC к WMZ"
+        - name: "DOC в WMZ"
           link: "/conversion/net/doc-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "DOC к XLAM"
+        - name: "DOC в XLAM"
           link: "/conversion/net/doc-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOC к XLS"
+        - name: "DOC в XLS"
           link: "/conversion/net/doc-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "DOC к XLSB"
+        - name: "DOC в XLSB"
           link: "/conversion/net/doc-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "DOC к XLSM"
+        - name: "DOC в XLSM"
           link: "/conversion/net/doc-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOC к XLSX"
+        - name: "DOC в XLSX"
           link: "/conversion/net/doc-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "DOC к XLT"
+        - name: "DOC в XLT"
           link: "/conversion/net/doc-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOC к XLTM"
+        - name: "DOC в XLTM"
           link: "/conversion/net/doc-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "DOC к XLTX"
+        - name: "DOC в XLTX"
           link: "/conversion/net/doc-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "DOC к XPS"
+        - name: "DOC в XPS"
           link: "/conversion/net/doc-to-xps/"
           description: "Спецификация документа Open XML"
 

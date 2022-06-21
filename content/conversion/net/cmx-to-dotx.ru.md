@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать CMX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "CMX к BMP"
+        - name: "CMX в BMP"
           link: "/conversion/net/cmx-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "CMX к CSV"
+        - name: "CMX в CSV"
           link: "/conversion/net/cmx-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "CMX к DCM"
+        - name: "CMX в DCM"
           link: "/conversion/net/cmx-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "CMX к DIF"
+        - name: "CMX в DIF"
           link: "/conversion/net/cmx-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "CMX к DOC"
+        - name: "CMX в DOC"
           link: "/conversion/net/cmx-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "CMX к DOCM"
+        - name: "CMX в DOCM"
           link: "/conversion/net/cmx-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CMX к DOCX"
+        - name: "CMX в DOCX"
           link: "/conversion/net/cmx-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "CMX к DOT"
+        - name: "CMX в DOT"
           link: "/conversion/net/cmx-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "CMX к DOTM"
+        - name: "CMX в DOTM"
           link: "/conversion/net/cmx-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "CMX к EMF"
+        - name: "CMX в EMF"
           link: "/conversion/net/cmx-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "CMX к EMZ"
+        - name: "CMX в EMZ"
           link: "/conversion/net/cmx-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "CMX к EPUB"
+        - name: "CMX в EPUB"
           link: "/conversion/net/cmx-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "CMX к FODP"
+        - name: "CMX в FODP"
           link: "/conversion/net/cmx-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "CMX к FODS"
+        - name: "CMX в FODS"
           link: "/conversion/net/cmx-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "CMX к GIF"
+        - name: "CMX в GIF"
           link: "/conversion/net/cmx-to-gif/"
           description: "Графический файл формата обмена"
 
         # format loop
-        - name: "CMX к HTM"
+        - name: "CMX в HTM"
           link: "/conversion/net/cmx-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "CMX к HTML"
+        - name: "CMX в HTML"
           link: "/conversion/net/cmx-to-html/"
           description: "Язык гипертекстовой разметки"
 
         # format loop
-        - name: "CMX к ICO"
+        - name: "CMX в ICO"
           link: "/conversion/net/cmx-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "CMX к JP2"
+        - name: "CMX в JP2"
           link: "/conversion/net/cmx-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "CMX к JPEG"
+        - name: "CMX в JPEG"
           link: "/conversion/net/cmx-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "CMX к JPG"
+        - name: "CMX в JPG"
           link: "/conversion/net/cmx-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "CMX к MD"
+        - name: "CMX в MD"
           link: "/conversion/net/cmx-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "CMX к MHT"
+        - name: "CMX в MHT"
           link: "/conversion/net/cmx-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CMX к MHTML"
+        - name: "CMX в MHTML"
           link: "/conversion/net/cmx-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "CMX к ODP"
+        - name: "CMX в ODP"
           link: "/conversion/net/cmx-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "CMX к ODS"
+        - name: "CMX в ODS"
           link: "/conversion/net/cmx-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "CMX к ODT"
+        - name: "CMX в ODT"
           link: "/conversion/net/cmx-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "CMX к OTP"
+        - name: "CMX в OTP"
           link: "/conversion/net/cmx-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "CMX к OTT"
+        - name: "CMX в OTT"
           link: "/conversion/net/cmx-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "CMX к PDF"
+        - name: "CMX в PDF"
           link: "/conversion/net/cmx-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "CMX к PNG"
+        - name: "CMX в PNG"
           link: "/conversion/net/cmx-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "CMX к POT"
+        - name: "CMX в POT"
           link: "/conversion/net/cmx-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "CMX к POTM"
+        - name: "CMX в POTM"
           link: "/conversion/net/cmx-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CMX к POTX"
+        - name: "CMX в POTX"
           link: "/conversion/net/cmx-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "CMX к PPS"
+        - name: "CMX в PPS"
           link: "/conversion/net/cmx-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CMX к PPSM"
+        - name: "CMX в PPSM"
           link: "/conversion/net/cmx-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "CMX к PPSX"
+        - name: "CMX в PPSX"
           link: "/conversion/net/cmx-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "CMX к PPT"
+        - name: "CMX в PPT"
           link: "/conversion/net/cmx-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "CMX к PPTM"
+        - name: "CMX в PPTM"
           link: "/conversion/net/cmx-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "CMX к PPTX"
+        - name: "CMX в PPTX"
           link: "/conversion/net/cmx-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "CMX к PSD"
+        - name: "CMX в PSD"
           link: "/conversion/net/cmx-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "CMX к RTF"
+        - name: "CMX в RTF"
           link: "/conversion/net/cmx-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "CMX к SVG"
+        - name: "CMX в SVG"
           link: "/conversion/net/cmx-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CMX к SVGZ"
+        - name: "CMX в SVGZ"
           link: "/conversion/net/cmx-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "CMX к SXC"
+        - name: "CMX в SXC"
           link: "/conversion/net/cmx-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "CMX к TEX"
+        - name: "CMX в TEX"
           link: "/conversion/net/cmx-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "CMX к TIF"
+        - name: "CMX в TIF"
           link: "/conversion/net/cmx-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CMX к TIFF"
+        - name: "CMX в TIFF"
           link: "/conversion/net/cmx-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "CMX к TSV"
+        - name: "CMX в TSV"
           link: "/conversion/net/cmx-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "CMX к TXT"
+        - name: "CMX в TXT"
           link: "/conversion/net/cmx-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "CMX к WEBP"
+        - name: "CMX в WEBP"
           link: "/conversion/net/cmx-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "CMX к WMF"
+        - name: "CMX в WMF"
           link: "/conversion/net/cmx-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "CMX к WMZ"
+        - name: "CMX в WMZ"
           link: "/conversion/net/cmx-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "CMX к XLAM"
+        - name: "CMX в XLAM"
           link: "/conversion/net/cmx-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CMX к XLS"
+        - name: "CMX в XLS"
           link: "/conversion/net/cmx-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "CMX к XLSB"
+        - name: "CMX в XLSB"
           link: "/conversion/net/cmx-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "CMX к XLSM"
+        - name: "CMX в XLSM"
           link: "/conversion/net/cmx-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CMX к XLSX"
+        - name: "CMX в XLSX"
           link: "/conversion/net/cmx-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "CMX к XLT"
+        - name: "CMX в XLT"
           link: "/conversion/net/cmx-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "CMX к XLTM"
+        - name: "CMX в XLTM"
           link: "/conversion/net/cmx-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "CMX к XLTX"
+        - name: "CMX в XLTX"
           link: "/conversion/net/cmx-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "CMX к XPS"
+        - name: "CMX в XPS"
           link: "/conversion/net/cmx-to-xps/"
           description: "Спецификация документа Open XML"
 

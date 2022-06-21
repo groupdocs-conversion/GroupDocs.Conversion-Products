@@ -127,312 +127,312 @@ more_formats:
         Вы также можете конвертировать HTML во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
     format: 
         # format loop
-        - name: "HTML к BMP"
+        - name: "HTML в BMP"
           link: "/conversion/java/html-to-bmp/"
           description: "Формат растрового файла"
 
         # format loop
-        - name: "HTML к CSV"
+        - name: "HTML в CSV"
           link: "/conversion/java/html-to-csv/"
           description: "Файл значений, разделенных запятыми"
 
         # format loop
-        - name: "HTML к DCM"
+        - name: "HTML в DCM"
           link: "/conversion/java/html-to-dcm/"
           description: "DICOM-изображение"
 
         # format loop
-        - name: "HTML к DIF"
+        - name: "HTML в DIF"
           link: "/conversion/java/html-to-dif/"
           description: "Формат обмена данными"
 
         # format loop
-        - name: "HTML к DOC"
+        - name: "HTML в DOC"
           link: "/conversion/java/html-to-doc/"
           description: "Документ Microsoft Word"
 
         # format loop
-        - name: "HTML к DOCM"
+        - name: "HTML в DOCM"
           link: "/conversion/java/html-to-docm/"
           description: "Документ Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "HTML к DOCX"
+        - name: "HTML в DOCX"
           link: "/conversion/java/html-to-docx/"
           description: "Документ Microsoft Word с открытым XML"
 
         # format loop
-        - name: "HTML к DOT"
+        - name: "HTML в DOT"
           link: "/conversion/java/html-to-dot/"
           description: "Шаблон документа Microsoft Word"
 
         # format loop
-        - name: "HTML к DOTM"
+        - name: "HTML в DOTM"
           link: "/conversion/java/html-to-dotm/"
           description: "Шаблон Microsoft Word с поддержкой макросов"
 
         # format loop
-        - name: "HTML к DOTX"
+        - name: "HTML в DOTX"
           link: "/conversion/java/html-to-dotx/"
           description: "Шаблон документа Word Open XML"
 
         # format loop
-        - name: "HTML к EMF"
+        - name: "HTML в EMF"
           link: "/conversion/java/html-to-emf/"
           description: "Расширенный формат метафайла"
 
         # format loop
-        - name: "HTML к EMZ"
+        - name: "HTML в EMZ"
           link: "/conversion/java/html-to-emz/"
           description: "Расширенный сжатый метафайл Windows"
 
         # format loop
-        - name: "HTML к EPUB"
+        - name: "HTML в EPUB"
           link: "/conversion/java/html-to-epub/"
           description: "Формат файла цифровой электронной книги"
 
         # format loop
-        - name: "HTML к FODP"
+        - name: "HTML в FODP"
           link: "/conversion/java/html-to-fodp/"
           description: "Плоская XML-презентация OpenDocument"
 
         # format loop
-        - name: "HTML к FODS"
+        - name: "HTML в FODS"
           link: "/conversion/java/html-to-fods/"
           description: "Плоская XML-таблица OpenDocument"
 
         # format loop
-        - name: "HTML к HTM"
+        - name: "HTML в HTM"
           link: "/conversion/java/html-to-htm/"
           description: "Файл языка гипертекстовой разметки"
 
         # format loop
-        - name: "HTML к ICO"
+        - name: "HTML в ICO"
           link: "/conversion/java/html-to-ico/"
           description: "Файл значка Майкрософт"
 
         # format loop
-        - name: "HTML к JP2"
+        - name: "HTML в JP2"
           link: "/conversion/java/html-to-jp2/"
           description: "Основной файл изображения JPEG 2000"
 
         # format loop
-        - name: "HTML к JPEG"
+        - name: "HTML в JPEG"
           link: "/conversion/java/html-to-jpeg/"
           description: "Изображение в формате JPEG"
 
         # format loop
-        - name: "HTML к JPG"
+        - name: "HTML в JPG"
           link: "/conversion/java/html-to-jpg/"
           description: "Файл изображения Объединенной группы экспертов по фотографии"
 
         # format loop
-        - name: "HTML к MD"
+        - name: "HTML в MD"
           link: "/conversion/java/html-to-md/"
           description: "Уценка"
 
         # format loop
-        - name: "HTML к MHT"
+        - name: "HTML в MHT"
           link: "/conversion/java/html-to-mht/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "HTML к MHTML"
+        - name: "HTML в MHTML"
           link: "/conversion/java/html-to-mhtml/"
           description: "MIME-инкапсуляция совокупного HTML"
 
         # format loop
-        - name: "HTML к ODP"
+        - name: "HTML в ODP"
           link: "/conversion/java/html-to-odp/"
           description: "Формат файла презентации OpenDocument"
 
         # format loop
-        - name: "HTML к ODS"
+        - name: "HTML в ODS"
           link: "/conversion/java/html-to-ods/"
           description: "Открыть электронную таблицу документов"
 
         # format loop
-        - name: "HTML к ODT"
+        - name: "HTML в ODT"
           link: "/conversion/java/html-to-odt/"
           description: "Открыть текст документа"
 
         # format loop
-        - name: "HTML к OTP"
+        - name: "HTML в OTP"
           link: "/conversion/java/html-to-otp/"
           description: "Шаблон графика происхождения"
 
         # format loop
-        - name: "HTML к OTT"
+        - name: "HTML в OTT"
           link: "/conversion/java/html-to-ott/"
           description: "Открыть шаблон документа"
 
         # format loop
-        - name: "HTML к PDF"
+        - name: "HTML в PDF"
           link: "/conversion/java/html-to-pdf/"
           description: "Портативный документ"
 
         # format loop
-        - name: "HTML к PNG"
+        - name: "HTML в PNG"
           link: "/conversion/java/html-to-png/"
           description: "Портативная сетевая графика"
 
         # format loop
-        - name: "HTML к POT"
+        - name: "HTML в POT"
           link: "/conversion/java/html-to-pot/"
           description: "Шаблон PowerPoint"
 
         # format loop
-        - name: "HTML к POTM"
+        - name: "HTML в POTM"
           link: "/conversion/java/html-to-potm/"
           description: "Шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "HTML к POTX"
+        - name: "HTML в POTX"
           link: "/conversion/java/html-to-potx/"
           description: "Открытый XML-шаблон Microsoft PowerPoint"
 
         # format loop
-        - name: "HTML к PPS"
+        - name: "HTML в PPS"
           link: "/conversion/java/html-to-pps/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "HTML к PPSM"
+        - name: "HTML в PPSM"
           link: "/conversion/java/html-to-ppsm/"
           description: "Слайд-шоу Microsoft PowerPoint"
 
         # format loop
-        - name: "HTML к PPSX"
+        - name: "HTML в PPSX"
           link: "/conversion/java/html-to-ppsx/"
           description: "Слайд-шоу PowerPoint Open XML"
 
         # format loop
-        - name: "HTML к PPT"
+        - name: "HTML в PPT"
           link: "/conversion/java/html-to-ppt/"
           description: "Презентация PowerPoint"
 
         # format loop
-        - name: "HTML к PPTM"
+        - name: "HTML в PPTM"
           link: "/conversion/java/html-to-pptm/"
           description: "Презентация Microsoft PowerPoint"
 
         # format loop
-        - name: "HTML к PPTX"
+        - name: "HTML в PPTX"
           link: "/conversion/java/html-to-pptx/"
           description: "Презентация PowerPoint Open XML"
 
         # format loop
-        - name: "HTML к PSD"
+        - name: "HTML в PSD"
           link: "/conversion/java/html-to-psd/"
           description: "Документ Adobe Photoshop"
 
         # format loop
-        - name: "HTML к RTF"
+        - name: "HTML в RTF"
           link: "/conversion/java/html-to-rtf/"
           description: "Расширенный текстовый формат файла"
 
         # format loop
-        - name: "HTML к SVG"
+        - name: "HTML в SVG"
           link: "/conversion/java/html-to-svg/"
           description: "Файл масштабируемой векторной графики"
 
         # format loop
-        - name: "HTML к SVGZ"
+        - name: "HTML в SVGZ"
           link: "/conversion/java/html-to-svgz/"
           description: "Сжатый файл масштабируемой векторной графики"
 
         # format loop
-        - name: "HTML к SXC"
+        - name: "HTML в SXC"
           link: "/conversion/java/html-to-sxc/"
           description: "Электронная таблица StarOffice Calc"
 
         # format loop
-        - name: "HTML к TEX"
+        - name: "HTML в TEX"
           link: "/conversion/java/html-to-tex/"
           description: "Исходный документ LaTeX"
 
         # format loop
-        - name: "HTML к TIF"
+        - name: "HTML в TIF"
           link: "/conversion/java/html-to-tif/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "HTML к TIFF"
+        - name: "HTML в TIFF"
           link: "/conversion/java/html-to-tiff/"
           description: "Формат файла изображения с тегами"
 
         # format loop
-        - name: "HTML к TSV"
+        - name: "HTML в TSV"
           link: "/conversion/java/html-to-tsv/"
           description: "Файл значений, разделенных табуляцией"
 
         # format loop
-        - name: "HTML к TXT"
+        - name: "HTML в TXT"
           link: "/conversion/java/html-to-txt/"
           description: "Формат обычного текстового файла"
 
         # format loop
-        - name: "HTML к WEBP"
+        - name: "HTML в WEBP"
           link: "/conversion/java/html-to-webp/"
           description: "Формат файла растрового веб-изображения"
 
         # format loop
-        - name: "HTML к WMF"
+        - name: "HTML в WMF"
           link: "/conversion/java/html-to-wmf/"
           description: "Метафайл Windows"
 
         # format loop
-        - name: "HTML к WMZ"
+        - name: "HTML в WMZ"
           link: "/conversion/java/html-to-wmz/"
           description: "Метафайл Windows сжат"
 
         # format loop
-        - name: "HTML к XLAM"
+        - name: "HTML в XLAM"
           link: "/conversion/java/html-to-xlam/"
           description: "Надстройка Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "HTML к XLS"
+        - name: "HTML в XLS"
           link: "/conversion/java/html-to-xls/"
           description: "Формат двоичного файла Microsoft Excel"
 
         # format loop
-        - name: "HTML к XLS2003"
+        - name: "HTML в XLS2003"
           link: "/conversion/java/html-to-xls2003/"
           description: "Электронная таблица Microsoft Excel"
 
         # format loop
-        - name: "HTML к XLSB"
+        - name: "HTML в XLSB"
           link: "/conversion/java/html-to-xlsb/"
           description: "Двоичный файл электронной таблицы Microsoft Excel"
 
         # format loop
-        - name: "HTML к XLSM"
+        - name: "HTML в XLSM"
           link: "/conversion/java/html-to-xlsm/"
           description: "Электронная таблица Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "HTML к XLSX"
+        - name: "HTML в XLSX"
           link: "/conversion/java/html-to-xlsx/"
           description: "Электронная таблица Microsoft Excel Open XML"
 
         # format loop
-        - name: "HTML к XLT"
+        - name: "HTML в XLT"
           link: "/conversion/java/html-to-xlt/"
           description: "Шаблон Microsoft Excel"
 
         # format loop
-        - name: "HTML к XLTM"
+        - name: "HTML в XLTM"
           link: "/conversion/java/html-to-xltm/"
           description: "Шаблон Microsoft Excel с поддержкой макросов"
 
         # format loop
-        - name: "HTML к XLTX"
+        - name: "HTML в XLTX"
           link: "/conversion/java/html-to-xltx/"
           description: "Открытый XML-шаблон Microsoft Excel"
 
         # format loop
-        - name: "HTML к XPS"
+        - name: "HTML в XPS"
           link: "/conversion/java/html-to-xps/"
           description: "Спецификация документа Open XML"
 

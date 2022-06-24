@@ -1,24 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-conversion"
 date: 2022-03-01T15:12:22
 draft: false
-otherformats: bmp csv dcm dif doc docm docx dot dotm dotx emf emz epub fodp fods gif htm html ico jp2 jpeg jpg md mht mhtml
+otherformats: bmp csv dcm dif doc docm docx dot dotm dotx emf emz epub fodp fods gif htm html ico jp2 jpeg jpg md mht
 
 ############################# Head ############################
 head_title: "Конвертация файлов DXF в DOCM на Java"
 head_description: "Преобразование DXF в DOCM на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Конвертировать DXF в DOCM на Java"
+title: "Конвертировать DXF в DOCM"
 description: "Перевести DXF в DOCM с помощью нескольких строк кода на Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -30,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -60,6 +35,7 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
 
 ############################# Steps ############################
 steps:
@@ -94,16 +70,21 @@ steps:
         
 demos:
     enable: true
-        
+    title: "Демонстрация DXF в DOCM"
+    content: |
+       Конвертируйте DXF в DOCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
 about_formats:
-    enable: true
+    enable: true    
 
 
 more_formats:
     enable: true
-
-
+    title: "Другие поддерживаемые преобразования DXF"
+    content: "Вы также можете конвертировать DXF во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

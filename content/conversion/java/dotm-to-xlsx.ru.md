@@ -20,7 +20,15 @@ button:
 ############################# SubMenu ############################
 submenu:
     enable: true
-      
+
+    left:
+        img_alt: "GroupDocs.Conversion for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
+        product: "GroupDocs.Conversion"
+        platform: "Java"
+
+    
+
 ############################# About ############################
 about:
     enable: true
@@ -59,7 +67,6 @@ steps:
         converter.convert("output.xlsx", convertOptions);
         
         ```
-
         
 demos:
     enable: true
@@ -69,13 +76,14 @@ demos:
        
 
 about_formats:
-    enable: true
+    enable: true    
 
 
 more_formats:
-    enable: true 
+    enable: true
     title: "Другие поддерживаемые преобразования DOTM"
     content: "Вы также можете конвертировать DOTM во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
        
 back_to_top:
     enable: true

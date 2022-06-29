@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-13T14:31:13+03:00
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Конвертер SVGZ в SVGZ — преобразование SVGZ в SVGZ на C# .NET"
-head_description: "Как преобразовать SVGZ в SVGZ в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер SVGZ в SVGZ на C#"
+head_description: "Преобразовать SVGZ в SVGZ на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование SVGZ в SVGZ на C#"
-description: "Нативное и высокопроизводительное преобразование SVGZ в SVGZ с использованием GroupDocs на стороне сервера. Преобразование для API .NET без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать SVGZ в SVGZ на C#"
+description: "Конвертер SVGZ в SVGZ с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,370 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы SVGZ в файлы SVGZ в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию SVGZ в SVGZ и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла SVGZ и сохранения выходного результата SVGZ.
+        
+        Например, для исходного файла SVGZ можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла SVGZ:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл SVGZ.
+
+        После завершения преобразования вы можете сохранить файл SVGZ по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования SVGZ в SVGZ не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по преобразованию SVGZ в SVGZ на C#"
+    title_left: "Шаги по конвертации SVGZ в SVGZ в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла SVGZ в SVGZ с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла SVGZ в SVGZ с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл SVGZ с полным путем
-        * Создайте и установите ConvertOptions для типа svgz
+        * Создайте и установите ConvertOptions для типа SVGZ.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (SVGZ) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем файл SVGZ
+        // Загружаем SVGZ файл
         var converter = new GroupDocs.Conversion.Converter("template.svgz");
-        // устанавливаем параметры преобразования для формата SVGZ
+        // Устанавливаем параметры конвертации для формата SVGZ
         var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
-        // преобразовать в формат SVGZ
-        converter.Convert("output.svgz", convertOptions);
+        // Преобразовать в формат SVGZ
+        converter.Convert("output.svgz", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации SVGZ в SVGZ Live"
+    title: "Демонстрация SVGZ в SVGZ"
     content: |
-        Конвертируйте SVGZ в SVGZ прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-SVGZ"
-          title: " О формате файла SVGZ"
-          content: |
-            Файл с расширением .svgz представляет собой сжатую версию файла масштабируемой векторной графики (.SVG). Он сжат сжатием gzip и содержит данные в формате XML. Файлы SVGZ поддерживают прозрачность, градиенты, анимацию и фильтры. Файлы SVGZ меньше по размеру по сравнению с файлами SVG по умолчанию, и этот уменьшенный размер файла помогает передавать графические файлы онлайн. Графический дизайнер создает файлы SVGZ с помощью таких инструментов, как Adobe Illustrator, Corel PaintShop Pro и других. Однако файлы SVGZ можно создавать, включив сжатие GZip на сервере Apache при отправке данных изображения.
+       Конвертируйте SVGZ в SVGZ прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/image/svgz/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-SVGZ"
-          title: " О формате файла SVGZ"
-          content: |
-            Файл с расширением .svgz представляет собой сжатую версию файла масштабируемой векторной графики (.SVG). Он сжат сжатием gzip и содержит данные в формате XML. Файлы SVGZ поддерживают прозрачность, градиенты, анимацию и фильтры. Файлы SVGZ меньше по размеру по сравнению с файлами SVG по умолчанию, и этот уменьшенный размер файла помогает передавать графические файлы онлайн. Графический дизайнер создает файлы SVGZ с помощью таких инструментов, как Adobe Illustrator, Corel PaintShop Pro и других. Однако файлы SVGZ можно создавать, включив сжатие GZip на сервере Apache при отправке данных изображения.
-
-          link: "https://docs.fileformat.com/image/svgz/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать SVGZ во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "SVGZ в EPUB"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "SVGZ в XPS"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-xps/"
-          description: "Спецификация документа Open XML"
-
-        # format loop
-        - name: "SVGZ в TEX"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "SVGZ в PPT"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "SVGZ в PPS"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "SVGZ в PPTX"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "SVGZ в PPSX"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "SVGZ в ODP"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "SVGZ в OTP"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "SVGZ в POTX"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "SVGZ в POTM"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "SVGZ в PPTM"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "SVGZ в PPSM"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "SVGZ в XLS"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "SVGZ в XLSX"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "SVGZ в XLSM"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "SVGZ в XLSB"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "SVGZ в ODS"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "SVGZ в XLTX"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "SVGZ в XLTM"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "SVGZ в TSV"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "SVGZ в XLAM"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "SVGZ в CSV"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "SVGZ в DOC"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "SVGZ в DOCM"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "SVGZ в SVGZ"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-svgz/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "SVGZ в DOT"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "SVGZ в DOTM"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "SVGZ в DOTX"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "SVGZ в RTF"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "SVGZ в ODT"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "SVGZ в OTT"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "SVGZ в TXT"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "SVGZ в MD"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "SVGZ в TIFF"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "SVGZ в TIF"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "SVGZ в JPG"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "SVGZ в JPEG"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "SVGZ в PNG"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "SVGZ в GIF"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "SVGZ в BMP"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "SVGZ в ICO"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "SVGZ в PSD"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "SVGZ в WMF"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "SVGZ в EMF"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "SVGZ в WEBP"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "SVGZ в SVG"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "SVGZ в JP2"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "SVGZ в EMZ"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "SVGZ в WMZ"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "SVGZ в HTML"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "SVGZ в MHT"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "SVGZ в MHTML"
-          link: "https://products.groupdocs.com/conversion/net/svgz-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования SVGZ"
+    content: "Вы также можете конвертировать SVGZ во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

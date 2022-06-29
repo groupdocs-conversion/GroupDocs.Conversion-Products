@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:17:07
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Конвертер PSD в EMF — преобразование PSD в EMF на C# .NET"
-head_description: "Как преобразовать PSD в EMF в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер PSD в EMF на C#"
+head_description: "Преобразовать PSD в EMF на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование PSD в EMF в C#"
-description: "Нативное и высокопроизводительное преобразование PSD в EMF с использованием групповых документов на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать PSD в EMF на C#"
+description: "Конвертер PSD в EMF с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,416 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы PSD в файлы EMF в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию PSD в EMF и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PSD и сохранения выходного результата EMF.
+        
+        Например, для исходного файла PSD можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла EMF:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл EMF.
+
+        После завершения преобразования вы можете сохранить файл EMF по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования PSD в EMF не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию PSD в EMF в C#"
+    title_left: "Шаги по конвертации PSD в EMF в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать PSD-файл в EMF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла PSD в EMF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл PSD с полным путем
-        * Создайте и установите ConvertOptions для типа emf
+        * Создайте и установите ConvertOptions для типа EMF.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (EMF) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем PSD-файл
+        // Загружаем PSD файл
         var converter = new GroupDocs.Conversion.Converter("template.psd");
-        // устанавливаем параметры преобразования для формата EMF
+        // Устанавливаем параметры конвертации для формата EMF
         var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // преобразовать в формат EMF
-        converter.Convert("output.emf", convertOptions);
+        // Преобразовать в формат EMF
+        converter.Convert("output.emf", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации PSD в EMF"
+    title: "Демонстрация PSD в EMF"
     content: |
-        Конвертируйте PSD в EMF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла PSD"
-          content: |
-            PSD, документ Photoshop, представляет собой собственный формат файлов Adobe Photoshop, используемый для графического дизайна и разработки. Файлы PSD могут включать в себя слои изображений, корректирующие слои, маски слоев, аннотации, информацию о файле, ключевые слова и другие элементы, характерные для Photoshop. Файлы Photoshop по умолчанию имеют расширение PSD, максимальную высоту и ширину 30 000 пикселей и ограничение по длине в два гигабайта.
+       Конвертируйте PSD в EMF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/image/psd/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-EMF"
-          title: " О формате файла EMF"
-          content: |
-            Расширенный формат метафайла (EMF) хранит графические изображения независимо от устройства. Метафайлы EMF состоят из записей переменной длины в хронологическом порядке, которые могут отображать сохраненное изображение после анализа на любом устройстве вывода. Эти записи переменной длины могут быть определениями вложенных объектов, команд для рисования и графических свойств, важных для точного отображения изображения.
-
-          link: "https://docs.fileformat.com/image/emf/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать PSD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "PSD в BMP"
-          link: "/conversion/net/psd-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "PSD в CSV"
-          link: "/conversion/net/psd-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "PSD в DCM"
-          link: "/conversion/net/psd-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "PSD в DIF"
-          link: "/conversion/net/psd-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "PSD в DOC"
-          link: "/conversion/net/psd-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "PSD в DOCM"
-          link: "/conversion/net/psd-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PSD в DOCX"
-          link: "/conversion/net/psd-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "PSD в DOT"
-          link: "/conversion/net/psd-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "PSD в DOTM"
-          link: "/conversion/net/psd-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PSD в DOTX"
-          link: "/conversion/net/psd-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "PSD в EMZ"
-          link: "/conversion/net/psd-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "PSD в EPUB"
-          link: "/conversion/net/psd-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "PSD в FODP"
-          link: "/conversion/net/psd-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "PSD в FODS"
-          link: "/conversion/net/psd-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "PSD в GIF"
-          link: "/conversion/net/psd-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "PSD в HTM"
-          link: "/conversion/net/psd-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "PSD в HTML"
-          link: "/conversion/net/psd-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "PSD в ICO"
-          link: "/conversion/net/psd-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "PSD в JP2"
-          link: "/conversion/net/psd-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "PSD в JPEG"
-          link: "/conversion/net/psd-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "PSD в JPG"
-          link: "/conversion/net/psd-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "PSD в MD"
-          link: "/conversion/net/psd-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "PSD в MHT"
-          link: "/conversion/net/psd-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PSD в MHTML"
-          link: "/conversion/net/psd-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PSD в ODG"
-          link: "/conversion/net/psd-to-odg/"
-          description: "Файл чертежа OpenDocument"
-
-        # format loop
-        - name: "PSD в ODP"
-          link: "/conversion/net/psd-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "PSD в ODS"
-          link: "/conversion/net/psd-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "PSD в ODT"
-          link: "/conversion/net/psd-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "PSD в OTP"
-          link: "/conversion/net/psd-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "PSD в OTT"
-          link: "/conversion/net/psd-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "PSD в PDF"
-          link: "/conversion/net/psd-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "PSD в PNG"
-          link: "/conversion/net/psd-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "PSD в POT"
-          link: "/conversion/net/psd-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "PSD в POTM"
-          link: "/conversion/net/psd-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PSD в POTX"
-          link: "/conversion/net/psd-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PSD в PPS"
-          link: "/conversion/net/psd-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PSD в PPSM"
-          link: "/conversion/net/psd-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PSD в PPSX"
-          link: "/conversion/net/psd-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "PSD в PPT"
-          link: "/conversion/net/psd-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "PSD в PPTM"
-          link: "/conversion/net/psd-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "PSD в PPTX"
-          link: "/conversion/net/psd-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "PSD в RTF"
-          link: "/conversion/net/psd-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "PSD в SVG"
-          link: "/conversion/net/psd-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PSD в SVGZ"
-          link: "/conversion/net/psd-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PSD в SXC"
-          link: "/conversion/net/psd-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "PSD в TEX"
-          link: "/conversion/net/psd-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "PSD в TIF"
-          link: "/conversion/net/psd-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PSD в TIFF"
-          link: "/conversion/net/psd-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PSD в TSV"
-          link: "/conversion/net/psd-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "PSD в TXT"
-          link: "/conversion/net/psd-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "PSD в WEBP"
-          link: "/conversion/net/psd-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "PSD в WMF"
-          link: "/conversion/net/psd-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "PSD в WMZ"
-          link: "/conversion/net/psd-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "PSD в XLAM"
-          link: "/conversion/net/psd-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PSD в XLS"
-          link: "/conversion/net/psd-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "PSD в XLSB"
-          link: "/conversion/net/psd-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "PSD в XLSM"
-          link: "/conversion/net/psd-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PSD в XLSX"
-          link: "/conversion/net/psd-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "PSD в XLT"
-          link: "/conversion/net/psd-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PSD в XLTM"
-          link: "/conversion/net/psd-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PSD в XLTX"
-          link: "/conversion/net/psd-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PSD в XPS"
-          link: "/conversion/net/psd-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования PSD"
+    content: "Вы также можете конвертировать PSD во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

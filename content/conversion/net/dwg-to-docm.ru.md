@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:10:09
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 
 ############################# Head ############################
-head_title: "Конвертер DWG в DOCM — преобразование DWG в DOCM на C# .NET"
-head_description: "Как преобразовать DWG в DOCM в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер DWG в DOCM на C#"
+head_description: "Преобразовать DWG в DOCM на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование DWG в DOCM на C#"
-description: "Нативное и высокопроизводительное преобразование DWG в DOCM с использованием GroupDocs на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать DWG в DOCM на C#"
+description: "Конвертер DWG в DOCM с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,416 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы DWG в файлы DOCM в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию DWG в DOCM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DWG и сохранения выходного результата DOCM.
+        
+        Например, для исходного файла DWG можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла DOCM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DOCM.
+
+        После завершения преобразования вы можете сохранить файл DOCM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования DWG в DOCM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по преобразованию DWG в DOCM на C#"
+    title_left: "Шаги по конвертации DWG в DOCM в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла DWG в DOCM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла DWG в DOCM с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DWG с полным путем
-        * Создайте и установите ConvertOptions для типа docm
+        * Создайте и установите ConvertOptions для типа DOCM.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (DOCM) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем файл DWG
+        // Загружаем DWG файл
         var converter = new GroupDocs.Conversion.Converter("template.dwg");
-        // устанавливаем параметры преобразования для формата DOCM
+        // Устанавливаем параметры конвертации для формата DOCM
         var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // преобразовать в формат DOCM
-        converter.Convert("output.docm", convertOptions);
+        // Преобразовать в формат DOCM
+        converter.Convert("output.docm", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "DWG в DOCM Живые демонстрации"
+    title: "Демонстрация DWG в DOCM"
     content: |
-        Преобразуйте DWG в DOCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-DWG"
-          title: " О формате файла DWG"
-          content: |
-            Файлы с расширением DWG представляют собой проприетарные двоичные файлы, используемые для хранения данных 2D- и 3D-проектирования. Подобно DXF, который является файлом ASCII, DWG представляет собой двоичный формат файла для чертежей CAD (автоматизированного проектирования). Он содержит векторное изображение и метаданные для представления содержимого файлов САПР.
+       Конвертируйте DWG в DOCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/specification/cad/dwg/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " О формате файла DOCM"
-          content: |
-            Файлы DOCM представляют собой документы, сгенерированные Microsoft Word 2007 или более поздней версии, с возможностью запуска макросов. Он похож на формат файла DOCX, но возможность запускать макросы отличает его от DOCX. Как и DOCX, файлы DOCM могут хранить текст, изображения, таблицы, фигуры, диаграммы и другое содержимое. Возможность запуска макросов позволяет легко сэкономить время, выполняя серию команд в виде записанных действий для автоматического завершения задачи. Файлы DOCM можно открывать и редактировать в Microsoft Word 2007 и более поздних версиях.
-
-          link: "https://docs.fileformat.com/word-processing/docm/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать DWG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "DWG в BMP"
-          link: "/conversion/net/dwg-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "DWG в CSV"
-          link: "/conversion/net/dwg-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "DWG в DCM"
-          link: "/conversion/net/dwg-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "DWG в DIF"
-          link: "/conversion/net/dwg-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "DWG в DOC"
-          link: "/conversion/net/dwg-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "DWG в DOCX"
-          link: "/conversion/net/dwg-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "DWG в DOT"
-          link: "/conversion/net/dwg-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "DWG в DOTM"
-          link: "/conversion/net/dwg-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DWG в DOTX"
-          link: "/conversion/net/dwg-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "DWG в EMF"
-          link: "/conversion/net/dwg-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "DWG в EMZ"
-          link: "/conversion/net/dwg-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "DWG в EPUB"
-          link: "/conversion/net/dwg-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "DWG в FODP"
-          link: "/conversion/net/dwg-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "DWG в FODS"
-          link: "/conversion/net/dwg-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "DWG в GIF"
-          link: "/conversion/net/dwg-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "DWG в HTM"
-          link: "/conversion/net/dwg-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "DWG в HTML"
-          link: "/conversion/net/dwg-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "DWG в ICO"
-          link: "/conversion/net/dwg-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "DWG в JP2"
-          link: "/conversion/net/dwg-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "DWG в JPEG"
-          link: "/conversion/net/dwg-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "DWG в JPG"
-          link: "/conversion/net/dwg-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "DWG в MD"
-          link: "/conversion/net/dwg-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "DWG в MHT"
-          link: "/conversion/net/dwg-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DWG в MHTML"
-          link: "/conversion/net/dwg-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DWG в ODP"
-          link: "/conversion/net/dwg-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "DWG в ODS"
-          link: "/conversion/net/dwg-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "DWG в ODT"
-          link: "/conversion/net/dwg-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "DWG в OTP"
-          link: "/conversion/net/dwg-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "DWG в OTT"
-          link: "/conversion/net/dwg-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "DWG в PDF"
-          link: "/conversion/net/dwg-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "DWG в PNG"
-          link: "/conversion/net/dwg-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "DWG в POT"
-          link: "/conversion/net/dwg-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "DWG в POTM"
-          link: "/conversion/net/dwg-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWG в POTX"
-          link: "/conversion/net/dwg-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWG в PPS"
-          link: "/conversion/net/dwg-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWG в PPSM"
-          link: "/conversion/net/dwg-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWG в PPSX"
-          link: "/conversion/net/dwg-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "DWG в PPT"
-          link: "/conversion/net/dwg-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "DWG в PPTM"
-          link: "/conversion/net/dwg-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWG в PPTX"
-          link: "/conversion/net/dwg-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "DWG в PSD"
-          link: "/conversion/net/dwg-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "DWG в RTF"
-          link: "/conversion/net/dwg-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "DWG в SVG"
-          link: "/conversion/net/dwg-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DWG в SVGZ"
-          link: "/conversion/net/dwg-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DWG в SXC"
-          link: "/conversion/net/dwg-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "DWG в TEX"
-          link: "/conversion/net/dwg-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "DWG в TIF"
-          link: "/conversion/net/dwg-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DWG в TIFF"
-          link: "/conversion/net/dwg-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DWG в TSV"
-          link: "/conversion/net/dwg-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "DWG в TXT"
-          link: "/conversion/net/dwg-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "DWG в WEBP"
-          link: "/conversion/net/dwg-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "DWG в WMF"
-          link: "/conversion/net/dwg-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "DWG в WMZ"
-          link: "/conversion/net/dwg-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "DWG в XLAM"
-          link: "/conversion/net/dwg-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DWG в XLS"
-          link: "/conversion/net/dwg-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "DWG в XLSB"
-          link: "/conversion/net/dwg-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "DWG в XLSM"
-          link: "/conversion/net/dwg-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DWG в XLSX"
-          link: "/conversion/net/dwg-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "DWG в XLT"
-          link: "/conversion/net/dwg-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DWG в XLTM"
-          link: "/conversion/net/dwg-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DWG в XLTX"
-          link: "/conversion/net/dwg-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DWG в XPS"
-          link: "/conversion/net/dwg-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования DWG"
+    content: "Вы также можете конвертировать DWG во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

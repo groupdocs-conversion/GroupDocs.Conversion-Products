@@ -3,15 +3,15 @@
 layout: "auto-gen-conversion"
 date: 2022-03-01T15:12:22
 draft: false
-otherformats: bmp csv dcm dif doc docm docx dot dotm dotx ebook email emf emz epub excel fodp fods gif htm html ico image jp2 
+otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 
 ############################# Head ############################
 head_title: "Конвертер PDF в WEBP на C#"
-head_description: "Преобразовать PDF в WEBP на C#, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_description: "Преобразовать PDF в WEBP на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразовать PDF в WEBP"
-description: "Конвертер PDF в WEBP с помощью нескольких строк C# кода"
+title: "Преобразовать PDF в WEBP на C#"
+description: "Конвертер PDF в WEBP с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -37,6 +37,28 @@ about:
         [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
     
 
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы PDF в файлы WEBP в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию PDF в WEBP и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PDF и сохранения выходного результата WEBP.
+        
+        Например, для исходного файла PDF можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла WEBP:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл WEBP.
+
+        После завершения преобразования вы можете сохранить файл WEBP по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования PDF в WEBP не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
+
 ############################# Steps ############################
 steps:
     enable: true
@@ -46,7 +68,7 @@ steps:
 
         * Создайте экземпляр класса Converter и загрузите файл PDF с полным путем
         * Создайте и установите ConvertOptions для типа WEBP.
-        * Вызовите метод Converter.Conver и передайте полный путь и формат (WEBP) в качестве параметра
+        * Вызовите метод Converter.Convert и передайте полный путь и формат (WEBP) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
@@ -72,11 +94,7 @@ demos:
     title: "Демонстрация PDF в WEBP"
     content: |
        Конвертируйте PDF в WEBP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
-       
-
-about_formats:
-    enable: true    
-
+          
 
 more_formats:
     enable: true

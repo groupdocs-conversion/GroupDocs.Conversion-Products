@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:10:30
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "EBOOK к SVG Converter — конвертируйте EBOOK в SVG на C# .NET"
-head_description: "Как преобразовать EBOOK в SVG на C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер EBOOK в SVG на C#"
+head_description: "Преобразовать EBOOK в SVG на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование EBOOK в SVG на C#"
-description: "Нативное и высокопроизводительное преобразование EBOOK в SVG с использованием GroupDocs на стороне сервера. Преобразование для API .NET без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать EBOOK в SVG на C#"
+description: "Конвертер EBOOK в SVG с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,156 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы EBOOK в файлы SVG в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию EBOOK в SVG и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла EBOOK и сохранения выходного результата SVG.
+        
+        Например, для исходного файла EBOOK можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла SVG:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл SVG.
+
+        После завершения преобразования вы можете сохранить файл SVG по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования EBOOK в SVG не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию EBOOK в SVG на C#"
+    title_left: "Шаги по конвертации EBOOK в SVG в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл EBOOK в SVG с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла EBOOK в SVG с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл EBOOK с полным путем
-        * Создайте и установите ConvertOptions для типа svg
+        * Создайте и установите ConvertOptions для типа SVG.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (SVG) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем файл электронной книги
+        // Загружаем EBOOK файл
         var converter = new GroupDocs.Conversion.Converter("template.ebook");
-        // устанавливаем параметры преобразования для формата SVG
+        // Устанавливаем параметры конвертации для формата SVG
         var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // преобразовать в формат SVG
-        converter.Convert("output.svg", convertOptions);
+        // Преобразовать в формат SVG
+        converter.Convert("output.svg", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Онлайн-демонстрации EBOOK в SVG"
+    title: "Демонстрация EBOOK в SVG"
     content: |
-        Конвертируйте EBOOK в SVG прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-EBOOK"
-          title: " О формате файла электронной книги"
-          content: |
-            Файлы электронных книг — это электронные файлы, которые можно открывать на цифровых устройствах, известных как электронные книги. Электронной книгой может быть любое устройство, такое как компьютер, планшет или смартфон. Наиболее популярным форматом файлов электронных книг является ePub на основе XML, который легко читается несколькими приложениями. Некоторые популярные электронные книги включают Amazon Kindle, Sony Reader, Hanlin и IRIX. Электронная книга может содержать различные типы содержимого, такие как текст, изображения и видео.
+       Конвертируйте EBOOK в SVG прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/ebook/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла SVG"
-          content: |
-            Файлы SVG представляют собой файлы масштабируемой векторной графики, которые используют текстовый формат на основе XML для описания внешнего вида изображения. Слово «масштабируемый» относится к тому факту, что SVG можно масштабировать до разных размеров без потери качества. Текстовое описание таких файлов делает их независимыми от разрешения. Это один из наиболее часто используемых форматов для создания веб-сайтов и печатной графики для достижения масштабируемости.
-
-          link: "https://docs.fileformat.com/page-description-language/svg/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать EBOOK во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "EBOOK в DOCM"
-          link: "/conversion/net/ebook-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "EBOOK в EPUB"
-          link: "/conversion/net/ebook-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "EBOOK в ODS"
-          link: "/conversion/net/ebook-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "EBOOK в PDF"
-          link: "/conversion/net/ebook-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "EBOOK в POTM"
-          link: "/conversion/net/ebook-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "EBOOK в POTX"
-          link: "/conversion/net/ebook-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "EBOOK в PPT"
-          link: "/conversion/net/ebook-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "EBOOK в WEBP"
-          link: "/conversion/net/ebook-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "EBOOK в XLSX"
-          link: "/conversion/net/ebook-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "EBOOK в XLTM"
-          link: "/conversion/net/ebook-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования EBOOK"
+    content: "Вы также можете конвертировать EBOOK во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

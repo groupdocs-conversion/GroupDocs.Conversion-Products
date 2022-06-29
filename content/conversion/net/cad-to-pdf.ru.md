@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:08:08
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 
 ############################# Head ############################
-head_title: "Конвертер CAD в PDF — конвертируйте CAD в PDF на C# .NET"
-head_description: "Как преобразовать CAD в PDF на C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер CAD в PDF на C#"
+head_description: "Преобразовать CAD в PDF на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование CAD в PDF на C#"
-description: "Встроенное и высокопроизводительное преобразование CAD в PDF с использованием групповых документов на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать CAD в PDF на C#"
+description: "Конвертер CAD в PDF с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,106 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы CAD в файлы PDF в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию CAD в PDF и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла CAD и сохранения выходного результата PDF.
+        
+        Например, для исходного файла CAD можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла PDF:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл PDF.
+
+        После завершения преобразования вы можете сохранить файл PDF по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования CAD в PDF не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию CAD в PDF на C#"
+    title_left: "Шаги по конвертации CAD в PDF в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла CAD в PDF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла CAD в PDF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл CAD с полным путем
-        * Создайте и установите ConvertOptions для типа pdf
+        * Создайте и установите ConvertOptions для типа PDF.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (PDF) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем CAD-файл
+        // Загружаем CAD файл
         var converter = new GroupDocs.Conversion.Converter("template.cad");
-        // устанавливаем параметры преобразования для формата PDF
+        // Устанавливаем параметры конвертации для формата PDF
         var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // преобразовать в формат PDF
-        converter.Convert("output.pdf", convertOptions);
+        // Преобразовать в формат PDF
+        converter.Convert("output.pdf", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демоверсии CAD в PDF"
+    title: "Демонстрация CAD в PDF"
     content: |
-        Преобразуйте CAD в PDF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-CAD"
-          title: " О формате файла САПР"
-          content: |
-            CAD означает автоматизированное проектирование. Также используется термин CADD (для автоматизированного проектирования и черчения). Он используется для формата файла 3D-графики и может содержать 2D- или 3D-дизайн. Файл САПР представляет собой цифровой формат файла объекта, созданного и используемого программным обеспечением САПР. Файл САПР содержит технический чертеж, план, схему или трехмерную визуализацию объекта.
+       Конвертируйте CAD в PDF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/cad/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-alt"
-          title: " О формате файла PDF"
-          content: |
-            Portable Document Format (PDF) — это тип документа, созданный Adobe еще в 1990-х годах. Цель этого формата файла состояла в том, чтобы ввести стандарт для представления документов и других справочных материалов в формате, который не зависит от прикладного программного обеспечения, аппаратного обеспечения, а также операционной системы. Файлы PDF можно открывать в Adobe Acrobat Reader/Writer, а также в большинстве современных браузеров, таких как Chrome, Safari, Firefox, с помощью расширений/плагинов.
-
-          link: "https://docs.fileformat.com/view/pdf/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать CAD во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования CAD"
+    content: "Вы также можете конвертировать CAD во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

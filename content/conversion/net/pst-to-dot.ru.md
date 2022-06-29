@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:17:13
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 
 ############################# Head ############################
-head_title: "Конвертер PST в DOT — преобразование PST в DOT на C# .NET"
-head_description: "Как преобразовать PST в DOT в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер PST в DOT на C#"
+head_description: "Преобразовать PST в DOT на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование PST в DOT на C#"
-description: "Нативное и высокопроизводительное преобразование PST в DOT с использованием групповых документов на стороне сервера. Преобразование для API .NET без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать PST в DOT на C#"
+description: "Конвертер PST в DOT с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,441 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы PST в файлы DOT в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию PST в DOT и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PST и сохранения выходного результата DOT.
+        
+        Например, для исходного файла PST можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла DOT:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DOT.
+
+        После завершения преобразования вы можете сохранить файл DOT по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования PST в DOT не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию PST в DOT на C#"
+    title_left: "Шаги по конвертации PST в DOT в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл PST в файл DOT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла PST в DOT с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл PST с полным путем
-        * Создайте и установите ConvertOptions для типа точки
+        * Создайте и установите ConvertOptions для типа DOT.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (DOT) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем PST-файл
+        // Загружаем PST файл
         var converter = new GroupDocs.Conversion.Converter("template.pst");
-        // устанавливаем параметры преобразования для формата DOT
+        // Устанавливаем параметры конвертации для формата DOT
         var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
-        // преобразовать в формат DOT
-        converter.Convert("output.dot", convertOptions);
+        // Преобразовать в формат DOT
+        converter.Convert("output.dot", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации PST в DOT Live"
+    title: "Демонстрация PST в DOT"
     content: |
-        Преобразуйте PST в DOT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-PST"
-          title: " О формате файла PST"
-          content: |
-            Файлы с расширением .PST представляют собой файлы личного хранилища Outlook (также называемые таблицей личного хранилища), в которых хранится разнообразная информация о пользователе. Информация о пользователе хранится в папках различных типов, включая электронные письма, элементы календаря, заметки, контакты и несколько других форматов файлов. Файлы PST используются для архивирования данных электронной почты в автономном режиме, которые впоследствии можно загружать и просматривать в различных приложениях.
+       Конвертируйте PST в DOT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/email/pst/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " О формате файла DOT"
-          content: |
-            Файлы с расширением .DOT представляют собой файлы шаблонов, созданные Microsoft Word с предварительно отформатированными настройками для создания дополнительных файлов DOC или DOCX. Файл шаблона создается для того, чтобы иметь определенные пользовательские настройки, которые должны применяться к последующим файлам, созданным на их основе. Эти параметры включают поля страницы, границы, верхние и нижние колонтитулы и другие параметры страницы. Такие шаблоны используются в официальных документах, таких как бланки компаний и стандартизированные формы.
-
-          link: "https://docs.fileformat.com/word-processing/dot/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать PST во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "PST в BMP"
-          link: "/conversion/net/pst-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "PST в CSV"
-          link: "/conversion/net/pst-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "PST в DCM"
-          link: "/conversion/net/pst-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "PST в DIF"
-          link: "/conversion/net/pst-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "PST в DOC"
-          link: "/conversion/net/pst-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "PST в DOCM"
-          link: "/conversion/net/pst-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PST в DOCX"
-          link: "/conversion/net/pst-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "PST в DOTM"
-          link: "/conversion/net/pst-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PST в DOTX"
-          link: "/conversion/net/pst-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "PST в EMF"
-          link: "/conversion/net/pst-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "PST в EML"
-          link: "/conversion/net/pst-to-eml/"
-          description: "Файл сообщения электронной почты"
-
-        # format loop
-        - name: "PST в EMLX"
-          link: "/conversion/net/pst-to-emlx/"
-          description: "Почтовое сообщение Apple"
-
-        # format loop
-        - name: "PST в EMZ"
-          link: "/conversion/net/pst-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "PST в EPUB"
-          link: "/conversion/net/pst-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "PST в FODP"
-          link: "/conversion/net/pst-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "PST в FODS"
-          link: "/conversion/net/pst-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "PST в GIF"
-          link: "/conversion/net/pst-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "PST в HTM"
-          link: "/conversion/net/pst-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "PST в HTML"
-          link: "/conversion/net/pst-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "PST в ICO"
-          link: "/conversion/net/pst-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "PST в JP2"
-          link: "/conversion/net/pst-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "PST в JPEG"
-          link: "/conversion/net/pst-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "PST в JPG"
-          link: "/conversion/net/pst-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "PST в MD"
-          link: "/conversion/net/pst-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "PST в MHT"
-          link: "/conversion/net/pst-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PST в MHTML"
-          link: "/conversion/net/pst-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PST в MSG"
-          link: "/conversion/net/pst-to-msg/"
-          description: "Формат электронной почты Microsoft Outlook"
-
-        # format loop
-        - name: "PST в ODG"
-          link: "/conversion/net/pst-to-odg/"
-          description: "Файл чертежа OpenDocument"
-
-        # format loop
-        - name: "PST в ODP"
-          link: "/conversion/net/pst-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "PST в ODS"
-          link: "/conversion/net/pst-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "PST в ODT"
-          link: "/conversion/net/pst-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "PST в OTP"
-          link: "/conversion/net/pst-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "PST в OTT"
-          link: "/conversion/net/pst-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "PST в PDF"
-          link: "/conversion/net/pst-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "PST в PNG"
-          link: "/conversion/net/pst-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "PST в POT"
-          link: "/conversion/net/pst-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "PST в POTM"
-          link: "/conversion/net/pst-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PST в POTX"
-          link: "/conversion/net/pst-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PST в PPS"
-          link: "/conversion/net/pst-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PST в PPSM"
-          link: "/conversion/net/pst-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PST в PPSX"
-          link: "/conversion/net/pst-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "PST в PPT"
-          link: "/conversion/net/pst-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "PST в PPTM"
-          link: "/conversion/net/pst-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "PST в PPTX"
-          link: "/conversion/net/pst-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "PST в PS"
-          link: "/conversion/net/pst-to-ps/"
-          description: "Постскриптум (PS)"
-
-        # format loop
-        - name: "PST в PSD"
-          link: "/conversion/net/pst-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "PST в RTF"
-          link: "/conversion/net/pst-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "PST в SVG"
-          link: "/conversion/net/pst-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PST в SVGZ"
-          link: "/conversion/net/pst-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PST в SXC"
-          link: "/conversion/net/pst-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "PST в TEX"
-          link: "/conversion/net/pst-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "PST в TIF"
-          link: "/conversion/net/pst-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PST в TIFF"
-          link: "/conversion/net/pst-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PST в TSV"
-          link: "/conversion/net/pst-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "PST в TXT"
-          link: "/conversion/net/pst-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "PST в WEBP"
-          link: "/conversion/net/pst-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "PST в WMF"
-          link: "/conversion/net/pst-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "PST в WMZ"
-          link: "/conversion/net/pst-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "PST в XLAM"
-          link: "/conversion/net/pst-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PST в XLS"
-          link: "/conversion/net/pst-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "PST в XLSB"
-          link: "/conversion/net/pst-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "PST в XLSM"
-          link: "/conversion/net/pst-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PST в XLSX"
-          link: "/conversion/net/pst-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "PST в XLT"
-          link: "/conversion/net/pst-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PST в XLTM"
-          link: "/conversion/net/pst-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PST в XLTX"
-          link: "/conversion/net/pst-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PST в XPS"
-          link: "/conversion/net/pst-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования PST"
+    content: "Вы также можете конвертировать PST во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

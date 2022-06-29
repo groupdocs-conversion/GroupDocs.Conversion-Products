@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:14:22
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Конвертер ODG в ICO — преобразование ODG в ICO на C# .NET"
-head_description: "Как преобразовать ODG в ICO в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер ODG в ICO на C#"
+head_description: "Преобразовать ODG в ICO на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование ODG в ICO на C#"
-description: "Нативное и высокопроизводительное преобразование ODG в ICO с использованием GroupDocs на стороне сервера. Преобразование для API .NET без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать ODG в ICO на C#"
+description: "Конвертер ODG в ICO с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,416 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы ODG в файлы ICO в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию ODG в ICO и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла ODG и сохранения выходного результата ICO.
+        
+        Например, для исходного файла ODG можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла ICO:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл ICO.
+
+        После завершения преобразования вы можете сохранить файл ICO по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования ODG в ICO не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию ODG в ICO на C#"
+    title_left: "Шаги по конвертации ODG в ICO в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла ODG в ICO с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла ODG в ICO с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл ODG с полным путем
-        * Создайте и установите ConvertOptions для типа ico
+        * Создайте и установите ConvertOptions для типа ICO.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (ICO) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем ODG-файл
+        // Загружаем ODG файл
         var converter = new GroupDocs.Conversion.Converter("template.odg");
-        // устанавливаем параметры конвертации для формата ICO
+        // Устанавливаем параметры конвертации для формата ICO
         var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // преобразовать в формат ICO
-        converter.Convert("output.ico", convertOptions);
+        // Преобразовать в формат ICO
+        converter.Convert("output.ico", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "ODG для ICO Живые демонстрации"
+    title: "Демонстрация ODG в ICO"
     content: |
-        Преобразуйте ODG в ICO прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-ODG"
-          title: " О формате файла ODG"
-          content: |
-            Формат файла ODG используется приложением Draw Apache OpenOffice для хранения элементов чертежа в виде векторного изображения. Он следует спецификациям формата файлов на основе XML, изложенным в Улучшении стандартов структурной информации (OASIS). ODG представляет рисунки в виде векторных изображений с использованием точек, линий и кривых. Помимо OpenOffice, LibreOffice и другие приложения также поддерживают работу с форматом файлов ODG. Другие форматы, поддерживаемые OpenOffice, например, включают ODT, ODF, ODP и ODS.
+       Конвертируйте ODG в ICO прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/image/odg/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла ICO"
-          content: |
-            Файлы с расширением ICO представляют собой типы файлов изображений, используемые в качестве значков для представления приложения в Microsoft Windows. Они бывают разного размера, поддерживают цвет и разрешение в соответствии с требованиями дисплея. Другой аналогичный формат файла изображения в Microsoft Windows — .CUR для представления курсора и определяет активную точку в заголовке изображения. В MacOS форматы файлов ICNS служат той же цели, что и файлы ICO. Несколько онлайн-сайтов, а также приложений предоставляют возможность создания таких файлов и преобразования других форматов изображений, таких как BMP, PNG и т. д., в формат файла значка. Официальным зарегистрированным IANA типом интернет-носителя для файлов ICO является image/vnd.microsoft.icon.
-
-          link: "https://docs.fileformat.com/image/ico/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать ODG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "ODG в BMP"
-          link: "/conversion/net/odg-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "ODG в CSV"
-          link: "/conversion/net/odg-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "ODG в DCM"
-          link: "/conversion/net/odg-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "ODG в DIF"
-          link: "/conversion/net/odg-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "ODG в DOC"
-          link: "/conversion/net/odg-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "ODG в DOCM"
-          link: "/conversion/net/odg-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "ODG в DOCX"
-          link: "/conversion/net/odg-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "ODG в DOT"
-          link: "/conversion/net/odg-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "ODG в DOTM"
-          link: "/conversion/net/odg-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "ODG в DOTX"
-          link: "/conversion/net/odg-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "ODG в EMF"
-          link: "/conversion/net/odg-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "ODG в EMZ"
-          link: "/conversion/net/odg-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "ODG в EPUB"
-          link: "/conversion/net/odg-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "ODG в FODP"
-          link: "/conversion/net/odg-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "ODG в FODS"
-          link: "/conversion/net/odg-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "ODG в GIF"
-          link: "/conversion/net/odg-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "ODG в HTM"
-          link: "/conversion/net/odg-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "ODG в HTML"
-          link: "/conversion/net/odg-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "ODG в JP2"
-          link: "/conversion/net/odg-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "ODG в JPEG"
-          link: "/conversion/net/odg-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "ODG в JPG"
-          link: "/conversion/net/odg-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "ODG в MD"
-          link: "/conversion/net/odg-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "ODG в MHT"
-          link: "/conversion/net/odg-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "ODG в MHTML"
-          link: "/conversion/net/odg-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "ODG в ODP"
-          link: "/conversion/net/odg-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "ODG в ODS"
-          link: "/conversion/net/odg-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "ODG в ODT"
-          link: "/conversion/net/odg-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "ODG в OTP"
-          link: "/conversion/net/odg-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "ODG в OTT"
-          link: "/conversion/net/odg-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "ODG в PDF"
-          link: "/conversion/net/odg-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "ODG в PNG"
-          link: "/conversion/net/odg-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "ODG в POT"
-          link: "/conversion/net/odg-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "ODG в POTM"
-          link: "/conversion/net/odg-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "ODG в POTX"
-          link: "/conversion/net/odg-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "ODG в PPS"
-          link: "/conversion/net/odg-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "ODG в PPSM"
-          link: "/conversion/net/odg-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "ODG в PPSX"
-          link: "/conversion/net/odg-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "ODG в PPT"
-          link: "/conversion/net/odg-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "ODG в PPTM"
-          link: "/conversion/net/odg-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "ODG в PPTX"
-          link: "/conversion/net/odg-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "ODG в PSD"
-          link: "/conversion/net/odg-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "ODG в RTF"
-          link: "/conversion/net/odg-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "ODG в SVG"
-          link: "/conversion/net/odg-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "ODG в SVGZ"
-          link: "/conversion/net/odg-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "ODG в SXC"
-          link: "/conversion/net/odg-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "ODG в TEX"
-          link: "/conversion/net/odg-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "ODG в TIF"
-          link: "/conversion/net/odg-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "ODG в TIFF"
-          link: "/conversion/net/odg-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "ODG в TSV"
-          link: "/conversion/net/odg-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "ODG в TXT"
-          link: "/conversion/net/odg-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "ODG в WEBP"
-          link: "/conversion/net/odg-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "ODG в WMF"
-          link: "/conversion/net/odg-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "ODG в WMZ"
-          link: "/conversion/net/odg-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "ODG в XLAM"
-          link: "/conversion/net/odg-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "ODG в XLS"
-          link: "/conversion/net/odg-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "ODG в XLSB"
-          link: "/conversion/net/odg-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "ODG в XLSM"
-          link: "/conversion/net/odg-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "ODG в XLSX"
-          link: "/conversion/net/odg-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "ODG в XLT"
-          link: "/conversion/net/odg-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "ODG в XLTM"
-          link: "/conversion/net/odg-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "ODG в XLTX"
-          link: "/conversion/net/odg-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "ODG в XPS"
-          link: "/conversion/net/odg-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования ODG"
+    content: "Вы также можете конвертировать ODG во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

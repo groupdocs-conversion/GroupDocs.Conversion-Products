@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-13T14:23:18+03:00
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Конвертер EMF в EMF — преобразование EMF в EMF на C# .NET"
-head_description: "Как преобразовать EMF в EMF в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер EMF в EMF на C#"
+head_description: "Преобразовать EMF в EMF на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование EMF в EMF в C#"
-description: "Нативное и высокопроизводительное преобразование EMF в EMF с использованием групповых документов на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать EMF в EMF на C#"
+description: "Конвертер EMF в EMF с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,370 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы EMF в файлы EMF в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию EMF в EMF и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла EMF и сохранения выходного результата EMF.
+        
+        Например, для исходного файла EMF можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла EMF:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл EMF.
+
+        После завершения преобразования вы можете сохранить файл EMF по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования EMF в EMF не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию EMF в EMF в C#"
+    title_left: "Шаги по конвертации EMF в EMF в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла EMF в формат EMF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла EMF в EMF с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл EMF с полным путем
-        * Создайте и установите ConvertOptions для типа emf
+        * Создайте и установите ConvertOptions для типа EMF.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (EMF) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем EMF-файл
+        // Загружаем EMF файл
         var converter = new GroupDocs.Conversion.Converter("template.emf");
-        // устанавливаем параметры преобразования для формата EMF
+        // Устанавливаем параметры конвертации для формата EMF
         var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // преобразовать в формат EMF
-        converter.Convert("output.emf", convertOptions);
+        // Преобразовать в формат EMF
+        converter.Convert("output.emf", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "EMF в EMF Живые демонстрации"
+    title: "Демонстрация EMF в EMF"
     content: |
-        Конвертируйте EMF в EMF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-EMF"
-          title: " О формате файла EMF"
-          content: |
-            Расширенный формат метафайла (EMF) хранит графические изображения независимо от устройства. Метафайлы EMF состоят из записей переменной длины в хронологическом порядке, которые могут отображать сохраненное изображение после анализа на любом устройстве вывода. Эти записи переменной длины могут быть определениями вложенных объектов, команд для рисования и графических свойств, важных для точного отображения изображения. Когда устройство открывает метафайл EMF, используя собственную графическую среду, пропорции, размеры, цвета и другие графические свойства исходного изображения остаются неизменными независимо от платформы открывающего устройства.
+       Конвертируйте EMF в EMF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/image/emf/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-EMF"
-          title: " О формате файла EMF"
-          content: |
-            Расширенный формат метафайла (EMF) хранит графические изображения независимо от устройства. Метафайлы EMF состоят из записей переменной длины в хронологическом порядке, которые могут отображать сохраненное изображение после анализа на любом устройстве вывода. Эти записи переменной длины могут быть определениями вложенных объектов, команд для рисования и графических свойств, важных для точного отображения изображения. Когда устройство открывает метафайл EMF, используя собственную графическую среду, пропорции, размеры, цвета и другие графические свойства исходного изображения остаются неизменными независимо от платформы открывающего устройства.
-
-          link: "https://docs.fileformat.com/image/emf/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать EMF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "EMF в EPUB"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "EMF в XPS"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-xps/"
-          description: "Спецификация документа Open XML"
-
-        # format loop
-        - name: "EMF в TEX"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "EMF в PPT"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "EMF в PPS"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "EMF в PPTX"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "EMF в PPSX"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "EMF в ODP"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "EMF в OTP"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "EMF в POTX"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "EMF в POTM"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "EMF в PPTM"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "EMF в PPSM"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "EMF в XLS"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "EMF в XLSX"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "EMF в XLSM"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "EMF в XLSB"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "EMF в ODS"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "EMF в XLTX"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "EMF в XLTM"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "EMF в TSV"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "EMF в XLAM"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "EMF в CSV"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "EMF в DOC"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "EMF в DOCM"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "EMF в EMF"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-emf/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "EMF в DOT"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "EMF в DOTM"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "EMF в DOTX"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "EMF в RTF"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "EMF в ODT"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "EMF в OTT"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "EMF в TXT"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "EMF в MD"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "EMF в TIFF"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "EMF в TIF"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "EMF в JPG"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "EMF в JPEG"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "EMF в PNG"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "EMF в GIF"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "EMF в BMP"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "EMF в ICO"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "EMF в PSD"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "EMF в WMF"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "EMF в EMF"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "EMF в WEBP"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "EMF в SVG"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "EMF в JP2"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "EMF в EMZ"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "EMF в WMZ"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "EMF в HTML"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "EMF в MHT"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "EMF в MHTML"
-          link: "https://products.groupdocs.com/conversion/net/emf-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования EMF"
+    content: "Вы также можете конвертировать EMF во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

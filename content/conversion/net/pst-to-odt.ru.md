@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:17:16
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 
 ############################# Head ############################
-head_title: "Конвертер PST в ODT — преобразование PST в ODT на C# .NET"
-head_description: "Как преобразовать PST в ODT в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер PST в ODT на C#"
+head_description: "Преобразовать PST в ODT на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование PST в ODT в C#"
-description: "Нативное и высокопроизводительное преобразование PST в ODT с использованием GroupDocs на стороне сервера. Преобразование для API .NET без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать PST в ODT на C#"
+description: "Конвертер PST в ODT с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,441 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы PST в файлы ODT в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию PST в ODT и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PST и сохранения выходного результата ODT.
+        
+        Например, для исходного файла PST можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла ODT:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл ODT.
+
+        После завершения преобразования вы можете сохранить файл ODT по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования PST в ODT не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию PST в ODT на C#"
+    title_left: "Шаги по конвертации PST в ODT в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл PST в формат ODT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла PST в ODT с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл PST с полным путем
-        * Создайте и установите ConvertOptions для типа odt
+        * Создайте и установите ConvertOptions для типа ODT.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (ODT) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем PST-файл
+        // Загружаем PST файл
         var converter = new GroupDocs.Conversion.Converter("template.pst");
-        // устанавливаем параметры преобразования для формата ODT
+        // Устанавливаем параметры конвертации для формата ODT
         var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
-        // преобразовать в формат ODT
-        converter.Convert("output.odt", convertOptions);
+        // Преобразовать в формат ODT
+        converter.Convert("output.odt", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "PST в демонстрационные версии ODT"
+    title: "Демонстрация PST в ODT"
     content: |
-        Преобразуйте PST в ODT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-PST"
-          title: " О формате файла PST"
-          content: |
-            Файлы с расширением .PST представляют собой файлы личного хранилища Outlook (также называемые таблицей личного хранилища), в которых хранится разнообразная информация о пользователе. Информация о пользователе хранится в папках различных типов, включая электронные письма, элементы календаря, заметки, контакты и несколько других форматов файлов. Файлы PST используются для архивирования данных электронной почты в автономном режиме, которые впоследствии можно загружать и просматривать в различных приложениях.
+       Конвертируйте PST в ODT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/email/pst/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-ODT"
-          title: " О формате файла ODT"
-          content: |
-            Файлы ODT представляют собой тип документов, созданных с помощью приложений для обработки текстов, основанных на формате текстового файла OpenDocument. Они создаются с помощью приложений текстового процессора, таких как бесплатный OpenOffice Writer, и могут содержать такое содержимое, как текст, изображения, объекты и стили. Файл ODT для текстового процессора Writer является тем же, чем файл DOCX для Microsoft Word. Несколько приложений, включая Google Docs и веб-текстовый процессор Google, входящий в состав Google Диска, могут открывать файлы ODT для редактирования.
-
-          link: "https://docs.fileformat.com/word-processing/odt/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать PST во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "PST в BMP"
-          link: "/conversion/java/pst-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "PST в CSV"
-          link: "/conversion/java/pst-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "PST в DCM"
-          link: "/conversion/java/pst-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "PST в DIF"
-          link: "/conversion/java/pst-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "PST в DOC"
-          link: "/conversion/java/pst-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "PST в DOCM"
-          link: "/conversion/java/pst-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PST в DOCX"
-          link: "/conversion/java/pst-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "PST в DOT"
-          link: "/conversion/java/pst-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "PST в DOTM"
-          link: "/conversion/java/pst-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PST в DOTX"
-          link: "/conversion/java/pst-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "PST в EMF"
-          link: "/conversion/java/pst-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "PST в EML"
-          link: "/conversion/java/pst-to-eml/"
-          description: "Файл сообщения электронной почты"
-
-        # format loop
-        - name: "PST в EMLX"
-          link: "/conversion/java/pst-to-emlx/"
-          description: "Почтовое сообщение Apple"
-
-        # format loop
-        - name: "PST в EMZ"
-          link: "/conversion/java/pst-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "PST в EPUB"
-          link: "/conversion/java/pst-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "PST в FODP"
-          link: "/conversion/java/pst-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "PST в FODS"
-          link: "/conversion/java/pst-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "PST в GIF"
-          link: "/conversion/java/pst-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "PST в HTM"
-          link: "/conversion/java/pst-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "PST в HTML"
-          link: "/conversion/java/pst-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "PST в ICO"
-          link: "/conversion/java/pst-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "PST в JP2"
-          link: "/conversion/java/pst-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "PST в JPEG"
-          link: "/conversion/java/pst-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "PST в JPG"
-          link: "/conversion/java/pst-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "PST в MD"
-          link: "/conversion/java/pst-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "PST в MHT"
-          link: "/conversion/java/pst-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PST в MHTML"
-          link: "/conversion/java/pst-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PST в MSG"
-          link: "/conversion/java/pst-to-msg/"
-          description: "Формат электронной почты Microsoft Outlook"
-
-        # format loop
-        - name: "PST в ODG"
-          link: "/conversion/java/pst-to-odg/"
-          description: "Файл чертежа OpenDocument"
-
-        # format loop
-        - name: "PST в ODP"
-          link: "/conversion/java/pst-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "PST в ODS"
-          link: "/conversion/java/pst-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "PST в OTP"
-          link: "/conversion/java/pst-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "PST в OTT"
-          link: "/conversion/java/pst-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "PST в PDF"
-          link: "/conversion/java/pst-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "PST в PNG"
-          link: "/conversion/java/pst-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "PST в POT"
-          link: "/conversion/java/pst-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "PST в POTM"
-          link: "/conversion/java/pst-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PST в POTX"
-          link: "/conversion/java/pst-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PST в PPS"
-          link: "/conversion/java/pst-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PST в PPSM"
-          link: "/conversion/java/pst-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PST в PPSX"
-          link: "/conversion/java/pst-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "PST в PPT"
-          link: "/conversion/java/pst-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "PST в PPTM"
-          link: "/conversion/java/pst-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "PST в PPTX"
-          link: "/conversion/java/pst-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "PST в PS"
-          link: "/conversion/java/pst-to-ps/"
-          description: "Постскриптум (PS)"
-
-        # format loop
-        - name: "PST в PSD"
-          link: "/conversion/java/pst-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "PST в RTF"
-          link: "/conversion/java/pst-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "PST в SVG"
-          link: "/conversion/java/pst-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PST в SVGZ"
-          link: "/conversion/java/pst-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PST в SXC"
-          link: "/conversion/java/pst-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "PST в TEX"
-          link: "/conversion/java/pst-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "PST в TIF"
-          link: "/conversion/java/pst-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PST в TIFF"
-          link: "/conversion/java/pst-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PST в TSV"
-          link: "/conversion/java/pst-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "PST в TXT"
-          link: "/conversion/java/pst-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "PST в WEBP"
-          link: "/conversion/java/pst-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "PST в WMF"
-          link: "/conversion/java/pst-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "PST в WMZ"
-          link: "/conversion/java/pst-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "PST в XLAM"
-          link: "/conversion/java/pst-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PST в XLS"
-          link: "/conversion/java/pst-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "PST в XLSB"
-          link: "/conversion/java/pst-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "PST в XLSM"
-          link: "/conversion/java/pst-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PST в XLSX"
-          link: "/conversion/java/pst-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "PST в XLT"
-          link: "/conversion/java/pst-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PST в XLTM"
-          link: "/conversion/java/pst-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PST в XLTX"
-          link: "/conversion/java/pst-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PST в XPS"
-          link: "/conversion/java/pst-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования PST"
+    content: "Вы также можете конвертировать PST во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

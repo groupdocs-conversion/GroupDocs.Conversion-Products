@@ -3,15 +3,15 @@
 layout: "auto-gen-conversion"
 date: 2022-03-01T15:12:22
 draft: false
-otherformats: bmp csv dcm dif doc docm docx dot dotm dotx emf emz epub fodp fods gif htm html ico jp2 jpeg jpg md mht 
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
 head_title: "Конвертер PPS в FODP на C#"
-head_description: "Преобразовать PPS в FODP на C#, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_description: "Преобразовать PPS в FODP на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразовать PPS в FODP"
-description: "Конвертер PPS в FODP с помощью нескольких строк C# кода"
+title: "Преобразовать PPS в FODP на C#"
+description: "Конвертер PPS в FODP с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -37,6 +37,28 @@ about:
         [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
     
 
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы PPS в файлы FODP в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию PPS в FODP и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PPS и сохранения выходного результата FODP.
+        
+        Например, для исходного файла PPS можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла FODP:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл FODP.
+
+        После завершения преобразования вы можете сохранить файл FODP по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования PPS в FODP не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
+
 ############################# Steps ############################
 steps:
     enable: true
@@ -46,7 +68,7 @@ steps:
 
         * Создайте экземпляр класса Converter и загрузите файл PPS с полным путем
         * Создайте и установите ConvertOptions для типа FODP.
-        * Вызовите метод Converter.Conver и передайте полный путь и формат (FODP) в качестве параметра
+        * Вызовите метод Converter.Convert и передайте полный путь и формат (FODP) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
@@ -72,11 +94,7 @@ demos:
     title: "Демонстрация PPS в FODP"
     content: |
        Конвертируйте PPS в FODP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
-       
-
-about_formats:
-    enable: true    
-
+          
 
 more_formats:
     enable: true

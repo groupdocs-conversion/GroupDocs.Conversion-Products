@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-13T14:23:16+03:00
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Преобразование электронной почты в электронную почту в C# .NET VB.NET"
-head_description: "Преобразование файлов электронной почты в электронную почту и более 80 других форматов файлов с помощью собственного API преобразования документов для приложений .NET (C#, ASP.NET, VB.NET, .NET Core)."
+head_title: "Конвертер EMAIL в EMAIL на C#"
+head_description: "Преобразовать EMAIL в EMAIL на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование электронной почты в электронную почту на C# .NET"
-description: "Преобразование файлов электронной почты в электронную почту и более 80 других форматов файлов с помощью собственного API преобразования документов для приложений .NET (C#, ASP.NET, VB.NET, .NET Core)."
+title: "Преобразовать EMAIL в EMAIL на C#"
+description: "Конвертер EMAIL в EMAIL с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,145 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы EMAIL в файлы EMAIL в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию EMAIL в EMAIL и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла EMAIL и сохранения выходного результата EMAIL.
+        
+        Например, для исходного файла EMAIL можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла EMAIL:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл EMAIL.
+
+        После завершения преобразования вы можете сохранить файл EMAIL по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования EMAIL в EMAIL не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию электронной почты в электронную почту на C#"
+    title_left: "Шаги по конвертации EMAIL в EMAIL в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл электронной почты в электронную почту, используя несколько строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла EMAIL в EMAIL с помощью нескольких строк кода.
 
-        * Создайте экземпляр класса Converter и загрузите файл электронной почты с полным путем
-        * Создайте и установите ConvertOptions для типа электронной почты
-        * Вызовите метод Converter.Convert и передайте полный путь и формат (Email) в качестве параметра
+        * Создайте экземпляр класса Converter и загрузите файл EMAIL с полным путем
+        * Создайте и установите ConvertOptions для типа EMAIL.
+        * Вызовите метод Converter.Convert и передайте полный путь и формат (EMAIL) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем файл электронной почты
-        var converter = new GroupDocs.Conversion.Converter("template.eml");
-        // установить параметры преобразования для формата электронной почты
-        var convertOptions = converter.GetPossibleConversions()["eml"].ConvertOptions;
-        // преобразовать в формат электронной почты
-        converter.Convert("output.eml", convertOptions);
+        // Загружаем EMAIL файл
+        var converter = new GroupDocs.Conversion.Converter("template.email");
+        // Устанавливаем параметры конвертации для формата EMAIL
+        var convertOptions = converter.GetPossibleConversions()["email"].ConvertOptions;
+        // Преобразовать в формат EMAIL
+        converter.Convert("output.email", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Электронная почта для отправки демоверсий по электронной почте"
+    title: "Демонстрация EMAIL в EMAIL"
     content: |
-        Преобразуйте электронную почту в электронную почту прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/email-to-email).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-Email"
-          title: " О формате файла электронной почты"
-          content: |
-            Вы когда-нибудь сталкивались с форматами файлов электронной почты и не могли их открыть? Вы попали в нужное место, мы собираемся объяснить, что такое форматы файлов электронной почты и какое рекомендуемое программное обеспечение может открывать или использовать их. Форматы файлов электронной почты используются приложениями электронной почты для хранения различных данных, включая сообщения электронной почты, вложения, папки, адресные книги и т. д. Форматы файлов электронной почты в основном связаны с файлом сообщения электронной почты Outlook Express. Иные типы файлов также могут использовать расширение файла Email. Существует несколько распространенных типов файлов, используемых в электронной почте. Ниже приведен список наиболее популярных форматов файлов, используемых различными почтовыми клиентами для хранения сообщений электронной почты и других связанных данных.
+       Конвертируйте EMAIL в EMAIL прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/email/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-Email"
-          title: " О формате файла электронной почты"
-          content: |
-            Вы когда-нибудь сталкивались с форматами файлов электронной почты и не могли их открыть? Вы попали в нужное место, мы собираемся объяснить, что такое форматы файлов электронной почты и какое рекомендуемое программное обеспечение может открывать или использовать их. Форматы файлов электронной почты используются приложениями электронной почты для хранения различных данных, включая сообщения электронной почты, вложения, папки, адресные книги и т. д. Форматы файлов электронной почты в основном связаны с файлом сообщения электронной почты Outlook Express. Иные типы файлов также могут использовать расширение файла Email. Существует несколько распространенных типов файлов, используемых в электронной почте. Ниже приведен список наиболее популярных форматов файлов, используемых различными почтовыми клиентами для хранения сообщений электронной почты и других связанных данных.
-
-          link: "https://docs.fileformat.com/email/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать электронную почту во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "EMAIL в EBOOK"
-          link: "https://products.groupdocs.com/conversion/net/email-to-ebook"
-          description: "Форматы файлов электронных книг"
-
-        # format loop
-        - name: "EMAIL в EXCEL"
-          link: "https://products.groupdocs.com/conversion/net/email-to-excel"
-          description: "Форматы файлов документов Excel"
-
-        # format loop
-        - name: "EMAIL в IMAGE"
-          link: "https://products.groupdocs.com/conversion/net/email-to-image"
-          description: "Форматы файлов документов изображений"
-
-        # format loop
-        - name: "EMAIL в PDF"
-          link: "https://products.groupdocs.com/conversion/net/email-to-pdf"
-          description: "Формат файла PDF"
-
-        # format loop
-        - name: "EMAIL в PHOTOSHOP"
-          link: "https://products.groupdocs.com/conversion/net/email-to-photoshop"
-          description: "Форматы файлов Photoshop"
-
-        # format loop
-        - name: "EMAIL в POWERPOINT"
-          link: "https://products.groupdocs.com/conversion/net/email-to-powerpoint"
-          description: "Форматы файлов презентаций PowerPoint"
-
-        # format loop
-        - name: "EMAIL в WEB"
-          link: "https://products.groupdocs.com/conversion/net/email-to-web"
-          description: "Форматы файлов веб-документов"
-
-        # format loop
-        - name: "EMAIL в WORD"
-          link: "https://products.groupdocs.com/conversion/net/email-to-word"
-          description: "Форматы файлов документов Word"
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования EMAIL"
+    content: "Вы также можете конвертировать EMAIL во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

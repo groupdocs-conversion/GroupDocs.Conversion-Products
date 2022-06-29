@@ -37,6 +37,29 @@ about:
         [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
     
 
+overview:
+    enable: true
+    content: |
+        Convert your {{$3_1}}_UPPER files to {{$3_2}}_UPPER in .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can try {{$3_1}}_UPPER to {{$3_2}}_UPPER conversion for free and evaluate conversion results quality.
+        Along with simple file conversion scenarios you can try more advanced options for loading source {{$3_1}}_UPPER file and for saving output {{$3_2}}_UPPER result. 
+        
+        For example, for the source {{$3_1}}_UPPER file you may use the following load options:
+
+        * auto-detect file format;
+        * specify password for protected files (if file format supports it);
+        * replace missing fonts to preserve document appearance.
+        
+
+        There are also advanced convert options for the {{$3_2}}_UPPER file:
+
+        * convert specific document page or page range;
+        * add a watermark to the converted {{$3_2}}_UPPER file.
+
+        Once conversion is completed you can save your {{$3_2}}_UPPER file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert {{$3_1}}_UPPER to {{$3_2}}_UPPER there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc. 
+
+
 ############################# Steps ############################
 steps:
     enable: true

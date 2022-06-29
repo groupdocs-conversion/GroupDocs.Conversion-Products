@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:08:04
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Конвертер BMP в ODT — преобразование BMP в ODT на C# .NET"
-head_description: "Как преобразовать BMP в ODT в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер BMP в ODT на C#"
+head_description: "Преобразовать BMP в ODT на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование BMP в ODT на C#"
-description: "Нативное и высокопроизводительное преобразование BMP в ODT с использованием GroupDocs на стороне сервера. Преобразование для API .NET без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать BMP в ODT на C#"
+description: "Конвертер BMP в ODT с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,406 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы BMP в файлы ODT в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию BMP в ODT и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла BMP и сохранения выходного результата ODT.
+        
+        Например, для исходного файла BMP можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла ODT:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл ODT.
+
+        После завершения преобразования вы можете сохранить файл ODT по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования BMP в ODT не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию BMP в ODT в C#"
+    title_left: "Шаги по конвертации BMP в ODT в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла BMP в формат ODT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла BMP в ODT с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл BMP с полным путем
-        * Создайте и установите ConvertOptions для типа odt
+        * Создайте и установите ConvertOptions для типа ODT.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (ODT) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем BMP-файл
+        // Загружаем BMP файл
         var converter = new GroupDocs.Conversion.Converter("template.bmp");
-        // устанавливаем параметры преобразования для формата ODT
+        // Устанавливаем параметры конвертации для формата ODT
         var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
-        // преобразовать в формат ODT
-        converter.Convert("output.odt", convertOptions);
+        // Преобразовать в формат ODT
+        converter.Convert("output.odt", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "BMP в ODT Живые демонстрации"
+    title: "Демонстрация BMP в ODT"
     content: |
-        Конвертируйте BMP в ODT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла BMP"
-          content: |
-            Файлы с расширением .BMP представляют собой файлы растровых изображений, которые используются для хранения растровых цифровых изображений. Эти изображения не зависят от графического адаптера и также называются файловым форматом независимого от устройства растрового изображения (DIB). Эта независимость служит цели открытия файла на нескольких платформах, таких как Microsoft Windows и Mac. Формат файла BMP может хранить данные в виде двумерных цифровых изображений как в монохромном, так и в цветном формате с различной глубиной цвета.
+       Конвертируйте BMP в ODT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/image/bmp/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-ODT"
-          title: " О формате файла ODT"
-          content: |
-            Файлы ODT представляют собой тип документов, созданных с помощью приложений для обработки текстов, основанных на формате текстового файла OpenDocument. Они создаются с помощью приложений текстового процессора, таких как бесплатный OpenOffice Writer, и могут содержать такое содержимое, как текст, изображения, объекты и стили. Файл ODT для текстового процессора Writer является тем же, чем файл DOCX для Microsoft Word. Несколько приложений, включая Google Docs и веб-текстовый процессор Google, входящий в состав Google Диска, могут открывать файлы ODT для редактирования.
-
-          link: "https://docs.fileformat.com/word-processing/odt/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать BMP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "BMP в CGM"
-          link: "/conversion/net/bmp-to-cgm/"
-          description: "Метафайл компьютерной графики"
-
-        # format loop
-        - name: "BMP в DCM"
-          link: "/conversion/net/bmp-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "BMP в DIF"
-          link: "/conversion/net/bmp-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "BMP в DOC"
-          link: "/conversion/net/bmp-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "BMP в DOCM"
-          link: "/conversion/net/bmp-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "BMP в DOCX"
-          link: "/conversion/net/bmp-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "BMP в DOT"
-          link: "/conversion/net/bmp-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "BMP в DOTM"
-          link: "/conversion/net/bmp-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "BMP в DOTX"
-          link: "/conversion/net/bmp-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "BMP в EMF"
-          link: "/conversion/net/bmp-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "BMP в EMZ"
-          link: "/conversion/net/bmp-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "BMP в EPUB"
-          link: "/conversion/net/bmp-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "BMP в FODP"
-          link: "/conversion/net/bmp-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "BMP в FODS"
-          link: "/conversion/net/bmp-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "BMP в GIF"
-          link: "/conversion/net/bmp-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "BMP в HTM"
-          link: "/conversion/net/bmp-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "BMP в HTML"
-          link: "/conversion/net/bmp-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "BMP в ICO"
-          link: "/conversion/net/bmp-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "BMP в JP2"
-          link: "/conversion/net/bmp-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "BMP в JPEG"
-          link: "/conversion/net/bmp-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "BMP в JPG"
-          link: "/conversion/net/bmp-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "BMP в MD"
-          link: "/conversion/net/bmp-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "BMP в MHT"
-          link: "/conversion/net/bmp-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "BMP в MHTML"
-          link: "/conversion/net/bmp-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "BMP в ODP"
-          link: "/conversion/net/bmp-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "BMP в ODS"
-          link: "/conversion/net/bmp-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "BMP в OTP"
-          link: "/conversion/net/bmp-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "BMP в OTT"
-          link: "/conversion/net/bmp-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "BMP в PDF"
-          link: "/conversion/net/bmp-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "BMP в PNG"
-          link: "/conversion/net/bmp-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "BMP в POT"
-          link: "/conversion/net/bmp-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "BMP в POTM"
-          link: "/conversion/net/bmp-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "BMP в POTX"
-          link: "/conversion/net/bmp-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "BMP в PPS"
-          link: "/conversion/net/bmp-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "BMP в PPSM"
-          link: "/conversion/net/bmp-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "BMP в PPSX"
-          link: "/conversion/net/bmp-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "BMP в PPT"
-          link: "/conversion/net/bmp-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "BMP в PPTM"
-          link: "/conversion/net/bmp-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "BMP в PPTX"
-          link: "/conversion/net/bmp-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "BMP в PSD"
-          link: "/conversion/net/bmp-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "BMP в RTF"
-          link: "/conversion/net/bmp-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "BMP в SVG"
-          link: "/conversion/net/bmp-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "BMP в SVGZ"
-          link: "/conversion/net/bmp-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "BMP в SXC"
-          link: "/conversion/net/bmp-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "BMP в TEX"
-          link: "/conversion/net/bmp-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "BMP в TIF"
-          link: "/conversion/net/bmp-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "BMP в TIFF"
-          link: "/conversion/net/bmp-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "BMP в TXT"
-          link: "/conversion/net/bmp-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "BMP в WEBP"
-          link: "/conversion/net/bmp-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "BMP в WMF"
-          link: "/conversion/net/bmp-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "BMP в WMZ"
-          link: "/conversion/net/bmp-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "BMP в XLAM"
-          link: "/conversion/net/bmp-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "BMP в XLS"
-          link: "/conversion/net/bmp-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "BMP в XLSB"
-          link: "/conversion/net/bmp-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "BMP в XLSM"
-          link: "/conversion/net/bmp-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "BMP в XLSX"
-          link: "/conversion/net/bmp-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "BMP в XLT"
-          link: "/conversion/net/bmp-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "BMP в XLTM"
-          link: "/conversion/net/bmp-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "BMP в XLTX"
-          link: "/conversion/net/bmp-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "BMP в XPS"
-          link: "/conversion/net/bmp-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования BMP"
+    content: "Вы также можете конвертировать BMP во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

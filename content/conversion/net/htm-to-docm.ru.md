@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:11:42
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "Конвертер HTM в DOCM — преобразование HTM в DOCM на C# .NET"
-head_description: "Как преобразовать HTM в DOCM в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер HTM в DOCM на C#"
+head_description: "Преобразовать HTM в DOCM на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование HTM в DOCM на C#"
-description: "Нативное и высокопроизводительное преобразование HTM в DOCM с использованием групповых документов на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать HTM в DOCM на C#"
+description: "Конвертер HTM в DOCM с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,411 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы HTM в файлы DOCM в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию HTM в DOCM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла HTM и сохранения выходного результата DOCM.
+        
+        Например, для исходного файла HTM можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла DOCM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DOCM.
+
+        После завершения преобразования вы можете сохранить файл DOCM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования HTM в DOCM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию HTM в DOCM на C#"
+    title_left: "Шаги по конвертации HTM в DOCM в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла HTM в DOCM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла HTM в DOCM с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл HTM с полным путем
-        * Создайте и установите ConvertOptions для типа docm
+        * Создайте и установите ConvertOptions для типа DOCM.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (DOCM) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем HTM-файл
+        // Загружаем HTM файл
         var converter = new GroupDocs.Conversion.Converter("template.htm");
-        // устанавливаем параметры преобразования для формата DOCM
+        // Устанавливаем параметры конвертации для формата DOCM
         var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // преобразовать в формат DOCM
-        converter.Convert("output.docm", convertOptions);
+        // Преобразовать в формат DOCM
+        converter.Convert("output.docm", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации HTM в DOCM"
+    title: "Демонстрация HTM в DOCM"
     content: |
-        Преобразуйте HTM в DOCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-code"
-          title: " О формате файла HTM"
-          content: |
-            Файлы с расширением .htm представляют собой язык гипертекстовой разметки для создания веб-страниц для отображения в веб-браузерах, таких как Google Chrome, Internet Explorer, Firefox и ряде других.
+       Конвертируйте HTM в DOCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/web/htm/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " О формате файла DOCM"
-          content: |
-            Файлы DOCM представляют собой документы, сгенерированные Microsoft Word 2007 или более поздней версии, с возможностью запуска макросов. Он похож на формат файла DOCX, но возможность запускать макросы отличает его от DOCX. Как и DOCX, файлы DOCM могут хранить текст, изображения, таблицы, фигуры, диаграммы и другое содержимое. Возможность запуска макросов позволяет легко сэкономить время, выполняя серию команд в виде записанных действий для автоматического завершения задачи. Файлы DOCM можно открывать и редактировать в Microsoft Word 2007 и более поздних версиях.
-
-          link: "https://docs.fileformat.com/word-processing/docm/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать HTM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "HTM в BMP"
-          link: "/conversion/java/htm-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "HTM в CSV"
-          link: "/conversion/java/htm-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "HTM в DCM"
-          link: "/conversion/java/htm-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "HTM в DIF"
-          link: "/conversion/java/htm-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "HTM в DOC"
-          link: "/conversion/java/htm-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "HTM в DOCX"
-          link: "/conversion/java/htm-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "HTM в DOT"
-          link: "/conversion/java/htm-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "HTM в DOTM"
-          link: "/conversion/java/htm-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "HTM в DOTX"
-          link: "/conversion/java/htm-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "HTM в EMF"
-          link: "/conversion/java/htm-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "HTM в EMZ"
-          link: "/conversion/java/htm-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "HTM в EPUB"
-          link: "/conversion/java/htm-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "HTM в FODP"
-          link: "/conversion/java/htm-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "HTM в FODS"
-          link: "/conversion/java/htm-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "HTM в GIF"
-          link: "/conversion/java/htm-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "HTM в HTML"
-          link: "/conversion/java/htm-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "HTM в ICO"
-          link: "/conversion/java/htm-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "HTM в JP2"
-          link: "/conversion/java/htm-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "HTM в JPEG"
-          link: "/conversion/java/htm-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "HTM в JPG"
-          link: "/conversion/java/htm-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "HTM в MD"
-          link: "/conversion/java/htm-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "HTM в MHT"
-          link: "/conversion/java/htm-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "HTM в MHTML"
-          link: "/conversion/java/htm-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "HTM в ODP"
-          link: "/conversion/java/htm-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "HTM в ODS"
-          link: "/conversion/java/htm-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "HTM в ODT"
-          link: "/conversion/java/htm-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "HTM в OTP"
-          link: "/conversion/java/htm-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "HTM в OTT"
-          link: "/conversion/java/htm-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "HTM в PDF"
-          link: "/conversion/java/htm-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "HTM в PNG"
-          link: "/conversion/java/htm-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "HTM в POT"
-          link: "/conversion/java/htm-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "HTM в POTM"
-          link: "/conversion/java/htm-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "HTM в POTX"
-          link: "/conversion/java/htm-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "HTM в PPS"
-          link: "/conversion/java/htm-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "HTM в PPSM"
-          link: "/conversion/java/htm-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "HTM в PPSX"
-          link: "/conversion/java/htm-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "HTM в PPT"
-          link: "/conversion/java/htm-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "HTM в PPTM"
-          link: "/conversion/java/htm-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "HTM в PPTX"
-          link: "/conversion/java/htm-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "HTM в PSD"
-          link: "/conversion/java/htm-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "HTM в RTF"
-          link: "/conversion/java/htm-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "HTM в SVG"
-          link: "/conversion/java/htm-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "HTM в SVGZ"
-          link: "/conversion/java/htm-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "HTM в SXC"
-          link: "/conversion/java/htm-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "HTM в TEX"
-          link: "/conversion/java/htm-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "HTM в TIF"
-          link: "/conversion/java/htm-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "HTM в TIFF"
-          link: "/conversion/java/htm-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "HTM в TSV"
-          link: "/conversion/java/htm-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "HTM в TXT"
-          link: "/conversion/java/htm-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "HTM в WEBP"
-          link: "/conversion/java/htm-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "HTM в WMF"
-          link: "/conversion/java/htm-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "HTM в WMZ"
-          link: "/conversion/java/htm-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "HTM в XLAM"
-          link: "/conversion/java/htm-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "HTM в XLS"
-          link: "/conversion/java/htm-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "HTM в XLSB"
-          link: "/conversion/java/htm-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "HTM в XLSM"
-          link: "/conversion/java/htm-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "HTM в XLSX"
-          link: "/conversion/java/htm-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "HTM в XLT"
-          link: "/conversion/java/htm-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "HTM в XLTM"
-          link: "/conversion/java/htm-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "HTM в XLTX"
-          link: "/conversion/java/htm-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "HTM в XPS"
-          link: "/conversion/java/htm-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования HTM"
+    content: "Вы также можете конвертировать HTM во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

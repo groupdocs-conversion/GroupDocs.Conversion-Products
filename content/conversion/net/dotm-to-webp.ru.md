@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:09:44
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "Конвертер DOTM в WEBP — преобразование DOTM в WEBP на C# .NET"
-head_description: "Как преобразовать DOTM в WEBP на C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер DOTM в WEBP на C#"
+head_description: "Преобразовать DOTM в WEBP на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование DOTM в WEBP на C#"
-description: "Нативное и высокопроизводительное преобразование DOTM в WEBP с использованием групповых документов на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать DOTM в WEBP на C#"
+description: "Конвертер DOTM в WEBP с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,411 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы DOTM в файлы WEBP в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию DOTM в WEBP и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DOTM и сохранения выходного результата WEBP.
+        
+        Например, для исходного файла DOTM можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла WEBP:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл WEBP.
+
+        После завершения преобразования вы можете сохранить файл WEBP по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования DOTM в WEBP не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию DOTM в WEBP на C#"
+    title_left: "Шаги по конвертации DOTM в WEBP в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла DOTM в WEBP с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла DOTM в WEBP с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DOTM с полным путем
-        * Создайте и установите ConvertOptions для типа webp
+        * Создайте и установите ConvertOptions для типа WEBP.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (WEBP) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем файл DOTM
+        // Загружаем DOTM файл
         var converter = new GroupDocs.Conversion.Converter("template.dotm");
-        // устанавливаем параметры конвертации для формата WEBP
+        // Устанавливаем параметры конвертации для формата WEBP
         var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
-        // преобразовать в формат WEBP
-        converter.Convert("output.webp", convertOptions);
+        // Преобразовать в формат WEBP
+        converter.Convert("output.webp", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "DOTM в WEBP Живые демонстрации"
+    title: "Демонстрация DOTM в WEBP"
     content: |
-        Конвертируйте DOTM в WEBP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-DOTM"
-          title: " О формате файла DOTM"
-          content: |
-            Файл с расширением DOTM представляет собой файл шаблона, созданный с помощью Microsoft Word 2007 или более поздней версии. Он похож на популярный формат файла DOCX, за исключением того, что он сохраняет определенные пользователем настройки для повторного использования в случае создания новых документов. Такие документы чаще используются в офисах, где создается стандартный файл шаблона с такими настройками, как информация о странице, поля, макет по умолчанию и макросы, и при необходимости используется для создания на его основе новых документов. Однако файлы DOTM сохраняют макросы, представляющие собой серию команд в виде записанных действий для автоматического завершения задачи. Это помогает сэкономить время при выполнении действий, которые повторяются при завершении задачи.
+       Конвертируйте DOTM в WEBP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/word-processing/dotm/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-WEBP"
-          title: " О формате файла WEBP"
-          content: |
-            WebP, представленный Google, представляет собой современный формат файлов растровых веб-изображений, основанный на сжатии без потерь и с потерями. Он обеспечивает такое же качество изображения при значительном уменьшении размера изображения. Поскольку большинство веб-страниц используют изображения в качестве эффективного представления данных, использование изображений WebP на веб-страницах приводит к более быстрой загрузке веб-страниц.
-
-          link: "https://docs.fileformat.com/image/webp/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать DOTM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "DOTM в BMP"
-          link: "/conversion/net/dotm-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "DOTM в CSV"
-          link: "/conversion/net/dotm-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "DOTM в DCM"
-          link: "/conversion/net/dotm-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "DOTM в DIF"
-          link: "/conversion/net/dotm-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "DOTM в DOC"
-          link: "/conversion/net/dotm-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "DOTM в DOCM"
-          link: "/conversion/net/dotm-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DOTM в DOCX"
-          link: "/conversion/net/dotm-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "DOTM в DOT"
-          link: "/conversion/net/dotm-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "DOTM в DOTX"
-          link: "/conversion/net/dotm-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "DOTM в EMF"
-          link: "/conversion/net/dotm-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "DOTM в EMZ"
-          link: "/conversion/net/dotm-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "DOTM в EPUB"
-          link: "/conversion/net/dotm-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "DOTM в FODP"
-          link: "/conversion/net/dotm-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "DOTM в FODS"
-          link: "/conversion/net/dotm-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "DOTM в GIF"
-          link: "/conversion/net/dotm-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "DOTM в HTM"
-          link: "/conversion/net/dotm-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "DOTM в HTML"
-          link: "/conversion/net/dotm-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "DOTM в ICO"
-          link: "/conversion/net/dotm-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "DOTM в JP2"
-          link: "/conversion/net/dotm-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "DOTM в JPEG"
-          link: "/conversion/net/dotm-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "DOTM в JPG"
-          link: "/conversion/net/dotm-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "DOTM в MD"
-          link: "/conversion/net/dotm-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "DOTM в MHT"
-          link: "/conversion/net/dotm-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DOTM в MHTML"
-          link: "/conversion/net/dotm-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DOTM в ODP"
-          link: "/conversion/net/dotm-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "DOTM в ODS"
-          link: "/conversion/net/dotm-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "DOTM в ODT"
-          link: "/conversion/net/dotm-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "DOTM в OTP"
-          link: "/conversion/net/dotm-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "DOTM в OTT"
-          link: "/conversion/net/dotm-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "DOTM в PDF"
-          link: "/conversion/net/dotm-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "DOTM в PNG"
-          link: "/conversion/net/dotm-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "DOTM в POT"
-          link: "/conversion/net/dotm-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "DOTM в POTM"
-          link: "/conversion/net/dotm-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOTM в POTX"
-          link: "/conversion/net/dotm-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOTM в PPS"
-          link: "/conversion/net/dotm-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOTM в PPSM"
-          link: "/conversion/net/dotm-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOTM в PPSX"
-          link: "/conversion/net/dotm-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "DOTM в PPT"
-          link: "/conversion/net/dotm-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "DOTM в PPTM"
-          link: "/conversion/net/dotm-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOTM в PPTX"
-          link: "/conversion/net/dotm-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "DOTM в PSD"
-          link: "/conversion/net/dotm-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "DOTM в RTF"
-          link: "/conversion/net/dotm-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "DOTM в SVG"
-          link: "/conversion/net/dotm-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DOTM в SVGZ"
-          link: "/conversion/net/dotm-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DOTM в SXC"
-          link: "/conversion/net/dotm-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "DOTM в TEX"
-          link: "/conversion/net/dotm-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "DOTM в TIF"
-          link: "/conversion/net/dotm-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DOTM в TIFF"
-          link: "/conversion/net/dotm-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DOTM в TSV"
-          link: "/conversion/net/dotm-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "DOTM в TXT"
-          link: "/conversion/net/dotm-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "DOTM в WMF"
-          link: "/conversion/net/dotm-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "DOTM в WMZ"
-          link: "/conversion/net/dotm-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "DOTM в XLAM"
-          link: "/conversion/net/dotm-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOTM в XLS"
-          link: "/conversion/net/dotm-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "DOTM в XLSB"
-          link: "/conversion/net/dotm-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "DOTM в XLSM"
-          link: "/conversion/net/dotm-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOTM в XLSX"
-          link: "/conversion/net/dotm-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "DOTM в XLT"
-          link: "/conversion/net/dotm-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DOTM в XLTM"
-          link: "/conversion/net/dotm-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOTM в XLTX"
-          link: "/conversion/net/dotm-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DOTM в XPS"
-          link: "/conversion/net/dotm-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования DOTM"
+    content: "Вы также можете конвертировать DOTM во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

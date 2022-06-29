@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:11:28
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 
 ############################# Head ############################
-head_title: "Конвертер FODS в DOC — преобразование FODS в DOC на C# .NET"
-head_description: "Как преобразовать FODS в DOC в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер FODS в DOC на C#"
+head_description: "Преобразовать FODS в DOC на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование FODS в DOC на C#"
-description: "Нативное и высокопроизводительное преобразование FODS в DOC с использованием GroupDocs на стороне сервера. Преобразование для API .NET без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать FODS в DOC на C#"
+description: "Конвертер FODS в DOC с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,411 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы FODS в файлы DOC в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию FODS в DOC и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла FODS и сохранения выходного результата DOC.
+        
+        Например, для исходного файла FODS можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла DOC:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DOC.
+
+        После завершения преобразования вы можете сохранить файл DOC по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования FODS в DOC не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию FODS в DOC на C#"
+    title_left: "Шаги по конвертации FODS в DOC в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла FODS в формат DOC с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла FODS в DOC с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл FODS с полным путем
-        * Создайте и установите ConvertOptions для типа документа
+        * Создайте и установите ConvertOptions для типа DOC.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (DOC) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем файл FODS
+        // Загружаем FODS файл
         var converter = new GroupDocs.Conversion.Converter("template.fods");
-        // устанавливаем параметры преобразования для формата DOC
+        // Устанавливаем параметры конвертации для формата DOC
         var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
-        // преобразовать в формат DOC
-        converter.Convert("output.doc", convertOptions);
+        // Преобразовать в формат DOC
+        converter.Convert("output.doc", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации FODS в DOC Live"
+    title: "Демонстрация FODS в DOC"
     content: |
-        Конвертируйте FODS в DOC прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: " О формате файла FODS"
-          content: |
-            FODS — это сжатый ZIP формат файла на основе XML для электронных таблиц, диаграмм, презентаций и текстовых документов.
+       Конвертируйте FODS в DOC прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://en.wikipedia.org/wiki/OpenDocument"
-
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " О формате файла DOC"
-          content: |
-            Файлы с расширением .DOC представляют собой документы, сгенерированные Microsoft Word или другими текстовыми редакторами в двоичном формате. Первоначально расширение использовалось для текстовой документации в нескольких различных операционных системах. Он может содержать несколько различных типов данных, таких как изображения, форматированный, а также обычный текст, графики, диаграммы, встроенные объекты, ссылки, страницы, форматирование страниц, настройки печати и многое другое.
-
-          link: "https://docs.fileformat.com/word-processing/doc/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать FODS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "FODS в BMP"
-          link: "/conversion/net/fods-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "FODS в CSV"
-          link: "/conversion/net/fods-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "FODS в DCM"
-          link: "/conversion/net/fods-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "FODS в DIF"
-          link: "/conversion/net/fods-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "FODS в DOCM"
-          link: "/conversion/net/fods-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "FODS в DOCX"
-          link: "/conversion/net/fods-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "FODS в DOT"
-          link: "/conversion/net/fods-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "FODS в DOTM"
-          link: "/conversion/net/fods-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "FODS в DOTX"
-          link: "/conversion/net/fods-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "FODS в EMF"
-          link: "/conversion/net/fods-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "FODS в EMZ"
-          link: "/conversion/net/fods-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "FODS в EPUB"
-          link: "/conversion/net/fods-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "FODS в FODP"
-          link: "/conversion/net/fods-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "FODS в GIF"
-          link: "/conversion/net/fods-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "FODS в HTM"
-          link: "/conversion/net/fods-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "FODS в HTML"
-          link: "/conversion/net/fods-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "FODS в ICO"
-          link: "/conversion/net/fods-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "FODS в JP2"
-          link: "/conversion/net/fods-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "FODS в JPEG"
-          link: "/conversion/net/fods-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "FODS в JPG"
-          link: "/conversion/net/fods-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "FODS в MD"
-          link: "/conversion/net/fods-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "FODS в MHT"
-          link: "/conversion/net/fods-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "FODS в MHTML"
-          link: "/conversion/net/fods-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "FODS в ODP"
-          link: "/conversion/net/fods-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "FODS в ODS"
-          link: "/conversion/net/fods-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "FODS в ODT"
-          link: "/conversion/net/fods-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "FODS в OTP"
-          link: "/conversion/net/fods-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "FODS в OTT"
-          link: "/conversion/net/fods-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "FODS в PDF"
-          link: "/conversion/net/fods-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "FODS в PNG"
-          link: "/conversion/net/fods-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "FODS в POT"
-          link: "/conversion/net/fods-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "FODS в POTM"
-          link: "/conversion/net/fods-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "FODS в POTX"
-          link: "/conversion/net/fods-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "FODS в PPS"
-          link: "/conversion/net/fods-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "FODS в PPSM"
-          link: "/conversion/net/fods-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "FODS в PPSX"
-          link: "/conversion/net/fods-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "FODS в PPT"
-          link: "/conversion/net/fods-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "FODS в PPTM"
-          link: "/conversion/net/fods-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "FODS в PPTX"
-          link: "/conversion/net/fods-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "FODS в PSD"
-          link: "/conversion/net/fods-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "FODS в RTF"
-          link: "/conversion/net/fods-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "FODS в SVG"
-          link: "/conversion/net/fods-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "FODS в SVGZ"
-          link: "/conversion/net/fods-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "FODS в SXC"
-          link: "/conversion/net/fods-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "FODS в TEX"
-          link: "/conversion/net/fods-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "FODS в TIF"
-          link: "/conversion/net/fods-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "FODS в TIFF"
-          link: "/conversion/net/fods-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "FODS в TSV"
-          link: "/conversion/net/fods-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "FODS в TXT"
-          link: "/conversion/net/fods-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "FODS в WEBP"
-          link: "/conversion/net/fods-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "FODS в WMF"
-          link: "/conversion/net/fods-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "FODS в WMZ"
-          link: "/conversion/net/fods-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "FODS в XLAM"
-          link: "/conversion/net/fods-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "FODS в XLS"
-          link: "/conversion/net/fods-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "FODS в XLSB"
-          link: "/conversion/net/fods-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "FODS в XLSM"
-          link: "/conversion/net/fods-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "FODS в XLSX"
-          link: "/conversion/net/fods-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "FODS в XLT"
-          link: "/conversion/net/fods-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "FODS в XLTM"
-          link: "/conversion/net/fods-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "FODS в XLTX"
-          link: "/conversion/net/fods-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "FODS в XPS"
-          link: "/conversion/net/fods-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования FODS"
+    content: "Вы также можете конвертировать FODS во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:17:24
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "Конвертер RTF в SVGZ — преобразование RTF в SVGZ на C# .NET"
-head_description: "Как преобразовать RTF в SVGZ в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер RTF в SVGZ на C#"
+head_description: "Преобразовать RTF в SVGZ на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование RTF в SVGZ на C#"
-description: "Нативное и высокопроизводительное преобразование RTF в SVGZ с использованием групповых документов на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать RTF в SVGZ на C#"
+description: "Конвертер RTF в SVGZ с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,411 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы RTF в файлы SVGZ в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию RTF в SVGZ и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла RTF и сохранения выходного результата SVGZ.
+        
+        Например, для исходного файла RTF можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла SVGZ:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл SVGZ.
+
+        После завершения преобразования вы можете сохранить файл SVGZ по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования RTF в SVGZ не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию RTF в SVGZ на C#"
+    title_left: "Шаги по конвертации RTF в SVGZ в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла RTF в SVGZ с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла RTF в SVGZ с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл RTF с полным путем
-        * Создайте и установите ConvertOptions для типа svgz
+        * Создайте и установите ConvertOptions для типа SVGZ.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (SVGZ) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем RTF-файл
+        // Загружаем RTF файл
         var converter = new GroupDocs.Conversion.Converter("template.rtf");
-        // устанавливаем параметры преобразования для формата SVGZ
+        // Устанавливаем параметры конвертации для формата SVGZ
         var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
-        // преобразовать в формат SVGZ
-        converter.Convert("output.svgz", convertOptions);
+        // Преобразовать в формат SVGZ
+        converter.Convert("output.svgz", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации RTF в SVGZ"
+    title: "Демонстрация RTF в SVGZ"
     content: |
-        Конвертируйте RTF в SVGZ прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-RTF"
-          title: " О формате файла RTF"
-          content: |
-            Представленный и задокументированный Microsoft формат Rich Text Format (RTF) представляет собой метод кодирования форматированного текста и графики для использования в приложениях. Формат облегчает межплатформенный обмен документами с другими продуктами Microsoft, что служит цели функциональной совместимости. Эта возможность делает его стандартом передачи данных между программным обеспечением для обработки текстов, и, следовательно, содержимое может быть передано из одной операционной системы в другую без потери форматирования документа.
+       Конвертируйте RTF в SVGZ прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/word-processing/rtf/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла SVGZ"
-          content: |
-            Файл с расширением .svgz представляет собой сжатую версию файла масштабируемой векторной графики (.SVG). Он сжат сжатием gzip и содержит данные в формате XML. Файлы SVGZ поддерживают прозрачность, градиенты, анимацию и фильтры. Файлы SVGZ меньше по размеру по сравнению с файлами SVG по умолчанию, и этот уменьшенный размер файла помогает передавать графические файлы.
-
-          link: "https://docs.fileformat.com/image/svgz/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать RTF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "RTF в BMP"
-          link: "/conversion/java/rtf-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "RTF в CSV"
-          link: "/conversion/java/rtf-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "RTF в DCM"
-          link: "/conversion/java/rtf-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "RTF в DIF"
-          link: "/conversion/java/rtf-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "RTF в DOC"
-          link: "/conversion/java/rtf-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "RTF в DOCM"
-          link: "/conversion/java/rtf-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "RTF в DOCX"
-          link: "/conversion/java/rtf-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "RTF в DOT"
-          link: "/conversion/java/rtf-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "RTF в DOTM"
-          link: "/conversion/java/rtf-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "RTF в DOTX"
-          link: "/conversion/java/rtf-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "RTF в EMF"
-          link: "/conversion/java/rtf-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "RTF в EMZ"
-          link: "/conversion/java/rtf-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "RTF в EPUB"
-          link: "/conversion/java/rtf-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "RTF в FODP"
-          link: "/conversion/java/rtf-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "RTF в FODS"
-          link: "/conversion/java/rtf-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "RTF в GIF"
-          link: "/conversion/java/rtf-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "RTF в HTM"
-          link: "/conversion/java/rtf-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "RTF в HTML"
-          link: "/conversion/java/rtf-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "RTF в ICO"
-          link: "/conversion/java/rtf-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "RTF в JP2"
-          link: "/conversion/java/rtf-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "RTF в JPEG"
-          link: "/conversion/java/rtf-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "RTF в JPG"
-          link: "/conversion/java/rtf-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "RTF в MD"
-          link: "/conversion/java/rtf-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "RTF в MHT"
-          link: "/conversion/java/rtf-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "RTF в MHTML"
-          link: "/conversion/java/rtf-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "RTF в ODP"
-          link: "/conversion/java/rtf-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "RTF в ODS"
-          link: "/conversion/java/rtf-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "RTF в ODT"
-          link: "/conversion/java/rtf-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "RTF в OTP"
-          link: "/conversion/java/rtf-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "RTF в OTT"
-          link: "/conversion/java/rtf-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "RTF в PDF"
-          link: "/conversion/java/rtf-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "RTF в PNG"
-          link: "/conversion/java/rtf-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "RTF в POT"
-          link: "/conversion/java/rtf-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "RTF в POTM"
-          link: "/conversion/java/rtf-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "RTF в POTX"
-          link: "/conversion/java/rtf-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "RTF в PPS"
-          link: "/conversion/java/rtf-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "RTF в PPSM"
-          link: "/conversion/java/rtf-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "RTF в PPSX"
-          link: "/conversion/java/rtf-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "RTF в PPT"
-          link: "/conversion/java/rtf-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "RTF в PPTM"
-          link: "/conversion/java/rtf-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "RTF в PPTX"
-          link: "/conversion/java/rtf-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "RTF в PSD"
-          link: "/conversion/java/rtf-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "RTF в SVG"
-          link: "/conversion/java/rtf-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "RTF в SXC"
-          link: "/conversion/java/rtf-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "RTF в TEX"
-          link: "/conversion/java/rtf-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "RTF в TIF"
-          link: "/conversion/java/rtf-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "RTF в TIFF"
-          link: "/conversion/java/rtf-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "RTF в TSV"
-          link: "/conversion/java/rtf-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "RTF в TXT"
-          link: "/conversion/java/rtf-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "RTF в WEBP"
-          link: "/conversion/java/rtf-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "RTF в WMF"
-          link: "/conversion/java/rtf-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "RTF в WMZ"
-          link: "/conversion/java/rtf-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "RTF в XLAM"
-          link: "/conversion/java/rtf-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "RTF в XLS"
-          link: "/conversion/java/rtf-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "RTF в XLSB"
-          link: "/conversion/java/rtf-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "RTF в XLSM"
-          link: "/conversion/java/rtf-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "RTF в XLSX"
-          link: "/conversion/java/rtf-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "RTF в XLT"
-          link: "/conversion/java/rtf-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "RTF в XLTM"
-          link: "/conversion/java/rtf-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "RTF в XLTX"
-          link: "/conversion/java/rtf-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "RTF в XPS"
-          link: "/conversion/java/rtf-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования RTF"
+    content: "Вы также можете конвертировать RTF во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

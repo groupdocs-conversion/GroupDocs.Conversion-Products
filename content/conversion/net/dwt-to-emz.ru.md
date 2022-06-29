@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:10:17
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 
 ############################# Head ############################
-head_title: "Конвертер DWT в EMZ — преобразование DWT в EMZ на C# .NET"
-head_description: "Как преобразовать DWT в EMZ в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер DWT в EMZ на C#"
+head_description: "Преобразовать DWT в EMZ на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование DWT в EMZ в C#"
-description: "Нативное и высокопроизводительное преобразование DWT в EMZ с использованием групповых документов на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать DWT в EMZ на C#"
+description: "Конвертер DWT в EMZ с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,416 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы DWT в файлы EMZ в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию DWT в EMZ и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DWT и сохранения выходного результата EMZ.
+        
+        Например, для исходного файла DWT можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла EMZ:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл EMZ.
+
+        После завершения преобразования вы можете сохранить файл EMZ по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования DWT в EMZ не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию DWT в EMZ в C#"
+    title_left: "Шаги по конвертации DWT в EMZ в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла DWT в EMZ с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла DWT в EMZ с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DWT с полным путем
-        * Создайте и установите ConvertOptions для типа emz
+        * Создайте и установите ConvertOptions для типа EMZ.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (EMZ) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем файл DWT
+        // Загружаем DWT файл
         var converter = new GroupDocs.Conversion.Converter("template.dwt");
-        // устанавливаем параметры конвертации для формата EMZ
+        // Устанавливаем параметры конвертации для формата EMZ
         var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
-        // преобразовать в формат EMZ
-        converter.Convert("output.emz", convertOptions);
+        // Преобразовать в формат EMZ
+        converter.Convert("output.emz", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "DWT в EMZ Живые демонстрации"
+    title: "Демонстрация DWT в EMZ"
     content: |
-        Преобразуйте DWT в EMZ прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-DWT"
-          title: " О формате файла DWT"
-          content: |
-            Файл DWT — это файл шаблона чертежа AutoCAD, который используется в качестве основы для создания чертежей, которые можно сохранить в виде файлов DWG. Такие файлы шаблонов содержат исходные настройки, такие как типы единиц измерения, требуемая точность, основные надписи, имена слоев, типы линий и другую подобную информацию для поперечного преобразования в соответствующие файлы чертежей. И AutoCAD, и CoreCAD можно использовать для чтения файлов шаблонов и дальнейшего их использования.
+       Конвертируйте DWT в EMZ прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/cad/dwt/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-EMZ"
-          title: " О формате файла EMZ"
-          content: |
-            Файл с расширением .emz представляет собой сжатый контейнер расширенного метафайла (файл .emf). Он следует алгоритму сжатия GZIP и занимает меньше места для хранения из-за сжатия. Небольшой размер файла упрощает передачу файлов EMZ по сети.
-
-          link: "https://docs.fileformat.com/image/emz/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать DWT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "DWT в BMP"
-          link: "/conversion/net/dwt-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "DWT в CSV"
-          link: "/conversion/net/dwt-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "DWT в DCM"
-          link: "/conversion/net/dwt-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "DWT в DIF"
-          link: "/conversion/net/dwt-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "DWT в DOC"
-          link: "/conversion/net/dwt-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "DWT в DOCM"
-          link: "/conversion/net/dwt-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DWT в DOCX"
-          link: "/conversion/net/dwt-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "DWT в DOT"
-          link: "/conversion/net/dwt-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "DWT в DOTM"
-          link: "/conversion/net/dwt-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DWT в DOTX"
-          link: "/conversion/net/dwt-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "DWT в EMF"
-          link: "/conversion/net/dwt-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "DWT в EPUB"
-          link: "/conversion/net/dwt-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "DWT в FODP"
-          link: "/conversion/net/dwt-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "DWT в FODS"
-          link: "/conversion/net/dwt-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "DWT в GIF"
-          link: "/conversion/net/dwt-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "DWT в HTM"
-          link: "/conversion/net/dwt-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "DWT в HTML"
-          link: "/conversion/net/dwt-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "DWT в ICO"
-          link: "/conversion/net/dwt-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "DWT в JP2"
-          link: "/conversion/net/dwt-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "DWT в JPEG"
-          link: "/conversion/net/dwt-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "DWT в JPG"
-          link: "/conversion/net/dwt-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "DWT в MD"
-          link: "/conversion/net/dwt-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "DWT в MHT"
-          link: "/conversion/net/dwt-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DWT в MHTML"
-          link: "/conversion/net/dwt-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DWT в ODP"
-          link: "/conversion/net/dwt-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "DWT в ODS"
-          link: "/conversion/net/dwt-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "DWT в ODT"
-          link: "/conversion/net/dwt-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "DWT в OTP"
-          link: "/conversion/net/dwt-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "DWT в OTT"
-          link: "/conversion/net/dwt-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "DWT в PDF"
-          link: "/conversion/net/dwt-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "DWT в PNG"
-          link: "/conversion/net/dwt-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "DWT в POT"
-          link: "/conversion/net/dwt-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "DWT в POTM"
-          link: "/conversion/net/dwt-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWT в POTX"
-          link: "/conversion/net/dwt-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWT в PPS"
-          link: "/conversion/net/dwt-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWT в PPSM"
-          link: "/conversion/net/dwt-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWT в PPSX"
-          link: "/conversion/net/dwt-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "DWT в PPT"
-          link: "/conversion/net/dwt-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "DWT в PPTM"
-          link: "/conversion/net/dwt-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWT в PPTX"
-          link: "/conversion/net/dwt-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "DWT в PSD"
-          link: "/conversion/net/dwt-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "DWT в RTF"
-          link: "/conversion/net/dwt-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "DWT в SVG"
-          link: "/conversion/net/dwt-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DWT в SVGZ"
-          link: "/conversion/net/dwt-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DWT в SXC"
-          link: "/conversion/net/dwt-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "DWT в TEX"
-          link: "/conversion/net/dwt-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "DWT в TIF"
-          link: "/conversion/net/dwt-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DWT в TIFF"
-          link: "/conversion/net/dwt-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DWT в TSV"
-          link: "/conversion/net/dwt-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "DWT в TXT"
-          link: "/conversion/net/dwt-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "DWT в WEBP"
-          link: "/conversion/net/dwt-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "DWT в WMF"
-          link: "/conversion/net/dwt-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "DWT в WMZ"
-          link: "/conversion/net/dwt-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "DWT в XLAM"
-          link: "/conversion/net/dwt-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DWT в XLS"
-          link: "/conversion/net/dwt-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "DWT в XLSB"
-          link: "/conversion/net/dwt-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "DWT в XLSM"
-          link: "/conversion/net/dwt-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DWT в XLSX"
-          link: "/conversion/net/dwt-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "DWT в XLT"
-          link: "/conversion/net/dwt-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DWT в XLTM"
-          link: "/conversion/net/dwt-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DWT в XLTX"
-          link: "/conversion/net/dwt-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DWT в XPS"
-          link: "/conversion/net/dwt-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования DWT"
+    content: "Вы также можете конвертировать DWT во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

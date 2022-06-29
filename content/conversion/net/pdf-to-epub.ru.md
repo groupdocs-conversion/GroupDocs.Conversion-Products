@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:15:41
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 
 ############################# Head ############################
-head_title: "Конвертер PDF в EPUB — преобразование PDF в EPUB на C# .NET"
-head_description: "Как преобразовать PDF в EPUB в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер PDF в EPUB на C#"
+head_description: "Преобразовать PDF в EPUB на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование PDF в EPUB на C#"
-description: "Нативное и высокопроизводительное преобразование PDF в EPUB с использованием GroupDocs на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать PDF в EPUB на C#"
+description: "Конвертер PDF в EPUB с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,411 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы PDF в файлы EPUB в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию PDF в EPUB и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PDF и сохранения выходного результата EPUB.
+        
+        Например, для исходного файла PDF можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла EPUB:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл EPUB.
+
+        После завершения преобразования вы можете сохранить файл EPUB по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования PDF в EPUB не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию PDF в EPUB на C#"
+    title_left: "Шаги по конвертации PDF в EPUB в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла PDF в EPUB с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла PDF в EPUB с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл PDF с полным путем
-        * Создайте и установите ConvertOptions для типа epub
+        * Создайте и установите ConvertOptions для типа EPUB.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (EPUB) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем PDF-файл
+        // Загружаем PDF файл
         var converter = new GroupDocs.Conversion.Converter("template.pdf");
-        // установить параметры преобразования для формата EPUB
+        // Устанавливаем параметры конвертации для формата EPUB
         var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // конвертируем в формат EPUB
-        converter.Convert("output.epub", convertOptions);
+        // Преобразовать в формат EPUB
+        converter.Convert("output.epub", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "PDF в EPUB Живые демонстрации"
+    title: "Демонстрация PDF в EPUB"
     content: |
-        Конвертируйте PDF в EPUB прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-alt"
-          title: " О формате файла PDF"
-          content: |
-            Portable Document Format (PDF) — это тип документа, созданный Adobe еще в 1990-х годах. Цель этого формата файла состояла в том, чтобы ввести стандарт для представления документов и других справочных материалов в формате, который не зависит от прикладного программного обеспечения, аппаратного обеспечения, а также операционной системы. Файлы PDF можно открывать в Adobe Acrobat Reader/Writer, а также в большинстве современных браузеров, таких как Chrome, Safari, Firefox, с помощью расширений/плагинов.
+       Конвертируйте PDF в EPUB прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/view/pdf/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-EPUB"
-          title: " О формате файла EPUB"
-          content: |
-            Файлы с расширением .EPUB представляют собой формат файлов электронных книг, который представляет собой стандартный формат цифровых публикаций для издателей и потребителей. К настоящему времени этот формат стал настолько распространенным, что поддерживается многими электронными книгами и программными приложениями. Например, в Mac OS предустановленное программное обеспечение Books поддерживает открытие таких файлов. Кроме того, существует множество совместимых программ для смартфонов, планшетов и компьютеров.
-
-          link: "https://docs.fileformat.com/ebook/epub/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать PDF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "PDF в BMP"
-          link: "/conversion/net/pdf-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "PDF в CSV"
-          link: "/conversion/net/pdf-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "PDF в DCM"
-          link: "/conversion/net/pdf-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "PDF в DIF"
-          link: "/conversion/net/pdf-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "PDF в DOC"
-          link: "/conversion/net/pdf-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "PDF в DOCM"
-          link: "/conversion/net/pdf-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PDF в DOCX"
-          link: "/conversion/net/pdf-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "PDF в DOT"
-          link: "/conversion/net/pdf-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "PDF в DOTM"
-          link: "/conversion/net/pdf-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PDF в DOTX"
-          link: "/conversion/net/pdf-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "PDF в EMF"
-          link: "/conversion/net/pdf-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "PDF в EMZ"
-          link: "/conversion/net/pdf-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "PDF в FODP"
-          link: "/conversion/net/pdf-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "PDF в FODS"
-          link: "/conversion/net/pdf-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "PDF в GIF"
-          link: "/conversion/net/pdf-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "PDF в HTM"
-          link: "/conversion/net/pdf-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "PDF в HTML"
-          link: "/conversion/net/pdf-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "PDF в ICO"
-          link: "/conversion/net/pdf-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "PDF в JP2"
-          link: "/conversion/net/pdf-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "PDF в JPEG"
-          link: "/conversion/net/pdf-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "PDF в JPG"
-          link: "/conversion/net/pdf-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "PDF в MD"
-          link: "/conversion/net/pdf-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "PDF в MHT"
-          link: "/conversion/net/pdf-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PDF в MHTML"
-          link: "/conversion/net/pdf-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PDF в ODP"
-          link: "/conversion/net/pdf-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "PDF в ODS"
-          link: "/conversion/net/pdf-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "PDF в ODT"
-          link: "/conversion/net/pdf-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "PDF в OTP"
-          link: "/conversion/net/pdf-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "PDF в OTT"
-          link: "/conversion/net/pdf-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "PDF в PNG"
-          link: "/conversion/net/pdf-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "PDF в POT"
-          link: "/conversion/net/pdf-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "PDF в POTM"
-          link: "/conversion/net/pdf-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PDF в POTX"
-          link: "/conversion/net/pdf-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PDF в PPS"
-          link: "/conversion/net/pdf-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PDF в PPSM"
-          link: "/conversion/net/pdf-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PDF в PPSX"
-          link: "/conversion/net/pdf-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "PDF в PPT"
-          link: "/conversion/net/pdf-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "PDF в PPTM"
-          link: "/conversion/net/pdf-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "PDF в PPTX"
-          link: "/conversion/net/pdf-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "PDF в PSD"
-          link: "/conversion/net/pdf-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "PDF в RTF"
-          link: "/conversion/net/pdf-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "PDF в SVG"
-          link: "/conversion/net/pdf-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PDF в SVGZ"
-          link: "/conversion/net/pdf-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PDF в SXC"
-          link: "/conversion/net/pdf-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "PDF в TEX"
-          link: "/conversion/net/pdf-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "PDF в TIF"
-          link: "/conversion/net/pdf-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PDF в TIFF"
-          link: "/conversion/net/pdf-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PDF в TSV"
-          link: "/conversion/net/pdf-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "PDF в TXT"
-          link: "/conversion/net/pdf-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "PDF в WEBP"
-          link: "/conversion/net/pdf-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "PDF в WMF"
-          link: "/conversion/net/pdf-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "PDF в WMZ"
-          link: "/conversion/net/pdf-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "PDF в XLAM"
-          link: "/conversion/net/pdf-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PDF в XLS"
-          link: "/conversion/net/pdf-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "PDF в XLSB"
-          link: "/conversion/net/pdf-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "PDF в XLSM"
-          link: "/conversion/net/pdf-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PDF в XLSX"
-          link: "/conversion/net/pdf-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "PDF в XLT"
-          link: "/conversion/net/pdf-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PDF в XLTM"
-          link: "/conversion/net/pdf-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PDF в XLTX"
-          link: "/conversion/net/pdf-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PDF в XPS"
-          link: "/conversion/net/pdf-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования PDF"
+    content: "Вы также можете конвертировать PDF во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

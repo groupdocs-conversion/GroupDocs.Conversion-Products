@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:13:48
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "Конвертер MHTML в XLT — преобразование MHTML в XLT на C# .NET"
-head_description: "Как преобразовать MHTML в XLT в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер MHTML в XLT на C#"
+head_description: "Преобразовать MHTML в XLT на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование MHTML в XLT на C#"
-description: "Нативное и высокопроизводительное преобразование MHTML в XLT с использованием групповых документов на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать MHTML в XLT на C#"
+description: "Конвертер MHTML в XLT с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,411 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы MHTML в файлы XLT в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию MHTML в XLT и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла MHTML и сохранения выходного результата XLT.
+        
+        Например, для исходного файла MHTML можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла XLT:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл XLT.
+
+        После завершения преобразования вы можете сохранить файл XLT по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования MHTML в XLT не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по преобразованию MHTML в XLT в C#"
+    title_left: "Шаги по конвертации MHTML в XLT в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла MHTML в XLT с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла MHTML в XLT с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл MHTML с полным путем
-        * Создайте и установите ConvertOptions для типа xlt
+        * Создайте и установите ConvertOptions для типа XLT.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (XLT) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем MHTML-файл
+        // Загружаем MHTML файл
         var converter = new GroupDocs.Conversion.Converter("template.mhtml");
-        // устанавливаем параметры конвертации для формата XLT
+        // Устанавливаем параметры конвертации для формата XLT
         var convertOptions = converter.GetPossibleConversions()["xlt"].ConvertOptions;
-        // преобразовать в формат XLT
-        converter.Convert("output.xlt", convertOptions);
+        // Преобразовать в формат XLT
+        converter.Convert("output.xlt", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации MHTML в XLT"
+    title: "Демонстрация MHTML в XLT"
     content: |
-        Преобразуйте MHTML в XLT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-code"
-          title: " О формате файла MHTML"
-          content: |
-            Файлы с расширением MHTML представляют собой формат архива веб-страницы, который может быть создан рядом различных приложений. Этот формат известен как формат архива, поскольку он сохраняет веб-код HTML и связанные ресурсы в одном файле. Эти ресурсы включают все, что связано с веб-страницей, например изображения, апплеты, анимацию, аудиофайлы и так далее. Файлы MHTML можно открывать в различных приложениях, таких как Internet Explorer и Microsoft Word.
+       Конвертируйте MHTML в XLT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/web/mhtml/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: " О формате файла XLT"
-          content: |
-            Файлы с расширением .XLT представляют собой файлы шаблонов, созданные с помощью Microsoft Excel, приложения для работы с электронными таблицами, входящего в состав пакета Microsoft Office. Microsoft Office 97-2003 поддерживает создание новых файлов XLT, а также их открытие. Последняя версия Excel по-прежнему способна открывать эти файлы шаблонов старого формата. Такой файл шаблона используется для быстрого создания новых файлов Excel с данными и настройками по умолчанию, такими как форматирование страницы, размер шрифта, поля, диаграммы и т. д., которые в дальнейшем можно сохранить как новые файлы .XLS.
-
-          link: "https://docs.fileformat.com/spreadsheet/xlt/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать MHTML во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "MHTML в BMP"
-          link: "/conversion/net/mhtml-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "MHTML в CSV"
-          link: "/conversion/net/mhtml-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "MHTML в DCM"
-          link: "/conversion/net/mhtml-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "MHTML в DIF"
-          link: "/conversion/net/mhtml-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "MHTML в DOC"
-          link: "/conversion/net/mhtml-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "MHTML в DOCM"
-          link: "/conversion/net/mhtml-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "MHTML в DOCX"
-          link: "/conversion/net/mhtml-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "MHTML в DOT"
-          link: "/conversion/net/mhtml-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "MHTML в DOTM"
-          link: "/conversion/net/mhtml-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "MHTML в DOTX"
-          link: "/conversion/net/mhtml-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "MHTML в EMF"
-          link: "/conversion/net/mhtml-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "MHTML в EMZ"
-          link: "/conversion/net/mhtml-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "MHTML в EPUB"
-          link: "/conversion/net/mhtml-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "MHTML в FODP"
-          link: "/conversion/net/mhtml-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "MHTML в FODS"
-          link: "/conversion/net/mhtml-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "MHTML в GIF"
-          link: "/conversion/net/mhtml-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "MHTML в HTM"
-          link: "/conversion/net/mhtml-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "MHTML в HTML"
-          link: "/conversion/net/mhtml-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "MHTML в ICO"
-          link: "/conversion/net/mhtml-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "MHTML в JP2"
-          link: "/conversion/net/mhtml-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "MHTML в JPEG"
-          link: "/conversion/net/mhtml-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "MHTML в JPG"
-          link: "/conversion/net/mhtml-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "MHTML в MD"
-          link: "/conversion/net/mhtml-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "MHTML в MHT"
-          link: "/conversion/net/mhtml-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "MHTML в ODP"
-          link: "/conversion/net/mhtml-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "MHTML в ODS"
-          link: "/conversion/net/mhtml-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "MHTML в ODT"
-          link: "/conversion/net/mhtml-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "MHTML в OTP"
-          link: "/conversion/net/mhtml-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "MHTML в OTT"
-          link: "/conversion/net/mhtml-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "MHTML в PDF"
-          link: "/conversion/net/mhtml-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "MHTML в PNG"
-          link: "/conversion/net/mhtml-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "MHTML в POT"
-          link: "/conversion/net/mhtml-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "MHTML в POTM"
-          link: "/conversion/net/mhtml-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "MHTML в POTX"
-          link: "/conversion/net/mhtml-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "MHTML в PPS"
-          link: "/conversion/net/mhtml-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "MHTML в PPSM"
-          link: "/conversion/net/mhtml-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "MHTML в PPSX"
-          link: "/conversion/net/mhtml-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "MHTML в PPT"
-          link: "/conversion/net/mhtml-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "MHTML в PPTM"
-          link: "/conversion/net/mhtml-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "MHTML в PPTX"
-          link: "/conversion/net/mhtml-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "MHTML в PSD"
-          link: "/conversion/net/mhtml-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "MHTML в RTF"
-          link: "/conversion/net/mhtml-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "MHTML в SVG"
-          link: "/conversion/net/mhtml-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "MHTML в SVGZ"
-          link: "/conversion/net/mhtml-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "MHTML в SXC"
-          link: "/conversion/net/mhtml-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "MHTML в TEX"
-          link: "/conversion/net/mhtml-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "MHTML в TIF"
-          link: "/conversion/net/mhtml-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "MHTML в TIFF"
-          link: "/conversion/net/mhtml-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "MHTML в TSV"
-          link: "/conversion/net/mhtml-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "MHTML в TXT"
-          link: "/conversion/net/mhtml-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "MHTML в WEBP"
-          link: "/conversion/net/mhtml-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "MHTML в WMF"
-          link: "/conversion/net/mhtml-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "MHTML в WMZ"
-          link: "/conversion/net/mhtml-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "MHTML в XLAM"
-          link: "/conversion/net/mhtml-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MHTML в XLS"
-          link: "/conversion/net/mhtml-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "MHTML в XLSB"
-          link: "/conversion/net/mhtml-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "MHTML в XLSM"
-          link: "/conversion/net/mhtml-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MHTML в XLSX"
-          link: "/conversion/net/mhtml-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "MHTML в XLTM"
-          link: "/conversion/net/mhtml-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MHTML в XLTX"
-          link: "/conversion/net/mhtml-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "MHTML в XPS"
-          link: "/conversion/net/mhtml-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования MHTML"
+    content: "Вы также можете конвертировать MHTML во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

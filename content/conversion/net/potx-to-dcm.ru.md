@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:16:14
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "Конвертер POTX в DCM — преобразование POTX в DCM на C# .NET"
-head_description: "Как преобразовать POTX в DCM в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер POTX в DCM на C#"
+head_description: "Преобразовать POTX в DCM на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование POTX в DCM на C#"
-description: "Нативное и высокопроизводительное преобразование POTX в DCM с использованием GroupDocs на стороне сервера. Преобразование для API .NET без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать POTX в DCM на C#"
+description: "Конвертер POTX в DCM с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,411 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы POTX в файлы DCM в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию POTX в DCM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла POTX и сохранения выходного результата DCM.
+        
+        Например, для исходного файла POTX можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла DCM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DCM.
+
+        После завершения преобразования вы можете сохранить файл DCM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования POTX в DCM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию POTX в DCM в C#"
+    title_left: "Шаги по конвертации POTX в DCM в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) позволяет разработчикам легко преобразовать файл POTX в DCM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла POTX в DCM с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл POTX с полным путем
-        * Создайте и установите ConvertOptions для типа dcm
+        * Создайте и установите ConvertOptions для типа DCM.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (DCM) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем POTX-файл
+        // Загружаем POTX файл
         var converter = new GroupDocs.Conversion.Converter("template.potx");
-        // устанавливаем параметры преобразования для формата DCM
+        // Устанавливаем параметры конвертации для формата DCM
         var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
-        // преобразовать в формат DCM
-        converter.Convert("output.dcm", convertOptions);
+        // Преобразовать в формат DCM
+        converter.Convert("output.dcm", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "POTX в DCM Живые демонстрации"
+    title: "Демонстрация POTX в DCM"
     content: |
-        Преобразуйте POTX в DCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " О формате файла POTX"
-          content: |
-            Файлы с расширением .POTX представляют шаблоны презентаций Microsoft PowerPoint, созданные с помощью Microsoft PowerPoint 2007 и более поздних версий. Этот формат был создан для замены формата файла POT, который основан на формате двоичного файла и поддерживается в PowerPoint 97-2003. Сгенерированные файлы можно использовать для создания презентаций с таким же макетом и другими настройками, которые необходимо применить к новым файлам. Эти настройки могут включать стили, фон, цветовую палитру, шрифты и значения по умолчанию. Такие файлы генерируются для создания готовых к использованию файлов шаблонов для служебного пользования.
+       Конвертируйте POTX в DCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/presentation/potx/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла DCM"
-          content: |
-            Файлы с расширением .DCM представляют собой цифровое изображение, в котором хранится медицинская информация о пациентах, такая как МРТ, компьютерная томография и ультразвуковые изображения. Файлы DCM используют формат файла изображения DICOM (Digital Imaging and Communications in Medicine) и могут включать информацию о пациенте для справки. Он был разработан Национальной ассоциацией производителей электрооборудования (NEMA) и предназначался для стандартизации формата файлов изображений для распространения и просмотра медицинских изображений.
-
-          link: "https://docs.fileformat.com/page-description-language/pcl/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать POTX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "POTX в BMP"
-          link: "/conversion/net/potx-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "POTX в CSV"
-          link: "/conversion/net/potx-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "POTX в DIF"
-          link: "/conversion/net/potx-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "POTX в DOC"
-          link: "/conversion/net/potx-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "POTX в DOCM"
-          link: "/conversion/net/potx-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "POTX в DOCX"
-          link: "/conversion/net/potx-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "POTX в DOT"
-          link: "/conversion/net/potx-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "POTX в DOTM"
-          link: "/conversion/net/potx-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "POTX в DOTX"
-          link: "/conversion/net/potx-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "POTX в EMF"
-          link: "/conversion/net/potx-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "POTX в EMZ"
-          link: "/conversion/net/potx-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "POTX в EPUB"
-          link: "/conversion/net/potx-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "POTX в FODP"
-          link: "/conversion/net/potx-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "POTX в FODS"
-          link: "/conversion/net/potx-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "POTX в GIF"
-          link: "/conversion/net/potx-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "POTX в HTM"
-          link: "/conversion/net/potx-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "POTX в HTML"
-          link: "/conversion/net/potx-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "POTX в ICO"
-          link: "/conversion/net/potx-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "POTX в JP2"
-          link: "/conversion/net/potx-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "POTX в JPEG"
-          link: "/conversion/net/potx-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "POTX в JPG"
-          link: "/conversion/net/potx-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "POTX в MD"
-          link: "/conversion/net/potx-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "POTX в MHT"
-          link: "/conversion/net/potx-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "POTX в MHTML"
-          link: "/conversion/net/potx-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "POTX в ODP"
-          link: "/conversion/net/potx-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "POTX в ODS"
-          link: "/conversion/net/potx-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "POTX в ODT"
-          link: "/conversion/net/potx-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "POTX в OTP"
-          link: "/conversion/net/potx-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "POTX в OTT"
-          link: "/conversion/net/potx-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "POTX в PDF"
-          link: "/conversion/net/potx-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "POTX в PNG"
-          link: "/conversion/net/potx-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "POTX в POT"
-          link: "/conversion/net/potx-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "POTX в POTM"
-          link: "/conversion/net/potx-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "POTX в PPS"
-          link: "/conversion/net/potx-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "POTX в PPSM"
-          link: "/conversion/net/potx-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "POTX в PPSX"
-          link: "/conversion/net/potx-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "POTX в PPT"
-          link: "/conversion/net/potx-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "POTX в PPTM"
-          link: "/conversion/net/potx-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "POTX в PPTX"
-          link: "/conversion/net/potx-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "POTX в PSD"
-          link: "/conversion/net/potx-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "POTX в RTF"
-          link: "/conversion/net/potx-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "POTX в SVG"
-          link: "/conversion/net/potx-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "POTX в SVGZ"
-          link: "/conversion/net/potx-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "POTX в SXC"
-          link: "/conversion/net/potx-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "POTX в TEX"
-          link: "/conversion/net/potx-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "POTX в TIF"
-          link: "/conversion/net/potx-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "POTX в TIFF"
-          link: "/conversion/net/potx-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "POTX в TSV"
-          link: "/conversion/net/potx-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "POTX в TXT"
-          link: "/conversion/net/potx-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "POTX в WEBP"
-          link: "/conversion/net/potx-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "POTX в WMF"
-          link: "/conversion/net/potx-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "POTX в WMZ"
-          link: "/conversion/net/potx-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "POTX в XLAM"
-          link: "/conversion/net/potx-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "POTX в XLS"
-          link: "/conversion/net/potx-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "POTX в XLSB"
-          link: "/conversion/net/potx-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "POTX в XLSM"
-          link: "/conversion/net/potx-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "POTX в XLSX"
-          link: "/conversion/net/potx-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "POTX в XLT"
-          link: "/conversion/net/potx-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "POTX в XLTM"
-          link: "/conversion/net/potx-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "POTX в XLTX"
-          link: "/conversion/net/potx-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "POTX в XPS"
-          link: "/conversion/net/potx-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования POTX"
+    content: "Вы также можете конвертировать POTX во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

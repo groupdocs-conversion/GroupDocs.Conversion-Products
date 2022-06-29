@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:09:30
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "Конвертер DOCX в PPSM — преобразование DOCX в PPSM на C# .NET"
-head_description: "Как преобразовать DOCX в PPSM в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер DOCX в PPSM на C#"
+head_description: "Преобразовать DOCX в PPSM на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование DOCX в PPSM на C#"
-description: "Нативное и высокопроизводительное преобразование DOCX в PPSM с использованием групповых документов на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать DOCX в PPSM на C#"
+description: "Конвертер DOCX в PPSM с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,421 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы DOCX в файлы PPSM в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию DOCX в PPSM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DOCX и сохранения выходного результата PPSM.
+        
+        Например, для исходного файла DOCX можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла PPSM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл PPSM.
+
+        После завершения преобразования вы можете сохранить файл PPSM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования DOCX в PPSM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию DOCX в PPSM на C#"
+    title_left: "Шаги по конвертации DOCX в PPSM в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла DOCX в PPSM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла DOCX в PPSM с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DOCX с полным путем
-        * Создайте и установите ConvertOptions для типа ppsm
+        * Создайте и установите ConvertOptions для типа PPSM.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (PPSM) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем файл DOCX
+        // Загружаем DOCX файл
         var converter = new GroupDocs.Conversion.Converter("template.docx");
-        // устанавливаем параметры преобразования для формата PPSM
+        // Устанавливаем параметры конвертации для формата PPSM
         var convertOptions = converter.GetPossibleConversions()["ppsm"].ConvertOptions;
-        // преобразовать в формат PPSM
-        converter.Convert("output.ppsm", convertOptions);
+        // Преобразовать в формат PPSM
+        converter.Convert("output.ppsm", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "DOCX в PPSM Живые демонстрации"
+    title: "Демонстрация DOCX в PPSM"
     content: |
-        Конвертируйте DOCX в PPSM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " О формате файла DOCX"
-          content: |
-            Docx — широко известный формат документов Microsoft Word. Представленный в 2007 году с выпуском Microsoft Office 2007, структура этого нового формата документа была изменена с простого двоичного файла на комбинацию XML и двоичных файлов. Файлы Docx можно открывать в Word 2007 и его более поздних версиях, но не в более ранних версиях MS Word, которые поддерживают расширения файлов DOC.
+       Конвертируйте DOCX в PPSM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/word-processing/docx/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " О формате файла PPSM"
-          content: |
-            Файлы с расширением PPSM представляют собой формат файлов слайд-шоу с поддержкой макросов, созданный с помощью Microsoft PowerPoint 2007 или более поздней версии. Другим похожим форматом файла является PPTM, который отличается тем, что открывается с помощью Microsoft PowerPoint в редактируемом формате, а не в виде слайд-шоу. При запуске в виде слайд-шоу файл PPSM показывает слайды презентации с неповрежденным содержимым в слайд-шоу и по умолчанию находится в режиме только для чтения. Файлы PPSM по-прежнему можно редактировать в Microsoft PowerPoint, открыв их в PowerPoint.
-
-          link: "https://docs.fileformat.com/presentation/ppsm/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать DOCX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "DOCX в BMP"
-          link: "/conversion/net/docx-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "DOCX в CSV"
-          link: "/conversion/net/docx-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "DOCX в DCM"
-          link: "/conversion/net/docx-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "DOCX в DIF"
-          link: "/conversion/net/docx-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "DOCX в DOC"
-          link: "/conversion/net/docx-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "DOCX в DOCM"
-          link: "/conversion/net/docx-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DOCX в DOT"
-          link: "/conversion/net/docx-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "DOCX в DOTM"
-          link: "/conversion/net/docx-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DOCX в DOTX"
-          link: "/conversion/net/docx-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "DOCX в EMF"
-          link: "/conversion/net/docx-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "DOCX в EMZ"
-          link: "/conversion/net/docx-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "DOCX в EPUB"
-          link: "/conversion/net/docx-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "DOCX в FODP"
-          link: "/conversion/net/docx-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "DOCX в FODS"
-          link: "/conversion/net/docx-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "DOCX в GIF"
-          link: "/conversion/net/docx-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "DOCX в HTM"
-          link: "/conversion/net/docx-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "DOCX в HTML"
-          link: "/conversion/net/docx-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "DOCX в ICO"
-          link: "/conversion/net/docx-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "DOCX в JP2"
-          link: "/conversion/net/docx-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "DOCX в JPEG"
-          link: "/conversion/net/docx-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "DOCX в JPG"
-          link: "/conversion/net/docx-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "DOCX в MD"
-          link: "/conversion/net/docx-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "DOCX в MHT"
-          link: "/conversion/net/docx-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DOCX в MHTML"
-          link: "/conversion/net/docx-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DOCX в MOBI"
-          link: "/conversion/net/docx-to-mobi/"
-          description: "Электронная книга Mobipocket"
-
-        # format loop
-        - name: "DOCX в ODP"
-          link: "/conversion/net/docx-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "DOCX в ODS"
-          link: "/conversion/net/docx-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "DOCX в ODT"
-          link: "/conversion/net/docx-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "DOCX в OTP"
-          link: "/conversion/net/docx-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "DOCX в OTT"
-          link: "/conversion/net/docx-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "DOCX в PDF"
-          link: "/conversion/net/docx-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "DOCX в PNG"
-          link: "/conversion/net/docx-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "DOCX в POT"
-          link: "/conversion/net/docx-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "DOCX в POTM"
-          link: "/conversion/net/docx-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOCX в POTX"
-          link: "/conversion/net/docx-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOCX в PPS"
-          link: "/conversion/net/docx-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOCX в PPSX"
-          link: "/conversion/net/docx-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "DOCX в PPT"
-          link: "/conversion/net/docx-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "DOCX в PPTM"
-          link: "/conversion/net/docx-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOCX в PPTX"
-          link: "/conversion/net/docx-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "DOCX в PSD"
-          link: "/conversion/net/docx-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "DOCX в RTF"
-          link: "/conversion/net/docx-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "DOCX в SVG"
-          link: "/conversion/net/docx-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DOCX в SVGZ"
-          link: "/conversion/net/docx-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DOCX в SXC"
-          link: "/conversion/net/docx-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "DOCX в TEX"
-          link: "/conversion/net/docx-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "DOCX в TIF"
-          link: "/conversion/net/docx-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DOCX в TIFF"
-          link: "/conversion/net/docx-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DOCX в TSV"
-          link: "/conversion/net/docx-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "DOCX в TXT"
-          link: "/conversion/net/docx-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "DOCX в WEBP"
-          link: "/conversion/net/docx-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "DOCX в WMF"
-          link: "/conversion/net/docx-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "DOCX в WMZ"
-          link: "/conversion/net/docx-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "DOCX в XLAM"
-          link: "/conversion/net/docx-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOCX в XLS"
-          link: "/conversion/net/docx-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "DOCX в XLS2003"
-          link: "/conversion/net/docx-to-xls2003/"
-          description: "Электронная таблица Microsoft Excel"
-
-        # format loop
-        - name: "DOCX в XLSB"
-          link: "/conversion/net/docx-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "DOCX в XLSM"
-          link: "/conversion/net/docx-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOCX в XLSX"
-          link: "/conversion/net/docx-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "DOCX в XLT"
-          link: "/conversion/net/docx-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DOCX в XLTM"
-          link: "/conversion/net/docx-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOCX в XLTX"
-          link: "/conversion/net/docx-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DOCX в XPS"
-          link: "/conversion/net/docx-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования DOCX"
+    content: "Вы также можете конвертировать DOCX во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

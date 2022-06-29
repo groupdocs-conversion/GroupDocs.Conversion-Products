@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:09:19
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "Конвертер DOC в XLAM — преобразование DOC в XLAM на C# .NET"
-head_description: "Как преобразовать DOC в XLAM в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер DOC в XLAM на C#"
+head_description: "Преобразовать DOC в XLAM на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование DOC в XLAM на C#"
-description: "Нативное и высокопроизводительное преобразование DOC в XLAM с использованием GroupDocs на стороне сервера. Преобразование для .NET API без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать DOC в XLAM на C#"
+description: "Конвертер DOC в XLAM с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,421 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы DOC в файлы XLAM в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию DOC в XLAM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DOC и сохранения выходного результата XLAM.
+        
+        Например, для исходного файла DOC можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла XLAM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл XLAM.
+
+        После завершения преобразования вы можете сохранить файл XLAM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования DOC в XLAM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию DOC в XLAM в C#"
+    title_left: "Шаги по конвертации DOC в XLAM в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла DOC в XLAM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла DOC в XLAM с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл DOC с полным путем
-        * Создайте и установите ConvertOptions для типа xlam
+        * Создайте и установите ConvertOptions для типа XLAM.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (XLAM) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем DOC-файл
+        // Загружаем DOC файл
         var converter = new GroupDocs.Conversion.Converter("template.doc");
-        // устанавливаем параметры преобразования для формата XLAM
+        // Устанавливаем параметры конвертации для формата XLAM
         var convertOptions = converter.GetPossibleConversions()["xlam"].ConvertOptions;
-        // преобразовать в формат XLAM
-        converter.Convert("output.xlam", convertOptions);
+        // Преобразовать в формат XLAM
+        converter.Convert("output.xlam", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "DOC в XLAM Живые демонстрации"
+    title: "Демонстрация DOC в XLAM"
     content: |
-        Конвертируйте DOC в XLAM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " О формате файла DOC"
-          content: |
-            Файлы с расширением .DOC представляют собой документы, сгенерированные Microsoft Word или другими текстовыми редакторами в двоичном формате. Первоначально расширение использовалось для текстовой документации в нескольких различных операционных системах. Он может содержать несколько различных типов данных, таких как изображения, форматированный, а также обычный текст, графики, диаграммы, встроенные объекты, ссылки, страницы, форматирование страниц, настройки печати и многое другое.
+       Конвертируйте DOC в XLAM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/word-processing/doc/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-XLAM"
-          title: " О формате файла XLAM"
-          content: |
-            Файлы XLAM используются для расширения модулей, предоставляемых Excel. Их можно добавить в Excel 2007 или более позднюю версию или в более ранние версии Excel с поддержкой компонентов Open XML. Файл, используемый Microsoft Excel — программой, которая позволяет пользователям создавать и редактировать электронные таблицы. содержит надстройку с поддержкой макросов, которая предоставляет дополнительные функции и инструменты для выполнения макросов.
-
-          link: "https://docs.fileformat.com/spreadsheet/xlam/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать DOC во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "DOC в BMP"
-          link: "/conversion/net/doc-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "DOC в CSV"
-          link: "/conversion/net/doc-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "DOC в DCM"
-          link: "/conversion/net/doc-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "DOC в DIF"
-          link: "/conversion/net/doc-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "DOC в DNG"
-          link: "/conversion/net/doc-to-dng/"
-          description: "Формат изображения цифровой камеры"
-
-        # format loop
-        - name: "DOC в DOCM"
-          link: "/conversion/net/doc-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DOC в DOCX"
-          link: "/conversion/net/doc-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "DOC в DOT"
-          link: "/conversion/net/doc-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "DOC в DOTM"
-          link: "/conversion/net/doc-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DOC в DOTX"
-          link: "/conversion/net/doc-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "DOC в EMF"
-          link: "/conversion/net/doc-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "DOC в EMZ"
-          link: "/conversion/net/doc-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "DOC в EPUB"
-          link: "/conversion/net/doc-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "DOC в FODP"
-          link: "/conversion/net/doc-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "DOC в FODS"
-          link: "/conversion/net/doc-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "DOC в GIF"
-          link: "/conversion/net/doc-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "DOC в HTM"
-          link: "/conversion/net/doc-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "DOC в HTML"
-          link: "/conversion/net/doc-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "DOC в ICO"
-          link: "/conversion/net/doc-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "DOC в JP2"
-          link: "/conversion/net/doc-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "DOC в JPEG"
-          link: "/conversion/net/doc-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "DOC в JPG"
-          link: "/conversion/net/doc-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "DOC в MD"
-          link: "/conversion/net/doc-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "DOC в MHT"
-          link: "/conversion/net/doc-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DOC в MHTML"
-          link: "/conversion/net/doc-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DOC в MOBI"
-          link: "/conversion/net/doc-to-mobi/"
-          description: "Электронная книга Mobipocket"
-
-        # format loop
-        - name: "DOC в ODP"
-          link: "/conversion/net/doc-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "DOC в ODS"
-          link: "/conversion/net/doc-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "DOC в ODT"
-          link: "/conversion/net/doc-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "DOC в OTP"
-          link: "/conversion/net/doc-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "DOC в OTT"
-          link: "/conversion/net/doc-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "DOC в PDF"
-          link: "/conversion/net/doc-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "DOC в PNG"
-          link: "/conversion/net/doc-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "DOC в POT"
-          link: "/conversion/net/doc-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "DOC в POTM"
-          link: "/conversion/net/doc-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOC в POTX"
-          link: "/conversion/net/doc-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOC в PPS"
-          link: "/conversion/net/doc-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOC в PPSM"
-          link: "/conversion/net/doc-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOC в PPSX"
-          link: "/conversion/net/doc-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "DOC в PPT"
-          link: "/conversion/net/doc-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "DOC в PPTM"
-          link: "/conversion/net/doc-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOC в PPTX"
-          link: "/conversion/net/doc-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "DOC в PSD"
-          link: "/conversion/net/doc-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "DOC в RTF"
-          link: "/conversion/net/doc-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "DOC в SVG"
-          link: "/conversion/net/doc-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DOC в SVGZ"
-          link: "/conversion/net/doc-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DOC в SXC"
-          link: "/conversion/net/doc-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "DOC в TEX"
-          link: "/conversion/net/doc-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "DOC в TIF"
-          link: "/conversion/net/doc-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DOC в TIFF"
-          link: "/conversion/net/doc-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DOC в TSV"
-          link: "/conversion/net/doc-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "DOC в TXT"
-          link: "/conversion/net/doc-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "DOC в WEBP"
-          link: "/conversion/net/doc-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "DOC в WMF"
-          link: "/conversion/net/doc-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "DOC в WMZ"
-          link: "/conversion/net/doc-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "DOC в XLS"
-          link: "/conversion/net/doc-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "DOC в XLSB"
-          link: "/conversion/net/doc-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "DOC в XLSM"
-          link: "/conversion/net/doc-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOC в XLSX"
-          link: "/conversion/net/doc-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "DOC в XLT"
-          link: "/conversion/net/doc-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DOC в XLTM"
-          link: "/conversion/net/doc-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOC в XLTX"
-          link: "/conversion/net/doc-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DOC в XPS"
-          link: "/conversion/net/doc-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back к top ###############################
+    title: "Другие поддерживаемые преобразования DOC"
+    content: "Вы также можете конвертировать DOC во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:19:15
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 
 ############################# Head ############################
-head_title: "Преобразователь VSSM в PPSM — преобразование VSSM в PPSM на C# .NET"
-head_description: "Как преобразовать VSSM в PPSM в C# .NET, используя несколько строк кода? Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер VSSM в PPSM на C#"
+head_description: "Преобразовать VSSM в PPSM на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразование VSSM в PPSM в C#"
-description: "Нативное и высокопроизводительное преобразование VSSM в PPSM с использованием GroupDocs на стороне сервера. Преобразование для API .NET без использования какого-либо программного обеспечения, такого как Microsoft или Open Office."
+title: "Преобразовать VSSM в PPSM на C#"
+description: "Конвертер VSSM в PPSM с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,416 +27,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "О GroupDocs.Conversion для .NET API"
     content: |
-        API GroupDocs.Conversion можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы VSSM в файлы PPSM в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию VSSM в PPSM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла VSSM и сохранения выходного результата PPSM.
+        
+        Например, для исходного файла VSSM можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла PPSM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл PPSM.
+
+        После завершения преобразования вы можете сохранить файл PPSM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования VSSM в PPSM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по преобразованию VSSM в PPSM в C#"
+    title_left: "Шаги по конвертации VSSM в PPSM в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/) упрощает для разработчиков преобразование файла VSSM в PPSM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла VSSM в PPSM с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл VSSM с полным путем
-        * Создайте и установите ConvertOptions для типа ppsm
+        * Создайте и установите ConvertOptions для типа PPSM.
         * Вызовите метод Converter.Convert и передайте полный путь и формат (PPSM) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для API .NET можно выполнить, выполнив несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET, загруженную с [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // загружаем файл VSSM
+        // Загружаем VSSM файл
         var converter = new GroupDocs.Conversion.Converter("template.vssm");
-        // устанавливаем параметры преобразования для формата PPSM
+        // Устанавливаем параметры конвертации для формата PPSM
         var convertOptions = converter.GetPossibleConversions()["ppsm"].ConvertOptions;
-        // преобразовать в формат PPSM
-        converter.Convert("output.ppsm", convertOptions);
+        // Преобразовать в формат PPSM
+        converter.Convert("output.ppsm", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации VSSM в PPSM в реальном времени"
+    title: "Демонстрация VSSM в PPSM"
     content: |
-        Преобразуйте VSSM в PPSM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-alt"
-          title: " О формате файла VSSM"
-          content: |
-            Файлы с расширением .VSSM — это файлы Microsoft Visio Stencil, которые поддерживают макросы. Файл VSSM при открытии позволяет запускать макросы для достижения желаемого форматирования и размещения фигур на диаграмме. В общем, Microsoft Visio — это программное обеспечение для рисования, которое позволяет создавать файлы, которые могут содержать и представлять определяемую пользователем информацию в различных формах.
+       Конвертируйте VSSM в PPSM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+          
 
-          link: "https://docs.fileformat.com/image/vssm/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " О формате файла PPSM"
-          content: |
-            Файлы с расширением PPSM представляют собой формат файлов слайд-шоу с поддержкой макросов, созданный с помощью Microsoft PowerPoint 2007 или более поздней версии. Другим похожим форматом файла является PPTM, который отличается тем, что открывается с помощью Microsoft PowerPoint в редактируемом формате, а не в виде слайд-шоу. При запуске в виде слайд-шоу файл PPSM показывает слайды презентации с неповрежденным содержимым в слайд-шоу и по умолчанию находится в режиме только для чтения. Файлы PPSM по-прежнему можно редактировать в Microsoft PowerPoint, открыв их в PowerPoint.
-
-          link: "https://docs.fileformat.com/presentation/ppsm/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать VSSM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "VSSM в BMP"
-          link: "/conversion/net/vssm-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "VSSM в CSV"
-          link: "/conversion/net/vssm-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "VSSM в DCM"
-          link: "/conversion/net/vssm-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "VSSM в DIF"
-          link: "/conversion/net/vssm-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "VSSM в DOC"
-          link: "/conversion/net/vssm-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "VSSM в DOCM"
-          link: "/conversion/net/vssm-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "VSSM в DOCX"
-          link: "/conversion/net/vssm-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "VSSM в DOT"
-          link: "/conversion/net/vssm-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "VSSM в DOTM"
-          link: "/conversion/net/vssm-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "VSSM в DOTX"
-          link: "/conversion/net/vssm-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "VSSM в EMF"
-          link: "/conversion/net/vssm-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "VSSM в EMZ"
-          link: "/conversion/net/vssm-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "VSSM в EPUB"
-          link: "/conversion/net/vssm-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "VSSM в FODP"
-          link: "/conversion/net/vssm-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "VSSM в FODS"
-          link: "/conversion/net/vssm-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "VSSM в GIF"
-          link: "/conversion/net/vssm-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "VSSM в HTM"
-          link: "/conversion/net/vssm-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "VSSM в HTML"
-          link: "/conversion/net/vssm-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "VSSM в ICO"
-          link: "/conversion/net/vssm-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "VSSM в JP2"
-          link: "/conversion/net/vssm-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "VSSM в JPEG"
-          link: "/conversion/net/vssm-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "VSSM в JPG"
-          link: "/conversion/net/vssm-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "VSSM в MD"
-          link: "/conversion/net/vssm-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "VSSM в MHT"
-          link: "/conversion/net/vssm-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "VSSM в MHTML"
-          link: "/conversion/net/vssm-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "VSSM в ODP"
-          link: "/conversion/net/vssm-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "VSSM в ODS"
-          link: "/conversion/net/vssm-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "VSSM в ODT"
-          link: "/conversion/net/vssm-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "VSSM в OTP"
-          link: "/conversion/net/vssm-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "VSSM в OTT"
-          link: "/conversion/net/vssm-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "VSSM в PDF"
-          link: "/conversion/net/vssm-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "VSSM в PNG"
-          link: "/conversion/net/vssm-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "VSSM в POT"
-          link: "/conversion/net/vssm-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "VSSM в POTM"
-          link: "/conversion/net/vssm-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "VSSM в POTX"
-          link: "/conversion/net/vssm-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "VSSM в PPS"
-          link: "/conversion/net/vssm-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "VSSM в PPSX"
-          link: "/conversion/net/vssm-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "VSSM в PPT"
-          link: "/conversion/net/vssm-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "VSSM в PPTM"
-          link: "/conversion/net/vssm-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "VSSM в PPTX"
-          link: "/conversion/net/vssm-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "VSSM в PSD"
-          link: "/conversion/net/vssm-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "VSSM в RTF"
-          link: "/conversion/net/vssm-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "VSSM в SVG"
-          link: "/conversion/net/vssm-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "VSSM в SVGZ"
-          link: "/conversion/net/vssm-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "VSSM в SXC"
-          link: "/conversion/net/vssm-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "VSSM в TEX"
-          link: "/conversion/net/vssm-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "VSSM в TIF"
-          link: "/conversion/net/vssm-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "VSSM в TIFF"
-          link: "/conversion/net/vssm-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "VSSM в TSV"
-          link: "/conversion/net/vssm-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "VSSM в TXT"
-          link: "/conversion/net/vssm-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "VSSM в WEBP"
-          link: "/conversion/net/vssm-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "VSSM в WMF"
-          link: "/conversion/net/vssm-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "VSSM в WMZ"
-          link: "/conversion/net/vssm-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "VSSM в XLAM"
-          link: "/conversion/net/vssm-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VSSM в XLS"
-          link: "/conversion/net/vssm-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "VSSM в XLSB"
-          link: "/conversion/net/vssm-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "VSSM в XLSM"
-          link: "/conversion/net/vssm-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VSSM в XLSX"
-          link: "/conversion/net/vssm-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "VSSM в XLT"
-          link: "/conversion/net/vssm-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "VSSM в XLTM"
-          link: "/conversion/net/vssm-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VSSM в XLTX"
-          link: "/conversion/net/vssm-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "VSSM в XPS"
-          link: "/conversion/net/vssm-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования VSSM"
+    content: "Вы также можете конвертировать VSSM во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -10,8 +10,8 @@ head_title: "Конвертация файлов {{$3_1}}_UPPER в {{$3_2}}_UPPE
 head_description: "Преобразование {{$3_1}}_UPPER в {{$3_2}}_UPPER на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Конвертировать {{$3_1}}_UPPER в {{$3_2}}_UPPER"
-description: "Перевести {{$3_1}}_UPPER в {{$3_2}}_UPPER с помощью нескольких строк кода на Java"
+title: "Конвертировать {{$3_1}}_UPPER в {{$3_2}}_UPPER на Java"
+description: "Перевести {{$3_1}}_UPPER в {{$3_2}}_UPPER с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -74,10 +74,6 @@ demos:
     content: |
        Конвертируйте {{$3_1}}_UPPER в {{$3_2}}_UPPER прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
        
-
-about_formats:
-    enable: true    
-
 
 more_formats:
     enable: true

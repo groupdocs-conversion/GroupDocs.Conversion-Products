@@ -7,11 +7,11 @@ otherformats: {{otherformats}}
 
 ############################# Head ############################
 head_title: "Конвертер {{$3_1}}_UPPER в {{$3_2}}_UPPER на C#"
-head_description: "Преобразовать {{$3_1}}_UPPER в {{$3_2}}_UPPER на C#, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_description: "Преобразовать {{$3_1}}_UPPER в {{$3_2}}_UPPER на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразовать {{$3_1}}_UPPER в {{$3_2}}_UPPER"
-description: "Конвертер {{$3_1}}_UPPER в {{$3_2}}_UPPER с помощью нескольких строк C# кода"
+title: "Преобразовать {{$3_1}}_UPPER в {{$3_2}}_UPPER на C#"
+description: "Конвертер {{$3_1}}_UPPER в {{$3_2}}_UPPER с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -46,7 +46,7 @@ steps:
 
         * Создайте экземпляр класса Converter и загрузите файл {{$3_1}}_UPPER с полным путем
         * Создайте и установите ConvertOptions для типа {{$3_2}}_UPPER.
-        * Вызовите метод Converter.Conver и передайте полный путь и формат ({{$3_2}}_UPPER) в качестве параметра
+        * Вызовите метод Converter.Convert и передайте полный путь и формат ({{$3_2}}_UPPER) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
@@ -72,11 +72,7 @@ demos:
     title: "Демонстрация {{$3_1}}_UPPER в {{$3_2}}_UPPER"
     content: |
        Конвертируйте {{$3_1}}_UPPER в {{$3_2}}_UPPER прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
-       
-
-about_formats:
-    enable: true    
-
+          
 
 more_formats:
     enable: true

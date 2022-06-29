@@ -6,12 +6,12 @@ draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Конвертер AI в SVG на C#"
-head_description: "Преобразовать AI в SVG на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_title: "Конвертер AI в TGA на C#"
+head_description: "Преобразовать AI в TGA на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразовать AI в SVG на C#"
-description: "Конвертер AI в SVG с помощью нескольких строк .NET кода"
+title: "Преобразовать AI в TGA на C#"
+description: "Конвертер AI в TGA с помощью нескольких строк .NET кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по конвертации AI в SVG в C#"
+    title_left: "Шаги по конвертации AI в TGA в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла AI в SVG с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла AI в TGA с помощью нескольких строк кода.
 
         * Создайте экземпляр класса Converter и загрузите файл AI с полным путем
-        * Создайте и установите ConvertOptions для типа SVG.
-        * Вызовите метод Converter.Convert и передайте полный путь и формат (SVG) в качестве параметра
+        * Создайте и установите ConvertOptions для типа TGA.
+        * Вызовите метод Converter.Convert и передайте полный путь и формат (TGA) в качестве параметра
         
     title_right: "Системные Требования"
     content_right: |
@@ -61,17 +61,17 @@ steps:
         ```cs
         // Загружаем AI файл
         var converter = new GroupDocs.Conversion.Converter("template.ai");
-        // Устанавливаем параметры конвертации для формата SVG
-        var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // Преобразовать в формат SVG
-        converter.Convert("output.svg", convertOptions);        
+        // Устанавливаем параметры конвертации для формата TGA
+        var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
+        // Преобразовать в формат TGA
+        converter.Convert("output.tga", convertOptions);        
         ```
         
 demos:
     enable: true
-    title: "Демонстрация AI в SVG"
+    title: "Демонстрация AI в TGA"
     content: |
-       Конвертируйте AI в SVG прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+       Конвертируйте AI в TGA прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
           
 
 more_formats:

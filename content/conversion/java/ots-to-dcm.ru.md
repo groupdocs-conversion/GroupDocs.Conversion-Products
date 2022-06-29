@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:17:09
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 
 ############################# Head ############################
-head_title: "Преобразование OTS в DCM в Java — преобразование OTS в DCM"
-head_description: "Преобразование OTS в DCM на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов OTS в DCM на Java"
+head_description: "Преобразование OTS в DCM на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов OTS в DCM в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать OTS в DCM на Java"
+description: "Перевести OTS в DCM с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,13 +35,36 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы OTS в файлы DCM в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию OTS в DCM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла OTS и сохранения выходного результата DCM.
+        
+        Например, для исходного файла OTS можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла DCM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DCM.
+
+        После завершения преобразования вы можете сохранить файл DCM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования OTS в DCM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию OTS в DCM в Java"
+    title_left: "Шаги для конвертации OTS в DCM на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл OTS в DCM, написав всего несколько строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл OTS в DCM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл OTS с полным путем
         * Установите ConvertOptions для типа документа DCM.
@@ -91,360 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации OTS в DCM Live"
+    title: "Демонстрация OTS в DCM"
     content: |
-        Преобразуйте OTS в DCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-OTS"
-          title: " О формате файла OTS"
-          content: |
-            OTS — это шаблон электронной таблицы в формате OpenDocument. Файлы OTS используются для создания файлов ODS с тем же стилем и форматированием.
+       Конвертируйте OTS в DCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/spreadsheet/ots/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла DCM"
-          content: |
-            Файлы с расширением .DCM представляют собой цифровое изображение, в котором хранится медицинская информация о пациентах, такая как МРТ, компьютерная томография и ультразвуковые изображения. Файлы DCM используют формат файла изображения DICOM (Digital Imaging and Communications in Medicine) и могут включать информацию о пациенте для справки. Он был разработан Национальной ассоциацией производителей электрооборудования (NEMA) и предназначался для стандартизации формата файлов изображений для распространения и просмотра медицинских изображений.
-
-          link: "https://docs.fileformat.com/page-description-language/pcl/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать OTS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "OTS в BMP"
-          link: "/conversion/java/ots-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "OTS в CSV"
-          link: "/conversion/java/ots-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "OTS в DIF"
-          link: "/conversion/java/ots-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "OTS в DOC"
-          link: "/conversion/java/ots-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "OTS в DOCM"
-          link: "/conversion/java/ots-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "OTS в DOCX"
-          link: "/conversion/java/ots-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "OTS в DOT"
-          link: "/conversion/java/ots-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "OTS в DOTM"
-          link: "/conversion/java/ots-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "OTS в DOTX"
-          link: "/conversion/java/ots-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "OTS в EMF"
-          link: "/conversion/java/ots-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "OTS в EMZ"
-          link: "/conversion/java/ots-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "OTS в EPUB"
-          link: "/conversion/java/ots-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "OTS в FODP"
-          link: "/conversion/java/ots-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "OTS в FODS"
-          link: "/conversion/java/ots-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "OTS в GIF"
-          link: "/conversion/java/ots-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "OTS в HTM"
-          link: "/conversion/java/ots-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "OTS в HTML"
-          link: "/conversion/java/ots-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "OTS в ICO"
-          link: "/conversion/java/ots-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "OTS в JP2"
-          link: "/conversion/java/ots-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "OTS в JPEG"
-          link: "/conversion/java/ots-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "OTS в JPG"
-          link: "/conversion/java/ots-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "OTS в MD"
-          link: "/conversion/java/ots-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "OTS в MHT"
-          link: "/conversion/java/ots-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "OTS в MHTML"
-          link: "/conversion/java/ots-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "OTS в MOBI"
-          link: "/conversion/java/ots-to-mobi/"
-          description: "Электронная книга Mobipocket"
-
-        # format loop
-        - name: "OTS в ODP"
-          link: "/conversion/java/ots-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "OTS в ODS"
-          link: "/conversion/java/ots-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "OTS в ODT"
-          link: "/conversion/java/ots-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "OTS в OTP"
-          link: "/conversion/java/ots-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "OTS в OTT"
-          link: "/conversion/java/ots-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "OTS в PDF"
-          link: "/conversion/java/ots-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "OTS в PNG"
-          link: "/conversion/java/ots-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "OTS в POT"
-          link: "/conversion/java/ots-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "OTS в POTM"
-          link: "/conversion/java/ots-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "OTS в POTX"
-          link: "/conversion/java/ots-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "OTS в PPS"
-          link: "/conversion/java/ots-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "OTS в PPSM"
-          link: "/conversion/java/ots-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "OTS в PPSX"
-          link: "/conversion/java/ots-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "OTS в PPT"
-          link: "/conversion/java/ots-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "OTS в PPTM"
-          link: "/conversion/java/ots-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "OTS в PPTX"
-          link: "/conversion/java/ots-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "OTS в PSD"
-          link: "/conversion/java/ots-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "OTS в RTF"
-          link: "/conversion/java/ots-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "OTS в SVG"
-          link: "/conversion/java/ots-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "OTS в SVGZ"
-          link: "/conversion/java/ots-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "OTS в SXC"
-          link: "/conversion/java/ots-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "OTS в TEX"
-          link: "/conversion/java/ots-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "OTS в TIF"
-          link: "/conversion/java/ots-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "OTS в TIFF"
-          link: "/conversion/java/ots-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "OTS в TSV"
-          link: "/conversion/java/ots-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "OTS в TXT"
-          link: "/conversion/java/ots-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "OTS в WEBP"
-          link: "/conversion/java/ots-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "OTS в WMF"
-          link: "/conversion/java/ots-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "OTS в WMZ"
-          link: "/conversion/java/ots-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "OTS в XLAM"
-          link: "/conversion/java/ots-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "OTS в XLS"
-          link: "/conversion/java/ots-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "OTS в XLSB"
-          link: "/conversion/java/ots-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "OTS в XLSM"
-          link: "/conversion/java/ots-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "OTS в XLSX"
-          link: "/conversion/java/ots-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "OTS в XLT"
-          link: "/conversion/java/ots-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "OTS в XLTM"
-          link: "/conversion/java/ots-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "OTS в XLTX"
-          link: "/conversion/java/ots-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "OTS в XPS"
-          link: "/conversion/java/ots-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования OTS"
+    content: "Вы также можете конвертировать OTS во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:10:33
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 
 ############################# Head ############################
-head_title: "Преобразование CF2 в TIF в Java — Преобразование CF2 в TIF"
-head_description: "Преобразуйте CF2 в TIF на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов CF2 в TIF на Java"
+head_description: "Преобразование CF2 в TIF на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов CF2 в TIF в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать CF2 в TIF на Java"
+description: "Перевести CF2 в TIF с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы CF2 в файлы TIF в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию CF2 в TIF и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла CF2 и сохранения выходного результата TIF.
+        
+        Например, для исходного файла CF2 можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла TIF:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл TIF.
+
+        После завершения преобразования вы можете сохранить файл TIF по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования CF2 в TIF не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования CF2 в TIF в Java"
+    title_left: "Шаги для конвертации CF2 в TIF на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла CF2 в TIF с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл CF2 в TIF с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл CF2 с полным путем
-        * Установите ConvertOptions для типа документа TIF
+        * Установите ConvertOptions для типа документа TIF.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (TIF) в качестве параметра
         
     title_right: "Системные Требования"
@@ -84,362 +83,26 @@ steps:
         ```java
         // Загрузите исходный файл CF2 для преобразования
         Converter converter = new Converter("input.cf2");
-        // Готовим параметры преобразования для целевого формата TIF
+        // Подготовьте параметры преобразования для целевого формата TIF
         ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
         // Преобразование в формат TIF
         converter.convert("output.tif", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации CF2 в TIF Live"
+    title: "Демонстрация CF2 в TIF"
     content: |
-        Конвертируйте CF2 в TIF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-CF2"
-          title: " О формате файла CF2"
-          content: |
-            Файл с расширением .cf2 представляет собой формат файла САПР, который содержит чертежи 3D-пакетов или другие данные модели для высечки. Большинство машин CAD/CAM могут обрабатывать и вырезать эти файлы. Он был создан Национальным центром данных космической науки (NSSDC) для обеспечения самоописываемого формата хранения и обработки данных, который соответствует структуре научных данных и приложений, таких как статистические и численные методы, визуализация и управление.
+       Конвертируйте CF2 в TIF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/cad/cf2/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла TIF"
-          content: |
-            TIF или TIFF, Tagged Image File Format, представляют собой растровые изображения, которые предназначены для использования на различных устройствах, соответствующих этому стандарту формата файлов. Он способен описывать двухуровневые, полутоновые, палитры и полноцветные данные изображения в нескольких цветовых пространствах. Он поддерживает схемы сжатия с потерями, а также без потерь, чтобы выбирать между пространством и временем для приложений, использующих формат.
-
-          link: "https://docs.fileformat.com/image/tiff/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать CF2 во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "CF2 в BMP"
-          link: "/conversion/java/cf2-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "CF2 в CSV"
-          link: "/conversion/java/cf2-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "CF2 в DCM"
-          link: "/conversion/java/cf2-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "CF2 в DIF"
-          link: "/conversion/java/cf2-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "CF2 в DOC"
-          link: "/conversion/java/cf2-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "CF2 в DOCM"
-          link: "/conversion/java/cf2-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "CF2 в DOCX"
-          link: "/conversion/java/cf2-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "CF2 в DOT"
-          link: "/conversion/java/cf2-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "CF2 в DOTM"
-          link: "/conversion/java/cf2-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "CF2 в DOTX"
-          link: "/conversion/java/cf2-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "CF2 в EMF"
-          link: "/conversion/java/cf2-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "CF2 в EMZ"
-          link: "/conversion/java/cf2-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "CF2 в EPUB"
-          link: "/conversion/java/cf2-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "CF2 в FODP"
-          link: "/conversion/java/cf2-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "CF2 в FODS"
-          link: "/conversion/java/cf2-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "CF2 в GIF"
-          link: "/conversion/java/cf2-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "CF2 в HTM"
-          link: "/conversion/java/cf2-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "CF2 в HTML"
-          link: "/conversion/java/cf2-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "CF2 в ICO"
-          link: "/conversion/java/cf2-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "CF2 в JP2"
-          link: "/conversion/java/cf2-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "CF2 в JPEG"
-          link: "/conversion/java/cf2-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "CF2 в JPG"
-          link: "/conversion/java/cf2-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "CF2 в MD"
-          link: "/conversion/java/cf2-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "CF2 в MHT"
-          link: "/conversion/java/cf2-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "CF2 в MHTML"
-          link: "/conversion/java/cf2-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "CF2 в ODP"
-          link: "/conversion/java/cf2-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "CF2 в ODS"
-          link: "/conversion/java/cf2-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "CF2 в ODT"
-          link: "/conversion/java/cf2-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "CF2 в OTP"
-          link: "/conversion/java/cf2-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "CF2 в OTT"
-          link: "/conversion/java/cf2-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "CF2 в PDF"
-          link: "/conversion/java/cf2-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "CF2 в PNG"
-          link: "/conversion/java/cf2-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "CF2 в POT"
-          link: "/conversion/java/cf2-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "CF2 в POTM"
-          link: "/conversion/java/cf2-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "CF2 в POTX"
-          link: "/conversion/java/cf2-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "CF2 в PPS"
-          link: "/conversion/java/cf2-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "CF2 в PPSM"
-          link: "/conversion/java/cf2-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "CF2 в PPSX"
-          link: "/conversion/java/cf2-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "CF2 в PPT"
-          link: "/conversion/java/cf2-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "CF2 в PPTM"
-          link: "/conversion/java/cf2-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "CF2 в PPTX"
-          link: "/conversion/java/cf2-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "CF2 в PSD"
-          link: "/conversion/java/cf2-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "CF2 в RTF"
-          link: "/conversion/java/cf2-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "CF2 в SVG"
-          link: "/conversion/java/cf2-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "CF2 в SVGZ"
-          link: "/conversion/java/cf2-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "CF2 в SXC"
-          link: "/conversion/java/cf2-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "CF2 в TEX"
-          link: "/conversion/java/cf2-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "CF2 в TIFF"
-          link: "/conversion/java/cf2-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "CF2 в TSV"
-          link: "/conversion/java/cf2-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "CF2 в TXT"
-          link: "/conversion/java/cf2-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "CF2 в WEBP"
-          link: "/conversion/java/cf2-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "CF2 в WMF"
-          link: "/conversion/java/cf2-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "CF2 в WMZ"
-          link: "/conversion/java/cf2-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "CF2 в XLAM"
-          link: "/conversion/java/cf2-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "CF2 в XLS"
-          link: "/conversion/java/cf2-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "CF2 в XLSB"
-          link: "/conversion/java/cf2-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "CF2 в XLSM"
-          link: "/conversion/java/cf2-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "CF2 в XLSX"
-          link: "/conversion/java/cf2-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "CF2 в XLT"
-          link: "/conversion/java/cf2-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "CF2 в XLTM"
-          link: "/conversion/java/cf2-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "CF2 в XLTX"
-          link: "/conversion/java/cf2-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "CF2 в XPS"
-          link: "/conversion/java/cf2-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования CF2"
+    content: "Вы также можете конвертировать CF2 во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

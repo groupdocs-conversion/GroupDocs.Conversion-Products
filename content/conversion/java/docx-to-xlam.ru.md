@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:11:40
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "Преобразование DOCX в XLAM в Java — преобразование DOCX в XLAM"
-head_description: "Преобразование DOCX в XLAM на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов DOCX в XLAM на Java"
+head_description: "Преобразование DOCX в XLAM на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов DOCX в XLAM в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать DOCX в XLAM на Java"
+description: "Перевести DOCX в XLAM с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы DOCX в файлы XLAM в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию DOCX в XLAM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DOCX и сохранения выходного результата XLAM.
+        
+        Например, для исходного файла DOCX можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла XLAM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл XLAM.
+
+        После завершения преобразования вы можете сохранить файл XLAM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования DOCX в XLAM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования DOCX в XLAM в Java"
+    title_left: "Шаги для конвертации DOCX в XLAM на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл DOCX в XLAM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл DOCX с полным путем
-        * Установите ConvertOptions для типа документа XLAM
+        * Установите ConvertOptions для типа документа XLAM.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (XLAM) в качестве параметра
         
     title_right: "Системные Требования"
@@ -91,360 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "DOCX в XLAM Живые демонстрации"
+    title: "Демонстрация DOCX в XLAM"
     content: |
-        Конвертируйте DOCX в XLAM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " О формате файла DOCX"
-          content: |
-            Docx — широко известный формат документов Microsoft Word. Представленный в 2007 году с выпуском Microsoft Office 2007, структура этого нового формата документа была изменена с простого двоичного файла на комбинацию XML и двоичных файлов. Файлы Docx можно открывать в Word 2007 и его более поздних версиях, но не в более ранних версиях MS Word, которые поддерживают расширения файлов DOC.
+       Конвертируйте DOCX в XLAM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/word-processing/docx/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-XLAM"
-          title: " О формате файла XLAM"
-          content: |
-            Файлы XLAM используются для расширения модулей, предоставляемых Excel. Их можно добавить в Excel 2007 или более позднюю версию или в более ранние версии Excel с поддержкой компонентов Open XML. Файл, используемый Microsoft Excel — программой, которая позволяет пользователям создавать и редактировать электронные таблицы. содержит надстройку с поддержкой макросов, которая предоставляет дополнительные функции и инструменты для выполнения макросов.
-
-          link: "https://docs.fileformat.com/spreadsheet/xlam/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать DOCX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "DOCX в BMP"
-          link: "/conversion/java/docx-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "DOCX в CSV"
-          link: "/conversion/java/docx-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "DOCX в DCM"
-          link: "/conversion/java/docx-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "DOCX в DIF"
-          link: "/conversion/java/docx-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "DOCX в DOC"
-          link: "/conversion/java/docx-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "DOCX в DOCM"
-          link: "/conversion/java/docx-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DOCX в DOT"
-          link: "/conversion/java/docx-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "DOCX в DOTM"
-          link: "/conversion/java/docx-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DOCX в DOTX"
-          link: "/conversion/java/docx-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "DOCX в EMF"
-          link: "/conversion/java/docx-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "DOCX в EMZ"
-          link: "/conversion/java/docx-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "DOCX в EPUB"
-          link: "/conversion/java/docx-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "DOCX в FODP"
-          link: "/conversion/java/docx-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "DOCX в FODS"
-          link: "/conversion/java/docx-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "DOCX в GIF"
-          link: "/conversion/java/docx-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "DOCX в HTM"
-          link: "/conversion/java/docx-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "DOCX в HTML"
-          link: "/conversion/java/docx-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "DOCX в ICO"
-          link: "/conversion/java/docx-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "DOCX в JP2"
-          link: "/conversion/java/docx-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "DOCX в JPEG"
-          link: "/conversion/java/docx-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "DOCX в JPG"
-          link: "/conversion/java/docx-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "DOCX в MD"
-          link: "/conversion/java/docx-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "DOCX в MHT"
-          link: "/conversion/java/docx-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DOCX в MHTML"
-          link: "/conversion/java/docx-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DOCX в MOBI"
-          link: "/conversion/java/docx-to-mobi/"
-          description: "Электронная книга Mobipocket"
-
-        # format loop
-        - name: "DOCX в ODP"
-          link: "/conversion/java/docx-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "DOCX в ODS"
-          link: "/conversion/java/docx-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "DOCX в ODT"
-          link: "/conversion/java/docx-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "DOCX в OTP"
-          link: "/conversion/java/docx-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "DOCX в OTT"
-          link: "/conversion/java/docx-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "DOCX в PDF"
-          link: "/conversion/java/docx-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "DOCX в PNG"
-          link: "/conversion/java/docx-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "DOCX в POT"
-          link: "/conversion/java/docx-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "DOCX в POTM"
-          link: "/conversion/java/docx-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOCX в POTX"
-          link: "/conversion/java/docx-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOCX в PPS"
-          link: "/conversion/java/docx-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOCX в PPSM"
-          link: "/conversion/java/docx-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOCX в PPSX"
-          link: "/conversion/java/docx-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "DOCX в PPT"
-          link: "/conversion/java/docx-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "DOCX в PPTM"
-          link: "/conversion/java/docx-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOCX в PPTX"
-          link: "/conversion/java/docx-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "DOCX в PSD"
-          link: "/conversion/java/docx-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "DOCX в RTF"
-          link: "/conversion/java/docx-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "DOCX в SVG"
-          link: "/conversion/java/docx-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DOCX в SVGZ"
-          link: "/conversion/java/docx-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DOCX в SXC"
-          link: "/conversion/java/docx-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "DOCX в TEX"
-          link: "/conversion/java/docx-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "DOCX в TIF"
-          link: "/conversion/java/docx-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DOCX в TIFF"
-          link: "/conversion/java/docx-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DOCX в TSV"
-          link: "/conversion/java/docx-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "DOCX в TXT"
-          link: "/conversion/java/docx-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "DOCX в WEBP"
-          link: "/conversion/java/docx-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "DOCX в WMF"
-          link: "/conversion/java/docx-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "DOCX в WMZ"
-          link: "/conversion/java/docx-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "DOCX в XLS"
-          link: "/conversion/java/docx-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "DOCX в XLS2003"
-          link: "/conversion/java/docx-to-xls2003/"
-          description: "Электронная таблица Microsoft Excel"
-
-        # format loop
-        - name: "DOCX в XLSB"
-          link: "/conversion/java/docx-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "DOCX в XLSM"
-          link: "/conversion/java/docx-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOCX в XLSX"
-          link: "/conversion/java/docx-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "DOCX в XLT"
-          link: "/conversion/java/docx-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DOCX в XLTM"
-          link: "/conversion/java/docx-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOCX в XLTX"
-          link: "/conversion/java/docx-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DOCX в XPS"
-          link: "/conversion/java/docx-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования DOCX"
+    content: "Вы также можете конвертировать DOCX во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

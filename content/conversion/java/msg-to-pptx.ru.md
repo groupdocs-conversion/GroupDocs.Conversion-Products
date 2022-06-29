@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:16:16
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Преобразование MSG в PPTX в Java — Преобразование MSG в PPTX"
-head_description: "Преобразуйте MSG в PPTX на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов MSG в PPTX на Java"
+head_description: "Преобразование MSG в PPTX на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов MSG в PPTX в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать MSG в PPTX на Java"
+description: "Перевести MSG в PPTX с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,13 +35,36 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы MSG в файлы PPTX в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию MSG в PPTX и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла MSG и сохранения выходного результата PPTX.
+        
+        Например, для исходного файла MSG можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла PPTX:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл PPTX.
+
+        После завершения преобразования вы можете сохранить файл PPTX по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования MSG в PPTX не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования MSG в PPTX в Java"
+    title_left: "Шаги для конвертации MSG в PPTX на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла MSG в PPTX с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл MSG в PPTX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл MSG с полным путем
         * Установите ConvertOptions для типа документа PPTX.
@@ -91,365 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации MSG в PPTX Live"
+    title: "Демонстрация MSG в PPTX"
     content: |
-        Конвертируйте MSG в PPTX прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-MSG"
-          title: " О формате файла MSG"
-          content: |
-            MSG — это формат файла, используемый Microsoft Outlook и Exchange для хранения сообщений электронной почты, контактов, встреч или других задач. Такие сообщения могут содержать одно или несколько полей электронной почты с указанием отправителя, получателя, темы, даты и тела сообщения или контактной информации, сведений о встрече и одной или нескольких спецификаций задачи. Свойства, составляющие объект Message, в том числе также являются частью файла MSG.
+       Конвертируйте MSG в PPTX прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/email/msg/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " О формате файла PPTX"
-          content: |
-            Файлы с расширением PPTX представляют собой файлы презентаций, созданные с помощью популярного приложения Microsoft PowerPoint. В отличие от предыдущей версии формата файла презентации PPT, которая была двоичной, формат PPTX основан на формате файла презентации Microsoft PowerPoint open XML. Файл презентации — это набор слайдов, каждый из которых может содержать текст, изображения, форматирование, анимацию и другие медиафайлы.
-
-          link: "https://docs.fileformat.com/presentation/pptx/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать MSG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "MSG в BMP"
-          link: "/conversion/java/msg-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "MSG в CSV"
-          link: "/conversion/java/msg-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "MSG в DCM"
-          link: "/conversion/java/msg-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "MSG в DIF"
-          link: "/conversion/java/msg-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "MSG в DOC"
-          link: "/conversion/java/msg-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "MSG в DOCM"
-          link: "/conversion/java/msg-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "MSG в DOCX"
-          link: "/conversion/java/msg-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "MSG в DOT"
-          link: "/conversion/java/msg-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "MSG в DOTM"
-          link: "/conversion/java/msg-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "MSG в DOTX"
-          link: "/conversion/java/msg-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "MSG в EMF"
-          link: "/conversion/java/msg-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "MSG в EML"
-          link: "/conversion/java/msg-to-eml/"
-          description: "Файл сообщения электронной почты"
-
-        # format loop
-        - name: "MSG в EMLX"
-          link: "/conversion/java/msg-to-emlx/"
-          description: "Почтовое сообщение Apple"
-
-        # format loop
-        - name: "MSG в EMZ"
-          link: "/conversion/java/msg-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "MSG в EPUB"
-          link: "/conversion/java/msg-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "MSG в FODP"
-          link: "/conversion/java/msg-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "MSG в FODS"
-          link: "/conversion/java/msg-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "MSG в GIF"
-          link: "/conversion/java/msg-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "MSG в HTM"
-          link: "/conversion/java/msg-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "MSG в HTML"
-          link: "/conversion/java/msg-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "MSG в ICO"
-          link: "/conversion/java/msg-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "MSG в JP2"
-          link: "/conversion/java/msg-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "MSG в JPEG"
-          link: "/conversion/java/msg-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "MSG в JPG"
-          link: "/conversion/java/msg-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "MSG в MD"
-          link: "/conversion/java/msg-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "MSG в MHT"
-          link: "/conversion/java/msg-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "MSG в MHTML"
-          link: "/conversion/java/msg-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "MSG в ODP"
-          link: "/conversion/java/msg-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "MSG в ODS"
-          link: "/conversion/java/msg-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "MSG в ODT"
-          link: "/conversion/java/msg-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "MSG в OTP"
-          link: "/conversion/java/msg-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "MSG в OTT"
-          link: "/conversion/java/msg-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "MSG в PDF"
-          link: "/conversion/java/msg-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "MSG в PNG"
-          link: "/conversion/java/msg-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "MSG в POT"
-          link: "/conversion/java/msg-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "MSG в POTM"
-          link: "/conversion/java/msg-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "MSG в POTX"
-          link: "/conversion/java/msg-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "MSG в PPS"
-          link: "/conversion/java/msg-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "MSG в PPSM"
-          link: "/conversion/java/msg-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "MSG в PPSX"
-          link: "/conversion/java/msg-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "MSG в PPT"
-          link: "/conversion/java/msg-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "MSG в PPTM"
-          link: "/conversion/java/msg-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "MSG в PSD"
-          link: "/conversion/java/msg-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "MSG в RTF"
-          link: "/conversion/java/msg-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "MSG в SVG"
-          link: "/conversion/java/msg-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "MSG в SVGZ"
-          link: "/conversion/java/msg-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "MSG в SXC"
-          link: "/conversion/java/msg-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "MSG в TEX"
-          link: "/conversion/java/msg-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "MSG в TIF"
-          link: "/conversion/java/msg-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "MSG в TIFF"
-          link: "/conversion/java/msg-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "MSG в TSV"
-          link: "/conversion/java/msg-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "MSG в TXT"
-          link: "/conversion/java/msg-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "MSG в WEBP"
-          link: "/conversion/java/msg-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "MSG в WMF"
-          link: "/conversion/java/msg-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "MSG в WMZ"
-          link: "/conversion/java/msg-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "MSG в XLAM"
-          link: "/conversion/java/msg-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MSG в XLS"
-          link: "/conversion/java/msg-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "MSG в XLSB"
-          link: "/conversion/java/msg-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "MSG в XLSM"
-          link: "/conversion/java/msg-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MSG в XLSX"
-          link: "/conversion/java/msg-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "MSG в XLT"
-          link: "/conversion/java/msg-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "MSG в XLTM"
-          link: "/conversion/java/msg-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MSG в XLTX"
-          link: "/conversion/java/msg-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "MSG в XPS"
-          link: "/conversion/java/msg-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования MSG"
+    content: "Вы также можете конвертировать MSG во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

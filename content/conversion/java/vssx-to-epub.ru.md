@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:21:05
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 
 ############################# Head ############################
-head_title: "Преобразование VSSX в EPUB в Java — преобразование VSSX в EPUB"
-head_description: "Преобразование VSSX в EPUB на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов VSSX в EPUB на Java"
+head_description: "Преобразование VSSX в EPUB на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов VSSX в EPUB в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать VSSX в EPUB на Java"
+description: "Перевести VSSX в EPUB с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы VSSX в файлы EPUB в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию VSSX в EPUB и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла VSSX и сохранения выходного результата EPUB.
+        
+        Например, для исходного файла VSSX можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла EPUB:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл EPUB.
+
+        После завершения преобразования вы можете сохранить файл EPUB по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования VSSX в EPUB не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования VSSX в EPUB в Java"
+    title_left: "Шаги для конвертации VSSX в EPUB на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла VSSX в EPUB с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл VSSX в EPUB с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл VSSX с полным путем
-        * Установите ConvertOptions для типа документа EPUB
+        * Установите ConvertOptions для типа документа EPUB.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (EPUB) в качестве параметра
         
     title_right: "Системные Требования"
@@ -91,355 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Преобразование VSSX в EPUB Живые демонстрации"
+    title: "Демонстрация VSSX в EPUB"
     content: |
-        Конвертируйте VSSX в EPUB прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-alt"
-          title: " О формате файла VSSX"
-          content: |
-            Файлы с расширением .VSSX представляют собой наборы элементов для рисования, созданные с помощью Microsoft Visio 2013 и более поздних версий. Формат файла VSSX можно открыть с помощью Visio 2013 и более поздних версий. Файлы Visio известны тем, что представляют различные элементы рисования, такие как набор фигур, соединители, блок-схемы, макет сети, диаграммы UML, диаграммы программного обеспечения, модели баз данных, сопоставление объектов и другую подобную информацию.
+       Конвертируйте VSSX в EPUB прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/image/vssx/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-EPUB"
-          title: " О формате файла EPUB"
-          content: |
-            Файлы с расширением .EPUB представляют собой формат файлов электронных книг, который представляет собой стандартный формат цифровых публикаций для издателей и потребителей. К настоящему времени этот формат стал настолько распространенным, что поддерживается многими электронными книгами и программными приложениями. Например, в Mac OS предустановленное программное обеспечение Books поддерживает открытие таких файлов. Кроме того, существует множество совместимых программ для смартфонов, планшетов и компьютеров.
-
-          link: "https://docs.fileformat.com/ebook/epub/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать VSSX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "VSSX в BMP"
-          link: "/conversion/java/vssx-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "VSSX в CSV"
-          link: "/conversion/java/vssx-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "VSSX в DCM"
-          link: "/conversion/java/vssx-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "VSSX в DIF"
-          link: "/conversion/java/vssx-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "VSSX в DOC"
-          link: "/conversion/java/vssx-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "VSSX в DOCM"
-          link: "/conversion/java/vssx-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "VSSX в DOCX"
-          link: "/conversion/java/vssx-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "VSSX в DOT"
-          link: "/conversion/java/vssx-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "VSSX в DOTM"
-          link: "/conversion/java/vssx-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "VSSX в DOTX"
-          link: "/conversion/java/vssx-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "VSSX в EMF"
-          link: "/conversion/java/vssx-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "VSSX в EMZ"
-          link: "/conversion/java/vssx-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "VSSX в FODP"
-          link: "/conversion/java/vssx-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "VSSX в FODS"
-          link: "/conversion/java/vssx-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "VSSX в GIF"
-          link: "/conversion/java/vssx-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "VSSX в HTM"
-          link: "/conversion/java/vssx-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "VSSX в HTML"
-          link: "/conversion/java/vssx-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "VSSX в ICO"
-          link: "/conversion/java/vssx-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "VSSX в JP2"
-          link: "/conversion/java/vssx-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "VSSX в JPEG"
-          link: "/conversion/java/vssx-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "VSSX в JPG"
-          link: "/conversion/java/vssx-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "VSSX в MD"
-          link: "/conversion/java/vssx-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "VSSX в MHT"
-          link: "/conversion/java/vssx-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "VSSX в MHTML"
-          link: "/conversion/java/vssx-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "VSSX в ODP"
-          link: "/conversion/java/vssx-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "VSSX в ODS"
-          link: "/conversion/java/vssx-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "VSSX в ODT"
-          link: "/conversion/java/vssx-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "VSSX в OTP"
-          link: "/conversion/java/vssx-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "VSSX в OTT"
-          link: "/conversion/java/vssx-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "VSSX в PDF"
-          link: "/conversion/java/vssx-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "VSSX в PNG"
-          link: "/conversion/java/vssx-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "VSSX в POT"
-          link: "/conversion/java/vssx-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "VSSX в POTM"
-          link: "/conversion/java/vssx-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "VSSX в POTX"
-          link: "/conversion/java/vssx-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "VSSX в PPS"
-          link: "/conversion/java/vssx-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "VSSX в PPSM"
-          link: "/conversion/java/vssx-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "VSSX в PPSX"
-          link: "/conversion/java/vssx-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "VSSX в PPT"
-          link: "/conversion/java/vssx-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "VSSX в PPTM"
-          link: "/conversion/java/vssx-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "VSSX в PPTX"
-          link: "/conversion/java/vssx-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "VSSX в PSD"
-          link: "/conversion/java/vssx-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "VSSX в RTF"
-          link: "/conversion/java/vssx-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "VSSX в SVG"
-          link: "/conversion/java/vssx-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "VSSX в SVGZ"
-          link: "/conversion/java/vssx-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "VSSX в SXC"
-          link: "/conversion/java/vssx-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "VSSX в TEX"
-          link: "/conversion/java/vssx-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "VSSX в TIF"
-          link: "/conversion/java/vssx-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "VSSX в TIFF"
-          link: "/conversion/java/vssx-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "VSSX в TSV"
-          link: "/conversion/java/vssx-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "VSSX в TXT"
-          link: "/conversion/java/vssx-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "VSSX в WEBP"
-          link: "/conversion/java/vssx-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "VSSX в WMF"
-          link: "/conversion/java/vssx-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "VSSX в WMZ"
-          link: "/conversion/java/vssx-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "VSSX в XLAM"
-          link: "/conversion/java/vssx-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VSSX в XLS"
-          link: "/conversion/java/vssx-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "VSSX в XLSB"
-          link: "/conversion/java/vssx-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "VSSX в XLSM"
-          link: "/conversion/java/vssx-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VSSX в XLSX"
-          link: "/conversion/java/vssx-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "VSSX в XLT"
-          link: "/conversion/java/vssx-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "VSSX в XLTM"
-          link: "/conversion/java/vssx-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VSSX в XLTX"
-          link: "/conversion/java/vssx-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "VSSX в XPS"
-          link: "/conversion/java/vssx-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования VSSX"
+    content: "Вы также можете конвертировать VSSX во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

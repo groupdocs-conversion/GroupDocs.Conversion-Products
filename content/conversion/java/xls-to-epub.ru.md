@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:22:21
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 
 ############################# Head ############################
-head_title: "Преобразование XLS в EPUB в Java — преобразование XLS в EPUB"
-head_description: "Преобразование XLS в EPUB на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов XLS в EPUB на Java"
+head_description: "Преобразование XLS в EPUB на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов XLS в EPUB в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать XLS в EPUB на Java"
+description: "Перевести XLS в EPUB с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы XLS в файлы EPUB в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию XLS в EPUB и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла XLS и сохранения выходного результата EPUB.
+        
+        Например, для исходного файла XLS можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла EPUB:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл EPUB.
+
+        После завершения преобразования вы можете сохранить файл EPUB по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования XLS в EPUB не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования XLS в EPUB в Java"
+    title_left: "Шаги для конвертации XLS в EPUB на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл XLS в EPUB с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл XLS с полным путем
-        * Установите ConvertOptions для типа документа EPUB
+        * Установите ConvertOptions для типа документа EPUB.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (EPUB) в качестве параметра
         
     title_right: "Системные Требования"
@@ -82,7 +81,7 @@ steps:
         
     code: |
         ```java
-        // Загрузите исходный XLS-файл для преобразования
+        // Загрузите исходный файл XLS для преобразования
         Converter converter = new Converter("input.xls");
         // Подготовьте параметры преобразования для целевого формата EPUB
         ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
@@ -91,350 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "XLS в EPUB Живые демонстрации"
+    title: "Демонстрация XLS в EPUB"
     content: |
-        Конвертируйте XLS в EPUB прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: " О формате файла XLS"
-          content: |
-            Файлы с расширением XLS представляют собой формат двоичных файлов Excel. Такие файлы могут быть созданы Microsoft Excel, а также другими подобными программами для работы с электронными таблицами, такими как OpenOffice Calc или Apple Numbers. Файл, сохраненный Excel, известен как рабочая книга, где каждая рабочая книга может иметь один или несколько рабочих листов. Данные хранятся и отображаются для пользователей в формате таблицы на листе и могут охватывать числовые значения, текстовые данные, формулы, подключения к внешним данным, изображения и диаграммы.
+       Конвертируйте XLS в EPUB прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/spreadsheet/xls/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-EPUB"
-          title: " О формате файла EPUB"
-          content: |
-            Файлы с расширением .EPUB представляют собой формат файлов электронных книг, который представляет собой стандартный формат цифровых публикаций для издателей и потребителей. К настоящему времени этот формат стал настолько распространенным, что поддерживается многими электронными книгами и программными приложениями. Например, в Mac OS предустановленное программное обеспечение Books поддерживает открытие таких файлов. Кроме того, существует множество совместимых программ для смартфонов, планшетов и компьютеров.
-
-          link: "https://docs.fileformat.com/ebook/epub/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать XLS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "XLS в BMP"
-          link: "/conversion/java/xls-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "XLS в CSV"
-          link: "/conversion/java/xls-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "XLS в DCM"
-          link: "/conversion/java/xls-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "XLS в DIF"
-          link: "/conversion/java/xls-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "XLS в DOC"
-          link: "/conversion/java/xls-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "XLS в DOCM"
-          link: "/conversion/java/xls-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "XLS в DOCX"
-          link: "/conversion/java/xls-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "XLS в DOT"
-          link: "/conversion/java/xls-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "XLS в DOTM"
-          link: "/conversion/java/xls-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "XLS в DOTX"
-          link: "/conversion/java/xls-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "XLS в EMF"
-          link: "/conversion/java/xls-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "XLS в EMZ"
-          link: "/conversion/java/xls-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "XLS в FODP"
-          link: "/conversion/java/xls-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "XLS в FODS"
-          link: "/conversion/java/xls-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "XLS в GIF"
-          link: "/conversion/java/xls-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "XLS в HTM"
-          link: "/conversion/java/xls-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "XLS в HTML"
-          link: "/conversion/java/xls-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "XLS в ICO"
-          link: "/conversion/java/xls-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "XLS в JP2"
-          link: "/conversion/java/xls-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "XLS в JPEG"
-          link: "/conversion/java/xls-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "XLS в JPG"
-          link: "/conversion/java/xls-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "XLS в MD"
-          link: "/conversion/java/xls-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "XLS в MHT"
-          link: "/conversion/java/xls-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "XLS в MHTML"
-          link: "/conversion/java/xls-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "XLS в ODP"
-          link: "/conversion/java/xls-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "XLS в ODS"
-          link: "/conversion/java/xls-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "XLS в ODT"
-          link: "/conversion/java/xls-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "XLS в OTP"
-          link: "/conversion/java/xls-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "XLS в OTT"
-          link: "/conversion/java/xls-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "XLS в PDF"
-          link: "/conversion/java/xls-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "XLS в PNG"
-          link: "/conversion/java/xls-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "XLS в POT"
-          link: "/conversion/java/xls-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "XLS в POTM"
-          link: "/conversion/java/xls-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "XLS в POTX"
-          link: "/conversion/java/xls-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "XLS в PPS"
-          link: "/conversion/java/xls-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "XLS в PPSM"
-          link: "/conversion/java/xls-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "XLS в PPSX"
-          link: "/conversion/java/xls-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "XLS в PPT"
-          link: "/conversion/java/xls-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "XLS в PPTM"
-          link: "/conversion/java/xls-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "XLS в PPTX"
-          link: "/conversion/java/xls-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "XLS в PSD"
-          link: "/conversion/java/xls-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "XLS в RTF"
-          link: "/conversion/java/xls-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "XLS в SVG"
-          link: "/conversion/java/xls-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "XLS в SVGZ"
-          link: "/conversion/java/xls-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "XLS в SXC"
-          link: "/conversion/java/xls-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "XLS в TEX"
-          link: "/conversion/java/xls-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "XLS в TIF"
-          link: "/conversion/java/xls-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "XLS в TIFF"
-          link: "/conversion/java/xls-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "XLS в TSV"
-          link: "/conversion/java/xls-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "XLS в TXT"
-          link: "/conversion/java/xls-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "XLS в WEBP"
-          link: "/conversion/java/xls-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "XLS в WMF"
-          link: "/conversion/java/xls-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "XLS в WMZ"
-          link: "/conversion/java/xls-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "XLS в XLAM"
-          link: "/conversion/java/xls-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "XLS в XLSB"
-          link: "/conversion/java/xls-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "XLS в XLSM"
-          link: "/conversion/java/xls-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "XLS в XLSX"
-          link: "/conversion/java/xls-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "XLS в XLT"
-          link: "/conversion/java/xls-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "XLS в XLTM"
-          link: "/conversion/java/xls-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "XLS в XLTX"
-          link: "/conversion/java/xls-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "XLS в XPS"
-          link: "/conversion/java/xls-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования XLS"
+    content: "Вы также можете конвертировать XLS во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

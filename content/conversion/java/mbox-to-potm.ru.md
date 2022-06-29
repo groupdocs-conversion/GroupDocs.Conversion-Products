@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:15:26
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Преобразование MBOX в POTM в Java — преобразование MBOX в POTM"
-head_description: "Преобразуйте MBOX в POTM на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов MBOX в POTM на Java"
+head_description: "Преобразование MBOX в POTM на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов MBOX в POTM в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать MBOX в POTM на Java"
+description: "Перевести MBOX в POTM с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы MBOX в файлы POTM в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию MBOX в POTM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла MBOX и сохранения выходного результата POTM.
+        
+        Например, для исходного файла MBOX можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла POTM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл POTM.
+
+        После завершения преобразования вы можете сохранить файл POTM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования MBOX в POTM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования MBOX в POTM в Java"
+    title_left: "Шаги для конвертации MBOX в POTM на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла MBOX в POTM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл MBOX в POTM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл MBOX с полным путем
-        * Установите ConvertOptions для типа документа POTM
+        * Установите ConvertOptions для типа документа POTM.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (POTM) в качестве параметра
         
     title_right: "Системные Требования"
@@ -84,362 +83,26 @@ steps:
         ```java
         // Загрузите исходный файл MBOX для преобразования
         Converter converter = new Converter("input.mbox");
-        // Готовим параметры преобразования для целевого формата POTM
+        // Подготовьте параметры преобразования для целевого формата POTM
         ConvertOptions convertOptions = new FileType().fromExtension("potm").getConvertOptions();
         // Преобразование в формат POTM
         converter.convert("output.potm", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "MBOX в демоверсии POTM Live"
+    title: "Демонстрация MBOX в POTM"
     content: |
-        Преобразуйте MBOX в POTM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-MBOX"
-          title: " О формате файла MBOX"
-          content: |
-            Формат файла MBox — это общий термин, обозначающий контейнер для сбора сообщений электронной почты. Сообщения хранятся внутри контейнера вместе с их вложениями. Сообщения из всей папки сохраняются в одном файле базы данных, а новые сообщения добавляются в конец файла. Многочисленные приложения и API обеспечивают поддержку формата файлов MBox, например Apple Mail и Mozilla Thunderbird.
+       Конвертируйте MBOX в POTM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/email/mbox/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " О формате файла POTM"
-          content: |
-            Файлы с расширением POTM представляют собой файлы шаблонов Microsoft PowerPoint с поддержкой макросов. Файлы POTM создаются с помощью PowerPoint 2007 или более поздней версии и содержат параметры по умолчанию, которые можно использовать для создания дополнительных файлов презентаций. Эти настройки могут включать стили, фон, цветовую палитру, шрифты и значения по умолчанию, а также макросы, состоящие из пользовательских функций для выполнения конкретной задачи. Их также можно открыть в предыдущей версии PowerPoint с установленной поддержкой документов Open XML. Файлы POTM можно открывать в Microsoft PowerPoint для редактирования, как и любой другой файл PowerPoint.
-
-          link: "https://docs.fileformat.com/presentation/potm/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать MBOX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "MBOX в BMP"
-          link: "/conversion/java/mbox-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "MBOX в CSV"
-          link: "/conversion/java/mbox-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "MBOX в DCM"
-          link: "/conversion/java/mbox-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "MBOX в DIF"
-          link: "/conversion/java/mbox-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "MBOX в DOC"
-          link: "/conversion/java/mbox-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "MBOX в DOCM"
-          link: "/conversion/java/mbox-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "MBOX в DOCX"
-          link: "/conversion/java/mbox-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "MBOX в DOT"
-          link: "/conversion/java/mbox-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "MBOX в DOTM"
-          link: "/conversion/java/mbox-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "MBOX в DOTX"
-          link: "/conversion/java/mbox-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "MBOX в EMF"
-          link: "/conversion/java/mbox-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "MBOX в EMZ"
-          link: "/conversion/java/mbox-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "MBOX в EPUB"
-          link: "/conversion/java/mbox-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "MBOX в FODP"
-          link: "/conversion/java/mbox-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "MBOX в FODS"
-          link: "/conversion/java/mbox-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "MBOX в GIF"
-          link: "/conversion/java/mbox-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "MBOX в HTM"
-          link: "/conversion/java/mbox-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "MBOX в HTML"
-          link: "/conversion/java/mbox-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "MBOX в ICO"
-          link: "/conversion/java/mbox-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "MBOX в JP2"
-          link: "/conversion/java/mbox-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "MBOX в JPEG"
-          link: "/conversion/java/mbox-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "MBOX в JPG"
-          link: "/conversion/java/mbox-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "MBOX в MD"
-          link: "/conversion/java/mbox-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "MBOX в MHT"
-          link: "/conversion/java/mbox-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "MBOX в MHTML"
-          link: "/conversion/java/mbox-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "MBOX в ODP"
-          link: "/conversion/java/mbox-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "MBOX в ODS"
-          link: "/conversion/java/mbox-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "MBOX в ODT"
-          link: "/conversion/java/mbox-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "MBOX в OTP"
-          link: "/conversion/java/mbox-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "MBOX в OTT"
-          link: "/conversion/java/mbox-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "MBOX в PDF"
-          link: "/conversion/java/mbox-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "MBOX в PNG"
-          link: "/conversion/java/mbox-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "MBOX в POT"
-          link: "/conversion/java/mbox-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "MBOX в POTX"
-          link: "/conversion/java/mbox-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "MBOX в PPS"
-          link: "/conversion/java/mbox-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "MBOX в PPSM"
-          link: "/conversion/java/mbox-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "MBOX в PPSX"
-          link: "/conversion/java/mbox-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "MBOX в PPT"
-          link: "/conversion/java/mbox-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "MBOX в PPTM"
-          link: "/conversion/java/mbox-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "MBOX в PPTX"
-          link: "/conversion/java/mbox-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "MBOX в PSD"
-          link: "/conversion/java/mbox-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "MBOX в RTF"
-          link: "/conversion/java/mbox-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "MBOX в SVG"
-          link: "/conversion/java/mbox-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "MBOX в SVGZ"
-          link: "/conversion/java/mbox-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "MBOX в SXC"
-          link: "/conversion/java/mbox-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "MBOX в TEX"
-          link: "/conversion/java/mbox-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "MBOX в TIF"
-          link: "/conversion/java/mbox-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "MBOX в TIFF"
-          link: "/conversion/java/mbox-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "MBOX в TSV"
-          link: "/conversion/java/mbox-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "MBOX в TXT"
-          link: "/conversion/java/mbox-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "MBOX в WEBP"
-          link: "/conversion/java/mbox-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "MBOX в WMF"
-          link: "/conversion/java/mbox-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "MBOX в WMZ"
-          link: "/conversion/java/mbox-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "MBOX в XLAM"
-          link: "/conversion/java/mbox-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MBOX в XLS"
-          link: "/conversion/java/mbox-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "MBOX в XLSB"
-          link: "/conversion/java/mbox-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "MBOX в XLSM"
-          link: "/conversion/java/mbox-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MBOX в XLSX"
-          link: "/conversion/java/mbox-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "MBOX в XLT"
-          link: "/conversion/java/mbox-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "MBOX в XLTM"
-          link: "/conversion/java/mbox-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MBOX в XLTX"
-          link: "/conversion/java/mbox-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "MBOX в XPS"
-          link: "/conversion/java/mbox-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования MBOX"
+    content: "Вы также можете конвертировать MBOX во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

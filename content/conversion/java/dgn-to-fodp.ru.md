@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:11:00
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 
 ############################# Head ############################
-head_title: "Преобразование DGN в FODP в Java — преобразование DGN в FODP"
-head_description: "Преобразование DGN в FODP на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов DGN в FODP на Java"
+head_description: "Преобразование DGN в FODP на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов DGN в FODP в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать DGN в FODP на Java"
+description: "Перевести DGN в FODP с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы DGN в файлы FODP в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию DGN в FODP и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DGN и сохранения выходного результата FODP.
+        
+        Например, для исходного файла DGN можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла FODP:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл FODP.
+
+        После завершения преобразования вы можете сохранить файл FODP по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования DGN в FODP не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования DGN в FODP в Java"
+    title_left: "Шаги для конвертации DGN в FODP на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл DGN в FODP с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл DGN с полным путем
-        * Установите ConvertOptions для типа документа FODP
+        * Установите ConvertOptions для типа документа FODP.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (FODP) в качестве параметра
         
     title_right: "Системные Требования"
@@ -91,355 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации DGN в FODP Live"
+    title: "Демонстрация DGN в FODP"
     content: |
-        Преобразуйте DGN в FODP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-DGN"
-          title: " О формате файла DGN"
-          content: |
-            Файлы DGN — это чертежи, созданные и поддерживаемые приложениями САПР, такими как MicroStation и Intergraph Interactive Graphics Design System. Он используется для создания и сохранения проектов строительных проектов, таких как автомагистрали, мосты и здания. Формат похож на формат файла Autodesk DWG и считается его конкурентом.
+       Конвертируйте DGN в FODP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/cad/dgn/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " О формате файла FODP"
-          content: |
-            FODP — это формат файлов для презентаций, сохраненных в формате OpenDocument.
-
-          link: "https://en.wikipedia.org/wiki/OpenDocument"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать DGN во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "DGN в BMP"
-          link: "/conversion/java/dgn-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "DGN в CSV"
-          link: "/conversion/java/dgn-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "DGN в DCM"
-          link: "/conversion/java/dgn-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "DGN в DIF"
-          link: "/conversion/java/dgn-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "DGN в DOC"
-          link: "/conversion/java/dgn-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "DGN в DOCM"
-          link: "/conversion/java/dgn-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DGN в DOCX"
-          link: "/conversion/java/dgn-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "DGN в DOT"
-          link: "/conversion/java/dgn-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "DGN в DOTM"
-          link: "/conversion/java/dgn-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DGN в DOTX"
-          link: "/conversion/java/dgn-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "DGN в EMF"
-          link: "/conversion/java/dgn-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "DGN в EMZ"
-          link: "/conversion/java/dgn-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "DGN в EPUB"
-          link: "/conversion/java/dgn-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "DGN в FODS"
-          link: "/conversion/java/dgn-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "DGN в GIF"
-          link: "/conversion/java/dgn-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "DGN в HTM"
-          link: "/conversion/java/dgn-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "DGN в HTML"
-          link: "/conversion/java/dgn-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "DGN в ICO"
-          link: "/conversion/java/dgn-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "DGN в JP2"
-          link: "/conversion/java/dgn-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "DGN в JPEG"
-          link: "/conversion/java/dgn-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "DGN в JPG"
-          link: "/conversion/java/dgn-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "DGN в MD"
-          link: "/conversion/java/dgn-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "DGN в MHT"
-          link: "/conversion/java/dgn-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DGN в MHTML"
-          link: "/conversion/java/dgn-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DGN в ODP"
-          link: "/conversion/java/dgn-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "DGN в ODS"
-          link: "/conversion/java/dgn-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "DGN в ODT"
-          link: "/conversion/java/dgn-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "DGN в OTP"
-          link: "/conversion/java/dgn-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "DGN в OTT"
-          link: "/conversion/java/dgn-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "DGN в PDF"
-          link: "/conversion/java/dgn-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "DGN в PNG"
-          link: "/conversion/java/dgn-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "DGN в POT"
-          link: "/conversion/java/dgn-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "DGN в POTM"
-          link: "/conversion/java/dgn-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DGN в POTX"
-          link: "/conversion/java/dgn-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DGN в PPS"
-          link: "/conversion/java/dgn-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DGN в PPSM"
-          link: "/conversion/java/dgn-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DGN в PPSX"
-          link: "/conversion/java/dgn-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "DGN в PPT"
-          link: "/conversion/java/dgn-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "DGN в PPTM"
-          link: "/conversion/java/dgn-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "DGN в PPTX"
-          link: "/conversion/java/dgn-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "DGN в PSD"
-          link: "/conversion/java/dgn-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "DGN в RTF"
-          link: "/conversion/java/dgn-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "DGN в SVG"
-          link: "/conversion/java/dgn-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DGN в SVGZ"
-          link: "/conversion/java/dgn-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DGN в SXC"
-          link: "/conversion/java/dgn-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "DGN в TEX"
-          link: "/conversion/java/dgn-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "DGN в TIF"
-          link: "/conversion/java/dgn-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DGN в TIFF"
-          link: "/conversion/java/dgn-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DGN в TSV"
-          link: "/conversion/java/dgn-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "DGN в TXT"
-          link: "/conversion/java/dgn-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "DGN в WEBP"
-          link: "/conversion/java/dgn-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "DGN в WMF"
-          link: "/conversion/java/dgn-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "DGN в WMZ"
-          link: "/conversion/java/dgn-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "DGN в XLAM"
-          link: "/conversion/java/dgn-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DGN в XLS"
-          link: "/conversion/java/dgn-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "DGN в XLSB"
-          link: "/conversion/java/dgn-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "DGN в XLSM"
-          link: "/conversion/java/dgn-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DGN в XLSX"
-          link: "/conversion/java/dgn-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "DGN в XLT"
-          link: "/conversion/java/dgn-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DGN в XLTM"
-          link: "/conversion/java/dgn-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DGN в XLTX"
-          link: "/conversion/java/dgn-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DGN в XPS"
-          link: "/conversion/java/dgn-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования DGN"
+    content: "Вы также можете конвертировать DGN во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

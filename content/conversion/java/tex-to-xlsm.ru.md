@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:19:52
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 
 ############################# Head ############################
-head_title: "Преобразование TEX в XLSM в Java — Преобразование TEX в XLSM"
-head_description: "Преобразуйте TEX в XLSM на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов TEX в XLSM на Java"
+head_description: "Преобразование TEX в XLSM на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов TEX в XLSM в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать TEX в XLSM на Java"
+description: "Перевести TEX в XLSM с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,11 +35,34 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы TEX в файлы XLSM в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию TEX в XLSM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла TEX и сохранения выходного результата XLSM.
+        
+        Например, для исходного файла TEX можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла XLSM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл XLSM.
+
+        После завершения преобразования вы можете сохранить файл XLSM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования TEX в XLSM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования TEX в XLSM в Java"
+    title_left: "Шаги для конвертации TEX в XLSM на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл TEX в XLSM с помощью нескольких строк кода.
 
@@ -82,7 +81,7 @@ steps:
         
     code: |
         ```java
-        // Загружаем исходный файл TEX для преобразования
+        // Загрузите исходный файл TEX для преобразования
         Converter converter = new Converter("input.tex");
         // Подготовьте параметры преобразования для целевого формата XLSM
         ConvertOptions convertOptions = new FileType().fromExtension("xlsm").getConvertOptions();
@@ -91,355 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "TEX в XLSM Живые демонстрации"
+    title: "Демонстрация TEX в XLSM"
     content: |
-        Конвертируйте TEX в XLSM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-TEX"
-          title: " О формате файла TEX"
-          content: |
-            TeX — это язык, который включает в себя функции программирования, а также функции разметки, используемые для верстки документов. Дональд Кнут из Стэнфордского университета является создателем этой находчивой системы набора текста. Во всем мире TeX — лучший выбор авторов и издателей для создания высококачественной технической документации. TeX отлично справляется с форматированием сложных математических выражений. В сочетании с высококачественным фотонаборным устройством TeX конкурирует с результатами, полученными с помощью лучших традиционных систем набора текста.
+       Конвертируйте TEX в XLSM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/page-description-language/tex/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: " О формате файла XLSM"
-          content: |
-            Файлы с расширением XLSM — это тип файлов электронных таблиц, поддерживающих макросы. С точки зрения приложения макрос — это набор инструкций, которые используются для автоматизации процессов. Макрос используется для записи повторяющихся шагов и облегчает выполнение действий путем повторного запуска макроса. Макросы программируются с помощью Microsoft Visual Basic для приложений (VBA) из рабочей книги Excel с помощью редактора Visual Basic, и их можно запускать/отлаживать непосредственно из него.
-
-          link: "https://docs.fileformat.com/spreadsheet/xlsm/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать TEX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "TEX в BMP"
-          link: "/conversion/java/tex-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "TEX в CSV"
-          link: "/conversion/java/tex-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "TEX в DCM"
-          link: "/conversion/java/tex-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "TEX в DIF"
-          link: "/conversion/java/tex-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "TEX в DOC"
-          link: "/conversion/java/tex-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "TEX в DOCM"
-          link: "/conversion/java/tex-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "TEX в DOCX"
-          link: "/conversion/java/tex-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "TEX в DOT"
-          link: "/conversion/java/tex-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "TEX в DOTM"
-          link: "/conversion/java/tex-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "TEX в DOTX"
-          link: "/conversion/java/tex-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "TEX в EMF"
-          link: "/conversion/java/tex-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "TEX в EMZ"
-          link: "/conversion/java/tex-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "TEX в EPUB"
-          link: "/conversion/java/tex-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "TEX в FODP"
-          link: "/conversion/java/tex-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "TEX в FODS"
-          link: "/conversion/java/tex-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "TEX в GIF"
-          link: "/conversion/java/tex-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "TEX в HTM"
-          link: "/conversion/java/tex-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "TEX в HTML"
-          link: "/conversion/java/tex-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "TEX в ICO"
-          link: "/conversion/java/tex-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "TEX в J2K"
-          link: "/conversion/java/tex-to-j2k/"
-          description: "Изображение JPEG 2000"
-
-        # format loop
-        - name: "TEX в JP2"
-          link: "/conversion/java/tex-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "TEX в JPEG"
-          link: "/conversion/java/tex-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "TEX в JPG"
-          link: "/conversion/java/tex-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "TEX в MD"
-          link: "/conversion/java/tex-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "TEX в MHT"
-          link: "/conversion/java/tex-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "TEX в MHTML"
-          link: "/conversion/java/tex-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "TEX в ODP"
-          link: "/conversion/java/tex-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "TEX в ODS"
-          link: "/conversion/java/tex-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "TEX в ODT"
-          link: "/conversion/java/tex-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "TEX в OTP"
-          link: "/conversion/java/tex-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "TEX в OTT"
-          link: "/conversion/java/tex-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "TEX в PDF"
-          link: "/conversion/java/tex-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "TEX в PNG"
-          link: "/conversion/java/tex-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "TEX в POT"
-          link: "/conversion/java/tex-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "TEX в POTM"
-          link: "/conversion/java/tex-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "TEX в POTX"
-          link: "/conversion/java/tex-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "TEX в PPS"
-          link: "/conversion/java/tex-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "TEX в PPSM"
-          link: "/conversion/java/tex-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "TEX в PPSX"
-          link: "/conversion/java/tex-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "TEX в PPT"
-          link: "/conversion/java/tex-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "TEX в PPTM"
-          link: "/conversion/java/tex-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "TEX в PPTX"
-          link: "/conversion/java/tex-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "TEX в PSD"
-          link: "/conversion/java/tex-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "TEX в RTF"
-          link: "/conversion/java/tex-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "TEX в SVG"
-          link: "/conversion/java/tex-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "TEX в SVGZ"
-          link: "/conversion/java/tex-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "TEX в SXC"
-          link: "/conversion/java/tex-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "TEX в TIF"
-          link: "/conversion/java/tex-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "TEX в TIFF"
-          link: "/conversion/java/tex-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "TEX в TSV"
-          link: "/conversion/java/tex-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "TEX в TXT"
-          link: "/conversion/java/tex-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "TEX в WEBP"
-          link: "/conversion/java/tex-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "TEX в WMF"
-          link: "/conversion/java/tex-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "TEX в WMZ"
-          link: "/conversion/java/tex-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "TEX в XLAM"
-          link: "/conversion/java/tex-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "TEX в XLS"
-          link: "/conversion/java/tex-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "TEX в XLSB"
-          link: "/conversion/java/tex-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "TEX в XLSX"
-          link: "/conversion/java/tex-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "TEX в XLT"
-          link: "/conversion/java/tex-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "TEX в XLTM"
-          link: "/conversion/java/tex-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "TEX в XLTX"
-          link: "/conversion/java/tex-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "TEX в XPS"
-          link: "/conversion/java/tex-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования TEX"
+    content: "Вы также можете конвертировать TEX во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:17:52
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Преобразование PNG в MHT в Java — Преобразование PNG в MHT"
-head_description: "Преобразование PNG в MHT на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов PNG в MHT на Java"
+head_description: "Преобразование PNG в MHT на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов PNG в MHT в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать PNG в MHT на Java"
+description: "Перевести PNG в MHT с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,11 +35,34 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы PNG в файлы MHT в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию PNG в MHT и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PNG и сохранения выходного результата MHT.
+        
+        Например, для исходного файла PNG можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла MHT:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл MHT.
+
+        После завершения преобразования вы можете сохранить файл MHT по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования PNG в MHT не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования PNG в MHT в Java"
+    title_left: "Шаги для конвертации PNG в MHT на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл PNG в MHT с помощью нескольких строк кода.
 
@@ -82,7 +81,7 @@ steps:
         
     code: |
         ```java
-        // Загружаем исходный файл PNG для преобразования
+        // Загрузите исходный файл PNG для преобразования
         Converter converter = new Converter("input.png");
         // Подготовьте параметры преобразования для целевого формата MHT
         ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
@@ -91,355 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации PNG в MHT"
+    title: "Демонстрация PNG в MHT"
     content: |
-        Конвертируйте PNG в MHT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла PNG"
-          content: |
-            PNG, переносимая сетевая графика, относится к типу формата файла растрового изображения, в котором используется сжатие без потерь. Этот формат файла был создан в качестве замены формата обмена графикой (GIF) и не имеет ограничений авторского права. Однако формат файла PNG не поддерживает анимацию. Формат файлов PNG поддерживает сжатие изображений без потерь, что делает его популярным среди пользователей. С течением времени PNG превратился в один из наиболее часто используемых форматов файлов изображений.
+       Конвертируйте PNG в MHT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/image/png/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-code"
-          title: " О формате файла MHT"
-          content: |
-            Файлы с расширением MHT представляют собой формат архива веб-страницы, который может быть создан рядом различных приложений. Этот формат известен как формат архива, поскольку он сохраняет веб-код HTML и связанные ресурсы в одном файле. Эти ресурсы включают все, что связано с веб-страницей, например изображения, апплеты, анимацию, аудиофайлы и так далее.
-
-          link: "https://docs.fileformat.com/web/mhtml/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать PNG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "PNG в BMP"
-          link: "/conversion/java/png-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "PNG в CSV"
-          link: "/conversion/java/png-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "PNG в DCM"
-          link: "/conversion/java/png-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "PNG в DIF"
-          link: "/conversion/java/png-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "PNG в DJVU"
-          link: "/conversion/java/png-to-djvu/"
-          description: "Формат графического файла"
-
-        # format loop
-        - name: "PNG в DOC"
-          link: "/conversion/java/png-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "PNG в DOCM"
-          link: "/conversion/java/png-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PNG в DOCX"
-          link: "/conversion/java/png-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "PNG в DOT"
-          link: "/conversion/java/png-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "PNG в DOTM"
-          link: "/conversion/java/png-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PNG в DOTX"
-          link: "/conversion/java/png-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "PNG в EMF"
-          link: "/conversion/java/png-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "PNG в EMZ"
-          link: "/conversion/java/png-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "PNG в EPUB"
-          link: "/conversion/java/png-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "PNG в FODP"
-          link: "/conversion/java/png-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "PNG в FODS"
-          link: "/conversion/java/png-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "PNG в GIF"
-          link: "/conversion/java/png-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "PNG в HTM"
-          link: "/conversion/java/png-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "PNG в HTML"
-          link: "/conversion/java/png-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "PNG в ICO"
-          link: "/conversion/java/png-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "PNG в JP2"
-          link: "/conversion/java/png-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "PNG в JPEG"
-          link: "/conversion/java/png-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "PNG в JPG"
-          link: "/conversion/java/png-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "PNG в MD"
-          link: "/conversion/java/png-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "PNG в MHTML"
-          link: "/conversion/java/png-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PNG в ODP"
-          link: "/conversion/java/png-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "PNG в ODS"
-          link: "/conversion/java/png-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "PNG в ODT"
-          link: "/conversion/java/png-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "PNG в OTP"
-          link: "/conversion/java/png-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "PNG в OTT"
-          link: "/conversion/java/png-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "PNG в PDF"
-          link: "/conversion/java/png-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "PNG в POT"
-          link: "/conversion/java/png-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "PNG в POTM"
-          link: "/conversion/java/png-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PNG в POTX"
-          link: "/conversion/java/png-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PNG в PPS"
-          link: "/conversion/java/png-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PNG в PPSM"
-          link: "/conversion/java/png-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PNG в PPSX"
-          link: "/conversion/java/png-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "PNG в PPT"
-          link: "/conversion/java/png-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "PNG в PPTM"
-          link: "/conversion/java/png-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "PNG в PPTX"
-          link: "/conversion/java/png-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "PNG в PSD"
-          link: "/conversion/java/png-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "PNG в RTF"
-          link: "/conversion/java/png-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "PNG в SVG"
-          link: "/conversion/java/png-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PNG в SVGZ"
-          link: "/conversion/java/png-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PNG в SXC"
-          link: "/conversion/java/png-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "PNG в TEX"
-          link: "/conversion/java/png-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "PNG в TIF"
-          link: "/conversion/java/png-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PNG в TIFF"
-          link: "/conversion/java/png-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PNG в TSV"
-          link: "/conversion/java/png-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "PNG в TXT"
-          link: "/conversion/java/png-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "PNG в WEBP"
-          link: "/conversion/java/png-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "PNG в WMF"
-          link: "/conversion/java/png-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "PNG в WMZ"
-          link: "/conversion/java/png-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "PNG в XLAM"
-          link: "/conversion/java/png-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PNG в XLS"
-          link: "/conversion/java/png-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "PNG в XLSB"
-          link: "/conversion/java/png-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "PNG в XLSM"
-          link: "/conversion/java/png-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PNG в XLSX"
-          link: "/conversion/java/png-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "PNG в XLT"
-          link: "/conversion/java/png-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PNG в XLTM"
-          link: "/conversion/java/png-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PNG в XLTX"
-          link: "/conversion/java/png-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PNG в XPS"
-          link: "/conversion/java/png-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования PNG"
+    content: "Вы также можете конвертировать PNG во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

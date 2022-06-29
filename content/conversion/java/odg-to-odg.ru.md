@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-13T14:08:16+03:00
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Преобразование ODG в ODG в Java — преобразование ODG в ODG"
-head_description: "Преобразование ODG в ODG на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов ODG в ODG на Java"
+head_description: "Преобразование ODG в ODG на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов ODG в ODG в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать ODG в ODG на Java"
+description: "Перевести ODG в ODG с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы ODG в файлы ODG в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию ODG в ODG и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла ODG и сохранения выходного результата ODG.
+        
+        Например, для исходного файла ODG можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла ODG:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл ODG.
+
+        После завершения преобразования вы можете сохранить файл ODG по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования ODG в ODG не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования ODG в ODG в Java"
+    title_left: "Шаги для конвертации ODG в ODG на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл ODG в ODG с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл ODG с полным путем
-        * Установите ConvertOptions для типа документа ODG
+        * Установите ConvertOptions для типа документа ODG.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (ODG) в качестве параметра
         
     title_right: "Системные Требования"
@@ -91,309 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "ODG в живые демонстрации ODG"
+    title: "Демонстрация ODG в ODG"
     content: |
-        Преобразуйте ODG в ODG прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-ODG"
-          title: " О формате файла ODG"
-          content: |
-            Формат файла ODG используется приложением Draw Apache OpenOffice для хранения элементов чертежа в виде векторного изображения. Он следует спецификациям формата файлов на основе XML, изложенным в Улучшении стандартов структурной информации (OASIS). ODG представляет рисунки в виде векторных изображений с использованием точек, линий и кривых. Помимо OpenOffice, LibreOffice и другие приложения также поддерживают работу с форматом файлов ODG. Другие форматы, поддерживаемые OpenOffice, например, включают ODT, ODF, ODP и ODS.
+       Конвертируйте ODG в ODG прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/image/odg/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-ODG"
-          title: " О формате файла ODG"
-          content: |
-            Формат файла ODG используется приложением Draw Apache OpenOffice для хранения элементов чертежа в виде векторного изображения. Он следует спецификациям формата файлов на основе XML, изложенным в Улучшении стандартов структурной информации (OASIS). ODG представляет рисунки в виде векторных изображений с использованием точек, линий и кривых. Помимо OpenOffice, LibreOffice и другие приложения также поддерживают работу с форматом файлов ODG. Другие форматы, поддерживаемые OpenOffice, например, включают ODT, ODF, ODP и ODS.
-
-          link: "https://docs.fileformat.com/image/odg/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать ODG во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "ODG в EPUB"
-          link: "/conversion/java/odg-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "ODG в XPS"
-          link: "/conversion/java/odg-to-xps/"
-          description: "Спецификация документа Open XML"
-
-        # format loop
-        - name: "ODG в TEX"
-          link: "/conversion/java/odg-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "ODG в PPT"
-          link: "/conversion/java/odg-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "ODG в PPS"
-          link: "/conversion/java/odg-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "ODG в PPTX"
-          link: "/conversion/java/odg-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "ODG в PPSX"
-          link: "/conversion/java/odg-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "ODG в ODP"
-          link: "/conversion/java/odg-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "ODG в OTP"
-          link: "/conversion/java/odg-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "ODG в POTX"
-          link: "/conversion/java/odg-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "ODG в POTM"
-          link: "/conversion/java/odg-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "ODG в PPTM"
-          link: "/conversion/java/odg-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "ODG в PPSM"
-          link: "/conversion/java/odg-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "ODG в XLS"
-          link: "/conversion/java/odg-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "ODG в XLSX"
-          link: "/conversion/java/odg-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "ODG в XLSM"
-          link: "/conversion/java/odg-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "ODG в XLSB"
-          link: "/conversion/java/odg-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "ODG в ODS"
-          link: "/conversion/java/odg-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "ODG в XLTX"
-          link: "/conversion/java/odg-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "ODG в XLTM"
-          link: "/conversion/java/odg-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "ODG в TSV"
-          link: "/conversion/java/odg-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "ODG в XLAM"
-          link: "/conversion/java/odg-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "ODG в CSV"
-          link: "/conversion/java/odg-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "ODG в DOC"
-          link: "/conversion/java/odg-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "ODG в DOCM"
-          link: "/conversion/java/odg-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "ODG в ODG"
-          link: "/conversion/java/odg-to-odg/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "ODG в DOT"
-          link: "/conversion/java/odg-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "ODG в DOTM"
-          link: "/conversion/java/odg-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "ODG в DOTX"
-          link: "/conversion/java/odg-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "ODG в RTF"
-          link: "/conversion/java/odg-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "ODG в ODT"
-          link: "/conversion/java/odg-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "ODG в OTT"
-          link: "/conversion/java/odg-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "ODG в TXT"
-          link: "/conversion/java/odg-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "ODG в MD"
-          link: "/conversion/java/odg-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "ODG в TIFF"
-          link: "/conversion/java/odg-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "ODG в TIF"
-          link: "/conversion/java/odg-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "ODG в JPG"
-          link: "/conversion/java/odg-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "ODG в JPEG"
-          link: "/conversion/java/odg-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "ODG в PNG"
-          link: "/conversion/java/odg-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "ODG в GIF"
-          link: "/conversion/java/odg-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "ODG в BMP"
-          link: "/conversion/java/odg-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "ODG в ICO"
-          link: "/conversion/java/odg-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "ODG в PSD"
-          link: "/conversion/java/odg-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "ODG в WMF"
-          link: "/conversion/java/odg-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "ODG в EMF"
-          link: "/conversion/java/odg-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "ODG в WEBP"
-          link: "/conversion/java/odg-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "ODG в SVG"
-          link: "/conversion/java/odg-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "ODG в JP2"
-          link: "/conversion/java/odg-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "ODG в EMZ"
-          link: "/conversion/java/odg-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "ODG в WMZ"
-          link: "/conversion/java/odg-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "ODG в HTML"
-          link: "/conversion/java/odg-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "ODG в MHT"
-          link: "/conversion/java/odg-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "ODG в MHTML"
-          link: "/conversion/java/odg-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования ODG"
+    content: "Вы также можете конвертировать ODG во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

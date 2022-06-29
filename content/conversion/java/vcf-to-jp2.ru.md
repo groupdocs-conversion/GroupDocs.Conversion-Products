@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:20:18
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Преобразование VCF в JP2 в Java — преобразование VCF в JP2"
-head_description: "Преобразуйте VCF в JP2 на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов VCF в JP2 на Java"
+head_description: "Преобразование VCF в JP2 на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов VCF в JP2 в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать VCF в JP2 на Java"
+description: "Перевести VCF в JP2 с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы VCF в файлы JP2 в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию VCF в JP2 и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла VCF и сохранения выходного результата JP2.
+        
+        Например, для исходного файла VCF можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла JP2:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл JP2.
+
+        После завершения преобразования вы можете сохранить файл JP2 по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования VCF в JP2 не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования VCF в JP2 в Java"
+    title_left: "Шаги для конвертации VCF в JP2 на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл VCF в JP2 с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл VCF с полным путем
-        * Установите ConvertOptions для типа документа JP2
+        * Установите ConvertOptions для типа документа JP2.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (JP2) в качестве параметра
         
     title_right: "Системные Требования"
@@ -91,355 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации VCF в JP2"
+    title: "Демонстрация VCF в JP2"
     content: |
-        Конвертируйте VCF в JP2 прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-VCF"
-          title: " О формате файла VCF"
-          content: |
-            VCF (формат виртуальной карты) или vCard — это цифровой формат файла для хранения контактной информации. Формат широко используется для обмена данными между популярными приложениями обмена информацией. Большинство операционных систем, таких как Windows и macOS, поставляются с приложениями по умолчанию для создания и открытия этих файлов. Один файл VCF может содержать контактную информацию для одного или нескольких контактов.
+       Конвертируйте VCF в JP2 прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/email/vcf/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла JP2"
-          content: |
-            JPEG 2000 (JP2) — это система кодирования изображений и современный стандарт сжатия изображений. Разработанный с использованием вейвлет-технологии JPEG 2000 может кодировать контент без потерь сразу в любом качестве. Кроме того, без существенного снижения эффективности кодирования, JPEG 2000 имеет возможность доступа и эффективного декодирования одного и того же контента во множество других разрешений и качеств. Потоки кода в JPEG 2000 значительно масштабируемы, имея интересующие области, которые обеспечивают возможность пространственного произвольного доступа. Обладая до 16384 различных компонентов с размерами в терапикселях и точностью, которая может достигать 38 бит/выборка.
-
-          link: "https://docs.fileformat.com/image/jp2/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать VCF во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "VCF в BMP"
-          link: "/conversion/java/vcf-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "VCF в CSV"
-          link: "/conversion/java/vcf-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "VCF в DCM"
-          link: "/conversion/java/vcf-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "VCF в DIF"
-          link: "/conversion/java/vcf-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "VCF в DOC"
-          link: "/conversion/java/vcf-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "VCF в DOCM"
-          link: "/conversion/java/vcf-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "VCF в DOCX"
-          link: "/conversion/java/vcf-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "VCF в DOT"
-          link: "/conversion/java/vcf-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "VCF в DOTM"
-          link: "/conversion/java/vcf-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "VCF в DOTX"
-          link: "/conversion/java/vcf-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "VCF в EMF"
-          link: "/conversion/java/vcf-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "VCF в EMZ"
-          link: "/conversion/java/vcf-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "VCF в EPUB"
-          link: "/conversion/java/vcf-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "VCF в FODP"
-          link: "/conversion/java/vcf-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "VCF в FODS"
-          link: "/conversion/java/vcf-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "VCF в GIF"
-          link: "/conversion/java/vcf-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "VCF в HTM"
-          link: "/conversion/java/vcf-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "VCF в HTML"
-          link: "/conversion/java/vcf-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "VCF в ICO"
-          link: "/conversion/java/vcf-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "VCF в JPEG"
-          link: "/conversion/java/vcf-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "VCF в JPG"
-          link: "/conversion/java/vcf-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "VCF в MD"
-          link: "/conversion/java/vcf-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "VCF в MHT"
-          link: "/conversion/java/vcf-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "VCF в MHTML"
-          link: "/conversion/java/vcf-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "VCF в ODP"
-          link: "/conversion/java/vcf-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "VCF в ODS"
-          link: "/conversion/java/vcf-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "VCF в ODT"
-          link: "/conversion/java/vcf-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "VCF в OTP"
-          link: "/conversion/java/vcf-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "VCF в OTT"
-          link: "/conversion/java/vcf-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "VCF в PDF"
-          link: "/conversion/java/vcf-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "VCF в PNG"
-          link: "/conversion/java/vcf-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "VCF в POT"
-          link: "/conversion/java/vcf-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "VCF в POTM"
-          link: "/conversion/java/vcf-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "VCF в POTX"
-          link: "/conversion/java/vcf-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "VCF в PPS"
-          link: "/conversion/java/vcf-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "VCF в PPSM"
-          link: "/conversion/java/vcf-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "VCF в PPSX"
-          link: "/conversion/java/vcf-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "VCF в PPT"
-          link: "/conversion/java/vcf-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "VCF в PPTM"
-          link: "/conversion/java/vcf-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "VCF в PPTX"
-          link: "/conversion/java/vcf-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "VCF в PSD"
-          link: "/conversion/java/vcf-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "VCF в RTF"
-          link: "/conversion/java/vcf-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "VCF в SVG"
-          link: "/conversion/java/vcf-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "VCF в SVGZ"
-          link: "/conversion/java/vcf-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "VCF в SXC"
-          link: "/conversion/java/vcf-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "VCF в TEX"
-          link: "/conversion/java/vcf-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "VCF в TIF"
-          link: "/conversion/java/vcf-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "VCF в TIFF"
-          link: "/conversion/java/vcf-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "VCF в TSV"
-          link: "/conversion/java/vcf-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "VCF в TXT"
-          link: "/conversion/java/vcf-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "VCF в WEBP"
-          link: "/conversion/java/vcf-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "VCF в WMF"
-          link: "/conversion/java/vcf-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "VCF в WMZ"
-          link: "/conversion/java/vcf-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "VCF в XLAM"
-          link: "/conversion/java/vcf-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VCF в XLS"
-          link: "/conversion/java/vcf-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "VCF в XLSB"
-          link: "/conversion/java/vcf-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "VCF в XLSM"
-          link: "/conversion/java/vcf-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VCF в XLSX"
-          link: "/conversion/java/vcf-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "VCF в XLT"
-          link: "/conversion/java/vcf-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "VCF в XLTM"
-          link: "/conversion/java/vcf-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VCF в XLTX"
-          link: "/conversion/java/vcf-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "VCF в XPS"
-          link: "/conversion/java/vcf-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования VCF"
+    content: "Вы также можете конвертировать VCF во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:20:26
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 
 ############################# Head ############################
-head_title: "Преобразование VDW в PPTX на Java — преобразование VDW в PPTX"
-head_description: "Преобразуйте VDW в PPTX на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов VDW в PPTX на Java"
+head_description: "Преобразование VDW в PPTX на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов VDW в PPTX в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать VDW в PPTX на Java"
+description: "Перевести VDW в PPTX с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,11 +35,34 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы VDW в файлы PPTX в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию VDW в PPTX и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла VDW и сохранения выходного результата PPTX.
+        
+        Например, для исходного файла VDW можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла PPTX:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл PPTX.
+
+        После завершения преобразования вы можете сохранить файл PPTX по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования VDW в PPTX не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования VDW в PPTX в Java"
+    title_left: "Шаги для конвертации VDW в PPTX на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл VDW в PPTX с помощью нескольких строк кода.
 
@@ -91,355 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации VDW в PPTX в реальном времени"
+    title: "Демонстрация VDW в PPTX"
     content: |
-        Конвертируйте VDW в PPTX прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-alt"
-          title: " О формате файла VDW"
-          content: |
-            VDW — это формат файла службы графики Visio, который указывает потоки и хранилища, необходимые для визуализации веб-рисунка. Веб-рисунок — это набор страниц чертежа, фигур, шрифтов, изображений, подключений к данным и информации об обновлении схемы, которые можно отобразить как векторный или растровый рисунок. Файлы VDW также можно открывать в Microsoft Visio, но в основном они сохраняются для использования в Интернете.
+       Конвертируйте VDW в PPTX прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/web/vdw/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " О формате файла PPTX"
-          content: |
-            Файлы с расширением PPTX представляют собой файлы презентаций, созданные с помощью популярного приложения Microsoft PowerPoint. В отличие от предыдущей версии формата файла презентации PPT, которая была двоичной, формат PPTX основан на формате файла презентации Microsoft PowerPoint open XML. Файл презентации — это набор слайдов, каждый из которых может содержать текст, изображения, форматирование, анимацию и другие медиафайлы.
-
-          link: "https://docs.fileformat.com/presentation/pptx/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать VDW во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "VDW в BMP"
-          link: "/conversion/java/vdw-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "VDW в CSV"
-          link: "/conversion/java/vdw-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "VDW в DCM"
-          link: "/conversion/java/vdw-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "VDW в DIF"
-          link: "/conversion/java/vdw-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "VDW в DOC"
-          link: "/conversion/java/vdw-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "VDW в DOCM"
-          link: "/conversion/java/vdw-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "VDW в DOCX"
-          link: "/conversion/java/vdw-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "VDW в DOT"
-          link: "/conversion/java/vdw-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "VDW в DOTM"
-          link: "/conversion/java/vdw-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "VDW в DOTX"
-          link: "/conversion/java/vdw-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "VDW в EMF"
-          link: "/conversion/java/vdw-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "VDW в EMZ"
-          link: "/conversion/java/vdw-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "VDW в EPUB"
-          link: "/conversion/java/vdw-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "VDW в FODP"
-          link: "/conversion/java/vdw-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "VDW в FODS"
-          link: "/conversion/java/vdw-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "VDW в GIF"
-          link: "/conversion/java/vdw-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "VDW в HTM"
-          link: "/conversion/java/vdw-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "VDW в HTML"
-          link: "/conversion/java/vdw-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "VDW в ICO"
-          link: "/conversion/java/vdw-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "VDW в JP2"
-          link: "/conversion/java/vdw-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "VDW в JPEG"
-          link: "/conversion/java/vdw-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "VDW в JPG"
-          link: "/conversion/java/vdw-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "VDW в MD"
-          link: "/conversion/java/vdw-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "VDW в MHT"
-          link: "/conversion/java/vdw-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "VDW в MHTML"
-          link: "/conversion/java/vdw-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "VDW в ODP"
-          link: "/conversion/java/vdw-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "VDW в ODS"
-          link: "/conversion/java/vdw-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "VDW в ODT"
-          link: "/conversion/java/vdw-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "VDW в OTP"
-          link: "/conversion/java/vdw-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "VDW в OTT"
-          link: "/conversion/java/vdw-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "VDW в PDF"
-          link: "/conversion/java/vdw-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "VDW в PNG"
-          link: "/conversion/java/vdw-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "VDW в POT"
-          link: "/conversion/java/vdw-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "VDW в POTM"
-          link: "/conversion/java/vdw-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "VDW в POTX"
-          link: "/conversion/java/vdw-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "VDW в PPS"
-          link: "/conversion/java/vdw-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "VDW в PPSM"
-          link: "/conversion/java/vdw-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "VDW в PPSX"
-          link: "/conversion/java/vdw-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "VDW в PPT"
-          link: "/conversion/java/vdw-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "VDW в PPTM"
-          link: "/conversion/java/vdw-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "VDW в PSD"
-          link: "/conversion/java/vdw-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "VDW в RTF"
-          link: "/conversion/java/vdw-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "VDW в SVG"
-          link: "/conversion/java/vdw-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "VDW в SVGZ"
-          link: "/conversion/java/vdw-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "VDW в SXC"
-          link: "/conversion/java/vdw-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "VDW в TEX"
-          link: "/conversion/java/vdw-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "VDW в TIF"
-          link: "/conversion/java/vdw-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "VDW в TIFF"
-          link: "/conversion/java/vdw-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "VDW в TSV"
-          link: "/conversion/java/vdw-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "VDW в TXT"
-          link: "/conversion/java/vdw-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "VDW в WEBP"
-          link: "/conversion/java/vdw-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "VDW в WMF"
-          link: "/conversion/java/vdw-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "VDW в WMZ"
-          link: "/conversion/java/vdw-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "VDW в XLAM"
-          link: "/conversion/java/vdw-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VDW в XLS"
-          link: "/conversion/java/vdw-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "VDW в XLSB"
-          link: "/conversion/java/vdw-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "VDW в XLSM"
-          link: "/conversion/java/vdw-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VDW в XLSX"
-          link: "/conversion/java/vdw-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "VDW в XLT"
-          link: "/conversion/java/vdw-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "VDW в XLTM"
-          link: "/conversion/java/vdw-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "VDW в XLTX"
-          link: "/conversion/java/vdw-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "VDW в XPS"
-          link: "/conversion/java/vdw-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования VDW"
+    content: "Вы также можете конвертировать VDW во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:12:35
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "Преобразование EBOOK в EMAIL на Java — преобразование EBOOK в EMAIL"
-head_description: "Преобразуйте EBOOK в EMAIL на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов EBOOK в EMAIL на Java"
+head_description: "Преобразование EBOOK в EMAIL на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов EBOOK в EMAIL на Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать EBOOK в EMAIL на Java"
+description: "Перевести EBOOK в EMAIL с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,13 +35,36 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы EBOOK в файлы EMAIL в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию EBOOK в EMAIL и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла EBOOK и сохранения выходного результата EMAIL.
+        
+        Например, для исходного файла EBOOK можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла EMAIL:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл EMAIL.
+
+        После завершения преобразования вы можете сохранить файл EMAIL по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования EBOOK в EMAIL не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования EBOOK в EMAIL в Java"
+    title_left: "Шаги для конвертации EBOOK в EMAIL на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл EBOOK в EMAIL, написав всего несколько строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл EBOOK в EMAIL с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл EBOOK с полным путем
         * Установите ConvertOptions для типа документа EMAIL.
@@ -82,7 +81,7 @@ steps:
         
     code: |
         ```java
-        // Загрузите исходный файл электронной книги для преобразования
+        // Загрузите исходный файл EBOOK для преобразования
         Converter converter = new Converter("input.ebook");
         // Подготовьте параметры преобразования для целевого формата EMAIL
         ConvertOptions convertOptions = new FileType().fromExtension("email").getConvertOptions();
@@ -91,100 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "ЭЛЕКТРОННАЯ КНИГА, чтобы отправить по электронной почте живые демонстрации"
+    title: "Демонстрация EBOOK в EMAIL"
     content: |
-        Преобразуйте EBOOK в EMAIL прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-EBOOK"
-          title: " О формате файла электронной книги"
-          content: |
-            Файлы электронных книг — это электронные файлы, которые можно открывать на цифровых устройствах, известных как электронные книги. Электронной книгой может быть любое устройство, такое как компьютер, планшет или смартфон. Наиболее популярным форматом файлов электронных книг является ePub на основе XML, который легко читается несколькими приложениями. Некоторые популярные электронные книги включают Amazon Kindle, Sony Reader, Hanlin и IRIX. Электронная книга может содержать различные типы содержимого, такие как текст, изображения и видео.
+       Конвертируйте EBOOK в EMAIL прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/ebook/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-EMAIL"
-          title: " О формате файла EMAIL"
-          content: |
-            Форматы файлов электронной почты используются почтовыми приложениями для хранения различных данных, включая сообщения электронной почты, вложения, папки, адресные книги и т. д. Форматы файлов электронной почты в основном связаны с файлом сообщения электронной почты Outlook Express.
-
-          link: "https://docs.fileformat.com/email/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать EBOOK во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "EBOOK в DOCM"
-          link: "/conversion/java/ebook-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "EBOOK в EPUB"
-          link: "/conversion/java/ebook-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "EBOOK в ODS"
-          link: "/conversion/java/ebook-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "EBOOK в PDF"
-          link: "/conversion/java/ebook-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "EBOOK в POTM"
-          link: "/conversion/java/ebook-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "EBOOK в POTX"
-          link: "/conversion/java/ebook-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "EBOOK в PPT"
-          link: "/conversion/java/ebook-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "EBOOK в SVG"
-          link: "/conversion/java/ebook-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "EBOOK в WEBP"
-          link: "/conversion/java/ebook-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "EBOOK в XLSX"
-          link: "/conversion/java/ebook-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "EBOOK в XLTM"
-          link: "/conversion/java/ebook-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования EBOOK"
+    content: "Вы также можете конвертировать EBOOK во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

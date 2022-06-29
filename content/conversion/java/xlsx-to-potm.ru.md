@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:22:42
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 
 ############################# Head ############################
-head_title: "Преобразование XLSX в POTM в Java — Преобразование XLSX в POTM"
-head_description: "Преобразование XLSX в POTM на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов XLSX в POTM на Java"
+head_description: "Преобразование XLSX в POTM на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов XLSX в POTM в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать XLSX в POTM на Java"
+description: "Перевести XLSX в POTM с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы XLSX в файлы POTM в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию XLSX в POTM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла XLSX и сохранения выходного результата POTM.
+        
+        Например, для исходного файла XLSX можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла POTM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл POTM.
+
+        После завершения преобразования вы можете сохранить файл POTM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования XLSX в POTM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования XLSX в POTM в Java"
+    title_left: "Шаги для конвертации XLSX в POTM на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла XLSX в POTM с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл XLSX в POTM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл XLSX с полным путем
-        * Установите ConvertOptions для типа документа POTM
+        * Установите ConvertOptions для типа документа POTM.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (POTM) в качестве параметра
         
     title_right: "Системные Требования"
@@ -84,357 +83,26 @@ steps:
         ```java
         // Загрузите исходный файл XLSX для преобразования
         Converter converter = new Converter("input.xlsx");
-        // Готовим параметры преобразования для целевого формата POTM
+        // Подготовьте параметры преобразования для целевого формата POTM
         ConvertOptions convertOptions = new FileType().fromExtension("potm").getConvertOptions();
         // Преобразование в формат POTM
         converter.convert("output.potm", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "XLSX в POTM Живые демонстрации"
+    title: "Демонстрация XLSX в POTM"
     content: |
-        Конвертируйте XLSX в POTM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: " О формате файла XLSX"
-          content: |
-            XLSX — это хорошо известный формат для документов Microsoft Excel, который был представлен Microsoft с выпуском Microsoft Office 2007. Основанный на структуре, организованной в соответствии с соглашениями об открытой упаковке, как указано в части 2 стандарта OOXML ECMA-376, новый формат ZIP-пакет, содержащий несколько XML-файлов. Базовую структуру и файлы можно изучить, просто разархивировав файл .xlsx.
+       Конвертируйте XLSX в POTM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/spreadsheet/xlsx/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " О формате файла POTM"
-          content: |
-            Файлы с расширением POTM представляют собой файлы шаблонов Microsoft PowerPoint с поддержкой макросов. Файлы POTM создаются с помощью PowerPoint 2007 или более поздней версии и содержат параметры по умолчанию, которые можно использовать для создания дополнительных файлов презентаций. Эти настройки могут включать стили, фон, цветовую палитру, шрифты и значения по умолчанию, а также макросы, состоящие из пользовательских функций для выполнения конкретной задачи. Их также можно открыть в предыдущей версии PowerPoint с установленной поддержкой документов Open XML. Файлы POTM можно открывать в Microsoft PowerPoint для редактирования, как и любой другой файл PowerPoint.
-
-          link: "https://docs.fileformat.com/presentation/potm/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать XLSX во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "XLSX в BMP"
-          link: "/conversion/java/xlsx-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "XLSX в CSV"
-          link: "/conversion/java/xlsx-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "XLSX в DCM"
-          link: "/conversion/java/xlsx-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "XLSX в DIF"
-          link: "/conversion/java/xlsx-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "XLSX в DOC"
-          link: "/conversion/java/xlsx-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "XLSX в DOCM"
-          link: "/conversion/java/xlsx-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "XLSX в DOCX"
-          link: "/conversion/java/xlsx-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "XLSX в DOT"
-          link: "/conversion/java/xlsx-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "XLSX в DOTM"
-          link: "/conversion/java/xlsx-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "XLSX в DOTX"
-          link: "/conversion/java/xlsx-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "XLSX в EMF"
-          link: "/conversion/java/xlsx-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "XLSX в EMZ"
-          link: "/conversion/java/xlsx-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "XLSX в EPUB"
-          link: "/conversion/java/xlsx-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "XLSX в FODP"
-          link: "/conversion/java/xlsx-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "XLSX в FODS"
-          link: "/conversion/java/xlsx-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "XLSX в GIF"
-          link: "/conversion/java/xlsx-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "XLSX в HTM"
-          link: "/conversion/java/xlsx-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "XLSX в HTML"
-          link: "/conversion/java/xlsx-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "XLSX в ICO"
-          link: "/conversion/java/xlsx-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "XLSX в JP2"
-          link: "/conversion/java/xlsx-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "XLSX в JPEG"
-          link: "/conversion/java/xlsx-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "XLSX в JPG"
-          link: "/conversion/java/xlsx-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "XLSX в MD"
-          link: "/conversion/java/xlsx-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "XLSX в MHT"
-          link: "/conversion/java/xlsx-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "XLSX в MHTML"
-          link: "/conversion/java/xlsx-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "XLSX в ODP"
-          link: "/conversion/java/xlsx-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "XLSX в ODS"
-          link: "/conversion/java/xlsx-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "XLSX в ODT"
-          link: "/conversion/java/xlsx-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "XLSX в OTP"
-          link: "/conversion/java/xlsx-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "XLSX в OTT"
-          link: "/conversion/java/xlsx-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "XLSX в PDF"
-          link: "/conversion/java/xlsx-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "XLSX в PNG"
-          link: "/conversion/java/xlsx-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "XLSX в POT"
-          link: "/conversion/java/xlsx-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "XLSX в POTX"
-          link: "/conversion/java/xlsx-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "XLSX в PPS"
-          link: "/conversion/java/xlsx-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "XLSX в PPSM"
-          link: "/conversion/java/xlsx-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "XLSX в PPSX"
-          link: "/conversion/java/xlsx-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "XLSX в PPT"
-          link: "/conversion/java/xlsx-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "XLSX в PPTM"
-          link: "/conversion/java/xlsx-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "XLSX в PPTX"
-          link: "/conversion/java/xlsx-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "XLSX в PSD"
-          link: "/conversion/java/xlsx-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "XLSX в RTF"
-          link: "/conversion/java/xlsx-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "XLSX в SVG"
-          link: "/conversion/java/xlsx-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "XLSX в SVGZ"
-          link: "/conversion/java/xlsx-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "XLSX в SXC"
-          link: "/conversion/java/xlsx-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "XLSX в TEX"
-          link: "/conversion/java/xlsx-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "XLSX в TIF"
-          link: "/conversion/java/xlsx-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "XLSX в TIFF"
-          link: "/conversion/java/xlsx-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "XLSX в TSV"
-          link: "/conversion/java/xlsx-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "XLSX в TXT"
-          link: "/conversion/java/xlsx-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "XLSX в WEBP"
-          link: "/conversion/java/xlsx-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "XLSX в WMF"
-          link: "/conversion/java/xlsx-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "XLSX в WMZ"
-          link: "/conversion/java/xlsx-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "XLSX в XLAM"
-          link: "/conversion/java/xlsx-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "XLSX в XLS"
-          link: "/conversion/java/xlsx-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "XLSX в XLSB"
-          link: "/conversion/java/xlsx-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "XLSX в XLSM"
-          link: "/conversion/java/xlsx-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "XLSX в XLT"
-          link: "/conversion/java/xlsx-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "XLSX в XLTM"
-          link: "/conversion/java/xlsx-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "XLSX в XLTX"
-          link: "/conversion/java/xlsx-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "XLSX в XPS"
-          link: "/conversion/java/xlsx-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования XLSX"
+    content: "Вы также можете конвертировать XLSX во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

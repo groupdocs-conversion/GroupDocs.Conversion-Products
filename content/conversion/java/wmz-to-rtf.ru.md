@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:22:02
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Преобразование WMZ в RTF в Java – Преобразование WMZ в RTF"
-head_description: "Конвертируйте WMZ в RTF на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов WMZ в RTF на Java"
+head_description: "Преобразование WMZ в RTF на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов WMZ в RTF в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать WMZ в RTF на Java"
+description: "Перевести WMZ в RTF с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы WMZ в файлы RTF в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию WMZ в RTF и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла WMZ и сохранения выходного результата RTF.
+        
+        Например, для исходного файла WMZ можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла RTF:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл RTF.
+
+        После завершения преобразования вы можете сохранить файл RTF по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования WMZ в RTF не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования WMZ в RTF в Java"
+    title_left: "Шаги для конвертации WMZ в RTF на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл WMZ в RTF с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл WMZ с полным путем
-        * Установите ConvertOptions для типа документа RTF
+        * Установите ConvertOptions для типа документа RTF.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (RTF) в качестве параметра
         
     title_right: "Системные Требования"
@@ -82,359 +81,28 @@ steps:
         
     code: |
         ```java
-        // Загружаем исходный файл WMZ для конвертации
+        // Загрузите исходный файл WMZ для преобразования
         Converter converter = new Converter("input.wmz");
-        // Готовим параметры преобразования для целевого формата RTF
+        // Подготовьте параметры преобразования для целевого формата RTF
         ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
         // Преобразование в формат RTF
         converter.convert("output.rtf", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации WMZ в RTF в реальном времени"
+    title: "Демонстрация WMZ в RTF"
     content: |
-        Конвертируйте WMZ в RTF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-WMZ"
-          title: " О формате файла WMZ"
-          content: |
-            Файл с расширением .wmz — это файл промежуточного уровня, создаваемый более старыми версиями приложений Microsoft Office. Он может содержать встроенные уравнения, картинки или другую векторную графику.
+       Конвертируйте WMZ в RTF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/image/wmz/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-RTF"
-          title: " О формате файла RTF"
-          content: |
-            Представленный и задокументированный Microsoft формат Rich Text Format (RTF) представляет собой метод кодирования форматированного текста и графики для использования в приложениях. Формат облегчает межплатформенный обмен документами с другими продуктами Microsoft, что служит цели функциональной совместимости. Эта возможность делает его стандартом передачи данных между программным обеспечением для обработки текстов, и, следовательно, содержимое может быть передано из одной операционной системы в другую без потери форматирования документа.
-
-          link: "https://docs.fileformat.com/word-processing/rtf/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать WMZ во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "WMZ в BMP"
-          link: "/conversion/java/wmz-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "WMZ в CSV"
-          link: "/conversion/java/wmz-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "WMZ в DCM"
-          link: "/conversion/java/wmz-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "WMZ в DIF"
-          link: "/conversion/java/wmz-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "WMZ в DOC"
-          link: "/conversion/java/wmz-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "WMZ в DOCM"
-          link: "/conversion/java/wmz-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "WMZ в DOCX"
-          link: "/conversion/java/wmz-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "WMZ в DOT"
-          link: "/conversion/java/wmz-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "WMZ в DOTM"
-          link: "/conversion/java/wmz-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "WMZ в DOTX"
-          link: "/conversion/java/wmz-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "WMZ в EMF"
-          link: "/conversion/java/wmz-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "WMZ в EMZ"
-          link: "/conversion/java/wmz-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "WMZ в EPUB"
-          link: "/conversion/java/wmz-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "WMZ в FODP"
-          link: "/conversion/java/wmz-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "WMZ в FODS"
-          link: "/conversion/java/wmz-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "WMZ в GIF"
-          link: "/conversion/java/wmz-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "WMZ в HTM"
-          link: "/conversion/java/wmz-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "WMZ в HTML"
-          link: "/conversion/java/wmz-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "WMZ в ICO"
-          link: "/conversion/java/wmz-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "WMZ в JP2"
-          link: "/conversion/java/wmz-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "WMZ в JPEG"
-          link: "/conversion/java/wmz-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "WMZ в JPG"
-          link: "/conversion/java/wmz-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "WMZ в MD"
-          link: "/conversion/java/wmz-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "WMZ в MHT"
-          link: "/conversion/java/wmz-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "WMZ в MHTML"
-          link: "/conversion/java/wmz-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "WMZ в ODP"
-          link: "/conversion/java/wmz-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "WMZ в ODS"
-          link: "/conversion/java/wmz-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "WMZ в ODT"
-          link: "/conversion/java/wmz-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "WMZ в OTP"
-          link: "/conversion/java/wmz-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "WMZ в OTT"
-          link: "/conversion/java/wmz-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "WMZ в PDF"
-          link: "/conversion/java/wmz-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "WMZ в PNG"
-          link: "/conversion/java/wmz-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "WMZ в POT"
-          link: "/conversion/java/wmz-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "WMZ в POTM"
-          link: "/conversion/java/wmz-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "WMZ в POTX"
-          link: "/conversion/java/wmz-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "WMZ в PPS"
-          link: "/conversion/java/wmz-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "WMZ в PPSM"
-          link: "/conversion/java/wmz-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "WMZ в PPSX"
-          link: "/conversion/java/wmz-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "WMZ в PPT"
-          link: "/conversion/java/wmz-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "WMZ в PPTM"
-          link: "/conversion/java/wmz-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "WMZ в PPTX"
-          link: "/conversion/java/wmz-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "WMZ в PSD"
-          link: "/conversion/java/wmz-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "WMZ в SVG"
-          link: "/conversion/java/wmz-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "WMZ в SVGZ"
-          link: "/conversion/java/wmz-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "WMZ в SXC"
-          link: "/conversion/java/wmz-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "WMZ в TEX"
-          link: "/conversion/java/wmz-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "WMZ в TIF"
-          link: "/conversion/java/wmz-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "WMZ в TIFF"
-          link: "/conversion/java/wmz-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "WMZ в TSV"
-          link: "/conversion/java/wmz-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "WMZ в TXT"
-          link: "/conversion/java/wmz-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "WMZ в WEBP"
-          link: "/conversion/java/wmz-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "WMZ в WMF"
-          link: "/conversion/java/wmz-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "WMZ в XLAM"
-          link: "/conversion/java/wmz-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "WMZ в XLS"
-          link: "/conversion/java/wmz-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "WMZ в XLSB"
-          link: "/conversion/java/wmz-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "WMZ в XLSM"
-          link: "/conversion/java/wmz-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "WMZ в XLSX"
-          link: "/conversion/java/wmz-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "WMZ в XLT"
-          link: "/conversion/java/wmz-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "WMZ в XLTM"
-          link: "/conversion/java/wmz-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "WMZ в XLTX"
-          link: "/conversion/java/wmz-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "WMZ в XPS"
-          link: "/conversion/java/wmz-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования WMZ"
+    content: "Вы также можете конвертировать WMZ во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

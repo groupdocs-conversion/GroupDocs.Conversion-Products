@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:11:47
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 
 ############################# Head ############################
-head_title: "Преобразование DOTM в DCM в Java — Преобразование DOTM в DCM"
-head_description: "Преобразование DOTM в DCM на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов DOTM в DCM на Java"
+head_description: "Преобразование DOTM в DCM на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов DOTM в DCM в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать DOTM в DCM на Java"
+description: "Перевести DOTM в DCM с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,13 +35,36 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы DOTM в файлы DCM в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию DOTM в DCM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DOTM и сохранения выходного результата DCM.
+        
+        Например, для исходного файла DOTM можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла DCM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DCM.
+
+        После завершения преобразования вы можете сохранить файл DCM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования DOTM в DCM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования DOTM в DCM в Java"
+    title_left: "Шаги для конвертации DOTM в DCM на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл DOTM в DCM, написав всего несколько строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл DOTM в DCM с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл DOTM с полным путем
         * Установите ConvertOptions для типа документа DCM.
@@ -91,350 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "DOTM в DCM Живые демонстрации"
+    title: "Демонстрация DOTM в DCM"
     content: |
-        Преобразуйте DOTM в DCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-DOTM"
-          title: " О формате файла DOTM"
-          content: |
-            Файл с расширением DOTM представляет собой файл шаблона, созданный с помощью Microsoft Word 2007 или более поздней версии. Он похож на популярный формат файла DOCX, за исключением того, что он сохраняет определенные пользователем настройки для повторного использования в случае создания новых документов. Такие документы чаще используются в офисах, где создается стандартный файл шаблона с такими настройками, как информация о странице, поля, макет по умолчанию и макросы, и при необходимости используется для создания на его основе новых документов. Однако файлы DOTM сохраняют макросы, представляющие собой серию команд в виде записанных действий для автоматического завершения задачи. Это помогает сэкономить время при выполнении действий, которые повторяются при завершении задачи.
+       Конвертируйте DOTM в DCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/word-processing/dotm/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла DCM"
-          content: |
-            Файлы с расширением .DCM представляют собой цифровое изображение, в котором хранится медицинская информация о пациентах, такая как МРТ, компьютерная томография и ультразвуковые изображения. Файлы DCM используют формат файла изображения DICOM (Digital Imaging and Communications in Medicine) и могут включать информацию о пациенте для справки. Он был разработан Национальной ассоциацией производителей электрооборудования (NEMA) и предназначался для стандартизации формата файлов изображений для распространения и просмотра медицинских изображений.
-
-          link: "https://docs.fileformat.com/page-description-language/pcl/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать DOTM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "DOTM в BMP"
-          link: "/conversion/java/dotm-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "DOTM в CSV"
-          link: "/conversion/java/dotm-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "DOTM в DIF"
-          link: "/conversion/java/dotm-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "DOTM в DOC"
-          link: "/conversion/java/dotm-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "DOTM в DOCM"
-          link: "/conversion/java/dotm-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DOTM в DOCX"
-          link: "/conversion/java/dotm-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "DOTM в DOT"
-          link: "/conversion/java/dotm-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "DOTM в DOTX"
-          link: "/conversion/java/dotm-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "DOTM в EMF"
-          link: "/conversion/java/dotm-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "DOTM в EMZ"
-          link: "/conversion/java/dotm-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "DOTM в EPUB"
-          link: "/conversion/java/dotm-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "DOTM в FODP"
-          link: "/conversion/java/dotm-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "DOTM в FODS"
-          link: "/conversion/java/dotm-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "DOTM в GIF"
-          link: "/conversion/java/dotm-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "DOTM в HTM"
-          link: "/conversion/java/dotm-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "DOTM в HTML"
-          link: "/conversion/java/dotm-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "DOTM в ICO"
-          link: "/conversion/java/dotm-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "DOTM в JP2"
-          link: "/conversion/java/dotm-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "DOTM в JPEG"
-          link: "/conversion/java/dotm-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "DOTM в JPG"
-          link: "/conversion/java/dotm-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "DOTM в MD"
-          link: "/conversion/java/dotm-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "DOTM в MHT"
-          link: "/conversion/java/dotm-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DOTM в MHTML"
-          link: "/conversion/java/dotm-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DOTM в ODP"
-          link: "/conversion/java/dotm-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "DOTM в ODS"
-          link: "/conversion/java/dotm-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "DOTM в ODT"
-          link: "/conversion/java/dotm-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "DOTM в OTP"
-          link: "/conversion/java/dotm-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "DOTM в OTT"
-          link: "/conversion/java/dotm-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "DOTM в PDF"
-          link: "/conversion/java/dotm-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "DOTM в PNG"
-          link: "/conversion/java/dotm-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "DOTM в POT"
-          link: "/conversion/java/dotm-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "DOTM в POTM"
-          link: "/conversion/java/dotm-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOTM в POTX"
-          link: "/conversion/java/dotm-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOTM в PPS"
-          link: "/conversion/java/dotm-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOTM в PPSM"
-          link: "/conversion/java/dotm-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOTM в PPSX"
-          link: "/conversion/java/dotm-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "DOTM в PPT"
-          link: "/conversion/java/dotm-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "DOTM в PPTM"
-          link: "/conversion/java/dotm-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "DOTM в PPTX"
-          link: "/conversion/java/dotm-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "DOTM в PSD"
-          link: "/conversion/java/dotm-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "DOTM в RTF"
-          link: "/conversion/java/dotm-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "DOTM в SVG"
-          link: "/conversion/java/dotm-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DOTM в SVGZ"
-          link: "/conversion/java/dotm-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DOTM в SXC"
-          link: "/conversion/java/dotm-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "DOTM в TEX"
-          link: "/conversion/java/dotm-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "DOTM в TIF"
-          link: "/conversion/java/dotm-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DOTM в TIFF"
-          link: "/conversion/java/dotm-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DOTM в TSV"
-          link: "/conversion/java/dotm-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "DOTM в TXT"
-          link: "/conversion/java/dotm-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "DOTM в WEBP"
-          link: "/conversion/java/dotm-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "DOTM в WMF"
-          link: "/conversion/java/dotm-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "DOTM в WMZ"
-          link: "/conversion/java/dotm-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "DOTM в XLAM"
-          link: "/conversion/java/dotm-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOTM в XLS"
-          link: "/conversion/java/dotm-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "DOTM в XLSB"
-          link: "/conversion/java/dotm-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "DOTM в XLSM"
-          link: "/conversion/java/dotm-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOTM в XLSX"
-          link: "/conversion/java/dotm-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "DOTM в XLT"
-          link: "/conversion/java/dotm-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DOTM в XLTM"
-          link: "/conversion/java/dotm-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DOTM в XLTX"
-          link: "/conversion/java/dotm-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DOTM в XPS"
-          link: "/conversion/java/dotm-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования DOTM"
+    content: "Вы также можете конвертировать DOTM во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

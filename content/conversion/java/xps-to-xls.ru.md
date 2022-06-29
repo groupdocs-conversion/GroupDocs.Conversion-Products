@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:23:17
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 
 ############################# Head ############################
-head_title: "Преобразование XPS в XLS в Java — Преобразование XPS в XLS"
-head_description: "Преобразование XPS в XLS на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов XPS в XLS на Java"
+head_description: "Преобразование XPS в XLS на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов XPS в XLS в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать XPS в XLS на Java"
+description: "Перевести XPS в XLS с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы XPS в файлы XLS в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию XPS в XLS и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла XPS и сохранения выходного результата XLS.
+        
+        Например, для исходного файла XPS можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла XLS:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл XLS.
+
+        После завершения преобразования вы можете сохранить файл XLS по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования XPS в XLS не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования XPS в XLS в Java"
+    title_left: "Шаги для конвертации XPS в XLS на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл XPS в XLS с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл XPS с полным путем
-        * Установите ConvertOptions для типа документа XLS
+        * Установите ConvertOptions для типа документа XLS.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (XLS) в качестве параметра
         
     title_right: "Системные Требования"
@@ -91,355 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации XPS в XLS Live"
+    title: "Демонстрация XPS в XLS"
     content: |
-        Преобразуйте XPS в XLS прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-XPS"
-          title: " О формате файла XPS"
-          content: |
-            Файл XPS представляет собой файлы макета страницы, основанные на спецификациях XML Paper, созданных Microsoft. Этот формат был разработан Microsoft в качестве замены формата файла EMF и подобен формату файла PDF, но использует XML в макете, внешнем виде и информации о печати документа. На самом деле более оправданно будет сказать, что XPS является попыткой PDF, но не может получить достаточную популярность как принадлежащий PDF по ряду причин.
+       Конвертируйте XPS в XLS прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/page-description-language/xps/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: " О формате файла XLS"
-          content: |
-            Файлы с расширением XLS представляют собой формат двоичных файлов Excel. Такие файлы могут быть созданы Microsoft Excel, а также другими подобными программами для работы с электронными таблицами, такими как OpenOffice Calc или Apple Numbers. Файл, сохраненный Excel, известен как рабочая книга, где каждая рабочая книга может иметь один или несколько рабочих листов. Данные хранятся и отображаются для пользователей в формате таблицы на листе и могут охватывать числовые значения, текстовые данные, формулы, подключения к внешним данным, изображения и диаграммы.
-
-          link: "https://docs.fileformat.com/spreadsheet/xls/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать XPS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "XPS в BMP"
-          link: "/conversion/java/xps-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "XPS в CSV"
-          link: "/conversion/java/xps-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "XPS в DCM"
-          link: "/conversion/java/xps-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "XPS в DIF"
-          link: "/conversion/java/xps-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "XPS в DJVU"
-          link: "/conversion/java/xps-to-djvu/"
-          description: "Формат графического файла"
-
-        # format loop
-        - name: "XPS в DOC"
-          link: "/conversion/java/xps-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "XPS в DOCM"
-          link: "/conversion/java/xps-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "XPS в DOCX"
-          link: "/conversion/java/xps-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "XPS в DOT"
-          link: "/conversion/java/xps-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "XPS в DOTM"
-          link: "/conversion/java/xps-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "XPS в DOTX"
-          link: "/conversion/java/xps-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "XPS в EMF"
-          link: "/conversion/java/xps-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "XPS в EMZ"
-          link: "/conversion/java/xps-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "XPS в EPUB"
-          link: "/conversion/java/xps-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "XPS в FODP"
-          link: "/conversion/java/xps-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "XPS в FODS"
-          link: "/conversion/java/xps-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "XPS в GIF"
-          link: "/conversion/java/xps-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "XPS в HTM"
-          link: "/conversion/java/xps-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "XPS в HTML"
-          link: "/conversion/java/xps-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "XPS в ICO"
-          link: "/conversion/java/xps-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "XPS в JP2"
-          link: "/conversion/java/xps-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "XPS в JPEG"
-          link: "/conversion/java/xps-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "XPS в JPG"
-          link: "/conversion/java/xps-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "XPS в MD"
-          link: "/conversion/java/xps-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "XPS в MHT"
-          link: "/conversion/java/xps-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "XPS в MHTML"
-          link: "/conversion/java/xps-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "XPS в ODP"
-          link: "/conversion/java/xps-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "XPS в ODS"
-          link: "/conversion/java/xps-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "XPS в ODT"
-          link: "/conversion/java/xps-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "XPS в OTP"
-          link: "/conversion/java/xps-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "XPS в OTT"
-          link: "/conversion/java/xps-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "XPS в PDF"
-          link: "/conversion/java/xps-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "XPS в PNG"
-          link: "/conversion/java/xps-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "XPS в POT"
-          link: "/conversion/java/xps-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "XPS в POTM"
-          link: "/conversion/java/xps-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "XPS в POTX"
-          link: "/conversion/java/xps-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "XPS в PPS"
-          link: "/conversion/java/xps-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "XPS в PPSM"
-          link: "/conversion/java/xps-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "XPS в PPSX"
-          link: "/conversion/java/xps-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "XPS в PPT"
-          link: "/conversion/java/xps-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "XPS в PPTM"
-          link: "/conversion/java/xps-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "XPS в PPTX"
-          link: "/conversion/java/xps-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "XPS в PSD"
-          link: "/conversion/java/xps-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "XPS в RTF"
-          link: "/conversion/java/xps-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "XPS в SVG"
-          link: "/conversion/java/xps-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "XPS в SVGZ"
-          link: "/conversion/java/xps-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "XPS в SXC"
-          link: "/conversion/java/xps-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "XPS в TEX"
-          link: "/conversion/java/xps-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "XPS в TIF"
-          link: "/conversion/java/xps-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "XPS в TIFF"
-          link: "/conversion/java/xps-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "XPS в TSV"
-          link: "/conversion/java/xps-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "XPS в TXT"
-          link: "/conversion/java/xps-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "XPS в WEBP"
-          link: "/conversion/java/xps-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "XPS в WMF"
-          link: "/conversion/java/xps-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "XPS в WMZ"
-          link: "/conversion/java/xps-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "XPS в XLAM"
-          link: "/conversion/java/xps-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "XPS в XLSB"
-          link: "/conversion/java/xps-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "XPS в XLSM"
-          link: "/conversion/java/xps-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "XPS в XLSX"
-          link: "/conversion/java/xps-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "XPS в XLT"
-          link: "/conversion/java/xps-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "XPS в XLTM"
-          link: "/conversion/java/xps-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "XPS в XLTX"
-          link: "/conversion/java/xps-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования XPS"
+    content: "Вы также можете конвертировать XPS во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

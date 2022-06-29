@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:10:35
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Преобразование CGM в DOCX на Java — Преобразование CGM в DOCX"
-head_description: "Преобразуйте CGM в DOCX на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов CGM в DOCX на Java"
+head_description: "Преобразование CGM в DOCX на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов CGM в DOCX на Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать CGM в DOCX на Java"
+description: "Перевести CGM в DOCX с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы CGM в файлы DOCX в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию CGM в DOCX и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла CGM и сохранения выходного результата DOCX.
+        
+        Например, для исходного файла CGM можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла DOCX:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DOCX.
+
+        После завершения преобразования вы можете сохранить файл DOCX по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования CGM в DOCX не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования CGM в DOCX в Java"
+    title_left: "Шаги для конвертации CGM в DOCX на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл CGM в DOCX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл CGM с полным путем
-        * Установите ConvertOptions для типа документа DOCX
+        * Установите ConvertOptions для типа документа DOCX.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (DOCX) в качестве параметра
         
     title_right: "Системные Требования"
@@ -91,355 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "CGM в DOCX Живые демонстрации"
+    title: "Демонстрация CGM в DOCX"
     content: |
-        Конвертируйте CGM в DOCX прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-CGM"
-          title: " О формате файла CGM"
-          content: |
-            Метафайл компьютерной графики (CGM) — это бесплатный, независимый от платформы, международный стандартный формат метафайла для хранения и обмена векторной графикой (2D), растровой графикой и текстом. CGM использует объектно-ориентированный подход и множество функциональных возможностей для создания изображений. CGM использует эти объектно-ориентированные характеристики для преобразования графических элементов в изображение. Метафайл содержит необходимую информацию, которая определяет другие файлы. В CGM текстовый исходный файл содержит все графические элементы, которые впоследствии могут быть скомпилированы в двоичный файл.
+       Конвертируйте CGM в DOCX прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/page-description-language/cgm/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " О формате файла DOCX"
-          content: |
-            Docx — широко известный формат документов Microsoft Word. Представленный в 2007 году с выпуском Microsoft Office 2007, структура этого нового формата документа была изменена с простого двоичного файла на комбинацию XML и двоичных файлов. Файлы Docx можно открывать в Word 2007 и его более поздних версиях, но не в более ранних версиях MS Word, которые поддерживают расширения файлов DOC.
-
-          link: "https://docs.fileformat.com/word-processing/docx/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать CGM во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "CGM в BMP"
-          link: "/conversion/java/cgm-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "CGM в CSV"
-          link: "/conversion/java/cgm-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "CGM в DCM"
-          link: "/conversion/java/cgm-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "CGM в DIF"
-          link: "/conversion/java/cgm-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "CGM в DOC"
-          link: "/conversion/java/cgm-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "CGM в DOCM"
-          link: "/conversion/java/cgm-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "CGM в DOT"
-          link: "/conversion/java/cgm-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "CGM в DOTM"
-          link: "/conversion/java/cgm-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "CGM в DOTX"
-          link: "/conversion/java/cgm-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "CGM в EMF"
-          link: "/conversion/java/cgm-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "CGM в EMZ"
-          link: "/conversion/java/cgm-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "CGM в EPUB"
-          link: "/conversion/java/cgm-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "CGM в FODP"
-          link: "/conversion/java/cgm-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "CGM в FODS"
-          link: "/conversion/java/cgm-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "CGM в GIF"
-          link: "/conversion/java/cgm-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "CGM в HTM"
-          link: "/conversion/java/cgm-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "CGM в HTML"
-          link: "/conversion/java/cgm-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "CGM в ICO"
-          link: "/conversion/java/cgm-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "CGM в JP2"
-          link: "/conversion/java/cgm-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "CGM в JPEG"
-          link: "/conversion/java/cgm-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "CGM в JPG"
-          link: "/conversion/java/cgm-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "CGM в MD"
-          link: "/conversion/java/cgm-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "CGM в MHT"
-          link: "/conversion/java/cgm-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "CGM в MHTML"
-          link: "/conversion/java/cgm-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "CGM в ODP"
-          link: "/conversion/java/cgm-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "CGM в ODS"
-          link: "/conversion/java/cgm-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "CGM в ODT"
-          link: "/conversion/java/cgm-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "CGM в OTP"
-          link: "/conversion/java/cgm-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "CGM в OTT"
-          link: "/conversion/java/cgm-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "CGM в PDF"
-          link: "/conversion/java/cgm-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "CGM в PNG"
-          link: "/conversion/java/cgm-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "CGM в POT"
-          link: "/conversion/java/cgm-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "CGM в POTM"
-          link: "/conversion/java/cgm-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "CGM в POTX"
-          link: "/conversion/java/cgm-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "CGM в PPS"
-          link: "/conversion/java/cgm-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "CGM в PPSM"
-          link: "/conversion/java/cgm-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "CGM в PPSX"
-          link: "/conversion/java/cgm-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "CGM в PPT"
-          link: "/conversion/java/cgm-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "CGM в PPTM"
-          link: "/conversion/java/cgm-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "CGM в PPTX"
-          link: "/conversion/java/cgm-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "CGM в PSD"
-          link: "/conversion/java/cgm-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "CGM в RTF"
-          link: "/conversion/java/cgm-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "CGM в SVG"
-          link: "/conversion/java/cgm-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "CGM в SVGZ"
-          link: "/conversion/java/cgm-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "CGM в SXC"
-          link: "/conversion/java/cgm-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "CGM в TEX"
-          link: "/conversion/java/cgm-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "CGM в TIF"
-          link: "/conversion/java/cgm-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "CGM в TIFF"
-          link: "/conversion/java/cgm-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "CGM в TSV"
-          link: "/conversion/java/cgm-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "CGM в TXT"
-          link: "/conversion/java/cgm-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "CGM в WEBP"
-          link: "/conversion/java/cgm-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "CGM в WMF"
-          link: "/conversion/java/cgm-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "CGM в WMZ"
-          link: "/conversion/java/cgm-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "CGM в XLAM"
-          link: "/conversion/java/cgm-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "CGM в XLS"
-          link: "/conversion/java/cgm-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "CGM в XLSB"
-          link: "/conversion/java/cgm-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "CGM в XLSM"
-          link: "/conversion/java/cgm-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "CGM в XLSX"
-          link: "/conversion/java/cgm-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "CGM в XLT"
-          link: "/conversion/java/cgm-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "CGM в XLTM"
-          link: "/conversion/java/cgm-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "CGM в XLTX"
-          link: "/conversion/java/cgm-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "CGM в XPS"
-          link: "/conversion/java/cgm-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования CGM"
+    content: "Вы также можете конвертировать CGM во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

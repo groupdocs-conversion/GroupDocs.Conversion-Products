@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:16:51
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 
 ############################# Head ############################
-head_title: "Преобразование OST в DOCM в Java — преобразование OST в DOCM"
-head_description: "Преобразование OST в DOCM на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов OST в DOCM на Java"
+head_description: "Преобразование OST в DOCM на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов OST в DOCM в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать OST в DOCM на Java"
+description: "Перевести OST в DOCM с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,11 +35,34 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы OST в файлы DOCM в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию OST в DOCM и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла OST и сохранения выходного результата DOCM.
+        
+        Например, для исходного файла OST можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла DOCM:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DOCM.
+
+        После завершения преобразования вы можете сохранить файл DOCM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования OST в DOCM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по преобразованию OST в DOCM в Java"
+    title_left: "Шаги для конвертации OST в DOCM на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл OST в DOCM с помощью нескольких строк кода.
 
@@ -82,379 +81,28 @@ steps:
         
     code: |
         ```java
-        // Загружаем исходный OST-файл для преобразования
+        // Загрузите исходный файл OST для преобразования
         Converter converter = new Converter("input.ost");
-        // Готовим параметры преобразования для целевого формата DOCM
+        // Подготовьте параметры преобразования для целевого формата DOCM
         ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
         // Преобразование в формат DOCM
         converter.convert("output.docm", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации OST в DOCM"
+    title: "Демонстрация OST в DOCM"
     content: |
-        Конвертируйте OST в DOCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-OST"
-          title: " О формате файла OST"
-          content: |
-            OST или файлы автономного хранилища представляют данные почтового ящика пользователя в автономном режиме на локальном компьютере после регистрации на сервере Exchange с использованием Microsoft Outlook. Он автоматически создается при первом использовании Microsoft Outlook при подключении к серверу. После создания файла данные синхронизируются с сервером электронной почты, чтобы они были доступны в автономном режиме, а также в случае отключения от сервера электронной почты.
+       Конвертируйте OST в DOCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/email/ost/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " О формате файла DOCM"
-          content: |
-            Файлы DOCM представляют собой документы, сгенерированные Microsoft Word 2007 или более поздней версии, с возможностью запуска макросов. Он похож на формат файла DOCX, но возможность запускать макросы отличает его от DOCX. Как и DOCX, файлы DOCM могут хранить текст, изображения, таблицы, фигуры, диаграммы и другое содержимое. Возможность запуска макросов позволяет легко сэкономить время, выполняя серию команд в виде записанных действий для автоматического завершения задачи. Файлы DOCM можно открывать и редактировать в Microsoft Word 2007 и более поздних версиях.
-
-          link: "https://docs.fileformat.com/word-processing/docm/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать OST во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "OST в BMP"
-          link: "/conversion/java/ost-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "OST в CSV"
-          link: "/conversion/java/ost-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "OST в DCM"
-          link: "/conversion/java/ost-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "OST в DIF"
-          link: "/conversion/java/ost-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "OST в DOC"
-          link: "/conversion/java/ost-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "OST в DOCX"
-          link: "/conversion/java/ost-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "OST в DOT"
-          link: "/conversion/java/ost-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "OST в DOTM"
-          link: "/conversion/java/ost-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "OST в DOTX"
-          link: "/conversion/java/ost-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "OST в EMF"
-          link: "/conversion/java/ost-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "OST в EML"
-          link: "/conversion/java/ost-to-eml/"
-          description: "Файл сообщения электронной почты"
-
-        # format loop
-        - name: "OST в EMLX"
-          link: "/conversion/java/ost-to-emlx/"
-          description: "Почтовое сообщение Apple"
-
-        # format loop
-        - name: "OST в EMZ"
-          link: "/conversion/java/ost-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "OST в EPUB"
-          link: "/conversion/java/ost-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "OST в FODP"
-          link: "/conversion/java/ost-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "OST в FODS"
-          link: "/conversion/java/ost-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "OST в GIF"
-          link: "/conversion/java/ost-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "OST в HTM"
-          link: "/conversion/java/ost-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "OST в HTML"
-          link: "/conversion/java/ost-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "OST в ICO"
-          link: "/conversion/java/ost-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "OST в JP2"
-          link: "/conversion/java/ost-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "OST в JPEG"
-          link: "/conversion/java/ost-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "OST в JPG"
-          link: "/conversion/java/ost-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "OST в MD"
-          link: "/conversion/java/ost-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "OST в MHT"
-          link: "/conversion/java/ost-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "OST в MHTML"
-          link: "/conversion/java/ost-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "OST в MSG"
-          link: "/conversion/java/ost-to-msg/"
-          description: "Формат электронной почты Microsoft Outlook"
-
-        # format loop
-        - name: "OST в ODP"
-          link: "/conversion/java/ost-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "OST в ODS"
-          link: "/conversion/java/ost-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "OST в ODT"
-          link: "/conversion/java/ost-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "OST в OTP"
-          link: "/conversion/java/ost-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "OST в OTT"
-          link: "/conversion/java/ost-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "OST в PDF"
-          link: "/conversion/java/ost-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "OST в PNG"
-          link: "/conversion/java/ost-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "OST в POT"
-          link: "/conversion/java/ost-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "OST в POTM"
-          link: "/conversion/java/ost-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "OST в POTX"
-          link: "/conversion/java/ost-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "OST в PPS"
-          link: "/conversion/java/ost-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "OST в PPSM"
-          link: "/conversion/java/ost-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "OST в PPSX"
-          link: "/conversion/java/ost-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "OST в PPT"
-          link: "/conversion/java/ost-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "OST в PPTM"
-          link: "/conversion/java/ost-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "OST в PPTX"
-          link: "/conversion/java/ost-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "OST в PSD"
-          link: "/conversion/java/ost-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "OST в RTF"
-          link: "/conversion/java/ost-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "OST в SVG"
-          link: "/conversion/java/ost-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "OST в SVGZ"
-          link: "/conversion/java/ost-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "OST в SXC"
-          link: "/conversion/java/ost-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "OST в TEX"
-          link: "/conversion/java/ost-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "OST в TIF"
-          link: "/conversion/java/ost-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "OST в TIFF"
-          link: "/conversion/java/ost-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "OST в TSV"
-          link: "/conversion/java/ost-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "OST в TXT"
-          link: "/conversion/java/ost-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "OST в WEBP"
-          link: "/conversion/java/ost-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "OST в WMF"
-          link: "/conversion/java/ost-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "OST в WMZ"
-          link: "/conversion/java/ost-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "OST в XLAM"
-          link: "/conversion/java/ost-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "OST в XLS"
-          link: "/conversion/java/ost-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "OST в XLSB"
-          link: "/conversion/java/ost-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "OST в XLSM"
-          link: "/conversion/java/ost-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "OST в XLSX"
-          link: "/conversion/java/ost-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "OST в XLT"
-          link: "/conversion/java/ost-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "OST в XLTM"
-          link: "/conversion/java/ost-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "OST в XLTX"
-          link: "/conversion/java/ost-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "OST в XPS"
-          link: "/conversion/java/ost-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования OST"
+    content: "Вы также можете конвертировать OST во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

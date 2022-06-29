@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
+layout: "auto-gen-conversion"
 date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 
 ############################# Head ############################
-head_title: "Преобразование DWT в SVGZ в Java — преобразование DWT в SVGZ"
-head_description: "Преобразование DWT в SVGZ на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов DWT в SVGZ на Java"
+head_description: "Преобразование DWT в SVGZ на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов DWT в SVGZ в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать DWT в SVGZ на Java"
+description: "Перевести DWT в SVGZ с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы DWT в файлы SVGZ в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию DWT в SVGZ и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DWT и сохранения выходного результата SVGZ.
+        
+        Например, для исходного файла DWT можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла SVGZ:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл SVGZ.
+
+        После завершения преобразования вы можете сохранить файл SVGZ по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования DWT в SVGZ не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования DWT в SVGZ в Java"
+    title_left: "Шаги для конвертации DWT в SVGZ на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл DWT в SVGZ с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл DWT с полным путем
-        * Установите ConvertOptions для типа документа SVGZ
+        * Установите ConvertOptions для типа документа SVGZ.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (SVGZ) в качестве параметра
         
     title_right: "Системные Требования"
@@ -84,362 +83,26 @@ steps:
         ```java
         // Загрузите исходный файл DWT для преобразования
         Converter converter = new Converter("input.dwt");
-        // Готовим параметры преобразования для целевого формата SVGZ
+        // Подготовьте параметры преобразования для целевого формата SVGZ
         ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
         // Преобразование в формат SVGZ
         converter.convert("output.svgz", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "DWT в SVGZ Живые демонстрации"
+    title: "Демонстрация DWT в SVGZ"
     content: |
-        Конвертируйте DWT в SVGZ прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-DWT"
-          title: " О формате файла DWT"
-          content: |
-            Файл DWT — это файл шаблона чертежа AutoCAD, который используется в качестве основы для создания чертежей, которые можно сохранить в виде файлов DWG. Такие файлы шаблонов содержат исходные настройки, такие как типы единиц измерения, требуемая точность, основные надписи, имена слоев, типы линий и другую подобную информацию для поперечного преобразования в соответствующие файлы чертежей. И AutoCAD, и CoreCAD можно использовать для чтения файлов шаблонов и дальнейшего их использования.
+       Конвертируйте DWT в SVGZ прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/cad/dwt/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла SVGZ"
-          content: |
-            Файл с расширением .svgz представляет собой сжатую версию файла масштабируемой векторной графики (.SVG). Он сжат сжатием gzip и содержит данные в формате XML. Файлы SVGZ поддерживают прозрачность, градиенты, анимацию и фильтры. Файлы SVGZ меньше по размеру по сравнению с файлами SVG по умолчанию, и этот уменьшенный размер файла помогает передавать графические файлы.
-
-          link: "https://docs.fileformat.com/image/svgz/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать DWT во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "DWT в BMP"
-          link: "/conversion/java/dwt-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "DWT в CSV"
-          link: "/conversion/java/dwt-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "DWT в DCM"
-          link: "/conversion/java/dwt-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "DWT в DIF"
-          link: "/conversion/java/dwt-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "DWT в DOC"
-          link: "/conversion/java/dwt-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "DWT в DOCM"
-          link: "/conversion/java/dwt-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DWT в DOCX"
-          link: "/conversion/java/dwt-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "DWT в DOT"
-          link: "/conversion/java/dwt-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "DWT в DOTM"
-          link: "/conversion/java/dwt-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "DWT в DOTX"
-          link: "/conversion/java/dwt-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "DWT в EMF"
-          link: "/conversion/java/dwt-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "DWT в EMZ"
-          link: "/conversion/java/dwt-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "DWT в EPUB"
-          link: "/conversion/java/dwt-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "DWT в FODP"
-          link: "/conversion/java/dwt-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "DWT в FODS"
-          link: "/conversion/java/dwt-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "DWT в GIF"
-          link: "/conversion/java/dwt-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "DWT в HTM"
-          link: "/conversion/java/dwt-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "DWT в HTML"
-          link: "/conversion/java/dwt-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "DWT в ICO"
-          link: "/conversion/java/dwt-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "DWT в JP2"
-          link: "/conversion/java/dwt-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "DWT в JPEG"
-          link: "/conversion/java/dwt-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "DWT в JPG"
-          link: "/conversion/java/dwt-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "DWT в MD"
-          link: "/conversion/java/dwt-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "DWT в MHT"
-          link: "/conversion/java/dwt-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DWT в MHTML"
-          link: "/conversion/java/dwt-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "DWT в ODP"
-          link: "/conversion/java/dwt-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "DWT в ODS"
-          link: "/conversion/java/dwt-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "DWT в ODT"
-          link: "/conversion/java/dwt-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "DWT в OTP"
-          link: "/conversion/java/dwt-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "DWT в OTT"
-          link: "/conversion/java/dwt-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "DWT в PDF"
-          link: "/conversion/java/dwt-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "DWT в PNG"
-          link: "/conversion/java/dwt-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "DWT в POT"
-          link: "/conversion/java/dwt-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "DWT в POTM"
-          link: "/conversion/java/dwt-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWT в POTX"
-          link: "/conversion/java/dwt-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWT в PPS"
-          link: "/conversion/java/dwt-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWT в PPSM"
-          link: "/conversion/java/dwt-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWT в PPSX"
-          link: "/conversion/java/dwt-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "DWT в PPT"
-          link: "/conversion/java/dwt-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "DWT в PPTM"
-          link: "/conversion/java/dwt-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "DWT в PPTX"
-          link: "/conversion/java/dwt-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "DWT в PSD"
-          link: "/conversion/java/dwt-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "DWT в RTF"
-          link: "/conversion/java/dwt-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "DWT в SVG"
-          link: "/conversion/java/dwt-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "DWT в SXC"
-          link: "/conversion/java/dwt-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "DWT в TEX"
-          link: "/conversion/java/dwt-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "DWT в TIF"
-          link: "/conversion/java/dwt-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DWT в TIFF"
-          link: "/conversion/java/dwt-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "DWT в TSV"
-          link: "/conversion/java/dwt-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "DWT в TXT"
-          link: "/conversion/java/dwt-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "DWT в WEBP"
-          link: "/conversion/java/dwt-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "DWT в WMF"
-          link: "/conversion/java/dwt-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "DWT в WMZ"
-          link: "/conversion/java/dwt-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "DWT в XLAM"
-          link: "/conversion/java/dwt-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DWT в XLS"
-          link: "/conversion/java/dwt-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "DWT в XLSB"
-          link: "/conversion/java/dwt-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "DWT в XLSM"
-          link: "/conversion/java/dwt-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DWT в XLSX"
-          link: "/conversion/java/dwt-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "DWT в XLT"
-          link: "/conversion/java/dwt-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DWT в XLTM"
-          link: "/conversion/java/dwt-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "DWT в XLTX"
-          link: "/conversion/java/dwt-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "DWT в XPS"
-          link: "/conversion/java/dwt-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования DWT"
+    content: "Вы также можете конвертировать DWT во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

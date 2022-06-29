@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:12:40
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 
 ############################# Head ############################
-head_title: "Преобразование EMAIL в SVG в Java — преобразование EMAIL в SVG"
-head_description: "Преобразуйте EMAIL в SVG на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов EMAIL в SVG на Java"
+head_description: "Преобразование EMAIL в SVG на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов EMAIL в SVG на Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать EMAIL в SVG на Java"
+description: "Перевести EMAIL в SVG с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,13 +35,36 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы EMAIL в файлы SVG в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию EMAIL в SVG и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла EMAIL и сохранения выходного результата SVG.
+        
+        Например, для исходного файла EMAIL можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла SVG:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл SVG.
+
+        После завершения преобразования вы можете сохранить файл SVG по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования EMAIL в SVG не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования EMAIL в SVG в Java"
+    title_left: "Шаги для конвертации EMAIL в SVG на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла EMAIL в SVG с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл EMAIL в SVG с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл EMAIL с полным путем
         * Установите ConvertOptions для типа документа SVG.
@@ -84,257 +83,26 @@ steps:
         ```java
         // Загрузите исходный файл EMAIL для преобразования
         Converter converter = new Converter("input.email");
-        // Готовим параметры преобразования для целевого формата SVG
+        // Подготовьте параметры преобразования для целевого формата SVG
         ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
         // Преобразование в формат SVG
         converter.convert("output.svg", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "EMAIL для живых демонстраций SVG"
+    title: "Демонстрация EMAIL в SVG"
     content: |
-        Преобразуйте EMAIL в SVG прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-EMAIL"
-          title: " О формате файла EMAIL"
-          content: |
-            Форматы файлов электронной почты используются почтовыми приложениями для хранения различных данных, включая сообщения электронной почты, вложения, папки, адресные книги и т. д. Форматы файлов электронной почты в основном связаны с файлом сообщения электронной почты Outlook Express.
+       Конвертируйте EMAIL в SVG прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/email/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла SVG"
-          content: |
-            Файлы SVG представляют собой файлы масштабируемой векторной графики, которые используют текстовый формат на основе XML для описания внешнего вида изображения. Слово «масштабируемый» относится к тому факту, что SVG можно масштабировать до разных размеров без потери качества. Текстовое описание таких файлов делает их независимыми от разрешения. Это один из наиболее часто используемых форматов для создания веб-сайтов и печатной графики для достижения масштабируемости.
-
-          link: "https://docs.fileformat.com/page-description-language/svg/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать EMAIL во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "EMAIL в BMP"
-          link: "/conversion/java/email-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "EMAIL в CSV"
-          link: "/conversion/java/email-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "EMAIL в DOC"
-          link: "/conversion/java/email-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "EMAIL в DOCM"
-          link: "/conversion/java/email-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "EMAIL в DOT"
-          link: "/conversion/java/email-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "EMAIL в DOTX"
-          link: "/conversion/java/email-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "EMAIL в EMF"
-          link: "/conversion/java/email-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "EMAIL в EMZ"
-          link: "/conversion/java/email-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "EMAIL в EPUB"
-          link: "/conversion/java/email-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "EMAIL в GIF"
-          link: "/conversion/java/email-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "EMAIL в HTML"
-          link: "/conversion/java/email-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "EMAIL в ICO"
-          link: "/conversion/java/email-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "EMAIL в JPEG"
-          link: "/conversion/java/email-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "EMAIL в JPG"
-          link: "/conversion/java/email-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "EMAIL в MHT"
-          link: "/conversion/java/email-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "EMAIL в ODP"
-          link: "/conversion/java/email-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "EMAIL в ODS"
-          link: "/conversion/java/email-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "EMAIL в ODT"
-          link: "/conversion/java/email-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "EMAIL в OTT"
-          link: "/conversion/java/email-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "EMAIL в PDF"
-          link: "/conversion/java/email-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "EMAIL в PNG"
-          link: "/conversion/java/email-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "EMAIL в POTM"
-          link: "/conversion/java/email-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "EMAIL в POTX"
-          link: "/conversion/java/email-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "EMAIL в PPS"
-          link: "/conversion/java/email-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "EMAIL в PPT"
-          link: "/conversion/java/email-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "EMAIL в PPTM"
-          link: "/conversion/java/email-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "EMAIL в PPTX"
-          link: "/conversion/java/email-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "EMAIL в PSD"
-          link: "/conversion/java/email-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "EMAIL в RTF"
-          link: "/conversion/java/email-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "EMAIL в TIF"
-          link: "/conversion/java/email-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "EMAIL в TSV"
-          link: "/conversion/java/email-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "EMAIL в TXT"
-          link: "/conversion/java/email-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "EMAIL в WEBP"
-          link: "/conversion/java/email-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "EMAIL в WMF"
-          link: "/conversion/java/email-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "EMAIL в WMZ"
-          link: "/conversion/java/email-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "EMAIL в XLAM"
-          link: "/conversion/java/email-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "EMAIL в XLSB"
-          link: "/conversion/java/email-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "EMAIL в XLSM"
-          link: "/conversion/java/email-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "EMAIL в XLTM"
-          link: "/conversion/java/email-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "EMAIL в XLTX"
-          link: "/conversion/java/email-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "EMAIL в XPS"
-          link: "/conversion/java/email-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования EMAIL"
+    content: "Вы также можете конвертировать EMAIL во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

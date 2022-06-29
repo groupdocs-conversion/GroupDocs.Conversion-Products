@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:15:58
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 
 ############################# Head ############################
-head_title: "Преобразование MPP в SVGZ в Java — Преобразование MPP в SVGZ"
-head_description: "Преобразование MPP в SVGZ на Java с помощью нескольких строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов MPP в SVGZ на Java"
+head_description: "Преобразование MPP в SVGZ на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов MPP в SVGZ в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать MPP в SVGZ на Java"
+description: "Перевести MPP в SVGZ с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы MPP в файлы SVGZ в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию MPP в SVGZ и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла MPP и сохранения выходного результата SVGZ.
+        
+        Например, для исходного файла MPP можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла SVGZ:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл SVGZ.
+
+        После завершения преобразования вы можете сохранить файл SVGZ по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования MPP в SVGZ не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования MPP в SVGZ в Java"
+    title_left: "Шаги для конвертации MPP в SVGZ на Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) упрощает для разработчиков преобразование файла MPP в SVGZ с помощью нескольких строк кода.
+        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл MPP в SVGZ с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл MPP с полным путем
-        * Установите ConvertOptions для типа документа SVGZ
+        * Установите ConvertOptions для типа документа SVGZ.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (SVGZ) в качестве параметра
         
     title_right: "Системные Требования"
@@ -84,367 +83,26 @@ steps:
         ```java
         // Загрузите исходный файл MPP для преобразования
         Converter converter = new Converter("input.mpp");
-        // Готовим параметры преобразования для целевого формата SVGZ
+        // Подготовьте параметры преобразования для целевого формата SVGZ
         ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
         // Преобразование в формат SVGZ
         converter.convert("output.svgz", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "MPP в SVGZ Живые демонстрации"
+    title: "Демонстрация MPP в SVGZ"
     content: |
-        Конвертируйте MPP в SVGZ прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-MPP"
-          title: " О формате файла MPP"
-          content: |
-            Файл с расширением MPP — это файл данных Microsoft Project, в котором интегрированно хранится информация, связанная с управлением проектами. Это собственный формат файла, разработанный Microsoft как формат файла для Microsoft Project (MSP), который представляет собой прикладное программное обеспечение для управления проектами. Помимо MPP, MSP поддерживает другие форматы файлов, а также XML-схему проекта. Некоторые API и приложения предоставляют возможность конвертировать формат файлов MPP в другие.
+       Конвертируйте MPP в SVGZ прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/project-management/mpp/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " О формате файла SVGZ"
-          content: |
-            Файл с расширением .svgz представляет собой сжатую версию файла масштабируемой векторной графики (.SVG). Он сжат сжатием gzip и содержит данные в формате XML. Файлы SVGZ поддерживают прозрачность, градиенты, анимацию и фильтры. Файлы SVGZ меньше по размеру по сравнению с файлами SVG по умолчанию, и этот уменьшенный размер файла помогает передавать графические файлы.
-
-          link: "https://docs.fileformat.com/image/svgz/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать MPP во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "MPP в BMP"
-          link: "/conversion/java/mpp-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "MPP в CSV"
-          link: "/conversion/java/mpp-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "MPP в DCM"
-          link: "/conversion/java/mpp-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "MPP в DIF"
-          link: "/conversion/java/mpp-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "MPP в DOC"
-          link: "/conversion/java/mpp-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "MPP в DOCM"
-          link: "/conversion/java/mpp-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "MPP в DOCX"
-          link: "/conversion/java/mpp-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "MPP в DOT"
-          link: "/conversion/java/mpp-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "MPP в DOTM"
-          link: "/conversion/java/mpp-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "MPP в DOTX"
-          link: "/conversion/java/mpp-to-dotx/"
-          description: "Шаблон документа Word Open XML"
-
-        # format loop
-        - name: "MPP в EMF"
-          link: "/conversion/java/mpp-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "MPP в EMZ"
-          link: "/conversion/java/mpp-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "MPP в EPUB"
-          link: "/conversion/java/mpp-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "MPP в FODP"
-          link: "/conversion/java/mpp-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "MPP в FODS"
-          link: "/conversion/java/mpp-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "MPP в GIF"
-          link: "/conversion/java/mpp-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "MPP в HTM"
-          link: "/conversion/java/mpp-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "MPP в HTML"
-          link: "/conversion/java/mpp-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "MPP в ICO"
-          link: "/conversion/java/mpp-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "MPP в JP2"
-          link: "/conversion/java/mpp-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "MPP в JPEG"
-          link: "/conversion/java/mpp-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "MPP в JPG"
-          link: "/conversion/java/mpp-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "MPP в MD"
-          link: "/conversion/java/mpp-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "MPP в MHT"
-          link: "/conversion/java/mpp-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "MPP в MHTML"
-          link: "/conversion/java/mpp-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "MPP в ODP"
-          link: "/conversion/java/mpp-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "MPP в ODS"
-          link: "/conversion/java/mpp-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "MPP в ODT"
-          link: "/conversion/java/mpp-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "MPP в OTP"
-          link: "/conversion/java/mpp-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "MPP в OTS"
-          link: "/conversion/java/mpp-to-ots/"
-          description: "Шаблон электронной таблицы OpenDocument"
-
-        # format loop
-        - name: "MPP в OTT"
-          link: "/conversion/java/mpp-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "MPP в PDF"
-          link: "/conversion/java/mpp-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "MPP в PNG"
-          link: "/conversion/java/mpp-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "MPP в POT"
-          link: "/conversion/java/mpp-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "MPP в POTM"
-          link: "/conversion/java/mpp-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "MPP в POTX"
-          link: "/conversion/java/mpp-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "MPP в PPS"
-          link: "/conversion/java/mpp-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "MPP в PPSM"
-          link: "/conversion/java/mpp-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "MPP в PPSX"
-          link: "/conversion/java/mpp-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "MPP в PPT"
-          link: "/conversion/java/mpp-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "MPP в PPTM"
-          link: "/conversion/java/mpp-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "MPP в PPTX"
-          link: "/conversion/java/mpp-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "MPP в PSD"
-          link: "/conversion/java/mpp-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "MPP в RTF"
-          link: "/conversion/java/mpp-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "MPP в SVG"
-          link: "/conversion/java/mpp-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "MPP в SXC"
-          link: "/conversion/java/mpp-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "MPP в TEX"
-          link: "/conversion/java/mpp-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "MPP в TIF"
-          link: "/conversion/java/mpp-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "MPP в TIFF"
-          link: "/conversion/java/mpp-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "MPP в TSV"
-          link: "/conversion/java/mpp-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "MPP в TXT"
-          link: "/conversion/java/mpp-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "MPP в WEBP"
-          link: "/conversion/java/mpp-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "MPP в WMF"
-          link: "/conversion/java/mpp-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "MPP в WMZ"
-          link: "/conversion/java/mpp-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "MPP в XLAM"
-          link: "/conversion/java/mpp-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MPP в XLS"
-          link: "/conversion/java/mpp-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "MPP в XLSB"
-          link: "/conversion/java/mpp-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "MPP в XLSM"
-          link: "/conversion/java/mpp-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MPP в XLSX"
-          link: "/conversion/java/mpp-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "MPP в XLT"
-          link: "/conversion/java/mpp-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "MPP в XLTM"
-          link: "/conversion/java/mpp-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "MPP в XLTX"
-          link: "/conversion/java/mpp-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "MPP в XPS"
-          link: "/conversion/java/mpp-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования MPP"
+    content: "Вы также можете конвертировать MPP во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -1,23 +1,21 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:18:54
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 
 ############################# Head ############################
-head_title: "Преобразование PS в DOTX в Java — преобразование PS в DOTX"
-head_description: "Преобразуйте PS в DOTX на Java, используя несколько строк кода. Преобразование более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
+head_title: "Конвертация файлов PS в DOTX на Java"
+head_description: "Преобразование PS в DOTX на Java с помощью нескольких строк кода. Конвертация более 160 форматов файлов с помощью API преобразования документов GroupDocs для Java."
 
 ############################# Header ############################
-title: "Преобразование файлов PS в DOTX в Java"
-description: "Расширьте возможности своих Java-приложений с помощью функций преобразования документов в более чем 135 популярных форматов изображений и файлов, не требуя дополнительного программного обеспечения.."
+title: "Конвертировать PS в DOTX на Java"
+description: "Перевести PS в DOTX с помощью нескольких строк Java кода"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,29 +27,7 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "Справочник по API"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Примеры кода"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Живые демонстрации"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Цены"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
@@ -59,16 +35,39 @@ about:
     title: "О GroupDocs.Conversion for Java API"
     content: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/ru/conversion/java/) — это расширенный API преобразования форматов файлов для преобразования между популярными форматами изображений и документов, такими как Microsoft Office, OpenDocument, PDF, HTML, электронная почта, CAD. и многое другое, используя несколько строк кода. Собственный API автоматически определяет форматы исходных документов и предлагает множество параметров для настройки преобразованных документов. Наряду с функцией извлечения информации из документа, он также поддерживает кэширование результатов преобразования на локальный диск по умолчанию. Однако любой тип кэш-хранилища может поддерживаться путем реализации соответствующих интерфейсов — Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis или любых других.
+    
+
+overview:
+    enable: true
+    content: |
+        Преобразуйте свои файлы PS в файлы DOTX в Java. Для этого понадобится всего пара строк кода Java на любой платформе по вашему выбору, например — Windows, Linux, macOS.
+        Вы можете бесплатно попробовать конвертацию PS в DOTX и оценить качество результатов преобразования.
+        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PS и сохранения выходного результата DOTX.
+        
+        Например, для исходного файла PS можно использовать следующие параметры загрузки:
+
+        * автоматическое определение формата файла;
+        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+
+        Существуют также расширенные возможности преобразования для файла DOTX:
+
+        * конвертировать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DOTX.
+
+        После завершения преобразования вы можете сохранить файл DOTX по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
+        Обратите внимание - для преобразования PS в DOTX не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для преобразования PS в DOTX в Java"
+    title_left: "Шаги для конвертации PS в DOTX на Java"
     content_left: |
         [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/java/) позволяет разработчикам легко преобразовать файл PS в DOTX с помощью нескольких строк кода.
 
         * Создайте новый экземпляр класса Converter и загрузите файл PS с полным путем
-        * Установите ConvertOptions для типа документа DOTX
+        * Установите ConvertOptions для типа документа DOTX.
         * Вызовите метод convert() и передайте имя документа (полный путь) и формат (DOTX) в качестве параметра
         
     title_right: "Системные Требования"
@@ -82,7 +81,7 @@ steps:
         
     code: |
         ```java
-        // Загружаем исходный файл PS для преобразования
+        // Загрузите исходный файл PS для преобразования
         Converter converter = new Converter("input.ps");
         // Подготовьте параметры преобразования для целевого формата DOTX
         ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
@@ -91,355 +90,19 @@ steps:
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "PS в живые демонстрации DOTX"
+    title: "Демонстрация PS в DOTX"
     content: |
-        Конвертируйте PS в DOTX прямо сейчас, посетив веб-сайт [GroupDocs.Conversion Живые демонстрации](https://products.groupdocs.app/conversion/family).
-        Живая демонстрация имеет следующие преимущества
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-PS"
-          title: " О формате файла PS"
-          content: |
-            PostScript (PS) — это язык описания страниц общего назначения, используемый в бизнесе настольных и электронных издательских систем. Основное внимание в PostScript (PS) уделяется упрощению двумерного графического дизайна. Для большинства языков требуется отдельный этап компиляции перед выполнением кода, в то время как формат Post Script (PS) поддерживает прямую интерпретацию во время выполнения.
+       Конвертируйте PS в DOTX прямо сейчас, посетив веб-сайт [GroupDocs.Conversion](https://products.groupdocs.app/conversion/). Бесплатная демонстрация имеет следующие преимущества
+       
 
-          link: "https://docs.fileformat.com/page-description-language/ps/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " О формате файла DOTX"
-          content: |
-            Файлы с расширением DOTX представляют собой файлы шаблонов, созданные Microsoft Word с предварительно отформатированными настройками для создания дополнительных файлов DOCX. Файл шаблона создается для того, чтобы иметь определенные пользовательские настройки, которые должны применяться к последующим файлам, созданным из этого шаблона. Эти параметры включают поля страницы, границы, верхние и нижние колонтитулы и другие параметры страницы. Такие шаблоны используются в официальных документах, таких как бланки компаний и стандартизированные формы.
-
-          link: "https://docs.fileformat.com/word-processing/dotx/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования"
-    content: |
-        Вы также можете конвертировать PS во многие другие форматы файлов. Пожалуйста, ознакомьтесь с полным списком ниже.
-    format: 
-        # format loop
-        - name: "PS в BMP"
-          link: "/conversion/java/ps-to-bmp/"
-          description: "Формат растрового файла"
-
-        # format loop
-        - name: "PS в CSV"
-          link: "/conversion/java/ps-to-csv/"
-          description: "Файл значений, разделенных запятыми"
-
-        # format loop
-        - name: "PS в DCM"
-          link: "/conversion/java/ps-to-dcm/"
-          description: "DICOM-изображение"
-
-        # format loop
-        - name: "PS в DIF"
-          link: "/conversion/java/ps-to-dif/"
-          description: "Формат обмена данными"
-
-        # format loop
-        - name: "PS в DOC"
-          link: "/conversion/java/ps-to-doc/"
-          description: "Документ Microsoft Word"
-
-        # format loop
-        - name: "PS в DOCM"
-          link: "/conversion/java/ps-to-docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PS в DOCX"
-          link: "/conversion/java/ps-to-docx/"
-          description: "Документ Microsoft Word с открытым XML"
-
-        # format loop
-        - name: "PS в DOT"
-          link: "/conversion/java/ps-to-dot/"
-          description: "Шаблон документа Microsoft Word"
-
-        # format loop
-        - name: "PS в DOTM"
-          link: "/conversion/java/ps-to-dotm/"
-          description: "Шаблон Microsoft Word с поддержкой макросов"
-
-        # format loop
-        - name: "PS в EMF"
-          link: "/conversion/java/ps-to-emf/"
-          description: "Расширенный формат метафайла"
-
-        # format loop
-        - name: "PS в EMZ"
-          link: "/conversion/java/ps-to-emz/"
-          description: "Расширенный сжатый метафайл Windows"
-
-        # format loop
-        - name: "PS в EPUB"
-          link: "/conversion/java/ps-to-epub/"
-          description: "Формат файла цифровой электронной книги"
-
-        # format loop
-        - name: "PS в FODP"
-          link: "/conversion/java/ps-to-fodp/"
-          description: "Плоская XML-презентация OpenDocument"
-
-        # format loop
-        - name: "PS в FODS"
-          link: "/conversion/java/ps-to-fods/"
-          description: "Плоская XML-таблица OpenDocument"
-
-        # format loop
-        - name: "PS в GIF"
-          link: "/conversion/java/ps-to-gif/"
-          description: "Графический файл формата обмена"
-
-        # format loop
-        - name: "PS в HTM"
-          link: "/conversion/java/ps-to-htm/"
-          description: "Файл языка гипертекстовой разметки"
-
-        # format loop
-        - name: "PS в HTML"
-          link: "/conversion/java/ps-to-html/"
-          description: "Язык гипертекстовой разметки"
-
-        # format loop
-        - name: "PS в ICO"
-          link: "/conversion/java/ps-to-ico/"
-          description: "Файл значка Майкрософт"
-
-        # format loop
-        - name: "PS в JP2"
-          link: "/conversion/java/ps-to-jp2/"
-          description: "Основной файл изображения JPEG 2000"
-
-        # format loop
-        - name: "PS в JPEG"
-          link: "/conversion/java/ps-to-jpeg/"
-          description: "Изображение в формате JPEG"
-
-        # format loop
-        - name: "PS в JPG"
-          link: "/conversion/java/ps-to-jpg/"
-          description: "Файл изображения Объединенной группы экспертов по фотографии"
-
-        # format loop
-        - name: "PS в MD"
-          link: "/conversion/java/ps-to-md/"
-          description: "Уценка"
-
-        # format loop
-        - name: "PS в MHT"
-          link: "/conversion/java/ps-to-mht/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PS в MHTML"
-          link: "/conversion/java/ps-to-mhtml/"
-          description: "MIME-инкапсуляция совокупного HTML"
-
-        # format loop
-        - name: "PS в ODP"
-          link: "/conversion/java/ps-to-odp/"
-          description: "Формат файла презентации OpenDocument"
-
-        # format loop
-        - name: "PS в ODS"
-          link: "/conversion/java/ps-to-ods/"
-          description: "Открыть электронную таблицу документов"
-
-        # format loop
-        - name: "PS в ODT"
-          link: "/conversion/java/ps-to-odt/"
-          description: "Открыть текст документа"
-
-        # format loop
-        - name: "PS в OTP"
-          link: "/conversion/java/ps-to-otp/"
-          description: "Шаблон графика происхождения"
-
-        # format loop
-        - name: "PS в OTT"
-          link: "/conversion/java/ps-to-ott/"
-          description: "Открыть шаблон документа"
-
-        # format loop
-        - name: "PS в PDF"
-          link: "/conversion/java/ps-to-pdf/"
-          description: "Портативный документ"
-
-        # format loop
-        - name: "PS в PNG"
-          link: "/conversion/java/ps-to-png/"
-          description: "Портативная сетевая графика"
-
-        # format loop
-        - name: "PS в POT"
-          link: "/conversion/java/ps-to-pot/"
-          description: "Шаблон PowerPoint"
-
-        # format loop
-        - name: "PS в POTM"
-          link: "/conversion/java/ps-to-potm/"
-          description: "Шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PS в POTX"
-          link: "/conversion/java/ps-to-potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-
-        # format loop
-        - name: "PS в PPS"
-          link: "/conversion/java/ps-to-pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PS в PPSM"
-          link: "/conversion/java/ps-to-ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-
-        # format loop
-        - name: "PS в PPSX"
-          link: "/conversion/java/ps-to-ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-
-        # format loop
-        - name: "PS в PPT"
-          link: "/conversion/java/ps-to-ppt/"
-          description: "Презентация PowerPoint"
-
-        # format loop
-        - name: "PS в PPTM"
-          link: "/conversion/java/ps-to-pptm/"
-          description: "Презентация Microsoft PowerPoint"
-
-        # format loop
-        - name: "PS в PPTX"
-          link: "/conversion/java/ps-to-pptx/"
-          description: "Презентация PowerPoint Open XML"
-
-        # format loop
-        - name: "PS в PSD"
-          link: "/conversion/java/ps-to-psd/"
-          description: "Документ Adobe Photoshop"
-
-        # format loop
-        - name: "PS в RTF"
-          link: "/conversion/java/ps-to-rtf/"
-          description: "Расширенный текстовый формат файла"
-
-        # format loop
-        - name: "PS в SVG"
-          link: "/conversion/java/ps-to-svg/"
-          description: "Файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PS в SVGZ"
-          link: "/conversion/java/ps-to-svgz/"
-          description: "Сжатый файл масштабируемой векторной графики"
-
-        # format loop
-        - name: "PS в SXC"
-          link: "/conversion/java/ps-to-sxc/"
-          description: "Электронная таблица StarOffice Calc"
-
-        # format loop
-        - name: "PS в TEX"
-          link: "/conversion/java/ps-to-tex/"
-          description: "Исходный документ LaTeX"
-
-        # format loop
-        - name: "PS в TIF"
-          link: "/conversion/java/ps-to-tif/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PS в TIFF"
-          link: "/conversion/java/ps-to-tiff/"
-          description: "Формат файла изображения с тегами"
-
-        # format loop
-        - name: "PS в TSV"
-          link: "/conversion/java/ps-to-tsv/"
-          description: "Файл значений, разделенных табуляцией"
-
-        # format loop
-        - name: "PS в TXT"
-          link: "/conversion/java/ps-to-txt/"
-          description: "Формат обычного текстового файла"
-
-        # format loop
-        - name: "PS в WEBP"
-          link: "/conversion/java/ps-to-webp/"
-          description: "Формат файла растрового веб-изображения"
-
-        # format loop
-        - name: "PS в WMF"
-          link: "/conversion/java/ps-to-wmf/"
-          description: "Метафайл Windows"
-
-        # format loop
-        - name: "PS в WMZ"
-          link: "/conversion/java/ps-to-wmz/"
-          description: "Метафайл Windows сжат"
-
-        # format loop
-        - name: "PS в XLAM"
-          link: "/conversion/java/ps-to-xlam/"
-          description: "Надстройка Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PS в XLS"
-          link: "/conversion/java/ps-to-xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-
-        # format loop
-        - name: "PS в XLSB"
-          link: "/conversion/java/ps-to-xlsb/"
-          description: "Двоичный файл электронной таблицы Microsoft Excel"
-
-        # format loop
-        - name: "PS в XLSM"
-          link: "/conversion/java/ps-to-xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PS в XLSX"
-          link: "/conversion/java/ps-to-xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-
-        # format loop
-        - name: "PS в XLT"
-          link: "/conversion/java/ps-to-xlt/"
-          description: "Шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PS в XLTM"
-          link: "/conversion/java/ps-to-xltm/"
-          description: "Шаблон Microsoft Excel с поддержкой макросов"
-
-        # format loop
-        - name: "PS в XLTX"
-          link: "/conversion/java/ps-to-xltx/"
-          description: "Открытый XML-шаблон Microsoft Excel"
-
-        # format loop
-        - name: "PS в XPS"
-          link: "/conversion/java/ps-to-xps/"
-          description: "Спецификация документа Open XML"
-
-
-
-############################# Back to top ###############################
+    title: "Другие поддерживаемые преобразования PS"
+    content: "Вы также можете конвертировать PS во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+       
+       
 back_to_top:
     enable: true
 ---

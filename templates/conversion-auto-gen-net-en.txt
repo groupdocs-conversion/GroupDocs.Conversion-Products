@@ -99,7 +99,7 @@ demos:
 
 more_formats:
     enable: true
-    title: "Other supported transformations {{$3_1}}_UPPER"
+    title: "Other supported {{$3_1}}_UPPER conversions in C# "
     content: "You can also convert {{$3_1}}_UPPER to many other file formats. Please see the list below."
        
        

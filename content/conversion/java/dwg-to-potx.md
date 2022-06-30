@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:12:15
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
+breadcrumb: DWG to POTX in Java
 
 ############################# Head ############################
-head_title: "DWG to POTX Conversion in Java – Convert DWG to POTX"
-head_description: "Convert DWG to POTX in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "Convert DWG to POTX in Java"
+head_description: "DWG to POTX conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
 
 ############################# Header ############################
-title: "Convert DWG Files to POTX in Java"
-description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
+title: "Convert DWG to POTX in Java"
+description: "DWG to POTX conversion with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,417 +28,82 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your DWG files to POTX files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
+        You can try converting DWG to POTX for free and evaluate the quality of the conversion results.
+        Along with simple file conversion scripts, you can try more sophisticated options for loading the DWG source file and storing the POTX output.
+        
+        For example, for the source file DWG, you can use the following upload options:
+
+        * automatic detection of the file format;
+        * specify a password for protected files (if the file format supports it);
+        * replace missing fonts to preserve the appearance of the document.
+
+        There are also advanced conversion options for the POTX file:
+
+        * convert a specific page of a document or a range of pages;
+        * add a watermark to the converted POTX.
+
+        Once the conversion is complete, you can save the POTX file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert DWG to POTX, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting DWG to POTX in Java"
+    title_left: "Steps to Convert DWG to POTX in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the DWG file to POTX in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a DWG file to POTX with a few lines of code.
 
-        *   Create a new instance of Converter class and load the DWG file with full path
-        *   Set ConvertOptions for the POTX document type
-        *   Call the convert() method and pass the document name (full path) and format (POTX) as parameter
+        * Create a new instance of the Converter class and upload the file DWG with the full path
+        * Set ConvertOptions for document type to POTX.
+        * Call the convert() method and pass the document name (full path) and format (POTX) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for Java APIs can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
         
     code: |
         ```java
-        // Load the source DWG file to be converted
+        // Load source file DWG for conversion
         Converter converter = new Converter("input.dwg");
-        // Get the convert options ready for the target POTX format
+        // Prepare conversion options for target format POTX
         ConvertOptions convertOptions = new FileType().fromExtension("potx").getConvertOptions();
         // Convert to POTX format
         converter.convert("output.potx", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "DWG to POTX Live Demos"
+    title: "DWG to POTX Live Demo"
     content: |
-        Convert DWG to POTX right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-DWG"
-          title: " About DWG File Format"
-          content: |
-            Files with DWG extension represent proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represents the binary file format for CAD (Computer Aided Design) drawings. It contains a vector image and metadata for the representation of the contents of CAD files.
+       Convert DWG to POTX now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
+       
 
-          link: "https://docs.fileformat.com/specification/cad/dwg/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " About POTX File Format"
-          content: |
-            Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
-
-          link: "https://docs.fileformat.com/presentation/potx/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert DWG into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "DWG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "DWG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "DWG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "DWG TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "DWG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "DWG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "DWG TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "DWG TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "DWG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "DWG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "DWG TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "DWG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "DWG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "DWG TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "DWG TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "DWG TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "DWG TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "DWG TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "DWG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "DWG TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "DWG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "DWG TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "DWG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "DWG TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "DWG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "DWG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "DWG TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "DWG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "DWG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "DWG TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "DWG TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "DWG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "DWG TO POT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "DWG TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "DWG TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DWG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DWG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "DWG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "DWG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "DWG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "DWG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DWG TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "DWG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DWG TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DWG TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "DWG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "DWG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DWG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DWG TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "DWG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "DWG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "DWG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "DWG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "DWG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "DWG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "DWG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "DWG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "DWG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "DWG TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "DWG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "DWG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "DWG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/dwg-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported DWG conversions in Java"
+    content: "You can also convert DWG to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

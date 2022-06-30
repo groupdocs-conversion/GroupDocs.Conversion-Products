@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:20:05
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
+breadcrumb: TSV to DOC in Java
 
 ############################# Head ############################
-head_title: "TSV to DOC Conversion in Java – Convert TSV to DOC"
-head_description: "Convert TSV to DOC in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "Convert TSV to DOC in Java"
+head_description: "TSV to DOC conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
 
 ############################# Header ############################
-title: "Convert TSV Files to DOC in Java"
-description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
+title: "Convert TSV to DOC in Java"
+description: "TSV to DOC conversion with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,412 +28,82 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your TSV files to DOC files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
+        You can try converting TSV to DOC for free and evaluate the quality of the conversion results.
+        Along with simple file conversion scripts, you can try more sophisticated options for loading the TSV source file and storing the DOC output.
+        
+        For example, for the source file TSV, you can use the following upload options:
+
+        * automatic detection of the file format;
+        * specify a password for protected files (if the file format supports it);
+        * replace missing fonts to preserve the appearance of the document.
+
+        There are also advanced conversion options for the DOC file:
+
+        * convert a specific page of a document or a range of pages;
+        * add a watermark to the converted DOC.
+
+        Once the conversion is complete, you can save the DOC file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert TSV to DOC, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting TSV to DOC in Java"
+    title_left: "Steps to Convert TSV to DOC in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the TSV file to DOC in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a TSV file to DOC with a few lines of code.
 
-        *   Create a new instance of Converter class and load the TSV file with full path
-        *   Set ConvertOptions for the DOC document type
-        *   Call the convert() method and pass the document name (full path) and format (DOC) as parameter
+        * Create a new instance of the Converter class and upload the file TSV with the full path
+        * Set ConvertOptions for document type to DOC.
+        * Call the convert() method and pass the document name (full path) and format (DOC) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for Java APIs can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
         
     code: |
         ```java
-        // Load the source TSV file to be converted
+        // Load source file TSV for conversion
         Converter converter = new Converter("input.tsv");
-        // Get the convert options ready for the target DOC format
+        // Prepare conversion options for target format DOC
         ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
         // Convert to DOC format
         converter.convert("output.doc", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "TSV to DOC Live Demos"
+    title: "TSV to DOC Live Demo"
     content: |
-        Convert TSV to DOC right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: " About TSV File Format"
-          content: |
-            A Tab-Separated Values (TSV) file format represents data separated with tabs in plain text format. The file format, similar to CSV, is used for organization of data in a structured manner in order to import and export between different applications. The format is primarily used for data import/export and exchange in Spreadsheet applications and databases. 
+       Convert TSV to DOC now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
+       
 
-          link: "https://docs.fileformat.com/spreadsheet/tsv/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " About DOC File Format"
-          content: |
-            Files with .DOC extension represent documents generated by Microsoft Word or other word processing documents in binary file format. The extension was initially used for plain text documentation on several different operating systems. It can contain several different type of data such as images, formatted as well as plain text, graphs, charts, embedded objects, links, pages, page formatting, print settings and a lot others.
-
-          link: "https://docs.fileformat.com/word-processing/doc/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert TSV into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "TSV TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "TSV TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "TSV TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "TSV TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "TSV TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "TSV TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "TSV TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "TSV TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "TSV TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "TSV TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "TSV TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "TSV TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "TSV TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "TSV TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "TSV TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "TSV TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "TSV TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "TSV TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "TSV TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "TSV TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "TSV TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "TSV TO MD"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "TSV TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "TSV TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "TSV TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "TSV TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "TSV TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "TSV TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "TSV TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "TSV TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "TSV TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "TSV TO POT"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "TSV TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "TSV TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "TSV TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "TSV TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "TSV TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "TSV TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "TSV TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "TSV TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "TSV TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "TSV TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "TSV TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "TSV TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "TSV TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "TSV TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "TSV TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "TSV TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "TSV TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "TSV TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "TSV TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "TSV TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "TSV TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "TSV TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "TSV TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "TSV TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "TSV TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "TSV TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "TSV TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "TSV TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "TSV TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/tsv-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported TSV conversions in Java"
+    content: "You can also convert TSV to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

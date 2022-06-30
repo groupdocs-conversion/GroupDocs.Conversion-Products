@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:16:58
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
+breadcrumb: OTG to JP2 in Java
 
 ############################# Head ############################
-head_title: "OTG to JP2 Conversion in Java – Convert OTG to JP2"
-head_description: "Convert OTG to JP2 in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "Convert OTG to JP2 in Java"
+head_description: "OTG to JP2 conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
 
 ############################# Header ############################
-title: "Convert OTG Files to JP2 in Java"
-description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
+title: "Convert OTG to JP2 in Java"
+description: "OTG to JP2 conversion with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,417 +28,82 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your OTG files to JP2 files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
+        You can try converting OTG to JP2 for free and evaluate the quality of the conversion results.
+        Along with simple file conversion scripts, you can try more sophisticated options for loading the OTG source file and storing the JP2 output.
+        
+        For example, for the source file OTG, you can use the following upload options:
+
+        * automatic detection of the file format;
+        * specify a password for protected files (if the file format supports it);
+        * replace missing fonts to preserve the appearance of the document.
+
+        There are also advanced conversion options for the JP2 file:
+
+        * convert a specific page of a document or a range of pages;
+        * add a watermark to the converted JP2.
+
+        Once the conversion is complete, you can save the JP2 file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert OTG to JP2, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting OTG to JP2 in Java"
+    title_left: "Steps to Convert OTG to JP2 in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the OTG file to JP2 in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a OTG file to JP2 with a few lines of code.
 
-        *   Create a new instance of Converter class and load the OTG file with full path
-        *   Set ConvertOptions for the JP2 document type
-        *   Call the convert() method and pass the document name (full path) and format (JP2) as parameter
+        * Create a new instance of the Converter class and upload the file OTG with the full path
+        * Set ConvertOptions for document type to JP2.
+        * Call the convert() method and pass the document name (full path) and format (JP2) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for Java APIs can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
         
     code: |
         ```java
-        // Load the source OTG file to be converted
+        // Load source file OTG for conversion
         Converter converter = new Converter("input.otg");
-        // Get the convert options ready for the target JP2 format
+        // Prepare conversion options for target format JP2
         ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
         // Convert to JP2 format
         converter.convert("output.jp2", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "OTG to JP2 Live Demos"
+    title: "OTG to JP2 Live Demo"
     content: |
-        Convert OTG to JP2 right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-OTG"
-          title: " About OTG File Format"
-          content: |
-            An OTG file is a drawing template that is created using the OpenDocument standard that follows the OASIS Office Applications 1.0 specification. It represents the default organization of drawing elements for a vector image that can be used to further enhance the contents of the file.
+       Convert OTG to JP2 now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
+       
 
-          link: "https://docs.fileformat.com/image/otg/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " About JP2 File Format"
-          content: |
-            JPEG 2000 (JP2) is an image coding system and state-of-the-art image compression standard. Designed, using wavelet technology JPEG 2000 can code lossless content in any quality at once. Moreover, without any substantial penalty in coding efficiency, JPEG 2000  have the capability to access and decode the same content efficaciously into a variety of other resolutions and qualities. The code streams in JPEG 2000 is significantly scalable having regions of interest that provide the facility for spatial random access. Possessing Up to 16384 diverse components with the dimensions in terapixels, and precision that can be high as 38 bits/sample.
-
-          link: "https://docs.fileformat.com/image/jp2/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert OTG into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "OTG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "OTG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "OTG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "OTG TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "OTG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "OTG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "OTG TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "OTG TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "OTG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "OTG TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "OTG TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "OTG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "OTG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "OTG TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "OTG TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "OTG TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "OTG TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "OTG TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "OTG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "OTG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "OTG TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "OTG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "OTG TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "OTG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "OTG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "OTG TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "OTG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "OTG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "OTG TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "OTG TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "OTG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "OTG TO POT"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "OTG TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "OTG TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "OTG TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "OTG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "OTG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "OTG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "OTG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "OTG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "OTG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "OTG TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "OTG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "OTG TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "OTG TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "OTG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "OTG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "OTG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "OTG TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "OTG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "OTG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "OTG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "OTG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "OTG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "OTG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "OTG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "OTG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "OTG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "OTG TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "OTG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "OTG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "OTG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/otg-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported OTG conversions in Java"
+    content: "You can also convert OTG to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

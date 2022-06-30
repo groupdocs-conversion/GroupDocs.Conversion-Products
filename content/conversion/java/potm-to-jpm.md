@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:18:03
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
+breadcrumb: POTM to JPM in Java
 
 ############################# Head ############################
-head_title: "POTM to JPM Conversion in Java – Convert POTM to JPM"
-head_description: "Convert POTM to JPM in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "Convert POTM to JPM in Java"
+head_description: "POTM to JPM conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
 
 ############################# Header ############################
-title: "Convert POTM Files to JPM in Java"
-description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
+title: "Convert POTM to JPM in Java"
+description: "POTM to JPM conversion with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,417 +28,82 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your POTM files to JPM files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
+        You can try converting POTM to JPM for free and evaluate the quality of the conversion results.
+        Along with simple file conversion scripts, you can try more sophisticated options for loading the POTM source file and storing the JPM output.
+        
+        For example, for the source file POTM, you can use the following upload options:
+
+        * automatic detection of the file format;
+        * specify a password for protected files (if the file format supports it);
+        * replace missing fonts to preserve the appearance of the document.
+
+        There are also advanced conversion options for the JPM file:
+
+        * convert a specific page of a document or a range of pages;
+        * add a watermark to the converted JPM.
+
+        Once the conversion is complete, you can save the JPM file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert POTM to JPM, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting POTM to JPM in Java"
+    title_left: "Steps to Convert POTM to JPM in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the POTM file to JPM in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a POTM file to JPM with a few lines of code.
 
-        *   Create a new instance of Converter class and load the POTM file with full path
-        *   Set ConvertOptions for the JPM document type
-        *   Call the convert() method and pass the document name (full path) and format (JPM) as parameter
+        * Create a new instance of the Converter class and upload the file POTM with the full path
+        * Set ConvertOptions for document type to JPM.
+        * Call the convert() method and pass the document name (full path) and format (JPM) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for Java APIs can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
         
     code: |
         ```java
-        // Load the source POTM file to be converted
+        // Load source file POTM for conversion
         Converter converter = new Converter("input.potm");
-        // Get the convert options ready for the target JPM format
+        // Prepare conversion options for target format JPM
         ConvertOptions convertOptions = new FileType().fromExtension("jpm").getConvertOptions();
         // Convert to JPM format
         converter.convert("output.jpm", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "POTM to JPM Live Demos"
+    title: "POTM to JPM Live Demo"
     content: |
-        Convert POTM to JPM right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " About POTM File Format"
-          content: |
-            Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
+       Convert POTM to JPM now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
+       
 
-          link: "https://docs.fileformat.com/presentation/potm/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " About JPM File Format"
-          content: |
-            JPM is an extension to the JP2 format and was developed for multi-page documents with multiple objects per page.
-
-          link: "https://docs.fileformat.com/image/jp2/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert POTM into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "POTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "POTM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "POTM TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "POTM TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "POTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "POTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "POTM TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "POTM TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "POTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "POTM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "POTM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "POTM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "POTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "POTM TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "POTM TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "POTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "POTM TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "POTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "POTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "POTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "POTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "POTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "POTM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "POTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "POTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "POTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "POTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "POTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "POTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "POTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "POTM TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "POTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "POTM TO POT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "POTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "POTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "POTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "POTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "POTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "POTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "POTM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "POTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "POTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "POTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "POTM TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "POTM TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "POTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "POTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "POTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "POTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "POTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "POTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "POTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "POTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "POTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "POTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "POTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "POTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "POTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "POTM TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "POTM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "POTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "POTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/potm-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported POTM conversions in Java"
+    content: "You can also convert POTM to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:20:34
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
+breadcrumb: VDX to XLTM in Java
 
 ############################# Head ############################
-head_title: "VDX to XLTM Conversion in Java – Convert VDX to XLTM"
-head_description: "Convert VDX to XLTM in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "Convert VDX to XLTM in Java"
+head_description: "VDX to XLTM conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
 
 ############################# Header ############################
-title: "Convert VDX Files to XLTM in Java"
-description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
+title: "Convert VDX to XLTM in Java"
+description: "VDX to XLTM conversion with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,417 +28,82 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your VDX files to XLTM files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
+        You can try converting VDX to XLTM for free and evaluate the quality of the conversion results.
+        Along with simple file conversion scripts, you can try more sophisticated options for loading the VDX source file and storing the XLTM output.
+        
+        For example, for the source file VDX, you can use the following upload options:
+
+        * automatic detection of the file format;
+        * specify a password for protected files (if the file format supports it);
+        * replace missing fonts to preserve the appearance of the document.
+
+        There are also advanced conversion options for the XLTM file:
+
+        * convert a specific page of a document or a range of pages;
+        * add a watermark to the converted XLTM.
+
+        Once the conversion is complete, you can save the XLTM file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert VDX to XLTM, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting VDX to XLTM in Java"
+    title_left: "Steps to Convert VDX to XLTM in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the VDX file to XLTM in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a VDX file to XLTM with a few lines of code.
 
-        *   Create a new instance of Converter class and load the VDX file with full path
-        *   Set ConvertOptions for the XLTM document type
-        *   Call the convert() method and pass the document name (full path) and format (XLTM) as parameter
+        * Create a new instance of the Converter class and upload the file VDX with the full path
+        * Set ConvertOptions for document type to XLTM.
+        * Call the convert() method and pass the document name (full path) and format (XLTM) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for Java APIs can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
         
     code: |
         ```java
-        // Load the source VDX file to be converted
+        // Load source file VDX for conversion
         Converter converter = new Converter("input.vdx");
-        // Get the convert options ready for the target XLTM format
+        // Prepare conversion options for target format XLTM
         ConvertOptions convertOptions = new FileType().fromExtension("xltm").getConvertOptions();
         // Convert to XLTM format
         converter.convert("output.xltm", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "VDX to XLTM Live Demos"
+    title: "VDX to XLTM Live Demo"
     content: |
-        Convert VDX to XLTM right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-alt"
-          title: " About VDX File Format"
-          content: |
-            Any drawing or chart created in Microsoft Visio, but saved in XML format has a VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Microsoft Visio has the capability to generate visual documents that can be used in presentations and documents. The Visio drawing XML file contains the visual objects and metadata details of the visual elements.
+       Convert VDX to XLTM now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
+       
 
-          link: "https://docs.fileformat.com/image/vdx/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: " About XLTM File Format"
-          content: |
-            The XLTM file extension represents files that are generated by Microsoft Excel as Macro-enabled template files. XLTM files are similar to XLTX in structure other than that the later doesn't support creating template files with macros. Such template files are used to generate and set the layout, formatting, and other settings along with the macros to facilitate creating similar XLSX files then.
-
-          link: "https://docs.fileformat.com/spreadsheet/xltm"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert VDX into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "VDX TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "VDX TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "VDX TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "VDX TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "VDX TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "VDX TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "VDX TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "VDX TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "VDX TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "VDX TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "VDX TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "VDX TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "VDX TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "VDX TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "VDX TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "VDX TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "VDX TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "VDX TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "VDX TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "VDX TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "VDX TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "VDX TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "VDX TO MD"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "VDX TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "VDX TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "VDX TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "VDX TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "VDX TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "VDX TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "VDX TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "VDX TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "VDX TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "VDX TO POT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "VDX TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "VDX TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "VDX TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "VDX TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "VDX TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "VDX TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "VDX TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "VDX TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "VDX TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "VDX TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "VDX TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "VDX TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "VDX TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "VDX TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "VDX TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "VDX TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "VDX TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "VDX TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "VDX TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "VDX TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "VDX TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "VDX TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "VDX TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "VDX TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "VDX TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "VDX TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "VDX TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "VDX TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "VDX TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/vdx-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported VDX conversions in Java"
+    content: "You can also convert VDX to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

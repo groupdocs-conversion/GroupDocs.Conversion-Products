@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:19:04
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
+breadcrumb: PSD to TIFF in Java
 
 ############################# Head ############################
-head_title: "PSD to TIFF Conversion in Java – Convert PSD to TIFF"
-head_description: "Convert PSD to TIFF in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "Convert PSD to TIFF in Java"
+head_description: "PSD to TIFF conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
 
 ############################# Header ############################
-title: "Convert PSD Files to TIFF in Java"
-description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
+title: "Convert PSD to TIFF in Java"
+description: "PSD to TIFF conversion with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,417 +28,82 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your PSD files to TIFF files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
+        You can try converting PSD to TIFF for free and evaluate the quality of the conversion results.
+        Along with simple file conversion scripts, you can try more sophisticated options for loading the PSD source file and storing the TIFF output.
+        
+        For example, for the source file PSD, you can use the following upload options:
+
+        * automatic detection of the file format;
+        * specify a password for protected files (if the file format supports it);
+        * replace missing fonts to preserve the appearance of the document.
+
+        There are also advanced conversion options for the TIFF file:
+
+        * convert a specific page of a document or a range of pages;
+        * add a watermark to the converted TIFF.
+
+        Once the conversion is complete, you can save the TIFF file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert PSD to TIFF, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting PSD to TIFF in Java"
+    title_left: "Steps to Convert PSD to TIFF in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the PSD file to TIFF in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a PSD file to TIFF with a few lines of code.
 
-        *   Create a new instance of Converter class and load the PSD file with full path
-        *   Set ConvertOptions for the TIFF document type
-        *   Call the convert() method and pass the document name (full path) and format (TIFF) as parameter
+        * Create a new instance of the Converter class and upload the file PSD with the full path
+        * Set ConvertOptions for document type to TIFF.
+        * Call the convert() method and pass the document name (full path) and format (TIFF) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for Java APIs can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
         
     code: |
         ```java
-        // Load the source PSD file to be converted
+        // Load source file PSD for conversion
         Converter converter = new Converter("input.psd");
-        // Get the convert options ready for the target TIFF format
+        // Prepare conversion options for target format TIFF
         ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
         // Convert to TIFF format
         converter.convert("output.tiff", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "PSD to TIFF Live Demos"
+    title: "PSD to TIFF Live Demo"
     content: |
-        Convert PSD to TIFF right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " About PSD File Format"
-          content: |
-            PSD, Photoshop Document, represents Adobe Photoshop's native file format used for graphics designing and development. PSD files may include image layers, adjustment layers, layer masks, annotations, file information, keywords, and other Photoshop-specific elements. Photoshop files have default extension as PSD and have a maximum height and width of 30,000 pixels, and a length limit of two gigabytes.
+       Convert PSD to TIFF now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
+       
 
-          link: "https://docs.fileformat.com/image/psd/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " About TIFF File Format"
-          content: |
-            TIFF or TIF, Tagged Image File Format, represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. It supports lossy as well as lossless compression schemes to choose between space and time for applications using the format.
-
-          link: "https://docs.fileformat.com/image/tiff/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert PSD into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "PSD TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "PSD TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "PSD TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "PSD TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "PSD TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "PSD TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "PSD TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "PSD TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "PSD TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "PSD TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "PSD TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "PSD TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "PSD TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "PSD TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "PSD TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "PSD TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "PSD TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "PSD TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "PSD TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "PSD TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "PSD TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "PSD TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "PSD TO MD"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "PSD TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "PSD TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "PSD TO ODG"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-odg/"
-          description: "OpenDocument Drawing File"
-
-        # format loop
-        - name: "PSD TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "PSD TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "PSD TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "PSD TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "PSD TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "PSD TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "PSD TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "PSD TO POT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "PSD TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "PSD TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "PSD TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "PSD TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "PSD TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "PSD TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "PSD TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "PSD TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "PSD TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "PSD TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "PSD TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "PSD TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "PSD TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "PSD TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "PSD TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "PSD TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "PSD TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "PSD TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "PSD TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "PSD TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "PSD TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "PSD TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "PSD TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "PSD TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "PSD TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "PSD TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "PSD TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "PSD TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/psd-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported PSD conversions in Java"
+    content: "You can also convert PSD to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

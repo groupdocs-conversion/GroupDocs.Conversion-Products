@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:22:13
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
+breadcrumb: XLAM to BMP in Java
 
 ############################# Head ############################
-head_title: "XLAM to BMP Conversion in Java – Convert XLAM to BMP"
-head_description: "Convert XLAM to BMP in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "Convert XLAM to BMP in Java"
+head_description: "XLAM to BMP conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
 
 ############################# Header ############################
-title: "Convert XLAM Files to BMP in Java"
-description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
+title: "Convert XLAM to BMP in Java"
+description: "XLAM to BMP conversion with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,417 +28,82 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your XLAM files to BMP files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
+        You can try converting XLAM to BMP for free and evaluate the quality of the conversion results.
+        Along with simple file conversion scripts, you can try more sophisticated options for loading the XLAM source file and storing the BMP output.
+        
+        For example, for the source file XLAM, you can use the following upload options:
+
+        * automatic detection of the file format;
+        * specify a password for protected files (if the file format supports it);
+        * replace missing fonts to preserve the appearance of the document.
+
+        There are also advanced conversion options for the BMP file:
+
+        * convert a specific page of a document or a range of pages;
+        * add a watermark to the converted BMP.
+
+        Once the conversion is complete, you can save the BMP file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert XLAM to BMP, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting XLAM to BMP in Java"
+    title_left: "Steps to Convert XLAM to BMP in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the XLAM file to BMP in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a XLAM file to BMP with a few lines of code.
 
-        *   Create a new instance of Converter class and load the XLAM file with full path
-        *   Set ConvertOptions for the BMP document type
-        *   Call the convert() method and pass the document name (full path) and format (BMP) as parameter
+        * Create a new instance of the Converter class and upload the file XLAM with the full path
+        * Set ConvertOptions for document type to BMP.
+        * Call the convert() method and pass the document name (full path) and format (BMP) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for Java APIs can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
         
     code: |
         ```java
-        // Load the source XLAM file to be converted
+        // Load source file XLAM for conversion
         Converter converter = new Converter("input.xlam");
-        // Get the convert options ready for the target BMP format
+        // Prepare conversion options for target format BMP
         ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
         // Convert to BMP format
         converter.convert("output.bmp", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "XLAM to BMP Live Demos"
+    title: "XLAM to BMP Live Demo"
     content: |
-        Convert XLAM to BMP right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-XLAM"
-          title: " About XLAM File Format"
-          content: |
-            XLAM files are used to extend the modules provided by Excel. They can be added to Excel 2007 or later, or to earlier versions of Excel with Open XML component support. File used by Microsoft Excel, a program that allows users to create and edit spreadsheets; contains a macro-enabled add-in, which provides extra functionality and tools that may execute macros.
+       Convert XLAM to BMP now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
+       
 
-          link: "https://docs.fileformat.com/spreadsheet/xlam/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " About BMP File Format"
-          content: |
-            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
-
-          link: "https://docs.fileformat.com/image/bmp/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert XLAM into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "XLAM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "XLAM TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "XLAM TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "XLAM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "XLAM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "XLAM TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "XLAM TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "XLAM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "XLAM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "XLAM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "XLAM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "XLAM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "XLAM TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "XLAM TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "XLAM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "XLAM TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "XLAM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "XLAM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "XLAM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "XLAM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "XLAM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "XLAM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "XLAM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "XLAM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "XLAM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "XLAM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "XLAM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "XLAM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "XLAM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "XLAM TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "XLAM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "XLAM TO POT"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "XLAM TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "XLAM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "XLAM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "XLAM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "XLAM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "XLAM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "XLAM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "XLAM TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "XLAM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "XLAM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "XLAM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "XLAM TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "XLAM TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "XLAM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "XLAM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "XLAM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "XLAM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "XLAM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "XLAM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "XLAM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "XLAM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "XLAM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "XLAM TO XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-xls2003/"
-          description: "Microsoft Excel Spreadsheet"
-
-        # format loop
-        - name: "XLAM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "XLAM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "XLAM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "XLAM TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "XLAM TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "XLAM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "XLAM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/xlam-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported XLAM conversions in Java"
+    content: "You can also convert XLAM to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:15:51
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
+breadcrumb: MOBI to SVGZ in Java
 
 ############################# Head ############################
-head_title: "MOBI to SVGZ Conversion in Java – Convert MOBI to SVGZ"
-head_description: "Convert MOBI to SVGZ in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "Convert MOBI to SVGZ in Java"
+head_description: "MOBI to SVGZ conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
 
 ############################# Header ############################
-title: "Convert MOBI Files to SVGZ in Java"
-description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
+title: "Convert MOBI to SVGZ in Java"
+description: "MOBI to SVGZ conversion with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,417 +28,82 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your MOBI files to SVGZ files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
+        You can try converting MOBI to SVGZ for free and evaluate the quality of the conversion results.
+        Along with simple file conversion scripts, you can try more sophisticated options for loading the MOBI source file and storing the SVGZ output.
+        
+        For example, for the source file MOBI, you can use the following upload options:
+
+        * automatic detection of the file format;
+        * specify a password for protected files (if the file format supports it);
+        * replace missing fonts to preserve the appearance of the document.
+
+        There are also advanced conversion options for the SVGZ file:
+
+        * convert a specific page of a document or a range of pages;
+        * add a watermark to the converted SVGZ.
+
+        Once the conversion is complete, you can save the SVGZ file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert MOBI to SVGZ, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting MOBI to SVGZ in Java"
+    title_left: "Steps to Convert MOBI to SVGZ in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the MOBI file to SVGZ in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a MOBI file to SVGZ with a few lines of code.
 
-        *   Create a new instance of Converter class and load the MOBI file with full path
-        *   Set ConvertOptions for the SVGZ document type
-        *   Call the convert() method and pass the document name (full path) and format (SVGZ) as parameter
+        * Create a new instance of the Converter class and upload the file MOBI with the full path
+        * Set ConvertOptions for document type to SVGZ.
+        * Call the convert() method and pass the document name (full path) and format (SVGZ) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for Java APIs can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
         
     code: |
         ```java
-        // Load the source MOBI file to be converted
+        // Load source file MOBI for conversion
         Converter converter = new Converter("input.mobi");
-        // Get the convert options ready for the target SVGZ format
+        // Prepare conversion options for target format SVGZ
         ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
         // Convert to SVGZ format
         converter.convert("output.svgz", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "MOBI to SVGZ Live Demos"
+    title: "MOBI to SVGZ Live Demo"
     content: |
-        Convert MOBI to SVGZ right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-MOBI"
-          title: " About MOBI File Format"
-          content: |
-            The MOBI file format is one of the most widely used ebook file formats. The format is an enhancement to the old OEB (Open Ebook Format) format and was used as the proprietary format for Mobipocket Reader. Like EPUB, it is supported by almost all modern e-readers specifically by mobile devices with low bandwidth. The format can be converted to several other formats such as PDF, EPUB, and several other formats using publicly available software applications such as the Kindle app.
+       Convert MOBI to SVGZ now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
+       
 
-          link: "https://docs.fileformat.com/ebook/mobi/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " About SVGZ File Format"
-          content: |
-            A file with .svgz extension is a compressed version of Scalable Vector Graphics (.SVG) file. It is compressed with gzip compression and contains data in XML format. SVGZ files support transparency, gradients, animations, and filters. SVGZ files are smaller in size as compared to the default SVG files and this reduced file size helps transfer the graphics files.
-
-          link: "https://docs.fileformat.com/image/svgz/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert MOBI into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "MOBI TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "MOBI TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "MOBI TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "MOBI TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "MOBI TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "MOBI TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "MOBI TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "MOBI TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "MOBI TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "MOBI TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "MOBI TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "MOBI TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "MOBI TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "MOBI TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "MOBI TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "MOBI TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "MOBI TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "MOBI TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "MOBI TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "MOBI TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "MOBI TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "MOBI TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "MOBI TO MD"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "MOBI TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "MOBI TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "MOBI TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "MOBI TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "MOBI TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "MOBI TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "MOBI TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "MOBI TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "MOBI TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "MOBI TO POT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "MOBI TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "MOBI TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "MOBI TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "MOBI TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "MOBI TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "MOBI TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "MOBI TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "MOBI TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "MOBI TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "MOBI TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "MOBI TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "MOBI TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "MOBI TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "MOBI TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "MOBI TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "MOBI TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "MOBI TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "MOBI TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "MOBI TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "MOBI TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "MOBI TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "MOBI TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "MOBI TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "MOBI TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "MOBI TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "MOBI TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "MOBI TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "MOBI TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "MOBI TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/mobi-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported MOBI conversions in Java"
+    content: "You can also convert MOBI to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

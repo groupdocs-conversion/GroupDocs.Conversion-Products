@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T15:13:51
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
+breadcrumb: HTML to BMP in Java
 
 ############################# Head ############################
-head_title: "HTML to BMP Conversion in Java – Convert HTML to BMP"
-head_description: "Convert HTML to BMP in Java using a few lines of code. Convert 160+ file formats via GroupDocs documents conversion APIs for java."
+head_title: "Convert HTML to BMP in Java"
+head_description: "HTML to BMP conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
 
 ############################# Header ############################
-title: "Convert HTML Files to BMP in Java"
-description: "Empower your Java applications with document conversion features across 135+ popular image and file formats without requiring any additional software."
+title: "Convert HTML to BMP in Java"
+description: "HTML to BMP conversion with a few lines of Java code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/java"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,417 +28,82 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/java"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java) is an advanced file formats conversion API to convert between popular images and document formats like Microsoft Office, OpenDocument, PDF, HTML, Email, CAD and many more using a few lines of code. The native API auto-detects the source document formats and offers a plenty of options to customize the converted documents. Along with the document information-extraction feature, it also supports caching conversion result to the local disk by default. However any type of cache storage can be supported by implementing appropriate interfaces – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis or any other.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your HTML files to BMP files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
+        You can try converting HTML to BMP for free and evaluate the quality of the conversion results.
+        Along with simple file conversion scripts, you can try more sophisticated options for loading the HTML source file and storing the BMP output.
+        
+        For example, for the source file HTML, you can use the following upload options:
+
+        * automatic detection of the file format;
+        * specify a password for protected files (if the file format supports it);
+        * replace missing fonts to preserve the appearance of the document.
+
+        There are also advanced conversion options for the BMP file:
+
+        * convert a specific page of a document or a range of pages;
+        * add a watermark to the converted BMP.
+
+        Once the conversion is complete, you can save the BMP file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert HTML to BMP, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Converting HTML to BMP in Java"
+    title_left: "Steps to Convert HTML to BMP in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java) makes it easy for developers to convert the HTML file to BMP in few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a HTML file to BMP with a few lines of code.
 
-        *   Create a new instance of Converter class and load the HTML file with full path
-        *   Set ConvertOptions for the BMP document type
-        *   Call the convert() method and pass the document name (full path) and format (BMP) as parameter
+        * Create a new instance of the Converter class and upload the file HTML with the full path
+        * Set ConvertOptions for document type to BMP.
+        * Call the convert() method and pass the document name (full path) and format (BMP) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for Java APIs can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
         
     code: |
         ```java
-        // Load the source HTML file to be converted
+        // Load source file HTML for conversion
         Converter converter = new Converter("input.html");
-        // Get the convert options ready for the target BMP format
+        // Prepare conversion options for target format BMP
         ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
         // Convert to BMP format
         converter.convert("output.bmp", convertOptions);
         
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "HTML to BMP Live Demos"
+    title: "HTML to BMP Live Demo"
     content: |
-        Convert HTML to BMP right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-code"
-          title: " About HTML File Format"
-          content: |
-            HTML (Hyper Text Markup Language) is the extension for web pages created for display in browsers. Known as language of the web, HTML has evolved with requirements of new information requirements to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from server, where these are hosted, or can be loaded from local system as well.
+       Convert HTML to BMP now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
+       
 
-          link: "https://docs.fileformat.com/web/html/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " About BMP File Format"
-          content: |
-            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
-
-          link: "https://docs.fileformat.com/image/bmp/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert HTML into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "HTML TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/html-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "HTML TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "HTML TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "HTML TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/html-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "HTML TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "HTML TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "HTML TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "HTML TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "HTML TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "HTML TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "HTML TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/html-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "HTML TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/html-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "HTML TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/html-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "HTML TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/html-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "HTML TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "HTML TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "HTML TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "HTML TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/html-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "HTML TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/html-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "HTML TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/html-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "HTML TO MD"
-          link: "https://products.groupdocs.com/conversion/java/html-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "HTML TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "HTML TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/html-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "HTML TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/html-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "HTML TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "HTML TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "HTML TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/html-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "HTML TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "HTML TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "HTML TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/html-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "HTML TO POT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "HTML TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "HTML TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "HTML TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/html-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "HTML TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "HTML TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "HTML TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "HTML TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "HTML TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "HTML TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/html-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "HTML TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "HTML TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/html-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "HTML TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/html-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "HTML TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/html-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "HTML TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "HTML TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "HTML TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "HTML TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/html-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "HTML TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "HTML TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/html-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "HTML TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/html-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "HTML TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/html-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "HTML TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "HTML TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "HTML TO XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xls2003/"
-          description: "Microsoft Excel Spreadsheet"
-
-        # format loop
-        - name: "HTML TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "HTML TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "HTML TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "HTML TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "HTML TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "HTML TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "HTML TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/html-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported HTML conversions in Java"
+    content: "You can also convert HTML to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

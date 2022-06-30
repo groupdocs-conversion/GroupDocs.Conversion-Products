@@ -4,6 +4,7 @@ layout: "auto-gen-conversion"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
+breadcrumb: PCL в DOTX на Java
 
 ############################# Head ############################
 head_title: "Конвертация файлов PCL в DOTX на Java"

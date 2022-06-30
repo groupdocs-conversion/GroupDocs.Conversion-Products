@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:11:27
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
+breadcrumb: FODS to BMP in C#
 
 ############################# Head ############################
-head_title: "FODS to BMP Converter – Convert FODS to BMP in C# .NET"
-head_description: "How to convert FODS to BMP in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "FODS to BMP Converter in C#"
+head_description: "Convert FODS to BMP in .NET using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats."
 
 ############################# Header ############################
 title: "Convert FODS to BMP in C#"
-description: "Native and high performance FODS to BMP conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+description: "FODS to BMP conversion with a few lines of .NET code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,411 +28,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Conversion for .NET API"
+    title: "About GroupDocs.Conversion для .NET API"
     content: |
-        GroupDocs.Conversion API can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and various other formats. GroupDocs.Conversion is a standalone API that is suitable for server side and backend systems where high performance is required. It does not depend on any software like Microsoft or Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your FODS files to BMP in .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can try FODS to BMP conversion for free and evaluate conversion results quality.
+        Along with simple file conversion scenarios you can try more advanced options for loading source FODS file and for saving output BMP result. 
+        
+        For example, for the source FODS file you may use the following load options:
+
+        * auto-detect file format;
+        * specify password for protected files (if file format supports it);
+        * replace missing fonts to preserve document appearance.
+        
+        There are also advanced convert options for the BMP file:
+
+        * convert specific document page or page range;
+        * add a watermark to the converted BMP file.
+
+        Once conversion is completed you can save your BMP file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert FODS to BMP there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert FODS to BMP in C#"
+    title_left: "Steps to convert FODS to BMP in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the FODS file to BMP using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert a FODS file to BMP with a few lines of code.
 
-        *   Create an instance of Converter class and load the FODS file with full path
-        *   Create & set ConvertOptions for the bmp type
-        *   Call Converter.Convert method and pass the full path and format (BMP) as parameter
+        * Create an instance of the Converter class and provide the file FODS with the full path
+        * Create and set ConvertOptions for BMP type.
+        * Call the Converter.Convert method and pass the full path and format (BMP) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for .NET APIs can be done by implementing a few easy steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        Basic conversion with GroupDocs.Conversion for .NET can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Get the latest version of GroupDocs.Conversion for .NET downloaded from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Get the latest GroupDocs.Conversion for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // load the FODS file
+        // Load FODS file
         var converter = new GroupDocs.Conversion.Converter("template.fods");
-        // set the convert options for BMP format
+        // Set conversion parameters for BMP format
         var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // convert to BMP format
-        converter.Convert("output.bmp", convertOptions);
+        // Convert to BMP format
+        converter.Convert("output.bmp", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "FODS to BMP Live Demos"
+    title: "FODS to BMP Live Demo"
     content: |
-        Convert FODS to BMP right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: " About FODS File Format"
-          content: |
-            FODS is a ZIP-compressed XML-based file format for spreadsheets, charts, presentations, and word processing documents.
+       Convert FODS to BMP now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. Online demo has the following advantages
+          
 
-          link: "https://en.wikipedia.org/wiki/OpenDocument"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " About BMP File Format"
-          content: |
-            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images  in both monochrome as well as color format with various colour depths.
-
-          link: "https://docs.fileformat.com/image/bmp/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert FODS into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "FODS TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "FODS TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "FODS TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "FODS TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "FODS TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "FODS TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "FODS TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "FODS TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "FODS TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "FODS TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "FODS TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "FODS TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "FODS TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "FODS TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "FODS TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "FODS TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "FODS TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "FODS TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "FODS TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "FODS TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "FODS TO MD"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "FODS TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "FODS TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "FODS TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "FODS TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "FODS TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "FODS TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "FODS TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "FODS TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "FODS TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "FODS TO POT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "FODS TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "FODS TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "FODS TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "FODS TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "FODS TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "FODS TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "FODS TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "FODS TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "FODS TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "FODS TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "FODS TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "FODS TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "FODS TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "FODS TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "FODS TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "FODS TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "FODS TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "FODS TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "FODS TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "FODS TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "FODS TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "FODS TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "FODS TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "FODS TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "FODS TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "FODS TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "FODS TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "FODS TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "FODS TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "FODS TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/fods-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported transformations FODS"
+    content: "You can also convert FODS to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

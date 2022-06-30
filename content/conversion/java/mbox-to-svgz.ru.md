@@ -4,6 +4,7 @@ layout: "auto-gen-conversion"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
+breadcrumb: MBOX в SVGZ на Java
 
 ############################# Head ############################
 head_title: "Конвертация файлов MBOX в SVGZ на Java"

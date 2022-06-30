@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:21:06
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
+breadcrumb: XLTM to PPTX in C#
 
 ############################# Head ############################
-head_title: "XLTM to PPTX Converter – Convert XLTM to PPTX in C# .NET"
-head_description: "How to convert XLTM to PPTX in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "XLTM to PPTX Converter in C#"
+head_description: "Convert XLTM to PPTX in .NET using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats."
 
 ############################# Header ############################
 title: "Convert XLTM to PPTX in C#"
-description: "Native and high performance XLTM to PPTX conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+description: "XLTM to PPTX conversion with a few lines of .NET code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,411 +28,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Conversion for .NET API"
+    title: "About GroupDocs.Conversion для .NET API"
     content: |
-        GroupDocs.Conversion API can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and various other formats. GroupDocs.Conversion is a standalone API that is suitable for server side and backend systems where high performance is required. It does not depend on any software like Microsoft or Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your XLTM files to PPTX in .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can try XLTM to PPTX conversion for free and evaluate conversion results quality.
+        Along with simple file conversion scenarios you can try more advanced options for loading source XLTM file and for saving output PPTX result. 
+        
+        For example, for the source XLTM file you may use the following load options:
+
+        * auto-detect file format;
+        * specify password for protected files (if file format supports it);
+        * replace missing fonts to preserve document appearance.
+        
+        There are also advanced convert options for the PPTX file:
+
+        * convert specific document page or page range;
+        * add a watermark to the converted PPTX file.
+
+        Once conversion is completed you can save your PPTX file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert XLTM to PPTX there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert XLTM to PPTX in C#"
+    title_left: "Steps to convert XLTM to PPTX in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the XLTM file to PPTX using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert a XLTM file to PPTX with a few lines of code.
 
-        *   Create an instance of Converter class and load the XLTM file with full path
-        *   Create & set ConvertOptions for the pptx type
-        *   Call Converter.Convert method and pass the full path and format (PPTX) as parameter
+        * Create an instance of the Converter class and provide the file XLTM with the full path
+        * Create and set ConvertOptions for PPTX type.
+        * Call the Converter.Convert method and pass the full path and format (PPTX) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for .NET APIs can be done by implementing a few easy steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        Basic conversion with GroupDocs.Conversion for .NET can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Get the latest version of GroupDocs.Conversion for .NET downloaded from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Get the latest GroupDocs.Conversion for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // load the XLTM file
+        // Load XLTM file
         var converter = new GroupDocs.Conversion.Converter("template.xltm");
-        // set the convert options for PPTX format
+        // Set conversion parameters for PPTX format
         var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
-        // convert to PPTX format
-        converter.Convert("output.pptx", convertOptions);
+        // Convert to PPTX format
+        converter.Convert("output.pptx", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "XLTM to PPTX Live Demos"
+    title: "XLTM to PPTX Live Demo"
     content: |
-        Convert XLTM to PPTX right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-excel"
-          title: " About XLTM File Format"
-          content: |
-            The XLTM file extension represents files that are generated by Microsoft Excel as Macro-enabled template files. XLTM files are similar to XLTX in structure other than that the later doesn't support creating template files with macros. Such template files are used to generate and set the layout, formatting, and other settings along with the macros to facilitate creating similar XLSX files then.
+       Convert XLTM to PPTX now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. Online demo has the following advantages
+          
 
-          link: "https://docs.fileformat.com/spreadsheet/xltm"
-
-    format:
-        # format loop
-        - icon: "far fa-file-powerpoint"
-          title: " About PPTX File Format"
-          content: |
-            Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media.
-
-          link: "https://docs.fileformat.com/presentation/pptx/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert XLTM into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "XLTM TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "XLTM TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "XLTM TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "XLTM TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "XLTM TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "XLTM TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "XLTM TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "XLTM TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "XLTM TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "XLTM TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "XLTM TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "XLTM TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "XLTM TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "XLTM TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "XLTM TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "XLTM TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "XLTM TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "XLTM TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "XLTM TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "XLTM TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "XLTM TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "XLTM TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "XLTM TO MD"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "XLTM TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "XLTM TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "XLTM TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "XLTM TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "XLTM TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "XLTM TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "XLTM TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "XLTM TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "XLTM TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "XLTM TO POT"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "XLTM TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "XLTM TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "XLTM TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "XLTM TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "XLTM TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "XLTM TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "XLTM TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "XLTM TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "XLTM TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "XLTM TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "XLTM TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "XLTM TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "XLTM TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "XLTM TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "XLTM TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "XLTM TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "XLTM TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "XLTM TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "XLTM TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "XLTM TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "XLTM TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "XLTM TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "XLTM TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "XLTM TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "XLTM TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "XLTM TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "XLTM TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "XLTM TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/xltm-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported transformations XLTM"
+    content: "You can also convert XLTM to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

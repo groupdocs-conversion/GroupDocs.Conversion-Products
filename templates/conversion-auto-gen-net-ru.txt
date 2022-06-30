@@ -4,6 +4,7 @@ layout: "auto-gen-conversion"
 date: 2022-03-01T15:12:22
 draft: false
 otherformats: {{otherformats}}
+breadcrumb: {{$3_1}}_UPPER в {{$3_2}}_UPPER на C#
 
 ############################# Head ############################
 head_title: "Конвертер {{$3_1}}_UPPER в {{$3_2}}_UPPER на C#"

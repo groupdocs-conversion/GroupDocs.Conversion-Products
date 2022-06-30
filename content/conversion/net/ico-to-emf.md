@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:11:55
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
+breadcrumb: ICO to EMF in C#
 
 ############################# Head ############################
-head_title: "ICO to EMF Converter – Convert ICO to EMF in C# .NET"
-head_description: "How to convert ICO to EMF in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "ICO to EMF Converter in C#"
+head_description: "Convert ICO to EMF in .NET using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats."
 
 ############################# Header ############################
 title: "Convert ICO to EMF in C#"
-description: "Native and high performance ICO to EMF conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+description: "ICO to EMF conversion with a few lines of .NET code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,416 +28,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Conversion for .NET API"
+    title: "About GroupDocs.Conversion для .NET API"
     content: |
-        GroupDocs.Conversion API can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and various other formats. GroupDocs.Conversion is a standalone API that is suitable for server side and backend systems where high performance is required. It does not depend on any software like Microsoft or Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your ICO files to EMF in .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can try ICO to EMF conversion for free and evaluate conversion results quality.
+        Along with simple file conversion scenarios you can try more advanced options for loading source ICO file and for saving output EMF result. 
+        
+        For example, for the source ICO file you may use the following load options:
+
+        * auto-detect file format;
+        * specify password for protected files (if file format supports it);
+        * replace missing fonts to preserve document appearance.
+        
+        There are also advanced convert options for the EMF file:
+
+        * convert specific document page or page range;
+        * add a watermark to the converted EMF file.
+
+        Once conversion is completed you can save your EMF file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert ICO to EMF there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert ICO to EMF in C#"
+    title_left: "Steps to convert ICO to EMF in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the ICO file to EMF using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert a ICO file to EMF with a few lines of code.
 
-        *   Create an instance of Converter class and load the ICO file with full path
-        *   Create & set ConvertOptions for the emf type
-        *   Call Converter.Convert method and pass the full path and format (EMF) as parameter
+        * Create an instance of the Converter class and provide the file ICO with the full path
+        * Create and set ConvertOptions for EMF type.
+        * Call the Converter.Convert method and pass the full path and format (EMF) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for .NET APIs can be done by implementing a few easy steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        Basic conversion with GroupDocs.Conversion for .NET can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Get the latest version of GroupDocs.Conversion for .NET downloaded from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Get the latest GroupDocs.Conversion for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // load the ICO file
+        // Load ICO file
         var converter = new GroupDocs.Conversion.Converter("template.ico");
-        // set the convert options for EMF format
+        // Set conversion parameters for EMF format
         var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // convert to EMF format
-        converter.Convert("output.emf", convertOptions);
+        // Convert to EMF format
+        converter.Convert("output.emf", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "ICO to EMF Live Demos"
+    title: "ICO to EMF Live Demo"
     content: |
-        Convert ICO to EMF right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " About ICO File Format"
-          content: |
-            Files with ICO extension are image file types used as icon for representation of an application on Microsoft Windows. These come in different size, colour support and resolution to suit the requirements of the display. Another similar image file format on Microsoft Windows is .CUR for cursor representation and defines a hotspot in the image header. On MacOS, ICNS file formats serve the same purpose as ICO files. Several online websites as well as applications provide the feature of creating such files and convert other image formats such as BMP, PNG, etc. to icon file format. The official IANA registered Internet media type for ICO files is image/vnd.microsoft.icon.
+       Convert ICO to EMF now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. Online demo has the following advantages
+          
 
-          link: "https://docs.fileformat.com/image/ico/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-EMF"
-          title: " About EMF File Format"
-          content: |
-            Enhanced metafile format (EMF) stores graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. These variable-length records can be definitions of enclosed objects, commands for drawing, and graphics properties critical to render the image accurately.
-
-          link: "https://docs.fileformat.com/image/emf/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert ICO into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "ICO TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "ICO TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "ICO TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "ICO TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "ICO TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "ICO TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "ICO TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "ICO TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "ICO TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "ICO TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "ICO TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "ICO TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "ICO TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "ICO TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "ICO TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "ICO TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "ICO TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "ICO TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "ICO TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "ICO TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "ICO TO MD"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "ICO TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "ICO TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "ICO TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "ICO TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "ICO TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "ICO TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "ICO TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "ICO TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "ICO TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "ICO TO POT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "ICO TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "ICO TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "ICO TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "ICO TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "ICO TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "ICO TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "ICO TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "ICO TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "ICO TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "ICO TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "ICO TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "ICO TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "ICO TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "ICO TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "ICO TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "ICO TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "ICO TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "ICO TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "ICO TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "ICO TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "ICO TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "ICO TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "ICO TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "ICO TO XLS2003"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xls2003/"
-          description: "Microsoft Excel Spreadsheet"
-
-        # format loop
-        - name: "ICO TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "ICO TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "ICO TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "ICO TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "ICO TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "ICO TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "ICO TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/ico-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported transformations ICO"
+    content: "You can also convert ICO to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

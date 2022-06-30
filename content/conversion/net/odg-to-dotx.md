@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:14:21
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
+breadcrumb: ODG to DOTX in C#
 
 ############################# Head ############################
-head_title: "ODG to DOTX Converter – Convert ODG to DOTX in C# .NET"
-head_description: "How to convert ODG to DOTX in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "ODG to DOTX Converter in C#"
+head_description: "Convert ODG to DOTX in .NET using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats."
 
 ############################# Header ############################
 title: "Convert ODG to DOTX in C#"
-description: "Native and high performance ODG to DOTX conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+description: "ODG to DOTX conversion with a few lines of .NET code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,416 +28,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Conversion for .NET API"
+    title: "About GroupDocs.Conversion для .NET API"
     content: |
-        GroupDocs.Conversion API can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and various other formats. GroupDocs.Conversion is a standalone API that is suitable for server side and backend systems where high performance is required. It does not depend on any software like Microsoft or Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your ODG files to DOTX in .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can try ODG to DOTX conversion for free and evaluate conversion results quality.
+        Along with simple file conversion scenarios you can try more advanced options for loading source ODG file and for saving output DOTX result. 
+        
+        For example, for the source ODG file you may use the following load options:
+
+        * auto-detect file format;
+        * specify password for protected files (if file format supports it);
+        * replace missing fonts to preserve document appearance.
+        
+        There are also advanced convert options for the DOTX file:
+
+        * convert specific document page or page range;
+        * add a watermark to the converted DOTX file.
+
+        Once conversion is completed you can save your DOTX file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert ODG to DOTX there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert ODG to DOTX in C#"
+    title_left: "Steps to convert ODG to DOTX in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the ODG file to DOTX using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert a ODG file to DOTX with a few lines of code.
 
-        *   Create an instance of Converter class and load the ODG file with full path
-        *   Create & set ConvertOptions for the dotx type
-        *   Call Converter.Convert method and pass the full path and format (DOTX) as parameter
+        * Create an instance of the Converter class and provide the file ODG with the full path
+        * Create and set ConvertOptions for DOTX type.
+        * Call the Converter.Convert method and pass the full path and format (DOTX) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for .NET APIs can be done by implementing a few easy steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        Basic conversion with GroupDocs.Conversion for .NET can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Get the latest version of GroupDocs.Conversion for .NET downloaded from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Get the latest GroupDocs.Conversion for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // load the ODG file
+        // Load ODG file
         var converter = new GroupDocs.Conversion.Converter("template.odg");
-        // set the convert options for DOTX format
+        // Set conversion parameters for DOTX format
         var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
-        // convert to DOTX format
-        converter.Convert("output.dotx", convertOptions);
+        // Convert to DOTX format
+        converter.Convert("output.dotx", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "ODG to DOTX Live Demos"
+    title: "ODG to DOTX Live Demo"
     content: |
-        Convert ODG to DOTX right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-ODG"
-          title: " About ODG File Format"
-          content: |
-            The ODG file format is used by Apache OpenOffice's Draw application to store drawing elements as a vector image. It follows the XML based file format specifications outlined by Advancement of Structural Information Standards (OASIS). ODG represents drawings as vector images using points, lines and curves. Besides OpenOffice, LibreOffice and other applications also provide support for working with ODG file format. Other formats supported by OpenOffice, for example, include ODT, ODF, ODP and ODS.
+       Convert ODG to DOTX now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. Online demo has the following advantages
+          
 
-          link: "https://docs.fileformat.com/image/odg/"
-
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " About DOTX File Format"
-          content: |
-            Files with DOTX extension are template files created by Microsoft Word to have pre-formatted settings for a generation of further DOCX files. A template file is created in order to have specific user settings that should be applied to subsequent files created from this template. These settings include page margins, borders, headers, footers, and other page settings. Such templates are used in official documents such as company letterheads and standardized forms.
-
-          link: "https://docs.fileformat.com/word-processing/dotx/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert ODG into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "ODG TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "ODG TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "ODG TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "ODG TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "ODG TO DOC"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-doc/"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "ODG TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "ODG TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "ODG TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "ODG TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "ODG TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "ODG TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "ODG TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "ODG TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "ODG TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "ODG TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "ODG TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "ODG TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "ODG TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "ODG TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "ODG TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "ODG TO JPG"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-jpg/"
-          description: "Joint Photographic Expert Group Image File"
-
-        # format loop
-        - name: "ODG TO MD"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "ODG TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "ODG TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "ODG TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "ODG TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "ODG TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "ODG TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "ODG TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "ODG TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "ODG TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "ODG TO POT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "ODG TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "ODG TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "ODG TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "ODG TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "ODG TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "ODG TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "ODG TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "ODG TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "ODG TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "ODG TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "ODG TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "ODG TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "ODG TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "ODG TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "ODG TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "ODG TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "ODG TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "ODG TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "ODG TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "ODG TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "ODG TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "ODG TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "ODG TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "ODG TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "ODG TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "ODG TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "ODG TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "ODG TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "ODG TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "ODG TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/odg-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported transformations ODG"
+    content: "You can also convert ODG to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

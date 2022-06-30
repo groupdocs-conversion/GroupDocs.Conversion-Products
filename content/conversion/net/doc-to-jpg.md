@@ -1,23 +1,22 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2022-03-01T19:09:16
+layout: "auto-gen-conversion"
+date: 2022-03-01T15:12:22
 draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
+breadcrumb: DOC to JPG in C#
 
 ############################# Head ############################
-head_title: "DOC to JPG Converter – Convert DOC to JPG in C# .NET"
-head_description: "How to convert DOC to JPG in C# .NET using a few lines of code? Use GroupDocs documents conversion APIs to convert 160+ file formats."
+head_title: "DOC to JPG Converter in C#"
+head_description: "Convert DOC to JPG in .NET using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats."
 
 ############################# Header ############################
 title: "Convert DOC to JPG in C#"
-description: "Native and high performance DOC to JPG conversion using server side GroupDocs.Conversion for .NET APIs, without the use of any software like Microsoft or Open Office."
+description: "DOC to JPG conversion with a few lines of .NET code"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/net"
 
 ############################# SubMenu ############################
 submenu:
@@ -29,421 +28,81 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/conversion/net"
-              text: "API Reference"
-
-            # button loop
-            - link: "https://github.com/groupdocs-conversion"
-              text: "Code Examples"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion/family"
-              text: "Live Demos"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net"
-        link_buy: "https://purchase.groupdocs.com"
+    
 
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Conversion for .NET API"
+    title: "About GroupDocs.Conversion для .NET API"
     content: |
-        GroupDocs.Conversion API can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and various other formats. GroupDocs.Conversion is a standalone API that is suitable for server side and backend systems where high performance is required. It does not depend on any software like Microsoft or Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Convert your DOC files to JPG in .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can try DOC to JPG conversion for free and evaluate conversion results quality.
+        Along with simple file conversion scenarios you can try more advanced options for loading source DOC file and for saving output JPG result. 
+        
+        For example, for the source DOC file you may use the following load options:
+
+        * auto-detect file format;
+        * specify password for protected files (if file format supports it);
+        * replace missing fonts to preserve document appearance.
+        
+        There are also advanced convert options for the JPG file:
+
+        * convert specific document page or page range;
+        * add a watermark to the converted JPG file.
+
+        Once conversion is completed you can save your JPG file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc.
+        Please note - to convert DOC to JPG there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc. 
+
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert DOC to JPG in C#"
+    title_left: "Steps to convert DOC to JPG in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net) makes it easy for developers to convert the DOC file to JPG using a few lines of code.
+        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert a DOC file to JPG with a few lines of code.
 
-        *   Create an instance of Converter class and load the DOC file with full path
-        *   Create & set ConvertOptions for the jpg type
-        *   Call Converter.Convert method and pass the full path and format (JPG) as parameter
+        * Create an instance of the Converter class and provide the file DOC with the full path
+        * Create and set ConvertOptions for JPG type.
+        * Call the Converter.Convert method and pass the full path and format (JPG) as a parameter
         
     title_right: "System Requirements"
     content_right: |
-        A basic conversion with GroupDocs.Conversion for .NET APIs can be done by implementing a few easy steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        Basic conversion with GroupDocs.Conversion for .NET can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environments: Microsoft Visual Studio, Xamarin, MonoDevelop
-        *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Get the latest version of GroupDocs.Conversion for .NET downloaded from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+        * Operating systems: Microsoft Windows, Linux, MacOS
+        * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Get the latest GroupDocs.Conversion for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
         
     code: |
         ```cs
-        // load the DOC file
+        // Load DOC file
         var converter = new GroupDocs.Conversion.Converter("template.doc");
-        // set the convert options for JPG format
+        // Set conversion parameters for JPG format
         var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
-        // convert to JPG format
-        converter.Convert("output.jpg", convertOptions);
+        // Convert to JPG format
+        converter.Convert("output.jpg", convertOptions);        
         ```
         
-############################# Demos ############################
 demos:
     enable: true
-    title: "DOC to JPG Live Demos"
+    title: "DOC to JPG Live Demo"
     content: |
-        Convert DOC to JPG right now by visiting [GroupDocs.Conversion Live Demos](https://products.groupdocs.app/conversion/family) website.  
-        The live demo has the following benefits
-        
-############################# About Formats ############################
-about_formats:
-    enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-word"
-          title: " About DOC File Format"
-          content: |
-            Files with .DOC extension represent documents generated by Microsoft Word or other word processing documents in binary file format. The extension was initially used for plain text documentation on several different operating systems. It can contain several different type of data such as images, formatted as well as plain text, graphs, charts, embedded objects, links, pages, page formatting, print settings and a lot others.
+       Convert DOC to JPG now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. Online demo has the following advantages
+          
 
-          link: "https://docs.fileformat.com/word-processing/doc/"
-
-    format:
-        # format loop
-        - icon: "far fa-image"
-          title: " About JPG File Format"
-          content: |
-            A JPEG is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Users can adjust the compression level to achieve the desired quality level while at the same time reduce the storage size. Image quality is negligibly affected if 10:1 compression is applied to the image.  The higher the compression value, the higher the degradation in image quality.
-
-          link: "https://docs.fileformat.com/image/jpeg/"
-
-############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Other Supported Conversions"
-    content: |
-        You can also convert DOC into many other file formats. Please see the complete list below.
-    format: 
-        # format loop
-        - name: "DOC TO BMP"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-bmp/"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "DOC TO CSV"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-csv/"
-          description: "Comma Separated Values File"
-
-        # format loop
-        - name: "DOC TO DCM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-dcm/"
-          description: "DICOM Image"
-
-        # format loop
-        - name: "DOC TO DIF"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-dif/"
-          description: "Data Interchange Format"
-
-        # format loop
-        - name: "DOC TO DNG"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-dng/"
-          description: "Digital Camera Image Format"
-
-        # format loop
-        - name: "DOC TO DOCM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-docm/"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "DOC TO DOCX"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-docx/"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "DOC TO DOT"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-dot/"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "DOC TO DOTM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-dotm/"
-          description: "Microsoft Word Macro-Enabled Template"
-
-        # format loop
-        - name: "DOC TO DOTX"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-dotx/"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "DOC TO EMF"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-emf/"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "DOC TO EMZ"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-emz/"
-          description: "Enhanced Windows Metafile Compressed"
-
-        # format loop
-        - name: "DOC TO EPUB"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-epub/"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "DOC TO FODP"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-fodp/"
-          description: "OpenDocument Flat XML Presentation"
-
-        # format loop
-        - name: "DOC TO FODS"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-fods/"
-          description: "OpenDocument Flat XML Spreadsheet"
-
-        # format loop
-        - name: "DOC TO GIF"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "DOC TO HTM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-htm/"
-          description: "Hypertext Markup Language File"
-
-        # format loop
-        - name: "DOC TO HTML"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-html/"
-          description: "Hyper Text Markup Language"
-
-        # format loop
-        - name: "DOC TO ICO"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-ico/"
-          description: "Microsoft Icon File"
-
-        # format loop
-        - name: "DOC TO JP2"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-jp2/"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "DOC TO JPEG"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-jpeg/"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "DOC TO MD"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-md/"
-          description: "Markdown"
-
-        # format loop
-        - name: "DOC TO MHT"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-mht/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "DOC TO MHTML"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-mhtml/"
-          description: "MIME Encapsulation of Aggregate HTML"
-
-        # format loop
-        - name: "DOC TO MOBI"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-mobi/"
-          description: "Mobipocket eBook"
-
-        # format loop
-        - name: "DOC TO ODP"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-odp/"
-          description: "OpenDocument Presentation File Format"
-
-        # format loop
-        - name: "DOC TO ODS"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-ods/"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "DOC TO ODT"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-odt/"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "DOC TO OTP"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-otp/"
-          description: "Origin Graph Template"
-
-        # format loop
-        - name: "DOC TO OTT"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-ott/"
-          description: "Open Document Template"
-
-        # format loop
-        - name: "DOC TO PDF"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-pdf/"
-          description: "Portable Document"
-
-        # format loop
-        - name: "DOC TO PNG"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-png/"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "DOC TO POT"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-pot/"
-          description: "PowerPoint Template"
-
-        # format loop
-        - name: "DOC TO POTM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-potm/"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "DOC TO POTX"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-potx/"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "DOC TO PPS"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-pps/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DOC TO PPSM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-ppsm/"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "DOC TO PPSX"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-ppsx/"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "DOC TO PPT"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-ppt/"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "DOC TO PPTM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-pptm/"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "DOC TO PPTX"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-pptx/"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "DOC TO PSD"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-psd/"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "DOC TO RTF"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-rtf/"
-          description: "Rich Text File Format"
-
-        # format loop
-        - name: "DOC TO SVG"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-svg/"
-          description: "Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DOC TO SVGZ"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-svgz/"
-          description: "Compressed Scalable Vector Graphics File"
-
-        # format loop
-        - name: "DOC TO SXC"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-sxc/"
-          description: "StarOffice Calc Spreadsheet"
-
-        # format loop
-        - name: "DOC TO TEX"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-tex/"
-          description: "LaTeX Source Document"
-
-        # format loop
-        - name: "DOC TO TIF"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-tif/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DOC TO TIFF"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-tiff/"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "DOC TO TSV"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-tsv/"
-          description: "Tab Separated Values File"
-
-        # format loop
-        - name: "DOC TO TXT"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-txt/"
-          description: "Plain Text File Format"
-
-        # format loop
-        - name: "DOC TO WEBP"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-webp/"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "DOC TO WMF"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-wmf/"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "DOC TO WMZ"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-wmz/"
-          description: "Windows Metafile Compressed"
-
-        # format loop
-        - name: "DOC TO XLAM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-xlam/"
-          description: "Microsoft Excel Macro-Enabled Add-In"
-
-        # format loop
-        - name: "DOC TO XLS"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-xls/"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "DOC TO XLSB"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-xlsb/"
-          description: "Microsoft Excel Binary Spreadsheet File"
-
-        # format loop
-        - name: "DOC TO XLSM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-xlsm/"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "DOC TO XLSX"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "DOC TO XLT"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-xlt/"
-          description: "Microsoft Excel Template"
-
-        # format loop
-        - name: "DOC TO XLTM"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-xltm/"
-          description: "Microsoft Excel Macro-Enabled Template"
-
-        # format loop
-        - name: "DOC TO XLTX"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-xltx/"
-          description: "Microsoft Excel Open XML Template"
-
-        # format loop
-        - name: "DOC TO XPS"
-          link: "https://products.groupdocs.com/conversion/java/doc-to-xps/"
-          description: "Open XML Paper Specification"
-
-
-
-############################# Back to top ###############################
+    title: "Other supported transformations DOC"
+    content: "You can also convert DOC to many other file formats. Please see the list below."
+       
+       
 back_to_top:
     enable: true
 ---

@@ -4,4 +4,4 @@ dimensions:
 - alias: product
   values: [net, java]
 
-dictionaries: [ products.json ]
+dictionaries: [ ..\\data\\products.json ]

@@ -7,8 +7,8 @@ otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd
 breadcrumb: PSD to GIF in Java
 
 ############################# Head ############################
-head_title: "Convert PSD to GIF in Java"
-head_description: "PSD to GIF conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
+head_title: "PSD to GIF Converter in Java"
+head_description: "Convert PSD to GIF in Java using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats."
 
 ############################# Header ############################
 title: "Convert PSD to GIF in Java"
@@ -28,75 +28,72 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
     
 
 overview:
     enable: true
     content: |
-        Convert your PSD files to GIF files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
-        You can try converting PSD to GIF for free and evaluate the quality of the conversion results.
-        Along with simple file conversion scripts, you can try more sophisticated options for loading the PSD source file and storing the GIF output.
+        Convert your PSD files to GIF in Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can try PSD to GIF conversion for free and evaluate conversion results quality.  Along with simple file conversion scenarios you can try more advanced options for loading source PSD file and for saving output GIF result. 
         
-        For example, for the source file PSD, you can use the following upload options:
+        For example, for the source PSD file you may use the following load options:
 
-        * automatic detection of the file format;
-        * specify a password for protected files (if the file format supports it);
-        * replace missing fonts to preserve the appearance of the document.
+        * auto-detect file format;
+        * specify password for protected files (if file format supports it);
+        * replace missing fonts to preserve document appearance.
+        
+        There are also advanced convert options for the GIF file:
 
-        There are also advanced conversion options for the GIF file:
+        * convert specific document page or page range;
+        * add a watermark to the converted GIF file and many more.
 
-        * convert a specific page of a document or a range of pages;
-        * add a watermark to the converted GIF.
-
-        Once the conversion is complete, you can save the GIF file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
-        Please note - to convert PSD to GIF, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+        Once conversion is completed you can save your GIF file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc. Please note - to convert PSD to GIF there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert PSD to GIF in Java"
+    title_left: "Steps to convert PSD to GIF in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a PSD file to GIF with a few lines of code.
-
-        * Create a new instance of the Converter class and upload the file PSD with the full path
-        * Set ConvertOptions for document type to GIF.
-        * Call the convert() method and pass the document name (full path) and format (GIF) as a parameter
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) makes it easy for developers to convert a PSD file to GIF with a few lines of code.
         
+        * Create an instance of the Converter class and provide the file PSD with the full path
+        * Create and set ConvertOptions for GIF type.
+        * Call the Converter.Convert method and pass the full path and format (GIF) as a parameter
+
     title_right: "System Requirements"
     content_right: |
-        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
+        Basic conversion with GroupDocs.Conversion for Java can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
         * Operating systems: Microsoft Windows, Linux, MacOS
-        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
         * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-        
+         
     code: |
-        ```java
+        ```java    
         // Load source file PSD for conversion
         Converter converter = new Converter("input.psd");
         // Prepare conversion options for target format GIF
         ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
         // Convert to GIF format
         converter.convert("output.gif", convertOptions);
-        
         ```
-        
+
 demos:
     enable: true
     title: "PSD to GIF Live Demo"
     content: |
-       Convert PSD to GIF now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
-       
+       Convert PSD to GIF now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. Online demo has the following advantages
+          
 
 more_formats:
     enable: true

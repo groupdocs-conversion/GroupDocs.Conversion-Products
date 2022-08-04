@@ -7,8 +7,8 @@ otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp po
 breadcrumb: IFC to PPT in Java
 
 ############################# Head ############################
-head_title: "Convert IFC to PPT in Java"
-head_description: "IFC to PPT conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
+head_title: "IFC to PPT Converter in Java"
+head_description: "Convert IFC to PPT in Java using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats."
 
 ############################# Header ############################
 title: "Convert IFC to PPT in Java"
@@ -28,75 +28,72 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
     
 
 overview:
     enable: true
     content: |
-        Convert your IFC files to PPT files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
-        You can try converting IFC to PPT for free and evaluate the quality of the conversion results.
-        Along with simple file conversion scripts, you can try more sophisticated options for loading the IFC source file and storing the PPT output.
+        Convert your IFC files to PPT in Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can try IFC to PPT conversion for free and evaluate conversion results quality.  Along with simple file conversion scenarios you can try more advanced options for loading source IFC file and for saving output PPT result. 
         
-        For example, for the source file IFC, you can use the following upload options:
+        For example, for the source IFC file you may use the following load options:
 
-        * automatic detection of the file format;
-        * specify a password for protected files (if the file format supports it);
-        * replace missing fonts to preserve the appearance of the document.
+        * auto-detect file format;
+        * specify password for protected files (if file format supports it);
+        * replace missing fonts to preserve document appearance.
+        
+        There are also advanced convert options for the PPT file:
 
-        There are also advanced conversion options for the PPT file:
+        * convert specific document page or page range;
+        * add a watermark to the converted PPT file and many more.
 
-        * convert a specific page of a document or a range of pages;
-        * add a watermark to the converted PPT.
-
-        Once the conversion is complete, you can save the PPT file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
-        Please note - to convert IFC to PPT, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+        Once conversion is completed you can save your PPT file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc. Please note - to convert IFC to PPT there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert IFC to PPT in Java"
+    title_left: "Steps to convert IFC to PPT in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a IFC file to PPT with a few lines of code.
-
-        * Create a new instance of the Converter class and upload the file IFC with the full path
-        * Set ConvertOptions for document type to PPT.
-        * Call the convert() method and pass the document name (full path) and format (PPT) as a parameter
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) makes it easy for developers to convert a IFC file to PPT with a few lines of code.
         
+        * Create an instance of the Converter class and provide the file IFC with the full path
+        * Create and set ConvertOptions for PPT type.
+        * Call the Converter.Convert method and pass the full path and format (PPT) as a parameter
+
     title_right: "System Requirements"
     content_right: |
-        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
+        Basic conversion with GroupDocs.Conversion for Java can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
         * Operating systems: Microsoft Windows, Linux, MacOS
-        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
         * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-        
+         
     code: |
-        ```java
+        ```java    
         // Load source file IFC for conversion
         Converter converter = new Converter("input.ifc");
         // Prepare conversion options for target format PPT
         ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
         // Convert to PPT format
         converter.convert("output.ppt", convertOptions);
-        
         ```
-        
+
 demos:
     enable: true
     title: "IFC to PPT Live Demo"
     content: |
-       Convert IFC to PPT now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
-       
+       Convert IFC to PPT now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. Online demo has the following advantages
+          
 
 more_formats:
     enable: true

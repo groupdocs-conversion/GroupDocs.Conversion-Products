@@ -28,12 +28,12 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Conversion для .NET API"
+    title: "About GroupDocs.Conversion for .NET API"
     content: |
         [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
     
@@ -42,8 +42,7 @@ overview:
     enable: true
     content: |
         Convert your VSS files to RTF in .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can try VSS to RTF conversion for free and evaluate conversion results quality.
-        Along with simple file conversion scenarios you can try more advanced options for loading source VSS file and for saving output RTF result. 
+        You can try VSS to RTF conversion for free and evaluate conversion results quality.  Along with simple file conversion scenarios you can try more advanced options for loading source VSS file and for saving output RTF result. 
         
         For example, for the source VSS file you may use the following load options:
 
@@ -54,10 +53,9 @@ overview:
         There are also advanced convert options for the RTF file:
 
         * convert specific document page or page range;
-        * add a watermark to the converted RTF file.
+        * add a watermark to the converted RTF file and many more.
 
-        Once conversion is completed you can save your RTF file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc.
-        Please note - to convert VSS to RTF there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc. 
+        Once conversion is completed you can save your RTF file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc. Please note - to convert VSS to RTF there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
@@ -65,12 +63,12 @@ steps:
     enable: true
     title_left: "Steps to convert VSS to RTF in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert a VSS file to RTF with a few lines of code.
-
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert a VSS file to RTF with a few lines of code.
+        
         * Create an instance of the Converter class and provide the file VSS with the full path
         * Create and set ConvertOptions for RTF type.
         * Call the Converter.Convert method and pass the full path and format (RTF) as a parameter
-        
+
     title_right: "System Requirements"
     content_right: |
         Basic conversion with GroupDocs.Conversion for .NET can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
@@ -79,17 +77,17 @@ steps:
         * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         * Get the latest GroupDocs.Conversion for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-        
+         
     code: |
-        ```cs
+        ```csharp    
         // Load VSS file
-        var converter = new GroupDocs.Conversion.Converter("template.vss");
+        var converter = new GroupDocs.Conversion.Converter("input.vss");
         // Set conversion parameters for RTF format
         var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
         // Convert to RTF format
-        converter.Convert("output.rtf", convertOptions);        
+        converter.Convert("output.rtf", convertOptions);
         ```
-        
+
 demos:
     enable: true
     title: "VSS to RTF Live Demo"
@@ -99,7 +97,7 @@ demos:
 
 more_formats:
     enable: true
-    title: "Other supported transformations VSS"
+    title: "Other supported VSS conversions in C#"
     content: "You can also convert VSS to many other file formats. Please see the list below."
        
        

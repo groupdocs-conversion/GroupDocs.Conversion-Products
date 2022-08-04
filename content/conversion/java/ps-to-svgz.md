@@ -7,8 +7,8 @@ otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz
 breadcrumb: PS to SVGZ in Java
 
 ############################# Head ############################
-head_title: "Convert PS to SVGZ in Java"
-head_description: "PS to SVGZ conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs Document Conversion API for Java."
+head_title: "PS to SVGZ Converter in Java"
+head_description: "Convert PS to SVGZ in Java using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats."
 
 ############################# Header ############################
 title: "Convert PS to SVGZ in Java"
@@ -28,75 +28,72 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: "Java"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
     
 
 overview:
     enable: true
     content: |
-        Convert your PS files to SVGZ files in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
-        You can try converting PS to SVGZ for free and evaluate the quality of the conversion results.
-        Along with simple file conversion scripts, you can try more sophisticated options for loading the PS source file and storing the SVGZ output.
+        Convert your PS files to SVGZ in Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
+        You can try PS to SVGZ conversion for free and evaluate conversion results quality.  Along with simple file conversion scenarios you can try more advanced options for loading source PS file and for saving output SVGZ result. 
         
-        For example, for the source file PS, you can use the following upload options:
+        For example, for the source PS file you may use the following load options:
 
-        * automatic detection of the file format;
-        * specify a password for protected files (if the file format supports it);
-        * replace missing fonts to preserve the appearance of the document.
+        * auto-detect file format;
+        * specify password for protected files (if file format supports it);
+        * replace missing fonts to preserve document appearance.
+        
+        There are also advanced convert options for the SVGZ file:
 
-        There are also advanced conversion options for the SVGZ file:
+        * convert specific document page or page range;
+        * add a watermark to the converted SVGZ file and many more.
 
-        * convert a specific page of a document or a range of pages;
-        * add a watermark to the converted SVGZ.
-
-        Once the conversion is complete, you can save the SVGZ file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc.
-        Please note - to convert PS to SVGZ, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc. 
+        Once conversion is completed you can save your SVGZ file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc. Please note - to convert PS to SVGZ there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps to Convert PS to SVGZ in Java"
+    title_left: "Steps to convert PS to SVGZ in Java"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/java/) allows developers to easily convert a PS file to SVGZ with a few lines of code.
-
-        * Create a new instance of the Converter class and upload the file PS with the full path
-        * Set ConvertOptions for document type to SVGZ.
-        * Call the convert() method and pass the document name (full path) and format (SVGZ) as a parameter
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) makes it easy for developers to convert a PS file to SVGZ with a few lines of code.
         
+        * Create an instance of the Converter class and provide the file PS with the full path
+        * Create and set ConvertOptions for SVGZ type.
+        * Call the Converter.Convert method and pass the full path and format (SVGZ) as a parameter
+
     title_right: "System Requirements"
     content_right: |
-        Basic conversion using GroupDocs.Conversion for the Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
+        Basic conversion with GroupDocs.Conversion for Java can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
         * Operating systems: Microsoft Windows, Linux, MacOS
-        * Development environment: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
         * Get the latest GroupDocs.Conversion for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-        
+         
     code: |
-        ```java
+        ```java    
         // Load source file PS for conversion
         Converter converter = new Converter("input.ps");
         // Prepare conversion options for target format SVGZ
         ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
         // Convert to SVGZ format
         converter.convert("output.svgz", convertOptions);
-        
         ```
-        
+
 demos:
     enable: true
     title: "PS to SVGZ Live Demo"
     content: |
-       Convert PS to SVGZ now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. The free demo has the following benefits
-       
+       Convert PS to SVGZ now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. Online demo has the following advantages
+          
 
 more_formats:
     enable: true

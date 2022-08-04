@@ -28,12 +28,12 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Conversion для .NET API"
+    title: "About GroupDocs.Conversion for .NET API"
     content: |
         [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
     
@@ -42,8 +42,7 @@ overview:
     enable: true
     content: |
         Convert your CF2 files to FODP in .NET easily. You can use just a couple of C# code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can try CF2 to FODP conversion for free and evaluate conversion results quality.
-        Along with simple file conversion scenarios you can try more advanced options for loading source CF2 file and for saving output FODP result. 
+        You can try CF2 to FODP conversion for free and evaluate conversion results quality.  Along with simple file conversion scenarios you can try more advanced options for loading source CF2 file and for saving output FODP result. 
         
         For example, for the source CF2 file you may use the following load options:
 
@@ -54,10 +53,9 @@ overview:
         There are also advanced convert options for the FODP file:
 
         * convert specific document page or page range;
-        * add a watermark to the converted FODP file.
+        * add a watermark to the converted FODP file and many more.
 
-        Once conversion is completed you can save your FODP file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc.
-        Please note - to convert CF2 to FODP there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc. 
+        Once conversion is completed you can save your FODP file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc. Please note - to convert CF2 to FODP there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
@@ -65,12 +63,12 @@ steps:
     enable: true
     title_left: "Steps to convert CF2 to FODP in C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert a CF2 file to FODP with a few lines of code.
-
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) makes it easy for developers to convert a CF2 file to FODP with a few lines of code.
+        
         * Create an instance of the Converter class and provide the file CF2 with the full path
         * Create and set ConvertOptions for FODP type.
         * Call the Converter.Convert method and pass the full path and format (FODP) as a parameter
-        
+
     title_right: "System Requirements"
     content_right: |
         Basic conversion with GroupDocs.Conversion for .NET can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
@@ -79,17 +77,17 @@ steps:
         * Development environments: Microsoft Visual Studio, Xamarin, MonoDevelop
         * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
         * Get the latest GroupDocs.Conversion for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-        
+         
     code: |
-        ```cs
+        ```csharp    
         // Load CF2 file
-        var converter = new GroupDocs.Conversion.Converter("template.cf2");
+        var converter = new GroupDocs.Conversion.Converter("input.cf2");
         // Set conversion parameters for FODP format
         var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
         // Convert to FODP format
-        converter.Convert("output.fodp", convertOptions);        
+        converter.Convert("output.fodp", convertOptions);
         ```
-        
+
 demos:
     enable: true
     title: "CF2 to FODP Live Demo"
@@ -99,7 +97,7 @@ demos:
 
 more_formats:
     enable: true
-    title: "Other supported transformations CF2"
+    title: "Other supported CF2 conversions in C#"
     content: "You can also convert CF2 to many other file formats. Please see the list below."
        
        

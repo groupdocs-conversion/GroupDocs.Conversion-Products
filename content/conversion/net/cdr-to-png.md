@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CDR file
+        // Load source file CDR for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cdr");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

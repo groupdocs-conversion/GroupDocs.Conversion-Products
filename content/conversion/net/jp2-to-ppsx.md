@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load JP2 file
+        // Load source file JP2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.jp2");
-        // Set conversion parameters for PPSX format
+        // Prepare conversion options for target format PPSX
         var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
         // Convert to PPSX format
         converter.Convert("output.ppsx", convertOptions);

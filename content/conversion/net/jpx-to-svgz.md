@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load JPX file
+        // Load source file JPX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.jpx");
-        // Set conversion parameters for SVGZ format
+        // Prepare conversion options for target format SVGZ
         var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
         // Convert to SVGZ format
         converter.Convert("output.svgz", convertOptions);

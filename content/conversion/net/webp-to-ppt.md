@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load WEBP file
+        // Load source file WEBP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.webp");
-        // Set conversion parameters for PPT format
+        // Prepare conversion options for target format PPT
         var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
         // Convert to PPT format
         converter.Convert("output.ppt", convertOptions);

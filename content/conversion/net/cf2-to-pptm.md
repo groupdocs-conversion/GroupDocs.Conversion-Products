@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for PPTM format
+        // Prepare conversion options for target format PPTM
         var convertOptions = converter.GetPossibleConversions()["pptm"].ConvertOptions;
         // Convert to PPTM format
         converter.Convert("output.pptm", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MBOX file
+        // Load source file MBOX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Set conversion parameters for JPEG format
+        // Prepare conversion options for target format JPEG
         var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
         // Convert to JPEG format
         converter.Convert("output.jpeg", convertOptions);

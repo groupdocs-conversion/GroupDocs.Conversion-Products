@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load TIFF file
+        // Load source file TIFF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.tiff");
-        // Set conversion parameters for PPT format
+        // Prepare conversion options for target format PPT
         var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
         // Convert to PPT format
         converter.Convert("output.ppt", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DXF file
+        // Load source file DXF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dxf");
-        // Set conversion parameters for POTM format
+        // Prepare conversion options for target format POTM
         var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
         // Convert to POTM format
         converter.Convert("output.potm", convertOptions);

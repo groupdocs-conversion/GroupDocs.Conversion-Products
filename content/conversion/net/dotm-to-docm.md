@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DOTM file
+        // Load source file DOTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dotm");
-        // Set conversion parameters for DOCM format
+        // Prepare conversion options for target format DOCM
         var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
         // Convert to DOCM format
         converter.Convert("output.docm", convertOptions);

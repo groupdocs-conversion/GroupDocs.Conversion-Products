@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load ODP file
+        // Load source file ODP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.odp");
-        // Set conversion parameters for PSD format
+        // Prepare conversion options for target format PSD
         var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
         // Convert to PSD format
         converter.Convert("output.psd", convertOptions);

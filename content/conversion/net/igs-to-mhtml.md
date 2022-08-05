@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load IGS file
+        // Load source file IGS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.igs");
-        // Set conversion parameters for MHTML format
+        // Prepare conversion options for target format MHTML
         var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
         // Convert to MHTML format
         converter.Convert("output.mhtml", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SXC file
+        // Load source file SXC for conversion
         var converter = new GroupDocs.Conversion.Converter("input.sxc");
-        // Set conversion parameters for MHTML format
+        // Prepare conversion options for target format MHTML
         var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
         // Convert to MHTML format
         converter.Convert("output.mhtml", convertOptions);

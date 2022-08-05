@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VSTM file
+        // Load source file VSTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vstm");
-        // Set conversion parameters for DOT format
+        // Prepare conversion options for target format DOT
         var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
         // Convert to DOT format
         converter.Convert("output.dot", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PCL file
+        // Load source file PCL for conversion
         var converter = new GroupDocs.Conversion.Converter("input.pcl");
-        // Set conversion parameters for DCM format
+        // Prepare conversion options for target format DCM
         var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
         // Convert to DCM format
         converter.Convert("output.dcm", convertOptions);

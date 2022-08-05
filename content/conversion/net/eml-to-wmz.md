@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EML file
+        // Load source file EML for conversion
         var converter = new GroupDocs.Conversion.Converter("input.eml");
-        // Set conversion parameters for WMZ format
+        // Prepare conversion options for target format WMZ
         var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
         // Convert to WMZ format
         converter.Convert("output.wmz", convertOptions);

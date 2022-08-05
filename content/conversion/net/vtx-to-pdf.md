@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VTX file
+        // Load source file VTX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vtx");
-        // Set conversion parameters for PDF format
+        // Prepare conversion options for target format PDF
         var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
         // Convert to PDF format
         converter.Convert("output.pdf", convertOptions);

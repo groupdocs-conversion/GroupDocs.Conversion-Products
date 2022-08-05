@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DOTX file
+        // Load source file DOTX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dotx");
-        // Set conversion parameters for BMP format
+        // Prepare conversion options for target format BMP
         var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
         // Convert to BMP format
         converter.Convert("output.bmp", convertOptions);

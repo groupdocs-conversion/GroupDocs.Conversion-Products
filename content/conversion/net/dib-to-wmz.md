@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DIB file
+        // Load source file DIB for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dib");
-        // Set conversion parameters for WMZ format
+        // Prepare conversion options for target format WMZ
         var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
         // Convert to WMZ format
         converter.Convert("output.wmz", convertOptions);

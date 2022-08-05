@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MPP file
+        // Load source file MPP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // Set conversion parameters for MPP format
+        // Prepare conversion options for target format MPP
         var convertOptions = converter.GetPossibleConversions()["mpp"].ConvertOptions;
         // Convert to MPP format
         converter.Convert("output.mpp", convertOptions);

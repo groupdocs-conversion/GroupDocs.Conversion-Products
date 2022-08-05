@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VTX file
+        // Load source file VTX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vtx");
-        // Set conversion parameters for VTX format
+        // Prepare conversion options for target format VTX
         var convertOptions = converter.GetPossibleConversions()["vtx"].ConvertOptions;
         // Convert to VTX format
         converter.Convert("output.vtx", convertOptions);

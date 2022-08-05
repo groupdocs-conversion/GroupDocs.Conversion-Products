@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load STL file
+        // Load source file STL for conversion
         var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // Set conversion parameters for DOTM format
+        // Prepare conversion options for target format DOTM
         var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
         // Convert to DOTM format
         converter.Convert("output.dotm", convertOptions);

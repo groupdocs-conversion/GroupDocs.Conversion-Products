@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load BMP file
+        // Load source file BMP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.bmp");
-        // Set conversion parameters for GIF format
+        // Prepare conversion options for target format GIF
         var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
         // Convert to GIF format
         converter.Convert("output.gif", convertOptions);

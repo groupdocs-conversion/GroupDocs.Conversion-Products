@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CSV file
+        // Load source file CSV for conversion
         var converter = new GroupDocs.Conversion.Converter("input.csv");
-        // Set conversion parameters for MHT format
+        // Prepare conversion options for target format MHT
         var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
         // Convert to MHT format
         converter.Convert("output.mht", convertOptions);

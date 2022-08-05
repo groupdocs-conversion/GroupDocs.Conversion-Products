@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load ICO file
+        // Load source file ICO for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ico");
-        // Set conversion parameters for TIFF format
+        // Prepare conversion options for target format TIFF
         var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
         // Convert to TIFF format
         converter.Convert("output.tiff", convertOptions);

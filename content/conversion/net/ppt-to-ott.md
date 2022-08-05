@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PPT file
+        // Load source file PPT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ppt");
-        // Set conversion parameters for OTT format
+        // Prepare conversion options for target format OTT
         var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
         // Convert to OTT format
         converter.Convert("output.ott", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load J2K file
+        // Load source file J2K for conversion
         var converter = new GroupDocs.Conversion.Converter("input.j2k");
-        // Set conversion parameters for PPS format
+        // Prepare conversion options for target format PPS
         var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
         // Convert to PPS format
         converter.Convert("output.pps", convertOptions);

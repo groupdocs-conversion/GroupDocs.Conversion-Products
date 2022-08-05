@@ -8,11 +8,11 @@ breadcrumb: XLSM в XLS на C#
 
 ############################# Head ############################
 head_title: "Конвертер XLSM в XLS на C#"
-head_description: "Преобразовать XLSM в XLS на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_description: "Преобразуйте XLSM в XLS на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразовать XLSM в XLS на C#"
-description: "Конвертер XLSM в XLS с помощью нескольких строк .NET кода"
+title: "Преобразование XLSM в XLS в C#"
+description: "Конвертировать XLSM в XLS с помощью нескольких строк кода .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -28,79 +28,77 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Conversion для .NET API"
+    title: "О GroupDocs.Conversion for .NET API"
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
     
 
 overview:
     enable: true
     content: |
-        Преобразуйте свои файлы XLSM в файлы XLS в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
-        Вы можете бесплатно попробовать конвертацию XLSM в XLS и оценить качество результатов преобразования.
-        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла XLSM и сохранения выходного результата XLS.
+        Легко конвертируйте файлы XLSM в XLS на .NET. Вы можете использовать всего пару строк кода C# на любой платформе по вашему выбору, например - Windows, Linux, macOS.
+        Вы можете бесплатно попробовать преобразование XLSM в XLS и оценить качество результатов преобразования. Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла XLSM и сохранения выходного результата в формат XLS. 
         
-        Например, для исходного файла XLSM можно использовать следующие параметры загрузки:
+        Например, для исходного файла XLSM вы можете использовать следующие параметры загрузки:
 
         * автоматическое определение формата файла;
-        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * указать пароль для защищенных файлов (если формат файла поддерживает это);
         * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+        
+        Существуют также расширенные параметры преобразования для файла XLS:
 
-        Существуют также расширенные возможности преобразования для файла XLS:
+        * преобразовать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл XLS и многое другое.
 
-        * конвертировать определенную страницу документа или диапазон страниц;
-        * добавить водяной знак в преобразованный файл XLS.
-
-        После завершения преобразования вы можете сохранить файл XLS по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
-        Обратите внимание - для преобразования XLSM в XLS не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+        После завершения преобразования вы можете сохранить файл XLS в локальный путь к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д. Обратите внимание: чтобы преобразовать XLSM в XLS нет необходимости в установке какого-либо дополнительного программного обеспечения - такого как MS Office, Open Office, Adobe Acrobat Reader и т.д.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по конвертации XLSM в XLS в C#"
+    title_left: "Шаги по преобразованию XLSM в XLS в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла XLSM в XLS с помощью нескольких строк кода.
-
-        * Создайте экземпляр класса Converter и загрузите файл XLSM с полным путем
-        * Создайте и установите ConvertOptions для типа XLS.
-        * Вызовите метод Converter.Convert и передайте полный путь и формат (XLS) в качестве параметра
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) позволяет разработчикам легко преобразовать файл XLSM в XLS с помощью нескольких строк кода.
         
-    title_right: "Системные Требования"
+        * Создайте экземпляр класса Converter и укажите полный путь к файлу XLSM.
+        * Создайте и установите ConvertOptions для типа XLS.
+        * Вызовите метод Converter.Convert и передайте полный путь и формат (XLS) в качестве параметра.
+
+    title_right: "System Requirements"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-        
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Получите последнюю версию GroupDocs.Conversion for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+         
     code: |
-        ```cs
-        // Загружаем XLSM файл
-        var converter = new GroupDocs.Conversion.Converter("template.xlsm");
-        // Устанавливаем параметры конвертации для формата XLS
+        ```csharp    
+        // Загрузите исходный файл XLSM для конвертации
+        var converter = new GroupDocs.Conversion.Converter("input.xlsm");
+        // Задайте параметры преобразования для целевого формата XLS
         var convertOptions = converter.GetPossibleConversions()["xls"].ConvertOptions;
-        // Преобразовать в формат XLS
-        converter.Convert("output.xls", convertOptions);        
+        // Преобразуйте файл в XLS формат
+        converter.Convert("output.xls", convertOptions);
         ```
-        
+
 demos:
     enable: true
-    title: "Демонстрация XLSM в XLS"
+    title: "XLSM в XLS Демо"
     content: |
-       Конвертируйте XLSM в XLS прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+       Преобразуйте XLSM в XLS прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
           
 
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования XLSM"
-    content: "Вы также можете конвертировать XLSM во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+    title: "Другие поддерживаемые преобразования XLSM в C#"
+    content: "Вы также можете конвертировать XLSM во многие другие форматы файлов. См. список ниже."
        
        
 back_to_top:

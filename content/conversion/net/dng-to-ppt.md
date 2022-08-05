@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DNG file
+        // Load source file DNG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dng");
-        // Set conversion parameters for PPT format
+        // Prepare conversion options for target format PPT
         var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
         // Convert to PPT format
         converter.Convert("output.ppt", convertOptions);

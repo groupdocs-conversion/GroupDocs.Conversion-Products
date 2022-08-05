@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VSD file
+        // Load source file VSD for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vsd");
-        // Set conversion parameters for VSSX format
+        // Prepare conversion options for target format VSSX
         var convertOptions = converter.GetPossibleConversions()["vssx"].ConvertOptions;
         // Convert to VSSX format
         converter.Convert("output.vssx", convertOptions);

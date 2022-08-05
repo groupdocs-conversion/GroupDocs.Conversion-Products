@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWF file
+        // Load source file DWF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Set conversion parameters for DOTM format
+        // Prepare conversion options for target format DOTM
         var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
         // Convert to DOTM format
         converter.Convert("output.dotm", convertOptions);

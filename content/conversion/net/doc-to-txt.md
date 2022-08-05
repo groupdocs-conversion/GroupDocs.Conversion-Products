@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DOC file
+        // Load source file DOC for conversion
         var converter = new GroupDocs.Conversion.Converter("input.doc");
-        // Set conversion parameters for TXT format
+        // Prepare conversion options for target format TXT
         var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
         // Convert to TXT format
         converter.Convert("output.txt", convertOptions);

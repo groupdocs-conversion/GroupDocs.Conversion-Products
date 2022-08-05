@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load XLAM file
+        // Load source file XLAM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.xlam");
-        // Set conversion parameters for TEX format
+        // Prepare conversion options for target format TEX
         var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
         // Convert to TEX format
         converter.Convert("output.tex", convertOptions);

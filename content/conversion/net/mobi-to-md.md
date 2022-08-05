@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MOBI file
+        // Load source file MOBI for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mobi");
-        // Set conversion parameters for MD format
+        // Prepare conversion options for target format MD
         var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
         // Convert to MD format
         converter.Convert("output.md", convertOptions);

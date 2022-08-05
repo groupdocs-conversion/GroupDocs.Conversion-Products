@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PLT file
+        // Load source file PLT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.plt");
-        // Set conversion parameters for FODP format
+        // Prepare conversion options for target format FODP
         var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
         // Convert to FODP format
         converter.Convert("output.fodp", convertOptions);

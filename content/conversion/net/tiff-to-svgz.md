@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load TIFF file
+        // Load source file TIFF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.tiff");
-        // Set conversion parameters for SVGZ format
+        // Prepare conversion options for target format SVGZ
         var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
         // Convert to SVGZ format
         converter.Convert("output.svgz", convertOptions);

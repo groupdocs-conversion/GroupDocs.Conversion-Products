@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load IFC file
+        // Load source file IFC for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ifc");
-        // Set conversion parameters for PPSX format
+        // Prepare conversion options for target format PPSX
         var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
         // Convert to PPSX format
         converter.Convert("output.ppsx", convertOptions);

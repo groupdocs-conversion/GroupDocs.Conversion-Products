@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWG file
+        // Load source file DWG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwg");
-        // Set conversion parameters for DOC format
+        // Prepare conversion options for target format DOC
         var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
         // Convert to DOC format
         converter.Convert("output.doc", convertOptions);

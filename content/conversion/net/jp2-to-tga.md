@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load JP2 file
+        // Load source file JP2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.jp2");
-        // Set conversion parameters for TGA format
+        // Prepare conversion options for target format TGA
         var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
         // Convert to TGA format
         converter.Convert("output.tga", convertOptions);

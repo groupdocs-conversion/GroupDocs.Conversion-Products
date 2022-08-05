@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWF file
+        // Load source file DWF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Set conversion parameters for POTX format
+        // Prepare conversion options for target format POTX
         var convertOptions = converter.GetPossibleConversions()["potx"].ConvertOptions;
         // Convert to POTX format
         converter.Convert("output.potx", convertOptions);

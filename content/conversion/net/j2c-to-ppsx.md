@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load J2C file
+        // Load source file J2C for conversion
         var converter = new GroupDocs.Conversion.Converter("input.j2c");
-        // Set conversion parameters for PPSX format
+        // Prepare conversion options for target format PPSX
         var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
         // Convert to PPSX format
         converter.Convert("output.ppsx", convertOptions);

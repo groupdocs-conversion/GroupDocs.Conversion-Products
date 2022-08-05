@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OTP file
+        // Load source file OTP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.otp");
-        // Set conversion parameters for DOTX format
+        // Prepare conversion options for target format DOTX
         var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
         // Convert to DOTX format
         converter.Convert("output.dotx", convertOptions);

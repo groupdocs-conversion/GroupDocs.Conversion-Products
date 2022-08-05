@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load FODS file
+        // Load source file FODS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.fods");
-        // Set conversion parameters for JSON format
+        // Prepare conversion options for target format JSON
         var convertOptions = converter.GetPossibleConversions()["json"].ConvertOptions;
         // Convert to JSON format
         converter.Convert("output.json", convertOptions);

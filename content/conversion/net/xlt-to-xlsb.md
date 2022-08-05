@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load XLT file
+        // Load source file XLT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.xlt");
-        // Set conversion parameters for XLSB format
+        // Prepare conversion options for target format XLSB
         var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
         // Convert to XLSB format
         converter.Convert("output.xlsb", convertOptions);

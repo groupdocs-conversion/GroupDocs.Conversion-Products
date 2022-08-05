@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OTP file
+        // Load source file OTP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.otp");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

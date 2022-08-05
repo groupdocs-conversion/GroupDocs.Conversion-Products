@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VDX file
+        // Load source file VDX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vdx");
-        // Set conversion parameters for MD format
+        // Prepare conversion options for target format MD
         var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
         // Convert to MD format
         converter.Convert("output.md", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for DOT format
+        // Prepare conversion options for target format DOT
         var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
         // Convert to DOT format
         converter.Convert("output.dot", convertOptions);

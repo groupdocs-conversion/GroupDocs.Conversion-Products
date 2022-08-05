@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EML file
+        // Load source file EML for conversion
         var converter = new GroupDocs.Conversion.Converter("input.eml");
-        // Set conversion parameters for EMLX format
+        // Prepare conversion options for target format EMLX
         var convertOptions = converter.GetPossibleConversions()["emlx"].ConvertOptions;
         // Convert to EMLX format
         converter.Convert("output.emlx", convertOptions);

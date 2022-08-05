@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load FODP file
+        // Load source file FODP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.fodp");
-        // Set conversion parameters for DOCX format
+        // Prepare conversion options for target format DOCX
         var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
         // Convert to DOCX format
         converter.Convert("output.docx", convertOptions);

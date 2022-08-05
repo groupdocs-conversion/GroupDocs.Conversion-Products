@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MBOX file
+        // Load source file MBOX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Set conversion parameters for WMF format
+        // Prepare conversion options for target format WMF
         var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
         // Convert to WMF format
         converter.Convert("output.wmf", convertOptions);

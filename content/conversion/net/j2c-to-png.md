@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load J2C file
+        // Load source file J2C for conversion
         var converter = new GroupDocs.Conversion.Converter("input.j2c");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for HTML format
+        // Prepare conversion options for target format HTML
         var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
         // Convert to HTML format
         converter.Convert("output.html", convertOptions);

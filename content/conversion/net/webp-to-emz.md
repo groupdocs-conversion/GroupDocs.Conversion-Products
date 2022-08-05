@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load WEBP file
+        // Load source file WEBP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.webp");
-        // Set conversion parameters for EMZ format
+        // Prepare conversion options for target format EMZ
         var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
         // Convert to EMZ format
         converter.Convert("output.emz", convertOptions);

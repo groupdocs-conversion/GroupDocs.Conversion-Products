@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EMLX file
+        // Load source file EMLX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.emlx");
-        // Set conversion parameters for MSG format
+        // Prepare conversion options for target format MSG
         var convertOptions = converter.GetPossibleConversions()["msg"].ConvertOptions;
         // Convert to MSG format
         converter.Convert("output.msg", convertOptions);

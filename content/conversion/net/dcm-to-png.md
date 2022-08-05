@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DCM file
+        // Load source file DCM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dcm");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

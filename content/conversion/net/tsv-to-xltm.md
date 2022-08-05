@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load TSV file
+        // Load source file TSV for conversion
         var converter = new GroupDocs.Conversion.Converter("input.tsv");
-        // Set conversion parameters for XLTM format
+        // Prepare conversion options for target format XLTM
         var convertOptions = converter.GetPossibleConversions()["xltm"].ConvertOptions;
         // Convert to XLTM format
         converter.Convert("output.xltm", convertOptions);

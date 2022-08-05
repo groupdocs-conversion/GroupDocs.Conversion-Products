@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VSTM file
+        // Load source file VSTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vstm");
-        // Set conversion parameters for OTT format
+        // Prepare conversion options for target format OTT
         var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
         // Convert to OTT format
         converter.Convert("output.ott", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PPSM file
+        // Load source file PPSM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ppsm");
-        // Set conversion parameters for DOC format
+        // Prepare conversion options for target format DOC
         var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
         // Convert to DOC format
         converter.Convert("output.doc", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VSTX file
+        // Load source file VSTX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vstx");
-        // Set conversion parameters for EPUB format
+        // Prepare conversion options for target format EPUB
         var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
         // Convert to EPUB format
         converter.Convert("output.epub", convertOptions);

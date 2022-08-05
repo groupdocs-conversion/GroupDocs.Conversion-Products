@@ -8,11 +8,11 @@ breadcrumb: DOCX в DOCM на C#
 
 ############################# Head ############################
 head_title: "Конвертер DOCX в DOCM на C#"
-head_description: "Преобразовать DOCX в DOCM на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_description: "Преобразуйте DOCX в DOCM на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразовать DOCX в DOCM на C#"
-description: "Конвертер DOCX в DOCM с помощью нескольких строк .NET кода"
+title: "Преобразование DOCX в DOCM в C#"
+description: "Конвертировать DOCX в DOCM с помощью нескольких строк кода .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -28,79 +28,77 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Conversion для .NET API"
+    title: "О GroupDocs.Conversion for .NET API"
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
     
 
 overview:
     enable: true
     content: |
-        Преобразуйте свои файлы DOCX в файлы DOCM в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
-        Вы можете бесплатно попробовать конвертацию DOCX в DOCM и оценить качество результатов преобразования.
-        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DOCX и сохранения выходного результата DOCM.
+        Легко конвертируйте файлы DOCX в DOCM на .NET. Вы можете использовать всего пару строк кода C# на любой платформе по вашему выбору, например - Windows, Linux, macOS.
+        Вы можете бесплатно попробовать преобразование DOCX в DOCM и оценить качество результатов преобразования. Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DOCX и сохранения выходного результата в формат DOCM. 
         
-        Например, для исходного файла DOCX можно использовать следующие параметры загрузки:
+        Например, для исходного файла DOCX вы можете использовать следующие параметры загрузки:
 
         * автоматическое определение формата файла;
-        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * указать пароль для защищенных файлов (если формат файла поддерживает это);
         * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+        
+        Существуют также расширенные параметры преобразования для файла DOCM:
 
-        Существуют также расширенные возможности преобразования для файла DOCM:
+        * преобразовать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл DOCM и многое другое.
 
-        * конвертировать определенную страницу документа или диапазон страниц;
-        * добавить водяной знак в преобразованный файл DOCM.
-
-        После завершения преобразования вы можете сохранить файл DOCM по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
-        Обратите внимание - для преобразования DOCX в DOCM не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+        После завершения преобразования вы можете сохранить файл DOCM в локальный путь к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д. Обратите внимание: чтобы преобразовать DOCX в DOCM нет необходимости в установке какого-либо дополнительного программного обеспечения - такого как MS Office, Open Office, Adobe Acrobat Reader и т.д.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по конвертации DOCX в DOCM в C#"
+    title_left: "Шаги по преобразованию DOCX в DOCM в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла DOCX в DOCM с помощью нескольких строк кода.
-
-        * Создайте экземпляр класса Converter и загрузите файл DOCX с полным путем
-        * Создайте и установите ConvertOptions для типа DOCM.
-        * Вызовите метод Converter.Convert и передайте полный путь и формат (DOCM) в качестве параметра
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) позволяет разработчикам легко преобразовать файл DOCX в DOCM с помощью нескольких строк кода.
         
-    title_right: "Системные Требования"
+        * Создайте экземпляр класса Converter и укажите полный путь к файлу DOCX.
+        * Создайте и установите ConvertOptions для типа DOCM.
+        * Вызовите метод Converter.Convert и передайте полный путь и формат (DOCM) в качестве параметра.
+
+    title_right: "System Requirements"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-        
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Получите последнюю версию GroupDocs.Conversion for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+         
     code: |
-        ```cs
-        // Загружаем DOCX файл
-        var converter = new GroupDocs.Conversion.Converter("template.docx");
-        // Устанавливаем параметры конвертации для формата DOCM
+        ```csharp    
+        // Загрузите исходный файл DOCX для конвертации
+        var converter = new GroupDocs.Conversion.Converter("input.docx");
+        // Задайте параметры преобразования для целевого формата DOCM
         var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // Преобразовать в формат DOCM
-        converter.Convert("output.docm", convertOptions);        
+        // Преобразуйте файл в DOCM формат
+        converter.Convert("output.docm", convertOptions);
         ```
-        
+
 demos:
     enable: true
-    title: "Демонстрация DOCX в DOCM"
+    title: "DOCX в DOCM Демо"
     content: |
-       Конвертируйте DOCX в DOCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+       Преобразуйте DOCX в DOCM прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
           
 
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования DOCX"
-    content: "Вы также можете конвертировать DOCX во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+    title: "Другие поддерживаемые преобразования DOCX в C#"
+    content: "Вы также можете конвертировать DOCX во многие другие форматы файлов. См. список ниже."
        
        
 back_to_top:

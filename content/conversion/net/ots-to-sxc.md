@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OTS file
+        // Load source file OTS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ots");
-        // Set conversion parameters for SXC format
+        // Prepare conversion options for target format SXC
         var convertOptions = converter.GetPossibleConversions()["sxc"].ConvertOptions;
         // Convert to SXC format
         converter.Convert("output.sxc", convertOptions);

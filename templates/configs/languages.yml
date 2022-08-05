@@ -1,6 +1,6 @@
 dimensions: 
 - alias: lang
-  values: [en, de, es, fr, ja, ko, ru, uk, zh]
+  values: [en, de, es, fr, ja, ko, ru, zh]
 
 dictionaries: ["..\\data\\content.{lang}.json"]
 

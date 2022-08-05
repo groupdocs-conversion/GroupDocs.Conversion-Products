@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SXC file
+        // Load source file SXC for conversion
         var converter = new GroupDocs.Conversion.Converter("input.sxc");
-        // Set conversion parameters for XLTX format
+        // Prepare conversion options for target format XLTX
         var convertOptions = converter.GetPossibleConversions()["xltx"].ConvertOptions;
         // Convert to XLTX format
         converter.Convert("output.xltx", convertOptions);

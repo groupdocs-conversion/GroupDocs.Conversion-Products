@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load XLTX file
+        // Load source file XLTX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.xltx");
-        // Set conversion parameters for DIF format
+        // Prepare conversion options for target format DIF
         var convertOptions = converter.GetPossibleConversions()["dif"].ConvertOptions;
         // Convert to DIF format
         converter.Convert("output.dif", convertOptions);

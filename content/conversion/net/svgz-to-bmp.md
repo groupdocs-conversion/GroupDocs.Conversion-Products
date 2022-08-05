@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SVGZ file
+        // Load source file SVGZ for conversion
         var converter = new GroupDocs.Conversion.Converter("input.svgz");
-        // Set conversion parameters for BMP format
+        // Prepare conversion options for target format BMP
         var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
         // Convert to BMP format
         converter.Convert("output.bmp", convertOptions);

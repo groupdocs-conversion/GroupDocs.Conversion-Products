@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load HTM file
+        // Load source file HTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.htm");
-        // Set conversion parameters for XPS format
+        // Prepare conversion options for target format XPS
         var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
         // Convert to XPS format
         converter.Convert("output.xps", convertOptions);

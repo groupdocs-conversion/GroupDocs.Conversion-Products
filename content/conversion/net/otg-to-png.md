@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OTG file
+        // Load source file OTG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.otg");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load STL file
+        // Load source file STL for conversion
         var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // Set conversion parameters for PPSM format
+        // Prepare conversion options for target format PPSM
         var convertOptions = converter.GetPossibleConversions()["ppsm"].ConvertOptions;
         // Convert to PPSM format
         converter.Convert("output.ppsm", convertOptions);

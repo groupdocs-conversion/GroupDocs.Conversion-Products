@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load J2K file
+        // Load source file J2K for conversion
         var converter = new GroupDocs.Conversion.Converter("input.j2k");
-        // Set conversion parameters for SVGZ format
+        // Prepare conversion options for target format SVGZ
         var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
         // Convert to SVGZ format
         converter.Convert("output.svgz", convertOptions);

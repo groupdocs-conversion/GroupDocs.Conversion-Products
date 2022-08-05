@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SVG file
+        // Load source file SVG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.svg");
-        // Set conversion parameters for PPT format
+        // Prepare conversion options for target format PPT
         var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
         // Convert to PPT format
         converter.Convert("output.ppt", convertOptions);

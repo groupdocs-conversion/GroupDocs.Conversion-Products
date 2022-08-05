@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SVGZ file
+        // Load source file SVGZ for conversion
         var converter = new GroupDocs.Conversion.Converter("input.svgz");
-        // Set conversion parameters for ICO format
+        // Prepare conversion options for target format ICO
         var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
         // Convert to ICO format
         converter.Convert("output.ico", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OTS file
+        // Load source file OTS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ots");
-        // Set conversion parameters for ODS format
+        // Prepare conversion options for target format ODS
         var convertOptions = converter.GetPossibleConversions()["ods"].ConvertOptions;
         // Convert to ODS format
         converter.Convert("output.ods", convertOptions);

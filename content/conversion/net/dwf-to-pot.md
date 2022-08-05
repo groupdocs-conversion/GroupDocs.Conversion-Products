@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWF file
+        // Load source file DWF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Set conversion parameters for POT format
+        // Prepare conversion options for target format POT
         var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
         // Convert to POT format
         converter.Convert("output.pot", convertOptions);

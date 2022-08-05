@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for MHT format
+        // Prepare conversion options for target format MHT
         var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
         // Convert to MHT format
         converter.Convert("output.mht", convertOptions);

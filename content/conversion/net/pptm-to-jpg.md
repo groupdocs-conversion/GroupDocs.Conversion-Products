@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PPTM file
+        // Load source file PPTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.pptm");
-        // Set conversion parameters for JPG format
+        // Prepare conversion options for target format JPG
         var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
         // Convert to JPG format
         converter.Convert("output.jpg", convertOptions);

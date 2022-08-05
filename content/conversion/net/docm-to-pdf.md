@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DOCM file
+        // Load source file DOCM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.docm");
-        // Set conversion parameters for PDF format
+        // Prepare conversion options for target format PDF
         var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
         // Convert to PDF format
         converter.Convert("output.pdf", convertOptions);

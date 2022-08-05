@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PPTM file
+        // Load source file PPTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.pptm");
-        // Set conversion parameters for DOT format
+        // Prepare conversion options for target format DOT
         var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
         // Convert to DOT format
         converter.Convert("output.dot", convertOptions);

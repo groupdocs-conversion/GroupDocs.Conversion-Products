@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load JPG file
+        // Load source file JPG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.jpg");
-        // Set conversion parameters for JPG format
+        // Prepare conversion options for target format JPG
         var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
         // Convert to JPG format
         converter.Convert("output.jpg", convertOptions);

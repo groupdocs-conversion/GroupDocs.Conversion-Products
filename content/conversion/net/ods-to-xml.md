@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load ODS file
+        // Load source file ODS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ods");
-        // Set conversion parameters for XML format
+        // Prepare conversion options for target format XML
         var convertOptions = converter.GetPossibleConversions()["xml"].ConvertOptions;
         // Convert to XML format
         converter.Convert("output.xml", convertOptions);

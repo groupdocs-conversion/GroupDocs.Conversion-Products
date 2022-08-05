@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load ODP file
+        // Load source file ODP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.odp");
-        // Set conversion parameters for PDF format
+        // Prepare conversion options for target format PDF
         var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
         // Convert to PDF format
         converter.Convert("output.pdf", convertOptions);

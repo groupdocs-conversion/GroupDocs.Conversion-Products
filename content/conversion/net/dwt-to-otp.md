@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWT file
+        // Load source file DWT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwt");
-        // Set conversion parameters for OTP format
+        // Prepare conversion options for target format OTP
         var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
         // Convert to OTP format
         converter.Convert("output.otp", convertOptions);

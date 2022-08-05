@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DGN file
+        // Load source file DGN for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dgn");
-        // Set conversion parameters for PPTX format
+        // Prepare conversion options for target format PPTX
         var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
         // Convert to PPTX format
         converter.Convert("output.pptx", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load POTX file
+        // Load source file POTX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.potx");
-        // Set conversion parameters for PDF format
+        // Prepare conversion options for target format PDF
         var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
         // Convert to PDF format
         converter.Convert("output.pdf", convertOptions);

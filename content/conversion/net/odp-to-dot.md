@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load ODP file
+        // Load source file ODP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.odp");
-        // Set conversion parameters for DOT format
+        // Prepare conversion options for target format DOT
         var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
         // Convert to DOT format
         converter.Convert("output.dot", convertOptions);

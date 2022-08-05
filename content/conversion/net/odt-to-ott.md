@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load ODT file
+        // Load source file ODT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.odt");
-        // Set conversion parameters for OTT format
+        // Prepare conversion options for target format OTT
         var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
         // Convert to OTT format
         converter.Convert("output.ott", convertOptions);

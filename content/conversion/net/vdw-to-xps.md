@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VDW file
+        // Load source file VDW for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vdw");
-        // Set conversion parameters for XPS format
+        // Prepare conversion options for target format XPS
         var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
         // Convert to XPS format
         converter.Convert("output.xps", convertOptions);

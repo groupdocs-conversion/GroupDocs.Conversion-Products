@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OST file
+        // Load source file OST for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ost");
-        // Set conversion parameters for ICO format
+        // Prepare conversion options for target format ICO
         var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
         // Convert to ICO format
         converter.Convert("output.ico", convertOptions);

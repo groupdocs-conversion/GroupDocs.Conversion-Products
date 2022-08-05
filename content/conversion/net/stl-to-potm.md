@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load STL file
+        // Load source file STL for conversion
         var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // Set conversion parameters for POTM format
+        // Prepare conversion options for target format POTM
         var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
         // Convert to POTM format
         converter.Convert("output.potm", convertOptions);

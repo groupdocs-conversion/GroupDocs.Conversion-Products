@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DGN file
+        // Load source file DGN for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dgn");
-        // Set conversion parameters for FODP format
+        // Prepare conversion options for target format FODP
         var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
         // Convert to FODP format
         converter.Convert("output.fodp", convertOptions);

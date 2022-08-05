@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VST file
+        // Load source file VST for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vst");
-        // Set conversion parameters for VSDM format
+        // Prepare conversion options for target format VSDM
         var convertOptions = converter.GetPossibleConversions()["vsdm"].ConvertOptions;
         // Convert to VSDM format
         converter.Convert("output.vsdm", convertOptions);

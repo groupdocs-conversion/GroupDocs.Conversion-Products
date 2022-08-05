@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CAD file
+        // Load source file CAD for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cad");
-        // Set conversion parameters for DOC format
+        // Prepare conversion options for target format DOC
         var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
         // Convert to DOC format
         converter.Convert("output.doc", convertOptions);

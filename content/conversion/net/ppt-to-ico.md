@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PPT file
+        // Load source file PPT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ppt");
-        // Set conversion parameters for ICO format
+        // Prepare conversion options for target format ICO
         var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
         // Convert to ICO format
         converter.Convert("output.ico", convertOptions);

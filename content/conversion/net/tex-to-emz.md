@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load TEX file
+        // Load source file TEX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // Set conversion parameters for EMZ format
+        // Prepare conversion options for target format EMZ
         var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
         // Convert to EMZ format
         converter.Convert("output.emz", convertOptions);

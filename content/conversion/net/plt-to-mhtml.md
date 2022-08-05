@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PLT file
+        // Load source file PLT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.plt");
-        // Set conversion parameters for MHTML format
+        // Prepare conversion options for target format MHTML
         var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
         // Convert to MHTML format
         converter.Convert("output.mhtml", convertOptions);

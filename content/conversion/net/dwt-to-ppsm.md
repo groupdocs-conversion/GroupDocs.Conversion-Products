@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWT file
+        // Load source file DWT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwt");
-        // Set conversion parameters for PPSM format
+        // Prepare conversion options for target format PPSM
         var convertOptions = converter.GetPossibleConversions()["ppsm"].ConvertOptions;
         // Convert to PPSM format
         converter.Convert("output.ppsm", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load IFC file
+        // Load source file IFC for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ifc");
-        // Set conversion parameters for DOCX format
+        // Prepare conversion options for target format DOCX
         var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
         // Convert to DOCX format
         converter.Convert("output.docx", convertOptions);

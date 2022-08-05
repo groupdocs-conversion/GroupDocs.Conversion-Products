@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OST file
+        // Load source file OST for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ost");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

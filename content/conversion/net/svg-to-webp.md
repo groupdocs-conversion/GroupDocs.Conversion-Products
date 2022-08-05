@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SVG file
+        // Load source file SVG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.svg");
-        // Set conversion parameters for WEBP format
+        // Prepare conversion options for target format WEBP
         var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
         // Convert to WEBP format
         converter.Convert("output.webp", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DIB file
+        // Load source file DIB for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dib");
-        // Set conversion parameters for TGA format
+        // Prepare conversion options for target format TGA
         var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
         // Convert to TGA format
         converter.Convert("output.tga", convertOptions);

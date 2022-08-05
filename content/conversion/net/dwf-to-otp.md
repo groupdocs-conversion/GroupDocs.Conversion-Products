@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWF file
+        // Load source file DWF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Set conversion parameters for OTP format
+        // Prepare conversion options for target format OTP
         var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
         // Convert to OTP format
         converter.Convert("output.otp", convertOptions);

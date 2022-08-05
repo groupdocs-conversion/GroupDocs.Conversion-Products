@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VSTM file
+        // Load source file VSTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vstm");
-        // Set conversion parameters for DOTX format
+        // Prepare conversion options for target format DOTX
         var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
         // Convert to DOTX format
         converter.Convert("output.dotx", convertOptions);

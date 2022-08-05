@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load XLSX file
+        // Load source file XLSX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.xlsx");
-        // Set conversion parameters for XLAM format
+        // Prepare conversion options for target format XLAM
         var convertOptions = converter.GetPossibleConversions()["xlam"].ConvertOptions;
         // Convert to XLAM format
         converter.Convert("output.xlam", convertOptions);

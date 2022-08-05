@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DXF file
+        // Load source file DXF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dxf");
-        // Set conversion parameters for ODP format
+        // Prepare conversion options for target format ODP
         var convertOptions = converter.GetPossibleConversions()["odp"].ConvertOptions;
         // Convert to ODP format
         converter.Convert("output.odp", convertOptions);

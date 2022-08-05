@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VSX file
+        // Load source file VSX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vsx");
-        // Set conversion parameters for VSTM format
+        // Prepare conversion options for target format VSTM
         var convertOptions = converter.GetPossibleConversions()["vstm"].ConvertOptions;
         // Convert to VSTM format
         converter.Convert("output.vstm", convertOptions);

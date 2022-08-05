@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MPP file
+        // Load source file MPP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // Set conversion parameters for TIF format
+        // Prepare conversion options for target format TIF
         var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
         // Convert to TIF format
         converter.Convert("output.tif", convertOptions);

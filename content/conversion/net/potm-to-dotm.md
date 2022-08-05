@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load POTM file
+        // Load source file POTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.potm");
-        // Set conversion parameters for DOTM format
+        // Prepare conversion options for target format DOTM
         var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
         // Convert to DOTM format
         converter.Convert("output.dotm", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DOTX file
+        // Load source file DOTX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dotx");
-        // Set conversion parameters for TIFF format
+        // Prepare conversion options for target format TIFF
         var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
         // Convert to TIFF format
         converter.Convert("output.tiff", convertOptions);

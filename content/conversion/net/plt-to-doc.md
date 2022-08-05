@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PLT file
+        // Load source file PLT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.plt");
-        // Set conversion parameters for DOC format
+        // Prepare conversion options for target format DOC
         var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
         // Convert to DOC format
         converter.Convert("output.doc", convertOptions);

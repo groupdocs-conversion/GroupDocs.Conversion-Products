@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load XLS file
+        // Load source file XLS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.xls");
-        // Set conversion parameters for HTM format
+        // Prepare conversion options for target format HTM
         var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
         // Convert to HTM format
         converter.Convert("output.htm", convertOptions);

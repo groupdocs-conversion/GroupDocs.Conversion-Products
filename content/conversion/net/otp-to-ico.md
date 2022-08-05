@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OTP file
+        // Load source file OTP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.otp");
-        // Set conversion parameters for ICO format
+        // Prepare conversion options for target format ICO
         var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
         // Convert to ICO format
         converter.Convert("output.ico", convertOptions);

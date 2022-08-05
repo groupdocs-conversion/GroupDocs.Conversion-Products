@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MHT file
+        // Load source file MHT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mht");
-        // Set conversion parameters for BMP format
+        // Prepare conversion options for target format BMP
         var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
         // Convert to BMP format
         converter.Convert("output.bmp", convertOptions);

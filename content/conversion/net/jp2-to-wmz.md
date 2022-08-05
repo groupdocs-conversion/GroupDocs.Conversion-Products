@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load JP2 file
+        // Load source file JP2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.jp2");
-        // Set conversion parameters for WMZ format
+        // Prepare conversion options for target format WMZ
         var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
         // Convert to WMZ format
         converter.Convert("output.wmz", convertOptions);

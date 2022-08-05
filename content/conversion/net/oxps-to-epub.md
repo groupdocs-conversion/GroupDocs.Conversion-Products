@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OXPS file
+        // Load source file OXPS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.oxps");
-        // Set conversion parameters for EPUB format
+        // Prepare conversion options for target format EPUB
         var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
         // Convert to EPUB format
         converter.Convert("output.epub", convertOptions);

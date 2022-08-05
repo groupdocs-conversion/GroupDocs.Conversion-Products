@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DOTX file
+        // Load source file DOTX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dotx");
-        // Set conversion parameters for ODT format
+        // Prepare conversion options for target format ODT
         var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
         // Convert to ODT format
         converter.Convert("output.odt", convertOptions);

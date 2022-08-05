@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CAD file
+        // Load source file CAD for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cad");
-        // Set conversion parameters for DOT format
+        // Prepare conversion options for target format DOT
         var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
         // Convert to DOT format
         converter.Convert("output.dot", convertOptions);

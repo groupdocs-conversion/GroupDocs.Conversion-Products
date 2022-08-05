@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load POTM file
+        // Load source file POTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.potm");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EML file
+        // Load source file EML for conversion
         var converter = new GroupDocs.Conversion.Converter("input.eml");
-        // Set conversion parameters for JP2 format
+        // Prepare conversion options for target format JP2
         var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
         // Convert to JP2 format
         converter.Convert("output.jp2", convertOptions);

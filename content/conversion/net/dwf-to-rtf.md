@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWF file
+        // Load source file DWF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Set conversion parameters for RTF format
+        // Prepare conversion options for target format RTF
         var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
         // Convert to RTF format
         converter.Convert("output.rtf", convertOptions);

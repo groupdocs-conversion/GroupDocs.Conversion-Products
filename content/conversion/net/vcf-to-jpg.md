@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VCF file
+        // Load source file VCF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Set conversion parameters for JPG format
+        // Prepare conversion options for target format JPG
         var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
         // Convert to JPG format
         converter.Convert("output.jpg", convertOptions);

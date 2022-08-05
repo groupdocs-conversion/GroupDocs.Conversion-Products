@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load JPEG file
+        // Load source file JPEG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.jpeg");
-        // Set conversion parameters for WEBP format
+        // Prepare conversion options for target format WEBP
         var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
         // Convert to WEBP format
         converter.Convert("output.webp", convertOptions);

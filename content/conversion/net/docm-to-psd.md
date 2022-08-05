@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DOCM file
+        // Load source file DOCM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.docm");
-        // Set conversion parameters for PSD format
+        // Prepare conversion options for target format PSD
         var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
         // Convert to PSD format
         converter.Convert("output.psd", convertOptions);

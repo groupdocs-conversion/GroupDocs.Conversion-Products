@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DGN file
+        // Load source file DGN for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dgn");
-        // Set conversion parameters for PPS format
+        // Prepare conversion options for target format PPS
         var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
         // Convert to PPS format
         converter.Convert("output.pps", convertOptions);

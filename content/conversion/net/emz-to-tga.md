@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EMZ file
+        // Load source file EMZ for conversion
         var converter = new GroupDocs.Conversion.Converter("input.emz");
-        // Set conversion parameters for TGA format
+        // Prepare conversion options for target format TGA
         var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
         // Convert to TGA format
         converter.Convert("output.tga", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CSV file
+        // Load source file CSV for conversion
         var converter = new GroupDocs.Conversion.Converter("input.csv");
-        // Set conversion parameters for XPS format
+        // Prepare conversion options for target format XPS
         var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
         // Convert to XPS format
         converter.Convert("output.xps", convertOptions);

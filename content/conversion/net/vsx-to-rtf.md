@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VSX file
+        // Load source file VSX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vsx");
-        // Set conversion parameters for RTF format
+        // Prepare conversion options for target format RTF
         var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
         // Convert to RTF format
         converter.Convert("output.rtf", convertOptions);

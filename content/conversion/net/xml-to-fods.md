@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load XML file
+        // Load source file XML for conversion
         var converter = new GroupDocs.Conversion.Converter("input.xml");
-        // Set conversion parameters for FODS format
+        // Prepare conversion options for target format FODS
         var convertOptions = converter.GetPossibleConversions()["fods"].ConvertOptions;
         // Convert to FODS format
         converter.Convert("output.fods", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SXC file
+        // Load source file SXC for conversion
         var converter = new GroupDocs.Conversion.Converter("input.sxc");
-        // Set conversion parameters for XML format
+        // Prepare conversion options for target format XML
         var convertOptions = converter.GetPossibleConversions()["xml"].ConvertOptions;
         // Convert to XML format
         converter.Convert("output.xml", convertOptions);

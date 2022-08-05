@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DGN file
+        // Load source file DGN for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dgn");
-        // Set conversion parameters for DOTX format
+        // Prepare conversion options for target format DOTX
         var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
         // Convert to DOTX format
         converter.Convert("output.dotx", convertOptions);

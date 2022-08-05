@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MHT file
+        // Load source file MHT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mht");
-        // Set conversion parameters for DOC format
+        // Prepare conversion options for target format DOC
         var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
         // Convert to DOC format
         converter.Convert("output.doc", convertOptions);

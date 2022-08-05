@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VDX file
+        // Load source file VDX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vdx");
-        // Set conversion parameters for VSDM format
+        // Prepare conversion options for target format VSDM
         var convertOptions = converter.GetPossibleConversions()["vsdm"].ConvertOptions;
         // Convert to VSDM format
         converter.Convert("output.vsdm", convertOptions);

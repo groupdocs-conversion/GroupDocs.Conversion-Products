@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for PPSM format
+        // Prepare conversion options for target format PPSM
         var convertOptions = converter.GetPossibleConversions()["ppsm"].ConvertOptions;
         // Convert to PPSM format
         converter.Convert("output.ppsm", convertOptions);

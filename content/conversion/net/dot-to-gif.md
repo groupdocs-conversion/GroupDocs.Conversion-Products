@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DOT file
+        // Load source file DOT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dot");
-        // Set conversion parameters for GIF format
+        // Prepare conversion options for target format GIF
         var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
         // Convert to GIF format
         converter.Convert("output.gif", convertOptions);

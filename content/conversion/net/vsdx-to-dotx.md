@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VSDX file
+        // Load source file VSDX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vsdx");
-        // Set conversion parameters for DOTX format
+        // Prepare conversion options for target format DOTX
         var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
         // Convert to DOTX format
         converter.Convert("output.dotx", convertOptions);

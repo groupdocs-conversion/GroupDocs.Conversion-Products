@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for PPTX format
+        // Prepare conversion options for target format PPTX
         var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
         // Convert to PPTX format
         converter.Convert("output.pptx", convertOptions);

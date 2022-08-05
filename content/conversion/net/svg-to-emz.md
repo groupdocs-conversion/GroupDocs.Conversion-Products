@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SVG file
+        // Load source file SVG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.svg");
-        // Set conversion parameters for EMZ format
+        // Prepare conversion options for target format EMZ
         var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
         // Convert to EMZ format
         converter.Convert("output.emz", convertOptions);

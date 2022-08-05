@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MSG file
+        // Load source file MSG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.msg");
-        // Set conversion parameters for TGA format
+        // Prepare conversion options for target format TGA
         var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
         // Convert to TGA format
         converter.Convert("output.tga", convertOptions);

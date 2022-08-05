@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load ODT file
+        // Load source file ODT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.odt");
-        // Set conversion parameters for GIF format
+        // Prepare conversion options for target format GIF
         var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
         // Convert to GIF format
         converter.Convert("output.gif", convertOptions);

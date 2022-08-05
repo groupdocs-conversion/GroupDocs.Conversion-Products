@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load ODT file
+        // Load source file ODT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.odt");
-        // Set conversion parameters for JPG format
+        // Prepare conversion options for target format JPG
         var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
         // Convert to JPG format
         converter.Convert("output.jpg", convertOptions);

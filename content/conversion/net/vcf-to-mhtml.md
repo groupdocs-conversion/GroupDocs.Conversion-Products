@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VCF file
+        // Load source file VCF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Set conversion parameters for MHTML format
+        // Prepare conversion options for target format MHTML
         var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
         // Convert to MHTML format
         converter.Convert("output.mhtml", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SVGZ file
+        // Load source file SVGZ for conversion
         var converter = new GroupDocs.Conversion.Converter("input.svgz");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

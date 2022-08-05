@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MPP file
+        // Load source file MPP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // Set conversion parameters for XER format
+        // Prepare conversion options for target format XER
         var convertOptions = converter.GetPossibleConversions()["xer"].ConvertOptions;
         // Convert to XER format
         converter.Convert("output.xer", convertOptions);

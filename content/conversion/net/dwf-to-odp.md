@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWF file
+        // Load source file DWF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Set conversion parameters for ODP format
+        // Prepare conversion options for target format ODP
         var convertOptions = converter.GetPossibleConversions()["odp"].ConvertOptions;
         // Convert to ODP format
         converter.Convert("output.odp", convertOptions);

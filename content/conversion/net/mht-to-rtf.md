@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MHT file
+        // Load source file MHT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mht");
-        // Set conversion parameters for RTF format
+        // Prepare conversion options for target format RTF
         var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
         // Convert to RTF format
         converter.Convert("output.rtf", convertOptions);

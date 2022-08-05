@@ -8,11 +8,11 @@ breadcrumb: PSD в TIF на C#
 
 ############################# Head ############################
 head_title: "Конвертер PSD в TIF на C#"
-head_description: "Преобразовать PSD в TIF на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_description: "Преобразуйте PSD в TIF на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразовать PSD в TIF на C#"
-description: "Конвертер PSD в TIF с помощью нескольких строк .NET кода"
+title: "Преобразование PSD в TIF в C#"
+description: "Конвертировать PSD в TIF с помощью нескольких строк кода .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -28,79 +28,77 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Conversion для .NET API"
+    title: "О GroupDocs.Conversion for .NET API"
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
     
 
 overview:
     enable: true
     content: |
-        Преобразуйте свои файлы PSD в файлы TIF в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
-        Вы можете бесплатно попробовать конвертацию PSD в TIF и оценить качество результатов преобразования.
-        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PSD и сохранения выходного результата TIF.
+        Легко конвертируйте файлы PSD в TIF на .NET. Вы можете использовать всего пару строк кода C# на любой платформе по вашему выбору, например - Windows, Linux, macOS.
+        Вы можете бесплатно попробовать преобразование PSD в TIF и оценить качество результатов преобразования. Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла PSD и сохранения выходного результата в формат TIF. 
         
-        Например, для исходного файла PSD можно использовать следующие параметры загрузки:
+        Например, для исходного файла PSD вы можете использовать следующие параметры загрузки:
 
         * автоматическое определение формата файла;
-        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * указать пароль для защищенных файлов (если формат файла поддерживает это);
         * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+        
+        Существуют также расширенные параметры преобразования для файла TIF:
 
-        Существуют также расширенные возможности преобразования для файла TIF:
+        * преобразовать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл TIF и многое другое.
 
-        * конвертировать определенную страницу документа или диапазон страниц;
-        * добавить водяной знак в преобразованный файл TIF.
-
-        После завершения преобразования вы можете сохранить файл TIF по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
-        Обратите внимание - для преобразования PSD в TIF не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+        После завершения преобразования вы можете сохранить файл TIF в локальный путь к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д. Обратите внимание: чтобы преобразовать PSD в TIF нет необходимости в установке какого-либо дополнительного программного обеспечения - такого как MS Office, Open Office, Adobe Acrobat Reader и т.д.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по конвертации PSD в TIF в C#"
+    title_left: "Шаги по преобразованию PSD в TIF в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла PSD в TIF с помощью нескольких строк кода.
-
-        * Создайте экземпляр класса Converter и загрузите файл PSD с полным путем
-        * Создайте и установите ConvertOptions для типа TIF.
-        * Вызовите метод Converter.Convert и передайте полный путь и формат (TIF) в качестве параметра
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) позволяет разработчикам легко преобразовать файл PSD в TIF с помощью нескольких строк кода.
         
-    title_right: "Системные Требования"
+        * Создайте экземпляр класса Converter и укажите полный путь к файлу PSD.
+        * Создайте и установите ConvertOptions для типа TIF.
+        * Вызовите метод Converter.Convert и передайте полный путь и формат (TIF) в качестве параметра.
+
+    title_right: "System Requirements"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-        
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Получите последнюю версию GroupDocs.Conversion for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+         
     code: |
-        ```cs
-        // Загружаем PSD файл
-        var converter = new GroupDocs.Conversion.Converter("template.psd");
-        // Устанавливаем параметры конвертации для формата TIF
+        ```csharp    
+        // Загрузите исходный файл PSD для конвертации
+        var converter = new GroupDocs.Conversion.Converter("input.psd");
+        // Задайте параметры преобразования для целевого формата TIF
         var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Преобразовать в формат TIF
-        converter.Convert("output.tif", convertOptions);        
+        // Преобразуйте файл в TIF формат
+        converter.Convert("output.tif", convertOptions);
         ```
-        
+
 demos:
     enable: true
-    title: "Демонстрация PSD в TIF"
+    title: "PSD в TIF Демо"
     content: |
-       Конвертируйте PSD в TIF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+       Преобразуйте PSD в TIF прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
           
 
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования PSD"
-    content: "Вы также можете конвертировать PSD во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+    title: "Другие поддерживаемые преобразования PSD в C#"
+    content: "Вы также можете конвертировать PSD во многие другие форматы файлов. См. список ниже."
        
        
 back_to_top:

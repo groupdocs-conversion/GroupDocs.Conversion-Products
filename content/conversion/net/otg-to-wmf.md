@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OTG file
+        // Load source file OTG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.otg");
-        // Set conversion parameters for WMF format
+        // Prepare conversion options for target format WMF
         var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
         // Convert to WMF format
         converter.Convert("output.wmf", convertOptions);

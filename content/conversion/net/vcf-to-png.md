@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VCF file
+        // Load source file VCF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

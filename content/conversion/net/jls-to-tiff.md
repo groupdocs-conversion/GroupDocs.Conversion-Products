@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load JLS file
+        // Load source file JLS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.jls");
-        // Set conversion parameters for TIFF format
+        // Prepare conversion options for target format TIFF
         var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
         // Convert to TIFF format
         converter.Convert("output.tiff", convertOptions);

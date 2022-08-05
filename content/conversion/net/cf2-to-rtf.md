@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for RTF format
+        // Prepare conversion options for target format RTF
         var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
         // Convert to RTF format
         converter.Convert("output.rtf", convertOptions);

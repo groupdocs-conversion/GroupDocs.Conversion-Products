@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OTG file
+        // Load source file OTG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.otg");
-        // Set conversion parameters for EMF format
+        // Prepare conversion options for target format EMF
         var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
         // Convert to EMF format
         converter.Convert("output.emf", convertOptions);

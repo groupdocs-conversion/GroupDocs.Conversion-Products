@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load WMF file
+        // Load source file WMF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.wmf");
-        // Set conversion parameters for EMF format
+        // Prepare conversion options for target format EMF
         var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
         // Convert to EMF format
         converter.Convert("output.emf", convertOptions);

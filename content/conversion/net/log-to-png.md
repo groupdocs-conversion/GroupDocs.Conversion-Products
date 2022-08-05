@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load LOG file
+        // Load source file LOG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.log");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

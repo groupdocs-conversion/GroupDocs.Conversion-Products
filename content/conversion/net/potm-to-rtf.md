@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load POTM file
+        // Load source file POTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.potm");
-        // Set conversion parameters for RTF format
+        // Prepare conversion options for target format RTF
         var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
         // Convert to RTF format
         converter.Convert("output.rtf", convertOptions);

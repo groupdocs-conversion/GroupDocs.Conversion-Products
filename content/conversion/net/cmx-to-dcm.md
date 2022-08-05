@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CMX file
+        // Load source file CMX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cmx");
-        // Set conversion parameters for DCM format
+        // Prepare conversion options for target format DCM
         var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
         // Convert to DCM format
         converter.Convert("output.dcm", convertOptions);

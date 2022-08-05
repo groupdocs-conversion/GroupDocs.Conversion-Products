@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CDR file
+        // Load source file CDR for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cdr");
-        // Set conversion parameters for WEBP format
+        // Prepare conversion options for target format WEBP
         var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
         // Convert to WEBP format
         converter.Convert("output.webp", convertOptions);

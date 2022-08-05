@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MHT file
+        // Load source file MHT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mht");
-        // Set conversion parameters for DOTM format
+        // Prepare conversion options for target format DOTM
         var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
         // Convert to DOTM format
         converter.Convert("output.dotm", convertOptions);

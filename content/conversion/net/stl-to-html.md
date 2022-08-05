@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load STL file
+        // Load source file STL for conversion
         var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // Set conversion parameters for HTML format
+        // Prepare conversion options for target format HTML
         var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
         // Convert to HTML format
         converter.Convert("output.html", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load WEBP file
+        // Load source file WEBP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.webp");
-        // Set conversion parameters for TIF format
+        // Prepare conversion options for target format TIF
         var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
         // Convert to TIF format
         converter.Convert("output.tif", convertOptions);

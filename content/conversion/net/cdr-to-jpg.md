@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CDR file
+        // Load source file CDR for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cdr");
-        // Set conversion parameters for JPG format
+        // Prepare conversion options for target format JPG
         var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
         // Convert to JPG format
         converter.Convert("output.jpg", convertOptions);

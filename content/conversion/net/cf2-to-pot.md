@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for POT format
+        // Prepare conversion options for target format POT
         var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
         // Convert to POT format
         converter.Convert("output.pot", convertOptions);

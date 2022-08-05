@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OST file
+        // Load source file OST for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ost");
-        // Set conversion parameters for SVG format
+        // Prepare conversion options for target format SVG
         var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
         // Convert to SVG format
         converter.Convert("output.svg", convertOptions);

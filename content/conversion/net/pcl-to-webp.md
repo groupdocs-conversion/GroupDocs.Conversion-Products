@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PCL file
+        // Load source file PCL for conversion
         var converter = new GroupDocs.Conversion.Converter("input.pcl");
-        // Set conversion parameters for WEBP format
+        // Prepare conversion options for target format WEBP
         var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
         // Convert to WEBP format
         converter.Convert("output.webp", convertOptions);

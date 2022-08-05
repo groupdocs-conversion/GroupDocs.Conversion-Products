@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OTP file
+        // Load source file OTP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.otp");
-        // Set conversion parameters for DOC format
+        // Prepare conversion options for target format DOC
         var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
         // Convert to DOC format
         converter.Convert("output.doc", convertOptions);

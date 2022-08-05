@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DOT file
+        // Load source file DOT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dot");
-        // Set conversion parameters for TIFF format
+        // Prepare conversion options for target format TIFF
         var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
         // Convert to TIFF format
         converter.Convert("output.tiff", convertOptions);

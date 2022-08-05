@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load TEX file
+        // Load source file TEX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // Set conversion parameters for WEBP format
+        // Prepare conversion options for target format WEBP
         var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
         // Convert to WEBP format
         converter.Convert("output.webp", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load XLAM file
+        // Load source file XLAM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.xlam");
-        // Set conversion parameters for FODS format
+        // Prepare conversion options for target format FODS
         var convertOptions = converter.GetPossibleConversions()["fods"].ConvertOptions;
         // Convert to FODS format
         converter.Convert("output.fods", convertOptions);

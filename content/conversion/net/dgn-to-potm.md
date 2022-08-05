@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DGN file
+        // Load source file DGN for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dgn");
-        // Set conversion parameters for POTM format
+        // Prepare conversion options for target format POTM
         var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
         // Convert to POTM format
         converter.Convert("output.potm", convertOptions);

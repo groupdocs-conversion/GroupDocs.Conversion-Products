@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EMZ file
+        // Load source file EMZ for conversion
         var converter = new GroupDocs.Conversion.Converter("input.emz");
-        // Set conversion parameters for PPS format
+        // Prepare conversion options for target format PPS
         var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
         // Convert to PPS format
         converter.Convert("output.pps", convertOptions);

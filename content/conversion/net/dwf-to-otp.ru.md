@@ -8,11 +8,11 @@ breadcrumb: DWF в OTP на C#
 
 ############################# Head ############################
 head_title: "Конвертер DWF в OTP на C#"
-head_description: "Преобразовать DWF в OTP на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_description: "Преобразуйте DWF в OTP на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразовать DWF в OTP на C#"
-description: "Конвертер DWF в OTP с помощью нескольких строк .NET кода"
+title: "Преобразование DWF в OTP в C#"
+description: "Конвертировать DWF в OTP с помощью нескольких строк кода .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -28,79 +28,77 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Conversion для .NET API"
+    title: "О GroupDocs.Conversion for .NET API"
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
     
 
 overview:
     enable: true
     content: |
-        Преобразуйте свои файлы DWF в файлы OTP в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
-        Вы можете бесплатно попробовать конвертацию DWF в OTP и оценить качество результатов преобразования.
-        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DWF и сохранения выходного результата OTP.
+        Легко конвертируйте файлы DWF в OTP на .NET. Вы можете использовать всего пару строк кода C# на любой платформе по вашему выбору, например - Windows, Linux, macOS.
+        Вы можете бесплатно попробовать преобразование DWF в OTP и оценить качество результатов преобразования. Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла DWF и сохранения выходного результата в формат OTP. 
         
-        Например, для исходного файла DWF можно использовать следующие параметры загрузки:
+        Например, для исходного файла DWF вы можете использовать следующие параметры загрузки:
 
         * автоматическое определение формата файла;
-        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * указать пароль для защищенных файлов (если формат файла поддерживает это);
         * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+        
+        Существуют также расширенные параметры преобразования для файла OTP:
 
-        Существуют также расширенные возможности преобразования для файла OTP:
+        * преобразовать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл OTP и многое другое.
 
-        * конвертировать определенную страницу документа или диапазон страниц;
-        * добавить водяной знак в преобразованный файл OTP.
-
-        После завершения преобразования вы можете сохранить файл OTP по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
-        Обратите внимание - для преобразования DWF в OTP не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+        После завершения преобразования вы можете сохранить файл OTP в локальный путь к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д. Обратите внимание: чтобы преобразовать DWF в OTP нет необходимости в установке какого-либо дополнительного программного обеспечения - такого как MS Office, Open Office, Adobe Acrobat Reader и т.д.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по конвертации DWF в OTP в C#"
+    title_left: "Шаги по преобразованию DWF в OTP в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла DWF в OTP с помощью нескольких строк кода.
-
-        * Создайте экземпляр класса Converter и загрузите файл DWF с полным путем
-        * Создайте и установите ConvertOptions для типа OTP.
-        * Вызовите метод Converter.Convert и передайте полный путь и формат (OTP) в качестве параметра
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) позволяет разработчикам легко преобразовать файл DWF в OTP с помощью нескольких строк кода.
         
-    title_right: "Системные Требования"
+        * Создайте экземпляр класса Converter и укажите полный путь к файлу DWF.
+        * Создайте и установите ConvertOptions для типа OTP.
+        * Вызовите метод Converter.Convert и передайте полный путь и формат (OTP) в качестве параметра.
+
+    title_right: "System Requirements"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-        
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Получите последнюю версию GroupDocs.Conversion for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+         
     code: |
-        ```cs
-        // Загружаем DWF файл
-        var converter = new GroupDocs.Conversion.Converter("template.dwf");
-        // Устанавливаем параметры конвертации для формата OTP
+        ```csharp    
+        // Загрузите исходный файл DWF для конвертации
+        var converter = new GroupDocs.Conversion.Converter("input.dwf");
+        // Задайте параметры преобразования для целевого формата OTP
         var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
-        // Преобразовать в формат OTP
-        converter.Convert("output.otp", convertOptions);        
+        // Преобразуйте файл в OTP формат
+        converter.Convert("output.otp", convertOptions);
         ```
-        
+
 demos:
     enable: true
-    title: "Демонстрация DWF в OTP"
+    title: "DWF в OTP Демо"
     content: |
-       Конвертируйте DWF в OTP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+       Преобразуйте DWF в OTP прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
           
 
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования DWF"
-    content: "Вы также можете конвертировать DWF во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+    title: "Другие поддерживаемые преобразования DWF в C#"
+    content: "Вы также можете конвертировать DWF во многие другие форматы файлов. См. список ниже."
        
        
 back_to_top:

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VSD file
+        // Load source file VSD for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vsd");
-        // Set conversion parameters for XPS format
+        // Prepare conversion options for target format XPS
         var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
         // Convert to XPS format
         converter.Convert("output.xps", convertOptions);

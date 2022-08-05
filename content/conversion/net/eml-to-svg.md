@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EML file
+        // Load source file EML for conversion
         var converter = new GroupDocs.Conversion.Converter("input.eml");
-        // Set conversion parameters for SVG format
+        // Prepare conversion options for target format SVG
         var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
         // Convert to SVG format
         converter.Convert("output.svg", convertOptions);

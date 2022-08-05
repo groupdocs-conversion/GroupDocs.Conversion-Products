@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load STL file
+        // Load source file STL for conversion
         var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // Set conversion parameters for OTP format
+        // Prepare conversion options for target format OTP
         var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
         // Convert to OTP format
         converter.Convert("output.otp", convertOptions);

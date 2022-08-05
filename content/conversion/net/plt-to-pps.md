@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PLT file
+        // Load source file PLT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.plt");
-        // Set conversion parameters for PPS format
+        // Prepare conversion options for target format PPS
         var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
         // Convert to PPS format
         converter.Convert("output.pps", convertOptions);

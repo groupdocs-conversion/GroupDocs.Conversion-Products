@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load OXPS file
+        // Load source file OXPS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.oxps");
-        // Set conversion parameters for WEBP format
+        // Prepare conversion options for target format WEBP
         var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
         // Convert to WEBP format
         converter.Convert("output.webp", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EPS file
+        // Load source file EPS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.eps");
-        // Set conversion parameters for GIF format
+        // Prepare conversion options for target format GIF
         var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
         // Convert to GIF format
         converter.Convert("output.gif", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PDF file
+        // Load source file PDF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.pdf");
-        // Set conversion parameters for PSB format
+        // Prepare conversion options for target format PSB
         var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
         // Convert to PSB format
         converter.Convert("output.psb", convertOptions);

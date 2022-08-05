@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MPX file
+        // Load source file MPX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mpx");
-        // Set conversion parameters for MPX format
+        // Prepare conversion options for target format MPX
         var convertOptions = converter.GetPossibleConversions()["mpx"].ConvertOptions;
         // Convert to MPX format
         converter.Convert("output.mpx", convertOptions);

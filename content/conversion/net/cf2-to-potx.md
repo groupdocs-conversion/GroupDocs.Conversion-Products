@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for POTX format
+        // Prepare conversion options for target format POTX
         var convertOptions = converter.GetPossibleConversions()["potx"].ConvertOptions;
         // Convert to POTX format
         converter.Convert("output.potx", convertOptions);

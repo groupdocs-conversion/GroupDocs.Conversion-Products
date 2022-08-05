@@ -8,11 +8,11 @@ breadcrumb: MPX в PPT на C#
 
 ############################# Head ############################
 head_title: "Конвертер MPX в PPT на C#"
-head_description: "Преобразовать MPX в PPT на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_description: "Преобразуйте MPX в PPT на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразовать MPX в PPT на C#"
-description: "Конвертер MPX в PPT с помощью нескольких строк .NET кода"
+title: "Преобразование MPX в PPT в C#"
+description: "Конвертировать MPX в PPT с помощью нескольких строк кода .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -28,79 +28,77 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Conversion для .NET API"
+    title: "О GroupDocs.Conversion for .NET API"
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
     
 
 overview:
     enable: true
     content: |
-        Преобразуйте свои файлы MPX в файлы PPT в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
-        Вы можете бесплатно попробовать конвертацию MPX в PPT и оценить качество результатов преобразования.
-        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла MPX и сохранения выходного результата PPT.
+        Легко конвертируйте файлы MPX в PPT на .NET. Вы можете использовать всего пару строк кода C# на любой платформе по вашему выбору, например - Windows, Linux, macOS.
+        Вы можете бесплатно попробовать преобразование MPX в PPT и оценить качество результатов преобразования. Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла MPX и сохранения выходного результата в формат PPT. 
         
-        Например, для исходного файла MPX можно использовать следующие параметры загрузки:
+        Например, для исходного файла MPX вы можете использовать следующие параметры загрузки:
 
         * автоматическое определение формата файла;
-        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * указать пароль для защищенных файлов (если формат файла поддерживает это);
         * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+        
+        Существуют также расширенные параметры преобразования для файла PPT:
 
-        Существуют также расширенные возможности преобразования для файла PPT:
+        * преобразовать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл PPT и многое другое.
 
-        * конвертировать определенную страницу документа или диапазон страниц;
-        * добавить водяной знак в преобразованный файл PPT.
-
-        После завершения преобразования вы можете сохранить файл PPT по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
-        Обратите внимание - для преобразования MPX в PPT не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+        После завершения преобразования вы можете сохранить файл PPT в локальный путь к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д. Обратите внимание: чтобы преобразовать MPX в PPT нет необходимости в установке какого-либо дополнительного программного обеспечения - такого как MS Office, Open Office, Adobe Acrobat Reader и т.д.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по конвертации MPX в PPT в C#"
+    title_left: "Шаги по преобразованию MPX в PPT в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла MPX в PPT с помощью нескольких строк кода.
-
-        * Создайте экземпляр класса Converter и загрузите файл MPX с полным путем
-        * Создайте и установите ConvertOptions для типа PPT.
-        * Вызовите метод Converter.Convert и передайте полный путь и формат (PPT) в качестве параметра
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) позволяет разработчикам легко преобразовать файл MPX в PPT с помощью нескольких строк кода.
         
-    title_right: "Системные Требования"
+        * Создайте экземпляр класса Converter и укажите полный путь к файлу MPX.
+        * Создайте и установите ConvertOptions для типа PPT.
+        * Вызовите метод Converter.Convert и передайте полный путь и формат (PPT) в качестве параметра.
+
+    title_right: "System Requirements"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-        
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Получите последнюю версию GroupDocs.Conversion for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+         
     code: |
-        ```cs
-        // Загружаем MPX файл
-        var converter = new GroupDocs.Conversion.Converter("template.mpx");
-        // Устанавливаем параметры конвертации для формата PPT
+        ```csharp    
+        // Загрузите исходный файл MPX для конвертации
+        var converter = new GroupDocs.Conversion.Converter("input.mpx");
+        // Задайте параметры преобразования для целевого формата PPT
         var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
-        // Преобразовать в формат PPT
-        converter.Convert("output.ppt", convertOptions);        
+        // Преобразуйте файл в PPT формат
+        converter.Convert("output.ppt", convertOptions);
         ```
-        
+
 demos:
     enable: true
-    title: "Демонстрация MPX в PPT"
+    title: "MPX в PPT Демо"
     content: |
-       Конвертируйте MPX в PPT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+       Преобразуйте MPX в PPT прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
           
 
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования MPX"
-    content: "Вы также можете конвертировать MPX во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+    title: "Другие поддерживаемые преобразования MPX в C#"
+    content: "Вы также можете конвертировать MPX во многие другие форматы файлов. См. список ниже."
        
        
 back_to_top:

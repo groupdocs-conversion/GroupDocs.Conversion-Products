@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load IFC file
+        // Load source file IFC for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ifc");
-        // Set conversion parameters for DOTX format
+        // Prepare conversion options for target format DOTX
         var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
         // Convert to DOTX format
         converter.Convert("output.dotx", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWF file
+        // Load source file DWF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Set conversion parameters for FODP format
+        // Prepare conversion options for target format FODP
         var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
         // Convert to FODP format
         converter.Convert("output.fodp", convertOptions);

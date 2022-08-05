@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load ONE file
+        // Load source file ONE for conversion
         var converter = new GroupDocs.Conversion.Converter("input.one");
-        // Set conversion parameters for TIF format
+        // Prepare conversion options for target format TIF
         var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
         // Convert to TIF format
         converter.Convert("output.tif", convertOptions);

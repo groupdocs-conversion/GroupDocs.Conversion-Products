@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load FODS file
+        // Load source file FODS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.fods");
-        // Set conversion parameters for XLSX format
+        // Prepare conversion options for target format XLSX
         var convertOptions = converter.GetPossibleConversions()["xlsx"].ConvertOptions;
         // Convert to XLSX format
         converter.Convert("output.xlsx", convertOptions);

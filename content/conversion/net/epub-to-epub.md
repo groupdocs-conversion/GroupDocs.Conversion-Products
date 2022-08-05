@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EPUB file
+        // Load source file EPUB for conversion
         var converter = new GroupDocs.Conversion.Converter("input.epub");
-        // Set conversion parameters for EPUB format
+        // Prepare conversion options for target format EPUB
         var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
         // Convert to EPUB format
         converter.Convert("output.epub", convertOptions);

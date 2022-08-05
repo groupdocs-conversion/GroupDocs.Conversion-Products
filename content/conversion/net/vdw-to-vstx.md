@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VDW file
+        // Load source file VDW for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vdw");
-        // Set conversion parameters for VSTX format
+        // Prepare conversion options for target format VSTX
         var convertOptions = converter.GetPossibleConversions()["vstx"].ConvertOptions;
         // Convert to VSTX format
         converter.Convert("output.vstx", convertOptions);

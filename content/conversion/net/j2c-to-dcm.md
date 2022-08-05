@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load J2C file
+        // Load source file J2C for conversion
         var converter = new GroupDocs.Conversion.Converter("input.j2c");
-        // Set conversion parameters for DCM format
+        // Prepare conversion options for target format DCM
         var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
         // Convert to DCM format
         converter.Convert("output.dcm", convertOptions);

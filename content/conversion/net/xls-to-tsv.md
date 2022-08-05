@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load XLS file
+        // Load source file XLS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.xls");
-        // Set conversion parameters for TSV format
+        // Prepare conversion options for target format TSV
         var convertOptions = converter.GetPossibleConversions()["tsv"].ConvertOptions;
         // Convert to TSV format
         converter.Convert("output.tsv", convertOptions);

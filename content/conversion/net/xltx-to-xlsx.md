@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load XLTX file
+        // Load source file XLTX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.xltx");
-        // Set conversion parameters for XLSX format
+        // Prepare conversion options for target format XLSX
         var convertOptions = converter.GetPossibleConversions()["xlsx"].ConvertOptions;
         // Convert to XLSX format
         converter.Convert("output.xlsx", convertOptions);

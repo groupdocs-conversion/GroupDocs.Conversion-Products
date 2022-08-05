@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load STL file
+        // Load source file STL for conversion
         var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // Set conversion parameters for ODP format
+        // Prepare conversion options for target format ODP
         var convertOptions = converter.GetPossibleConversions()["odp"].ConvertOptions;
         // Convert to ODP format
         converter.Convert("output.odp", convertOptions);

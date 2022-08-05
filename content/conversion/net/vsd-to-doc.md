@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VSD file
+        // Load source file VSD for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vsd");
-        // Set conversion parameters for DOC format
+        // Prepare conversion options for target format DOC
         var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
         // Convert to DOC format
         converter.Convert("output.doc", convertOptions);

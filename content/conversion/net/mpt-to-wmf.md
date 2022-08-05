@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MPT file
+        // Load source file MPT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mpt");
-        // Set conversion parameters for WMF format
+        // Prepare conversion options for target format WMF
         var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
         // Convert to WMF format
         converter.Convert("output.wmf", convertOptions);

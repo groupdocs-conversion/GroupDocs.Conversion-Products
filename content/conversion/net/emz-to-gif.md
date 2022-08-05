@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EMZ file
+        // Load source file EMZ for conversion
         var converter = new GroupDocs.Conversion.Converter("input.emz");
-        // Set conversion parameters for GIF format
+        // Prepare conversion options for target format GIF
         var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
         // Convert to GIF format
         converter.Convert("output.gif", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load GIF file
+        // Load source file GIF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.gif");
-        // Set conversion parameters for PPTX format
+        // Prepare conversion options for target format PPTX
         var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
         // Convert to PPTX format
         converter.Convert("output.pptx", convertOptions);

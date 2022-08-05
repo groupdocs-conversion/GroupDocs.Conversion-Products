@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MBOX file
+        // Load source file MBOX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Set conversion parameters for DCM format
+        // Prepare conversion options for target format DCM
         var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
         // Convert to DCM format
         converter.Convert("output.dcm", convertOptions);

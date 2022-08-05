@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWG file
+        // Load source file DWG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwg");
-        // Set conversion parameters for PPS format
+        // Prepare conversion options for target format PPS
         var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
         // Convert to PPS format
         converter.Convert("output.pps", convertOptions);

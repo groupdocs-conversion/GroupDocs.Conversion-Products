@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load TEX file
+        // Load source file TEX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // Set conversion parameters for EMF format
+        // Prepare conversion options for target format EMF
         var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
         // Convert to EMF format
         converter.Convert("output.emf", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load XLS file
+        // Load source file XLS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.xls");
-        // Set conversion parameters for JSON format
+        // Prepare conversion options for target format JSON
         var convertOptions = converter.GetPossibleConversions()["json"].ConvertOptions;
         // Convert to JSON format
         converter.Convert("output.json", convertOptions);

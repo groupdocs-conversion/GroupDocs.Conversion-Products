@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EPS file
+        // Load source file EPS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.eps");
-        // Set conversion parameters for WEBP format
+        // Prepare conversion options for target format WEBP
         var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
         // Convert to WEBP format
         converter.Convert("output.webp", convertOptions);

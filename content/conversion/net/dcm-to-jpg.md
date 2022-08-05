@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DCM file
+        // Load source file DCM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dcm");
-        // Set conversion parameters for JPG format
+        // Prepare conversion options for target format JPG
         var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
         // Convert to JPG format
         converter.Convert("output.jpg", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load GIF file
+        // Load source file GIF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.gif");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

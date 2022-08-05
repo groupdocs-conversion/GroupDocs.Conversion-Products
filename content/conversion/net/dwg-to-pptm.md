@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DWG file
+        // Load source file DWG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dwg");
-        // Set conversion parameters for PPTM format
+        // Prepare conversion options for target format PPTM
         var convertOptions = converter.GetPossibleConversions()["pptm"].ConvertOptions;
         // Convert to PPTM format
         converter.Convert("output.pptm", convertOptions);

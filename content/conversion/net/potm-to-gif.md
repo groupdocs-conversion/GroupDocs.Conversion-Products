@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load POTM file
+        // Load source file POTM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.potm");
-        // Set conversion parameters for GIF format
+        // Prepare conversion options for target format GIF
         var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
         // Convert to GIF format
         converter.Convert("output.gif", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VST file
+        // Load source file VST for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vst");
-        // Set conversion parameters for VDX format
+        // Prepare conversion options for target format VDX
         var convertOptions = converter.GetPossibleConversions()["vdx"].ConvertOptions;
         // Convert to VDX format
         converter.Convert("output.vdx", convertOptions);

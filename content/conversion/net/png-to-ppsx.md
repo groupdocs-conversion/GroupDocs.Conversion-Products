@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PNG file
+        // Load source file PNG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.png");
-        // Set conversion parameters for PPSX format
+        // Prepare conversion options for target format PPSX
         var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
         // Convert to PPSX format
         converter.Convert("output.ppsx", convertOptions);

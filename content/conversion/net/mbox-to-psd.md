@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load MBOX file
+        // Load source file MBOX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Set conversion parameters for PSD format
+        // Prepare conversion options for target format PSD
         var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
         // Convert to PSD format
         converter.Convert("output.psd", convertOptions);

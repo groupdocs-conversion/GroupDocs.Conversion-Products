@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SVG file
+        // Load source file SVG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.svg");
-        // Set conversion parameters for PSD format
+        // Prepare conversion options for target format PSD
         var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
         // Convert to PSD format
         converter.Convert("output.psd", convertOptions);

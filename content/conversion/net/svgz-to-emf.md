@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SVGZ file
+        // Load source file SVGZ for conversion
         var converter = new GroupDocs.Conversion.Converter("input.svgz");
-        // Set conversion parameters for EMF format
+        // Prepare conversion options for target format EMF
         var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
         // Convert to EMF format
         converter.Convert("output.emf", convertOptions);

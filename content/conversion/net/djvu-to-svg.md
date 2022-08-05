@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DJVU file
+        // Load source file DJVU for conversion
         var converter = new GroupDocs.Conversion.Converter("input.djvu");
-        // Set conversion parameters for SVG format
+        // Prepare conversion options for target format SVG
         var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
         // Convert to SVG format
         converter.Convert("output.svg", convertOptions);

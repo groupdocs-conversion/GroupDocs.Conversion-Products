@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load IFC file
+        // Load source file IFC for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ifc");
-        // Set conversion parameters for PPS format
+        // Prepare conversion options for target format PPS
         var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
         // Convert to PPS format
         converter.Convert("output.pps", convertOptions);

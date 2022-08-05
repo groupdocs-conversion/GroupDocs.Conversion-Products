@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PPSM file
+        // Load source file PPSM for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ppsm");
-        // Set conversion parameters for ODT format
+        // Prepare conversion options for target format ODT
         var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
         // Convert to ODT format
         converter.Convert("output.odt", convertOptions);

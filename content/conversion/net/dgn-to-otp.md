@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DGN file
+        // Load source file DGN for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dgn");
-        // Set conversion parameters for OTP format
+        // Prepare conversion options for target format OTP
         var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
         // Convert to OTP format
         converter.Convert("output.otp", convertOptions);

@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load VCF file
+        // Load source file VCF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Set conversion parameters for SVGZ format
+        // Prepare conversion options for target format SVGZ
         var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
         // Convert to SVGZ format
         converter.Convert("output.svgz", convertOptions);

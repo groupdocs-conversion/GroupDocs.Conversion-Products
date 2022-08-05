@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for FODP format
+        // Prepare conversion options for target format FODP
         var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
         // Convert to FODP format
         converter.Convert("output.fodp", convertOptions);

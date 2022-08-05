@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load HTML file
+        // Load source file HTML for conversion
         var converter = new GroupDocs.Conversion.Converter("input.html");
-        // Set conversion parameters for DOCM format
+        // Prepare conversion options for target format DOCM
         var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
         // Convert to DOCM format
         converter.Convert("output.docm", convertOptions);

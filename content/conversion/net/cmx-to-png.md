@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CMX file
+        // Load source file CMX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cmx");
-        // Set conversion parameters for PNG format
+        // Prepare conversion options for target format PNG
         var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
         // Convert to PNG format
         converter.Convert("output.png", convertOptions);

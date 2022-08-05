@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load EMLX file
+        // Load source file EMLX for conversion
         var converter = new GroupDocs.Conversion.Converter("input.emlx");
-        // Set conversion parameters for HTML format
+        // Prepare conversion options for target format HTML
         var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
         // Convert to HTML format
         converter.Convert("output.html", convertOptions);

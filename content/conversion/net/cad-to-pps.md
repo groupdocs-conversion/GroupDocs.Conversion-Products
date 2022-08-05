@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CAD file
+        // Load source file CAD for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cad");
-        // Set conversion parameters for PPS format
+        // Prepare conversion options for target format PPS
         var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
         // Convert to PPS format
         converter.Convert("output.pps", convertOptions);

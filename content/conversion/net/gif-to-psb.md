@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load GIF file
+        // Load source file GIF for conversion
         var converter = new GroupDocs.Conversion.Converter("input.gif");
-        // Set conversion parameters for PSB format
+        // Prepare conversion options for target format PSB
         var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
         // Convert to PSB format
         converter.Convert("output.psb", convertOptions);

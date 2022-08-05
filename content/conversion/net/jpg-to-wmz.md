@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load JPG file
+        // Load source file JPG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.jpg");
-        // Set conversion parameters for WMZ format
+        // Prepare conversion options for target format WMZ
         var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
         // Convert to WMZ format
         converter.Convert("output.wmz", convertOptions);

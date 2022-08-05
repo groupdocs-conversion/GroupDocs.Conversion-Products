@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load PLT file
+        // Load source file PLT for conversion
         var converter = new GroupDocs.Conversion.Converter("input.plt");
-        // Set conversion parameters for DOCM format
+        // Prepare conversion options for target format DOCM
         var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
         // Convert to DOCM format
         converter.Convert("output.docm", convertOptions);

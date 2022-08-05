@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load BMP file
+        // Load source file BMP for conversion
         var converter = new GroupDocs.Conversion.Converter("input.bmp");
-        // Set conversion parameters for EMF format
+        // Prepare conversion options for target format EMF
         var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
         // Convert to EMF format
         converter.Convert("output.emf", convertOptions);

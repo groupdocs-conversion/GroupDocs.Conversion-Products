@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load ODS file
+        // Load source file ODS for conversion
         var converter = new GroupDocs.Conversion.Converter("input.ods");
-        // Set conversion parameters for XLSX format
+        // Prepare conversion options for target format XLSX
         var convertOptions = converter.GetPossibleConversions()["xlsx"].ConvertOptions;
         // Convert to XLSX format
         converter.Convert("output.xlsx", convertOptions);

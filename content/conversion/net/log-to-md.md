@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load LOG file
+        // Load source file LOG for conversion
         var converter = new GroupDocs.Conversion.Converter("input.log");
-        // Set conversion parameters for MD format
+        // Prepare conversion options for target format MD
         var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
         // Convert to MD format
         converter.Convert("output.md", convertOptions);

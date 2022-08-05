@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load J2C file
+        // Load source file J2C for conversion
         var converter = new GroupDocs.Conversion.Converter("input.j2c");
-        // Set conversion parameters for WMF format
+        // Prepare conversion options for target format WMF
         var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
         // Convert to WMF format
         converter.Convert("output.wmf", convertOptions);

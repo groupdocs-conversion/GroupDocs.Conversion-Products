@@ -8,11 +8,11 @@ breadcrumb: OXPS в EPUB на C#
 
 ############################# Head ############################
 head_title: "Конвертер OXPS в EPUB на C#"
-head_description: "Преобразовать OXPS в EPUB на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
+head_description: "Преобразуйте OXPS в EPUB на .NET, используя несколько строк кода. Используйте API преобразования документов GroupDocs для преобразования более 160 форматов файлов."
 
 ############################# Header ############################
-title: "Преобразовать OXPS в EPUB на C#"
-description: "Конвертер OXPS в EPUB с помощью нескольких строк .NET кода"
+title: "Преобразование OXPS в EPUB в C#"
+description: "Конвертировать OXPS в EPUB с помощью нескольких строк кода .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -28,79 +28,77 @@ submenu:
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
-    
+
 
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Conversion для .NET API"
+    title: "О GroupDocs.Conversion for .NET API"
     content: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/ru/conversion/net/)  можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) можно использовать для преобразования Microsoft Word, Excel, PowerPoint, PDF, Visio и других форматов. GroupDocs.Conversion — это автономный API, который подходит для серверных и внутренних систем, где требуется высокая производительность. Он не зависит от какого-либо программного обеспечения, такого как Microsoft или Open Office.
     
 
 overview:
     enable: true
     content: |
-        Преобразуйте свои файлы OXPS в файлы EPUB в .NET. Для этого понадобится всего пара строк кода C# на любой платформе по вашему выбору, например — Windows, Linux, macOS.
-        Вы можете бесплатно попробовать конвертацию OXPS в EPUB и оценить качество результатов преобразования.
-        Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла OXPS и сохранения выходного результата EPUB.
+        Легко конвертируйте файлы OXPS в EPUB на .NET. Вы можете использовать всего пару строк кода C# на любой платформе по вашему выбору, например - Windows, Linux, macOS.
+        Вы можете бесплатно попробовать преобразование OXPS в EPUB и оценить качество результатов преобразования. Наряду с простыми сценариями преобразования файлов вы можете попробовать более сложные варианты загрузки исходного файла OXPS и сохранения выходного результата в формат EPUB. 
         
-        Например, для исходного файла OXPS можно использовать следующие параметры загрузки:
+        Например, для исходного файла OXPS вы можете использовать следующие параметры загрузки:
 
         * автоматическое определение формата файла;
-        * указать пароль для защищенных файлов (если формат файла это поддерживает);
+        * указать пароль для защищенных файлов (если формат файла поддерживает это);
         * заменить отсутствующие шрифты, чтобы сохранить внешний вид документа.
+        
+        Существуют также расширенные параметры преобразования для файла EPUB:
 
-        Существуют также расширенные возможности преобразования для файла EPUB:
+        * преобразовать определенную страницу документа или диапазон страниц;
+        * добавить водяной знак в преобразованный файл EPUB и многое другое.
 
-        * конвертировать определенную страницу документа или диапазон страниц;
-        * добавить водяной знак в преобразованный файл EPUB.
-
-        После завершения преобразования вы можете сохранить файл EPUB по локальному пути к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д.
-        Обратите внимание - для преобразования OXPS в EPUB не требуется установка какого-либо дополнительного программного обеспечения, например MS Office, Open Office, Adobe Acrobat Reader и т. д. 
+        После завершения преобразования вы можете сохранить файл EPUB в локальный путь к файлу или в любое стороннее хранилище, такое как FTP, Amazon S3, Google Drive, Dropbox и т. д. Обратите внимание: чтобы преобразовать OXPS в EPUB нет необходимости в установке какого-либо дополнительного программного обеспечения - такого как MS Office, Open Office, Adobe Acrobat Reader и т.д.
 
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по конвертации OXPS в EPUB в C#"
+    title_left: "Шаги по преобразованию OXPS в EPUB в C#"
     content_left: |
-        [GroupDocs.Conversion](https://products.groupdocs.com/ru/conversion/net/)  упрощает для разработчиков преобразование файла OXPS в EPUB с помощью нескольких строк кода.
-
-        * Создайте экземпляр класса Converter и загрузите файл OXPS с полным путем
-        * Создайте и установите ConvertOptions для типа EPUB.
-        * Вызовите метод Converter.Convert и передайте полный путь и формат (EPUB) в качестве параметра
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) позволяет разработчикам легко преобразовать файл OXPS в EPUB с помощью нескольких строк кода.
         
-    title_right: "Системные Требования"
+        * Создайте экземпляр класса Converter и укажите полный путь к файлу OXPS.
+        * Создайте и установите ConvertOptions для типа EPUB.
+        * Вызовите метод Converter.Convert и передайте полный путь и формат (EPUB) в качестве параметра.
+
+    title_right: "System Requirements"
     content_right: |
-        Базовое преобразование с помощью GroupDocs.Conversion для .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        Базовое преобразование с помощью GroupDocs.Conversion for .NET можно выполнить всего за несколько простых шагов. Наши API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
 
         * Операционные системы: Microsoft Windows, Linux, MacOS
         * Среды разработки: Microsoft Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Получите последнюю версию GroupDocs.Conversion для .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
-        
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Получите последнюю версию GroupDocs.Conversion for .NET из [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+         
     code: |
-        ```cs
-        // Загружаем OXPS файл
-        var converter = new GroupDocs.Conversion.Converter("template.oxps");
-        // Устанавливаем параметры конвертации для формата EPUB
+        ```csharp    
+        // Загрузите исходный файл OXPS для конвертации
+        var converter = new GroupDocs.Conversion.Converter("input.oxps");
+        // Задайте параметры преобразования для целевого формата EPUB
         var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // Преобразовать в формат EPUB
-        converter.Convert("output.epub", convertOptions);        
+        // Преобразуйте файл в EPUB формат
+        converter.Convert("output.epub", convertOptions);
         ```
-        
+
 demos:
     enable: true
-    title: "Демонстрация OXPS в EPUB"
+    title: "OXPS в EPUB Демо"
     content: |
-       Конвертируйте OXPS в EPUB прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
+       Преобразуйте OXPS в EPUB прямо сейчас, посетив веб-сайт [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Онлайн демонстрация имеет следующие преимущества
           
 
 more_formats:
     enable: true
-    title: "Другие поддерживаемые преобразования OXPS"
-    content: "Вы также можете конвертировать OXPS во многие другие форматы файлов. Пожалуйста, смотрите список ниже."
+    title: "Другие поддерживаемые преобразования OXPS в C#"
+    content: "Вы также можете конвертировать OXPS во многие другие форматы файлов. См. список ниже."
        
        
 back_to_top:

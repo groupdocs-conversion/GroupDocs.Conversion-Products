@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load DIB file
+        // Load source file DIB for conversion
         var converter = new GroupDocs.Conversion.Converter("input.dib");
-        // Set conversion parameters for SVGZ format
+        // Prepare conversion options for target format SVGZ
         var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
         // Convert to SVGZ format
         converter.Convert("output.svgz", convertOptions);

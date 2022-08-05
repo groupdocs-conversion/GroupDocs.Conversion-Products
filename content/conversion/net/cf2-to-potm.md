@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load CF2 file
+        // Load source file CF2 for conversion
         var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Set conversion parameters for POTM format
+        // Prepare conversion options for target format POTM
         var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
         // Convert to POTM format
         converter.Convert("output.potm", convertOptions);

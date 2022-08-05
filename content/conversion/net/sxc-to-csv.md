@@ -80,9 +80,9 @@ steps:
          
     code: |
         ```csharp    
-        // Load SXC file
+        // Load source file SXC for conversion
         var converter = new GroupDocs.Conversion.Converter("input.sxc");
-        // Set conversion parameters for CSV format
+        // Prepare conversion options for target format CSV
         var convertOptions = converter.GetPossibleConversions()["csv"].ConvertOptions;
         // Convert to CSV format
         converter.Convert("output.csv", convertOptions);

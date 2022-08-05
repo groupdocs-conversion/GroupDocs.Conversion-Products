@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\config.yml" %>
+<% configRef "..\\configs\\config.en.yml" %>
 <% set "FROM" (upper (get "from")) %>
 <% set "TO" (upper (get "to")) %>
 <% set "ProductName" (dict "products.{product}.name") %>

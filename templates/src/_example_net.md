@@ -1,6 +1,6 @@
-// Load <% get "FROM" %> file
+// <% "{steps.code.load_comment}" %>
         var converter = new GroupDocs.Conversion.Converter("input.<% lower (get "FROM") %>");
-        // Set conversion parameters for <% get "TO" %> format
+        // <% "{steps.code.prepare_comment}" %>
         var convertOptions = converter.GetPossibleConversions()["<% lower (get "TO") %>"].ConvertOptions;
-        // Convert to <% get "TO" %> format
+        // <% "{steps.code.convert_comment}" %>
         converter.Convert("output.<% lower (get "TO") %>", convertOptions);

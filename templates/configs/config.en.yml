@@ -1,0 +1,11 @@
+## CONFIG FOR ENGLISH LANDINGS ONLY
+
+inherits: base-config.yml  
+
+generationRules:
+  exclude:
+  - lang[de, es, fr, ja, ko, ru, uk, zh]
+  include:
+  - from[ai] + to[bmp]
+
+outputPath: "conversion\\{product}\\{from}-to-{to}.md"

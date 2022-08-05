@@ -2,9 +2,9 @@
     "content": {
         "meta_title": "{{FROM}} to {{TO}} Converter in {{ProgLang}}",
         "meta_description": "Convert {{FROM}} to {{TO}} in {{ProductName}} using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats.",
-
         "h1": "Convert {{FROM}} to {{TO}} in {{ProgLang}}",
-        "h2": "{{FROM}} to {{TO}} conversion with a few lines of {{ProductName}} code"
+        "h2": "{{FROM}} to {{TO}} conversion with a few lines of {{ProductName}} code",
+        "breadcrumb": "{{FROM}} to {{TO}} in {{ProgLang}}"
     },
     "about": {
         "title": "About {{ProductFullName}} API",
@@ -39,6 +39,11 @@
             "step_1": "Operating systems: Microsoft Windows, Linux, MacOS",
             "step_2": "Development environments: {{DevEnv}}",
             "step_3": "Get the latest {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+        },
+        "code":{
+            "load_comment": "Load source file {{FROM}} for conversion",
+            "prepare_comment": "Prepare conversion options for target format {{TO}}",
+            "convert_comment": "Convert to {{TO}} format"
         }
     },   
     "demos": {

@@ -1,6 +1,6 @@
-// Load source file <% get "FROM" %> for conversion
+// <% "{steps.code.load_comment}" %>
         Converter converter = new Converter("input.<% lower (get "FROM") %>");
-        // Prepare conversion options for target format <% get "TO" %>
+        // <% "{steps.code.prepare_comment}" %>
         ConvertOptions convertOptions = new FileType().fromExtension("<% lower (get "TO") %>").getConvertOptions();
-        // Convert to <% get "TO" %> format
+        // <% "{steps.code.convert_comment}" %>
         converter.convert("output.<% lower (get "TO") %>", convertOptions);

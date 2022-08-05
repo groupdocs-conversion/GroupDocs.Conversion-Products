@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: <% date "utcnow" %>
 draft: false
 otherformats: <% get "OtherFormats" %>
 breadcrumb: <% "{content.breadcrumb}" %>

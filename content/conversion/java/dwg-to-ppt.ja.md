@@ -69,7 +69,7 @@ steps:
         * PPT タイプの ConvertOptions を作成して設定します。
         * Converter.Convert メソッドを呼び出し、完全なパスと形式 (PPT) をパラメーターとして渡します。
 
-    title_right: "System Requirements"
+    title_right: "システム要求"
     content_right: |
         GroupDocs.Conversion for Java を使用した基本的な変換は、いくつかの簡単な手順で実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 

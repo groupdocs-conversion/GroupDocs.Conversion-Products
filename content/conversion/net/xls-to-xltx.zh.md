@@ -69,7 +69,7 @@ steps:
         * 为 XLTX 类型创建并设置 ConvertOptions。
         * 调用 Converter.Convert 方法并将完整路径和格式 (XLTX) 作为参数传递
 
-    title_right: "System Requirements"
+    title_right: "系统要求"
     content_right: |
         GroupDocs.Conversion for .NET 的基本转换只需几个简单的步骤即可完成。所有主要平台和操作系统都支持我们的 API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
 

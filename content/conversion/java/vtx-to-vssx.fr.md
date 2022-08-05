@@ -69,7 +69,7 @@ steps:
         * Créez et définissez ConvertOptions pour le type VSSX.
         * Appelez la méthode Converter.Convert et transmettez le chemin complet et le format (VSSX) en tant que paramètre
 
-    title_right: "System Requirements"
+    title_right: "Configuration requise"
     content_right: |
         La conversion de base avec GroupDocs.Conversion for Java peut être effectuée en quelques étapes simples. Nos API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 

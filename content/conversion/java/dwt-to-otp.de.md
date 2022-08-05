@@ -69,7 +69,7 @@ steps:
         * Erstellen und legen Sie ConvertOptions für den Typ OTP fest.
         * Rufen Sie die Methode Converter.Convert auf und übergeben Sie den vollständigen Pfad und das Format (OTP) als Parameter
 
-    title_right: "System Requirements"
+    title_right: "System Anforderungen"
     content_right: |
         Die grundlegende Konvertierung mit GroupDocs.Conversion for Java kann in nur wenigen einfachen Schritten durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 

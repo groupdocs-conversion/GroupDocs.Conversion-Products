@@ -69,7 +69,7 @@ steps:
         * CSV 유형에 대한 ConvertOptions를 생성하고 설정합니다.
         * Converter.Convert 메서드를 호출하고 전체 경로 및 형식(CSV)을 매개변수로 전달합니다.
 
-    title_right: "System Requirements"
+    title_right: "시스템 요구 사항"
     content_right: |
         GroupDocs.Conversion for .NET을(를) 사용한 기본 변환은 몇 가지 간단한 단계로 수행할 수 있습니다. 당사의 API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
 

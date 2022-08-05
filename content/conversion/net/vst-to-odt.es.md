@@ -69,7 +69,7 @@ steps:
         * Cree y establezca ConvertOptions para el tipo ODT.
         * Llame al método Converter.Convert y pase la ruta completa y el formato (ODT) como parámetro
 
-    title_right: "System Requirements"
+    title_right: "Requisitos del sistema"
     content_right: |
         La conversión básica con GroupDocs.Conversion for .NET se puede realizar en unos pocos pasos simples. Nuestras API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 

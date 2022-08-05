@@ -69,7 +69,7 @@ steps:
         * Créez et définissez ConvertOptions pour le type DOTM.
         * Appelez la méthode Converter.Convert et transmettez le chemin complet et le format (DOTM) en tant que paramètre
 
-    title_right: "System Requirements"
+    title_right: "Configuration requise"
     content_right: |
         La conversion de base avec GroupDocs.Conversion for .NET peut être effectuée en quelques étapes simples. Nos API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 

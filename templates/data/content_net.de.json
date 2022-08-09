@@ -4,7 +4,7 @@
     "meta_description": "Wandeln Sie {{FROM}} in {{ProductName}} mit ein paar Zeilen Code in {{TO}} um. Verwenden Sie die GroupDocs Document Conversion API, um über 160 Dateiformate zu konvertieren.",
     "h1": "Konvertiere {{FROM}} in {{TO}} in {{ProgLang}}",
     "h2": "Umwandlung von {{FROM}} in {{TO}} mit ein paar Zeilen {{ProductName}}-Code",
-    "breadcrumb": "{{FROM}} nach {{TO}} in {{ProgLang}}"
+    "breadcrumb": "{{FROM}} bis {{TO}} in {{ProgLang}}"
   },
   "about": {
     "title": "Über die {{ProductFullName}}-API",

@@ -4,7 +4,7 @@
     "meta_description": "몇 줄의 코드를 사용하여 {{ProductName}}에서 {{FROM}}을 {{TO}}로 변환합니다. GroupDocs 문서 변환 API를 사용하여 160개 이상의 파일 형식을 변환합니다.",
     "h1": "{{ProgLang}}에서 {{FROM}}을(를) {{TO}}로 변환",
     "h2": "몇 줄의 {{ProductName}} 코드로 {{FROM}}에서 {{TO}}로 변환",
-    "breadcrumb": "{{ProgLang}}에서 {{FROM}}에서 {{TO}}"
+    "breadcrumb": "{{ProgLang}}의 {{FROM}}에서 {{TO}}까지"
   },
   "about": {
     "title": "{{ProductFullName}} API 정보",

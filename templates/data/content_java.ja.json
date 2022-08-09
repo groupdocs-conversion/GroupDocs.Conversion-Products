@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "{{ProgLang}} で {{FROM}} を {{TO}} に変換します",
+    "meta_description": "{{ProductName}} での {{FROM}} から {{TO}} への変換を、数行のコードで行います。 {{ProductName}} の GroupDocs ドキュメント変換 API を使用して、160 を超えるファイル形式を変換します",
+    "h1": "{{ProgLang}} で {{FROM}} を {{TO}} に変換します",
+    "h2": "数行の {{ProductName}} コードによる {{FROM}} から {{TO}} への変換",
+    "breadcrumb": "{{ProgLang}}で{{FROM}}から{{TO}}へ"
+  },
+  "about": {
+    "title": "{{ProductFullName}} API について",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) は、Microsoft Office、OpenDocument、PDF、HTML、電子メール、CAD などの一般的な画像とドキュメント形式の間で変換するための高度なファイル形式変換 API です。ほんの数行のコードでさらに多くのことができます。ネイティブ API は、元のドキュメントの形式を自動的に検出し、変換されたドキュメントをカスタマイズするための多くのオプションを提供します。ドキュメントから情報を抽出する機能に加えて、デフォルトで変換結果のローカル ディスクへのキャッシュもサポートしています。ただし、Amazon S3、Dropbox、Google Drive、Windows Azure、Reddis、またはその他の適切なインターフェイスを実装することで、あらゆるタイプのキャッシュ ストレージをサポートできます。"
+  },
+  "overview": {
+    "description1": "{{ProductName}} で {{FROM}} ファイルを {{TO}} に変換します。 Windows、Linux、macOS など、任意のプラットフォームで数行の {{ProgLang}} コードを実行するだけです。",
+    "description2": "{{FROM}} を {{TO}} に無料で変換してみて、変換結果の品質を評価できます。シンプルなファイル変換スクリプトに加えて、{{FROM}} ソース ファイルをロードし、{{TO}} 出力を保存するためのより洗練されたオプションを試すことができます。",
+    "load_options_desc": "たとえば、ソース {{FROM}} ファイルの場合、次のロード オプションを使用できます。",
+    "load_options_item_1": "ファイル形式の自動検出",
+    "load_options_item_2": "保護されたファイルのパスワードを指定する (ファイル形式がサポートしている場合)",
+    "load_options_item_3": "ドキュメントの外観を維持するために不足しているフォントを置き換えます",
+    "convert_options_desc": "{{TO}} ファイルの高度な変換オプションもあります。",
+    "convert_options_item_1": "ドキュメントの特定のページまたはページ範囲を変換する",
+    "convert_options_item_2": "変換された {{TO}} に透かしを追加します",
+    "summary": "変換が完了したら、{{TO}} ファイルをローカル ファイル パス、または FTP、Amazon S3、Google ドライブ、Dropbox などのサード パーティのストレージに保存できます。注意してください - {{FROM}} を変換するには{{TO}} に、MS Office、Open Office、Adobe Acrobat Reader などの追加のソフトウェアをインストールする必要はありません。"
+  },
+  "steps": {
+    "title_left": "{{ProgLang}} で {{FROM}} を {{TO}} に変換する手順",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) を使用すると、開発者は数行のコードで {{FROM}} ファイルを {{TO}} に簡単に変換できます。",
+      "step_1": "Converter クラスの新しいインスタンスを作成し、ファイル {{FROM}} をフル パスでアップロードします。",
+      "step_2": "ドキュメント タイプの ConvertOptions を {{TO}} に設定します",
+      "step_3": "convert() メソッドを呼び出し、ドキュメント名 (フル パス) と形式 ({{TO}}) をパラメーターとして渡します。"
+    },
+    "title_right": "システム要求",
+    "content_right": {
+      "description": "{{ProductFullName}} API を使用した基本的な変換は、わずか数行のコードで実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。",
+      "step_1": "オペレーティング システム: Microsoft Windows、Linux、MacOS",
+      "step_2": "開発環境: {{DevEnv}}",
+      "step_3": "[{{RepoName}}]({{RepoUrl}}) から最新の {{ProductFullName}} を取得します"
+    },
+    "code": {
+      "load_comment": "変換のためにソース ファイル {{FROM}} を読み込みます",
+      "prepare_comment": "ターゲット形式の変換オプションを準備 {{TO}}",
+      "convert_comment": "{{TO}}形式に変換"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}}から{{TO}}までのライブデモ",
+    "content": "[GroupDocs.Conversion アプリ](https://products.groupdocs.app/conversion/family) ウェブサイトにアクセスして、今すぐ {{FROM}} から {{TO}} への変換を試してください。無料デモには次の利点があります"
+  },
+  "more_formats": {
+    "title": "{{ProgLang}} でサポートされているその他の {{FROM}} 変換",
+    "content": "{{FROM}} を他の多くのファイル形式に変換することもできます。以下のリストをご覧ください。"
+  }
+}

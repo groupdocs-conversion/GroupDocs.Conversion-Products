@@ -35,7 +35,7 @@
       "description": "La conversión básica con {{ProductFullName}} se puede realizar en unos pocos pasos simples. Nuestras API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
       "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
       "step_2": "Entornos de desarrollo: {{DevEnv}}",
-      "step_3": "Obtén el último {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+      "step_3": "Obtenga el último {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
     },
     "code": {
       "load_comment": "Cargue el archivo fuente {{FROM}} para la conversión",

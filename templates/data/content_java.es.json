@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "Convertir {{FROM}} a {{TO}} en {{ProgLang}}",
+    "meta_description": "Conversión de {{FROM}} a {{TO}} en {{ProductName}} con unas pocas líneas de código. Convierta más de 160 formatos de archivo con la API de conversión de documentos de GroupDocs para {{ProductName}}",
+    "h1": "Convertir {{FROM}} a {{TO}} en {{ProgLang}}",
+    "h2": "Conversión de {{FROM}} a {{TO}} con unas pocas líneas de código {{ProductName}}",
+    "breadcrumb": "{{FROM}} a {{TO}} en {{ProgLang}}"
+  },
+  "about": {
+    "title": "Acerca de la API de {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) es una API de conversión de formato de archivo avanzada para convertir entre formatos populares de imagen y documento como Microsoft Office, OpenDocument, PDF, HTML, correo electrónico, CAD. y mucho más con solo unas pocas líneas de código. La API nativa detecta automáticamente los formatos de los documentos originales y ofrece muchas opciones para personalizar los documentos convertidos. Junto con la función de extraer información de un documento, también admite el almacenamiento en caché de los resultados de la conversión en el disco local de forma predeterminada. Sin embargo, se puede admitir cualquier tipo de almacenamiento en caché mediante la implementación de las interfaces adecuadas: Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis o cualquier otra."
+  },
+  "overview": {
+    "description1": "Convierta sus archivos {{FROM}} a {{TO}} en {{ProductName}}. Solo se necesitan un par de líneas de código {{ProgLang}} en cualquier plataforma de su elección, como Windows, Linux, macOS.",
+    "description2": "Puede intentar convertir {{FROM}} a {{TO}} de forma gratuita y evaluar la calidad de los resultados de la conversión. Junto con los sencillos scripts de conversión de archivos, puede probar opciones más sofisticadas para cargar el archivo de origen {{FROM}} y almacenar la salida {{TO}}.",
+    "load_options_desc": "Por ejemplo, para el archivo fuente {{FROM}}, puede usar las siguientes opciones de carga:",
+    "load_options_item_1": "detección automática del formato de archivo",
+    "load_options_item_2": "especificar una contraseña para archivos protegidos (si el formato de archivo lo admite)",
+    "load_options_item_3": "reemplazar las fuentes que faltan para preservar la apariencia del documento",
+    "convert_options_desc": "También hay opciones de conversión avanzadas para el archivo {{TO}}:",
+    "convert_options_item_1": "convertir una página específica de un documento o un rango de páginas",
+    "convert_options_item_2": "agregue una marca de agua al {{TO}} convertido",
+    "summary": "Una vez completada la conversión, puede guardar el archivo {{TO}} en su ruta de archivo local o en cualquier almacenamiento de terceros, como FTP, Amazon S3, Google Drive, Dropbox, etc. Tenga en cuenta que para convertir {{FROM}} a {{TO}}, no necesita instalar ningún software adicional, como MS Office, Open Office, Adobe Acrobat Reader, etc."
+  },
+  "steps": {
+    "title_left": "Pasos para convertir {{FROM}} a {{TO}} en {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permite a los desarrolladores convertir fácilmente el archivo {{FROM}} a {{TO}} con unas pocas líneas de código.",
+      "step_1": "Cree una nueva instancia de la clase Converter y cargue el archivo {{FROM}} con la ruta completa",
+      "step_2": "Establezca ConvertOptions para el tipo de documento en {{TO}}",
+      "step_3": "Llame al método convert() y pase el nombre del documento (ruta completa) y el formato ({{TO}}) como parámetro"
+    },
+    "title_right": "Requisitos del sistema",
+    "content_right": {
+      "description": "La conversión básica con la API de {{ProductFullName}} se puede realizar con solo unas pocas líneas de código. Nuestras API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.",
+      "step_1": "Sistemas operativos: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Entornos de desarrollo: {{DevEnv}}",
+      "step_3": "Obtenga el último {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Cargue el archivo fuente {{FROM}} para la conversión",
+      "prepare_comment": "Preparar opciones de conversión para el formato de destino {{TO}}",
+      "convert_comment": "Convertir al formato {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} a {{TO}} demostración en vivo",
+    "content": "Visite nuestro sitio web de [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) y pruebe la conversión de {{FROM}} a {{TO}} ahora. La demostración gratuita tiene los siguientes beneficios"
+  },
+  "more_formats": {
+    "title": "Otras conversiones {{FROM}} admitidas en {{ProgLang}}",
+    "content": "También puede convertir {{FROM}} a muchos otros formatos de archivo. Consulte la lista a continuación."
+  }
+}

@@ -1,7 +1,8 @@
 dimensions: 
 - alias: lang
-  values: [en, de, es, fr, ja, ko, ru, zh]
+  values: [en]
+##  values: [en, de, es, fr, ja, ko, ru, zh]
 
-dictionaries: ["..\\data\\content.{lang}.json"]
+dictionaries: ["..\\data\\content-{product}.{lang}.json"]
 
 

@@ -1,14 +1,14 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-08-09T11:25:35
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLT to MHTML in Java
 
 ############################# Head ############################
-head_title: "XLT to MHTML Converter in Java"
-head_description: "Convert XLT to MHTML in Java using a few lines of code. Use the GroupDocs Document Conversion API to convert over 160 file formats."
+head_title: "Convert XLT to MHTML in Java"
+head_description: "XLT to MHTML conversion in Java with a few lines of code. Convert over 160 file formats using the GroupDocs document conversion API for Java"
 
 ############################# Header ############################
 title: "Convert XLT to MHTML in Java"
@@ -35,27 +35,27 @@ about:
     enable: true
     title: "About GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) can be used to convert Microsoft Word, Excel, PowerPoint, PDF, Visio and other formats. GroupDocs.Conversion is a standalone API that is suitable for back-end and internal systems where high performance is required. It does not depend on any software such as Microsoft or Open Office.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is an advanced file format conversion API for converting between popular image and document formats such as Microsoft Office, OpenDocument, PDF, HTML, email, CAD. and much more with just a few lines of code. The native API automatically detects the formats of the original documents and offers many options for customizing the converted documents. Along with the function of extracting information from a document, it also supports caching of the conversion results to the local disk by default. However, any type of cache storage can be supported by implementing the appropriate interfaces - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis, or any others.
     
 
 overview:
     enable: true
     content: |
-        Convert your XLT files to MHTML in Java easily. You can use just a couple of Java code lines in any platform of your choice like - Windows, Linux, macOS.
-        You can try XLT to MHTML conversion for free and evaluate conversion results quality.  Along with simple file conversion scenarios you can try more advanced options for loading source XLT file and for saving output MHTML result. 
+        Convert your XLT files to MHTML in Java. It only takes a couple of lines of Java code on any platform of your choice, such as Windows, Linux, macOS.
+        You can try converting XLT to MHTML for free and evaluate the quality of the conversion results. Along with simple file conversion scripts, you can try more sophisticated options for loading the XLT source file and storing the MHTML output. 
         
         For example, for the source XLT file you may use the following load options:
 
-        * auto-detect file format;
-        * specify password for protected files (if file format supports it);
-        * replace missing fonts to preserve document appearance.
+        * automatic detection of the file format;
+        * specify a password for protected files (if the file format supports it);
+        * replace missing fonts to preserve the appearance of the document.
         
         There are also advanced convert options for the MHTML file:
 
-        * convert specific document page or page range;
-        * add a watermark to the converted MHTML file and many more.
+        * convert a specific page of a document or a range of pages;
+        * add a watermark to the converted MHTML.
 
-        Once conversion is completed you can save your MHTML file to the local file path or any third-party storage like FTP, Amazon S3, Google Drive, Dropbox etc. Please note - to convert XLT to MHTML there is no need for any additional software installed - like MS Office, Open Office, Adobe Acrobat Reader etc.
+        Once the conversion is complete, you can save the MHTML file to your local file path or to any third party storage such as FTP, Amazon S3, Google Drive, Dropbox etc. Please note - to convert XLT to MHTML, you do not need to install any additional software, such as MS Office, Open Office, Adobe Acrobat Reader etc.
 
 
 ############################# Steps ############################
@@ -63,15 +63,15 @@ steps:
     enable: true
     title_left: "Steps to convert XLT to MHTML in Java"
     content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) makes it easy for developers to convert a XLT file to MHTML with a few lines of code.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) allows developers to easily convert XLT file to MHTML with a few lines of code.
         
-        * Create an instance of the Converter class and provide the file XLT with the full path
-        * Create and set ConvertOptions for MHTML type.
-        * Call the Converter.Convert method and pass the full path and format (MHTML) as a parameter
+        * Create a new instance of the Converter class and upload the file XLT with the full path
+        * Set ConvertOptions for document type to MHTML
+        * Call the convert() method and pass the document name (full path) and format (MHTML) as a parameter
 
     title_right: "System Requirements"
     content_right: |
-        Basic conversion with GroupDocs.Conversion for Java can be done in just a few simple steps. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
+        Basic conversion with GroupDocs.Conversion for Java API can be done with just a few lines of code. Our APIs are supported on all major platforms and operating systems. Before executing the code below, make sure you have the following prerequisites installed on your system.
 
         * Operating systems: Microsoft Windows, Linux, MacOS
         * Development environments: NetBeans, Intellij IDEA, Eclipse, etc.
@@ -92,7 +92,7 @@ demos:
     enable: true
     title: "XLT to MHTML Live Demo"
     content: |
-       Convert XLT to MHTML now by visiting the [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website. Online demo has the following advantages
+       Visit our [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website and try XLT to MHTML conversion now. The free demo has the following benefits
           
 
 more_formats:

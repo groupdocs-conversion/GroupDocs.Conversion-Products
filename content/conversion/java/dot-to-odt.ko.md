@@ -1,18 +1,18 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-08-10T07:43:54
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: Java에서 DOT에서 ODT
+breadcrumb: Java의 DOT에서 ODT까지
 
 ############################# Head ############################
-head_title: "Java에서 DOT에서 ODT로 변환기"
-head_description: "몇 줄의 코드를 사용하여 Java에서 DOT을 ODT로 변환합니다. GroupDocs 문서 변환 API를 사용하여 160개 이상의 파일 형식을 변환합니다."
+head_title: "Java에서 DOT을(를) ODT로 변환"
+head_description: "몇 줄의 코드로 Java에서 DOT에서 ODT로 변환 Java용 GroupDocs 문서 변환 API를 사용하여 160개 이상의 파일 형식 변환"
 
 ############################# Header ############################
 title: "Java에서 DOT을(를) ODT로 변환"
-description: "몇 줄의 Java 코드로 DOT에서 ODT로 변환"
+description: "몇 줄의 Java 코드로 DOT에서 ODT로 전환"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -35,27 +35,27 @@ about:
     enable: true
     title: "GroupDocs.Conversion for Java API 정보"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/)은(는) Microsoft Word, Excel, PowerPoint, PDF, Visio 및 기타 형식을 변환하는 데 사용할 수 있습니다. GroupDocs.Conversion은 고성능이 요구되는 백엔드 및 내부 시스템에 적합한 독립 실행형 API입니다. Microsoft 또는 Open Office와 같은 소프트웨어에 의존하지 않습니다.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/)은 Microsoft Office, OpenDocument, PDF, HTML, 이메일, CAD와 같이 널리 사용되는 이미지와 문서 형식 간의 변환을 위한 고급 파일 형식 변환 API입니다. 단 몇 줄의 코드로 훨씬 더 많은 작업을 수행할 수 있습니다. 기본 API는 원본 문서의 형식을 자동으로 감지하고 변환된 문서를 사용자 지정하기 위한 다양한 옵션을 제공합니다. 문서에서 정보를 추출하는 기능과 함께 기본적으로 변환 결과를 로컬 디스크로 캐싱하는 기능도 지원합니다. 그러나 Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis 등의 적절한 인터페이스를 구현하여 모든 유형의 캐시 스토리지를 지원할 수 있습니다.
     
 
 overview:
     enable: true
     content: |
-        Java에서 DOT 파일을 ODT로 쉽게 변환하세요. Windows, Linux, macOS와 같이 선택한 플랫폼에서 몇 개의 Java 코드 줄만 사용할 수 있습니다.
-        무료로 DOT에서 ODT로의 변환을 시도하고 변환 결과 품질을 평가할 수 있습니다. 간단한 파일 변환 시나리오와 함께 소스 DOT 파일을 로드하고 출력 ODT 결과를 저장하기 위한 고급 옵션을 시도할 수 있습니다. 
+        Java에서 DOT 파일을 ODT로 변환하세요. Windows, Linux, macOS와 같이 선택한 플랫폼에서 몇 줄의 Java 코드만 있으면 됩니다.
+        무료로 DOT을(를) ODT로 변환해 보고 변환 결과의 품질을 평가할 수 있습니다. 간단한 파일 변환 스크립트와 함께 DOT 소스 파일을 로드하고 ODT 출력을 저장하는 보다 정교한 옵션을 시도할 수 있습니다. 
         
         예를 들어, 소스 DOT 파일의 경우 다음 로드 옵션을 사용할 수 있습니다.
 
-        * 자동 감지 파일 형식;
-        * 보호된 파일의 비밀번호 지정(파일 형식이 지원하는 경우);
-        * 누락된 글꼴을 교체하여 문서 모양 유지.
+        * 파일 형식의 자동 감지;
+        * 보호된 파일의 암호 지정(파일 형식이 지원하는 경우);
+        * 문서의 모양을 유지하기 위해 누락된 글꼴 바꾸기.
         
         ODT 파일에 대한 고급 변환 옵션도 있습니다.
 
-        * 특정 문서 페이지 또는 페이지 범위 변환;
-        * 변환된 ODT 파일 등에 워터마크 추가.
+        * 문서의 특정 페이지 또는 페이지 범위 변환;
+        * 변환된 ODT에 워터마크 추가.
 
-        변환이 완료되면 ODT 파일을 로컬 파일 경로나 FTP, Amazon S3, Google Drive, Dropbox 등과 같은 타사 저장소에 저장할 수 있습니다. 참고 - DOT을(를) ODT MS Office, Open Office, Adobe Acrobat Reader 등과 같은 추가 소프트웨어를 설치할 필요가 없습니다.
+        변환이 완료되면 ODT 파일을 로컬 파일 경로나 FTP, Amazon S3, Google Drive, Dropbox 등과 같은 타사 저장소에 저장할 수 있습니다. 참고 - 변환하려면 DOT ODT을(를) 사용하려면 MS Office, Open Office, Adobe Acrobat Reader 등과 같은 추가 소프트웨어를 설치할 필요가 없습니다.
 
 
 ############################# Steps ############################
@@ -63,15 +63,15 @@ steps:
     enable: true
     title_left: "Java에서 DOT을(를) ODT로 변환하는 단계"
     content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/)을 사용하면 몇 줄의 코드로 개발자가 DOT 파일을 ODT로 쉽게 변환할 수 있습니다.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/)을 사용하면 개발자가 몇 줄의 코드로 DOT 파일을 ODT로 쉽게 변환할 수 있습니다.
         
-        * Converter 클래스의 인스턴스를 만들고 DOT 파일에 전체 경로를 제공합니다.
-        * ODT 유형에 대한 ConvertOptions를 생성하고 설정합니다.
-        * Converter.Convert 메서드를 호출하고 전체 경로 및 형식(ODT)을 매개변수로 전달합니다.
+        * Converter 클래스의 새 인스턴스를 만들고 전체 경로가 포함된 DOT 파일을 업로드합니다.
+        * 문서 유형에 대한 ConvertOptions를 ODT로 설정
+        * convert() 메서드를 호출하고 문서 이름(전체 경로) 및 형식(ODT)을 매개변수로 전달
 
     title_right: "시스템 요구 사항"
     content_right: |
-        GroupDocs.Conversion for Java을(를) 사용한 기본 변환은 몇 가지 간단한 단계로 수행할 수 있습니다. 당사의 API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
+        GroupDocs.Conversion for Java API를 사용한 기본 변환은 몇 줄의 코드로 수행할 수 있습니다. 당사의 API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다. 아래 코드를 실행하기 전에 시스템에 다음 전제 조건이 설치되어 있는지 확인하십시오.
 
         * 운영 체제: Microsoft Windows, Linux, MacOS
         * 개발 환경: NetBeans, Intellij IDEA, Eclipse, etc.
@@ -92,7 +92,7 @@ demos:
     enable: true
     title: "DOT에서 ODT 라이브 데모"
     content: |
-       지금 [GroupDocs.Conversion 앱](https://products.groupdocs.app/conversion/family) 웹사이트를 방문하여 DOT을(를) ODT로 변환하세요. 온라인 데모에는 다음과 같은 장점이 있습니다.
+       [GroupDocs.Conversion 앱](https://products.groupdocs.app/conversion/family) 웹사이트를 방문하여 지금 DOT에서 ODT로의 변환을 시도하십시오. 무료 데모에는 다음과 같은 이점이 있습니다.
           
 
 more_formats:

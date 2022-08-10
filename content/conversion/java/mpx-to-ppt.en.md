@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-08-09T11:25:27
+date: 2022-08-10T07:38:58
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPX to PPT in Java

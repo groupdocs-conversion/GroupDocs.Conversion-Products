@@ -25,9 +25,9 @@
   "steps": {
     "title_left": "在 {{ProgLang}} 中将 {{FROM}} 转换为 {{TO}} 的步骤",
     "content_left": {
-      "description": "[{{ProductFullName}}]({{ProductUrl}}) 让开发人员只需几行代码即可轻松地将 {{FROM}} 文件转换为 {{TO}}。",
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) 使开发人员只需几行代码即可轻松地将 {{FROM}} 文件转换为 {{TO}}。",
       "step_1": "创建 Converter 类的实例并为文件 {{FROM}} 提供完整路径",
-      "step_2": "为 {{TO}} 类型创建并设置 ConvertOptions。",
+      "step_2": "为 {{TO}} 类型创建和设置 ConvertOptions。",
       "step_3": "调用 Converter.Convert 方法并将完整路径和格式 ({{TO}}) 作为参数传递"
     },
     "title_right": "系统要求",

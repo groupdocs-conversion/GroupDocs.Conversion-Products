@@ -1,14 +1,14 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-08-10T07:42:07
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTM à XLS en Java
 
 ############################# Head ############################
-head_title: "Convertisseur XLTM à XLS en Java"
-head_description: "Convertissez XLTM en XLS dans Java en utilisant quelques lignes de code. Utilisez l'API de conversion de documents GroupDocs pour convertir plus de 160 formats de fichiers."
+head_title: "Convertir XLTM en XLS en Java"
+head_description: "Conversion de XLTM à XLS dans Java avec quelques lignes de code. Convertissez plus de 160 formats de fichiers à l'aide de l'API de conversion de documents GroupDocs pour Java"
 
 ############################# Header ############################
 title: "Convertir XLTM en XLS en Java"
@@ -35,27 +35,27 @@ about:
     enable: true
     title: "À propos de l'API GroupDocs.Conversion for Java"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) peut être utilisé pour convertir Microsoft Word, Excel, PowerPoint, PDF, Visio et d'autres formats. GroupDocs.Conversion est une API autonome adaptée aux systèmes back-end et internes nécessitant des performances élevées. Il ne dépend d'aucun logiciel tel que Microsoft ou Open Office.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) est une API de conversion de format de fichier avancée pour la conversion entre les formats d'image et de document populaires tels que Microsoft Office, OpenDocument, PDF, HTML, e-mail, CAO. et bien plus encore avec seulement quelques lignes de code. L'API native détecte automatiquement les formats des documents originaux et propose de nombreuses options de personnalisation des documents convertis. Outre la fonction d'extraction d'informations d'un document, il prend également en charge la mise en cache des résultats de conversion sur le disque local par défaut. Cependant, tout type de stockage de cache peut être pris en charge en implémentant les interfaces appropriées - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis ou tout autre.
     
 
 overview:
     enable: true
     content: |
-        Convertissez facilement vos fichiers XLTM en XLS dans Java. Vous pouvez utiliser seulement quelques lignes de code Java dans n'importe quelle plate-forme de votre choix comme - Windows, Linux, macOS.
-        Vous pouvez essayer gratuitement la conversion de XLTM à XLS et évaluer la qualité des résultats de conversion. En plus des scénarios de conversion de fichiers simples, vous pouvez essayer des options plus avancées pour charger le fichier source XLTM et pour enregistrer le résultat de sortie XLS. 
+        Convertissez vos fichiers XLTM en XLS dans Java. Cela ne prend que quelques lignes de code Java sur n'importe quelle plate-forme de votre choix, telle que Windows, Linux, macOS.
+        Vous pouvez essayer de convertir gratuitement XLTM en XLS et évaluer la qualité des résultats de conversion. En plus des scripts de conversion de fichiers simples, vous pouvez essayer des options plus sophistiquées pour charger le fichier source XLTM et stocker la sortie XLS. 
         
         Par exemple, pour le fichier source XLTM, vous pouvez utiliser les options de chargement suivantes :
 
-        * format de fichier à détection automatique;
-        * spécifier le mot de passe pour les fichiers protégés (si le format de fichier le prend en charge);
+        * détection automatique du format de fichier;
+        * spécifier un mot de passe pour les fichiers protégés (si le format de fichier le prend en charge);
         * remplacer les polices manquantes pour préserver l'apparence du document.
         
         Il existe également des options de conversion avancées pour le fichier XLS :
 
-        * convertir une page de document spécifique ou une plage de pages;
-        * ajouter un filigrane au fichier XLS converti et bien d'autres.
+        * convertir une page spécifique d'un document ou une plage de pages;
+        * ajouter un filigrane au XLS converti.
 
-        Une fois la conversion terminée, vous pouvez enregistrer votre fichier XLS dans le chemin du fichier local ou dans tout stockage tiers tel que FTP, Amazon S3, Google Drive, Dropbox, etc. Veuillez noter - pour convertir XLTM en XLS aucun logiciel supplémentaire n'est nécessaire - comme MS Office, Open Office, Adobe Acrobat Reader, etc.
+        Une fois la conversion terminée, vous pouvez enregistrer le fichier XLS dans votre chemin de fichier local ou dans un stockage tiers tel que FTP, Amazon S3, Google Drive, Dropbox, etc. Veuillez noter - pour convertir XLTM à XLS, vous n'avez pas besoin d'installer de logiciel supplémentaire, tel que MS Office, Open Office, Adobe Acrobat Reader, etc.
 
 
 ############################# Steps ############################
@@ -63,15 +63,15 @@ steps:
     enable: true
     title_left: "Étapes pour convertir XLTM en XLS en Java"
     content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) permet aux développeurs de convertir facilement un fichier XLTM en XLS avec quelques lignes de code.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) permet aux développeurs de convertir facilement le fichier XLTM en XLS avec quelques lignes de code.
         
-        * Créez une instance de la classe Converter et fournissez le fichier XLTM avec le chemin complet
-        * Créez et définissez ConvertOptions pour le type XLS.
-        * Appelez la méthode Converter.Convert et transmettez le chemin complet et le format (XLS) en tant que paramètre
+        * Créez une nouvelle instance de la classe Converter et téléchargez le fichier XLTM avec le chemin complet
+        * Définissez ConvertOptions pour le type de document sur XLS
+        * Appelez la méthode convert() et passez le nom du document (chemin complet) et le format (XLS) en tant que paramètre
 
     title_right: "Configuration requise"
     content_right: |
-        La conversion de base avec GroupDocs.Conversion for Java peut être effectuée en quelques étapes simples. Nos API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
+        La conversion de base avec l'API GroupDocs.Conversion for Java peut être effectuée avec seulement quelques lignes de code. Nos API sont prises en charge sur toutes les principales plates-formes et systèmes d'exploitation. Avant d'exécuter le code ci-dessous, assurez-vous que les prérequis suivants sont installés sur votre système.
 
         * Systèmes d'exploitation : Microsoft Windows, Linux, MacOS
         * Environnements de développement : NetBeans, Intellij IDEA, Eclipse, etc.
@@ -92,7 +92,7 @@ demos:
     enable: true
     title: "XLTM à XLS Démo en direct"
     content: |
-       Convertissez XLTM en XLS maintenant en visitant le site Web [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). La démo en ligne présente les avantages suivants
+       Visitez notre site Web [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) et essayez la conversion XLTM à XLS maintenant. La démo gratuite présente les avantages suivants
           
 
 more_formats:

@@ -1,14 +1,14 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-08-10T07:43:03
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: Java の DGN から PPTM
+breadcrumb: JavaでDGNからPPTMへ
 
 ############################# Head ############################
-head_title: "Java の DGN から PPTM へのコンバーター"
-head_description: "数行のコードを使用して、Java で DGN を PPTM に変換します。 GroupDocs ドキュメント変換 API を使用して、160 を超えるファイル形式を変換します。"
+head_title: "Java で DGN を PPTM に変換します"
+head_description: "Java での DGN から PPTM への変換を、数行のコードで行います。 Java の GroupDocs ドキュメント変換 API を使用して、160 を超えるファイル形式を変換します"
 
 ############################# Header ############################
 title: "Java で DGN を PPTM に変換します"
@@ -35,27 +35,27 @@ about:
     enable: true
     title: "GroupDocs.Conversion for Java API について"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) を使用して、Microsoft Word、Excel、PowerPoint、PDF、Visio、およびその他の形式を変換できます。 GroupDocs.Conversion は、高いパフォーマンスが要求されるバックエンドおよび内部システムに適したスタンドアロン API です。 Microsoft や Open Office などのソフトウェアには依存しません。
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) は、Microsoft Office、OpenDocument、PDF、HTML、電子メール、CAD などの一般的な画像とドキュメント形式の間で変換するための高度なファイル形式変換 API です。ほんの数行のコードでさらに多くのことができます。ネイティブ API は、元のドキュメントの形式を自動的に検出し、変換されたドキュメントをカスタマイズするための多くのオプションを提供します。ドキュメントから情報を抽出する機能に加えて、デフォルトで変換結果のローカル ディスクへのキャッシュもサポートしています。ただし、Amazon S3、Dropbox、Google Drive、Windows Azure、Reddis、またはその他の適切なインターフェイスを実装することで、あらゆるタイプのキャッシュ ストレージをサポートできます。
     
 
 overview:
     enable: true
     content: |
-        Java で DGN ファイルを PPTM に簡単に変換します。 Windows、Linux、macOS など、任意のプラットフォームで Java コード行を 2 行だけ使用できます。
-        DGN から PPTM への変換を無料で試して、変換結果の品質を評価できます。簡単なファイル変換のシナリオに加えて、ソース DGN ファイルをロードし、出力 PPTM 結果を保存するためのより高度なオプションを試すことができます。 
+        Java で DGN ファイルを PPTM に変換します。 Windows、Linux、macOS など、任意のプラットフォームで数行の Java コードを実行するだけです。
+        DGN を PPTM に無料で変換してみて、変換結果の品質を評価できます。シンプルなファイル変換スクリプトに加えて、DGN ソース ファイルをロードし、PPTM 出力を保存するためのより洗練されたオプションを試すことができます。 
         
         たとえば、ソース DGN ファイルの場合、次のロード オプションを使用できます。
 
-        * 自動検出ファイル形式;
+        * ファイル形式の自動検出;
         * 保護されたファイルのパスワードを指定する (ファイル形式がサポートしている場合);
-        * 不足しているフォントを置き換えてドキュメントの外観を維持する.
+        * ドキュメントの外観を維持するために不足しているフォントを置き換えます.
         
         PPTM ファイルの高度な変換オプションもあります。
 
-        * 特定の文書ページまたはページ範囲を変換する;
-        * 変換された PPTM ファイルなどに透かしを追加.
+        * ドキュメントの特定のページまたはページ範囲を変換する;
+        * 変換された PPTM に透かしを追加します.
 
-        変換が完了したら、PPTM ファイルをローカル ファイル パスまたは FTP、Amazon S3、Google Drive、Dropbox などのサードパーティ ストレージに保存できます。注意してください - DGN を {{ に変換するにはTO}} MS Office、Open Office、Adobe Acrobat Reader などの追加のソフトウェアをインストールする必要はありません。
+        変換が完了したら、PPTM ファイルをローカル ファイル パス、または FTP、Amazon S3、Google ドライブ、Dropbox などのサード パーティのストレージに保存できます。注意してください - DGN を変換するにはPPTM に、MS Office、Open Office、Adobe Acrobat Reader などの追加のソフトウェアをインストールする必要はありません。
 
 
 ############################# Steps ############################
@@ -65,13 +65,13 @@ steps:
     content_left: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) を使用すると、開発者は数行のコードで DGN ファイルを PPTM に簡単に変換できます。
         
-        * Converter クラスのインスタンスを作成し、ファイル DGN にフル パスを指定します。
-        * PPTM タイプの ConvertOptions を作成して設定します。
-        * Converter.Convert メソッドを呼び出し、完全なパスと形式 (PPTM) をパラメーターとして渡します。
+        * Converter クラスの新しいインスタンスを作成し、ファイル DGN をフル パスでアップロードします。
+        * ドキュメント タイプの ConvertOptions を PPTM に設定します
+        * convert() メソッドを呼び出し、ドキュメント名 (フル パス) と形式 (PPTM) をパラメーターとして渡します。
 
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Conversion for Java を使用した基本的な変換は、いくつかの簡単な手順で実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Conversion for Java API を使用した基本的な変換は、わずか数行のコードで実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
         * オペレーティング システム: Microsoft Windows、Linux、MacOS
         * 開発環境: NetBeans, Intellij IDEA, Eclipse, etc.
@@ -92,7 +92,7 @@ demos:
     enable: true
     title: "DGNからPPTMまでのライブデモ"
     content: |
-       [GroupDocs.Conversion アプリ](https://products.groupdocs.app/conversion/family) Web サイトにアクセスして、今すぐ DGN を PPTM に変換してください。オンラインデモには次の利点があります
+       [GroupDocs.Conversion アプリ](https://products.groupdocs.app/conversion/family) ウェブサイトにアクセスして、今すぐ DGN から PPTM への変換を試してください。無料デモには次の利点があります
           
 
 more_formats:

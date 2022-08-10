@@ -1,14 +1,14 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-08-10T07:39:31
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: DJVU nach TIFF in Java
+breadcrumb: DJVU bis TIFF in Java
 
 ############################# Head ############################
-head_title: "DJVU nach TIFF Konverter in Java"
-head_description: "Wandeln Sie DJVU in Java mit ein paar Zeilen Code in TIFF um. Verwenden Sie die GroupDocs Document Conversion API, um über 160 Dateiformate zu konvertieren."
+head_title: "Konvertiere DJVU in TIFF in Java"
+head_description: "Umwandlung von DJVU in TIFF in Java mit ein paar Zeilen Code. Konvertieren Sie über 160 Dateiformate mit der GroupDocs-Dokumentkonvertierungs-API für Java"
 
 ############################# Header ############################
 title: "Konvertiere DJVU in TIFF in Java"
@@ -35,27 +35,27 @@ about:
     enable: true
     title: "Über die GroupDocs.Conversion for Java-API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) kann verwendet werden, um Microsoft Word, Excel, PowerPoint, PDF, Visio und andere Formate zu konvertieren. GroupDocs.Conversion ist eine eigenständige API, die sich für Backend- und interne Systeme eignet, bei denen eine hohe Leistung erforderlich ist. Es ist unabhängig von Software wie Microsoft oder Open Office.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) ist eine erweiterte Dateiformat-Konvertierungs-API zum Konvertieren zwischen gängigen Bild- und Dokumentformaten wie Microsoft Office, OpenDocument, PDF, HTML, E-Mail, CAD. und vieles mehr mit nur wenigen Codezeilen. Die native API erkennt automatisch die Formate der Originaldokumente und bietet viele Optionen zur Anpassung der konvertierten Dokumente. Neben der Funktion zum Extrahieren von Informationen aus einem Dokument unterstützt es standardmäßig auch das Zwischenspeichern der Konvertierungsergebnisse auf der lokalen Festplatte. Es kann jedoch jede Art von Cache-Speicher unterstützt werden, indem die entsprechenden Schnittstellen implementiert werden – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis oder andere.
     
 
 overview:
     enable: true
     content: |
-        Konvertieren Sie Ihre DJVU-Dateien einfach in TIFF in Java. Sie können nur ein paar Java-Codezeilen auf jeder Plattform Ihrer Wahl verwenden, z. B. Windows, Linux, macOS.
-        Sie können die Konvertierung von DJVU nach TIFF kostenlos ausprobieren und die Qualität der Konvertierungsergebnisse bewerten. Neben einfachen Dateikonvertierungsszenarien können Sie erweiterte Optionen zum Laden der Quelldatei DJVU und zum Speichern des Ausgabeergebnisses TIFF ausprobieren. 
+        Konvertieren Sie Ihre DJVU-Dateien in TIFF in Java. Es dauert nur ein paar Zeilen Java-Code auf jeder Plattform Ihrer Wahl, wie Windows, Linux, macOS.
+        Sie können kostenlos versuchen, DJVU in TIFF umzuwandeln und die Qualität der Umwandlungsergebnisse zu bewerten. Neben einfachen Dateiumwandlungsskripten können Sie anspruchsvollere Optionen zum Laden der DJVU-Quelldatei und zum Speichern der TIFF-Ausgabe ausprobieren. 
         
         Beispielsweise können Sie für die Quelldatei DJVU die folgenden Ladeoptionen verwenden:
 
-        * Dateiformat automatisch erkennen;
-        * Passwort für geschützte Dateien festlegen (sofern Dateiformat dies unterstützt);
+        * automatische Erkennung des Dateiformats;
+        * Geben Sie ein Passwort für geschützte Dateien an (sofern das Dateiformat dies unterstützt).;
         * Ersetzen Sie fehlende Schriftarten, um das Erscheinungsbild des Dokuments beizubehalten.
         
         Es gibt auch erweiterte Konvertierungsoptionen für die TIFF-Datei:
 
-        * Konvertieren Sie eine bestimmte Dokumentseite oder einen Seitenbereich;
-        * Fügen Sie der konvertierten TIFF-Datei ein Wasserzeichen hinzu und vieles mehr.
+        * Konvertieren Sie eine bestimmte Seite eines Dokuments oder eine Reihe von Seiten;
+        * füge dem konvertierten TIFF ein Wasserzeichen hinzu.
 
-        Sobald die Konvertierung abgeschlossen ist, können Sie Ihre TIFF-Datei im lokalen Dateipfad oder auf einem Speicher von Drittanbietern wie FTP, Amazon S3, Google Drive, Dropbox usw. speichern. Bitte beachten Sie, dass Sie DJVU in TIFF muss keine zusätzliche Software installiert werden - wie MS Office, Open Office, Adobe Acrobat Reader etc.
+        Sobald die Konvertierung abgeschlossen ist, können Sie die TIFF-Datei in Ihrem lokalen Dateipfad oder auf einem beliebigen Speicher eines Drittanbieters wie FTP, Amazon S3, Google Drive, Dropbox usw. speichern. Bitte beachten Sie - um DJVU zu konvertieren zu TIFF müssen Sie keine zusätzliche Software wie MS Office, Open Office, Adobe Acrobat Reader etc. installieren.
 
 
 ############################# Steps ############################
@@ -63,15 +63,15 @@ steps:
     enable: true
     title_left: "Schritte zum Konvertieren von DJVU in TIFF in Java"
     content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) erleichtert Entwicklern das Konvertieren einer DJVU-Datei in TIFF mit wenigen Codezeilen.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) ermöglicht Entwicklern die einfache Konvertierung der DJVU-Datei in TIFF mit ein paar Codezeilen.
         
-        * Erstellen Sie eine Instanz der Converter-Klasse und geben Sie die Datei DJVU mit dem vollständigen Pfad an
-        * Erstellen und legen Sie ConvertOptions für den Typ TIFF fest.
-        * Rufen Sie die Methode Converter.Convert auf und übergeben Sie den vollständigen Pfad und das Format (TIFF) als Parameter
+        * Erstellen Sie eine neue Instanz der Converter-Klasse und laden Sie die Datei DJVU mit dem vollständigen Pfad hoch
+        * Legen Sie ConvertOptions für den Dokumenttyp auf TIFF fest
+        * Rufen Sie die Methode convert() auf und übergeben Sie den Dokumentnamen (vollständiger Pfad) und das Format (TIFF) als Parameter
 
     title_right: "System Anforderungen"
     content_right: |
-        Die grundlegende Konvertierung mit GroupDocs.Conversion for Java kann in nur wenigen einfachen Schritten durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        Die grundlegende Konvertierung mit der GroupDocs.Conversion for Java-API kann mit nur wenigen Codezeilen durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 
         * Betriebssysteme: Microsoft Windows, Linux, MacOS
         * Entwicklungsumgebungen: NetBeans, Intellij IDEA, Eclipse, etc.
@@ -92,7 +92,7 @@ demos:
     enable: true
     title: "Live-Demo von DJVU bis TIFF"
     content: |
-       Wandeln Sie jetzt DJVU in TIFF um, indem Sie die Website [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) besuchen. Die Online-Demo hat die folgenden Vorteile
+       Besuchen Sie unsere Website [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) und versuchen Sie jetzt die Konvertierung von DJVU in TIFF. Die kostenlose Demo hat die folgenden Vorteile
           
 
 more_formats:

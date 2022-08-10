@@ -1,14 +1,14 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-08-10T07:39:35
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: DIB nach EMZ in Java
+breadcrumb: DIB bis EMZ in Java
 
 ############################# Head ############################
-head_title: "DIB nach EMZ Konverter in Java"
-head_description: "Wandeln Sie DIB in Java mit ein paar Zeilen Code in EMZ um. Verwenden Sie die GroupDocs Document Conversion API, um über 160 Dateiformate zu konvertieren."
+head_title: "Konvertiere DIB in EMZ in Java"
+head_description: "Umwandlung von DIB in EMZ in Java mit ein paar Zeilen Code. Konvertieren Sie über 160 Dateiformate mit der GroupDocs-Dokumentkonvertierungs-API für Java"
 
 ############################# Header ############################
 title: "Konvertiere DIB in EMZ in Java"
@@ -35,27 +35,27 @@ about:
     enable: true
     title: "Über die GroupDocs.Conversion for Java-API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) kann verwendet werden, um Microsoft Word, Excel, PowerPoint, PDF, Visio und andere Formate zu konvertieren. GroupDocs.Conversion ist eine eigenständige API, die sich für Backend- und interne Systeme eignet, bei denen eine hohe Leistung erforderlich ist. Es ist unabhängig von Software wie Microsoft oder Open Office.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) ist eine erweiterte Dateiformat-Konvertierungs-API zum Konvertieren zwischen gängigen Bild- und Dokumentformaten wie Microsoft Office, OpenDocument, PDF, HTML, E-Mail, CAD. und vieles mehr mit nur wenigen Codezeilen. Die native API erkennt automatisch die Formate der Originaldokumente und bietet viele Optionen zur Anpassung der konvertierten Dokumente. Neben der Funktion zum Extrahieren von Informationen aus einem Dokument unterstützt es standardmäßig auch das Zwischenspeichern der Konvertierungsergebnisse auf der lokalen Festplatte. Es kann jedoch jede Art von Cache-Speicher unterstützt werden, indem die entsprechenden Schnittstellen implementiert werden – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis oder andere.
     
 
 overview:
     enable: true
     content: |
-        Konvertieren Sie Ihre DIB-Dateien einfach in EMZ in Java. Sie können nur ein paar Java-Codezeilen auf jeder Plattform Ihrer Wahl verwenden, z. B. Windows, Linux, macOS.
-        Sie können die Konvertierung von DIB nach EMZ kostenlos ausprobieren und die Qualität der Konvertierungsergebnisse bewerten. Neben einfachen Dateikonvertierungsszenarien können Sie erweiterte Optionen zum Laden der Quelldatei DIB und zum Speichern des Ausgabeergebnisses EMZ ausprobieren. 
+        Konvertieren Sie Ihre DIB-Dateien in EMZ in Java. Es dauert nur ein paar Zeilen Java-Code auf jeder Plattform Ihrer Wahl, wie Windows, Linux, macOS.
+        Sie können kostenlos versuchen, DIB in EMZ umzuwandeln und die Qualität der Umwandlungsergebnisse zu bewerten. Neben einfachen Dateiumwandlungsskripten können Sie anspruchsvollere Optionen zum Laden der DIB-Quelldatei und zum Speichern der EMZ-Ausgabe ausprobieren. 
         
         Beispielsweise können Sie für die Quelldatei DIB die folgenden Ladeoptionen verwenden:
 
-        * Dateiformat automatisch erkennen;
-        * Passwort für geschützte Dateien festlegen (sofern Dateiformat dies unterstützt);
+        * automatische Erkennung des Dateiformats;
+        * Geben Sie ein Passwort für geschützte Dateien an (sofern das Dateiformat dies unterstützt).;
         * Ersetzen Sie fehlende Schriftarten, um das Erscheinungsbild des Dokuments beizubehalten.
         
         Es gibt auch erweiterte Konvertierungsoptionen für die EMZ-Datei:
 
-        * Konvertieren Sie eine bestimmte Dokumentseite oder einen Seitenbereich;
-        * Fügen Sie der konvertierten EMZ-Datei ein Wasserzeichen hinzu und vieles mehr.
+        * Konvertieren Sie eine bestimmte Seite eines Dokuments oder eine Reihe von Seiten;
+        * füge dem konvertierten EMZ ein Wasserzeichen hinzu.
 
-        Sobald die Konvertierung abgeschlossen ist, können Sie Ihre EMZ-Datei im lokalen Dateipfad oder auf einem Speicher von Drittanbietern wie FTP, Amazon S3, Google Drive, Dropbox usw. speichern. Bitte beachten Sie, dass Sie DIB in EMZ muss keine zusätzliche Software installiert werden - wie MS Office, Open Office, Adobe Acrobat Reader etc.
+        Sobald die Konvertierung abgeschlossen ist, können Sie die EMZ-Datei in Ihrem lokalen Dateipfad oder auf einem beliebigen Speicher eines Drittanbieters wie FTP, Amazon S3, Google Drive, Dropbox usw. speichern. Bitte beachten Sie - um DIB zu konvertieren zu EMZ müssen Sie keine zusätzliche Software wie MS Office, Open Office, Adobe Acrobat Reader etc. installieren.
 
 
 ############################# Steps ############################
@@ -63,15 +63,15 @@ steps:
     enable: true
     title_left: "Schritte zum Konvertieren von DIB in EMZ in Java"
     content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) erleichtert Entwicklern das Konvertieren einer DIB-Datei in EMZ mit wenigen Codezeilen.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) ermöglicht Entwicklern die einfache Konvertierung der DIB-Datei in EMZ mit ein paar Codezeilen.
         
-        * Erstellen Sie eine Instanz der Converter-Klasse und geben Sie die Datei DIB mit dem vollständigen Pfad an
-        * Erstellen und legen Sie ConvertOptions für den Typ EMZ fest.
-        * Rufen Sie die Methode Converter.Convert auf und übergeben Sie den vollständigen Pfad und das Format (EMZ) als Parameter
+        * Erstellen Sie eine neue Instanz der Converter-Klasse und laden Sie die Datei DIB mit dem vollständigen Pfad hoch
+        * Legen Sie ConvertOptions für den Dokumenttyp auf EMZ fest
+        * Rufen Sie die Methode convert() auf und übergeben Sie den Dokumentnamen (vollständiger Pfad) und das Format (EMZ) als Parameter
 
     title_right: "System Anforderungen"
     content_right: |
-        Die grundlegende Konvertierung mit GroupDocs.Conversion for Java kann in nur wenigen einfachen Schritten durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
+        Die grundlegende Konvertierung mit der GroupDocs.Conversion for Java-API kann mit nur wenigen Codezeilen durchgeführt werden. Unsere APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Stellen Sie vor dem Ausführen des folgenden Codes sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.
 
         * Betriebssysteme: Microsoft Windows, Linux, MacOS
         * Entwicklungsumgebungen: NetBeans, Intellij IDEA, Eclipse, etc.
@@ -92,7 +92,7 @@ demos:
     enable: true
     title: "Live-Demo von DIB bis EMZ"
     content: |
-       Wandeln Sie jetzt DIB in EMZ um, indem Sie die Website [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) besuchen. Die Online-Demo hat die folgenden Vorteile
+       Besuchen Sie unsere Website [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) und versuchen Sie jetzt die Konvertierung von DIB in EMZ. Die kostenlose Demo hat die folgenden Vorteile
           
 
 more_formats:

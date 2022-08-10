@@ -1,14 +1,14 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-08-10T07:45:29
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java 中的 CMX 到 PPSX
 
 ############################# Head ############################
-head_title: "Java 中的 CMX 到 PPSX 转换器"
-head_description: "使用几行代码将 Java 中的 CMX 转换为 PPSX。使用 GroupDocs 文档转换 API 转换 160 多种文件格式。"
+head_title: "在 Java 中将 CMX 转换为 PPSX"
+head_description: "Java 中的 CMX 到 PPSX 转换只需几行代码。使用用于 Java 的 GroupDocs 文档转换 API 转换 160 多种文件格式"
 
 ############################# Header ############################
 title: "在 Java 中将 CMX 转换为 PPSX"
@@ -35,27 +35,27 @@ about:
     enable: true
     title: "关于 GroupDocs.Conversion for Java API"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/)可用于转换Microsoft Word、Excel、PowerPoint、PDF、Visio等格式。 GroupDocs.Conversion 是一个独立的 API，适用于需要高性能的后端和内部系统。它不依赖于任何软件，例如 Microsoft 或 Open Office。
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) 是一种高级文件格式转换 API，用于在 Microsoft Office、OpenDocument、PDF、HTML、电子邮件、CAD 等流行图像和文档格式之间进行转换。只需几行代码即可完成更多工作。本机 API 会自动检测原始文档的格式，并提供许多选项来自定义转换后的文档。除了从文档中提取信息的功能外，它还默认支持将转换结果缓存到本地磁盘。但是，任何类型的缓存存储都可以通过实施适当的接口来支持 - Amazon S3、Dropbox、Google Drive、Windows Azure、Reddis 或任何其他接口。
     
 
 overview:
     enable: true
     content: |
-        轻松将您的 CMX 文件转换为 Java 中的 PPSX。您可以在您选择的任何平台（如 Windows、Linux、macOS）中仅使用几行 Java 代码行。
-        您可以免费试用 CMX 到 PPSX 转换并评估转换结果的质量。除了简单的文件转换场景，您还可以尝试更高级的选项来加载源 CMX 文件和保存输出 PPSX 结果。 
+        将您的 CMX 文件转换为 Java 中的 PPSX。在您选择的任何平台（例如 Windows、Linux、macOS）上，只需几行 Java 代码。
+        您可以尝试免费将 CMX 转换为 PPSX 并评估转换结果的质量。除了简单的文件转换脚本外，您还可以尝试更复杂的选项来加载 CMX 源文件并存储 PPSX 输出。 
         
         例如，对于源 CMX 文件，您可以使用以下加载选项：
 
         * 自动检测文件格式;
         * 指定受保护文件的密码（如果文件格式支持）;
-        * 替换丢失的字体以保留文档外观.
+        * 替换丢失的字体以保留文档的外观.
         
         PPSX 文件还有高级转换选项：
 
-        * 转换特定文档页面或页面范围;
-        * 将水印添加到转换后的 PPSX 文件等等.
+        * 转换文档的特定页面或页面范围;
+        * 为转换后的 PPSX 添加水印.
 
-        转换完成后，您可以将 PPSX 文件保存到本地文件路径或任何第三方存储，如 FTP、Amazon S3、Google Drive、Dropbox 等。请注意 - 将 CMX 转换为 PPSX 无需安装任何额外的软件 - 如 MS Office、Open Office、Adobe Acrobat Reader 等。
+        转换完成后，您可以将 PPSX 文件保存到本地文件路径或任何第三方存储，例如 FTP、Amazon S3、Google Drive、Dropbox 等。请注意 - 转换 CMX到 PPSX，您不需要安装任何额外的软件，例如 MS Office、Open Office、Adobe Acrobat Reader 等。
 
 
 ############################# Steps ############################
@@ -63,15 +63,15 @@ steps:
     enable: true
     title_left: "在 Java 中将 CMX 转换为 PPSX 的步骤"
     content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) 让开发人员只需几行代码即可轻松地将 CMX 文件转换为 PPSX。
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) 允许开发人员使用几行代码轻松地将 CMX 文件转换为 PPSX。
         
-        * 创建 Converter 类的实例并为文件 CMX 提供完整路径
-        * 为 PPSX 类型创建并设置 ConvertOptions。
-        * 调用 Converter.Convert 方法并将完整路径和格式 (PPSX) 作为参数传递
+        * 创建一个 Converter 类的新实例并上传带有完整路径的文件 CMX
+        * 将文档类型的 ConvertOptions 设置为 PPSX
+        * 调用 convert() 方法并将文档名称（完整路径）和格式（PPSX）作为参数传递
 
     title_right: "系统要求"
     content_right: |
-        GroupDocs.Conversion for Java 的基本转换只需几个简单的步骤即可完成。所有主要平台和操作系统都支持我们的 API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
+        使用 GroupDocs.Conversion for Java API 的基本转换只需几行代码即可完成。所有主要平台和操作系统都支持我们的 API。在执行以下代码之前，请确保您的系统上安装了以下先决条件。
 
         * 操作系统：Microsoft Windows、Linux、MacOS
         * 开发环境：NetBeans, Intellij IDEA, Eclipse, etc.
@@ -92,7 +92,7 @@ demos:
     enable: true
     title: "CMX 到 PPSX 现场演示"
     content: |
-       现在通过访问 [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) 网站将 CMX 转换为 PPSX。在线演示具有以下优点
+       访问我们的 [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) 网站并立即尝试 CMX 到 PPSX 转换。免费演示具有以下好处
           
 
 more_formats:

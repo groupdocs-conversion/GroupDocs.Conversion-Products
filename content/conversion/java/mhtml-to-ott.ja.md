@@ -1,14 +1,14 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-08-10T07:42:58
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: Java の MHTML から OTT
+breadcrumb: JavaでMHTMLからOTTへ
 
 ############################# Head ############################
-head_title: "Java の MHTML から OTT へのコンバーター"
-head_description: "数行のコードを使用して、Java で MHTML を OTT に変換します。 GroupDocs ドキュメント変換 API を使用して、160 を超えるファイル形式を変換します。"
+head_title: "Java で MHTML を OTT に変換します"
+head_description: "Java での MHTML から OTT への変換を、数行のコードで行います。 Java の GroupDocs ドキュメント変換 API を使用して、160 を超えるファイル形式を変換します"
 
 ############################# Header ############################
 title: "Java で MHTML を OTT に変換します"
@@ -35,27 +35,27 @@ about:
     enable: true
     title: "GroupDocs.Conversion for Java API について"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) を使用して、Microsoft Word、Excel、PowerPoint、PDF、Visio、およびその他の形式を変換できます。 GroupDocs.Conversion は、高いパフォーマンスが要求されるバックエンドおよび内部システムに適したスタンドアロン API です。 Microsoft や Open Office などのソフトウェアには依存しません。
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) は、Microsoft Office、OpenDocument、PDF、HTML、電子メール、CAD などの一般的な画像とドキュメント形式の間で変換するための高度なファイル形式変換 API です。ほんの数行のコードでさらに多くのことができます。ネイティブ API は、元のドキュメントの形式を自動的に検出し、変換されたドキュメントをカスタマイズするための多くのオプションを提供します。ドキュメントから情報を抽出する機能に加えて、デフォルトで変換結果のローカル ディスクへのキャッシュもサポートしています。ただし、Amazon S3、Dropbox、Google Drive、Windows Azure、Reddis、またはその他の適切なインターフェイスを実装することで、あらゆるタイプのキャッシュ ストレージをサポートできます。
     
 
 overview:
     enable: true
     content: |
-        Java で MHTML ファイルを OTT に簡単に変換します。 Windows、Linux、macOS など、任意のプラットフォームで Java コード行を 2 行だけ使用できます。
-        MHTML から OTT への変換を無料で試して、変換結果の品質を評価できます。簡単なファイル変換のシナリオに加えて、ソース MHTML ファイルをロードし、出力 OTT 結果を保存するためのより高度なオプションを試すことができます。 
+        Java で MHTML ファイルを OTT に変換します。 Windows、Linux、macOS など、任意のプラットフォームで数行の Java コードを実行するだけです。
+        MHTML を OTT に無料で変換してみて、変換結果の品質を評価できます。シンプルなファイル変換スクリプトに加えて、MHTML ソース ファイルをロードし、OTT 出力を保存するためのより洗練されたオプションを試すことができます。 
         
         たとえば、ソース MHTML ファイルの場合、次のロード オプションを使用できます。
 
-        * 自動検出ファイル形式;
+        * ファイル形式の自動検出;
         * 保護されたファイルのパスワードを指定する (ファイル形式がサポートしている場合);
-        * 不足しているフォントを置き換えてドキュメントの外観を維持する.
+        * ドキュメントの外観を維持するために不足しているフォントを置き換えます.
         
         OTT ファイルの高度な変換オプションもあります。
 
-        * 特定の文書ページまたはページ範囲を変換する;
-        * 変換された OTT ファイルなどに透かしを追加.
+        * ドキュメントの特定のページまたはページ範囲を変換する;
+        * 変換された OTT に透かしを追加します.
 
-        変換が完了したら、OTT ファイルをローカル ファイル パスまたは FTP、Amazon S3、Google Drive、Dropbox などのサードパーティ ストレージに保存できます。注意してください - MHTML を {{ に変換するにはTO}} MS Office、Open Office、Adobe Acrobat Reader などの追加のソフトウェアをインストールする必要はありません。
+        変換が完了したら、OTT ファイルをローカル ファイル パス、または FTP、Amazon S3、Google ドライブ、Dropbox などのサード パーティのストレージに保存できます。注意してください - MHTML を変換するにはOTT に、MS Office、Open Office、Adobe Acrobat Reader などの追加のソフトウェアをインストールする必要はありません。
 
 
 ############################# Steps ############################
@@ -65,13 +65,13 @@ steps:
     content_left: |
         [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) を使用すると、開発者は数行のコードで MHTML ファイルを OTT に簡単に変換できます。
         
-        * Converter クラスのインスタンスを作成し、ファイル MHTML にフル パスを指定します。
-        * OTT タイプの ConvertOptions を作成して設定します。
-        * Converter.Convert メソッドを呼び出し、完全なパスと形式 (OTT) をパラメーターとして渡します。
+        * Converter クラスの新しいインスタンスを作成し、ファイル MHTML をフル パスでアップロードします。
+        * ドキュメント タイプの ConvertOptions を OTT に設定します
+        * convert() メソッドを呼び出し、ドキュメント名 (フル パス) と形式 (OTT) をパラメーターとして渡します。
 
     title_right: "システム要求"
     content_right: |
-        GroupDocs.Conversion for Java を使用した基本的な変換は、いくつかの簡単な手順で実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Conversion for Java API を使用した基本的な変換は、わずか数行のコードで実行できます。当社の API は、すべての主要なプラットフォームとオペレーティング システムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
         * オペレーティング システム: Microsoft Windows、Linux、MacOS
         * 開発環境: NetBeans, Intellij IDEA, Eclipse, etc.
@@ -92,7 +92,7 @@ demos:
     enable: true
     title: "MHTMLからOTTまでのライブデモ"
     content: |
-       [GroupDocs.Conversion アプリ](https://products.groupdocs.app/conversion/family) Web サイトにアクセスして、今すぐ MHTML を OTT に変換してください。オンラインデモには次の利点があります
+       [GroupDocs.Conversion アプリ](https://products.groupdocs.app/conversion/family) ウェブサイトにアクセスして、今すぐ MHTML から OTT への変換を試してください。無料デモには次の利点があります
           
 
 more_formats:

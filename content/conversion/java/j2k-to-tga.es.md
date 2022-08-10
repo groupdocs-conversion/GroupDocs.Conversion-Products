@@ -1,14 +1,14 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-08-10T07:41:09
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2K a TGA en Java
 
 ############################# Head ############################
-head_title: "Conversor de J2K a TGA en Java"
-head_description: "Convierta J2K a TGA en Java usando unas pocas líneas de código. Utilice la API de conversión de documentos de GroupDocs para convertir más de 160 formatos de archivo."
+head_title: "Convertir J2K a TGA en Java"
+head_description: "Conversión de J2K a TGA en Java con unas pocas líneas de código. Convierta más de 160 formatos de archivo con la API de conversión de documentos de GroupDocs para Java"
 
 ############################# Header ############################
 title: "Convertir J2K a TGA en Java"
@@ -35,27 +35,27 @@ about:
     enable: true
     title: "Acerca de la API de GroupDocs.Conversion for Java"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) se puede usar para convertir Microsoft Word, Excel, PowerPoint, PDF, Visio y otros formatos. GroupDocs.Conversion es una API independiente que es adecuada para sistemas internos y de back-end donde se requiere un alto rendimiento. No depende de ningún software como Microsoft u Open Office.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) es una API de conversión de formato de archivo avanzada para convertir entre formatos populares de imagen y documento como Microsoft Office, OpenDocument, PDF, HTML, correo electrónico, CAD. y mucho más con solo unas pocas líneas de código. La API nativa detecta automáticamente los formatos de los documentos originales y ofrece muchas opciones para personalizar los documentos convertidos. Junto con la función de extraer información de un documento, también admite el almacenamiento en caché de los resultados de la conversión en el disco local de forma predeterminada. Sin embargo, se puede admitir cualquier tipo de almacenamiento en caché mediante la implementación de las interfaces adecuadas: Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis o cualquier otra.
     
 
 overview:
     enable: true
     content: |
-        Convierta sus archivos J2K a TGA en Java fácilmente. Puede usar solo un par de líneas de código Java en cualquier plataforma de su elección, como Windows, Linux, macOS.
-        Puede probar la conversión de J2K a TGA de forma gratuita y evaluar la calidad de los resultados de la conversión. Junto con los escenarios de conversión de archivos simples, puede probar opciones más avanzadas para cargar el archivo de origen J2K y para guardar el resultado de salida TGA. 
+        Convierta sus archivos J2K a TGA en Java. Solo se necesitan un par de líneas de código Java en cualquier plataforma de su elección, como Windows, Linux, macOS.
+        Puede intentar convertir J2K a TGA de forma gratuita y evaluar la calidad de los resultados de la conversión. Junto con los sencillos scripts de conversión de archivos, puede probar opciones más sofisticadas para cargar el archivo de origen J2K y almacenar la salida TGA. 
         
         Por ejemplo, para el archivo fuente J2K, puede usar las siguientes opciones de carga:
 
-        * formato de archivo de detección automática;
-        * especifique la contraseña para los archivos protegidos (si el formato de archivo lo admite);
-        * reemplace las fuentes que faltan para preservar la apariencia del documento.
+        * detección automática del formato de archivo;
+        * especificar una contraseña para archivos protegidos (si el formato de archivo lo admite);
+        * reemplazar las fuentes que faltan para preservar la apariencia del documento.
         
         También hay opciones de conversión avanzadas para el archivo TGA:
 
-        * convertir página de documento específico o rango de página;
-        * agregue una marca de agua al archivo TGA convertido y mucho más.
+        * convertir una página específica de un documento o un rango de páginas;
+        * agregue una marca de agua al TGA convertido.
 
-        Una vez completada la conversión, puede guardar su archivo TGA en la ruta del archivo local o en cualquier almacenamiento de terceros como FTP, Amazon S3, Google Drive, Dropbox, etc. Tenga en cuenta que para convertir J2K a TGA no es necesario instalar ningún software adicional, como MS Office, Open Office, Adobe Acrobat Reader, etc.
+        Una vez completada la conversión, puede guardar el archivo TGA en su ruta de archivo local o en cualquier almacenamiento de terceros, como FTP, Amazon S3, Google Drive, Dropbox, etc. Tenga en cuenta que para convertir J2K a TGA, no necesita instalar ningún software adicional, como MS Office, Open Office, Adobe Acrobat Reader, etc.
 
 
 ############################# Steps ############################
@@ -63,20 +63,20 @@ steps:
     enable: true
     title_left: "Pasos para convertir J2K a TGA en Java"
     content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) facilita a los desarrolladores convertir un archivo J2K a TGA con unas pocas líneas de código.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) permite a los desarrolladores convertir fácilmente el archivo J2K a TGA con unas pocas líneas de código.
         
-        * Cree una instancia de la clase Converter y proporcione el archivo J2K con la ruta completa
-        * Cree y establezca ConvertOptions para el tipo TGA.
-        * Llame al método Converter.Convert y pase la ruta completa y el formato (TGA) como parámetro
+        * Cree una nueva instancia de la clase Converter y cargue el archivo J2K con la ruta completa
+        * Establezca ConvertOptions para el tipo de documento en TGA
+        * Llame al método convert() y pase el nombre del documento (ruta completa) y el formato (TGA) como parámetro
 
     title_right: "Requisitos del sistema"
     content_right: |
-        La conversión básica con GroupDocs.Conversion for Java se puede realizar en unos pocos pasos simples. Nuestras API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
+        La conversión básica con la API de GroupDocs.Conversion for Java se puede realizar con solo unas pocas líneas de código. Nuestras API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 
         * Sistemas operativos: Microsoft Windows, Linux, Mac OS
         * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * Obtén el último GroupDocs.Conversion for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Obtenga el último GroupDocs.Conversion for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
          
     code: |
         ```java    
@@ -92,7 +92,7 @@ demos:
     enable: true
     title: "J2K a TGA demostración en vivo"
     content: |
-       Convierta J2K a TGA ahora visitando el sitio web de [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). La demostración en línea tiene las siguientes ventajas
+       Visite nuestro sitio web de [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) y pruebe la conversión de J2K a TGA ahora. La demostración gratuita tiene los siguientes beneficios
           
 
 more_formats:

@@ -1,14 +1,14 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-08-10T07:41:07
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLS a DIF en Java
 
 ############################# Head ############################
-head_title: "Conversor de XLS a DIF en Java"
-head_description: "Convierta XLS a DIF en Java usando unas pocas líneas de código. Utilice la API de conversión de documentos de GroupDocs para convertir más de 160 formatos de archivo."
+head_title: "Convertir XLS a DIF en Java"
+head_description: "Conversión de XLS a DIF en Java con unas pocas líneas de código. Convierta más de 160 formatos de archivo con la API de conversión de documentos de GroupDocs para Java"
 
 ############################# Header ############################
 title: "Convertir XLS a DIF en Java"
@@ -35,27 +35,27 @@ about:
     enable: true
     title: "Acerca de la API de GroupDocs.Conversion for Java"
     content: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) se puede usar para convertir Microsoft Word, Excel, PowerPoint, PDF, Visio y otros formatos. GroupDocs.Conversion es una API independiente que es adecuada para sistemas internos y de back-end donde se requiere un alto rendimiento. No depende de ningún software como Microsoft u Open Office.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) es una API de conversión de formato de archivo avanzada para convertir entre formatos populares de imagen y documento como Microsoft Office, OpenDocument, PDF, HTML, correo electrónico, CAD. y mucho más con solo unas pocas líneas de código. La API nativa detecta automáticamente los formatos de los documentos originales y ofrece muchas opciones para personalizar los documentos convertidos. Junto con la función de extraer información de un documento, también admite el almacenamiento en caché de los resultados de la conversión en el disco local de forma predeterminada. Sin embargo, se puede admitir cualquier tipo de almacenamiento en caché mediante la implementación de las interfaces adecuadas: Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis o cualquier otra.
     
 
 overview:
     enable: true
     content: |
-        Convierta sus archivos XLS a DIF en Java fácilmente. Puede usar solo un par de líneas de código Java en cualquier plataforma de su elección, como Windows, Linux, macOS.
-        Puede probar la conversión de XLS a DIF de forma gratuita y evaluar la calidad de los resultados de la conversión. Junto con los escenarios de conversión de archivos simples, puede probar opciones más avanzadas para cargar el archivo de origen XLS y para guardar el resultado de salida DIF. 
+        Convierta sus archivos XLS a DIF en Java. Solo se necesitan un par de líneas de código Java en cualquier plataforma de su elección, como Windows, Linux, macOS.
+        Puede intentar convertir XLS a DIF de forma gratuita y evaluar la calidad de los resultados de la conversión. Junto con los sencillos scripts de conversión de archivos, puede probar opciones más sofisticadas para cargar el archivo de origen XLS y almacenar la salida DIF. 
         
         Por ejemplo, para el archivo fuente XLS, puede usar las siguientes opciones de carga:
 
-        * formato de archivo de detección automática;
-        * especifique la contraseña para los archivos protegidos (si el formato de archivo lo admite);
-        * reemplace las fuentes que faltan para preservar la apariencia del documento.
+        * detección automática del formato de archivo;
+        * especificar una contraseña para archivos protegidos (si el formato de archivo lo admite);
+        * reemplazar las fuentes que faltan para preservar la apariencia del documento.
         
         También hay opciones de conversión avanzadas para el archivo DIF:
 
-        * convertir página de documento específico o rango de página;
-        * agregue una marca de agua al archivo DIF convertido y mucho más.
+        * convertir una página específica de un documento o un rango de páginas;
+        * agregue una marca de agua al DIF convertido.
 
-        Una vez completada la conversión, puede guardar su archivo DIF en la ruta del archivo local o en cualquier almacenamiento de terceros como FTP, Amazon S3, Google Drive, Dropbox, etc. Tenga en cuenta que para convertir XLS a DIF no es necesario instalar ningún software adicional, como MS Office, Open Office, Adobe Acrobat Reader, etc.
+        Una vez completada la conversión, puede guardar el archivo DIF en su ruta de archivo local o en cualquier almacenamiento de terceros, como FTP, Amazon S3, Google Drive, Dropbox, etc. Tenga en cuenta que para convertir XLS a DIF, no necesita instalar ningún software adicional, como MS Office, Open Office, Adobe Acrobat Reader, etc.
 
 
 ############################# Steps ############################
@@ -63,20 +63,20 @@ steps:
     enable: true
     title_left: "Pasos para convertir XLS a DIF en Java"
     content_left: |
-        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) facilita a los desarrolladores convertir un archivo XLS a DIF con unas pocas líneas de código.
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) permite a los desarrolladores convertir fácilmente el archivo XLS a DIF con unas pocas líneas de código.
         
-        * Cree una instancia de la clase Converter y proporcione el archivo XLS con la ruta completa
-        * Cree y establezca ConvertOptions para el tipo DIF.
-        * Llame al método Converter.Convert y pase la ruta completa y el formato (DIF) como parámetro
+        * Cree una nueva instancia de la clase Converter y cargue el archivo XLS con la ruta completa
+        * Establezca ConvertOptions para el tipo de documento en DIF
+        * Llame al método convert() y pase el nombre del documento (ruta completa) y el formato (DIF) como parámetro
 
     title_right: "Requisitos del sistema"
     content_right: |
-        La conversión básica con GroupDocs.Conversion for Java se puede realizar en unos pocos pasos simples. Nuestras API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
+        La conversión básica con la API de GroupDocs.Conversion for Java se puede realizar con solo unas pocas líneas de código. Nuestras API son compatibles con todas las principales plataformas y sistemas operativos. Antes de ejecutar el código a continuación, asegúrese de tener instalados los siguientes requisitos previos en su sistema.
 
         * Sistemas operativos: Microsoft Windows, Linux, Mac OS
         * Entornos de desarrollo: NetBeans, Intellij IDEA, Eclipse, etc.
         * Java runtime: J2SE 6.0 and above
-        * Obtén el último GroupDocs.Conversion for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        * Obtenga el último GroupDocs.Conversion for Java de [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
          
     code: |
         ```java    
@@ -92,7 +92,7 @@ demos:
     enable: true
     title: "XLS a DIF demostración en vivo"
     content: |
-       Convierta XLS a DIF ahora visitando el sitio web de [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). La demostración en línea tiene las siguientes ventajas
+       Visite nuestro sitio web de [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) y pruebe la conversión de XLS a DIF ahora. La demostración gratuita tiene los siguientes beneficios
           
 
 more_formats:

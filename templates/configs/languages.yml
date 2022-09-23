@@ -1,7 +1,7 @@
 dimensions: 
 - alias: lang
 ##  values: [en] ## UNCOMMENT FOR TESTING
-  values: [en, de, es, fr, ja, ko, ru, zh]
+  values: [en, de, es, fr, ja, ko, ru, uk, zh]
 
 dictionaries: ["..\\data\\content_{product}.{lang}.json"]
 

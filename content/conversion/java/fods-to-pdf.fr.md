@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:12
+date: 2022-10-12T19:58:44
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: FODS à PDF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source FODS pour la conversion
-        Converter converter = new Converter("input.fods");
-        // Préparer les options de conversion pour le format cible PDF
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // Convertir au format PDF
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.fods");
+          // Préparer les options de conversion pour le format cible PDF
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // Convertir au format PDF
+          converter.convert("output.pdf", convertOptions);
         ```
 
 demos:

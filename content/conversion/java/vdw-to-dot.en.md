@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:31
+date: 2022-10-12T19:57:34
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VDW to DOT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file VDW for conversion
-        Converter converter = new Converter("input.vdw");
-        // Prepare conversion options for target format DOT
-        ConvertOptions convertOptions = new FileType().fromExtension("dot").getConvertOptions();
-        // Convert to DOT format
-        converter.convert("output.dot", convertOptions);
+          Converter converter = new Converter("input.vdw");
+          // Prepare conversion options for target format DOT
+          ConvertOptions convertOptions = new FileType().fromExtension("dot").getConvertOptions();
+          // Convert to DOT format
+          converter.convert("output.dot", convertOptions);
         ```
 
 demos:

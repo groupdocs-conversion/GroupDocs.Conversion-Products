@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:18
+date: 2022-10-12T20:00:19
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C# 中的 CF2 到 DOCX
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 CF2 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // 为目标格式 DOCX 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
-        // 转换为 DOCX 格式
-        converter.Convert("output.docx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cf2");
+          // 为目标格式 DOCX 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
+          // 转换为 DOCX 格式
+          converter.Convert("output.docx", convertOptions);
         ```
 
 demos:

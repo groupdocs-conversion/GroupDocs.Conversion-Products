@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:49
+date: 2022-10-12T19:59:41
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: GIF в PSD на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл GIF для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.gif");
-        // Задайте параметры преобразования для целевого формата PSD
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // Преобразуйте файл в PSD формат
-        converter.Convert("output.psd", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.gif");
+          // Задайте параметры преобразования для целевого формата PSD
+          var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
+          // Преобразуйте файл в PSD формат
+          converter.Convert("output.psd", convertOptions);
         ```
 
 demos:

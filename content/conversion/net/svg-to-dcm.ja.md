@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:22
+date: 2022-10-12T19:59:00
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の SVG から DCM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル SVG を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.svg");
-        // ターゲット形式の変換オプションを準備 DCM
-        var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
-        // DCM形式に変換
-        converter.Convert("output.dcm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.svg");
+          // ターゲット形式の変換オプションを準備 DCM
+          var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
+          // DCM形式に変換
+          converter.Convert("output.dcm", convertOptions);
         ```
 
 demos:

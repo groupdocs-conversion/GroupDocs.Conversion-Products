@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:44
+date: 2022-10-12T19:57:58
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: ODT bis OTT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei ODT zur Konvertierung laden
-        Converter converter = new Converter("input.odt");
-        // Konvertierungsoptionen für das Zielformat OTT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
-        // In das OTT-Format konvertieren
-        converter.convert("output.ott", convertOptions);
+          Converter converter = new Converter("input.odt");
+          // Konvertierungsoptionen für das Zielformat OTT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
+          // In das OTT-Format konvertieren
+          converter.convert("output.ott", convertOptions);
         ```
 
 demos:

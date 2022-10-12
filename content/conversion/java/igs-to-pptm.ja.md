@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:27
+date: 2022-10-12T19:59:07
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: JavaでIGSからPPTMへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル IGS を読み込みます
-        Converter converter = new Converter("input.igs");
-        // ターゲット形式の変換オプションを準備 PPTM
-        ConvertOptions convertOptions = new FileType().fromExtension("pptm").getConvertOptions();
-        // PPTM形式に変換
-        converter.convert("output.pptm", convertOptions);
+          Converter converter = new Converter("input.igs");
+          // ターゲット形式の変換オプションを準備 PPTM
+          ConvertOptions convertOptions = new FileType().fromExtension("pptm").getConvertOptions();
+          // PPTM形式に変換
+          converter.convert("output.pptm", convertOptions);
         ```
 
 demos:

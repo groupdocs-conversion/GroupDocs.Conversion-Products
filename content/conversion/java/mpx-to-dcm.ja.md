@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:28
+date: 2022-10-12T19:59:09
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: JavaでMPXからDCMへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル MPX を読み込みます
-        Converter converter = new Converter("input.mpx");
-        // ターゲット形式の変換オプションを準備 DCM
-        ConvertOptions convertOptions = new FileType().fromExtension("dcm").getConvertOptions();
-        // DCM形式に変換
-        converter.convert("output.dcm", convertOptions);
+          Converter converter = new Converter("input.mpx");
+          // ターゲット形式の変換オプションを準備 DCM
+          ConvertOptions convertOptions = new FileType().fromExtension("dcm").getConvertOptions();
+          // DCM形式に変換
+          converter.convert("output.dcm", convertOptions);
         ```
 
 demos:

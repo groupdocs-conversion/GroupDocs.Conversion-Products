@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:01
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVG bis TIFF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei SVG zur Konvertierung laden
-        Converter converter = new Converter("input.svg");
-        // Konvertierungsoptionen für das Zielformat TIFF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // In das TIFF-Format konvertieren
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.svg");
+          // Konvertierungsoptionen für das Zielformat TIFF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // In das TIFF-Format konvertieren
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

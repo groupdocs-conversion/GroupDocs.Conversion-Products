@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:58
+date: 2022-10-12T19:58:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPX a PPTX en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente JPX para la conversión
-        Converter converter = new Converter("input.jpx");
-        // Preparar opciones de conversión para el formato de destino PPTX
-        ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
-        // Convertir al formato PPTX
-        converter.convert("output.pptx", convertOptions);
+          Converter converter = new Converter("input.jpx");
+          // Preparar opciones de conversión para el formato de destino PPTX
+          ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
+          // Convertir al formato PPTX
+          converter.convert("output.pptx", convertOptions);
         ```
 
 demos:

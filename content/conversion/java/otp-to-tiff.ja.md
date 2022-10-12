@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:29
+date: 2022-10-12T19:59:10
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: JavaでOTPからTIFFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル OTP を読み込みます
-        Converter converter = new Converter("input.otp");
-        // ターゲット形式の変換オプションを準備 TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // TIFF形式に変換
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.otp");
+          // ターゲット形式の変換オプションを準備 TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // TIFF形式に変換
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

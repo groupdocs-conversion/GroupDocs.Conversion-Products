@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:44
+date: 2022-10-12T19:57:58
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OST bis XPS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei OST zur Konvertierung laden
-        Converter converter = new Converter("input.ost");
-        // Konvertierungsoptionen für das Zielformat XPS vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
-        // In das XPS-Format konvertieren
-        converter.convert("output.xps", convertOptions);
+          Converter converter = new Converter("input.ost");
+          // Konvertierungsoptionen für das Zielformat XPS vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
+          // In das XPS-Format konvertieren
+          converter.convert("output.xps", convertOptions);
         ```
 
 demos:

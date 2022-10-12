@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:49
+date: 2022-10-12T19:59:41
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS в DOC на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл IGS для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.igs");
-        // Задайте параметры преобразования для целевого формата DOC
-        var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
-        // Преобразуйте файл в DOC формат
-        converter.Convert("output.doc", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.igs");
+          // Задайте параметры преобразования для целевого формата DOC
+          var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
+          // Преобразуйте файл в DOC формат
+          converter.Convert("output.doc", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:51
+date: 2022-10-12T19:59:45
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: POTM в DOCX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл POTM для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.potm");
-        // Задайте параметры преобразования для целевого формата DOCX
-        var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
-        // Преобразуйте файл в DOCX формат
-        converter.Convert("output.docx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.potm");
+          // Задайте параметры преобразования для целевого формата DOCX
+          var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
+          // Преобразуйте файл в DOCX формат
+          converter.Convert("output.docx", convertOptions);
         ```
 
 demos:

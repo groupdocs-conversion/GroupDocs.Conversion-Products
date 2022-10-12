@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:49
+date: 2022-10-12T19:58:07
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DXF a POTM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente DXF para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.dxf");
-        // Preparar opciones de conversión para el formato de destino POTM
-        var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
-        // Convertir al formato POTM
-        converter.Convert("output.potm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dxf");
+          // Preparar opciones de conversión para el formato de destino POTM
+          var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
+          // Convertir al formato POTM
+          converter.Convert("output.potm", convertOptions);
         ```
 
 demos:

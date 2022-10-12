@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:23
+date: 2022-10-12T19:57:23
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSDX to PDF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file VSDX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vsdx");
-        // Prepare conversion options for target format PDF
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // Convert to PDF format
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vsdx");
+          // Prepare conversion options for target format PDF
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // Convert to PDF format
+          converter.Convert("output.pdf", convertOptions);
         ```
 
 demos:

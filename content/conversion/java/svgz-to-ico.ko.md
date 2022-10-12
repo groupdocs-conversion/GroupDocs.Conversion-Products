@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:45
+date: 2022-10-12T19:59:35
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java의 SVGZ에서 ICO까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 변환을 위해 소스 파일 SVGZ 로드
-        Converter converter = new Converter("input.svgz");
-        // 대상 형식 ICO에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // ICO 형식으로 변환
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.svgz");
+          // 대상 형식 ICO에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // ICO 형식으로 변환
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

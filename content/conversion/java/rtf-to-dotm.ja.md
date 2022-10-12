@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:30
+date: 2022-10-12T19:59:12
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: JavaでRTFからDOTMへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル RTF を読み込みます
-        Converter converter = new Converter("input.rtf");
-        // ターゲット形式の変換オプションを準備 DOTM
-        ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
-        // DOTM形式に変換
-        converter.convert("output.dotm", convertOptions);
+          Converter converter = new Converter("input.rtf");
+          // ターゲット形式の変換オプションを準備 DOTM
+          ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
+          // DOTM形式に変換
+          converter.convert("output.dotm", convertOptions);
         ```
 
 demos:

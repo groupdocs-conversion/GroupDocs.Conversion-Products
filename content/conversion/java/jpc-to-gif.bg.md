@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:42
+date: 2022-10-12T20:00:53
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPC до GIF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл JPC за конвертиране
-        Converter converter = new Converter("input.jpc");
-        // Подгответе опции за преобразуване за целеви формат GIF
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // Конвертиране във формат GIF
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.jpc");
+          // Подгответе опции за преобразуване за целеви формат GIF
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // Конвертиране във формат GIF
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

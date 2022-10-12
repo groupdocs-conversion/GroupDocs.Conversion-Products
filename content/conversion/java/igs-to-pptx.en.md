@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:27
+date: 2022-10-12T19:57:29
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS to PPTX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file IGS for conversion
-        Converter converter = new Converter("input.igs");
-        // Prepare conversion options for target format PPTX
-        ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
-        // Convert to PPTX format
-        converter.convert("output.pptx", convertOptions);
+          Converter converter = new Converter("input.igs");
+          // Prepare conversion options for target format PPTX
+          ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
+          // Convert to PPTX format
+          converter.convert("output.pptx", convertOptions);
         ```
 
 demos:

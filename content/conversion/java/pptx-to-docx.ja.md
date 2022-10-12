@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:30
+date: 2022-10-12T19:59:12
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: JavaでPPTXからDOCXへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル PPTX を読み込みます
-        Converter converter = new Converter("input.pptx");
-        // ターゲット形式の変換オプションを準備 DOCX
-        ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
-        // DOCX形式に変換
-        converter.convert("output.docx", convertOptions);
+          Converter converter = new Converter("input.pptx");
+          // ターゲット形式の変換オプションを準備 DOCX
+          ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
+          // DOCX形式に変換
+          converter.convert("output.docx", convertOptions);
         ```
 
 demos:

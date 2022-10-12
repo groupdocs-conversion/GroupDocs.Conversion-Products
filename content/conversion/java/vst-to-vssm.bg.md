@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:46
+date: 2022-10-12T20:00:58
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST до VSSM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл VST за конвертиране
-        Converter converter = new Converter("input.vst");
-        // Подгответе опции за преобразуване за целеви формат VSSM
-        ConvertOptions convertOptions = new FileType().fromExtension("vssm").getConvertOptions();
-        // Конвертиране във формат VSSM
-        converter.convert("output.vssm", convertOptions);
+          Converter converter = new Converter("input.vst");
+          // Подгответе опции за преобразуване за целеви формат VSSM
+          ConvertOptions convertOptions = new FileType().fromExtension("vssm").getConvertOptions();
+          // Конвертиране във формат VSSM
+          converter.convert("output.vssm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:29
+date: 2022-10-12T20:00:33
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: Java 中的 MPP 到 WMZ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 MPP 进行转换
-        Converter converter = new Converter("input.mpp");
-        // 为目标格式 WMZ 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
-        // 转换为 WMZ 格式
-        converter.convert("output.wmz", convertOptions);
+          Converter converter = new Converter("input.mpp");
+          // 为目标格式 WMZ 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
+          // 转换为 WMZ 格式
+          converter.convert("output.wmz", convertOptions);
         ```
 
 demos:

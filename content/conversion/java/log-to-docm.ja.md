@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:28
+date: 2022-10-12T19:59:08
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: JavaでLOGからDOCMへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル LOG を読み込みます
-        Converter converter = new Converter("input.log");
-        // ターゲット形式の変換オプションを準備 DOCM
-        ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
-        // DOCM形式に変換
-        converter.convert("output.docm", convertOptions);
+          Converter converter = new Converter("input.log");
+          // ターゲット形式の変換オプションを準備 DOCM
+          ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
+          // DOCM形式に変換
+          converter.convert("output.docm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:26
+date: 2022-10-12T19:59:06
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでEMLからGIFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル EML を読み込みます
-        Converter converter = new Converter("input.eml");
-        // ターゲット形式の変換オプションを準備 GIF
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // GIF形式に変換
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.eml");
+          // ターゲット形式の変換オプションを準備 GIF
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // GIF形式に変換
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

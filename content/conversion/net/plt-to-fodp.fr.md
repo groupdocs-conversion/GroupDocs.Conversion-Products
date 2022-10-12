@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:07
+date: 2022-10-12T19:58:35
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: PLT à FODP en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source PLT pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.plt");
-        // Préparer les options de conversion pour le format cible FODP
-        var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
-        // Convertir au format FODP
-        converter.Convert("output.fodp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.plt");
+          // Préparer les options de conversion pour le format cible FODP
+          var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
+          // Convertir au format FODP
+          converter.Convert("output.fodp", convertOptions);
         ```
 
 demos:

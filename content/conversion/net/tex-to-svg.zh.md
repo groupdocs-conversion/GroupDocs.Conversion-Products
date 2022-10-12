@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:23
+date: 2022-10-12T20:00:26
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: C# 中的 TEX 到 SVG
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 TEX 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // 为目标格式 SVG 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // 转换为 SVG 格式
-        converter.Convert("output.svg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tex");
+          // 为目标格式 SVG 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
+          // 转换为 SVG 格式
+          converter.Convert("output.svg", convertOptions);
         ```
 
 demos:

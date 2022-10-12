@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:37
+date: 2022-10-12T19:57:44
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OST bis EPUB in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei OST zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.ost");
-        // Konvertierungsoptionen für das Zielformat EPUB vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // In das EPUB-Format konvertieren
-        converter.Convert("output.epub", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ost");
+          // Konvertierungsoptionen für das Zielformat EPUB vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+          // In das EPUB-Format konvertieren
+          converter.Convert("output.epub", convertOptions);
         ```
 
 demos:

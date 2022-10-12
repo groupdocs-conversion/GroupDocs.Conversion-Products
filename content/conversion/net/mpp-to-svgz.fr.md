@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:06
+date: 2022-10-12T19:58:34
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP à SVGZ en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source MPP pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // Préparer les options de conversion pour le format cible SVGZ
-        var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
-        // Convertir au format SVGZ
-        converter.Convert("output.svgz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpp");
+          // Préparer les options de conversion pour le format cible SVGZ
+          var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
+          // Convertir au format SVGZ
+          converter.Convert("output.svgz", convertOptions);
         ```
 
 demos:

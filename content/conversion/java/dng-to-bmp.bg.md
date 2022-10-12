@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:41
+date: 2022-10-12T20:00:50
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DNG до BMP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл DNG за конвертиране
-        Converter converter = new Converter("input.dng");
-        // Подгответе опции за преобразуване за целеви формат BMP
-        ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-        // Конвертиране във формат BMP
-        converter.convert("output.bmp", convertOptions);
+          Converter converter = new Converter("input.dng");
+          // Подгответе опции за преобразуване за целеви формат BMP
+          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
+          // Конвертиране във формат BMP
+          converter.convert("output.bmp", convertOptions);
         ```
 
 demos:

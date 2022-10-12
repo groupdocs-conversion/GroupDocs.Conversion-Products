@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:25
+date: 2022-10-12T19:57:26
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DIB to PSB in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file DIB for conversion
-        Converter converter = new Converter("input.dib");
-        // Prepare conversion options for target format PSB
-        ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
-        // Convert to PSB format
-        converter.convert("output.psb", convertOptions);
+          Converter converter = new Converter("input.dib");
+          // Prepare conversion options for target format PSB
+          ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
+          // Convert to PSB format
+          converter.convert("output.psb", convertOptions);
         ```
 
 demos:

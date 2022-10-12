@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:25
+date: 2022-10-12T19:57:26
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CF2 to PPT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file CF2 for conversion
-        Converter converter = new Converter("input.cf2");
-        // Prepare conversion options for target format PPT
-        ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
-        // Convert to PPT format
-        converter.convert("output.ppt", convertOptions);
+          Converter converter = new Converter("input.cf2");
+          // Prepare conversion options for target format PPT
+          ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
+          // Convert to PPT format
+          converter.convert("output.ppt", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:59
+date: 2022-10-12T19:58:23
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PDF a JPEG en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente PDF para la conversión
-        Converter converter = new Converter("input.pdf");
-        // Preparar opciones de conversión para el formato de destino JPEG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
-        // Convertir al formato JPEG
-        converter.convert("output.jpeg", convertOptions);
+          Converter converter = new Converter("input.pdf");
+          // Preparar opciones de conversión para el formato de destino JPEG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
+          // Convertir al formato JPEG
+          converter.convert("output.jpeg", convertOptions);
         ```
 
 demos:

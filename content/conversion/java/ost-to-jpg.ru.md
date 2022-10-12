@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:53
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OST в JPG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл OST для преобразования
-        Converter converter = new Converter("input.ost");
-        // Подготовьте параметры преобразования для целевого формата JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Преобразование в формат JPG
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.ost");
+          // Подготовьте параметры преобразования для целевого формата JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Преобразование в формат JPG
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

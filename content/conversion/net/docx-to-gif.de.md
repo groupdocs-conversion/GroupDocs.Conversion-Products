@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:34
+date: 2022-10-12T19:57:39
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOCX bis GIF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei DOCX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.docx");
-        // Konvertierungsoptionen für das Zielformat GIF vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // In das GIF-Format konvertieren
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.docx");
+          // Konvertierungsoptionen für das Zielformat GIF vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // In das GIF-Format konvertieren
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

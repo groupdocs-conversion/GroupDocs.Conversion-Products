@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:01
+date: 2022-10-12T19:58:26
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF a MHT en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente VCF para la conversión
-        Converter converter = new Converter("input.vcf");
-        // Preparar opciones de conversión para el formato de destino MHT
-        ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
-        // Convertir al formato MHT
-        converter.convert("output.mht", convertOptions);
+          Converter converter = new Converter("input.vcf");
+          // Preparar opciones de conversión para el formato de destino MHT
+          ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
+          // Convertir al formato MHT
+          converter.convert("output.mht", convertOptions);
         ```
 
 demos:

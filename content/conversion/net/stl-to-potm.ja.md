@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:22
+date: 2022-10-12T19:59:00
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C# の STL から POTM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル STL を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // ターゲット形式の変換オプションを準備 POTM
-        var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
-        // POTM形式に変換
-        converter.Convert("output.potm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.stl");
+          // ターゲット形式の変換オプションを準備 POTM
+          var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
+          // POTM形式に変換
+          converter.Convert("output.potm", convertOptions);
         ```
 
 demos:

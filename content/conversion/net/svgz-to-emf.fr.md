@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:08
+date: 2022-10-12T19:58:37
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVGZ à EMF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source SVGZ pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.svgz");
-        // Préparer les options de conversion pour le format cible EMF
-        var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // Convertir au format EMF
-        converter.Convert("output.emf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.svgz");
+          // Préparer les options de conversion pour le format cible EMF
+          var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
+          // Convertir au format EMF
+          converter.Convert("output.emf", convertOptions);
         ```
 
 demos:

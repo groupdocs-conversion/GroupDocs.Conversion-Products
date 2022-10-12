@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:46
+date: 2022-10-12T20:00:57
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSD до VSTM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл VSD за конвертиране
-        Converter converter = new Converter("input.vsd");
-        // Подгответе опции за преобразуване за целеви формат VSTM
-        ConvertOptions convertOptions = new FileType().fromExtension("vstm").getConvertOptions();
-        // Конвертиране във формат VSTM
-        converter.convert("output.vstm", convertOptions);
+          Converter converter = new Converter("input.vsd");
+          // Подгответе опции за преобразуване за целеви формат VSTM
+          ConvertOptions convertOptions = new FileType().fromExtension("vstm").getConvertOptions();
+          // Конвертиране във формат VSTM
+          converter.convert("output.vstm", convertOptions);
         ```
 
 demos:

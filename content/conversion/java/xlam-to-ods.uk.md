@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:18
+date: 2022-10-12T20:00:18
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLAM в ODS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл XLAM для конвертації
-        Converter converter = new Converter("input.xlam");
-        // Задайте параметри перетворення для цільового формату ODS
-        ConvertOptions convertOptions = new FileType().fromExtension("ods").getConvertOptions();
-        // Перетворіть файл у ODS формат
-        converter.convert("output.ods", convertOptions);
+          Converter converter = new Converter("input.xlam");
+          // Задайте параметри перетворення для цільового формату ODS
+          ConvertOptions convertOptions = new FileType().fromExtension("ods").getConvertOptions();
+          // Перетворіть файл у ODS формат
+          converter.convert("output.ods", convertOptions);
         ```
 
 demos:

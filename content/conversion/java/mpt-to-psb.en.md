@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:30
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPT to PSB in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file MPT for conversion
-        Converter converter = new Converter("input.mpt");
-        // Prepare conversion options for target format PSB
-        ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
-        // Convert to PSB format
-        converter.convert("output.psb", convertOptions);
+          Converter converter = new Converter("input.mpt");
+          // Prepare conversion options for target format PSB
+          ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
+          // Convert to PSB format
+          converter.convert("output.psb", convertOptions);
         ```
 
 demos:

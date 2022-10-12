@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:20
+date: 2022-10-12T19:58:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の JPC から PSB
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル JPC を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.jpc");
-        // ターゲット形式の変換オプションを準備 PSB
-        var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
-        // PSB形式に変換
-        converter.Convert("output.psb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpc");
+          // ターゲット形式の変換オプションを準備 PSB
+          var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
+          // PSB形式に変換
+          converter.Convert("output.psb", convertOptions);
         ```
 
 demos:

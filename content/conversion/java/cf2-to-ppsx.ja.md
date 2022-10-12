@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:25
+date: 2022-10-12T19:59:04
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: JavaでCF2からPPSXへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル CF2 を読み込みます
-        Converter converter = new Converter("input.cf2");
-        // ターゲット形式の変換オプションを準備 PPSX
-        ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
-        // PPSX形式に変換
-        converter.convert("output.ppsx", convertOptions);
+          Converter converter = new Converter("input.cf2");
+          // ターゲット形式の変換オプションを準備 PPSX
+          ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
+          // PPSX形式に変換
+          converter.convert("output.ppsx", convertOptions);
         ```
 
 demos:

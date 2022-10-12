@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-10-12T19:33:17
+date: 2022-10-12T19:57:14
 draft: false
 
 product: "Conversion"
@@ -295,11 +295,11 @@ features:
             
           ```java    
            // Cargue el archivo fuente DOCX para la conversión
-        Converter converter = new Converter("input.docx");
-        // Preparar opciones de conversión para el formato de destino PDF
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // Convertir al formato PDF
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.docx");
+          // Preparar opciones de conversión para el formato de destino PDF
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // Convertir al formato PDF
+          converter.convert("output.pdf", convertOptions);
           ```
             
       # more_feature_loop

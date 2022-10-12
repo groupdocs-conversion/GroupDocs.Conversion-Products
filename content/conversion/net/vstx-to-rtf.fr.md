@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:09
+date: 2022-10-12T19:58:39
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSTX à RTF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source VSTX pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vstx");
-        // Préparer les options de conversion pour le format cible RTF
-        var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
-        // Convertir au format RTF
-        converter.Convert("output.rtf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vstx");
+          // Préparer les options de conversion pour le format cible RTF
+          var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
+          // Convertir au format RTF
+          converter.Convert("output.rtf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:54
+date: 2022-10-12T19:58:15
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VTX a DOTM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente VTX para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.vtx");
-        // Preparar opciones de conversión para el formato de destino DOTM
-        var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
-        // Convertir al formato DOTM
-        converter.Convert("output.dotm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vtx");
+          // Preparar opciones de conversión para el formato de destino DOTM
+          var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
+          // Convertir al formato DOTM
+          converter.Convert("output.dotm", convertOptions);
         ```
 
 demos:

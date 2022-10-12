@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:37
+date: 2022-10-12T19:57:44
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPX bis DCM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei MPX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.mpx");
-        // Konvertierungsoptionen für das Zielformat DCM vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
-        // In das DCM-Format konvertieren
-        converter.Convert("output.dcm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpx");
+          // Konvertierungsoptionen für das Zielformat DCM vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
+          // In das DCM-Format konvertieren
+          converter.Convert("output.dcm", convertOptions);
         ```
 
 demos:

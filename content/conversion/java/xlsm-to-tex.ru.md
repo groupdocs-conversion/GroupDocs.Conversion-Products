@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:02
+date: 2022-10-12T19:59:58
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSM в TEX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл XLSM для преобразования
-        Converter converter = new Converter("input.xlsm");
-        // Подготовьте параметры преобразования для целевого формата TEX
-        ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
-        // Преобразование в формат TEX
-        converter.convert("output.tex", convertOptions);
+          Converter converter = new Converter("input.xlsm");
+          // Подготовьте параметры преобразования для целевого формата TEX
+          ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
+          // Преобразование в формат TEX
+          converter.convert("output.tex", convertOptions);
         ```
 
 demos:

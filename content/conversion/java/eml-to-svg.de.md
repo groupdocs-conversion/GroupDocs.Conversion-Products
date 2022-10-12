@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:54
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EML bis SVG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei EML zur Konvertierung laden
-        Converter converter = new Converter("input.eml");
-        // Konvertierungsoptionen für das Zielformat SVG vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
-        // In das SVG-Format konvertieren
-        converter.convert("output.svg", convertOptions);
+          Converter converter = new Converter("input.eml");
+          // Konvertierungsoptionen für das Zielformat SVG vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
+          // In das SVG-Format konvertieren
+          converter.convert("output.svg", convertOptions);
         ```
 
 demos:

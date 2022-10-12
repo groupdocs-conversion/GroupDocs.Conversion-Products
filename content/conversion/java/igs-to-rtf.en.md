@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:27
+date: 2022-10-12T19:57:29
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS to RTF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file IGS for conversion
-        Converter converter = new Converter("input.igs");
-        // Prepare conversion options for target format RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // Convert to RTF format
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.igs");
+          // Prepare conversion options for target format RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // Convert to RTF format
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

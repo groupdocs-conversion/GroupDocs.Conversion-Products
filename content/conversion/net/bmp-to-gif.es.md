@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:48
+date: 2022-10-12T19:58:05
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: BMP a GIF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente BMP para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.bmp");
-        // Preparar opciones de conversión para el formato de destino GIF
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // Convertir al formato GIF
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.bmp");
+          // Preparar opciones de conversión para el formato de destino GIF
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // Convertir al formato GIF
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

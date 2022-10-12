@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:55
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: GIF bis EMZ in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei GIF zur Konvertierung laden
-        Converter converter = new Converter("input.gif");
-        // Konvertierungsoptionen für das Zielformat EMZ vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
-        // In das EMZ-Format konvertieren
-        converter.convert("output.emz", convertOptions);
+          Converter converter = new Converter("input.gif");
+          // Konvertierungsoptionen für das Zielformat EMZ vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
+          // In das EMZ-Format konvertieren
+          converter.convert("output.emz", convertOptions);
         ```
 
 demos:

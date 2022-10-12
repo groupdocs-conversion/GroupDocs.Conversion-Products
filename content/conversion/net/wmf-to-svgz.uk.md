@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:10
+date: 2022-10-12T20:00:07
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: WMF в SVGZ на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл WMF для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.wmf");
-        // Задайте параметри перетворення для цільового формату SVGZ
-        var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
-        // Перетворіть файл у SVGZ формат
-        converter.Convert("output.svgz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.wmf");
+          // Задайте параметри перетворення для цільового формату SVGZ
+          var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
+          // Перетворіть файл у SVGZ формат
+          converter.Convert("output.svgz", convertOptions);
         ```
 
 demos:

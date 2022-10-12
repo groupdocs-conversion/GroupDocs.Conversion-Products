@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:51
+date: 2022-10-12T19:59:44
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OXPS в TEX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл OXPS для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.oxps");
-        // Задайте параметры преобразования для целевого формата TEX
-        var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
-        // Преобразуйте файл в TEX формат
-        converter.Convert("output.tex", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.oxps");
+          // Задайте параметры преобразования для целевого формата TEX
+          var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
+          // Преобразуйте файл в TEX формат
+          converter.Convert("output.tex", convertOptions);
         ```
 
 demos:

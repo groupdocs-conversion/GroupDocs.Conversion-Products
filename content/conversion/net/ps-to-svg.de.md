@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:38
+date: 2022-10-12T19:57:47
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PS bis SVG in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei PS zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.ps");
-        // Konvertierungsoptionen für das Zielformat SVG vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // In das SVG-Format konvertieren
-        converter.Convert("output.svg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ps");
+          // Konvertierungsoptionen für das Zielformat SVG vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
+          // In das SVG-Format konvertieren
+          converter.Convert("output.svg", convertOptions);
         ```
 
 demos:

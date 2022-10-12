@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:08
+date: 2022-10-12T19:58:38
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSD à VSDM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source VSD pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vsd");
-        // Préparer les options de conversion pour le format cible VSDM
-        var convertOptions = converter.GetPossibleConversions()["vsdm"].ConvertOptions;
-        // Convertir au format VSDM
-        converter.Convert("output.vsdm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vsd");
+          // Préparer les options de conversion pour le format cible VSDM
+          var convertOptions = converter.GetPossibleConversions()["vsdm"].ConvertOptions;
+          // Convertir au format VSDM
+          converter.Convert("output.vsdm", convertOptions);
         ```
 
 demos:

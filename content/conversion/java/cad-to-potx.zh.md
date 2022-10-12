@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:26
+date: 2022-10-12T20:00:29
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: Java 中的 CAD 到 POTX
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 CAD 进行转换
-        Converter converter = new Converter("input.cad");
-        // 为目标格式 POTX 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("potx").getConvertOptions();
-        // 转换为 POTX 格式
-        converter.convert("output.potx", convertOptions);
+          Converter converter = new Converter("input.cad");
+          // 为目标格式 POTX 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("potx").getConvertOptions();
+          // 转换为 POTX 格式
+          converter.convert("output.potx", convertOptions);
         ```
 
 demos:

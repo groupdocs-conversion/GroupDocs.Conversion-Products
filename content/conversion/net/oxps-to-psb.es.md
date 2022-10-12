@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:52
+date: 2022-10-12T19:58:12
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OXPS a PSB en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente OXPS para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.oxps");
-        // Preparar opciones de conversión para el formato de destino PSB
-        var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
-        // Convertir al formato PSB
-        converter.Convert("output.psb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.oxps");
+          // Preparar opciones de conversión para el formato de destino PSB
+          var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
+          // Convertir al formato PSB
+          converter.Convert("output.psb", convertOptions);
         ```
 
 demos:

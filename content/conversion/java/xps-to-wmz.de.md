@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:48
+date: 2022-10-12T19:58:05
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: XPS bis WMZ in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei XPS zur Konvertierung laden
-        Converter converter = new Converter("input.xps");
-        // Konvertierungsoptionen für das Zielformat WMZ vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
-        // In das WMZ-Format konvertieren
-        converter.convert("output.wmz", convertOptions);
+          Converter converter = new Converter("input.xps");
+          // Konvertierungsoptionen für das Zielformat WMZ vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
+          // In das WMZ-Format konvertieren
+          converter.convert("output.wmz", convertOptions);
         ```
 
 demos:

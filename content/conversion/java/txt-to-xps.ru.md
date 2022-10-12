@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:00
+date: 2022-10-12T19:59:56
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: TXT в XPS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл TXT для преобразования
-        Converter converter = new Converter("input.txt");
-        // Подготовьте параметры преобразования для целевого формата XPS
-        ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
-        // Преобразование в формат XPS
-        converter.convert("output.xps", convertOptions);
+          Converter converter = new Converter("input.txt");
+          // Подготовьте параметры преобразования для целевого формата XPS
+          ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
+          // Преобразование в формат XPS
+          converter.convert("output.xps", convertOptions);
         ```
 
 demos:

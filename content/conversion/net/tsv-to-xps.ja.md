@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:23
+date: 2022-10-12T19:59:01
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# の TSV から XPS
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル TSV を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.tsv");
-        // ターゲット形式の変換オプションを準備 XPS
-        var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
-        // XPS形式に変換
-        converter.Convert("output.xps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tsv");
+          // ターゲット形式の変換オプションを準備 XPS
+          var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
+          // XPS形式に変換
+          converter.Convert("output.xps", convertOptions);
         ```
 
 demos:

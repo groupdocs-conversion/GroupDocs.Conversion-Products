@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:19
+date: 2022-10-12T19:57:17
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: EPUB to EMF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file EPUB for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.epub");
-        // Prepare conversion options for target format EMF
-        var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // Convert to EMF format
-        converter.Convert("output.emf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.epub");
+          // Prepare conversion options for target format EMF
+          var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
+          // Convert to EMF format
+          converter.Convert("output.emf", convertOptions);
         ```
 
 demos:

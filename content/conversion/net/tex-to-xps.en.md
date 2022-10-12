@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:23
+date: 2022-10-12T19:57:22
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: TEX to XPS in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file TEX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // Prepare conversion options for target format XPS
-        var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
-        // Convert to XPS format
-        converter.Convert("output.xps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tex");
+          // Prepare conversion options for target format XPS
+          var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
+          // Convert to XPS format
+          converter.Convert("output.xps", convertOptions);
         ```
 
 demos:

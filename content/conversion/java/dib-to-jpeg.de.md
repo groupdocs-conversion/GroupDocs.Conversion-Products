@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:41
+date: 2022-10-12T19:57:52
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DIB bis JPEG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DIB zur Konvertierung laden
-        Converter converter = new Converter("input.dib");
-        // Konvertierungsoptionen für das Zielformat JPEG vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
-        // In das JPEG-Format konvertieren
-        converter.convert("output.jpeg", convertOptions);
+          Converter converter = new Converter("input.dib");
+          // Konvertierungsoptionen für das Zielformat JPEG vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
+          // In das JPEG-Format konvertieren
+          converter.convert("output.jpeg", convertOptions);
         ```
 
 demos:

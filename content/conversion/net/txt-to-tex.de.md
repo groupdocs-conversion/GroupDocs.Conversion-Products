@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:39
+date: 2022-10-12T19:57:48
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: TXT bis TEX in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei TXT zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.txt");
-        // Konvertierungsoptionen für das Zielformat TEX vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
-        // In das TEX-Format konvertieren
-        converter.Convert("output.tex", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.txt");
+          // Konvertierungsoptionen für das Zielformat TEX vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
+          // In das TEX-Format konvertieren
+          converter.Convert("output.tex", convertOptions);
         ```
 
 demos:

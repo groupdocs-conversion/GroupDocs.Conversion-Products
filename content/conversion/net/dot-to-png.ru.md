@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:48
+date: 2022-10-12T19:59:40
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOT в PNG на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл DOT для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.dot");
-        // Задайте параметры преобразования для целевого формата PNG
-        var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-        // Преобразуйте файл в PNG формат
-        converter.Convert("output.png", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dot");
+          // Задайте параметры преобразования для целевого формата PNG
+          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
+          // Преобразуйте файл в PNG формат
+          converter.Convert("output.png", convertOptions);
         ```
 
 demos:

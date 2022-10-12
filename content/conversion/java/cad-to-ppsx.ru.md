@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:54
+date: 2022-10-12T19:59:49
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CAD в PPSX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл CAD для преобразования
-        Converter converter = new Converter("input.cad");
-        // Подготовьте параметры преобразования для целевого формата PPSX
-        ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
-        // Преобразование в формат PPSX
-        converter.convert("output.ppsx", convertOptions);
+          Converter converter = new Converter("input.cad");
+          // Подготовьте параметры преобразования для целевого формата PPSX
+          ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
+          // Преобразование в формат PPSX
+          converter.convert("output.ppsx", convertOptions);
         ```
 
 demos:

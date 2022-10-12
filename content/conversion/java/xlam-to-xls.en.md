@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:32
+date: 2022-10-12T19:57:36
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLAM to XLS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file XLAM for conversion
-        Converter converter = new Converter("input.xlam");
-        // Prepare conversion options for target format XLS
-        ConvertOptions convertOptions = new FileType().fromExtension("xls").getConvertOptions();
-        // Convert to XLS format
-        converter.convert("output.xls", convertOptions);
+          Converter converter = new Converter("input.xlam");
+          // Prepare conversion options for target format XLS
+          ConvertOptions convertOptions = new FileType().fromExtension("xls").getConvertOptions();
+          // Convert to XLS format
+          converter.convert("output.xls", convertOptions);
         ```
 
 demos:

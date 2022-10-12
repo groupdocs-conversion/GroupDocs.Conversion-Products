@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:35
+date: 2022-10-12T19:57:42
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IFC bis POT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei IFC zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.ifc");
-        // Konvertierungsoptionen für das Zielformat POT vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
-        // In das POT-Format konvertieren
-        converter.Convert("output.pot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ifc");
+          // Konvertierungsoptionen für das Zielformat POT vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
+          // In das POT-Format konvertieren
+          converter.Convert("output.pot", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:12
+date: 2022-10-12T19:58:43
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: EPUB à PNG en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source EPUB pour la conversion
-        Converter converter = new Converter("input.epub");
-        // Préparer les options de conversion pour le format cible PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // Convertir au format PNG
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.epub");
+          // Préparer les options de conversion pour le format cible PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // Convertir au format PNG
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

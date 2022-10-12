@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:31
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OST to PSD in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file OST for conversion
-        Converter converter = new Converter("input.ost");
-        // Prepare conversion options for target format PSD
-        ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
-        // Convert to PSD format
-        converter.convert("output.psd", convertOptions);
+          Converter converter = new Converter("input.ost");
+          // Prepare conversion options for target format PSD
+          ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
+          // Convert to PSD format
+          converter.convert("output.psd", convertOptions);
         ```
 
 demos:

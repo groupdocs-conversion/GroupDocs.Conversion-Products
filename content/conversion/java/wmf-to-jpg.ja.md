@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:31
+date: 2022-10-12T19:59:15
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでWMFからJPGへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル WMF を読み込みます
-        Converter converter = new Converter("input.wmf");
-        // ターゲット形式の変換オプションを準備 JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // JPG形式に変換
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.wmf");
+          // ターゲット形式の変換オプションを準備 JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // JPG形式に変換
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

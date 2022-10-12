@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:05
+date: 2022-10-12T20:00:02
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX в SVGZ на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл MBOX для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Задайте параметри перетворення для цільового формату SVGZ
-        var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
-        // Перетворіть файл у SVGZ формат
-        converter.Convert("output.svgz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mbox");
+          // Задайте параметри перетворення для цільового формату SVGZ
+          var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
+          // Перетворіть файл у SVGZ формат
+          converter.Convert("output.svgz", convertOptions);
         ```
 
 demos:

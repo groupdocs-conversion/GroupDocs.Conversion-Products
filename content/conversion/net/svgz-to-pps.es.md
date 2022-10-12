@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:53
+date: 2022-10-12T19:58:14
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVGZ a PPS en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente SVGZ para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.svgz");
-        // Preparar opciones de conversión para el formato de destino PPS
-        var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
-        // Convertir al formato PPS
-        converter.Convert("output.pps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.svgz");
+          // Preparar opciones de conversión para el formato de destino PPS
+          var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
+          // Convertir al formato PPS
+          converter.Convert("output.pps", convertOptions);
         ```
 
 demos:

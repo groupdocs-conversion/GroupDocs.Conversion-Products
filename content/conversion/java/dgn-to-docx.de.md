@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:41
+date: 2022-10-12T19:57:52
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DGN bis DOCX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DGN zur Konvertierung laden
-        Converter converter = new Converter("input.dgn");
-        // Konvertierungsoptionen für das Zielformat DOCX vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
-        // In das DOCX-Format konvertieren
-        converter.convert("output.docx", convertOptions);
+          Converter converter = new Converter("input.dgn");
+          // Konvertierungsoptionen für das Zielformat DOCX vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
+          // In das DOCX-Format konvertieren
+          converter.convert("output.docx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:50
+date: 2022-10-12T19:59:43
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MHTML в PSD на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл MHTML для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.mhtml");
-        // Задайте параметры преобразования для целевого формата PSD
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // Преобразуйте файл в PSD формат
-        converter.Convert("output.psd", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mhtml");
+          // Задайте параметры преобразования для целевого формата PSD
+          var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
+          // Преобразуйте файл в PSD формат
+          converter.Convert("output.psd", convertOptions);
         ```
 
 demos:

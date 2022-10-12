@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:46
+date: 2022-10-12T19:59:38
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: Java의 XLAM에서 MHT까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 변환을 위해 소스 파일 XLAM 로드
-        Converter converter = new Converter("input.xlam");
-        // 대상 형식 MHT에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
-        // MHT 형식으로 변환
-        converter.convert("output.mht", convertOptions);
+          Converter converter = new Converter("input.xlam");
+          // 대상 형식 MHT에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
+          // MHT 형식으로 변환
+          converter.convert("output.mht", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:13
+date: 2022-10-12T20:00:11
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS в PPS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл IGS для конвертації
-        Converter converter = new Converter("input.igs");
-        // Задайте параметри перетворення для цільового формату PPS
-        ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
-        // Перетворіть файл у PPS формат
-        converter.convert("output.pps", convertOptions);
+          Converter converter = new Converter("input.igs");
+          // Задайте параметри перетворення для цільового формату PPS
+          ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
+          // Перетворіть файл у PPS формат
+          converter.convert("output.pps", convertOptions);
         ```
 
 demos:

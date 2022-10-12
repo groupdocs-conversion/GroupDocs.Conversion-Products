@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:29
+date: 2022-10-12T19:57:32
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: PLT to DOC in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file PLT for conversion
-        Converter converter = new Converter("input.plt");
-        // Prepare conversion options for target format DOC
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // Convert to DOC format
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.plt");
+          // Prepare conversion options for target format DOC
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // Convert to DOC format
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

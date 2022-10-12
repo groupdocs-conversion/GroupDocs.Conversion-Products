@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:10
+date: 2022-10-12T19:58:41
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CF2 à PPTX en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source CF2 pour la conversion
-        Converter converter = new Converter("input.cf2");
-        // Préparer les options de conversion pour le format cible PPTX
-        ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
-        // Convertir au format PPTX
-        converter.convert("output.pptx", convertOptions);
+          Converter converter = new Converter("input.cf2");
+          // Préparer les options de conversion pour le format cible PPTX
+          ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
+          // Convertir au format PPTX
+          converter.convert("output.pptx", convertOptions);
         ```
 
 demos:

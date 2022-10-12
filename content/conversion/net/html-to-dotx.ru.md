@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:49
+date: 2022-10-12T19:59:41
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: HTML в DOTX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл HTML для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.html");
-        // Задайте параметры преобразования для целевого формата DOTX
-        var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
-        // Преобразуйте файл в DOTX формат
-        converter.Convert("output.dotx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.html");
+          // Задайте параметры преобразования для целевого формата DOTX
+          var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
+          // Преобразуйте файл в DOTX формат
+          converter.Convert("output.dotx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:49
+date: 2022-10-12T19:58:08
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: EPUB a WMZ en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente EPUB para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.epub");
-        // Preparar opciones de conversión para el formato de destino WMZ
-        var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
-        // Convertir al formato WMZ
-        converter.Convert("output.wmz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.epub");
+          // Preparar opciones de conversión para el formato de destino WMZ
+          var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
+          // Convertir al formato WMZ
+          converter.Convert("output.wmz", convertOptions);
         ```
 
 demos:

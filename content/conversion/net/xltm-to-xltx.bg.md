@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:40
+date: 2022-10-12T20:00:48
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTM до XLTX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл XLTM за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.xltm");
-        // Подгответе опции за преобразуване за целеви формат XLTX
-        var convertOptions = converter.GetPossibleConversions()["xltx"].ConvertOptions;
-        // Конвертиране във формат XLTX
-        converter.Convert("output.xltx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xltm");
+          // Подгответе опции за преобразуване за целеви формат XLTX
+          var convertOptions = converter.GetPossibleConversions()["xltx"].ConvertOptions;
+          // Конвертиране във формат XLTX
+          converter.Convert("output.xltx", convertOptions);
         ```
 
 demos:

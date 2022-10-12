@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:02
+date: 2022-10-12T19:58:28
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: XPS a EMF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente XPS para la conversión
-        Converter converter = new Converter("input.xps");
-        // Preparar opciones de conversión para el formato de destino EMF
-        ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
-        // Convertir al formato EMF
-        converter.convert("output.emf", convertOptions);
+          Converter converter = new Converter("input.xps");
+          // Preparar opciones de conversión para el formato de destino EMF
+          ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
+          // Convertir al formato EMF
+          converter.convert("output.emf", convertOptions);
         ```
 
 demos:

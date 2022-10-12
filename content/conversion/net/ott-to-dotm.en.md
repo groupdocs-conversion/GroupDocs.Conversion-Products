@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:21
+date: 2022-10-12T19:57:20
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: OTT to DOTM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file OTT for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.ott");
-        // Prepare conversion options for target format DOTM
-        var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
-        // Convert to DOTM format
-        converter.Convert("output.dotm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ott");
+          // Prepare conversion options for target format DOTM
+          var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
+          // Convert to DOTM format
+          converter.Convert("output.dotm", convertOptions);
         ```
 
 demos:

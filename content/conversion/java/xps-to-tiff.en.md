@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:33
+date: 2022-10-12T19:57:38
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: XPS to TIFF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file XPS for conversion
-        Converter converter = new Converter("input.xps");
-        // Prepare conversion options for target format TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Convert to TIFF format
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.xps");
+          // Prepare conversion options for target format TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Convert to TIFF format
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

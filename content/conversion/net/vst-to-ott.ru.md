@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:53
+date: 2022-10-12T19:59:47
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST в OTT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл VST для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.vst");
-        // Задайте параметры преобразования для целевого формата OTT
-        var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
-        // Преобразуйте файл в OTT формат
-        converter.Convert("output.ott", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vst");
+          // Задайте параметры преобразования для целевого формата OTT
+          var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
+          // Преобразуйте файл в OTT формат
+          converter.Convert("output.ott", convertOptions);
         ```
 
 demos:

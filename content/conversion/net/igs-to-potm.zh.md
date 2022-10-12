@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:20
+date: 2022-10-12T20:00:21
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C# 中的 IGS 到 POTM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 IGS 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.igs");
-        // 为目标格式 POTM 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
-        // 转换为 POTM 格式
-        converter.Convert("output.potm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.igs");
+          // 为目标格式 POTM 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["potm"].ConvertOptions;
+          // 转换为 POTM 格式
+          converter.Convert("output.potm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:08
+date: 2022-10-12T19:58:37
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PST à PSB en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source PST pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.pst");
-        // Préparer les options de conversion pour le format cible PSB
-        var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
-        // Convertir au format PSB
-        converter.Convert("output.psb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pst");
+          // Préparer les options de conversion pour le format cible PSB
+          var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
+          // Convertir au format PSB
+          converter.Convert("output.psb", convertOptions);
         ```
 
 demos:

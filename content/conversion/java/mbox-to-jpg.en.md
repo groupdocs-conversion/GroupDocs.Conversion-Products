@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:30
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX to JPG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file MBOX for conversion
-        Converter converter = new Converter("input.mbox");
-        // Prepare conversion options for target format JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Convert to JPG format
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.mbox");
+          // Prepare conversion options for target format JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Convert to JPG format
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

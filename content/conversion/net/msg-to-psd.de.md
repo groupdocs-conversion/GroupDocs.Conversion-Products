@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:37
+date: 2022-10-12T19:57:44
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG bis PSD in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei MSG zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.msg");
-        // Konvertierungsoptionen für das Zielformat PSD vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // In das PSD-Format konvertieren
-        converter.Convert("output.psd", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.msg");
+          // Konvertierungsoptionen für das Zielformat PSD vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
+          // In das PSD-Format konvertieren
+          converter.Convert("output.psd", convertOptions);
         ```
 
 demos:

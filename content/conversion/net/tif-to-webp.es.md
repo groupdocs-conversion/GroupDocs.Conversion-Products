@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:54
+date: 2022-10-12T19:58:14
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: TIF a WEBP en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente TIF para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.tif");
-        // Preparar opciones de conversión para el formato de destino WEBP
-        var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
-        // Convertir al formato WEBP
-        converter.Convert("output.webp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tif");
+          // Preparar opciones de conversión para el formato de destino WEBP
+          var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
+          // Convertir al formato WEBP
+          converter.Convert("output.webp", convertOptions);
         ```
 
 demos:

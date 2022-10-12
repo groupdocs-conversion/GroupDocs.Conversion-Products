@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:00
+date: 2022-10-12T19:58:25
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVG a PSB en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente SVG para la conversión
-        Converter converter = new Converter("input.svg");
-        // Preparar opciones de conversión para el formato de destino PSB
-        ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
-        // Convertir al formato PSB
-        converter.convert("output.psb", convertOptions);
+          Converter converter = new Converter("input.svg");
+          // Preparar opciones de conversión para el formato de destino PSB
+          ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
+          // Convertir al formato PSB
+          converter.convert("output.psb", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:17
+date: 2022-10-12T20:00:16
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VDW в OTT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл VDW для конвертації
-        Converter converter = new Converter("input.vdw");
-        // Задайте параметри перетворення для цільового формату OTT
-        ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
-        // Перетворіть файл у OTT формат
-        converter.convert("output.ott", convertOptions);
+          Converter converter = new Converter("input.vdw");
+          // Задайте параметри перетворення для цільового формату OTT
+          ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
+          // Перетворіть файл у OTT формат
+          converter.convert("output.ott", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:52
+date: 2022-10-12T19:58:12
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPS a TXT en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente PPS para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.pps");
-        // Preparar opciones de conversión para el formato de destino TXT
-        var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
-        // Convertir al formato TXT
-        converter.Convert("output.txt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pps");
+          // Preparar opciones de conversión para el formato de destino TXT
+          var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
+          // Convertir al formato TXT
+          converter.Convert("output.txt", convertOptions);
         ```
 
 demos:

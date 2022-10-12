@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:00
+date: 2022-10-12T19:58:25
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: STL a MHT en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente STL para la conversión
-        Converter converter = new Converter("input.stl");
-        // Preparar opciones de conversión para el formato de destino MHT
-        ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
-        // Convertir al formato MHT
-        converter.convert("output.mht", convertOptions);
+          Converter converter = new Converter("input.stl");
+          // Preparar opciones de conversión para el formato de destino MHT
+          ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
+          // Convertir al formato MHT
+          converter.convert("output.mht", convertOptions);
         ```
 
 demos:

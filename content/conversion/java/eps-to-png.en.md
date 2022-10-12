@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:26
+date: 2022-10-12T19:57:28
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EPS to PNG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file EPS for conversion
-        Converter converter = new Converter("input.eps");
-        // Prepare conversion options for target format PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // Convert to PNG format
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.eps");
+          // Prepare conversion options for target format PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // Convert to PNG format
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

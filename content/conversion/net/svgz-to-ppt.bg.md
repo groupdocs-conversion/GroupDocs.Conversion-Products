@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:38
+date: 2022-10-12T20:00:46
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVGZ до PPT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл SVGZ за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.svgz");
-        // Подгответе опции за преобразуване за целеви формат PPT
-        var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
-        // Конвертиране във формат PPT
-        converter.Convert("output.ppt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.svgz");
+          // Подгответе опции за преобразуване за целеви формат PPT
+          var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
+          // Конвертиране във формат PPT
+          converter.Convert("output.ppt", convertOptions);
         ```
 
 demos:

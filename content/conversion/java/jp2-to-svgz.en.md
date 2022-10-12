@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:27
+date: 2022-10-12T19:57:29
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JP2 to SVGZ in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file JP2 for conversion
-        Converter converter = new Converter("input.jp2");
-        // Prepare conversion options for target format SVGZ
-        ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
-        // Convert to SVGZ format
-        converter.convert("output.svgz", convertOptions);
+          Converter converter = new Converter("input.jp2");
+          // Prepare conversion options for target format SVGZ
+          ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
+          // Convert to SVGZ format
+          converter.convert("output.svgz", convertOptions);
         ```
 
 demos:

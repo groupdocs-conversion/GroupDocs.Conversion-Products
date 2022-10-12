@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:40
+date: 2022-10-12T19:57:50
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VTX bis DOT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei VTX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.vtx");
-        // Konvertierungsoptionen für das Zielformat DOT vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
-        // In das DOT-Format konvertieren
-        converter.Convert("output.dot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vtx");
+          // Konvertierungsoptionen für das Zielformat DOT vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
+          // In das DOT-Format konvertieren
+          converter.Convert("output.dot", convertOptions);
         ```
 
 demos:

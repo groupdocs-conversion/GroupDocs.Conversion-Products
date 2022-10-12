@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:40
+date: 2022-10-12T19:59:29
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java의 CGM에서 WEBP까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 변환을 위해 소스 파일 CGM 로드
-        Converter converter = new Converter("input.cgm");
-        // 대상 형식 WEBP에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
-        // WEBP 형식으로 변환
-        converter.convert("output.webp", convertOptions);
+          Converter converter = new Converter("input.cgm");
+          // 대상 형식 WEBP에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
+          // WEBP 형식으로 변환
+          converter.convert("output.webp", convertOptions);
         ```
 
 demos:

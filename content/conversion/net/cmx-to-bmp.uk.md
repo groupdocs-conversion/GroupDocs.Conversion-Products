@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:03
+date: 2022-10-12T19:59:59
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CMX в BMP на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл CMX для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.cmx");
-        // Задайте параметри перетворення для цільового формату BMP
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // Перетворіть файл у BMP формат
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cmx");
+          // Задайте параметри перетворення для цільового формату BMP
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // Перетворіть файл у BMP формат
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

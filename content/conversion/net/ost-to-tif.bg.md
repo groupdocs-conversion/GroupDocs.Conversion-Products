@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:36
+date: 2022-10-12T20:00:44
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OST до TIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл OST за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.ost");
-        // Подгответе опции за преобразуване за целеви формат TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Конвертиране във формат TIF
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ost");
+          // Подгответе опции за преобразуване за целеви формат TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Конвертиране във формат TIF
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

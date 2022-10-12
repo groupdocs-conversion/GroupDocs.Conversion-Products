@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:25
+date: 2022-10-12T19:57:26
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DGN to PPTX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file DGN for conversion
-        Converter converter = new Converter("input.dgn");
-        // Prepare conversion options for target format PPTX
-        ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
-        // Convert to PPTX format
-        converter.convert("output.pptx", convertOptions);
+          Converter converter = new Converter("input.dgn");
+          // Prepare conversion options for target format PPTX
+          ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
+          // Convert to PPTX format
+          converter.convert("output.pptx", convertOptions);
         ```
 
 demos:

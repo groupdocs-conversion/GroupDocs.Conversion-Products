@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:06
+date: 2022-10-12T19:58:33
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX à EMZ en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source MBOX pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Préparer les options de conversion pour le format cible EMZ
-        var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
-        // Convertir au format EMZ
-        converter.Convert("output.emz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mbox");
+          // Préparer les options de conversion pour le format cible EMZ
+          var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
+          // Convertir au format EMZ
+          converter.Convert("output.emz", convertOptions);
         ```
 
 demos:

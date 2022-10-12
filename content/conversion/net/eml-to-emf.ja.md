@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:19
+date: 2022-10-12T19:58:54
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の EML から EMF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル EML を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.eml");
-        // ターゲット形式の変換オプションを準備 EMF
-        var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // EMF形式に変換
-        converter.Convert("output.emf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.eml");
+          // ターゲット形式の変換オプションを準備 EMF
+          var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
+          // EMF形式に変換
+          converter.Convert("output.emf", convertOptions);
         ```
 
 demos:

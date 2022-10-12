@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:13
+date: 2022-10-12T20:00:11
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JLS в EMZ на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл JLS для конвертації
-        Converter converter = new Converter("input.jls");
-        // Задайте параметри перетворення для цільового формату EMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
-        // Перетворіть файл у EMZ формат
-        converter.convert("output.emz", convertOptions);
+          Converter converter = new Converter("input.jls");
+          // Задайте параметри перетворення для цільового формату EMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
+          // Перетворіть файл у EMZ формат
+          converter.convert("output.emz", convertOptions);
         ```
 
 demos:

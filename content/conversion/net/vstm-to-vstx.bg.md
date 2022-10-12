@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:39
+date: 2022-10-12T20:00:47
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSTM до VSTX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл VSTM за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.vstm");
-        // Подгответе опции за преобразуване за целеви формат VSTX
-        var convertOptions = converter.GetPossibleConversions()["vstx"].ConvertOptions;
-        // Конвертиране във формат VSTX
-        converter.Convert("output.vstx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vstm");
+          // Подгответе опции за преобразуване за целеви формат VSTX
+          var convertOptions = converter.GetPossibleConversions()["vstx"].ConvertOptions;
+          // Конвертиране във формат VSTX
+          converter.Convert("output.vstx", convertOptions);
         ```
 
 demos:

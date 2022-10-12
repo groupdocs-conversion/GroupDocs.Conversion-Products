@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:42
+date: 2022-10-12T20:00:52
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: HTM до DOC на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл HTM за конвертиране
-        Converter converter = new Converter("input.htm");
-        // Подгответе опции за преобразуване за целеви формат DOC
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // Конвертиране във формат DOC
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.htm");
+          // Подгответе опции за преобразуване за целеви формат DOC
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // Конвертиране във формат DOC
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

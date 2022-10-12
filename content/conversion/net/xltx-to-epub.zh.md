@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:25
+date: 2022-10-12T20:00:28
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# 中的 XLTX 到 EPUB
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 XLTX 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.xltx");
-        // 为目标格式 EPUB 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // 转换为 EPUB 格式
-        converter.Convert("output.epub", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xltx");
+          // 为目标格式 EPUB 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+          // 转换为 EPUB 格式
+          converter.Convert("output.epub", convertOptions);
         ```
 
 demos:

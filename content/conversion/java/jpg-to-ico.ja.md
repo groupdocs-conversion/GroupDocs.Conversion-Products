@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:28
+date: 2022-10-12T19:59:08
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでJPGからICOへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル JPG を読み込みます
-        Converter converter = new Converter("input.jpg");
-        // ターゲット形式の変換オプションを準備 ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // ICO形式に変換
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.jpg");
+          // ターゲット形式の変換オプションを準備 ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // ICO形式に変換
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

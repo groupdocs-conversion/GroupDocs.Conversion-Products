@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:11
+date: 2022-10-12T20:00:09
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CF2 в ODP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл CF2 для конвертації
-        Converter converter = new Converter("input.cf2");
-        // Задайте параметри перетворення для цільового формату ODP
-        ConvertOptions convertOptions = new FileType().fromExtension("odp").getConvertOptions();
-        // Перетворіть файл у ODP формат
-        converter.convert("output.odp", convertOptions);
+          Converter converter = new Converter("input.cf2");
+          // Задайте параметри перетворення для цільового формату ODP
+          ConvertOptions convertOptions = new FileType().fromExtension("odp").getConvertOptions();
+          // Перетворіть файл у ODP формат
+          converter.convert("output.odp", convertOptions);
         ```
 
 demos:

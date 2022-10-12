@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:05
+date: 2022-10-12T19:58:32
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IFC à MHTML en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source IFC pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.ifc");
-        // Préparer les options de conversion pour le format cible MHTML
-        var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
-        // Convertir au format MHTML
-        converter.Convert("output.mhtml", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ifc");
+          // Préparer les options de conversion pour le format cible MHTML
+          var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
+          // Convertir au format MHTML
+          converter.Convert("output.mhtml", convertOptions);
         ```
 
 demos:

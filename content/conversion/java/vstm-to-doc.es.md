@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:01
+date: 2022-10-12T19:58:27
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSTM a DOC en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente VSTM para la conversión
-        Converter converter = new Converter("input.vstm");
-        // Preparar opciones de conversión para el formato de destino DOC
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // Convertir al formato DOC
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.vstm");
+          // Preparar opciones de conversión para el formato de destino DOC
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // Convertir al formato DOC
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

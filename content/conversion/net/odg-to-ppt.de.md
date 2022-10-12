@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:37
+date: 2022-10-12T19:57:44
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ODG bis PPT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei ODG zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.odg");
-        // Konvertierungsoptionen für das Zielformat PPT vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
-        // In das PPT-Format konvertieren
-        converter.Convert("output.ppt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.odg");
+          // Konvertierungsoptionen für das Zielformat PPT vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
+          // In das PPT-Format konvertieren
+          converter.Convert("output.ppt", convertOptions);
         ```
 
 demos:

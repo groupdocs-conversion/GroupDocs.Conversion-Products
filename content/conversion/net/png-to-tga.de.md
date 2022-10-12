@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:38
+date: 2022-10-12T19:57:45
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: PNG bis TGA in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei PNG zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.png");
-        // Konvertierungsoptionen für das Zielformat TGA vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
-        // In das TGA-Format konvertieren
-        converter.Convert("output.tga", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.png");
+          // Konvertierungsoptionen für das Zielformat TGA vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
+          // In das TGA-Format konvertieren
+          converter.Convert("output.tga", convertOptions);
         ```
 
 demos:

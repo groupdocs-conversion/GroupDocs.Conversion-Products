@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:04
+date: 2022-10-12T20:00:00
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWG в PPSX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл DWG для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.dwg");
-        // Задайте параметри перетворення для цільового формату PPSX
-        var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
-        // Перетворіть файл у PPSX формат
-        converter.Convert("output.ppsx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwg");
+          // Задайте параметри перетворення для цільового формату PPSX
+          var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
+          // Перетворіть файл у PPSX формат
+          converter.Convert("output.ppsx", convertOptions);
         ```
 
 demos:

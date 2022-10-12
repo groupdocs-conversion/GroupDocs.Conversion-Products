@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:08
+date: 2022-10-12T19:58:38
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSDM à VSX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source VSDM pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vsdm");
-        // Préparer les options de conversion pour le format cible VSX
-        var convertOptions = converter.GetPossibleConversions()["vsx"].ConvertOptions;
-        // Convertir au format VSX
-        converter.Convert("output.vsx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vsdm");
+          // Préparer les options de conversion pour le format cible VSX
+          var convertOptions = converter.GetPossibleConversions()["vsx"].ConvertOptions;
+          // Convertir au format VSX
+          converter.Convert("output.vsx", convertOptions);
         ```
 
 demos:

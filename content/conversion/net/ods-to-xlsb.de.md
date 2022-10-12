@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:37
+date: 2022-10-12T19:57:44
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: ODS bis XLSB in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei ODS zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.ods");
-        // Konvertierungsoptionen für das Zielformat XLSB vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
-        // In das XLSB-Format konvertieren
-        converter.Convert("output.xlsb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ods");
+          // Konvertierungsoptionen für das Zielformat XLSB vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
+          // In das XLSB-Format konvertieren
+          converter.Convert("output.xlsb", convertOptions);
         ```
 
 demos:

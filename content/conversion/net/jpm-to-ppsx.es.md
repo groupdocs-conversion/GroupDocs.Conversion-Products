@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:50
+date: 2022-10-12T19:58:09
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPM a PPSX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente JPM para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.jpm");
-        // Preparar opciones de conversión para el formato de destino PPSX
-        var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
-        // Convertir al formato PPSX
-        converter.Convert("output.ppsx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpm");
+          // Preparar opciones de conversión para el formato de destino PPSX
+          var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
+          // Convertir al formato PPSX
+          converter.Convert("output.ppsx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:39
+date: 2022-10-12T19:57:49
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST bis TEX in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei VST zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.vst");
-        // Konvertierungsoptionen für das Zielformat TEX vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
-        // In das TEX-Format konvertieren
-        converter.Convert("output.tex", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vst");
+          // Konvertierungsoptionen für das Zielformat TEX vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
+          // In das TEX-Format konvertieren
+          converter.Convert("output.tex", convertOptions);
         ```
 
 demos:

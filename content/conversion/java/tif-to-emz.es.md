@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:01
+date: 2022-10-12T19:58:25
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: TIF a EMZ en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente TIF para la conversión
-        Converter converter = new Converter("input.tif");
-        // Preparar opciones de conversión para el formato de destino EMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
-        // Convertir al formato EMZ
-        converter.convert("output.emz", convertOptions);
+          Converter converter = new Converter("input.tif");
+          // Preparar opciones de conversión para el formato de destino EMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
+          // Convertir al formato EMZ
+          converter.convert("output.emz", convertOptions);
         ```
 
 demos:

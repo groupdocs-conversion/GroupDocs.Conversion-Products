@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:24
+date: 2022-10-12T19:57:24
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSB to FODS in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file XLSB for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.xlsb");
-        // Prepare conversion options for target format FODS
-        var convertOptions = converter.GetPossibleConversions()["fods"].ConvertOptions;
-        // Convert to FODS format
-        converter.Convert("output.fods", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsb");
+          // Prepare conversion options for target format FODS
+          var convertOptions = converter.GetPossibleConversions()["fods"].ConvertOptions;
+          // Convert to FODS format
+          converter.Convert("output.fods", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:59
+date: 2022-10-12T19:58:23
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: OTP a JPG en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente OTP para la conversión
-        Converter converter = new Converter("input.otp");
-        // Preparar opciones de conversión para el formato de destino JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Convertir al formato JPG
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.otp");
+          // Preparar opciones de conversión para el formato de destino JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Convertir al formato JPG
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

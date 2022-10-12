@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:07
+date: 2022-10-12T19:58:37
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPTX à TXT en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source PPTX pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.pptx");
-        // Préparer les options de conversion pour le format cible TXT
-        var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
-        // Convertir au format TXT
-        converter.Convert("output.txt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pptx");
+          // Préparer les options de conversion pour le format cible TXT
+          var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
+          // Convertir au format TXT
+          converter.Convert("output.txt", convertOptions);
         ```
 
 demos:

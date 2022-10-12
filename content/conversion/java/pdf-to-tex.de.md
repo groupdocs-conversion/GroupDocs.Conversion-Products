@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:45
+date: 2022-10-12T19:57:59
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PDF bis TEX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei PDF zur Konvertierung laden
-        Converter converter = new Converter("input.pdf");
-        // Konvertierungsoptionen für das Zielformat TEX vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
-        // In das TEX-Format konvertieren
-        converter.convert("output.tex", convertOptions);
+          Converter converter = new Converter("input.pdf");
+          // Konvertierungsoptionen für das Zielformat TEX vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
+          // In das TEX-Format konvertieren
+          converter.convert("output.tex", convertOptions);
         ```
 
 demos:

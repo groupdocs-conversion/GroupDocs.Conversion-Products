@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:40
+date: 2022-10-12T20:00:48
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSM до XLSB на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл XLSM за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.xlsm");
-        // Подгответе опции за преобразуване за целеви формат XLSB
-        var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
-        // Конвертиране във формат XLSB
-        converter.Convert("output.xlsb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsm");
+          // Подгответе опции за преобразуване за целеви формат XLSB
+          var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
+          // Конвертиране във формат XLSB
+          converter.Convert("output.xlsb", convertOptions);
         ```
 
 demos:

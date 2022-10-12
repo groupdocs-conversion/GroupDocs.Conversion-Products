@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:47
+date: 2022-10-12T20:00:59
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: XPS до SVGZ на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл XPS за конвертиране
-        Converter converter = new Converter("input.xps");
-        // Подгответе опции за преобразуване за целеви формат SVGZ
-        ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
-        // Конвертиране във формат SVGZ
-        converter.convert("output.svgz", convertOptions);
+          Converter converter = new Converter("input.xps");
+          // Подгответе опции за преобразуване за целеви формат SVGZ
+          ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
+          // Конвертиране във формат SVGZ
+          converter.convert("output.svgz", convertOptions);
         ```
 
 demos:

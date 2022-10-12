@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:54
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWF bis RTF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DWF zur Konvertierung laden
-        Converter converter = new Converter("input.dwf");
-        // Konvertierungsoptionen für das Zielformat RTF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // In das RTF-Format konvertieren
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.dwf");
+          // Konvertierungsoptionen für das Zielformat RTF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // In das RTF-Format konvertieren
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

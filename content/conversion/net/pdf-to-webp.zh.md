@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:22
+date: 2022-10-12T20:00:24
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: C# 中的 PDF 到 WEBP
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 PDF 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.pdf");
-        // 为目标格式 WEBP 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
-        // 转换为 WEBP 格式
-        converter.Convert("output.webp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pdf");
+          // 为目标格式 WEBP 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
+          // 转换为 WEBP 格式
+          converter.Convert("output.webp", convertOptions);
         ```
 
 demos:

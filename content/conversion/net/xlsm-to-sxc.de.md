@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:40
+date: 2022-10-12T19:57:51
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSM bis SXC in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei XLSM zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.xlsm");
-        // Konvertierungsoptionen für das Zielformat SXC vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["sxc"].ConvertOptions;
-        // In das SXC-Format konvertieren
-        converter.Convert("output.sxc", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsm");
+          // Konvertierungsoptionen für das Zielformat SXC vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["sxc"].ConvertOptions;
+          // In das SXC-Format konvertieren
+          converter.Convert("output.sxc", convertOptions);
         ```
 
 demos:

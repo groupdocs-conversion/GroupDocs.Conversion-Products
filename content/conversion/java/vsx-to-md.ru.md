@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:01
+date: 2022-10-12T19:59:57
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSX в MD на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл VSX для преобразования
-        Converter converter = new Converter("input.vsx");
-        // Подготовьте параметры преобразования для целевого формата MD
-        ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
-        // Преобразование в формат MD
-        converter.convert("output.md", convertOptions);
+          Converter converter = new Converter("input.vsx");
+          // Подготовьте параметры преобразования для целевого формата MD
+          ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
+          // Преобразование в формат MD
+          converter.convert("output.md", convertOptions);
         ```
 
 demos:

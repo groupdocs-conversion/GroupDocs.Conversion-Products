@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:02
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSDM bis DOCX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei VSDM zur Konvertierung laden
-        Converter converter = new Converter("input.vsdm");
-        // Konvertierungsoptionen für das Zielformat DOCX vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
-        // In das DOCX-Format konvertieren
-        converter.convert("output.docx", convertOptions);
+          Converter converter = new Converter("input.vsdm");
+          // Konvertierungsoptionen für das Zielformat DOCX vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
+          // In das DOCX-Format konvertieren
+          converter.convert("output.docx", convertOptions);
         ```
 
 demos:

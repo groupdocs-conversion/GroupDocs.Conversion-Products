@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:18
+date: 2022-10-12T20:00:18
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLS в TEX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл XLS для конвертації
-        Converter converter = new Converter("input.xls");
-        // Задайте параметри перетворення для цільового формату TEX
-        ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
-        // Перетворіть файл у TEX формат
-        converter.convert("output.tex", convertOptions);
+          Converter converter = new Converter("input.xls");
+          // Задайте параметри перетворення для цільового формату TEX
+          ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
+          // Перетворіть файл у TEX формат
+          converter.convert("output.tex", convertOptions);
         ```
 
 demos:

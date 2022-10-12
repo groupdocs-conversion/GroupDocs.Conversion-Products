@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:25
+date: 2022-10-12T19:57:26
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CAD to PPS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file CAD for conversion
-        Converter converter = new Converter("input.cad");
-        // Prepare conversion options for target format PPS
-        ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
-        // Convert to PPS format
-        converter.convert("output.pps", convertOptions);
+          Converter converter = new Converter("input.cad");
+          // Prepare conversion options for target format PPS
+          ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
+          // Convert to PPS format
+          converter.convert("output.pps", convertOptions);
         ```
 
 demos:

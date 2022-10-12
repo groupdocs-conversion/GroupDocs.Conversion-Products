@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:13
+date: 2022-10-12T19:58:46
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG à JP2 en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source MSG pour la conversion
-        Converter converter = new Converter("input.msg");
-        // Préparer les options de conversion pour le format cible JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // Convertir au format JP2
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.msg");
+          // Préparer les options de conversion pour le format cible JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // Convertir au format JP2
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

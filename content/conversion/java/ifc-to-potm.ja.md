@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:27
+date: 2022-10-12T19:59:07
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: JavaでIFCからPOTMへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル IFC を読み込みます
-        Converter converter = new Converter("input.ifc");
-        // ターゲット形式の変換オプションを準備 POTM
-        ConvertOptions convertOptions = new FileType().fromExtension("potm").getConvertOptions();
-        // POTM形式に変換
-        converter.convert("output.potm", convertOptions);
+          Converter converter = new Converter("input.ifc");
+          // ターゲット形式の変換オプションを準備 POTM
+          ConvertOptions convertOptions = new FileType().fromExtension("potm").getConvertOptions();
+          // POTM形式に変換
+          converter.convert("output.potm", convertOptions);
         ```
 
 demos:

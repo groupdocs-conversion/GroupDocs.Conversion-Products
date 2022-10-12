@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:23
+date: 2022-10-12T19:57:23
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF to JP2 in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file VCF for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Prepare conversion options for target format JP2
-        var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
-        // Convert to JP2 format
-        converter.Convert("output.jp2", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vcf");
+          // Prepare conversion options for target format JP2
+          var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
+          // Convert to JP2 format
+          converter.Convert("output.jp2", convertOptions);
         ```
 
 demos:

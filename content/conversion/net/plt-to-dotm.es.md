@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:52
+date: 2022-10-12T19:58:12
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: PLT a DOTM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente PLT para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.plt");
-        // Preparar opciones de conversión para el formato de destino DOTM
-        var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
-        // Convertir al formato DOTM
-        converter.Convert("output.dotm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.plt");
+          // Preparar opciones de conversión para el formato de destino DOTM
+          var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
+          // Convertir al formato DOTM
+          converter.Convert("output.dotm", convertOptions);
         ```
 
 demos:

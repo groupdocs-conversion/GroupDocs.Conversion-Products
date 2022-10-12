@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:20
+date: 2022-10-12T20:00:21
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# 中的 FODS 到 HTML
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 FODS 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.fods");
-        // 为目标格式 HTML 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
-        // 转换为 HTML 格式
-        converter.Convert("output.html", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.fods");
+          // 为目标格式 HTML 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
+          // 转换为 HTML 格式
+          converter.Convert("output.html", convertOptions);
         ```
 
 demos:

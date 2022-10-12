@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:52
+date: 2022-10-12T19:59:45
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: PSD в PSB на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл PSD для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.psd");
-        // Задайте параметры преобразования для целевого формата PSB
-        var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
-        // Преобразуйте файл в PSB формат
-        converter.Convert("output.psb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.psd");
+          // Задайте параметры преобразования для целевого формата PSB
+          var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
+          // Преобразуйте файл в PSB формат
+          converter.Convert("output.psb", convertOptions);
         ```
 
 demos:

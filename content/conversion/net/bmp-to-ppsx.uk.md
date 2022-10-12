@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:02
+date: 2022-10-12T19:59:59
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: BMP в PPSX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл BMP для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.bmp");
-        // Задайте параметри перетворення для цільового формату PPSX
-        var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
-        // Перетворіть файл у PPSX формат
-        converter.Convert("output.ppsx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.bmp");
+          // Задайте параметри перетворення для цільового формату PPSX
+          var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
+          // Перетворіть файл у PPSX формат
+          converter.Convert("output.ppsx", convertOptions);
         ```
 
 demos:

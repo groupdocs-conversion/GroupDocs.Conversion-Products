@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:16
+date: 2022-10-12T19:58:50
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSSM à PDF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source VSSM pour la conversion
-        Converter converter = new Converter("input.vssm");
-        // Préparer les options de conversion pour le format cible PDF
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // Convertir au format PDF
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.vssm");
+          // Préparer les options de conversion pour le format cible PDF
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // Convertir au format PDF
+          converter.convert("output.pdf", convertOptions);
         ```
 
 demos:

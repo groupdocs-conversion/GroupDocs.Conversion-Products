@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:59
+date: 2022-10-12T19:58:22
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: ODS a SXC en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente ODS para la conversión
-        Converter converter = new Converter("input.ods");
-        // Preparar opciones de conversión para el formato de destino SXC
-        ConvertOptions convertOptions = new FileType().fromExtension("sxc").getConvertOptions();
-        // Convertir al formato SXC
-        converter.convert("output.sxc", convertOptions);
+          Converter converter = new Converter("input.ods");
+          // Preparar opciones de conversión para el formato de destino SXC
+          ConvertOptions convertOptions = new FileType().fromExtension("sxc").getConvertOptions();
+          // Convertir al formato SXC
+          converter.convert("output.sxc", convertOptions);
         ```
 
 demos:

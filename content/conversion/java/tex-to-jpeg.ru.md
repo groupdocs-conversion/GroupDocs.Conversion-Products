@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:00
+date: 2022-10-12T19:59:56
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: TEX в JPEG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл TEX для преобразования
-        Converter converter = new Converter("input.tex");
-        // Подготовьте параметры преобразования для целевого формата JPEG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
-        // Преобразование в формат JPEG
-        converter.convert("output.jpeg", convertOptions);
+          Converter converter = new Converter("input.tex");
+          // Подготовьте параметры преобразования для целевого формата JPEG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
+          // Преобразование в формат JPEG
+          converter.convert("output.jpeg", convertOptions);
         ```
 
 demos:

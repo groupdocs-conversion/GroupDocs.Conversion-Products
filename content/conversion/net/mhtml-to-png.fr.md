@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:06
+date: 2022-10-12T19:58:33
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MHTML à PNG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source MHTML pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.mhtml");
-        // Préparer les options de conversion pour le format cible PNG
-        var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-        // Convertir au format PNG
-        converter.Convert("output.png", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mhtml");
+          // Préparer les options de conversion pour le format cible PNG
+          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
+          // Convertir au format PNG
+          converter.Convert("output.png", convertOptions);
         ```
 
 demos:

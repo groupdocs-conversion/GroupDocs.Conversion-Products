@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:47
+date: 2022-10-12T19:59:40
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DNG в PNG на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл DNG для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.dng");
-        // Задайте параметры преобразования для целевого формата PNG
-        var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-        // Преобразуйте файл в PNG формат
-        converter.Convert("output.png", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dng");
+          // Задайте параметры преобразования для целевого формата PNG
+          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
+          // Преобразуйте файл в PNG формат
+          converter.Convert("output.png", convertOptions);
         ```
 
 demos:

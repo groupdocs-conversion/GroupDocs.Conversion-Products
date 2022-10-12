@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:20
+date: 2022-10-12T20:00:20
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# 中的 EMLX 到 WMZ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 EMLX 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.emlx");
-        // 为目标格式 WMZ 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
-        // 转换为 WMZ 格式
-        converter.Convert("output.wmz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emlx");
+          // 为目标格式 WMZ 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
+          // 转换为 WMZ 格式
+          converter.Convert("output.wmz", convertOptions);
         ```
 
 demos:

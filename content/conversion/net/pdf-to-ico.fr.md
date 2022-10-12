@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:07
+date: 2022-10-12T19:58:35
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PDF à ICO en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source PDF pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.pdf");
-        // Préparer les options de conversion pour le format cible ICO
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // Convertir au format ICO
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pdf");
+          // Préparer les options de conversion pour le format cible ICO
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // Convertir au format ICO
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

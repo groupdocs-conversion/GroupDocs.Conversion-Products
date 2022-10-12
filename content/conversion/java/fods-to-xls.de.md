@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:55
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: FODS bis XLS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei FODS zur Konvertierung laden
-        Converter converter = new Converter("input.fods");
-        // Konvertierungsoptionen für das Zielformat XLS vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("xls").getConvertOptions();
-        // In das XLS-Format konvertieren
-        converter.convert("output.xls", convertOptions);
+          Converter converter = new Converter("input.fods");
+          // Konvertierungsoptionen für das Zielformat XLS vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("xls").getConvertOptions();
+          // In das XLS-Format konvertieren
+          converter.convert("output.xls", convertOptions);
         ```
 
 demos:

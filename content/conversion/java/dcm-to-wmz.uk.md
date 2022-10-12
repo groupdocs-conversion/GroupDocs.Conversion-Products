@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:11
+date: 2022-10-12T20:00:09
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DCM в WMZ на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл DCM для конвертації
-        Converter converter = new Converter("input.dcm");
-        // Задайте параметри перетворення для цільового формату WMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
-        // Перетворіть файл у WMZ формат
-        converter.convert("output.wmz", convertOptions);
+          Converter converter = new Converter("input.dcm");
+          // Задайте параметри перетворення для цільового формату WMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
+          // Перетворіть файл у WMZ формат
+          converter.convert("output.wmz", convertOptions);
         ```
 
 demos:

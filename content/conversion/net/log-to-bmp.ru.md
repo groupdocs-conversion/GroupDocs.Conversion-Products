@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:50
+date: 2022-10-12T19:59:42
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: LOG в BMP на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл LOG для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.log");
-        // Задайте параметры преобразования для целевого формата BMP
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // Преобразуйте файл в BMP формат
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.log");
+          // Задайте параметры преобразования для целевого формата BMP
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // Преобразуйте файл в BMP формат
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

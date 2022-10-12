@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:07
+date: 2022-10-12T19:58:35
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: OTP à PDF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source OTP pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.otp");
-        // Préparer les options de conversion pour le format cible PDF
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // Convertir au format PDF
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.otp");
+          // Préparer les options de conversion pour le format cible PDF
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // Convertir au format PDF
+          converter.Convert("output.pdf", convertOptions);
         ```
 
 demos:

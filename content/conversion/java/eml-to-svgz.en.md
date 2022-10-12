@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:26
+date: 2022-10-12T19:57:28
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EML to SVGZ in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file EML for conversion
-        Converter converter = new Converter("input.eml");
-        // Prepare conversion options for target format SVGZ
-        ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
-        // Convert to SVGZ format
-        converter.convert("output.svgz", convertOptions);
+          Converter converter = new Converter("input.eml");
+          // Prepare conversion options for target format SVGZ
+          ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
+          // Convert to SVGZ format
+          converter.convert("output.svgz", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:03
+date: 2022-10-12T19:59:59
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DIB в TIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл DIB для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.dib");
-        // Задайте параметри перетворення для цільового формату TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Перетворіть файл у TIF формат
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dib");
+          // Задайте параметри перетворення для цільового формату TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Перетворіть файл у TIF формат
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

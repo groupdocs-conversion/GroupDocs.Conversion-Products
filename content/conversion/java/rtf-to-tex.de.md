@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:01
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: RTF bis TEX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei RTF zur Konvertierung laden
-        Converter converter = new Converter("input.rtf");
-        // Konvertierungsoptionen für das Zielformat TEX vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
-        // In das TEX-Format konvertieren
-        converter.convert("output.tex", convertOptions);
+          Converter converter = new Converter("input.rtf");
+          // Konvertierungsoptionen für das Zielformat TEX vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
+          // In das TEX-Format konvertieren
+          converter.convert("output.tex", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:01
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PST bis WEBP in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei PST zur Konvertierung laden
-        Converter converter = new Converter("input.pst");
-        // Konvertierungsoptionen für das Zielformat WEBP vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
-        // In das WEBP-Format konvertieren
-        converter.convert("output.webp", convertOptions);
+          Converter converter = new Converter("input.pst");
+          // Konvertierungsoptionen für das Zielformat WEBP vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
+          // In das WEBP-Format konvertieren
+          converter.convert("output.webp", convertOptions);
         ```
 
 demos:

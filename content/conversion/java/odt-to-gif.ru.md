@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:53
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: ODT в GIF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл ODT для преобразования
-        Converter converter = new Converter("input.odt");
-        // Подготовьте параметры преобразования для целевого формата GIF
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // Преобразование в формат GIF
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.odt");
+          // Подготовьте параметры преобразования для целевого формата GIF
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // Преобразование в формат GIF
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

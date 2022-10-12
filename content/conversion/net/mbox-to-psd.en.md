@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:20
+date: 2022-10-12T19:57:18
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX to PSD in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file MBOX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Prepare conversion options for target format PSD
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // Convert to PSD format
-        converter.Convert("output.psd", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mbox");
+          // Prepare conversion options for target format PSD
+          var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
+          // Convert to PSD format
+          converter.Convert("output.psd", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:10
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWT в ODT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл DWT для конвертації
-        Converter converter = new Converter("input.dwt");
-        // Задайте параметри перетворення для цільового формату ODT
-        ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
-        // Перетворіть файл у ODT формат
-        converter.convert("output.odt", convertOptions);
+          Converter converter = new Converter("input.dwt");
+          // Задайте параметри перетворення для цільового формату ODT
+          ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
+          // Перетворіть файл у ODT формат
+          converter.convert("output.odt", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:54
+date: 2022-10-12T19:58:14
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VDW a VSSM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente VDW para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.vdw");
-        // Preparar opciones de conversión para el formato de destino VSSM
-        var convertOptions = converter.GetPossibleConversions()["vssm"].ConvertOptions;
-        // Convertir al formato VSSM
-        converter.Convert("output.vssm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vdw");
+          // Preparar opciones de conversión para el formato de destino VSSM
+          var convertOptions = converter.GetPossibleConversions()["vssm"].ConvertOptions;
+          // Convertir al formato VSSM
+          converter.Convert("output.vssm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:26
+date: 2022-10-12T19:57:28
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMLX to TGA in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file EMLX for conversion
-        Converter converter = new Converter("input.emlx");
-        // Prepare conversion options for target format TGA
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // Convert to TGA format
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.emlx");
+          // Prepare conversion options for target format TGA
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // Convert to TGA format
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

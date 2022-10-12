@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:00
+date: 2022-10-12T19:58:25
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVGZ a TGA en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente SVGZ para la conversión
-        Converter converter = new Converter("input.svgz");
-        // Preparar opciones de conversión para el formato de destino TGA
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // Convertir al formato TGA
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.svgz");
+          // Preparar opciones de conversión para el formato de destino TGA
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // Convertir al formato TGA
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:10
+date: 2022-10-12T20:00:09
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: AI в TIFF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл AI для конвертації
-        Converter converter = new Converter("input.ai");
-        // Задайте параметри перетворення для цільового формату TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Перетворіть файл у TIFF формат
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.ai");
+          // Задайте параметри перетворення для цільового формату TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Перетворіть файл у TIFF формат
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

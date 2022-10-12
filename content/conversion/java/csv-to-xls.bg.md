@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:40
+date: 2022-10-12T20:00:50
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: CSV до XLS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл CSV за конвертиране
-        Converter converter = new Converter("input.csv");
-        // Подгответе опции за преобразуване за целеви формат XLS
-        ConvertOptions convertOptions = new FileType().fromExtension("xls").getConvertOptions();
-        // Конвертиране във формат XLS
-        converter.convert("output.xls", convertOptions);
+          Converter converter = new Converter("input.csv");
+          // Подгответе опции за преобразуване за целеви формат XLS
+          ConvertOptions convertOptions = new FileType().fromExtension("xls").getConvertOptions();
+          // Конвертиране във формат XLS
+          converter.convert("output.xls", convertOptions);
         ```
 
 demos:

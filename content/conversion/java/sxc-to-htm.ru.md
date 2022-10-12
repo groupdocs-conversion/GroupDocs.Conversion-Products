@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:00
+date: 2022-10-12T19:59:56
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: SXC в HTM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл SXC для преобразования
-        Converter converter = new Converter("input.sxc");
-        // Подготовьте параметры преобразования для целевого формата HTM
-        ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
-        // Преобразование в формат HTM
-        converter.convert("output.htm", convertOptions);
+          Converter converter = new Converter("input.sxc");
+          // Подготовьте параметры преобразования для целевого формата HTM
+          ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
+          // Преобразование в формат HTM
+          converter.convert("output.htm", convertOptions);
         ```
 
 demos:

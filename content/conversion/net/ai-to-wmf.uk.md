@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:02
+date: 2022-10-12T19:59:59
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: AI в WMF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл AI для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.ai");
-        // Задайте параметри перетворення для цільового формату WMF
-        var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
-        // Перетворіть файл у WMF формат
-        converter.Convert("output.wmf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ai");
+          // Задайте параметри перетворення для цільового формату WMF
+          var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
+          // Перетворіть файл у WMF формат
+          converter.Convert("output.wmf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:45
+date: 2022-10-12T19:58:00
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: PSD bis SVGZ in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei PSD zur Konvertierung laden
-        Converter converter = new Converter("input.psd");
-        // Konvertierungsoptionen für das Zielformat SVGZ vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
-        // In das SVGZ-Format konvertieren
-        converter.convert("output.svgz", convertOptions);
+          Converter converter = new Converter("input.psd");
+          // Konvertierungsoptionen für das Zielformat SVGZ vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
+          // In das SVGZ-Format konvertieren
+          converter.convert("output.svgz", convertOptions);
         ```
 
 demos:

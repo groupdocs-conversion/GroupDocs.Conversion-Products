@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:03
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSDX bis EPUB in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei VSDX zur Konvertierung laden
-        Converter converter = new Converter("input.vsdx");
-        // Konvertierungsoptionen für das Zielformat EPUB vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
-        // In das EPUB-Format konvertieren
-        converter.convert("output.epub", convertOptions);
+          Converter converter = new Converter("input.vsdx");
+          // Konvertierungsoptionen für das Zielformat EPUB vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
+          // In das EPUB-Format konvertieren
+          converter.convert("output.epub", convertOptions);
         ```
 
 demos:

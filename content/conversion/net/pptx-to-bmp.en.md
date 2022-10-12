@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:22
+date: 2022-10-12T19:57:21
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPTX to BMP in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file PPTX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.pptx");
-        // Prepare conversion options for target format BMP
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // Convert to BMP format
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pptx");
+          // Prepare conversion options for target format BMP
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // Convert to BMP format
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:20
+date: 2022-10-12T19:57:18
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MD to BMP in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file MD for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.md");
-        // Prepare conversion options for target format BMP
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // Convert to BMP format
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.md");
+          // Prepare conversion options for target format BMP
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // Convert to BMP format
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

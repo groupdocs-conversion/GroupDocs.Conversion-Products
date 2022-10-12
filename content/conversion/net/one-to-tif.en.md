@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:21
+date: 2022-10-12T19:57:20
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ONE to TIF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file ONE for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.one");
-        // Prepare conversion options for target format TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Convert to TIF format
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.one");
+          // Prepare conversion options for target format TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Convert to TIF format
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

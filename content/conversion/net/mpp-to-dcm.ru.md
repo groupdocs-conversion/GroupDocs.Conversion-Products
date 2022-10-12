@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:50
+date: 2022-10-12T19:59:43
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP в DCM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл MPP для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // Задайте параметры преобразования для целевого формата DCM
-        var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
-        // Преобразуйте файл в DCM формат
-        converter.Convert("output.dcm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpp");
+          // Задайте параметры преобразования для целевого формата DCM
+          var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
+          // Преобразуйте файл в DCM формат
+          converter.Convert("output.dcm", convertOptions);
         ```
 
 demos:

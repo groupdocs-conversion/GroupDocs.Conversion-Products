@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:25
+date: 2022-10-12T19:59:04
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: JavaでCADからRTFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル CAD を読み込みます
-        Converter converter = new Converter("input.cad");
-        // ターゲット形式の変換オプションを準備 RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // RTF形式に変換
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.cad");
+          // ターゲット形式の変換オプションを準備 RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // RTF形式に変換
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

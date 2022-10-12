@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:41
+date: 2022-10-12T19:59:30
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: Java의 DWT에서 OTP까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 변환을 위해 소스 파일 DWT 로드
-        Converter converter = new Converter("input.dwt");
-        // 대상 형식 OTP에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("otp").getConvertOptions();
-        // OTP 형식으로 변환
-        converter.convert("output.otp", convertOptions);
+          Converter converter = new Converter("input.dwt");
+          // 대상 형식 OTP에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("otp").getConvertOptions();
+          // OTP 형식으로 변환
+          converter.convert("output.otp", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:28
+date: 2022-10-12T20:00:32
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java 中的 JPC 到 ICO
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 JPC 进行转换
-        Converter converter = new Converter("input.jpc");
-        // 为目标格式 ICO 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // 转换为 ICO 格式
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.jpc");
+          // 为目标格式 ICO 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // 转换为 ICO 格式
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

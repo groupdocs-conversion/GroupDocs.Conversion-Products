@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:14
+date: 2022-10-12T20:00:12
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPM в GIF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл JPM для конвертації
-        Converter converter = new Converter("input.jpm");
-        // Задайте параметри перетворення для цільового формату GIF
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // Перетворіть файл у GIF формат
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.jpm");
+          // Задайте параметри перетворення для цільового формату GIF
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // Перетворіть файл у GIF формат
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:53
+date: 2022-10-12T19:59:47
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VDW в VSTM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл VDW для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.vdw");
-        // Задайте параметры преобразования для целевого формата VSTM
-        var convertOptions = converter.GetPossibleConversions()["vstm"].ConvertOptions;
-        // Преобразуйте файл в VSTM формат
-        converter.Convert("output.vstm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vdw");
+          // Задайте параметры преобразования для целевого формата VSTM
+          var convertOptions = converter.GetPossibleConversions()["vstm"].ConvertOptions;
+          // Преобразуйте файл в VSTM формат
+          converter.Convert("output.vstm", convertOptions);
         ```
 
 demos:

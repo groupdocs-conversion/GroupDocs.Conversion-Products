@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:19
+date: 2022-10-12T19:57:16
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMZ to JP2 in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file EMZ for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.emz");
-        // Prepare conversion options for target format JP2
-        var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
-        // Convert to JP2 format
-        converter.Convert("output.jp2", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emz");
+          // Prepare conversion options for target format JP2
+          var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
+          // Convert to JP2 format
+          converter.Convert("output.jp2", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:17
+date: 2022-10-12T19:57:14
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: BMP to SVG in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file BMP for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.bmp");
-        // Prepare conversion options for target format SVG
-        var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // Convert to SVG format
-        converter.Convert("output.svg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.bmp");
+          // Prepare conversion options for target format SVG
+          var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
+          // Convert to SVG format
+          converter.Convert("output.svg", convertOptions);
         ```
 
 demos:

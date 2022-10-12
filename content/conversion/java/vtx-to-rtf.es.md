@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:02
+date: 2022-10-12T19:58:27
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VTX a RTF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente VTX para la conversión
-        Converter converter = new Converter("input.vtx");
-        // Preparar opciones de conversión para el formato de destino RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // Convertir al formato RTF
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.vtx");
+          // Preparar opciones de conversión para el formato de destino RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // Convertir al formato RTF
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

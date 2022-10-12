@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:09
+date: 2022-10-12T20:00:07
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: WEBP в PPT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл WEBP для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.webp");
-        // Задайте параметри перетворення для цільового формату PPT
-        var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
-        // Перетворіть файл у PPT формат
-        converter.Convert("output.ppt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.webp");
+          // Задайте параметри перетворення для цільового формату PPT
+          var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
+          // Перетворіть файл у PPT формат
+          converter.Convert("output.ppt", convertOptions);
         ```
 
 demos:

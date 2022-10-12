@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:09
+date: 2022-10-12T19:58:39
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLAM à HTML en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source XLAM pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.xlam");
-        // Préparer les options de conversion pour le format cible HTML
-        var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
-        // Convertir au format HTML
-        converter.Convert("output.html", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlam");
+          // Préparer les options de conversion pour le format cible HTML
+          var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
+          // Convertir au format HTML
+          converter.Convert("output.html", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:10
+date: 2022-10-12T19:58:40
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLT à JSON en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source XLT pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.xlt");
-        // Préparer les options de conversion pour le format cible JSON
-        var convertOptions = converter.GetPossibleConversions()["json"].ConvertOptions;
-        // Convertir au format JSON
-        converter.Convert("output.json", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlt");
+          // Préparer les options de conversion pour le format cible JSON
+          var convertOptions = converter.GetPossibleConversions()["json"].ConvertOptions;
+          // Convertir au format JSON
+          converter.Convert("output.json", convertOptions);
         ```
 
 demos:

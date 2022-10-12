@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:04
+date: 2022-10-12T20:00:00
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DXF в POT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл DXF для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.dxf");
-        // Задайте параметри перетворення для цільового формату POT
-        var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
-        // Перетворіть файл у POT формат
-        converter.Convert("output.pot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dxf");
+          // Задайте параметри перетворення для цільового формату POT
+          var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
+          // Перетворіть файл у POT формат
+          converter.Convert("output.pot", convertOptions);
         ```
 
 demos:

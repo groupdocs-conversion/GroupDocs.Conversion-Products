@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:17
+date: 2022-10-12T19:58:51
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSX à XPS en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source VSX pour la conversion
-        Converter converter = new Converter("input.vsx");
-        // Préparer les options de conversion pour le format cible XPS
-        ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
-        // Convertir au format XPS
-        converter.convert("output.xps", convertOptions);
+          Converter converter = new Converter("input.vsx");
+          // Préparer les options de conversion pour le format cible XPS
+          ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
+          // Convertir au format XPS
+          converter.convert("output.xps", convertOptions);
         ```
 
 demos:

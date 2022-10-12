@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:53
+date: 2022-10-12T19:58:13
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PS a JPG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente PS para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.ps");
-        // Preparar opciones de conversión para el formato de destino JPG
-        var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
-        // Convertir al formato JPG
-        converter.Convert("output.jpg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ps");
+          // Preparar opciones de conversión para el formato de destino JPG
+          var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
+          // Convertir al formato JPG
+          converter.Convert("output.jpg", convertOptions);
         ```
 
 demos:

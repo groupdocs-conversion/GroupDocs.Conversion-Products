@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:39
+date: 2022-10-12T19:57:48
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: TXT bis PSD in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei TXT zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.txt");
-        // Konvertierungsoptionen für das Zielformat PSD vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // In das PSD-Format konvertieren
-        converter.Convert("output.psd", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.txt");
+          // Konvertierungsoptionen für das Zielformat PSD vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
+          // In das PSD-Format konvertieren
+          converter.Convert("output.psd", convertOptions);
         ```
 
 demos:

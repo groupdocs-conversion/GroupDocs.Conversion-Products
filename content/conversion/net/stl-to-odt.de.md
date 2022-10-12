@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:38
+date: 2022-10-12T19:57:47
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: STL bis ODT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei STL zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // Konvertierungsoptionen für das Zielformat ODT vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
-        // In das ODT-Format konvertieren
-        converter.Convert("output.odt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.stl");
+          // Konvertierungsoptionen für das Zielformat ODT vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
+          // In das ODT-Format konvertieren
+          converter.Convert("output.odt", convertOptions);
         ```
 
 demos:

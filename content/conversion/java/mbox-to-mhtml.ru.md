@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:57
+date: 2022-10-12T19:59:52
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX в MHTML на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл MBOX для преобразования
-        Converter converter = new Converter("input.mbox");
-        // Подготовьте параметры преобразования для целевого формата MHTML
-        ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
-        // Преобразование в формат MHTML
-        converter.convert("output.mhtml", convertOptions);
+          Converter converter = new Converter("input.mbox");
+          // Подготовьте параметры преобразования для целевого формата MHTML
+          ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
+          // Преобразование в формат MHTML
+          converter.convert("output.mhtml", convertOptions);
         ```
 
 demos:

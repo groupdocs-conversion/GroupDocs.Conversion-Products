@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:45
+date: 2022-10-12T19:58:00
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPS bis GIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei PPS zur Konvertierung laden
-        Converter converter = new Converter("input.pps");
-        // Konvertierungsoptionen für das Zielformat GIF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // In das GIF-Format konvertieren
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.pps");
+          // Konvertierungsoptionen für das Zielformat GIF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // In das GIF-Format konvertieren
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

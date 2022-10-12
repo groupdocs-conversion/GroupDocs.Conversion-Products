@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:03
+date: 2022-10-12T19:59:59
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DGN в HTML на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл DGN для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.dgn");
-        // Задайте параметри перетворення для цільового формату HTML
-        var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
-        // Перетворіть файл у HTML формат
-        converter.Convert("output.html", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dgn");
+          // Задайте параметри перетворення для цільового формату HTML
+          var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
+          // Перетворіть файл у HTML формат
+          converter.Convert("output.html", convertOptions);
         ```
 
 demos:

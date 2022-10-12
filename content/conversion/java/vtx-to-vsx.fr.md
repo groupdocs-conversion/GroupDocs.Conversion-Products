@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:17
+date: 2022-10-12T19:58:51
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VTX à VSX en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source VTX pour la conversion
-        Converter converter = new Converter("input.vtx");
-        // Préparer les options de conversion pour le format cible VSX
-        ConvertOptions convertOptions = new FileType().fromExtension("vsx").getConvertOptions();
-        // Convertir au format VSX
-        converter.convert("output.vsx", convertOptions);
+          Converter converter = new Converter("input.vtx");
+          // Préparer les options de conversion pour le format cible VSX
+          ConvertOptions convertOptions = new FileType().fromExtension("vsx").getConvertOptions();
+          // Convertir au format VSX
+          converter.convert("output.vsx", convertOptions);
         ```
 
 demos:

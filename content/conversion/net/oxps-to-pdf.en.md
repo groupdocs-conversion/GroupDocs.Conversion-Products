@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:21
+date: 2022-10-12T19:57:20
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OXPS to PDF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file OXPS for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.oxps");
-        // Prepare conversion options for target format PDF
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // Convert to PDF format
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.oxps");
+          // Prepare conversion options for target format PDF
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // Convert to PDF format
+          converter.Convert("output.pdf", convertOptions);
         ```
 
 demos:

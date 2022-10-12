@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:59
+date: 2022-10-12T19:59:55
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: POTX в PDF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл POTX для преобразования
-        Converter converter = new Converter("input.potx");
-        // Подготовьте параметры преобразования для целевого формата PDF
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // Преобразование в формат PDF
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.potx");
+          // Подготовьте параметры преобразования для целевого формата PDF
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // Преобразование в формат PDF
+          converter.convert("output.pdf", convertOptions);
         ```
 
 demos:

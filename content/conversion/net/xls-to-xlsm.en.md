@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:24
+date: 2022-10-12T19:57:25
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLS to XLSM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file XLS for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.xls");
-        // Prepare conversion options for target format XLSM
-        var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
-        // Convert to XLSM format
-        converter.Convert("output.xlsm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xls");
+          // Prepare conversion options for target format XLSM
+          var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
+          // Convert to XLSM format
+          converter.Convert("output.xlsm", convertOptions);
         ```
 
 demos:

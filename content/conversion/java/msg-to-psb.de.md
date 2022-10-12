@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:44
+date: 2022-10-12T19:57:57
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG bis PSB in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei MSG zur Konvertierung laden
-        Converter converter = new Converter("input.msg");
-        // Konvertierungsoptionen für das Zielformat PSB vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
-        // In das PSB-Format konvertieren
-        converter.convert("output.psb", convertOptions);
+          Converter converter = new Converter("input.msg");
+          // Konvertierungsoptionen für das Zielformat PSB vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
+          // In das PSB-Format konvertieren
+          converter.convert("output.psb", convertOptions);
         ```
 
 demos:

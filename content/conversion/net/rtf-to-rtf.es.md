@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:53
+date: 2022-10-12T19:58:13
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: RTF a RTF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente RTF para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.rtf");
-        // Preparar opciones de conversión para el formato de destino RTF
-        var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
-        // Convertir al formato RTF
-        converter.Convert("output.rtf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.rtf");
+          // Preparar opciones de conversión para el formato de destino RTF
+          var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
+          // Convertir al formato RTF
+          converter.Convert("output.rtf", convertOptions);
         ```
 
 demos:

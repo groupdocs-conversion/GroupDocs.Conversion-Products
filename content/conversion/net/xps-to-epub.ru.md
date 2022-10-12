@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:54
+date: 2022-10-12T19:59:48
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: XPS в EPUB на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл XPS для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.xps");
-        // Задайте параметры преобразования для целевого формата EPUB
-        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // Преобразуйте файл в EPUB формат
-        converter.Convert("output.epub", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xps");
+          // Задайте параметры преобразования для целевого формата EPUB
+          var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+          // Преобразуйте файл в EPUB формат
+          converter.Convert("output.epub", convertOptions);
         ```
 
 demos:

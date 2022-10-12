@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:55
+date: 2022-10-12T19:59:49
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DIB в SVGZ на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл DIB для преобразования
-        Converter converter = new Converter("input.dib");
-        // Подготовьте параметры преобразования для целевого формата SVGZ
-        ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
-        // Преобразование в формат SVGZ
-        converter.convert("output.svgz", convertOptions);
+          Converter converter = new Converter("input.dib");
+          // Подготовьте параметры преобразования для целевого формата SVGZ
+          ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
+          // Преобразование в формат SVGZ
+          converter.convert("output.svgz", convertOptions);
         ```
 
 demos:

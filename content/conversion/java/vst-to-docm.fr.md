@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:16
+date: 2022-10-12T19:58:51
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST à DOCM en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source VST pour la conversion
-        Converter converter = new Converter("input.vst");
-        // Préparer les options de conversion pour le format cible DOCM
-        ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
-        // Convertir au format DOCM
-        converter.convert("output.docm", convertOptions);
+          Converter converter = new Converter("input.vst");
+          // Préparer les options de conversion pour le format cible DOCM
+          ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
+          // Convertir au format DOCM
+          converter.convert("output.docm", convertOptions);
         ```
 
 demos:

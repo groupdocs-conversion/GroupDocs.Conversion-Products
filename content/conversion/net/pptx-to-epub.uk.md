@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:08
+date: 2022-10-12T20:00:05
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPTX в EPUB на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл PPTX для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.pptx");
-        // Задайте параметри перетворення для цільового формату EPUB
-        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // Перетворіть файл у EPUB формат
-        converter.Convert("output.epub", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pptx");
+          // Задайте параметри перетворення для цільового формату EPUB
+          var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+          // Перетворіть файл у EPUB формат
+          converter.Convert("output.epub", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:41
+date: 2022-10-12T20:00:50
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DGN до PPSM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл DGN за конвертиране
-        Converter converter = new Converter("input.dgn");
-        // Подгответе опции за преобразуване за целеви формат PPSM
-        ConvertOptions convertOptions = new FileType().fromExtension("ppsm").getConvertOptions();
-        // Конвертиране във формат PPSM
-        converter.convert("output.ppsm", convertOptions);
+          Converter converter = new Converter("input.dgn");
+          // Подгответе опции за преобразуване за целеви формат PPSM
+          ConvertOptions convertOptions = new FileType().fromExtension("ppsm").getConvertOptions();
+          // Конвертиране във формат PPSM
+          converter.convert("output.ppsm", convertOptions);
         ```
 
 demos:

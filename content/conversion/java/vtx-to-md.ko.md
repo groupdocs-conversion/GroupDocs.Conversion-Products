@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:46
+date: 2022-10-12T19:59:37
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: Java의 VTX에서 MD까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 변환을 위해 소스 파일 VTX 로드
-        Converter converter = new Converter("input.vtx");
-        // 대상 형식 MD에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
-        // MD 형식으로 변환
-        converter.convert("output.md", convertOptions);
+          Converter converter = new Converter("input.vtx");
+          // 대상 형식 MD에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
+          // MD 형식으로 변환
+          converter.convert("output.md", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:50
+date: 2022-10-12T19:59:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JP2 в GIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл JP2 для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.jp2");
-        // Задайте параметры преобразования для целевого формата GIF
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // Преобразуйте файл в GIF формат
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jp2");
+          // Задайте параметры преобразования для целевого формата GIF
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // Преобразуйте файл в GIF формат
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

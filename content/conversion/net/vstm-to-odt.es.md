@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:54
+date: 2022-10-12T19:58:15
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSTM a ODT en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente VSTM para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.vstm");
-        // Preparar opciones de conversión para el formato de destino ODT
-        var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
-        // Convertir al formato ODT
-        converter.Convert("output.odt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vstm");
+          // Preparar opciones de conversión para el formato de destino ODT
+          var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
+          // Convertir al formato ODT
+          converter.Convert("output.odt", convertOptions);
         ```
 
 demos:

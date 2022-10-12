@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:56
+date: 2022-10-12T19:59:51
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EML в EML на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл EML для преобразования
-        Converter converter = new Converter("input.eml");
-        // Подготовьте параметры преобразования для целевого формата EML
-        ConvertOptions convertOptions = new FileType().fromExtension("eml").getConvertOptions();
-        // Преобразование в формат EML
-        converter.convert("output.eml", convertOptions);
+          Converter converter = new Converter("input.eml");
+          // Подготовьте параметры преобразования для целевого формата EML
+          ConvertOptions convertOptions = new FileType().fromExtension("eml").getConvertOptions();
+          // Преобразование в формат EML
+          converter.convert("output.eml", convertOptions);
         ```
 
 demos:

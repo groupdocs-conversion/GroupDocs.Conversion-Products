@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:18
+date: 2022-10-12T20:00:18
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLAM в XLAM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл XLAM для конвертації
-        Converter converter = new Converter("input.xlam");
-        // Задайте параметри перетворення для цільового формату XLAM
-        ConvertOptions convertOptions = new FileType().fromExtension("xlam").getConvertOptions();
-        // Перетворіть файл у XLAM формат
-        converter.convert("output.xlam", convertOptions);
+          Converter converter = new Converter("input.xlam");
+          // Задайте параметри перетворення для цільового формату XLAM
+          ConvertOptions convertOptions = new FileType().fromExtension("xlam").getConvertOptions();
+          // Перетворіть файл у XLAM формат
+          converter.convert("output.xlam", convertOptions);
         ```
 
 demos:

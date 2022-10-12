@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:57
+date: 2022-10-12T19:58:19
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMF a JP2 en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente EMF para la conversión
-        Converter converter = new Converter("input.emf");
-        // Preparar opciones de conversión para el formato de destino JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // Convertir al formato JP2
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.emf");
+          // Preparar opciones de conversión para el formato de destino JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // Convertir al formato JP2
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

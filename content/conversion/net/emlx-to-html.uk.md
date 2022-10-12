@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:04
+date: 2022-10-12T20:00:00
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMLX в HTML на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл EMLX для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.emlx");
-        // Задайте параметри перетворення для цільового формату HTML
-        var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
-        // Перетворіть файл у HTML формат
-        converter.Convert("output.html", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emlx");
+          // Задайте параметри перетворення для цільового формату HTML
+          var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
+          // Перетворіть файл у HTML формат
+          converter.Convert("output.html", convertOptions);
         ```
 
 demos:

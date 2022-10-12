@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:18
+date: 2022-10-12T19:58:53
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# の CSV から XLSB
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル CSV を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.csv");
-        // ターゲット形式の変換オプションを準備 XLSB
-        var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
-        // XLSB形式に変換
-        converter.Convert("output.xlsb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.csv");
+          // ターゲット形式の変換オプションを準備 XLSB
+          var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
+          // XLSB形式に変換
+          converter.Convert("output.xlsb", convertOptions);
         ```
 
 demos:

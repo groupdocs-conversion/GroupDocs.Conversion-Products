@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:08
+date: 2022-10-12T20:00:06
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF в HTM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл VCF для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Задайте параметри перетворення для цільового формату HTM
-        var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
-        // Перетворіть файл у HTM формат
-        converter.Convert("output.htm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vcf");
+          // Задайте параметри перетворення для цільового формату HTM
+          var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
+          // Перетворіть файл у HTM формат
+          converter.Convert("output.htm", convertOptions);
         ```
 
 demos:

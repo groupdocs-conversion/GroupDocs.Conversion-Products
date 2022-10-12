@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:53
+date: 2022-10-12T19:59:47
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSTM в DOCM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл VSTM для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.vstm");
-        // Задайте параметры преобразования для целевого формата DOCM
-        var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // Преобразуйте файл в DOCM формат
-        converter.Convert("output.docm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vstm");
+          // Задайте параметры преобразования для целевого формата DOCM
+          var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
+          // Преобразуйте файл в DOCM формат
+          converter.Convert("output.docm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:03
+date: 2022-10-12T19:58:30
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWF à ODT en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source DWF pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Préparer les options de conversion pour le format cible ODT
-        var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
-        // Convertir au format ODT
-        converter.Convert("output.odt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwf");
+          // Préparer les options de conversion pour le format cible ODT
+          var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
+          // Convertir au format ODT
+          converter.Convert("output.odt", convertOptions);
         ```
 
 demos:

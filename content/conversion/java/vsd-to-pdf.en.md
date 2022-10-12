@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:31
+date: 2022-10-12T19:57:35
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSD to PDF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file VSD for conversion
-        Converter converter = new Converter("input.vsd");
-        // Prepare conversion options for target format PDF
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // Convert to PDF format
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.vsd");
+          // Prepare conversion options for target format PDF
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // Convert to PDF format
+          converter.convert("output.pdf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:34
+date: 2022-10-12T19:57:39
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOCX bis DOTM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei DOCX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.docx");
-        // Konvertierungsoptionen für das Zielformat DOTM vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
-        // In das DOTM-Format konvertieren
-        converter.Convert("output.dotm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.docx");
+          // Konvertierungsoptionen für das Zielformat DOTM vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
+          // In das DOTM-Format konvertieren
+          converter.Convert("output.dotm", convertOptions);
         ```
 
 demos:

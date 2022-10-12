@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:53
+date: 2022-10-12T19:59:47
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST в DOC на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл VST для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.vst");
-        // Задайте параметры преобразования для целевого формата DOC
-        var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
-        // Преобразуйте файл в DOC формат
-        converter.Convert("output.doc", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vst");
+          // Задайте параметры преобразования для целевого формата DOC
+          var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
+          // Преобразуйте файл в DOC формат
+          converter.Convert("output.doc", convertOptions);
         ```
 
 demos:

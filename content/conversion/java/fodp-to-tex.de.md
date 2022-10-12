@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:55
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: FODP bis TEX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei FODP zur Konvertierung laden
-        Converter converter = new Converter("input.fodp");
-        // Konvertierungsoptionen für das Zielformat TEX vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
-        // In das TEX-Format konvertieren
-        converter.convert("output.tex", convertOptions);
+          Converter converter = new Converter("input.fodp");
+          // Konvertierungsoptionen für das Zielformat TEX vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
+          // In das TEX-Format konvertieren
+          converter.convert("output.tex", convertOptions);
         ```
 
 demos:

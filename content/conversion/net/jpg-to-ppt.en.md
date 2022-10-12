@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:20
+date: 2022-10-12T19:57:18
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPG to PPT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file JPG for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.jpg");
-        // Prepare conversion options for target format PPT
-        var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
-        // Convert to PPT format
-        converter.Convert("output.ppt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpg");
+          // Prepare conversion options for target format PPT
+          var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
+          // Convert to PPT format
+          converter.Convert("output.ppt", convertOptions);
         ```
 
 demos:

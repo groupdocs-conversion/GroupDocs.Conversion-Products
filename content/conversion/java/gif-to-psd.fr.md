@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:12
+date: 2022-10-12T19:58:44
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: GIF à PSD en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source GIF pour la conversion
-        Converter converter = new Converter("input.gif");
-        // Préparer les options de conversion pour le format cible PSD
-        ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
-        // Convertir au format PSD
-        converter.convert("output.psd", convertOptions);
+          Converter converter = new Converter("input.gif");
+          // Préparer les options de conversion pour le format cible PSD
+          ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
+          // Convertir au format PSD
+          converter.convert("output.psd", convertOptions);
         ```
 
 demos:

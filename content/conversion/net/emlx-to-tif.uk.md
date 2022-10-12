@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:04
+date: 2022-10-12T20:00:01
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMLX в TIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл EMLX для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.emlx");
-        // Задайте параметри перетворення для цільового формату TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Перетворіть файл у TIF формат
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emlx");
+          // Задайте параметри перетворення для цільового формату TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Перетворіть файл у TIF формат
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

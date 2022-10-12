@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:34
+date: 2022-10-12T19:57:40
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWF bis MHT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei DWF zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Konvertierungsoptionen für das Zielformat MHT vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
-        // In das MHT-Format konvertieren
-        converter.Convert("output.mht", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwf");
+          // Konvertierungsoptionen für das Zielformat MHT vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
+          // In das MHT-Format konvertieren
+          converter.Convert("output.mht", convertOptions);
         ```
 
 demos:

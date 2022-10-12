@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:48
+date: 2022-10-12T19:58:05
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CAD a PPSX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente CAD para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.cad");
-        // Preparar opciones de conversión para el formato de destino PPSX
-        var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
-        // Convertir al formato PPSX
-        converter.Convert("output.ppsx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cad");
+          // Preparar opciones de conversión para el formato de destino PPSX
+          var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
+          // Convertir al formato PPSX
+          converter.Convert("output.ppsx", convertOptions);
         ```
 
 demos:

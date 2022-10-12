@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:01
+date: 2022-10-12T19:58:27
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST a EPUB en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente VST para la conversión
-        Converter converter = new Converter("input.vst");
-        // Preparar opciones de conversión para el formato de destino EPUB
-        ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
-        // Convertir al formato EPUB
-        converter.convert("output.epub", convertOptions);
+          Converter converter = new Converter("input.vst");
+          // Preparar opciones de conversión para el formato de destino EPUB
+          ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
+          // Convertir al formato EPUB
+          converter.convert("output.epub", convertOptions);
         ```
 
 demos:

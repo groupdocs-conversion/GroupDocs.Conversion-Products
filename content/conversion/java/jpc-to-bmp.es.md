@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:58
+date: 2022-10-12T19:58:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPC a BMP en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente JPC para la conversión
-        Converter converter = new Converter("input.jpc");
-        // Preparar opciones de conversión para el formato de destino BMP
-        ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-        // Convertir al formato BMP
-        converter.convert("output.bmp", convertOptions);
+          Converter converter = new Converter("input.jpc");
+          // Preparar opciones de conversión para el formato de destino BMP
+          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
+          // Convertir al formato BMP
+          converter.convert("output.bmp", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:54
+date: 2022-10-12T19:59:48
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLT в HTML на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл XLT для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.xlt");
-        // Задайте параметры преобразования для целевого формата HTML
-        var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
-        // Преобразуйте файл в HTML формат
-        converter.Convert("output.html", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlt");
+          // Задайте параметры преобразования для целевого формата HTML
+          var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
+          // Преобразуйте файл в HTML формат
+          converter.Convert("output.html", convertOptions);
         ```
 
 demos:

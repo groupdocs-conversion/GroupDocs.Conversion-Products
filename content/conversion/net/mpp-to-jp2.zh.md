@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:21
+date: 2022-10-12T20:00:23
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: C# 中的 MPP 到 JP2
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 MPP 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // 为目标格式 JP2 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
-        // 转换为 JP2 格式
-        converter.Convert("output.jp2", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpp");
+          // 为目标格式 JP2 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
+          // 转换为 JP2 格式
+          converter.Convert("output.jp2", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:51
+date: 2022-10-12T19:59:44
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: OTP в DOT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл OTP для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.otp");
-        // Задайте параметры преобразования для целевого формата DOT
-        var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
-        // Преобразуйте файл в DOT формат
-        converter.Convert("output.dot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.otp");
+          // Задайте параметры преобразования для целевого формата DOT
+          var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
+          // Преобразуйте файл в DOT формат
+          converter.Convert("output.dot", convertOptions);
         ```
 
 demos:

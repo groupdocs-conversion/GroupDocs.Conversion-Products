@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:23
+date: 2022-10-12T19:59:02
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: C# の VSSX から VSDM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル VSSX を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.vssx");
-        // ターゲット形式の変換オプションを準備 VSDM
-        var convertOptions = converter.GetPossibleConversions()["vsdm"].ConvertOptions;
-        // VSDM形式に変換
-        converter.Convert("output.vsdm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vssx");
+          // ターゲット形式の変換オプションを準備 VSDM
+          var convertOptions = converter.GetPossibleConversions()["vsdm"].ConvertOptions;
+          // VSDM形式に変換
+          converter.Convert("output.vsdm", convertOptions);
         ```
 
 demos:

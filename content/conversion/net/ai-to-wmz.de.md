@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:33
+date: 2022-10-12T19:57:38
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: AI bis WMZ in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei AI zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.ai");
-        // Konvertierungsoptionen für das Zielformat WMZ vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
-        // In das WMZ-Format konvertieren
-        converter.Convert("output.wmz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ai");
+          // Konvertierungsoptionen für das Zielformat WMZ vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
+          // In das WMZ-Format konvertieren
+          converter.Convert("output.wmz", convertOptions);
         ```
 
 demos:

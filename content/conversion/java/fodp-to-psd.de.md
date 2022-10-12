@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:55
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: FODP bis PSD in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei FODP zur Konvertierung laden
-        Converter converter = new Converter("input.fodp");
-        // Konvertierungsoptionen für das Zielformat PSD vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
-        // In das PSD-Format konvertieren
-        converter.convert("output.psd", convertOptions);
+          Converter converter = new Converter("input.fodp");
+          // Konvertierungsoptionen für das Zielformat PSD vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
+          // In das PSD-Format konvertieren
+          converter.convert("output.psd", convertOptions);
         ```
 
 demos:

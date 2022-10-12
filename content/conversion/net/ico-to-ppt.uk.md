@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:05
+date: 2022-10-12T20:00:01
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ICO в PPT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл ICO для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.ico");
-        // Задайте параметри перетворення для цільового формату PPT
-        var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
-        // Перетворіть файл у PPT формат
-        converter.Convert("output.ppt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ico");
+          // Задайте параметри перетворення для цільового формату PPT
+          var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
+          // Перетворіть файл у PPT формат
+          converter.Convert("output.ppt", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:47
+date: 2022-10-12T20:00:58
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VTX до VTX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл VTX за конвертиране
-        Converter converter = new Converter("input.vtx");
-        // Подгответе опции за преобразуване за целеви формат VTX
-        ConvertOptions convertOptions = new FileType().fromExtension("vtx").getConvertOptions();
-        // Конвертиране във формат VTX
-        converter.convert("output.vtx", convertOptions);
+          Converter converter = new Converter("input.vtx");
+          // Подгответе опции за преобразуване за целеви формат VTX
+          ConvertOptions convertOptions = new FileType().fromExtension("vtx").getConvertOptions();
+          // Конвертиране във формат VTX
+          converter.convert("output.vtx", convertOptions);
         ```
 
 demos:

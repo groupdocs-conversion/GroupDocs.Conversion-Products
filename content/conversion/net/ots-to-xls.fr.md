@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:07
+date: 2022-10-12T19:58:35
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: OTS à XLS en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source OTS pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.ots");
-        // Préparer les options de conversion pour le format cible XLS
-        var convertOptions = converter.GetPossibleConversions()["xls"].ConvertOptions;
-        // Convertir au format XLS
-        converter.Convert("output.xls", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ots");
+          // Préparer les options de conversion pour le format cible XLS
+          var convertOptions = converter.GetPossibleConversions()["xls"].ConvertOptions;
+          // Convertir au format XLS
+          converter.Convert("output.xls", convertOptions);
         ```
 
 demos:

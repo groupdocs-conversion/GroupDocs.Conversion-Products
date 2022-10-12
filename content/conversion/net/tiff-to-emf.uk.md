@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:08
+date: 2022-10-12T20:00:06
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: TIFF в EMF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл TIFF для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.tiff");
-        // Задайте параметри перетворення для цільового формату EMF
-        var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // Перетворіть файл у EMF формат
-        converter.Convert("output.emf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tiff");
+          // Задайте параметри перетворення для цільового формату EMF
+          var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
+          // Перетворіть файл у EMF формат
+          converter.Convert("output.emf", convertOptions);
         ```
 
 demos:

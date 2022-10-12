@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:37
+date: 2022-10-12T20:00:44
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: OTS до EPUB на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл OTS за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.ots");
-        // Подгответе опции за преобразуване за целеви формат EPUB
-        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // Конвертиране във формат EPUB
-        converter.Convert("output.epub", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ots");
+          // Подгответе опции за преобразуване за целеви формат EPUB
+          var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+          // Конвертиране във формат EPUB
+          converter.Convert("output.epub", convertOptions);
         ```
 
 demos:

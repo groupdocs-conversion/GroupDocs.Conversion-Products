@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:33
+date: 2022-10-12T19:57:38
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XML to XPS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file XML for conversion
-        Converter converter = new Converter("input.xml");
-        // Prepare conversion options for target format XPS
-        ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
-        // Convert to XPS format
-        converter.convert("output.xps", convertOptions);
+          Converter converter = new Converter("input.xml");
+          // Prepare conversion options for target format XPS
+          ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
+          // Convert to XPS format
+          converter.convert("output.xps", convertOptions);
         ```
 
 demos:

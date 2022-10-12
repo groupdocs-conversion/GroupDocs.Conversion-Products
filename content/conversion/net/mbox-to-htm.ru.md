@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:50
+date: 2022-10-12T19:59:42
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX в HTM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл MBOX для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Задайте параметры преобразования для целевого формата HTM
-        var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
-        // Преобразуйте файл в HTM формат
-        converter.Convert("output.htm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mbox");
+          // Задайте параметры преобразования для целевого формата HTM
+          var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
+          // Преобразуйте файл в HTM формат
+          converter.Convert("output.htm", convertOptions);
         ```
 
 demos:

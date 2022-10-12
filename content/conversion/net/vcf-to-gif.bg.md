@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:38
+date: 2022-10-12T20:00:47
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF до GIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл VCF за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Подгответе опции за преобразуване за целеви формат GIF
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // Конвертиране във формат GIF
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vcf");
+          // Подгответе опции за преобразуване за целеви формат GIF
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // Конвертиране във формат GIF
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

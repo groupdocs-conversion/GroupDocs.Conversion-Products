@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:22
+date: 2022-10-12T19:58:59
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の PNG から BMP
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル PNG を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.png");
-        // ターゲット形式の変換オプションを準備 BMP
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // BMP形式に変換
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.png");
+          // ターゲット形式の変換オプションを準備 BMP
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // BMP形式に変換
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

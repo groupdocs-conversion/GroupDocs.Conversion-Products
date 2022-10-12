@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:43
+date: 2022-10-12T19:57:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPF bis EMZ in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei JPF zur Konvertierung laden
-        Converter converter = new Converter("input.jpf");
-        // Konvertierungsoptionen für das Zielformat EMZ vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
-        // In das EMZ-Format konvertieren
-        converter.convert("output.emz", convertOptions);
+          Converter converter = new Converter("input.jpf");
+          // Konvertierungsoptionen für das Zielformat EMZ vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
+          // In das EMZ-Format konvertieren
+          converter.convert("output.emz", convertOptions);
         ```
 
 demos:

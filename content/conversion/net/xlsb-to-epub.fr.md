@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:09
+date: 2022-10-12T19:58:39
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSB à EPUB en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source XLSB pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.xlsb");
-        // Préparer les options de conversion pour le format cible EPUB
-        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // Convertir au format EPUB
-        converter.Convert("output.epub", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsb");
+          // Préparer les options de conversion pour le format cible EPUB
+          var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+          // Convertir au format EPUB
+          converter.Convert("output.epub", convertOptions);
         ```
 
 demos:

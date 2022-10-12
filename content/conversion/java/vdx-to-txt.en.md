@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:31
+date: 2022-10-12T19:57:35
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VDX to TXT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file VDX for conversion
-        Converter converter = new Converter("input.vdx");
-        // Prepare conversion options for target format TXT
-        ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
-        // Convert to TXT format
-        converter.convert("output.txt", convertOptions);
+          Converter converter = new Converter("input.vdx");
+          // Prepare conversion options for target format TXT
+          ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
+          // Convert to TXT format
+          converter.convert("output.txt", convertOptions);
         ```
 
 demos:

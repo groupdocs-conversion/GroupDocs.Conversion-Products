@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:10
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMF в PPS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл EMF для конвертації
-        Converter converter = new Converter("input.emf");
-        // Задайте параметри перетворення для цільового формату PPS
-        ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
-        // Перетворіть файл у PPS формат
-        converter.convert("output.pps", convertOptions);
+          Converter converter = new Converter("input.emf");
+          // Задайте параметри перетворення для цільового формату PPS
+          ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
+          // Перетворіть файл у PPS формат
+          converter.convert("output.pps", convertOptions);
         ```
 
 demos:

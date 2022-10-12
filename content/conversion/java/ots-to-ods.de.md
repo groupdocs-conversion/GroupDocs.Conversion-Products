@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:44
+date: 2022-10-12T19:57:58
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: OTS bis ODS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei OTS zur Konvertierung laden
-        Converter converter = new Converter("input.ots");
-        // Konvertierungsoptionen für das Zielformat ODS vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("ods").getConvertOptions();
-        // In das ODS-Format konvertieren
-        converter.convert("output.ods", convertOptions);
+          Converter converter = new Converter("input.ots");
+          // Konvertierungsoptionen für das Zielformat ODS vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("ods").getConvertOptions();
+          // In das ODS-Format konvertieren
+          converter.convert("output.ods", convertOptions);
         ```
 
 demos:

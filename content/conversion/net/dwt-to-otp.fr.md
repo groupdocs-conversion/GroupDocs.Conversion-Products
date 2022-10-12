@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:04
+date: 2022-10-12T19:58:31
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWT à OTP en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source DWT pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dwt");
-        // Préparer les options de conversion pour le format cible OTP
-        var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
-        // Convertir au format OTP
-        converter.Convert("output.otp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwt");
+          // Préparer les options de conversion pour le format cible OTP
+          var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
+          // Convertir au format OTP
+          converter.Convert("output.otp", convertOptions);
         ```
 
 demos:

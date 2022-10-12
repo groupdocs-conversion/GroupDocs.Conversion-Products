@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:08
+date: 2022-10-12T19:58:37
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: STL à PPTX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source STL pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // Préparer les options de conversion pour le format cible PPTX
-        var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
-        // Convertir au format PPTX
-        converter.Convert("output.pptx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.stl");
+          // Préparer les options de conversion pour le format cible PPTX
+          var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
+          // Convertir au format PPTX
+          converter.Convert("output.pptx", convertOptions);
         ```
 
 demos:

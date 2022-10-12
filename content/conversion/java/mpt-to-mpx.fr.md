@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:13
+date: 2022-10-12T19:58:46
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPT à MPX en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source MPT pour la conversion
-        Converter converter = new Converter("input.mpt");
-        // Préparer les options de conversion pour le format cible MPX
-        ConvertOptions convertOptions = new FileType().fromExtension("mpx").getConvertOptions();
-        // Convertir au format MPX
-        converter.convert("output.mpx", convertOptions);
+          Converter converter = new Converter("input.mpt");
+          // Préparer les options de conversion pour le format cible MPX
+          ConvertOptions convertOptions = new FileType().fromExtension("mpx").getConvertOptions();
+          // Convertir au format MPX
+          converter.convert("output.mpx", convertOptions);
         ```
 
 demos:

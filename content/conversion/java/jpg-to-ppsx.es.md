@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:58
+date: 2022-10-12T19:58:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPG a PPSX en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente JPG para la conversión
-        Converter converter = new Converter("input.jpg");
-        // Preparar opciones de conversión para el formato de destino PPSX
-        ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
-        // Convertir al formato PPSX
-        converter.convert("output.ppsx", convertOptions);
+          Converter converter = new Converter("input.jpg");
+          // Preparar opciones de conversión para el formato de destino PPSX
+          ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
+          // Convertir al formato PPSX
+          converter.convert("output.ppsx", convertOptions);
         ```
 
 demos:

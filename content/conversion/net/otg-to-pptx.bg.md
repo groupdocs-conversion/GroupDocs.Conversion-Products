@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:36
+date: 2022-10-12T20:00:44
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: OTG до PPTX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл OTG за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.otg");
-        // Подгответе опции за преобразуване за целеви формат PPTX
-        var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
-        // Конвертиране във формат PPTX
-        converter.Convert("output.pptx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.otg");
+          // Подгответе опции за преобразуване за целеви формат PPTX
+          var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
+          // Конвертиране във формат PPTX
+          converter.Convert("output.pptx", convertOptions);
         ```
 
 demos:

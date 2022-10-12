@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:03
+date: 2022-10-12T19:59:59
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DJVU в EMF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл DJVU для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.djvu");
-        // Задайте параметри перетворення для цільового формату EMF
-        var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // Перетворіть файл у EMF формат
-        converter.Convert("output.emf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.djvu");
+          // Задайте параметри перетворення для цільового формату EMF
+          var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
+          // Перетворіть файл у EMF формат
+          converter.Convert("output.emf", convertOptions);
         ```
 
 demos:

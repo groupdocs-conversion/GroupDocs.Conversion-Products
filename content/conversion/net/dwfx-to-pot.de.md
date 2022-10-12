@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:34
+date: 2022-10-12T19:57:40
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWFX bis POT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei DWFX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.dwfx");
-        // Konvertierungsoptionen für das Zielformat POT vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
-        // In das POT-Format konvertieren
-        converter.Convert("output.pot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwfx");
+          // Konvertierungsoptionen für das Zielformat POT vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
+          // In das POT-Format konvertieren
+          converter.Convert("output.pot", convertOptions);
         ```
 
 demos:

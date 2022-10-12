@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:45
+date: 2022-10-12T19:57:59
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: POTM bis DOT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei POTM zur Konvertierung laden
-        Converter converter = new Converter("input.potm");
-        // Konvertierungsoptionen für das Zielformat DOT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("dot").getConvertOptions();
-        // In das DOT-Format konvertieren
-        converter.convert("output.dot", convertOptions);
+          Converter converter = new Converter("input.potm");
+          // Konvertierungsoptionen für das Zielformat DOT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("dot").getConvertOptions();
+          // In das DOT-Format konvertieren
+          converter.convert("output.dot", convertOptions);
         ```
 
 demos:

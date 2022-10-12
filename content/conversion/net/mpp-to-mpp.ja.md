@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:21
+date: 2022-10-12T19:58:57
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: C# の MPP から MPP
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル MPP を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // ターゲット形式の変換オプションを準備 MPP
-        var convertOptions = converter.GetPossibleConversions()["mpp"].ConvertOptions;
-        // MPP形式に変換
-        converter.Convert("output.mpp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpp");
+          // ターゲット形式の変換オプションを準備 MPP
+          var convertOptions = converter.GetPossibleConversions()["mpp"].ConvertOptions;
+          // MPP形式に変換
+          converter.Convert("output.mpp", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:18
+date: 2022-10-12T19:57:16
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOT to ICO in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file DOT for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dot");
-        // Prepare conversion options for target format ICO
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // Convert to ICO format
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dot");
+          // Prepare conversion options for target format ICO
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // Convert to ICO format
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

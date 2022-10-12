@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:36
+date: 2022-10-12T20:00:43
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP до MPX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл MPP за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // Подгответе опции за преобразуване за целеви формат MPX
-        var convertOptions = converter.GetPossibleConversions()["mpx"].ConvertOptions;
-        // Конвертиране във формат MPX
-        converter.Convert("output.mpx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpp");
+          // Подгответе опции за преобразуване за целеви формат MPX
+          var convertOptions = converter.GetPossibleConversions()["mpx"].ConvertOptions;
+          // Конвертиране във формат MPX
+          converter.Convert("output.mpx", convertOptions);
         ```
 
 demos:

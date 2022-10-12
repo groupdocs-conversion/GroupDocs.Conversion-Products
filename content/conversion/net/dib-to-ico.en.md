@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:18
+date: 2022-10-12T19:57:15
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DIB to ICO in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file DIB for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dib");
-        // Prepare conversion options for target format ICO
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // Convert to ICO format
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dib");
+          // Prepare conversion options for target format ICO
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // Convert to ICO format
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

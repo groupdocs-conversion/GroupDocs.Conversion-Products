@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:31
+date: 2022-10-12T19:59:14
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: JavaでVSSからVSTXへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル VSS を読み込みます
-        Converter converter = new Converter("input.vss");
-        // ターゲット形式の変換オプションを準備 VSTX
-        ConvertOptions convertOptions = new FileType().fromExtension("vstx").getConvertOptions();
-        // VSTX形式に変換
-        converter.convert("output.vstx", convertOptions);
+          Converter converter = new Converter("input.vss");
+          // ターゲット形式の変換オプションを準備 VSTX
+          ConvertOptions convertOptions = new FileType().fromExtension("vstx").getConvertOptions();
+          // VSTX形式に変換
+          converter.convert("output.vstx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:17
+date: 2022-10-12T20:00:17
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSX в RTF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл VSX для конвертації
-        Converter converter = new Converter("input.vsx");
-        // Задайте параметри перетворення для цільового формату RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // Перетворіть файл у RTF формат
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.vsx");
+          // Задайте параметри перетворення для цільового формату RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // Перетворіть файл у RTF формат
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

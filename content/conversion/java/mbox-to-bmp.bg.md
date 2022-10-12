@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:43
+date: 2022-10-12T20:00:53
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX до BMP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл MBOX за конвертиране
-        Converter converter = new Converter("input.mbox");
-        // Подгответе опции за преобразуване за целеви формат BMP
-        ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-        // Конвертиране във формат BMP
-        converter.convert("output.bmp", convertOptions);
+          Converter converter = new Converter("input.mbox");
+          // Подгответе опции за преобразуване за целеви формат BMP
+          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
+          // Конвертиране във формат BMP
+          converter.convert("output.bmp", convertOptions);
         ```
 
 demos:

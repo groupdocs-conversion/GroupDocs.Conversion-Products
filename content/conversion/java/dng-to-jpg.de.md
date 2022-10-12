@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:41
+date: 2022-10-12T19:57:53
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DNG bis JPG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DNG zur Konvertierung laden
-        Converter converter = new Converter("input.dng");
-        // Konvertierungsoptionen für das Zielformat JPG vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // In das JPG-Format konvertieren
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.dng");
+          // Konvertierungsoptionen für das Zielformat JPG vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // In das JPG-Format konvertieren
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

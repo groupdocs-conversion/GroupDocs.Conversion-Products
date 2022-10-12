@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:36
+date: 2022-10-12T19:57:43
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MHT bis ICO in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei MHT zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.mht");
-        // Konvertierungsoptionen für das Zielformat ICO vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // In das ICO-Format konvertieren
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mht");
+          // Konvertierungsoptionen für das Zielformat ICO vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // In das ICO-Format konvertieren
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

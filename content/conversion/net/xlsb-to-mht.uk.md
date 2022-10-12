@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:10
+date: 2022-10-12T20:00:08
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSB в MHT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл XLSB для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.xlsb");
-        // Задайте параметри перетворення для цільового формату MHT
-        var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
-        // Перетворіть файл у MHT формат
-        converter.Convert("output.mht", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsb");
+          // Задайте параметри перетворення для цільового формату MHT
+          var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
+          // Перетворіть файл у MHT формат
+          converter.Convert("output.mht", convertOptions);
         ```
 
 demos:

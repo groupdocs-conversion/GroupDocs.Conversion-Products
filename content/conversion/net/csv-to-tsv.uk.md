@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:03
+date: 2022-10-12T19:59:59
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: CSV в TSV на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл CSV для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.csv");
-        // Задайте параметри перетворення для цільового формату TSV
-        var convertOptions = converter.GetPossibleConversions()["tsv"].ConvertOptions;
-        // Перетворіть файл у TSV формат
-        converter.Convert("output.tsv", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.csv");
+          // Задайте параметри перетворення для цільового формату TSV
+          var convertOptions = converter.GetPossibleConversions()["tsv"].ConvertOptions;
+          // Перетворіть файл у TSV формат
+          converter.Convert("output.tsv", convertOptions);
         ```
 
 demos:

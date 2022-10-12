@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:43
+date: 2022-10-12T19:57:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2K bis GIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei J2K zur Konvertierung laden
-        Converter converter = new Converter("input.j2k");
-        // Konvertierungsoptionen für das Zielformat GIF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // In das GIF-Format konvertieren
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.j2k");
+          // Konvertierungsoptionen für das Zielformat GIF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // In das GIF-Format konvertieren
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:18
+date: 2022-10-12T20:00:18
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSM в FODS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл XLSM для конвертації
-        Converter converter = new Converter("input.xlsm");
-        // Задайте параметри перетворення для цільового формату FODS
-        ConvertOptions convertOptions = new FileType().fromExtension("fods").getConvertOptions();
-        // Перетворіть файл у FODS формат
-        converter.convert("output.fods", convertOptions);
+          Converter converter = new Converter("input.xlsm");
+          // Задайте параметри перетворення для цільового формату FODS
+          ConvertOptions convertOptions = new FileType().fromExtension("fods").getConvertOptions();
+          // Перетворіть файл у FODS формат
+          converter.convert("output.fods", convertOptions);
         ```
 
 demos:

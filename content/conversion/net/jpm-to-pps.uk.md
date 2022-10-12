@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:05
+date: 2022-10-12T20:00:02
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPM в PPS на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл JPM для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.jpm");
-        // Задайте параметри перетворення для цільового формату PPS
-        var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
-        // Перетворіть файл у PPS формат
-        converter.Convert("output.pps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpm");
+          // Задайте параметри перетворення для цільового формату PPS
+          var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
+          // Перетворіть файл у PPS формат
+          converter.Convert("output.pps", convertOptions);
         ```
 
 demos:

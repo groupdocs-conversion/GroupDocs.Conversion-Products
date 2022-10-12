@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:04
+date: 2022-10-12T19:58:30
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWG à PPSM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source DWG pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dwg");
-        // Préparer les options de conversion pour le format cible PPSM
-        var convertOptions = converter.GetPossibleConversions()["ppsm"].ConvertOptions;
-        // Convertir au format PPSM
-        converter.Convert("output.ppsm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwg");
+          // Préparer les options de conversion pour le format cible PPSM
+          var convertOptions = converter.GetPossibleConversions()["ppsm"].ConvertOptions;
+          // Convertir au format PPSM
+          converter.Convert("output.ppsm", convertOptions);
         ```
 
 demos:

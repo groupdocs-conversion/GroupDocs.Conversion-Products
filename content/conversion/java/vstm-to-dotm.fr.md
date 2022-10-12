@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:16
+date: 2022-10-12T19:58:51
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSTM à DOTM en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source VSTM pour la conversion
-        Converter converter = new Converter("input.vstm");
-        // Préparer les options de conversion pour le format cible DOTM
-        ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
-        // Convertir au format DOTM
-        converter.convert("output.dotm", convertOptions);
+          Converter converter = new Converter("input.vstm");
+          // Préparer les options de conversion pour le format cible DOTM
+          ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
+          // Convertir au format DOTM
+          converter.convert("output.dotm", convertOptions);
         ```
 
 demos:

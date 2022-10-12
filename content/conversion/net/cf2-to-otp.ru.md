@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:47
+date: 2022-10-12T19:59:39
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CF2 в OTP на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл CF2 для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Задайте параметры преобразования для целевого формата OTP
-        var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
-        // Преобразуйте файл в OTP формат
-        converter.Convert("output.otp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cf2");
+          // Задайте параметры преобразования для целевого формата OTP
+          var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
+          // Преобразуйте файл в OTP формат
+          converter.Convert("output.otp", convertOptions);
         ```
 
 demos:

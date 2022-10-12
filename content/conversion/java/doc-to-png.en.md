@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:25
+date: 2022-10-12T19:57:27
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOC to PNG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file DOC for conversion
-        Converter converter = new Converter("input.doc");
-        // Prepare conversion options for target format PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // Convert to PNG format
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.doc");
+          // Prepare conversion options for target format PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // Convert to PNG format
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

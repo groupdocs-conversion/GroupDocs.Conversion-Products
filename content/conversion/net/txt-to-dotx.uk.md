@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:08
+date: 2022-10-12T20:00:06
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: TXT в DOTX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл TXT для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.txt");
-        // Задайте параметри перетворення для цільового формату DOTX
-        var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
-        // Перетворіть файл у DOTX формат
-        converter.Convert("output.dotx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.txt");
+          // Задайте параметри перетворення для цільового формату DOTX
+          var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
+          // Перетворіть файл у DOTX формат
+          converter.Convert("output.dotx", convertOptions);
         ```
 
 demos:

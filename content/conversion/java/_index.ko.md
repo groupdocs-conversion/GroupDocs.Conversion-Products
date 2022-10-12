@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-10-12T19:33:17
+date: 2022-10-12T19:57:14
 draft: false
 
 product: "Conversion"
@@ -295,11 +295,11 @@ features:
             
           ```java    
            // 변환을 위해 소스 파일 DOCX 로드
-        Converter converter = new Converter("input.docx");
-        // 대상 형식 PDF에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // PDF 형식으로 변환
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.docx");
+          // 대상 형식 PDF에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // PDF 형식으로 변환
+          converter.convert("output.pdf", convertOptions);
           ```
             
       # more_feature_loop

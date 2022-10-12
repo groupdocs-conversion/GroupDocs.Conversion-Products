@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:38
+date: 2022-10-12T20:00:46
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PS до EMZ на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл PS за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.ps");
-        // Подгответе опции за преобразуване за целеви формат EMZ
-        var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
-        // Конвертиране във формат EMZ
-        converter.Convert("output.emz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ps");
+          // Подгответе опции за преобразуване за целеви формат EMZ
+          var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
+          // Конвертиране във формат EMZ
+          converter.Convert("output.emz", convertOptions);
         ```
 
 demos:

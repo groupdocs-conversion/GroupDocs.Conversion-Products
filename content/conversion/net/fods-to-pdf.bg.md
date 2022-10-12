@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:34
+date: 2022-10-12T20:00:41
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: FODS до PDF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл FODS за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.fods");
-        // Подгответе опции за преобразуване за целеви формат PDF
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // Конвертиране във формат PDF
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.fods");
+          // Подгответе опции за преобразуване за целеви формат PDF
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // Конвертиране във формат PDF
+          converter.Convert("output.pdf", convertOptions);
         ```
 
 demos:

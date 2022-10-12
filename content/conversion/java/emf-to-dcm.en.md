@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:26
+date: 2022-10-12T19:57:27
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMF to DCM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file EMF for conversion
-        Converter converter = new Converter("input.emf");
-        // Prepare conversion options for target format DCM
-        ConvertOptions convertOptions = new FileType().fromExtension("dcm").getConvertOptions();
-        // Convert to DCM format
-        converter.convert("output.dcm", convertOptions);
+          Converter converter = new Converter("input.emf");
+          // Prepare conversion options for target format DCM
+          ConvertOptions convertOptions = new FileType().fromExtension("dcm").getConvertOptions();
+          // Convert to DCM format
+          converter.convert("output.dcm", convertOptions);
         ```
 
 demos:

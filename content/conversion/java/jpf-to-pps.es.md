@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:58
+date: 2022-10-12T19:58:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPF a PPS en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente JPF para la conversión
-        Converter converter = new Converter("input.jpf");
-        // Preparar opciones de conversión para el formato de destino PPS
-        ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
-        // Convertir al formato PPS
-        converter.convert("output.pps", convertOptions);
+          Converter converter = new Converter("input.jpf");
+          // Preparar opciones de conversión para el formato de destino PPS
+          ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
+          // Convertir al formato PPS
+          converter.convert("output.pps", convertOptions);
         ```
 
 demos:

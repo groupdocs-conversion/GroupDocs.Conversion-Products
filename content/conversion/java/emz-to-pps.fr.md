@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:11
+date: 2022-10-12T19:58:43
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMZ à PPS en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source EMZ pour la conversion
-        Converter converter = new Converter("input.emz");
-        // Préparer les options de conversion pour le format cible PPS
-        ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
-        // Convertir au format PPS
-        converter.convert("output.pps", convertOptions);
+          Converter converter = new Converter("input.emz");
+          // Préparer les options de conversion pour le format cible PPS
+          ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
+          // Convertir au format PPS
+          converter.convert("output.pps", convertOptions);
         ```
 
 demos:

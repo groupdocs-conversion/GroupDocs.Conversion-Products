@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:53
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOT bis TXT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DOT zur Konvertierung laden
-        Converter converter = new Converter("input.dot");
-        // Konvertierungsoptionen für das Zielformat TXT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
-        // In das TXT-Format konvertieren
-        converter.convert("output.txt", convertOptions);
+          Converter converter = new Converter("input.dot");
+          // Konvertierungsoptionen für das Zielformat TXT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
+          // In das TXT-Format konvertieren
+          converter.convert("output.txt", convertOptions);
         ```
 
 demos:

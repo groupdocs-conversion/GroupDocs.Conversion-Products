@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:27
+date: 2022-10-12T19:57:29
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2C to JP2 in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file J2C for conversion
-        Converter converter = new Converter("input.j2c");
-        // Prepare conversion options for target format JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // Convert to JP2 format
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.j2c");
+          // Prepare conversion options for target format JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // Convert to JP2 format
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

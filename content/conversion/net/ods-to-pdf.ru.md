@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:51
+date: 2022-10-12T19:59:43
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: ODS в PDF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл ODS для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.ods");
-        // Задайте параметры преобразования для целевого формата PDF
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // Преобразуйте файл в PDF формат
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ods");
+          // Задайте параметры преобразования для целевого формата PDF
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // Преобразуйте файл в PDF формат
+          converter.Convert("output.pdf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:54
+date: 2022-10-12T19:58:15
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST a DOCX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente VST para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.vst");
-        // Preparar opciones de conversión para el formato de destino DOCX
-        var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
-        // Convertir al formato DOCX
-        converter.Convert("output.docx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vst");
+          // Preparar opciones de conversión para el formato de destino DOCX
+          var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
+          // Convertir al formato DOCX
+          converter.Convert("output.docx", convertOptions);
         ```
 
 demos:

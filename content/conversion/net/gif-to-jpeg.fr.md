@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:05
+date: 2022-10-12T19:58:32
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: GIF à JPEG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source GIF pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.gif");
-        // Préparer les options de conversion pour le format cible JPEG
-        var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
-        // Convertir au format JPEG
-        converter.Convert("output.jpeg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.gif");
+          // Préparer les options de conversion pour le format cible JPEG
+          var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
+          // Convertir au format JPEG
+          converter.Convert("output.jpeg", convertOptions);
         ```
 
 demos:

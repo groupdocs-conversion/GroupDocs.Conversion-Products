@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:44
+date: 2022-10-12T19:57:57
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP bis JPG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei MPP zur Konvertierung laden
-        Converter converter = new Converter("input.mpp");
-        // Konvertierungsoptionen für das Zielformat JPG vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // In das JPG-Format konvertieren
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.mpp");
+          // Konvertierungsoptionen für das Zielformat JPG vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // In das JPG-Format konvertieren
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

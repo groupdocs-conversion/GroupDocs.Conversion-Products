@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:15
+date: 2022-10-12T19:58:49
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: PSD à SVG en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source PSD pour la conversion
-        Converter converter = new Converter("input.psd");
-        // Préparer les options de conversion pour le format cible SVG
-        ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
-        // Convertir au format SVG
-        converter.convert("output.svg", convertOptions);
+          Converter converter = new Converter("input.psd");
+          // Préparer les options de conversion pour le format cible SVG
+          ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
+          // Convertir au format SVG
+          converter.convert("output.svg", convertOptions);
         ```
 
 demos:

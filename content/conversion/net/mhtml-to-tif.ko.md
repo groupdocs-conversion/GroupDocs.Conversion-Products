@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:35
+date: 2022-10-12T19:59:21
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C#의 MHTML에서 TIF까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 변환을 위해 소스 파일 MHTML 로드
-        var converter = new GroupDocs.Conversion.Converter("input.mhtml");
-        // 대상 형식 TIF에 대한 변환 옵션 준비
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // TIF 형식으로 변환
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mhtml");
+          // 대상 형식 TIF에 대한 변환 옵션 준비
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // TIF 형식으로 변환
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

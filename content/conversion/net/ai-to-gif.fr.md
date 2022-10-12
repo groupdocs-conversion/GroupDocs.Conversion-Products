@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:02
+date: 2022-10-12T19:58:28
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: AI à GIF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source AI pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.ai");
-        // Préparer les options de conversion pour le format cible GIF
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // Convertir au format GIF
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ai");
+          // Préparer les options de conversion pour le format cible GIF
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // Convertir au format GIF
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

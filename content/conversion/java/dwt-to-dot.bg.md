@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:41
+date: 2022-10-12T20:00:51
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWT до DOT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл DWT за конвертиране
-        Converter converter = new Converter("input.dwt");
-        // Подгответе опции за преобразуване за целеви формат DOT
-        ConvertOptions convertOptions = new FileType().fromExtension("dot").getConvertOptions();
-        // Конвертиране във формат DOT
-        converter.convert("output.dot", convertOptions);
+          Converter converter = new Converter("input.dwt");
+          // Подгответе опции за преобразуване за целеви формат DOT
+          ConvertOptions convertOptions = new FileType().fromExtension("dot").getConvertOptions();
+          // Конвертиране във формат DOT
+          converter.convert("output.dot", convertOptions);
         ```
 
 demos:

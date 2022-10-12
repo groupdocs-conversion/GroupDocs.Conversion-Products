@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:10
+date: 2022-10-12T20:00:08
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: AI в PNG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл AI для конвертації
-        Converter converter = new Converter("input.ai");
-        // Задайте параметри перетворення для цільового формату PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // Перетворіть файл у PNG формат
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.ai");
+          // Задайте параметри перетворення для цільового формату PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // Перетворіть файл у PNG формат
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

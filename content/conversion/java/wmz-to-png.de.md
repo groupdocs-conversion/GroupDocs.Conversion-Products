@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:47
+date: 2022-10-12T19:58:04
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: WMZ bis PNG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei WMZ zur Konvertierung laden
-        Converter converter = new Converter("input.wmz");
-        // Konvertierungsoptionen für das Zielformat PNG vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // In das PNG-Format konvertieren
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.wmz");
+          // Konvertierungsoptionen für das Zielformat PNG vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // In das PNG-Format konvertieren
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

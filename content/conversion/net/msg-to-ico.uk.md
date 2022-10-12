@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:06
+date: 2022-10-12T20:00:03
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG в ICO на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл MSG для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.msg");
-        // Задайте параметри перетворення для цільового формату ICO
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // Перетворіть файл у ICO формат
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.msg");
+          // Задайте параметри перетворення для цільового формату ICO
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // Перетворіть файл у ICO формат
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

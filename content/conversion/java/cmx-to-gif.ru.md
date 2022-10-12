@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:55
+date: 2022-10-12T19:59:49
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CMX в GIF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл CMX для преобразования
-        Converter converter = new Converter("input.cmx");
-        // Подготовьте параметры преобразования для целевого формата GIF
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // Преобразование в формат GIF
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.cmx");
+          // Подготовьте параметры преобразования для целевого формата GIF
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // Преобразование в формат GIF
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:39
+date: 2022-10-12T19:57:48
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: TIFF bis PSD in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei TIFF zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.tiff");
-        // Konvertierungsoptionen für das Zielformat PSD vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // In das PSD-Format konvertieren
-        converter.Convert("output.psd", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tiff");
+          // Konvertierungsoptionen für das Zielformat PSD vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
+          // In das PSD-Format konvertieren
+          converter.Convert("output.psd", convertOptions);
         ```
 
 demos:

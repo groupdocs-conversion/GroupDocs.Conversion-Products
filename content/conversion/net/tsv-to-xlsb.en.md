@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:23
+date: 2022-10-12T19:57:22
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: TSV to XLSB in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file TSV for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.tsv");
-        // Prepare conversion options for target format XLSB
-        var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
-        // Convert to XLSB format
-        converter.Convert("output.xlsb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tsv");
+          // Prepare conversion options for target format XLSB
+          var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
+          // Convert to XLSB format
+          converter.Convert("output.xlsb", convertOptions);
         ```
 
 demos:

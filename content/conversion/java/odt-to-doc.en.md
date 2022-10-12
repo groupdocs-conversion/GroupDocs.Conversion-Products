@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:31
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: ODT to DOC in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file ODT for conversion
-        Converter converter = new Converter("input.odt");
-        // Prepare conversion options for target format DOC
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // Convert to DOC format
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.odt");
+          // Prepare conversion options for target format DOC
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // Convert to DOC format
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

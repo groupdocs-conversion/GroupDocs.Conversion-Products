@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:35
+date: 2022-10-12T20:00:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JLS до JPG на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл JLS за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.jls");
-        // Подгответе опции за преобразуване за целеви формат JPG
-        var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
-        // Конвертиране във формат JPG
-        converter.Convert("output.jpg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jls");
+          // Подгответе опции за преобразуване за целеви формат JPG
+          var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
+          // Конвертиране във формат JPG
+          converter.Convert("output.jpg", convertOptions);
         ```
 
 demos:

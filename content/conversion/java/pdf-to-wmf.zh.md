@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:30
+date: 2022-10-12T20:00:35
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: Java 中的 PDF 到 WMF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 PDF 进行转换
-        Converter converter = new Converter("input.pdf");
-        // 为目标格式 WMF 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("wmf").getConvertOptions();
-        // 转换为 WMF 格式
-        converter.convert("output.wmf", convertOptions);
+          Converter converter = new Converter("input.pdf");
+          // 为目标格式 WMF 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("wmf").getConvertOptions();
+          // 转换为 WMF 格式
+          converter.convert("output.wmf", convertOptions);
         ```
 
 demos:

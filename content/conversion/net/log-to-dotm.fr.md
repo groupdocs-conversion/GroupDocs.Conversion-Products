@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:06
+date: 2022-10-12T19:58:33
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: LOG à DOTM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source LOG pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.log");
-        // Préparer les options de conversion pour le format cible DOTM
-        var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
-        // Convertir au format DOTM
-        converter.Convert("output.dotm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.log");
+          // Préparer les options de conversion pour le format cible DOTM
+          var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
+          // Convertir au format DOTM
+          converter.Convert("output.dotm", convertOptions);
         ```
 
 demos:

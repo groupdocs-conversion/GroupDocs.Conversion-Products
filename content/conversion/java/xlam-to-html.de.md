@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:47
+date: 2022-10-12T19:58:04
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLAM bis HTML in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei XLAM zur Konvertierung laden
-        Converter converter = new Converter("input.xlam");
-        // Konvertierungsoptionen für das Zielformat HTML vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
-        // In das HTML-Format konvertieren
-        converter.convert("output.html", convertOptions);
+          Converter converter = new Converter("input.xlam");
+          // Konvertierungsoptionen für das Zielformat HTML vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
+          // In das HTML-Format konvertieren
+          converter.convert("output.html", convertOptions);
         ```
 
 demos:

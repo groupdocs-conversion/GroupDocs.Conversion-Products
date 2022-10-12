@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:48
+date: 2022-10-12T19:59:40
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWFX в ODT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл DWFX для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.dwfx");
-        // Задайте параметры преобразования для целевого формата ODT
-        var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
-        // Преобразуйте файл в ODT формат
-        converter.Convert("output.odt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwfx");
+          // Задайте параметры преобразования для целевого формата ODT
+          var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
+          // Преобразуйте файл в ODT формат
+          converter.Convert("output.odt", convertOptions);
         ```
 
 demos:

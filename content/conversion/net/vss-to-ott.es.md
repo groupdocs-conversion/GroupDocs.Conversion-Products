@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:54
+date: 2022-10-12T19:58:15
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSS a OTT en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente VSS para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.vss");
-        // Preparar opciones de conversión para el formato de destino OTT
-        var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
-        // Convertir al formato OTT
-        converter.Convert("output.ott", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vss");
+          // Preparar opciones de conversión para el formato de destino OTT
+          var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
+          // Convertir al formato OTT
+          converter.Convert("output.ott", convertOptions);
         ```
 
 demos:

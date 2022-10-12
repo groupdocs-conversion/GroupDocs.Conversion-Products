@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:18
+date: 2022-10-12T19:57:15
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DNG to DCM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file DNG for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dng");
-        // Prepare conversion options for target format DCM
-        var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
-        // Convert to DCM format
-        converter.Convert("output.dcm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dng");
+          // Prepare conversion options for target format DCM
+          var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
+          // Convert to DCM format
+          converter.Convert("output.dcm", convertOptions);
         ```
 
 demos:

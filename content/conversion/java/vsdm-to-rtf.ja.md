@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:31
+date: 2022-10-12T19:59:13
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: JavaでVSDMからRTFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル VSDM を読み込みます
-        Converter converter = new Converter("input.vsdm");
-        // ターゲット形式の変換オプションを準備 RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // RTF形式に変換
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.vsdm");
+          // ターゲット形式の変換オプションを準備 RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // RTF形式に変換
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:17
+date: 2022-10-12T20:00:18
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: WEBP в EMF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл WEBP для конвертації
-        Converter converter = new Converter("input.webp");
-        // Задайте параметри перетворення для цільового формату EMF
-        ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
-        // Перетворіть файл у EMF формат
-        converter.convert("output.emf", convertOptions);
+          Converter converter = new Converter("input.webp");
+          // Задайте параметри перетворення для цільового формату EMF
+          ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
+          // Перетворіть файл у EMF формат
+          converter.convert("output.emf", convertOptions);
         ```
 
 demos:

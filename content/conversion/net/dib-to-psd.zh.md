@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:19
+date: 2022-10-12T20:00:19
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# 中的 DIB 到 PSD
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 DIB 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.dib");
-        // 为目标格式 PSD 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // 转换为 PSD 格式
-        converter.Convert("output.psd", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dib");
+          // 为目标格式 PSD 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
+          // 转换为 PSD 格式
+          converter.Convert("output.psd", convertOptions);
         ```
 
 demos:

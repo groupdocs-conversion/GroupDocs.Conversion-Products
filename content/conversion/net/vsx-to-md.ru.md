@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:53
+date: 2022-10-12T19:59:47
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSX в MD на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл VSX для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.vsx");
-        // Задайте параметры преобразования для целевого формата MD
-        var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
-        // Преобразуйте файл в MD формат
-        converter.Convert("output.md", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vsx");
+          // Задайте параметры преобразования для целевого формата MD
+          var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
+          // Преобразуйте файл в MD формат
+          converter.Convert("output.md", convertOptions);
         ```
 
 demos:

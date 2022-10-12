@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:24
+date: 2022-10-12T20:00:26
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# 中的 TIFF 到 WEBP
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 TIFF 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.tiff");
-        // 为目标格式 WEBP 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
-        // 转换为 WEBP 格式
-        converter.Convert("output.webp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tiff");
+          // 为目标格式 WEBP 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
+          // 转换为 WEBP 格式
+          converter.Convert("output.webp", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:47
+date: 2022-10-12T19:59:39
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CGM в JPG на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл CGM для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.cgm");
-        // Задайте параметры преобразования для целевого формата JPG
-        var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
-        // Преобразуйте файл в JPG формат
-        converter.Convert("output.jpg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cgm");
+          // Задайте параметры преобразования для целевого формата JPG
+          var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
+          // Преобразуйте файл в JPG формат
+          converter.Convert("output.jpg", convertOptions);
         ```
 
 demos:

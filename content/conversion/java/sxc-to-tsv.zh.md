@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:31
+date: 2022-10-12T20:00:36
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: Java 中的 SXC 到 TSV
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 SXC 进行转换
-        Converter converter = new Converter("input.sxc");
-        // 为目标格式 TSV 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("tsv").getConvertOptions();
-        // 转换为 TSV 格式
-        converter.convert("output.tsv", convertOptions);
+          Converter converter = new Converter("input.sxc");
+          // 为目标格式 TSV 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("tsv").getConvertOptions();
+          // 转换为 TSV 格式
+          converter.convert("output.tsv", convertOptions);
         ```
 
 demos:

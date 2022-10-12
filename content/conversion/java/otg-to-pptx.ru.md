@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:54
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: OTG в PPTX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл OTG для преобразования
-        Converter converter = new Converter("input.otg");
-        // Подготовьте параметры преобразования для целевого формата PPTX
-        ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
-        // Преобразование в формат PPTX
-        converter.convert("output.pptx", convertOptions);
+          Converter converter = new Converter("input.otg");
+          // Подготовьте параметры преобразования для целевого формата PPTX
+          ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
+          // Преобразование в формат PPTX
+          converter.convert("output.pptx", convertOptions);
         ```
 
 demos:

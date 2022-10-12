@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:37
+date: 2022-10-12T20:00:45
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OXPS до WMF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл OXPS за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.oxps");
-        // Подгответе опции за преобразуване за целеви формат WMF
-        var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
-        // Конвертиране във формат WMF
-        converter.Convert("output.wmf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.oxps");
+          // Подгответе опции за преобразуване за целеви формат WMF
+          var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
+          // Конвертиране във формат WMF
+          converter.Convert("output.wmf", convertOptions);
         ```
 
 demos:

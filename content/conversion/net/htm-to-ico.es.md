@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:50
+date: 2022-10-12T19:58:08
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: HTM a ICO en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente HTM para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.htm");
-        // Preparar opciones de conversión para el formato de destino ICO
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // Convertir al formato ICO
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.htm");
+          // Preparar opciones de conversión para el formato de destino ICO
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // Convertir al formato ICO
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

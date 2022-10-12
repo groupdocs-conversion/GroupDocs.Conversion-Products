@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:29
+date: 2022-10-12T19:59:11
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: JavaでPOTXからXPSへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル POTX を読み込みます
-        Converter converter = new Converter("input.potx");
-        // ターゲット形式の変換オプションを準備 XPS
-        ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
-        // XPS形式に変換
-        converter.convert("output.xps", convertOptions);
+          Converter converter = new Converter("input.potx");
+          // ターゲット形式の変換オプションを準備 XPS
+          ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
+          // XPS形式に変換
+          converter.convert("output.xps", convertOptions);
         ```
 
 demos:

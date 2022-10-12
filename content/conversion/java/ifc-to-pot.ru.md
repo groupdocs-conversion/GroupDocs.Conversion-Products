@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:56
+date: 2022-10-12T19:59:51
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IFC в POT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл IFC для преобразования
-        Converter converter = new Converter("input.ifc");
-        // Подготовьте параметры преобразования для целевого формата POT
-        ConvertOptions convertOptions = new FileType().fromExtension("pot").getConvertOptions();
-        // Преобразование в формат POT
-        converter.convert("output.pot", convertOptions);
+          Converter converter = new Converter("input.ifc");
+          // Подготовьте параметры преобразования для целевого формата POT
+          ConvertOptions convertOptions = new FileType().fromExtension("pot").getConvertOptions();
+          // Преобразование в формат POT
+          converter.convert("output.pot", convertOptions);
         ```
 
 demos:

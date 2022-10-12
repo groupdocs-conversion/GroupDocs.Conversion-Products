@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:06
+date: 2022-10-12T20:00:03
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: ODT в TEX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл ODT для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.odt");
-        // Задайте параметри перетворення для цільового формату TEX
-        var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
-        // Перетворіть файл у TEX формат
-        converter.Convert("output.tex", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.odt");
+          // Задайте параметри перетворення для цільового формату TEX
+          var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
+          // Перетворіть файл у TEX формат
+          converter.Convert("output.tex", convertOptions);
         ```
 
 demos:

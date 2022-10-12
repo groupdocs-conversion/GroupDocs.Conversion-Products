@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:30
+date: 2022-10-12T20:00:35
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java 中的 PNG 到 EMZ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 PNG 进行转换
-        Converter converter = new Converter("input.png");
-        // 为目标格式 EMZ 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
-        // 转换为 EMZ 格式
-        converter.convert("output.emz", convertOptions);
+          Converter converter = new Converter("input.png");
+          // 为目标格式 EMZ 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
+          // 转换为 EMZ 格式
+          converter.convert("output.emz", convertOptions);
         ```
 
 demos:

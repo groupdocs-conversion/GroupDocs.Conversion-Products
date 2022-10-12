@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:15
+date: 2022-10-12T20:00:14
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OXPS в EMF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл OXPS для конвертації
-        Converter converter = new Converter("input.oxps");
-        // Задайте параметри перетворення для цільового формату EMF
-        ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
-        // Перетворіть файл у EMF формат
-        converter.convert("output.emf", convertOptions);
+          Converter converter = new Converter("input.oxps");
+          // Задайте параметри перетворення для цільового формату EMF
+          ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
+          // Перетворіть файл у EMF формат
+          converter.convert("output.emf", convertOptions);
         ```
 
 demos:

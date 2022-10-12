@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:34
+date: 2022-10-12T19:57:39
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOCM bis PDF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei DOCM zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.docm");
-        // Konvertierungsoptionen für das Zielformat PDF vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // In das PDF-Format konvertieren
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.docm");
+          // Konvertierungsoptionen für das Zielformat PDF vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // In das PDF-Format konvertieren
+          converter.Convert("output.pdf", convertOptions);
         ```
 
 demos:

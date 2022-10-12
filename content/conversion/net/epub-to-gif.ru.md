@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:48
+date: 2022-10-12T19:59:41
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: EPUB в GIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл EPUB для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.epub");
-        // Задайте параметры преобразования для целевого формата GIF
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // Преобразуйте файл в GIF формат
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.epub");
+          // Задайте параметры преобразования для целевого формата GIF
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // Преобразуйте файл в GIF формат
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

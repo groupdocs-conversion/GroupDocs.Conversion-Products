@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:08
+date: 2022-10-12T19:58:38
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF à JPEG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source VCF pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Préparer les options de conversion pour le format cible JPEG
-        var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
-        // Convertir au format JPEG
-        converter.Convert("output.jpeg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vcf");
+          // Préparer les options de conversion pour le format cible JPEG
+          var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
+          // Convertir au format JPEG
+          converter.Convert("output.jpeg", convertOptions);
         ```
 
 demos:

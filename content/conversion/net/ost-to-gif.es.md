@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:51
+date: 2022-10-12T19:58:11
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OST a GIF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente OST para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.ost");
-        // Preparar opciones de conversión para el formato de destino GIF
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // Convertir al formato GIF
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ost");
+          // Preparar opciones de conversión para el formato de destino GIF
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // Convertir al formato GIF
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

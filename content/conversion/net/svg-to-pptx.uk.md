@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:08
+date: 2022-10-12T20:00:06
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVG в PPTX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл SVG для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.svg");
-        // Задайте параметри перетворення для цільового формату PPTX
-        var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
-        // Перетворіть файл у PPTX формат
-        converter.Convert("output.pptx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.svg");
+          // Задайте параметри перетворення для цільового формату PPTX
+          var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
+          // Перетворіть файл у PPTX формат
+          converter.Convert("output.pptx", convertOptions);
         ```
 
 demos:

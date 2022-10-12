@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:24
+date: 2022-10-12T19:59:02
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: C# の VSX から TXT
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル VSX を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.vsx");
-        // ターゲット形式の変換オプションを準備 TXT
-        var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
-        // TXT形式に変換
-        converter.Convert("output.txt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vsx");
+          // ターゲット形式の変換オプションを準備 TXT
+          var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
+          // TXT形式に変換
+          converter.Convert("output.txt", convertOptions);
         ```
 
 demos:

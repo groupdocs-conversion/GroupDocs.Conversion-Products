@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:50
+date: 2022-10-12T19:59:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPEG в TIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл JPEG для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.jpeg");
-        // Задайте параметры преобразования для целевого формата TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Преобразуйте файл в TIF формат
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpeg");
+          // Задайте параметры преобразования для целевого формата TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Преобразуйте файл в TIF формат
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

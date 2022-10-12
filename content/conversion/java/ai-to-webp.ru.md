@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:54
+date: 2022-10-12T19:59:49
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: AI в WEBP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл AI для преобразования
-        Converter converter = new Converter("input.ai");
-        // Подготовьте параметры преобразования для целевого формата WEBP
-        ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
-        // Преобразование в формат WEBP
-        converter.convert("output.webp", convertOptions);
+          Converter converter = new Converter("input.ai");
+          // Подготовьте параметры преобразования для целевого формата WEBP
+          ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
+          // Преобразование в формат WEBP
+          converter.convert("output.webp", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:16
+date: 2022-10-12T20:00:15
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: STL в OTP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл STL для конвертації
-        Converter converter = new Converter("input.stl");
-        // Задайте параметри перетворення для цільового формату OTP
-        ConvertOptions convertOptions = new FileType().fromExtension("otp").getConvertOptions();
-        // Перетворіть файл у OTP формат
-        converter.convert("output.otp", convertOptions);
+          Converter converter = new Converter("input.stl");
+          // Задайте параметри перетворення для цільового формату OTP
+          ConvertOptions convertOptions = new FileType().fromExtension("otp").getConvertOptions();
+          // Перетворіть файл у OTP формат
+          converter.convert("output.otp", convertOptions);
         ```
 
 demos:

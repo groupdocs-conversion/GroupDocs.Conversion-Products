@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:06
+date: 2022-10-12T19:58:34
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: ODT à DOTX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source ODT pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.odt");
-        // Préparer les options de conversion pour le format cible DOTX
-        var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
-        // Convertir au format DOTX
-        converter.Convert("output.dotx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.odt");
+          // Préparer les options de conversion pour le format cible DOTX
+          var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
+          // Convertir au format DOTX
+          converter.Convert("output.dotx", convertOptions);
         ```
 
 demos:

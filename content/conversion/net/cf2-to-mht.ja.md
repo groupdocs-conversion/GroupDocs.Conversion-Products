@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:18
+date: 2022-10-12T19:58:53
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C# の CF2 から MHT
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル CF2 を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // ターゲット形式の変換オプションを準備 MHT
-        var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
-        // MHT形式に変換
-        converter.Convert("output.mht", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cf2");
+          // ターゲット形式の変換オプションを準備 MHT
+          var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
+          // MHT形式に変換
+          converter.Convert("output.mht", convertOptions);
         ```
 
 demos:

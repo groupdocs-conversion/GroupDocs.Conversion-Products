@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:34
+date: 2022-10-12T19:57:39
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DIB bis SVG in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei DIB zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.dib");
-        // Konvertierungsoptionen für das Zielformat SVG vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // In das SVG-Format konvertieren
-        converter.Convert("output.svg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dib");
+          // Konvertierungsoptionen für das Zielformat SVG vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
+          // In das SVG-Format konvertieren
+          converter.Convert("output.svg", convertOptions);
         ```
 
 demos:

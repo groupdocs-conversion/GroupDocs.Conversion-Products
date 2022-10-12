@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:02
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VDX bis DOTX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei VDX zur Konvertierung laden
-        Converter converter = new Converter("input.vdx");
-        // Konvertierungsoptionen für das Zielformat DOTX vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
-        // In das DOTX-Format konvertieren
-        converter.convert("output.dotx", convertOptions);
+          Converter converter = new Converter("input.vdx");
+          // Konvertierungsoptionen für das Zielformat DOTX vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
+          // In das DOTX-Format konvertieren
+          converter.convert("output.dotx", convertOptions);
         ```
 
 demos:

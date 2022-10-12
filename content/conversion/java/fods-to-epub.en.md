@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:26
+date: 2022-10-12T19:57:28
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: FODS to EPUB in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file FODS for conversion
-        Converter converter = new Converter("input.fods");
-        // Prepare conversion options for target format EPUB
-        ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
-        // Convert to EPUB format
-        converter.convert("output.epub", convertOptions);
+          Converter converter = new Converter("input.fods");
+          // Prepare conversion options for target format EPUB
+          ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
+          // Convert to EPUB format
+          converter.convert("output.epub", convertOptions);
         ```
 
 demos:

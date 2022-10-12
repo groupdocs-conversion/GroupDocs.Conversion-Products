@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:59
+date: 2022-10-12T19:59:55
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: STL в DOC на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл STL для преобразования
-        Converter converter = new Converter("input.stl");
-        // Подготовьте параметры преобразования для целевого формата DOC
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // Преобразование в формат DOC
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.stl");
+          // Подготовьте параметры преобразования для целевого формата DOC
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // Преобразование в формат DOC
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

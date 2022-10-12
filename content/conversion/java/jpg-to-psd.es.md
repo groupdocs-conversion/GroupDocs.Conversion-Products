@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:58
+date: 2022-10-12T19:58:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPG a PSD en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente JPG para la conversión
-        Converter converter = new Converter("input.jpg");
-        // Preparar opciones de conversión para el formato de destino PSD
-        ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
-        // Convertir al formato PSD
-        converter.convert("output.psd", convertOptions);
+          Converter converter = new Converter("input.jpg");
+          // Preparar opciones de conversión para el formato de destino PSD
+          ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
+          // Convertir al formato PSD
+          converter.convert("output.psd", convertOptions);
         ```
 
 demos:

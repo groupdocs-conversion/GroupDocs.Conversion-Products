@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:53
+date: 2022-10-12T19:58:13
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPT a DOCX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente PPT para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.ppt");
-        // Preparar opciones de conversión para el formato de destino DOCX
-        var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
-        // Convertir al formato DOCX
-        converter.Convert("output.docx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ppt");
+          // Preparar opciones de conversión para el formato de destino DOCX
+          var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
+          // Convertir al formato DOCX
+          converter.Convert("output.docx", convertOptions);
         ```
 
 demos:

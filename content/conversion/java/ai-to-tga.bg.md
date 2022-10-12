@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:40
+date: 2022-10-12T20:00:49
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: AI до TGA на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл AI за конвертиране
-        Converter converter = new Converter("input.ai");
-        // Подгответе опции за преобразуване за целеви формат TGA
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // Конвертиране във формат TGA
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.ai");
+          // Подгответе опции за преобразуване за целеви формат TGA
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // Конвертиране във формат TGA
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

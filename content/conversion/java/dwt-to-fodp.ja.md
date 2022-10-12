@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:26
+date: 2022-10-12T19:59:05
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: JavaでDWTからFODPへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル DWT を読み込みます
-        Converter converter = new Converter("input.dwt");
-        // ターゲット形式の変換オプションを準備 FODP
-        ConvertOptions convertOptions = new FileType().fromExtension("fodp").getConvertOptions();
-        // FODP形式に変換
-        converter.convert("output.fodp", convertOptions);
+          Converter converter = new Converter("input.dwt");
+          // ターゲット形式の変換オプションを準備 FODP
+          ConvertOptions convertOptions = new FileType().fromExtension("fodp").getConvertOptions();
+          // FODP形式に変換
+          converter.convert("output.fodp", convertOptions);
         ```
 
 demos:

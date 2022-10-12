@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:41
+date: 2022-10-12T19:57:53
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOCM bis TIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DOCM zur Konvertierung laden
-        Converter converter = new Converter("input.docm");
-        // Konvertierungsoptionen für das Zielformat TIF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
-        // In das TIF-Format konvertieren
-        converter.convert("output.tif", convertOptions);
+          Converter converter = new Converter("input.docm");
+          // Konvertierungsoptionen für das Zielformat TIF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
+          // In das TIF-Format konvertieren
+          converter.convert("output.tif", convertOptions);
         ```
 
 demos:

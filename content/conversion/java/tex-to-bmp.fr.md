@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:16
+date: 2022-10-12T19:58:49
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: TEX à BMP en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source TEX pour la conversion
-        Converter converter = new Converter("input.tex");
-        // Préparer les options de conversion pour le format cible BMP
-        ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-        // Convertir au format BMP
-        converter.convert("output.bmp", convertOptions);
+          Converter converter = new Converter("input.tex");
+          // Préparer les options de conversion pour le format cible BMP
+          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
+          // Convertir au format BMP
+          converter.convert("output.bmp", convertOptions);
         ```
 
 demos:

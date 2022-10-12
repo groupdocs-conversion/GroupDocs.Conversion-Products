@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:09
+date: 2022-10-12T19:58:38
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSSM à DOC en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source VSSM pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vssm");
-        // Préparer les options de conversion pour le format cible DOC
-        var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
-        // Convertir au format DOC
-        converter.Convert("output.doc", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vssm");
+          // Préparer les options de conversion pour le format cible DOC
+          var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
+          // Convertir au format DOC
+          converter.Convert("output.doc", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:33
+date: 2022-10-12T19:57:38
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CAD bis DOTX in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei CAD zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.cad");
-        // Konvertierungsoptionen für das Zielformat DOTX vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
-        // In das DOTX-Format konvertieren
-        converter.Convert("output.dotx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cad");
+          // Konvertierungsoptionen für das Zielformat DOTX vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
+          // In das DOTX-Format konvertieren
+          converter.Convert("output.dotx", convertOptions);
         ```
 
 demos:

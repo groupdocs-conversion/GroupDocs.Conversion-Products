@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:38
+date: 2022-10-12T20:00:46
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: SXC до ODS на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл SXC за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.sxc");
-        // Подгответе опции за преобразуване за целеви формат ODS
-        var convertOptions = converter.GetPossibleConversions()["ods"].ConvertOptions;
-        // Конвертиране във формат ODS
-        converter.Convert("output.ods", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.sxc");
+          // Подгответе опции за преобразуване за целеви формат ODS
+          var convertOptions = converter.GetPossibleConversions()["ods"].ConvertOptions;
+          // Конвертиране във формат ODS
+          converter.Convert("output.ods", convertOptions);
         ```
 
 demos:

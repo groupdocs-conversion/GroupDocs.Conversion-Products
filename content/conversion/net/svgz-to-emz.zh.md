@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:23
+date: 2022-10-12T20:00:26
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# 中的 SVGZ 到 EMZ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 SVGZ 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.svgz");
-        // 为目标格式 EMZ 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
-        // 转换为 EMZ 格式
-        converter.Convert("output.emz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.svgz");
+          // 为目标格式 EMZ 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
+          // 转换为 EMZ 格式
+          converter.Convert("output.emz", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:20
+date: 2022-10-12T19:58:56
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C# の IGS から PPSX
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル IGS を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.igs");
-        // ターゲット形式の変換オプションを準備 PPSX
-        var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
-        // PPSX形式に変換
-        converter.Convert("output.ppsx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.igs");
+          // ターゲット形式の変換オプションを準備 PPSX
+          var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
+          // PPSX形式に変換
+          converter.Convert("output.ppsx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:47
+date: 2022-10-12T19:59:40
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DJVU в SVGZ на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл DJVU для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.djvu");
-        // Задайте параметры преобразования для целевого формата SVGZ
-        var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
-        // Преобразуйте файл в SVGZ формат
-        converter.Convert("output.svgz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.djvu");
+          // Задайте параметры преобразования для целевого формата SVGZ
+          var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
+          // Преобразуйте файл в SVGZ формат
+          converter.Convert("output.svgz", convertOptions);
         ```
 
 demos:

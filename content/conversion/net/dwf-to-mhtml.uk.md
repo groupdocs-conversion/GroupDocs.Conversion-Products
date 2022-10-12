@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:04
+date: 2022-10-12T20:00:00
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWF в MHTML на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл DWF для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Задайте параметри перетворення для цільового формату MHTML
-        var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
-        // Перетворіть файл у MHTML формат
-        converter.Convert("output.mhtml", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwf");
+          // Задайте параметри перетворення для цільового формату MHTML
+          var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
+          // Перетворіть файл у MHTML формат
+          converter.Convert("output.mhtml", convertOptions);
         ```
 
 demos:

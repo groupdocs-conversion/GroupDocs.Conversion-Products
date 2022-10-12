@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:05
+date: 2022-10-12T20:00:02
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPEG в TGA на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл JPEG для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.jpeg");
-        // Задайте параметри перетворення для цільового формату TGA
-        var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
-        // Перетворіть файл у TGA формат
-        converter.Convert("output.tga", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpeg");
+          // Задайте параметри перетворення для цільового формату TGA
+          var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
+          // Перетворіть файл у TGA формат
+          converter.Convert("output.tga", convertOptions);
         ```
 
 demos:

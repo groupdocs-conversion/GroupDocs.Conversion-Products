@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:55
+date: 2022-10-12T19:59:50
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWT в RTF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл DWT для преобразования
-        Converter converter = new Converter("input.dwt");
-        // Подготовьте параметры преобразования для целевого формата RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // Преобразование в формат RTF
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.dwt");
+          // Подготовьте параметры преобразования для целевого формата RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // Преобразование в формат RTF
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

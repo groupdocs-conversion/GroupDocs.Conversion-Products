@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:46
+date: 2022-10-12T19:59:37
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: Java의 VSTM에서 VDX까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 변환을 위해 소스 파일 VSTM 로드
-        Converter converter = new Converter("input.vstm");
-        // 대상 형식 VDX에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("vdx").getConvertOptions();
-        // VDX 형식으로 변환
-        converter.convert("output.vdx", convertOptions);
+          Converter converter = new Converter("input.vstm");
+          // 대상 형식 VDX에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("vdx").getConvertOptions();
+          // VDX 형식으로 변환
+          converter.convert("output.vdx", convertOptions);
         ```
 
 demos:

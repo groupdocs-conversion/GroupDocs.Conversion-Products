@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:08
+date: 2022-10-12T19:58:37
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: TEX à WMF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source TEX pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // Préparer les options de conversion pour le format cible WMF
-        var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
-        // Convertir au format WMF
-        converter.Convert("output.wmf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tex");
+          // Préparer les options de conversion pour le format cible WMF
+          var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
+          // Convertir au format WMF
+          converter.Convert("output.wmf", convertOptions);
         ```
 
 demos:

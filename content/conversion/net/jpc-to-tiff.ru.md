@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:50
+date: 2022-10-12T19:59:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPC в TIFF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл JPC для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.jpc");
-        // Задайте параметры преобразования для целевого формата TIFF
-        var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
-        // Преобразуйте файл в TIFF формат
-        converter.Convert("output.tiff", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpc");
+          // Задайте параметры преобразования для целевого формата TIFF
+          var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
+          // Преобразуйте файл в TIFF формат
+          converter.Convert("output.tiff", convertOptions);
         ```
 
 demos:

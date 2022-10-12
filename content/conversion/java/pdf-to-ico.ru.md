@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:54
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PDF в ICO на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл PDF для преобразования
-        Converter converter = new Converter("input.pdf");
-        // Подготовьте параметры преобразования для целевого формата ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // Преобразование в формат ICO
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.pdf");
+          // Подготовьте параметры преобразования для целевого формата ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // Преобразование в формат ICO
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

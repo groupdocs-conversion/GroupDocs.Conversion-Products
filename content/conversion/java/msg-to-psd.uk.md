@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:14
+date: 2022-10-12T20:00:13
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG в PSD на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл MSG для конвертації
-        Converter converter = new Converter("input.msg");
-        // Задайте параметри перетворення для цільового формату PSD
-        ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
-        // Перетворіть файл у PSD формат
-        converter.convert("output.psd", convertOptions);
+          Converter converter = new Converter("input.msg");
+          // Задайте параметри перетворення для цільового формату PSD
+          ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
+          // Перетворіть файл у PSD формат
+          converter.convert("output.psd", convertOptions);
         ```
 
 demos:

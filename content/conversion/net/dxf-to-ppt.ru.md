@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:48
+date: 2022-10-12T19:59:41
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DXF в PPT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл DXF для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.dxf");
-        // Задайте параметры преобразования для целевого формата PPT
-        var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
-        // Преобразуйте файл в PPT формат
-        converter.Convert("output.ppt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dxf");
+          // Задайте параметры преобразования для целевого формата PPT
+          var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
+          // Преобразуйте файл в PPT формат
+          converter.Convert("output.ppt", convertOptions);
         ```
 
 demos:

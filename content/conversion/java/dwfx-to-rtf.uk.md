@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:10
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWFX в RTF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл DWFX для конвертації
-        Converter converter = new Converter("input.dwfx");
-        // Задайте параметри перетворення для цільового формату RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // Перетворіть файл у RTF формат
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.dwfx");
+          // Задайте параметри перетворення для цільового формату RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // Перетворіть файл у RTF формат
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

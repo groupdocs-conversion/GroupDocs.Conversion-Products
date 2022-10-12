@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:56
+date: 2022-10-12T19:59:51
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: FODS в XPS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл FODS для преобразования
-        Converter converter = new Converter("input.fods");
-        // Подготовьте параметры преобразования для целевого формата XPS
-        ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
-        // Преобразование в формат XPS
-        converter.convert("output.xps", convertOptions);
+          Converter converter = new Converter("input.fods");
+          // Подготовьте параметры преобразования для целевого формата XPS
+          ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
+          // Преобразование в формат XPS
+          converter.convert("output.xps", convertOptions);
         ```
 
 demos:

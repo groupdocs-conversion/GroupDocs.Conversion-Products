@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:10
+date: 2022-10-12T20:00:08
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLT в XPS на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл XLT для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.xlt");
-        // Задайте параметри перетворення для цільового формату XPS
-        var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
-        // Перетворіть файл у XPS формат
-        converter.Convert("output.xps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlt");
+          // Задайте параметри перетворення для цільового формату XPS
+          var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
+          // Перетворіть файл у XPS формат
+          converter.Convert("output.xps", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:54
+date: 2022-10-12T19:59:48
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTX в XLSX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл XLTX для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.xltx");
-        // Задайте параметры преобразования для целевого формата XLSX
-        var convertOptions = converter.GetPossibleConversions()["xlsx"].ConvertOptions;
-        // Преобразуйте файл в XLSX формат
-        converter.Convert("output.xlsx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xltx");
+          // Задайте параметры преобразования для целевого формата XLSX
+          var convertOptions = converter.GetPossibleConversions()["xlsx"].ConvertOptions;
+          // Преобразуйте файл в XLSX формат
+          converter.Convert("output.xlsx", convertOptions);
         ```
 
 demos:

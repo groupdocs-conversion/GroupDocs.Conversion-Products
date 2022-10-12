@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:05
+date: 2022-10-12T20:00:02
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2C в TIFF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл J2C для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.j2c");
-        // Задайте параметри перетворення для цільового формату TIFF
-        var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
-        // Перетворіть файл у TIFF формат
-        converter.Convert("output.tiff", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.j2c");
+          // Задайте параметри перетворення для цільового формату TIFF
+          var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
+          // Перетворіть файл у TIFF формат
+          converter.Convert("output.tiff", convertOptions);
         ```
 
 demos:

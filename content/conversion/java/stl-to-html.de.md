@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:01
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: STL bis HTML in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei STL zur Konvertierung laden
-        Converter converter = new Converter("input.stl");
-        // Konvertierungsoptionen für das Zielformat HTML vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
-        // In das HTML-Format konvertieren
-        converter.convert("output.html", convertOptions);
+          Converter converter = new Converter("input.stl");
+          // Konvertierungsoptionen für das Zielformat HTML vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
+          // In das HTML-Format konvertieren
+          converter.convert("output.html", convertOptions);
         ```
 
 demos:

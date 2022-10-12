@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:53
+date: 2022-10-12T19:59:46
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VDW в VDX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл VDW для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.vdw");
-        // Задайте параметры преобразования для целевого формата VDX
-        var convertOptions = converter.GetPossibleConversions()["vdx"].ConvertOptions;
-        // Преобразуйте файл в VDX формат
-        converter.Convert("output.vdx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vdw");
+          // Задайте параметры преобразования для целевого формата VDX
+          var convertOptions = converter.GetPossibleConversions()["vdx"].ConvertOptions;
+          // Преобразуйте файл в VDX формат
+          converter.Convert("output.vdx", convertOptions);
         ```
 
 demos:

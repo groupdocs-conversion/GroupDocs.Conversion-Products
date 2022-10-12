@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:07
+date: 2022-10-12T20:00:04
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: PNG в GIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл PNG для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.png");
-        // Задайте параметри перетворення для цільового формату GIF
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // Перетворіть файл у GIF формат
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.png");
+          // Задайте параметри перетворення для цільового формату GIF
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // Перетворіть файл у GIF формат
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

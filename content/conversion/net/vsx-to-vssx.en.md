@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:24
+date: 2022-10-12T19:57:24
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSX to VSSX in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file VSX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vsx");
-        // Prepare conversion options for target format VSSX
-        var convertOptions = converter.GetPossibleConversions()["vssx"].ConvertOptions;
-        // Convert to VSSX format
-        converter.Convert("output.vssx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vsx");
+          // Prepare conversion options for target format VSSX
+          var convertOptions = converter.GetPossibleConversions()["vssx"].ConvertOptions;
+          // Convert to VSSX format
+          converter.Convert("output.vssx", convertOptions);
         ```
 
 demos:

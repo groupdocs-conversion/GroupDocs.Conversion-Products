@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:53
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOTX bis OTT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DOTX zur Konvertierung laden
-        Converter converter = new Converter("input.dotx");
-        // Konvertierungsoptionen für das Zielformat OTT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
-        // In das OTT-Format konvertieren
-        converter.convert("output.ott", convertOptions);
+          Converter converter = new Converter("input.dotx");
+          // Konvertierungsoptionen für das Zielformat OTT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
+          // In das OTT-Format konvertieren
+          converter.convert("output.ott", convertOptions);
         ```
 
 demos:

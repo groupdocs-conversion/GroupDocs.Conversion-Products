@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:10
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOTX в RTF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл DOTX для конвертації
-        Converter converter = new Converter("input.dotx");
-        // Задайте параметри перетворення для цільового формату RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // Перетворіть файл у RTF формат
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.dotx");
+          // Задайте параметри перетворення для цільового формату RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // Перетворіть файл у RTF формат
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

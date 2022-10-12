@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:40
+date: 2022-10-12T19:57:51
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTX bis XPS in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei XLTX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.xltx");
-        // Konvertierungsoptionen für das Zielformat XPS vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
-        // In das XPS-Format konvertieren
-        converter.Convert("output.xps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xltx");
+          // Konvertierungsoptionen für das Zielformat XPS vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
+          // In das XPS-Format konvertieren
+          converter.Convert("output.xps", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:22
+date: 2022-10-12T19:58:59
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C# の PLT から RTF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル PLT を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.plt");
-        // ターゲット形式の変換オプションを準備 RTF
-        var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
-        // RTF形式に変換
-        converter.Convert("output.rtf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.plt");
+          // ターゲット形式の変換オプションを準備 RTF
+          var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
+          // RTF形式に変換
+          converter.Convert("output.rtf", convertOptions);
         ```
 
 demos:

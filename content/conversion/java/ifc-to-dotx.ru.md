@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:56
+date: 2022-10-12T19:59:51
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IFC в DOTX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл IFC для преобразования
-        Converter converter = new Converter("input.ifc");
-        // Подготовьте параметры преобразования для целевого формата DOTX
-        ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
-        // Преобразование в формат DOTX
-        converter.convert("output.dotx", convertOptions);
+          Converter converter = new Converter("input.ifc");
+          // Подготовьте параметры преобразования для целевого формата DOTX
+          ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
+          // Преобразование в формат DOTX
+          converter.convert("output.dotx", convertOptions);
         ```
 
 demos:

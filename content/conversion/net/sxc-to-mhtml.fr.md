@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:08
+date: 2022-10-12T19:58:37
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: SXC à MHTML en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source SXC pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.sxc");
-        // Préparer les options de conversion pour le format cible MHTML
-        var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
-        // Convertir au format MHTML
-        converter.Convert("output.mhtml", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.sxc");
+          // Préparer les options de conversion pour le format cible MHTML
+          var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
+          // Convertir au format MHTML
+          converter.Convert("output.mhtml", convertOptions);
         ```
 
 demos:

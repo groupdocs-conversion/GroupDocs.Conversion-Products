@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:15
+date: 2022-10-12T20:00:14
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: POTX в PSD на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл POTX для конвертації
-        Converter converter = new Converter("input.potx");
-        // Задайте параметри перетворення для цільового формату PSD
-        ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
-        // Перетворіть файл у PSD формат
-        converter.convert("output.psd", convertOptions);
+          Converter converter = new Converter("input.potx");
+          // Задайте параметри перетворення для цільового формату PSD
+          ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
+          // Перетворіть файл у PSD формат
+          converter.convert("output.psd", convertOptions);
         ```
 
 demos:

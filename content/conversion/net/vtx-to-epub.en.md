@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:24
+date: 2022-10-12T19:57:24
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VTX to EPUB in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file VTX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vtx");
-        // Prepare conversion options for target format EPUB
-        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // Convert to EPUB format
-        converter.Convert("output.epub", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vtx");
+          // Prepare conversion options for target format EPUB
+          var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+          // Convert to EPUB format
+          converter.Convert("output.epub", convertOptions);
         ```
 
 demos:

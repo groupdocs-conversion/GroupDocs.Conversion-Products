@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:20
+date: 2022-10-12T20:00:20
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C# 中的 DXF 到 PPTX
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 DXF 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.dxf");
-        // 为目标格式 PPTX 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
-        // 转换为 PPTX 格式
-        converter.Convert("output.pptx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dxf");
+          // 为目标格式 PPTX 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
+          // 转换为 PPTX 格式
+          converter.Convert("output.pptx", convertOptions);
         ```
 
 demos:

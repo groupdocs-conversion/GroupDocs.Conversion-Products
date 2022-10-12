@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:13
+date: 2022-10-12T19:58:47
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ONE à TIFF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source ONE pour la conversion
-        Converter converter = new Converter("input.one");
-        // Préparer les options de conversion pour le format cible TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Convertir au format TIFF
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.one");
+          // Préparer les options de conversion pour le format cible TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Convertir au format TIFF
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

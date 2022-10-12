@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:36
+date: 2022-10-12T19:57:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2K bis WMF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei J2K zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.j2k");
-        // Konvertierungsoptionen für das Zielformat WMF vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
-        // In das WMF-Format konvertieren
-        converter.Convert("output.wmf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.j2k");
+          // Konvertierungsoptionen für das Zielformat WMF vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
+          // In das WMF-Format konvertieren
+          converter.Convert("output.wmf", convertOptions);
         ```
 
 demos:

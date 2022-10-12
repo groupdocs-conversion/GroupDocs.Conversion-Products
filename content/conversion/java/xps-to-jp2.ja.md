@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:32
+date: 2022-10-12T19:59:16
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: JavaでXPSからJP2へ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル XPS を読み込みます
-        Converter converter = new Converter("input.xps");
-        // ターゲット形式の変換オプションを準備 JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // JP2形式に変換
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.xps");
+          // ターゲット形式の変換オプションを準備 JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // JP2形式に変換
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

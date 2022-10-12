@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:35
+date: 2022-10-12T19:57:42
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IFC bis PPS in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei IFC zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.ifc");
-        // Konvertierungsoptionen für das Zielformat PPS vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
-        // In das PPS-Format konvertieren
-        converter.Convert("output.pps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ifc");
+          // Konvertierungsoptionen für das Zielformat PPS vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
+          // In das PPS-Format konvertieren
+          converter.Convert("output.pps", convertOptions);
         ```
 
 demos:

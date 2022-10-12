@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:31
+date: 2022-10-12T19:59:14
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでWEBPからSVGへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル WEBP を読み込みます
-        Converter converter = new Converter("input.webp");
-        // ターゲット形式の変換オプションを準備 SVG
-        ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
-        // SVG形式に変換
-        converter.convert("output.svg", convertOptions);
+          Converter converter = new Converter("input.webp");
+          // ターゲット形式の変換オプションを準備 SVG
+          ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
+          // SVG形式に変換
+          converter.convert("output.svg", convertOptions);
         ```
 
 demos:

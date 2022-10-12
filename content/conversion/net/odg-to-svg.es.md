@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:51
+date: 2022-10-12T19:58:11
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ODG a SVG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente ODG para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.odg");
-        // Preparar opciones de conversión para el formato de destino SVG
-        var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // Convertir al formato SVG
-        converter.Convert("output.svg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.odg");
+          // Preparar opciones de conversión para el formato de destino SVG
+          var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
+          // Convertir al formato SVG
+          converter.Convert("output.svg", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:38
+date: 2022-10-12T19:59:26
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: C#의 VSDX에서 VSSX까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 변환을 위해 소스 파일 VSDX 로드
-        var converter = new GroupDocs.Conversion.Converter("input.vsdx");
-        // 대상 형식 VSSX에 대한 변환 옵션 준비
-        var convertOptions = converter.GetPossibleConversions()["vssx"].ConvertOptions;
-        // VSSX 형식으로 변환
-        converter.Convert("output.vssx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vsdx");
+          // 대상 형식 VSSX에 대한 변환 옵션 준비
+          var convertOptions = converter.GetPossibleConversions()["vssx"].ConvertOptions;
+          // VSSX 형식으로 변환
+          converter.Convert("output.vssx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:33
+date: 2022-10-12T20:00:39
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: CSV до CSV на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл CSV за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.csv");
-        // Подгответе опции за преобразуване за целеви формат CSV
-        var convertOptions = converter.GetPossibleConversions()["csv"].ConvertOptions;
-        // Конвертиране във формат CSV
-        converter.Convert("output.csv", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.csv");
+          // Подгответе опции за преобразуване за целеви формат CSV
+          var convertOptions = converter.GetPossibleConversions()["csv"].ConvertOptions;
+          // Конвертиране във формат CSV
+          converter.Convert("output.csv", convertOptions);
         ```
 
 demos:

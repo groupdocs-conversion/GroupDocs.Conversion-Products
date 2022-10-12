@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:26
+date: 2022-10-12T19:59:06
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでEMFからWMFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル EMF を読み込みます
-        Converter converter = new Converter("input.emf");
-        // ターゲット形式の変換オプションを準備 WMF
-        ConvertOptions convertOptions = new FileType().fromExtension("wmf").getConvertOptions();
-        // WMF形式に変換
-        converter.convert("output.wmf", convertOptions);
+          Converter converter = new Converter("input.emf");
+          // ターゲット形式の変換オプションを準備 WMF
+          ConvertOptions convertOptions = new FileType().fromExtension("wmf").getConvertOptions();
+          // WMF形式に変換
+          converter.convert("output.wmf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:15
+date: 2022-10-12T19:58:49
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVGZ à WMF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source SVGZ pour la conversion
-        Converter converter = new Converter("input.svgz");
-        // Préparer les options de conversion pour le format cible WMF
-        ConvertOptions convertOptions = new FileType().fromExtension("wmf").getConvertOptions();
-        // Convertir au format WMF
-        converter.convert("output.wmf", convertOptions);
+          Converter converter = new Converter("input.svgz");
+          // Préparer les options de conversion pour le format cible WMF
+          ConvertOptions convertOptions = new FileType().fromExtension("wmf").getConvertOptions();
+          // Convertir au format WMF
+          converter.convert("output.wmf", convertOptions);
         ```
 
 demos:

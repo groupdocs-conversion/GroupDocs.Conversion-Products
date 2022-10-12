@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:02
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF bis PSB in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei VCF zur Konvertierung laden
-        Converter converter = new Converter("input.vcf");
-        // Konvertierungsoptionen für das Zielformat PSB vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
-        // In das PSB-Format konvertieren
-        converter.convert("output.psb", convertOptions);
+          Converter converter = new Converter("input.vcf");
+          // Konvertierungsoptionen für das Zielformat PSB vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
+          // In das PSB-Format konvertieren
+          converter.convert("output.psb", convertOptions);
         ```
 
 demos:

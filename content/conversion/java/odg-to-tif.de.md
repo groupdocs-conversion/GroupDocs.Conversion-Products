@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:44
+date: 2022-10-12T19:57:58
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ODG bis TIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei ODG zur Konvertierung laden
-        Converter converter = new Converter("input.odg");
-        // Konvertierungsoptionen für das Zielformat TIF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
-        // In das TIF-Format konvertieren
-        converter.convert("output.tif", convertOptions);
+          Converter converter = new Converter("input.odg");
+          // Konvertierungsoptionen für das Zielformat TIF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
+          // In das TIF-Format konvertieren
+          converter.convert("output.tif", convertOptions);
         ```
 
 demos:

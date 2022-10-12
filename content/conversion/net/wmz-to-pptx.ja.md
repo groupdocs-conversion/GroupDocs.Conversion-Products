@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:24
+date: 2022-10-12T19:59:02
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の WMZ から PPTX
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル WMZ を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.wmz");
-        // ターゲット形式の変換オプションを準備 PPTX
-        var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
-        // PPTX形式に変換
-        converter.Convert("output.pptx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.wmz");
+          // ターゲット形式の変換オプションを準備 PPTX
+          var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
+          // PPTX形式に変換
+          converter.Convert("output.pptx", convertOptions);
         ```
 
 demos:

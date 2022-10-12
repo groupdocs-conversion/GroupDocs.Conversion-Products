@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:06
+date: 2022-10-12T20:00:03
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP в ICO на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл MPP для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // Задайте параметри перетворення для цільового формату ICO
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // Перетворіть файл у ICO формат
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpp");
+          // Задайте параметри перетворення для цільового формату ICO
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // Перетворіть файл у ICO формат
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

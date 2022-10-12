@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:25
+date: 2022-10-12T19:57:26
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CMX to TGA in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file CMX for conversion
-        Converter converter = new Converter("input.cmx");
-        // Prepare conversion options for target format TGA
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // Convert to TGA format
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.cmx");
+          // Prepare conversion options for target format TGA
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // Convert to TGA format
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

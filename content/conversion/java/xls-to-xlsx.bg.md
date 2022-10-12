@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:47
+date: 2022-10-12T20:00:59
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLS до XLSX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл XLS за конвертиране
-        Converter converter = new Converter("input.xls");
-        // Подгответе опции за преобразуване за целеви формат XLSX
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
-        // Конвертиране във формат XLSX
-        converter.convert("output.xlsx", convertOptions);
+          Converter converter = new Converter("input.xls");
+          // Подгответе опции за преобразуване за целеви формат XLSX
+          ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
+          // Конвертиране във формат XLSX
+          converter.convert("output.xlsx", convertOptions);
         ```
 
 demos:

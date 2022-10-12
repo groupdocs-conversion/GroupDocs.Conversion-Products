@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:25
+date: 2022-10-12T19:59:04
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでDCMからPSBへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル DCM を読み込みます
-        Converter converter = new Converter("input.dcm");
-        // ターゲット形式の変換オプションを準備 PSB
-        ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
-        // PSB形式に変換
-        converter.convert("output.psb", convertOptions);
+          Converter converter = new Converter("input.dcm");
+          // ターゲット形式の変換オプションを準備 PSB
+          ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
+          // PSB形式に変換
+          converter.convert("output.psb", convertOptions);
         ```
 
 demos:

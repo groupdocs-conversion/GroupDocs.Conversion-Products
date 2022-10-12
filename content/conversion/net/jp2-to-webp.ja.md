@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:20
+date: 2022-10-12T19:58:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の JP2 から WEBP
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル JP2 を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.jp2");
-        // ターゲット形式の変換オプションを準備 WEBP
-        var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
-        // WEBP形式に変換
-        converter.Convert("output.webp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jp2");
+          // ターゲット形式の変換オプションを準備 WEBP
+          var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
+          // WEBP形式に変換
+          converter.Convert("output.webp", convertOptions);
         ```
 
 demos:

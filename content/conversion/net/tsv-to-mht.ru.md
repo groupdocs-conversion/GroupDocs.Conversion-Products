@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:52
+date: 2022-10-12T19:59:46
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: TSV в MHT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл TSV для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.tsv");
-        // Задайте параметры преобразования для целевого формата MHT
-        var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
-        // Преобразуйте файл в MHT формат
-        converter.Convert("output.mht", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tsv");
+          // Задайте параметры преобразования для целевого формата MHT
+          var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
+          // Преобразуйте файл в MHT формат
+          converter.Convert("output.mht", convertOptions);
         ```
 
 demos:

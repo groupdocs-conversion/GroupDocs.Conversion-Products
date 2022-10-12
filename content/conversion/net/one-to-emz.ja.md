@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:21
+date: 2022-10-12T19:58:58
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の ONE から EMZ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル ONE を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.one");
-        // ターゲット形式の変換オプションを準備 EMZ
-        var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
-        // EMZ形式に変換
-        converter.Convert("output.emz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.one");
+          // ターゲット形式の変換オプションを準備 EMZ
+          var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
+          // EMZ形式に変換
+          converter.Convert("output.emz", convertOptions);
         ```
 
 demos:

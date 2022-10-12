@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:10
+date: 2022-10-12T20:00:08
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTM в SXC на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл XLTM для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.xltm");
-        // Задайте параметри перетворення для цільового формату SXC
-        var convertOptions = converter.GetPossibleConversions()["sxc"].ConvertOptions;
-        // Перетворіть файл у SXC формат
-        converter.Convert("output.sxc", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xltm");
+          // Задайте параметри перетворення для цільового формату SXC
+          var convertOptions = converter.GetPossibleConversions()["sxc"].ConvertOptions;
+          // Перетворіть файл у SXC формат
+          converter.Convert("output.sxc", convertOptions);
         ```
 
 demos:

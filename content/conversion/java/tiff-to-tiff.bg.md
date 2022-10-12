@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:46
+date: 2022-10-12T20:00:57
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: TIFF до TIFF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл TIFF за конвертиране
-        Converter converter = new Converter("input.tiff");
-        // Подгответе опции за преобразуване за целеви формат TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Конвертиране във формат TIFF
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.tiff");
+          // Подгответе опции за преобразуване за целеви формат TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Конвертиране във формат TIFF
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

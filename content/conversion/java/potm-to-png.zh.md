@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:30
+date: 2022-10-12T20:00:35
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: Java 中的 POTM 到 PNG
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 POTM 进行转换
-        Converter converter = new Converter("input.potm");
-        // 为目标格式 PNG 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // 转换为 PNG 格式
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.potm");
+          // 为目标格式 PNG 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // 转换为 PNG 格式
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

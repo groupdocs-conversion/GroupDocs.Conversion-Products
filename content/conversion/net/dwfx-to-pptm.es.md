@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:49
+date: 2022-10-12T19:58:07
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWFX a PPTM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente DWFX para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.dwfx");
-        // Preparar opciones de conversión para el formato de destino PPTM
-        var convertOptions = converter.GetPossibleConversions()["pptm"].ConvertOptions;
-        // Convertir al formato PPTM
-        converter.Convert("output.pptm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwfx");
+          // Preparar opciones de conversión para el formato de destino PPTM
+          var convertOptions = converter.GetPossibleConversions()["pptm"].ConvertOptions;
+          // Convertir al formato PPTM
+          converter.Convert("output.pptm", convertOptions);
         ```
 
 demos:

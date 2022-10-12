@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:01
+date: 2022-10-12T19:58:26
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF a WMF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente VCF para la conversión
-        Converter converter = new Converter("input.vcf");
-        // Preparar opciones de conversión para el formato de destino WMF
-        ConvertOptions convertOptions = new FileType().fromExtension("wmf").getConvertOptions();
-        // Convertir al formato WMF
-        converter.convert("output.wmf", convertOptions);
+          Converter converter = new Converter("input.vcf");
+          // Preparar opciones de conversión para el formato de destino WMF
+          ConvertOptions convertOptions = new FileType().fromExtension("wmf").getConvertOptions();
+          // Convertir al formato WMF
+          converter.convert("output.wmf", convertOptions);
         ```
 
 demos:

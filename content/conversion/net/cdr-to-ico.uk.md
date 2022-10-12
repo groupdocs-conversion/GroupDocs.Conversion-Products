@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:03
+date: 2022-10-12T19:59:59
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CDR в ICO на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл CDR для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.cdr");
-        // Задайте параметри перетворення для цільового формату ICO
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // Перетворіть файл у ICO формат
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cdr");
+          // Задайте параметри перетворення для цільового формату ICO
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // Перетворіть файл у ICO формат
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:20
+date: 2022-10-12T19:57:18
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPM to TGA in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file JPM for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.jpm");
-        // Prepare conversion options for target format TGA
-        var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
-        // Convert to TGA format
-        converter.Convert("output.tga", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpm");
+          // Prepare conversion options for target format TGA
+          var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
+          // Convert to TGA format
+          converter.Convert("output.tga", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:31
+date: 2022-10-12T19:57:34
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF to JP2 in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file VCF for conversion
-        Converter converter = new Converter("input.vcf");
-        // Prepare conversion options for target format JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // Convert to JP2 format
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.vcf");
+          // Prepare conversion options for target format JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // Convert to JP2 format
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

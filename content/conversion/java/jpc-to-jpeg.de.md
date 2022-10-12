@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:43
+date: 2022-10-12T19:57:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPC bis JPEG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei JPC zur Konvertierung laden
-        Converter converter = new Converter("input.jpc");
-        // Konvertierungsoptionen für das Zielformat JPEG vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
-        // In das JPEG-Format konvertieren
-        converter.convert("output.jpeg", convertOptions);
+          Converter converter = new Converter("input.jpc");
+          // Konvertierungsoptionen für das Zielformat JPEG vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
+          // In das JPEG-Format konvertieren
+          converter.convert("output.jpeg", convertOptions);
         ```
 
 demos:

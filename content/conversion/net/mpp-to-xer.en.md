@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:20
+date: 2022-10-12T19:57:19
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP to XER in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file MPP for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // Prepare conversion options for target format XER
-        var convertOptions = converter.GetPossibleConversions()["xer"].ConvertOptions;
-        // Convert to XER format
-        converter.Convert("output.xer", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpp");
+          // Prepare conversion options for target format XER
+          var convertOptions = converter.GetPossibleConversions()["xer"].ConvertOptions;
+          // Convert to XER format
+          converter.Convert("output.xer", convertOptions);
         ```
 
 demos:

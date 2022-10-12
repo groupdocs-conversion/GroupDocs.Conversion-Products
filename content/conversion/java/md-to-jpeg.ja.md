@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:28
+date: 2022-10-12T19:59:08
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: JavaでMDからJPEGへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル MD を読み込みます
-        Converter converter = new Converter("input.md");
-        // ターゲット形式の変換オプションを準備 JPEG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
-        // JPEG形式に変換
-        converter.convert("output.jpeg", convertOptions);
+          Converter converter = new Converter("input.md");
+          // ターゲット形式の変換オプションを準備 JPEG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
+          // JPEG形式に変換
+          converter.convert("output.jpeg", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:30
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG to EMLX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file MSG for conversion
-        Converter converter = new Converter("input.msg");
-        // Prepare conversion options for target format EMLX
-        ConvertOptions convertOptions = new FileType().fromExtension("emlx").getConvertOptions();
-        // Convert to EMLX format
-        converter.convert("output.emlx", convertOptions);
+          Converter converter = new Converter("input.msg");
+          // Prepare conversion options for target format EMLX
+          ConvertOptions convertOptions = new FileType().fromExtension("emlx").getConvertOptions();
+          // Convert to EMLX format
+          converter.convert("output.emlx", convertOptions);
         ```
 
 demos:

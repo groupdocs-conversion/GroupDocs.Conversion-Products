@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:09
+date: 2022-10-12T19:58:40
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSM à MHT en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source XLSM pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.xlsm");
-        // Préparer les options de conversion pour le format cible MHT
-        var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
-        // Convertir au format MHT
-        converter.Convert("output.mht", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsm");
+          // Préparer les options de conversion pour le format cible MHT
+          var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
+          // Convertir au format MHT
+          converter.Convert("output.mht", convertOptions);
         ```
 
 demos:

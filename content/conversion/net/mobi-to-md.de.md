@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:36
+date: 2022-10-12T19:57:43
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MOBI bis MD in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei MOBI zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.mobi");
-        // Konvertierungsoptionen für das Zielformat MD vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
-        // In das MD-Format konvertieren
-        converter.Convert("output.md", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mobi");
+          // Konvertierungsoptionen für das Zielformat MD vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
+          // In das MD-Format konvertieren
+          converter.Convert("output.md", convertOptions);
         ```
 
 demos:

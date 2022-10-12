@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:18
+date: 2022-10-12T19:57:16
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOC to PDF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file DOC for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.doc");
-        // Prepare conversion options for target format PDF
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // Convert to PDF format
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.doc");
+          // Prepare conversion options for target format PDF
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // Convert to PDF format
+          converter.Convert("output.pdf", convertOptions);
         ```
 
 demos:

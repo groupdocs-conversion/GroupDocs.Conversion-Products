@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:45
+date: 2022-10-12T19:58:00
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPT bis ODT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei PPT zur Konvertierung laden
-        Converter converter = new Converter("input.ppt");
-        // Konvertierungsoptionen für das Zielformat ODT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
-        // In das ODT-Format konvertieren
-        converter.convert("output.odt", convertOptions);
+          Converter converter = new Converter("input.ppt");
+          // Konvertierungsoptionen für das Zielformat ODT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
+          // In das ODT-Format konvertieren
+          converter.convert("output.odt", convertOptions);
         ```
 
 demos:

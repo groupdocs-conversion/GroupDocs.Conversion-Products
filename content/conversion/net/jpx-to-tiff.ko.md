@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:35
+date: 2022-10-12T19:59:20
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C#의 JPX에서 TIFF까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 변환을 위해 소스 파일 JPX 로드
-        var converter = new GroupDocs.Conversion.Converter("input.jpx");
-        // 대상 형식 TIFF에 대한 변환 옵션 준비
-        var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
-        // TIFF 형식으로 변환
-        converter.Convert("output.tiff", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpx");
+          // 대상 형식 TIFF에 대한 변환 옵션 준비
+          var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
+          // TIFF 형식으로 변환
+          converter.Convert("output.tiff", convertOptions);
         ```
 
 demos:

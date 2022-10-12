@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:55
+date: 2022-10-12T19:58:16
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSB a XLS en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente XLSB para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.xlsb");
-        // Preparar opciones de conversión para el formato de destino XLS
-        var convertOptions = converter.GetPossibleConversions()["xls"].ConvertOptions;
-        // Convertir al formato XLS
-        converter.Convert("output.xls", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsb");
+          // Preparar opciones de conversión para el formato de destino XLS
+          var convertOptions = converter.GetPossibleConversions()["xls"].ConvertOptions;
+          // Convertir al formato XLS
+          converter.Convert("output.xls", convertOptions);
         ```
 
 demos:

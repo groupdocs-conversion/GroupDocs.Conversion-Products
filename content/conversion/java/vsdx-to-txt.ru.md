@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:00
+date: 2022-10-12T19:59:57
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSDX в TXT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл VSDX для преобразования
-        Converter converter = new Converter("input.vsdx");
-        // Подготовьте параметры преобразования для целевого формата TXT
-        ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
-        // Преобразование в формат TXT
-        converter.convert("output.txt", convertOptions);
+          Converter converter = new Converter("input.vsdx");
+          // Подготовьте параметры преобразования для целевого формата TXT
+          ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
+          // Преобразование в формат TXT
+          converter.convert("output.txt", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:56
+date: 2022-10-12T19:58:18
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOTX a EPUB en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente DOTX para la conversión
-        Converter converter = new Converter("input.dotx");
-        // Preparar opciones de conversión para el formato de destino EPUB
-        ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
-        // Convertir al formato EPUB
-        converter.convert("output.epub", convertOptions);
+          Converter converter = new Converter("input.dotx");
+          // Preparar opciones de conversión para el formato de destino EPUB
+          ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
+          // Convertir al formato EPUB
+          converter.convert("output.epub", convertOptions);
         ```
 
 demos:

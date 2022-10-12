@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:19
+date: 2022-10-12T19:57:17
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS to MHT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file IGS for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.igs");
-        // Prepare conversion options for target format MHT
-        var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
-        // Convert to MHT format
-        converter.Convert("output.mht", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.igs");
+          // Prepare conversion options for target format MHT
+          var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
+          // Convert to MHT format
+          converter.Convert("output.mht", convertOptions);
         ```
 
 demos:

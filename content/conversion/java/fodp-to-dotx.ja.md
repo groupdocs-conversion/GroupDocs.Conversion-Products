@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:27
+date: 2022-10-12T19:59:06
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: JavaでFODPからDOTXへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル FODP を読み込みます
-        Converter converter = new Converter("input.fodp");
-        // ターゲット形式の変換オプションを準備 DOTX
-        ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
-        // DOTX形式に変換
-        converter.convert("output.dotx", convertOptions);
+          Converter converter = new Converter("input.fodp");
+          // ターゲット形式の変換オプションを準備 DOTX
+          ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
+          // DOTX形式に変換
+          converter.convert("output.dotx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:29
+date: 2022-10-12T19:57:32
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OXPS to JP2 in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file OXPS for conversion
-        Converter converter = new Converter("input.oxps");
-        // Prepare conversion options for target format JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // Convert to JP2 format
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.oxps");
+          // Prepare conversion options for target format JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // Convert to JP2 format
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

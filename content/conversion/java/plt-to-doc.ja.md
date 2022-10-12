@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:29
+date: 2022-10-12T19:59:11
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: JavaでPLTからDOCへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル PLT を読み込みます
-        Converter converter = new Converter("input.plt");
-        // ターゲット形式の変換オプションを準備 DOC
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // DOC形式に変換
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.plt");
+          // ターゲット形式の変換オプションを準備 DOC
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // DOC形式に変換
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

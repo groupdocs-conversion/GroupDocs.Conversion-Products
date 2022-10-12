@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:27
+date: 2022-10-12T19:57:28
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ICO to PPS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file ICO for conversion
-        Converter converter = new Converter("input.ico");
-        // Prepare conversion options for target format PPS
-        ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
-        // Convert to PPS format
-        converter.convert("output.pps", convertOptions);
+          Converter converter = new Converter("input.ico");
+          // Prepare conversion options for target format PPS
+          ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
+          // Convert to PPS format
+          converter.convert("output.pps", convertOptions);
         ```
 
 demos:

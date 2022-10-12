@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:59
+date: 2022-10-12T19:59:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVGZ в EMZ на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл SVGZ для преобразования
-        Converter converter = new Converter("input.svgz");
-        // Подготовьте параметры преобразования для целевого формата EMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
-        // Преобразование в формат EMZ
-        converter.convert("output.emz", convertOptions);
+          Converter converter = new Converter("input.svgz");
+          // Подготовьте параметры преобразования для целевого формата EMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
+          // Преобразование в формат EMZ
+          converter.convert("output.emz", convertOptions);
         ```
 
 demos:

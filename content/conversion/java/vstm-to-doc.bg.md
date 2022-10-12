@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:46
+date: 2022-10-12T20:00:58
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSTM до DOC на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл VSTM за конвертиране
-        Converter converter = new Converter("input.vstm");
-        // Подгответе опции за преобразуване за целеви формат DOC
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // Конвертиране във формат DOC
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.vstm");
+          // Подгответе опции за преобразуване за целеви формат DOC
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // Конвертиране във формат DOC
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

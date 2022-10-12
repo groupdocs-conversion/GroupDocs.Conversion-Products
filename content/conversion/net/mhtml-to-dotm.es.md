@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:51
+date: 2022-10-12T19:58:10
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MHTML a DOTM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente MHTML para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.mhtml");
-        // Preparar opciones de conversión para el formato de destino DOTM
-        var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
-        // Convertir al formato DOTM
-        converter.Convert("output.dotm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mhtml");
+          // Preparar opciones de conversión para el formato de destino DOTM
+          var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
+          // Convertir al formato DOTM
+          converter.Convert("output.dotm", convertOptions);
         ```
 
 demos:

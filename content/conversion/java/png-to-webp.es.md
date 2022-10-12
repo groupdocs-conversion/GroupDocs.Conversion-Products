@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:59
+date: 2022-10-12T19:58:24
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: PNG a WEBP en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente PNG para la conversión
-        Converter converter = new Converter("input.png");
-        // Preparar opciones de conversión para el formato de destino WEBP
-        ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
-        // Convertir al formato WEBP
-        converter.convert("output.webp", convertOptions);
+          Converter converter = new Converter("input.png");
+          // Preparar opciones de conversión para el formato de destino WEBP
+          ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
+          // Convertir al formato WEBP
+          converter.convert("output.webp", convertOptions);
         ```
 
 demos:

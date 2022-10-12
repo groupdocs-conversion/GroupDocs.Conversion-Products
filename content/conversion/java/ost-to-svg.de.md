@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:44
+date: 2022-10-12T19:57:58
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OST bis SVG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei OST zur Konvertierung laden
-        Converter converter = new Converter("input.ost");
-        // Konvertierungsoptionen für das Zielformat SVG vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
-        // In das SVG-Format konvertieren
-        converter.convert("output.svg", convertOptions);
+          Converter converter = new Converter("input.ost");
+          // Konvertierungsoptionen für das Zielformat SVG vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
+          // In das SVG-Format konvertieren
+          converter.convert("output.svg", convertOptions);
         ```
 
 demos:

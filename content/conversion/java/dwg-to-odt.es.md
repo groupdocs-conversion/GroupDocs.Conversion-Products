@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:56
+date: 2022-10-12T19:58:19
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWG a ODT en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente DWG para la conversión
-        Converter converter = new Converter("input.dwg");
-        // Preparar opciones de conversión para el formato de destino ODT
-        ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
-        // Convertir al formato ODT
-        converter.convert("output.odt", convertOptions);
+          Converter converter = new Converter("input.dwg");
+          // Preparar opciones de conversión para el formato de destino ODT
+          ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
+          // Convertir al formato ODT
+          converter.convert("output.odt", convertOptions);
         ```
 
 demos:

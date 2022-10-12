@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:45
+date: 2022-10-12T19:57:59
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PCL bis GIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei PCL zur Konvertierung laden
-        Converter converter = new Converter("input.pcl");
-        // Konvertierungsoptionen für das Zielformat GIF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // In das GIF-Format konvertieren
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.pcl");
+          // Konvertierungsoptionen für das Zielformat GIF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // In das GIF-Format konvertieren
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

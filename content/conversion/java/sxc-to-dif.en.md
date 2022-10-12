@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:30
+date: 2022-10-12T19:57:34
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: SXC to DIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file SXC for conversion
-        Converter converter = new Converter("input.sxc");
-        // Prepare conversion options for target format DIF
-        ConvertOptions convertOptions = new FileType().fromExtension("dif").getConvertOptions();
-        // Convert to DIF format
-        converter.convert("output.dif", convertOptions);
+          Converter converter = new Converter("input.sxc");
+          // Prepare conversion options for target format DIF
+          ConvertOptions convertOptions = new FileType().fromExtension("dif").getConvertOptions();
+          // Convert to DIF format
+          converter.convert("output.dif", convertOptions);
         ```
 
 demos:

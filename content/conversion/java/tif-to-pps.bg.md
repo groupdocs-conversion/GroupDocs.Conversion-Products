@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:46
+date: 2022-10-12T20:00:57
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: TIF до PPS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл TIF за конвертиране
-        Converter converter = new Converter("input.tif");
-        // Подгответе опции за преобразуване за целеви формат PPS
-        ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
-        // Конвертиране във формат PPS
-        converter.convert("output.pps", convertOptions);
+          Converter converter = new Converter("input.tif");
+          // Подгответе опции за преобразуване за целеви формат PPS
+          ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
+          // Конвертиране във формат PPS
+          converter.convert("output.pps", convertOptions);
         ```
 
 demos:

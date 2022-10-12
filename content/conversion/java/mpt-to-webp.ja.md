@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:28
+date: 2022-10-12T19:59:09
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: JavaでMPTからWEBPへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル MPT を読み込みます
-        Converter converter = new Converter("input.mpt");
-        // ターゲット形式の変換オプションを準備 WEBP
-        ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
-        // WEBP形式に変換
-        converter.convert("output.webp", convertOptions);
+          Converter converter = new Converter("input.mpt");
+          // ターゲット形式の変換オプションを準備 WEBP
+          ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
+          // WEBP形式に変換
+          converter.convert("output.webp", convertOptions);
         ```
 
 demos:

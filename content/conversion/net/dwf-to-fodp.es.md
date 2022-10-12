@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:49
+date: 2022-10-12T19:58:07
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWF a FODP en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente DWF para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Preparar opciones de conversión para el formato de destino FODP
-        var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
-        // Convertir al formato FODP
-        converter.Convert("output.fodp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwf");
+          // Preparar opciones de conversión para el formato de destino FODP
+          var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
+          // Convertir al formato FODP
+          converter.Convert("output.fodp", convertOptions);
         ```
 
 demos:

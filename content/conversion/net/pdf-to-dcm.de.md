@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:37
+date: 2022-10-12T19:57:45
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PDF bis DCM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei PDF zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.pdf");
-        // Konvertierungsoptionen für das Zielformat DCM vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
-        // In das DCM-Format konvertieren
-        converter.Convert("output.dcm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pdf");
+          // Konvertierungsoptionen für das Zielformat DCM vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
+          // In das DCM-Format konvertieren
+          converter.Convert("output.dcm", convertOptions);
         ```
 
 demos:

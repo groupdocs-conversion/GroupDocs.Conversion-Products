@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:21
+date: 2022-10-12T19:57:20
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OST to TIFF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file OST for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.ost");
-        // Prepare conversion options for target format TIFF
-        var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
-        // Convert to TIFF format
-        converter.Convert("output.tiff", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ost");
+          // Prepare conversion options for target format TIFF
+          var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
+          // Convert to TIFF format
+          converter.Convert("output.tiff", convertOptions);
         ```
 
 demos:

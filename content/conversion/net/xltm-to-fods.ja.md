@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:24
+date: 2022-10-12T19:59:03
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# の XLTM から FODS
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル XLTM を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.xltm");
-        // ターゲット形式の変換オプションを準備 FODS
-        var convertOptions = converter.GetPossibleConversions()["fods"].ConvertOptions;
-        // FODS形式に変換
-        converter.Convert("output.fods", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xltm");
+          // ターゲット形式の変換オプションを準備 FODS
+          var convertOptions = converter.GetPossibleConversions()["fods"].ConvertOptions;
+          // FODS形式に変換
+          converter.Convert("output.fods", convertOptions);
         ```
 
 demos:

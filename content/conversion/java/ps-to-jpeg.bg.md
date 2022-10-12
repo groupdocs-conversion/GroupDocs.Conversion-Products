@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:45
+date: 2022-10-12T20:00:56
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PS до JPEG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл PS за конвертиране
-        Converter converter = new Converter("input.ps");
-        // Подгответе опции за преобразуване за целеви формат JPEG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
-        // Конвертиране във формат JPEG
-        converter.convert("output.jpeg", convertOptions);
+          Converter converter = new Converter("input.ps");
+          // Подгответе опции за преобразуване за целеви формат JPEG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
+          // Конвертиране във формат JPEG
+          converter.convert("output.jpeg", convertOptions);
         ```
 
 demos:

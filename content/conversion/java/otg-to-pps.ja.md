@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:29
+date: 2022-10-12T19:59:10
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでOTGからPPSへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル OTG を読み込みます
-        Converter converter = new Converter("input.otg");
-        // ターゲット形式の変換オプションを準備 PPS
-        ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
-        // PPS形式に変換
-        converter.convert("output.pps", convertOptions);
+          Converter converter = new Converter("input.otg");
+          // ターゲット形式の変換オプションを準備 PPS
+          ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
+          // PPS形式に変換
+          converter.convert("output.pps", convertOptions);
         ```
 
 demos:

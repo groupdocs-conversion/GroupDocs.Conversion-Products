@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:30
+date: 2022-10-12T19:59:12
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: JavaでPSTからTIFFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル PST を読み込みます
-        Converter converter = new Converter("input.pst");
-        // ターゲット形式の変換オプションを準備 TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // TIFF形式に変換
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.pst");
+          // ターゲット形式の変換オプションを準備 TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // TIFF形式に変換
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

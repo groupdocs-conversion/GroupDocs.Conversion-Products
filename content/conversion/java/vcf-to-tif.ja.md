@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:30
+date: 2022-10-12T19:59:13
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでVCFからTIFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル VCF を読み込みます
-        Converter converter = new Converter("input.vcf");
-        // ターゲット形式の変換オプションを準備 TIF
-        ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
-        // TIF形式に変換
-        converter.convert("output.tif", convertOptions);
+          Converter converter = new Converter("input.vcf");
+          // ターゲット形式の変換オプションを準備 TIF
+          ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
+          // TIF形式に変換
+          converter.convert("output.tif", convertOptions);
         ```
 
 demos:

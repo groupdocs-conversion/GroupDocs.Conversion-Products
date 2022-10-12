@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:17
+date: 2022-10-12T19:57:15
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DCM to WMZ in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file DCM for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dcm");
-        // Prepare conversion options for target format WMZ
-        var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
-        // Convert to WMZ format
-        converter.Convert("output.wmz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dcm");
+          // Prepare conversion options for target format WMZ
+          var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
+          // Convert to WMZ format
+          converter.Convert("output.wmz", convertOptions);
         ```
 
 demos:

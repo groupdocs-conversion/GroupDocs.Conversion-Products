@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:33
+date: 2022-10-12T20:00:39
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CMX до EMF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл CMX за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.cmx");
-        // Подгответе опции за преобразуване за целеви формат EMF
-        var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // Конвертиране във формат EMF
-        converter.Convert("output.emf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cmx");
+          // Подгответе опции за преобразуване за целеви формат EMF
+          var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
+          // Конвертиране във формат EMF
+          converter.Convert("output.emf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:36
+date: 2022-10-12T19:57:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JP2 bis PSB in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei JP2 zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.jp2");
-        // Konvertierungsoptionen für das Zielformat PSB vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
-        // In das PSB-Format konvertieren
-        converter.Convert("output.psb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jp2");
+          // Konvertierungsoptionen für das Zielformat PSB vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
+          // In das PSB-Format konvertieren
+          converter.Convert("output.psb", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:54
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PCL в BMP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл PCL для преобразования
-        Converter converter = new Converter("input.pcl");
-        // Подготовьте параметры преобразования для целевого формата BMP
-        ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-        // Преобразование в формат BMP
-        converter.convert("output.bmp", convertOptions);
+          Converter converter = new Converter("input.pcl");
+          // Подготовьте параметры преобразования для целевого формата BMP
+          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
+          // Преобразование в формат BMP
+          converter.convert("output.bmp", convertOptions);
         ```
 
 demos:

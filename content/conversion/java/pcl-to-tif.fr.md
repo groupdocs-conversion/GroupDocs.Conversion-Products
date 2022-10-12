@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:14
+date: 2022-10-12T19:58:47
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PCL à TIF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source PCL pour la conversion
-        Converter converter = new Converter("input.pcl");
-        // Préparer les options de conversion pour le format cible TIF
-        ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
-        // Convertir au format TIF
-        converter.convert("output.tif", convertOptions);
+          Converter converter = new Converter("input.pcl");
+          // Préparer les options de conversion pour le format cible TIF
+          ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
+          // Convertir au format TIF
+          converter.convert("output.tif", convertOptions);
         ```
 
 demos:

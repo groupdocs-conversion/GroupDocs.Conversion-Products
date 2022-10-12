@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:23
+date: 2022-10-12T19:57:22
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF to EMF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file VCF for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Prepare conversion options for target format EMF
-        var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // Convert to EMF format
-        converter.Convert("output.emf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vcf");
+          // Prepare conversion options for target format EMF
+          var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
+          // Convert to EMF format
+          converter.Convert("output.emf", convertOptions);
         ```
 
 demos:

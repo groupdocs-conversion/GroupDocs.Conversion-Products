@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:33
+date: 2022-10-12T19:57:39
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DCM bis JPG in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei DCM zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.dcm");
-        // Konvertierungsoptionen für das Zielformat JPG vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
-        // In das JPG-Format konvertieren
-        converter.Convert("output.jpg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dcm");
+          // Konvertierungsoptionen für das Zielformat JPG vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
+          // In das JPG-Format konvertieren
+          converter.Convert("output.jpg", convertOptions);
         ```
 
 demos:

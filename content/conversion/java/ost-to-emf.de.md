@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:44
+date: 2022-10-12T19:57:58
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OST bis EMF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei OST zur Konvertierung laden
-        Converter converter = new Converter("input.ost");
-        // Konvertierungsoptionen für das Zielformat EMF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
-        // In das EMF-Format konvertieren
-        converter.convert("output.emf", convertOptions);
+          Converter converter = new Converter("input.ost");
+          // Konvertierungsoptionen für das Zielformat EMF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
+          // In das EMF-Format konvertieren
+          converter.convert("output.emf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:26
+date: 2022-10-12T19:57:27
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DXF to DOCX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file DXF for conversion
-        Converter converter = new Converter("input.dxf");
-        // Prepare conversion options for target format DOCX
-        ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
-        // Convert to DOCX format
-        converter.convert("output.docx", convertOptions);
+          Converter converter = new Converter("input.dxf");
+          // Prepare conversion options for target format DOCX
+          ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
+          // Convert to DOCX format
+          converter.convert("output.docx", convertOptions);
         ```
 
 demos:

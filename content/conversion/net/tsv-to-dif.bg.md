@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:38
+date: 2022-10-12T20:00:46
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: TSV до DIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл TSV за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.tsv");
-        // Подгответе опции за преобразуване за целеви формат DIF
-        var convertOptions = converter.GetPossibleConversions()["dif"].ConvertOptions;
-        // Конвертиране във формат DIF
-        converter.Convert("output.dif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tsv");
+          // Подгответе опции за преобразуване за целеви формат DIF
+          var convertOptions = converter.GetPossibleConversions()["dif"].ConvertOptions;
+          // Конвертиране във формат DIF
+          converter.Convert("output.dif", convertOptions);
         ```
 
 demos:

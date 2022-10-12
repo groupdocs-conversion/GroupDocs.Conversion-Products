@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:17
+date: 2022-10-12T19:58:52
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSX à HTML en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source XLSX pour la conversion
-        Converter converter = new Converter("input.xlsx");
-        // Préparer les options de conversion pour le format cible HTML
-        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
-        // Convertir au format HTML
-        converter.convert("output.html", convertOptions);
+          Converter converter = new Converter("input.xlsx");
+          // Préparer les options de conversion pour le format cible HTML
+          ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
+          // Convertir au format HTML
+          converter.convert("output.html", convertOptions);
         ```
 
 demos:

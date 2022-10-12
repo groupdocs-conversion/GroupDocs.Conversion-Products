@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:51
+date: 2022-10-12T19:59:44
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: OTT в PDF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл OTT для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.ott");
-        // Задайте параметры преобразования для целевого формата PDF
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // Преобразуйте файл в PDF формат
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ott");
+          // Задайте параметры преобразования для целевого формата PDF
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // Преобразуйте файл в PDF формат
+          converter.Convert("output.pdf", convertOptions);
         ```
 
 demos:

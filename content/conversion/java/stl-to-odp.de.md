@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:01
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: STL bis ODP in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei STL zur Konvertierung laden
-        Converter converter = new Converter("input.stl");
-        // Konvertierungsoptionen für das Zielformat ODP vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("odp").getConvertOptions();
-        // In das ODP-Format konvertieren
-        converter.convert("output.odp", convertOptions);
+          Converter converter = new Converter("input.stl");
+          // Konvertierungsoptionen für das Zielformat ODP vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("odp").getConvertOptions();
+          // In das ODP-Format konvertieren
+          converter.convert("output.odp", convertOptions);
         ```
 
 demos:

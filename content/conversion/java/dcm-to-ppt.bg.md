@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:40
+date: 2022-10-12T20:00:50
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DCM до PPT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл DCM за конвертиране
-        Converter converter = new Converter("input.dcm");
-        // Подгответе опции за преобразуване за целеви формат PPT
-        ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
-        // Конвертиране във формат PPT
-        converter.convert("output.ppt", convertOptions);
+          Converter converter = new Converter("input.dcm");
+          // Подгответе опции за преобразуване за целеви формат PPT
+          ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
+          // Конвертиране във формат PPT
+          converter.convert("output.ppt", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:31
+date: 2022-10-12T19:57:35
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSS to DOCM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file VSS for conversion
-        Converter converter = new Converter("input.vss");
-        // Prepare conversion options for target format DOCM
-        ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
-        // Convert to DOCM format
-        converter.convert("output.docm", convertOptions);
+          Converter converter = new Converter("input.vss");
+          // Prepare conversion options for target format DOCM
+          ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
+          // Convert to DOCM format
+          converter.convert("output.docm", convertOptions);
         ```
 
 demos:

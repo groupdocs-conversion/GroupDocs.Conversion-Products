@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:35
+date: 2022-10-12T19:59:20
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C#의 JPF에서 TGA까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 변환을 위해 소스 파일 JPF 로드
-        var converter = new GroupDocs.Conversion.Converter("input.jpf");
-        // 대상 형식 TGA에 대한 변환 옵션 준비
-        var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
-        // TGA 형식으로 변환
-        converter.Convert("output.tga", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpf");
+          // 대상 형식 TGA에 대한 변환 옵션 준비
+          var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
+          // TGA 형식으로 변환
+          converter.Convert("output.tga", convertOptions);
         ```
 
 demos:

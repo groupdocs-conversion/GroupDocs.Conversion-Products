@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:05
+date: 2022-10-12T19:58:33
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPG à JPG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source JPG pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.jpg");
-        // Préparer les options de conversion pour le format cible JPG
-        var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
-        // Convertir au format JPG
-        converter.Convert("output.jpg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpg");
+          // Préparer les options de conversion pour le format cible JPG
+          var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
+          // Convertir au format JPG
+          converter.Convert("output.jpg", convertOptions);
         ```
 
 demos:

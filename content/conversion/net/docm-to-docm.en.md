@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:18
+date: 2022-10-12T19:57:15
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOCM to DOCM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file DOCM for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.docm");
-        // Prepare conversion options for target format DOCM
-        var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // Convert to DOCM format
-        converter.Convert("output.docm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.docm");
+          // Prepare conversion options for target format DOCM
+          var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
+          // Convert to DOCM format
+          converter.Convert("output.docm", convertOptions);
         ```
 
 demos:

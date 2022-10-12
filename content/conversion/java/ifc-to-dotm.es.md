@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:57
+date: 2022-10-12T19:58:20
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IFC a DOTM en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente IFC para la conversión
-        Converter converter = new Converter("input.ifc");
-        // Preparar opciones de conversión para el formato de destino DOTM
-        ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
-        // Convertir al formato DOTM
-        converter.convert("output.dotm", convertOptions);
+          Converter converter = new Converter("input.ifc");
+          // Preparar opciones de conversión para el formato de destino DOTM
+          ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
+          // Convertir al formato DOTM
+          converter.convert("output.dotm", convertOptions);
         ```
 
 demos:

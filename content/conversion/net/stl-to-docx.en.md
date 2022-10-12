@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:22
+date: 2022-10-12T19:57:22
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: STL to DOCX in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file STL for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // Prepare conversion options for target format DOCX
-        var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
-        // Convert to DOCX format
-        converter.Convert("output.docx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.stl");
+          // Prepare conversion options for target format DOCX
+          var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
+          // Convert to DOCX format
+          converter.Convert("output.docx", convertOptions);
         ```
 
 demos:

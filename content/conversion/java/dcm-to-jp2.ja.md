@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:25
+date: 2022-10-12T19:59:04
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでDCMからJP2へ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル DCM を読み込みます
-        Converter converter = new Converter("input.dcm");
-        // ターゲット形式の変換オプションを準備 JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // JP2形式に変換
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.dcm");
+          // ターゲット形式の変換オプションを準備 JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // JP2形式に変換
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

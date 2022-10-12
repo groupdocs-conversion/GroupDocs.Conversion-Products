@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:17
+date: 2022-10-12T19:57:15
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CF2 to RTF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file CF2 for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Prepare conversion options for target format RTF
-        var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
-        // Convert to RTF format
-        converter.Convert("output.rtf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cf2");
+          // Prepare conversion options for target format RTF
+          var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
+          // Convert to RTF format
+          converter.Convert("output.rtf", convertOptions);
         ```
 
 demos:

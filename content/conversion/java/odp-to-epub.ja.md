@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:28
+date: 2022-10-12T19:59:09
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: JavaでODPからEPUBへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル ODP を読み込みます
-        Converter converter = new Converter("input.odp");
-        // ターゲット形式の変換オプションを準備 EPUB
-        ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
-        // EPUB形式に変換
-        converter.convert("output.epub", convertOptions);
+          Converter converter = new Converter("input.odp");
+          // ターゲット形式の変換オプションを準備 EPUB
+          ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
+          // EPUB形式に変換
+          converter.convert("output.epub", convertOptions);
         ```
 
 demos:

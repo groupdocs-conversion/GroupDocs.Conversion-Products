@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:13
+date: 2022-10-12T20:00:11
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2C в TGA на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл J2C для конвертації
-        Converter converter = new Converter("input.j2c");
-        // Задайте параметри перетворення для цільового формату TGA
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // Перетворіть файл у TGA формат
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.j2c");
+          // Задайте параметри перетворення для цільового формату TGA
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // Перетворіть файл у TGA формат
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

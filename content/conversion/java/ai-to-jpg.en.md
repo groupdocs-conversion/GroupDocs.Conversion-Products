@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:25
+date: 2022-10-12T19:57:25
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: AI to JPG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file AI for conversion
-        Converter converter = new Converter("input.ai");
-        // Prepare conversion options for target format JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Convert to JPG format
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.ai");
+          // Prepare conversion options for target format JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Convert to JPG format
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

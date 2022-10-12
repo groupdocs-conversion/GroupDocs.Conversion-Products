@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:27
+date: 2022-10-12T19:57:28
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: HTML to MD in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file HTML for conversion
-        Converter converter = new Converter("input.html");
-        // Prepare conversion options for target format MD
-        ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
-        // Convert to MD format
-        converter.convert("output.md", convertOptions);
+          Converter converter = new Converter("input.html");
+          // Prepare conversion options for target format MD
+          ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
+          // Convert to MD format
+          converter.convert("output.md", convertOptions);
         ```
 
 demos:

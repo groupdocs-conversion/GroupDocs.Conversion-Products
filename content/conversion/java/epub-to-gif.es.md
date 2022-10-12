@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:57
+date: 2022-10-12T19:58:19
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: EPUB a GIF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente EPUB para la conversión
-        Converter converter = new Converter("input.epub");
-        // Preparar opciones de conversión para el formato de destino GIF
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // Convertir al formato GIF
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.epub");
+          // Preparar opciones de conversión para el formato de destino GIF
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // Convertir al formato GIF
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

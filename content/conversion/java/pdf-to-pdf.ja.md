@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:29
+date: 2022-10-12T19:59:11
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: JavaでPDFからPDFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル PDF を読み込みます
-        Converter converter = new Converter("input.pdf");
-        // ターゲット形式の変換オプションを準備 PDF
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // PDF形式に変換
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.pdf");
+          // ターゲット形式の変換オプションを準備 PDF
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // PDF形式に変換
+          converter.convert("output.pdf", convertOptions);
         ```
 
 demos:

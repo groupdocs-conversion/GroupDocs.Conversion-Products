@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:34
+date: 2022-10-12T20:00:41
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DXF до PPTM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл DXF за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.dxf");
-        // Подгответе опции за преобразуване за целеви формат PPTM
-        var convertOptions = converter.GetPossibleConversions()["pptm"].ConvertOptions;
-        // Конвертиране във формат PPTM
-        converter.Convert("output.pptm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dxf");
+          // Подгответе опции за преобразуване за целеви формат PPTM
+          var convertOptions = converter.GetPossibleConversions()["pptm"].ConvertOptions;
+          // Конвертиране във формат PPTM
+          converter.Convert("output.pptm", convertOptions);
         ```
 
 demos:

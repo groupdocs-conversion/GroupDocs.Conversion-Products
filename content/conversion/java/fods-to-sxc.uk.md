@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:13
+date: 2022-10-12T20:00:11
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: FODS в SXC на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл FODS для конвертації
-        Converter converter = new Converter("input.fods");
-        // Задайте параметри перетворення для цільового формату SXC
-        ConvertOptions convertOptions = new FileType().fromExtension("sxc").getConvertOptions();
-        // Перетворіть файл у SXC формат
-        converter.convert("output.sxc", convertOptions);
+          Converter converter = new Converter("input.fods");
+          // Задайте параметри перетворення для цільового формату SXC
+          ConvertOptions convertOptions = new FileType().fromExtension("sxc").getConvertOptions();
+          // Перетворіть файл у SXC формат
+          converter.convert("output.sxc", convertOptions);
         ```
 
 demos:

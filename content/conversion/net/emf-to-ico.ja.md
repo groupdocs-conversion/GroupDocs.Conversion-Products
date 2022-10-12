@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:19
+date: 2022-10-12T19:58:54
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の EMF から ICO
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル EMF を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.emf");
-        // ターゲット形式の変換オプションを準備 ICO
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // ICO形式に変換
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emf");
+          // ターゲット形式の変換オプションを準備 ICO
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // ICO形式に変換
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

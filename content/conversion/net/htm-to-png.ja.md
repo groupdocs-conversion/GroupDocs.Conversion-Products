@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:19
+date: 2022-10-12T19:58:55
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C# の HTM から PNG
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル HTM を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.htm");
-        // ターゲット形式の変換オプションを準備 PNG
-        var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-        // PNG形式に変換
-        converter.Convert("output.png", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.htm");
+          // ターゲット形式の変換オプションを準備 PNG
+          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
+          // PNG形式に変換
+          converter.Convert("output.png", convertOptions);
         ```
 
 demos:

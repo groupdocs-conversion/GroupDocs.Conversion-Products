@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:43
+date: 2022-10-12T19:57:55
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2C bis DCM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei J2C zur Konvertierung laden
-        Converter converter = new Converter("input.j2c");
-        // Konvertierungsoptionen für das Zielformat DCM vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("dcm").getConvertOptions();
-        // In das DCM-Format konvertieren
-        converter.convert("output.dcm", convertOptions);
+          Converter converter = new Converter("input.j2c");
+          // Konvertierungsoptionen für das Zielformat DCM vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("dcm").getConvertOptions();
+          // In das DCM-Format konvertieren
+          converter.convert("output.dcm", convertOptions);
         ```
 
 demos:

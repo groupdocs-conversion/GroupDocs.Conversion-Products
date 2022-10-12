@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:24
+date: 2022-10-12T19:57:25
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSX to XLS in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file XLSX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.xlsx");
-        // Prepare conversion options for target format XLS
-        var convertOptions = converter.GetPossibleConversions()["xls"].ConvertOptions;
-        // Convert to XLS format
-        converter.Convert("output.xls", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsx");
+          // Prepare conversion options for target format XLS
+          var convertOptions = converter.GetPossibleConversions()["xls"].ConvertOptions;
+          // Convert to XLS format
+          converter.Convert("output.xls", convertOptions);
         ```
 
 demos:

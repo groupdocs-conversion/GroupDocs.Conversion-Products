@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:07
+date: 2022-10-12T20:00:05
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPTM в BMP на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл PPTM для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.pptm");
-        // Задайте параметри перетворення для цільового формату BMP
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // Перетворіть файл у BMP формат
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pptm");
+          // Задайте параметри перетворення для цільового формату BMP
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // Перетворіть файл у BMP формат
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

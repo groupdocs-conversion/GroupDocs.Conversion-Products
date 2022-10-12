@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:43
+date: 2022-10-12T20:00:53
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPG до ICO на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл JPG за конвертиране
-        Converter converter = new Converter("input.jpg");
-        // Подгответе опции за преобразуване за целеви формат ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // Конвертиране във формат ICO
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.jpg");
+          // Подгответе опции за преобразуване за целеви формат ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // Конвертиране във формат ICO
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

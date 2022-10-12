@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:02
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: TIF bis TGA in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei TIF zur Konvertierung laden
-        Converter converter = new Converter("input.tif");
-        // Konvertierungsoptionen für das Zielformat TGA vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // In das TGA-Format konvertieren
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.tif");
+          // Konvertierungsoptionen für das Zielformat TGA vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // In das TGA-Format konvertieren
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

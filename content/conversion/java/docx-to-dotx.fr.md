@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:11
+date: 2022-10-12T19:58:42
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOCX à DOTX en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source DOCX pour la conversion
-        Converter converter = new Converter("input.docx");
-        // Préparer les options de conversion pour le format cible DOTX
-        ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
-        // Convertir au format DOTX
-        converter.convert("output.dotx", convertOptions);
+          Converter converter = new Converter("input.docx");
+          // Préparer les options de conversion pour le format cible DOTX
+          ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
+          // Convertir au format DOTX
+          converter.convert("output.dotx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:25
+date: 2022-10-12T19:59:04
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: JavaでDGNからDOCMへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル DGN を読み込みます
-        Converter converter = new Converter("input.dgn");
-        // ターゲット形式の変換オプションを準備 DOCM
-        ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
-        // DOCM形式に変換
-        converter.convert("output.docm", convertOptions);
+          Converter converter = new Converter("input.dgn");
+          // ターゲット形式の変換オプションを準備 DOCM
+          ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
+          // DOCM形式に変換
+          converter.convert("output.docm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:00
+date: 2022-10-12T19:58:24
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPSM a ICO en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente PPSM para la conversión
-        Converter converter = new Converter("input.ppsm");
-        // Preparar opciones de conversión para el formato de destino ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // Convertir al formato ICO
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.ppsm");
+          // Preparar opciones de conversión para el formato de destino ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // Convertir al formato ICO
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:14
+date: 2022-10-12T20:00:12
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX в PSB на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл MBOX для конвертації
-        Converter converter = new Converter("input.mbox");
-        // Задайте параметри перетворення для цільового формату PSB
-        ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
-        // Перетворіть файл у PSB формат
-        converter.convert("output.psb", convertOptions);
+          Converter converter = new Converter("input.mbox");
+          // Задайте параметри перетворення для цільового формату PSB
+          ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
+          // Перетворіть файл у PSB формат
+          converter.convert("output.psb", convertOptions);
         ```
 
 demos:

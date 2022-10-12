@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:25
+date: 2022-10-12T19:59:05
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでDNGからEMZへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル DNG を読み込みます
-        Converter converter = new Converter("input.dng");
-        // ターゲット形式の変換オプションを準備 EMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
-        // EMZ形式に変換
-        converter.convert("output.emz", convertOptions);
+          Converter converter = new Converter("input.dng");
+          // ターゲット形式の変換オプションを準備 EMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
+          // EMZ形式に変換
+          converter.convert("output.emz", convertOptions);
         ```
 
 demos:

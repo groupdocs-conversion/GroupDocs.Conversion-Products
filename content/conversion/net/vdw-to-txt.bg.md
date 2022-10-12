@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:38
+date: 2022-10-12T20:00:47
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VDW до TXT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл VDW за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.vdw");
-        // Подгответе опции за преобразуване за целеви формат TXT
-        var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
-        // Конвертиране във формат TXT
-        converter.Convert("output.txt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vdw");
+          // Подгответе опции за преобразуване за целеви формат TXT
+          var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
+          // Конвертиране във формат TXT
+          converter.Convert("output.txt", convertOptions);
         ```
 
 demos:

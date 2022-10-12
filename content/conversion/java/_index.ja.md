@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-10-12T19:33:17
+date: 2022-10-12T19:57:14
 draft: false
 
 product: "Conversion"
@@ -295,11 +295,11 @@ features:
             
           ```java    
            // 変換のためにソース ファイル DOCX を読み込みます
-        Converter converter = new Converter("input.docx");
-        // ターゲット形式の変換オプションを準備 PDF
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // PDF形式に変換
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.docx");
+          // ターゲット形式の変換オプションを準備 PDF
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // PDF形式に変換
+          converter.convert("output.pdf", convertOptions);
           ```
             
       # more_feature_loop

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:48
+date: 2022-10-12T19:59:41
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EML в WMZ на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл EML для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.eml");
-        // Задайте параметры преобразования для целевого формата WMZ
-        var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
-        // Преобразуйте файл в WMZ формат
-        converter.Convert("output.wmz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.eml");
+          // Задайте параметры преобразования для целевого формата WMZ
+          var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
+          // Преобразуйте файл в WMZ формат
+          converter.Convert("output.wmz", convertOptions);
         ```
 
 demos:

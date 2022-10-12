@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:10
+date: 2022-10-12T19:58:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DIB à JP2 en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source DIB pour la conversion
-        Converter converter = new Converter("input.dib");
-        // Préparer les options de conversion pour le format cible JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // Convertir au format JP2
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.dib");
+          // Préparer les options de conversion pour le format cible JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // Convertir au format JP2
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

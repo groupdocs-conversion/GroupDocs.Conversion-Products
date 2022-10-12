@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:10
+date: 2022-10-12T19:58:40
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTX à XLSB en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source XLTX pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.xltx");
-        // Préparer les options de conversion pour le format cible XLSB
-        var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
-        // Convertir au format XLSB
-        converter.Convert("output.xlsb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xltx");
+          // Préparer les options de conversion pour le format cible XLSB
+          var convertOptions = converter.GetPossibleConversions()["xlsb"].ConvertOptions;
+          // Convertir au format XLSB
+          converter.Convert("output.xlsb", convertOptions);
         ```
 
 demos:

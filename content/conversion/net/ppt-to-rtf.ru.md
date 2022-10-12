@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:52
+date: 2022-10-12T19:59:45
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPT в RTF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл PPT для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.ppt");
-        // Задайте параметры преобразования для целевого формата RTF
-        var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
-        // Преобразуйте файл в RTF формат
-        converter.Convert("output.rtf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ppt");
+          // Задайте параметры преобразования для целевого формата RTF
+          var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
+          // Преобразуйте файл в RTF формат
+          converter.Convert("output.rtf", convertOptions);
         ```
 
 demos:

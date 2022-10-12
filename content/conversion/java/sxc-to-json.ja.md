@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:30
+date: 2022-10-12T19:59:12
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: JavaでSXCからJSONへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル SXC を読み込みます
-        Converter converter = new Converter("input.sxc");
-        // ターゲット形式の変換オプションを準備 JSON
-        ConvertOptions convertOptions = new FileType().fromExtension("json").getConvertOptions();
-        // JSON形式に変換
-        converter.convert("output.json", convertOptions);
+          Converter converter = new Converter("input.sxc");
+          // ターゲット形式の変換オプションを準備 JSON
+          ConvertOptions convertOptions = new FileType().fromExtension("json").getConvertOptions();
+          // JSON形式に変換
+          converter.convert("output.json", convertOptions);
         ```
 
 demos:

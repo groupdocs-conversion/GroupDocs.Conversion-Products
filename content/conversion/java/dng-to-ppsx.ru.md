@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:55
+date: 2022-10-12T19:59:49
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DNG в PPSX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл DNG для преобразования
-        Converter converter = new Converter("input.dng");
-        // Подготовьте параметры преобразования для целевого формата PPSX
-        ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
-        // Преобразование в формат PPSX
-        converter.convert("output.ppsx", convertOptions);
+          Converter converter = new Converter("input.dng");
+          // Подготовьте параметры преобразования для целевого формата PPSX
+          ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
+          // Преобразование в формат PPSX
+          converter.convert("output.ppsx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:43
+date: 2022-10-12T19:57:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JLS bis PPTX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei JLS zur Konvertierung laden
-        Converter converter = new Converter("input.jls");
-        // Konvertierungsoptionen für das Zielformat PPTX vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
-        // In das PPTX-Format konvertieren
-        converter.convert("output.pptx", convertOptions);
+          Converter converter = new Converter("input.jls");
+          // Konvertierungsoptionen für das Zielformat PPTX vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
+          // In das PPTX-Format konvertieren
+          converter.convert("output.pptx", convertOptions);
         ```
 
 demos:

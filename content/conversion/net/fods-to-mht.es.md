@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:50
+date: 2022-10-12T19:58:08
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: FODS a MHT en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente FODS para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.fods");
-        // Preparar opciones de conversión para el formato de destino MHT
-        var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
-        // Convertir al formato MHT
-        converter.Convert("output.mht", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.fods");
+          // Preparar opciones de conversión para el formato de destino MHT
+          var convertOptions = converter.GetPossibleConversions()["mht"].ConvertOptions;
+          // Convertir al formato MHT
+          converter.Convert("output.mht", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:37
+date: 2022-10-12T19:57:45
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: PLT bis POTX in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei PLT zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.plt");
-        // Konvertierungsoptionen für das Zielformat POTX vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["potx"].ConvertOptions;
-        // In das POTX-Format konvertieren
-        converter.Convert("output.potx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.plt");
+          // Konvertierungsoptionen für das Zielformat POTX vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["potx"].ConvertOptions;
+          // In das POTX-Format konvertieren
+          converter.Convert("output.potx", convertOptions);
         ```
 
 demos:

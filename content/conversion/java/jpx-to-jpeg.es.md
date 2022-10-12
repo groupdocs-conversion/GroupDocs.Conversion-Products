@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:58
+date: 2022-10-12T19:58:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPX a JPEG en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente JPX para la conversión
-        Converter converter = new Converter("input.jpx");
-        // Preparar opciones de conversión para el formato de destino JPEG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
-        // Convertir al formato JPEG
-        converter.convert("output.jpeg", convertOptions);
+          Converter converter = new Converter("input.jpx");
+          // Preparar opciones de conversión para el formato de destino JPEG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
+          // Convertir al formato JPEG
+          converter.convert("output.jpeg", convertOptions);
         ```
 
 demos:

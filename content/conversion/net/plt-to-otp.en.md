@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:21
+date: 2022-10-12T19:57:20
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: PLT to OTP in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file PLT for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.plt");
-        // Prepare conversion options for target format OTP
-        var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
-        // Convert to OTP format
-        converter.Convert("output.otp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.plt");
+          // Prepare conversion options for target format OTP
+          var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
+          // Convert to OTP format
+          converter.Convert("output.otp", convertOptions);
         ```
 
 demos:

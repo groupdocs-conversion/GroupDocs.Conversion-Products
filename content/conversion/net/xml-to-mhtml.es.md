@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:55
+date: 2022-10-12T19:58:17
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XML a MHTML en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente XML para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.xml");
-        // Preparar opciones de conversión para el formato de destino MHTML
-        var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
-        // Convertir al formato MHTML
-        converter.Convert("output.mhtml", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xml");
+          // Preparar opciones de conversión para el formato de destino MHTML
+          var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
+          // Convertir al formato MHTML
+          converter.Convert("output.mhtml", convertOptions);
         ```
 
 demos:

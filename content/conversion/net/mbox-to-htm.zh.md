@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:21
+date: 2022-10-12T20:00:22
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# 中的 MBOX 到 HTM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 MBOX 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // 为目标格式 HTM 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
-        // 转换为 HTM 格式
-        converter.Convert("output.htm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mbox");
+          // 为目标格式 HTM 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
+          // 转换为 HTM 格式
+          converter.Convert("output.htm", convertOptions);
         ```
 
 demos:

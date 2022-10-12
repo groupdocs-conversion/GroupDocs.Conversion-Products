@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:54
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: OTS в SXC на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл OTS для преобразования
-        Converter converter = new Converter("input.ots");
-        // Подготовьте параметры преобразования для целевого формата SXC
-        ConvertOptions convertOptions = new FileType().fromExtension("sxc").getConvertOptions();
-        // Преобразование в формат SXC
-        converter.convert("output.sxc", convertOptions);
+          Converter converter = new Converter("input.ots");
+          // Подготовьте параметры преобразования для целевого формата SXC
+          ConvertOptions convertOptions = new FileType().fromExtension("sxc").getConvertOptions();
+          // Преобразование в формат SXC
+          converter.convert("output.sxc", convertOptions);
         ```
 
 demos:

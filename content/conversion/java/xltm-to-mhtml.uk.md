@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:18
+date: 2022-10-12T20:00:18
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTM в MHTML на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл XLTM для конвертації
-        Converter converter = new Converter("input.xltm");
-        // Задайте параметри перетворення для цільового формату MHTML
-        ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
-        // Перетворіть файл у MHTML формат
-        converter.convert("output.mhtml", convertOptions);
+          Converter converter = new Converter("input.xltm");
+          // Задайте параметри перетворення для цільового формату MHTML
+          ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
+          // Перетворіть файл у MHTML формат
+          converter.convert("output.mhtml", convertOptions);
         ```
 
 demos:

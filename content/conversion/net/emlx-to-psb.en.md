@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:19
+date: 2022-10-12T19:57:16
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMLX to PSB in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file EMLX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.emlx");
-        // Prepare conversion options for target format PSB
-        var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
-        // Convert to PSB format
-        converter.Convert("output.psb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emlx");
+          // Prepare conversion options for target format PSB
+          var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
+          // Convert to PSB format
+          converter.Convert("output.psb", convertOptions);
         ```
 
 demos:

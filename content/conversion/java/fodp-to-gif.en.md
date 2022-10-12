@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:26
+date: 2022-10-12T19:57:28
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: FODP to GIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file FODP for conversion
-        Converter converter = new Converter("input.fodp");
-        // Prepare conversion options for target format GIF
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // Convert to GIF format
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.fodp");
+          // Prepare conversion options for target format GIF
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // Convert to GIF format
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

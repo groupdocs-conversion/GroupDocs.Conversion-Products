@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:47
+date: 2022-10-12T19:59:40
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOCM в TXT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл DOCM для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.docm");
-        // Задайте параметры преобразования для целевого формата TXT
-        var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
-        // Преобразуйте файл в TXT формат
-        converter.Convert("output.txt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.docm");
+          // Задайте параметры преобразования для целевого формата TXT
+          var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
+          // Преобразуйте файл в TXT формат
+          converter.Convert("output.txt", convertOptions);
         ```
 
 demos:

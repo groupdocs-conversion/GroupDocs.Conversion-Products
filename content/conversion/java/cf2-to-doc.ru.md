@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:54
+date: 2022-10-12T19:59:49
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CF2 в DOC на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл CF2 для преобразования
-        Converter converter = new Converter("input.cf2");
-        // Подготовьте параметры преобразования для целевого формата DOC
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // Преобразование в формат DOC
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.cf2");
+          // Подготовьте параметры преобразования для целевого формата DOC
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // Преобразование в формат DOC
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:13
+date: 2022-10-12T20:00:11
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IFC в DOCM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл IFC для конвертації
-        Converter converter = new Converter("input.ifc");
-        // Задайте параметри перетворення для цільового формату DOCM
-        ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
-        // Перетворіть файл у DOCM формат
-        converter.convert("output.docm", convertOptions);
+          Converter converter = new Converter("input.ifc");
+          // Задайте параметри перетворення для цільового формату DOCM
+          ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
+          // Перетворіть файл у DOCM формат
+          converter.convert("output.docm", convertOptions);
         ```
 
 demos:

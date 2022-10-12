@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:28
+date: 2022-10-12T19:59:08
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでMBOXからMHTMLへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル MBOX を読み込みます
-        Converter converter = new Converter("input.mbox");
-        // ターゲット形式の変換オプションを準備 MHTML
-        ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
-        // MHTML形式に変換
-        converter.convert("output.mhtml", convertOptions);
+          Converter converter = new Converter("input.mbox");
+          // ターゲット形式の変換オプションを準備 MHTML
+          ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
+          // MHTML形式に変換
+          converter.convert("output.mhtml", convertOptions);
         ```
 
 demos:

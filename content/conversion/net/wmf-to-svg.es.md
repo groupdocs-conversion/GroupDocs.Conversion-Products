@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:55
+date: 2022-10-12T19:58:16
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: WMF a SVG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente WMF para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.wmf");
-        // Preparar opciones de conversión para el formato de destino SVG
-        var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // Convertir al formato SVG
-        converter.Convert("output.svg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.wmf");
+          // Preparar opciones de conversión para el formato de destino SVG
+          var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
+          // Convertir al formato SVG
+          converter.Convert("output.svg", convertOptions);
         ```
 
 demos:

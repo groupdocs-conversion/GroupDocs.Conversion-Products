@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:08
+date: 2022-10-12T19:58:37
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVG à WEBP en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source SVG pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.svg");
-        // Préparer les options de conversion pour le format cible WEBP
-        var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
-        // Convertir au format WEBP
-        converter.Convert("output.webp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.svg");
+          // Préparer les options de conversion pour le format cible WEBP
+          var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
+          // Convertir au format WEBP
+          converter.Convert("output.webp", convertOptions);
         ```
 
 demos:

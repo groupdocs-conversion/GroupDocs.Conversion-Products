@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:06
+date: 2022-10-12T19:58:34
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: ODP à DOCM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source ODP pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.odp");
-        // Préparer les options de conversion pour le format cible DOCM
-        var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // Convertir au format DOCM
-        converter.Convert("output.docm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.odp");
+          // Préparer les options de conversion pour le format cible DOCM
+          var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
+          // Convertir au format DOCM
+          converter.Convert("output.docm", convertOptions);
         ```
 
 demos:

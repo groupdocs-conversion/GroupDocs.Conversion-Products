@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:02
+date: 2022-10-12T19:59:58
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLT в ODS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл XLT для преобразования
-        Converter converter = new Converter("input.xlt");
-        // Подготовьте параметры преобразования для целевого формата ODS
-        ConvertOptions convertOptions = new FileType().fromExtension("ods").getConvertOptions();
-        // Преобразование в формат ODS
-        converter.convert("output.ods", convertOptions);
+          Converter converter = new Converter("input.xlt");
+          // Подготовьте параметры преобразования для целевого формата ODS
+          ConvertOptions convertOptions = new FileType().fromExtension("ods").getConvertOptions();
+          // Преобразование в формат ODS
+          converter.convert("output.ods", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:47
+date: 2022-10-12T19:58:03
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSTM bis OTT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei VSTM zur Konvertierung laden
-        Converter converter = new Converter("input.vstm");
-        // Konvertierungsoptionen für das Zielformat OTT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
-        // In das OTT-Format konvertieren
-        converter.convert("output.ott", convertOptions);
+          Converter converter = new Converter("input.vstm");
+          // Konvertierungsoptionen für das Zielformat OTT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
+          // In das OTT-Format konvertieren
+          converter.convert("output.ott", convertOptions);
         ```
 
 demos:

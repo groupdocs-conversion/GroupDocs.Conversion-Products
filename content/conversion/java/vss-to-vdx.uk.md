@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:17
+date: 2022-10-12T20:00:17
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSS в VDX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл VSS для конвертації
-        Converter converter = new Converter("input.vss");
-        // Задайте параметри перетворення для цільового формату VDX
-        ConvertOptions convertOptions = new FileType().fromExtension("vdx").getConvertOptions();
-        // Перетворіть файл у VDX формат
-        converter.convert("output.vdx", convertOptions);
+          Converter converter = new Converter("input.vss");
+          // Задайте параметри перетворення для цільового формату VDX
+          ConvertOptions convertOptions = new FileType().fromExtension("vdx").getConvertOptions();
+          // Перетворіть файл у VDX формат
+          converter.convert("output.vdx", convertOptions);
         ```
 
 demos:

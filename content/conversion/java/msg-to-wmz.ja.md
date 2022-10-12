@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:28
+date: 2022-10-12T19:59:09
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでMSGからWMZへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル MSG を読み込みます
-        Converter converter = new Converter("input.msg");
-        // ターゲット形式の変換オプションを準備 WMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
-        // WMZ形式に変換
-        converter.convert("output.wmz", convertOptions);
+          Converter converter = new Converter("input.msg");
+          // ターゲット形式の変換オプションを準備 WMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
+          // WMZ形式に変換
+          converter.convert("output.wmz", convertOptions);
         ```
 
 demos:

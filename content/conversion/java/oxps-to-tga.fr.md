@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:14
+date: 2022-10-12T19:58:47
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OXPS à TGA en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source OXPS pour la conversion
-        Converter converter = new Converter("input.oxps");
-        // Préparer les options de conversion pour le format cible TGA
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // Convertir au format TGA
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.oxps");
+          // Préparer les options de conversion pour le format cible TGA
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // Convertir au format TGA
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:29
+date: 2022-10-12T19:57:32
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OXPS to XPS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file OXPS for conversion
-        Converter converter = new Converter("input.oxps");
-        // Prepare conversion options for target format XPS
-        ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
-        // Convert to XPS format
-        converter.convert("output.xps", convertOptions);
+          Converter converter = new Converter("input.oxps");
+          // Prepare conversion options for target format XPS
+          ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
+          // Convert to XPS format
+          converter.convert("output.xps", convertOptions);
         ```
 
 demos:

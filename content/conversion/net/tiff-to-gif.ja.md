@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:23
+date: 2022-10-12T19:59:00
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の TIFF から GIF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル TIFF を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.tiff");
-        // ターゲット形式の変換オプションを準備 GIF
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // GIF形式に変換
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tiff");
+          // ターゲット形式の変換オプションを準備 GIF
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // GIF形式に変換
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

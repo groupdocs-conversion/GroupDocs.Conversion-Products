@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:30
+date: 2022-10-12T19:57:34
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: SXC to XLS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file SXC for conversion
-        Converter converter = new Converter("input.sxc");
-        // Prepare conversion options for target format XLS
-        ConvertOptions convertOptions = new FileType().fromExtension("xls").getConvertOptions();
-        // Convert to XLS format
-        converter.convert("output.xls", convertOptions);
+          Converter converter = new Converter("input.sxc");
+          // Prepare conversion options for target format XLS
+          ConvertOptions convertOptions = new FileType().fromExtension("xls").getConvertOptions();
+          // Convert to XLS format
+          converter.convert("output.xls", convertOptions);
         ```
 
 demos:

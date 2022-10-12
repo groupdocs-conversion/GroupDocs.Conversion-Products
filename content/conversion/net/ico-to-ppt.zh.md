@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:20
+date: 2022-10-12T20:00:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# 中的 ICO 到 PPT
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 ICO 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.ico");
-        // 为目标格式 PPT 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
-        // 转换为 PPT 格式
-        converter.Convert("output.ppt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ico");
+          // 为目标格式 PPT 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
+          // 转换为 PPT 格式
+          converter.Convert("output.ppt", convertOptions);
         ```
 
 demos:

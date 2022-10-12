@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:30
+date: 2022-10-12T19:57:34
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: TEX to WMZ in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file TEX for conversion
-        Converter converter = new Converter("input.tex");
-        // Prepare conversion options for target format WMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
-        // Convert to WMZ format
-        converter.convert("output.wmz", convertOptions);
+          Converter converter = new Converter("input.tex");
+          // Prepare conversion options for target format WMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
+          // Convert to WMZ format
+          converter.convert("output.wmz", convertOptions);
         ```
 
 demos:

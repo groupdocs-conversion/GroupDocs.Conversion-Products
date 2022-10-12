@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:22
+date: 2022-10-12T19:57:22
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: RTF to TIFF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file RTF for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.rtf");
-        // Prepare conversion options for target format TIFF
-        var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
-        // Convert to TIFF format
-        converter.Convert("output.tiff", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.rtf");
+          // Prepare conversion options for target format TIFF
+          var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
+          // Convert to TIFF format
+          converter.Convert("output.tiff", convertOptions);
         ```
 
 demos:

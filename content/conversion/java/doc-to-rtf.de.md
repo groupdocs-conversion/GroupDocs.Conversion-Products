@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:41
+date: 2022-10-12T19:57:53
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOC bis RTF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DOC zur Konvertierung laden
-        Converter converter = new Converter("input.doc");
-        // Konvertierungsoptionen für das Zielformat RTF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // In das RTF-Format konvertieren
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.doc");
+          // Konvertierungsoptionen für das Zielformat RTF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // In das RTF-Format konvertieren
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

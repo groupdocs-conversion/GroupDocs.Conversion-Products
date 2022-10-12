@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:30
+date: 2022-10-12T19:59:12
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: JavaでTEXからPSBへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル TEX を読み込みます
-        Converter converter = new Converter("input.tex");
-        // ターゲット形式の変換オプションを準備 PSB
-        ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
-        // PSB形式に変換
-        converter.convert("output.psb", convertOptions);
+          Converter converter = new Converter("input.tex");
+          // ターゲット形式の変換オプションを準備 PSB
+          ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
+          // PSB形式に変換
+          converter.convert("output.psb", convertOptions);
         ```
 
 demos:

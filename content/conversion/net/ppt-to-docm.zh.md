@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:23
+date: 2022-10-12T20:00:25
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C# 中的 PPT 到 DOCM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 PPT 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.ppt");
-        // 为目标格式 DOCM 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // 转换为 DOCM 格式
-        converter.Convert("output.docm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ppt");
+          // 为目标格式 DOCM 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
+          // 转换为 DOCM 格式
+          converter.Convert("output.docm", convertOptions);
         ```
 
 demos:

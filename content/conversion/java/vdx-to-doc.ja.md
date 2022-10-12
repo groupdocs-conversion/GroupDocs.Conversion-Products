@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:31
+date: 2022-10-12T19:59:13
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: JavaでVDXからDOCへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル VDX を読み込みます
-        Converter converter = new Converter("input.vdx");
-        // ターゲット形式の変換オプションを準備 DOC
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // DOC形式に変換
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.vdx");
+          // ターゲット形式の変換オプションを準備 DOC
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // DOC形式に変換
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

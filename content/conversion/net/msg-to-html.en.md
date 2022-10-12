@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:20
+date: 2022-10-12T19:57:19
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG to HTML in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file MSG for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.msg");
-        // Prepare conversion options for target format HTML
-        var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
-        // Convert to HTML format
-        converter.Convert("output.html", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.msg");
+          // Prepare conversion options for target format HTML
+          var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
+          // Convert to HTML format
+          converter.Convert("output.html", convertOptions);
         ```
 
 demos:

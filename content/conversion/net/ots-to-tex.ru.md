@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:51
+date: 2022-10-12T19:59:44
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: OTS в TEX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл OTS для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.ots");
-        // Задайте параметры преобразования для целевого формата TEX
-        var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
-        // Преобразуйте файл в TEX формат
-        converter.Convert("output.tex", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ots");
+          // Задайте параметры преобразования для целевого формата TEX
+          var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
+          // Преобразуйте файл в TEX формат
+          converter.Convert("output.tex", convertOptions);
         ```
 
 demos:

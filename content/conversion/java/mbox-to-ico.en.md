@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:30
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX to ICO in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file MBOX for conversion
-        Converter converter = new Converter("input.mbox");
-        // Prepare conversion options for target format ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // Convert to ICO format
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.mbox");
+          // Prepare conversion options for target format ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // Convert to ICO format
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

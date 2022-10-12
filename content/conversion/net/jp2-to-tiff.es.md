@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:50
+date: 2022-10-12T19:58:09
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JP2 a TIFF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente JP2 para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.jp2");
-        // Preparar opciones de conversión para el formato de destino TIFF
-        var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
-        // Convertir al formato TIFF
-        converter.Convert("output.tiff", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jp2");
+          // Preparar opciones de conversión para el formato de destino TIFF
+          var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
+          // Convertir al formato TIFF
+          converter.Convert("output.tiff", convertOptions);
         ```
 
 demos:

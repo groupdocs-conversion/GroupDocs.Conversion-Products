@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:07
+date: 2022-10-12T20:00:04
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PDF в TGA на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл PDF для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.pdf");
-        // Задайте параметри перетворення для цільового формату TGA
-        var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
-        // Перетворіть файл у TGA формат
-        converter.Convert("output.tga", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pdf");
+          // Задайте параметри перетворення для цільового формату TGA
+          var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
+          // Перетворіть файл у TGA формат
+          converter.Convert("output.tga", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:41
+date: 2022-10-12T19:57:52
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: AI bis JP2 in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei AI zur Konvertierung laden
-        Converter converter = new Converter("input.ai");
-        // Konvertierungsoptionen für das Zielformat JP2 vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // In das JP2-Format konvertieren
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.ai");
+          // Konvertierungsoptionen für das Zielformat JP2 vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // In das JP2-Format konvertieren
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

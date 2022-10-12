@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:24
+date: 2022-10-12T19:57:24
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: WMZ to SVGZ in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file WMZ for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.wmz");
-        // Prepare conversion options for target format SVGZ
-        var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
-        // Convert to SVGZ format
-        converter.Convert("output.svgz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.wmz");
+          // Prepare conversion options for target format SVGZ
+          var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
+          // Convert to SVGZ format
+          converter.Convert("output.svgz", convertOptions);
         ```
 
 demos:

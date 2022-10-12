@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:17
+date: 2022-10-12T20:00:17
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSD в TXT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл VSD для конвертації
-        Converter converter = new Converter("input.vsd");
-        // Задайте параметри перетворення для цільового формату TXT
-        ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
-        // Перетворіть файл у TXT формат
-        converter.convert("output.txt", convertOptions);
+          Converter converter = new Converter("input.vsd");
+          // Задайте параметри перетворення для цільового формату TXT
+          ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
+          // Перетворіть файл у TXT формат
+          converter.convert("output.txt", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:55
+date: 2022-10-12T19:58:17
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: BMP a TGA en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente BMP para la conversión
-        Converter converter = new Converter("input.bmp");
-        // Preparar opciones de conversión para el formato de destino TGA
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // Convertir al formato TGA
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.bmp");
+          // Preparar opciones de conversión para el formato de destino TGA
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // Convertir al formato TGA
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

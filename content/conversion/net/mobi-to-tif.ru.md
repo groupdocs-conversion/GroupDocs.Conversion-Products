@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:50
+date: 2022-10-12T19:59:43
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MOBI в TIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл MOBI для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.mobi");
-        // Задайте параметры преобразования для целевого формата TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Преобразуйте файл в TIF формат
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mobi");
+          // Задайте параметры преобразования для целевого формата TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Преобразуйте файл в TIF формат
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

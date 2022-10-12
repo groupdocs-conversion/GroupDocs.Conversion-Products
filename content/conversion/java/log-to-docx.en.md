@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:27
+date: 2022-10-12T19:57:30
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: LOG to DOCX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file LOG for conversion
-        Converter converter = new Converter("input.log");
-        // Prepare conversion options for target format DOCX
-        ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
-        // Convert to DOCX format
-        converter.convert("output.docx", convertOptions);
+          Converter converter = new Converter("input.log");
+          // Prepare conversion options for target format DOCX
+          ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
+          // Convert to DOCX format
+          converter.convert("output.docx", convertOptions);
         ```
 
 demos:

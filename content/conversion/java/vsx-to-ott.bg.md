@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:46
+date: 2022-10-12T20:00:58
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSX до OTT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл VSX за конвертиране
-        Converter converter = new Converter("input.vsx");
-        // Подгответе опции за преобразуване за целеви формат OTT
-        ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
-        // Конвертиране във формат OTT
-        converter.convert("output.ott", convertOptions);
+          Converter converter = new Converter("input.vsx");
+          // Подгответе опции за преобразуване за целеви формат OTT
+          ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
+          // Конвертиране във формат OTT
+          converter.convert("output.ott", convertOptions);
         ```
 
 demos:

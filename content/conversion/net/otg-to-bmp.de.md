@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:37
+date: 2022-10-12T19:57:44
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: OTG bis BMP in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei OTG zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.otg");
-        // Konvertierungsoptionen für das Zielformat BMP vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // In das BMP-Format konvertieren
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.otg");
+          // Konvertierungsoptionen für das Zielformat BMP vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // In das BMP-Format konvertieren
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

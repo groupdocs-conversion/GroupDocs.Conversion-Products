@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:30
+date: 2022-10-12T19:57:33
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPT to TIFF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file PPT for conversion
-        Converter converter = new Converter("input.ppt");
-        // Prepare conversion options for target format TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Convert to TIFF format
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.ppt");
+          // Prepare conversion options for target format TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Convert to TIFF format
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

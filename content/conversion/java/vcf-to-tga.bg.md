@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:46
+date: 2022-10-12T20:00:57
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF до TGA на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл VCF за конвертиране
-        Converter converter = new Converter("input.vcf");
-        // Подгответе опции за преобразуване за целеви формат TGA
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // Конвертиране във формат TGA
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.vcf");
+          // Подгответе опции за преобразуване за целеви формат TGA
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // Конвертиране във формат TGA
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

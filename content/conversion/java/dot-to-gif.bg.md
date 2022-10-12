@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:41
+date: 2022-10-12T20:00:50
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOT до GIF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл DOT за конвертиране
-        Converter converter = new Converter("input.dot");
-        // Подгответе опции за преобразуване за целеви формат GIF
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // Конвертиране във формат GIF
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.dot");
+          // Подгответе опции за преобразуване за целеви формат GIF
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // Конвертиране във формат GIF
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

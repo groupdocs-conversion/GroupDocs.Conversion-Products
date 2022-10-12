@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:24
+date: 2022-10-12T19:59:02
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# の XLSB から HTM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル XLSB を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.xlsb");
-        // ターゲット形式の変換オプションを準備 HTM
-        var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
-        // HTM形式に変換
-        converter.Convert("output.htm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsb");
+          // ターゲット形式の変換オプションを準備 HTM
+          var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
+          // HTM形式に変換
+          converter.Convert("output.htm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:59
+date: 2022-10-12T19:58:23
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: PLT a POTX en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente PLT para la conversión
-        Converter converter = new Converter("input.plt");
-        // Preparar opciones de conversión para el formato de destino POTX
-        ConvertOptions convertOptions = new FileType().fromExtension("potx").getConvertOptions();
-        // Convertir al formato POTX
-        converter.convert("output.potx", convertOptions);
+          Converter converter = new Converter("input.plt");
+          // Preparar opciones de conversión para el formato de destino POTX
+          ConvertOptions convertOptions = new FileType().fromExtension("potx").getConvertOptions();
+          // Convertir al formato POTX
+          converter.convert("output.potx", convertOptions);
         ```
 
 demos:

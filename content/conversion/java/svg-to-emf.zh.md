@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:31
+date: 2022-10-12T20:00:36
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java 中的 SVG 到 EMF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 SVG 进行转换
-        Converter converter = new Converter("input.svg");
-        // 为目标格式 EMF 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
-        // 转换为 EMF 格式
-        converter.convert("output.emf", convertOptions);
+          Converter converter = new Converter("input.svg");
+          // 为目标格式 EMF 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
+          // 转换为 EMF 格式
+          converter.convert("output.emf", convertOptions);
         ```
 
 demos:

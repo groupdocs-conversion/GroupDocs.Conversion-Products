@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:12
+date: 2022-10-12T19:58:43
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EPS à WMZ en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source EPS pour la conversion
-        Converter converter = new Converter("input.eps");
-        // Préparer les options de conversion pour le format cible WMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
-        // Convertir au format WMZ
-        converter.convert("output.wmz", convertOptions);
+          Converter converter = new Converter("input.eps");
+          // Préparer les options de conversion pour le format cible WMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
+          // Convertir au format WMZ
+          converter.convert("output.wmz", convertOptions);
         ```
 
 demos:

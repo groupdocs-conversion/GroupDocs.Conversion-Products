@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:22
+date: 2022-10-12T20:00:25
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C# 中的 POTM 到 OTT
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 POTM 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.potm");
-        // 为目标格式 OTT 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
-        // 转换为 OTT 格式
-        converter.Convert("output.ott", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.potm");
+          // 为目标格式 OTT 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
+          // 转换为 OTT 格式
+          converter.Convert("output.ott", convertOptions);
         ```
 
 demos:

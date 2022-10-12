@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:23
+date: 2022-10-12T20:00:26
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# 中的 SXC 到 DIF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 SXC 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.sxc");
-        // 为目标格式 DIF 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["dif"].ConvertOptions;
-        // 转换为 DIF 格式
-        converter.Convert("output.dif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.sxc");
+          // 为目标格式 DIF 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["dif"].ConvertOptions;
+          // 转换为 DIF 格式
+          converter.Convert("output.dif", convertOptions);
         ```
 
 demos:

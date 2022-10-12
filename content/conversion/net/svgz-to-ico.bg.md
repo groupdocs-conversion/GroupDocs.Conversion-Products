@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:38
+date: 2022-10-12T20:00:46
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVGZ до ICO на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл SVGZ за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.svgz");
-        // Подгответе опции за преобразуване за целеви формат ICO
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // Конвертиране във формат ICO
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.svgz");
+          // Подгответе опции за преобразуване за целеви формат ICO
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // Конвертиране във формат ICO
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

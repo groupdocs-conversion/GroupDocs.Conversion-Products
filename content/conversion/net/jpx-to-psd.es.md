@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:51
+date: 2022-10-12T19:58:10
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPX a PSD en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente JPX para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.jpx");
-        // Preparar opciones de conversión para el formato de destino PSD
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // Convertir al formato PSD
-        converter.Convert("output.psd", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpx");
+          // Preparar opciones de conversión para el formato de destino PSD
+          var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
+          // Convertir al formato PSD
+          converter.Convert("output.psd", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:30
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG to BMP in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file MSG for conversion
-        Converter converter = new Converter("input.msg");
-        // Prepare conversion options for target format BMP
-        ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-        // Convert to BMP format
-        converter.convert("output.bmp", convertOptions);
+          Converter converter = new Converter("input.msg");
+          // Prepare conversion options for target format BMP
+          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
+          // Convert to BMP format
+          converter.convert("output.bmp", convertOptions);
         ```
 
 demos:

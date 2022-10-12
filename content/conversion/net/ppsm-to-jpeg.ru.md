@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:51
+date: 2022-10-12T19:59:45
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPSM в JPEG на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл PPSM для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.ppsm");
-        // Задайте параметры преобразования для целевого формата JPEG
-        var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
-        // Преобразуйте файл в JPEG формат
-        converter.Convert("output.jpeg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ppsm");
+          // Задайте параметры преобразования для целевого формата JPEG
+          var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
+          // Преобразуйте файл в JPEG формат
+          converter.Convert("output.jpeg", convertOptions);
         ```
 
 demos:

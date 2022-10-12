@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:55
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: EPUB bis TIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei EPUB zur Konvertierung laden
-        Converter converter = new Converter("input.epub");
-        // Konvertierungsoptionen für das Zielformat TIF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
-        // In das TIF-Format konvertieren
-        converter.convert("output.tif", convertOptions);
+          Converter converter = new Converter("input.epub");
+          // Konvertierungsoptionen für das Zielformat TIF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
+          // In das TIF-Format konvertieren
+          converter.convert("output.tif", convertOptions);
         ```
 
 demos:

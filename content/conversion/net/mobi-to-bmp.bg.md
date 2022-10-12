@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:36
+date: 2022-10-12T20:00:43
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MOBI до BMP на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл MOBI за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.mobi");
-        // Подгответе опции за преобразуване за целеви формат BMP
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // Конвертиране във формат BMP
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mobi");
+          // Подгответе опции за преобразуване за целеви формат BMP
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // Конвертиране във формат BMP
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

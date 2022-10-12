@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:52
+date: 2022-10-12T19:58:12
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPSX a PNG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente PPSX para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.ppsx");
-        // Preparar opciones de conversión para el formato de destino PNG
-        var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-        // Convertir al formato PNG
-        converter.Convert("output.png", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ppsx");
+          // Preparar opciones de conversión para el formato de destino PNG
+          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
+          // Convertir al formato PNG
+          converter.Convert("output.png", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:41
+date: 2022-10-12T20:00:51
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWFX до MHTML на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл DWFX за конвертиране
-        Converter converter = new Converter("input.dwfx");
-        // Подгответе опции за преобразуване за целеви формат MHTML
-        ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
-        // Конвертиране във формат MHTML
-        converter.convert("output.mhtml", convertOptions);
+          Converter converter = new Converter("input.dwfx");
+          // Подгответе опции за преобразуване за целеви формат MHTML
+          ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
+          // Конвертиране във формат MHTML
+          converter.convert("output.mhtml", convertOptions);
         ```
 
 demos:

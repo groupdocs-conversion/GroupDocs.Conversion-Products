@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:28
+date: 2022-10-12T20:00:33
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java 中的 MBOX 到 GIF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 MBOX 进行转换
-        Converter converter = new Converter("input.mbox");
-        // 为目标格式 GIF 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // 转换为 GIF 格式
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.mbox");
+          // 为目标格式 GIF 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // 转换为 GIF 格式
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

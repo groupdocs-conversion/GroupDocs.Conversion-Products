@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:17
+date: 2022-10-12T20:00:17
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSDX в DOCM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл VSDX для конвертації
-        Converter converter = new Converter("input.vsdx");
-        // Задайте параметри перетворення для цільового формату DOCM
-        ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
-        // Перетворіть файл у DOCM формат
-        converter.convert("output.docm", convertOptions);
+          Converter converter = new Converter("input.vsdx");
+          // Задайте параметри перетворення для цільового формату DOCM
+          ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
+          // Перетворіть файл у DOCM формат
+          converter.convert("output.docm", convertOptions);
         ```
 
 demos:

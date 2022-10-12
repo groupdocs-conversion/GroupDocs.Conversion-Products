@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:03
+date: 2022-10-12T19:59:59
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOCM в DOT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл DOCM для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.docm");
-        // Задайте параметри перетворення для цільового формату DOT
-        var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
-        // Перетворіть файл у DOT формат
-        converter.Convert("output.dot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.docm");
+          // Задайте параметри перетворення для цільового формату DOT
+          var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
+          // Перетворіть файл у DOT формат
+          converter.Convert("output.dot", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:17
+date: 2022-10-12T20:00:16
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF в PNG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл VCF для конвертації
-        Converter converter = new Converter("input.vcf");
-        // Задайте параметри перетворення для цільового формату PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // Перетворіть файл у PNG формат
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.vcf");
+          // Задайте параметри перетворення для цільового формату PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // Перетворіть файл у PNG формат
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

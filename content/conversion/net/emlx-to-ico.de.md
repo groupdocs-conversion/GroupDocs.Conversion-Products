@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:35
+date: 2022-10-12T19:57:40
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMLX bis ICO in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei EMLX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.emlx");
-        // Konvertierungsoptionen für das Zielformat ICO vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // In das ICO-Format konvertieren
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emlx");
+          // Konvertierungsoptionen für das Zielformat ICO vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // In das ICO-Format konvertieren
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

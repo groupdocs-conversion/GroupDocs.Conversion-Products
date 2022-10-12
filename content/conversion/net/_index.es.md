@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-10-12T19:33:17
+date: 2022-10-12T19:57:14
 draft: false
 
 product: "Conversion"
@@ -295,11 +295,11 @@ features:
             
           ```csharp    
            // Cargue el archivo fuente DOCX para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.docx");
-        // Preparar opciones de conversión para el formato de destino PDF
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // Convertir al formato PDF
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.docx");
+          // Preparar opciones de conversión para el formato de destino PDF
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // Convertir al formato PDF
+          converter.Convert("output.pdf", convertOptions);
           ```
             
       # more_feature_loop

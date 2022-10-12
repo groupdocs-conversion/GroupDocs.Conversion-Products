@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:57
+date: 2022-10-12T19:59:52
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPC в TIFF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл JPC для преобразования
-        Converter converter = new Converter("input.jpc");
-        // Подготовьте параметры преобразования для целевого формата TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Преобразование в формат TIFF
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.jpc");
+          // Подготовьте параметры преобразования для целевого формата TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Преобразование в формат TIFF
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

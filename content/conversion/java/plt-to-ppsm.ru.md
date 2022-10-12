@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:54
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: PLT в PPSM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл PLT для преобразования
-        Converter converter = new Converter("input.plt");
-        // Подготовьте параметры преобразования для целевого формата PPSM
-        ConvertOptions convertOptions = new FileType().fromExtension("ppsm").getConvertOptions();
-        // Преобразование в формат PPSM
-        converter.convert("output.ppsm", convertOptions);
+          Converter converter = new Converter("input.plt");
+          // Подготовьте параметры преобразования для целевого формата PPSM
+          ConvertOptions convertOptions = new FileType().fromExtension("ppsm").getConvertOptions();
+          // Преобразование в формат PPSM
+          converter.convert("output.ppsm", convertOptions);
         ```
 
 demos:

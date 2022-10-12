@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:31
+date: 2022-10-12T20:00:37
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: Java 中的 VDW 到 MD
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 VDW 进行转换
-        Converter converter = new Converter("input.vdw");
-        // 为目标格式 MD 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
-        // 转换为 MD 格式
-        converter.convert("output.md", convertOptions);
+          Converter converter = new Converter("input.vdw");
+          // 为目标格式 MD 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
+          // 转换为 MD 格式
+          converter.convert("output.md", convertOptions);
         ```
 
 demos:

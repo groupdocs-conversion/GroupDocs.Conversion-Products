@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:01
+date: 2022-10-12T19:58:27
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VTX a DOCM en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente VTX para la conversión
-        Converter converter = new Converter("input.vtx");
-        // Preparar opciones de conversión para el formato de destino DOCM
-        ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
-        // Convertir al formato DOCM
-        converter.convert("output.docm", convertOptions);
+          Converter converter = new Converter("input.vtx");
+          // Preparar opciones de conversión para el formato de destino DOCM
+          ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
+          // Convertir al formato DOCM
+          converter.convert("output.docm", convertOptions);
         ```
 
 demos:

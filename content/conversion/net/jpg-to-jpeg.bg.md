@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:35
+date: 2022-10-12T20:00:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPG до JPEG на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл JPG за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.jpg");
-        // Подгответе опции за преобразуване за целеви формат JPEG
-        var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
-        // Конвертиране във формат JPEG
-        converter.Convert("output.jpeg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpg");
+          // Подгответе опции за преобразуване за целеви формат JPEG
+          var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
+          // Конвертиране във формат JPEG
+          converter.Convert("output.jpeg", convertOptions);
         ```
 
 demos:

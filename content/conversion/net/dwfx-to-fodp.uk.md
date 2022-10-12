@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:04
+date: 2022-10-12T20:00:00
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWFX в FODP на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл DWFX для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.dwfx");
-        // Задайте параметри перетворення для цільового формату FODP
-        var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
-        // Перетворіть файл у FODP формат
-        converter.Convert("output.fodp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwfx");
+          // Задайте параметри перетворення для цільового формату FODP
+          var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
+          // Перетворіть файл у FODP формат
+          converter.Convert("output.fodp", convertOptions);
         ```
 
 demos:

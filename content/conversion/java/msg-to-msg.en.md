@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:30
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG to MSG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file MSG for conversion
-        Converter converter = new Converter("input.msg");
-        // Prepare conversion options for target format MSG
-        ConvertOptions convertOptions = new FileType().fromExtension("msg").getConvertOptions();
-        // Convert to MSG format
-        converter.convert("output.msg", convertOptions);
+          Converter converter = new Converter("input.msg");
+          // Prepare conversion options for target format MSG
+          ConvertOptions convertOptions = new FileType().fromExtension("msg").getConvertOptions();
+          // Convert to MSG format
+          converter.convert("output.msg", convertOptions);
         ```
 
 demos:

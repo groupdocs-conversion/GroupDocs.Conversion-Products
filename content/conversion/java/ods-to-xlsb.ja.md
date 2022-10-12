@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:28
+date: 2022-10-12T19:59:10
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: JavaでODSからXLSBへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル ODS を読み込みます
-        Converter converter = new Converter("input.ods");
-        // ターゲット形式の変換オプションを準備 XLSB
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
-        // XLSB形式に変換
-        converter.convert("output.xlsb", convertOptions);
+          Converter converter = new Converter("input.ods");
+          // ターゲット形式の変換オプションを準備 XLSB
+          ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
+          // XLSB形式に変換
+          converter.convert("output.xlsb", convertOptions);
         ```
 
 demos:

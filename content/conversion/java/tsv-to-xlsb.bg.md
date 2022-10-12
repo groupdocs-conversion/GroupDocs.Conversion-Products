@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:46
+date: 2022-10-12T20:00:57
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: TSV до XLSB на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл TSV за конвертиране
-        Converter converter = new Converter("input.tsv");
-        // Подгответе опции за преобразуване за целеви формат XLSB
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
-        // Конвертиране във формат XLSB
-        converter.convert("output.xlsb", convertOptions);
+          Converter converter = new Converter("input.tsv");
+          // Подгответе опции за преобразуване за целеви формат XLSB
+          ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
+          // Конвертиране във формат XLSB
+          converter.convert("output.xlsb", convertOptions);
         ```
 
 demos:

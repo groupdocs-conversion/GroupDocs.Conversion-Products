@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:57
+date: 2022-10-12T19:58:19
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DXF a POT en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente DXF para la conversión
-        Converter converter = new Converter("input.dxf");
-        // Preparar opciones de conversión para el formato de destino POT
-        ConvertOptions convertOptions = new FileType().fromExtension("pot").getConvertOptions();
-        // Convertir al formato POT
-        converter.convert("output.pot", convertOptions);
+          Converter converter = new Converter("input.dxf");
+          // Preparar opciones de conversión para el formato de destino POT
+          ConvertOptions convertOptions = new FileType().fromExtension("pot").getConvertOptions();
+          // Convertir al formato POT
+          converter.convert("output.pot", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:38
+date: 2022-10-12T19:57:46
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPSX bis DOC in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei PPSX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.ppsx");
-        // Konvertierungsoptionen für das Zielformat DOC vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
-        // In das DOC-Format konvertieren
-        converter.Convert("output.doc", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ppsx");
+          // Konvertierungsoptionen für das Zielformat DOC vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
+          // In das DOC-Format konvertieren
+          converter.Convert("output.doc", convertOptions);
         ```
 
 demos:

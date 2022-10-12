@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:59
+date: 2022-10-12T19:59:54
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: POTM в PNG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл POTM для преобразования
-        Converter converter = new Converter("input.potm");
-        // Подготовьте параметры преобразования для целевого формата PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // Преобразование в формат PNG
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.potm");
+          // Подготовьте параметры преобразования для целевого формата PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // Преобразование в формат PNG
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:21
+date: 2022-10-12T19:58:57
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: C# の MPT から DCM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル MPT を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.mpt");
-        // ターゲット形式の変換オプションを準備 DCM
-        var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
-        // DCM形式に変換
-        converter.Convert("output.dcm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpt");
+          // ターゲット形式の変換オプションを準備 DCM
+          var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
+          // DCM形式に変換
+          converter.Convert("output.dcm", convertOptions);
         ```
 
 demos:

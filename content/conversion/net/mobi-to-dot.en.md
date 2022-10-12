@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:20
+date: 2022-10-12T19:57:18
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MOBI to DOT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file MOBI for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.mobi");
-        // Prepare conversion options for target format DOT
-        var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
-        // Convert to DOT format
-        converter.Convert("output.dot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mobi");
+          // Prepare conversion options for target format DOT
+          var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
+          // Convert to DOT format
+          converter.Convert("output.dot", convertOptions);
         ```
 
 demos:

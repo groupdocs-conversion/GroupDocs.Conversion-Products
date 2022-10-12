@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:30
+date: 2022-10-12T19:59:13
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでVCFからHTMへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル VCF を読み込みます
-        Converter converter = new Converter("input.vcf");
-        // ターゲット形式の変換オプションを準備 HTM
-        ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
-        // HTM形式に変換
-        converter.convert("output.htm", convertOptions);
+          Converter converter = new Converter("input.vcf");
+          // ターゲット形式の変換オプションを準備 HTM
+          ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
+          // HTM形式に変換
+          converter.convert("output.htm", convertOptions);
         ```
 
 demos:

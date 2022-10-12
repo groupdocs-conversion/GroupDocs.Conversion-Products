@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:29
+date: 2022-10-12T19:59:11
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: JavaでPPSMからTEXへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル PPSM を読み込みます
-        Converter converter = new Converter("input.ppsm");
-        // ターゲット形式の変換オプションを準備 TEX
-        ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
-        // TEX形式に変換
-        converter.convert("output.tex", convertOptions);
+          Converter converter = new Converter("input.ppsm");
+          // ターゲット形式の変換オプションを準備 TEX
+          ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
+          // TEX形式に変換
+          converter.convert("output.tex", convertOptions);
         ```
 
 demos:

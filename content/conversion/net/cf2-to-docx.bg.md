@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:33
+date: 2022-10-12T20:00:39
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CF2 до DOCX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл CF2 за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.cf2");
-        // Подгответе опции за преобразуване за целеви формат DOCX
-        var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
-        // Конвертиране във формат DOCX
-        converter.Convert("output.docx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cf2");
+          // Подгответе опции за преобразуване за целеви формат DOCX
+          var convertOptions = converter.GetPossibleConversions()["docx"].ConvertOptions;
+          // Конвертиране във формат DOCX
+          converter.Convert("output.docx", convertOptions);
         ```
 
 demos:

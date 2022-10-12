@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:40
+date: 2022-10-12T20:00:49
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CGM до PPSX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл CGM за конвертиране
-        Converter converter = new Converter("input.cgm");
-        // Подгответе опции за преобразуване за целеви формат PPSX
-        ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
-        // Конвертиране във формат PPSX
-        converter.convert("output.ppsx", convertOptions);
+          Converter converter = new Converter("input.cgm");
+          // Подгответе опции за преобразуване за целеви формат PPSX
+          ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
+          // Конвертиране във формат PPSX
+          converter.convert("output.ppsx", convertOptions);
         ```
 
 demos:

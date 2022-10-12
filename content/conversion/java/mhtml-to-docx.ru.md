@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:57
+date: 2022-10-12T19:59:52
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MHTML в DOCX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл MHTML для преобразования
-        Converter converter = new Converter("input.mhtml");
-        // Подготовьте параметры преобразования для целевого формата DOCX
-        ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
-        // Преобразование в формат DOCX
-        converter.convert("output.docx", convertOptions);
+          Converter converter = new Converter("input.mhtml");
+          // Подготовьте параметры преобразования для целевого формата DOCX
+          ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
+          // Преобразование в формат DOCX
+          converter.convert("output.docx", convertOptions);
         ```
 
 demos:

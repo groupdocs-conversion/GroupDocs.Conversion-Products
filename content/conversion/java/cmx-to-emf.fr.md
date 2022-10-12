@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:10
+date: 2022-10-12T19:58:41
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CMX à EMF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source CMX pour la conversion
-        Converter converter = new Converter("input.cmx");
-        // Préparer les options de conversion pour le format cible EMF
-        ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
-        // Convertir au format EMF
-        converter.convert("output.emf", convertOptions);
+          Converter converter = new Converter("input.cmx");
+          // Préparer les options de conversion pour le format cible EMF
+          ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
+          // Convertir au format EMF
+          converter.convert("output.emf", convertOptions);
         ```
 
 demos:

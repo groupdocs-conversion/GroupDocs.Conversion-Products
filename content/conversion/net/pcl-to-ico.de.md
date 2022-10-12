@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:37
+date: 2022-10-12T19:57:45
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PCL bis ICO in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei PCL zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.pcl");
-        // Konvertierungsoptionen für das Zielformat ICO vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
-        // In das ICO-Format konvertieren
-        converter.Convert("output.ico", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pcl");
+          // Konvertierungsoptionen für das Zielformat ICO vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["ico"].ConvertOptions;
+          // In das ICO-Format konvertieren
+          converter.Convert("output.ico", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:04
+date: 2022-10-12T19:58:31
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMLX à SVGZ en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source EMLX pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.emlx");
-        // Préparer les options de conversion pour le format cible SVGZ
-        var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
-        // Convertir au format SVGZ
-        converter.Convert("output.svgz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emlx");
+          // Préparer les options de conversion pour le format cible SVGZ
+          var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
+          // Convertir au format SVGZ
+          converter.Convert("output.svgz", convertOptions);
         ```
 
 demos:

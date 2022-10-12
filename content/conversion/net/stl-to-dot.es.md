@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:53
+date: 2022-10-12T19:58:13
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: STL a DOT en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente STL para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // Preparar opciones de conversión para el formato de destino DOT
-        var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
-        // Convertir al formato DOT
-        converter.Convert("output.dot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.stl");
+          // Preparar opciones de conversión para el formato de destino DOT
+          var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
+          // Convertir al formato DOT
+          converter.Convert("output.dot", convertOptions);
         ```
 
 demos:

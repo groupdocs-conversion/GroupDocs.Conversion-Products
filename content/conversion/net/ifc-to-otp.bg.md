@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:35
+date: 2022-10-12T20:00:42
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IFC до OTP на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл IFC за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.ifc");
-        // Подгответе опции за преобразуване за целеви формат OTP
-        var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
-        // Конвертиране във формат OTP
-        converter.Convert("output.otp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ifc");
+          // Подгответе опции за преобразуване за целеви формат OTP
+          var convertOptions = converter.GetPossibleConversions()["otp"].ConvertOptions;
+          // Конвертиране във формат OTP
+          converter.Convert("output.otp", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:58
+date: 2022-10-12T19:58:22
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP a WEBP en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente MPP para la conversión
-        Converter converter = new Converter("input.mpp");
-        // Preparar opciones de conversión para el formato de destino WEBP
-        ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
-        // Convertir al formato WEBP
-        converter.convert("output.webp", convertOptions);
+          Converter converter = new Converter("input.mpp");
+          // Preparar opciones de conversión para el formato de destino WEBP
+          ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
+          // Convertir al formato WEBP
+          converter.convert("output.webp", convertOptions);
         ```
 
 demos:

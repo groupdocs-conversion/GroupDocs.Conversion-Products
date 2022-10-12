@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:25
+date: 2022-10-12T19:59:04
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでCDRからPNGへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル CDR を読み込みます
-        Converter converter = new Converter("input.cdr");
-        // ターゲット形式の変換オプションを準備 PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // PNG形式に変換
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.cdr");
+          // ターゲット形式の変換オプションを準備 PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // PNG形式に変換
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

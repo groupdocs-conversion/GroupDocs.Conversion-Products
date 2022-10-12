@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:45
+date: 2022-10-12T19:59:36
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: Java의 TSV에서 XPS까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 변환을 위해 소스 파일 TSV 로드
-        Converter converter = new Converter("input.tsv");
-        // 대상 형식 XPS에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
-        // XPS 형식으로 변환
-        converter.convert("output.xps", convertOptions);
+          Converter converter = new Converter("input.tsv");
+          // 대상 형식 XPS에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
+          // XPS 형식으로 변환
+          converter.convert("output.xps", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:30
+date: 2022-10-12T19:59:12
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでSVGZからEMFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル SVGZ を読み込みます
-        Converter converter = new Converter("input.svgz");
-        // ターゲット形式の変換オプションを準備 EMF
-        ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
-        // EMF形式に変換
-        converter.convert("output.emf", convertOptions);
+          Converter converter = new Converter("input.svgz");
+          // ターゲット形式の変換オプションを準備 EMF
+          ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
+          // EMF形式に変換
+          converter.convert("output.emf", convertOptions);
         ```
 
 demos:

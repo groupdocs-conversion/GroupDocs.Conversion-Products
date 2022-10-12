@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:47
+date: 2022-10-12T20:00:58
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLAM до XLTM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл XLAM за конвертиране
-        Converter converter = new Converter("input.xlam");
-        // Подгответе опции за преобразуване за целеви формат XLTM
-        ConvertOptions convertOptions = new FileType().fromExtension("xltm").getConvertOptions();
-        // Конвертиране във формат XLTM
-        converter.convert("output.xltm", convertOptions);
+          Converter converter = new Converter("input.xlam");
+          // Подгответе опции за преобразуване за целеви формат XLTM
+          ConvertOptions convertOptions = new FileType().fromExtension("xltm").getConvertOptions();
+          // Конвертиране във формат XLTM
+          converter.convert("output.xltm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:33
+date: 2022-10-12T20:00:38
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: Java 中的 XML 到 XLTM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 XML 进行转换
-        Converter converter = new Converter("input.xml");
-        // 为目标格式 XLTM 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("xltm").getConvertOptions();
-        // 转换为 XLTM 格式
-        converter.convert("output.xltm", convertOptions);
+          Converter converter = new Converter("input.xml");
+          // 为目标格式 XLTM 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("xltm").getConvertOptions();
+          // 转换为 XLTM 格式
+          converter.convert("output.xltm", convertOptions);
         ```
 
 demos:

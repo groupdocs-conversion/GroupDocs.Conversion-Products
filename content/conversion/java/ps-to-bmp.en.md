@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:30
+date: 2022-10-12T19:57:33
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PS to BMP in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file PS for conversion
-        Converter converter = new Converter("input.ps");
-        // Prepare conversion options for target format BMP
-        ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-        // Convert to BMP format
-        converter.convert("output.bmp", convertOptions);
+          Converter converter = new Converter("input.ps");
+          // Prepare conversion options for target format BMP
+          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
+          // Convert to BMP format
+          converter.convert("output.bmp", convertOptions);
         ```
 
 demos:

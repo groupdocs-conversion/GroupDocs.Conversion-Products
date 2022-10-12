@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:39
+date: 2022-10-12T19:57:48
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: TEX bis PSB in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei TEX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // Konvertierungsoptionen für das Zielformat PSB vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
-        // In das PSB-Format konvertieren
-        converter.Convert("output.psb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tex");
+          // Konvertierungsoptionen für das Zielformat PSB vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
+          // In das PSB-Format konvertieren
+          converter.Convert("output.psb", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:17
+date: 2022-10-12T19:58:52
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の AI から TIF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル AI を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.ai");
-        // ターゲット形式の変換オプションを準備 TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // TIF形式に変換
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ai");
+          // ターゲット形式の変換オプションを準備 TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // TIF形式に変換
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

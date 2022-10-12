@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:31
+date: 2022-10-12T19:57:35
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSDM to MD in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file VSDM for conversion
-        Converter converter = new Converter("input.vsdm");
-        // Prepare conversion options for target format MD
-        ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
-        // Convert to MD format
-        converter.convert("output.md", convertOptions);
+          Converter converter = new Converter("input.vsdm");
+          // Prepare conversion options for target format MD
+          ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
+          // Convert to MD format
+          converter.convert("output.md", convertOptions);
         ```
 
 demos:

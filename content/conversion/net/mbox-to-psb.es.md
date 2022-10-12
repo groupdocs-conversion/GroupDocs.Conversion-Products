@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:51
+date: 2022-10-12T19:58:10
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX a PSB en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente MBOX para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Preparar opciones de conversión para el formato de destino PSB
-        var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
-        // Convertir al formato PSB
-        converter.Convert("output.psb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mbox");
+          // Preparar opciones de conversión para el formato de destino PSB
+          var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
+          // Convertir al formato PSB
+          converter.Convert("output.psb", convertOptions);
         ```
 
 demos:

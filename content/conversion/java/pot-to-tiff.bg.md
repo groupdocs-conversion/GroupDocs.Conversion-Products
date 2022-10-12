@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:44
+date: 2022-10-12T20:00:55
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: POT до TIFF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл POT за конвертиране
-        Converter converter = new Converter("input.pot");
-        // Подгответе опции за преобразуване за целеви формат TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Конвертиране във формат TIFF
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.pot");
+          // Подгответе опции за преобразуване за целеви формат TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Конвертиране във формат TIFF
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

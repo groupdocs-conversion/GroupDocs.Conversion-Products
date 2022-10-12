@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:45
+date: 2022-10-12T20:00:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: PSD до PNG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл PSD за конвертиране
-        Converter converter = new Converter("input.psd");
-        // Подгответе опции за преобразуване за целеви формат PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // Конвертиране във формат PNG
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.psd");
+          // Подгответе опции за преобразуване за целеви формат PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // Конвертиране във формат PNG
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

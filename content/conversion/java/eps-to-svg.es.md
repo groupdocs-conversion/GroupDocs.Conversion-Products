@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:57
+date: 2022-10-12T19:58:19
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EPS a SVG en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente EPS para la conversión
-        Converter converter = new Converter("input.eps");
-        // Preparar opciones de conversión para el formato de destino SVG
-        ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
-        // Convertir al formato SVG
-        converter.convert("output.svg", convertOptions);
+          Converter converter = new Converter("input.eps");
+          // Preparar opciones de conversión para el formato de destino SVG
+          ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
+          // Convertir al formato SVG
+          converter.convert("output.svg", convertOptions);
         ```
 
 demos:

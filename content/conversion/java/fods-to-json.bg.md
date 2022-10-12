@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:42
+date: 2022-10-12T20:00:52
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: FODS до JSON на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл FODS за конвертиране
-        Converter converter = new Converter("input.fods");
-        // Подгответе опции за преобразуване за целеви формат JSON
-        ConvertOptions convertOptions = new FileType().fromExtension("json").getConvertOptions();
-        // Конвертиране във формат JSON
-        converter.convert("output.json", convertOptions);
+          Converter converter = new Converter("input.fods");
+          // Подгответе опции за преобразуване за целеви формат JSON
+          ConvertOptions convertOptions = new FileType().fromExtension("json").getConvertOptions();
+          // Конвертиране във формат JSON
+          converter.convert("output.json", convertOptions);
         ```
 
 demos:

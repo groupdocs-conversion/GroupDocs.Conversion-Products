@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:29
+date: 2022-10-12T19:59:10
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: JavaでOXPSからWMFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル OXPS を読み込みます
-        Converter converter = new Converter("input.oxps");
-        // ターゲット形式の変換オプションを準備 WMF
-        ConvertOptions convertOptions = new FileType().fromExtension("wmf").getConvertOptions();
-        // WMF形式に変換
-        converter.convert("output.wmf", convertOptions);
+          Converter converter = new Converter("input.oxps");
+          // ターゲット形式の変換オプションを準備 WMF
+          ConvertOptions convertOptions = new FileType().fromExtension("wmf").getConvertOptions();
+          // WMF形式に変換
+          converter.convert("output.wmf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:02
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: TXT bis TIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei TXT zur Konvertierung laden
-        Converter converter = new Converter("input.txt");
-        // Konvertierungsoptionen für das Zielformat TIF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
-        // In das TIF-Format konvertieren
-        converter.convert("output.tif", convertOptions);
+          Converter converter = new Converter("input.txt");
+          // Konvertierungsoptionen für das Zielformat TIF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
+          // In das TIF-Format konvertieren
+          converter.convert("output.tif", convertOptions);
         ```
 
 demos:

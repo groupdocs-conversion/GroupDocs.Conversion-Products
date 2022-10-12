@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:54
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: OTT в JPG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл OTT для преобразования
-        Converter converter = new Converter("input.ott");
-        // Подготовьте параметры преобразования для целевого формата JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Преобразование в формат JPG
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.ott");
+          // Подготовьте параметры преобразования для целевого формата JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Преобразование в формат JPG
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

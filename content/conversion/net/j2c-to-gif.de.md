@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:35
+date: 2022-10-12T19:57:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2C bis GIF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei J2C zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.j2c");
-        // Konvertierungsoptionen für das Zielformat GIF vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // In das GIF-Format konvertieren
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.j2c");
+          // Konvertierungsoptionen für das Zielformat GIF vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // In das GIF-Format konvertieren
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

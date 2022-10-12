@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:23
+date: 2022-10-12T19:57:22
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: TEX to SVG in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file TEX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // Prepare conversion options for target format SVG
-        var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // Convert to SVG format
-        converter.Convert("output.svg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tex");
+          // Prepare conversion options for target format SVG
+          var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
+          // Convert to SVG format
+          converter.Convert("output.svg", convertOptions);
         ```
 
 demos:

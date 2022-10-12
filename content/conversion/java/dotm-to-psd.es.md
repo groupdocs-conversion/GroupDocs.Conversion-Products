@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:56
+date: 2022-10-12T19:58:18
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOTM a PSD en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente DOTM para la conversión
-        Converter converter = new Converter("input.dotm");
-        // Preparar opciones de conversión para el formato de destino PSD
-        ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
-        // Convertir al formato PSD
-        converter.convert("output.psd", convertOptions);
+          Converter converter = new Converter("input.dotm");
+          // Preparar opciones de conversión para el formato de destino PSD
+          ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
+          // Convertir al formato PSD
+          converter.convert("output.psd", convertOptions);
         ```
 
 demos:

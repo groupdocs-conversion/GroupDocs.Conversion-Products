@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:27
+date: 2022-10-12T19:59:06
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: JavaでEPUBからICOへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル EPUB を読み込みます
-        Converter converter = new Converter("input.epub");
-        // ターゲット形式の変換オプションを準備 ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // ICO形式に変換
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.epub");
+          // ターゲット形式の変換オプションを準備 ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // ICO形式に変換
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:03
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSDM bis TXT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei VSDM zur Konvertierung laden
-        Converter converter = new Converter("input.vsdm");
-        // Konvertierungsoptionen für das Zielformat TXT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
-        // In das TXT-Format konvertieren
-        converter.convert("output.txt", convertOptions);
+          Converter converter = new Converter("input.vsdm");
+          // Konvertierungsoptionen für das Zielformat TXT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
+          // In das TXT-Format konvertieren
+          converter.convert("output.txt", convertOptions);
         ```
 
 demos:

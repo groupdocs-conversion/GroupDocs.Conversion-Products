@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:18
+date: 2022-10-12T20:00:18
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: WMZ в TIF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл WMZ для конвертації
-        Converter converter = new Converter("input.wmz");
-        // Задайте параметри перетворення для цільового формату TIF
-        ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
-        // Перетворіть файл у TIF формат
-        converter.convert("output.tif", convertOptions);
+          Converter converter = new Converter("input.wmz");
+          // Задайте параметри перетворення для цільового формату TIF
+          ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
+          // Перетворіть файл у TIF формат
+          converter.convert("output.tif", convertOptions);
         ```
 
 demos:

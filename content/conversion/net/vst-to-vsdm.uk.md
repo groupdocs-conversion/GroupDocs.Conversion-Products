@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:09
+date: 2022-10-12T20:00:07
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST в VSDM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл VST для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.vst");
-        // Задайте параметри перетворення для цільового формату VSDM
-        var convertOptions = converter.GetPossibleConversions()["vsdm"].ConvertOptions;
-        // Перетворіть файл у VSDM формат
-        converter.Convert("output.vsdm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vst");
+          // Задайте параметри перетворення для цільового формату VSDM
+          var convertOptions = converter.GetPossibleConversions()["vsdm"].ConvertOptions;
+          // Перетворіть файл у VSDM формат
+          converter.Convert("output.vsdm", convertOptions);
         ```
 
 demos:

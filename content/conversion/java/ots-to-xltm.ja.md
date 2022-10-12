@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:29
+date: 2022-10-12T19:59:10
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: JavaでOTSからXLTMへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル OTS を読み込みます
-        Converter converter = new Converter("input.ots");
-        // ターゲット形式の変換オプションを準備 XLTM
-        ConvertOptions convertOptions = new FileType().fromExtension("xltm").getConvertOptions();
-        // XLTM形式に変換
-        converter.convert("output.xltm", convertOptions);
+          Converter converter = new Converter("input.ots");
+          // ターゲット形式の変換オプションを準備 XLTM
+          ConvertOptions convertOptions = new FileType().fromExtension("xltm").getConvertOptions();
+          // XLTM形式に変換
+          converter.convert("output.xltm", convertOptions);
         ```
 
 demos:

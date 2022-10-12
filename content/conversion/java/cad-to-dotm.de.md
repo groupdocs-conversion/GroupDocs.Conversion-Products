@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:41
+date: 2022-10-12T19:57:52
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CAD bis DOTM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei CAD zur Konvertierung laden
-        Converter converter = new Converter("input.cad");
-        // Konvertierungsoptionen für das Zielformat DOTM vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
-        // In das DOTM-Format konvertieren
-        converter.convert("output.dotm", convertOptions);
+          Converter converter = new Converter("input.cad");
+          // Konvertierungsoptionen für das Zielformat DOTM vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
+          // In das DOTM-Format konvertieren
+          converter.convert("output.dotm", convertOptions);
         ```
 
 demos:

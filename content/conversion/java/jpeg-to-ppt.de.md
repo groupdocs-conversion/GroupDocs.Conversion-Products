@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:43
+date: 2022-10-12T19:57:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPEG bis PPT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei JPEG zur Konvertierung laden
-        Converter converter = new Converter("input.jpeg");
-        // Konvertierungsoptionen für das Zielformat PPT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
-        // In das PPT-Format konvertieren
-        converter.convert("output.ppt", convertOptions);
+          Converter converter = new Converter("input.jpeg");
+          // Konvertierungsoptionen für das Zielformat PPT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
+          // In das PPT-Format konvertieren
+          converter.convert("output.ppt", convertOptions);
         ```
 
 demos:

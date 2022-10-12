@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:00
+date: 2022-10-12T19:58:24
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPTX a MD en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente PPTX para la conversión
-        Converter converter = new Converter("input.pptx");
-        // Preparar opciones de conversión para el formato de destino MD
-        ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
-        // Convertir al formato MD
-        converter.convert("output.md", convertOptions);
+          Converter converter = new Converter("input.pptx");
+          // Preparar opciones de conversión para el formato de destino MD
+          ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
+          // Convertir al formato MD
+          converter.convert("output.md", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:41
+date: 2022-10-12T19:57:52
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: CSV bis DIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei CSV zur Konvertierung laden
-        Converter converter = new Converter("input.csv");
-        // Konvertierungsoptionen für das Zielformat DIF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("dif").getConvertOptions();
-        // In das DIF-Format konvertieren
-        converter.convert("output.dif", convertOptions);
+          Converter converter = new Converter("input.csv");
+          // Konvertierungsoptionen für das Zielformat DIF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("dif").getConvertOptions();
+          // In das DIF-Format konvertieren
+          converter.convert("output.dif", convertOptions);
         ```
 
 demos:

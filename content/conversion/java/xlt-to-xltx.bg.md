@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:47
+date: 2022-10-12T20:00:59
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLT до XLTX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл XLT за конвертиране
-        Converter converter = new Converter("input.xlt");
-        // Подгответе опции за преобразуване за целеви формат XLTX
-        ConvertOptions convertOptions = new FileType().fromExtension("xltx").getConvertOptions();
-        // Конвертиране във формат XLTX
-        converter.convert("output.xltx", convertOptions);
+          Converter converter = new Converter("input.xlt");
+          // Подгответе опции за преобразуване за целеви формат XLTX
+          ConvertOptions convertOptions = new FileType().fromExtension("xltx").getConvertOptions();
+          // Конвертиране във формат XLTX
+          converter.convert("output.xltx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:16
+date: 2022-10-12T20:00:15
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PS в TIFF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл PS для конвертації
-        Converter converter = new Converter("input.ps");
-        // Задайте параметри перетворення для цільового формату TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Перетворіть файл у TIFF формат
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.ps");
+          // Задайте параметри перетворення для цільового формату TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Перетворіть файл у TIFF формат
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

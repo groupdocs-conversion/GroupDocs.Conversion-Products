@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:37
+date: 2022-10-12T19:57:44
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: ODP bis PNG in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei ODP zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.odp");
-        // Konvertierungsoptionen für das Zielformat PNG vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-        // In das PNG-Format konvertieren
-        converter.Convert("output.png", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.odp");
+          // Konvertierungsoptionen für das Zielformat PNG vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
+          // In das PNG-Format konvertieren
+          converter.Convert("output.png", convertOptions);
         ```
 
 demos:

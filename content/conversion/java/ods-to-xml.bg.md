@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:44
+date: 2022-10-12T20:00:54
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: ODS до XML на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл ODS за конвертиране
-        Converter converter = new Converter("input.ods");
-        // Подгответе опции за преобразуване за целеви формат XML
-        ConvertOptions convertOptions = new FileType().fromExtension("xml").getConvertOptions();
-        // Конвертиране във формат XML
-        converter.convert("output.xml", convertOptions);
+          Converter converter = new Converter("input.ods");
+          // Подгответе опции за преобразуване за целеви формат XML
+          ConvertOptions convertOptions = new FileType().fromExtension("xml").getConvertOptions();
+          // Конвертиране във формат XML
+          converter.convert("output.xml", convertOptions);
         ```
 
 demos:

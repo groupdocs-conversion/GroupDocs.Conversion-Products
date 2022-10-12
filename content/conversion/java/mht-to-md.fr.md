@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:13
+date: 2022-10-12T19:58:46
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MHT à MD en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source MHT pour la conversion
-        Converter converter = new Converter("input.mht");
-        // Préparer les options de conversion pour le format cible MD
-        ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
-        // Convertir au format MD
-        converter.convert("output.md", convertOptions);
+          Converter converter = new Converter("input.mht");
+          // Préparer les options de conversion pour le format cible MD
+          ConvertOptions convertOptions = new FileType().fromExtension("md").getConvertOptions();
+          // Convertir au format MD
+          converter.convert("output.md", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:49
+date: 2022-10-12T19:58:07
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMLX a EMLX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente EMLX para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.emlx");
-        // Preparar opciones de conversión para el formato de destino EMLX
-        var convertOptions = converter.GetPossibleConversions()["emlx"].ConvertOptions;
-        // Convertir al formato EMLX
-        converter.Convert("output.emlx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emlx");
+          // Preparar opciones de conversión para el formato de destino EMLX
+          var convertOptions = converter.GetPossibleConversions()["emlx"].ConvertOptions;
+          // Convertir al formato EMLX
+          converter.Convert("output.emlx", convertOptions);
         ```
 
 demos:

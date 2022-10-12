@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:21
+date: 2022-10-12T19:57:20
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: OTP to EPUB in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file OTP for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.otp");
-        // Prepare conversion options for target format EPUB
-        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // Convert to EPUB format
-        converter.Convert("output.epub", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.otp");
+          // Prepare conversion options for target format EPUB
+          var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+          // Convert to EPUB format
+          converter.Convert("output.epub", convertOptions);
         ```
 
 demos:

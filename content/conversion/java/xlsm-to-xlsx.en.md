@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:32
+date: 2022-10-12T19:57:37
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSM to XLSX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file XLSM for conversion
-        Converter converter = new Converter("input.xlsm");
-        // Prepare conversion options for target format XLSX
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
-        // Convert to XLSX format
-        converter.convert("output.xlsx", convertOptions);
+          Converter converter = new Converter("input.xlsm");
+          // Prepare conversion options for target format XLSX
+          ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
+          // Convert to XLSX format
+          converter.convert("output.xlsx", convertOptions);
         ```
 
 demos:

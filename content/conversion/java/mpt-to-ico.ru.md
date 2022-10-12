@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:53
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPT в ICO на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл MPT для преобразования
-        Converter converter = new Converter("input.mpt");
-        // Подготовьте параметры преобразования для целевого формата ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // Преобразование в формат ICO
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.mpt");
+          // Подготовьте параметры преобразования для целевого формата ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // Преобразование в формат ICO
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:05
+date: 2022-10-12T19:58:32
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2K à PPT en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source J2K pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.j2k");
-        // Préparer les options de conversion pour le format cible PPT
-        var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
-        // Convertir au format PPT
-        converter.Convert("output.ppt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.j2k");
+          // Préparer les options de conversion pour le format cible PPT
+          var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
+          // Convertir au format PPT
+          converter.Convert("output.ppt", convertOptions);
         ```
 
 demos:

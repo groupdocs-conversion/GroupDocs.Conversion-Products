@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:44
+date: 2022-10-12T20:00:55
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OST до PSB на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл OST за конвертиране
-        Converter converter = new Converter("input.ost");
-        // Подгответе опции за преобразуване за целеви формат PSB
-        ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
-        // Конвертиране във формат PSB
-        converter.convert("output.psb", convertOptions);
+          Converter converter = new Converter("input.ost");
+          // Подгответе опции за преобразуване за целеви формат PSB
+          ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
+          // Конвертиране във формат PSB
+          converter.convert("output.psb", convertOptions);
         ```
 
 demos:

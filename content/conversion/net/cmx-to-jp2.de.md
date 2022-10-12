@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:33
+date: 2022-10-12T19:57:38
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CMX bis JP2 in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei CMX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.cmx");
-        // Konvertierungsoptionen für das Zielformat JP2 vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
-        // In das JP2-Format konvertieren
-        converter.Convert("output.jp2", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cmx");
+          // Konvertierungsoptionen für das Zielformat JP2 vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
+          // In das JP2-Format konvertieren
+          converter.Convert("output.jp2", convertOptions);
         ```
 
 demos:

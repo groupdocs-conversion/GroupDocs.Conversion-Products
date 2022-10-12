@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:10
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMLX в TIF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл EMLX для конвертації
-        Converter converter = new Converter("input.emlx");
-        // Задайте параметри перетворення для цільового формату TIF
-        ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
-        // Перетворіть файл у TIF формат
-        converter.convert("output.tif", convertOptions);
+          Converter converter = new Converter("input.emlx");
+          // Задайте параметри перетворення для цільового формату TIF
+          ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
+          // Перетворіть файл у TIF формат
+          converter.convert("output.tif", convertOptions);
         ```
 
 demos:

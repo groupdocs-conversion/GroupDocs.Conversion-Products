@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:50
+date: 2022-10-12T19:59:42
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX в HTML на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл MBOX для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Задайте параметры преобразования для целевого формата HTML
-        var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
-        // Преобразуйте файл в HTML формат
-        converter.Convert("output.html", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mbox");
+          // Задайте параметры преобразования для целевого формата HTML
+          var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
+          // Преобразуйте файл в HTML формат
+          converter.Convert("output.html", convertOptions);
         ```
 
 demos:

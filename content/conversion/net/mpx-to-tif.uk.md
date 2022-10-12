@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:06
+date: 2022-10-12T20:00:03
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPX в TIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл MPX для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.mpx");
-        // Задайте параметри перетворення для цільового формату TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Перетворіть файл у TIF формат
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpx");
+          // Задайте параметри перетворення для цільового формату TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Перетворіть файл у TIF формат
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

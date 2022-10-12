@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:43
+date: 2022-10-12T19:57:57
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX bis MHT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei MBOX zur Konvertierung laden
-        Converter converter = new Converter("input.mbox");
-        // Konvertierungsoptionen für das Zielformat MHT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
-        // In das MHT-Format konvertieren
-        converter.convert("output.mht", convertOptions);
+          Converter converter = new Converter("input.mbox");
+          // Konvertierungsoptionen für das Zielformat MHT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
+          // In das MHT-Format konvertieren
+          converter.convert("output.mht", convertOptions);
         ```
 
 demos:

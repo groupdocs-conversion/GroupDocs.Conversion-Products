@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:00
+date: 2022-10-12T19:59:56
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF в SVG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл VCF для преобразования
-        Converter converter = new Converter("input.vcf");
-        // Подготовьте параметры преобразования для целевого формата SVG
-        ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
-        // Преобразование в формат SVG
-        converter.convert("output.svg", convertOptions);
+          Converter converter = new Converter("input.vcf");
+          // Подготовьте параметры преобразования для целевого формата SVG
+          ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
+          // Преобразование в формат SVG
+          converter.convert("output.svg", convertOptions);
         ```
 
 demos:

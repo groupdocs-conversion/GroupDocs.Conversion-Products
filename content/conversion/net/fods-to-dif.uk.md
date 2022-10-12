@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:04
+date: 2022-10-12T20:00:01
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: FODS в DIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл FODS для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.fods");
-        // Задайте параметри перетворення для цільового формату DIF
-        var convertOptions = converter.GetPossibleConversions()["dif"].ConvertOptions;
-        // Перетворіть файл у DIF формат
-        converter.Convert("output.dif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.fods");
+          // Задайте параметри перетворення для цільового формату DIF
+          var convertOptions = converter.GetPossibleConversions()["dif"].ConvertOptions;
+          // Перетворіть файл у DIF формат
+          converter.Convert("output.dif", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:41
+date: 2022-10-12T20:00:51
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOTX до XPS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл DOTX за конвертиране
-        Converter converter = new Converter("input.dotx");
-        // Подгответе опции за преобразуване за целеви формат XPS
-        ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
-        // Конвертиране във формат XPS
-        converter.convert("output.xps", convertOptions);
+          Converter converter = new Converter("input.dotx");
+          // Подгответе опции за преобразуване за целеви формат XPS
+          ConvertOptions convertOptions = new FileType().fromExtension("xps").getConvertOptions();
+          // Конвертиране във формат XPS
+          converter.convert("output.xps", convertOptions);
         ```
 
 demos:

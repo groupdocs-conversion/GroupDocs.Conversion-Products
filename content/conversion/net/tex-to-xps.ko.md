@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:38
+date: 2022-10-12T19:59:25
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: C#의 TEX에서 XPS까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 변환을 위해 소스 파일 TEX 로드
-        var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // 대상 형식 XPS에 대한 변환 옵션 준비
-        var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
-        // XPS 형식으로 변환
-        converter.Convert("output.xps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tex");
+          // 대상 형식 XPS에 대한 변환 옵션 준비
+          var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
+          // XPS 형식으로 변환
+          converter.Convert("output.xps", convertOptions);
         ```
 
 demos:

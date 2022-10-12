@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:47
+date: 2022-10-12T19:59:39
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: Java의 XML에서 XLTX까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 변환을 위해 소스 파일 XML 로드
-        Converter converter = new Converter("input.xml");
-        // 대상 형식 XLTX에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("xltx").getConvertOptions();
-        // XLTX 형식으로 변환
-        converter.convert("output.xltx", convertOptions);
+          Converter converter = new Converter("input.xml");
+          // 대상 형식 XLTX에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("xltx").getConvertOptions();
+          // XLTX 형식으로 변환
+          converter.convert("output.xltx", convertOptions);
         ```
 
 demos:

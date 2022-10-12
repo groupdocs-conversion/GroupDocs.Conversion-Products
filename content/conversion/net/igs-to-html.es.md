@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:50
+date: 2022-10-12T19:58:09
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS a HTML en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente IGS para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.igs");
-        // Preparar opciones de conversión para el formato de destino HTML
-        var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
-        // Convertir al formato HTML
-        converter.Convert("output.html", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.igs");
+          // Preparar opciones de conversión para el formato de destino HTML
+          var convertOptions = converter.GetPossibleConversions()["html"].ConvertOptions;
+          // Convertir al formato HTML
+          converter.Convert("output.html", convertOptions);
         ```
 
 demos:

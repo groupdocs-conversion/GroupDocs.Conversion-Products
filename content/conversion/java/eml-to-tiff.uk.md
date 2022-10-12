@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:10
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EML в TIFF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл EML для конвертації
-        Converter converter = new Converter("input.eml");
-        // Задайте параметри перетворення для цільового формату TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Перетворіть файл у TIFF формат
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.eml");
+          // Задайте параметри перетворення для цільового формату TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Перетворіть файл у TIFF формат
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

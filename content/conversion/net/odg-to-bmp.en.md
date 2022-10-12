@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:21
+date: 2022-10-12T19:57:19
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ODG to BMP in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file ODG for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.odg");
-        // Prepare conversion options for target format BMP
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // Convert to BMP format
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.odg");
+          // Prepare conversion options for target format BMP
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // Convert to BMP format
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

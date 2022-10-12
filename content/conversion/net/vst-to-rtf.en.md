@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:23
+date: 2022-10-12T19:57:24
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST to RTF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file VST for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vst");
-        // Prepare conversion options for target format RTF
-        var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
-        // Convert to RTF format
-        converter.Convert("output.rtf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vst");
+          // Prepare conversion options for target format RTF
+          var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
+          // Convert to RTF format
+          converter.Convert("output.rtf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:31
+date: 2022-10-12T20:00:36
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: Java 中的 TSV 到 XLTX
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 TSV 进行转换
-        Converter converter = new Converter("input.tsv");
-        // 为目标格式 XLTX 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("xltx").getConvertOptions();
-        // 转换为 XLTX 格式
-        converter.convert("output.xltx", convertOptions);
+          Converter converter = new Converter("input.tsv");
+          // 为目标格式 XLTX 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("xltx").getConvertOptions();
+          // 转换为 XLTX 格式
+          converter.convert("output.xltx", convertOptions);
         ```
 
 demos:

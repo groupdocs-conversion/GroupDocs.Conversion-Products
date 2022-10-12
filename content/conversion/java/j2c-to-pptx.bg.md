@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:42
+date: 2022-10-12T20:00:52
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2C до PPTX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл J2C за конвертиране
-        Converter converter = new Converter("input.j2c");
-        // Подгответе опции за преобразуване за целеви формат PPTX
-        ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
-        // Конвертиране във формат PPTX
-        converter.convert("output.pptx", convertOptions);
+          Converter converter = new Converter("input.j2c");
+          // Подгответе опции за преобразуване за целеви формат PPTX
+          ConvertOptions convertOptions = new FileType().fromExtension("pptx").getConvertOptions();
+          // Конвертиране във формат PPTX
+          converter.convert("output.pptx", convertOptions);
         ```
 
 demos:

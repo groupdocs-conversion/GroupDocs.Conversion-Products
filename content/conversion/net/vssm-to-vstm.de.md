@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:39
+date: 2022-10-12T19:57:49
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSSM bis VSTM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei VSSM zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.vssm");
-        // Konvertierungsoptionen für das Zielformat VSTM vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["vstm"].ConvertOptions;
-        // In das VSTM-Format konvertieren
-        converter.Convert("output.vstm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vssm");
+          // Konvertierungsoptionen für das Zielformat VSTM vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["vstm"].ConvertOptions;
+          // In das VSTM-Format konvertieren
+          converter.Convert("output.vstm", convertOptions);
         ```
 
 demos:

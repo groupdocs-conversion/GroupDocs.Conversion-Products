@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:54
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DXF bis POTM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DXF zur Konvertierung laden
-        Converter converter = new Converter("input.dxf");
-        // Konvertierungsoptionen für das Zielformat POTM vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("potm").getConvertOptions();
-        // In das POTM-Format konvertieren
-        converter.convert("output.potm", convertOptions);
+          Converter converter = new Converter("input.dxf");
+          // Konvertierungsoptionen für das Zielformat POTM vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("potm").getConvertOptions();
+          // In das POTM-Format konvertieren
+          converter.convert("output.potm", convertOptions);
         ```
 
 demos:

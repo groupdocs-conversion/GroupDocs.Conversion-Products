@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:48
+date: 2022-10-12T19:59:40
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWG в DOCM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл DWG для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.dwg");
-        // Задайте параметры преобразования для целевого формата DOCM
-        var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // Преобразуйте файл в DOCM формат
-        converter.Convert("output.docm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwg");
+          // Задайте параметры преобразования для целевого формата DOCM
+          var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
+          // Преобразуйте файл в DOCM формат
+          converter.Convert("output.docm", convertOptions);
         ```
 
 demos:

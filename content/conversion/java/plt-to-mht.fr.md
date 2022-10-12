@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:14
+date: 2022-10-12T19:58:47
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: PLT à MHT en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source PLT pour la conversion
-        Converter converter = new Converter("input.plt");
-        // Préparer les options de conversion pour le format cible MHT
-        ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
-        // Convertir au format MHT
-        converter.convert("output.mht", convertOptions);
+          Converter converter = new Converter("input.plt");
+          // Préparer les options de conversion pour le format cible MHT
+          ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
+          // Convertir au format MHT
+          converter.convert("output.mht", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:06
+date: 2022-10-12T20:00:03
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP в PPT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл MPP для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.mpp");
-        // Задайте параметри перетворення для цільового формату PPT
-        var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
-        // Перетворіть файл у PPT формат
-        converter.Convert("output.ppt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpp");
+          // Задайте параметри перетворення для цільового формату PPT
+          var convertOptions = converter.GetPossibleConversions()["ppt"].ConvertOptions;
+          // Перетворіть файл у PPT формат
+          converter.Convert("output.ppt", convertOptions);
         ```
 
 demos:

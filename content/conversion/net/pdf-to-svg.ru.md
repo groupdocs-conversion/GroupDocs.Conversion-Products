@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:51
+date: 2022-10-12T19:59:44
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PDF в SVG на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл PDF для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.pdf");
-        // Задайте параметры преобразования для целевого формата SVG
-        var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // Преобразуйте файл в SVG формат
-        converter.Convert("output.svg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pdf");
+          // Задайте параметры преобразования для целевого формата SVG
+          var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
+          // Преобразуйте файл в SVG формат
+          converter.Convert("output.svg", convertOptions);
         ```
 
 demos:

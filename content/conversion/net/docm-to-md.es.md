@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:48
+date: 2022-10-12T19:58:06
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOCM a MD en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente DOCM para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.docm");
-        // Preparar opciones de conversión para el formato de destino MD
-        var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
-        // Convertir al formato MD
-        converter.Convert("output.md", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.docm");
+          // Preparar opciones de conversión para el formato de destino MD
+          var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
+          // Convertir al formato MD
+          converter.Convert("output.md", convertOptions);
         ```
 
 demos:

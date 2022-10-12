@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:18
+date: 2022-10-12T19:57:16
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWFX to DOC in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file DWFX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dwfx");
-        // Prepare conversion options for target format DOC
-        var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
-        // Convert to DOC format
-        converter.Convert("output.doc", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwfx");
+          // Prepare conversion options for target format DOC
+          var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
+          // Convert to DOC format
+          converter.Convert("output.doc", convertOptions);
         ```
 
 demos:

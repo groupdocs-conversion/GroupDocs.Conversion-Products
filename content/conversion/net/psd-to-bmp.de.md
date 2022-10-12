@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:38
+date: 2022-10-12T19:57:46
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: PSD bis BMP in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei PSD zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.psd");
-        // Konvertierungsoptionen für das Zielformat BMP vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // In das BMP-Format konvertieren
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.psd");
+          // Konvertierungsoptionen für das Zielformat BMP vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // In das BMP-Format konvertieren
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

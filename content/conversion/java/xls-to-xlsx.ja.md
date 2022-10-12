@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:32
+date: 2022-10-12T19:59:15
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: JavaでXLSからXLSXへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル XLS を読み込みます
-        Converter converter = new Converter("input.xls");
-        // ターゲット形式の変換オプションを準備 XLSX
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
-        // XLSX形式に変換
-        converter.convert("output.xlsx", convertOptions);
+          Converter converter = new Converter("input.xls");
+          // ターゲット形式の変換オプションを準備 XLSX
+          ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
+          // XLSX形式に変換
+          converter.convert("output.xlsx", convertOptions);
         ```
 
 demos:

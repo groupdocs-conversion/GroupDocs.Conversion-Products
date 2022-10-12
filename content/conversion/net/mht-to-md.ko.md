@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:35
+date: 2022-10-12T19:59:21
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C#의 MHT에서 MD까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 변환을 위해 소스 파일 MHT 로드
-        var converter = new GroupDocs.Conversion.Converter("input.mht");
-        // 대상 형식 MD에 대한 변환 옵션 준비
-        var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
-        // MD 형식으로 변환
-        converter.Convert("output.md", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mht");
+          // 대상 형식 MD에 대한 변환 옵션 준비
+          var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
+          // MD 형식으로 변환
+          converter.Convert("output.md", convertOptions);
         ```
 
 demos:

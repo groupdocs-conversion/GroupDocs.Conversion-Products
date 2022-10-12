@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:14
+date: 2022-10-12T20:00:13
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MOBI в EPUB на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл MOBI для конвертації
-        Converter converter = new Converter("input.mobi");
-        // Задайте параметри перетворення для цільового формату EPUB
-        ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
-        // Перетворіть файл у EPUB формат
-        converter.convert("output.epub", convertOptions);
+          Converter converter = new Converter("input.mobi");
+          // Задайте параметри перетворення для цільового формату EPUB
+          ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
+          // Перетворіть файл у EPUB формат
+          converter.convert("output.epub", convertOptions);
         ```
 
 demos:

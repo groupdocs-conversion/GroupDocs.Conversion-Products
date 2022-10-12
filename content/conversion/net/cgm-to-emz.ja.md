@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:18
+date: 2022-10-12T19:58:53
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の CGM から EMZ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル CGM を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.cgm");
-        // ターゲット形式の変換オプションを準備 EMZ
-        var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
-        // EMZ形式に変換
-        converter.Convert("output.emz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cgm");
+          // ターゲット形式の変換オプションを準備 EMZ
+          var convertOptions = converter.GetPossibleConversions()["emz"].ConvertOptions;
+          // EMZ形式に変換
+          converter.Convert("output.emz", convertOptions);
         ```
 
 demos:

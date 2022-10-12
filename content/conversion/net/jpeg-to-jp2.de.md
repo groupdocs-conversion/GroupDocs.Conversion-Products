@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:36
+date: 2022-10-12T19:57:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPEG bis JP2 in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei JPEG zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.jpeg");
-        // Konvertierungsoptionen für das Zielformat JP2 vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
-        // In das JP2-Format konvertieren
-        converter.Convert("output.jp2", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpeg");
+          // Konvertierungsoptionen für das Zielformat JP2 vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
+          // In das JP2-Format konvertieren
+          converter.Convert("output.jp2", convertOptions);
         ```
 
 demos:

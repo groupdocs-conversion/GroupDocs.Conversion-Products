@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:01
+date: 2022-10-12T19:58:26
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: TSV a XLT en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente TSV para la conversión
-        Converter converter = new Converter("input.tsv");
-        // Preparar opciones de conversión para el formato de destino XLT
-        ConvertOptions convertOptions = new FileType().fromExtension("xlt").getConvertOptions();
-        // Convertir al formato XLT
-        converter.convert("output.xlt", convertOptions);
+          Converter converter = new Converter("input.tsv");
+          // Preparar opciones de conversión para el formato de destino XLT
+          ConvertOptions convertOptions = new FileType().fromExtension("xlt").getConvertOptions();
+          // Convertir al formato XLT
+          converter.convert("output.xlt", convertOptions);
         ```
 
 demos:

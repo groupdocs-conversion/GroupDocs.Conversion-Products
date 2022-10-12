@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:00
+date: 2022-10-12T19:58:25
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: SXC a CSV en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente SXC para la conversión
-        Converter converter = new Converter("input.sxc");
-        // Preparar opciones de conversión para el formato de destino CSV
-        ConvertOptions convertOptions = new FileType().fromExtension("csv").getConvertOptions();
-        // Convertir al formato CSV
-        converter.convert("output.csv", convertOptions);
+          Converter converter = new Converter("input.sxc");
+          // Preparar opciones de conversión para el formato de destino CSV
+          ConvertOptions convertOptions = new FileType().fromExtension("csv").getConvertOptions();
+          // Convertir al formato CSV
+          converter.convert("output.csv", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:01
+date: 2022-10-12T19:59:57
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST в PDF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл VST для преобразования
-        Converter converter = new Converter("input.vst");
-        // Подготовьте параметры преобразования для целевого формата PDF
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // Преобразование в формат PDF
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.vst");
+          // Подготовьте параметры преобразования для целевого формата PDF
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // Преобразование в формат PDF
+          converter.convert("output.pdf", convertOptions);
         ```
 
 demos:

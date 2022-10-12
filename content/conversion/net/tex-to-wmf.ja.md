@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:23
+date: 2022-10-12T19:59:00
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: C# の TEX から WMF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル TEX を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // ターゲット形式の変換オプションを準備 WMF
-        var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
-        // WMF形式に変換
-        converter.Convert("output.wmf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tex");
+          // ターゲット形式の変換オプションを準備 WMF
+          var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
+          // WMF形式に変換
+          converter.Convert("output.wmf", convertOptions);
         ```
 
 demos:

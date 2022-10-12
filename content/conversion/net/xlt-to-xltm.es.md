@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:55
+date: 2022-10-12T19:58:16
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLT a XLTM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente XLT para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.xlt");
-        // Preparar opciones de conversión para el formato de destino XLTM
-        var convertOptions = converter.GetPossibleConversions()["xltm"].ConvertOptions;
-        // Convertir al formato XLTM
-        converter.Convert("output.xltm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlt");
+          // Preparar opciones de conversión para el formato de destino XLTM
+          var convertOptions = converter.GetPossibleConversions()["xltm"].ConvertOptions;
+          // Convertir al formato XLTM
+          converter.Convert("output.xltm", convertOptions);
         ```
 
 demos:

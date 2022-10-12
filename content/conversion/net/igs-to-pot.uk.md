@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:05
+date: 2022-10-12T20:00:01
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS в POT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл IGS для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.igs");
-        // Задайте параметри перетворення для цільового формату POT
-        var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
-        // Перетворіть файл у POT формат
-        converter.Convert("output.pot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.igs");
+          // Задайте параметри перетворення для цільового формату POT
+          var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
+          // Перетворіть файл у POT формат
+          converter.Convert("output.pot", convertOptions);
         ```
 
 demos:

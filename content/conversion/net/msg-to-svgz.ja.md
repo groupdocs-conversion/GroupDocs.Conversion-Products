@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:21
+date: 2022-10-12T19:58:57
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の MSG から SVGZ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル MSG を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.msg");
-        // ターゲット形式の変換オプションを準備 SVGZ
-        var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
-        // SVGZ形式に変換
-        converter.Convert("output.svgz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.msg");
+          // ターゲット形式の変換オプションを準備 SVGZ
+          var convertOptions = converter.GetPossibleConversions()["svgz"].ConvertOptions;
+          // SVGZ形式に変換
+          converter.Convert("output.svgz", convertOptions);
         ```
 
 demos:

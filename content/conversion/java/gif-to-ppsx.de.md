@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:55
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: GIF bis PPSX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei GIF zur Konvertierung laden
-        Converter converter = new Converter("input.gif");
-        // Konvertierungsoptionen für das Zielformat PPSX vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
-        // In das PPSX-Format konvertieren
-        converter.convert("output.ppsx", convertOptions);
+          Converter converter = new Converter("input.gif");
+          // Konvertierungsoptionen für das Zielformat PPSX vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
+          // In das PPSX-Format konvertieren
+          converter.convert("output.ppsx", convertOptions);
         ```
 
 demos:

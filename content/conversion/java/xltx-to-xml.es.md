@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:02
+date: 2022-10-12T19:58:28
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTX a XML en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente XLTX para la conversión
-        Converter converter = new Converter("input.xltx");
-        // Preparar opciones de conversión para el formato de destino XML
-        ConvertOptions convertOptions = new FileType().fromExtension("xml").getConvertOptions();
-        // Convertir al formato XML
-        converter.convert("output.xml", convertOptions);
+          Converter converter = new Converter("input.xltx");
+          // Preparar opciones de conversión para el formato de destino XML
+          ConvertOptions convertOptions = new FileType().fromExtension("xml").getConvertOptions();
+          // Convertir al formato XML
+          converter.convert("output.xml", convertOptions);
         ```
 
 demos:

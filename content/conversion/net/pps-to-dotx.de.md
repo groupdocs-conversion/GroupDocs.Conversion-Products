@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:38
+date: 2022-10-12T19:57:46
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPS bis DOTX in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei PPS zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.pps");
-        // Konvertierungsoptionen für das Zielformat DOTX vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
-        // In das DOTX-Format konvertieren
-        converter.Convert("output.dotx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pps");
+          // Konvertierungsoptionen für das Zielformat DOTX vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["dotx"].ConvertOptions;
+          // In das DOTX-Format konvertieren
+          converter.Convert("output.dotx", convertOptions);
         ```
 
 demos:

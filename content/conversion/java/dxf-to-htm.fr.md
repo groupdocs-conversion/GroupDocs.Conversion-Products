@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:11
+date: 2022-10-12T19:58:43
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DXF à HTM en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source DXF pour la conversion
-        Converter converter = new Converter("input.dxf");
-        // Préparer les options de conversion pour le format cible HTM
-        ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
-        // Convertir au format HTM
-        converter.convert("output.htm", convertOptions);
+          Converter converter = new Converter("input.dxf");
+          // Préparer les options de conversion pour le format cible HTM
+          ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
+          // Convertir au format HTM
+          converter.convert("output.htm", convertOptions);
         ```
 
 demos:

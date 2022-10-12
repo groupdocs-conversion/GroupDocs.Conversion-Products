@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:29
+date: 2022-10-12T19:57:32
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPS to TEX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file PPS for conversion
-        Converter converter = new Converter("input.pps");
-        // Prepare conversion options for target format TEX
-        ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
-        // Convert to TEX format
-        converter.convert("output.tex", convertOptions);
+          Converter converter = new Converter("input.pps");
+          // Prepare conversion options for target format TEX
+          ConvertOptions convertOptions = new FileType().fromExtension("tex").getConvertOptions();
+          // Convert to TEX format
+          converter.convert("output.tex", convertOptions);
         ```
 
 demos:

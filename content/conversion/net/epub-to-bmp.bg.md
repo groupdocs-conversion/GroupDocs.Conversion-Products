@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:34
+date: 2022-10-12T20:00:41
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: EPUB до BMP на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл EPUB за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.epub");
-        // Подгответе опции за преобразуване за целеви формат BMP
-        var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
-        // Конвертиране във формат BMP
-        converter.Convert("output.bmp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.epub");
+          // Подгответе опции за преобразуване за целеви формат BMP
+          var convertOptions = converter.GetPossibleConversions()["bmp"].ConvertOptions;
+          // Конвертиране във формат BMP
+          converter.Convert("output.bmp", convertOptions);
         ```
 
 demos:

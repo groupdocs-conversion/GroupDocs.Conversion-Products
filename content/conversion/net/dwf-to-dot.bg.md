@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:34
+date: 2022-10-12T20:00:40
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWF до DOT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл DWF за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.dwf");
-        // Подгответе опции за преобразуване за целеви формат DOT
-        var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
-        // Конвертиране във формат DOT
-        converter.Convert("output.dot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwf");
+          // Подгответе опции за преобразуване за целеви формат DOT
+          var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
+          // Конвертиране във формат DOT
+          converter.Convert("output.dot", convertOptions);
         ```
 
 demos:

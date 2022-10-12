@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:43
+date: 2022-10-12T19:57:57
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: LOG bis PNG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei LOG zur Konvertierung laden
-        Converter converter = new Converter("input.log");
-        // Konvertierungsoptionen für das Zielformat PNG vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // In das PNG-Format konvertieren
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.log");
+          // Konvertierungsoptionen für das Zielformat PNG vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // In das PNG-Format konvertieren
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:23
+date: 2022-10-12T19:59:00
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# の SXC から XLS
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル SXC を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.sxc");
-        // ターゲット形式の変換オプションを準備 XLS
-        var convertOptions = converter.GetPossibleConversions()["xls"].ConvertOptions;
-        // XLS形式に変換
-        converter.Convert("output.xls", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.sxc");
+          // ターゲット形式の変換オプションを準備 XLS
+          var convertOptions = converter.GetPossibleConversions()["xls"].ConvertOptions;
+          // XLS形式に変換
+          converter.Convert("output.xls", convertOptions);
         ```
 
 demos:

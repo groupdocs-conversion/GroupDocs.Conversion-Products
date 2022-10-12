@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:10
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWF в PPS на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл DWF для конвертації
-        Converter converter = new Converter("input.dwf");
-        // Задайте параметри перетворення для цільового формату PPS
-        ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
-        // Перетворіть файл у PPS формат
-        converter.convert("output.pps", convertOptions);
+          Converter converter = new Converter("input.dwf");
+          // Задайте параметри перетворення для цільового формату PPS
+          ConvertOptions convertOptions = new FileType().fromExtension("pps").getConvertOptions();
+          // Перетворіть файл у PPS формат
+          converter.convert("output.pps", convertOptions);
         ```
 
 demos:

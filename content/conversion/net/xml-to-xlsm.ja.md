@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:24
+date: 2022-10-12T19:59:03
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# の XML から XLSM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル XML を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.xml");
-        // ターゲット形式の変換オプションを準備 XLSM
-        var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
-        // XLSM形式に変換
-        converter.Convert("output.xlsm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xml");
+          // ターゲット形式の変換オプションを準備 XLSM
+          var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
+          // XLSM形式に変換
+          converter.Convert("output.xlsm", convertOptions);
         ```
 
 demos:

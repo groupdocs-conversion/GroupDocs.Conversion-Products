@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:10
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWT в POTX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл DWT для конвертації
-        Converter converter = new Converter("input.dwt");
-        // Задайте параметри перетворення для цільового формату POTX
-        ConvertOptions convertOptions = new FileType().fromExtension("potx").getConvertOptions();
-        // Перетворіть файл у POTX формат
-        converter.convert("output.potx", convertOptions);
+          Converter converter = new Converter("input.dwt");
+          // Задайте параметри перетворення для цільового формату POTX
+          ConvertOptions convertOptions = new FileType().fromExtension("potx").getConvertOptions();
+          // Перетворіть файл у POTX формат
+          converter.convert("output.potx", convertOptions);
         ```
 
 demos:

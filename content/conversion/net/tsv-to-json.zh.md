@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:24
+date: 2022-10-12T20:00:26
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# 中的 TSV 到 JSON
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 TSV 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.tsv");
-        // 为目标格式 JSON 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["json"].ConvertOptions;
-        // 转换为 JSON 格式
-        converter.Convert("output.json", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tsv");
+          // 为目标格式 JSON 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["json"].ConvertOptions;
+          // 转换为 JSON 格式
+          converter.Convert("output.json", convertOptions);
         ```
 
 demos:

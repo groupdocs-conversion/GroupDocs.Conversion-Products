@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:18
+date: 2022-10-12T20:00:19
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C# 中的 CAD 到 POT
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 CAD 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.cad");
-        // 为目标格式 POT 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
-        // 转换为 POT 格式
-        converter.Convert("output.pot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cad");
+          // 为目标格式 POT 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["pot"].ConvertOptions;
+          // 转换为 POT 格式
+          converter.Convert("output.pot", convertOptions);
         ```
 
 demos:

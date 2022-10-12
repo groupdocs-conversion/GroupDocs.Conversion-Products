@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:04
+date: 2022-10-12T19:58:31
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMZ à SVG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source EMZ pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.emz");
-        // Préparer les options de conversion pour le format cible SVG
-        var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
-        // Convertir au format SVG
-        converter.Convert("output.svg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emz");
+          // Préparer les options de conversion pour le format cible SVG
+          var convertOptions = converter.GetPossibleConversions()["svg"].ConvertOptions;
+          // Convertir au format SVG
+          converter.Convert("output.svg", convertOptions);
         ```
 
 demos:

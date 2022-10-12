@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:11
+date: 2022-10-12T19:58:42
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOC à TXT en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source DOC pour la conversion
-        Converter converter = new Converter("input.doc");
-        // Préparer les options de conversion pour le format cible TXT
-        ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
-        // Convertir au format TXT
-        converter.convert("output.txt", convertOptions);
+          Converter converter = new Converter("input.doc");
+          // Préparer les options de conversion pour le format cible TXT
+          ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
+          // Convertir au format TXT
+          converter.convert("output.txt", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:35
+date: 2022-10-12T19:57:42
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: HTM bis ODT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei HTM zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.htm");
-        // Konvertierungsoptionen für das Zielformat ODT vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
-        // In das ODT-Format konvertieren
-        converter.Convert("output.odt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.htm");
+          // Konvertierungsoptionen für das Zielformat ODT vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["odt"].ConvertOptions;
+          // In das ODT-Format konvertieren
+          converter.Convert("output.odt", convertOptions);
         ```
 
 demos:

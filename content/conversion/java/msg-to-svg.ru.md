@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:53
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG в SVG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл MSG для преобразования
-        Converter converter = new Converter("input.msg");
-        // Подготовьте параметры преобразования для целевого формата SVG
-        ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
-        // Преобразование в формат SVG
-        converter.convert("output.svg", convertOptions);
+          Converter converter = new Converter("input.msg");
+          // Подготовьте параметры преобразования для целевого формата SVG
+          ConvertOptions convertOptions = new FileType().fromExtension("svg").getConvertOptions();
+          // Преобразование в формат SVG
+          converter.convert("output.svg", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:30
+date: 2022-10-12T19:57:34
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: TSV to FODS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file TSV for conversion
-        Converter converter = new Converter("input.tsv");
-        // Prepare conversion options for target format FODS
-        ConvertOptions convertOptions = new FileType().fromExtension("fods").getConvertOptions();
-        // Convert to FODS format
-        converter.convert("output.fods", convertOptions);
+          Converter converter = new Converter("input.tsv");
+          // Prepare conversion options for target format FODS
+          ConvertOptions convertOptions = new FileType().fromExtension("fods").getConvertOptions();
+          // Convert to FODS format
+          converter.convert("output.fods", convertOptions);
         ```
 
 demos:

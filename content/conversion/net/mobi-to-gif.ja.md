@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:21
+date: 2022-10-12T19:58:57
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C# の MOBI から GIF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル MOBI を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.mobi");
-        // ターゲット形式の変換オプションを準備 GIF
-        var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
-        // GIF形式に変換
-        converter.Convert("output.gif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mobi");
+          // ターゲット形式の変換オプションを準備 GIF
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // GIF形式に変換
+          converter.Convert("output.gif", convertOptions);
         ```
 
 demos:

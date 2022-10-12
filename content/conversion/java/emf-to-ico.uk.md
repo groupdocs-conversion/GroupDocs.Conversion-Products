@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:10
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMF в ICO на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл EMF для конвертації
-        Converter converter = new Converter("input.emf");
-        // Задайте параметри перетворення для цільового формату ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // Перетворіть файл у ICO формат
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.emf");
+          // Задайте параметри перетворення для цільового формату ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // Перетворіть файл у ICO формат
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

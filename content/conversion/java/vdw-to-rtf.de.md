@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:02
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VDW bis RTF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei VDW zur Konvertierung laden
-        Converter converter = new Converter("input.vdw");
-        // Konvertierungsoptionen für das Zielformat RTF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // In das RTF-Format konvertieren
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.vdw");
+          // Konvertierungsoptionen für das Zielformat RTF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // In das RTF-Format konvertieren
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:21
+date: 2022-10-12T19:57:19
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG to WEBP in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file MSG for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.msg");
-        // Prepare conversion options for target format WEBP
-        var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
-        // Convert to WEBP format
-        converter.Convert("output.webp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.msg");
+          // Prepare conversion options for target format WEBP
+          var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
+          // Convert to WEBP format
+          converter.Convert("output.webp", convertOptions);
         ```
 
 demos:

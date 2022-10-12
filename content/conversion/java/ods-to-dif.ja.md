@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:28
+date: 2022-10-12T19:59:09
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: JavaでODSからDIFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル ODS を読み込みます
-        Converter converter = new Converter("input.ods");
-        // ターゲット形式の変換オプションを準備 DIF
-        ConvertOptions convertOptions = new FileType().fromExtension("dif").getConvertOptions();
-        // DIF形式に変換
-        converter.convert("output.dif", convertOptions);
+          Converter converter = new Converter("input.ods");
+          // ターゲット形式の変換オプションを準備 DIF
+          ConvertOptions convertOptions = new FileType().fromExtension("dif").getConvertOptions();
+          // DIF形式に変換
+          converter.convert("output.dif", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:35
+date: 2022-10-12T19:57:42
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: HTM bis OTT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei HTM zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.htm");
-        // Konvertierungsoptionen für das Zielformat OTT vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
-        // In das OTT-Format konvertieren
-        converter.Convert("output.ott", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.htm");
+          // Konvertierungsoptionen für das Zielformat OTT vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["ott"].ConvertOptions;
+          // In das OTT-Format konvertieren
+          converter.Convert("output.ott", convertOptions);
         ```
 
 demos:

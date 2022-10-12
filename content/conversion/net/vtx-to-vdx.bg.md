@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:39
+date: 2022-10-12T20:00:48
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VTX до VDX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл VTX за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.vtx");
-        // Подгответе опции за преобразуване за целеви формат VDX
-        var convertOptions = converter.GetPossibleConversions()["vdx"].ConvertOptions;
-        // Конвертиране във формат VDX
-        converter.Convert("output.vdx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vtx");
+          // Подгответе опции за преобразуване за целеви формат VDX
+          var convertOptions = converter.GetPossibleConversions()["vdx"].ConvertOptions;
+          // Конвертиране във формат VDX
+          converter.Convert("output.vdx", convertOptions);
         ```
 
 demos:

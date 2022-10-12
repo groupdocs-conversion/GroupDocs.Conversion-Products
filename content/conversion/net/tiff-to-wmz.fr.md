@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:08
+date: 2022-10-12T19:58:38
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: TIFF à WMZ en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source TIFF pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.tiff");
-        // Préparer les options de conversion pour le format cible WMZ
-        var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
-        // Convertir au format WMZ
-        converter.Convert("output.wmz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tiff");
+          // Préparer les options de conversion pour le format cible WMZ
+          var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
+          // Convertir au format WMZ
+          converter.Convert("output.wmz", convertOptions);
         ```
 
 demos:

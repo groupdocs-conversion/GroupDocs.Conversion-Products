@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:23
+date: 2022-10-12T19:57:24
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSTM to VTX in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file VSTM for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.vstm");
-        // Prepare conversion options for target format VTX
-        var convertOptions = converter.GetPossibleConversions()["vtx"].ConvertOptions;
-        // Convert to VTX format
-        converter.Convert("output.vtx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vstm");
+          // Prepare conversion options for target format VTX
+          var convertOptions = converter.GetPossibleConversions()["vtx"].ConvertOptions;
+          // Convert to VTX format
+          converter.Convert("output.vtx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:41
+date: 2022-10-12T20:00:51
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWG до HTML на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл DWG за конвертиране
-        Converter converter = new Converter("input.dwg");
-        // Подгответе опции за преобразуване за целеви формат HTML
-        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
-        // Конвертиране във формат HTML
-        converter.convert("output.html", convertOptions);
+          Converter converter = new Converter("input.dwg");
+          // Подгответе опции за преобразуване за целеви формат HTML
+          ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
+          // Конвертиране във формат HTML
+          converter.convert("output.html", convertOptions);
         ```
 
 demos:

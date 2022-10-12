@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:32
+date: 2022-10-12T19:57:36
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: WMZ to TIFF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file WMZ for conversion
-        Converter converter = new Converter("input.wmz");
-        // Prepare conversion options for target format TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Convert to TIFF format
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.wmz");
+          // Prepare conversion options for target format TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Convert to TIFF format
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

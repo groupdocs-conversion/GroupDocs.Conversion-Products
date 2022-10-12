@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:18
+date: 2022-10-12T19:57:16
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWT to DOCM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file DWT for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dwt");
-        // Prepare conversion options for target format DOCM
-        var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // Convert to DOCM format
-        converter.Convert("output.docm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dwt");
+          // Prepare conversion options for target format DOCM
+          var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
+          // Convert to DOCM format
+          converter.Convert("output.docm", convertOptions);
         ```
 
 demos:

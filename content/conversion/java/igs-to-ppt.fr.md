@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:12
+date: 2022-10-12T19:58:44
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS à PPT en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source IGS pour la conversion
-        Converter converter = new Converter("input.igs");
-        // Préparer les options de conversion pour le format cible PPT
-        ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
-        // Convertir au format PPT
-        converter.convert("output.ppt", convertOptions);
+          Converter converter = new Converter("input.igs");
+          // Préparer les options de conversion pour le format cible PPT
+          ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
+          // Convertir au format PPT
+          converter.convert("output.ppt", convertOptions);
         ```
 
 demos:

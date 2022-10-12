@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:23
+date: 2022-10-12T20:00:26
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C# 中的 RTF 到 JPEG
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 RTF 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.rtf");
-        // 为目标格式 JPEG 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
-        // 转换为 JPEG 格式
-        converter.Convert("output.jpeg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.rtf");
+          // 为目标格式 JPEG 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["jpeg"].ConvertOptions;
+          // 转换为 JPEG 格式
+          converter.Convert("output.jpeg", convertOptions);
         ```
 
 demos:

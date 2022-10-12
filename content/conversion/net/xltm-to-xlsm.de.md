@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:40
+date: 2022-10-12T19:57:51
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTM bis XLSM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei XLTM zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.xltm");
-        // Konvertierungsoptionen für das Zielformat XLSM vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
-        // In das XLSM-Format konvertieren
-        converter.Convert("output.xlsm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xltm");
+          // Konvertierungsoptionen für das Zielformat XLSM vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
+          // In das XLSM-Format konvertieren
+          converter.Convert("output.xlsm", convertOptions);
         ```
 
 demos:

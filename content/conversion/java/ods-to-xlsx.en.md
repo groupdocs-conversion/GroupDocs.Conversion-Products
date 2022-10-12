@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:31
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: ODS to XLSX in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file ODS for conversion
-        Converter converter = new Converter("input.ods");
-        // Prepare conversion options for target format XLSX
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
-        // Convert to XLSX format
-        converter.convert("output.xlsx", convertOptions);
+          Converter converter = new Converter("input.ods");
+          // Prepare conversion options for target format XLSX
+          ConvertOptions convertOptions = new FileType().fromExtension("xlsx").getConvertOptions();
+          // Convert to XLSX format
+          converter.convert("output.xlsx", convertOptions);
         ```
 
 demos:

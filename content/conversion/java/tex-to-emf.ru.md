@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:00
+date: 2022-10-12T19:59:56
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: TEX в EMF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл TEX для преобразования
-        Converter converter = new Converter("input.tex");
-        // Подготовьте параметры преобразования для целевого формата EMF
-        ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
-        // Преобразование в формат EMF
-        converter.convert("output.emf", convertOptions);
+          Converter converter = new Converter("input.tex");
+          // Подготовьте параметры преобразования для целевого формата EMF
+          ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
+          // Преобразование в формат EMF
+          converter.convert("output.emf", convertOptions);
         ```
 
 demos:

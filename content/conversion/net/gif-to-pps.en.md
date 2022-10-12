@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:19
+date: 2022-10-12T19:57:17
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: GIF to PPS in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file GIF for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.gif");
-        // Prepare conversion options for target format PPS
-        var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
-        // Convert to PPS format
-        converter.Convert("output.pps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.gif");
+          // Prepare conversion options for target format PPS
+          var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
+          // Convert to PPS format
+          converter.Convert("output.pps", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:16
+date: 2022-10-12T20:00:15
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPTX в TXT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл PPTX для конвертації
-        Converter converter = new Converter("input.pptx");
-        // Задайте параметри перетворення для цільового формату TXT
-        ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
-        // Перетворіть файл у TXT формат
-        converter.convert("output.txt", convertOptions);
+          Converter converter = new Converter("input.pptx");
+          // Задайте параметри перетворення для цільового формату TXT
+          ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
+          // Перетворіть файл у TXT формат
+          converter.convert("output.txt", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:01
+date: 2022-10-12T19:59:57
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSS в ODT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл VSS для преобразования
-        Converter converter = new Converter("input.vss");
-        // Подготовьте параметры преобразования для целевого формата ODT
-        ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
-        // Преобразование в формат ODT
-        converter.convert("output.odt", convertOptions);
+          Converter converter = new Converter("input.vss");
+          // Подготовьте параметры преобразования для целевого формата ODT
+          ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
+          // Преобразование в формат ODT
+          converter.convert("output.odt", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:49
+date: 2022-10-12T19:59:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2K в TIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл J2K для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.j2k");
-        // Задайте параметры преобразования для целевого формата TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Преобразуйте файл в TIF формат
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.j2k");
+          // Задайте параметры преобразования для целевого формата TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Преобразуйте файл в TIF формат
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

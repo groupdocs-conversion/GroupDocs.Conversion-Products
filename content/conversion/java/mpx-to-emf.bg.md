@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:43
+date: 2022-10-12T20:00:54
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPX до EMF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл MPX за конвертиране
-        Converter converter = new Converter("input.mpx");
-        // Подгответе опции за преобразуване за целеви формат EMF
-        ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
-        // Конвертиране във формат EMF
-        converter.convert("output.emf", convertOptions);
+          Converter converter = new Converter("input.mpx");
+          // Подгответе опции за преобразуване за целеви формат EMF
+          ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
+          // Конвертиране във формат EMF
+          converter.convert("output.emf", convertOptions);
         ```
 
 demos:

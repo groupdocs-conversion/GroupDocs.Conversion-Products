@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:11
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: EPUB в WEBP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл EPUB для конвертації
-        Converter converter = new Converter("input.epub");
-        // Задайте параметри перетворення для цільового формату WEBP
-        ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
-        // Перетворіть файл у WEBP формат
-        converter.convert("output.webp", convertOptions);
+          Converter converter = new Converter("input.epub");
+          // Задайте параметри перетворення для цільового формату WEBP
+          ConvertOptions convertOptions = new FileType().fromExtension("webp").getConvertOptions();
+          // Перетворіть файл у WEBP формат
+          converter.convert("output.webp", convertOptions);
         ```
 
 demos:

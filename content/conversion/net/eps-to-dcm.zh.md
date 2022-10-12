@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:20
+date: 2022-10-12T20:00:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# 中的 EPS 到 DCM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 EPS 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.eps");
-        // 为目标格式 DCM 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
-        // 转换为 DCM 格式
-        converter.Convert("output.dcm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.eps");
+          // 为目标格式 DCM 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
+          // 转换为 DCM 格式
+          converter.Convert("output.dcm", convertOptions);
         ```
 
 demos:

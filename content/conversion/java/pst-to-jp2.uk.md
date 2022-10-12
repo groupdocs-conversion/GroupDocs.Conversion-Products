@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:16
+date: 2022-10-12T20:00:15
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PST в JP2 на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл PST для конвертації
-        Converter converter = new Converter("input.pst");
-        // Задайте параметри перетворення для цільового формату JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // Перетворіть файл у JP2 формат
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.pst");
+          // Задайте параметри перетворення для цільового формату JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // Перетворіть файл у JP2 формат
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

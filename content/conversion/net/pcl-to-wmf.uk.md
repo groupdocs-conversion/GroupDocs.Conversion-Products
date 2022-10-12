@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:07
+date: 2022-10-12T20:00:04
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PCL в WMF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл PCL для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.pcl");
-        // Задайте параметри перетворення для цільового формату WMF
-        var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
-        // Перетворіть файл у WMF формат
-        converter.Convert("output.wmf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pcl");
+          // Задайте параметри перетворення для цільового формату WMF
+          var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
+          // Перетворіть файл у WMF формат
+          converter.Convert("output.wmf", convertOptions);
         ```
 
 demos:

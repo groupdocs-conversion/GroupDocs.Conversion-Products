@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:07
+date: 2022-10-12T20:00:05
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPSX в TXT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл PPSX для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.ppsx");
-        // Задайте параметри перетворення для цільового формату TXT
-        var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
-        // Перетворіть файл у TXT формат
-        converter.Convert("output.txt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ppsx");
+          // Задайте параметри перетворення для цільового формату TXT
+          var convertOptions = converter.GetPossibleConversions()["txt"].ConvertOptions;
+          // Перетворіть файл у TXT формат
+          converter.Convert("output.txt", convertOptions);
         ```
 
 demos:

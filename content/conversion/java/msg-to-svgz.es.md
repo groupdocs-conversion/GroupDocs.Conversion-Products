@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:59
+date: 2022-10-12T19:58:22
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG a SVGZ en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente MSG para la conversión
-        Converter converter = new Converter("input.msg");
-        // Preparar opciones de conversión para el formato de destino SVGZ
-        ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
-        // Convertir al formato SVGZ
-        converter.convert("output.svgz", convertOptions);
+          Converter converter = new Converter("input.msg");
+          // Preparar opciones de conversión para el formato de destino SVGZ
+          ConvertOptions convertOptions = new FileType().fromExtension("svgz").getConvertOptions();
+          // Convertir al formato SVGZ
+          converter.convert("output.svgz", convertOptions);
         ```
 
 demos:

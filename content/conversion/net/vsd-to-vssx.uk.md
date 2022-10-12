@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:09
+date: 2022-10-12T20:00:07
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSD в VSSX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл VSD для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.vsd");
-        // Задайте параметри перетворення для цільового формату VSSX
-        var convertOptions = converter.GetPossibleConversions()["vssx"].ConvertOptions;
-        // Перетворіть файл у VSSX формат
-        converter.Convert("output.vssx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vsd");
+          // Задайте параметри перетворення для цільового формату VSSX
+          var convertOptions = converter.GetPossibleConversions()["vssx"].ConvertOptions;
+          // Перетворіть файл у VSSX формат
+          converter.Convert("output.vssx", convertOptions);
         ```
 
 demos:

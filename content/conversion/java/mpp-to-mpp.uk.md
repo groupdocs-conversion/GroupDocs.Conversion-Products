@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:14
+date: 2022-10-12T20:00:13
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP в MPP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл MPP для конвертації
-        Converter converter = new Converter("input.mpp");
-        // Задайте параметри перетворення для цільового формату MPP
-        ConvertOptions convertOptions = new FileType().fromExtension("mpp").getConvertOptions();
-        // Перетворіть файл у MPP формат
-        converter.convert("output.mpp", convertOptions);
+          Converter converter = new Converter("input.mpp");
+          // Задайте параметри перетворення для цільового формату MPP
+          ConvertOptions convertOptions = new FileType().fromExtension("mpp").getConvertOptions();
+          // Перетворіть файл у MPP формат
+          converter.convert("output.mpp", convertOptions);
         ```
 
 demos:

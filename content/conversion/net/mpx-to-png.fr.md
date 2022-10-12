@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:06
+date: 2022-10-12T19:58:34
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPX à PNG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source MPX pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.mpx");
-        // Préparer les options de conversion pour le format cible PNG
-        var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-        // Convertir au format PNG
-        converter.Convert("output.png", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpx");
+          // Préparer les options de conversion pour le format cible PNG
+          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
+          // Convertir au format PNG
+          converter.Convert("output.png", convertOptions);
         ```
 
 demos:

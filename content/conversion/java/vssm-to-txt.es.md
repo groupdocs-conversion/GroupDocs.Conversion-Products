@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:01
+date: 2022-10-12T19:58:26
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSSM a TXT en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente VSSM para la conversión
-        Converter converter = new Converter("input.vssm");
-        // Preparar opciones de conversión para el formato de destino TXT
-        ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
-        // Convertir al formato TXT
-        converter.convert("output.txt", convertOptions);
+          Converter converter = new Converter("input.vssm");
+          // Preparar opciones de conversión para el formato de destino TXT
+          ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
+          // Convertir al formato TXT
+          converter.convert("output.txt", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:33
+date: 2022-10-12T19:57:37
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTM to XLTM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file XLTM for conversion
-        Converter converter = new Converter("input.xltm");
-        // Prepare conversion options for target format XLTM
-        ConvertOptions convertOptions = new FileType().fromExtension("xltm").getConvertOptions();
-        // Convert to XLTM format
-        converter.convert("output.xltm", convertOptions);
+          Converter converter = new Converter("input.xltm");
+          // Prepare conversion options for target format XLTM
+          ConvertOptions convertOptions = new FileType().fromExtension("xltm").getConvertOptions();
+          // Convert to XLTM format
+          converter.convert("output.xltm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:54
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMLX bis PSD in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei EMLX zur Konvertierung laden
-        Converter converter = new Converter("input.emlx");
-        // Konvertierungsoptionen für das Zielformat PSD vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
-        // In das PSD-Format konvertieren
-        converter.convert("output.psd", convertOptions);
+          Converter converter = new Converter("input.emlx");
+          // Konvertierungsoptionen für das Zielformat PSD vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("psd").getConvertOptions();
+          // In das PSD-Format konvertieren
+          converter.convert("output.psd", convertOptions);
         ```
 
 demos:

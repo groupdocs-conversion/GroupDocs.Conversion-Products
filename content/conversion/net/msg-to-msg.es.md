@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:51
+date: 2022-10-12T19:58:11
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG a MSG en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente MSG para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.msg");
-        // Preparar opciones de conversión para el formato de destino MSG
-        var convertOptions = converter.GetPossibleConversions()["msg"].ConvertOptions;
-        // Convertir al formato MSG
-        converter.Convert("output.msg", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.msg");
+          // Preparar opciones de conversión para el formato de destino MSG
+          var convertOptions = converter.GetPossibleConversions()["msg"].ConvertOptions;
+          // Convertir al formato MSG
+          converter.Convert("output.msg", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:20
+date: 2022-10-12T19:57:19
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPX to EMF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file MPX for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.mpx");
-        // Prepare conversion options for target format EMF
-        var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
-        // Convert to EMF format
-        converter.Convert("output.emf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpx");
+          // Prepare conversion options for target format EMF
+          var convertOptions = converter.GetPossibleConversions()["emf"].ConvertOptions;
+          // Convert to EMF format
+          converter.Convert("output.emf", convertOptions);
         ```
 
 demos:

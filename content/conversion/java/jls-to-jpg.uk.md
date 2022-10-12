@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:13
+date: 2022-10-12T20:00:12
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JLS в JPG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл JLS для конвертації
-        Converter converter = new Converter("input.jls");
-        // Задайте параметри перетворення для цільового формату JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Перетворіть файл у JPG формат
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.jls");
+          // Задайте параметри перетворення для цільового формату JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Перетворіть файл у JPG формат
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

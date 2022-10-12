@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:48
+date: 2022-10-12T19:58:06
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CGM a PSB en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente CGM para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.cgm");
-        // Preparar opciones de conversión para el formato de destino PSB
-        var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
-        // Convertir al formato PSB
-        converter.Convert("output.psb", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.cgm");
+          // Preparar opciones de conversión para el formato de destino PSB
+          var convertOptions = converter.GetPossibleConversions()["psb"].ConvertOptions;
+          // Convertir al formato PSB
+          converter.Convert("output.psb", convertOptions);
         ```
 
 demos:

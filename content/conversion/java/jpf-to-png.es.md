@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:58
+date: 2022-10-12T19:58:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPF a PNG en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente JPF para la conversión
-        Converter converter = new Converter("input.jpf");
-        // Preparar opciones de conversión para el formato de destino PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // Convertir al formato PNG
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.jpf");
+          // Preparar opciones de conversión para el formato de destino PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // Convertir al formato PNG
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

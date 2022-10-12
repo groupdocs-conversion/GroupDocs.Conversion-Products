@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:03
+date: 2022-10-12T19:58:29
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DIB à TIF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source DIB pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dib");
-        // Préparer les options de conversion pour le format cible TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Convertir au format TIF
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dib");
+          // Préparer les options de conversion pour le format cible TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Convertir au format TIF
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

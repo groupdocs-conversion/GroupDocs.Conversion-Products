@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:40
+date: 2022-10-12T20:00:49
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTX до TEX на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл XLTX за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.xltx");
-        // Подгответе опции за преобразуване за целеви формат TEX
-        var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
-        // Конвертиране във формат TEX
-        converter.Convert("output.tex", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xltx");
+          // Подгответе опции за преобразуване за целеви формат TEX
+          var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
+          // Конвертиране във формат TEX
+          converter.Convert("output.tex", convertOptions);
         ```
 
 demos:

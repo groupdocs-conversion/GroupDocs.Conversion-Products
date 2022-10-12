@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:08
+date: 2022-10-12T20:00:06
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: TEX в TIF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл TEX для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.tex");
-        // Задайте параметри перетворення для цільового формату TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Перетворіть файл у TIF формат
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tex");
+          // Задайте параметри перетворення для цільового формату TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Перетворіть файл у TIF формат
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

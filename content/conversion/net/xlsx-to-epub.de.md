@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:40
+date: 2022-10-12T19:57:51
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSX bis EPUB in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei XLSX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.xlsx");
-        // Konvertierungsoptionen für das Zielformat EPUB vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // In das EPUB-Format konvertieren
-        converter.Convert("output.epub", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsx");
+          // Konvertierungsoptionen für das Zielformat EPUB vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+          // In das EPUB-Format konvertieren
+          converter.Convert("output.epub", convertOptions);
         ```
 
 demos:

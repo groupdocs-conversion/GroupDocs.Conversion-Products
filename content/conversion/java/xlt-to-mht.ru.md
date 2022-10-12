@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:02
+date: 2022-10-12T19:59:58
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLT в MHT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл XLT для преобразования
-        Converter converter = new Converter("input.xlt");
-        // Подготовьте параметры преобразования для целевого формата MHT
-        ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
-        // Преобразование в формат MHT
-        converter.convert("output.mht", convertOptions);
+          Converter converter = new Converter("input.xlt");
+          // Подготовьте параметры преобразования для целевого формата MHT
+          ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
+          // Преобразование в формат MHT
+          converter.convert("output.mht", convertOptions);
         ```
 
 demos:

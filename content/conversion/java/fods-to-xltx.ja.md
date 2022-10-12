@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:27
+date: 2022-10-12T19:59:06
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: JavaでFODSからXLTXへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル FODS を読み込みます
-        Converter converter = new Converter("input.fods");
-        // ターゲット形式の変換オプションを準備 XLTX
-        ConvertOptions convertOptions = new FileType().fromExtension("xltx").getConvertOptions();
-        // XLTX形式に変換
-        converter.convert("output.xltx", convertOptions);
+          Converter converter = new Converter("input.fods");
+          // ターゲット形式の変換オプションを準備 XLTX
+          ConvertOptions convertOptions = new FileType().fromExtension("xltx").getConvertOptions();
+          // XLTX形式に変換
+          converter.convert("output.xltx", convertOptions);
         ```
 
 demos:

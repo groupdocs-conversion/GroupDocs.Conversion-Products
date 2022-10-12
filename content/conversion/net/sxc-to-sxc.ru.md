@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:52
+date: 2022-10-12T19:59:46
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: SXC в SXC на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл SXC для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.sxc");
-        // Задайте параметры преобразования для целевого формата SXC
-        var convertOptions = converter.GetPossibleConversions()["sxc"].ConvertOptions;
-        // Преобразуйте файл в SXC формат
-        converter.Convert("output.sxc", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.sxc");
+          // Задайте параметры преобразования для целевого формата SXC
+          var convertOptions = converter.GetPossibleConversions()["sxc"].ConvertOptions;
+          // Преобразуйте файл в SXC формат
+          converter.Convert("output.sxc", convertOptions);
         ```
 
 demos:

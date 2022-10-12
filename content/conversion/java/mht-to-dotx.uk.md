@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:14
+date: 2022-10-12T20:00:12
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MHT в DOTX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл MHT для конвертації
-        Converter converter = new Converter("input.mht");
-        // Задайте параметри перетворення для цільового формату DOTX
-        ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
-        // Перетворіть файл у DOTX формат
-        converter.convert("output.dotx", convertOptions);
+          Converter converter = new Converter("input.mht");
+          // Задайте параметри перетворення для цільового формату DOTX
+          ConvertOptions convertOptions = new FileType().fromExtension("dotx").getConvertOptions();
+          // Перетворіть файл у DOTX формат
+          converter.convert("output.dotx", convertOptions);
         ```
 
 demos:

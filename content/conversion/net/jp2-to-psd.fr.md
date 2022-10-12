@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:05
+date: 2022-10-12T19:58:32
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JP2 à PSD en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source JP2 pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.jp2");
-        // Préparer les options de conversion pour le format cible PSD
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // Convertir au format PSD
-        converter.Convert("output.psd", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jp2");
+          // Préparer les options de conversion pour le format cible PSD
+          var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
+          // Convertir au format PSD
+          converter.Convert("output.psd", convertOptions);
         ```
 
 demos:

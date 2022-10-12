@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:25
+date: 2022-10-12T19:57:25
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: XPS to WMZ in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file XPS for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.xps");
-        // Prepare conversion options for target format WMZ
-        var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
-        // Convert to WMZ format
-        converter.Convert("output.wmz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xps");
+          // Prepare conversion options for target format WMZ
+          var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
+          // Convert to WMZ format
+          converter.Convert("output.wmz", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:26
+date: 2022-10-12T20:00:30
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: Java 中的 DOCX 到 DOC
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 DOCX 进行转换
-        Converter converter = new Converter("input.docx");
-        // 为目标格式 DOC 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // 转换为 DOC 格式
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.docx");
+          // 为目标格式 DOC 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // 转换为 DOC 格式
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:31
+date: 2022-10-12T19:57:36
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSSX to VSSM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file VSSX for conversion
-        Converter converter = new Converter("input.vssx");
-        // Prepare conversion options for target format VSSM
-        ConvertOptions convertOptions = new FileType().fromExtension("vssm").getConvertOptions();
-        // Convert to VSSM format
-        converter.convert("output.vssm", convertOptions);
+          Converter converter = new Converter("input.vssx");
+          // Prepare conversion options for target format VSSM
+          ConvertOptions convertOptions = new FileType().fromExtension("vssm").getConvertOptions();
+          // Convert to VSSM format
+          converter.convert("output.vssm", convertOptions);
         ```
 
 demos:

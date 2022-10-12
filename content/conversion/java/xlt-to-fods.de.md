@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:47
+date: 2022-10-12T19:58:05
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLT bis FODS in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei XLT zur Konvertierung laden
-        Converter converter = new Converter("input.xlt");
-        // Konvertierungsoptionen für das Zielformat FODS vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("fods").getConvertOptions();
-        // In das FODS-Format konvertieren
-        converter.convert("output.fods", convertOptions);
+          Converter converter = new Converter("input.xlt");
+          // Konvertierungsoptionen für das Zielformat FODS vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("fods").getConvertOptions();
+          // In das FODS-Format konvertieren
+          converter.convert("output.fods", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:53
+date: 2022-10-12T19:58:13
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PST a XPS en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente PST para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.pst");
-        // Preparar opciones de conversión para el formato de destino XPS
-        var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
-        // Convertir al formato XPS
-        converter.Convert("output.xps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pst");
+          // Preparar opciones de conversión para el formato de destino XPS
+          var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
+          // Convertir al formato XPS
+          converter.Convert("output.xps", convertOptions);
         ```
 
 demos:

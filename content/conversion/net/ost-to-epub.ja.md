@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:21
+date: 2022-10-12T19:58:58
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: C# の OST から EPUB
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル OST を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.ost");
-        // ターゲット形式の変換オプションを準備 EPUB
-        var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
-        // EPUB形式に変換
-        converter.Convert("output.epub", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ost");
+          // ターゲット形式の変換オプションを準備 EPUB
+          var convertOptions = converter.GetPossibleConversions()["epub"].ConvertOptions;
+          // EPUB形式に変換
+          converter.Convert("output.epub", convertOptions);
         ```
 
 demos:

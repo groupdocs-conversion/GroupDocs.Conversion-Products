@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:23
+date: 2022-10-12T19:59:01
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の TIF から PSD
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル TIF を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.tif");
-        // ターゲット形式の変換オプションを準備 PSD
-        var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
-        // PSD形式に変換
-        converter.Convert("output.psd", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tif");
+          // ターゲット形式の変換オプションを準備 PSD
+          var convertOptions = converter.GetPossibleConversions()["psd"].ConvertOptions;
+          // PSD形式に変換
+          converter.Convert("output.psd", convertOptions);
         ```
 
 demos:

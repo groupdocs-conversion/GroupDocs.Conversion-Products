@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:30
+date: 2022-10-12T19:57:34
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: TIFF to JPG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file TIFF for conversion
-        Converter converter = new Converter("input.tiff");
-        // Prepare conversion options for target format JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Convert to JPG format
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.tiff");
+          // Prepare conversion options for target format JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Convert to JPG format
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

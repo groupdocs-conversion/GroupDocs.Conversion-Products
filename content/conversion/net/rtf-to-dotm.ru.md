@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:52
+date: 2022-10-12T19:59:46
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: RTF в DOTM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл RTF для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.rtf");
-        // Задайте параметры преобразования для целевого формата DOTM
-        var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
-        // Преобразуйте файл в DOTM формат
-        converter.Convert("output.dotm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.rtf");
+          // Задайте параметры преобразования для целевого формата DOTM
+          var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
+          // Преобразуйте файл в DOTM формат
+          converter.Convert("output.dotm", convertOptions);
         ```
 
 demos:

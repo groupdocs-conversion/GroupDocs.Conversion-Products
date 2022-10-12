@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:01
+date: 2022-10-12T19:59:58
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: WMF в EMZ на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл WMF для преобразования
-        Converter converter = new Converter("input.wmf");
-        // Подготовьте параметры преобразования для целевого формата EMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
-        // Преобразование в формат EMZ
-        converter.convert("output.emz", convertOptions);
+          Converter converter = new Converter("input.wmf");
+          // Подготовьте параметры преобразования для целевого формата EMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
+          // Преобразование в формат EMZ
+          converter.convert("output.emz", convertOptions);
         ```
 
 demos:

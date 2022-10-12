@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:02
+date: 2022-10-12T19:58:28
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSM a XLSB en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente XLSM para la conversión
-        Converter converter = new Converter("input.xlsm");
-        // Preparar opciones de conversión para el formato de destino XLSB
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
-        // Convertir al formato XLSB
-        converter.convert("output.xlsb", convertOptions);
+          Converter converter = new Converter("input.xlsm");
+          // Preparar opciones de conversión para el formato de destino XLSB
+          ConvertOptions convertOptions = new FileType().fromExtension("xlsb").getConvertOptions();
+          // Convertir al formato XLSB
+          converter.convert("output.xlsb", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:15
+date: 2022-10-12T20:00:14
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: PLT в DOT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл PLT для конвертації
-        Converter converter = new Converter("input.plt");
-        // Задайте параметри перетворення для цільового формату DOT
-        ConvertOptions convertOptions = new FileType().fromExtension("dot").getConvertOptions();
-        // Перетворіть файл у DOT формат
-        converter.convert("output.dot", convertOptions);
+          Converter converter = new Converter("input.plt");
+          // Задайте параметри перетворення для цільового формату DOT
+          ConvertOptions convertOptions = new FileType().fromExtension("dot").getConvertOptions();
+          // Перетворіть файл у DOT формат
+          converter.convert("output.dot", convertOptions);
         ```
 
 demos:

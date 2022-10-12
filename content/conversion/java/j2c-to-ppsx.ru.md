@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:57
+date: 2022-10-12T19:59:51
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2C в PPSX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл J2C для преобразования
-        Converter converter = new Converter("input.j2c");
-        // Подготовьте параметры преобразования для целевого формата PPSX
-        ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
-        // Преобразование в формат PPSX
-        converter.convert("output.ppsx", convertOptions);
+          Converter converter = new Converter("input.j2c");
+          // Подготовьте параметры преобразования для целевого формата PPSX
+          ConvertOptions convertOptions = new FileType().fromExtension("ppsx").getConvertOptions();
+          // Преобразование в формат PPSX
+          converter.convert("output.ppsx", convertOptions);
         ```
 
 demos:

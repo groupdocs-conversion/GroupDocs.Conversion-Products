@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:13
+date: 2022-10-12T20:00:11
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ICO в TIFF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл ICO для конвертації
-        Converter converter = new Converter("input.ico");
-        // Задайте параметри перетворення для цільового формату TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Перетворіть файл у TIFF формат
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.ico");
+          // Задайте параметри перетворення для цільового формату TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Перетворіть файл у TIFF формат
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:30
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MD to JPEG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file MD for conversion
-        Converter converter = new Converter("input.md");
-        // Prepare conversion options for target format JPEG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
-        // Convert to JPEG format
-        converter.convert("output.jpeg", convertOptions);
+          Converter converter = new Converter("input.md");
+          // Prepare conversion options for target format JPEG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
+          // Convert to JPEG format
+          converter.convert("output.jpeg", convertOptions);
         ```
 
 demos:

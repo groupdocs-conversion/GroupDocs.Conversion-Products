@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:15
+date: 2022-10-12T19:58:49
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: RTF à DOCM en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source RTF pour la conversion
-        Converter converter = new Converter("input.rtf");
-        // Préparer les options de conversion pour le format cible DOCM
-        ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
-        // Convertir au format DOCM
-        converter.convert("output.docm", convertOptions);
+          Converter converter = new Converter("input.rtf");
+          // Préparer les options de conversion pour le format cible DOCM
+          ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
+          // Convertir au format DOCM
+          converter.convert("output.docm", convertOptions);
         ```
 
 demos:

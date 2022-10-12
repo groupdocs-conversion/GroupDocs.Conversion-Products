@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:54
+date: 2022-10-12T19:58:14
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: TSV a XML en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente TSV para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.tsv");
-        // Preparar opciones de conversión para el formato de destino XML
-        var convertOptions = converter.GetPossibleConversions()["xml"].ConvertOptions;
-        // Convertir al formato XML
-        converter.Convert("output.xml", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.tsv");
+          // Preparar opciones de conversión para el formato de destino XML
+          var convertOptions = converter.GetPossibleConversions()["xml"].ConvertOptions;
+          // Convertir al formato XML
+          converter.Convert("output.xml", convertOptions);
         ```
 
 demos:

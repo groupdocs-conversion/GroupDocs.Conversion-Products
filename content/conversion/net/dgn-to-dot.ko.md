@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:33
+date: 2022-10-12T19:59:16
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C#의 DGN에서 DOT까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 변환을 위해 소스 파일 DGN 로드
-        var converter = new GroupDocs.Conversion.Converter("input.dgn");
-        // 대상 형식 DOT에 대한 변환 옵션 준비
-        var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
-        // DOT 형식으로 변환
-        converter.Convert("output.dot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dgn");
+          // 대상 형식 DOT에 대한 변환 옵션 준비
+          var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
+          // DOT 형식으로 변환
+          converter.Convert("output.dot", convertOptions);
         ```
 
 demos:

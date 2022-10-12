@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:35
+date: 2022-10-12T20:00:42
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPEG до JP2 на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл JPEG за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.jpeg");
-        // Подгответе опции за преобразуване за целеви формат JP2
-        var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
-        // Конвертиране във формат JP2
-        converter.Convert("output.jp2", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jpeg");
+          // Подгответе опции за преобразуване за целеви формат JP2
+          var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
+          // Конвертиране във формат JP2
+          converter.Convert("output.jp2", convertOptions);
         ```
 
 demos:

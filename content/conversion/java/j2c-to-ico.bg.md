@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:42
+date: 2022-10-12T20:00:52
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2C до ICO на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл J2C за конвертиране
-        Converter converter = new Converter("input.j2c");
-        // Подгответе опции за преобразуване за целеви формат ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // Конвертиране във формат ICO
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.j2c");
+          // Подгответе опции за преобразуване за целеви формат ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // Конвертиране във формат ICO
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

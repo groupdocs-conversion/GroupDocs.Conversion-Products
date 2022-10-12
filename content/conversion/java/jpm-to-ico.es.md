@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:58
+date: 2022-10-12T19:58:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPM a ICO en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente JPM para la conversión
-        Converter converter = new Converter("input.jpm");
-        // Preparar opciones de conversión para el formato de destino ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // Convertir al formato ICO
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.jpm");
+          // Preparar opciones de conversión para el formato de destino ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // Convertir al formato ICO
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:57
+date: 2022-10-12T19:59:52
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JP2 в PNG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл JP2 для преобразования
-        Converter converter = new Converter("input.jp2");
-        // Подготовьте параметры преобразования для целевого формата PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // Преобразование в формат PNG
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.jp2");
+          // Подготовьте параметры преобразования для целевого формата PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // Преобразование в формат PNG
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

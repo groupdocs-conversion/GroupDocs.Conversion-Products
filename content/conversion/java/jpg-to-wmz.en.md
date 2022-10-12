@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:27
+date: 2022-10-12T19:57:29
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPG to WMZ in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file JPG for conversion
-        Converter converter = new Converter("input.jpg");
-        // Prepare conversion options for target format WMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
-        // Convert to WMZ format
-        converter.convert("output.wmz", convertOptions);
+          Converter converter = new Converter("input.jpg");
+          // Prepare conversion options for target format WMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("wmz").getConvertOptions();
+          // Convert to WMZ format
+          converter.convert("output.wmz", convertOptions);
         ```
 
 demos:

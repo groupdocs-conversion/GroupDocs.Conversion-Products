@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:54
+date: 2022-10-12T19:59:48
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XML в XLSM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл XML для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.xml");
-        // Задайте параметры преобразования для целевого формата XLSM
-        var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
-        // Преобразуйте файл в XLSM формат
-        converter.Convert("output.xlsm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xml");
+          // Задайте параметры преобразования для целевого формата XLSM
+          var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
+          // Преобразуйте файл в XLSM формат
+          converter.Convert("output.xlsm", convertOptions);
         ```
 
 demos:

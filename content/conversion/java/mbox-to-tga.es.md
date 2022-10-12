@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:58
+date: 2022-10-12T19:58:21
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX a TGA en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente MBOX para la conversión
-        Converter converter = new Converter("input.mbox");
-        // Preparar opciones de conversión para el formato de destino TGA
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // Convertir al formato TGA
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.mbox");
+          // Preparar opciones de conversión para el formato de destino TGA
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // Convertir al formato TGA
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

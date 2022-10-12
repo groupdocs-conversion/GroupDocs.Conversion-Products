@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:16
+date: 2022-10-12T20:00:16
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: SXC в XLSM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл SXC для конвертації
-        Converter converter = new Converter("input.sxc");
-        // Задайте параметри перетворення для цільового формату XLSM
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsm").getConvertOptions();
-        // Перетворіть файл у XLSM формат
-        converter.convert("output.xlsm", convertOptions);
+          Converter converter = new Converter("input.sxc");
+          // Задайте параметри перетворення для цільового формату XLSM
+          ConvertOptions convertOptions = new FileType().fromExtension("xlsm").getConvertOptions();
+          // Перетворіть файл у XLSM формат
+          converter.convert("output.xlsm", convertOptions);
         ```
 
 demos:

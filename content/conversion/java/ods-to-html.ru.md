@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:58
+date: 2022-10-12T19:59:53
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: ODS в HTML на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл ODS для преобразования
-        Converter converter = new Converter("input.ods");
-        // Подготовьте параметры преобразования для целевого формата HTML
-        ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
-        // Преобразование в формат HTML
-        converter.convert("output.html", convertOptions);
+          Converter converter = new Converter("input.ods");
+          // Подготовьте параметры преобразования для целевого формата HTML
+          ConvertOptions convertOptions = new FileType().fromExtension("html").getConvertOptions();
+          // Преобразование в формат HTML
+          converter.convert("output.html", convertOptions);
         ```
 
 demos:

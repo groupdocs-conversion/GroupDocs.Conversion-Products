@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:27
+date: 2022-10-12T19:57:28
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS to OTP in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file IGS for conversion
-        Converter converter = new Converter("input.igs");
-        // Prepare conversion options for target format OTP
-        ConvertOptions convertOptions = new FileType().fromExtension("otp").getConvertOptions();
-        // Convert to OTP format
-        converter.convert("output.otp", convertOptions);
+          Converter converter = new Converter("input.igs");
+          // Prepare conversion options for target format OTP
+          ConvertOptions convertOptions = new FileType().fromExtension("otp").getConvertOptions();
+          // Convert to OTP format
+          converter.convert("output.otp", convertOptions);
         ```
 
 demos:

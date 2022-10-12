@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:50
+date: 2022-10-12T19:58:09
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2K a PPS en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente J2K para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.j2k");
-        // Preparar opciones de conversión para el formato de destino PPS
-        var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
-        // Convertir al formato PPS
-        converter.Convert("output.pps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.j2k");
+          // Preparar opciones de conversión para el formato de destino PPS
+          var convertOptions = converter.GetPossibleConversions()["pps"].ConvertOptions;
+          // Convertir al formato PPS
+          converter.Convert("output.pps", convertOptions);
         ```
 
 demos:

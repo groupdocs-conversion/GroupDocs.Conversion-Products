@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:24
+date: 2022-10-12T20:00:27
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: C# 中的 VSTM 到 PDF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 VSTM 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.vstm");
-        // 为目标格式 PDF 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // 转换为 PDF 格式
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vstm");
+          // 为目标格式 PDF 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // 转换为 PDF 格式
+          converter.Convert("output.pdf", convertOptions);
         ```
 
 demos:

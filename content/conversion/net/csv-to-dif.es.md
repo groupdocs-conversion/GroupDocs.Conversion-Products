@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:48
+date: 2022-10-12T19:58:06
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: CSV a DIF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente CSV para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.csv");
-        // Preparar opciones de conversión para el formato de destino DIF
-        var convertOptions = converter.GetPossibleConversions()["dif"].ConvertOptions;
-        // Convertir al formato DIF
-        converter.Convert("output.dif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.csv");
+          // Preparar opciones de conversión para el formato de destino DIF
+          var convertOptions = converter.GetPossibleConversions()["dif"].ConvertOptions;
+          // Convertir al formato DIF
+          converter.Convert("output.dif", convertOptions);
         ```
 
 demos:

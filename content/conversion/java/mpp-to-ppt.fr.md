@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:13
+date: 2022-10-12T19:58:46
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP à PPT en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source MPP pour la conversion
-        Converter converter = new Converter("input.mpp");
-        // Préparer les options de conversion pour le format cible PPT
-        ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
-        // Convertir au format PPT
-        converter.convert("output.ppt", convertOptions);
+          Converter converter = new Converter("input.mpp");
+          // Préparer les options de conversion pour le format cible PPT
+          ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
+          // Convertir au format PPT
+          converter.convert("output.ppt", convertOptions);
         ```
 
 demos:

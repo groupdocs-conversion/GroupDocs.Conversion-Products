@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:22
+date: 2022-10-12T20:00:24
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# 中的 OTS 到 MHTML
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 OTS 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.ots");
-        // 为目标格式 MHTML 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
-        // 转换为 MHTML 格式
-        converter.Convert("output.mhtml", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ots");
+          // 为目标格式 MHTML 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["mhtml"].ConvertOptions;
+          // 转换为 MHTML 格式
+          converter.Convert("output.mhtml", convertOptions);
         ```
 
 demos:

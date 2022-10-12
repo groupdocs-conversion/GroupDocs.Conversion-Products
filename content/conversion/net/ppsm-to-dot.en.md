@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:22
+date: 2022-10-12T19:57:21
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPSM to DOT in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file PPSM for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.ppsm");
-        // Prepare conversion options for target format DOT
-        var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
-        // Convert to DOT format
-        converter.Convert("output.dot", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ppsm");
+          // Prepare conversion options for target format DOT
+          var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
+          // Convert to DOT format
+          converter.Convert("output.dot", convertOptions);
         ```
 
 demos:

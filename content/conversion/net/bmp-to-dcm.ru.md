@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:47
+date: 2022-10-12T19:59:39
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: BMP в DCM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл BMP для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.bmp");
-        // Задайте параметры преобразования для целевого формата DCM
-        var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
-        // Преобразуйте файл в DCM формат
-        converter.Convert("output.dcm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.bmp");
+          // Задайте параметры преобразования для целевого формата DCM
+          var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
+          // Преобразуйте файл в DCM формат
+          converter.Convert("output.dcm", convertOptions);
         ```
 
 demos:

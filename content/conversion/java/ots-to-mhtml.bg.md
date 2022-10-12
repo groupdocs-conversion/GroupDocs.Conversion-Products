@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:44
+date: 2022-10-12T20:00:55
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: OTS до MHTML на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл OTS за конвертиране
-        Converter converter = new Converter("input.ots");
-        // Подгответе опции за преобразуване за целеви формат MHTML
-        ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
-        // Конвертиране във формат MHTML
-        converter.convert("output.mhtml", convertOptions);
+          Converter converter = new Converter("input.ots");
+          // Подгответе опции за преобразуване за целеви формат MHTML
+          ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
+          // Конвертиране във формат MHTML
+          converter.convert("output.mhtml", convertOptions);
         ```
 
 demos:

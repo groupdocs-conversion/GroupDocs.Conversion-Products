@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:47
+date: 2022-10-12T19:58:04
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLS bis MHT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei XLS zur Konvertierung laden
-        Converter converter = new Converter("input.xls");
-        // Konvertierungsoptionen für das Zielformat MHT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
-        // In das MHT-Format konvertieren
-        converter.convert("output.mht", convertOptions);
+          Converter converter = new Converter("input.xls");
+          // Konvertierungsoptionen für das Zielformat MHT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
+          // In das MHT-Format konvertieren
+          converter.convert("output.mht", convertOptions);
         ```
 
 demos:

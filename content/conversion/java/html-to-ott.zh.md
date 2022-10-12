@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:27
+date: 2022-10-12T20:00:31
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: Java 中的 HTML 到 OTT
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 HTML 进行转换
-        Converter converter = new Converter("input.html");
-        // 为目标格式 OTT 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
-        // 转换为 OTT 格式
-        converter.convert("output.ott", convertOptions);
+          Converter converter = new Converter("input.html");
+          // 为目标格式 OTT 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("ott").getConvertOptions();
+          // 转换为 OTT 格式
+          converter.convert("output.ott", convertOptions);
         ```
 
 demos:

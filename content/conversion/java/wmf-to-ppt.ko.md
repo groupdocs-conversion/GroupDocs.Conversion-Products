@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:46
+date: 2022-10-12T19:59:38
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java의 WMF에서 PPT까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 변환을 위해 소스 파일 WMF 로드
-        Converter converter = new Converter("input.wmf");
-        // 대상 형식 PPT에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
-        // PPT 형식으로 변환
-        converter.convert("output.ppt", convertOptions);
+          Converter converter = new Converter("input.wmf");
+          // 대상 형식 PPT에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("ppt").getConvertOptions();
+          // PPT 형식으로 변환
+          converter.convert("output.ppt", convertOptions);
         ```
 
 demos:

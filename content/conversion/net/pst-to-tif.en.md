@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:22
+date: 2022-10-12T19:57:22
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PST to TIF in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file PST for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.pst");
-        // Prepare conversion options for target format TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Convert to TIF format
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pst");
+          // Prepare conversion options for target format TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Convert to TIF format
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

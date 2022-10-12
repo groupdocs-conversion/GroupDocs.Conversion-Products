@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:21
+date: 2022-10-12T19:58:58
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C# の OTS から ODS
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル OTS を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.ots");
-        // ターゲット形式の変換オプションを準備 ODS
-        var convertOptions = converter.GetPossibleConversions()["ods"].ConvertOptions;
-        // ODS形式に変換
-        converter.Convert("output.ods", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ots");
+          // ターゲット形式の変換オプションを準備 ODS
+          var convertOptions = converter.GetPossibleConversions()["ods"].ConvertOptions;
+          // ODS形式に変換
+          converter.Convert("output.ods", convertOptions);
         ```
 
 demos:

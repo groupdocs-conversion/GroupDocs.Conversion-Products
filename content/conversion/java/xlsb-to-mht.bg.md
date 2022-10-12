@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:47
+date: 2022-10-12T20:00:58
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSB до MHT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл XLSB за конвертиране
-        Converter converter = new Converter("input.xlsb");
-        // Подгответе опции за преобразуване за целеви формат MHT
-        ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
-        // Конвертиране във формат MHT
-        converter.convert("output.mht", convertOptions);
+          Converter converter = new Converter("input.xlsb");
+          // Подгответе опции за преобразуване за целеви формат MHT
+          ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
+          // Конвертиране във формат MHT
+          converter.convert("output.mht", convertOptions);
         ```
 
 demos:

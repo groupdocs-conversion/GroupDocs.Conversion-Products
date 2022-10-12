@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:00
+date: 2022-10-12T19:58:24
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPT a JPG en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente PPT para la conversión
-        Converter converter = new Converter("input.ppt");
-        // Preparar opciones de conversión para el formato de destino JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Convertir al formato JPG
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.ppt");
+          // Preparar opciones de conversión para el formato de destino JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Convertir al formato JPG
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

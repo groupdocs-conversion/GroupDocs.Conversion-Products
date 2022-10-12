@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:10
+date: 2022-10-12T19:58:41
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CDR à TIF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source CDR pour la conversion
-        Converter converter = new Converter("input.cdr");
-        // Préparer les options de conversion pour le format cible TIF
-        ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
-        // Convertir au format TIF
-        converter.convert("output.tif", convertOptions);
+          Converter converter = new Converter("input.cdr");
+          // Préparer les options de conversion pour le format cible TIF
+          ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
+          // Convertir au format TIF
+          converter.convert("output.tif", convertOptions);
         ```
 
 demos:

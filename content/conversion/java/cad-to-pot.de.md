@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:41
+date: 2022-10-12T19:57:52
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CAD bis POT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei CAD zur Konvertierung laden
-        Converter converter = new Converter("input.cad");
-        // Konvertierungsoptionen für das Zielformat POT vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("pot").getConvertOptions();
-        // In das POT-Format konvertieren
-        converter.convert("output.pot", convertOptions);
+          Converter converter = new Converter("input.cad");
+          // Konvertierungsoptionen für das Zielformat POT vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("pot").getConvertOptions();
+          // In das POT-Format konvertieren
+          converter.convert("output.pot", convertOptions);
         ```
 
 demos:

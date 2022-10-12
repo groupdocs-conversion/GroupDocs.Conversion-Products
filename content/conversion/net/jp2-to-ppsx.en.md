@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:20
+date: 2022-10-12T19:57:18
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JP2 to PPSX in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file JP2 for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.jp2");
-        // Prepare conversion options for target format PPSX
-        var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
-        // Convert to PPSX format
-        converter.Convert("output.ppsx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.jp2");
+          // Prepare conversion options for target format PPSX
+          var convertOptions = converter.GetPossibleConversions()["ppsx"].ConvertOptions;
+          // Convert to PPSX format
+          converter.Convert("output.ppsx", convertOptions);
         ```
 
 demos:

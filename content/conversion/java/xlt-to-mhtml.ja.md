@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:32
+date: 2022-10-12T19:59:15
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: JavaでXLTからMHTMLへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル XLT を読み込みます
-        Converter converter = new Converter("input.xlt");
-        // ターゲット形式の変換オプションを準備 MHTML
-        ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
-        // MHTML形式に変換
-        converter.convert("output.mhtml", convertOptions);
+          Converter converter = new Converter("input.xlt");
+          // ターゲット形式の変換オプションを準備 MHTML
+          ConvertOptions convertOptions = new FileType().fromExtension("mhtml").getConvertOptions();
+          // MHTML形式に変換
+          converter.convert("output.mhtml", convertOptions);
         ```
 
 demos:

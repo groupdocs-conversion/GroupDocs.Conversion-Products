@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:39
+date: 2022-10-12T19:57:48
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF bis PNG in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei VCF zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Konvertierungsoptionen für das Zielformat PNG vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-        // In das PNG-Format konvertieren
-        converter.Convert("output.png", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vcf");
+          // Konvertierungsoptionen für das Zielformat PNG vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
+          // In das PNG-Format konvertieren
+          converter.Convert("output.png", convertOptions);
         ```
 
 demos:

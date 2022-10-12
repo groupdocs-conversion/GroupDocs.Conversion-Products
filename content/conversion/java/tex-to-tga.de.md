@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:01
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: TEX bis TGA in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei TEX zur Konvertierung laden
-        Converter converter = new Converter("input.tex");
-        // Konvertierungsoptionen für das Zielformat TGA vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
-        // In das TGA-Format konvertieren
-        converter.convert("output.tga", convertOptions);
+          Converter converter = new Converter("input.tex");
+          // Konvertierungsoptionen für das Zielformat TGA vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("tga").getConvertOptions();
+          // In das TGA-Format konvertieren
+          converter.convert("output.tga", convertOptions);
         ```
 
 demos:

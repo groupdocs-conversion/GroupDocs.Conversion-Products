@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:59
+date: 2022-10-12T19:59:55
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PST в BMP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл PST для преобразования
-        Converter converter = new Converter("input.pst");
-        // Подготовьте параметры преобразования для целевого формата BMP
-        ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-        // Преобразование в формат BMP
-        converter.convert("output.bmp", convertOptions);
+          Converter converter = new Converter("input.pst");
+          // Подготовьте параметры преобразования для целевого формата BMP
+          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
+          // Преобразование в формат BMP
+          converter.convert("output.bmp", convertOptions);
         ```
 
 demos:

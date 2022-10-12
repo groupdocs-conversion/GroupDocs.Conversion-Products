@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:31
+date: 2022-10-12T20:00:36
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java 中的 VCF 到 JPG
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 VCF 进行转换
-        Converter converter = new Converter("input.vcf");
-        // 为目标格式 JPG 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // 转换为 JPG 格式
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.vcf");
+          // 为目标格式 JPG 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // 转换为 JPG 格式
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

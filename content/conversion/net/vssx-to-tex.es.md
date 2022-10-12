@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:54
+date: 2022-10-12T19:58:15
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSSX a TEX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente VSSX para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.vssx");
-        // Preparar opciones de conversión para el formato de destino TEX
-        var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
-        // Convertir al formato TEX
-        converter.Convert("output.tex", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vssx");
+          // Preparar opciones de conversión para el formato de destino TEX
+          var convertOptions = converter.GetPossibleConversions()["tex"].ConvertOptions;
+          // Convertir al formato TEX
+          converter.Convert("output.tex", convertOptions);
         ```
 
 demos:

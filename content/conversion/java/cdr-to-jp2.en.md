@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:25
+date: 2022-10-12T19:57:26
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CDR to JP2 in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file CDR for conversion
-        Converter converter = new Converter("input.cdr");
-        // Prepare conversion options for target format JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // Convert to JP2 format
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.cdr");
+          // Prepare conversion options for target format JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // Convert to JP2 format
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

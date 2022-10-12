@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:31
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ODG to TIFF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file ODG for conversion
-        Converter converter = new Converter("input.odg");
-        // Prepare conversion options for target format TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Convert to TIFF format
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.odg");
+          // Prepare conversion options for target format TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Convert to TIFF format
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

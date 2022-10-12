@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:29
+date: 2022-10-12T19:59:10
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JavaでONEからPSBへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル ONE を読み込みます
-        Converter converter = new Converter("input.one");
-        // ターゲット形式の変換オプションを準備 PSB
-        ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
-        // PSB形式に変換
-        converter.convert("output.psb", convertOptions);
+          Converter converter = new Converter("input.one");
+          // ターゲット形式の変換オプションを準備 PSB
+          ConvertOptions convertOptions = new FileType().fromExtension("psb").getConvertOptions();
+          // PSB形式に変換
+          converter.convert("output.psb", convertOptions);
         ```
 
 demos:

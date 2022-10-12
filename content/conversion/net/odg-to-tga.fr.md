@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:06
+date: 2022-10-12T19:58:34
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: ODG à TGA en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source ODG pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.odg");
-        // Préparer les options de conversion pour le format cible TGA
-        var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
-        // Convertir au format TGA
-        converter.Convert("output.tga", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.odg");
+          // Préparer les options de conversion pour le format cible TGA
+          var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
+          // Convertir au format TGA
+          converter.Convert("output.tga", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:54
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWT bis HTM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DWT zur Konvertierung laden
-        Converter converter = new Converter("input.dwt");
-        // Konvertierungsoptionen für das Zielformat HTM vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
-        // In das HTM-Format konvertieren
-        converter.convert("output.htm", convertOptions);
+          Converter converter = new Converter("input.dwt");
+          // Konvertierungsoptionen für das Zielformat HTM vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
+          // In das HTM-Format konvertieren
+          converter.convert("output.htm", convertOptions);
         ```
 
 demos:

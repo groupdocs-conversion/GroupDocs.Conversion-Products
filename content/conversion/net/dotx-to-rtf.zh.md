@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:19
+date: 2022-10-12T20:00:20
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C# 中的 DOTX 到 RTF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 DOTX 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.dotx");
-        // 为目标格式 RTF 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
-        // 转换为 RTF 格式
-        converter.Convert("output.rtf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dotx");
+          // 为目标格式 RTF 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["rtf"].ConvertOptions;
+          // 转换为 RTF 格式
+          converter.Convert("output.rtf", convertOptions);
         ```
 
 demos:

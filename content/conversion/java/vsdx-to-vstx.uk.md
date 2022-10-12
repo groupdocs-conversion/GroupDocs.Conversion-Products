@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:17
+date: 2022-10-12T20:00:17
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSDX в VSTX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл VSDX для конвертації
-        Converter converter = new Converter("input.vsdx");
-        // Задайте параметри перетворення для цільового формату VSTX
-        ConvertOptions convertOptions = new FileType().fromExtension("vstx").getConvertOptions();
-        // Перетворіть файл у VSTX формат
-        converter.convert("output.vstx", convertOptions);
+          Converter converter = new Converter("input.vsdx");
+          // Задайте параметри перетворення для цільового формату VSTX
+          ConvertOptions convertOptions = new FileType().fromExtension("vstx").getConvertOptions();
+          // Перетворіть файл у VSTX формат
+          converter.convert("output.vstx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:39
+date: 2022-10-12T19:59:27
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C#의 WMF에서 JP2까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 변환을 위해 소스 파일 WMF 로드
-        var converter = new GroupDocs.Conversion.Converter("input.wmf");
-        // 대상 형식 JP2에 대한 변환 옵션 준비
-        var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
-        // JP2 형식으로 변환
-        converter.Convert("output.jp2", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.wmf");
+          // 대상 형식 JP2에 대한 변환 옵션 준비
+          var convertOptions = converter.GetPossibleConversions()["jp2"].ConvertOptions;
+          // JP2 형식으로 변환
+          converter.Convert("output.jp2", convertOptions);
         ```
 
 demos:

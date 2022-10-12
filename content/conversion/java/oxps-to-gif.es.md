@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:59
+date: 2022-10-12T19:58:23
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OXPS a GIF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente OXPS para la conversión
-        Converter converter = new Converter("input.oxps");
-        // Preparar opciones de conversión para el formato de destino GIF
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // Convertir al formato GIF
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.oxps");
+          // Preparar opciones de conversión para el formato de destino GIF
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // Convertir al formato GIF
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

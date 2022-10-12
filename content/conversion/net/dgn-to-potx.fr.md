@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:03
+date: 2022-10-12T19:58:29
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DGN à POTX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source DGN pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.dgn");
-        // Préparer les options de conversion pour le format cible POTX
-        var convertOptions = converter.GetPossibleConversions()["potx"].ConvertOptions;
-        // Convertir au format POTX
-        converter.Convert("output.potx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.dgn");
+          // Préparer les options de conversion pour le format cible POTX
+          var convertOptions = converter.GetPossibleConversions()["potx"].ConvertOptions;
+          // Convertir au format POTX
+          converter.Convert("output.potx", convertOptions);
         ```
 
 demos:

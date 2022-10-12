@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:56
+date: 2022-10-12T19:59:51
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS в MHT на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл IGS для преобразования
-        Converter converter = new Converter("input.igs");
-        // Подготовьте параметры преобразования для целевого формата MHT
-        ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
-        // Преобразование в формат MHT
-        converter.convert("output.mht", convertOptions);
+          Converter converter = new Converter("input.igs");
+          // Подготовьте параметры преобразования для целевого формата MHT
+          ConvertOptions convertOptions = new FileType().fromExtension("mht").getConvertOptions();
+          // Преобразование в формат MHT
+          converter.convert("output.mht", convertOptions);
         ```
 
 demos:

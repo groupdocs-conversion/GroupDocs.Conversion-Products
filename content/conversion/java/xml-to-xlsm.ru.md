@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:02
+date: 2022-10-12T19:59:58
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XML в XLSM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл XML для преобразования
-        Converter converter = new Converter("input.xml");
-        // Подготовьте параметры преобразования для целевого формата XLSM
-        ConvertOptions convertOptions = new FileType().fromExtension("xlsm").getConvertOptions();
-        // Преобразование в формат XLSM
-        converter.convert("output.xlsm", convertOptions);
+          Converter converter = new Converter("input.xml");
+          // Подготовьте параметры преобразования для целевого формата XLSM
+          ConvertOptions convertOptions = new FileType().fromExtension("xlsm").getConvertOptions();
+          // Преобразование в формат XLSM
+          converter.convert("output.xlsm", convertOptions);
         ```
 
 demos:

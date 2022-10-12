@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:06
+date: 2022-10-12T20:00:03
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPT в XER на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл MPT для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.mpt");
-        // Задайте параметри перетворення для цільового формату XER
-        var convertOptions = converter.GetPossibleConversions()["xer"].ConvertOptions;
-        // Перетворіть файл у XER формат
-        converter.Convert("output.xer", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpt");
+          // Задайте параметри перетворення для цільового формату XER
+          var convertOptions = converter.GetPossibleConversions()["xer"].ConvertOptions;
+          // Перетворіть файл у XER формат
+          converter.Convert("output.xer", convertOptions);
         ```
 
 demos:

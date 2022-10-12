@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:32
+date: 2022-10-12T20:00:37
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: Java 中的 VSX 到 EPUB
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 VSX 进行转换
-        Converter converter = new Converter("input.vsx");
-        // 为目标格式 EPUB 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
-        // 转换为 EPUB 格式
-        converter.convert("output.epub", convertOptions);
+          Converter converter = new Converter("input.vsx");
+          // 为目标格式 EPUB 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("epub").getConvertOptions();
+          // 转换为 EPUB 格式
+          converter.convert("output.epub", convertOptions);
         ```
 
 demos:

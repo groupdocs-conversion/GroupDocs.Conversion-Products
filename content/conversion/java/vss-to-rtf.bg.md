@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:46
+date: 2022-10-12T20:00:57
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSS до RTF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл VSS за конвертиране
-        Converter converter = new Converter("input.vss");
-        // Подгответе опции за преобразуване за целеви формат RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // Конвертиране във формат RTF
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.vss");
+          // Подгответе опции за преобразуване за целеви формат RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // Конвертиране във формат RTF
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

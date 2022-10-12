@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:36
+date: 2022-10-12T19:57:43
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX bis WMZ in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei MBOX zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.mbox");
-        // Konvertierungsoptionen für das Zielformat WMZ vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
-        // In das WMZ-Format konvertieren
-        converter.Convert("output.wmz", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mbox");
+          // Konvertierungsoptionen für das Zielformat WMZ vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["wmz"].ConvertOptions;
+          // In das WMZ-Format konvertieren
+          converter.Convert("output.wmz", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:55
+date: 2022-10-12T19:58:16
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTX a HTM en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente XLTX para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.xltx");
-        // Preparar opciones de conversión para el formato de destino HTM
-        var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
-        // Convertir al formato HTM
-        converter.Convert("output.htm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xltx");
+          // Preparar opciones de conversión para el formato de destino HTM
+          var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
+          // Convertir al formato HTM
+          converter.Convert("output.htm", convertOptions);
         ```
 
 demos:

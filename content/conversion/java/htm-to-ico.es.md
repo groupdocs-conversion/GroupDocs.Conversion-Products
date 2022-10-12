@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:57
+date: 2022-10-12T19:58:20
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: HTM a ICO en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente HTM para la conversión
-        Converter converter = new Converter("input.htm");
-        // Preparar opciones de conversión para el formato de destino ICO
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // Convertir al formato ICO
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.htm");
+          // Preparar opciones de conversión para el formato de destino ICO
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // Convertir al formato ICO
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

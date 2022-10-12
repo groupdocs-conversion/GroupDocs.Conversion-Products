@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:45
+date: 2022-10-12T20:00:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: SVG до JPG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл SVG за конвертиране
-        Converter converter = new Converter("input.svg");
-        // Подгответе опции за преобразуване за целеви формат JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Конвертиране във формат JPG
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.svg");
+          // Подгответе опции за преобразуване за целеви формат JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Конвертиране във формат JPG
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

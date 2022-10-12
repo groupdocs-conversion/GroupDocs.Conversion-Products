@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:33
+date: 2022-10-12T19:57:37
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLT to HTM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file XLT for conversion
-        Converter converter = new Converter("input.xlt");
-        // Prepare conversion options for target format HTM
-        ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
-        // Convert to HTM format
-        converter.convert("output.htm", convertOptions);
+          Converter converter = new Converter("input.xlt");
+          // Prepare conversion options for target format HTM
+          ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
+          // Convert to HTM format
+          converter.convert("output.htm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:08
+date: 2022-10-12T20:00:05
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PST в DCM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл PST для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.pst");
-        // Задайте параметри перетворення для цільового формату DCM
-        var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
-        // Перетворіть файл у DCM формат
-        converter.Convert("output.dcm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pst");
+          // Задайте параметри перетворення для цільового формату DCM
+          var convertOptions = converter.GetPossibleConversions()["dcm"].ConvertOptions;
+          // Перетворіть файл у DCM формат
+          converter.Convert("output.dcm", convertOptions);
         ```
 
 demos:

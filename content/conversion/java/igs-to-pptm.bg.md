@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:42
+date: 2022-10-12T20:00:52
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS до PPTM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл IGS за конвертиране
-        Converter converter = new Converter("input.igs");
-        // Подгответе опции за преобразуване за целеви формат PPTM
-        ConvertOptions convertOptions = new FileType().fromExtension("pptm").getConvertOptions();
-        // Конвертиране във формат PPTM
-        converter.convert("output.pptm", convertOptions);
+          Converter converter = new Converter("input.igs");
+          // Подгответе опции за преобразуване за целеви формат PPTM
+          ConvertOptions convertOptions = new FileType().fromExtension("pptm").getConvertOptions();
+          // Конвертиране във формат PPTM
+          converter.convert("output.pptm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:53
+date: 2022-10-12T19:59:46
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF в WEBP на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл VCF для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Задайте параметры преобразования для целевого формата WEBP
-        var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
-        // Преобразуйте файл в WEBP формат
-        converter.Convert("output.webp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vcf");
+          // Задайте параметры преобразования для целевого формата WEBP
+          var convertOptions = converter.GetPossibleConversions()["webp"].ConvertOptions;
+          // Преобразуйте файл в WEBP формат
+          converter.Convert("output.webp", convertOptions);
         ```
 
 demos:

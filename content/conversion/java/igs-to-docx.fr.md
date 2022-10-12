@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:12
+date: 2022-10-12T19:58:44
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS à DOCX en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source IGS pour la conversion
-        Converter converter = new Converter("input.igs");
-        // Préparer les options de conversion pour le format cible DOCX
-        ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
-        // Convertir au format DOCX
-        converter.convert("output.docx", convertOptions);
+          Converter converter = new Converter("input.igs");
+          // Préparer les options de conversion pour le format cible DOCX
+          ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
+          // Convertir au format DOCX
+          converter.convert("output.docx", convertOptions);
         ```
 
 demos:

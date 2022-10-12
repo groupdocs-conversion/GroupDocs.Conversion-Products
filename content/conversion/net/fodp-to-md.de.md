@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:35
+date: 2022-10-12T19:57:41
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: FODP bis MD in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei FODP zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.fodp");
-        // Konvertierungsoptionen für das Zielformat MD vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
-        // In das MD-Format konvertieren
-        converter.Convert("output.md", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.fodp");
+          // Konvertierungsoptionen für das Zielformat MD vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["md"].ConvertOptions;
+          // In das MD-Format konvertieren
+          converter.Convert("output.md", convertOptions);
         ```
 
 demos:

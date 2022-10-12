@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:35
+date: 2022-10-12T19:57:41
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EPS bis PPTX in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Quelldatei EPS zur Konvertierung laden
-        var converter = new GroupDocs.Conversion.Converter("input.eps");
-        // Konvertierungsoptionen für das Zielformat PPTX vorbereiten
-        var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
-        // In das PPTX-Format konvertieren
-        converter.Convert("output.pptx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.eps");
+          // Konvertierungsoptionen für das Zielformat PPTX vorbereiten
+          var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
+          // In das PPTX-Format konvertieren
+          converter.Convert("output.pptx", convertOptions);
         ```
 
 demos:

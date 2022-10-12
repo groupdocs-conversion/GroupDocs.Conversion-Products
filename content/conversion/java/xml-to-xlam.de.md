@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:48
+date: 2022-10-12T19:58:05
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XML bis XLAM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei XML zur Konvertierung laden
-        Converter converter = new Converter("input.xml");
-        // Konvertierungsoptionen für das Zielformat XLAM vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("xlam").getConvertOptions();
-        // In das XLAM-Format konvertieren
-        converter.convert("output.xlam", convertOptions);
+          Converter converter = new Converter("input.xml");
+          // Konvertierungsoptionen für das Zielformat XLAM vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("xlam").getConvertOptions();
+          // In das XLAM-Format konvertieren
+          converter.convert("output.xlam", convertOptions);
         ```
 
 demos:

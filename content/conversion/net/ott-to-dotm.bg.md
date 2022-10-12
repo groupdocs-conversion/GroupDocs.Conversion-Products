@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:37
+date: 2022-10-12T20:00:44
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: OTT до DOTM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл OTT за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.ott");
-        // Подгответе опции за преобразуване за целеви формат DOTM
-        var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
-        // Конвертиране във формат DOTM
-        converter.Convert("output.dotm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ott");
+          // Подгответе опции за преобразуване за целеви формат DOTM
+          var convertOptions = converter.GetPossibleConversions()["dotm"].ConvertOptions;
+          // Конвертиране във формат DOTM
+          converter.Convert("output.dotm", convertOptions);
         ```
 
 demos:

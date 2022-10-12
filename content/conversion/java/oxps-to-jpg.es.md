@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:59
+date: 2022-10-12T19:58:23
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: OXPS a JPG en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente OXPS para la conversión
-        Converter converter = new Converter("input.oxps");
-        // Preparar opciones de conversión para el formato de destino JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Convertir al formato JPG
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.oxps");
+          // Preparar opciones de conversión para el formato de destino JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Convertir al formato JPG
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

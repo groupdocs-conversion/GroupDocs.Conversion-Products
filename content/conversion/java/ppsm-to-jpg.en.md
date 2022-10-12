@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:29
+date: 2022-10-12T19:57:32
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPSM to JPG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file PPSM for conversion
-        Converter converter = new Converter("input.ppsm");
-        // Prepare conversion options for target format JPG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
-        // Convert to JPG format
-        converter.convert("output.jpg", convertOptions);
+          Converter converter = new Converter("input.ppsm");
+          // Prepare conversion options for target format JPG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpg").getConvertOptions();
+          // Convert to JPG format
+          converter.convert("output.jpg", convertOptions);
         ```
 
 demos:

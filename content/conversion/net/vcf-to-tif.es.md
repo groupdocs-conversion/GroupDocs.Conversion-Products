@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:54
+date: 2022-10-12T19:58:14
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF a TIF en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente VCF para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.vcf");
-        // Preparar opciones de conversión para el formato de destino TIF
-        var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
-        // Convertir al formato TIF
-        converter.Convert("output.tif", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vcf");
+          // Preparar opciones de conversión para el formato de destino TIF
+          var convertOptions = converter.GetPossibleConversions()["tif"].ConvertOptions;
+          // Convertir al formato TIF
+          converter.Convert("output.tif", convertOptions);
         ```
 
 demos:

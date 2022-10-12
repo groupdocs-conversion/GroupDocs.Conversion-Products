@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:27
+date: 2022-10-12T20:00:31
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: Java 中的 FODP 到 DOCM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 FODP 进行转换
-        Converter converter = new Converter("input.fodp");
-        // 为目标格式 DOCM 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
-        // 转换为 DOCM 格式
-        converter.convert("output.docm", convertOptions);
+          Converter converter = new Converter("input.fodp");
+          // 为目标格式 DOCM 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("docm").getConvertOptions();
+          // 转换为 DOCM 格式
+          converter.convert("output.docm", convertOptions);
         ```
 
 demos:

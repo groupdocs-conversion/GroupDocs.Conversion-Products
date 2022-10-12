@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:28
+date: 2022-10-12T19:57:30
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MHTML to ODT in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file MHTML for conversion
-        Converter converter = new Converter("input.mhtml");
-        // Prepare conversion options for target format ODT
-        ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
-        // Convert to ODT format
-        converter.convert("output.odt", convertOptions);
+          Converter converter = new Converter("input.mhtml");
+          // Prepare conversion options for target format ODT
+          ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
+          // Convert to ODT format
+          converter.convert("output.odt", convertOptions);
         ```
 
 demos:

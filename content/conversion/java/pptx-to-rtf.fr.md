@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:15
+date: 2022-10-12T19:58:49
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPTX à RTF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source PPTX pour la conversion
-        Converter converter = new Converter("input.pptx");
-        // Préparer les options de conversion pour le format cible RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // Convertir au format RTF
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.pptx");
+          // Préparer les options de conversion pour le format cible RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // Convertir au format RTF
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

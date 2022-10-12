@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:52
+date: 2022-10-12T19:59:45
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PS в TGA на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл PS для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.ps");
-        // Задайте параметры преобразования для целевого формата TGA
-        var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
-        // Преобразуйте файл в TGA формат
-        converter.Convert("output.tga", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ps");
+          // Задайте параметры преобразования для целевого формата TGA
+          var convertOptions = converter.GetPossibleConversions()["tga"].ConvertOptions;
+          // Преобразуйте файл в TGA формат
+          converter.Convert("output.tga", convertOptions);
         ```
 
 demos:

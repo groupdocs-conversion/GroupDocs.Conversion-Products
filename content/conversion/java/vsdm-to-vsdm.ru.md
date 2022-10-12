@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:00
+date: 2022-10-12T19:59:57
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSDM в VSDM на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл VSDM для преобразования
-        Converter converter = new Converter("input.vsdm");
-        // Подготовьте параметры преобразования для целевого формата VSDM
-        ConvertOptions convertOptions = new FileType().fromExtension("vsdm").getConvertOptions();
-        // Преобразование в формат VSDM
-        converter.convert("output.vsdm", convertOptions);
+          Converter converter = new Converter("input.vsdm");
+          // Подготовьте параметры преобразования для целевого формата VSDM
+          ConvertOptions convertOptions = new FileType().fromExtension("vsdm").getConvertOptions();
+          // Преобразование в формат VSDM
+          converter.convert("output.vsdm", convertOptions);
         ```
 
 demos:

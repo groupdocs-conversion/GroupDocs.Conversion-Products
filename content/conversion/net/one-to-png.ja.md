@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:21
+date: 2022-10-12T19:58:58
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# の ONE から PNG
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル ONE を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.one");
-        // ターゲット形式の変換オプションを準備 PNG
-        var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-        // PNG形式に変換
-        converter.Convert("output.png", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.one");
+          // ターゲット形式の変換オプションを準備 PNG
+          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
+          // PNG形式に変換
+          converter.Convert("output.png", convertOptions);
         ```
 
 demos:

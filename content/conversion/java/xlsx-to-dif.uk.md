@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:18
+date: 2022-10-12T20:00:18
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLSX в DIF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл XLSX для конвертації
-        Converter converter = new Converter("input.xlsx");
-        // Задайте параметри перетворення для цільового формату DIF
-        ConvertOptions convertOptions = new FileType().fromExtension("dif").getConvertOptions();
-        // Перетворіть файл у DIF формат
-        converter.convert("output.dif", convertOptions);
+          Converter converter = new Converter("input.xlsx");
+          // Задайте параметри перетворення для цільового формату DIF
+          ConvertOptions convertOptions = new FileType().fromExtension("dif").getConvertOptions();
+          // Перетворіть файл у DIF формат
+          converter.convert("output.dif", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:24
+date: 2022-10-12T20:00:26
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C# 中的 TXT 到 TIFF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 TXT 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.txt");
-        // 为目标格式 TIFF 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
-        // 转换为 TIFF 格式
-        converter.Convert("output.tiff", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.txt");
+          // 为目标格式 TIFF 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["tiff"].ConvertOptions;
+          // 转换为 TIFF 格式
+          converter.Convert("output.tiff", convertOptions);
         ```
 
 demos:

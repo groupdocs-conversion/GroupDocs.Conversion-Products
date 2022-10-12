@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:24
+date: 2022-10-12T20:00:27
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: C# 中的 VDW 到 VSTX
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 VDW 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.vdw");
-        // 为目标格式 VSTX 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["vstx"].ConvertOptions;
-        // 转换为 VSTX 格式
-        converter.Convert("output.vstx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vdw");
+          // 为目标格式 VSTX 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["vstx"].ConvertOptions;
+          // 转换为 VSTX 格式
+          converter.Convert("output.vstx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:42
+date: 2022-10-12T20:00:52
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: FODP до BMP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл FODP за конвертиране
-        Converter converter = new Converter("input.fodp");
-        // Подгответе опции за преобразуване за целеви формат BMP
-        ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-        // Конвертиране във формат BMP
-        converter.convert("output.bmp", convertOptions);
+          Converter converter = new Converter("input.fodp");
+          // Подгответе опции за преобразуване за целеви формат BMP
+          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
+          // Конвертиране във формат BMP
+          converter.convert("output.bmp", convertOptions);
         ```
 
 demos:

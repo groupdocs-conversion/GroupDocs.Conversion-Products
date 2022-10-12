@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:24
+date: 2022-10-12T20:00:27
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: C# 中的 VSDX 到 DOCM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 VSDX 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.vsdx");
-        // 为目标格式 DOCM 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // 转换为 DOCM 格式
-        converter.Convert("output.docm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.vsdx");
+          // 为目标格式 DOCM 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
+          // 转换为 DOCM 格式
+          converter.Convert("output.docm", convertOptions);
         ```
 
 demos:

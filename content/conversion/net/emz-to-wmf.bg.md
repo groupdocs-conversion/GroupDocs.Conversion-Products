@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:34
+date: 2022-10-12T20:00:41
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMZ до WMF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл EMZ за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.emz");
-        // Подгответе опции за преобразуване за целеви формат WMF
-        var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
-        // Конвертиране във формат WMF
-        converter.Convert("output.wmf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.emz");
+          // Подгответе опции за преобразуване за целеви формат WMF
+          var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
+          // Конвертиране във формат WMF
+          converter.Convert("output.wmf", convertOptions);
         ```
 
 demos:

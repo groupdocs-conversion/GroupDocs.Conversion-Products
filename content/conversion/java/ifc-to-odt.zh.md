@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:28
+date: 2022-10-12T20:00:31
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: Java 中的 IFC 到 ODT
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 加载源文件 IFC 进行转换
-        Converter converter = new Converter("input.ifc");
-        // 为目标格式 ODT 准备转换选项
-        ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
-        // 转换为 ODT 格式
-        converter.convert("output.odt", convertOptions);
+          Converter converter = new Converter("input.ifc");
+          // 为目标格式 ODT 准备转换选项
+          ConvertOptions convertOptions = new FileType().fromExtension("odt").getConvertOptions();
+          // 转换为 ODT 格式
+          converter.convert("output.odt", convertOptions);
         ```
 
 demos:

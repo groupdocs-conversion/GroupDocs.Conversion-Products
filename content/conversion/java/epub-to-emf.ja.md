@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:27
+date: 2022-10-12T19:59:06
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: JavaでEPUBからEMFへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル EPUB を読み込みます
-        Converter converter = new Converter("input.epub");
-        // ターゲット形式の変換オプションを準備 EMF
-        ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
-        // EMF形式に変換
-        converter.convert("output.emf", convertOptions);
+          Converter converter = new Converter("input.epub");
+          // ターゲット形式の変換オプションを準備 EMF
+          ConvertOptions convertOptions = new FileType().fromExtension("emf").getConvertOptions();
+          // EMF形式に変換
+          converter.convert("output.emf", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:10
+date: 2022-10-12T19:58:41
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: CSV à HTM en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source CSV pour la conversion
-        Converter converter = new Converter("input.csv");
-        // Préparer les options de conversion pour le format cible HTM
-        ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
-        // Convertir au format HTM
-        converter.convert("output.htm", convertOptions);
+          Converter converter = new Converter("input.csv");
+          // Préparer les options de conversion pour le format cible HTM
+          ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
+          // Convertir au format HTM
+          converter.convert("output.htm", convertOptions);
         ```
 
 demos:

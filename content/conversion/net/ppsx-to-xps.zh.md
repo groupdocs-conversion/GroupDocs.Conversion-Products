@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:23
+date: 2022-10-12T20:00:25
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C# 中的 PPSX 到 XPS
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 PPSX 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.ppsx");
-        // 为目标格式 XPS 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
-        // 转换为 XPS 格式
-        converter.Convert("output.xps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ppsx");
+          // 为目标格式 XPS 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
+          // 转换为 XPS 格式
+          converter.Convert("output.xps", convertOptions);
         ```
 
 demos:

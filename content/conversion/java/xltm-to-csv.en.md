@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:33
+date: 2022-10-12T19:57:37
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: XLTM to CSV in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file XLTM for conversion
-        Converter converter = new Converter("input.xltm");
-        // Prepare conversion options for target format CSV
-        ConvertOptions convertOptions = new FileType().fromExtension("csv").getConvertOptions();
-        // Convert to CSV format
-        converter.convert("output.csv", convertOptions);
+          Converter converter = new Converter("input.xltm");
+          // Prepare conversion options for target format CSV
+          ConvertOptions convertOptions = new FileType().fromExtension("csv").getConvertOptions();
+          // Convert to CSV format
+          converter.convert("output.csv", convertOptions);
         ```
 
 demos:

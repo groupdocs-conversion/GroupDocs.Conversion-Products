@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:27
+date: 2022-10-12T19:57:29
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: JPEG to JPEG in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file JPEG for conversion
-        Converter converter = new Converter("input.jpeg");
-        // Prepare conversion options for target format JPEG
-        ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
-        // Convert to JPEG format
-        converter.convert("output.jpeg", convertOptions);
+          Converter converter = new Converter("input.jpeg");
+          // Prepare conversion options for target format JPEG
+          ConvertOptions convertOptions = new FileType().fromExtension("jpeg").getConvertOptions();
+          // Convert to JPEG format
+          converter.convert("output.jpeg", convertOptions);
         ```
 
 demos:

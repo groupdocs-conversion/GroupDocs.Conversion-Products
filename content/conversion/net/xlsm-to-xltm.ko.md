@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:39
+date: 2022-10-12T19:59:27
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: C#의 XLSM에서 XLTM까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 변환을 위해 소스 파일 XLSM 로드
-        var converter = new GroupDocs.Conversion.Converter("input.xlsm");
-        // 대상 형식 XLTM에 대한 변환 옵션 준비
-        var convertOptions = converter.GetPossibleConversions()["xltm"].ConvertOptions;
-        // XLTM 형식으로 변환
-        converter.Convert("output.xltm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.xlsm");
+          // 대상 형식 XLTM에 대한 변환 옵션 준비
+          var convertOptions = converter.GetPossibleConversions()["xltm"].ConvertOptions;
+          // XLTM 형식으로 변환
+          converter.Convert("output.xltm", convertOptions);
         ```
 
 demos:

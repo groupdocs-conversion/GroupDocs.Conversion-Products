@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:51
+date: 2022-10-12T19:58:10
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPT a MPX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Cargue el archivo fuente MPT para la conversión
-        var converter = new GroupDocs.Conversion.Converter("input.mpt");
-        // Preparar opciones de conversión para el formato de destino MPX
-        var convertOptions = converter.GetPossibleConversions()["mpx"].ConvertOptions;
-        // Convertir al formato MPX
-        converter.Convert("output.mpx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.mpt");
+          // Preparar opciones de conversión para el formato de destino MPX
+          var convertOptions = converter.GetPossibleConversions()["mpx"].ConvertOptions;
+          // Convertir al formato MPX
+          converter.Convert("output.mpx", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:18
+date: 2022-10-12T20:00:19
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# 中的 AI 到 PPTX
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 AI 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.ai");
-        // 为目标格式 PPTX 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
-        // 转换为 PPTX 格式
-        converter.Convert("output.pptx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ai");
+          // 为目标格式 PPTX 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["pptx"].ConvertOptions;
+          // 转换为 PPTX 格式
+          converter.Convert("output.pptx", convertOptions);
         ```
 
 demos:

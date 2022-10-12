@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:56
+date: 2022-10-12T19:58:17
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: CF2 a DOTM en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente CF2 para la conversión
-        Converter converter = new Converter("input.cf2");
-        // Preparar opciones de conversión para el formato de destino DOTM
-        ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
-        // Convertir al formato DOTM
-        converter.convert("output.dotm", convertOptions);
+          Converter converter = new Converter("input.cf2");
+          // Preparar opciones de conversión para el formato de destino DOTM
+          ConvertOptions convertOptions = new FileType().fromExtension("dotm").getConvertOptions();
+          // Convertir al formato DOTM
+          converter.convert("output.dotm", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:41
+date: 2022-10-12T19:59:30
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java의 EMLX에서 EMLX까지
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 변환을 위해 소스 파일 EMLX 로드
-        Converter converter = new Converter("input.emlx");
-        // 대상 형식 EMLX에 대한 변환 옵션 준비
-        ConvertOptions convertOptions = new FileType().fromExtension("emlx").getConvertOptions();
-        // EMLX 형식으로 변환
-        converter.convert("output.emlx", convertOptions);
+          Converter converter = new Converter("input.emlx");
+          // 대상 형식 EMLX에 대한 변환 옵션 준비
+          ConvertOptions convertOptions = new FileType().fromExtension("emlx").getConvertOptions();
+          // EMLX 형식으로 변환
+          converter.convert("output.emlx", convertOptions);
         ```
 
 demos:

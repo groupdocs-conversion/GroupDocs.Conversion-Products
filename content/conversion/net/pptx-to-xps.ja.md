@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:22
+date: 2022-10-12T19:59:00
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C# の PPTX から XPS
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 変換のためにソース ファイル PPTX を読み込みます
-        var converter = new GroupDocs.Conversion.Converter("input.pptx");
-        // ターゲット形式の変換オプションを準備 XPS
-        var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
-        // XPS形式に変換
-        converter.Convert("output.xps", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pptx");
+          // ターゲット形式の変換オプションを準備 XPS
+          var convertOptions = converter.GetPossibleConversions()["xps"].ConvertOptions;
+          // XPS形式に変換
+          converter.Convert("output.xps", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:23
+date: 2022-10-12T20:00:26
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C# 中的 STL 到 DOCM
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 STL 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // 为目标格式 DOCM 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
-        // 转换为 DOCM 格式
-        converter.Convert("output.docm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.stl");
+          // 为目标格式 DOCM 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["docm"].ConvertOptions;
+          // 转换为 DOCM 格式
+          converter.Convert("output.docm", convertOptions);
         ```
 
 demos:

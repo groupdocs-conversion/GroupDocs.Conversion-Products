@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:57
+date: 2022-10-12T19:58:20
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: J2C a EMZ en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente J2C para la conversión
-        Converter converter = new Converter("input.j2c");
-        // Preparar opciones de conversión para el formato de destino EMZ
-        ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
-        // Convertir al formato EMZ
-        converter.convert("output.emz", convertOptions);
+          Converter converter = new Converter("input.j2c");
+          // Preparar opciones de conversión para el formato de destino EMZ
+          ConvertOptions convertOptions = new FileType().fromExtension("emz").getConvertOptions();
+          // Convertir al formato EMZ
+          converter.convert("output.emz", convertOptions);
         ```
 
 demos:

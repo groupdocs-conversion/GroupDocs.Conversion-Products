@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:06
+date: 2022-10-12T20:00:03
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: ODS в ODS на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл ODS для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.ods");
-        // Задайте параметри перетворення для цільового формату ODS
-        var convertOptions = converter.GetPossibleConversions()["ods"].ConvertOptions;
-        // Перетворіть файл у ODS формат
-        converter.Convert("output.ods", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ods");
+          // Задайте параметри перетворення для цільового формату ODS
+          var convertOptions = converter.GetPossibleConversions()["ods"].ConvertOptions;
+          // Перетворіть файл у ODS формат
+          converter.Convert("output.ods", convertOptions);
         ```
 
 demos:

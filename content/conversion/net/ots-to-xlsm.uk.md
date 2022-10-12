@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:07
+date: 2022-10-12T20:00:04
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: OTS в XLSM на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл OTS для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.ots");
-        // Задайте параметри перетворення для цільового формату XLSM
-        var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
-        // Перетворіть файл у XLSM формат
-        converter.Convert("output.xlsm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ots");
+          // Задайте параметри перетворення для цільового формату XLSM
+          var convertOptions = converter.GetPossibleConversions()["xlsm"].ConvertOptions;
+          // Перетворіть файл у XLSM формат
+          converter.Convert("output.xlsm", convertOptions);
         ```
 
 demos:

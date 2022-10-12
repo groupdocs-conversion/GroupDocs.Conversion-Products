@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:37
+date: 2022-10-12T20:00:45
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPTM до PDF на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Заредете изходния файл PPTM за конвертиране
-        var converter = new GroupDocs.Conversion.Converter("input.pptm");
-        // Подгответе опции за преобразуване за целеви формат PDF
-        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-        // Конвертиране във формат PDF
-        converter.Convert("output.pdf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.pptm");
+          // Подгответе опции за преобразуване за целеви формат PDF
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // Конвертиране във формат PDF
+          converter.Convert("output.pdf", convertOptions);
         ```
 
 demos:

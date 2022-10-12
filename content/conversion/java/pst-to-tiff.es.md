@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:00
+date: 2022-10-12T19:58:25
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PST a TIFF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente PST para la conversión
-        Converter converter = new Converter("input.pst");
-        // Preparar opciones de conversión para el formato de destino TIFF
-        ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
-        // Convertir al formato TIFF
-        converter.convert("output.tiff", convertOptions);
+          Converter converter = new Converter("input.pst");
+          // Preparar opciones de conversión para el formato de destino TIFF
+          ConvertOptions convertOptions = new FileType().fromExtension("tiff").getConvertOptions();
+          // Convertir al formato TIFF
+          converter.convert("output.tiff", convertOptions);
         ```
 
 demos:

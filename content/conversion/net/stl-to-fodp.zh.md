@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:23
+date: 2022-10-12T20:00:26
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: C# 中的 STL 到 FODP
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 STL 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.stl");
-        // 为目标格式 FODP 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
-        // 转换为 FODP 格式
-        converter.Convert("output.fodp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.stl");
+          // 为目标格式 FODP 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
+          // 转换为 FODP 格式
+          converter.Convert("output.fodp", convertOptions);
         ```
 
 demos:

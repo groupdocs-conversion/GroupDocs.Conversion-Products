@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:27
+date: 2022-10-12T19:59:06
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: JavaでFODSからHTMへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル FODS を読み込みます
-        Converter converter = new Converter("input.fods");
-        // ターゲット形式の変換オプションを準備 HTM
-        ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
-        // HTM形式に変換
-        converter.convert("output.htm", convertOptions);
+          Converter converter = new Converter("input.fods");
+          // ターゲット形式の変換オプションを準備 HTM
+          ConvertOptions convertOptions = new FileType().fromExtension("htm").getConvertOptions();
+          // HTM形式に変換
+          converter.convert("output.htm", convertOptions);
         ```
 
 demos:

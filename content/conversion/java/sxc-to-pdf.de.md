@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:46
+date: 2022-10-12T19:58:01
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: SXC bis PDF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei SXC zur Konvertierung laden
-        Converter converter = new Converter("input.sxc");
-        // Konvertierungsoptionen für das Zielformat PDF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // In das PDF-Format konvertieren
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.sxc");
+          // Konvertierungsoptionen für das Zielformat PDF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // In das PDF-Format konvertieren
+          converter.convert("output.pdf", convertOptions);
         ```
 
 demos:

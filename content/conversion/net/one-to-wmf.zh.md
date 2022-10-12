@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:22
+date: 2022-10-12T20:00:24
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# 中的 ONE 到 WMF
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 ONE 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.one");
-        // 为目标格式 WMF 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
-        // 转换为 WMF 格式
-        converter.Convert("output.wmf", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.one");
+          // 为目标格式 WMF 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["wmf"].ConvertOptions;
+          // 转换为 WMF 格式
+          converter.Convert("output.wmf", convertOptions);
         ```
 
 demos:

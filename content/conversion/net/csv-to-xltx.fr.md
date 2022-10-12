@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:03
+date: 2022-10-12T19:58:29
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: CSV à XLTX en C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Charger le fichier source CSV pour la conversion
-        var converter = new GroupDocs.Conversion.Converter("input.csv");
-        // Préparer les options de conversion pour le format cible XLTX
-        var convertOptions = converter.GetPossibleConversions()["xltx"].ConvertOptions;
-        // Convertir au format XLTX
-        converter.Convert("output.xltx", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.csv");
+          // Préparer les options de conversion pour le format cible XLTX
+          var convertOptions = converter.GetPossibleConversions()["xltx"].ConvertOptions;
+          // Convertir au format XLTX
+          converter.Convert("output.xltx", convertOptions);
         ```
 
 demos:

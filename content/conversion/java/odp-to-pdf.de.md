@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:44
+date: 2022-10-12T19:57:58
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: ODP bis PDF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei ODP zur Konvertierung laden
-        Converter converter = new Converter("input.odp");
-        // Konvertierungsoptionen für das Zielformat PDF vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-        // In das PDF-Format konvertieren
-        converter.convert("output.pdf", convertOptions);
+          Converter converter = new Converter("input.odp");
+          // Konvertierungsoptionen für das Zielformat PDF vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+          // In das PDF-Format konvertieren
+          converter.convert("output.pdf", convertOptions);
         ```
 
 demos:

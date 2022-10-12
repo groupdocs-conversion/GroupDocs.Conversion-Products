@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:42
+date: 2022-10-12T19:57:54
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: DWG bis PPTM in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei DWG zur Konvertierung laden
-        Converter converter = new Converter("input.dwg");
-        // Konvertierungsoptionen für das Zielformat PPTM vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("pptm").getConvertOptions();
-        // In das PPTM-Format konvertieren
-        converter.convert("output.pptm", convertOptions);
+          Converter converter = new Converter("input.dwg");
+          // Konvertierungsoptionen für das Zielformat PPTM vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("pptm").getConvertOptions();
+          // In das PPTM-Format konvertieren
+          converter.convert("output.pptm", convertOptions);
         ```
 
 demos:

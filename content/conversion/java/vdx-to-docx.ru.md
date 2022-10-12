@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:00
+date: 2022-10-12T19:59:56
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VDX в DOCX на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл VDX для преобразования
-        Converter converter = new Converter("input.vdx");
-        // Подготовьте параметры преобразования для целевого формата DOCX
-        ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
-        // Преобразование в формат DOCX
-        converter.convert("output.docx", convertOptions);
+          Converter converter = new Converter("input.vdx");
+          // Подготовьте параметры преобразования для целевого формата DOCX
+          ConvertOptions convertOptions = new FileType().fromExtension("docx").getConvertOptions();
+          // Преобразование в формат DOCX
+          converter.convert("output.docx", convertOptions);
         ```
 
 demos:

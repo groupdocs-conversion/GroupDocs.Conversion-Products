@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:12
+date: 2022-10-12T20:00:11
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMZ в BMP на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Завантажте вхідний файл EMZ для конвертації
-        Converter converter = new Converter("input.emz");
-        // Задайте параметри перетворення для цільового формату BMP
-        ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
-        // Перетворіть файл у BMP формат
-        converter.convert("output.bmp", convertOptions);
+          Converter converter = new Converter("input.emz");
+          // Задайте параметри перетворення для цільового формату BMP
+          ConvertOptions convertOptions = new FileType().fromExtension("bmp").getConvertOptions();
+          // Перетворіть файл у BMP формат
+          converter.convert("output.bmp", convertOptions);
         ```
 
 demos:

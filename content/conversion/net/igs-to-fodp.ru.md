@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:49
+date: 2022-10-12T19:59:41
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: IGS в FODP на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Загрузите исходный файл IGS для конвертации
-        var converter = new GroupDocs.Conversion.Converter("input.igs");
-        // Задайте параметры преобразования для целевого формата FODP
-        var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
-        // Преобразуйте файл в FODP формат
-        converter.Convert("output.fodp", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.igs");
+          // Задайте параметры преобразования для целевого формата FODP
+          var convertOptions = converter.GetPossibleConversions()["fodp"].ConvertOptions;
+          // Преобразуйте файл в FODP формат
+          converter.Convert("output.fodp", convertOptions);
         ```
 
 demos:

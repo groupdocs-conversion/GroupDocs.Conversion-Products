@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:14
+date: 2022-10-12T19:58:47
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PCL à JP2 en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Charger le fichier source PCL pour la conversion
-        Converter converter = new Converter("input.pcl");
-        // Préparer les options de conversion pour le format cible JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // Convertir au format JP2
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.pcl");
+          // Préparer les options de conversion pour le format cible JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // Convertir au format JP2
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

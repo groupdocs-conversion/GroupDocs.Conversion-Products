@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:57
+date: 2022-10-12T19:59:52
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: MD в RTF на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл MD для преобразования
-        Converter converter = new Converter("input.md");
-        // Подготовьте параметры преобразования для целевого формата RTF
-        ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
-        // Преобразование в формат RTF
-        converter.convert("output.rtf", convertOptions);
+          Converter converter = new Converter("input.md");
+          // Подготовьте параметры преобразования для целевого формата RTF
+          ConvertOptions convertOptions = new FileType().fromExtension("rtf").getConvertOptions();
+          // Преобразование в формат RTF
+          converter.convert("output.rtf", convertOptions);
         ```
 
 demos:

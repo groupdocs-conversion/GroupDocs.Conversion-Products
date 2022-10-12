@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:56
+date: 2022-10-12T19:59:51
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMZ в JP2 на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Загрузить исходный файл EMZ для преобразования
-        Converter converter = new Converter("input.emz");
-        // Подготовьте параметры преобразования для целевого формата JP2
-        ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
-        // Преобразование в формат JP2
-        converter.convert("output.jp2", convertOptions);
+          Converter converter = new Converter("input.emz");
+          // Подготовьте параметры преобразования для целевого формата JP2
+          ConvertOptions convertOptions = new FileType().fromExtension("jp2").getConvertOptions();
+          // Преобразование в формат JP2
+          converter.convert("output.jp2", convertOptions);
         ```
 
 demos:

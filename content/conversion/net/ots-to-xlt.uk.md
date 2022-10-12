@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:07
+date: 2022-10-12T20:00:04
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: OTS в XLT на C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Завантажте вхідний файл OTS для конвертації
-        var converter = new GroupDocs.Conversion.Converter("input.ots");
-        // Задайте параметри перетворення для цільового формату XLT
-        var convertOptions = converter.GetPossibleConversions()["xlt"].ConvertOptions;
-        // Перетворіть файл у XLT формат
-        converter.Convert("output.xlt", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.ots");
+          // Задайте параметри перетворення для цільового формату XLT
+          var convertOptions = converter.GetPossibleConversions()["xlt"].ConvertOptions;
+          // Перетворіть файл у XLT формат
+          converter.Convert("output.xlt", convertOptions);
         ```
 
 demos:

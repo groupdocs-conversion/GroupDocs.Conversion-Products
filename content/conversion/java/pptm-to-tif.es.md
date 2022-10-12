@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:00
+date: 2022-10-12T19:58:24
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPTM a TIF en Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Cargue el archivo fuente PPTM para la conversión
-        Converter converter = new Converter("input.pptm");
-        // Preparar opciones de conversión para el formato de destino TIF
-        ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
-        // Convertir al formato TIF
-        converter.convert("output.tif", convertOptions);
+          Converter converter = new Converter("input.pptm");
+          // Preparar opciones de conversión para el formato de destino TIF
+          ConvertOptions convertOptions = new FileType().fromExtension("tif").getConvertOptions();
+          // Convertir al formato TIF
+          converter.convert("output.tif", convertOptions);
         ```
 
 demos:

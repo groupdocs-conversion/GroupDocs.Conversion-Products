@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:25
+date: 2022-10-12T19:57:26
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: DCM to GIF in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Load source file DCM for conversion
-        Converter converter = new Converter("input.dcm");
-        // Prepare conversion options for target format GIF
-        ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
-        // Convert to GIF format
-        converter.convert("output.gif", convertOptions);
+          Converter converter = new Converter("input.dcm");
+          // Prepare conversion options for target format GIF
+          ConvertOptions convertOptions = new FileType().fromExtension("gif").getConvertOptions();
+          // Convert to GIF format
+          converter.convert("output.gif", convertOptions);
         ```
 
 demos:

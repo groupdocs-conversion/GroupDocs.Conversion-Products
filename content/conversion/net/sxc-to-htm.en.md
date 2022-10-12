@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:22
+date: 2022-10-12T19:57:22
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: SXC to HTM in C#
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // Load source file SXC for conversion
-        var converter = new GroupDocs.Conversion.Converter("input.sxc");
-        // Prepare conversion options for target format HTM
-        var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
-        // Convert to HTM format
-        converter.Convert("output.htm", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.sxc");
+          // Prepare conversion options for target format HTM
+          var convertOptions = converter.GetPossibleConversions()["htm"].ConvertOptions;
+          // Convert to HTM format
+          converter.Convert("output.htm", convertOptions);
         ```
 
 demos:

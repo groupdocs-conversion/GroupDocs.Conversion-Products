@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:22
+date: 2022-10-12T20:00:23
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: C# 中的 ODT 到 PNG
@@ -81,11 +81,11 @@ steps:
     code: |
         ```csharp    
         // 加载源文件 ODT 进行转换
-        var converter = new GroupDocs.Conversion.Converter("input.odt");
-        // 为目标格式 PNG 准备转换选项
-        var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
-        // 转换为 PNG 格式
-        converter.Convert("output.png", convertOptions);
+          var converter = new GroupDocs.Conversion.Converter("input.odt");
+          // 为目标格式 PNG 准备转换选项
+          var convertOptions = converter.GetPossibleConversions()["png"].ConvertOptions;
+          // 转换为 PNG 格式
+          converter.Convert("output.png", convertOptions);
         ```
 
 demos:

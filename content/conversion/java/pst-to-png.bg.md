@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:35:45
+date: 2022-10-12T20:00:56
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PST до PNG на Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Заредете изходния файл PST за конвертиране
-        Converter converter = new Converter("input.pst");
-        // Подгответе опции за преобразуване за целеви формат PNG
-        ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
-        // Конвертиране във формат PNG
-        converter.convert("output.png", convertOptions);
+          Converter converter = new Converter("input.pst");
+          // Подгответе опции за преобразуване за целеви формат PNG
+          ConvertOptions convertOptions = new FileType().fromExtension("png").getConvertOptions();
+          // Конвертиране във формат PNG
+          converter.convert("output.png", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:34:26
+date: 2022-10-12T19:59:06
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: JavaでDXFからDOCへ
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // 変換のためにソース ファイル DXF を読み込みます
-        Converter converter = new Converter("input.dxf");
-        // ターゲット形式の変換オプションを準備 DOC
-        ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
-        // DOC形式に変換
-        converter.convert("output.doc", convertOptions);
+          Converter converter = new Converter("input.dxf");
+          // ターゲット形式の変換オプションを準備 DOC
+          ConvertOptions convertOptions = new FileType().fromExtension("doc").getConvertOptions();
+          // DOC形式に変換
+          converter.convert("output.doc", convertOptions);
         ```
 
 demos:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-12T19:33:41
+date: 2022-10-12T19:57:52
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: CGM bis ICO in Java
@@ -81,11 +81,11 @@ steps:
     code: |
         ```java    
         // Quelldatei CGM zur Konvertierung laden
-        Converter converter = new Converter("input.cgm");
-        // Konvertierungsoptionen für das Zielformat ICO vorbereiten
-        ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
-        // In das ICO-Format konvertieren
-        converter.convert("output.ico", convertOptions);
+          Converter converter = new Converter("input.cgm");
+          // Konvertierungsoptionen für das Zielformat ICO vorbereiten
+          ConvertOptions convertOptions = new FileType().fromExtension("ico").getConvertOptions();
+          // In das ICO-Format konvertieren
+          converter.convert("output.ico", convertOptions);
         ```
 
 demos:

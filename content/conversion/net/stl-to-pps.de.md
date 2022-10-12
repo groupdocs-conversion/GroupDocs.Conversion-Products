@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:33:38
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: STL nach PPS in C#
+breadcrumb: STL bis PPS in C#
 
 ############################# Head ############################
 head_title: "STL nach PPS Konverter in C#"

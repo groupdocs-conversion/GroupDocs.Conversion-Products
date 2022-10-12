@@ -1,13 +1,13 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-12T19:33:17
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: ".NET"
-platform_tag: "net"
+platform: .NET
+platform_tag: net
 
 ############################# Head ############################
 head_title: "C# .NET-Dokumentkonvertierungs-API | Konvertieren Sie PDF Word Excel PPTX HTML-Bilder"
@@ -28,7 +28,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Conversion for .NET"
-        image: "/border/groupdocs-conversion-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
@@ -44,11 +44,11 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Die Unterstützung"
 
             # button loop
             - link: "https://products.groupdocs.app/conversion"
-              text: "Live Demo"
+              text: "Live-Demo"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/conversion/net"
@@ -59,20 +59,20 @@ submenu:
         link_learn: "https://docs.groupdocs.com/conversion/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Überblick ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Conversion für .NET bietet einen einfachen Satz von APIs, mit denen Entwickler leistungsstarke Dokumentenkonvertierungsanwendungen in C#, ASP.NET und anderen .NET-bezogenen Technologien erstellen können. GroupDocs.Conversion für die .NET-API bietet Ihren Endbenutzern eine schnelle, effiziente und zuverlässige Dateikonvertierungslösung. Es unterstützt die Durchführung genauer Konvertierungen zwischen allen gängigen Geschäftsdokumentformaten, einschließlich: PDF, HTML, E-Mail, Microsoft Word-Dokumente, Excel-Tabellen, PowerPoint-Präsentationen, Project, Photoshop, CorelDraw, AutoCAD, Diagramme, Rasterbilddateiformate und viele mehr. Die Dokumentkonverterbibliothek erkennt automatisch das Quelldokumentformat und gibt Ihnen die volle Kontrolle, um entweder das gesamte Dokument oder bestimmte Seiten in das gewünschte Ausgabeformat zu konvertieren. Es ist einfacher, fehlende Schriftarten durch bevorzugte zu ersetzen und jeder Dokumentseite Text- oder Bildwasserzeichen hinzuzufügen.
-        
-      GroupDocs.Conversion für .NET kann verwendet werden, um Anwendungen in jeder Entwicklungsumgebung zu entwickeln, die auf die .NET-Plattform abzielt. Es ist mit allen .NET-basierten Sprachen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), auf denen Mono- oder .NET-Frameworks (einschließlich .NET Core) installiert werden können.
+      GroupDocs.Conversion for .NET bietet einen einfachen Satz von APIs, mit denen Entwickler leistungsstarke Dokumentenkonvertierungsanwendungen in C#, ASP.NET und anderen .NET-bezogenen Technologien erstellen können. Die GroupDocs.Conversion for .NET-API bietet Ihren Endbenutzern eine schnelle, effiziente und zuverlässige Dateikonvertierungslösung. Es unterstützt die Durchführung genauer Konvertierungen zwischen allen gängigen Geschäftsdokumentformaten, einschließlich: PDF, HTML, E-Mail, Microsoft Word-Dokumente, Excel-Tabellen, PowerPoint-Präsentationen, Project, Photoshop, CorelDraw, AutoCAD, Diagramme, Rasterbilddateiformate und viele mehr. Die Dokumentenkonverterbibliothek erkennt automatisch das Quelldokumentformat und gibt Ihnen die volle Kontrolle, um entweder das gesamte Dokument oder bestimmte Seiten in das gewünschte Ausgabeformat zu konvertieren. Es ist einfacher, fehlende Schriftarten durch bevorzugte zu ersetzen und jeder Dokumentseite Text- oder Bildwasserzeichen hinzuzufügen.
+
+      GroupDocs.Conversion for .NET kann verwendet werden, um Anwendungen in jeder Entwicklungsumgebung zu entwickeln, die auf die .NET-Plattform abzielt. Es ist mit allen .NET-basierten Sprachen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), auf denen Mono- oder .NET-Frameworks (einschließlich .NET Core) installiert werden können.
     tabs:
       enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          Nachfolgend finden Sie eine Übersicht über GroupDocs.Conversion für .NET:
+          Nachfolgend finden Sie eine Übersicht über GroupDocs.Conversion for .NET:
         
         right:
           enable: true
@@ -85,15 +85,15 @@ overview:
             * Tabellenkalkulationen konvertieren
             * Rasterbilder konvertieren
             * Konvertieren Sie PDF-Dokumente
-            * Convert Andere Formate
+            * Andere Formate konvertieren
             * Wasserzeichen anwenden
             * Geben Sie das Dateikennwort an
             * Konvertierung anpassen
-      
+
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Conversion für .NET unterstützt die Konvertierung zwischen allen gängigen und häufig verwendeten [Dokumentdateiformaten](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+          GroupDocs.Conversion for .NET unterstützt die Konvertierung zwischen allen gängigen und häufig verwendeten [Dokumentdateiformaten](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
 
         left:
           enable: true
@@ -137,7 +137,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Conversion for .NET unterstützt das Folgen Betriebssysteme, Frameworks & Paket-Managers:
+          GroupDocs.Conversion for .NET unterstützt folgende Betriebssysteme, Frameworks und Paketmanager:
       
         left:
           enable: true
@@ -146,20 +146,13 @@ overview:
             - icon: "fab fa-windows"
               title: "Betriebssysteme"
               content: |
-                * Windows Desktop (x86 & x64)
-                * Windows Server (x86 & x64)
-                * Windows Azure
-                * Linux
-                * MacOS
+                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
 
             # table loop
             - icon: "fas fa-code"
               title: "Unterstützte Frameworks"
               content: |
-                * .NET-Standard 2.0
-                * .NET Framework 2.0 oder höher
-                * .NET Core 2.0 oder höher
-                * Mono Framework 1.2 oder höher
+                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
 
         right:
           enable: true
@@ -168,27 +161,23 @@ overview:
             - icon: "fas fa-box"
               title: "Paket-Manager"
               content: |
-                * NuGet
+                Nuget
 
             # table loop
             - icon: "fas fa-tools"
-              title: "Entwicklungsumgebungen"
+              title: "Paket-Manager"
               content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+                Microsoft Visual Studio, Xamarin, MonoDevelop
 
-############################# Merkmale ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Conversion für .NET-Funktionen"
+    title: "GroupDocs.Conversion for .NET-Funktionen"
 
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Einfache Integration & Metered Licensing"
+        content: "Einfache Integration und gebührenpflichtige Lizenzierung"
 
       # feature loop
       - icon: "fas fa-eye"
@@ -216,7 +205,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Benutzerdefinierte Schriftartenverzeichnisse festlegen und Schriftarten während der Dokumentkonvertierung explizit laden/ersetzen"
+        content: "Legen Sie benutzerdefinierte Schriftartenverzeichnisse fest und laden/ersetzen Sie Schriftarten explizit während der Dokumentkonvertierung"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -224,7 +213,7 @@ features:
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "Erweiterte Konvertierungsmethoden, um die Ausgabe als Pfad oder IO-Stream zurückzugeben"
+        content: ""
 
       # feature loop
       - icon: "fas fa-wrench"
@@ -298,30 +287,29 @@ features:
       # more_feature_loop
       - title: "Einfaches Konvertieren von Dokumentformaten"
         content: |
-          Mit GroupDocs.Conversion für .NET ist das Konvertieren von Dokumentdateiformaten sehr einfach. Das folgende Beispiel zeigt Ihnen, wie Sie eine PDF-Datei mit C# in eine DOC-Datei konvertieren:
+          Mit GroupDocs.Conversion for .NET ist das Konvertieren des Dokumentdateiformats sehr einfach. Das folgende Beispiel zeigt Ihnen, wie Sie eine PDF-Datei mit C# in eine DOC-Datei konvertieren:  
             
-          * Holen Sie sich den Dateipfad als Eingabe
-          * Rufen Sie den Dateispeicherpfad ab
-          * Konvertieren Sie die Eingabedokumentdatei
-          * Return the output, as path or stream (as per requirement)  
+          {features.more_feature.step1} 
+          {features.more_feature.step2} 
+          {features.more_feature.step3} 
             
-            
-          ```cs
-          ConversionConfig config = new ConversionConfig();
-          config.StoragePath = @"D:\storage\"; 
-          ConversionHandler conversionHandler = new ConversionHandler(config);
-          var convertedDocumentPath = conversionHandler.Convert("sample.pdf", new WordsSaveOptions {  });
-          convertedDocumentPath.Save("result-" + Path.GetFileNameWithoutExtension("sample.pdf") + ".doc");
+          ```csharp    
+           // Quelldatei DOCX zur Konvertierung laden
+        var converter = new GroupDocs.Conversion.Converter("input.docx");
+        // Konvertierungsoptionen für das Zielformat PDF vorbereiten
+        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+        // In das PDF-Format konvertieren
+        converter.Convert("output.pdf", convertOptions);
           ```
             
       # more_feature_loop
       - title: "Konvertierung in Bildformate"
-        content: "GroupDocs.Conversion für die .NET-API unterstützt die Dokumentenkonvertierung in und aus verschiedenen Bildformaten. Während Sie von einem anderen Format in ein Bild konvertieren, können Sie zahlreiche Eigenschaften der Bilder anpassen. Mit unserer Konvertierungs-API können Sie Helligkeit, Kontrast und Gamma-Eigenschaften anpassen. Sie können das Bild auch spiegeln. Und im Falle einer Konvertierung in das JPEG-Format können Sie den Farbmodus und den Komprimierungsmodus der Datei einstellen."
+        content: "GroupDocs.Conversion for .NET kann verwendet werden, um Anwendungen in jeder Entwicklungsumgebung zu entwickeln, die auf die .NET-Plattform abzielt. Es ist mit allen .NET-basierten Sprachen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), auf denen Mono- oder .NET-Frameworks (einschließlich .NET Core) installiert werden können."
 
       # more_feature_loop
       - title: "Unterstützt verschiedene PDF-Formattypen"
         content: |
-          GroupDocs.Conversion for .NET API unterstützt die Dokumentenkonvertierung in folgende PDF-Typen/-Formate:
+          Die GroupDocs.Conversion for .NET-API unterstützt die Dokumentenkonvertierung in folgende PDF-Typen/-Formate:  
             
           * PdfA_1A
           * PdfA_1B
@@ -346,12 +334,12 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Conversion bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
+    title: "GroupDocs.Conversion bietet Dokumentenkonvertierungs-APIs für andere beliebte Entwicklungsumgebungen"
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Conversion for Java"
-          image: "/border/groupdocs-conversion-java.svg"
+        - img_alt: "GroupDocs.Conversion für Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion"
           platform: "Java"
           link: "/conversion/java/"

@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:33:37
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: MSG nach DCM in C#
+breadcrumb: MSG bis DCM in C#
 
 ############################# Head ############################
 head_title: "MSG nach DCM Konverter in C#"

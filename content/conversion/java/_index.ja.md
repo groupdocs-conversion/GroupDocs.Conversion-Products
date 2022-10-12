@@ -1,24 +1,28 @@
 ---
+############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-12T19:33:17
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: "Java"
-platform_tag: "java"
+platform: Java
+platform_tag: java
 
-head_title: "Javaドキュメント変換API| PDF Word ExcelPPTXHTML画像を変換する"
-head_description: "Javaドキュメント変換API。 PDF Word DOC DOCX、Excel Worksheet、PPT PPTX、HTML、PSD、MPT MPP、EメールMSG EMLX、XMLおよび画像ファイル形式を変換します."
+############################# Head ############################
+head_title: "Java ドキュメント変換 API | PDF Word Excel PPTX HTML 画像の変換"
+head_description: "Java ドキュメント変換 API。 PDF 変換 Word DOC DOCX、Excel スプレッドシート PPT PPTX、HTML、PSD、MPT MPP、電子メール MSG EMLX、A​​utoCAD および画像ファイル形式。"
 
-title: "画像とドキュメントの変換のためのJavaAPI"
-description: "Javaアプリケーションにドキュメント変換機能を統合するネイティブJavaAPI、80以上のドキュメントおよび画像ファイル形式をサポート."
+############################# Header ############################
+title: "Java 80 以上のファイル形式を変換する API"
+description: "外部ソフトウェアをインストールすることなく、ドキュメントと画像の変換機能を Java アプリケーションに統合するためのシンプルな API。"
 button:
     enable: true
     icon: "fas fa-arrow-down"
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/conversion/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
     
@@ -30,250 +34,317 @@ submenu:
 
     middle:
         button:
+            # button loop
             - link: "#overview"
               text: "概要"
 
+            # button loop
             - link: "#features"
               text: "特徴"
 
+            # button loop
             - link: "#support"
               text: "サポート"
 
+            # button loop
             - link: "https://products.groupdocs.app/conversion"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/conversion"
         link_learn: "https://docs.groupdocs.com/conversion/java/"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Conversion for Javaは、強力なドキュメント変換APIのセットを組み合わせて、追加のソフトウェアをインストールすることなく、Javaアプリケーションで画像とドキュメント形式を表示します。ドキュメントをネイティブにラスター化し、SVG + HTML + CSSに変換して、ドキュメントの表示品質を向上させると同時に、トゥルーテキストで忠実度の高い出力を提供します。ドキュメントレンダリングAPIの使用– PDF、HTML、XML、Microsoft Office Word、Excelワークシート、PowerPointプレゼンテーション、Outlook電子メール、Visioダイアグラム、プロジェクト、メタファイル、画像、およびその他のさまざまなファイル形式を簡単に、プログラミングの危険性を抑えてすばやく表示します。また、パスワードで保護されたファイルを表示し、レンダリング後にHTML、画像、またはPDF形式でドキュメント表現を取得することもできます。私たちのファイル変換ライブラリは、ドキュメント全体を表示したり、部分的にレンダリングしてプロセスを高速化したりできるため、非常にカスタマイズ可能です。 GroupDocs.Conversion for Java APIを使用すると、ページ、特定のセル範囲をスプレッドシートで表示したり、個々のドキュメントレイヤーをPDFやCADなどの形式でレンダリングしたりすることができます。  
-        
-      GroupDocs.Conversion for Java APIを使用すると、サポートされているファイル形式の注釈またはコメントの有無にかかわらずドキュメントをレンダリングできます。また、カスタムフォントディレクトリを追加したり、FileType、Extension、Name、PageCountなどの基本的なドキュメント情報を抽出したりすることもできます。  
-        
-      GroupDocs.Conversion for Javaは、すべてのJavaバージョンと互換性があり、Javaランタイムを実行できる一般的なオペレーティングシステム（Windows、Linux、macOS）をサポートしています。
+      GroupDocs.Conversion for Java は、ドキュメント変換 API の強力なセットを組み合わせて、追加のソフトウェアをインストールする必要なく、Java アプリケーションで画像とドキュメント形式を表示します。ドキュメントをネイティブにラスタライズし、SVG+HTML+CSS に変換して、ドキュメントの表示品質を向上させると同時に、忠実度の高いテキスト出力を提供します。ドキュメント レンダリング API を使用 – PDF、HTML、XML、Microsoft Office Word、Excel ワークシート、PowerPoint プレゼンテーション、Outlook 電子メール、Visio ダイアグラム、プロジェクト、メタファイル、画像、およびその他のさまざまなファイル形式を、プログラミングの危険性を抑えて簡単にすばやく表示します。また、パスワードで保護されたファイルを表示し、レンダリング後にドキュメントを HTML、画像、または PDF 形式で表示することもできます。当社のファイル変換ライブラリは、ドキュメント全体を表示したり、部分的にレンダリングしてプロセスをスピードアップしたりできるため、非常にカスタマイズ可能です。 GroupDocs.Conversion for Java API を使用すると、スプレッドシート内のページや特定のセル範囲を表示したり、個々のドキュメント レイヤーを PDF や CAD などの形式でレンダリングしたりすることもできます。
+
+      GroupDocs.Conversion for Java API を使用すると、サポートされているファイル形式の注釈またはコメントの有無にかかわらず、ドキュメントをレンダリングできます。また、カスタム フォント ディレクトリを追加し、FileType、Extension、Name、PageCount などの基本的なドキュメント情報を抽出することもできます。
     tabs:
-      enable: true   
+      enable: true
       
+      ## TAB ONE ##
       tab_one:
         description: |
-          以下は、Java用のGroupDocs.Conversionの概要です。
-
+          GroupDocs.Conversion for Java の概要は次のとおりです。
+        
         right:
           enable: true
           icon: "fab fa-html5"
           title: "概要"
           content: |
-            *ファイルタイプの自動検出
-            *ドキュメントを変換する
-            *スプレッドシートを変換する
-            *プレゼンテーションを変換する
-            *PDFドキュメントを変換する
-            *ラスター画像を変換する
-            *HTMLドキュメントを変換する
-            *PSDドキュメントを変換する
-            *CADドキュメントを変換する
-            *透かしを構成する
-            *パスワード保護を適用する
-            *カスタマイズされた変換
-      
+            * ファイルの種類を自動検出
+            * ドキュメントの変換
+            * プレゼンテーションを変換
+            * スプレッドシートを変換
+            * ラスター画像を変換
+            * PDFドキュメントを変換
+            * 他の形式に変換
+            *透かしを適用
+            * ファイルのパスワードを指定
+            *変換をカスタマイズ
+
+      ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Conversion for Javaは、一般的で一般的に使用されるすべての[ドキュメントファイル形式]（https://docs.groupdocs.com/conversion/java/supported-document-formats/）間の変換をサポートしています。
+          GroupDocs.Conversion for Java は、一般的で一般的に使用されているすべての [ドキュメント ファイル形式](https://docs.groupdocs.com/conversion/net/supported-document-formats/) 間の変換をサポートしています。
 
         left:
           enable: true
           table:
-            - title: "から変換:"
+            # table loop
+            - title: "変換元:"
               content: |
-                * **ドキュメント**：DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
-                * **スプレッドシート**：XLS、XLSX、XLSM、XLSB、XLT、XLTX、XLTM、XLAM、CSV、XLS2003、Excel95、ODS、TSV、FODS
-                * **プレゼンテーション**：PPT、PPTX、PPS、PPSX、ODP、POT、POTM、POTX、PPTM、PPSM
-                * **画像**：TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、CMX、DIB、JPC、JPEG2000、JPEG-LS
-                * **ポータブル**：PDF、XPS、OXPS、EPUB
-                * ** PostScript **：EPS、PS、PSL
-                * ** HTML **：HTM、HTML、MHTML
-                * **図**：VSD、VSDX、VSS、VST、VSX、VTX、VDW、VDX、SVG、VSDM、VSSM、VSTM
-                * **プロジェクト**：MPT、MPP、MPX
-                * ** Outlook **：PST、OST
-                * **メール**：MSG、EML、EMLX
-                * ** AutoCAD **：DXF、DWG、DWT、STL、DWF、IFC
-                * ** PostScript **：EPS、PS、PSL、CGM
-                * ** CorelDRAW **：CDR
-                * ** XML **：XSLT
-                * ** LaTex **：LaTex
-                * **その他**：VCF、OTG、MD
+                * **ドキュメント**: DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
+                * **スプレッドシート**: XLS、XLSX、XLSM、XLSB、CSV、XLS2003、ODS、TSV、XLT、XLTX、XLTM、XLAM、FODS、SXC
+                * **プレゼンテーション**: PPT、PPTX、PPS、PPSX、ODP、POT、POTX、POTM、PPTM、PPSM、FODP
+                * **画像**: TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、DIB、JPC、JPEG-LS、JPEG2000
+                * **ポータブル**: PDF、XPS、OXPS、EPUB
+                * **HTML**: HTM、HTML、MHTML
+                * **メタファイル**: EMZ、WMZ
+                * **フォトショップ**: PSD
+                * **プロジェクト**: MPP、MPT、MPX
+                * **アウトルック**: PST、OST
+                * **電子メール**: MSG、EML、EMLX
+                * **ダイアグラム**: VSD、VSDX、VSDM、VSS、VSSM、VST、VSTM、VSX、VTX、VDW、VDX、SVG、SVGZ
+                * **AutoCAD**: DXF、DWG、DWF、STL、IFC、DWT
+                * **PostScript**: EPS、PS、PSL、CGM
+                * **CorelDRAW**: CDR、CMX
+                * **その他**: VCF、PLT、LGS、OTG、MD、AI、LOG
 
         right:
           enable: true
           table:
-            - title: "に変換:"
+            # table loop
+            - title: "に変換："
               content: |
-                * **ドキュメント**：DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
-                * **スプレッドシート**：XLS、XLSX、XLSM、XLSB、CSV、XLS2003、TSV、XLTX、ODS、XLAM、FODS、DIF、SXC
-                * **プレゼンテーション**：PPT、PPTX、PPS、PPSX、ODP、POTX、POTM、PPTM、PPSM、FODP
-                * **画像**：TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、JPEG2000
-                * **メタファイル**：EMF、WMF、EMZ、WMZ
-                * **図**：SVGZ
-                * **ポータブル**：PDF、XPS
-                * ** HTML **：HTM、HTML、MHTML
-                * **その他**：MD
+                * **ドキュメント**: DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
+                * **スプレッドシート**: XLS、XLSX、XLSM、XLSB、CSV、XLS2003、TSV、XLTX、ODS、XLAM、FODS、DIF、SXC
+                * **プレゼンテーション**: PPT、PPTX、PPS、PPSX、ODP、POTX、POTM、PPTM、PPSM、FODP
+                * **画像**: TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、JPEG2000
+                * **メタファイル**: EMF、WMF、EMZ、WMZ
+                * **ダイアグラム**: SVGZ
+                * **ポータブル**: PDF、XPS
+                * **HTML**: HTM、HTML、MHTML
+                * **その他**: MD
 
+      ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Conversion for Javaは、次のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています。
-        
+          GroupDocs.Conversion for Java は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています:
+      
         left:
           enable: true
           table:
+            # table loop
             - icon: "fab fa-windows"
               title: "オペレーティングシステム"
               content: |
-                *MicrosoftWindowsデスクトップ
-                * Microsoft Windows Server
-                * Linux
-                * マックOS
+                Windows Desktop, Windows Server, Linux, MacOS
 
+            # table loop
             - icon: "fas fa-code"
               title: "サポートされているフレームワーク"
               content: |
-                * Java 7（1.7）以降
+                Java runtime: J2SE 6.0 and above
 
         right:
           enable: true
           table:
-            - icon: "fas fa-cogs"
-              title: "開発環境"
+            # table loop
+            - icon: "fas fa-box"
+              title: "パッケージマネージャー"
               content: |
-                * NetBeans
-                * IntelliJ IDEA
-                *Eclipse
-            - icon: "fas fa-tools"
-              title: "ビルド自動化ツール"
-              content: |
-                * Maven
+                Maven
 
+            # table loop
+            - icon: "fas fa-tools"
+              title: "パッケージマネージャー"
+              content: |
+                NetBeans, Intellij IDEA, Eclipse, etc.
+
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Conversion for Java Features"
+    title: "GroupDocs.Conversion for Java 機能"
 
     feature:
+      # feature loop
       - icon: "fas fa-copy"
         content: "簡単な統合と従量制ライセンス"
 
+      # feature loop
       - icon: "fas fa-eye"
-        content: "単語、スライド、またはセルへの変換中にデフォルトのズームを適用する"
+        content: "単語、スライド、またはセルに変換するときの既定のズーム オプションを設定する"
 
+      # feature loop
       - icon: "fas fa-bolt"
-        content: "最も一般的なラスター画像形式との間の変換および画像のDPI、高さ、幅の指定"
+        content: "すべての一般的なラスター画像フォーマットとの間で変換し、画像の DPI、高さ、幅を割り当てます"
       
+      # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "変換中にPDFをグレースケールし、PDFと画像を回転させる機能"
+        content: "PDF と画像をグレースケールに変換し、PDF ドキュメントを Web 用に線形化します"
 
+      # feature loop
       - icon: "fas fa-code"
-        content: "変換されたドキュメントの透かしを背景として設定および指定する"
+        content: "Word から PDF/XPS への変換で、ブックマーク レベル、見出しレベル、展開レベルを指定する"
 
+      # feature loop
       - icon: "fas fa-cloud"
-        content: "透かしの透明度とカスタムフォントディレクトリを構成する"
+        content: "テキストの後ろに表示する背景として、変換されたドキュメントの透かしを構成および配置する"
 
+      # feature loop
       - icon: "fas fa-remove-format"
-        content: "ドキュメントとスプレッドシートの変換中に欠落しているフォントを置き換えるデフォルトのフォントを指定する"
+        content: "電子メールからの変換中に電子メール ヘッダーをレンダリングする"
 
+      # feature loop
       - icon: "fas fa-comment-slash"
-        content: "変換して出力をパスまたはIOストリームとして取得"
+        content: "カスタム フォント ディレクトリを設定し、ドキュメント変換中にフォントを明示的にロード/置換"
 
+      # feature loop
       - icon: "fas fa-location-arrow"
-        content: "変換中にスライドからコメントを削除し、スプレッドシートの変換中にグリッド線を維持する"
+        content: "ドキュメント、スライド、スプレッドシートの変換で不足しているフォントを置き換えるデフォルトのフォントを設定する"
 
+      # feature loop
       - icon: "fas fa-border-all"
-        content: "スプレッドシートでセル範囲を指定して変換し、ドキュメントの特定のページをPDFに変換します"
+        content: ""
 
+      # feature loop
       - icon: "fas fa-wrench"
-        content: "空の行と列をスキップしてスプレッドシートを変換し、非表示のシートを表示する"
+        content: "グリッド線付きのスプレッドシートを変換し、変換中にスライドからコメントを削除する"
 
+      # feature loop
       - icon: "fas fa-columns"
-        content: "ドキュメントの総ページ数をカウントし、変換中にドキュメントのパスワードを指定します"
+        content: "特定のドキュメント ページを PDF 形式に変換し、スプレッドシートの特定のセル範囲を変換する"
 
+      # feature loop
       - icon: "fas fa-file-word"
-        content: "PDF注釈を削除するオプション"
+        content: "スプレッドシートの変換中に非表示のシートを表示し、空の行と列をスキップする"
 
+      # feature loop
       - icon: "fas fa-envelope"
-        content: "ソースドキュメントタイプの自動検出とストリーミング変換中のすべての可能な変換の取得"
+        content: "ドキュメントの総ページ数をカウントし、変換中にパスワードを保護されていないドキュメントに設定する"
 
+      # feature loop
       - icon: "fas fa-print"
-        content: "HTML変換中に各ページを別々のストリームで取得する"
+        content: "PDF から注釈と埋め込みファイルを削除するオプション"
 
+      # feature loop
       - icon: "fas fa-file-archive"
-        content: "トラックの変更とマークアップの表示/非表示を使用してWord文書を変換する"
+        content: "HTML への変換時に HTML 5 準拠のマークアップを作成する"
 
+      # feature loop
       - icon: "fas fa-lock"
-        content: "CADドキュメントタイプのすべてのレイアウトを取得し、CADドキュメントから変換するレイアウトを指定します"
+        content: "ストリームからの変換時にソース タイプを自動検出し、可能なすべての変換を返す"
 
+      # feature loop
       - icon: "fas fa-file-code"
-        content: "CADドキュメントから各レイアウトに特定の幅と高さを設定する"
+        content: "PDF または HTML への変換中に各ページを個別のストリームで返す機能"
       
+      # feature loop
       - icon: "fas fa-fill-drip"
-        content: "電子メールから変換するときにSENTフィールドのタイムゾーンを設定する"
+        content: "Word からの変換中にマークアップ、コメント、変更履歴を表示/非表示"
 
+      # feature loop
       - icon: "fas fa-file-excel"
-        content: "複数ページのTIFF画像ファイルをPDFに変換"
+        content: "シェーディング オプションを使用した DOCX から Tiff G3 への変換"
 
+      # feature loop
       - icon: "fas fa-heading"
-        content: "ドキュメントを画像に変換するときの明るさ、コントラスト、ガンマを調整する"
+        content: "CAD ドキュメントからの変換時に特定のレイアウトを変換"
 
+      # feature loop
       - icon: "fas fa-project-diagram"
-        content: "変換せずにXMLドキュメントを変換する"
+        content: "変換されたドキュメントをファイルに保存する際の自動ネーミング"
 
+      # feature loop
       - icon: "fas fa-cube"
-        content: "メールドキュメントから添付ファイルを変換する"
+        content: "API の使用量に基づいた課金をサポートする従量制ライセンス"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "ダイアグラムをワープロ ファイル形式に変換する"
+      
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "HTML をワープロ ドキュメントに変換する際にページ番号を追加する"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "変換なしで XML ドキュメントを任意の形式に変換"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "ファイル変換の進行状況 (開始、終了) をクライアント側アプリケーションから直接監視"
 
     more_feature:
-      - title: "変換のためにURLまたはパスからドキュメントを読み取る"
+      # more_feature_loop
+      - title: "Java を使用した簡単なドキュメント形式の変換"
         content: |
-          GroupDocs.Conversion for Java APIを使用すると、URLだけでなくファイルパスから入力ドキュメントを読み取ることができます。出力ドキュメントをファイルとして保存することも、出力を直接ストリームに送信することもできます。
-      
-      - title: "Javaを使用した簡単なドキュメント形式変換"
-        content: |
-          GroupDocs.Conversion for Java APIを使用して、多数のドキュメントタイプのファイル形式を変換できます。ここでは、Javaを使用して基本的なドキュメント変換を実行するための数行のコードが表示されます。
-
-          ```java
-          ConversionConfig config = new ConversionConfig();
-          //ストレージフォルダを設定します
-          config.setStoragePath(storagePath);
-
-          ConversionHandler conversionHandler = new ConversionHandler(config);
-          ImageSaveOptions saveOptions = new ImageSaveOptions();
-          saveOptions.setConvertFileType(ImageSaveOptions.ImageFileType.PSD);
-          PsdOptions psdOptions = new PsdOptions();
-          psdOptions.setColorMode(PsdOptions.ColorModes.GRAYSCALE);
-          psdOptions.setCompressionMethod(PsdOptions.CompressionMethods.RAW);
-          ConvertedDocument result = conversionHandler. convert(sourceFileName, saveOptions);
-          result.save(sourceFileName + "." + result.getFileType());
+          GroupDocs.Conversion for Java API を使用して、さまざまな種類のドキュメントのファイル形式を変換できます。ここでは、Java を使用して基本的なドキュメント変換を実行するための数行のコードが示されています。  
+            
+          {features.more_feature.step1} 
+          {features.more_feature.step2} 
+          {features.more_feature.step3} 
+            
+          ```java    
+           // 変換のためにソース ファイル DOCX を読み込みます
+        Converter converter = new Converter("input.docx");
+        // ターゲット形式の変換オプションを準備 PDF
+        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+        // PDF形式に変換
+        converter.convert("output.pdf", convertOptions);
           ```
+            
+      # more_feature_loop
+      - title: "変換のために URL またはパスからドキュメントを読み取る"
+        content: "GroupDocs.Conversion for Java API を使用すると、URL だけでなくファイル パスから入力ドキュメントを読み取ることができます。出力ドキュメントをファイルとして保存するか、出力をストリームに直接送信できます。"
 
-      - title: "包括的なテクニカルサポート"
-        content: "GroupDocs.Conversion for Javaは、Javaベースのアプリケーションに非常に簡単に統合できるシンプルで的確なAPIです。ただし、すぐに稼働できるように、わかりやすいコードサンプルと包括的なAPIドキュメントも提供しています。."
+      # more_feature_loop
+      - title: "包括的な技術サポート"
+        content: |
+          GroupDocs.Conversion for Java は、Java ベースのアプリケーションに非常に簡単に統合できるシンプルで要点を絞った API です。ただし、すぐに起動して実行できるように、わかりやすいコード サンプルと包括的な API ドキュメントも提供しています。  
+            
+          * PdfA_1A
+          * PdfA_1B
+          * PdfA_2A
+          * PdfA_3A
+          * PdfA_2B
+          * PdfA_2U
+          * PdfA_3B
+          * PdfA_3U
+          * v1_3
+          * v1_4
+          * v1_5
+          * v1_6
+          * v1_7
+          * PdfX_1A
+          * PdfX3
 
+############################# Support ############################
 support:
     enable: true
 
+############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Conversionは、他の一般的な開発環境向けのドキュメント表示APIを提供します"
+    title: "GroupDocs.Conversion は、他の一般的な開発環境向けのドキュメント変換 API を提供します"
 
     solution:
+        # solution loop
         - img_alt: "GroupDocs.Conversion for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion"
-          platform: ".NET"
-          link: "/conversion/net/"
+          platform: "。ネット"
+          link: "/コンバージョン/ネット/"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

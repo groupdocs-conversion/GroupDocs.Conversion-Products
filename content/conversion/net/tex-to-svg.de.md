@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:33:39
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: TEX nach SVG in C#
+breadcrumb: TEX bis SVG in C#
 
 ############################# Head ############################
 head_title: "TEX nach SVG Konverter in C#"

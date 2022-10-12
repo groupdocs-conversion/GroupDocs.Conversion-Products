@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:33:33
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: CDR nach EMF in C#
+breadcrumb: CDR bis EMF in C#
 
 ############################# Head ############################
 head_title: "CDR nach EMF Konverter in C#"

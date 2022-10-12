@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:35:21
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: C# 中的 MPT 到 DCM
@@ -63,10 +63,10 @@ steps:
     enable: true
     title_left: "在 C# 中将 MPT 转换为 DCM 的步骤"
     content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) 让开发人员只需几行代码即可轻松地将 MPT 文件转换为 DCM。
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) 使开发人员只需几行代码即可轻松地将 MPT 文件转换为 DCM。
         
         * 创建 Converter 类的实例并为文件 MPT 提供完整路径
-        * 为 DCM 类型创建并设置 ConvertOptions。
+        * 为 DCM 类型创建和设置 ConvertOptions。
         * 调用 Converter.Convert 方法并将完整路径和格式 (DCM) 作为参数传递
 
     title_right: "系统要求"

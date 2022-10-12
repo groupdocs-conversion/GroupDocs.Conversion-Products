@@ -1,21 +1,21 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-12T19:33:17
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: "Java"
-platform_tag: "java"
+platform: Java
+platform_tag: java
 
 ############################# Head ############################
-head_title: "Java-Dokumentkonvertierungs-API | Konvertieren Sie PDF Word Excel PPTX HTML-Bilder"
-head_description: "Java-Dokumentkonvertierungs-API. Konvertieren Sie PDF Word DOC DOCX, Excel-Arbeitsblatt, PPT PPTX, HTML, PSD, MPT MPP, E-Mail MSG EMLX, XML und Bilddateiformate."
+head_title: "Java Dokumentkonvertierungs-API | Konvertieren Sie PDF Word Excel PPTX HTML-Bilder"
+head_description: "Java Dokumentkonvertierungs-API. Konvertieren Sie PDF, Word, DOC, DOCX, Excel-Tabellen, PPT, PPTX, HTML, PSD, MPT, MPP, E-Mail, MSG, EMLX, AutoCAD und Bilddateiformate."
 
 ############################# Header ############################
-title: "Java-API für die Konvertierung von Bildern und Dokumenten"
-description: "Native Java-API zur Integration der Dokumentkonvertierungsfunktion in Java-Anwendungen, die mehr als 80 Dokument- und Bilddateiformate unterstützt."
+title: "Java-API zum Konvertieren von über 80 Dateiformaten"
+description: "Einfache API zur Integration von Dokumenten- und Bildkonvertierungsfunktionen in Java-Anwendungen ohne Installation externer Software."
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -28,7 +28,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Conversion for Java"
-        image: "/border/groupdocs-conversion-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
         product: "GroupDocs.Conversion"
         platform: "Java"
 
@@ -44,11 +44,11 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Die Unterstützung"
 
             # button loop
             - link: "https://products.groupdocs.app/conversion"
-              text: "Live Demo"
+              text: "Live-Demo"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/conversion/java"
@@ -59,23 +59,21 @@ submenu:
         link_learn: "https://docs.groupdocs.com/conversion/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Überblick ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Conversion for Java kombiniert einen leistungsstarken Satz von Dokumentenkonvertierungs-APIs, um Bilder und Dokumentformate in Ihren Java-Anwendungen anzuzeigen, ohne dass zusätzliche Software installiert werden muss. Es rastert die Dokumente nativ und konvertiert sie in SVG+HTML+CSS, um die Qualität der Dokumentenanzeige zu verbessern und gleichzeitig eine High-Fidelity-Ausgabe in Echttext zu liefern. Verwenden der Dokumenten-Rendering-API – schnelles Anzeigen von PDF-, HTML-, XML-, Microsoft Office Word-, Excel-Arbeitsblättern, PowerPoint-Präsentationen, Outlook-E-Mails, Visio-Diagrammen, Project, Metadateien, Bildern und verschiedenen anderen Dateiformaten mit Leichtigkeit und weniger Programmierrisiken. Es kann auch passwortgeschützte Dateien anzeigen und nach dem Rendern die Dokumentdarstellung als HTML-, Bild- oder PDF-Formular erhalten. Unsere Dateikonvertierungsbibliothek ist sehr anpassbar, da Sie das gesamte Dokument anzeigen oder teilweise rendern können, um den Prozess zu beschleunigen. Über GroupDocs.Conversion for Java API können Sie Seiten oder bestimmte Zellbereiche in einer Tabelle anzeigen oder sogar eine einzelne Dokumentebene in Formaten wie PDF und CAD rendern.
-        
-      GroupDocs.Conversion for Java API ermöglicht Ihnen, Dokumente mit/ohne Anmerkungen oder Kommentare für unterstützte Dateiformate zu rendern. Außerdem können Sie benutzerdefinierte Schriftartenverzeichnisse hinzufügen und grundlegende Dokumentinformationen wie Dateityp, Erweiterung, Name, Seitenzahl usw. extrahieren.
-        
-      GroupDocs.Conversion for Java ist mit allen Java-Versionen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, macOS), die Java-Runtime ausführen können.
+      GroupDocs.Conversion for Java kombiniert einen leistungsstarken Satz von Dokumentkonvertierungs-APIs, um Bilder und Dokumentformate in Ihren Java-Anwendungen anzuzeigen, ohne dass zusätzliche Software installiert werden muss. Es rastert die Dokumente nativ und konvertiert sie in SVG+HTML+CSS, um die Qualität der Dokumentenanzeige zu verbessern und gleichzeitig eine High-Fidelity-Ausgabe in Echttext zu liefern. Verwenden der Dokumenten-Rendering-API – schnelles Anzeigen von PDF-, HTML-, XML-, Microsoft Office Word-, Excel-Arbeitsblättern, PowerPoint-Präsentationen, Outlook-E-Mails, Visio-Diagrammen, Project, Metadateien, Bildern und verschiedenen anderen Dateiformaten mit Leichtigkeit und weniger Programmierrisiken. Es kann auch passwortgeschützte Dateien anzeigen und nach dem Rendern die Dokumentdarstellung als HTML-, Bild- oder PDF-Formular erhalten. Unsere Dateikonvertierungsbibliothek ist sehr anpassbar, da Sie das gesamte Dokument anzeigen oder teilweise rendern können, um den Prozess zu beschleunigen. Über die GroupDocs.Conversion für Java-API können Sie Seiten oder bestimmte Zellbereiche in einer Tabelle anzeigen oder sogar eine einzelne Dokumentebene in Formaten wie PDF und CAD rendern.
+
+      Die GroupDocs.Conversion for Java-API ermöglicht es Ihnen, Dokumente mit/ohne Anmerkungen oder Kommentare für unterstützte Dateiformate zu rendern. Außerdem können Sie benutzerdefinierte Schriftartenverzeichnisse hinzufügen und grundlegende Dokumentinformationen wie Dateityp, Erweiterung, Name, Seitenzahl usw. extrahieren.
     tabs:
-      enable: true   
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          Nachfolgend finden Sie eine Übersicht über GroupDocs.Conversion für Java:
-
+          Nachfolgend finden Sie eine Übersicht über GroupDocs.Conversion for Java:
+        
         right:
           enable: true
           icon: "fab fa-html5"
@@ -83,21 +81,19 @@ overview:
           content: |
             * Dateityp automatisch erkennen
             * Dokumente konvertieren
-            * Tabellenkalkulationen konvertieren
             * Konvertieren Sie Präsentationen
-            * Konvertieren Sie PDF-Dokumente
+            * Tabellenkalkulationen konvertieren
             * Rasterbilder konvertieren
-            * Konvertieren Sie HTML-Dokumente
-            * Konvertieren Sie PSD-Dokumente
-            * CAD-Dokumente konvertieren
-            * Wasserzeichen konfigurieren
-            * Passwortschutz anwenden
-            * Maßgeschneiderte Konvertierung
-      
+            * Konvertieren Sie PDF-Dokumente
+            * Andere Formate konvertieren
+            * Wasserzeichen anwenden
+            * Geben Sie das Dateikennwort an
+            * Konvertierung anpassen
+
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Conversion für Java unterstützt die Konvertierung zwischen allen gängigen und häufig verwendeten [Dokumentdateiformaten](https://docs.groupdocs.com/conversion/java/supported-document-formats/).
+          GroupDocs.Conversion for Java unterstützt die Konvertierung zwischen allen gängigen und häufig verwendeten [Dokumentdateiformaten](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
 
         left:
           enable: true
@@ -141,8 +137,8 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Conversion for Java unterstützt das Folgen Betriebssysteme, Frameworks & Paket-Managers:
-        
+          GroupDocs.Conversion for Java unterstützt folgende Betriebssysteme, Frameworks und Paketmanager:
+      
         left:
           enable: true
           table:
@@ -150,159 +146,186 @@ overview:
             - icon: "fab fa-windows"
               title: "Betriebssysteme"
               content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
+                Windows Desktop, Windows Server, Linux, MacOS
 
             # table loop
             - icon: "fas fa-code"
               title: "Unterstützte Frameworks"
               content: |
-                * Java 7 (1.7) und höher
+                Java runtime: J2SE 6.0 and above
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "fas fa-cogs"
-              title: "Entwicklungsumgebungen"
+            - icon: "fas fa-box"
+              title: "Paket-Manager"
               content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
+                Maven
+
             # table loop
             - icon: "fas fa-tools"
-              title: "Build-Automatisierungstool"
+              title: "Paket-Manager"
               content: |
-                * Maven
+                NetBeans, Intellij IDEA, Eclipse, etc.
 
-############################# Merkmale ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Conversion für Java-Funktionen"
+    title: "GroupDocs.Conversion for Java-Funktionen"
 
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Einfache Integration & Metered Licensing"
+        content: "Einfache Integration und gebührenpflichtige Lizenzierung"
 
       # feature loop
       - icon: "fas fa-eye"
-        content: "Wenden Sie den Standardzoom während der Konvertierung in Wörter, Folien oder Zellen an"
+        content: "Legen Sie die Standard-Zoomoption beim Konvertieren in Wörter, Folien oder Zellen fest"
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Konvertierung in/aus den gängigsten Rasterbildformaten und Angabe von Bild-DPI, -Höhe und -Breite"
+        content: "Konvertieren Sie in/von allen gängigen Rasterbildformaten und weisen Sie Bild-DPI, -Höhe und -Breite zu"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Möglichkeit zum Graustufen von PDF, Drehen von PDF und Bild während der Konvertierung"
+        content: "Konvertieren Sie PDF und Bilder in Graustufen und linearisieren Sie PDF-Dokumente für das Web"
 
       # feature loop
       - icon: "fas fa-code"
-        content: "Festlegen und Festlegen des Wasserzeichens im konvertierten Dokument als Hintergrund"
+        content: "Geben Sie Lesezeichenebene, Überschriftenebene und erweiterte Ebene bei der Word-zu-PDF/XPS-Konvertierung an"
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "Wasserzeichen konfigurieren Transparency & Custom Font Directories"
+        content: "Konfigurieren und platzieren Sie Wasserzeichen in konvertierten Dokumenten als Hintergrund, um sie hinter Text anzuzeigen"
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "Geben Sie die Standardschriftart an, um fehlende Schriftarten beim Konvertieren von Dokumenten und Tabellen zu ersetzen"
+        content: "Rendern Sie den E-Mail-Header während der Konvertierung von E-Mail"
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Konvertieren und Ausgabe als Pfad oder IO-Stream abrufen"
+        content: "Legen Sie benutzerdefinierte Schriftartenverzeichnisse fest und laden/ersetzen Sie Schriftarten explizit während der Dokumentkonvertierung"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "Löschen Sie während der Konvertierung Kommentare aus Folien und behalten Sie Gitterlinien beim Konvertieren von Tabellenkalkulationen bei"
+        content: "Legen Sie die Standardschrift fest, um fehlende Schriftarten für die Konvertierung von Dokumenten, Folien und Tabellenkalkulationen zu ersetzen"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "Geben Sie den Zellbereich in der Tabelle für die Konvertierung an und konvertieren Sie bestimmte Seiten des Dokuments in PDF"
+        content: ""
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "Konvertieren Sie die Tabelle, indem Sie leere Zeilen und Spalten überspringen und versteckte Blätter anzeigen"
+        content: "Konvertieren Sie eine Tabelle mit Rasterlinien und entfernen Sie während der Konvertierung Kommentare von Folien"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "Zählen Sie die Gesamtseiten eines Dokuments und geben Sie das Dokumentkennwort während der Konvertierung an"
+        content: "Konvertieren Sie bestimmte Dokumentseiten in das PDF-Format und konvertieren Sie bestimmte Zellbereiche in Tabellenkalkulationen"
 
       # feature loop
       - icon: "fas fa-file-word"
-        content: "Option zum Löschen von PDF-Anmerkungen"
+        content: "Zeigen Sie ausgeblendete Blätter und überspringen Sie leere Zeilen und Spalten beim Konvertieren von Tabellenkalkulationen"
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "Automatische Erkennung des Quelldokumenttyps und Abrufen aller möglichen Konvertierungen während der Streaming-Konvertierung"
+        content: "Zählen Sie die Gesamtseiten eines Dokuments und setzen Sie das Passwort während der Konvertierung auf ein ungeschütztes Dokument"
 
       # feature loop
       - icon: "fas fa-print"
-        content: "Holen Sie sich während der HTML-Konvertierung jede Seite in einem separaten Stream"
+        content: "Option zum Entfernen von Anmerkungen und eingebetteten Dateien aus PDF"
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "Konvertieren Sie Word-Dokumente mit Track Changes & Show/Hide Markup"
+        content: "Erstellen Sie HTML 5-konformes Markup beim Konvertieren in HTML"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "Holen Sie sich alle Layouts für den CAD-Dokumenttyp und geben Sie an, welches Layout aus einem CAD-Dokument konvertiert werden soll"
+        content: "Automatische Erkennung des Quelltyps und Rückgabe aller möglichen Konvertierungen beim Konvertieren von Stream"
 
       # feature loop
       - icon: "fas fa-file-code"
-        content: "Legen Sie für jedes Layout aus einem CAD-Dokument eine spezifische Breite und Höhe fest"
+        content: "Möglichkeit, beim Konvertieren in PDF oder HTML jede Seite in einem separaten Stream zurückzugeben"
       
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "Stellen Sie die Zeitzone des SENT-Felds beim Konvertieren von E-Mail ein"
+        content: "Anzeigen/Ausblenden von Markierungen, Kommentaren und Verfolgen von Änderungen beim Konvertieren aus Word"
 
       # feature loop
       - icon: "fas fa-file-excel"
-        content: "Konvertieren Sie mehrseitige TIFF-Bilddateien in PDF"
+        content: "Konvertierung von DOCX in Tiff G3 mit Schattierungsoption"
 
       # feature loop
       - icon: "fas fa-heading"
-        content: "Passen Sie Helligkeit, Kontrast und Gamma beim Konvertieren eines Dokuments in ein Bild an"
+        content: "Konvertieren Sie bestimmte Layouts beim Konvertieren aus einem CAD-Dokument"
 
       # feature loop
       - icon: "fas fa-project-diagram"
-        content: "Konvertieren Sie XML-Dokumente ohne Transformation"
+        content: "Automatische Benennung beim Speichern des konvertierten Dokuments in einer Datei"
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "Konvertieren Sie Anhänge aus einem Mail-Dokument"
+        content: "Gemessene Lizenzierung wird unterstützt, um basierend auf der Nutzung der API abgerechnet zu werden"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Konvertieren Sie Diagramme in Textverarbeitungsdateiformate"
+      
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Fügen Sie Seitenzahlen hinzu, während Sie HTML in ein Textverarbeitungsdokument konvertieren"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Konvertieren Sie XML-Dokumente ohne Transformation in ein beliebiges Format"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Überwachen Sie den Fortschritt der Dateikonvertierung (Start, Ende) direkt von der clientseitigen Anwendung"
 
     more_feature:
       # more_feature_loop
-      - title: "Dokument von URL oder Pfad zur Konvertierung lesen"
-        content: |
-          Mit GroupDocs.Conversion for Java API können Sie Eingabedokumente sowohl aus einem Dateipfad als auch aus einer URL lesen. Während Sie das Ausgabedokument als Datei speichern oder die Ausgabe direkt in einen Stream senden können.
-      
-      # more_feature_loop
       - title: "Einfache Dokumentenformatkonvertierung mit Java"
         content: |
-          Mit GroupDocs.Conversion for Java API können Sie das Dateiformat einer Vielzahl von Dokumenttypen konvertieren. Hier werden Ihnen einige Codezeilen präsentiert, um eine grundlegende Dokumentenkonvertierung mit Java durchzuführen.
-
-          ```java
-          ConversionConfig config = new ConversionConfig();
-          config.setStoragePath(storagePath);
-
-          ConversionHandler conversionHandler = new ConversionHandler(config);
-          ImageSaveOptions saveOptions = new ImageSaveOptions();
-          saveOptions.setConvertFileType(ImageSaveOptions.ImageFileType.PSD);
-          PsdOptions psdOptions = new PsdOptions();
-          psdOptions.setColorMode(PsdOptions.ColorModes.GRAYSCALE);
-          psdOptions.setCompressionMethod(PsdOptions.CompressionMethods.RAW);
-          ConvertedDocument result = conversionHandler. convert(sourceFileName, saveOptions);
-          result.save(sourceFileName + "." + result.getFileType());
+          Mit der GroupDocs.Conversion for Java-API können Sie das Dateiformat einer Vielzahl von Dokumenttypen konvertieren. Hier werden Ihnen einige Codezeilen präsentiert, um eine grundlegende Dokumentenkonvertierung mit Java durchzuführen.  
+            
+          {features.more_feature.step1} 
+          {features.more_feature.step2} 
+          {features.more_feature.step3} 
+            
+          ```java    
+           // Quelldatei DOCX zur Konvertierung laden
+        Converter converter = new Converter("input.docx");
+        // Konvertierungsoptionen für das Zielformat PDF vorbereiten
+        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+        // In das PDF-Format konvertieren
+        converter.convert("output.pdf", convertOptions);
           ```
+            
+      # more_feature_loop
+      - title: "Dokument von URL oder Pfad zur Konvertierung lesen"
+        content: "Mit der GroupDocs.Conversion for Java-API können Sie Eingabedokumente sowohl aus einem Dateipfad als auch aus einer URL lesen. Während Sie das Ausgabedokument als Datei speichern oder die Ausgabe direkt in einen Stream senden können."
 
       # more_feature_loop
       - title: "Umfassender technischer Support"
-        content: "GroupDocs.Conversion für Java ist eine einfache und auf den Punkt gebrachte API, die Sie ganz einfach in Ihre Java-basierten Anwendungen integrieren können. Damit Sie jedoch im Handumdrehen einsatzbereit sind, bieten wir auch leicht verständliche Codebeispiele und eine umfassende API-Dokumentation."
+        content: |
+          GroupDocs.Conversion for Java ist eine einfache und auf den Punkt gebrachte API, die Sie ganz einfach in Ihre Java-basierten Anwendungen integrieren können. Damit Sie jedoch im Handumdrehen einsatzbereit sind, bieten wir auch leicht verständliche Codebeispiele und eine umfassende API-Dokumentation.  
+            
+          * PdfA_1A
+          * PdfA_1B
+          * PdfA_2A
+          * PdfA_3A
+          * PdfA_2B
+          * PdfA_2U
+          * PdfA_3B
+          * PdfA_3U
+          * v1_3
+          * v1_4
+          * v1_5
+          * v1_6
+          * v1_7
+          * PdfX_1A
+          * PdfX3
 
 ############################# Support ############################
 support:
@@ -311,14 +334,14 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Conversion bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
+    title: "GroupDocs.Conversion bietet Dokumentenkonvertierungs-APIs für andere beliebte Entwicklungsumgebungen"
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Conversion for .NET"
-          image: "/border/groupdocs-conversion-net.svg"
+        - img_alt: "GroupDocs.Conversion für .NET"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion"
-          platform: ".NET"
+          platform: ".NETZ"
           link: "/conversion/net/"
 
 ############################# Back to top ###############################

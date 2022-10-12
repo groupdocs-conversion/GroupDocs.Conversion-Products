@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:33:34
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: DOTX nach PSD in C#
+breadcrumb: DOTX bis PSD in C#
 
 ############################# Head ############################
 head_title: "DOTX nach PSD Konverter in C#"

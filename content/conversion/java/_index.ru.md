@@ -1,21 +1,21 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-12T19:33:17
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: "Java"
-platform_tag: "java"
+platform: Java
+platform_tag: java
 
 ############################# Head ############################
-head_title: "API преобразования документов Java | Преобразование PDF Word Excel PPTX HTML изображений"
-head_description: "API преобразования документов Java. Конвертировать PDF Word DOC DOCX, рабочий лист Excel, PPT PPTX, HTML, PSD, MPT MPP, электронную почту MSG EMLX, XML и форматы файлов изображений."
+head_title: "Java API преобразования документов | Преобразование PDF Word Excel PPTX HTML изображений"
+head_description: "Java API преобразования документов. Конвертируйте PDF, Word, DOC, DOCX, электронные таблицы Excel, PPT, PPTX, HTML, PSD, MPT, MPP, электронную почту, MSG, EMLX, AutoCAD и форматы файлов изображений."
 
 ############################# Header ############################
-title: "Java API для преобразования изображений и документов"
-description: "Собственный API Java для интеграции функций преобразования документов в приложения Java, поддерживающий более 80 форматов файлов документов и изображений."
+title: "Java API для преобразования более 80 форматов файлов"
+description: "Простой API для интеграции функций преобразования документов и изображений в приложения Java без установки какого-либо внешнего программного обеспечения."
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -28,7 +28,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Conversion for Java"
-        image: "/border/groupdocs-conversion-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
         product: "GroupDocs.Conversion"
         platform: "Java"
 
@@ -44,60 +44,56 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Поддерживать"
 
             # button loop
             - link: "https://products.groupdocs.app/conversion"
-              text: "Live Demo"
+              text: "Живая демонстрация"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
+              text: "Цены"
 
     right:
         link_download: "https://downloads.groupdocs.com/conversion"
         link_learn: "https://docs.groupdocs.com/conversion/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Обзор ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Conversion for Java сочетает в себе мощный набор API-интерфейсов преобразования документов для отображения изображений и форматов документов в ваших приложениях Java без необходимости установки дополнительного программного обеспечения. Он изначально растрирует документы и преобразует их в SVG+HTML+CSS, чтобы улучшить качество просмотра документов, обеспечивая при этом истинный текст и высокое качество вывода. Используя API рендеринга документов, вы сможете быстро просматривать PDF, HTML, XML, Microsoft Office Word, рабочие листы Excel, презентации PowerPoint, электронные письма Outlook, диаграммы Visio, Project, метафайлы, изображения и различные другие форматы файлов с легкостью и меньшими опасностями программирования. Он также может отображать файлы, защищенные паролем, и позволяет получить представление документа в виде HTML, изображения или формы PDF после рендеринга. Наша библиотека преобразования файлов легко настраивается, поскольку позволяет отображать весь документ или отображать его частично для ускорения процесса. С помощью GroupDocs.Conversion for Java API вы можете просматривать страницы, определенный диапазон ячеек в электронной таблице или даже отображать отдельный слой документа в таких форматах, как PDF и CAD.
-        
-      GroupDocs.Conversion for Java API позволяет отображать документы с аннотациями или комментариями или без них для поддерживаемых форматов файлов. Он также позволяет добавлять каталоги пользовательских шрифтов и извлекать основную информацию о документе, такую как тип файла, расширение, имя, количество страниц и т. д.
-        
-      GroupDocs.Conversion para Java es compatible con todas las versiones de Java y es compatible con los sistemas operativos populares (Windows, линукс, macOS) que son capaces de ejecutar el tiempo de ejecución de Java.
+      GroupDocs.Conversion for Java сочетает в себе мощный набор API-интерфейсов преобразования документов для отображения изображений и форматов документов в ваших приложениях Java без необходимости установки дополнительного программного обеспечения. Он изначально растрирует документы и преобразует их в SVG+HTML+CSS, чтобы улучшить качество просмотра документов, обеспечивая при этом истинный текст и высокое качество вывода. Используя API рендеринга документов, вы можете быстро просматривать PDF, HTML, XML, Microsoft Office Word, рабочие листы Excel, презентации PowerPoint, электронные письма Outlook, диаграммы Visio, Project, метафайлы, изображения и различные другие форматы файлов с легкостью и меньшими опасностями программирования. Он также может отображать файлы, защищенные паролем, и позволяет получить представление документа в виде HTML, изображения или формы PDF после рендеринга. Наша библиотека преобразования файлов легко настраивается, поскольку позволяет отображать весь документ или отображать его частично для ускорения процесса. С помощью GroupDocs.Conversion for Java API вы можете просматривать страницы, определенный диапазон ячеек в электронной таблице или даже отображать отдельный слой документа в таких форматах, как PDF и CAD.
+
+      GroupDocs.Conversion for Java API позволяет отображать документы с аннотациями или комментариями или без них для поддерживаемых форматов файлов. Он также позволяет добавлять каталоги пользовательских шрифтов и извлекать основную информацию о документе, такую ​​как тип файла, расширение, имя, количество страниц и т. д.
     tabs:
-      enable: true   
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          Ниже приводится обзор GroupDocs.Conversion для Java:
-
+          Ниже приведен обзор GroupDocs.Conversion for Java:
+        
         right:
           enable: true
           icon: "fab fa-html5"
           title: "Обзор"
           content: |
             * Автоматическое определение типа файла
-            * Конвертировать документы
+            * Преобразование документов
+            * Преобразование презентаций
             * Преобразование электронных таблиц
-            * Конвертировать презентации
-            * Преобразование PDF-документов
             * Преобразование растровых изображений
-            * Преобразование HTML-документов
-            * Преобразование PSD-документов
-            * Преобразование CAD-документов
-            * Настроить водяной знак
-            * Применить защиту паролем
-            * Индивидуальное преобразование
-      
+            * Преобразование PDF-документов
+            * Преобразование других форматов
+            * Применить водяной знак
+            * Укажите пароль к файлу
+            * Настройка преобразования
+
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Conversion for Java поддерживает преобразование между всеми популярными и часто используемыми [форматами файлов документов] (https://docs.groupdocs.com/conversion/java/supported-document-formats/).
+          GroupDocs.Conversion for Java поддерживает преобразование между всеми популярными и часто используемыми [форматами файлов документов](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
 
         left:
           enable: true
@@ -105,45 +101,44 @@ overview:
             # table loop
             - title: "Конвертировать из:"
               content: |
-                * **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, XLT, XLTX, XLTM, XLAM, CSV, XLS2003, Excel95, ODS, TSV, FODS
-                * **Presentaciones**: PPT, PPTX, PPS, PPSX, ODP, POT, POTM, POTX, PPTM, PPSM
-                * **Imágenes**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, CMX, DIB, JPC, JPEG2000, JPEG-LS
-                * **Portátil**: PDF, XPS, OXPS, EPUB
-                * **PostScript**: EPS, PS, PSL
+                * **Документы**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
+                * **Электронные таблицы**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
+                * **Презентации**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
+                * **Изображения**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
+                * **Портативный**: PDF, XPS, OXPS, EPUB
                 * **HTML**: HTM, HTML, MHTML
-                * **Diagramas**: VSD, VSDX, VSS, VST, VSX, VTX, VDW, VDX, SVG, VSDM, VSSM, VSTM
-                * **Proyecto**: MPT, MPP, MPX
-                * **Perspectiva**: PST, OST
-                * **Correo electrónico**: MSG, EML, EMLX
-                * **AutoCAD**: DXF, DWG, DWT, STL, DWF, IFC
-                * **Postscript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR
-                * **XML**: XSLT
-                * **Látex**: Látex
-                * **Otro**: VCF, OTG, MD
+                * **Метафайлы**: EMZ, WMZ
+                * **Фотошоп**: PSD
+                * **Проект**: MPP, MPT, MPX
+                * **Перспективы**: PST, OST
+                * **Электронная почта**: MSG, EML, EMLX
+                * **Диаграммы**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
+                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
+                * **PostScript**: EPS, PS, PSL, CGM
+                * **CorelDRAW**: CDR, CMX
+                * **Другое**: VCF, PLT, LGS, OTG, MD, AI, LOG
 
         right:
           enable: true
           table:
             # table loop
-            - title: "Перевести в:"
+            - title: "Преобразовать в:"
               content: |
-                * **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Presentaciones**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Imágenes**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metarchivos**: EMF, WMF, EMZ, WMZ
-                * **Diagramas**: SVGZ
-                * **Portátil**: PDF, XPS
+                * **Документы**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
+                * **Электронные таблицы**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
+                * **Презентации**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
+                * **Изображения**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
+                * **Метафайлы**: EMF, WMF, EMZ, WMZ
+                * **Диаграммы**: SVGZ
+                * **Портативный**: PDF, XPS
                 * **HTML**: HTM, HTML, MHTML
-                * **Otro**: MD
+                * **Другое**: доктор медицины
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Conversion for Java apoya seguir Операционные системы Менеджер пакетовs:
-        
+          GroupDocs.Conversion for Java поддерживает следующие операционные системы, платформы и менеджеры пакетов:
+      
         left:
           enable: true
           table:
@@ -151,159 +146,186 @@ overview:
             - icon: "fab fa-windows"
               title: "Операционные системы"
               content: |
-                * Рабочий стол Microsoft Windows
-                * Сервер Microsoft Windows
-                * линукс
-                * MacOS
+                Windows Desktop, Windows Server, Linux, MacOS
 
             # table loop
             - icon: "fas fa-code"
               title: "Поддерживаемые платформы"
               content: |
-                * Java 7 (1.7) и выше
+                Java runtime: J2SE 6.0 and above
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "fas fa-cogs"
-              title: "Среды разработки"
+            - icon: "fas fa-box"
+              title: "Менеджер пакетов"
               content: |
-                * NetBeans
-                * IntelliJ ИДЕЯ
-                * Затмение
+                Maven
+
             # table loop
             - icon: "fas fa-tools"
-              title: "Инструмент автоматизации сборки"
+              title: "Менеджер пакетов"
               content: |
-                * Мавен
+                NetBeans, Intellij IDEA, Eclipse, etc.
 
-############################# Функции ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Conversion для функций Java"
+    title: "Функции GroupDocs.Conversion for Java"
 
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Простая интеграция & Metered Licensing"
+        content: "Простая интеграция и дозированное лицензирование"
 
       # feature loop
       - icon: "fas fa-eye"
-        content: "Применить масштаб по умолчанию при преобразовании в слова, слайды или ячейки"
+        content: "Установите параметр масштабирования по умолчанию при преобразовании в слова, слайды или ячейки"
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Преобразование в/из самых популярных форматов растровых изображений и указание DPI изображения, высоты и ширины"
+        content: "Преобразование в/из всех популярных форматов растровых изображений и назначение изображения DPI, высоты и ширины"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Возможность преобразования PDF в оттенки серого, поворот PDF и изображения при конвертации"
+        content: "Преобразование PDF-файлов и изображений в оттенки серого и линеаризация PDF-документов для Интернета"
 
       # feature loop
       - icon: "fas fa-code"
-        content: "Установить и указать водяной знак в преобразованном документе в качестве фона"
+        content: "Укажите уровень закладки, уровень заголовка и расширенный уровень в преобразовании Word в PDF/XPS"
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "Настроить водяной знак Transparency & Custom Font Directories"
+        content: "Настройка и размещение водяного знака в преобразованном документе в качестве фона для отображения за текстом"
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "Укажите шрифт по умолчанию для замены отсутствующих шрифтов при преобразовании документов и электронных таблиц"
+        content: "Рендеринг заголовка электронной почты во время преобразования из электронной почты"
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Преобразование и получение вывода в виде пути или потока ввода-вывода"
+        content: "Установка каталогов пользовательских шрифтов и явная загрузка/замена шрифта во время преобразования документа"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "Удаляйте комментарии со слайдов во время преобразования и сохраняйте линии сетки при преобразовании электронной таблицы"
+        content: "Установите шрифт по умолчанию для замены отсутствующих шрифтов для преобразования документов, слайдов и электронных таблиц"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "Укажите диапазон ячеек в электронной таблице для преобразования и преобразования определенных страниц документа в PDF"
+        content: ""
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "Конвертируйте электронные таблицы, пропуская пустые строки и столбцы и показывая скрытые листы"
+        content: "Преобразование электронной таблицы с линиями сетки и удаление комментариев из слайдов во время преобразования"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "Подсчитайте общее количество страниц документа и укажите пароль документа во время преобразования"
+        content: "Преобразование определенных страниц документа в формат PDF и преобразование определенного диапазона ячеек в электронные таблицы"
 
       # feature loop
       - icon: "fas fa-file-word"
-        content: "Возможность удаления аннотаций PDF"
+        content: "Показать скрытые листы и пропустить пустые строки и столбцы при преобразовании электронных таблиц"
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "Автоматическое определение типа исходного документа и получение всех возможных преобразований во время потокового преобразования"
+        content: "Подсчитайте общее количество страниц документа и установите пароль для незащищенного документа во время преобразования"
 
       # feature loop
       - icon: "fas fa-print"
-        content: "Получить каждую страницу в отдельном потоке во время преобразования HTML"
+        content: "Возможность удаления аннотаций и встроенных файлов из PDF"
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "Преобразование документов Word с отслеживанием изменений и отображением/скрытием разметки"
+        content: "Создание разметки, совместимой с HTML 5, при преобразовании в HTML"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "Получите все макеты для типа документа САПР и укажите, какой макет преобразовать из документа САПР"
+        content: "Автоматическое определение типа источника и возврат всех возможных преобразований при преобразовании из потока"
 
       # feature loop
       - icon: "fas fa-file-code"
-        content: "Установите конкретную ширину и высоту для каждого макета из документа САПР"
+        content: "Возможность вернуть каждую страницу в отдельный поток при преобразовании в PDF или HTML"
       
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "Установите часовой пояс поля SENT при преобразовании из электронной почты"
+        content: "Показать/скрыть разметку, комментарии и отслеживать изменения при преобразовании из Word"
 
       # feature loop
       - icon: "fas fa-file-excel"
-        content: "Преобразование многостраничного файла изображения TIFF в PDF"
+        content: "Преобразование DOCX в Tiff G3 с возможностью затенения"
 
       # feature loop
       - icon: "fas fa-heading"
-        content: "Отрегулируйте яркость, контрастность и гамму при преобразовании документа в изображение"
+        content: "Преобразование определенных макетов при преобразовании из документа САПР"
 
       # feature loop
       - icon: "fas fa-project-diagram"
-        content: "Преобразование XML-документов без преобразования"
+        content: "Автоматическое присвоение имен при сохранении преобразованного документа в файл"
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "Преобразование вложений из почтового документа"
+        content: "Лицензирование по счетчику поддерживается для выставления счетов на основе использования API"
 
-    больше_функций:
-      # more_feature_loop
-      - title: "Чтение документа с URL-адреса или пути для преобразования"
-        content: |
-          Используя GroupDocs.Conversion for Java API, вы можете прочитать входной документ из пути к файлу, а также из URL-адреса. В то время как вы можете сохранить выходной документ в виде файла или отправить вывод непосредственно в поток.
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Преобразование диаграмм в форматы файлов текстового редактора"
       
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Добавление номеров страниц при преобразовании HTML в текстовый документ"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Преобразование XML-документов в любой формат без преобразования"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Мониторинг процесса преобразования файлов (начало, завершение) непосредственно из клиентского приложения"
+
+    more_feature:
       # more_feature_loop
       - title: "Простое преобразование формата документа с использованием Java"
         content: |
-          Вы можете преобразовать формат файла множества типов документов, используя GroupDocs.Conversion for Java API. Здесь вам представлены несколько строк кода для выполнения базового преобразования документа с помощью Java.
-
-          ```java
-          ConversionConfig config = new ConversionConfig();
-          config.setStoragePath(storagePath);
-
-          ConversionHandler conversionHandler = new ConversionHandler(config);
-          ImageSaveOptions saveOptions = new ImageSaveOptions();
-          saveOptions.setConvertFileType(ImageSaveOptions.ImageFileType.PSD);
-          PsdOptions psdOptions = new PsdOptions();
-          psdOptions.setColorMode(PsdOptions.ColorModes.GRAYSCALE);
-          psdOptions.setCompressionMethod(PsdOptions.CompressionMethods.RAW);
-          ConvertedDocument result = conversionHandler. convert(sourceFileName, saveOptions);
-          result.save(sourceFileName + "." + result.getFileType());
+          Вы можете преобразовать формат файла множества типов документов, используя GroupDocs.Conversion for Java API. Здесь вам представлены несколько строк кода для выполнения базового преобразования документа с помощью Java.  
+            
+          {features.more_feature.step1} 
+          {features.more_feature.step2} 
+          {features.more_feature.step3} 
+            
+          ```java    
+           // Загрузить исходный файл DOCX для преобразования
+        Converter converter = new Converter("input.docx");
+        // Подготовьте параметры преобразования для целевого формата PDF
+        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+        // Преобразование в формат PDF
+        converter.convert("output.pdf", convertOptions);
           ```
+            
+      # more_feature_loop
+      - title: "Чтение документа с URL-адреса или пути для преобразования"
+        content: "Используя GroupDocs.Conversion for Java API, вы можете читать входной документ из пути к файлу, а также из URL-адреса. В то время как вы можете сохранить выходной документ в виде файла или отправить вывод непосредственно в поток."
 
       # more_feature_loop
       - title: "Комплексная техническая поддержка"
-        content: "GroupDocs.Conversion for Java — это простой и точный API, который вы можете довольно легко интегрировать в свои Java-приложения. Однако, чтобы вы могли быстро приступить к работе, мы также предоставляем простые в использовании примеры кода и исчерпывающую документацию по API.."
+        content: |
+          GroupDocs.Conversion for Java – это простой и точный API, который вы можете довольно легко интегрировать в свои Java-приложения. Однако, чтобы вы могли быстро приступить к работе, мы также предоставляем простые в использовании примеры кода и исчерпывающую документацию по API.  
+            
+          * PdfA_1A
+          * PdfA_1B
+          * PdfA_2A
+          * PdfA_3A
+          * PdfA_2B
+          * PdfA_2U
+          * PdfA_3B
+          * PdfA_3U
+          * v1_3
+          * v1_4
+          * v1_5
+          * v1_6
+          * v1_7
+          * PdfX_1A
+          * PdfX3
 
 ############################# Support ############################
 support:
@@ -312,15 +334,15 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Conversion предлагает API для просмотра документов для других популярных сред разработки."
+    title: "GroupDocs.Conversion предлагает API преобразования документов для других популярных сред разработки."
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Conversion for .NET"
-          image: "/border/groupdocs-conversion-net.svg"
+        - img_alt: "GroupDocs.Conversion для .NET"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion"
-          platform: ".NET"
-          link: "/conversion/net/"
+          platform: ".СЕТЬ"
+          link: "/конверсия/нетто/"
 
 ############################# Back to top ###############################
 back_to_top:

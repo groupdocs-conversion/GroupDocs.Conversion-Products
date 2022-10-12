@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} Dokumentkonvertierungs-API | Konvertieren Sie PDF Word Excel PPTX HTML-Bilder",
+    "description": "{{ProgLang}} Dokumentkonvertierungs-API. Konvertieren Sie PDF, Word, DOC, DOCX, Excel-Tabellen, PPT, PPTX, HTML, PSD, MPT, MPP, E-Mail, MSG, EMLX, AutoCAD und Bilddateiformate."
+  },
+  "header": {
+    "title": "{{ProgLang}}-API zum Konvertieren von über 80 Dateiformaten",
+    "description": "Einfache API zur Integration von Dokumenten- und Bildkonvertierungsfunktionen in {{ProgLang}}-Anwendungen ohne Installation externer Software.",
+    "button": {
+      "label": "Download kostenlose Testversion",
+      "link": "https://downloads.groupdocs.com/conversion/java"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "Überblick"
+      },
+      "button2": {
+        "text": "Merkmale"
+      },
+      "button3": {
+        "text": "Die Unterstützung"
+      },
+      "button4": {
+        "text": "Live-Demo"
+      },
+      "button5": {
+        "text": "Preisgestaltung"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} kombiniert einen leistungsstarken Satz von Dokumentkonvertierungs-APIs, um Bilder und Dokumentformate in Ihren Java-Anwendungen anzuzeigen, ohne dass zusätzliche Software installiert werden muss. Es rastert die Dokumente nativ und konvertiert sie in SVG+HTML+CSS, um die Qualität der Dokumentenanzeige zu verbessern und gleichzeitig eine High-Fidelity-Ausgabe in Echttext zu liefern. Verwenden der Dokumenten-Rendering-API – schnelles Anzeigen von PDF-, HTML-, XML-, Microsoft Office Word-, Excel-Arbeitsblättern, PowerPoint-Präsentationen, Outlook-E-Mails, Visio-Diagrammen, Project, Metadateien, Bildern und verschiedenen anderen Dateiformaten mit Leichtigkeit und weniger Programmierrisiken. Es kann auch passwortgeschützte Dateien anzeigen und nach dem Rendern die Dokumentdarstellung als HTML-, Bild- oder PDF-Formular erhalten. Unsere Dateikonvertierungsbibliothek ist sehr anpassbar, da Sie das gesamte Dokument anzeigen oder teilweise rendern können, um den Prozess zu beschleunigen. Über die GroupDocs.Conversion für Java-API können Sie Seiten oder bestimmte Zellbereiche in einer Tabelle anzeigen oder sogar eine einzelne Dokumentebene in Formaten wie PDF und CAD rendern.",
+    "content2": "Die {{ProductFullName}}-API ermöglicht es Ihnen, Dokumente mit/ohne Anmerkungen oder Kommentare für unterstützte Dateiformate zu rendern. Außerdem können Sie benutzerdefinierte Schriftartenverzeichnisse hinzufügen und grundlegende Dokumentinformationen wie Dateityp, Erweiterung, Name, Seitenzahl usw. extrahieren.",
+    "tab_one": {
+      "description": "Nachfolgend finden Sie eine Übersicht über {{ProductFullName}}:",
+      "right": {
+        "title": "Überblick",
+        "content1": "* Dateityp automatisch erkennen",
+        "content2": "* Dokumente konvertieren",
+        "content3": "* Konvertieren Sie Präsentationen",
+        "content4": "* Tabellenkalkulationen konvertieren",
+        "content5": "* Rasterbilder konvertieren",
+        "content6": "* Konvertieren Sie PDF-Dokumente",
+        "content7": "* Andere Formate konvertieren",
+        "content8": "* Wasserzeichen anwenden",
+        "content9": "* Geben Sie das Dateikennwort an",
+        "content10": "* Konvertierung anpassen"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} unterstützt die Konvertierung zwischen allen gängigen und häufig verwendeten [Dokumentdateiformaten](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
+      "left": {
+        "title": "Konvertieren von:",
+        "content1": "* **Dokumente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Tabellen**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Präsentationen**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Bilder**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Tragbar**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTM, HTML, MHTML",
+        "content7": "* **Metadateien**: EMZ, WMZ",
+        "content8": "* **PhotoShop**: PSD",
+        "content9": "* **Projekt**: MPP, MPT, MPX",
+        "content10": "* **Ausblick**: PST, OST",
+        "content11": "* **E-Mail**: MSG, EML, EMLX",
+        "content12": "* **Diagramme**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Andere**: VCF, PLT, LGS, OTG, MD, AI, LOG"
+      },
+      "right": {
+        "title": "Konvertieren zu:",
+        "content1": "* **Dokumente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Tabellen**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Präsentationen**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Bilder**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
+        "content5": "* **Metadateien**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Diagramme**: SVGZ",
+        "content7": "* **Tragbar**: PDF, XPS",
+        "content8": "* **HTML**: HTM, HTML, MHTML",
+        "content9": "* **Andere**: MD"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} unterstützt folgende Betriebssysteme, Frameworks und Paketmanager:",
+      "left": {
+        "title1": "Betriebssysteme",
+        "title2": "Unterstützte Frameworks"
+      },
+      "right": {
+        "title1": "Paket-Manager",
+        "title2": "Entwicklungsumgebungen"
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductFullName}}-Funktionen",
+    "content1": "Einfache Integration und gebührenpflichtige Lizenzierung",
+    "content2": "Legen Sie die Standard-Zoomoption beim Konvertieren in Wörter, Folien oder Zellen fest",
+    "content3": "Konvertieren Sie in/von allen gängigen Rasterbildformaten und weisen Sie Bild-DPI, -Höhe und -Breite zu",
+    "content4": "Konvertieren Sie PDF und Bilder in Graustufen und linearisieren Sie PDF-Dokumente für das Web",
+    "content5": "Geben Sie Lesezeichenebene, Überschriftenebene und erweiterte Ebene bei der Word-zu-PDF/XPS-Konvertierung an",
+    "content6": "Konfigurieren und platzieren Sie Wasserzeichen in konvertierten Dokumenten als Hintergrund, um sie hinter Text anzuzeigen",
+    "content7": "Rendern Sie den E-Mail-Header während der Konvertierung von E-Mail",
+    "content8": "Legen Sie benutzerdefinierte Schriftartenverzeichnisse fest und laden/ersetzen Sie Schriftarten explizit während der Dokumentkonvertierung",
+    "content9": "Legen Sie die Standardschrift fest, um fehlende Schriftarten für die Konvertierung von Dokumenten, Folien und Tabellenkalkulationen zu ersetzen",
+    "content10": "Erweiterte Konvertierungsmethoden, um die Ausgabe als Pfad oder IO-Stream zurückzugeben",
+    "content11": "Konvertieren Sie eine Tabelle mit Rasterlinien und entfernen Sie während der Konvertierung Kommentare von Folien",
+    "content12": "Konvertieren Sie bestimmte Dokumentseiten in das PDF-Format und konvertieren Sie bestimmte Zellbereiche in Tabellenkalkulationen",
+    "content13": "Zeigen Sie ausgeblendete Blätter und überspringen Sie leere Zeilen und Spalten beim Konvertieren von Tabellenkalkulationen",
+    "content14": "Zählen Sie die Gesamtseiten eines Dokuments und setzen Sie das Passwort während der Konvertierung auf ein ungeschütztes Dokument",
+    "content15": "Option zum Entfernen von Anmerkungen und eingebetteten Dateien aus PDF",
+    "content16": "Erstellen Sie HTML 5-konformes Markup beim Konvertieren in HTML",
+    "content17": "Automatische Erkennung des Quelltyps und Rückgabe aller möglichen Konvertierungen beim Konvertieren von Stream",
+    "content18": "Möglichkeit, beim Konvertieren in PDF oder HTML jede Seite in einem separaten Stream zurückzugeben",
+    "content19": "Anzeigen/Ausblenden von Markierungen, Kommentaren und Verfolgen von Änderungen beim Konvertieren aus Word",
+    "content20": "Konvertierung von DOCX in Tiff G3 mit Schattierungsoption",
+    "content21": "Konvertieren Sie bestimmte Layouts beim Konvertieren aus einem CAD-Dokument",
+    "content22": "Automatische Benennung beim Speichern des konvertierten Dokuments in einer Datei",
+    "content23": "Gemessene Lizenzierung wird unterstützt, um basierend auf der Nutzung der API abgerechnet zu werden",
+    "content24": "Konvertieren Sie Diagramme in Textverarbeitungsdateiformate",
+    "content25": "Fügen Sie Seitenzahlen hinzu, während Sie HTML in ein Textverarbeitungsdokument konvertieren",
+    "content26": "Konvertieren Sie XML-Dokumente ohne Transformation in ein beliebiges Format",
+    "content27": "Überwachen Sie den Fortschritt der Dateikonvertierung (Start, Ende) direkt von der clientseitigen Anwendung",
+    "more_feature": {
+      "title1": "Einfache Dokumentenformatkonvertierung mit Java",
+      "content1": "Mit der {{ProductFullName}}-API können Sie das Dateiformat einer Vielzahl von Dokumenttypen konvertieren. Hier werden Ihnen einige Codezeilen präsentiert, um eine grundlegende Dokumentenkonvertierung mit Java durchzuführen.",
+      "step_1": "Erstellen Sie eine Instanz der Converter-Klasse und geben Sie die Datei mit dem vollständigen Pfad an",
+      "step_2": "Erstellen und legen Sie ConvertOptions für den gewünschten Zieltyp fest.",
+      "step_3": "Rufen Sie die Methode Converter.Convert auf und übergeben Sie den vollständigen Pfad und das Format als Parameter",
+      "title2": "Dokument von URL oder Pfad zur Konvertierung lesen",
+      "content2": "Mit der {{ProductFullName}}-API können Sie Eingabedokumente sowohl aus einem Dateipfad als auch aus einer URL lesen. Während Sie das Ausgabedokument als Datei speichern oder die Ausgabe direkt in einen Stream senden können.",
+      "title3": "Umfassender technischer Support",
+      "content3": "{{ProductFullName}} ist eine einfache und auf den Punkt gebrachte API, die Sie ganz einfach in Ihre Java-basierten Anwendungen integrieren können. Damit Sie jedoch im Handumdrehen einsatzbereit sind, bieten wir auch leicht verständliche Codebeispiele und eine umfassende API-Dokumentation."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion bietet Dokumentenkonvertierungs-APIs für andere beliebte Entwicklungsumgebungen",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion für .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
+      "platform": ".NETZ",
+      "link": "/conversion/net/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Quelldatei {{FROM}} zur Konvertierung laden",
+      "prepare_comment": "Konvertierungsoptionen für das Zielformat {{TO}} vorbereiten",
+      "convert_comment": "In das {{TO}}-Format konvertieren"
+    }
+  }
+}

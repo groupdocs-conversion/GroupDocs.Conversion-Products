@@ -1,21 +1,21 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-12T19:33:17
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: ".NET"
-platform_tag: "net"
+platform: .NET
+platform_tag: net
 
 ############################# Head ############################
 head_title: "C# .NET 文档转换 API |转换 PDF Word Excel PPTX HTML 图像"
-head_description: "C# .NET 文档转换 API。转换 PDF Word DOC DOCX、Excel 电子表格 PPT PPTX、HTML、PSD、MPT MPP、电子邮件 MSG EMLX、AutoCAD 和图像文件格式."
+head_description: "C# .NET 文档转换 API。转换 PDF Word DOC DOCX、Excel 电子表格 PPT PPTX、HTML、PSD、MPT MPP、电子邮件 MSG EMLX、A​​utoCAD 和图像文件格式。"
 
 ############################# Header ############################
 title: ".NET API 转换 80 多种文件格式"
-description: "无需安装任何外部软件即可将文档和图像转换功能集成到 .NET 应用程序的简单 API."
+description: "无需安装任何外部软件即可将文档和图像转换功能集成到 .NET 应用程序中的简单 API。"
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -28,7 +28,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Conversion for .NET"
-        image: "/border/groupdocs-conversion-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
@@ -44,11 +44,11 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "支持"
 
             # button loop
             - link: "https://products.groupdocs.app/conversion"
-              text: "Live Demo"
+              text: "现场演示"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/conversion/net"
@@ -59,12 +59,12 @@ submenu:
         link_learn: "https://docs.groupdocs.com/conversion/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# 概述 ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Conversion for .NET 提供了一组简单的 API，使开发人员能够使用 C#、ASP.NET 和其他 .NET 相关技术构建功能强大的文档转换应用程序。 GroupDocs.Conversion for .NET API 为您的最终用户提供快速、高效和可靠的文件转换解决方案。它支持在所有流行的商业文档格式之间执行准确的转换，包括：PDF、HTML、电子邮件、Microsoft Word 文档、Excel 电子表格、PowerPoint 演示文稿、Project、Photoshop、CorelDraw、AutoCAD、图表、光栅图像文件格式等等。文档转换器库自动检测源文档格式，并为您提供将整个文档或特定页面转换为所需输出格式的所有控制权。用首选字体替换丢失的字体并将文本或图像水印添加到任何文档页面更容易。
-        
+      GroupDocs.Conversion for .NET 提供了一组简单的 API，使开发人员能够在 C#、ASP.NET 和其他 .NET 相关技术中构建强大的文档转换应用程序。 GroupDocs.Conversion for .NET API 为您的最终用户提供快速、高效和可靠的文件转换解决方案。它支持在所有流行的商业文档格式之间执行准确的转换，包括：PDF、HTML、电子邮件、Microsoft Word 文档、Excel 电子表格、PowerPoint 演示文稿、Project、Photoshop、CorelDraw、AutoCAD、图表、光栅图像文件格式等等。文档转换器库自动检测源文档格式，并为您提供将整个文档或特定页面转换为所需输出格式的所有控制权。用首选字体替换丢失的字体并将文本或图像水印添加到任何文档页面更容易。
+
       GroupDocs.Conversion for .NET 可用于在任何面向 .NET 平台的开发环境中开发应用程序。它与所有基于 .NET 的语言兼容，并支持可以安装 Mono 或 .NET 框架（包括 .NET Core）的流行操作系统（Windows、Linux、MacOS）。
     tabs:
       enable: true
@@ -72,7 +72,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          以下是 .NET 的 GroupDocs.Conversion 的概述：
+          以下是 GroupDocs.Conversion for .NET 的概述：
         
         right:
           enable: true
@@ -80,16 +80,16 @@ overview:
           title: "概述"
           content: |
             * 自动检测文件类型
-            * 转换文档
-            * 转换演示文稿
+            * 转换文件
+            *转换演示文稿
             * 转换电子表格
             * 转换光栅图像
-            * 转换 PDF 文档
-            * Convert 其他格式
+            * 转换 PDF 文件
+            * 转换其他格式
             * 应用水印
             * 指定文件密码
             * 自定义转换
-      
+
       ## TAB TWO ##
       tab_two:
         description: |
@@ -101,22 +101,22 @@ overview:
             # table loop
             - title: "转换自："
               content: |
-                * **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Presentaciones**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Imágenes**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Portátil**: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **Metarchivos**: EMZ, WMZ
-                * **FotoShop**: PSD
-                * **Proyecto**: MPP, MPT, MPX
-                * **Perspectiva**: PST, OST
-                * **Correo electrónico**: MSG, EML, EMLX
-                * **Diagramas**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **Postscript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR, CMX
-                * **Otros**: VCF, PLT, LGS, OTG, MD, AI, LOG
+                * **文档**：DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
+                * **电子表格**：XLS、XLSX、XLSM、XLSB、CSV、XLS2003、ODS、TSV、XLT、XLTX、XLTM、XLAM、FODS、SXC
+                * **演示文稿**：PPT、PPTX、PPS、PPSX、ODP、POT、POTX、POTM、PPTM、PPSM、FODP
+                * **图像**：TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、DIB、JPC、JPEG-LS、JPEG2000
+                * **便携式**：PDF、XPS、OXPS、EPUB
+                * **HTML**：HTM、HTML、MHTML
+                * **元文件**：EMZ、WMZ
+                * **照相馆**：PSD
+                * **项目**：MPP、MPT、MPX
+                * **展望**：PST、OST
+                * **电子邮件**：味精、EML、EMLX
+                * **图表**：VSD、VSDX、VSDM、VSS、VSSM、VST、VSTM、VSX、VTX、VDW、VDX、SVG、SVGZ
+                * **AutoCAD**：DXF、DWG、DWF、STL、IFC、DWT
+                * **PostScript**：EPS、PS、PSL、CGM
+                * **CorelDRAW**：CDR、CMX
+                * **其他**：VCF、PLT、LGS、OTG、MD、AI、LOG
 
         right:
           enable: true
@@ -124,20 +124,20 @@ overview:
             # table loop
             - title: "转换成："
               content: |
-                * **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Presentaciones**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Imágenes**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metarchivos**: EMF, WMF, EMZ, WMZ
-                * **Diagramas**: SVGZ
-                * **Portátil**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                * **Otro**: MD
+                * **文档**：DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
+                * **电子表格**：XLS、XLSX、XLSM、XLSB、CSV、XLS2003、TSV、XLTX、ODS、XLAM、FODS、DIF、SXC
+                * **演示文稿**：PPT、PPTX、PPS、PPSX、ODP、POTX、POTM、PPTM、PPSM、FODP
+                * **图像**：TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、JPEG2000
+                * **元文件**：EMF、WMF、EMZ、WMZ
+                * **图表**：SVGZ
+                * **便携式**：PDF、XPS
+                * **HTML**：HTM、HTML、MHTML
+                * **其他**：医学博士
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Conversion for .NET 支持以下作品、框架和包管理:
+          GroupDocs.Conversion for .NET 支持以下操作系统、框架和包管理器：
       
         left:
           enable: true
@@ -146,20 +146,13 @@ overview:
             - icon: "fab fa-windows"
               title: "操作系统"
               content: |
-                * Windows Desktop (x86 & x64)
-                * Windows Server (x86 & x64)
-                * Windows Azure
-                * Linux
-                * MacOS
+                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
 
             # table loop
             - icon: "fas fa-code"
               title: "支持的框架"
               content: |
-                * .NET 标准 2.0
-                * .NET Framework 2.0 或更高版本
-                * .NET Core 2.0 或更高版本
-                * Mono 框架 1.2 或更高版本
+                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
 
         right:
           enable: true
@@ -168,27 +161,23 @@ overview:
             - icon: "fas fa-box"
               title: "包管理器"
               content: |
-                * NuGet
+                Nuget
 
             # table loop
             - icon: "fas fa-tools"
-              title: "开发环境"
+              title: "包管理器"
               content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+                Microsoft Visual Studio, Xamarin, MonoDevelop
 
-############################# 特征 ############################
+############################# Features ############################
 features:
     enable: true
-    title: ".NET 功能的 GroupDocs.Conversion"
+    title: "GroupDocs.Conversion for .NET 功能"
 
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "易于集成 & Metered Licensing"
+        content: "易于集成和计量许可"
 
       # feature loop
       - icon: "fas fa-eye"
@@ -204,7 +193,7 @@ features:
 
       # feature loop
       - icon: "fas fa-code"
-        content: "在 Word 到 PDF/XPS 转换中指定书签级别、标题级别和扩展级别"
+        content: "在 Word 到 PDF/XPS 的转换中指定书签级别、标题级别和扩展级别"
 
       # feature loop
       - icon: "fas fa-cloud"
@@ -224,7 +213,7 @@ features:
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "将输出作为路径或 IO 流返回的高级转换方法"
+        content: ""
 
       # feature loop
       - icon: "fas fa-wrench"
@@ -276,7 +265,7 @@ features:
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "支持按API使用计费的计量许可"
+        content: "支持按API使用量计费"
 
       # feature loop
       - icon: "fab fa-uncharted"
@@ -298,33 +287,29 @@ features:
       # more_feature_loop
       - title: "轻松转换文档格式"
         content: |
-          使用 GroupDocs.Conversion for .NET，转换文档文件格式非常容易。以下示例展示了如何使用 C# 将 PDF 文件转换为 DOC 文件：
+          使用 GroupDocs.Conversion for .NET，转换文档文件格式非常容易。以下示例展示了如何使用 C# 将 PDF 文件转换为 DOC 文件：  
             
-          * 获取文件路径作为输入
-          * 获取文件存储路径
-          * 转换输入文档文件
-          * Return the output, as path or stream (as per requirement)  
+          {features.more_feature.step1} 
+          {features.more_feature.step2} 
+          {features.more_feature.step3} 
             
-            
-          ```cs
-          // 设置转换配置并初始化 ConversionHandler
-          ConversionConfig config = new ConversionConfig();
-          config.StoragePath = @"D:\storage\"; 
-          // 启动 ConversionHandler
-          ConversionHandler conversionHandler = new ConversionHandler(config);
-          // 转换并保存转换后的文档
-          var convertedDocumentPath = conversionHandler.Convert("sample.pdf", new WordsSaveOptions {  });
-          convertedDocumentPath.Save("result-" + Path.GetFileNameWithoutExtension("sample.pdf") + ".doc");
+          ```csharp    
+           // 加载源文件 DOCX 进行转换
+        var converter = new GroupDocs.Conversion.Converter("input.docx");
+        // 为目标格式 PDF 准备转换选项
+        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+        // 转换为 PDF 格式
+        converter.Convert("output.pdf", convertOptions);
           ```
             
       # more_feature_loop
       - title: "转换为图像格式"
-        content: "GroupDocs.Conversion for .NET API 支持与各种图像格式的文档转换。在从其他格式转换为图像时，您可以调整图像的许多属性。我们的转换 API 允许您调整亮度、对比度、伽玛属性。您也可以翻转图像。并且在转换为JPEG格式的情况下，您可以设置文件的颜色模式和压缩模式."
+        content: "GroupDocs.Conversion for .NET 可用于在任何面向 .NET 平台的开发环境中开发应用程序。它与所有基于 .NET 的语言兼容，并支持可以安装 Mono 或 .NET 框架（包括 .NET Core）的流行操作系统（Windows、Linux、MacOS）。"
 
       # more_feature_loop
       - title: "支持各种 PDF 格式类型"
         content: |
-          GroupDocs.Conversion for .NET API 支持将文档转换为以下 PDF 类型/格式：
+          GroupDocs.Conversion for .NET API 支持将文档转换为以下 PDF 类型/格式：  
             
           * PdfA_1A
           * PdfA_1B
@@ -349,15 +334,15 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Conversion 为其他流行的开发环境提供文档查看 API"
+    title: "GroupDocs.Conversion 为其他流行的开发环境提供文档转换 API"
 
     solution:
         # solution loop
         - img_alt: "GroupDocs.Conversion for Java"
-          image: "/border/groupdocs-conversion-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion"
-          platform: "Java"
-          link: "/conversion/java/"
+          platform: "爪哇"
+          link: "/转换/java/"
 
 ############################# Back to top ###############################
 back_to_top:

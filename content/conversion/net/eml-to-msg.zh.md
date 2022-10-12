@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:35:20
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C# 中的 EML 到 MSG
@@ -63,10 +63,10 @@ steps:
     enable: true
     title_left: "在 C# 中将 EML 转换为 MSG 的步骤"
     content_left: |
-        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) 让开发人员只需几行代码即可轻松地将 EML 文件转换为 MSG。
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) 使开发人员只需几行代码即可轻松地将 EML 文件转换为 MSG。
         
         * 创建 Converter 类的实例并为文件 EML 提供完整路径
-        * 为 MSG 类型创建并设置 ConvertOptions。
+        * 为 MSG 类型创建和设置 ConvertOptions。
         * 调用 Converter.Convert 方法并将完整路径和格式 (MSG) 作为参数传递
 
     title_right: "系统要求"

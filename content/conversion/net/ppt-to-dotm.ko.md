@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:34:37
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: C#에서 PPT에서 DOTM
+breadcrumb: C#의 PPT에서 DOTM까지
 
 ############################# Head ############################
 head_title: "C#에서 PPT에서 DOTM로 변환기"

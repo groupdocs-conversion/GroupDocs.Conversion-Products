@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:34:36
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: C#에서 OTS에서 DIF
+breadcrumb: C#의 OTS에서 DIF까지
 
 ############################# Head ############################
 head_title: "C#에서 OTS에서 DIF로 변환기"

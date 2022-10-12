@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:35:10
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: AI в BMP на Java
@@ -69,7 +69,7 @@ steps:
         * Створіть і встановіть ConvertOptions для типу BMP.
         * Викличте метод Converter.Convert і передайте повний шлях та формат (BMP) як параметр
 
-    title_right: "System Requirements"
+    title_right: "Системні вимоги"
     content_right: |
         Базове перетворення за допомогою GroupDocs.Conversion for Java можна виконати за кілька простих кроків. Наші API підтримуються на всіх основних платформах і операційних системах. Перш ніж виконувати наведений нижче код, переконайтеся, що ваша система відповідає цим передумовам.
 

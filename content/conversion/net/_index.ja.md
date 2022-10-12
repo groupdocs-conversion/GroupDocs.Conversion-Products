@@ -1,24 +1,28 @@
 ---
+############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-12T19:33:17
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: ".NET"
-platform_tag: "net"
+platform: .NET
+platform_tag: net
 
-head_title: "C＃.NETドキュメント変換API | PDF Word ExcelPPTXHTML画像を変換する"
-head_description: "C＃.NETドキュメント変換API。 PDF Word DOC DOCX、ExcelスプレッドシートPPT PPTX、HTML、PSD、MPT MPP、EメールMSG EMLX、AutoCADおよび画像ファイル形式を変換します."
+############################# Head ############################
+head_title: "C# .NET ドキュメント変換 API | PDF Word Excel PPTX HTML 画像の変換"
+head_description: "C# .NET ドキュメント変換 API。 PDF 変換 Word DOC DOCX、Excel スプレッドシート PPT PPTX、HTML、PSD、MPT MPP、電子メール MSG EMLX、A​​utoCAD および画像ファイル形式。"
 
-title: ".80以上のファイル形式を変換するNETAPI"
-description: "外部ソフトウェアをインストールせずにドキュメントと画像の変換機能を.NETアプリケーションに統合するためのシンプルなAPI."
+############################# Header ############################
+title: "80 以上のファイル形式を変換する .NET API"
+description: "外部ソフトウェアをインストールすることなく、ドキュメントと画像の変換機能を .NET アプリケーションに統合するためのシンプルな API。"
 button:
     enable: true
     icon: "fas fa-arrow-down"
     label: "無料トライアルをダウンロード"
     link: "https://downloads.groupdocs.com/conversion/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
     
@@ -30,251 +34,282 @@ submenu:
 
     middle:
         button:
+            # button loop
             - link: "#overview"
               text: "概要"
 
+            # button loop
             - link: "#features"
               text: "特徴"
 
+            # button loop
             - link: "#support"
               text: "サポート"
 
+            # button loop
             - link: "https://products.groupdocs.app/conversion"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/conversion"
         link_learn: "https://docs.groupdocs.com/conversion/net/"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Conversion for .NETは、シンプルなAPIセットを提供し、開発者がC＃、ASP.NET、およびその他の.NET関連テクノロジで強力なドキュメント変換アプリケーションを構築できるようにします。 GroupDocs.Conversion for .NET APIは、エンドユーザーに高速で効率的で信頼性の高いファイル変換ソリューションを提供します。 PDF、HTML、電子メール、Microsoft Wordドキュメント、Excelスプレッドシート、PowerPointプレゼンテーション、プロジェクト、Photoshop、CorelDraw、AutoCAD、図、ラスターイメージファイル形式など、一般的なすべてのビジネスドキュメント形式間での正確な変換の実行をサポートします。ドキュメントコンバータライブラリは、ソースドキュメント形式を自動検出し、ドキュメント全体または特定のページを目的の出力形式に変換するためのすべてのコントロールを提供します。不足しているフォントを好みのフォントに置き換えたり、テキストや画像の透かしを任意のドキュメントページに追加したりする方が簡単です。  
-        
-      GroupDocs.Conversion for .NETを使用して、.NETプラットフォームを対象とする任意の開発環境でアプリケーションを開発できます。すべての.NETベースの言語と互換性があり、Monoまたは.NETフレームワーク（.NET Coreを含む）をインストールできる一般的なオペレーティングシステム（Windows、Linux、MacOS）をサポートします。
+      GroupDocs.Conversion for .NET はシンプルな API セットを提供し、開発者が C#、ASP.NET、およびその他の .NET 関連技術で強力なドキュメント変換アプリケーションを構築できるようにします。 GroupDocs.Conversion for .NET API は、高速で効率的で信頼性の高いファイル変換ソリューションをエンド ユーザーに提供します。 PDF、HTML、電子メール、Microsoft Word ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、Project、Photoshop、CorelDraw、AutoCAD、図、ラスター イメージ ファイル形式など、一般的なすべてのビジネス ドキュメント形式間で正確な変換を実行できます。ドキュメント コンバーター ライブラリは、ソース ドキュメント形式を自動検出し、ドキュメント全体または特定のページを目的の出力形式に変換するためのすべての制御を提供します。不足しているフォントを優先するフォントに置き換えたり、ドキュメント ページにテキストや画像の透かしを追加したりすることがより簡単になります。
+
+      GroupDocs.Conversion for .NET は、.NET プラットフォームを対象とするあらゆる開発環境でアプリケーションを開発するために使用できます。すべての .NET ベースの言語と互換性があり、Mono または .NET フレームワーク (.NET Core を含む) をインストールできる一般的なオペレーティング システム (Windows、Linux、MacOS) をサポートします。
     tabs:
       enable: true
       
+      ## TAB ONE ##
       tab_one:
         description: |
-          以下は、GroupDocs.Conversionfor.NETの概要です。
+          GroupDocs.Conversion for .NET の概要は次のとおりです。
         
         right:
           enable: true
           icon: "fab fa-html5"
           title: "概要"
           content: |
-            *ファイルタイプの自動検出
-            *ドキュメントを変換する
-            *プレゼンテーションを変換する
-            *スプレッドシートを変換する
-            *ラスター画像を変換する
-            *PDFドキュメントを変換する
-            *他のフォーマットを変換する
-            *透かしを適用する
-            *ファイルパスワードを指定する
-            *変換をカスタマイズする
-      
+            * ファイルの種類を自動検出
+            * ドキュメントの変換
+            * プレゼンテーションを変換
+            * スプレッドシートを変換
+            * ラスター画像を変換
+            * PDFドキュメントを変換
+            * 他の形式に変換
+            *透かしを適用
+            * ファイルのパスワードを指定
+            *変換をカスタマイズ
+
+      ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Conversion for .NETは、一般的で一般的に使用されるすべての[ドキュメントファイル形式]（https://docs.groupdocs.com/conversion/net/supported-document-formats/）間の変換をサポートしています。
+          GroupDocs.Conversion for .NET は、一般的で一般的に使用されているすべての [ドキュメント ファイル形式](https://docs.groupdocs.com/conversion/net/supported-document-formats/) 間の変換をサポートしています。
 
         left:
           enable: true
           table:
-            - title: "から変換:"
+            # table loop
+            - title: "変換元:"
               content: |
-                * **ドキュメント**：DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
-                * **スプレッドシート**：XLS、XLSX、XLSM、XLSB、CSV、XLS2003、ODS、TSV、XLT、XLTX、XLTM、XLAM、FODS、SXC
-                * **プレゼンテーション**：PPT、PPTX、PPS、PPSX、ODP、POT、POTX、POTM、PPTM、PPSM、FODP
-                * **画像**：TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、DIB、JPC、JPEG-LS、JPEG2000
-                * **ポータブル**：PDF、XPS、OXPS、EPUB
-                * ** HTML **：HTM、HTML、MHTML
-                * **メタファイル**：EMZ、WMZ
-                * ** PhotoShop **：PSD
-                * **プロジェクト**：MPP、MPT、MPX
-                * ** Outlook **：PST、OST
-                * **メール**：MSG、EML、EMLX
-                * **図**：VSD、VSDX、VSDM、VSS、VSSM、VST、VSTM、VSX、VTX、VDW、VDX、SVG、SVGZ
-                * ** AutoCAD **：DXF、DWG、DWF、STL、IFC、DWT
-                * ** PostScript **：EPS、PS、PSL、CGM
-                * ** CorelDRAW **：CDR、CMX
-                * **その他**：VCF、PLT、LGS、OTG、MD、AI、LOG
+                * **ドキュメント**: DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
+                * **スプレッドシート**: XLS、XLSX、XLSM、XLSB、CSV、XLS2003、ODS、TSV、XLT、XLTX、XLTM、XLAM、FODS、SXC
+                * **プレゼンテーション**: PPT、PPTX、PPS、PPSX、ODP、POT、POTX、POTM、PPTM、PPSM、FODP
+                * **画像**: TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、DIB、JPC、JPEG-LS、JPEG2000
+                * **ポータブル**: PDF、XPS、OXPS、EPUB
+                * **HTML**: HTM、HTML、MHTML
+                * **メタファイル**: EMZ、WMZ
+                * **フォトショップ**: PSD
+                * **プロジェクト**: MPP、MPT、MPX
+                * **アウトルック**: PST、OST
+                * **電子メール**: MSG、EML、EMLX
+                * **ダイアグラム**: VSD、VSDX、VSDM、VSS、VSSM、VST、VSTM、VSX、VTX、VDW、VDX、SVG、SVGZ
+                * **AutoCAD**: DXF、DWG、DWF、STL、IFC、DWT
+                * **PostScript**: EPS、PS、PSL、CGM
+                * **CorelDRAW**: CDR、CMX
+                * **その他**: VCF、PLT、LGS、OTG、MD、AI、LOG
 
         right:
           enable: true
           table:
-            - title: "に変換:"
+            # table loop
+            - title: "に変換："
               content: |
-                * **ドキュメント**：DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
-                * **スプレッドシート**：XLS、XLSX、XLSM、XLSB、CSV、XLS2003、TSV、XLTX、ODS、XLAM、FODS、DIF、SXC
-                * **プレゼンテーション**：PPT、PPTX、PPS、PPSX、ODP、POTX、POTM、PPTM、PPSM、FODP
-                * **画像**：TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、JPEG2000
-                * **メタファイル**：EMF、WMF、EMZ、WMZ
-                * **図**：SVGZ
-                * **ポータブル**：PDF、XPS
-                * ** HTML **：HTM、HTML、MHTML
-                * **その他**：MD
+                * **ドキュメント**: DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
+                * **スプレッドシート**: XLS、XLSX、XLSM、XLSB、CSV、XLS2003、TSV、XLTX、ODS、XLAM、FODS、DIF、SXC
+                * **プレゼンテーション**: PPT、PPTX、PPS、PPSX、ODP、POTX、POTM、PPTM、PPSM、FODP
+                * **画像**: TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、JPEG2000
+                * **メタファイル**: EMF、WMF、EMZ、WMZ
+                * **ダイアグラム**: SVGZ
+                * **ポータブル**: PDF、XPS
+                * **HTML**: HTM、HTML、MHTML
+                * **その他**: MD
 
+      ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Conversion for .NETは、次のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています。
+          GroupDocs.Conversion for .NET は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています:
       
         left:
           enable: true
           table:
+            # table loop
             - icon: "fab fa-windows"
               title: "オペレーティングシステム"
               content: |
-                * Windowsデスクトップ（x86およびx64）
-                * Windows Server（x86およびx64）
-                * Windows Azure
-                * Linux
-                * マックOS
+                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
 
+            # table loop
             - icon: "fas fa-code"
               title: "サポートされているフレームワーク"
               content: |
-                * .NET Standard 2.0
-                * .NETFramework2.0以降
-                * .NETCore2.0以降
-                * MonoFramework1.2以降
+                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
 
         right:
           enable: true
           table:
+            # table loop
             - icon: "fas fa-box"
               title: "パッケージマネージャー"
               content: |
-                * NuGet
+                Nuget
 
+            # table loop
             - icon: "fas fa-tools"
-              title: "開発環境"
+              title: "パッケージマネージャー"
               content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+                Microsoft Visual Studio, Xamarin, MonoDevelop
 
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Conversionfor.NET機能"
+    title: "GroupDocs.Conversion for .NET 機能"
 
     feature:
+      # feature loop
       - icon: "fas fa-copy"
         content: "簡単な統合と従量制ライセンス"
 
+      # feature loop
       - icon: "fas fa-eye"
-        content: "単語、スライド、またはセルに変換するときにデフォルトのズームオプションを設定する"
+        content: "単語、スライド、またはセルに変換するときの既定のズーム オプションを設定する"
 
+      # feature loop
       - icon: "fas fa-bolt"
-        content: "すべての一般的なラスター画像形式との間で変換し、画像のDPI、高さ、幅を割り当てます"
+        content: "すべての一般的なラスター画像フォーマットとの間で変換し、画像の DPI、高さ、幅を割り当てます"
       
+      # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "PDFと画像をグレースケールに変換してWeb用のPDFドキュメントを線形化する"
+        content: "PDF と画像をグレースケールに変換し、PDF ドキュメントを Web 用に線形化します"
 
+      # feature loop
       - icon: "fas fa-code"
-        content: "WordからPDF/XPSへの変換でブックマークレベル、見出しレベル、拡張レベルを指定する"
+        content: "Word から PDF/XPS への変換で、ブックマーク レベル、見出しレベル、展開レベルを指定する"
 
+      # feature loop
       - icon: "fas fa-cloud"
-        content: "テキストの後ろに表示する背景として、変換されたドキュメントに透かしを設定して配置します"
+        content: "テキストの後ろに表示する背景として、変換されたドキュメントの透かしを構成および配置する"
 
+      # feature loop
       - icon: "fas fa-remove-format"
-        content: "電子メールからの変換中に電子メールヘッダーをレンダリングする"
+        content: "電子メールからの変換中に電子メール ヘッダーをレンダリングする"
 
+      # feature loop
       - icon: "fas fa-comment-slash"
-        content: "カスタムフォントディレクトリを設定し、ドキュメント変換中にフォントを明示的にロード/置換します"
+        content: "カスタム フォント ディレクトリを設定し、ドキュメント変換中にフォントを明示的にロード/置換"
 
+      # feature loop
       - icon: "fas fa-location-arrow"
-        content: "デフォルトのフォントを設定して、ドキュメント、スライド、スプレッドシートの変換で欠落しているフォントを置き換えます"
+        content: "ドキュメント、スライド、スプレッドシートの変換で不足しているフォントを置き換えるデフォルトのフォントを設定する"
 
+      # feature loop
       - icon: "fas fa-border-all"
-        content: "出力をパスまたはIOストリームとして返す高度な変換メソッド"
+        content: ""
 
+      # feature loop
       - icon: "fas fa-wrench"
-        content: "グリッド線でスプレッドシートを変換し、変換中にスライドからコメントを削除します"
+        content: "グリッド線付きのスプレッドシートを変換し、変換中にスライドからコメントを削除する"
 
+      # feature loop
       - icon: "fas fa-columns"
-        content: "特定のドキュメントページをPDF形式に変換し、スプレッドシートの特定のセル範囲を変換する"
+        content: "特定のドキュメント ページを PDF 形式に変換し、スプレッドシートの特定のセル範囲を変換する"
 
+      # feature loop
       - icon: "fas fa-file-word"
         content: "スプレッドシートの変換中に非表示のシートを表示し、空の行と列をスキップする"
 
+      # feature loop
       - icon: "fas fa-envelope"
-        content: "変換中にドキュメントの合計ページ数をカウントし、パスワードを保護されていないドキュメントに設定します"
+        content: "ドキュメントの総ページ数をカウントし、変換中にパスワードを保護されていないドキュメントに設定する"
 
+      # feature loop
       - icon: "fas fa-print"
-        content: "PDFから注釈と埋め込みファイルを削除するオプション"
+        content: "PDF から注釈と埋め込みファイルを削除するオプション"
 
+      # feature loop
       - icon: "fas fa-file-archive"
-        content: "HTMLに変換するときにHTML5準拠のマークアップを作成する"
+        content: "HTML への変換時に HTML 5 準拠のマークアップを作成する"
 
+      # feature loop
       - icon: "fas fa-lock"
-        content: "ソースタイプを自動検出し、ストリームから変換するときに可能なすべての変換を返します"
+        content: "ストリームからの変換時にソース タイプを自動検出し、可能なすべての変換を返す"
 
+      # feature loop
       - icon: "fas fa-file-code"
-        content: "PDFまたはHTMLへの変換中に各ページを別々のストリームで返す機能"
+        content: "PDF または HTML への変換中に各ページを個別のストリームで返す機能"
       
+      # feature loop
       - icon: "fas fa-fill-drip"
-        content: "Wordからの変換中にマークアップ、コメント、トラックの変更を表示/非表示"
+        content: "Word からの変換中にマークアップ、コメント、変更履歴を表示/非表示"
 
+      # feature loop
       - icon: "fas fa-file-excel"
-        content: "シェーディングオプションを使用したDOCXからTiffG3への変換"
+        content: "シェーディング オプションを使用した DOCX から Tiff G3 への変換"
 
+      # feature loop
       - icon: "fas fa-heading"
-        content: "CADドキュメントから変換するときに特定のレイアウトを変換する"
+        content: "CAD ドキュメントからの変換時に特定のレイアウトを変換"
 
+      # feature loop
       - icon: "fas fa-project-diagram"
-        content: "変換されたドキュメントをファイルに保存するときの自動命名"
+        content: "変換されたドキュメントをファイルに保存する際の自動ネーミング"
 
+      # feature loop
       - icon: "fas fa-cube"
-        content: "APIの使用に基づいて請求されるようにサポートされている従量制ライセンス"
+        content: "API の使用量に基づいた課金をサポートする従量制ライセンス"
 
+      # feature loop
       - icon: "fab fa-uncharted"
-        content: "ダイアグラムをワードプロセッシングファイル形式に変換する"
+        content: "ダイアグラムをワープロ ファイル形式に変換する"
       
+      # feature loop
       - icon: "fab fa-uncharted"
-        content: "HTMLをワードプロセッシングドキュメントに変換しながらページ番号を追加する"
+        content: "HTML をワープロ ドキュメントに変換する際にページ番号を追加する"
 
+      # feature loop
       - icon: "fab fa-uncharted"
-        content: "変換せずにXMLドキュメントを任意の形式に変換する"
+        content: "変換なしで XML ドキュメントを任意の形式に変換"
 
+      # feature loop
       - icon: "fab fa-uncharted"
-        content: "クライアント側のアプリケーションから直接ファイル変換の進行状況（開始、終了）を監視する"
+        content: "ファイル変換の進行状況 (開始、終了) をクライアント側アプリケーションから直接監視"
 
     more_feature:
+      # more_feature_loop
       - title: "ドキュメント形式を簡単に変換"
         content: |
-          GroupDocs.Conversion for .NETを使用すると、ドキュメントファイル形式の変換は非常に簡単です。次の例は、C＃を使用してPDFファイルをDOCファイルに変換する方法を示しています。  
+          GroupDocs.Conversion for .NET を使用すると、ドキュメント ファイルの形式を簡単に変換できます。次の例は、C# を使用して PDF ファイルを DOC ファイルに変換する方法を示しています。  
             
-          *入力としてファイルパスを取得します
-          *ファイルストレージパスを取得します
-          *入力ドキュメントファイルを変換します
-          *出力をパスまたはストリームとして返します（要件に応じて）  
+          {features.more_feature.step1} 
+          {features.more_feature.step2} 
+          {features.more_feature.step3} 
             
-            
-          ```cs
-          //変換構成をセットアップし、ConversionHandlerを初期化します
-          ConversionConfig config = new ConversionConfig();
-          config.StoragePath = @"D:\storage\"; 
-          //ConversionHandlerを初期化します
-          ConversionHandler conversionHandler = new ConversionHandler(config);
-          //変換されたドキュメントを変換して保存します
-          var convertedDocumentPath = conversionHandler.Convert("sample.pdf", new WordsSaveOptions {  });
-          convertedDocumentPath.Save("result-" + Path.GetFileNameWithoutExtension("sample.pdf") + ".doc");
+          ```csharp    
+           // 変換のためにソース ファイル DOCX を読み込みます
+        var converter = new GroupDocs.Conversion.Converter("input.docx");
+        // ターゲット形式の変換オプションを準備 PDF
+        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+        // PDF形式に変換
+        converter.Convert("output.pdf", convertOptions);
           ```
             
+      # more_feature_loop
       - title: "画像形式への変換"
-        content: "GroupDocs.Conversion for .NET APIは、さまざまな画像形式との間のドキュメント変換をサポートしています。他の形式から画像に変換するときに、画像のさまざまなプロパティを調整できます。当社の変換APIを使用すると、明るさ、コントラスト、ガンマのプロパティを調整できます。画像を反転することもできます。また、JPEG形式に変換する場合は、ファイルのカラーモードと圧縮モードを設定できます."
+        content: "GroupDocs.Conversion for .NET は、.NET プラットフォームを対象とするあらゆる開発環境でアプリケーションを開発するために使用できます。すべての .NET ベースの言語と互換性があり、Mono または .NET フレームワーク (.NET Core を含む) をインストールできる一般的なオペレーティング システム (Windows、Linux、MacOS) をサポートします。"
 
-      - title: "さまざまなPDF形式タイプをサポート"
+      # more_feature_loop
+      - title: "さまざまな PDF 形式の種類をサポート"
         content: |
-          GroupDocs.Conversion for .NET APIは、次のPDFタイプ/フォーマットへのドキュメント変換をサポートしています。  
+          GroupDocs.Conversion for .NET API は、次の PDF タイプ/形式へのドキュメント変換をサポートしています:  
             
           * PdfA_1A
           * PdfA_1B
@@ -292,20 +327,24 @@ features:
           * PdfX_1A
           * PdfX3
 
+############################# Support ############################
 support:
     enable: true
 
+############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Conversionは、他の一般的な開発環境向けのドキュメント表示APIを提供します"
+    title: "GroupDocs.Conversion は、他の一般的な開発環境向けのドキュメント変換 API を提供します"
 
     solution:
+        # solution loop
         - img_alt: "GroupDocs.Conversion for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion"
-          platform: "Java"
-          link: "/conversion/java/"
+          platform: "ジャワ"
+          link: "/変換/Java/"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:34:39
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
-breadcrumb: C#에서 VSSX에서 VTX
+breadcrumb: C#의 VSSX에서 VTX까지
 
 ############################# Head ############################
 head_title: "C#에서 VSSX에서 VTX로 변환기"

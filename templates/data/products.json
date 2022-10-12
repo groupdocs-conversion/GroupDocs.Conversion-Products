@@ -11,7 +11,8 @@
             "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
             "repoName": "Nuget",
             "repoUrl": "https://www.nuget.org/packages/groupdocs.conversion",
-            "url": "https://products.groupdocs.com/conversion/net/"
+            "url": "https://products.groupdocs.com/conversion/net/",
+            "operatingSystem": "Windows Desktop, Windows Server, Windows Azure, Linux, MacOS"
         },
         "java": {
             "name": "Java",
@@ -24,7 +25,8 @@
             "runtime": "Java runtime: J2SE 6.0 and above",
             "repoName": "Maven",
             "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion",
-            "url": "https://products.groupdocs.com/conversion/java/"
+            "url": "https://products.groupdocs.com/conversion/java/",
+            "operatingSystem": "Windows Desktop, Windows Server, Linux, MacOS"
         }
     }
 }

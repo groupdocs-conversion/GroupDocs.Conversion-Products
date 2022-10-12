@@ -1,21 +1,21 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-12T19:33:17
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: "Java"
-platform_tag: "java"
+platform: Java
+platform_tag: java
 
 ############################# Head ############################
 head_title: "Java 文档转换 API |转换 PDF Word Excel PPTX HTML 图像"
-head_description: "Java 文档转换 API。转换 PDF Word DOC DOCX、Excel 工作表、PPT PPTX、HTML、PSD、MPT MPP、电子邮件 MSG EMLX、XML 和图像文件格式."
+head_description: "Java 文档转换 API。转换 PDF Word DOC DOCX、Excel 电子表格 PPT PPTX、HTML、PSD、MPT MPP、电子邮件 MSG EMLX、A​​utoCAD 和图像文件格式。"
 
 ############################# Header ############################
-title: "用于图像和文档转换的 Java API"
-description: "用于在 Java 应用程序中集成文档转换功能的原生 Java API，支持 80 多种文档和图像文件格式."
+title: "Java API 转换 80 多种文件格式"
+description: "无需安装任何外部软件即可将文档和图像转换功能集成到 Java 应用程序的简单 API。"
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -28,7 +28,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Conversion for Java"
-        image: "/border/groupdocs-conversion-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
         product: "GroupDocs.Conversion"
         platform: "Java"
 
@@ -44,11 +44,11 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "支持"
 
             # button loop
             - link: "https://products.groupdocs.app/conversion"
-              text: "Live Demo"
+              text: "现场演示"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/conversion/java"
@@ -59,46 +59,41 @@ submenu:
         link_learn: "https://docs.groupdocs.com/conversion/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# 概述 ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Conversion for Java 结合了一组强大的文档转换 API，可以在您的 Java 应用程序中显示图像和文档格式，而无需安装额外的软件。它原生光栅化文档并将它们转换为 SVG + HTML + CSS 以提高文档查看质量，同时提供真实文本、高保真输出。使用文档渲染 API - 快速查看 PDF、HTML、XML、软件办公 Word、Excel 工作表、PowerPoint 演示文稿、Outlook 电子邮件、Visio 图表、项目、元文件、图像和各种其他文件格式，轻松且减少编程风险。它还可以显示受密码保护的文件，并允许您在渲染后将文档表示为 HTML、图像或 PDF 形式。我们的文件转换库是完全可定制的，因为它允许您显示整个文档，或部分渲染它以加快处理过程。通过 GroupDocs.Conversion for Java API，您可以查看页面、电子表格中的特定单元格范围，甚至可以以 PDF 和 CAD 等格式呈现单个文档层。  
-        
-      GroupDocs.Conversion for Java API 允许您为支持的文件格式呈现带有/不带有注释或注释的文档。它还使您能够添加自定义字体目录并提取基本文档信息，例如 FileType、Extension、Name、PageCount 等。
-        
-      GroupDocs.Conversion for Java 与所有 Java 版本兼容，并支持能够运行 Java 运行时的流行操作系统（Windows、Linux、macOS）。
+      GroupDocs.Conversion for Java 结合了一组功能强大的文档转换 API，可以在您的 Java 应用程序中显示图像和文档格式，而无需安装额外的软件。它原生光栅化文档并将它们转换为 SVG+HTML+CSS 以提高文档查看质量，同时提供真实文本、高保真输出。使用文档呈现 API - 快速查看 PDF、HTML、XML、Microsoft Office Word、Excel 工作表、PowerPoint 演示文稿、Outlook 电子邮件、Visio 图表、项目、元文件、图像和各种其他文件格式，轻松且减少编程风险。它还可以显示受密码保护的文件，并允许在渲染后将文档表示为 HTML、图像或 PDF 形式。我们的文件转换库非常可定制，因为它允许您显示整个文档，或部分渲染它以加快处理过程。通过 GroupDocs.Conversion for Java API，您可以查看页面、电子表格中的特定单元格范围，甚至可以以 PDF 和 CAD 等格式呈现单个文档层。
 
+      GroupDocs.Conversion for Java API 允许您为支持的文件格式呈现带有/不带有注释或注释的文档。它还使您能够添加自定义字体目录并提取基本文档信息，例如 FileType、Extension、Name、PageCount 等。
     tabs:
-      enable: true   
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          以下是 Java 的 GroupDocs.Conversion 的概述：
-
+          以下是 GroupDocs.Conversion for Java 的概述：
+        
         right:
           enable: true
           icon: "fab fa-html5"
           title: "概述"
           content: |
             * 自动检测文件类型
-            * 转换文档
+            * 转换文件
+            *转换演示文稿
             * 转换电子表格
-            * 转换演示文稿
-            * 转换 PDF 文档
             * 转换光栅图像
-            * 转换 HTML 文档
-            * 转换 PSD 文件
-            * 转换 CAD 文档
-            * 配置水印
-            * 应用密码保护
-            * 定制转换
-      
+            * 转换 PDF 文件
+            * 转换其他格式
+            * 应用水印
+            * 指定文件密码
+            * 自定义转换
+
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Conversion for Java 支持在所有流行和常用的 [文档文件格式](https://docs.groupdocs.com/conversion/java/supported-document-formats/) 之间进行转换。
+          GroupDocs.Conversion for Java 支持在所有流行和常用的 [文档文件格式](https://docs.groupdocs.com/conversion/net/supported-document-formats/) 之间进行转换。
 
         left:
           enable: true
@@ -106,23 +101,22 @@ overview:
             # table loop
             - title: "转换自："
               content: |
-                * **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, XLT, XLTX, XLTM, XLAM, CSV, XLS2003, Excel95, ODS, TSV, FODS
-                * **Presentaciones**: PPT, PPTX, PPS, PPSX, ODP, POT, POTM, POTX, PPTM, PPSM
-                * **Imágenes**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, CMX, DIB, JPC, JPEG2000, JPEG-LS
-                * **Portátil**: PDF, XPS, OXPS, EPUB
-                * **PostScript**: EPS, PS, PSL
-                * **HTML**: HTM, HTML, MHTML
-                * **Diagramas**: VSD, VSDX, VSS, VST, VSX, VTX, VDW, VDX, SVG, VSDM, VSSM, VSTM
-                * **Proyecto**: MPT, MPP, MPX
-                * **Perspectiva**: PST, OST
-                * **Correo electrónico**: MSG, EML, EMLX
-                * **AutoCAD**: DXF, DWG, DWT, STL, DWF, IFC
-                * **Postscript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR
-                * **XML**: XSLT
-                * **Látex**: Látex
-                * **Otro**: VCF, OTG, MD
+                * **文档**：DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
+                * **电子表格**：XLS、XLSX、XLSM、XLSB、CSV、XLS2003、ODS、TSV、XLT、XLTX、XLTM、XLAM、FODS、SXC
+                * **演示文稿**：PPT、PPTX、PPS、PPSX、ODP、POT、POTX、POTM、PPTM、PPSM、FODP
+                * **图像**：TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、DIB、JPC、JPEG-LS、JPEG2000
+                * **便携式**：PDF、XPS、OXPS、EPUB
+                * **HTML**：HTM、HTML、MHTML
+                * **元文件**：EMZ、WMZ
+                * **照相馆**：PSD
+                * **项目**：MPP、MPT、MPX
+                * **展望**：PST、OST
+                * **电子邮件**：味精、EML、EMLX
+                * **图表**：VSD、VSDX、VSDM、VSS、VSSM、VST、VSTM、VSX、VTX、VDW、VDX、SVG、SVGZ
+                * **AutoCAD**：DXF、DWG、DWF、STL、IFC、DWT
+                * **PostScript**：EPS、PS、PSL、CGM
+                * **CorelDRAW**：CDR、CMX
+                * **其他**：VCF、PLT、LGS、OTG、MD、AI、LOG
 
         right:
           enable: true
@@ -130,21 +124,21 @@ overview:
             # table loop
             - title: "转换成："
               content: |
-                * **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Presentaciones**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Imágenes**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metarchivos**: EMF, WMF, EMZ, WMZ
-                * **Diagramas**: SVGZ
-                * **Portátil**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                * **Otro**: MD
+                * **文档**：DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT
+                * **电子表格**：XLS、XLSX、XLSM、XLSB、CSV、XLS2003、TSV、XLTX、ODS、XLAM、FODS、DIF、SXC
+                * **演示文稿**：PPT、PPTX、PPS、PPSX、ODP、POTX、POTM、PPTM、PPSM、FODP
+                * **图像**：TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、JPEG2000
+                * **元文件**：EMF、WMF、EMZ、WMZ
+                * **图表**：SVGZ
+                * **便携式**：PDF、XPS
+                * **HTML**：HTM、HTML、MHTML
+                * **其他**：医学博士
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Conversion for Java 支持以下框架、框架和包管理:
-        
+          GroupDocs.Conversion for Java 支持以下操作系统、框架和包管理器：
+      
         left:
           enable: true
           table:
@@ -152,34 +146,30 @@ overview:
             - icon: "fab fa-windows"
               title: "操作系统"
               content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
+                Windows Desktop, Windows Server, Linux, MacOS
 
             # table loop
             - icon: "fas fa-code"
               title: "支持的框架"
               content: |
-                * Java 7 (1.7) 及更高版本
+                Java runtime: J2SE 6.0 and above
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "fas fa-cogs"
-              title: "开发环境"
+            - icon: "fas fa-box"
+              title: "包管理器"
               content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
+                Maven
+
             # table loop
             - icon: "fas fa-tools"
-              title: "构建自动化工具"
+              title: "包管理器"
               content: |
-                * Maven
+                NetBeans, Intellij IDEA, Eclipse, etc.
 
-############################# 特征 ############################
+############################# Features ############################
 features:
     enable: true
     title: "GroupDocs.Conversion for Java 功能"
@@ -187,125 +177,155 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "易于集成 & Metered Licensing"
+        content: "易于集成和计量许可"
 
       # feature loop
       - icon: "fas fa-eye"
-        content: "转换为文字、幻灯片或单元格时应用默认缩放"
+        content: "转换为文字、幻灯片或单元格时设置默认缩放选项"
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "转换到/从最流行的光栅图像格式 & 指定图像 DPI、高度和宽度"
+        content: "转换为/从所有流行的光栅图像格式和分配图像 DPI、高度和宽度"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "能够在转换时对 PDF 进行灰度化、旋转 PDF 和图像"
+        content: "将 PDF 和图像转换为灰度和线性化 Web 的 PDF 文档"
 
       # feature loop
       - icon: "fas fa-code"
-        content: "在转换后的文档中设置和指定水印作为背景"
+        content: "在 Word 到 PDF/XPS 的转换中指定书签级别、标题级别和扩展级别"
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "水印 水印透明度和自定义字体目录"
+        content: "在转换后的文档中配置和放置水印作为背景以显示在文本后面"
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "在转换文档和电子表格时指定默认字体以替换缺失的字体"
+        content: "在从电子邮件转换期间呈现电子邮件标题"
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "将输出转换为路径或 IO 流"
+        content: "设置自定义字体目录并在文档转换期间显式加载/替换字体"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "在转换期间从幻灯片中删除注释并在转换电子表格时保留网格线"
+        content: "设置默认字体以替换文档、幻灯片和电子表格转换的缺失字体"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "在电子表格中指定单元格范围以将文档的特定页面转换为 PDF"
+        content: ""
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "通过跳过空行和空列转换电子表格并显示隐藏的工作表"
+        content: "转换带有网格线的电子表格并在转换时从幻灯片中删除注释"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "在转换期间计算文档的总页数并指定文档密码"
+        content: "将特定文档页面转换为 PDF 格式并转换电子表格中的特定单元格范围"
 
       # feature loop
       - icon: "fas fa-file-word"
-        content: "删除 PDF 注释的选项"
+        content: "转换电子表格时显示隐藏的工作表并跳过空行和列"
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "在流式转换期间自动检测源文档类型并获取所有可能的转换"
+        content: "在转换期间计算文档的总页数并将密码设置为未受保护的文档"
 
       # feature loop
       - icon: "fas fa-print"
-        content: "在 HTML 转换期间获取单独流中的每个页面"
+        content: "从 PDF 中删除注释和嵌入文件的选项"
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "使用跟踪更改和显示/隐藏标记转换 Word 文档"
+        content: "转换为 HTML 时创建符合 HTML 5 的标记"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "获取 CAD 文档类型的所有布局并指定要从 CAD 文档转换的布局"
+        content: "从流转换时自动检测源类型并返回所有可能的转换"
 
       # feature loop
       - icon: "fas fa-file-code"
-        content: "从 CAD 文档中为每个布局设置特定的宽度和高度"
+        content: "能够在转换为 PDF 或 HTML 时以单独的流返回每个页面"
       
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "从电子邮件转换时设置 SENT 字段的时区"
+        content: "从 Word 转换时显示/隐藏标记、评论和跟踪更改"
 
       # feature loop
       - icon: "fas fa-file-excel"
-        content: "将多页 TIFF 图像文件转换为 PDF"
+        content: "带有着色选项的 DOCX 到 Tiff G3 转换"
 
       # feature loop
       - icon: "fas fa-heading"
-        content: "将文档转换为图像时调整亮度、对比度和 Gamma"
+        content: "从 CAD 文档转换时转换特定布局"
 
       # feature loop
       - icon: "fas fa-project-diagram"
-        content: "无需转换即可转换 XML 文档"
+        content: "将转换后的文档保存到文件时自动命名"
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "从邮件文档转换附件"
+        content: "支持按API使用量计费"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "将图表转换为文字处理文件格式"
+      
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "在将 HTML 转换为文字处理文档时添加页码"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "无需转换即可将 XML 文档转换为任何格式"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "直接从客户端应用程序监控文件转换进度（开始、结束）"
 
     more_feature:
       # more_feature_loop
-      - title: "从 URL 或路径读取文档进行转换"
-        content: |
-          使用 GroupDocs.Conversion for Java API，您可以从文件路径和 URL 读取输入文档。虽然您可以将输出文档保存为文件或将输出直接发送到流中。
-      
-      # more_feature_loop
       - title: "使用 Java 轻松进行文档格式转换"
         content: |
-          您可以使用 GroupDocs.Conversion for Java API 转换多种文档类型的文件格式。在这里，您将看到几行代码来使用 Java 执行基本的文档转换。
-
-          ```java
-          ConversionConfig config = new ConversionConfig();
-          // 设置存储文件夹
-          config.setStoragePath(storagePath);
-
-          ConversionHandler conversionHandler = new ConversionHandler(config);
-          ImageSaveOptions saveOptions = new ImageSaveOptions();
-          saveOptions.setConvertFileType(ImageSaveOptions.ImageFileType.PSD);
-          PsdOptions psdOptions = new PsdOptions();
-          psdOptions.setColorMode(PsdOptions.ColorModes.GRAYSCALE);
-          psdOptions.setCompressionMethod(PsdOptions.CompressionMethods.RAW);
-          ConvertedDocument result = conversionHandler. convert(sourceFileName, saveOptions);
-          result.save(sourceFileName + "." + result.getFileType());
+          您可以使用 GroupDocs.Conversion for Java API 转换多种文档类型的文件格式。在这里，您将看到几行代码来使用 Java 执行基本的文档转换。  
+            
+          {features.more_feature.step1} 
+          {features.more_feature.step2} 
+          {features.more_feature.step3} 
+            
+          ```java    
+           // 加载源文件 DOCX 进行转换
+        Converter converter = new Converter("input.docx");
+        // 为目标格式 PDF 准备转换选项
+        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+        // 转换为 PDF 格式
+        converter.convert("output.pdf", convertOptions);
           ```
+            
+      # more_feature_loop
+      - title: "从 URL 或路径读取文档进行转换"
+        content: "使用 GroupDocs.Conversion for Java API，您可以从文件路径和 URL 读取输入文档。虽然您可以将输出文档保存为文件或将输出直接发送到流中。"
 
       # more_feature_loop
       - title: "全面的技术支持"
-        content: "GroupDocs.Conversion for Java 是一个简单而直接的 API，您可以很容易地将其集成到基于 Java 的应用程序中。但是，为了让您立即启动并运行，我们还提供易于遵循的代码示例和全面的 API 文档."
+        content: |
+          GroupDocs.Conversion for Java 是一个简单而直接的 API，您可以很容易地将其集成到基于 Java 的应用程序中。但是，为了让您立即启动并运行，我们还提供易于遵循的代码示例和全面的 API 文档。  
+            
+          * PdfA_1A
+          * PdfA_1B
+          * PdfA_2A
+          * PdfA_3A
+          * PdfA_2B
+          * PdfA_2U
+          * PdfA_3B
+          * PdfA_3U
+          * v1_3
+          * v1_4
+          * v1_5
+          * v1_6
+          * v1_7
+          * PdfX_1A
+          * PdfX3
 
 ############################# Support ############################
 support:
@@ -314,15 +334,15 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Conversion 为其他流行的开发环境提供文档查看 API"
+    title: "GroupDocs.Conversion 为其他流行的开发环境提供文档转换 API"
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Conversion for .NET"
-          image: "/border/groupdocs-conversion-net.svg"
+        - img_alt: ".NET 的 GroupDocs.Conversion"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion"
-          platform: ".NET"
-          link: "/conversion/net/"
+          platform: "。网"
+          link: "/转换/网络/"
 
 ############################# Back to top ###############################
 back_to_top:

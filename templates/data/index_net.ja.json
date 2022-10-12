@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} .NET ドキュメント変換 API | PDF Word Excel PPTX HTML 画像の変換",
+    "description": "{{ProgLang}} .NET ドキュメント変換 API。 PDF 変換 Word DOC DOCX、Excel スプレッドシート PPT PPTX、HTML、PSD、MPT MPP、電子メール MSG EMLX、A​​utoCAD および画像ファイル形式。"
+  },
+  "header": {
+    "title": "80 以上のファイル形式を変換する .NET API",
+    "description": "外部ソフトウェアをインストールすることなく、ドキュメントと画像の変換機能を .NET アプリケーションに統合するためのシンプルな API。",
+    "button": {
+      "label": "無料トライアルをダウンロード",
+      "link": "https://downloads.groupdocs.com/conversion/net"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "概要"
+      },
+      "button2": {
+        "text": "特徴"
+      },
+      "button3": {
+        "text": "サポート"
+      },
+      "button4": {
+        "text": "ライブデモ"
+      },
+      "button5": {
+        "text": "価格"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} はシンプルな API セットを提供し、開発者が {{ProgLang}}、ASP.NET、およびその他の .NET 関連技術で強力なドキュメント変換アプリケーションを構築できるようにします。 {{ProductFullName}} API は、高速で効率的で信頼性の高いファイル変換ソリューションをエンド ユーザーに提供します。 PDF、HTML、電子メール、Microsoft Word ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、Project、Photoshop、CorelDraw、AutoCAD、図、ラスター イメージ ファイル形式など、一般的なすべてのビジネス ドキュメント形式間で正確な変換を実行できます。ドキュメント コンバーター ライブラリは、ソース ドキュメント形式を自動検出し、ドキュメント全体または特定のページを目的の出力形式に変換するためのすべての制御を提供します。不足しているフォントを優先するフォントに置き換えたり、ドキュメント ページにテキストや画像の透かしを追加したりすることがより簡単になります。",
+    "content2": "{{ProductFullName}} は、.NET プラットフォームを対象とするあらゆる開発環境でアプリケーションを開発するために使用できます。すべての .NET ベースの言語と互換性があり、Mono または .NET フレームワーク (.NET Core を含む) をインストールできる一般的なオペレーティング システム (Windows、Linux、MacOS) をサポートします。",
+    "tab_one": {
+      "description": "{{ProductFullName}} の概要は次のとおりです。",
+      "right": {
+        "title": "概要",
+        "content1": "* ファイルの種類を自動検出",
+        "content2": "* ドキュメントの変換",
+        "content3": "* プレゼンテーションを変換",
+        "content4": "* スプレッドシートを変換",
+        "content5": "* ラスター画像を変換",
+        "content6": "* PDFドキュメントを変換",
+        "content7": "* 他の形式に変換",
+        "content8": "*透かしを適用",
+        "content9": "* ファイルのパスワードを指定",
+        "content10": "*変換をカスタマイズ"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} は、一般的で一般的に使用されているすべての [ドキュメント ファイル形式](https://docs.groupdocs.com/conversion/net/supported-document-formats/) 間の変換をサポートしています。",
+      "left": {
+        "title": "変換元:",
+        "content1": "* **ドキュメント**: DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT",
+        "content2": "* **スプレッドシート**: XLS、XLSX、XLSM、XLSB、CSV、XLS2003、ODS、TSV、XLT、XLTX、XLTM、XLAM、FODS、SXC",
+        "content3": "* **プレゼンテーション**: PPT、PPTX、PPS、PPSX、ODP、POT、POTX、POTM、PPTM、PPSM、FODP",
+        "content4": "* **画像**: TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、DIB、JPC、JPEG-LS、JPEG2000",
+        "content5": "* **ポータブル**: PDF、XPS、OXPS、EPUB",
+        "content6": "* **HTML**: HTM、HTML、MHTML",
+        "content7": "* **メタファイル**: EMZ、WMZ",
+        "content8": "* **フォトショップ**: PSD",
+        "content9": "* **プロジェクト**: MPP、MPT、MPX",
+        "content10": "* **アウトルック**: PST、OST",
+        "content11": "* **電子メール**: MSG、EML、EMLX",
+        "content12": "* **ダイアグラム**: VSD、VSDX、VSDM、VSS、VSSM、VST、VSTM、VSX、VTX、VDW、VDX、SVG、SVGZ",
+        "content13": "* **AutoCAD**: DXF、DWG、DWF、STL、IFC、DWT",
+        "content14": "* **PostScript**: EPS、PS、PSL、CGM",
+        "content15": "* **CorelDRAW**: CDR、CMX",
+        "content16": "* **その他**: VCF、PLT、LGS、OTG、MD、AI、LOG"
+      },
+      "right": {
+        "title": "に変換：",
+        "content1": "* **ドキュメント**: DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT",
+        "content2": "* **スプレッドシート**: XLS、XLSX、XLSM、XLSB、CSV、XLS2003、TSV、XLTX、ODS、XLAM、FODS、DIF、SXC",
+        "content3": "* **プレゼンテーション**: PPT、PPTX、PPS、PPSX、ODP、POTX、POTM、PPTM、PPSM、FODP",
+        "content4": "* **画像**: TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、JPEG2000",
+        "content5": "* **メタファイル**: EMF、WMF、EMZ、WMZ",
+        "content6": "* **ダイアグラム**: SVGZ",
+        "content7": "* **ポータブル**: PDF、XPS",
+        "content8": "* **HTML**: HTM、HTML、MHTML",
+        "content9": "* **その他**: MD"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています:",
+      "left": {
+        "title1": "オペレーティングシステム",
+        "title2": "サポートされているフレームワーク"
+      },
+      "right": {
+        "title1": "パッケージマネージャー",
+        "title2": "開発環境"
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductFullName}} 機能",
+    "content1": "簡単な統合と従量制ライセンス",
+    "content2": "単語、スライド、またはセルに変換するときの既定のズーム オプションを設定する",
+    "content3": "すべての一般的なラスター画像フォーマットとの間で変換し、画像の DPI、高さ、幅を割り当てます",
+    "content4": "PDF と画像をグレースケールに変換し、PDF ドキュメントを Web 用に線形化します",
+    "content5": "Word から PDF/XPS への変換で、ブックマーク レベル、見出しレベル、展開レベルを指定する",
+    "content6": "テキストの後ろに表示する背景として、変換されたドキュメントの透かしを構成および配置する",
+    "content7": "電子メールからの変換中に電子メール ヘッダーをレンダリングする",
+    "content8": "カスタム フォント ディレクトリを設定し、ドキュメント変換中にフォントを明示的にロード/置換",
+    "content9": "ドキュメント、スライド、スプレッドシートの変換で不足しているフォントを置き換えるデフォルトのフォントを設定する",
+    "content10": "出力をパスまたは IO ストリームとして返す高度な変換方法",
+    "content11": "グリッド線付きのスプレッドシートを変換し、変換中にスライドからコメントを削除する",
+    "content12": "特定のドキュメント ページを PDF 形式に変換し、スプレッドシートの特定のセル範囲を変換する",
+    "content13": "スプレッドシートの変換中に非表示のシートを表示し、空の行と列をスキップする",
+    "content14": "ドキュメントの総ページ数をカウントし、変換中にパスワードを保護されていないドキュメントに設定する",
+    "content15": "PDF から注釈と埋め込みファイルを削除するオプション",
+    "content16": "HTML への変換時に HTML 5 準拠のマークアップを作成する",
+    "content17": "ストリームからの変換時にソース タイプを自動検出し、可能なすべての変換を返す",
+    "content18": "PDF または HTML への変換中に各ページを個別のストリームで返す機能",
+    "content19": "Word からの変換中にマークアップ、コメント、変更履歴を表示/非表示",
+    "content20": "シェーディング オプションを使用した DOCX から Tiff G3 への変換",
+    "content21": "CAD ドキュメントからの変換時に特定のレイアウトを変換",
+    "content22": "変換されたドキュメントをファイルに保存する際の自動ネーミング",
+    "content23": "API の使用量に基づいた課金をサポートする従量制ライセンス",
+    "content24": "ダイアグラムをワープロ ファイル形式に変換する",
+    "content25": "HTML をワープロ ドキュメントに変換する際にページ番号を追加する",
+    "content26": "変換なしで XML ドキュメントを任意の形式に変換",
+    "content27": "ファイル変換の進行状況 (開始、終了) をクライアント側アプリケーションから直接監視",
+    "more_feature": {
+      "title1": "ドキュメント形式を簡単に変換",
+      "content1": "{{ProductFullName}} を使用すると、ドキュメント ファイルの形式を簡単に変換できます。次の例は、{{ProgLang}} を使用して PDF ファイルを DOC ファイルに変換する方法を示しています。",
+      "step_1": "Converter クラスのインスタンスを作成し、ファイルにフル パスを指定します。",
+      "step_2": "目的のターゲット タイプの ConvertOptions を作成して設定します。",
+      "step_3": "Converter.Convert メソッドを呼び出し、フル パスと形式をパラメーターとして渡します。",
+      "title2": "画像形式への変換",
+      "content2": "{{ProductFullName}} は、.NET プラットフォームを対象とするあらゆる開発環境でアプリケーションを開発するために使用できます。すべての .NET ベースの言語と互換性があり、Mono または .NET フレームワーク (.NET Core を含む) をインストールできる一般的なオペレーティング システム (Windows、Linux、MacOS) をサポートします。",
+      "title3": "さまざまな PDF 形式の種類をサポート",
+      "content3": "{{ProductFullName}} API は、次の PDF タイプ/形式へのドキュメント変換をサポートしています:"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion は、他の一般的な開発環境向けのドキュメント変換 API を提供します",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion for Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
+      "platform": "ジャワ",
+      "link": "/変換/Java/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "変換のためにソース ファイル {{FROM}} を読み込みます",
+      "prepare_comment": "ターゲット形式の変換オプションを準備 {{TO}}",
+      "convert_comment": "{{TO}}形式に変換"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:34:35
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: C#에서 JPF에서 WMF
+breadcrumb: C#의 JPF에서 WMF까지
 
 ############################# Head ############################
 head_title: "C#에서 JPF에서 WMF로 변환기"

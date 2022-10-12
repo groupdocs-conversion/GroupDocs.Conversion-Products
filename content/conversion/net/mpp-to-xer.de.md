@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:33:36
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
-breadcrumb: MPP nach XER in C#
+breadcrumb: MPP bis XER in C#
 
 ############################# Head ############################
 head_title: "MPP nach XER Konverter in C#"

@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:34:38
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: C#에서 TEX에서 GIF
+breadcrumb: C#의 TEX에서 GIF까지
 
 ############################# Head ############################
 head_title: "C#에서 TEX에서 GIF로 변환기"

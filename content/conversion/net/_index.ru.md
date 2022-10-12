@@ -1,21 +1,21 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-12T19:33:17
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: ".NET"
-platform_tag: "net"
+platform: .NET
+platform_tag: net
 
 ############################# Head ############################
-head_title: "API преобразования документов C# .NET | Преобразование PDF Word Excel PPTX HTML изображений"
-head_description: "API преобразования документов C# .NET. Преобразование PDF, Word, DOC, DOCX, электронных таблиц Excel, PPT, PPTX, HTML, PSD, MPT, MPP, электронной почты, MSG, EMLX, AutoCAD и форматов файлов изображений.."
+head_title: "C# API преобразования документов .NET | Преобразование PDF Word Excel PPTX HTML изображений"
+head_description: "C# API преобразования документов .NET. Конвертируйте PDF, Word, DOC, DOCX, электронные таблицы Excel, PPT, PPTX, HTML, PSD, MPT, MPP, электронную почту, MSG, EMLX, AutoCAD и форматы файлов изображений."
 
 ############################# Header ############################
 title: ".NET API для преобразования более 80 форматов файлов"
-description: "Простой API для интеграции функций преобразования документов и изображений в приложения .NET без установки какого-либо внешнего программного обеспечения.."
+description: "Простой API для интеграции функций преобразования документов и изображений в приложения .NET без установки какого-либо внешнего программного обеспечения."
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -28,7 +28,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Conversion for .NET"
-        image: "/border/groupdocs-conversion-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
         product: "GroupDocs.Conversion"
         platform: ".NET"
 
@@ -44,36 +44,35 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Поддерживать"
 
             # button loop
             - link: "https://products.groupdocs.app/conversion"
-              text: "Live Demo"
+              text: "Живая демонстрация"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Pricing"
+              text: "Цены"
 
     right:
         link_download: "https://downloads.groupdocs.com/conversion"
         link_learn: "https://docs.groupdocs.com/conversion/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Обзор ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Conversion для .NET предлагает простой набор API-интерфейсов, позволяющий разработчикам создавать мощные приложения для преобразования документов на C#, ASP.NET и других технологиях, связанных с .NET. GroupDocs.Conversion for .NET API предоставляет вашим конечным пользователям быстрое, эффективное и надежное решение для преобразования файлов. Он поддерживает выполнение точных преобразований среди всех популярных форматов деловых документов, включая: PDF, HTML, электронную почту, документы Microsoft Word, электронные таблицы Excel, презентации PowerPoint, Project, Photoshop, CorelDraw, AutoCAD, диаграммы, форматы файлов растровых изображений и многие другие. Библиотека преобразователя документов автоматически определяет формат исходного документа и дает вам все возможности для преобразования либо всего документа, либо отдельных страниц в желаемый выходной формат. Проще заменить отсутствующие шрифты предпочтительными и добавить текстовые или графические водяные знаки на любую страницу документа.
-        
-      GroupDocs.Conversion for .NET se puede utilizar para desarrollar aplicaciones en cualquier entorno de desarrollo que se dirija a la plataforma .NET. Es compatible con todos los lenguajes basados ​​en .NET y es compatible con los sistemas operativos populares (Windows, линукс, MacOS) donde se pueden instalar los marcos Mono o .NET (incluido .NET Core).
+      GroupDocs.Conversion for .NET предлагает простой набор API, позволяющий разработчикам создавать мощные приложения для преобразования документов в C#, ASP.NET и других технологиях, связанных с .NET. GroupDocs.Conversion for .NET API предоставляет вашим конечным пользователям быстрое, эффективное и надежное решение для преобразования файлов. Он поддерживает выполнение точных преобразований среди всех популярных форматов деловых документов, включая: PDF, HTML, электронную почту, документы Microsoft Word, электронные таблицы Excel, презентации PowerPoint, Project, Photoshop, CorelDraw, AutoCAD, диаграммы, форматы файлов растровых изображений и многие другие. Библиотека конвертера документов автоматически определяет формат исходного документа и дает вам все возможности для преобразования либо всего документа, либо отдельных страниц в желаемый выходной формат. Проще заменить отсутствующие шрифты предпочтительными и добавить текстовые или графические водяные знаки на любую страницу документа.
 
+      GroupDocs.Conversion for .NET можно использовать для разработки приложений в любой среде разработки, предназначенной для платформы .NET. Он совместим со всеми языками на основе .NET и поддерживает популярные операционные системы (Windows, Linux, MacOS), в которых могут быть установлены платформы Mono или .NET (включая .NET Core).
     tabs:
       enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          Ниже приведен обзор GroupDocs.Conversion для .NET:
+          Ниже приведен обзор GroupDocs.Conversion for .NET:
         
         right:
           enable: true
@@ -81,20 +80,20 @@ overview:
           title: "Обзор"
           content: |
             * Автоматическое определение типа файла
-            * Конвертировать документы
-            * Конвертировать презентации
+            * Преобразование документов
+            * Преобразование презентаций
             * Преобразование электронных таблиц
             * Преобразование растровых изображений
             * Преобразование PDF-документов
-            * Convert Другие форматы
+            * Преобразование других форматов
             * Применить водяной знак
             * Укажите пароль к файлу
-            * Настроить преобразование
-      
+            * Настройка преобразования
+
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Conversion для .NET поддерживает преобразование между всеми популярными и часто используемыми [форматами файлов документов] (https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+          GroupDocs.Conversion for .NET поддерживает преобразование между всеми популярными и часто используемыми [форматами файлов документов](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
 
         left:
           enable: true
@@ -102,43 +101,43 @@ overview:
             # table loop
             - title: "Конвертировать из:"
               content: |
-                * **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Presentaciones**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Imágenes**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Portátil**: PDF, XPS, OXPS, EPUB
+                * **Документы**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
+                * **Электронные таблицы**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
+                * **Презентации**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
+                * **Изображения**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
+                * **Портативный**: PDF, XPS, OXPS, EPUB
                 * **HTML**: HTM, HTML, MHTML
-                * **Metarchivos**: EMZ, WMZ
-                * **FotoShop**: PSD
-                * **Proyecto**: MPP, MPT, MPX
-                * **Perspectiva**: PST, OST
-                * **Correo electrónico**: MSG, EML, EMLX
-                * **Diagramas**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
+                * **Метафайлы**: EMZ, WMZ
+                * **Фотошоп**: PSD
+                * **Проект**: MPP, MPT, MPX
+                * **Перспективы**: PST, OST
+                * **Электронная почта**: MSG, EML, EMLX
+                * **Диаграммы**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
                 * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **Postscript**: EPS, PS, PSL, CGM
+                * **PostScript**: EPS, PS, PSL, CGM
                 * **CorelDRAW**: CDR, CMX
-                * **Otros**: VCF, PLT, LGS, OTG, MD, AI, LOG
+                * **Другое**: VCF, PLT, LGS, OTG, MD, AI, LOG
 
         right:
           enable: true
           table:
             # table loop
-            - title: "Перевести в:"
+            - title: "Преобразовать в:"
               content: |
-                * **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Presentaciones**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Imágenes**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metarchivos**: EMF, WMF, EMZ, WMZ
-                * **Diagramas**: SVGZ
-                * **Portátil**: PDF, XPS
+                * **Документы**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
+                * **Электронные таблицы**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
+                * **Презентации**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
+                * **Изображения**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
+                * **Метафайлы**: EMF, WMF, EMZ, WMZ
+                * **Диаграммы**: SVGZ
+                * **Портативный**: PDF, XPS
                 * **HTML**: HTM, HTML, MHTML
-                * **Otro**: MD
+                * **Другое**: доктор медицины
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Conversion for .NET apoya siguiendo Операционные системы Менеджер пакетовs:
+          GroupDocs.Conversion for .NET поддерживает следующие операционные системы, платформы и менеджеры пакетов:
       
         left:
           enable: true
@@ -147,20 +146,13 @@ overview:
             - icon: "fab fa-windows"
               title: "Операционные системы"
               content: |
-                * Рабочий стол Windows (x86 и x64)
-                * Сервер Windows (x86 и x64)
-                * Windows Azure
-                * линукс
-                * MacOS
+                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
 
             # table loop
             - icon: "fas fa-code"
               title: "Поддерживаемые платформы"
               content: |
-                * .NET Стандарт 2.0
-                * .NET Framework 2.0 или выше
-                * .NET Core 2.0 или выше
-                * Монофреймворк 1.2 или выше
+                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
 
         right:
           enable: true
@@ -169,27 +161,23 @@ overview:
             - icon: "fas fa-box"
               title: "Менеджер пакетов"
               content: |
-                * NuGet
+                Nuget
 
             # table loop
             - icon: "fas fa-tools"
-              title: "Среды разработки"
+              title: "Менеджер пакетов"
               content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * МоноДевелопмент
+                Microsoft Visual Studio, Xamarin, MonoDevelop
 
-############################# Функции ############################
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Conversion для функций .NET"
+    title: "Функции GroupDocs.Conversion for .NET"
 
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Простая интеграция & Metered Licensing"
+        content: "Простая интеграция и дозированное лицензирование"
 
       # feature loop
       - icon: "fas fa-eye"
@@ -225,7 +213,7 @@ features:
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "Расширенные методы преобразования для возврата вывода в виде пути или потока ввода-вывода"
+        content: ""
 
       # feature loop
       - icon: "fas fa-wrench"
@@ -295,34 +283,33 @@ features:
       - icon: "fab fa-uncharted"
         content: "Мониторинг процесса преобразования файлов (начало, завершение) непосредственно из клиентского приложения"
 
-    больше_функций:
+    more_feature:
       # more_feature_loop
       - title: "Легко конвертировать форматы документов"
         content: |
-          Используя GroupDocs.Conversion для .NET, преобразование формата файла документа очень просто. В следующем примере показано, как преобразовать файл PDF в файл DOC с помощью C#:
+          Используя GroupDocs.Conversion for .NET, преобразовать формат файла документа очень просто. В следующем примере показано, как преобразовать файл PDF в файл DOC с помощью C#:  
             
-          * Получить путь к файлу в качестве входных данных
-          * Получить путь к хранилищу файлов
-          * Преобразование входного файла документа
-          * Return the output, as path or stream (as per requirement)  
+          {features.more_feature.step1} 
+          {features.more_feature.step2} 
+          {features.more_feature.step3} 
             
-            
-          ```cs
-          ConversionConfig config = new ConversionConfig();
-          config.StoragePath = @"D:\storage\"; 
-          ConversionHandler conversionHandler = new ConversionHandler(config);
-          var convertedDocumentPath = conversionHandler.Convert("sample.pdf", new WordsSaveOptions {  });
-          convertedDocumentPath.Save("result-" + Path.GetFileNameWithoutExtension("sample.pdf") + ".doc");
+          ```csharp    
+           // Загрузить исходный файл DOCX для преобразования
+        var converter = new GroupDocs.Conversion.Converter("input.docx");
+        // Подготовьте параметры преобразования для целевого формата PDF
+        var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+        // Преобразование в формат PDF
+        converter.Convert("output.pdf", convertOptions);
           ```
             
       # more_feature_loop
       - title: "Преобразование в форматы изображений"
-        content: "GroupDocs.Conversion for .NET API поддерживает преобразование документов в различные форматы изображений и обратно. При преобразовании из какого-либо другого формата в изображение вы можете настроить многочисленные свойства изображений. Наш API преобразования позволяет настраивать параметры яркости, контрастности и гаммы. Вы также можете перевернуть изображение. А в случае конвертации в формат JPEG можно задать цветовой режим и режим сжатия файла."
+        content: "GroupDocs.Conversion for .NET можно использовать для разработки приложений в любой среде разработки, предназначенной для платформы .NET. Он совместим со всеми языками на основе .NET и поддерживает популярные операционные системы (Windows, Linux, MacOS), в которых могут быть установлены платформы Mono или .NET (включая .NET Core)."
 
       # more_feature_loop
       - title: "Поддерживает различные типы форматов PDF."
         content: |
-          GroupDocs.Conversion for .NET API поддерживает преобразование документов в следующие типы/форматы PDF:
+          GroupDocs.Conversion for .NET API поддерживает преобразование документов в следующие типы/форматы PDF:  
             
           * PdfA_1A
           * PdfA_1B
@@ -347,15 +334,15 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Conversion предлагает API для просмотра документов для других популярных сред разработки."
+    title: "GroupDocs.Conversion предлагает API преобразования документов для других популярных сред разработки."
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Conversion for Java"
-          image: "/border/groupdocs-conversion-java.svg"
+        - img_alt: "GroupDocs.Conversion для Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion"
-          platform: "Java"
-          link: "/conversion/java/"
+          platform: "Ява"
+          link: "/преобразование/java/"
 
 ############################# Back to top ###############################
 back_to_top:

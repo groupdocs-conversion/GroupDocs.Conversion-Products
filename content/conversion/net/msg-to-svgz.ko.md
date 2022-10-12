@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:34:35
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: C#에서 MSG에서 SVGZ
+breadcrumb: C#의 MSG에서 SVGZ까지
 
 ############################# Head ############################
 head_title: "C#에서 MSG에서 SVGZ로 변환기"

@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:33:38
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: PPSX nach GIF in C#
+breadcrumb: PPSX bis GIF in C#
 
 ############################# Head ############################
 head_title: "PPSX nach GIF Konverter in C#"

@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} 文档转换 API |转换 PDF Word Excel PPTX HTML 图像",
+    "description": "{{ProgLang}} 文档转换 API。转换 PDF Word DOC DOCX、Excel 电子表格 PPT PPTX、HTML、PSD、MPT MPP、电子邮件 MSG EMLX、A​​utoCAD 和图像文件格式。"
+  },
+  "header": {
+    "title": "{{ProgLang}} API 转换 80 多种文件格式",
+    "description": "无需安装任何外部软件即可将文档和图像转换功能集成到 {{ProgLang}} 应用程序的简单 API。",
+    "button": {
+      "label": "下载免费试用版",
+      "link": "https://downloads.groupdocs.com/conversion/java"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "概述"
+      },
+      "button2": {
+        "text": "特征"
+      },
+      "button3": {
+        "text": "支持"
+      },
+      "button4": {
+        "text": "现场演示"
+      },
+      "button5": {
+        "text": "价钱"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} 结合了一组功能强大的文档转换 API，可以在您的 Java 应用程序中显示图像和文档格式，而无需安装额外的软件。它原生光栅化文档并将它们转换为 SVG+HTML+CSS 以提高文档查看质量，同时提供真实文本、高保真输出。使用文档呈现 API - 快速查看 PDF、HTML、XML、Microsoft Office Word、Excel 工作表、PowerPoint 演示文稿、Outlook 电子邮件、Visio 图表、项目、元文件、图像和各种其他文件格式，轻松且减少编程风险。它还可以显示受密码保护的文件，并允许在渲染后将文档表示为 HTML、图像或 PDF 形式。我们的文件转换库非常可定制，因为它允许您显示整个文档，或部分渲染它以加快处理过程。通过 GroupDocs.Conversion for Java API，您可以查看页面、电子表格中的特定单元格范围，甚至可以以 PDF 和 CAD 等格式呈现单个文档层。",
+    "content2": "{{ProductFullName}} API 允许您为支持的文件格式呈现带有/不带有注释或注释的文档。它还使您能够添加自定义字体目录并提取基本文档信息，例如 FileType、Extension、Name、PageCount 等。",
+    "tab_one": {
+      "description": "以下是 {{ProductFullName}} 的概述：",
+      "right": {
+        "title": "概述",
+        "content1": "* 自动检测文件类型",
+        "content2": "* 转换文件",
+        "content3": "*转换演示文稿",
+        "content4": "* 转换电子表格",
+        "content5": "* 转换光栅图像",
+        "content6": "* 转换 PDF 文件",
+        "content7": "* 转换其他格式",
+        "content8": "* 应用水印",
+        "content9": "* 指定文件密码",
+        "content10": "* 自定义转换"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} 支持在所有流行和常用的 [文档文件格式](https://docs.groupdocs.com/conversion/net/supported-document-formats/) 之间进行转换。",
+      "left": {
+        "title": "转换自：",
+        "content1": "* **文档**：DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT",
+        "content2": "* **电子表格**：XLS、XLSX、XLSM、XLSB、CSV、XLS2003、ODS、TSV、XLT、XLTX、XLTM、XLAM、FODS、SXC",
+        "content3": "* **演示文稿**：PPT、PPTX、PPS、PPSX、ODP、POT、POTX、POTM、PPTM、PPSM、FODP",
+        "content4": "* **图像**：TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、DIB、JPC、JPEG-LS、JPEG2000",
+        "content5": "* **便携式**：PDF、XPS、OXPS、EPUB",
+        "content6": "* **HTML**：HTM、HTML、MHTML",
+        "content7": "* **元文件**：EMZ、WMZ",
+        "content8": "* **照相馆**：PSD",
+        "content9": "* **项目**：MPP、MPT、MPX",
+        "content10": "* **展望**：PST、OST",
+        "content11": "* **电子邮件**：味精、EML、EMLX",
+        "content12": "* **图表**：VSD、VSDX、VSDM、VSS、VSSM、VST、VSTM、VSX、VTX、VDW、VDX、SVG、SVGZ",
+        "content13": "* **AutoCAD**：DXF、DWG、DWF、STL、IFC、DWT",
+        "content14": "* **PostScript**：EPS、PS、PSL、CGM",
+        "content15": "* **CorelDRAW**：CDR、CMX",
+        "content16": "* **其他**：VCF、PLT、LGS、OTG、MD、AI、LOG"
+      },
+      "right": {
+        "title": "转换成：",
+        "content1": "* **文档**：DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT、ODT、OTT",
+        "content2": "* **电子表格**：XLS、XLSX、XLSM、XLSB、CSV、XLS2003、TSV、XLTX、ODS、XLAM、FODS、DIF、SXC",
+        "content3": "* **演示文稿**：PPT、PPTX、PPS、PPSX、ODP、POTX、POTM、PPTM、PPSM、FODP",
+        "content4": "* **图像**：TIF、TIFF、JPG、JPEG、PNG、GIF、BMP、ICO、JPEG2000",
+        "content5": "* **元文件**：EMF、WMF、EMZ、WMZ",
+        "content6": "* **图表**：SVGZ",
+        "content7": "* **便携式**：PDF、XPS",
+        "content8": "* **HTML**：HTM、HTML、MHTML",
+        "content9": "* **其他**：医学博士"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} 支持以下操作系统、框架和包管理器：",
+      "left": {
+        "title1": "操作系统",
+        "title2": "支持的框架"
+      },
+      "right": {
+        "title1": "包管理器",
+        "title2": "开发环境"
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductFullName}} 功能",
+    "content1": "易于集成和计量许可",
+    "content2": "转换为文字、幻灯片或单元格时设置默认缩放选项",
+    "content3": "转换为/从所有流行的光栅图像格式和分配图像 DPI、高度和宽度",
+    "content4": "将 PDF 和图像转换为灰度和线性化 Web 的 PDF 文档",
+    "content5": "在 Word 到 PDF/XPS 的转换中指定书签级别、标题级别和扩展级别",
+    "content6": "在转换后的文档中配置和放置水印作为背景以显示在文本后面",
+    "content7": "在从电子邮件转换期间呈现电子邮件标题",
+    "content8": "设置自定义字体目录并在文档转换期间显式加载/替换字体",
+    "content9": "设置默认字体以替换文档、幻灯片和电子表格转换的缺失字体",
+    "content10": "将输出作为路径或 IO 流返回的高级转换方法",
+    "content11": "转换带有网格线的电子表格并在转换时从幻灯片中删除注释",
+    "content12": "将特定文档页面转换为 PDF 格式并转换电子表格中的特定单元格范围",
+    "content13": "转换电子表格时显示隐藏的工作表并跳过空行和列",
+    "content14": "在转换期间计算文档的总页数并将密码设置为未受保护的文档",
+    "content15": "从 PDF 中删除注释和嵌入文件的选项",
+    "content16": "转换为 HTML 时创建符合 HTML 5 的标记",
+    "content17": "从流转换时自动检测源类型并返回所有可能的转换",
+    "content18": "能够在转换为 PDF 或 HTML 时以单独的流返回每个页面",
+    "content19": "从 Word 转换时显示/隐藏标记、评论和跟踪更改",
+    "content20": "带有着色选项的 DOCX 到 Tiff G3 转换",
+    "content21": "从 CAD 文档转换时转换特定布局",
+    "content22": "将转换后的文档保存到文件时自动命名",
+    "content23": "支持按API使用量计费",
+    "content24": "将图表转换为文字处理文件格式",
+    "content25": "在将 HTML 转换为文字处理文档时添加页码",
+    "content26": "无需转换即可将 XML 文档转换为任何格式",
+    "content27": "直接从客户端应用程序监控文件转换进度（开始、结束）",
+    "more_feature": {
+      "title1": "使用 Java 轻松进行文档格式转换",
+      "content1": "您可以使用 {{ProductFullName}} API 转换多种文档类型的文件格式。在这里，您将看到几行代码来使用 Java 执行基本的文档转换。",
+      "step_1": "创建 Converter 类的实例并为文件提供完整路径",
+      "step_2": "为所需的目标类型创建并设置 ConvertOptions。",
+      "step_3": "调用 Converter.Convert 方法并将完整路径和格式作为参数传递",
+      "title2": "从 URL 或路径读取文档进行转换",
+      "content2": "使用 {{ProductFullName}} API，您可以从文件路径和 URL 读取输入文档。虽然您可以将输出文档保存为文件或将输出直接发送到流中。",
+      "title3": "全面的技术支持",
+      "content3": "{{ProductFullName}} 是一个简单而直接的 API，您可以很容易地将其集成到基于 Java 的应用程序中。但是，为了让您立即启动并运行，我们还提供易于遵循的代码示例和全面的 API 文档。"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion 为其他流行的开发环境提供文档转换 API",
+    "solution": {
+      "img_alt": ".NET 的 GroupDocs.Conversion",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
+      "platform": "。网",
+      "link": "/转换/网络/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "加载源文件 {{FROM}} 进行转换",
+      "prepare_comment": "为目标格式 {{TO}} 准备转换选项",
+      "convert_comment": "转换为 {{TO}} 格式"
+    }
+  }
+}

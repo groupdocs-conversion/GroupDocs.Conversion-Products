@@ -1,21 +1,21 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2022-10-12T19:33:17
 draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: "Java"
-platform_tag: "java"
+platform: Java
+platform_tag: java
 
 ############################# Head ############################
-head_title: "API de conversión de documentos de Java | Convertir PDF Word Excel PPTX HTML Imágenes"
-head_description: "API de conversión de documentos de Java. Convierta PDF Word DOC DOCX, Excel Worksheet, PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, XML y formatos de archivo de imagen."
+head_title: "Java API de conversión de documentos | Convertir PDF Word Excel PPTX HTML Imágenes"
+head_description: "Java API de conversión de documentos. Convierta PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD y formatos de archivo de imagen."
 
 ############################# Header ############################
-title: "API de Java para la conversión de imágenes y documentos"
-description: "API nativa de Java para integrar la funcionalidad de conversión de documentos en aplicaciones Java, compatible con más de 80 formatos de archivos de imágenes y documentos."
+title: "Java API para convertir más de 80 formatos de archivo"
+description: "API simple para integrar la funcionalidad de conversión de documentos e imágenes en las aplicaciones Java sin instalar ningún software externo."
 button:
     enable: true
     icon: "fas fa-arrow-down"
@@ -28,7 +28,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Conversion for Java"
-        image: "/border/groupdocs-conversion-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
         product: "GroupDocs.Conversion"
         platform: "Java"
 
@@ -36,7 +36,7 @@ submenu:
         button:
             # button loop
             - link: "#overview"
-              text: "Visión de conjunto"
+              text: "Visión general"
 
             # button loop
             - link: "#features"
@@ -44,11 +44,11 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Apoyo"
 
             # button loop
             - link: "https://products.groupdocs.app/conversion"
-              text: "Live Demo"
+              text: "Demo en vivo"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/conversion/java"
@@ -59,45 +59,41 @@ submenu:
         link_learn: "https://docs.groupdocs.com/conversion/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Visión de conjunto ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Conversion for Java combines a powerful set of document conversion APIs to display images and document formats in your Java applications without needing to install additional software. It natively rasterizes the documents and converts them into SVG+HTML+CSS to enhance the quality of document viewing while delivering a true-text, high-fidelity output. Using the document rendering API – quickly view PDF, HTML, XML, oficina de Microsoft Word, Excel worksheets, PowerPoint presentations, Outlook emails, Visio diagrams, Project, metafiles, images and various other file formats with ease and fewer programming hazards. It can also display password-protected files and allow to get document representation as HTML, image or PDF form after the rendering. Our file conversion library is quite customizable, as it allows you to display the whole document, or render it partially to speed up the process. Through GroupDocs.Conversion for Java API, you can view pages, specific cell range in a spreadsheet or even render an individual document layer in formats, such as, PDF and CAD.  
-        
-      GroupDocs.Conversion for Java API le permite representar documentos con o sin anotaciones o comentarios para los formatos de archivo admitidos. También le permite agregar directorios de fuentes personalizados y extraer información básica del documento, como tipo de archivo, extensión, nombre, número de páginas, etc.
-        
-      GroupDocs.Conversion para Java es compatible con todas las versiones de Java y es compatible con los sistemas operativos populares (Windows, Linux, macOS) que pueden ejecutar el tiempo de ejecución de Java.
+      GroupDocs.Conversion for Java combina un poderoso conjunto de API de conversión de documentos para mostrar imágenes y formatos de documentos en sus aplicaciones Java sin necesidad de instalar software adicional. Rasteriza de forma nativa los documentos y los convierte a SVG+HTML+CSS para mejorar la calidad de la visualización de documentos al tiempo que ofrece una salida de alta fidelidad y texto verdadero. Uso de la API de representación de documentos: visualice rápidamente PDF, HTML, XML, Microsoft Office Word, hojas de cálculo de Excel, presentaciones de PowerPoint, correos electrónicos de Outlook, diagramas de Visio, proyectos, metarchivos, imágenes y otros formatos de archivo con facilidad y menos riesgos de programación. También puede mostrar archivos protegidos con contraseña y permitir obtener la representación del documento como HTML, imagen o formulario PDF después de la representación. Nuestra biblioteca de conversión de archivos es bastante personalizable, ya que le permite mostrar el documento completo o renderizarlo parcialmente para acelerar el proceso. A través de GroupDocs.Conversion para la API de Java, puede ver páginas, un rango de celdas específico en una hoja de cálculo o incluso representar una capa de documento individual en formatos, como PDF y CAD.
+
+      La API de GroupDocs.Conversion for Java le permite representar documentos con o sin anotaciones o comentarios para los formatos de archivo admitidos. También le permite agregar directorios de fuentes personalizados y extraer información básica del documento, como tipo de archivo, extensión, nombre, número de páginas, etc.
     tabs:
-      enable: true   
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          A continuación se muestra una descripción general de GroupDocs.Conversion para Java:
-
+          A continuación se muestra una descripción general de GroupDocs.Conversion for Java:
+        
         right:
           enable: true
           icon: "fab fa-html5"
-          title: "Visión de conjunto"
+          title: "Visión general"
           content: |
             * Tipo de archivo de detección automática
             * Convertir Documentos
-            * Convertir hojas de cálculo
             * Convertir presentaciones
+            * Convertir hojas de cálculo
+            * Convertir imágenes de trama
             * Convertir documentos PDF
-            * Convertir imágenes ráster
-            * Convertir documentos HTML
-            * Convertir documentos PSD
-            * Convertir documentos CAD
-            * Configurar marca de agua
-            * Aplicar protección de contraseña
-            * Conversión personalizada
-      
+            * Convertir otros formatos
+            * Aplicar marca de agua
+            * Especificar contraseña de archivo
+            * Personalizar conversión
+
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Conversion para Java admite la conversión entre todos los  populares y de uso común [formatos de archivo de documentos](https://docs.groupdocs.com/conversion/java/supported-document-formats/).
+          GroupDocs.Conversion for Java admite la conversión entre todos los [formatos de archivo de documento] populares y de uso común (https://docs.groupdocs.com/conversion/net/supported-document-formats/).
 
         left:
           enable: true
@@ -106,22 +102,21 @@ overview:
             - title: "Convertir desde:"
               content: |
                 * **Documentos**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, XLT, XLTX, XLTM, XLAM, CSV, XLS2003, Excel95, ODS, TSV, FODS
-                * **Presentaciones**: PPT, PPTX, PPS, PPSX, ODP, POT, POTM, POTX, PPTM, PPSM
-                * **Imágenes**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, CMX, DIB, JPC, JPEG2000, JPEG-LS
+                * **Hojas de cálculo**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
+                * **Presentaciones**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
+                * **Imágenes**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
                 * **Portátil**: PDF, XPS, OXPS, EPUB
-                * **PostScript**: EPS, PS, PSL
                 * **HTML**: HTM, HTML, MHTML
-                * **Diagramas**: VSD, VSDX, VSS, VST, VSX, VTX, VDW, VDX, SVG, VSDM, VSSM, VSTM
-                * **Proyecto**: MPT, MPP, MPX
+                * **Metarchivos**: EMZ, WMZ
+                * **FotoShop**: PSD
+                * **Proyecto**: MPP, MPT, MPX
                 * **Perspectiva**: PST, OST
                 * **Correo electrónico**: MSG, EML, EMLX
-                * **AutoCAD**: DXF, DWG, DWT, STL, DWF, IFC
+                * **Diagramas**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
+                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
                 * **Postscript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR
-                * **XML**: XSLT
-                * **Látex**: Látex
-                * **Otro**: VCF, OTG, MD
+                * **CorelDRAW**: CDR, CMX
+                * **Otros**: VCF, PLT, LGS, OTG, MD, AI, LOG
 
         right:
           enable: true
@@ -142,8 +137,8 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Conversion for Java apoya siguiendo Sistemas operativos, Frameworks & Gerente de empaquetacións:
-        
+          GroupDocs.Conversion for Java es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes:
+      
         left:
           enable: true
           table:
@@ -151,160 +146,186 @@ overview:
             - icon: "fab fa-windows"
               title: "Sistemas operativos"
               content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
+                Windows Desktop, Windows Server, Linux, MacOS
 
             # table loop
             - icon: "fas fa-code"
               title: "Marcos compatibles"
               content: |
-                * Java 7 (1.7) y superior
+                Java runtime: J2SE 6.0 and above
 
         right:
           enable: true
           table:
             # table loop
-            - icon: "fas fa-cogs"
-              title: "Entornos de desarrollo"
+            - icon: "fas fa-box"
+              title: "Gerente de empaquetación"
               content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
+                Maven
+
             # table loop
             - icon: "fas fa-tools"
-              title: "Herramienta de automatización de compilación"
+              title: "Gerente de empaquetación"
               content: |
-                * Maven
+                NetBeans, Intellij IDEA, Eclipse, etc.
 
-############################# Características ############################
+############################# Features ############################
 features:
     enable: true
-    title: "Funciones de GroupDocs.Conversion para Java"
+    title: "Características de GroupDocs.Conversion for Java"
 
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Integración fácil & Metered Licensing"
+        content: "Fácil integración y licencias medidas"
 
       # feature loop
       - icon: "fas fa-eye"
-        content: "Aplicar zoom predeterminado durante la conversión a palabras, diapositivas o celdas"
+        content: "Establecer la opción de zoom predeterminada al convertir a palabras, diapositivas o celdas"
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Conversión a/desde los formatos de imagen ráster más populares y especificación de DPI, alto y ancho de la imagen"
+        content: "Convierta a/desde todos los formatos de imagen ráster populares y asigne DPI, alto y ancho de imagen"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Capacidad para PDF en escala de grises, rotar PDF e imagen durante la conversión"
+        content: "Convierta PDF e imágenes a escala de grises y linearice documentos PDF para la Web"
 
       # feature loop
       - icon: "fas fa-code"
-        content: "Establecer y especificar marca de agua en documento convertido como fondo"
+        content: "Especifique el nivel de marcador, el nivel de encabezado y el nivel expandido en la conversión de Word a PDF/XPS"
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "Configurar marca de agua Transparency & Custom Font Directories"
+        content: "Configurar y colocar marca de agua en el documento convertido como fondo para mostrar detrás del texto"
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "Especifique la fuente predeterminada para reemplazar las fuentes que faltan al convertir documentos y hojas de cálculo"
+        content: "Renderizar encabezado de correo electrónico durante la conversión de correo electrónico"
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Convertir y obtener salida como ruta o flujo IO"
+        content: "Establecer directorios de fuentes personalizados y cargar/sustituir fuentes explícitamente durante la conversión de documentos"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "Elimine los comentarios de las diapositivas durante la conversión y mantenga las líneas de cuadrícula mientras convierte la hoja de cálculo"
+        content: "Establezca la fuente predeterminada para reemplazar las fuentes que faltan para la conversión de documentos, diapositivas y hojas de cálculo"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "Especifique el rango de celdas en la hoja de cálculo para la conversión y convierta páginas específicas del documento en PDF"
+        content: ""
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "Convierta la hoja de cálculo omitiendo filas y columnas vacías y muestre hojas ocultas"
+        content: "Convierta la hoja de cálculo con líneas de cuadrícula y elimine los comentarios de las diapositivas durante la conversión"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "Cuente las páginas totales de un documento y especifique la contraseña del documento durante la conversión"
+        content: "Convierta páginas de documentos específicos como formato PDF y convierta rangos de celdas específicos en hojas de cálculo"
 
       # feature loop
       - icon: "fas fa-file-word"
-        content: "Opción para eliminar anotaciones en PDF"
+        content: "Mostrar hojas ocultas y omitir filas y columnas vacías al convertir hojas de cálculo"
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "Detección automática del tipo de documento de origen y obtención de todas las conversiones posibles durante la conversión transmitida"
+        content: "Cuente las páginas totales de un documento y establezca la contraseña para el documento desprotegido durante la conversión"
 
       # feature loop
       - icon: "fas fa-print"
-        content: "Obtener cada página en flujo separado durante la conversión de HTML"
+        content: "Opción para eliminar anotaciones y archivos incrustados de PDF"
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "Convierta documentos de Word con control de cambios y mostrar/ocultar marcas"
+        content: "Crear marcado compatible con HTML 5 al convertir a HTML"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "Obtenga todos los diseños para el tipo de documento CAD y especifique qué diseño convertir de un documento CAD"
+        content: "Detectar automáticamente el tipo de fuente y devolver todas las conversiones posibles al convertir de Stream"
 
       # feature loop
       - icon: "fas fa-file-code"
-        content: "Establezca el ancho y la altura específicos para cada diseño de un documento CAD"
+        content: "Capacidad para devolver cada página en flujo separado mientras se convierte a PDF o HTML"
       
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "Establecer la zona horaria del campo ENVIADO al convertir desde correo electrónico"
+        content: "Mostrar/ocultar marcas, comentarios y seguimiento de cambios al convertir desde Word"
 
       # feature loop
       - icon: "fas fa-file-excel"
-        content: "Convierta un archivo de imagen TIFF de varias páginas a PDF"
+        content: "Conversión de DOCX a Tiff G3 con opción de sombreado"
 
       # feature loop
       - icon: "fas fa-heading"
-        content: "Ajuste el brillo, el contraste y la gamma al convertir un documento en imagen"
+        content: "Convierta diseños específicos al convertir desde un documento CAD"
 
       # feature loop
       - icon: "fas fa-project-diagram"
-        content: "Convierta documentos XML sin transformación"
+        content: "Asignación automática de nombres al guardar un documento convertido en un archivo"
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "Convertir archivos adjuntos de un documento de correo"
+        content: "Licencias medidas admitidas para facturar en función del uso de la API"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Convierta diagramas a formatos de archivo de procesamiento de texto"
+      
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Agregar números de página al convertir HTML a documento de procesamiento de textos"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Convierta documentos XML a cualquier formato sin transformación"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Supervise el progreso de la conversión de archivos (inicio, fin) directamente desde la aplicación del lado del cliente"
 
     more_feature:
       # more_feature_loop
-      - title: "Leer documento desde URL o ruta para conversión"
-        content: |
-          Con GroupDocs.Conversion para la API de Java, puede leer el documento de entrada desde una ruta de archivo, así como desde una URL. Si bien puede guardar el documento de salida como un archivo o enviar la salida directamente a una secuencia.
-      
-      # more_feature_loop
       - title: "Fácil conversión de formato de documento usando Java"
         content: |
-          Puede convertir el formato de archivo de una multitud de tipos de documentos utilizando GroupDocs.Conversion para la API de Java. Aquí se le presentan algunas líneas de código para realizar una conversión básica de documentos utilizando Java.
-
-          ```java
-          ConversionConfig config = new ConversionConfig();
-          config.setStoragePath(storagePath);
-
-          ConversionHandler conversionHandler = new ConversionHandler(config);
-          ImageSaveOptions saveOptions = new ImageSaveOptions();
-          saveOptions.setConvertFileType(ImageSaveOptions.ImageFileType.PSD);
-          PsdOptions psdOptions = new PsdOptions();
-          psdOptions.setColorMode(PsdOptions.ColorModes.GRAYSCALE);
-          psdOptions.setCompressionMethod(PsdOptions.CompressionMethods.RAW);
-          // Convertir y guardar el documento convertido
-          ConvertedDocument result = conversionHandler. convert(sourceFileName, saveOptions);
-          result.save(sourceFileName + "." + result.getFileType());
+          Puede convertir el formato de archivo de una multitud de tipos de documentos usando la API GroupDocs.Conversion for Java. Aquí se le presentan algunas líneas de código para realizar una conversión básica de documentos utilizando Java.  
+            
+          {features.more_feature.step1} 
+          {features.more_feature.step2} 
+          {features.more_feature.step3} 
+            
+          ```java    
+           // Cargue el archivo fuente DOCX para la conversión
+        Converter converter = new Converter("input.docx");
+        // Preparar opciones de conversión para el formato de destino PDF
+        ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
+        // Convertir al formato PDF
+        converter.convert("output.pdf", convertOptions);
           ```
+            
+      # more_feature_loop
+      - title: "Leer documento desde URL o ruta para conversión"
+        content: "Usando la API GroupDocs.Conversion for Java, puede leer el documento de entrada desde una ruta de archivo, así como una URL. Si bien puede guardar el documento de salida como un archivo o enviar la salida directamente a una secuencia."
 
       # more_feature_loop
       - title: "Soporte técnico integral"
-        content: "GroupDocs.Conversion para Java es una API simple y directa que puede integrar en sus aplicaciones basadas en Java con bastante facilidad. Sin embargo, para que pueda comenzar a trabajar en poco tiempo, también proporcionamos ejemplos de código fáciles de seguir y documentación completa de la API.."
+        content: |
+          GroupDocs.Conversion for Java es una API simple y directa que puede integrar en sus aplicaciones basadas en Java con bastante facilidad. Sin embargo, para ponerlo en funcionamiento en poco tiempo, también proporcionamos ejemplos de código fáciles de seguir y documentación completa de la API.  
+            
+          * PdfA_1A
+          * PdfA_1B
+          * PdfA_2A
+          * PdfA_3A
+          * PdfA_2B
+          * PdfA_2U
+          * PdfA_3B
+          * PdfA_3U
+          * v1_3
+          * v1_4
+          * v1_5
+          * v1_6
+          * v1_7
+          * PdfX_1A
+          * PdfX3
 
 ############################# Support ############################
 support:
@@ -313,14 +334,14 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Conversion ofrece API de visualización de documentos para otros entornos de desarrollo populares"
+    title: "GroupDocs.Conversion ofrece API de conversión de documentos para otros entornos de desarrollo populares"
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Conversion for .NET"
-          image: "/border/groupdocs-conversion-net.svg"
+        - img_alt: "GroupDocs.Conversión para .NET"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion"
-          platform: ".NET"
+          platform: ".RED"
           link: "/conversion/net/"
 
 ############################# Back to top ###############################

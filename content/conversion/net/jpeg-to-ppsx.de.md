@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-03-01T15:12:22
+date: 2022-10-12T19:33:36
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: JPEG nach PPSX in C#
+breadcrumb: JPEG bis PPSX in C#
 
 ############################# Head ############################
 head_title: "JPEG nach PPSX Konverter in C#"

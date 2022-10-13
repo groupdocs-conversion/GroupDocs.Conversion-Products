@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-13T11:22:55
+date: 2022-10-13T18:26:27
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
 breadcrumb: OTS à PDF en Java

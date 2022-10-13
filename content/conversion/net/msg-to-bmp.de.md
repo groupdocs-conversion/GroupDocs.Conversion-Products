@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-13T11:22:15
+date: 2022-10-13T18:25:52
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG bis BMP in C#

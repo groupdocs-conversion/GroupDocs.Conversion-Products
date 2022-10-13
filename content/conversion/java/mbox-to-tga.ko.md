@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-13T11:23:24
+date: 2022-10-13T18:26:55
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: Java의 MBOX에서 TGA까지

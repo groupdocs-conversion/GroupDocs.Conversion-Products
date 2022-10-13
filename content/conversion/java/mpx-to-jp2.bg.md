@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-13T11:24:25
+date: 2022-10-13T18:27:56
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPX до JP2 на Java

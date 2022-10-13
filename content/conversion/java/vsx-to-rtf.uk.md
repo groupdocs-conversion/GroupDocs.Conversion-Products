@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-13T11:23:58
+date: 2022-10-13T18:27:27
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSX в RTF на Java

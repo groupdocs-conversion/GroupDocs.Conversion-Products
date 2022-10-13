@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-13T11:23:50
+date: 2022-10-13T18:27:19
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF в EMZ на C#

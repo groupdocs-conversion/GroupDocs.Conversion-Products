@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} .NET Document Conversion API | Konversi PDF Word Excel PPTX Gambar HTML",
+    "description": "{{ProgLang}} .NET Document Conversion API. Konversi PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & format file gambar."
+  },
+  "header": {
+    "title": ".NET API untuk Mengonversi 80+ Format File",
+    "description": "API Sederhana untuk Mengintegrasikan Fungsi Konversi Dokumen & Gambar ke dalam Aplikasi .NET tanpa Menginstal Perangkat Lunak Eksternal apa pun.",
+    "button": {
+      "label": "Unduh Uji Coba Gratis",
+      "link": "https://downloads.groupdocs.com/conversion/net"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "Ringkasan"
+      },
+      "button2": {
+        "text": "Fitur"
+      },
+      "button3": {
+        "text": "Mendukung"
+      },
+      "button4": {
+        "text": "Demo Langsung"
+      },
+      "button5": {
+        "text": "Harga"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} menawarkan serangkaian API sederhana, memungkinkan pengembang untuk membangun aplikasi konversi dokumen yang kuat di {{ProgLang}}, ASP.NET dan teknologi terkait .NET lainnya. {{ProductFullName}} API memberikan solusi konversi file yang cepat, efisien, dan andal kepada pengguna akhir Anda. Ini mendukung melakukan konversi yang akurat di antara semua format dokumen bisnis populer termasuk: PDF, HTML, Email, dokumen Microsoft Word, spreadsheet Excel, presentasi PowerPoint, Proyek, Photoshop, CorelDraw, AutoCAD, diagram, format file gambar raster dan banyak lagi. Pustaka konverter dokumen secara otomatis mendeteksi format dokumen sumber dan memberi Anda semua kontrol untuk mengonversi seluruh dokumen atau halaman tertentu ke format output yang diinginkan. Lebih mudah untuk mengganti font yang hilang dengan yang disukai dan menambahkan teks atau tanda air gambar ke halaman dokumen mana pun.",
+    "content2": "{{ProductFullName}} dapat digunakan untuk mengembangkan aplikasi di lingkungan pengembangan apa pun yang menargetkan platform .NET. Ini kompatibel dengan semua bahasa berbasis .NET dan mendukung sistem operasi populer (Windows, Linux, MacOS) di mana kerangka kerja Mono atau .NET (termasuk .NET Core) dapat diinstal.",
+    "tab_one": {
+      "description": "Berikut adalah ikhtisar {{ProductFullName}}:",
+      "right": {
+        "title": "Ringkasan",
+        "content1": "* Deteksi Otomatis Jenis File",
+        "content2": "* Konversi Dokumen",
+        "content3": "* Konversi Presentasi",
+        "content4": "* Konversi Spreadsheet",
+        "content5": "* Konversi Gambar Raster",
+        "content6": "* Konversi Dokumen PDF",
+        "content7": "* Konversi Format Lain",
+        "content8": "* Terapkan Tanda Air",
+        "content9": "* Tentukan Kata Sandi File",
+        "content10": "* Sesuaikan Konversi"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} mendukung konversi antara semua [format file dokumen] yang populer dan yang umum digunakan(https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
+      "left": {
+        "title": "Konversi Dari:",
+        "content1": "* **Dokumen**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Spreadsheet**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Presentasi**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Gambar**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Portabel**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTML, HTML, MHTML",
+        "content7": "* **Metafile**: EMZ, WMZ",
+        "content8": "* **PhotoShop**: PSD",
+        "content9": "* **Proyek**: MPP, MPT, MPX",
+        "content10": "* **Outlook**: PST, OST",
+        "content11": "* **Email**: MSG, EML, EMLX",
+        "content12": "* **Diagram**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Lainnya**: VCF, PLT, LGS, OTG, MD, AI, LOG"
+      },
+      "right": {
+        "title": "Ubah ke:",
+        "content1": "* **Dokumen**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Spreadsheet**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Presentasi**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Gambar**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
+        "content5": "* **Metafile**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Diagram**: SVGZ",
+        "content7": "* **Portabel**: PDF, XPS",
+        "content8": "* **HTML**: HTML, HTML, MHTML",
+        "content9": "* **Lainnya**: MD"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} mendukung Sistem Operasi, Kerangka & Manajer Paket berikut:",
+      "left": {
+        "title1": "Sistem operasi",
+        "title2": "Kerangka yang Didukung"
+      },
+      "right": {
+        "title1": "Manajer Paket",
+        "title2": "Lingkungan Pengembangan"
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductFullName}} Fitur",
+    "content1": "Integrasi Mudah & Lisensi Terukur",
+    "content2": "Atur Opsi Zoom Default saat Mengonversi ke Kata, Slide, atau Sel",
+    "content3": "Konversikan ke/dari semua Format Gambar Raster Populer & Tetapkan DPI Gambar, Tinggi & Lebar",
+    "content4": "Konversi PDF & Gambar ke Skala Abu-abu & Linearisasi Dokumen PDF untuk Web",
+    "content5": "Tentukan Level Bookmark, Level Heading, dan Level yang Diperluas dalam Konversi Word ke PDF/XPS",
+    "content6": "Konfigurasi & Tempatkan Tanda Air dalam Dokumen yang Dikonversi sebagai Latar Belakang untuk Ditampilkan di Belakang Teks",
+    "content7": "Render Header Email selama Konversi dari Email",
+    "content8": "Tetapkan Direktori Font Kustom & Muat/Ganti Font Secara Eksplisit selama Konversi Dokumen",
+    "content9": "Setel Font Default untuk Mengganti Font yang Hilang untuk Konversi Dokumen, Slide & Spreadsheet",
+    "content10": "Metode Konversi Tingkat Lanjut untuk mengembalikan Output sebagai Jalur atau Aliran IO",
+    "content11": "Konversikan Spreadsheet dengan Garis Kisi & Hapus Komentar dari Slide Saat Konversi",
+    "content12": "Konversi Halaman Dokumen Tertentu sebagai Format PDF & Konversi Rentang Sel Tertentu dalam Spreadsheet",
+    "content13": "Tampilkan Lembar Tersembunyi & Lewati Baris dan Kolom Kosong saat Mengonversi Spreadsheet",
+    "content14": "Hitung Total Halaman Dokumen & Setel Kata Sandi ke Dokumen Tidak Terproteksi selama Konversi",
+    "content15": "Opsi untuk Menghapus Anotasi & File Tertanam dari PDF",
+    "content16": "Buat Markup yang Sesuai dengan HTML 5 saat Mengonversi ke HTML",
+    "content17": "Deteksi Otomatis Jenis Sumber & Kembalikan semua Kemungkinan Konversi saat Mengonversi dari Aliran",
+    "content18": "Kemampuan untuk Mengembalikan Setiap Halaman dalam Aliran Terpisah saat Mengonversi ke PDF atau HTML",
+    "content19": "Tampilkan/Sembunyikan Markup, Komentar & Lacak Perubahan saat Mengonversi dari Word",
+    "content20": "Konversi DOCX ke Tiff G3 dengan Opsi Shading",
+    "content21": "Konversi Tata Letak Tertentu saat Mengonversi dari Dokumen CAD",
+    "content22": "Penamaan Otomatis saat Menyimpan Dokumen yang Dikonversi ke File",
+    "content23": "Lisensi Bermeter Didukung untuk Ditagih berdasarkan Penggunaan API",
+    "content24": "Konversikan Diagram ke Format File Pemrosesan Kata",
+    "content25": "Tambahkan Nomor Halaman saat Mengonversi HTML ke Dokumen Pengolah Kata",
+    "content26": "Konversikan Dokumen XML ke Format Apapun tanpa Transformasi",
+    "content27": "Pantau Kemajuan Konversi File (Mulai, Akhir) Langsung dari Aplikasi Sisi Klien",
+    "more_feature": {
+      "title1": "Konversi Format Dokumen dengan Mudah",
+      "content1": "Menggunakan {{ProductFullName}}, mengonversi format file dokumen menjadi sangat mudah. Contoh berikut menunjukkan cara mengonversi file PDF menjadi file DOC menggunakan {{ProgLang}}:",
+      "step_1": "Buat instance kelas Converter dan berikan file dengan path lengkap",
+      "step_2": "Buat dan atur ConvertOptions untuk tipe target yang diinginkan.",
+      "step_3": "Panggil metode Converter.Convert dan berikan path lengkap dan format sebagai parameter",
+      "title2": "Konversi ke Format Gambar",
+      "content2": "{{ProductFullName}} dapat digunakan untuk mengembangkan aplikasi di lingkungan pengembangan apa pun yang menargetkan platform .NET. Ini kompatibel dengan semua bahasa berbasis .NET dan mendukung sistem operasi populer (Windows, Linux, MacOS) di mana kerangka kerja Mono atau .NET (termasuk .NET Core) dapat diinstal.",
+      "title3": "Mendukung berbagai Jenis Format PDF",
+      "content3": "{{ProductFullName}} API mendukung konversi dokumen ke jenis/format PDF berikut:"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion menawarkan API konversi dokumen untuk lingkungan pengembangan populer lainnya",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion untuk Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
+      "platform": "Jawa",
+      "link": "/konversi/java/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Muat file sumber {{FROM}} untuk konversi",
+      "prepare_comment": "Siapkan opsi konversi untuk format target {{TO}}",
+      "convert_comment": "Konversikan ke format {{TO}}"
+    }
+  }
+}

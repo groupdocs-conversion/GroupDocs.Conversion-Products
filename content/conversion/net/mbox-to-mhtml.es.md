@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-13T11:22:29
+date: 2022-10-13T18:26:05
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX a MHTML en C#

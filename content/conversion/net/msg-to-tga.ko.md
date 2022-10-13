@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-13T11:23:16
+date: 2022-10-13T18:26:48
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: C#의 MSG에서 TGA까지

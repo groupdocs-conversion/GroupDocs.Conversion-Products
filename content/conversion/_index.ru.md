@@ -9,7 +9,7 @@ product_tag: "conversion"
 
 ############################# Head ############################
 head_title: ".NET, Java, облачные API и приложения для преобразования документов от GroupDocs"
-head_description: "Получите универсальное решение для преобразования документов для .NET, Java и облачных приложений. Быстрое преобразование между всеми распространенными форматами документов онлайн."
+head_description: "Преобразование популярных форматов файлов документов и изображений на любой платформе с помощью приложений и решений на основе API."
 
 ############################# Header ############################
 title: "Решение для преобразования документов и изображений"
@@ -28,7 +28,7 @@ apis:
         # api_product loop
         - link: "/conversion/net/"
           img_alt: "GroupDocs.Conversion for .NET"
-          image: "/border/groupdocs-conversion-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion for"
           platform: ".NET"
           content: "Собственный .NET API для точного преобразования форматов файлов документов и изображений в любых типах приложений .NET. Поддерживает добавление водяных знаков изображения во время преобразования."
@@ -36,7 +36,7 @@ apis:
         # api_product loop
         - link: "/conversion/java/"
           img_alt: "GroupDocs.Conversion for Java"
-          image: "/border/groupdocs-conversion-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "Позвольте своим Java-приложениям легко конвертировать между всеми стандартными форматами документов, включая Microsoft Office, PDF, HTML, изображения и многие другие."
@@ -49,26 +49,26 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/curl"
           img_alt: "GroupDocs.Conversion Cloud for cURL"
-          image: "/sdk/groupdocs_conversion-for-curl.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "Работайте с API преобразования файлов cURL RESTful, чтобы легко конвертировать Microsoft Office, PDF, электронную почту, проект, HTML и другие распространенные форматы файлов в ваших приложениях.."
+          content: "Работайте с API преобразования файлов cURL RESTful, чтобы легко конвертировать Microsoft Office, PDF, электронную почту, проект, HTML и другие распространенные форматы файлов в ваших приложениях."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"
           img_alt: "GroupDocs.Conversion Cloud SDK for .NET"
-          image: "/sdk/groupdocs_conversion-for-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: ".NET Document Viewer REST API для точного рендеринга документов в широко используемые форматы файлов и из них на любой платформе с помощью Cloud SDK.."
+          content: ".NET Document Viewer REST API для точного рендеринга документов в широко используемые форматы файлов и из них на любой платформе с помощью Cloud SDK."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
           img_alt: "GroupDocs.Conversion Cloud SDK for Java"
-          image: "/sdk/groupdocs_conversion-for-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for Java"
-          content: "Расширьте свои облачные Java-приложения расширенными функциями преобразования документов на любой платформе, способной вызывать REST API.."
+          content: "Дополните свои облачные Java-приложения расширенными функциями преобразования документов на любой платформе, способной вызывать REST API."
 
     # api loop
     - title: "GroupDocs.Conversion Приложения без кода включают"
@@ -78,7 +78,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/total"
           img_alt: "GroupDocs.Conversion Total"
-          image: "/app/groupdocs_conversion-app.svg"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png"
           product: "GroupDocs.Conversion"
           platform: "Total"
           content: "Преобразование более 50 форматов документов в PDF, XLSX, DOCX, XPS, HTML и другие."
@@ -86,15 +86,15 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/doc-to-xls"
           img_alt: "GroupDocs.Conversion DOCX"
-          image: "/app/groupdocs_words-app.svg"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Conversion"
           platform: "DOC to XLS"
-          content: "Бесплатное приложение для преобразования формата DOC в формат XLS из любого веб-браузера.."
+          content: "Бесплатное приложение для преобразования DOC в формат XLS из любого веб-браузера."
 
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/pdf-to-docx"
           img_alt: "GroupDocs.Conversion PDF"
-          image: "/app/groupdocs_pdf-app.svg"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Conversion"
           platform: "PDF to DOCX"
           content: "Загрузите свои PDF-документы для плавного преобразования в формат Word (DOCX)."
@@ -107,8 +107,8 @@ testimonials:
   testimonial:
     # testimonial item loop
     - name: "David Hoffman"
-      designation: "Psychologist"
-      content: "Я с волнением наблюдаю за ростом GroupDocs. Отзывчивость всей вашей команды очень помогла мне, когда я разговариваю с кем-то в GroupDocs, я могу гарантировать, что кто-то слушает и делает все возможное.."
+      designation: "Психолог"
+      content: "Я с волнением наблюдаю за ростом GroupDocs. Отзывчивость всей вашей команды очень помогла мне, когда я разговариваю с кем-то в GroupDocs, я могу гарантировать, что кто-то слушает и делает все возможное."
 
 ############################# Back to top ###############################
 back_to_top:

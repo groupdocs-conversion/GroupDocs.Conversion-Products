@@ -6,7 +6,7 @@ dimensions:
 - alias: to
   values: [ai, bmp, cgm, csv, dcm, dib, dif, djvu, dng, doc, docm, docx, dot, dotm, dotx, dwf, emf, eml, emlx, emz, epub, fodp, fods, gif, htm, html, ico, igs, j2k, jp2, jpeg, jpf, jpg, jpm, json, ls, md, mht, mhtm, mhtml, mobi, mpp, mpx, msg, odg, odp, ods, odt, otp, ots, ott, pdf, png, pot, potm, potx, pps, ppsm, ppsx, ppt, pptm, pptx, ps, psb, psd, rtf, svg, svgz, sxc, tex, tga, tif, tiff, to, tsv, txt, vdx, vsdm, vsdx, vssm, vssx, vstm, vstx, vsx, vtx, web, webp, wmf, wmz, xer, xlam, xls, xls2003, xlsb, xlsm, xlsx, xlt, xltm, xltx, xml, xps]
 
-dictionaries: ["..\\data\\otherformats.json", "..\\data\\pair_{product}.{lang}.json"]
+dictionaries: ["..\\data\\otherformats.json", "..\\data\\products\\pair_{product}.{lang}.json"]
 
 generationRules:
   include:

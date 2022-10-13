@@ -1,0 +1,36 @@
+{
+    "head": {
+        "title": ".NET, Java, Cloud APIs & Document Conversion Apps by GroupDocs",
+        "description": "Convert popular document and image file formats on any platform with app and api-based solutions."
+    },
+    "header": {
+        "title": "Document and Image Conversion Solution",
+        "description": "Convert popular document and image file formats on any platform with app and api-based solutions."
+    },
+    "apis": {
+        "api1": {
+            "title": "GroupDocs.Conversion High Code APIs Include",
+            "label": "View All High Code APIs",
+            "product1_content": "Native .NET API to accurately convert documents & image file formats in any types of .NET application. Supports adding image watermarks while conversion.",
+            "product2_content": "Enable your Java applications to easily convert between all industry-standard document formats including Microsoft Office, PDF, HTML, images and many others."
+        },
+        "api2": {
+            "title": "GroupDocs.Conversion Low Code APIs Include",
+            "label": "View All Low Code APIs",
+            "product1_content": "Work with cURL RESTful file conversion API to easily convert Microsoft Office, PDF, Email, Project, HTML and other common file formats in your applications.",
+            "product2_content": ".NET Document Viewer REST API to accurately render documents to and from widely used file formats on any platform using Cloud SDK.",
+            "product3_content": "Enrich your cloud-based Java applications with advanced documents conversion features on any platform capable of calling REST APIs."
+        },
+        "api3": {
+            "title": "GroupDocs.Conversion No Code Apps Include",
+            "label": "View All No Code Apps",
+            "product1_content": "Convert more than 50 document formats to PDF, XLSX, DOCX, XPS, HTML and more.",
+            "product2_content": "Free app to convert DOC to XLS format from any web browser.",
+            "product3_content": "Upload your PDF documents for seamless conversion to Word (DOCX) format."
+        }
+    },
+    "testimonial": {
+        "designation": "Psychologist",
+        "content": "I am excitedly watching the growth of GroupDocs. The responsiveness of your full team has helped me greatly, when I talk to someone at GroupDocs I can guarantee that someone is listening and making things happen."
+    }
+}

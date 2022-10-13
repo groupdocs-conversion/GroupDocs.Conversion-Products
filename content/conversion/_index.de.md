@@ -9,7 +9,7 @@ product_tag: "conversion"
 
 ############################# Head ############################
 head_title: ".NET, Java, Cloud-APIs und Dokumentenkonvertierungs-Apps von GroupDocs"
-head_description: "Holen Sie sich eine All-in-One-Lösung zur Dokumentenkonvertierung für .NET-, Java- und Cloud-Anwendungen. Konvertieren Sie online schnell zwischen allen gängigen Dokumentformaten."
+head_description: "Konvertieren Sie gängige Dokument- und Bilddateiformate auf jeder Plattform mit App- und API-basierten Lösungen."
 
 ############################# Header ############################
 title: "Dokumenten- und Bildkonvertierungslösung"
@@ -28,7 +28,7 @@ apis:
         # api_product loop
         - link: "/conversion/net/"
           img_alt: "GroupDocs.Conversion for .NET"
-          image: "/border/groupdocs-conversion-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
           product: "GroupDocs.Conversion for"
           platform: ".NET"
           content: "Native .NET-API zum genauen Konvertieren von Dokumenten und Bilddateiformaten in alle Arten von .NET-Anwendungen. Unterstützt das Hinzufügen von Bildwasserzeichen während der Konvertierung."
@@ -36,7 +36,7 @@ apis:
         # api_product loop
         - link: "/conversion/java/"
           img_alt: "GroupDocs.Conversion for Java"
-          image: "/border/groupdocs-conversion-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "Ermöglichen Sie Ihren Java-Anwendungen die einfache Konvertierung zwischen allen branchenüblichen Dokumentformaten, einschließlich Microsoft Office, PDF, HTML, Bildern und vielen anderen."
@@ -49,7 +49,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/curl"
           img_alt: "GroupDocs.Conversion Cloud for cURL"
-          image: "/sdk/groupdocs_conversion-for-curl.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
           content: "Arbeiten Sie mit der cURL RESTful-Dateikonvertierungs-API, um Microsoft Office, PDF, E-Mail, Project, HTML und andere gängige Dateiformate in Ihren Anwendungen einfach zu konvertieren."
@@ -57,15 +57,15 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"
           img_alt: "GroupDocs.Conversion Cloud SDK for .NET"
-          image: "/sdk/groupdocs_conversion-for-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: ".NET Document Viewer-REST-API zum genauen Rendern von Dokumenten in und aus weit verbreiteten Dateiformaten auf jeder Plattform mit Cloud SDK."
+          content: ".NET Document Viewer REST API zum genauen Rendern von Dokumenten in und aus weit verbreiteten Dateiformaten auf jeder Plattform mit Cloud SDK."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
           img_alt: "GroupDocs.Conversion Cloud SDK for Java"
-          image: "/sdk/groupdocs_conversion-for-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-java.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for Java"
           content: "Bereichern Sie Ihre Cloud-basierten Java-Anwendungen mit erweiterten Dokumentenkonvertierungsfunktionen auf jeder Plattform, die REST-APIs aufrufen kann."
@@ -78,7 +78,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/total"
           img_alt: "GroupDocs.Conversion Total"
-          image: "/app/groupdocs_conversion-app.svg"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_conversion-app.png"
           product: "GroupDocs.Conversion"
           platform: "Total"
           content: "Konvertieren Sie mehr als 50 Dokumentformate in PDF, XLSX, DOCX, XPS, HTML und mehr."
@@ -86,7 +86,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/doc-to-xls"
           img_alt: "GroupDocs.Conversion DOCX"
-          image: "/app/groupdocs_words-app.svg"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Conversion"
           platform: "DOC to XLS"
           content: "Kostenlose App zum Konvertieren von DOC in das XLS-Format von jedem Webbrowser aus."
@@ -94,7 +94,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/conversion/pdf-to-docx"
           img_alt: "GroupDocs.Conversion PDF"
-          image: "/app/groupdocs_pdf-app.svg"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Conversion"
           platform: "PDF to DOCX"
           content: "Laden Sie Ihre PDF-Dokumente für eine nahtlose Konvertierung in das Word-Format (DOCX) hoch."
@@ -107,7 +107,7 @@ testimonials:
   testimonial:
     # testimonial item loop
     - name: "David Hoffman"
-      designation: "Psychologist"
+      designation: "Psychologe"
       content: "Ich beobachte mit Spannung das Wachstum von GroupDocs. Die Reaktionsfähigkeit Ihres gesamten Teams hat mir sehr geholfen, wenn ich mit jemandem bei GroupDocs spreche, kann ich garantieren, dass jemand zuhört und Dinge in Gang setzt."
 
 ############################# Back to top ###############################

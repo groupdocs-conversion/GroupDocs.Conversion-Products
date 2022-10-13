@@ -1,5 +1,5 @@
 inherits: products.yml
 
-dictionaries: ["..\\data\\index_{product}.{lang}.json"]  
+dictionaries: ["..\\data\\products\\index_{product}.{lang}.json"]  
 
 outputPath: "conversion\\{product}\\_index.{lang}.md"

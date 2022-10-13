@@ -1,0 +1,36 @@
+{
+  "head": {
+    "title": ".NET, Java, Cloud-APIs und Dokumentenkonvertierungs-Apps von GroupDocs",
+    "description": "Konvertieren Sie gängige Dokument- und Bilddateiformate auf jeder Plattform mit App- und API-basierten Lösungen."
+  },
+  "header": {
+    "title": "Dokumenten- und Bildkonvertierungslösung",
+    "description": "Konvertieren Sie gängige Dokument- und Bilddateiformate auf jeder Plattform mit App- und API-basierten Lösungen."
+  },
+  "apis": {
+    "api1": {
+      "title": "GroupDocs.Conversion High-Code-APIs enthalten",
+      "label": "Alle High-Code-APIs anzeigen",
+      "product1_content": "Native .NET-API zum genauen Konvertieren von Dokumenten und Bilddateiformaten in alle Arten von .NET-Anwendungen. Unterstützt das Hinzufügen von Bildwasserzeichen während der Konvertierung.",
+      "product2_content": "Ermöglichen Sie Ihren Java-Anwendungen die einfache Konvertierung zwischen allen branchenüblichen Dokumentformaten, einschließlich Microsoft Office, PDF, HTML, Bildern und vielen anderen."
+    },
+    "api2": {
+      "title": "GroupDocs.Conversion Low-Code-APIs enthalten",
+      "label": "Alle Low-Code-APIs anzeigen",
+      "product1_content": "Arbeiten Sie mit der cURL RESTful-Dateikonvertierungs-API, um Microsoft Office, PDF, E-Mail, Project, HTML und andere gängige Dateiformate in Ihren Anwendungen einfach zu konvertieren.",
+      "product2_content": ".NET Document Viewer REST API zum genauen Rendern von Dokumenten in und aus weit verbreiteten Dateiformaten auf jeder Plattform mit Cloud SDK.",
+      "product3_content": "Bereichern Sie Ihre Cloud-basierten Java-Anwendungen mit erweiterten Dokumentenkonvertierungsfunktionen auf jeder Plattform, die REST-APIs aufrufen kann."
+    },
+    "api3": {
+      "title": "GroupDocs.Conversion Keine Code-Apps enthalten",
+      "label": "Alle No-Code-Apps anzeigen",
+      "product1_content": "Konvertieren Sie mehr als 50 Dokumentformate in PDF, XLSX, DOCX, XPS, HTML und mehr.",
+      "product2_content": "Kostenlose App zum Konvertieren von DOC in das XLS-Format von jedem Webbrowser aus.",
+      "product3_content": "Laden Sie Ihre PDF-Dokumente für eine nahtlose Konvertierung in das Word-Format (DOCX) hoch."
+    }
+  },
+  "testimonial": {
+    "designation": "Psychologe",
+    "content": "Ich beobachte mit Spannung das Wachstum von GroupDocs. Die Reaktionsfähigkeit Ihres gesamten Teams hat mir sehr geholfen, wenn ich mit jemandem bei GroupDocs spreche, kann ich garantieren, dass jemand zuhört und Dinge in Gang setzt."
+  }
+}

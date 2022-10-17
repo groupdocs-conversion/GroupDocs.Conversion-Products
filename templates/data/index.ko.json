@@ -18,7 +18,7 @@
       "title": "GroupDocs.Conversion 로우 코드 API 포함",
       "label": "모든 로우 코드 API 보기",
       "product1_content": "cURL RESTful 파일 변환 API를 사용하여 애플리케이션에서 Microsoft Office, PDF, 이메일, 프로젝트, HTML 및 기타 일반 파일 형식을 쉽게 변환할 수 있습니다.",
-      "product2_content": ".NET 문서 뷰어 REST API는 Cloud SDK를 사용하여 모든 플랫폼에서 널리 사용되는 파일 형식 간에 문서를 정확하게 렌더링합니다.",
+      "product2_content": ".NET 파일 변환 REST API는 Cloud SDK를 사용하여 모든 플랫폼에서 Microsoft Office, PDF, 이메일, 프로젝트, HTML 및 기타 일반 파일 형식을 쉽게 변환합니다.",
       "product3_content": "REST API를 호출할 수 있는 모든 플랫폼에서 고급 문서 변환 기능으로 클라우드 기반 Java 애플리케이션을 강화하십시오."
     },
     "api3": {

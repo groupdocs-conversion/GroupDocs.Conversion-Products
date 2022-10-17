@@ -18,7 +18,7 @@
             "title": "GroupDocs.Conversion Low Code APIs Include",
             "label": "View All Low Code APIs",
             "product1_content": "Work with cURL RESTful file conversion API to easily convert Microsoft Office, PDF, Email, Project, HTML and other common file formats in your applications.",
-            "product2_content": ".NET Document Viewer REST API to accurately render documents to and from widely used file formats on any platform using Cloud SDK.",
+            "product2_content": ".NET file conversion REST API to easily convert Microsoft Office, PDF, Email, Project, HTML and other common file formats on any platform using Cloud SDK.",
             "product3_content": "Enrich your cloud-based Java applications with advanced documents conversion features on any platform capable of calling REST APIs."
         },
         "api3": {

@@ -52,7 +52,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "cURL RESTful ファイル変換 API を使用して、アプリケーションで Microsoft Office、PDF、E メール、プロジェクト、HTML、およびその他の一般的なファイル形式を簡単に変換できます。"
+          content: "cURL RESTful ファイル変換 API を使用して、アプリケーションで Microsoft Office、PDF、E メール、プロジェクト、HTML、およびその他の一般的なファイル形式を簡単に変換します。"
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"
@@ -60,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: "Cloud SDK を使用して、あらゆるプラットフォームで広く使用されているファイル形式との間でドキュメントを正確にレンダリングする .NET Document Viewer REST API。"
+          content: ".NET ファイル変換 REST API により、Cloud SDK を使用して任意のプラットフォームで Microsoft Office、PDF、電子メール、プロジェクト、HTML、およびその他の一般的なファイル形式を簡単に変換できます。"
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"
@@ -108,7 +108,7 @@ testimonials:
     # testimonial item loop
     - name: "David Hoffman"
       designation: "心理学者"
-      content: "GroupDocs の成長を楽しみにしています。 GroupDocs の誰かと話すと、誰かが耳を傾け、物事を実現していることを保証できます。"
+      content: "GroupDocs の成長を楽しみにしています。 GroupDocs の誰かと話すと、誰かが耳を傾け、物事を実現させていることを保証できます。"
 
 ############################# Back to top ###############################
 back_to_top:

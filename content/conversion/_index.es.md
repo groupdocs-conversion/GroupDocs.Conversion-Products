@@ -60,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-net.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud SDK for .NET"
-          content: ".NET Document Viewer REST API para representar con precisión documentos hacia y desde formatos de archivo ampliamente utilizados en cualquier plataforma que utilice Cloud SDK."
+          content: "API REST de conversión de archivos .NET para convertir fácilmente Microsoft Office, PDF, correo electrónico, proyecto, HTML y otros formatos de archivo comunes en cualquier plataforma que utilice Cloud SDK."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/java"

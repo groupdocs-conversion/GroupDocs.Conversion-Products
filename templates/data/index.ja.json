@@ -17,8 +17,8 @@
     "api2": {
       "title": "GroupDocs.Conversion ローコード API には以下が含まれます",
       "label": "すべてのローコード API を表示",
-      "product1_content": "cURL RESTful ファイル変換 API を使用して、アプリケーションで Microsoft Office、PDF、E メール、プロジェクト、HTML、およびその他の一般的なファイル形式を簡単に変換できます。",
-      "product2_content": "Cloud SDK を使用して、あらゆるプラットフォームで広く使用されているファイル形式との間でドキュメントを正確にレンダリングする .NET Document Viewer REST API。",
+      "product1_content": "cURL RESTful ファイル変換 API を使用して、アプリケーションで Microsoft Office、PDF、E メール、プロジェクト、HTML、およびその他の一般的なファイル形式を簡単に変換します。",
+      "product2_content": ".NET ファイル変換 REST API により、Cloud SDK を使用して任意のプラットフォームで Microsoft Office、PDF、電子メール、プロジェクト、HTML、およびその他の一般的なファイル形式を簡単に変換できます。",
       "product3_content": "REST API を呼び出すことができる任意のプラットフォームで高度なドキュメント変換機能を使用して、クラウドベースの Java アプリケーションを強化します。"
     },
     "api3": {
@@ -31,6 +31,6 @@
   },
   "testimonial": {
     "designation": "心理学者",
-    "content": "GroupDocs の成長を楽しみにしています。 GroupDocs の誰かと話すと、誰かが耳を傾け、物事を実現していることを保証できます。"
+    "content": "GroupDocs の成長を楽しみにしています。 GroupDocs の誰かと話すと、誰かが耳を傾け、物事を実現させていることを保証できます。"
   }
 }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-17T16:03:24
+date: 2022-10-18T17:59:57
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MSG to DCM in C#

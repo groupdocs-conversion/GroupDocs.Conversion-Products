@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-17T16:04:55
+date: 2022-10-18T18:01:36
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VST в VTX на Java

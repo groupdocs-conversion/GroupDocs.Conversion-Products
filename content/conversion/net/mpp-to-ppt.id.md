@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-17T16:05:40
+date: 2022-10-18T18:02:23
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPP ke PPT di C#

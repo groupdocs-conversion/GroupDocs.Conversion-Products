@@ -1,10 +1,10 @@
 {
   "content": {
-    "meta_title": "Konwertuj {{OD}} na {{TO}} w {{ProgLang}}",
+    "meta_title": "Konwertuj {{FROM}} na {{TO}} w {{ProgLang}}",
     "meta_description": "Konwersja {{FROM}} na {{TO}} w {{ProductName}} z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla {{ProductName}}",
-    "h1": "Konwertuj {{OD}} na {{TO}} w {{ProgLang}}",
+    "h1": "Konwertuj {{FROM}} na {{TO}} w {{ProgLang}}",
     "h2": "Konwersja {{FROM}} do {{TO}} z kilkoma linijkami kodu {{ProductName}}",
-    "breadcrumb": "{{OD}} do {{TO}} w {{ProgLang}}"
+    "breadcrumb": "{{FROM}} do {{TO}} w {{ProgLang}}"
   },
   "about": {
     "title": "Informacje o interfejsie API {{ProductFullName}}",
@@ -44,11 +44,11 @@
     }
   },
   "demos": {
-    "title": "{{OD}} do {{TO}} demonstracji na żywo",
+    "title": "{{FROM}} do {{TO}} demonstracji na żywo",
     "content": "Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję {{FROM}} na {{TO}}. Darmowe demo ma następujące zalety"
   },
   "more_formats": {
-    "title": "Inne obsługiwane konwersje {{OD}} w {{ProgLang}}",
+    "title": "Inne obsługiwane konwersje {{FROM}} w {{ProgLang}}",
     "content": "Możesz także przekonwertować {{FROM}} na wiele innych formatów plików. Zobacz poniższą listę."
   }
 }

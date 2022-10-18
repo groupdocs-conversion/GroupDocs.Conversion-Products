@@ -1,0 +1,36 @@
+{
+  "head": {
+    "title": ".NET, Java, APIs de nuvem e aplicativos de conversão de documentos por GroupDocs",
+    "description": "Converta formatos populares de documentos e arquivos de imagem em qualquer plataforma com soluções baseadas em aplicativos e APIs."
+  },
+  "header": {
+    "title": "Solução de conversão de documentos e imagens",
+    "description": "Converta formatos populares de documentos e arquivos de imagem em qualquer plataforma com soluções baseadas em aplicativos e APIs."
+  },
+  "apis": {
+    "api1": {
+      "title": "As APIs de alto código GroupDocs.Conversion incluem",
+      "label": "Ver todas as APIs de código alto",
+      "product1_content": "API .NET nativa para converter documentos e formatos de arquivo de imagem com precisão em qualquer tipo de aplicativo .NET. Suporta a adição de marcas d'água de imagem durante a conversão.",
+      "product2_content": "Permita que seus aplicativos Java convertam facilmente entre todos os formatos de documentos padrão do setor, incluindo Microsoft Office, PDF, HTML, imagens e muitos outros."
+    },
+    "api2": {
+      "title": "GroupDocs.Conversion Low Code APIs Incluem",
+      "label": "Ver todas as APIs de código baixo",
+      "product1_content": "Trabalhe com a API de conversão de arquivos cURL RESTful para converter facilmente o Microsoft Office, PDF, Email, Project, HTML e outros formatos de arquivo comuns em seus aplicativos.",
+      "product2_content": "API REST de conversão de arquivos .NET para converter facilmente o Microsoft Office, PDF, Email, Project, HTML e outros formatos de arquivo comuns em qualquer plataforma usando o Cloud SDK.",
+      "product3_content": "Enriqueça seus aplicativos Java baseados em nuvem com recursos avançados de conversão de documentos em qualquer plataforma capaz de chamar APIs REST."
+    },
+    "api3": {
+      "title": "GroupDocs.Conversion Nenhum aplicativo de código inclui",
+      "label": "Ver todos os aplicativos sem código",
+      "product1_content": "Converta mais de 50 formatos de documentos para PDF, XLSX, DOCX, XPS, HTML e muito mais.",
+      "product2_content": "Aplicativo gratuito para converter o formato DOC para XLS de qualquer navegador da web.",
+      "product3_content": "Carregue seus documentos PDF para uma conversão perfeita para o formato Word (DOCX)."
+    }
+  },
+  "testimonial": {
+    "designation": "Psicólogo",
+    "content": "Estou acompanhando com entusiasmo o crescimento do GroupDocs. A capacidade de resposta de toda a sua equipe me ajudou muito, quando falo com alguém no GroupDocs posso garantir que alguém está ouvindo e fazendo as coisas acontecerem."
+  }
+}

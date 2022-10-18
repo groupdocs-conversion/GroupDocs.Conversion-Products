@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "Konwerter {{FROM}} na {{TO}} w {{ProgLang}}",
+    "meta_description": "Konwertuj {{FROM}} na {{TO}} w {{ProductName}}, używając kilku linijek kodu. Użyj interfejsu API konwersji dokumentów GroupDocs, aby przekonwertować ponad 160 formatów plików.",
+    "h1": "Konwertuj {{OD}} na {{TO}} w {{ProgLang}}",
+    "h2": "Konwersja {{FROM}} do {{TO}} z kilkoma linijkami kodu {{ProductName}}",
+    "breadcrumb": "{{OD}} do {{TO}} w {{ProgLang}}"
+  },
+  "about": {
+    "title": "Informacje o interfejsie API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) można używać do konwersji formatów Microsoft Word, Excel, PowerPoint, PDF, Visio i innych. GroupDocs.Conversion to samodzielny interfejs API, który jest odpowiedni dla systemów zaplecza i systemów wewnętrznych, w których wymagana jest wysoka wydajność. Nie zależy od żadnego oprogramowania, takiego jak Microsoft czy Open Office."
+  },
+  "overview": {
+    "description1": "Łatwo przekonwertuj swoje pliki {{FROM}} na {{TO}} w {{ProductName}}. Możesz użyć tylko kilku linii kodu {{ProgLang}} na dowolnej wybranej platformie, takiej jak Windows, Linux, macOS.",
+    "description2": "Możesz wypróbować konwersję {{OD}} do {{TO}} za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku {{TO}}.",
+    "load_options_desc": "Na przykład dla pliku źródłowego {{FROM}} możesz użyć następujących opcji ładowania:",
+    "load_options_item_1": "automatycznie wykrywa format pliku",
+    "load_options_item_2": "określić hasło dla chronionych plików (jeśli format pliku je obsługuje)",
+    "load_options_item_3": "zastąpić brakujące czcionki, aby zachować wygląd dokumentu",
+    "convert_options_desc": "Istnieją również zaawansowane opcje konwersji dla pliku {{TO}}:",
+    "convert_options_item_1": "przekonwertować określoną stronę dokumentu lub zakres stron",
+    "convert_options_item_2": "dodaj znak wodny do przekonwertowanego pliku {{TO}} i wielu innych",
+    "summary": "Po zakończeniu konwersji możesz zapisać plik {{TO}} w lokalnej ścieżce pliku lub w dowolnej pamięci innej firmy, takiej jak FTP, Amazon S3, Dysk Google, Dropbox itp. Uwaga - aby przekonwertować {{FROM}} na {{ TO}} nie ma potrzeby instalowania dodatkowego oprogramowania - takiego jak MS Office, Open Office, Adobe Acrobat Reader itp."
+  },
+  "steps": {
+    "title_left": "Kroki konwersji {{FROM}} na {{TO}} w {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ułatwia programistom konwersję pliku {{FROM}} na {{TO}} za pomocą kilku linijek kodu.",
+      "step_1": "Utwórz instancję klasy Converter i podaj plik {{FROM}} z pełną ścieżką",
+      "step_2": "Utwórz i ustaw opcje konwersji dla typu {{TO}}.",
+      "step_3": "Wywołaj metodę Converter.Convert i przekaż pełną ścieżkę i format ({{TO}}) jako parametr"
+    },
+    "title_right": "wymagania systemowe",
+    "content_right": {
+      "description": "Podstawową konwersję z {{ProductFullName}} można wykonać w kilku prostych krokach. Nasze interfejsy API są obsługiwane na wszystkich głównych platformach i systemach operacyjnych. Przed wykonaniem poniższego kodu upewnij się, że masz zainstalowane w systemie następujące wymagania wstępne.",
+      "step_1": "Systemy operacyjne: Microsoft Windows, Linux, MacOS",
+      "step_2": "Środowiska programistyczne: {{DevEnv}}",
+      "step_3": "Pobierz najnowszą wersję {{ProductFullName}} z [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Załaduj plik źródłowy {{FROM}} do konwersji",
+      "prepare_comment": "Przygotuj opcje konwersji dla formatu docelowego {{TO}}",
+      "convert_comment": "Konwertuj na format {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "{{OD}} do {{TO}} demonstracji na żywo",
+    "content": "Konwertuj {{FROM}} na {{TO}} teraz, odwiedzając witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Demo online ma następujące zalety"
+  },
+  "more_formats": {
+    "title": "Inne obsługiwane konwersje {{OD}} w {{ProgLang}}",
+    "content": "Możesz także przekonwertować {{FROM}} na wiele innych formatów plików. Zobacz poniższą listę."
+  }
+}

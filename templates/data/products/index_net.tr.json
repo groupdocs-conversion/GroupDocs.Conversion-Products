@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} .NET Belge Dönüştürme API'si | PDF Word Excel PPTX HTML Görüntülerini Dönüştür",
+    "description": "{{ProgLang}} .NET Belge Dönüştürme API'si. PDF Word DOC DOCX, Excel Elektronik Tabloları PPT PPTX, HTML, PSD, MPT MPP, E-posta MSG EMLX, AutoCAD ve görüntü dosyası formatlarını dönüştürün."
+  },
+  "header": {
+    "title": "80'den Fazla Dosya Biçimini Dönüştürmek için .NET API",
+    "description": "Herhangi bir Harici Yazılım Yüklemeden Belge ve Görüntü Dönüştürme İşlevselliğini .NET Uygulamalarına Entegre Etmek için Basit API.",
+    "button": {
+      "label": "Ücretsiz deneme sürümünü indirin",
+      "link": "https://downloads.groupdocs.com/conversion/net"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "genel bakış"
+      },
+      "button2": {
+        "text": "Özellikler"
+      },
+      "button3": {
+        "text": "Destek"
+      },
+      "button4": {
+        "text": "Canlı Demo"
+      },
+      "button5": {
+        "text": "fiyatlandırma"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}}, geliştiricilerin {{ProgLang}}, ASP.NET ve diğer .NET ile ilgili teknolojilerde güçlü belge dönüştürme uygulamaları oluşturmasına olanak tanıyan basit bir API kümesi sunar. {{ProductFullName}} API, son kullanıcılarınıza hızlı, verimli ve güvenilir dosya dönüştürme çözümü sunar. PDF, HTML, E-posta, Microsoft Word belgeleri, Excel elektronik tabloları, PowerPoint sunumları, Proje, Photoshop, CorelDraw, AutoCAD, diyagramlar, raster görüntü dosyası biçimleri ve daha pek çok şey dahil olmak üzere tüm popüler iş belge biçimleri arasında doğru dönüşümler gerçekleştirmeyi destekler. Belge dönüştürücü kitaplığı, kaynak belge biçimini otomatik olarak algılar ve size tüm belgeyi veya belirli sayfaları istenen çıktı biçimine dönüştürmek için tüm kontrolü verir. Eksik yazı tiplerini tercih edilenlerle değiştirmek ve herhangi bir belge sayfasına metin veya görüntü filigranları eklemek daha kolaydır.",
+    "content2": "{{ProductFullName}}, .NET platformunu hedefleyen herhangi bir geliştirme ortamında uygulama geliştirmek için kullanılabilir. Tüm .NET tabanlı dillerle uyumludur ve Mono veya .NET çerçevelerinin (.NET Core dahil) kurulabileceği popüler işletim sistemlerini (Windows, Linux, MacOS) destekler.",
+    "tab_one": {
+      "description": "{{ProductFullName}} ürününe genel bakış aşağıdadır:",
+      "right": {
+        "title": "genel bakış",
+        "content1": "* Dosya Türünü Otomatik Algıla",
+        "content2": "* Belgeleri Dönüştür",
+        "content3": "* Sunumları Dönüştür",
+        "content4": "* Elektronik Tabloları Dönüştür",
+        "content5": "* Raster Görüntüleri Dönüştür",
+        "content6": "* PDF Belgelerini Dönüştür",
+        "content7": "* Diğer Formatları Dönüştür",
+        "content8": "* Filigran Uygula",
+        "content9": "* Dosya Parolasını Belirtin",
+        "content10": "* Dönüşümü Özelleştir"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}}, tüm popüler ve yaygın olarak kullanılan [belge dosyası biçimleri](https://docs.groupdocs.com/conversion/net/supported-document-formats/) arasında dönüştürmeyi destekler.",
+      "left": {
+        "title": "Dönüştür:",
+        "content1": "* **Belgeler**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **E-tablolar**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Sunumlar**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Görüntüler**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Taşınabilir**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTM, HTML, MHTML",
+        "content7": "* **Meta dosyaları**: EMZ, WMZ",
+        "content8": "* **PhotoShop**: PSD",
+        "content9": "* **Proje**: MPP, MPT, MPX",
+        "content10": "* **Görünüm**: PST, OST",
+        "content11": "* **E-posta**: MSG, EML, EMLX",
+        "content12": "* **Diyagramlar**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Diğer**: VCF, PLT, LGS, OTG, MD, AI, LOG"
+      },
+      "right": {
+        "title": "E dönüşmek:",
+        "content1": "* **Belgeler**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **E-tablolar**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Sunumlar**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Görüntüler**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
+        "content5": "* **Meta dosyaları**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Diyagramlar**: SVGZ",
+        "content7": "* **Taşınabilir**: PDF, XPS",
+        "content8": "* **HTML**: HTM, HTML, MHTML",
+        "content9": "* **Diğer**: MD"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}}, aşağıdaki İşletim Sistemlerini, Çerçeveleri ve Paket Yöneticilerini destekler:",
+      "left": {
+        "title1": "İşletim sistemleri",
+        "title2": "Desteklenen Çerçeveler"
+      },
+      "right": {
+        "title1": "Paketleme yöneticisi",
+        "title2": "Geliştirme Ortamları"
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductFullName}} Özellikler",
+    "content1": "Kolay Entegrasyon ve Ölçülü Lisanslama",
+    "content2": "Sözcüklere, Slaytlara veya Hücrelere Dönüştürürken Varsayılan Yakınlaştırma Seçeneğini Ayarlayın",
+    "content3": "Tüm Popüler Raster Görüntü Formatlarına/Bu Formatlardan Dönüştürme ve Görüntü DPI, Yükseklik ve Genişlik Ataması",
+    "content4": "PDF'yi ve Görüntüyü Gri Tonlamaya Dönüştürün ve Web için PDF Belgesini Doğrusallaştırın",
+    "content5": "Word'den PDF/XPS'ye Dönüştürmede Yer İşareti Düzeyini, Başlık Düzeyini ve Genişletilmiş Düzeyini Belirtin",
+    "content6": "Metnin Arkasında Görüntülenecek Arka Plan Olarak Dönüştürülen Belgede Filigranı Yapılandırın ve Yerleştirin",
+    "content7": "E-postadan Dönüştürme Sırasında E-posta Başlığını Oluştur",
+    "content8": "Belge Dönüştürme Sırasında Özel Yazı Tipi Dizinlerini Ayarlayın ve Yazı Tipini Açıkça Yükleyin/ Değiştirin",
+    "content9": "Belgeler, Slaytlar ve E-Tablolar için Eksik Yazı Tiplerini Değiştirmek İçin Varsayılan Yazı Tipini Ayarlayın",
+    "content10": "Çıktıyı Yol veya IO Akışı olarak döndürmek için Gelişmiş Dönüştürme Yöntemleri",
+    "content11": "Elektronik Tabloyu Kılavuz Çizgilerle Dönüştürün ve Dönüştürme Sırasında Slaytlardan Yorumları Kaldırın",
+    "content12": "Belirli Belge Sayfalarını PDF Formatına Dönüştür ve Elektronik Tablolarda Belirli Hücre Aralığını Dönüştür",
+    "content13": "Elektronik Tabloları Dönüştürürken Gizli Sayfaları Göster ve Boş Satırları ve Sütunları Atla",
+    "content14": "Bir Belgenin Toplam Sayfalarını Say ve Dönüştürme Sırasında Korumasız Belgeye Parola Ayarla",
+    "content15": "Açıklamaları ve Gömülü Dosyaları PDF'den Kaldırma Seçeneği",
+    "content16": "HTML'ye Dönüştürürken HTML 5 Uyumlu İşaretleme Oluşturun",
+    "content17": "Kaynak Türünü Otomatik Algıla ve Akıştan Dönüştürürken Tüm Olası Dönüşümleri Döndür",
+    "content18": "PDF veya HTML'ye Dönüştürürken Her Sayfayı Ayrı Akışta Döndürme Özelliği",
+    "content19": "Word'den Dönüştürürken İşaretlemeyi, Yorumları Göster/Gizle ve Değişiklikleri İzle",
+    "content20": "Gölgelendirme Seçeneği ile DOCX'ten Tiff G3'e Dönüştürme",
+    "content21": "CAD Belgesinden Dönüştürürken Belirli Düzenleri Dönüştür",
+    "content22": "Dönüştürülen Belgeyi Dosyaya Kaydederken Otomatik Adlandırma",
+    "content23": "API Kullanımına Göre Faturalandırılması Desteklenen Ölçülü Lisanslama",
+    "content24": "Diyagramları Kelime İşlem Dosya Formatlarına Dönüştür",
+    "content25": "HTML'yi Kelime İşleme Belgesine Dönüştürürken Sayfa Numaraları Ekleme",
+    "content26": "XML Belgelerini Dönüştürmeden Herhangi Bir Biçime Dönüştürün",
+    "content27": "Dosya Dönüştürme İlerleme Durumunu (Başlangıç, Bitiş) Doğrudan İstemci Tarafı Uygulamasından İzleyin",
+    "more_feature": {
+      "title1": "Belge Formatlarını Kolayca Dönüştürün",
+      "content1": "{{ProductFullName}} kullanarak belge dosya biçimini dönüştürmek çok kolaydır. Aşağıdaki örnek, {{ProgLang}} kullanarak bir PDF dosyasını nasıl DOC dosyasına dönüştüreceğinizi gösterir:",
+      "step_1": "Converter sınıfının bir örneğini oluşturun ve dosyaya tam yolu sağlayın",
+      "step_2": "İstenen hedef türü için ConvertOptions oluşturun ve ayarlayın.",
+      "step_3": "Converter.Convert yöntemini çağırın ve tam yolu ve formatı parametre olarak iletin",
+      "title2": "Görüntü Formatlarına Dönüştürme",
+      "content2": "{{ProductFullName}}, .NET platformunu hedefleyen herhangi bir geliştirme ortamında uygulama geliştirmek için kullanılabilir. Tüm .NET tabanlı dillerle uyumludur ve Mono veya .NET çerçevelerinin (.NET Core dahil) kurulabileceği popüler işletim sistemlerini (Windows, Linux, MacOS) destekler.",
+      "title3": "Çeşitli PDF Format Türlerini destekler",
+      "content3": "{{ProductFullName}} API, aşağıdaki PDF türlerine/formatlarına belge dönüştürmeyi destekler:"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion, diğer popüler geliştirme ortamları için belge dönüştürme API'leri sunar",
+    "solution": {
+      "img_alt": "Java için GroupDocs.Conversion",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
+      "platform": "Java",
+      "link": "/dönüşüm/java/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Dönüştürme için {{FROM}} kaynak dosyasını yükleyin",
+      "prepare_comment": "{{TO}} hedef biçimi için dönüşüm seçenekleri hazırlayın",
+      "convert_comment": "{{TO}} biçimine dönüştürün"
+    }
+  }
+}

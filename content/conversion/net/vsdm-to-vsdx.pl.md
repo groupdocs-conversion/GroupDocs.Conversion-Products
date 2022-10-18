@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:56
+date: 2022-10-18T18:43:35
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
-breadcrumb: {{OD}} do VSDX w C#
+breadcrumb: VSDM do VSDX w C#
 
 ############################# Head ############################
 head_title: "Konwerter VSDM na VSDX w C#"
 head_description: "Konwertuj VSDM na VSDX w .NET, używając kilku linijek kodu. Użyj interfejsu API konwersji dokumentów GroupDocs, aby przekonwertować ponad 160 formatów plików."
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na VSDX w C#"
+title: "Konwertuj VSDM na VSDX w C#"
 description: "Konwersja VSDM do VSDX z kilkoma linijkami kodu .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -42,7 +42,7 @@ overview:
     enable: true
     content: |
         Łatwo przekonwertuj swoje pliki VSDM na VSDX w .NET. Możesz użyć tylko kilku linii kodu C# na dowolnej wybranej platformie, takiej jak Windows, Linux, macOS.
-        Możesz wypróbować konwersję {{OD}} do VSDX za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku VSDX. 
+        Możesz wypróbować konwersję VSDM do VSDX za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku VSDX. 
         
         Na przykład dla pliku źródłowego VSDM możesz użyć następujących opcji ładowania:
 
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do VSDX demonstracji na żywo"
+    title: "VSDM do VSDX demonstracji na żywo"
     content: |
        Konwertuj VSDM na VSDX teraz, odwiedzając witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Demo online ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w C#"
+    title: "Inne obsługiwane konwersje VSDM w C#"
     content: "Możesz także przekonwertować VSDM na wiele innych formatów plików. Zobacz poniższą listę."
        
        

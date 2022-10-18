@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:51
+date: 2022-10-18T18:43:30
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: {{OD}} do DOCM w C#
+breadcrumb: DOC do DOCM w C#
 
 ############################# Head ############################
 head_title: "Konwerter DOC na DOCM w C#"
 head_description: "Konwertuj DOC na DOCM w .NET, używając kilku linijek kodu. Użyj interfejsu API konwersji dokumentów GroupDocs, aby przekonwertować ponad 160 formatów plików."
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na DOCM w C#"
+title: "Konwertuj DOC na DOCM w C#"
 description: "Konwersja DOC do DOCM z kilkoma linijkami kodu .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -42,7 +42,7 @@ overview:
     enable: true
     content: |
         Łatwo przekonwertuj swoje pliki DOC na DOCM w .NET. Możesz użyć tylko kilku linii kodu C# na dowolnej wybranej platformie, takiej jak Windows, Linux, macOS.
-        Możesz wypróbować konwersję {{OD}} do DOCM za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku DOCM. 
+        Możesz wypróbować konwersję DOC do DOCM za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku DOCM. 
         
         Na przykład dla pliku źródłowego DOC możesz użyć następujących opcji ładowania:
 
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do DOCM demonstracji na żywo"
+    title: "DOC do DOCM demonstracji na żywo"
     content: |
        Konwertuj DOC na DOCM teraz, odwiedzając witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Demo online ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w C#"
+    title: "Inne obsługiwane konwersje DOC w C#"
     content: "Możesz także przekonwertować DOC na wiele innych formatów plików. Zobacz poniższą listę."
        
        

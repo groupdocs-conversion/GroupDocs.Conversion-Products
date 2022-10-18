@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:00
+date: 2022-10-18T18:43:41
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: {{OD}} do WEBP w Java
+breadcrumb: JP2 do WEBP w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na WEBP w Java"
+head_title: "Konwertuj JP2 na WEBP w Java"
 head_description: "Konwersja JP2 na WEBP w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na WEBP w Java"
+title: "Konwertuj JP2 na WEBP w Java"
 description: "Konwersja JP2 do WEBP z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do WEBP demonstracji na żywo"
+    title: "JP2 do WEBP demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję JP2 na WEBP. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje JP2 w Java"
     content: "Możesz także przekonwertować JP2 na wiele innych formatów plików. Zobacz poniższą listę."
        
        

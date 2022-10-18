@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:58
+date: 2022-10-18T18:43:39
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: {{OD}} do DOTX w Java
+breadcrumb: DOCX do DOTX w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na DOTX w Java"
+head_title: "Konwertuj DOCX na DOTX w Java"
 head_description: "Konwersja DOCX na DOTX w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na DOTX w Java"
+title: "Konwertuj DOCX na DOTX w Java"
 description: "Konwersja DOCX do DOTX z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do DOTX demonstracji na żywo"
+    title: "DOCX do DOTX demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję DOCX na DOTX. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje DOCX w Java"
     content: "Możesz także przekonwertować DOCX na wiele innych formatów plików. Zobacz poniższą listę."
        
        

@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:54
+date: 2022-10-18T18:43:33
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: {{OD}} do TXT w C#
+breadcrumb: ODP do TXT w C#
 
 ############################# Head ############################
 head_title: "Konwerter ODP na TXT w C#"
 head_description: "Konwertuj ODP na TXT w .NET, używając kilku linijek kodu. Użyj interfejsu API konwersji dokumentów GroupDocs, aby przekonwertować ponad 160 formatów plików."
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na TXT w C#"
+title: "Konwertuj ODP na TXT w C#"
 description: "Konwersja ODP do TXT z kilkoma linijkami kodu .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -42,7 +42,7 @@ overview:
     enable: true
     content: |
         Łatwo przekonwertuj swoje pliki ODP na TXT w .NET. Możesz użyć tylko kilku linii kodu C# na dowolnej wybranej platformie, takiej jak Windows, Linux, macOS.
-        Możesz wypróbować konwersję {{OD}} do TXT za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku TXT. 
+        Możesz wypróbować konwersję ODP do TXT za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku TXT. 
         
         Na przykład dla pliku źródłowego ODP możesz użyć następujących opcji ładowania:
 
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do TXT demonstracji na żywo"
+    title: "ODP do TXT demonstracji na żywo"
     content: |
        Konwertuj ODP na TXT teraz, odwiedzając witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Demo online ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w C#"
+    title: "Inne obsługiwane konwersje ODP w C#"
     content: "Możesz także przekonwertować ODP na wiele innych formatów plików. Zobacz poniższą listę."
        
        

@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:58
+date: 2022-10-18T18:43:39
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: {{OD}} do DOCM w Java
+breadcrumb: DWF do DOCM w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na DOCM w Java"
+head_title: "Konwertuj DWF na DOCM w Java"
 head_description: "Konwersja DWF na DOCM w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na DOCM w Java"
+title: "Konwertuj DWF na DOCM w Java"
 description: "Konwersja DWF do DOCM z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do DOCM demonstracji na żywo"
+    title: "DWF do DOCM demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję DWF na DOCM. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje DWF w Java"
     content: "Możesz także przekonwertować DWF na wiele innych formatów plików. Zobacz poniższą listę."
        
        

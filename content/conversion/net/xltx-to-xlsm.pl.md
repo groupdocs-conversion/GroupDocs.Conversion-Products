@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:57
+date: 2022-10-18T18:43:38
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: {{OD}} do XLSM w C#
+breadcrumb: XLTX do XLSM w C#
 
 ############################# Head ############################
 head_title: "Konwerter XLTX na XLSM w C#"
 head_description: "Konwertuj XLTX na XLSM w .NET, używając kilku linijek kodu. Użyj interfejsu API konwersji dokumentów GroupDocs, aby przekonwertować ponad 160 formatów plików."
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na XLSM w C#"
+title: "Konwertuj XLTX na XLSM w C#"
 description: "Konwersja XLTX do XLSM z kilkoma linijkami kodu .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -42,7 +42,7 @@ overview:
     enable: true
     content: |
         Łatwo przekonwertuj swoje pliki XLTX na XLSM w .NET. Możesz użyć tylko kilku linii kodu C# na dowolnej wybranej platformie, takiej jak Windows, Linux, macOS.
-        Możesz wypróbować konwersję {{OD}} do XLSM za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku XLSM. 
+        Możesz wypróbować konwersję XLTX do XLSM za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku XLSM. 
         
         Na przykład dla pliku źródłowego XLTX możesz użyć następujących opcji ładowania:
 
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do XLSM demonstracji na żywo"
+    title: "XLTX do XLSM demonstracji na żywo"
     content: |
        Konwertuj XLTX na XLSM teraz, odwiedzając witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Demo online ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w C#"
+    title: "Inne obsługiwane konwersje XLTX w C#"
     content: "Możesz także przekonwertować XLTX na wiele innych formatów plików. Zobacz poniższą listę."
        
        

@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:00
+date: 2022-10-18T18:43:41
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: {{OD}} do GIF w Java
+breadcrumb: LOG do GIF w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na GIF w Java"
+head_title: "Konwertuj LOG na GIF w Java"
 head_description: "Konwersja LOG na GIF w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na GIF w Java"
+title: "Konwertuj LOG na GIF w Java"
 description: "Konwersja LOG do GIF z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do GIF demonstracji na żywo"
+    title: "LOG do GIF demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję LOG na GIF. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje LOG w Java"
     content: "Możesz także przekonwertować LOG na wiele innych formatów plików. Zobacz poniższą listę."
        
        

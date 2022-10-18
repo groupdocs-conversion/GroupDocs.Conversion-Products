@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:00
+date: 2022-10-18T18:43:41
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: {{OD}} do POT w Java
+breadcrumb: IGS do POT w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na POT w Java"
+head_title: "Konwertuj IGS na POT w Java"
 head_description: "Konwersja IGS na POT w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na POT w Java"
+title: "Konwertuj IGS na POT w Java"
 description: "Konwersja IGS do POT z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do POT demonstracji na żywo"
+    title: "IGS do POT demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję IGS na POT. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje IGS w Java"
     content: "Możesz także przekonwertować IGS na wiele innych formatów plików. Zobacz poniższą listę."
        
        

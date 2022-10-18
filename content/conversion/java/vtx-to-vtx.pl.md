@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:04
+date: 2022-10-18T18:43:46
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
-breadcrumb: {{OD}} do VTX w Java
+breadcrumb: VTX do VTX w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na VTX w Java"
+head_title: "Konwertuj VTX na VTX w Java"
 head_description: "Konwersja VTX na VTX w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na VTX w Java"
+title: "Konwertuj VTX na VTX w Java"
 description: "Konwersja VTX do VTX z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do VTX demonstracji na żywo"
+    title: "VTX do VTX demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję VTX na VTX. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje VTX w Java"
     content: "Możesz także przekonwertować VTX na wiele innych formatów plików. Zobacz poniższą listę."
        
        

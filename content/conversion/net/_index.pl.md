@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-10-18T17:59:54
+date: 2022-10-18T18:39:35
 draft: false
 
 product: "Conversion"
@@ -341,8 +341,8 @@ solutions:
         - img_alt: "GroupDocs.Conversion dla Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
           product: "GroupDocs.Conversion"
-          platform: "Jawa"
-          link: "/konwersja/java/"
+          platform: "Java"
+          link: "/conversion/java/"
 
 ############################# Back to top ###############################
 back_to_top:

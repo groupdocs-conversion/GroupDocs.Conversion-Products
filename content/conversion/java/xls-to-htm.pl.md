@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:04
+date: 2022-10-18T18:43:46
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: {{OD}} do HTM w Java
+breadcrumb: XLS do HTM w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na HTM w Java"
+head_title: "Konwertuj XLS na HTM w Java"
 head_description: "Konwersja XLS na HTM w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na HTM w Java"
+title: "Konwertuj XLS na HTM w Java"
 description: "Konwersja XLS do HTM z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do HTM demonstracji na żywo"
+    title: "XLS do HTM demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję XLS na HTM. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje XLS w Java"
     content: "Możesz także przekonwertować XLS na wiele innych formatów plików. Zobacz poniższą listę."
        
        

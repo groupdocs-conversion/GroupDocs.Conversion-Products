@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:04
+date: 2022-10-18T18:43:46
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: {{OD}} do ODS w Java
+breadcrumb: XLSB do ODS w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na ODS w Java"
+head_title: "Konwertuj XLSB na ODS w Java"
 head_description: "Konwersja XLSB na ODS w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na ODS w Java"
+title: "Konwertuj XLSB na ODS w Java"
 description: "Konwersja XLSB do ODS z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do ODS demonstracji na żywo"
+    title: "XLSB do ODS demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję XLSB na ODS. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje XLSB w Java"
     content: "Możesz także przekonwertować XLSB na wiele innych formatów plików. Zobacz poniższą listę."
        
        

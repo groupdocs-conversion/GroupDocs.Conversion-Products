@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:03
+date: 2022-10-18T18:43:45
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: {{OD}} do MHT w Java
+breadcrumb: VCF do MHT w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na MHT w Java"
+head_title: "Konwertuj VCF na MHT w Java"
 head_description: "Konwersja VCF na MHT w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na MHT w Java"
+title: "Konwertuj VCF na MHT w Java"
 description: "Konwersja VCF do MHT z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do MHT demonstracji na żywo"
+    title: "VCF do MHT demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję VCF na MHT. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje VCF w Java"
     content: "Możesz także przekonwertować VCF na wiele innych formatów plików. Zobacz poniższą listę."
        
        

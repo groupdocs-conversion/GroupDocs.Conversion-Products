@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:01
+date: 2022-10-18T18:43:43
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: {{OD}} do PNG w Java
+breadcrumb: OXPS do PNG w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na PNG w Java"
+head_title: "Konwertuj OXPS na PNG w Java"
 head_description: "Konwersja OXPS na PNG w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na PNG w Java"
+title: "Konwertuj OXPS na PNG w Java"
 description: "Konwersja OXPS do PNG z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do PNG demonstracji na żywo"
+    title: "OXPS do PNG demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję OXPS na PNG. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje OXPS w Java"
     content: "Możesz także przekonwertować OXPS na wiele innych formatów plików. Zobacz poniższą listę."
        
        

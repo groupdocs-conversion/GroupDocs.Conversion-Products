@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:52
+date: 2022-10-18T18:43:30
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: {{OD}} do WMF w C#
+breadcrumb: EMF do WMF w C#
 
 ############################# Head ############################
 head_title: "Konwerter EMF na WMF w C#"
 head_description: "Konwertuj EMF na WMF w .NET, używając kilku linijek kodu. Użyj interfejsu API konwersji dokumentów GroupDocs, aby przekonwertować ponad 160 formatów plików."
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na WMF w C#"
+title: "Konwertuj EMF na WMF w C#"
 description: "Konwersja EMF do WMF z kilkoma linijkami kodu .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -42,7 +42,7 @@ overview:
     enable: true
     content: |
         Łatwo przekonwertuj swoje pliki EMF na WMF w .NET. Możesz użyć tylko kilku linii kodu C# na dowolnej wybranej platformie, takiej jak Windows, Linux, macOS.
-        Możesz wypróbować konwersję {{OD}} do WMF za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku WMF. 
+        Możesz wypróbować konwersję EMF do WMF za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku WMF. 
         
         Na przykład dla pliku źródłowego EMF możesz użyć następujących opcji ładowania:
 
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do WMF demonstracji na żywo"
+    title: "EMF do WMF demonstracji na żywo"
     content: |
        Konwertuj EMF na WMF teraz, odwiedzając witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Demo online ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w C#"
+    title: "Inne obsługiwane konwersje EMF w C#"
     content: "Możesz także przekonwertować EMF na wiele innych formatów plików. Zobacz poniższą listę."
        
        

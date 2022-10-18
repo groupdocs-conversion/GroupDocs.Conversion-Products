@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:02
+date: 2022-10-18T18:43:44
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: {{OD}} do JPG w Java
+breadcrumb: PPSM do JPG w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na JPG w Java"
+head_title: "Konwertuj PPSM na JPG w Java"
 head_description: "Konwersja PPSM na JPG w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na JPG w Java"
+title: "Konwertuj PPSM na JPG w Java"
 description: "Konwersja PPSM do JPG z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do JPG demonstracji na żywo"
+    title: "PPSM do JPG demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję PPSM na JPG. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje PPSM w Java"
     content: "Możesz także przekonwertować PPSM na wiele innych formatów plików. Zobacz poniższą listę."
        
        

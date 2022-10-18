@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:02
+date: 2022-10-18T18:43:44
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: {{OD}} do WMZ w Java
+breadcrumb: SVG do WMZ w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na WMZ w Java"
+head_title: "Konwertuj SVG na WMZ w Java"
 head_description: "Konwersja SVG na WMZ w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na WMZ w Java"
+title: "Konwertuj SVG na WMZ w Java"
 description: "Konwersja SVG do WMZ z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do WMZ demonstracji na żywo"
+    title: "SVG do WMZ demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję SVG na WMZ. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje SVG w Java"
     content: "Możesz także przekonwertować SVG na wiele innych formatów plików. Zobacz poniższą listę."
        
        

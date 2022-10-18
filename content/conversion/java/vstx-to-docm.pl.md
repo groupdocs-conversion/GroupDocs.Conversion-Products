@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:04
+date: 2022-10-18T18:43:46
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
-breadcrumb: {{OD}} do DOCM w Java
+breadcrumb: VSTX do DOCM w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na DOCM w Java"
+head_title: "Konwertuj VSTX na DOCM w Java"
 head_description: "Konwersja VSTX na DOCM w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na DOCM w Java"
+title: "Konwertuj VSTX na DOCM w Java"
 description: "Konwersja VSTX do DOCM z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do DOCM demonstracji na żywo"
+    title: "VSTX do DOCM demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję VSTX na DOCM. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje VSTX w Java"
     content: "Możesz także przekonwertować VSTX na wiele innych formatów plików. Zobacz poniższą listę."
        
        

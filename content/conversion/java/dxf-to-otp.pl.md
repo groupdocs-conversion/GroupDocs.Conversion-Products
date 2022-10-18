@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:59
+date: 2022-10-18T18:43:40
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: {{OD}} do OTP w Java
+breadcrumb: DXF do OTP w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na OTP w Java"
+head_title: "Konwertuj DXF na OTP w Java"
 head_description: "Konwersja DXF na OTP w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na OTP w Java"
+title: "Konwertuj DXF na OTP w Java"
 description: "Konwersja DXF do OTP z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do OTP demonstracji na żywo"
+    title: "DXF do OTP demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję DXF na OTP. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje DXF w Java"
     content: "Możesz także przekonwertować DXF na wiele innych formatów plików. Zobacz poniższą listę."
        
        

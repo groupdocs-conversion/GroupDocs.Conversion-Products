@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:04
+date: 2022-10-18T18:43:47
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: {{OD}} do TEX w Java
+breadcrumb: XLTM do TEX w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na TEX w Java"
+head_title: "Konwertuj XLTM na TEX w Java"
 head_description: "Konwersja XLTM na TEX w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na TEX w Java"
+title: "Konwertuj XLTM na TEX w Java"
 description: "Konwersja XLTM do TEX z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do TEX demonstracji na żywo"
+    title: "XLTM do TEX demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję XLTM na TEX. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje XLTM w Java"
     content: "Możesz także przekonwertować XLTM na wiele innych formatów plików. Zobacz poniższą listę."
        
        

@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:01
+date: 2022-10-18T18:43:42
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: {{OD}} do OTT w Java
+breadcrumb: ODP do OTT w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na OTT w Java"
+head_title: "Konwertuj ODP na OTT w Java"
 head_description: "Konwersja ODP na OTT w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na OTT w Java"
+title: "Konwertuj ODP na OTT w Java"
 description: "Konwersja ODP do OTT z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do OTT demonstracji na żywo"
+    title: "ODP do OTT demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję ODP na OTT. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje ODP w Java"
     content: "Możesz także przekonwertować ODP na wiele innych formatów plików. Zobacz poniższą listę."
        
        

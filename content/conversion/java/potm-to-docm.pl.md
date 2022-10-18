@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:02
+date: 2022-10-18T18:43:43
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: {{OD}} do DOCM w Java
+breadcrumb: POTM do DOCM w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na DOCM w Java"
+head_title: "Konwertuj POTM na DOCM w Java"
 head_description: "Konwersja POTM na DOCM w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na DOCM w Java"
+title: "Konwertuj POTM na DOCM w Java"
 description: "Konwersja POTM do DOCM z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do DOCM demonstracji na żywo"
+    title: "POTM do DOCM demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję POTM na DOCM. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje POTM w Java"
     content: "Możesz także przekonwertować POTM na wiele innych formatów plików. Zobacz poniższą listę."
        
        

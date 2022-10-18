@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:02
+date: 2022-10-18T18:43:44
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: {{OD}} do DCM w Java
+breadcrumb: PSD do DCM w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na DCM w Java"
+head_title: "Konwertuj PSD na DCM w Java"
 head_description: "Konwersja PSD na DCM w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na DCM w Java"
+title: "Konwertuj PSD na DCM w Java"
 description: "Konwersja PSD do DCM z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do DCM demonstracji na żywo"
+    title: "PSD do DCM demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję PSD na DCM. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje PSD w Java"
     content: "Możesz także przekonwertować PSD na wiele innych formatów plików. Zobacz poniższą listę."
        
        

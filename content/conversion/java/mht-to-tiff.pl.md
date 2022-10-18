@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:00
+date: 2022-10-18T18:43:42
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: {{OD}} do TIFF w Java
+breadcrumb: MHT do TIFF w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na TIFF w Java"
+head_title: "Konwertuj MHT na TIFF w Java"
 head_description: "Konwersja MHT na TIFF w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na TIFF w Java"
+title: "Konwertuj MHT na TIFF w Java"
 description: "Konwersja MHT do TIFF z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do TIFF demonstracji na żywo"
+    title: "MHT do TIFF demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję MHT na TIFF. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje MHT w Java"
     content: "Możesz także przekonwertować MHT na wiele innych formatów plików. Zobacz poniższą listę."
        
        

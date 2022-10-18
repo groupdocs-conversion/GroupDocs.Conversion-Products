@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:03
+date: 2022-10-18T18:43:45
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
-breadcrumb: {{OD}} do RTF w Java
+breadcrumb: VSD do RTF w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na RTF w Java"
+head_title: "Konwertuj VSD na RTF w Java"
 head_description: "Konwersja VSD na RTF w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na RTF w Java"
+title: "Konwertuj VSD na RTF w Java"
 description: "Konwersja VSD do RTF z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do RTF demonstracji na żywo"
+    title: "VSD do RTF demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję VSD na RTF. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje VSD w Java"
     content: "Możesz także przekonwertować VSD na wiele innych formatów plików. Zobacz poniższą listę."
        
        

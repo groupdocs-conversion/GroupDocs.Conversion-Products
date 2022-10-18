@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:57
+date: 2022-10-18T18:43:38
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: {{OD}} do XLAM w C#
+breadcrumb: XLTM do XLAM w C#
 
 ############################# Head ############################
 head_title: "Konwerter XLTM na XLAM w C#"
 head_description: "Konwertuj XLTM na XLAM w .NET, używając kilku linijek kodu. Użyj interfejsu API konwersji dokumentów GroupDocs, aby przekonwertować ponad 160 formatów plików."
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na XLAM w C#"
+title: "Konwertuj XLTM na XLAM w C#"
 description: "Konwersja XLTM do XLAM z kilkoma linijkami kodu .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -42,7 +42,7 @@ overview:
     enable: true
     content: |
         Łatwo przekonwertuj swoje pliki XLTM na XLAM w .NET. Możesz użyć tylko kilku linii kodu C# na dowolnej wybranej platformie, takiej jak Windows, Linux, macOS.
-        Możesz wypróbować konwersję {{OD}} do XLAM za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku XLAM. 
+        Możesz wypróbować konwersję XLTM do XLAM za darmo i ocenić jakość wyników konwersji. Oprócz prostych scenariuszy konwersji plików możesz wypróbować bardziej zaawansowane opcje ładowania źródłowego pliku {{Z}} i zapisywania wyjściowego wyniku XLAM. 
         
         Na przykład dla pliku źródłowego XLTM możesz użyć następujących opcji ładowania:
 
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do XLAM demonstracji na żywo"
+    title: "XLTM do XLAM demonstracji na żywo"
     content: |
        Konwertuj XLTM na XLAM teraz, odwiedzając witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Demo online ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w C#"
+    title: "Inne obsługiwane konwersje XLTM w C#"
     content: "Możesz także przekonwertować XLTM na wiele innych formatów plików. Zobacz poniższą listę."
        
        

@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:05
+date: 2022-10-18T18:43:47
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: {{OD}} do PDF w Java
+breadcrumb: XPS do PDF w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na PDF w Java"
+head_title: "Konwertuj XPS na PDF w Java"
 head_description: "Konwersja XPS na PDF w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na PDF w Java"
+title: "Konwertuj XPS na PDF w Java"
 description: "Konwersja XPS do PDF z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do PDF demonstracji na żywo"
+    title: "XPS do PDF demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję XPS na PDF. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje XPS w Java"
     content: "Możesz także przekonwertować XPS na wiele innych formatów plików. Zobacz poniższą listę."
        
        

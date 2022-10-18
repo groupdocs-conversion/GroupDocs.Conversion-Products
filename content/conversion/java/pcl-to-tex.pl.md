@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:01
+date: 2022-10-18T18:43:43
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: {{OD}} do TEX w Java
+breadcrumb: PCL do TEX w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na TEX w Java"
+head_title: "Konwertuj PCL na TEX w Java"
 head_description: "Konwersja PCL na TEX w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na TEX w Java"
+title: "Konwertuj PCL na TEX w Java"
 description: "Konwersja PCL do TEX z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do TEX demonstracji na żywo"
+    title: "PCL do TEX demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję PCL na TEX. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje PCL w Java"
     content: "Możesz także przekonwertować PCL na wiele innych formatów plików. Zobacz poniższą listę."
        
        

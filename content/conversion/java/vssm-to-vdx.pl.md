@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:03
+date: 2022-10-18T18:43:45
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
-breadcrumb: {{OD}} do VDX w Java
+breadcrumb: VSSM do VDX w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na VDX w Java"
+head_title: "Konwertuj VSSM na VDX w Java"
 head_description: "Konwersja VSSM na VDX w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na VDX w Java"
+title: "Konwertuj VSSM na VDX w Java"
 description: "Konwersja VSSM do VDX z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do VDX demonstracji na żywo"
+    title: "VSSM do VDX demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję VSSM na VDX. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje VSSM w Java"
     content: "Możesz także przekonwertować VSSM na wiele innych formatów plików. Zobacz poniższą listę."
        
        

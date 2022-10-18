@@ -141,8 +141,8 @@
     "solution": {
       "img_alt": "GroupDocs.Conversion dla .NET",
       "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
-      "platform": ".INTERNET",
-      "link": "/konwersja/sieć/"
+      "platform": ".NET",
+      "link": "/conversion/net/"
     }
   },
   "steps": {

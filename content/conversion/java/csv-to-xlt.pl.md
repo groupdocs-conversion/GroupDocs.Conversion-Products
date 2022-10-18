@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:58
+date: 2022-10-18T18:43:39
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: {{OD}} do XLT w Java
+breadcrumb: CSV do XLT w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na XLT w Java"
+head_title: "Konwertuj CSV na XLT w Java"
 head_description: "Konwersja CSV na XLT w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na XLT w Java"
+title: "Konwertuj CSV na XLT w Java"
 description: "Konwersja CSV do XLT z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do XLT demonstracji na żywo"
+    title: "CSV do XLT demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję CSV na XLT. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje CSV w Java"
     content: "Możesz także przekonwertować CSV na wiele innych formatów plików. Zobacz poniższą listę."
        
        

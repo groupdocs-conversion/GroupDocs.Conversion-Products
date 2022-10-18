@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:03
+date: 2022-10-18T18:43:45
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
-breadcrumb: {{OD}} do ODT w Java
+breadcrumb: VSSX do ODT w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na ODT w Java"
+head_title: "Konwertuj VSSX na ODT w Java"
 head_description: "Konwersja VSSX na ODT w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na ODT w Java"
+title: "Konwertuj VSSX na ODT w Java"
 description: "Konwersja VSSX do ODT z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do ODT demonstracji na żywo"
+    title: "VSSX do ODT demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję VSSX na ODT. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje VSSX w Java"
     content: "Możesz także przekonwertować VSSX na wiele innych formatów plików. Zobacz poniższą listę."
        
        

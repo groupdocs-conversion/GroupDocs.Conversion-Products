@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:01
+date: 2022-10-18T18:43:42
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: {{OD}} do ICO w Java
+breadcrumb: MSG do ICO w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na ICO w Java"
+head_title: "Konwertuj MSG na ICO w Java"
 head_description: "Konwersja MSG na ICO w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na ICO w Java"
+title: "Konwertuj MSG na ICO w Java"
 description: "Konwersja MSG do ICO z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do ICO demonstracji na żywo"
+    title: "MSG do ICO demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję MSG na ICO. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje MSG w Java"
     content: "Możesz także przekonwertować MSG na wiele innych formatów plików. Zobacz poniższą listę."
        
        

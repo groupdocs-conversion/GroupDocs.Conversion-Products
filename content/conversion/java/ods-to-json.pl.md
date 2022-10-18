@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:01
+date: 2022-10-18T18:43:42
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: {{OD}} do JSON w Java
+breadcrumb: ODS do JSON w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na JSON w Java"
+head_title: "Konwertuj ODS na JSON w Java"
 head_description: "Konwersja ODS na JSON w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na JSON w Java"
+title: "Konwertuj ODS na JSON w Java"
 description: "Konwersja ODS do JSON z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do JSON demonstracji na żywo"
+    title: "ODS do JSON demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję ODS na JSON. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje ODS w Java"
     content: "Możesz także przekonwertować ODS na wiele innych formatów plików. Zobacz poniższą listę."
        
        

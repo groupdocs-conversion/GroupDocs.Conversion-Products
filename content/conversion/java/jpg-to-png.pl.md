@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:00
+date: 2022-10-18T18:43:41
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: {{OD}} do PNG w Java
+breadcrumb: JPG do PNG w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na PNG w Java"
+head_title: "Konwertuj JPG na PNG w Java"
 head_description: "Konwersja JPG na PNG w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na PNG w Java"
+title: "Konwertuj JPG na PNG w Java"
 description: "Konwersja JPG do PNG z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do PNG demonstracji na żywo"
+    title: "JPG do PNG demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję JPG na PNG. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje JPG w Java"
     content: "Możesz także przekonwertować JPG na wiele innych formatów plików. Zobacz poniższą listę."
        
        

@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:02:59
+date: 2022-10-18T18:43:40
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: {{OD}} do DOT w Java
+breadcrumb: DWG do DOT w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na DOT w Java"
+head_title: "Konwertuj DWG na DOT w Java"
 head_description: "Konwersja DWG na DOT w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na DOT w Java"
+title: "Konwertuj DWG na DOT w Java"
 description: "Konwersja DWG do DOT z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do DOT demonstracji na żywo"
+    title: "DWG do DOT demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję DWG na DOT. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje DWG w Java"
     content: "Możesz także przekonwertować DWG na wiele innych formatów plików. Zobacz poniższą listę."
        
        

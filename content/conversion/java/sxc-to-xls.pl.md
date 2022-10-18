@@ -1,17 +1,17 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-10-18T18:03:03
+date: 2022-10-18T18:43:45
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: {{OD}} do XLS w Java
+breadcrumb: SXC do XLS w Java
 
 ############################# Head ############################
-head_title: "Konwertuj {{OD}} na XLS w Java"
+head_title: "Konwertuj SXC na XLS w Java"
 head_description: "Konwersja SXC na XLS w Java z kilkoma linijkami kodu. Konwertuj ponad 160 formatów plików za pomocą interfejsu API konwersji dokumentów GroupDocs dla Java"
 
 ############################# Header ############################
-title: "Konwertuj {{OD}} na XLS w Java"
+title: "Konwertuj SXC na XLS w Java"
 description: "Konwersja SXC do XLS z kilkoma linijkami kodu Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -90,14 +90,14 @@ steps:
 
 demos:
     enable: true
-    title: "{{OD}} do XLS demonstracji na żywo"
+    title: "SXC do XLS demonstracji na żywo"
     content: |
        Odwiedź naszą witrynę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i wypróbuj teraz konwersję SXC na XLS. Darmowe demo ma następujące zalety
           
 
 more_formats:
     enable: true
-    title: "Inne obsługiwane konwersje {{OD}} w Java"
+    title: "Inne obsługiwane konwersje SXC w Java"
     content: "Możesz także przekonwertować SXC na wiele innych formatów plików. Zobacz poniższą listę."
        
        

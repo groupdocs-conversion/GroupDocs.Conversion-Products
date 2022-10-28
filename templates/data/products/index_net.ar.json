@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} واجهة برمجة تطبيقات تحويل مستند .NET | تحويل صور PDF Word Excel PPTX HTML",
+    "description": "{{ProgLang}} .NET Document Conversion API. تحويل ملفات PDF Word DOC DOCX و Excel Spreadsheets PPT PPTX و HTML و PSD و MPT MPP والبريد الإلكتروني MSG EMLX و AutoCAD وتنسيقات ملفات الصور."
+  },
+  "header": {
+    "title": "NET API لتحويل 80+ تنسيقات الملفات",
+    "description": "واجهة برمجة تطبيقات بسيطة لدمج وظائف تحويل المستندات والصور في تطبيقات .NET دون تثبيت أي برامج خارجية.",
+    "button": {
+      "label": "تحميل النسخة التجريبية المجانية",
+      "link": "https://downloads.groupdocs.com/conversion/net"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "ملخص"
+      },
+      "button2": {
+        "text": "سمات"
+      },
+      "button3": {
+        "text": "الدعم"
+      },
+      "button4": {
+        "text": "عرض حي"
+      },
+      "button5": {
+        "text": "التسعير"
+      }
+    }
+  },
+  "overview": {
+    "content1": "يقدم {{ProductFullName}} مجموعة بسيطة من واجهات برمجة التطبيقات ، مما يتيح للمطورين إنشاء تطبيقات تحويل مستندات قوية في {{ProgLang}} و ASP.NET والتقنيات الأخرى ذات الصلة بـ .NET. توفر واجهة برمجة تطبيقات {{ProductFullName}} للمستخدمين النهائيين حلاً سريعًا وفعالاً وموثوقًا به لتحويل الملفات. وهو يدعم إجراء تحويلات دقيقة بين جميع تنسيقات مستندات الأعمال الشائعة بما في ذلك: PDF و HTML والبريد الإلكتروني ومستندات Microsoft Word وجداول بيانات Excel وعروض PowerPoint التقديمية والمشروع و Photoshop و CorelDraw و AutoCAD والرسوم البيانية وتنسيقات ملفات الصور النقطية وغيرها الكثير. تكتشف مكتبة محول المستندات تلقائيًا تنسيق المستند المصدر وتمنحك كل التحكم لتحويل المستند بأكمله أو صفحات معينة إلى تنسيق الإخراج المطلوب. من الأسهل استبدال الخطوط المفقودة بالخطوط المفضلة وإضافة نص أو علامات مائية للصور إلى أي صفحة مستند.",
+    "content2": "يمكن استخدام {{ProductFullName}} لتطوير التطبيقات في أي بيئة تطوير تستهدف منصة .NET. وهو متوافق مع جميع اللغات المستندة إلى .NET ويدعم أنظمة التشغيل الشائعة (Windows و Linux و MacOS) حيث يمكن تثبيت أطر عمل Mono أو .NET (بما في ذلك .NET Core).",
+    "tab_one": {
+      "description": "فيما يلي نظرة عامة على {{ProductFullName}}:",
+      "right": {
+        "title": "ملخص",
+        "content1": "* الكشف التلقائي عن نوع الملف",
+        "content2": "* تحويل المستندات",
+        "content3": "* تحويل العروض التقديمية",
+        "content4": "* تحويل جداول البيانات",
+        "content5": "* تحويل الصور النقطية",
+        "content6": "* تحويل مستندات PDF",
+        "content7": "* تحويل تنسيقات أخرى",
+        "content8": "* تطبيق العلامة المائية",
+        "content9": "* تحديد كلمة مرور الملف",
+        "content10": "* تخصيص التحويل"
+      }
+    },
+    "tab_two": {
+      "description": "يدعم {{ProductFullName}} التحويل بين جميع [تنسيقات ملفات المستندات] الشائعة والمستخدمة بشكل شائع (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
+      "left": {
+        "title": "تحويل من:",
+        "content1": "* ** المستندات **: DOC، DOCX، DOCM، DOT، DOTX، DOTM، RTF، TXT، ODT، OTT",
+        "content2": "* ** جداول البيانات **: XLS و XLSX و XLSM و XLSB و CSV و XLS2003 و ODS و TSV و XLT و XLTX و XLTM و XLAM و FODS و SXC",
+        "content3": "* ** العروض التقديمية **: PPT، PPTX، PPS، PPSX، ODP، POT، POTX، POTM، PPTM، PPSM، FODP",
+        "content4": "* ** الصور **: TIF و TIFF و JPG و JPEG و PNG و GIF و BMP و ICO و DIB و JPC و JPEG-LS و JPEG2000",
+        "content5": "* ** محمول **: PDF ، XPS ، OXPS ، EPUB",
+        "content6": "* ** HTML **: HTM ، HTML ، MHTML",
+        "content7": "* ** ملفات التعريف **: EMZ ، WMZ",
+        "content8": "* ** فوتوشوب **: PSD",
+        "content9": "* ** المشروع **: MPP، MPT، MPX",
+        "content10": "* ** Outlook **: PST، OST",
+        "content11": "* ** البريد الإلكتروني **: MSG، EML، EMLX",
+        "content12": "* ** الرسوم البيانية **: VSD ، VSDX ، VSDM ، VSS ، VSSM ، VST ، VSTM ، VSX ، VTX ، VDW ، VDX ، SVG ، SVGZ",
+        "content13": "* ** أوتوكاد **: DXF ، DWG ، DWF ، STL ، IFC ، DWT",
+        "content14": "* ** بوستسكريبت **: EPS ، PS ، PSL ، CGM",
+        "content15": "* ** CorelDRAW **: CDR، CMX",
+        "content16": "* ** أخرى **: VCF، PLT، LGS، OTG، MD، AI، LOG"
+      },
+      "right": {
+        "title": "حول الى:",
+        "content1": "* ** المستندات **: DOC، DOCX، DOCM، DOT، DOTX، DOTM، RTF، TXT، ODT، OTT",
+        "content2": "* ** جداول البيانات **: XLS و XLSX و XLSM و XLSB و CSV و XLS2003 و TSV و XLTX و ODS و XLAM و FODS و DIF و SXC",
+        "content3": "* ** العروض التقديمية **: PPT، PPTX، PPS، PPSX، ODP، POTX، POTM، PPTM، PPSM، FODP",
+        "content4": "* ** الصور **: TIF، TIFF، JPG، JPEG، PNG، GIF، BMP، ICO، JPEG2000",
+        "content5": "* ** ملفات التعريف **: EMF، WMF، EMZ، WMZ",
+        "content6": "* ** الرسوم البيانية **: SVGZ",
+        "content7": "* ** محمول **: PDF ، XPS",
+        "content8": "* ** HTML **: HTM ، HTML ، MHTML",
+        "content9": "* ** أخرى **: MD"
+      }
+    },
+    "tab_three": {
+      "description": "يدعم {{ProductFullName}} أنظمة التشغيل والأطر ومديري الحزم التالية:",
+      "left": {
+        "title1": "أنظمة التشغيل",
+        "title2": "الأطر المدعومة"
+      },
+      "right": {
+        "title1": "مدير مجموعة",
+        "title2": "بيئات التنمية"
+      }
+    }
+  },
+  "features": {
+    "title": "ميزات {{ProductFullName}}",
+    "content1": "سهولة التكامل والترخيص المقنن",
+    "content2": "قم بتعيين خيار التكبير الافتراضي عند التحويل إلى كلمات أو شرائح أو خلايا",
+    "content3": "قم بالتحويل من / إلى جميع تنسيقات الصور النقطية الشائعة وتعيين صورة DPI والارتفاع والعرض",
+    "content4": "قم بتحويل PDF & Image إلى Grayscale & Linearize PDF Document للويب",
+    "content5": "حدد مستوى الإشارة المرجعية ومستوى العنوان والمستوى الموسع في تحويل Word إلى PDF / XPS",
+    "content6": "تكوين ووضع علامة مائية في المستند المحول كخلفية لعرضها خلف النص",
+    "content7": "تقديم عنوان البريد الإلكتروني أثناء التحويل من البريد الإلكتروني",
+    "content8": "قم بتعيين دلائل الخطوط المخصصة وتحميل / استبدال الخط بشكل صريح أثناء تحويل المستند",
+    "content9": "قم بتعيين الخط الافتراضي لاستبدال الخطوط المفقودة لتحويل المستندات والشرائح وجداول البيانات",
+    "content10": "طرق التحويل المتقدمة لإرجاع الإخراج كمسار أو دفق إدخال / إخراج",
+    "content11": "تحويل جدول البيانات بخطوط الشبكة وإزالة التعليقات من الشرائح أثناء التحويل",
+    "content12": "تحويل صفحات وثيقة محددة بتنسيق PDF وتحويل نطاق خلايا معين في جداول البيانات",
+    "content13": "إظهار الأوراق المخفية وتخطي الصفوف والأعمدة الفارغة أثناء تحويل جداول البيانات",
+    "content14": "عد إجمالي صفحات المستند وتعيين كلمة المرور إلى مستند غير محمي أثناء التحويل",
+    "content15": "خيار لإزالة التعليقات التوضيحية والملفات المضمنة من PDF",
+    "content16": "أنشئ توصيفًا متوافقًا مع HTML 5 عند التحويل إلى HTML",
+    "content17": "الكشف التلقائي عن نوع المصدر وإرجاع جميع التحويلات المحتملة عند التحويل من البث",
+    "content18": "القدرة على إرجاع كل صفحة في دفق منفصل أثناء التحويل إلى PDF أو HTML",
+    "content19": "إظهار / إخفاء العلامات والتعليقات وتعقب التغييرات أثناء التحويل من Word",
+    "content20": "تحويل DOCX إلى Tiff G3 مع خيار التظليل",
+    "content21": "تحويل تخطيطات معينة عند التحويل من مستند CAD",
+    "content22": "التسمية التلقائية عند حفظ المستند المحول إلى ملف",
+    "content23": "دعم الترخيص المقنن ليتم إصدار فاتورة به بناءً على استخدام واجهة برمجة التطبيقات",
+    "content24": "تحويل الرسوم البيانية إلى تنسيقات ملف معالجة الكلمات",
+    "content25": "أضف أرقام الصفحات أثناء تحويل HTML إلى مستند معالجة الكلمات",
+    "content26": "تحويل مستندات XML إلى أي تنسيق بدون تحويل",
+    "content27": "مراقبة تقدم تحويل الملف (البداية والنهاية) مباشرة من التطبيق من جانب العميل",
+    "more_feature": {
+      "title1": "قم بتحويل تنسيقات المستندات بسهولة",
+      "content1": "باستخدام {{ProductFullName}} ، يعد تحويل تنسيق ملف المستند أمرًا سهلاً للغاية. يوضح المثال التالي كيفية تحويل ملف PDF إلى ملف DOC باستخدام {{ProgLang}}:",
+      "step_1": "قم بإنشاء مثيل لفئة المحول وقم بتزويد الملف بالمسار الكامل",
+      "step_2": "إنشاء وضبط ConvertOptions لنوع الهدف المطلوب.",
+      "step_3": "قم باستدعاء طريقة Converter.Convert وتمرير المسار الكامل والتنسيق كمعامل",
+      "title2": "التحويل إلى تنسيقات الصور",
+      "content2": "يمكن استخدام {{ProductFullName}} لتطوير التطبيقات في أي بيئة تطوير تستهدف منصة .NET. وهو متوافق مع جميع اللغات المستندة إلى .NET ويدعم أنظمة التشغيل الشائعة (Windows و Linux و MacOS) حيث يمكن تثبيت أطر عمل Mono أو .NET (بما في ذلك .NET Core).",
+      "title3": "يدعم أنواع تنسيقات PDF المختلفة",
+      "content3": "تدعم واجهة برمجة تطبيقات {{ProductFullName}} تحويل المستندات إلى أنواع / تنسيقات PDF التالية:"
+    }
+  },
+  "solutions": {
+    "title": "تقدم GroupDocs.Conversion واجهات برمجة تطبيقات تحويل المستندات لبيئات التطوير الشائعة الأخرى",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion لجافا",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
+      "platform": "جافا",
+      "link": "/ تحويل / جافا /"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "تحميل ملف المصدر {{FROM}} للتحويل",
+      "prepare_comment": "إعداد خيارات التحويل للتنسيق الهدف {{TO}}",
+      "convert_comment": "تحويل إلى تنسيق {{TO}}"
+    }
+  }
+}

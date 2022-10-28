@@ -1,4 +1,4 @@
 dimensions: 
 - alias: lang
 ##  values: [en] ## UNCOMMENT FOR TESTING
-  values: [en, de, es, fr, ja, ko, ru, uk, zh, bg, id, tr, pl, pt]
+  values: [en, de, es, fr, ja, ko, ru, uk, zh, bg, id, tr, pl, pt, ar, th, vi, it, nl, cs ]

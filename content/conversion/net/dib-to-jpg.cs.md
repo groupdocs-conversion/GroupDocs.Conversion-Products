@@ -1,0 +1,106 @@
+---
+############################# Static ############################
+layout: "auto-gen-conversion"
+date: 2022-10-29T02:56:14
+draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
+breadcrumb: DIB do JPG v C#
+
+############################# Head ############################
+head_title: "Převodník DIB na JPG v C#"
+head_description: "Převeďte DIB na JPG v .NET pomocí několika řádků kódu. Použijte rozhraní GroupDocs Document Conversion API k převodu více než 160 formátů souborů."
+
+############################# Header ############################
+title: "Převést DIB na JPG v C#"
+description: "Převod DIB na JPG s několika řádky kódu .NET"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Conversion for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
+        product: "GroupDocs.Conversion"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "O GroupDocs.Conversion for .NET API"
+    content: |
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) lze použít k převodu formátů Microsoft Word, Excel, PowerPoint, PDF, Visio a dalších. GroupDocs.Conversion je samostatné API, které je vhodné pro back-endové a interní systémy, kde je vyžadován vysoký výkon. Není závislý na žádném softwaru, jako je Microsoft nebo Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Převeďte své soubory DIB na JPG ve službě .NET snadno. Můžete použít pouze několik C# řádků kódu na libovolné platformě dle vašeho výběru, jako je - Windows, Linux, macOS.
+        Můžete si zdarma vyzkoušet konverzi DIB na JPG a vyhodnotit kvalitu výsledků konverze. Spolu s jednoduchými scénáři konverze souborů můžete vyzkoušet pokročilejší možnosti pro načtení zdrojového DIB souboru a pro uložení výstupního JPG výsledku. 
+        
+        Například pro zdrojový soubor DIB můžete použít následující možnosti načtení:
+
+        * automatická detekce formátu souboru;
+        * zadat heslo pro chráněné soubory (pokud to formát souboru podporuje);
+        * nahradit chybějící písma pro zachování vzhledu dokumentu.
+        
+        Existují také pokročilé možnosti převodu pro soubor JPG:
+
+        * převést konkrétní stránku dokumentu nebo rozsah stránek;
+        * přidat vodoznak do převedeného souboru JPG a mnoho dalších.
+
+        Po dokončení převodu můžete svůj soubor JPG uložit do místní cesty k souboru nebo do jakéhokoli úložiště třetí strany, jako je FTP, Amazon S3, Disk Google, Dropbox atd. Vezměte prosím na vědomí – převést DIB na {{ TO}} není potřeba instalovat žádný další software – jako MS Office, Open Office, Adobe Acrobat Reader atd.
+
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Kroky k převodu DIB na JPG v C#"
+    content_left: |
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) usnadňuje vývojářům převod souboru DIB na JPG pomocí několika řádků kódu.
+        
+        * Vytvořte instanci třídy Converter a poskytněte souboru DIB úplnou cestu
+        * Vytvořte a nastavte ConvertOptions pro typ JPG.
+        * Zavolejte metodu Converter.Convert a předejte úplnou cestu a formát (JPG) jako parametr
+
+    title_right: "Požadavky na systém"
+    content_right: |
+        Základní konverzi pomocí GroupDocs.Conversion for .NET lze provést v několika jednoduchých krocích. Naše API jsou podporována na všech hlavních platformách a operačních systémech. Před spuštěním níže uvedeného kódu se ujistěte, že máte v systému nainstalovány následující předpoklady.
+
+        * Operační systémy: Microsoft Windows, Linux, MacOS
+        * Vývojová prostředí: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Získejte nejnovější GroupDocs.Conversion for .NET od [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+         
+    code: |
+        ```csharp    
+        // Načtěte zdrojový soubor DIB pro převod
+          var converter = new GroupDocs.Conversion.Converter("input.dib");
+          // Připravte možnosti konverze pro cílový formát JPG
+          var convertOptions = converter.GetPossibleConversions()["jpg"].ConvertOptions;
+          // Převést do formátu JPG
+          converter.Convert("output.jpg", convertOptions);
+        ```
+
+demos:
+    enable: true
+    title: "Živá ukázka od DIB do JPG"
+    content: |
+       Převeďte DIB na JPG nyní na webu [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Online demo má následující výhody
+          
+
+more_formats:
+    enable: true
+    title: "Další podporované konverze DIB v C#"
+    content: "Můžete také převést DIB do mnoha dalších formátů souborů. Podívejte se prosím na níže uvedený seznam."
+       
+       
+back_to_top:
+    enable: true
+---

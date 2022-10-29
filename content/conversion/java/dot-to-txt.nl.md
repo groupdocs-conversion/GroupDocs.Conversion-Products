@@ -1,0 +1,106 @@
+---
+############################# Static ############################
+layout: "auto-gen-conversion"
+date: 2022-10-29T02:56:07
+draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
+breadcrumb: DOT naar TXT in Java
+
+############################# Head ############################
+head_title: "Converteer DOT naar TXT in Java"
+head_description: "DOT naar TXT conversie in Java met een paar regels code. Converteer meer dan 160 bestandsindelingen met de GroupDocs-documentconversie-API voor Java"
+
+############################# Header ############################
+title: "Converteer DOT naar TXT in Java"
+description: "DOT naar TXT conversie met een paar regels Java code"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Conversion for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-java.png"
+        product: "GroupDocs.Conversion"
+        platform: "Java"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Over GroupDocs.Conversion for Java API"
+    content: |
+        [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) is een geavanceerde conversie-API voor bestandsindelingen voor het converteren tussen populaire afbeeldings- en documentindelingen zoals Microsoft Office, OpenDocument, PDF, HTML, e-mail, CAD. en nog veel meer met slechts een paar regels code. De native API detecteert automatisch de formaten van de originele documenten en biedt veel opties voor het aanpassen van de geconverteerde documenten. Naast de functie om informatie uit een document te extraheren, ondersteunt het standaard ook het cachen van de conversieresultaten naar de lokale schijf. Elk type cacheopslag kan echter worden ondersteund door de juiste interfaces te implementeren - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis of andere.
+    
+
+overview:
+    enable: true
+    content: |
+        Converteer uw DOT bestanden naar TXT in Java. Er zijn maar een paar regels Java code nodig op elk platform naar keuze, zoals Windows, Linux, macOS.
+        U kunt proberen DOT gratis naar TXT te converteren en de kwaliteit van de conversieresultaten te evalueren. Naast eenvoudige scripts voor bestandsconversie, kunt u meer geavanceerde opties proberen voor het laden van het DOT-bronbestand en het opslaan van de TXT-uitvoer. 
+        
+        Voor het bronbestand DOT kunt u bijvoorbeeld de volgende laadopties gebruiken:
+
+        * automatische detectie van het bestandsformaat;
+        * geef een wachtwoord op voor beveiligde bestanden (als de bestandsindeling dit ondersteunt);
+        * vervang ontbrekende lettertypen om het uiterlijk van het document te behouden.
+        
+        Er zijn ook geavanceerde conversieopties voor het TXT-bestand:
+
+        * een specifieke pagina van een document of een reeks pagina's converteren;
+        * voeg een watermerk toe aan de geconverteerde TXT.
+
+        Zodra de conversie is voltooid, kunt u het TXT-bestand opslaan in uw lokale bestandspad of in opslag van derden, zoals FTP, Amazon S3, Google Drive, Dropbox enz. Let op - om DOT te converteren tot TXT, hoeft u geen extra software te installeren, zoals MS Office, Open Office, Adobe Acrobat Reader etc.
+
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Stappen om DOT naar TXT te converteren in Java"
+    content_left: |
+        Met [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java/) kunnen ontwikkelaars het DOT-bestand eenvoudig converteren naar TXT met een paar regels code.
+        
+        * Maak een nieuwe instantie van de klasse Converter en upload het bestand DOT met het volledige pad
+        * Zet ConvertOptions voor documenttype op TXT
+        * Roep de methode convert() aan en geef de documentnaam (volledig pad) en formaat (TXT) door als parameter
+
+    title_right: "systeem vereisten"
+    content_right: |
+        Basisconversie met GroupDocs.Conversion for Java API kan worden gedaan met slechts een paar regels code. Onze API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.
+
+        * Besturingssystemen: Microsoft Windows, Linux, MacOS
+        * Ontwikkelomgevingen: NetBeans, Intellij IDEA, Eclipse, etc.
+        * Java runtime: J2SE 6.0 and above
+        * Download de nieuwste GroupDocs.Conversion for Java van [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+         
+    code: |
+        ```java    
+        // Laad bronbestand DOT voor conversie
+          Converter converter = new Converter("input.dot");
+          // Bereid conversie-opties voor voor doelformaat TXT
+          ConvertOptions convertOptions = new FileType().fromExtension("txt").getConvertOptions();
+          // Converteren naar TXT formaat
+          converter.convert("output.txt", convertOptions);
+        ```
+
+demos:
+    enable: true
+    title: "DOT tot TXT Live demo"
+    content: |
+       Bezoek onze [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website en probeer DOT naar TXT conversie nu. De gratis demo heeft de volgende voordelen:
+          
+
+more_formats:
+    enable: true
+    title: "Andere ondersteunde DOT conversies in Java"
+    content: "U kunt DOT ook converteren naar vele andere bestandsindelingen. Zie de lijst hieronder."
+       
+       
+back_to_top:
+    enable: true
+---

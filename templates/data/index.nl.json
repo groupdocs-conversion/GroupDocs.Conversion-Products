@@ -1,0 +1,36 @@
+{
+  "head": {
+    "title": ".NET, Java, Cloud API's en documentconversie-apps van GroupDocs",
+    "description": "Converteer populaire document- en afbeeldingsbestandsindelingen op elk platform met app- en API-gebaseerde oplossingen."
+  },
+  "header": {
+    "title": "Oplossing voor document- en beeldconversie",
+    "description": "Converteer populaire document- en afbeeldingsbestandsindelingen op elk platform met app- en API-gebaseerde oplossingen."
+  },
+  "apis": {
+    "api1": {
+      "title": "GroupDocs.Conversion High Code API's omvatten:",
+      "label": "Bekijk alle High Code API's",
+      "product1_content": "Native .NET API om documenten en afbeeldingsbestandsformaten nauwkeurig te converteren naar elk type .NET-toepassing. Ondersteunt het toevoegen van afbeeldingswatermerken tijdens de conversie.",
+      "product2_content": "Zorg ervoor dat uw Java-applicaties eenvoudig kunnen converteren tussen alle industriestandaard documentformaten, waaronder Microsoft Office, PDF, HTML, afbeeldingen en vele andere."
+    },
+    "api2": {
+      "title": "GroupDocs.Conversion Low Code API's omvatten:",
+      "label": "Bekijk alle Low Code API's",
+      "product1_content": "Werk met de cURL RESTful-bestandsconversie-API om eenvoudig Microsoft Office, PDF, e-mail, project, HTML en andere veelgebruikte bestandsindelingen in uw toepassingen te converteren.",
+      "product2_content": ".NET-bestandsconversie REST API om eenvoudig Microsoft Office, PDF, E-mail, Project, HTML en andere veelgebruikte bestandsindelingen op elk platform te converteren met Cloud SDK.",
+      "product3_content": "Verrijk uw cloudgebaseerde Java-applicaties met geavanceerde documentconversiefuncties op elk platform dat REST-API's kan aanroepen."
+    },
+    "api3": {
+      "title": "GroupDocs.Conversion Geen code-apps inbegrepen",
+      "label": "Bekijk alle No Code-apps",
+      "product1_content": "Converteer meer dan 50 documentformaten naar PDF, XLSX, DOCX, XPS, HTML en meer.",
+      "product2_content": "Gratis app om DOC naar XLS-formaat te converteren vanuit elke webbrowser.",
+      "product3_content": "Upload uw PDF-documenten voor naadloze conversie naar Word (DOCX)-formaat."
+    }
+  },
+  "testimonial": {
+    "designation": "Psycholoog",
+    "content": "Ik kijk met spanning naar de groei van GroupDocs. Het reactievermogen van uw volledige team heeft me enorm geholpen, als ik met iemand bij GroupDocs praat, kan ik garanderen dat er iemand luistert en dingen voor elkaar krijgt."
+  }
+}

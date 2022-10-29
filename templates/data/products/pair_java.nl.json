@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "Converteer {{FROM}} naar {{TO}} in {{ProgLang}}",
+    "meta_description": "{{FROM}} naar {{TO}} conversie in {{ProductName}} met een paar regels code. Converteer meer dan 160 bestandsindelingen met de GroupDocs-documentconversie-API voor {{ProductName}}",
+    "h1": "Converteer {{FROM}} naar {{TO}} in {{ProgLang}}",
+    "h2": "{{FROM}} naar {{TO}} conversie met een paar regels {{ProductName}} code",
+    "breadcrumb": "{{FROM}} naar {{TO}} in {{ProgLang}}"
+  },
+  "about": {
+    "title": "Over {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) is een geavanceerde conversie-API voor bestandsindelingen voor het converteren tussen populaire afbeeldings- en documentindelingen zoals Microsoft Office, OpenDocument, PDF, HTML, e-mail, CAD. en nog veel meer met slechts een paar regels code. De native API detecteert automatisch de formaten van de originele documenten en biedt veel opties voor het aanpassen van de geconverteerde documenten. Naast de functie om informatie uit een document te extraheren, ondersteunt het standaard ook het cachen van de conversieresultaten naar de lokale schijf. Elk type cacheopslag kan echter worden ondersteund door de juiste interfaces te implementeren - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis of andere."
+  },
+  "overview": {
+    "description1": "Converteer uw {{FROM}} bestanden naar {{TO}} in {{ProductName}}. Er zijn maar een paar regels {{ProgLang}} code nodig op elk platform naar keuze, zoals Windows, Linux, macOS.",
+    "description2": "U kunt proberen {{FROM}} gratis naar {{TO}} te converteren en de kwaliteit van de conversieresultaten te evalueren. Naast eenvoudige scripts voor bestandsconversie, kunt u meer geavanceerde opties proberen voor het laden van het {{FROM}}-bronbestand en het opslaan van de {{TO}}-uitvoer.",
+    "load_options_desc": "Voor het bronbestand {{FROM}} kunt u bijvoorbeeld de volgende laadopties gebruiken:",
+    "load_options_item_1": "automatische detectie van het bestandsformaat",
+    "load_options_item_2": "geef een wachtwoord op voor beveiligde bestanden (als de bestandsindeling dit ondersteunt)",
+    "load_options_item_3": "vervang ontbrekende lettertypen om het uiterlijk van het document te behouden",
+    "convert_options_desc": "Er zijn ook geavanceerde conversieopties voor het {{TO}}-bestand:",
+    "convert_options_item_1": "een specifieke pagina van een document of een reeks pagina's converteren",
+    "convert_options_item_2": "voeg een watermerk toe aan de geconverteerde {{TO}}",
+    "summary": "Zodra de conversie is voltooid, kunt u het {{TO}}-bestand opslaan in uw lokale bestandspad of in opslag van derden, zoals FTP, Amazon S3, Google Drive, Dropbox enz. Let op - om {{FROM}} te converteren tot {{TO}}, hoeft u geen extra software te installeren, zoals MS Office, Open Office, Adobe Acrobat Reader etc."
+  },
+  "steps": {
+    "title_left": "Stappen om {{FROM}} naar {{TO}} te converteren in {{ProgLang}}",
+    "content_left": {
+      "description": "Met [{{ProductFullName}}]({{ProductUrl}}) kunnen ontwikkelaars het {{FROM}}-bestand eenvoudig converteren naar {{TO}} met een paar regels code.",
+      "step_1": "Maak een nieuwe instantie van de klasse Converter en upload het bestand {{FROM}} met het volledige pad",
+      "step_2": "Zet ConvertOptions voor documenttype op {{TO}}",
+      "step_3": "Roep de methode convert() aan en geef de documentnaam (volledig pad) en formaat ({{TO}}) door als parameter"
+    },
+    "title_right": "systeem vereisten",
+    "content_right": {
+      "description": "Basisconversie met {{ProductFullName}} API kan worden gedaan met slechts een paar regels code. Onze API's worden ondersteund op alle belangrijke platforms en besturingssystemen. Voordat u de onderstaande code uitvoert, moet u ervoor zorgen dat de volgende vereisten op uw systeem zijn geïnstalleerd.",
+      "step_1": "Besturingssystemen: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelomgevingen: {{DevEnv}}",
+      "step_3": "Download de nieuwste {{ProductFullName}} van [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Laad bronbestand {{FROM}} voor conversie",
+      "prepare_comment": "Bereid conversie-opties voor voor doelformaat {{TO}}",
+      "convert_comment": "Converteren naar {{TO}} formaat"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} tot {{TO}} Live demo",
+    "content": "Bezoek onze [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) website en probeer {{FROM}} naar {{TO}} conversie nu. De gratis demo heeft de volgende voordelen:"
+  },
+  "more_formats": {
+    "title": "Andere ondersteunde {{FROM}} conversies in {{ProgLang}}",
+    "content": "U kunt {{FROM}} ook converteren naar vele andere bestandsindelingen. Zie de lijst hieronder."
+  }
+}

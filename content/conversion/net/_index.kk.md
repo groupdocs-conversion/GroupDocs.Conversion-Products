@@ -1,0 +1,350 @@
+---
+############################# Static ############################
+layout: "product"
+date: 2022-11-02T19:37:38
+draft: false
+
+product: "Conversion"
+product_tag: "conversion"
+platform: .NET
+platform_tag: net
+
+############################# Head ############################
+head_title: "C# .NET құжатты түрлендіру API | PDF Word Excel PPTX HTML кескіндерін түрлендіру"
+head_description: "C# .NET құжатты түрлендіру API. PDF Word DOC DOCX, Excel электрондық кестелері PPT PPTX, HTML, PSD, MPT MPP, MSG EMLX электрондық поштасы, AutoCAD және кескін файл пішімдерін түрлендіру."
+
+############################# Header ############################
+title: "80+ файл пішімдерін түрлендіру үшін .NET API"
+description: "Ешқандай сыртқы бағдарламалық құралды орнатпай-ақ құжат пен кескінді түрлендіру функционалдығын .NET қолданбаларына біріктіруге арналған қарапайым API."
+button:
+    enable: true
+    icon: "fas fa-arrow-down"
+    label: "Тегін сынақ нұсқасын жүктеп алыңыз"
+    link: "https://downloads.groupdocs.com/conversion/net"
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+    
+    left:
+        img_alt: "GroupDocs.Conversion for .NET"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
+        product: "GroupDocs.Conversion"
+        platform: ".NET"
+
+    middle:
+        button:
+            # button loop
+            - link: "#overview"
+              text: "Шолу"
+
+            # button loop
+            - link: "#features"
+              text: "Ерекше өзгешеліктері"
+
+            # button loop
+            - link: "#support"
+              text: "Қолдау"
+
+            # button loop
+            - link: "https://products.groupdocs.app/conversion"
+              text: "Тікелей демо"
+
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
+              text: "Баға белгілеу"
+
+    right:
+        link_download: "https://downloads.groupdocs.com/conversion"
+        link_learn: "https://docs.groupdocs.com/conversion/net/"
+        link_buy: "https://purchase.groupdocs.com"
+
+############################# Overview ############################
+overview:
+    enable: true
+    content: |
+      GroupDocs.Conversion for .NET API интерфейстерінің қарапайым жиынтығын ұсынады, бұл әзірлеушілерге C#, ASP.NET және басқа .NET қатысты технологияларда қуатты құжат түрлендіру қолданбаларын құруға мүмкіндік береді. GroupDocs.Conversion for .NET API соңғы пайдаланушыларыңызға жылдам, тиімді және сенімді файлдарды түрлендіру шешімін ұсынады. Ол барлық танымал бизнес құжат пішімдері арасында дәл түрлендіруді қолдайды, соның ішінде: PDF, HTML, Электрондық пошта, Microsoft Word құжаттары, Excel электрондық кестелері, PowerPoint көрсетілімдері, Project, Photoshop, CorelDraw, AutoCAD, диаграммалар, растрлық кескін файл пішімдері және т.б. Құжатты түрлендіргіш кітапханасы бастапқы құжат пішімін автоматты түрде анықтайды және бүкіл құжатты немесе арнайы беттерді қажетті шығыс пішіміне түрлендіру үшін барлық басқаруды береді. Жетіспейтін қаріптерді таңдаулылармен ауыстыру және кез келген құжат бетіне мәтін немесе сурет су белгілерін қосу оңайырақ.
+
+      GroupDocs.Conversion for .NET қолданбасын .NET платформасына бағытталған кез келген әзірлеу ортасында қолданбаларды әзірлеу үшін пайдалануға болады. Ол барлық .NET негізіндегі тілдермен үйлесімді және Mono немесе .NET фреймворктерін (.NET Core қоса алғанда) орнатуға болатын танымал операциялық жүйелерді (Windows, Linux, MacOS) қолдайды.
+    tabs:
+      enable: true
+      
+      ## TAB ONE ##
+      tab_one:
+        description: |
+          Төменде GroupDocs.Conversion for .NET шолуы берілген:
+        
+        right:
+          enable: true
+          icon: "fab fa-html5"
+          title: "Шолу"
+          content: |
+            * Файл түрін автоматты түрде анықтау
+            * Құжаттарды түрлендіру
+            * Презентацияларды түрлендіру
+            * Электрондық кестелерді түрлендіру
+            * Растрлық кескіндерді түрлендіру
+            * PDF құжаттарын түрлендіру
+            * Басқа пішімдерді түрлендіру
+            * Су таңбасын қолданыңыз
+            * Файл құпия сөзін көрсетіңіз
+            * Түрлендіруді теңшеу
+
+      ## TAB TWO ##
+      tab_two:
+        description: |
+          GroupDocs.Conversion for .NET барлық танымал және жиі қолданылатын [құжат файлы пішімдері] (https://docs.groupdocs.com/conversion/net/supported-document-formats/) арасында түрлендіруді қолдайды.
+
+        left:
+          enable: true
+          table:
+            # table loop
+            - title: "Қайдан түрлендіру:"
+              content: |
+                * **Құжаттар**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
+                * **Электрондық кестелер**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
+                * **Презентациялар**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
+                * **Суреттер**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
+                * **Портативті**: PDF, XPS, OXPS, EPUB
+                * **HTML**: HTM, HTML, MHTML
+                * **Метафайлдар**: EMZ, WMZ
+                * **PhotoShop**: PSD
+                * **Жоба**: MPP, MPT, MPX
+                * ** Болжам**: PST, OST
+                * **Электрондық пошта**: MSG, EML, EMLX
+                * **Диаграммалар**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
+                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
+                * **PostScript**: EPS, PS, PSL, CGM
+                * **CorelDRAW**: CDR, CMX
+                * **Басқа**: VCF, PLT, LGS, OTG, MD, AI, LOG
+
+        right:
+          enable: true
+          table:
+            # table loop
+            - title: "Келесіге түрлендіру:"
+              content: |
+                * **Құжаттар**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
+                * **Электрондық кестелер**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
+                * **Презентациялар**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
+                * **Суреттер**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
+                * **Метафайлдар**: EMF, WMF, EMZ, WMZ
+                * **Диаграммалар**: SVGZ
+                * ** Портативті**: PDF, XPS
+                * **HTML**: HTM, HTML, MHTML
+                * **Басқа**: MD
+
+      ## TAB THREE ##
+      tab_three:
+        description: |
+          GroupDocs.Conversion for .NET келесі операциялық жүйелерді, жақтауларды және пакет менеджерлерін қолдайды:
+      
+        left:
+          enable: true
+          table:
+            # table loop
+            - icon: "fab fa-windows"
+              title: "Операциялық жүйелер"
+              content: |
+                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
+
+            # table loop
+            - icon: "fas fa-code"
+              title: "Қолдау көрсетілетін жақтаулар"
+              content: |
+                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+
+        right:
+          enable: true
+          table:
+            # table loop
+            - icon: "fas fa-box"
+              title: "Пакет менеджері"
+              content: |
+                Nuget
+
+            # table loop
+            - icon: "fas fa-tools"
+              title: "Пакет менеджері"
+              content: |
+                Microsoft Visual Studio, Xamarin, MonoDevelop
+
+############################# Features ############################
+features:
+    enable: true
+    title: "GroupDocs.Conversion for .NET мүмкіндіктері"
+
+    feature:
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "Оңай интеграция және есептелген лицензиялау"
+
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "Сөздерге, слайдтарға немесе ұяшықтарға түрлендіру кезінде әдепкі масштабтау опциясын орнатыңыз"
+
+      # feature loop
+      - icon: "fas fa-bolt"
+        content: "Барлық танымал растрлық кескін пішіміне түрлендіру/түрлендіру және кескіннің DPI, биіктігі мен енін тағайындау"
+      
+      # feature loop
+      - icon: "fas fa-file-powerpoint"
+        content: "PDF және кескінді сұр реңкке түрлендіру және Интернетке арналған PDF құжатын сызықтыққа айналдыру"
+
+      # feature loop
+      - icon: "fas fa-code"
+        content: "Word бағдарламасында PDF/XPS түрлендіруге бетбелгі деңгейін, тақырып деңгейін және кеңейтілген деңгейді көрсетіңіз"
+
+      # feature loop
+      - icon: "fas fa-cloud"
+        content: "Мәтіннің артында көрсету үшін түрлендірілген құжатта су таңбасын конфигурациялаңыз және орналастырыңыз"
+
+      # feature loop
+      - icon: "fas fa-remove-format"
+        content: "Электрондық поштадан түрлендіру кезінде электрондық пошта тақырыбын көрсетіңіз"
+
+      # feature loop
+      - icon: "fas fa-comment-slash"
+        content: "Теңшелетін қаріп каталогтарын орнатыңыз және құжатты түрлендіру кезінде қаріпті анық жүктеңіз/алмастырыңыз"
+
+      # feature loop
+      - icon: "fas fa-location-arrow"
+        content: "Құжаттар, слайдтар және электрондық кестелерді түрлендіру үшін жетіспейтін қаріптерді ауыстыру үшін әдепкі қаріпті орнату"
+
+      # feature loop
+      - icon: "fas fa-border-all"
+        content: ""
+
+      # feature loop
+      - icon: "fas fa-wrench"
+        content: "Тор сызықтары бар электрондық кестені түрлендіру және түрлендіру кезінде слайдтардан түсініктемелерді жою"
+
+      # feature loop
+      - icon: "fas fa-columns"
+        content: "Арнайы құжат беттерін PDF пішімі ретінде түрлендіру және электрондық кестелердегі нақты ұяшық ауқымын түрлендіру"
+
+      # feature loop
+      - icon: "fas fa-file-word"
+        content: "Электрондық кестелерді түрлендіру кезінде жасырын парақтарды көрсету және бос жолдар мен бағандарды өткізіп жіберу"
+
+      # feature loop
+      - icon: "fas fa-envelope"
+        content: "Құжаттың жалпы беттерін санау және түрлендіру кезінде құпия сөзді қорғалмаған құжатқа орнату"
+
+      # feature loop
+      - icon: "fas fa-print"
+        content: "PDF файлынан аннотациялар мен ендірілген файлдарды жою опциясы"
+
+      # feature loop
+      - icon: "fas fa-file-archive"
+        content: "HTML-ге түрлендіру кезінде HTML 5-мен үйлесімді белгілеу жасаңыз"
+
+      # feature loop
+      - icon: "fas fa-lock"
+        content: "Дереккөз түрін автоматты түрде анықтау және ағыннан түрлендіру кезінде барлық мүмкін түрлендірулерді қайтару"
+
+      # feature loop
+      - icon: "fas fa-file-code"
+        content: "PDF немесе HTML түрлендіру кезінде әр бетті бөлек ағында қайтару мүмкіндігі"
+      
+      # feature loop
+      - icon: "fas fa-fill-drip"
+        content: "Word бағдарламасынан түрлендіру кезінде белгілеуді, түсініктемелерді көрсету/жасыру және өзгертулерді бақылау"
+
+      # feature loop
+      - icon: "fas fa-file-excel"
+        content: "DOCX-тен Tiff G3-ке көлеңкелеу опциясымен түрлендіру"
+
+      # feature loop
+      - icon: "fas fa-heading"
+        content: "CAD құжатынан түрлендіру кезінде арнайы макеттерді түрлендіру"
+
+      # feature loop
+      - icon: "fas fa-project-diagram"
+        content: "Түрлендірілген құжатты файлға сақтау кезінде автоматты атау"
+
+      # feature loop
+      - icon: "fas fa-cube"
+        content: "Есептелген лицензиялау API пайдалану негізінде есептелуге қолдау көрсетіледі"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Диаграммаларды мәтінді өңдеу файл пішіміне түрлендіру"
+      
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "HTML мәтінін Word өңдеу құжатына түрлендіру кезінде бет нөмірлерін қосыңыз"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "XML құжаттарын түрлендірусіз кез келген пішімге түрлендіру"
+
+      # feature loop
+      - icon: "fab fa-uncharted"
+        content: "Файлды түрлендіру барысын (Бастау, Аяқтау) тікелей клиенттік қолданбадан бақылаңыз"
+
+    more_feature:
+      # more_feature_loop
+      - title: "Құжат пішімдерін оңай түрлендіру"
+        content: |
+          GroupDocs.Conversion for .NET көмегімен құжат файл пішімін түрлендіру өте оңай. Келесі мысал PDF файлын C# көмегімен DOC файлына түрлендіру жолын көрсетеді:  
+            
+          {features.more_feature.step1} 
+          {features.more_feature.step2} 
+          {features.more_feature.step3} 
+            
+          ```csharp    
+           // Түрлендіру үшін DOCX бастапқы файлын жүктеңіз
+          var converter = new GroupDocs.Conversion.Converter("input.docx");
+          // PDF мақсатты пішіміне түрлендіру опцияларын дайындаңыз
+          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
+          // PDF пішіміне түрлендіру
+          converter.Convert("output.pdf", convertOptions);
+          ```
+            
+      # more_feature_loop
+      - title: "Сурет форматтарына түрлендіру"
+        content: "GroupDocs.Conversion for .NET қолданбасын .NET платформасына бағытталған кез келген әзірлеу ортасында қолданбаларды әзірлеу үшін пайдалануға болады. Ол барлық .NET негізіндегі тілдермен үйлесімді және Mono немесе .NET фреймворктерін (.NET Core қоса алғанда) орнатуға болатын танымал операциялық жүйелерді (Windows, Linux, MacOS) қолдайды."
+
+      # more_feature_loop
+      - title: "Түрлі PDF пішімінің түрлерін қолдайды"
+        content: |
+          GroupDocs.Conversion for .NET API құжатты келесі PDF түрлеріне/пішіміне түрлендіруді қолдайды:  
+            
+          * PdfA_1A
+          * PdfA_1B
+          * PdfA_2A
+          * PdfA_3A
+          * PdfA_2B
+          * PdfA_2U
+          * PdfA_3B
+          * PdfA_3U
+          * v1_3
+          * v1_4
+          * v1_5
+          * v1_6
+          * v1_7
+          * PdfX_1A
+          * PdfX3
+
+############################# Support ############################
+support:
+    enable: true
+
+############################# Solutions ############################
+solutions:
+    enable: true
+    title: "GroupDocs.Conversion басқа танымал әзірлеу орталары үшін құжаттарды түрлендіру API интерфейстерін ұсынады"
+
+    solution:
+        # solution loop
+        - img_alt: "Java үшін GroupDocs.Conversion"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
+          product: "GroupDocs.Conversion"
+          platform: "Java"
+          link: "/conversion/java/"
+
+############################# Back to top ###############################
+back_to_top:
+  enable: true
+---

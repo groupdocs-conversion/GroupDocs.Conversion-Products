@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "Konvertor {{FROM}} na {{TO}} v {{ProgLang}}",
+    "meta_description": "Preveďte {{FROM}} na {{TO}} v {{ProductName}} pomocou niekoľkých riadkov kódu. Použite rozhranie GroupDocs Document Conversion API na konverziu viac ako 160 formátov súborov.",
+    "h1": "Konvertovať {{FROM}} na {{TO}} v {{ProgLang}}",
+    "h2": "Konverzia {{FROM}} na {{TO}} pomocou niekoľkých riadkov kódu {{ProductName}}",
+    "breadcrumb": "{{FROM}} do {{TO}} v {{ProgLang}}"
+  },
+  "about": {
+    "title": "O {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) možno použiť na konverziu formátov Microsoft Word, Excel, PowerPoint, PDF, Visio a ďalších. GroupDocs.Conversion je samostatné API, ktoré je vhodné pre back-end a interné systémy, kde sa vyžaduje vysoký výkon. Nezávisí od žiadneho softvéru, ako je Microsoft alebo Open Office."
+  },
+  "overview": {
+    "description1": "Jednoducho skonvertujte svoje súbory {{FROM}} na {{TO}} v {{ProductName}}. Môžete použiť iba pár {{ProgLang}} kódových riadkov na ľubovoľnej platforme podľa vášho výberu, napríklad - Windows, Linux, macOS.",
+    "description2": "Môžete si bezplatne vyskúšať konverziu {{FROM}} na {{TO}} a vyhodnotiť kvalitu výsledkov konverzie. Spolu s jednoduchými scenármi konverzie súborov môžete vyskúšať pokročilejšie možnosti načítania zdrojového {{FROM}} súboru a uloženia výstupného {{TO}} výsledku.",
+    "load_options_desc": "Napríklad pre zdrojový súbor {{FROM}} môžete použiť nasledujúce možnosti načítania:",
+    "load_options_item_1": "automatická detekcia formátu súboru",
+    "load_options_item_2": "zadajte heslo pre chránené súbory (ak to formát súboru podporuje)",
+    "load_options_item_3": "nahradiť chýbajúce písma, aby sa zachoval vzhľad dokumentu",
+    "convert_options_desc": "Existujú aj rozšírené možnosti prevodu súboru {{TO}}:",
+    "convert_options_item_1": "previesť konkrétnu stranu dokumentu alebo rozsah strán",
+    "convert_options_item_2": "pridať vodoznak do konvertovaného súboru {{TO}} a mnoho ďalších",
+    "summary": "Po dokončení konverzie môžete súbor {{TO}} uložiť do lokálnej cesty k súboru alebo do akéhokoľvek úložiska tretej strany, ako je FTP, Amazon S3, Disk Google, Dropbox atď. Upozorňujeme, že chcete konvertovať {{FROM}} na {{ TO}} nie je potrebné inštalovať žiadny ďalší softvér – ako MS Office, Open Office, Adobe Acrobat Reader atď."
+  },
+  "steps": {
+    "title_left": "Kroky na konverziu {{FROM}} na {{TO}} v {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) uľahčuje vývojárom konverziu súboru {{FROM}} na {{TO}} pomocou niekoľkých riadkov kódu.",
+      "step_1": "Vytvorte inštanciu triedy Converter a poskytnite súboru {{FROM}} úplnú cestu",
+      "step_2": "Vytvorte a nastavte možnosti konverzie pre typ {{TO}}.",
+      "step_3": "Zavolajte metódu Converter.Convert a zadajte úplnú cestu a formát ({{TO}}) ako parameter"
+    },
+    "title_right": "Požiadavky na systém",
+    "content_right": {
+      "description": "Základnú konverziu pomocou {{ProductFullName}} je možné vykonať v niekoľkých jednoduchých krokoch. Naše API sú podporované na všetkých hlavných platformách a operačných systémoch. Pred spustením nižšie uvedeného kódu sa uistite, že máte vo svojom systéme nainštalované nasledujúce predpoklady.",
+      "step_1": "Operačné systémy: Microsoft Windows, Linux, MacOS",
+      "step_2": "Vývojové prostredia: {{DevEnv}}",
+      "step_3": "Získajte najnovší {{ProductFullName}} od [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Načítať zdrojový súbor {{FROM}} na konverziu",
+      "prepare_comment": "Pripravte možnosti konverzie pre cieľový formát {{TO}}",
+      "convert_comment": "Konvertovať do formátu {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "Živá ukážka od {{FROM}} do {{TO}}",
+    "content": "Preveďte {{FROM}} na {{TO}} teraz na webovej lokalite [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Online demo má nasledujúce výhody"
+  },
+  "more_formats": {
+    "title": "Ďalšie podporované {{FROM}} konverzie v {{ProgLang}}",
+    "content": "Môžete tiež previesť {{FROM}} do mnohých iných formátov súborov. Pozrite si zoznam nižšie."
+  }
+}

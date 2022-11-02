@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} .NET Document Conversion API | Konverter PDF Word Excel PPTX HTML-billeder",
+    "description": "{{ProgLang}} .NET Document Conversion API. Konverter PDF Word DOC DOCX, Excel-regneark PPT PPTX, HTML, PSD, MPT MPP, E-mail MSG EMLX, AutoCAD og billedfilformater."
+  },
+  "header": {
+    "title": ".NET API til at konvertere 80+ filformater",
+    "description": "Enkel API til at integrere dokument- og billedkonverteringsfunktionalitet i .NET-applikationer uden at installere ekstern software.",
+    "button": {
+      "label": "Download gratis prøveversion",
+      "link": "https://downloads.groupdocs.com/conversion/net"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "Oversigt"
+      },
+      "button2": {
+        "text": "Funktioner"
+      },
+      "button3": {
+        "text": "Support"
+      },
+      "button4": {
+        "text": "Live demo"
+      },
+      "button5": {
+        "text": "Prissætning"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} tilbyder enkle sæt API'er, der gør det muligt for udviklere at bygge kraftfulde dokumentkonverteringsapplikationer i {{ProgLang}}, ASP.NET og andre .NET-relaterede teknologier. {{ProductFullName}} API leverer hurtig, effektiv og pålidelig filkonverteringsløsning til dine slutbrugere. Det understøtter udførelse af nøjagtige konverteringer blandt alle populære forretningsdokumentformater, herunder: PDF, HTML, e-mail, Microsoft Word-dokumenter, Excel-regneark, PowerPoint-præsentationer, Project, Photoshop, CorelDraw, AutoCAD, diagrammer, rasterbilledfilformater og mange flere. Dokumentkonverteringsbiblioteket registrerer automatisk kildedokumentformatet og giver dig al kontrol til at konvertere enten hele dokumentet eller specifikke sider til det ønskede outputformat. Det er nemmere at erstatte manglende skrifttyper med foretrukne og tilføje tekst- eller billedvandmærker til enhver dokumentside.",
+    "content2": "{{ProductFullName}} kan bruges til at udvikle applikationer i ethvert udviklingsmiljø, der er rettet mod .NET-platformen. Den er kompatibel med alle .NET-baserede sprog og understøtter populære operativsystemer (Windows, Linux, MacOS), hvor Mono eller .NET frameworks (inklusive .NET Core) kan installeres.",
+    "tab_one": {
+      "description": "Følgende er en oversigt over {{ProductFullName}}:",
+      "right": {
+        "title": "Oversigt",
+        "content1": "* Automatisk registrering af filtype",
+        "content2": "* Konverter dokumenter",
+        "content3": "* Konverter præsentationer",
+        "content4": "* Konverter regneark",
+        "content5": "* Konverter rasterbilleder",
+        "content6": "* Konverter PDF-dokumenter",
+        "content7": "* Konverter andre formater",
+        "content8": "* Anvend vandmærke",
+        "content9": "* Angiv filadgangskode",
+        "content10": "* Tilpas konvertering"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} understøtter konvertering mellem alle populære og almindeligt anvendte [dokumentfilformater](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
+      "left": {
+        "title": "Konverter fra:",
+        "content1": "* **Dokumenter**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Regneark**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Præsentationer**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Billeder**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Bærbar**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTM, HTML, MHTML",
+        "content7": "* **Metafiler**: EMZ, WMZ",
+        "content8": "* **PhotoShop**: PSD",
+        "content9": "* **Projekt**: MPP, MPT, MPX",
+        "content10": "* **Outlook**: PST, OST",
+        "content11": "* **E-mail**: MSG, EML, EMLX",
+        "content12": "* **Diagrammer**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Andet**: VCF, PLT, LGS, OTG, MD, AI, LOG"
+      },
+      "right": {
+        "title": "Konvertere til:",
+        "content1": "* **Dokumenter**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Regneark**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Præsentationer**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Billeder**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
+        "content5": "* **Metafiler**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Diagrammer**: SVGZ",
+        "content7": "* **Bærbar**: PDF, XPS",
+        "content8": "* **HTML**: HTM, HTML, MHTML",
+        "content9": "**Andet**: MD"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} understøtter følgende operativsystemer, rammer og pakkeadministratorer:",
+      "left": {
+        "title1": "Operativsystemer",
+        "title2": "Understøttede rammer"
+      },
+      "right": {
+        "title1": "Pakkeadministrator",
+        "title2": "Udviklingsmiljøer"
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductFullName}} funktioner",
+    "content1": "Nem integration og målt licensering",
+    "content2": "Indstil standard zoomindstilling ved konvertering til ord, dias eller celler",
+    "content3": "Konverter til/fra alle populære rasterbilledformater & tildel billed-DPI, højde og bredde",
+    "content4": "Konverter PDF og billede til gråtoner og lineariser PDF-dokument til internettet",
+    "content5": "Angiv bogmærkeniveau, overskriftsniveau og udvidet niveau i Word til PDF/XPS-konvertering",
+    "content6": "Konfigurer og anbring vandmærke i konverteret dokument som baggrund til visning bag tekst",
+    "content7": "Gengiv e-mail-header under konvertering fra e-mail",
+    "content8": "Indstil brugerdefinerede skrifttyper og indlæs/erstat skrifttype under dokumentkonvertering",
+    "content9": "Indstil standardskrifttype til at erstatte manglende skrifttyper til konvertering af dokumenter, lysbilleder og regneark",
+    "content10": "Avancerede konverteringsmetoder til at returnere output som sti eller IO-stream",
+    "content11": "Konverter regneark med gitterlinjer og fjern kommentarer fra dias under konvertering",
+    "content12": "Konverter specifikke dokumentsider som PDF-format & Konverter specifikt celleområde i regneark",
+    "content13": "Vis skjulte ark og spring tomme rækker og kolonner over, mens regneark konverteres",
+    "content14": "Tæl det samlede antal sider i et dokument og sæt adgangskoden til et ubeskyttet dokument under konvertering",
+    "content15": "Mulighed for at fjerne anmærkninger og indlejrede filer fra PDF",
+    "content16": "Opret HTML 5-kompatibel markup ved konvertering til HTML",
+    "content17": "Registrer automatisk kildetype og returner alle mulige konverteringer ved konvertering fra stream",
+    "content18": "Mulighed for at returnere hver side i separat stream, mens du konverterer til PDF eller HTML",
+    "content19": "Vis/skjul markeringer, kommentarer og spor ændringer under konvertering fra Word",
+    "content20": "DOCX til Tiff G3-konvertering med skyggemulighed",
+    "content21": "Konverter specifikke layouts ved konvertering fra CAD-dokument",
+    "content22": "Automatisk navngivning ved lagring af konverteret dokument til fil",
+    "content23": "Metered Licensing understøttes til at blive faktureret baseret på brugen af ​​API'en",
+    "content24": "Konverter diagrammer til tekstbehandlingsfilformater",
+    "content25": "Tilføj sidetal under konvertering af HTML til tekstbehandlingsdokument",
+    "content26": "Konverter XML-dokumenter til ethvert format uden transformation",
+    "content27": "Overvåg filkonverteringsfremskridt (start, slut) direkte fra applikationen på klientsiden",
+    "more_feature": {
+      "title1": "Konverter nemt dokumentformater",
+      "content1": "Ved at bruge {{ProductFullName}} er det meget nemt at konvertere dokumentfilformat. Følgende eksempel viser dig, hvordan du konverterer en PDF-fil til en DOC-fil ved hjælp af {{ProgLang}}:",
+      "step_1": "Opret en forekomst af Converter-klassen og giv filen den fulde sti",
+      "step_2": "Opret og indstil ConvertOptions for den ønskede måltype.",
+      "step_3": "Kald Converter.Convert-metoden og send den fulde sti og format som en parameter",
+      "title2": "Konvertering til billedformater",
+      "content2": "{{ProductFullName}} kan bruges til at udvikle applikationer i ethvert udviklingsmiljø, der er rettet mod .NET-platformen. Den er kompatibel med alle .NET-baserede sprog og understøtter populære operativsystemer (Windows, Linux, MacOS), hvor Mono eller .NET frameworks (inklusive .NET Core) kan installeres.",
+      "title3": "Understøtter forskellige PDF-formattyper",
+      "content3": "{{ProductFullName}} API understøtter dokumentkonvertering til følgende PDF-typer/formater:"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion tilbyder dokumentkonverterings-API'er til andre populære udviklingsmiljøer",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion til Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
+      "platform": "Java",
+      "link": "/conversion/java/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Indlæs kildefilen {{FROM}} til konvertering",
+      "prepare_comment": "Forbered konverteringsmuligheder for målformatet {{TO}}",
+      "convert_comment": "Konverter til formatet {{TO}}"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} Dokumentomskakeling-API | Skakel PDF Word Excel PPTX HTML-beelde om",
+    "description": "{{ProgLang}} Dokumentomskakeling-API. Omskep PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-pos MSG EMLX, AutoCAD en beeldlêerformate."
+  },
+  "header": {
+    "title": "{{ProgLang}} API om 80+ lêerformate om te skakel",
+    "description": "Eenvoudige API om dokument- en beeldomskakelingsfunksionaliteit in {{ProgLang}}-toepassings te integreer sonder om enige eksterne sagteware te installeer.",
+    "button": {
+      "label": "Laai gratis proeflopie af",
+      "link": "https://downloads.groupdocs.com/conversion/java"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "Oorsig"
+      },
+      "button2": {
+        "text": "Kenmerke"
+      },
+      "button3": {
+        "text": "Ondersteuning"
+      },
+      "button4": {
+        "text": "Regstreekse Demo"
+      },
+      "button5": {
+        "text": "Pryse"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} kombineer 'n kragtige stel dokumentomskakelings-API's om beelde en dokumentformate in jou Java-toepassings te vertoon sonder om bykomende sagteware te installeer. Dit rasteriseer die dokumente inheems en omskep dit in SVG+HTML+CSS om die kwaliteit van dokumentbesigtiging te verbeter terwyl dit 'n ware teks, hoëtrou-uitset lewer. Gebruik die dokumentweergawe-API – bekyk vinnig PDF, HTML, XML, Microsoft Office Word, Excel-werkblaaie, PowerPoint-aanbiedings, Outlook-e-posse, Visio-diagramme, Project, metalêers, beelde en verskeie ander lêerformate met gemak en minder programmeringsgevare. Dit kan ook wagwoordbeskermde lêers vertoon en toelaat om dokumentvoorstelling as HTML-, beeld- of PDF-vorm na die weergawe te kry. Ons lêeromskakelingsbiblioteek is redelik aanpasbaar, aangesien dit jou toelaat om die hele dokument te vertoon, of dit gedeeltelik weer te gee om die proses te bespoedig. Deur GroupDocs.Conversion for Java API kan jy bladsye, spesifieke selreeks in 'n sigblad bekyk of selfs 'n individuele dokumentlaag in formate, soos PDF en CAD, weergee.",
+    "content2": "{{ProductFullName}} API laat jou toe om dokumente met/sonder aantekeninge of opmerkings vir ondersteunde lêerformate weer te gee. Dit stel jou ook in staat om pasgemaakte lettertipe-gidse by te voeg en basiese dokumentinligting soos lêertipe, uitbreiding, naam, bladsytelling, ens.",
+    "tab_one": {
+      "description": "Hier volg 'n oorsig van {{ProductFullName}}:",
+      "right": {
+        "title": "Oorsig",
+        "content1": "* Bespeur lêertipe outomaties",
+        "content2": "* Skakel dokumente om",
+        "content3": "* Skakel aanbiedings om",
+        "content4": "* Skakel sigblaaie om",
+        "content5": "* Skakel rasterbeelde om",
+        "content6": "* Skakel PDF-dokumente om",
+        "content7": "* Skakel ander formate om",
+        "content8": "* Pas watermerk toe",
+        "content9": "* Spesifiseer lêerwagwoord",
+        "content10": "* Pas omskakeling aan"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} ondersteun omskakeling tussen alle gewilde en algemeen gebruikte [dokumentlêerformate](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
+      "left": {
+        "title": "Skakel om van:",
+        "content1": "* **Dokumente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Sigblaaie**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Aanbiedings**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Prente**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Draagbaar**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTM, HTML, MHTML",
+        "content7": "* **Metalêers**: EMZ, WMZ",
+        "content8": "* **PhotoShop**: PSD",
+        "content9": "* **Projek**: MPP, MPT, MPX",
+        "content10": "* **Vooruitsigte**: PST, OST",
+        "content11": "* **E-pos**: MSG, EML, EMLX",
+        "content12": "* **Diagramme**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Ander**: VCF, PLT, LGS, OTG, MD, KI, LOG"
+      },
+      "right": {
+        "title": "Verander na:",
+        "content1": "* **Dokumente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Sigblaaie**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Aanbiedings**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Prente**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
+        "content5": "* **Metalêers**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Diagramme**: SVGZ",
+        "content7": "* ** Draagbaar**: PDF, XPS",
+        "content8": "* **HTML**: HTM, HTML, MHTML",
+        "content9": "**Ander**: MD"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} ondersteun die volgende bedryfstelsels, raamwerke en pakketbestuurders:",
+      "left": {
+        "title1": "Bedryfstelsels",
+        "title2": "Ondersteunde raamwerke"
+      },
+      "right": {
+        "title1": "Pakketbestuurder",
+        "title2": "Ontwikkelingsomgewings"
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductFullName}} Kenmerke",
+    "content1": "Maklike integrasie en gemete lisensiëring",
+    "content2": "Stel verstekzoemopsie wanneer u na woorde, skyfies of selle omskakel",
+    "content3": "Skakel om na/van alle gewilde rasterbeeldformate en ken beeld-DPI, hoogte en breedte toe",
+    "content4": "Skakel PDF en beeld om na grysskaal en lineariseer PDF-dokument vir die web",
+    "content5": "Spesifiseer boekmerkvlak, opskrifvlak en uitgebreide vlak in Word na PDF/XPS-omskakeling",
+    "content6": "Konfigureer en plaas watermerk in omgeskakelde dokument as agtergrond om agter teks te vertoon",
+    "content7": "Gee e-poskopskrif tydens omskakeling vanaf e-pos",
+    "content8": "Stel pasgemaakte lettertipegidse en laai/vervang lettertipe eksplisiet tydens dokumentomskakeling",
+    "content9": "Stel versteklettertipe om ontbrekende lettertipes vir dokumente, skyfies en sigblaaie-omskakeling te vervang",
+    "content10": "Gevorderde omskakelingsmetodes om die uitvoer as pad of IO-stroom terug te gee",
+    "content11": "Skakel sigblad om met roosterlyne en verwyder opmerkings van skyfies tydens omskakeling",
+    "content12": "Skakel spesifieke dokumentbladsye om as PDF-formaat en omskep spesifieke selreeks in sigblaaie",
+    "content13": "Wys versteekte velle en slaan leë rye en kolomme oor terwyl sigblaaie omgeskakel word",
+    "content14": "Tel totale bladsye van 'n dokument en stel wagwoord na onbeskermde dokument tydens omskakeling",
+    "content15": "Opsie om aantekeninge en ingebedde lêers uit PDF te verwyder",
+    "content16": "Skep HTML 5-voldoende opmaak wanneer jy na HTML omskakel",
+    "content17": "Bespeur brontipe outomaties en gee alle moontlike omskakelings terug wanneer u vanaf stroom omskakel",
+    "content18": "Vermoë om elke bladsy in 'n aparte stroom terug te keer terwyl u na PDF of HTML omskakel",
+    "content19": "Wys/versteek opmaak, opmerkings en spoor veranderinge na tydens omskakeling vanaf Word",
+    "content20": "DOCX na Tiff G3-omskakeling met skadu-opsie",
+    "content21": "Skakel spesifieke uitlegte om tydens omskakeling vanaf CAD-dokument",
+    "content22": "Outomatiese naamgewing wanneer omgeskakelde dokument na lêer gestoor word",
+    "content23": "Gemeterde lisensiëring ondersteun om gefaktureer te word gebaseer op die gebruik van die API",
+    "content24": "Skakel diagramme om na woordverwerkingslêerformate",
+    "content25": "Voeg bladsynommers by terwyl u HTML na woordverwerkingsdokument omskakel",
+    "content26": "Skakel XML-dokumente om na enige formaat sonder transformasie",
+    "content27": "Monitor lêeromskakelingsvordering (begin, einde) direk vanaf die toepassing aan die kliëntkant",
+    "more_feature": {
+      "title1": "Maklike omskakeling van dokumentformaat met Java",
+      "content1": "Jy kan lêerformaat van 'n menigte dokumenttipes omskep deur {{ProductFullName}} API te gebruik. Hier word u 'n paar reëls kode aangebied om 'n basiese dokumentomskakeling met Java uit te voer.",
+      "step_1": "Skep 'n instansie van die Converter-klas en voorsien die lêer met die volledige pad",
+      "step_2": "Skep en stel ConvertOptions vir gewenste teiken tipe.",
+      "step_3": "Roep die Converter.Convert metode en gee die volledige pad en formaat as 'n parameter",
+      "title2": "Lees dokument vanaf URL of pad vir omskakeling",
+      "content2": "Deur {{ProductFullName}} API te gebruik, kan jy invoerdokument vanaf 'n lêerpad sowel as 'n URL lees. Terwyl u die uitvoerdokument as 'n lêer kan stoor of die uitvoer direk in 'n stroom kan stuur.",
+      "title3": "Omvattende tegniese ondersteuning",
+      "content3": "{{ProductFullName}} is 'n eenvoudige en tot die punt API wat jy redelik maklik in jou Java-gebaseerde toepassings kan integreer. Om jou egter binne ’n japtrap aan die gang te kry, bied ons ook maklik om te volg kodevoorbeelde en omvattende API-dokumentasie."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion bied dokumentomskakelings-API's vir ander gewilde ontwikkelingsomgewings",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion vir .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
+      "platform": ".NET",
+      "link": "/conversion/net/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Laai bronlêer {{FROM}} vir omskakeling",
+      "prepare_comment": "Berei omskakelingsopsies voor vir teikenformaat {{TO}}",
+      "convert_comment": "Skakel om na {{TO}}-formaat"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "head": {
+    "title": ".NET, Java, mākoņa API un dokumentu konvertēšanas lietotnes, ko piedāvā GroupDocs",
+    "description": "Pārveidojiet populārus dokumentu un attēlu failu formātus jebkurā platformā, izmantojot uz lietotnēm un api balstītus risinājumus."
+  },
+  "header": {
+    "title": "Dokumentu un attēlu konvertēšanas risinājums",
+    "description": "Pārveidojiet populārus dokumentu un attēlu failu formātus jebkurā platformā, izmantojot uz lietotnēm un api balstītus risinājumus."
+  },
+  "apis": {
+    "api1": {
+      "title": "GroupDocs.Conversion High Code API ietver",
+      "label": "Skatīt visas High Code API",
+      "product1_content": "Native .NET API, lai precīzi konvertētu dokumentus un attēlu failu formātus jebkura veida .NET lietojumprogrammās. Atbalsta attēla ūdenszīmju pievienošanu konvertēšanas laikā.",
+      "product2_content": "Iespējojiet savas Java lietojumprogrammas, lai tās viegli konvertētu starp visiem nozares standarta dokumentu formātiem, tostarp Microsoft Office, PDF, HTML, attēliem un daudziem citiem."
+    },
+    "api2": {
+      "title": "GroupDocs.Conversion zema koda API ietver",
+      "label": "Skatīt visas zema koda API",
+      "product1_content": "Strādājiet ar cURL RESTful failu konvertēšanas API, lai savās lietojumprogrammās ērti konvertētu Microsoft Office, PDF, e-pasta, Project, HTML un citus izplatītus failu formātus.",
+      "product2_content": ".NET failu konvertēšanas REST API, lai viegli konvertētu Microsoft Office, PDF, e-pastu, projektu, HTML un citus izplatītus failu formātus jebkurā platformā, izmantojot Cloud SDK.",
+      "product3_content": "Bagātiniet savas mākoņa bāzes Java lietojumprogrammas ar uzlabotām dokumentu konvertēšanas funkcijām jebkurā platformā, kas spēj izsaukt REST API."
+    },
+    "api3": {
+      "title": "GroupDocs.Conversion Nav iekļautas koda lietotnes",
+      "label": "Skatīt visas bezkoda lietotnes",
+      "product1_content": "Konvertējiet vairāk nekā 50 dokumentu formātus uz PDF, XLSX, DOCX, XPS, HTML un citiem.",
+      "product2_content": "Bezmaksas lietotne DOC konvertēšanai XLS formātā no jebkuras tīmekļa pārlūkprogrammas.",
+      "product3_content": "Augšupielādējiet savus PDF dokumentus, lai tie vienmērīgi konvertētu uz Word (DOCX) formātu."
+    }
+  },
+  "testimonial": {
+    "designation": "Psihologs",
+    "content": "Es ar sajūsmu vēroju GroupDocs izaugsmi. Jūsu pilnas komandas atsaucība man ir ļoti palīdzējusi, jo, runājot ar kādu no GroupDocs, varu garantēt, ka kāds klausās un liek lietām notikt."
+  }
+}

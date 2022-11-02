@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "Convertidor de {{FROM}} a {{TO}} a {{ProgLang}}",
+    "meta_description": "Converteix {{FROM}} en {{TO}} a {{ProductName}} utilitzant unes quantes línies de codi. Utilitzeu l'API de conversió de documents de GroupDocs per convertir més de 160 formats de fitxer.",
+    "h1": "Converteix {{FROM}} a {{TO}} a {{ProgLang}}",
+    "h2": "Conversió de {{FROM}} a {{TO}} amb unes poques línies de codi {{ProductName}}",
+    "breadcrumb": "{{FROM}} a {{TO}} a {{ProgLang}}"
+  },
+  "about": {
+    "title": "Sobre l'API {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) es pot utilitzar per convertir Microsoft Word, Excel, PowerPoint, PDF, Visio i altres formats. GroupDocs.Conversion és una API autònoma adequada per a sistemes interns i de fons on es requereix un alt rendiment. No depèn de cap programari com Microsoft o Open Office."
+  },
+  "overview": {
+    "description1": "Convertiu fàcilment els vostres fitxers {{FROM}} a {{TO}} a {{ProductName}}. Podeu utilitzar només un parell de línies de codi {{ProgLang}} a qualsevol plataforma que trieu, com ara Windows, Linux, macOS.",
+    "description2": "Podeu provar la conversió de {{FROM}} a {{TO}} gratuïtament i avaluar la qualitat dels resultats de la conversió. Juntament amb escenaris senzills de conversió de fitxers, podeu provar opcions més avançades per carregar el fitxer d'origen {{FROM}} i per desar el resultat de sortida {{TO}}.",
+    "load_options_desc": "Per exemple, per al fitxer font {{FROM}} podeu utilitzar les opcions de càrrega següents:",
+    "load_options_item_1": "format de fitxer de detecció automàtica",
+    "load_options_item_2": "especifiqueu la contrasenya per als fitxers protegits (si el format de fitxer ho admet)",
+    "load_options_item_3": "substituïu els tipus de lletra que falten per preservar l'aspecte del document",
+    "convert_options_desc": "També hi ha opcions de conversió avançades per al fitxer {{TO}}:",
+    "convert_options_item_1": "convertir una pàgina de document o un interval de pàgines específics",
+    "convert_options_item_2": "afegeix una marca d'aigua al fitxer convertit {{TO}} i molts més",
+    "summary": "Un cop finalitzada la conversió, podeu desar el vostre fitxer {{TO}} a la ruta del fitxer local o a qualsevol emmagatzematge de tercers com ara FTP, Amazon S3, Google Drive, Dropbox, etc. Tingueu en compte: per convertir {{FROM}} a {{ PER}} no cal instal·lar cap programari addicional, com ara MS Office, Open Office, Adobe Acrobat Reader, etc."
+  },
+  "steps": {
+    "title_left": "Passos per convertir {{FROM}} a {{TO}} a {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) facilita als desenvolupadors convertir un fitxer {{FROM}} a {{TO}} amb unes poques línies de codi.",
+      "step_1": "Creeu una instància de la classe Converter i proporcioneu el fitxer {{FROM}} amb el camí complet",
+      "step_2": "Creeu i configureu ConvertOptions per al tipus {{TO}}.",
+      "step_3": "Truqueu al mètode Converter.Convert i passeu el camí i el format complets ({{TO}}) com a paràmetre"
+    },
+    "title_right": "Requisits del sistema",
+    "content_right": {
+      "description": "La conversió bàsica amb {{ProductFullName}} es pot fer en uns quants passos senzills. Les nostres API són compatibles amb totes les plataformes i sistemes operatius principals. Abans d'executar el codi següent, assegureu-vos que teniu els següents requisits previs instal·lats al vostre sistema.",
+      "step_1": "Sistemes operatius: Microsoft Windows, Linux, MacOS",
+      "step_2": "Entorns de desenvolupament: {{DevEnv}}",
+      "step_3": "Obteniu l'últim {{ProductFullName}} de [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Carregueu el fitxer font {{FROM}} per a la conversió",
+      "prepare_comment": "Prepareu opcions de conversió per al format objectiu {{TO}}",
+      "convert_comment": "Converteix al format {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} a {{TO}} Demostració en directe",
+    "content": "Convertiu {{FROM}} a {{TO}} ara visitant el lloc web [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). La demostració en línia té els següents avantatges"
+  },
+  "more_formats": {
+    "title": "Altres conversions de {{FROM}} admeses a {{ProgLang}}",
+    "content": "També podeu convertir {{FROM}} a molts altres formats de fitxer. Si us plau, consulteu la llista a continuació."
+  }
+}

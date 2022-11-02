@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} .NET Document Conversion API | Prevod obrázkov PDF Word Excel PPTX HTML",
+    "description": "{{ProgLang}} .NET Document Conversion API. Prevod PDF Word DOC DOCX, tabuľky Excel PPT PPTX, HTML, PSD, MPT MPP, E-mail MSG EMLX, AutoCAD a obrazové formáty."
+  },
+  "header": {
+    "title": ".NET API na konverziu 80+ formátov súborov",
+    "description": "Jednoduché API na integráciu funkcií konverzie dokumentov a obrázkov do aplikácií .NET bez inštalácie akéhokoľvek externého softvéru.",
+    "button": {
+      "label": "Stiahnite si bezplatnú skúšobnú verziu",
+      "link": "https://downloads.groupdocs.com/conversion/net"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "Prehľad"
+      },
+      "button2": {
+        "text": "Vlastnosti"
+      },
+      "button3": {
+        "text": "podpora"
+      },
+      "button4": {
+        "text": "Živá ukážka"
+      },
+      "button5": {
+        "text": "Stanovenie cien"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} ponúka jednoduchú sadu rozhraní API, ktorá umožňuje vývojárom vytvárať výkonné aplikácie na konverziu dokumentov v {{ProgLang}}, ASP.NET a ďalších technológiách súvisiacich s .NET. {{ProductFullName}} API poskytuje vašim koncovým používateľom rýchle, efektívne a spoľahlivé riešenie na konverziu súborov. Podporuje vykonávanie presných konverzií medzi všetkými populárnymi formátmi obchodných dokumentov vrátane: PDF, HTML, e-mailu, dokumentov Microsoft Word, tabuliek Excel, prezentácií PowerPoint, Project, Photoshop, CorelDraw, AutoCAD, diagramov, formátov rastrových obrázkov a mnohých ďalších. Knižnica prevodníka dokumentov automaticky rozpozná formát zdrojového dokumentu a poskytne vám všetku kontrolu na prevod celého dokumentu alebo konkrétnych stránok do požadovaného výstupného formátu. Je jednoduchšie nahradiť chýbajúce písma preferovanými a pridať textové alebo obrázkové vodoznaky na akúkoľvek stranu dokumentu.",
+    "content2": "{{ProductFullName}} je možné použiť na vývoj aplikácií v akomkoľvek vývojovom prostredí, ktoré sa zameriava na platformu .NET. Je kompatibilný so všetkými jazykmi založenými na .NET a podporuje populárne operačné systémy (Windows, Linux, MacOS), kde je možné nainštalovať rámce Mono alebo .NET (vrátane .NET Core).",
+    "tab_one": {
+      "description": "Nasleduje prehľad {{ProductFullName}}:",
+      "right": {
+        "title": "Prehľad",
+        "content1": "* Automatická detekcia typu súboru",
+        "content2": "* Konvertovať dokumenty",
+        "content3": "* Prevod prezentácií",
+        "content4": "* Prevod tabuliek",
+        "content5": "* Prevod rastrových obrázkov",
+        "content6": "* Prevod dokumentov PDF",
+        "content7": "* Previesť iné formáty",
+        "content8": "* Použite vodoznak",
+        "content9": "* Zadajte heslo súboru",
+        "content10": "* Prispôsobenie konverzie"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} podporuje konverziu medzi všetkými populárnymi a bežne používanými [formátmi súborov dokumentov](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
+      "left": {
+        "title": "Konvertovať z:",
+        "content1": "* **Dokumenty**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Tabuľky**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Prezentácie**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Obrázky**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Prenosné**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTM, HTML, MHTML",
+        "content7": "* **Metasúbory**: EMZ, WMZ",
+        "content8": "* **PhotoShop**: PSD",
+        "content9": "* **Projekt**: MPP, MPT, MPX",
+        "content10": "* **Outlook**: PST, OST",
+        "content11": "* **E-mail**: MSG, EML, EMLX",
+        "content12": "* **Diagramy**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Iné**: VCF, PLT, LGS, OTG, MD, AI, LOG"
+      },
+      "right": {
+        "title": "Premeniť na:",
+        "content1": "* **Dokumenty**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Tabuľky**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Prezentácie**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Obrázky**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
+        "content5": "* **Metasúbory**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Schémy**: SVGZ",
+        "content7": "* **Prenosné**: PDF, XPS",
+        "content8": "* **HTML**: HTM, HTML, MHTML",
+        "content9": "* **Iné**: MUDr"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} podporuje nasledujúce operačné systémy, rámce a správcov balíkov:",
+      "left": {
+        "title1": "Operačné systémy",
+        "title2": "Podporované rámce"
+      },
+      "right": {
+        "title1": "Správca balíkov",
+        "title2": "Vývojové prostredia"
+      }
+    }
+  },
+  "features": {
+    "title": "Funkcie {{ProductFullName}}",
+    "content1": "Jednoduchá integrácia a licencovanie podľa meraní",
+    "content2": "Nastavte predvolenú možnosť priblíženia pri prevode na slová, snímky alebo bunky",
+    "content3": "Konvertovať do/zo všetkých populárnych formátov rastrových obrázkov a priradiť obrázku DPI, výšku a šírku",
+    "content4": "Preveďte PDF a obrázok do odtieňov sivej a linearizujte dokument PDF pre web",
+    "content5": "Zadajte úroveň záložiek, úroveň nadpisu a rozšírenú úroveň v prevode Word do PDF/XPS",
+    "content6": "Nakonfigurujte a umiestnite vodoznak do konvertovaného dokumentu ako pozadie na zobrazenie za textom",
+    "content7": "Vykresliť hlavičku e-mailu počas prevodu z e-mailu",
+    "content8": "Nastaviť vlastné adresáre písiem a explicitne načítať/nahradiť písmo počas konverzie dokumentu",
+    "content9": "Nastavte predvolené písmo na nahradenie chýbajúcich písem pre konverziu dokumentov, snímok a tabuliek",
+    "content10": "Pokročilé metódy konverzie na vrátenie výstupu ako cestu alebo vstupný tok",
+    "content11": "Konvertujte hárok pomocou mriežok a odstráňte komentáre zo snímok počas konverzie",
+    "content12": "Previesť konkrétne strany dokumentu ako formát PDF a previesť špecifický rozsah buniek v tabuľkových procesoroch",
+    "content13": "Zobraziť skryté hárky a preskočiť prázdne riadky a stĺpce pri konverzii tabuliek",
+    "content14": "Spočítajte celkový počet strán dokumentu a počas konverzie nastavte heslo na nechránený dokument",
+    "content15": "Možnosť odstrániť anotácie a vložené súbory z PDF",
+    "content16": "Pri prevode do HTML vytvorte značkovanie vyhovujúce HTML 5",
+    "content17": "Automaticky rozpoznať typ zdroja a vrátiť všetky možné konverzie pri konverzii zo streamu",
+    "content18": "Možnosť vrátiť každú stránku v samostatnom streame pri prevode do PDF alebo HTML",
+    "content19": "Zobraziť/skryť značky, komentáre a sledovať zmeny pri prevode z programu Word",
+    "content20": "Konverzia DOCX na Tiff G3 s možnosťou tieňovania",
+    "content21": "Konvertovať špecifické rozloženia pri prevode z dokumentu CAD",
+    "content22": "Automatické pomenovanie pri ukladaní konvertovaného dokumentu do súboru",
+    "content23": "Metered Licensing Podporované fakturovanie na základe použitia API",
+    "content24": "Prevod diagramov do formátov súborov na spracovanie textu",
+    "content25": "Pridajte čísla strán pri prevode HTML na textový dokument",
+    "content26": "Konvertujte dokumenty XML do ľubovoľného formátu bez transformácie",
+    "content27": "Monitorujte priebeh konverzie súboru (začiatok, koniec) priamo z aplikácie na strane klienta",
+    "more_feature": {
+      "title1": "Jednoducho konvertujte formáty dokumentov",
+      "content1": "Pomocou {{ProductFullName}} je prevod formátu súboru dokumentu veľmi jednoduchý. Nasledujúci príklad ukazuje, ako previesť súbor PDF na súbor DOC pomocou {{ProgLang}}:",
+      "step_1": "Vytvorte inštanciu triedy Converter a poskytnite súboru úplnú cestu",
+      "step_2": "Vytvorte a nastavte ConvertOptions pre požadovaný typ cieľa.",
+      "step_3": "Zavolajte metódu Converter.Convert a zadajte úplnú cestu a formát ako parameter",
+      "title2": "Konverzia do obrazových formátov",
+      "content2": "{{ProductFullName}} je možné použiť na vývoj aplikácií v akomkoľvek vývojovom prostredí, ktoré sa zameriava na platformu .NET. Je kompatibilný so všetkými jazykmi založenými na .NET a podporuje populárne operačné systémy (Windows, Linux, MacOS), kde je možné nainštalovať rámce Mono alebo .NET (vrátane .NET Core).",
+      "title3": "Podporuje rôzne typy formátov PDF",
+      "content3": "{{ProductFullName}} API podporuje konverziu dokumentov do nasledujúcich typov/formátov PDF:"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion ponúka rozhrania API na konverziu dokumentov pre ďalšie populárne vývojové prostredia",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion for Java",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
+      "platform": "Java",
+      "link": "/conversion/java/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Načítať zdrojový súbor {{FROM}} na konverziu",
+      "prepare_comment": "Pripravte možnosti konverzie pre cieľový formát {{TO}}",
+      "convert_comment": "Konvertovať do formátu {{TO}}"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "{{FROM}} į {{TO}} konverteris {{ProgLang}}",
+    "meta_description": "Konvertuokite {{FROM}} į {{TO}} {{ProductName}} naudodami kelias kodo eilutes. Naudokite GroupDocs Document Conversion API norėdami konvertuoti daugiau nei 160 failų formatų.",
+    "h1": "Konvertuoti {{FROM}} į {{TO}} {{ProgLang}}",
+    "h2": "{{FROM}} į {{TO}} konversija su keliomis {{ProductName}} kodo eilutėmis",
+    "breadcrumb": "{{FROM}} į {{TO}} {{ProgLang}}"
+  },
+  "about": {
+    "title": "Apie {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) gali būti naudojamas konvertuoti Microsoft Word, Excel, PowerPoint, PDF, Visio ir kitus formatus. GroupDocs.Conversion yra atskira API, tinkanti vidinėms ir vidinėms sistemoms, kur reikalingas didelis našumas. Tai nepriklauso nuo jokios programinės įrangos, tokios kaip „Microsoft“ ar „Open Office“."
+  },
+  "overview": {
+    "description1": "Lengvai konvertuokite {{FROM}} failus į {{TO}} naudodami {{ProductName}}. Galite naudoti tik kelias {{ProgLang}} kodo eilutes bet kurioje pasirinktoje platformoje, pvz., „Windows“, „Linux“, „MacOS“.",
+    "description2": "Galite nemokamai pabandyti konvertuoti {{FROM}} į {{TO}} ir įvertinti konversijos rezultatų kokybę. Kartu su paprastais failų konvertavimo scenarijais galite išbandyti sudėtingesnes parinktis įkelti šaltinio {{FROM}} failą ir išsaugoti išvesties {{TO}} rezultatą.",
+    "load_options_desc": "Pavyzdžiui, šaltinio {{FROM}} failui galite naudoti šias įkėlimo parinktis:",
+    "load_options_item_1": "automatiškai aptikti failo formatą",
+    "load_options_item_2": "nurodykite apsaugotų failų slaptažodį (jei failo formatas jį palaiko)",
+    "load_options_item_3": "pakeisti trūkstamus šriftus, kad išsaugotumėte dokumento išvaizdą",
+    "convert_options_desc": "Taip pat yra išplėstinių failo {{TO}} konvertavimo parinkčių:",
+    "convert_options_item_1": "konvertuoti konkretų dokumento puslapį arba puslapių diapazoną",
+    "convert_options_item_2": "pridėti vandenženklį prie konvertuoto {{TO}} failo ir daug daugiau",
+    "summary": "Baigę konvertuoti galite išsaugoti savo {{TO}} failą vietiniame failo kelyje arba bet kurioje trečiosios šalies saugykloje, pvz., FTP, Amazon S3, Google diske, Dropbox ir kt. Atkreipkite dėmesį – konvertuoti {{FROM}} į {{ TO}} nereikia įdiegti jokios papildomos programinės įrangos, pvz., MS Office, Open Office, Adobe Acrobat Reader ir kt."
+  },
+  "steps": {
+    "title_left": "Veiksmai konvertuoti {{FROM}} į {{TO}} programoje {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) leidžia kūrėjams lengvai konvertuoti {{FROM}} failą į {{TO}} naudojant kelias kodo eilutes.",
+      "step_1": "Sukurkite konverterio klasės egzempliorių ir pateikite failą {{FROM}} su visu keliu",
+      "step_2": "Sukurkite ir nustatykite {{TO}} tipo konvertavimo parinktis.",
+      "step_3": "Iškvieskite metodą Converter.Convert ir nurodykite visą kelią bei formatą ({{TO}}) kaip parametrą"
+    },
+    "title_right": "Sistemos reikalavimai",
+    "content_right": {
+      "description": "Paprastą konversiją naudojant {{ProductFullName}} galima atlikti vos keliais paprastais veiksmais. Mūsų API palaiko visos pagrindinės platformos ir operacinės sistemos. Prieš vykdydami toliau pateiktą kodą, įsitikinkite, kad jūsų sistemoje yra įdiegtos šios būtinosios sąlygos.",
+      "step_1": "Operacinės sistemos: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kūrimo aplinkos: {{DevEnv}}",
+      "step_3": "Gaukite naujausią {{ProductFullName}} iš [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Įkelti šaltinio failą {{FROM}} konvertavimui",
+      "prepare_comment": "Paruoškite tikslinio formato {{TO}} konversijos parinktis",
+      "convert_comment": "Konvertuoti į {{TO}} formatą"
+    }
+  },
+  "demos": {
+    "title": "Nuo {{FROM}} iki {{TO}} tiesioginė demonstracija",
+    "content": "Konvertuokite {{FROM}} į {{TO}} dabar apsilankę [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) svetainėje. Internetinė demonstracinė versija turi šiuos privalumus"
+  },
+  "more_formats": {
+    "title": "Kitos palaikomos {{FROM}} konversijos {{ProgLang}}",
+    "content": "Taip pat galite konvertuoti {{FROM}} į daugelį kitų failų formatų. Žiūrėkite žemiau esantį sąrašą."
+  }
+}

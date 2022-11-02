@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "Teisenda {{FROM}} keeleks {{TO}} rakenduses {{ProgLang}}",
+    "meta_description": "Konversioon {{FROM}} tooteks {{TO}} tootes {{ProductName}} mõne koodireaga. Teisendage üle 160 failivormingu, kasutades toote {{ProductName}} GroupDocsi dokumendi teisendamise API-d",
+    "h1": "Teisenda {{FROM}} keeleks {{TO}} rakenduses {{ProgLang}}",
+    "h2": "Konversioon {{FROM}} tooteks {{TO}} mõne rea {{ProductName}} koodiga",
+    "breadcrumb": "{{FROM}} kuni {{TO}} programmis {{ProgLang}}"
+  },
+  "about": {
+    "title": "Teave toote {{ProductFullName}} API kohta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) on täiustatud failivormingu teisendamise API populaarsete pildi- ja dokumendivormingute (nt Microsoft Office, OpenDocument, PDF, HTML, meil, CAD) teisendamiseks. ja palju muud vaid mõne koodireaga. Native API tuvastab automaatselt originaaldokumentide vormingud ja pakub palju võimalusi teisendatud dokumentide kohandamiseks. Lisaks dokumendist teabe hankimise funktsioonile toetab see vaikimisi ka teisendustulemuste vahemällu salvestamist kohalikule kettale. Kuid mis tahes tüüpi vahemälu salvestamist saab toetada vastavate liideste rakendamisega - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis või mõni muu."
+  },
+  "overview": {
+    "description1": "Teisendage oma {{FROM}} failid failiks {{TO}} rakenduses {{ProductName}}. Selleks kulub vaid paar rida {{ProgLang}} koodi mis tahes teie valitud platvormil, nagu Windows, Linux, macOS.",
+    "description2": "Võite proovida {{FROM}} tasuta teisendada {{TO}}-ks ja hinnata konversioonitulemuste kvaliteeti. Lisaks lihtsatele faili teisendamise skriptidele saate proovida keerukamaid valikuid lähtefaili {{FROM}} laadimiseks ja väljundi {{TO}} salvestamiseks.",
+    "load_options_desc": "Näiteks lähtefaili {{FROM}} jaoks võite kasutada järgmisi laadimisvalikuid:",
+    "load_options_item_1": "failivormingu automaatne tuvastamine",
+    "load_options_item_2": "määrake kaitstud failidele parool (kui failivorming seda toetab)",
+    "load_options_item_3": "asendage puuduvad fondid, et säilitada dokumendi välimus",
+    "convert_options_desc": "Failile {{TO}} on ka täpsemad teisendusvalikud:",
+    "convert_options_item_1": "teisendada dokumendi teatud leht või lehekülgede vahemik",
+    "convert_options_item_2": "lisage teisendatud {{TO}}-le vesimärk",
+    "summary": "Kui teisendamine on lõpetatud, saate salvestada faili {{TO}} oma kohalikku failiteele või mis tahes kolmanda osapoole salvestusruumi, nagu FTP, Amazon S3, Google Drive, Dropbox jne. Pange tähele – teisendada {{FROM}} kuni {{TO}}, ei pea te installima täiendavat tarkvara, nagu MS Office, Open Office, Adobe Acrobat Reader jne."
+  },
+  "steps": {
+    "title_left": "Toimingud {{FROM}} teisendamiseks {{TO}} keeleks {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) võimaldab arendajatel mõne koodirea abil hõlpsasti teisendada faili {{FROM}} failiks {{TO}}.",
+      "step_1": "Looge klassist Converter uus eksemplar ja laadige üles fail {{FROM}} koos täieliku teega",
+      "step_2": "Määra dokumenditüübi teisendusvalikud väärtusele {{TO}}",
+      "step_3": "Kutsuge meetod convert() ja edastage parameetrina dokumendi nimi (täielik tee) ja vorming ({{TO}})"
+    },
+    "title_right": "Nõuded süsteemile",
+    "content_right": {
+      "description": "Lihtkonversiooni {{ProductFullName}} API-ga saab teha vaid mõne koodireaga. Meie API-sid toetavad kõik suuremad platvormid ja operatsioonisüsteemid. Enne alloleva koodi käivitamist veenduge, et teie süsteemi on installitud järgmised eeltingimused.",
+      "step_1": "Operatsioonisüsteemid: Microsoft Windows, Linux, MacOS",
+      "step_2": "Arenduskeskkonnad: {{DevEnv}}",
+      "step_3": "Hankige uusim {{ProductFullName}} kasutajalt [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Laadige teisendamiseks lähtefail {{FROM}}",
+      "prepare_comment": "Valmistage ette sihtvormingu {{TO}} konversioonivalikud",
+      "convert_comment": "Teisenda vormingusse {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} kuni {{TO}} reaalajas demo",
+    "content": "Külastage meie [GroupDocs.Conversion App] (https://products.groupdocs.app/conversion/family) veebisaiti ja proovige kohe {{FROM}} konversiooni {{TO}}. Tasuta demol on järgmised eelised"
+  },
+  "more_formats": {
+    "title": "Muud toetatud {{FROM}} konversioonid rakenduses {{ProgLang}}",
+    "content": "Samuti saate teisendada faili {{FROM}} paljudesse teistesse failivormingutesse. Vaadake allolevat loendit."
+  }
+}

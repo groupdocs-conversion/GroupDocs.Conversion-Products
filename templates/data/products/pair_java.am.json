@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "በ{{ProgLang}} ውስጥ {{FROM}} ወደ {{TO}} ቀይር",
+    "meta_description": "{{FROM}} ወደ {{TO}} መለወጥ በ{{ProductName}} ከጥቂት የኮድ መስመሮች ጋር። የቡድንDocs ሰነድ ቅየራ ኤፒአይን ለ{{ProductName}} በመጠቀም ከ160 በላይ የፋይል ቅርጸቶችን ቀይር",
+    "h1": "በ{{ProgLang}} ውስጥ {{FROM}} ወደ {{TO}} ቀይር",
+    "h2": "{{FROM}} ወደ {{TO}} መለወጥ በጥቂት የ{{ProductName}} ኮድ መስመሮች",
+    "breadcrumb": "{{FROM}} ወደ {{TO}} በ{{ProgLang}} ውስጥ"
+  },
+  "about": {
+    "title": "ስለ {{ProductFullName}} ኤፒአይ",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) እንደ Microsoft Office፣ OpenDocument፣ PDF፣ HTML፣ ኢሜይል፣ CAD ባሉ ታዋቂ የምስል እና የሰነድ ቅርጸቶች መካከል ለመለወጥ የላቀ የፋይል ቅርጸት ልወጣ ኤፒአይ ነው። እና ብዙ ተጨማሪ በጥቂት የኮድ መስመሮች ብቻ። ቤተኛ ኤፒአይ የዋናውን ሰነዶች ቅርጸቶች በራስ ሰር ያገኛል እና የተቀየሩትን ሰነዶች ለማበጀት ብዙ አማራጮችን ይሰጣል። መረጃን ከሰነድ የማውጣት ተግባር ጋር ፣የልወጣ ውጤቶቹን በነባሪነት ወደ አካባቢያዊ ዲስክ መሸጎጥ ይደግፋል። ነገር ግን፣ ማንኛውም አይነት የመሸጎጫ ማከማቻ ተገቢውን በይነገጾች - Amazon S3፣ Dropbox፣ Google Drive፣ Windows Azure፣ Reddis ወይም ሌሎችን በመተግበር ሊደገፍ ይችላል።"
+  },
+  "overview": {
+    "description1": "የእርስዎን {{FROM}} ፋይሎች በ{{ProductName}} ውስጥ ወደ {{TO}} ይለውጡ። እንደ ዊንዶውስ፣ ሊኑክስ፣ ማክኦኤስ ባሉ በማንኛውም መድረክ ላይ የ{{ProgLang}} ኮድ ሁለት መስመሮችን ብቻ ነው የሚወስደው።",
+    "description2": "{{FROM}}ን ወደ {{TO}} በነጻ ለመለወጥ መሞከር እና የልወጣ ውጤቶቹን ጥራት መገምገም ይችላሉ። ከቀላል የፋይል ልወጣ ስክሪፕቶች ጋር፣ የ{{FROM}} ምንጭ ፋይልን ለመጫን እና የ{{TO}} ውፅዓትን ለማከማቸት የበለጠ የተራቀቁ አማራጮችን መሞከር ይችላሉ።",
+    "load_options_desc": "ለምሳሌ፣ ለ{{FROM}} ምንጭ ፋይል የሚከተሉትን የመጫኛ አማራጮች መጠቀም ትችላለህ፡-",
+    "load_options_item_1": "የፋይል ቅርጸቱን በራስ ሰር ማግኘት",
+    "load_options_item_2": "ለተጠበቁ ፋይሎች የይለፍ ቃል ይጥቀሱ (የፋይል ቅርጸቱ የሚደግፈው ከሆነ)",
+    "load_options_item_3": "የሰነዱን ገጽታ ለመጠበቅ የጎደሉትን ቅርጸ-ቁምፊዎች ይተኩ",
+    "convert_options_desc": "ለ{{TO}} ፋይል የላቁ የመቀየሪያ አማራጮችም አሉ፡",
+    "convert_options_item_1": "የአንድ ሰነድ የተወሰነ ገጽ ወይም የገጾቹን ክልል ይለውጡ",
+    "convert_options_item_2": "ወደ ተለወጠው {{TO}} የውሃ ምልክት አክል",
+    "summary": "ልወጣው ከተጠናቀቀ በኋላ የ{{TO}} ፋይልን ወደ አካባቢያዊ የፋይል ዱካ ወይም ወደ ማንኛውም የሶስተኛ ወገን ማከማቻ እንደ ኤፍቲፒ፣ Amazon S3፣ Google Drive፣ Dropbox ወዘተ ማስቀመጥ ትችላለህ። እባክዎን ያስተውሉ - ለመቀየር {{FROM}} ወደ {{TO}}፣ እንደ MS Office፣ Open Office፣ Adobe Acrobat Reader ወዘተ ያሉ ተጨማሪ ሶፍትዌሮችን መጫን አያስፈልግዎትም።"
+  },
+  "steps": {
+    "title_left": "{{FROM}}ን ወደ {{TO}} በ{{ProgLang}} ለመቀየር ደረጃዎች",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ገንቢዎች በቀላሉ {{FROM}} ፋይልን ወደ {{TO}} በጥቂት የኮድ መስመሮች እንዲቀይሩ ያስችላቸዋል።",
+      "step_1": "የመቀየሪያ ክፍል አዲስ ምሳሌ ይፍጠሩ እና ፋይሉን {{FROM}} ከሙሉ ዱካ ጋር ይስቀሉ።",
+      "step_2": "ለሰነድ አይነት ConvertOptionsን ወደ {{TO}} ያቀናብሩ",
+      "step_3": "የመቀየሪያ() ዘዴን ይደውሉ እና የሰነዱን ስም (ሙሉ ዱካ) እና ቅርጸት ({{TO}}) እንደ መለኪያ ያስተላልፉ"
+    },
+    "title_right": "የስርዓት መስፈርቶች",
+    "content_right": {
+      "description": "በ{{ProductFullName}} ኤፒአይ መሰረታዊ ልወጣ በጥቂት የኮድ መስመሮች ሊከናወን ይችላል። የእኛ ኤፒአይዎች በሁሉም ዋና መድረኮች እና ኦፕሬቲንግ ሲስተሞች ላይ ይደገፋሉ። ከዚህ በታች ያለውን ኮድ ከመፈፀምዎ በፊት የሚከተሉት ቅድመ ሁኔታዎች በስርዓትዎ ላይ መጫኑን ያረጋግጡ።",
+      "step_1": "ስርዓተ ክወናዎች-ማይክሮሶፍት ዊንዶውስ ፣ ሊኑክስ ፣ ማክኦኤስ",
+      "step_2": "የልማት አካባቢዎች፡ {{DevEnv}}",
+      "step_3": "የቅርብ ጊዜውን {{ProductFullName}} ከ[{{RepoName}}]({{RepoUrl}}) ያግኙ"
+    },
+    "code": {
+      "load_comment": "ለመለወጥ የምንጭ ፋይል {{FROM}}ን ጫን",
+      "prepare_comment": "ለታለመ ቅርጸት {{TO}} የልወጣ አማራጮችን ያዘጋጁ",
+      "convert_comment": "ወደ {{TO}} ቅርጸት ቀይር"
+    }
+  },
+  "demos": {
+    "title": "ከ{{FROM}} ወደ {{TO}} የቀጥታ ማሳያ",
+    "content": "የእኛን [GroupDocs.Conversion መተግበሪያ](https://products.groupdocs.app/conversion/family) ድረ-ገጽ ይጎብኙ እና {{FROM}} ወደ {{TO}} ለመቀየር ይሞክሩ። ነፃ ማሳያው የሚከተሉት ጥቅሞች አሉት"
+  },
+  "more_formats": {
+    "title": "ሌሎች የሚደገፉ {{FROM}} ልወጣዎች በ{{ProgLang}}",
+    "content": "እንዲሁም {{FROM}}ን ወደ ሌሎች ብዙ የፋይል ቅርጸቶች መቀየር ትችላለህ። እባክዎን ከዚህ በታች ያለውን ዝርዝር ይመልከቱ።"
+  }
+}

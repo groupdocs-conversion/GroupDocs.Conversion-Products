@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "{{FROM}} na {{TO}}-omskakelaar in {{ProgLang}}",
+    "meta_description": "Skakel {{FROM}} om na {{TO}} in {{ProductName}} deur 'n paar reëls kode te gebruik. Gebruik die GroupDocs Document Conversion API om meer as 160 lêerformate om te skakel.",
+    "h1": "Skakel {{FROM}} om na {{TO}} in {{ProgLang}}",
+    "h2": "{{FROM}} na {{TO}} omskakeling met 'n paar reëls van {{ProductName}}-kode",
+    "breadcrumb": "{{FROM}} na {{TO}} in {{ProgLang}}"
+  },
+  "about": {
+    "title": "Oor {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) kan gebruik word om Microsoft Word, Excel, PowerPoint, PDF, Visio en ander formate om te skakel. GroupDocs.Conversion is 'n selfstandige API wat geskik is vir back-end en interne stelsels waar hoë werkverrigting vereis word. Dit hang nie af van enige sagteware soos Microsoft of Open Office nie."
+  },
+  "overview": {
+    "description1": "Skakel jou {{FROM}} lêers maklik om na {{TO}} in {{ProductName}}. Jy kan net 'n paar {{ProgLang}} kodelyne gebruik in enige platform van jou keuse soos - Windows, Linux, macOS.",
+    "description2": "Jy kan die omskakeling van {{FROM}} na {{TO}} gratis probeer en die kwaliteit van omskakelingsresultate evalueer. Saam met eenvoudige lêeromskakelingscenario's kan jy meer gevorderde opsies probeer om die bron-{{FROM}}-lêer te laai en die uitset-{{TO}}-resultaat te stoor.",
+    "load_options_desc": "Byvoorbeeld, vir die bron {{FROM}} lêer kan jy die volgende laai opsies gebruik:",
+    "load_options_item_1": "outomatiese opsporing van lêerformaat",
+    "load_options_item_2": "spesifiseer wagwoord vir beskermde lêers (indien lêerformaat dit ondersteun)",
+    "load_options_item_3": "vervang ontbrekende lettertipes om dokumentvoorkoms te behou",
+    "convert_options_desc": "Daar is ook gevorderde omskakelopsies vir die {{TO}}-lêer:",
+    "convert_options_item_1": "omskep spesifieke dokumentbladsy of bladsyreeks",
+    "convert_options_item_2": "voeg 'n watermerk by die omgeskakelde {{TO}}-lêer en vele meer",
+    "summary": "Sodra omskakeling voltooi is, kan jy jou {{TO}}-lêer stoor na die plaaslike lêerpad of enige derdeparty-berging soos FTP, Amazon S3, Google Drive, Dropbox, ens. Neem asseblief kennis - om {{FROM}} om te skakel na {{ TO}} is daar geen behoefte aan enige addisionele sagteware geïnstalleer nie - soos MS Office, Open Office, Adobe Acrobat Reader ens."
+  },
+  "steps": {
+    "title_left": "Stappe om {{FROM}} na {{TO}} om te skakel in {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) maak dit maklik vir ontwikkelaars om 'n {{FROM}} lêer om te skakel na {{TO}} met 'n paar reëls kode.",
+      "step_1": "Skep 'n instansie van die Converter-klas en verskaf die lêer {{FROM}} met die volledige pad",
+      "step_2": "Skep en stel ConvertOptions vir {{TO}} tipe.",
+      "step_3": "Roep die Converter.Convert-metode en gee die volle pad en formaat ({{TO}}) as 'n parameter deur"
+    },
+    "title_right": "Stelselvereistes",
+    "content_right": {
+      "description": "Basiese omskakeling met {{ProductFullName}} kan in net 'n paar eenvoudige stappe gedoen word. Ons API's word op alle groot platforms en bedryfstelsels ondersteun. Voordat u die kode hieronder uitvoer, maak seker dat u die volgende voorvereistes op u stelsel geïnstalleer het.",
+      "step_1": "Bedryfstelsels: Microsoft Windows, Linux, MacOS",
+      "step_2": "Ontwikkelingsomgewings: {{DevEnv}}",
+      "step_3": "Kry die nuutste {{ProductFullName}} van [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Laai bronlêer {{FROM}} vir omskakeling",
+      "prepare_comment": "Berei omskakelingsopsies voor vir teikenformaat {{TO}}",
+      "convert_comment": "Skakel om na {{TO}}-formaat"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} na {{TO}} Regstreekse Demo",
+    "content": "Skakel {{FROM}} nou na {{TO}} deur die [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) webwerf te besoek. Aanlyn demo het die volgende voordele"
+  },
+  "more_formats": {
+    "title": "Ander ondersteunde {{FROM}} omskakelings in {{ProgLang}}",
+    "content": "Jy kan ook {{FROM}} na baie ander lêerformate omskakel. Sien asseblief die lys hieronder."
+  }
+}

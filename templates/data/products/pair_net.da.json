@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "{{FROM}} til {{TO}} Konverter i {{ProgLang}}",
+    "meta_description": "Konverter {{FROM}} til {{TO}} i {{ProductName}} ved hjælp af et par linjer kode. Brug GroupDocs Document Conversion API til at konvertere over 160 filformater.",
+    "h1": "Konverter {{FROM}} til {{TO}} i {{ProgLang}}",
+    "h2": "{{FROM}} til {{TO}} konvertering med et par linjer med {{ProductName}} kode",
+    "breadcrumb": "{{FROM}} til {{TO}} i {{ProgLang}}"
+  },
+  "about": {
+    "title": "Om {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) kan bruges til at konvertere Microsoft Word, Excel, PowerPoint, PDF, Visio og andre formater. GroupDocs.Conversion er en selvstændig API, der er velegnet til back-end og interne systemer, hvor høj ydeevne er påkrævet. Det afhænger ikke af nogen software som Microsoft eller Open Office."
+  },
+  "overview": {
+    "description1": "Konverter dine {{FROM}} filer til {{TO}} i {{ProductName}} nemt. Du kan kun bruge et par {{ProgLang}} kodelinjer i enhver platform efter eget valg, såsom - Windows, Linux, macOS.",
+    "description2": "Du kan prøve {{FROM}} til {{TO}} konvertering gratis og evaluere kvaliteten af ​​konverteringsresultaterne. Sammen med simple filkonverteringsscenarier kan du prøve mere avancerede muligheder for at indlæse kilden {{FROM}} fil og for at gemme output {{TO}} resultat.",
+    "load_options_desc": "For eksempel kan du bruge følgende indlæsningsmuligheder for kilden {{FROM}}:",
+    "load_options_item_1": "automatisk registrering af filformat",
+    "load_options_item_2": "angiv adgangskode til beskyttede filer (hvis filformatet understøtter det)",
+    "load_options_item_3": "udskift manglende skrifttyper for at bevare dokumentets udseende",
+    "convert_options_desc": "Der er også avancerede konverteringsmuligheder for filen {{TO}}:",
+    "convert_options_item_1": "konvertere specifik dokumentside eller sideområde",
+    "convert_options_item_2": "tilføje et vandmærke til den konverterede {{TO}} fil og mange flere",
+    "summary": "Når konverteringen er fuldført, kan du gemme din {{TO}}-fil til den lokale filsti eller ethvert tredjepartslager som FTP, Amazon S3, Google Drive, Dropbox osv. Bemærk venligst - for at konvertere {{FROM}} til {{ TO}} er der ikke behov for yderligere software installeret - som MS Office, Open Office, Adobe Acrobat Reader osv."
+  },
+  "steps": {
+    "title_left": "Trin til at konvertere {{FROM}} til {{TO}} i {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) gør det nemt for udviklere at konvertere en {{FROM}} fil til {{TO}} med et par linjer kode.",
+      "step_1": "Opret en forekomst af Converter-klassen og giv filen {{FROM}} med den fulde sti",
+      "step_2": "Opret og indstil Konverteringsindstillinger for typen {{TO}}.",
+      "step_3": "Kald Converter.Convert-metoden og send den fulde sti og format ({{TO}}) som en parameter"
+    },
+    "title_right": "Systemkrav",
+    "content_right": {
+      "description": "Grundlæggende konvertering med {{ProductFullName}} kan udføres med nogle få enkle trin. Vores API'er understøttes på alle større platforme og operativsystemer. Før du udfører koden nedenfor, skal du sørge for, at du har følgende forudsætninger installeret på dit system.",
+      "step_1": "Operativsystemer: Microsoft Windows, Linux, MacOS",
+      "step_2": "Udviklingsmiljøer: {{DevEnv}}",
+      "step_3": "Få den seneste {{ProductFullName}} fra [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Indlæs kildefilen {{FROM}} til konvertering",
+      "prepare_comment": "Forbered konverteringsmuligheder for målformatet {{TO}}",
+      "convert_comment": "Konverter til formatet {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} til {{TO}} Live Demo",
+    "content": "Konverter {{FROM}} til {{TO}} nu ved at besøge webstedet [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Online demo har følgende fordele"
+  },
+  "more_formats": {
+    "title": "Andre understøttede {{FROM}} konverteringer i {{ProgLang}}",
+    "content": "Du kan også konvertere {{FROM}} til mange andre filformater. Se venligst listen nedenfor."
+  }
+}

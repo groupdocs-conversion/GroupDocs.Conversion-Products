@@ -1,0 +1,36 @@
+{
+  "head": {
+    "title": ".NET, Java, API de núvol i aplicacions de conversió de documents de GroupDocs",
+    "description": "Converteix formats de fitxers d'imatge i documents populars a qualsevol plataforma amb solucions basades en aplicacions i API."
+  },
+  "header": {
+    "title": "Solució de conversió de documents i imatges",
+    "description": "Converteix formats de fitxers d'imatge i documents populars a qualsevol plataforma amb solucions basades en aplicacions i API."
+  },
+  "apis": {
+    "api1": {
+      "title": "GroupDocs.Conversion High Code API Inclou",
+      "label": "Mostra totes les API High Code",
+      "product1_content": "API nativa de .NET per convertir amb precisió documents i formats de fitxers d'imatge en qualsevol tipus d'aplicació .NET. Admet l'addició de marques d'aigua d'imatge durant la conversió.",
+      "product2_content": "Habiliteu les vostres aplicacions Java per convertir fàcilment entre tots els formats de documents estàndard del sector, com ara Microsoft Office, PDF, HTML, imatges i molts altres."
+    },
+    "api2": {
+      "title": "Les API de codi baix de GroupDocs.Conversion inclouen",
+      "label": "Mostra totes les API de codi baix",
+      "product1_content": "Treballeu amb l'API de conversió de fitxers cURL RESTful per convertir fàcilment Microsoft Office, PDF, Correu electrònic, Project, HTML i altres formats de fitxer habituals a les vostres aplicacions.",
+      "product2_content": "API REST de conversió de fitxers .NET per convertir fàcilment Microsoft Office, PDF, Correu electrònic, Projecte, HTML i altres formats de fitxer habituals en qualsevol plataforma utilitzant Cloud SDK.",
+      "product3_content": "Enriquiu les vostres aplicacions Java basades en núvol amb funcions avançades de conversió de documents en qualsevol plataforma capaç de trucar a API REST."
+    },
+    "api3": {
+      "title": "GroupDocs.Conversion No inclou aplicacions de codi",
+      "label": "Veure totes les aplicacions sense codi",
+      "product1_content": "Converteix més de 50 formats de document a PDF, XLSX, DOCX, XPS, HTML i més.",
+      "product2_content": "Aplicació gratuïta per convertir DOC a format XLS des de qualsevol navegador web.",
+      "product3_content": "Carregueu els vostres documents PDF per a una conversió perfecta al format Word (DOCX)."
+    }
+  },
+  "testimonial": {
+    "designation": "Psicòloga",
+    "content": "Estic veient amb il·lusió el creixement de GroupDocs. La capacitat de resposta de tot el vostre equip m'ha ajudat molt, quan parlo amb algú de GroupDocs, puc garantir que algú m'escolta i fa que les coses passin."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "Konvertuoti {{FROM}} į {{TO}} {{ProgLang}}",
+    "meta_description": "{{FROM}} į {{TO}} konversija {{ProductName}} su keliomis kodo eilutėmis. Konvertuokite daugiau nei 160 failų formatų naudodami GroupDocs dokumentų konvertavimo API, skirtą {{ProductName}}",
+    "h1": "Konvertuoti {{FROM}} į {{TO}} {{ProgLang}}",
+    "h2": "{{FROM}} į {{TO}} konversija su keliomis {{ProductName}} kodo eilutėmis",
+    "breadcrumb": "{{FROM}} į {{TO}} {{ProgLang}}"
+  },
+  "about": {
+    "title": "Apie {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) yra išplėstinė failų formato konvertavimo API, skirta konvertuoti iš populiarių vaizdo ir dokumentų formatų, pvz., Microsoft Office, OpenDocument, PDF, HTML, el. pašto, CAD. ir daug daugiau su keliomis kodo eilutėmis. Vietinė API automatiškai aptinka originalių dokumentų formatus ir siūlo daugybę konvertuotų dokumentų tinkinimo parinkčių. Kartu su informacijos ištraukimo iš dokumento funkcija, ji taip pat palaiko konvertavimo rezultatų talpyklą į vietinį diską pagal numatytuosius nustatymus. Tačiau bet kokio tipo talpyklos saugykla gali būti palaikoma įdiegus atitinkamas sąsajas – Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis ar bet kurias kitas."
+  },
+  "overview": {
+    "description1": "Konvertuokite {{FROM}} failus į {{TO}} naudodami {{ProductName}}. Tam reikia tik kelių {{ProgLang}} kodo eilučių bet kurioje jūsų pasirinktoje platformoje, pvz., „Windows“, „Linux“, „MacOS“.",
+    "description2": "Galite pabandyti konvertuoti {{FROM}} į {{TO}} nemokamai ir įvertinti konversijos rezultatų kokybę. Kartu su paprastais failų konvertavimo scenarijais galite išbandyti sudėtingesnes {{FROM}} šaltinio failo įkėlimo ir {{TO}} išvesties saugojimo parinktis.",
+    "load_options_desc": "Pavyzdžiui, šaltinio {{FROM}} failui galite naudoti šias įkėlimo parinktis:",
+    "load_options_item_1": "automatinis failo formato aptikimas",
+    "load_options_item_2": "nurodykite apsaugotų failų slaptažodį (jei failo formatas jį palaiko)",
+    "load_options_item_3": "pakeiskite trūkstamus šriftus, kad išsaugotumėte dokumento išvaizdą",
+    "convert_options_desc": "Taip pat yra išplėstinių failo {{TO}} konvertavimo parinkčių:",
+    "convert_options_item_1": "konvertuoti konkretų dokumento puslapį arba puslapių diapazoną",
+    "convert_options_item_2": "pridėti vandenženklį prie konvertuoto {{TO}}",
+    "summary": "Kai konvertavimas bus baigtas, galite išsaugoti {{TO}} failą vietiniame failo kelyje arba bet kurioje trečiosios šalies saugykloje, pvz., FTP, Amazon S3, Google diske, Dropbox ir kt. Atkreipkite dėmesį – norėdami konvertuoti {{FROM}} į {{TO}}, jums nereikia diegti jokios papildomos programinės įrangos, tokios kaip MS Office, Open Office, Adobe Acrobat Reader ir kt."
+  },
+  "steps": {
+    "title_left": "Veiksmai konvertuoti {{FROM}} į {{TO}} programoje {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) leidžia kūrėjams lengvai konvertuoti {{FROM}} failą į {{TO}} naudojant kelias kodo eilutes.",
+      "step_1": "Sukurkite naują konverterio klasės egzempliorių ir įkelkite failą {{FROM}} su visu keliu",
+      "step_2": "Nustatyti dokumento tipo konvertavimo parinktis į {{TO}}",
+      "step_3": "Iškvieskite konvertavimo () metodą ir kaip parametrą pateikite dokumento pavadinimą (visą kelią) ir formatą ({{TO}})"
+    },
+    "title_right": "Sistemos reikalavimai",
+    "content_right": {
+      "description": "Paprastas konvertavimas naudojant {{ProductFullName}} API gali būti atliktas naudojant tik kelias kodo eilutes. Mūsų API palaiko visos pagrindinės platformos ir operacinės sistemos. Prieš vykdydami toliau pateiktą kodą, įsitikinkite, kad jūsų sistemoje yra įdiegtos šios būtinosios sąlygos.",
+      "step_1": "Operacinės sistemos: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kūrimo aplinkos: {{DevEnv}}",
+      "step_3": "Gaukite naujausią {{ProductFullName}} iš [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Įkelti šaltinio failą {{FROM}} konvertavimui",
+      "prepare_comment": "Paruoškite tikslinio formato {{TO}} konversijos parinktis",
+      "convert_comment": "Konvertuoti į {{TO}} formatą"
+    }
+  },
+  "demos": {
+    "title": "Nuo {{FROM}} iki {{TO}} tiesioginė demonstracija",
+    "content": "Apsilankykite mūsų [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) svetainėje ir pabandykite konvertuoti {{FROM}} į {{TO}} dabar. Nemokama demonstracinė versija turi šiuos privalumus"
+  },
+  "more_formats": {
+    "title": "Kitos palaikomos {{FROM}} konversijos {{ProgLang}}",
+    "content": "Taip pat galite konvertuoti {{FROM}} į daugelį kitų failų formatų. Žiūrėkite žemiau esantį sąrašą."
+  }
+}

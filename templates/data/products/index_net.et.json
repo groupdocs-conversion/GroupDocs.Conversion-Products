@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} .NET Document Conversion API | Teisendage PDF Wordi Excel PPTX HTML-pildid",
+    "description": "{{ProgLang}} .NET Document Conversion API. Teisendage PDF Wordi DOC DOCX, Exceli arvutustabelid PPT PPTX, HTML, PSD, MPT MPP, MSG EMLX, AutoCAD ja pildifailivormingud."
+  },
+  "header": {
+    "title": ".NET API 80+ failivormingu teisendamiseks",
+    "description": "Lihtne API dokumentide ja kujutiste teisendamise funktsioonide integreerimiseks .NET-i rakendustesse ilma välist tarkvara installimata.",
+    "button": {
+      "label": "Laadige alla tasuta prooviversioon",
+      "link": "https://downloads.groupdocs.com/conversion/net"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "Ülevaade"
+      },
+      "button2": {
+        "text": "Funktsioonid"
+      },
+      "button3": {
+        "text": "Toetus"
+      },
+      "button4": {
+        "text": "Live demo"
+      },
+      "button5": {
+        "text": "Hinnakujundus"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} pakub lihtsat API-liideste komplekti, mis võimaldab arendajatel luua võimsaid dokumentide teisendamise rakendusi {{ProgLang}}-s, ASP.NET-is ja muudes .NET-iga seotud tehnoloogiates. {{ProductFullName}} API pakub teie lõppkasutajatele kiiret, tõhusat ja usaldusväärset failide teisendamise lahendust. See toetab täpsete teisenduste sooritamist kõigi populaarsete äridokumentide vormingute vahel, sealhulgas: PDF, HTML, e-post, Microsoft Wordi dokumendid, Exceli arvutustabelid, PowerPointi esitlused, Project, Photoshop, CorelDraw, AutoCAD, diagrammid, rasterpildi failivormingud ja palju muud. Dokumendikonverteri teek tuvastab automaatselt lähtedokumendi vormingu ja annab teile täieliku kontrolli, et teisendada kas kogu dokument või konkreetsed lehed soovitud väljundvormingusse. Lihtsam on asendada puuduvad fondid eelistatutega ja lisada teksti või pildi vesimärke mis tahes dokumendilehele.",
+    "content2": "{{ProductFullName}} saab kasutada rakenduste arendamiseks mis tahes arenduskeskkonnas, mis sihib .NET-platvormi. See ühildub kõigi .NET-põhiste keeltega ja toetab populaarseid operatsioonisüsteeme (Windows, Linux, MacOS), kuhu saab installida Mono või .NET raamistikke (sh .NET Core).",
+    "tab_one": {
+      "description": "Järgmine on toote {{ProductFullName}} ülevaade:",
+      "right": {
+        "title": "Ülevaade",
+        "content1": "* Failitüübi automaatne tuvastamine",
+        "content2": "* Teisenda dokumendid",
+        "content3": "* Teisenda esitlusi",
+        "content4": "* Teisendage arvutustabeleid",
+        "content5": "* Teisendage rasterpildid",
+        "content6": "* Teisendage PDF-dokumendid",
+        "content7": "* Teisendage muid vorminguid",
+        "content8": "* Rakenda vesimärk",
+        "content9": "* Määrake faili parool",
+        "content10": "* Kohanda konversiooni"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} toetab teisendamist kõigi populaarsete ja sageli kasutatavate [dokumendifailivormingute](https://docs.groupdocs.com/conversion/net/supported-document-formats/) vahel.",
+      "left": {
+        "title": "Teisenda asukohast:",
+        "content1": "* **Dokumendid**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Arvutustabelid**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Esitlused**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Pildid**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Kaasaskantav**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTM, HTML, MHTML",
+        "content7": "* **Metafailid**: EMZ, WMZ",
+        "content8": "* **PhotoShop**: PSD",
+        "content9": "* **Projekt**: MPP, MPT, MPX",
+        "content10": "* **Outlook**: PST, OST",
+        "content11": "* **E-post**: MSG, EML, EMLX",
+        "content12": "* **Diagrammid**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Muu**: VCF, PLT, LGS, OTG, MD, AI, LOG"
+      },
+      "right": {
+        "title": "Teisenda:",
+        "content1": "* **Dokumendid**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Arvutustabelid**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Esitlused**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Pildid**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
+        "content5": "* **Metafailid**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Diagrammid**: SVGZ",
+        "content7": "* **Kaasaskantav**: PDF, XPS",
+        "content8": "* **HTML**: HTM, HTML, MHTML",
+        "content9": "**Muu**: MD"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} toetab järgmisi operatsioonisüsteeme, raamistikke ja paketihaldureid:",
+      "left": {
+        "title1": "Operatsioonisüsteemid",
+        "title2": "Toetatud raamistikud"
+      },
+      "right": {
+        "title1": "Paketihaldur",
+        "title2": "Arenduskeskkonnad"
+      }
+    }
+  },
+  "features": {
+    "title": "Toote {{ProductFullName}} funktsioonid",
+    "content1": "Lihtne integreerimine ja mõõdetud litsentsimine",
+    "content2": "Määrake sõnadeks, slaidideks või lahtriteks teisendamisel suumi vaikevalik",
+    "content3": "Teisendage kõikideks populaarseteks rasterkujutise vorminguteks ja määrake pildi DPI, kõrgus ja laius",
+    "content4": "Teisendage PDF ja pilt halltooniks ja lineariseerige PDF-dokument veebi jaoks",
+    "content5": "Määrake järjehoidjate tase, päise tase ja laiendatud tase Wordi PDF-/XPS-i teisendamisel",
+    "content6": "Konverteerige ja asetage vesimärk teisendatud dokumenti teksti taga kuvatava taustana",
+    "content7": "Renderdage meili päis meilist teisendamise ajal",
+    "content8": "Kohandatud fondikataloogide määramine ja fondi selgesõnaline laadimine/asendamine dokumendi teisendamise ajal",
+    "content9": "Määrake vaikefont, et asendada puuduvad fondid dokumentide, slaidide ja arvutustabelite teisendamiseks",
+    "content10": "Täpsemad teisendusmeetodid väljundi tagastamiseks tee või IO-voona",
+    "content11": "Teisendage arvutustabel ruudustikujoontega ja eemaldage teisendamise ajal slaididelt kommentaarid",
+    "content12": "Konkreetsete dokumendilehtede teisendamine PDF-vormingus ja konkreetse lahtrivahemiku teisendamine arvutustabelites",
+    "content13": "Peidetud lehtede kuvamine ja tühjade ridade ja veergude vahelejätmine arvutustabelite teisendamisel",
+    "content14": "Loendage dokumendi lehekülgi kokku ja määrake teisendamise ajal kaitsmata dokumendi parool",
+    "content15": "Võimalus eemaldada PDF-ist märkused ja manustatud failid",
+    "content16": "Looge HTML 5-ga ühilduv märgistus HTML-i teisendamisel",
+    "content17": "Allika tüübi automaatne tuvastamine ja voost teisendamisel kõigi võimalike konversioonide tagastamine",
+    "content18": "Võimalus tagastada iga leht eraldi voos, teisendades PDF- või HTML-vormingusse",
+    "content19": "Kuva/peida märgistus, kommentaarid ja jälgi muudatusi Wordist teisendamise ajal",
+    "content20": "DOCX-i teisendamine Tiff G3-ks varjutamisvalikuga",
+    "content21": "Teisendage konkreetsed paigutused CAD-dokumendist teisendamisel",
+    "content22": "Automaatne nimede andmine teisendatud dokumendi failiks salvestamisel",
+    "content23": "Mõõdetud litsentsimine Toetatakse API kasutuse alusel arveldamiseks",
+    "content24": "Teisendage diagrammid tekstitöötluse failivorminguteks",
+    "content25": "HTML-i tekstitöötlusdokumendiks teisendamise ajal lisage leheküljenumbreid",
+    "content26": "Teisendage XML-dokumendid mis tahes vormingusse ilma teisendamata",
+    "content27": "Jälgige faili teisendamise edenemist (algus, lõpp) otse kliendipoolsest rakendusest",
+    "more_feature": {
+      "title1": "Teisendage hõlpsalt dokumendivorminguid",
+      "content1": "Kasutades {{ProductFullName}}, on dokumendi failivormingu teisendamine väga lihtne. Järgmine näide näitab, kuidas teisendada PDF-fail DOC-failiks, kasutades {{ProgLang}}:",
+      "step_1": "Looge klassi Converter eksemplar ja esitage failile täielik tee",
+      "step_2": "Looge ja määrake soovitud sihttüübi jaoks ConvertOptions.",
+      "step_3": "Kutsuge välja meetod Converter.Convert ja edastage parameetrina kogu tee ja vorming",
+      "title2": "Teisendamine pildivormingutesse",
+      "content2": "{{ProductFullName}} saab kasutada rakenduste arendamiseks mis tahes arenduskeskkonnas, mis sihib .NET-platvormi. See ühildub kõigi .NET-põhiste keeltega ja toetab populaarseid operatsioonisüsteeme (Windows, Linux, MacOS), kuhu saab installida Mono või .NET raamistikke (sh .NET Core).",
+      "title3": "Toetab erinevaid PDF-vormingu tüüpe",
+      "content3": "{{ProductFullName}} API toetab dokumentide teisendamist järgmistesse PDF-tüüpidesse/vormingutesse:"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion pakub dokumentide teisendamise API-sid teistele populaarsetele arenduskeskkondadele",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion Java jaoks",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
+      "platform": "Java",
+      "link": "/conversion/java/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Laadige teisendamiseks lähtefail {{FROM}}",
+      "prepare_comment": "Valmistage ette sihtvormingu {{TO}} konversioonivalikud",
+      "convert_comment": "Teisenda vormingusse {{TO}}"
+    }
+  }
+}

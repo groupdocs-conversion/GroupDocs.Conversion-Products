@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "Pretvori {{FROM}} u {{TO}} u {{ProgLang}}",
+    "meta_description": "Pretvorba {{FROM}} u {{TO}} u {{ProductName}} s nekoliko redaka koda. Pretvorite više od 160 formata datoteka pomoću GroupDocs API-ja za pretvorbu dokumenata za {{ProductName}}",
+    "h1": "Pretvori {{FROM}} u {{TO}} u {{ProgLang}}",
+    "h2": "Konverzija {{FROM}} u {{TO}} s nekoliko redaka {{ProductName}} koda",
+    "breadcrumb": "{{FROM}} do {{TO}} u {{ProgLang}}"
+  },
+  "about": {
+    "title": "O {{ProductFullName}} API-ju",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) je napredni API za pretvorbu formata datoteka za pretvorbu između popularnih formata slika i dokumenata kao što su Microsoft Office, OpenDocument, PDF, HTML, e-pošta, CAD. i mnogo više sa samo nekoliko redaka koda. Izvorni API automatski otkriva formate izvornih dokumenata i nudi mnogo opcija za prilagodbu pretvorenih dokumenata. Zajedno s funkcijom izvlačenja informacija iz dokumenta, prema zadanim postavkama podržava i predmemoriju rezultata pretvorbe na lokalni disk. Međutim, bilo koja vrsta predmemorije može se podržati implementacijom odgovarajućih sučelja - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis ili bilo koja druga."
+  },
+  "overview": {
+    "description1": "Pretvorite svoje {{FROM}} datoteke u {{TO}} u {{ProductName}}. Potrebno je samo nekoliko redaka {{ProgLang}} koda na bilo kojoj platformi po vašem izboru, kao što su Windows, Linux, macOS.",
+    "description2": "Možete pokušati besplatno pretvoriti {{FROM}} u {{TO}} i procijeniti kvalitetu rezultata pretvorbe. Uz jednostavne skripte za pretvorbu datoteka, možete isprobati sofisticiranije opcije za učitavanje izvorne datoteke {{FROM}} i pohranjivanje izlaza {{TO}}.",
+    "load_options_desc": "Na primjer, za izvornu datoteku {{FROM}} možete koristiti sljedeće opcije učitavanja:",
+    "load_options_item_1": "automatsko otkrivanje formata datoteke",
+    "load_options_item_2": "navedite lozinku za zaštićene datoteke (ako format datoteke to podržava)",
+    "load_options_item_3": "zamijenite nedostajuće fontove kako biste sačuvali izgled dokumenta",
+    "convert_options_desc": "Postoje i napredne opcije pretvaranja za {{TO}} datoteku:",
+    "convert_options_item_1": "pretvoriti određenu stranicu dokumenta ili niz stranica",
+    "convert_options_item_2": "dodaj vodeni žig pretvorenom {{TO}}",
+    "summary": "Nakon što je pretvorba dovršena, možete spremiti {{TO}} datoteku na vašu lokalnu stazu datoteke ili u bilo koju pohranu treće strane kao što su FTP, Amazon S3, Google Drive, Dropbox itd. Imajte na umu - za pretvorbu {{FROM}} do {{TO}}, ne morate instalirati nikakav dodatni softver, kao što su MS Office, Open Office, Adobe Acrobat Reader itd."
+  },
+  "steps": {
+    "title_left": "Koraci za pretvaranje {{FROM}} u {{TO}} u {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) programerima omogućuje jednostavno pretvaranje {{FROM}} datoteke u {{TO}} s nekoliko redaka koda.",
+      "step_1": "Napravite novu instancu klase Converter i prenesite datoteku {{FROM}} s punim putem",
+      "step_2": "Postavite ConvertOptions za vrstu dokumenta na {{TO}}",
+      "step_3": "Pozovite metodu convert() i proslijedite naziv dokumenta (cijeli put) i format ({{TO}}) kao parametar"
+    },
+    "title_right": "Zahtjevi sustava",
+    "content_right": {
+      "description": "Osnovna konverzija s {{ProductFullName}} API-jem može se izvesti sa samo nekoliko redaka koda. Naši API-ji podržani su na svim glavnim platformama i operativnim sustavima. Prije izvršavanja koda u nastavku, provjerite imate li sljedeće preduvjete instalirane na vašem sustavu.",
+      "step_1": "Operativni sustavi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Razvojna okruženja: {{DevEnv}}",
+      "step_3": "Preuzmite najnoviji {{ProductFullName}} od [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Učitaj izvornu datoteku {{FROM}} za konverziju",
+      "prepare_comment": "Pripremite opcije pretvorbe za ciljani format {{TO}}",
+      "convert_comment": "Pretvori u format {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} do {{TO}} Demo uživo",
+    "content": "Posjetite našu web-stranicu [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) i odmah isprobajte konverziju {{FROM}} u {{TO}}. Besplatna demo verzija ima sljedeće prednosti"
+  },
+  "more_formats": {
+    "title": "Ostale podržane {{FROM}} konverzije u {{ProgLang}}",
+    "content": "Također možete pretvoriti {{FROM}} u mnoge druge formate datoteka. Pogledajte popis u nastavku."
+  }
+}

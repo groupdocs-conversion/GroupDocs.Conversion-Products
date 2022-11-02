@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} ሰነድ ልወጣ API | ፒዲኤፍ ቃል ኤክሴል PPTX HTML ምስሎችን ቀይር",
+    "description": "{{ProgLang}} ሰነድ ልወጣ ኤፒአይ። PDF Word DOC DOCX፣ Excel ተመን ሉሆች PPT PPTX፣ HTML፣ PSD፣ MPT MPP፣ ኢሜል MSG EMLX፣ AutoCAD እና የምስል ፋይል ቅርጸቶችን ቀይር።"
+  },
+  "header": {
+    "title": "80+ የፋይል ቅርጸቶችን ለመቀየር {{ProgLang}} ኤፒአይ",
+    "description": "ምንም ውጫዊ ሶፍትዌር ሳይጭኑ ሰነድ እና ምስል የመቀየር ተግባርን ወደ {{ProgLang}} መተግበሪያዎች ለማዋሃድ ቀላል ኤፒአይ።",
+    "button": {
+      "label": "ነጻ ሙከራ ያውርዱ",
+      "link": "https://downloads.groupdocs.com/conversion/java"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "አጠቃላይ እይታ"
+      },
+      "button2": {
+        "text": "ዋና መለያ ጸባያት"
+      },
+      "button3": {
+        "text": "ድጋፍ"
+      },
+      "button4": {
+        "text": "የቀጥታ ማሳያ"
+      },
+      "button5": {
+        "text": "የዋጋ አሰጣጥ"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} ተጨማሪ ሶፍትዌሮችን መጫን ሳያስፈልጋቸው በእርስዎ ጃቫ መተግበሪያዎች ውስጥ ምስሎችን እና የሰነድ ቅርጸቶችን ለማሳየት ኃይለኛ የሰነድ ልወጣ ኤፒአይዎችን ያዋህዳል። የሰነድ እይታን ጥራት ለማሻሻል የሰነድ እይታን ጥራት ለማሻሻል ሰነዶቹን ቤተኛ በራስ ሰር ይቀይራቸዋል እና ወደ SVG+HTML+CSS ይቀይራቸዋል እውነተኛ ጽሑፍ እና ከፍተኛ ታማኝነት። የሰነድ አተረጓጎም ኤፒአይን በመጠቀም - ፒዲኤፍ፣ ኤችቲኤምኤል፣ ኤክስኤምኤል፣ ማይክሮሶፍት ኦፊስ ዎርድ፣ ኤክሴል የስራ ሉሆችን፣ የፓወር ፖይንት አቀራረቦችን፣ አውትሉክ ኢሜይሎችን፣ Visio ዲያግራሞችን፣ ፕሮጄክትን፣ ሜታፋይሎችን፣ ምስሎችን እና የተለያዩ የፋይል ቅርጸቶችን በቀላል እና ባነሰ የፕሮግራም አደጋ ይመልከቱ። እንዲሁም በይለፍ ቃል የተጠበቁ ፋይሎችን ማሳየት እና የሰነድ ውክልና እንደ ኤችቲኤምኤል፣ ምስል ወይም ፒዲኤፍ ቅጽ ከተሰራ በኋላ እንዲያገኝ ያስችላል። የፋይል ልወጣ ቤተ-መጽሐፍታችን ሙሉ ሰነዱን እንዲያሳዩ ወይም ሂደቱን ለማፋጠን በከፊል እንዲሰሩ ስለሚያደርግ በጣም ሊበጅ የሚችል ነው። በGroupDocs.Conversion for Java API፣ ገጾችን፣ የተወሰኑ የሕዋስ ክልልን በተመን ሉህ ውስጥ ማየት ወይም እንደ ፒዲኤፍ እና CAD ባሉ ቅርጸቶች የግለሰብ የሰነድ ንብርብር መስራት ይችላሉ።",
+    "content2": "{{ProductFullName}} ኤፒአይ ሰነዶችን ያለ ማብራሪያ ወይም ለሚደገፉ የፋይል ቅርጸቶች ያለ አስተያየት እንዲሰጡ ይፈቅድልዎታል። እንዲሁም ብጁ የቅርጸ-ቁምፊ ማውጫዎችን ለመጨመር እና እንደ FileType፣ Extension፣ Name፣ PageCount ወዘተ ያሉ መሰረታዊ የሰነድ መረጃዎችን ለማውጣት ያስችላል።",
+    "tab_one": {
+      "description": "የሚከተለው የ{{ProductFullName}} አጠቃላይ እይታ ነው፡-",
+      "right": {
+        "title": "አጠቃላይ እይታ",
+        "content1": "* የፋይል ዓይነትን በራስ-ሰር ፈልግ",
+        "content2": "* ሰነዶችን ይለውጡ",
+        "content3": "* የዝግጅት አቀራረቦችን ቀይር",
+        "content4": "* የተመን ሉሆችን ቀይር",
+        "content5": "* ራስተር ምስሎችን ይለውጡ",
+        "content6": "* ፒዲኤፍ ሰነዶችን ይለውጡ",
+        "content7": "* ሌሎች ቅርጸቶችን ይለውጡ",
+        "content8": "* Watermark ተግብር",
+        "content9": "* የፋይል ይለፍ ቃል ይግለጹ",
+        "content10": "* ልወጣን አብጅ"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} በሁሉም ታዋቂ እና በብዛት ጥቅም ላይ የዋሉ [የሰነድ ፋይል ቅርጸቶች](https://docs.groupdocs.com/conversion/net/supported-document-formats/) መካከል መቀየርን ይደግፋል።",
+      "left": {
+        "title": "ቀይር ከ፡",
+        "content1": "** ሰነዶች ***: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "** የተመን ሉህ ***፡ XLS፣ XLSX፣ XLSM፣ XLSB፣ CSV፣ XLS2003፣ ODS፣ TSV፣ XLT፣ XLTX፣ XLTM፣ XLAM፣ FODS፣ SXC",
+        "content3": "** የዝግጅት አቀራረቦች ***፡ PPT፣ PPTX፣ PPS፣ PPSX፣ ODP፣ POT፣ POTX፣ POTM፣ PPTM፣ PPSM፣ FODP",
+        "content4": "** ምስሎች ***፡ TIF፣ TIFF፣ JPG፣ JPEG፣ PNG፣ GIF፣ BMP፣ ICO፣ DIB፣ JPC፣ JPEG-LS፣ JPEG2000",
+        "content5": "** ተንቀሳቃሽ ***፡ ፒዲኤፍ፣ ኤክስፒኤስ፣ ኦክስፒኤስ፣ EPUB",
+        "content6": "**HTML**: ኤችቲኤምኤል፣ ኤችቲኤምኤል፣ ኤምኤችቲኤምኤል",
+        "content7": "** ሜታፋይሎች ***፡ EMZ፣ WMZ",
+        "content8": "** PhotoShop ***: PSD",
+        "content9": "** ፕሮጀክት ***: MPP, MPT, MPX",
+        "content10": "** እይታ ***፡ PST፣ OST",
+        "content11": "** ኢሜል ***: MSG, EML, EMLX",
+        "content12": "** ሥዕላዊ መግለጫዎች**፡ VSD፣ VSDX፣ VSDM፣ VSS፣ VSSM፣ VST፣ VSTM፣ VSX፣ VTX፣ VDW፣ VDX፣ SVG፣ SVGZ",
+        "content13": "** AutoCAD ***: DXF፣ DWG፣ DWF፣ STL፣ IFC፣ DWT",
+        "content14": "** ፖስትስክሪፕት ***: EPS, PS, PSL, CGM",
+        "content15": "** CorelDRAW ***: ሲዲአር፣ ሲኤምኤክስ",
+        "content16": "** ሌላ ***፡ VCF፣ PLT፣ LGS፣ OTG፣ MD፣ AI፣ LOG"
+      },
+      "right": {
+        "title": "ቀይር ወደ፡",
+        "content1": "** ሰነዶች ***: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "** የተመን ሉሆች**፡ XLS፣ XLSX፣ XLSM፣ XLSB፣ CSV፣ XLS2003፣ TSV፣ XLTX፣ ODS፣ XLAM፣ FODS፣ DIF፣ SXC",
+        "content3": "** የዝግጅት አቀራረቦች ***፡ PPT፣ PPTX፣ PPS፣ PPSX፣ ODP፣ POTX፣ POTM፣ PPTM፣ PPSM፣ FODP",
+        "content4": "** ምስሎች ***፡ TIF፣ TIFF፣ JPG፣ JPEG፣ PNG፣ GIF፣ BMP፣ ICO፣ JPEG2000",
+        "content5": "** ሜታፋይሎች ***፡ EMF፣ WMF፣ EMZ፣ WMZ",
+        "content6": "** ሥዕላዊ መግለጫዎች ***: SVGZ",
+        "content7": "** ተንቀሳቃሽ ***: ፒዲኤፍ ፣ ኤክስፒኤስ",
+        "content8": "**HTML**: ኤችቲኤምኤል፣ ኤችቲኤምኤል፣ ኤምኤችቲኤምኤል",
+        "content9": "** ሌላ ***: MD"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} የሚከተሉትን ስርዓተ ክወናዎች፣ ማዕቀፎች እና የጥቅል አስተዳዳሪዎች ይደግፋል፡",
+      "left": {
+        "title1": "ስርዓተ ክወናዎች",
+        "title2": "የሚደገፉ Frameworks"
+      },
+      "right": {
+        "title1": "የጥቅል አስተዳዳሪ",
+        "title2": "የልማት አካባቢ"
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductFullName}} ባህሪያት",
+    "content1": "ቀላል ውህደት እና የሚለካ ፈቃድ አሰጣጥ",
+    "content2": "ወደ ቃላት፣ ስላይዶች ወይም ህዋሶች በሚቀይሩበት ጊዜ ነባሪ የማጉላት አማራጭን ያዘጋጁ",
+    "content3": "ወደ/ከሁሉም ታዋቂ ራስተር የምስል ቅርጸቶች ቀይር እና ምስል ዲፒአይ፣ ቁመት እና ስፋትን መድብ",
+    "content4": "ፒዲኤፍ እና ምስልን ወደ ግራጫ ሚዛን ቀይር እና ፒዲኤፍ ሰነድ ለድር መስመራዊ አድርግ",
+    "content5": "የዕልባት ደረጃን፣ ርእስ ደረጃን እና የተዘረጋውን ደረጃ በ Word ወደ ፒዲኤፍ/XPS መለወጥ ይግለጹ",
+    "content6": "ያዋቅሩ እና በተቀየረ ሰነድ ውስጥ የውሃ ምልክትን ከጽሑፍ በስተጀርባ ለማሳየት እንደ ዳራ ያስቀምጡ",
+    "content7": "ከኢሜል በሚቀየርበት ጊዜ የኢሜል ራስጌን ይስሩ",
+    "content8": "በሰነድ ልወጣ ወቅት ብጁ የቅርጸ-ቁምፊ ማውጫዎችን ያቀናብሩ እና በግልጽ የሚጫኑ/የሚተኩ ቅርጸ-ቁምፊን ያቀናብሩ",
+    "content9": "የጎደሉትን ቅርጸ ቁምፊዎች ለሰነዶች፣ ስላይዶች እና የተመን ሉሆች ለመለወጥ ነባሪ ቅርጸ-ቁምፊን ያቀናብሩ",
+    "content10": "ውጤቱን እንደ ዱካ ወይም አይኦ ዥረት ለመመለስ የላቀ የልወጣ ዘዴዎች",
+    "content11": "የተመን ሉህ በግሪድ-መስመሮች ቀይር እና በሚቀየርበት ጊዜ ከስላይዶች አስተያየቶችን አስወግድ",
+    "content12": "የተወሰኑ የሰነድ ገጾችን እንደ ፒዲኤፍ ቅርጸት ይለውጡ እና የተወሰነ የሕዋስ ክልል በተመን ሉሆች ውስጥ ይለውጡ",
+    "content13": "የተመን ሉሆችን በሚቀይሩበት ጊዜ የተደበቁ ሉሆችን አሳይ እና ባዶ ረድፎችን እና አምዶችን ዝለል",
+    "content14": "የሰነድ ጠቅላላ ገጾችን ይቁጠሩ እና በሚቀየርበት ጊዜ የይለፍ ቃል ወደ ያልተጠበቀ ሰነድ ያዘጋጁ",
+    "content15": "ማብራሪያዎችን እና የተከተቱ ፋይሎችን ከፒዲኤፍ የማስወገድ አማራጭ",
+    "content16": "ወደ ኤችቲኤምኤል ሲቀየር HTML 5 Compliant Markup ይፍጠሩ",
+    "content17": "የምንጭን አይነት በራስ ሰር አግኝ እና ከዥረት ሲቀይሩ ሁሉንም ሊሆኑ የሚችሉ ልወጣዎችን ይመልሱ",
+    "content18": "ወደ ፒዲኤፍ ወይም ኤችቲኤምኤል በሚቀየርበት ጊዜ እያንዳንዱን ገጽ በተለየ ዥረት የመመለስ ችሎታ",
+    "content19": "ከቃል በሚቀይሩበት ጊዜ ምልክት ማድረጊያን፣ አስተያየቶችን ያሳዩ/ደብቅ እና ለውጦችን ይከታተሉ",
+    "content20": "DOCX ወደ Tiff G3 መቀየር ከሻዲንግ አማራጭ ጋር",
+    "content21": "ከCAD ሰነድ ሲቀይሩ የተወሰኑ አቀማመጦችን ይለውጡ",
+    "content22": "የተቀየረ ሰነድ ወደ ፋይል በሚቀመጥበት ጊዜ በራስ-ሰር መሰየም",
+    "content23": "በኤፒአይ አጠቃቀም ላይ ተመስርተው እንዲከፈሉ የሚለካ ፍቃድ መስጠት ይደገፋል",
+    "content24": "ንድፎችን ወደ የቃል ማቀናበሪያ ፋይል ቅርጸቶች ቀይር",
+    "content25": "ኤችቲኤምኤል ወደ ዎርድ ፕሮሰሲንግ ሰነድ በሚቀይሩበት ጊዜ የገጽ ቁጥሮችን ያክሉ",
+    "content26": "የኤክስኤምኤል ሰነዶችን ያለ ትራንስፎርሜሽን ወደ ማንኛውም ቅርጸት ይለውጡ",
+    "content27": "የፋይል ልወጣ ሂደትን (ጀምር፣ መጨረሻ) በቀጥታ ከደንበኛ ወገን መተግበሪያ ተቆጣጠር",
+    "more_feature": {
+      "title1": "ጃቫን በመጠቀም ቀላል የሰነድ ቅርጸት መለወጥ",
+      "content1": "{{ProductFullName}} ኤፒአይን በመጠቀም የበርካታ የሰነድ አይነቶችን የፋይል ቅርጸት መቀየር ትችላለህ። እዚህ ጃቫን በመጠቀም መሰረታዊ የሰነድ ልወጣን ለማከናወን ጥቂት የኮድ መስመሮች ቀርበዋል.",
+      "step_1": "የመቀየሪያ ክፍልን ምሳሌ ይፍጠሩ እና ፋይሉን ከሙሉ ዱካ ጋር ያቅርቡ",
+      "step_2": "ለተፈለገው የዒላማ ዓይነት ConvertOptions ይፍጠሩ እና ያቀናብሩ።",
+      "step_3": "የ Converter.Convert ዘዴን ይደውሉ እና ሙሉውን መንገድ እና ቅርጸት እንደ መለኪያ ይለፉ",
+      "title2": "ሰነድ ከዩአርኤል ወይም የልወጣ መንገድ ያንብቡ",
+      "content2": "{{ProductFullName}} ኤፒአይን በመጠቀም፣ ከፋይል ዱካ እና ዩአርኤል የግቤት ሰነድ ማንበብ ይችላሉ። የውጤት ሰነዱን እንደ ፋይል ማስቀመጥ ወይም ውጤቱን በቀጥታ ወደ ዥረት መላክ ሲችሉ።",
+      "title3": "አጠቃላይ የቴክኒክ ድጋፍ",
+      "content3": "{{ProductFullName}} ቀላል እና ወደ-ነጥብ ኤፒአይ ሲሆን በቀላሉ ወደ ጃቫ-ተኮር መተግበሪያዎችዎ ማዋሃድ ይችላሉ። ነገር ግን፣ በአጭር ጊዜ ውስጥ እንዲነሱ እና እንዲሮጡ፣ እንዲሁም በቀላሉ ለመከተል የኮድ ናሙናዎችን እና አጠቃላይ የኤፒአይ ሰነዶችን እናቀርባለን።"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion የሰነድ ቅየራ ኤፒአይዎችን ለሌሎች ታዋቂ የልማት አካባቢዎች ያቀርባል",
+    "solution": {
+      "img_alt": "GroupDocs.ልወጣ ለ .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
+      "platform": ".NET",
+      "link": "/መቀየር/ኔት/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "ለመለወጥ የምንጭ ፋይል {{FROM}}ን ጫን",
+      "prepare_comment": "ለታለመ ቅርጸት {{TO}} የልወጣ አማራጮችን ያዘጋጁ",
+      "convert_comment": "ወደ {{TO}} ቅርጸት ቀይር"
+    }
+  }
+}

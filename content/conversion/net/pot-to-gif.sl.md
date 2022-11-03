@@ -1,0 +1,106 @@
+---
+############################# Static ############################
+layout: "auto-gen-conversion"
+date: 2022-11-03T19:00:15
+draft: false
+otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
+breadcrumb: POT do GIF v C#
+
+############################# Head ############################
+head_title: "Pretvornik POT v GIF v C#"
+head_description: "Pretvorite POT v GIF v .NET z uporabo nekaj vrstic kode. Uporabite API za pretvorbo dokumentov GroupDocs za pretvorbo več kot 160 formatov datotek."
+
+############################# Header ############################
+title: "Pretvori POT v GIF v C#"
+description: "Pretvorba POT v GIF z nekaj vrsticami kode .NET"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Conversion for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
+        product: "GroupDocs.Conversion"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "O API-ju GroupDocs.Conversion for .NET"
+    content: |
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) se lahko uporablja za pretvorbo formatov Microsoft Word, Excel, PowerPoint, PDF, Visio in drugih. GroupDocs.Conversion je samostojen API, ki je primeren za zaledne in notranje sisteme, kjer se zahteva visoka zmogljivost. Ni odvisen od programske opreme, kot sta Microsoft ali Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Preprosto pretvorite svoje datoteke POT v GIF v .NET. Uporabite lahko le nekaj kodnih vrstic C# v kateri koli platformi po vaši izbiri, kot so Windows, Linux, macOS.
+        Pretvorbo POT v GIF lahko preizkusite brezplačno in ocenite kakovost rezultatov pretvorbe. Skupaj s preprostimi scenariji pretvorbe datotek lahko preizkusite naprednejše možnosti za nalaganje izvorne datoteke POT in za shranjevanje izhodnega rezultata GIF. 
+        
+        Na primer, za izvorno datoteko POT lahko uporabite naslednje možnosti nalaganja:
+
+        * samodejno zaznavanje formata datoteke;
+        * določite geslo za zaščitene datoteke (če format datoteke to podpira);
+        * zamenjajte manjkajoče pisave, da ohranite videz dokumenta.
+        
+        Obstajajo tudi napredne možnosti pretvorbe za datoteko GIF:
+
+        * pretvori določeno stran dokumenta ali obseg strani;
+        * dodajte vodni žig pretvorjeni datoteki GIF in še veliko več.
+
+        Ko je pretvorba končana, lahko datoteko GIF shranite na lokalno pot datoteke ali kateri koli shrambo tretje osebe, kot je FTP, Amazon S3, Google Drive, Dropbox itd. Upoštevajte - za pretvorbo POT v {{ TO}} ni potrebna nobena dodatna programska oprema, kot je MS Office, Open Office, Adobe Acrobat Reader itd.
+
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Koraki za pretvorbo POT v GIF v C#"
+    content_left: |
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) razvijalcem olajša pretvorbo datoteke POT v GIF z nekaj vrsticami kode.
+        
+        * Ustvarite primerek razreda Converter in navedite datoteko POT s celotno potjo
+        * Ustvarite in nastavite ConvertOptions za vrsto GIF.
+        * Pokličite metodo Converter.Convert in posredujte celotno pot in obliko (GIF) kot parameter
+
+    title_right: "Sistemske zahteve"
+    content_right: |
+        Osnovno pretvorbo z GroupDocs.Conversion for .NET lahko izvedete v le nekaj preprostih korakih. Naši API-ji so podprti na vseh glavnih platformah in operacijskih sistemih. Preden izvedete spodnjo kodo, se prepričajte, da imate v sistemu nameščene naslednje predpogoje.
+
+        * Operacijski sistemi: Microsoft Windows, Linux, MacOS
+        * Razvojna okolja: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Pridobite najnovejši GroupDocs.Conversion for .NET iz [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+         
+    code: |
+        ```csharp    
+        // Naloži izvorno datoteko POT za pretvorbo
+          var converter = new GroupDocs.Conversion.Converter("input.pot");
+          // Pripravite možnosti pretvorbe za ciljno obliko GIF
+          var convertOptions = converter.GetPossibleConversions()["gif"].ConvertOptions;
+          // Pretvori v format GIF
+          converter.Convert("output.gif", convertOptions);
+        ```
+
+demos:
+    enable: true
+    title: "POT do GIF Demo v živo"
+    content: |
+       Pretvorite POT v GIF zdaj tako, da obiščete spletno mesto [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Spletna predstavitev ima naslednje prednosti
+          
+
+more_formats:
+    enable: true
+    title: "Druge podprte konverzije POT v C#"
+    content: "Prav tako lahko pretvorite POT v številne druge oblike datotek. Oglejte si spodnji seznam."
+       
+       
+back_to_top:
+    enable: true
+---

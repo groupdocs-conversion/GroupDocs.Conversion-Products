@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} API za pretvorbo dokumentov .NET | Pretvorite slike PDF Word Excel PPTX HTML",
+    "description": "{{ProgLang}} API za pretvorbo dokumentov .NET. Pretvorite PDF Word DOC DOCX, Excelove preglednice PPT PPTX, HTML, PSD, MPT MPP, e-pošto MSG EMLX, AutoCAD in oblike slikovnih datotek."
+  },
+  "header": {
+    "title": ".NET API za pretvorbo več kot 80 formatov datotek",
+    "description": "Preprost API za integracijo funkcije pretvorbe dokumentov in slik v aplikacije .NET brez namestitve zunanje programske opreme.",
+    "button": {
+      "label": "Prenesite brezplačno preskusno različico",
+      "link": "https://downloads.groupdocs.com/conversion/net"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "Pregled"
+      },
+      "button2": {
+        "text": "Lastnosti"
+      },
+      "button3": {
+        "text": "Podpora"
+      },
+      "button4": {
+        "text": "Demo v živo"
+      },
+      "button5": {
+        "text": "Cenitev"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} ponuja preprost nabor API-jev, ki razvijalcem omogočajo izdelavo zmogljivih aplikacij za pretvorbo dokumentov v {{ProgLang}}, ASP.NET in drugih tehnologijah, povezanih z .NET. API {{ProductFullName}} vašim končnim uporabnikom zagotavlja hitro, učinkovito in zanesljivo rešitev za pretvorbo datotek. Podpira izvajanje natančnih pretvorb med vsemi priljubljenimi formati poslovnih dokumentov, vključno z: PDF, HTML, e-pošto, dokumenti Microsoft Word, preglednicami Excel, PowerPoint predstavitvami, Project, Photoshop, CorelDraw, AutoCAD, diagrami, formati datotek rastrskih slik in številnimi drugimi. Knjižnica pretvornika dokumentov samodejno zazna izvorno obliko dokumenta in vam daje ves nadzor za pretvorbo celotnega dokumenta ali določenih strani v želeno izhodno obliko. Lažje je zamenjati manjkajoče pisave z želenimi in dodati besedilne ali slikovne vodne žige na katero koli stran dokumenta.",
+    "content2": "{{ProductFullName}} se lahko uporablja za razvoj aplikacij v katerem koli razvojnem okolju, ki cilja na platformo .NET. Združljiv je z vsemi jeziki, ki temeljijo na .NET, in podpira priljubljene operacijske sisteme (Windows, Linux, MacOS), kjer je mogoče namestiti ogrodja Mono ali .NET (vključno z .NET Core).",
+    "tab_one": {
+      "description": "Sledi pregled izdelka {{ProductFullName}}:",
+      "right": {
+        "title": "Pregled",
+        "content1": "* Samodejno zaznaj vrsto datoteke",
+        "content2": "* Pretvarjanje dokumentov",
+        "content3": "* Pretvarjanje predstavitev",
+        "content4": "* Pretvarjanje preglednic",
+        "content5": "* Pretvarjanje rastrskih slik",
+        "content6": "* Pretvarjanje dokumentov PDF",
+        "content7": "* Pretvarjanje drugih formatov",
+        "content8": "* Uporabite vodni žig",
+        "content9": "* Določite geslo za datoteko",
+        "content10": "* Prilagodite pretvorbo"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} podpira pretvorbo med vsemi priljubljenimi in pogosto uporabljenimi [formati datotek dokumentov](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
+      "left": {
+        "title": "Pretvori iz:",
+        "content1": "* **Dokumenti**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Preglednice**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Predstavitve**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Slike**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Prenosni**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTM, HTML, MHTML",
+        "content7": "* **Metadatoteke**: EMZ, WMZ",
+        "content8": "* **PhotoShop**: PSD",
+        "content9": "* **Projekt**: MPP, MPT, MPX",
+        "content10": "* **Outlook**: PST, OST",
+        "content11": "* **E-pošta**: MSG, EML, EMLX",
+        "content12": "* **Diagrami**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Drugo**: VCF, PLT, LGS, OTG, MD, AI, LOG"
+      },
+      "right": {
+        "title": "Pretvori v:",
+        "content1": "* **Dokumenti**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Preglednice**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Predstavitve**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Slike**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
+        "content5": "* **Metadatoteke**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Diagrami**: SVGZ",
+        "content7": "* **Prenosni**: PDF, XPS",
+        "content8": "* **HTML**: HTM, HTML, MHTML",
+        "content9": "* **Drugo**: MD"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} podpira naslednje operacijske sisteme, ogrodja in upravitelje paketov:",
+      "left": {
+        "title1": "Operacijski sistemi",
+        "title2": "Podprta ogrodja"
+      },
+      "right": {
+        "title1": "Upravitelj paketov",
+        "title2": "Razvojna okolja"
+      }
+    }
+  },
+  "features": {
+    "title": "Funkcije {{ProductFullName}}",
+    "content1": "Enostavna integracija in merjeno licenciranje",
+    "content2": "Nastavite privzeto možnost povečave pri pretvorbi v besede, diapozitive ali celice",
+    "content3": "Pretvori v/iz vseh priljubljenih formatov rastrskih slik in dodeli sliki DPI, višino in širino",
+    "content4": "Pretvorite PDF in slike v sivine in linearizirajte dokument PDF za splet",
+    "content5": "Določite raven zaznamka, raven naslova in razširjeno raven v pretvorbi Word v PDF/XPS",
+    "content6": "Konfigurirajte in postavite vodni žig v pretvorjeni dokument kot ozadje za prikaz za besedilom",
+    "content7": "Upodobi glavo e-pošte med pretvorbo iz e-pošte",
+    "content8": "Nastavite imenike pisav po meri in izrecno naložite/nadomestite pisavo med pretvorbo dokumenta",
+    "content9": "Nastavite privzeto pisavo za zamenjavo manjkajočih pisav za pretvorbo dokumentov, diapozitivov in preglednic",
+    "content10": "Napredne metode pretvorbe za vrnitev izhoda kot poti ali toka IO",
+    "content11": "Pretvorite preglednico z mrežnimi črtami in odstranite komentarje z diapozitivov med pretvorbo",
+    "content12": "Pretvorite določene strani dokumenta v obliko zapisa PDF & pretvorite določen obseg celic v preglednice",
+    "content13": "Pokaži skrite liste in preskoči prazne vrstice in stolpce med pretvarjanjem preglednic",
+    "content14": "Preštejte skupno število strani dokumenta in nastavite geslo za nezaščiten dokument med pretvorbo",
+    "content15": "Možnost odstranjevanja opomb in vdelanih datotek iz PDF-ja",
+    "content16": "Pri pretvorbi v HTML ustvarite oznako, skladno s HTML 5",
+    "content17": "Samodejno zaznaj vrsto vira in vrni vse možne konverzije pri pretvorbi iz toka",
+    "content18": "Možnost vrnitve vsake strani v ločenem toku med pretvorbo v PDF ali HTML",
+    "content19": "Pokaži/skrij oznake, komentarje in sledi spremembam med pretvorbo iz Worda",
+    "content20": "Pretvorba DOCX v Tiff G3 z možnostjo senčenja",
+    "content21": "Pretvorite posebne postavitve pri pretvorbi iz dokumenta CAD",
+    "content22": "Samodejno poimenovanje pri shranjevanju pretvorjenega dokumenta v datoteko",
+    "content23": "Merjeno licenciranje Podprto za zaračunavanje na podlagi uporabe API-ja",
+    "content24": "Pretvorite diagrame v formate datotek za obdelavo besedila",
+    "content25": "Dodajte številke strani med pretvorbo HTML v dokument za obdelavo besedila",
+    "content26": "Pretvorite dokumente XML v kateri koli format brez preoblikovanja",
+    "content27": "Spremljajte napredek pretvorbe datoteke (začetek, konec) neposredno iz aplikacije na strani odjemalca",
+    "more_feature": {
+      "title1": "Preprosto pretvorite formate dokumentov",
+      "content1": "Z uporabo {{ProductFullName}} je pretvorba formata datoteke dokumenta zelo enostavna. Naslednji primer prikazuje, kako pretvorite datoteko PDF v datoteko DOC z uporabo {{ProgLang}}:",
+      "step_1": "Ustvarite primerek razreda Converter in datoteki zagotovite celotno pot",
+      "step_2": "Ustvarite in nastavite ConvertOptions za želeno vrsto cilja.",
+      "step_3": "Pokličite metodo Converter.Convert in posredujte celotno pot in obliko kot parameter",
+      "title2": "Pretvorba v slikovne formate",
+      "content2": "{{ProductFullName}} se lahko uporablja za razvoj aplikacij v katerem koli razvojnem okolju, ki cilja na platformo .NET. Združljiv je z vsemi jeziki, ki temeljijo na .NET, in podpira priljubljene operacijske sisteme (Windows, Linux, MacOS), kjer je mogoče namestiti ogrodja Mono ali .NET (vključno z .NET Core).",
+      "title3": "Podpira različne vrste formatov PDF",
+      "content3": "{{ProductFullName}} API podpira pretvorbo dokumentov v naslednje vrste/formate PDF:"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion ponuja API-je za pretvorbo dokumentov za druga priljubljena razvojna okolja",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion za Javo",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png",
+      "platform": "Java",
+      "link": "/pretvorba/java/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Naloži izvorno datoteko {{FROM}} za pretvorbo",
+      "prepare_comment": "Pripravite možnosti pretvorbe za ciljno obliko {{TO}}",
+      "convert_comment": "Pretvori v format {{TO}}"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "Pretvornik {{FROM}} v {{TO}} v {{ProgLang}}",
+    "meta_description": "Pretvorite {{FROM}} v {{TO}} v {{ProductName}} z uporabo nekaj vrstic kode. Uporabite API za pretvorbo dokumentov GroupDocs za pretvorbo več kot 160 formatov datotek.",
+    "h1": "Pretvori {{FROM}} v {{TO}} v {{ProgLang}}",
+    "h2": "Pretvorba {{FROM}} v {{TO}} z nekaj vrsticami kode {{ProductName}}",
+    "breadcrumb": "{{FROM}} do {{TO}} v {{ProgLang}}"
+  },
+  "about": {
+    "title": "O API-ju {{ProductFullName}}",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) se lahko uporablja za pretvorbo formatov Microsoft Word, Excel, PowerPoint, PDF, Visio in drugih. GroupDocs.Conversion je samostojen API, ki je primeren za zaledne in notranje sisteme, kjer se zahteva visoka zmogljivost. Ni odvisen od programske opreme, kot sta Microsoft ali Open Office."
+  },
+  "overview": {
+    "description1": "Preprosto pretvorite svoje datoteke {{FROM}} v {{TO}} v {{ProductName}}. Uporabite lahko le nekaj kodnih vrstic {{ProgLang}} v kateri koli platformi po vaši izbiri, kot so Windows, Linux, macOS.",
+    "description2": "Pretvorbo {{FROM}} v {{TO}} lahko preizkusite brezplačno in ocenite kakovost rezultatov pretvorbe. Skupaj s preprostimi scenariji pretvorbe datotek lahko preizkusite naprednejše možnosti za nalaganje izvorne datoteke {{FROM}} in za shranjevanje izhodnega rezultata {{TO}}.",
+    "load_options_desc": "Na primer, za izvorno datoteko {{FROM}} lahko uporabite naslednje možnosti nalaganja:",
+    "load_options_item_1": "samodejno zaznavanje formata datoteke",
+    "load_options_item_2": "določite geslo za zaščitene datoteke (če format datoteke to podpira)",
+    "load_options_item_3": "zamenjajte manjkajoče pisave, da ohranite videz dokumenta",
+    "convert_options_desc": "Obstajajo tudi napredne možnosti pretvorbe za datoteko {{TO}}:",
+    "convert_options_item_1": "pretvori določeno stran dokumenta ali obseg strani",
+    "convert_options_item_2": "dodajte vodni žig pretvorjeni datoteki {{TO}} in še veliko več",
+    "summary": "Ko je pretvorba končana, lahko datoteko {{TO}} shranite na lokalno pot datoteke ali kateri koli shrambo tretje osebe, kot je FTP, Amazon S3, Google Drive, Dropbox itd. Upoštevajte - za pretvorbo {{FROM}} v {{ TO}} ni potrebna nobena dodatna programska oprema, kot je MS Office, Open Office, Adobe Acrobat Reader itd."
+  },
+  "steps": {
+    "title_left": "Koraki za pretvorbo {{FROM}} v {{TO}} v {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) razvijalcem olajša pretvorbo datoteke {{FROM}} v {{TO}} z nekaj vrsticami kode.",
+      "step_1": "Ustvarite primerek razreda Converter in navedite datoteko {{FROM}} s celotno potjo",
+      "step_2": "Ustvarite in nastavite ConvertOptions za vrsto {{TO}}.",
+      "step_3": "Pokličite metodo Converter.Convert in posredujte celotno pot in obliko ({{TO}}) kot parameter"
+    },
+    "title_right": "Sistemske zahteve",
+    "content_right": {
+      "description": "Osnovno pretvorbo z {{ProductFullName}} lahko izvedete v le nekaj preprostih korakih. Naši API-ji so podprti na vseh glavnih platformah in operacijskih sistemih. Preden izvedete spodnjo kodo, se prepričajte, da imate v sistemu nameščene naslednje predpogoje.",
+      "step_1": "Operacijski sistemi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Razvojna okolja: {{DevEnv}}",
+      "step_3": "Pridobite najnovejši {{ProductFullName}} iz [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Naloži izvorno datoteko {{FROM}} za pretvorbo",
+      "prepare_comment": "Pripravite možnosti pretvorbe za ciljno obliko {{TO}}",
+      "convert_comment": "Pretvori v format {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} do {{TO}} Demo v živo",
+    "content": "Pretvorite {{FROM}} v {{TO}} zdaj tako, da obiščete spletno mesto [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Spletna predstavitev ima naslednje prednosti"
+  },
+  "more_formats": {
+    "title": "Druge podprte konverzije {{FROM}} v {{ProgLang}}",
+    "content": "Prav tako lahko pretvorite {{FROM}} v številne druge oblike datotek. Oglejte si spodnji seznam."
+  }
+}

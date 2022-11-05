@@ -1,0 +1,106 @@
+---
+############################# Static ############################
+layout: "auto-gen-conversion"
+date: 2022-11-05T05:15:23
+draft: false
+otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
+breadcrumb: VSTX heta DOC di C# de
+
+############################# Head ############################
+head_title: "VSTX ber bi DOC veguherker di C# de"
+head_description: "Di .NET de VSTX veguherîne DOC bi çend rêzikên kodê. API-a Veguheztina Belgeya GroupDocs bikar bînin da ku zêdetirî 160 formatên pelan veguherînin."
+
+############################# Header ############################
+title: "Di C# de VSTX veguherîne DOC"
+description: "Guhertina VSTX bo DOC bi çend rêzikên koda .NET"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Conversion for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
+        product: "GroupDocs.Conversion"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Derbarê GroupDocs.Conversion for .NET API"
+    content: |
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) dikare ji bo veguherandina Microsoft Word, Excel, PowerPoint, PDF, Visio û formên din were bikar anîn. GroupDocs.Conversion API-yek serbixwe ye ku ji bo pergalên paşîn û hundurîn ên ku performansa bilind hewce ye re maqûl e. Ew bi nermalava wekî Microsoft an Open Office ve girêdayî nîne.
+    
+
+overview:
+    enable: true
+    content: |
+        Pelên xwe yên VSTX di .NET de bi hêsanî veguherînin DOC. Hûn dikarin tenê çend rêzikên kodê yên C# li her platformek bijartina xwe wekî Windows, Linux, macOS bikar bînin.
+        Hûn dikarin veguherîna VSTX berbi DOC belaş biceribînin û kalîteya encamên veguhertinê binirxînin. Li gel senaryoyên guherandina pelan ên hêsan, hûn dikarin vebijarkên pêşkeftîtir ji bo barkirina pelê çavkaniya VSTX û ji bo hilanîna encam DOC biceribînin. 
+        
+        Mînakî, ji bo pelê çavkaniyê VSTX hûn dikarin vebijarkên barkirinê yên jêrîn bikar bînin:
+
+        * formata pelê bixweber vedîtin;
+        * şîfreya ji bo pelên parastî diyar bike (eger formata pelê piştgirî dike);
+        * tîpên wenda biguherînin da ku xuyangiya belgeyê biparêzin.
+        
+        Ji bo pelê DOC vebijarkên veguherîna pêşkeftî jî hene:
+
+        * rûpela belgeya taybetî an rêza rûpelê veguherînin;
+        * avî nîşanekê li pela DOC ya guhertî û gelekên din zêde bike.
+
+        Piştî ku veguhertin qediya, hûn dikarin pelê DOC xwe li ser riya pelê ya herêmî hilînin an depoyek sêyemîn mîna FTP, Amazon S3, Google Drive, Dropbox hwd. Ji kerema xwe bala xwe bidin - hûn VSTX veguherînin {{ TO}} ne hewce ye ku nermalava zêde hatî saz kirin - mîna MS Office, Open Office, Adobe Acrobat Reader hwd.
+
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Gavên veguherîna VSTX bo DOC di C# de"
+    content_left: |
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) ji pêşdebiran re hêsantir dike ku pelek VSTX bi çend rêzikên kodê veguherînin DOC.
+        
+        * Nimûneyek ji çîna Veguhêrker biafirîne û pelê VSTX bi riya tevahî peyda bike
+        * Ji bo tîpa DOC ConvertOptions biafirîne û saz bike.
+        * Gazî rêbaza Converter.Convert bike û rê û forma tevahî (DOC) wekî parametre derbas bike.
+
+    title_right: "Pêdiviyên Sîstemê"
+    content_right: |
+        Veguherîna bingehîn bi GroupDocs.Conversion for .NET tenê bi çend gavên hêsan dikare were kirin. API-yên me li ser hemî platformên sereke û pergalên xebitandinê têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, pê ewle bine ku we şertên jêrîn li ser pergala we hatine saz kirin.
+
+        * Pergalên xebitandinê: Microsoft Windows, Linux, MacOS
+        * Jîngehên pêşkeftinê: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Nûtirîn GroupDocs.Conversion for .NET ji [Nuget](https://www.nuget.org/packages/groupdocs.conversion) bistînin
+         
+    code: |
+        ```csharp    
+        // Ji bo veguhertinê pelê çavkaniyê VSTX bar bike
+          var converter = new GroupDocs.Conversion.Converter("input.vstx");
+          // Vebijarkên veguhertinê ji bo forma armancê amade bikin DOC
+          var convertOptions = converter.GetPossibleConversions()["doc"].ConvertOptions;
+          // Biguherîne formata DOC
+          converter.Convert("output.doc", convertOptions);
+        ```
+
+demos:
+    enable: true
+    title: "VSTX ber DOC Demoya Zindî"
+    content: |
+       Niha bi serdana malpera [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) VSTX veguherînin DOC. Demoya serhêl xwedî avantajên jêrîn e
+          
+
+more_formats:
+    enable: true
+    title: "Guhertinên din ên piştgirîkirî yên VSTX di C# de"
+    content: "Her weha hûn dikarin VSTX veguherînin gelek formatên pelan ên din. Ji kerema xwe lîsteya jêrîn bibînin."
+       
+       
+back_to_top:
+    enable: true
+---

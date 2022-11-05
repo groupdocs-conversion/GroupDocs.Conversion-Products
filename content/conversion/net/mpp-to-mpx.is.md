@@ -1,0 +1,106 @@
+---
+############################# Static ############################
+layout: "auto-gen-conversion"
+date: 2022-11-05T05:13:32
+draft: false
+otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
+breadcrumb: MPP til MPX í C#
+
+############################# Head ############################
+head_title: "MPP til MPX Breytir í C#"
+head_description: "Umbreyttu MPP í MPX í .NET með því að nota nokkrar línur af kóða. Notaðu GroupDocs Document Conversion API til að umbreyta yfir 160 skráarsniðum."
+
+############################# Header ############################
+title: "Umbreyttu MPP í MPX í C#"
+description: "MPP til MPX viðskipti með nokkrum línum af .NET kóða"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Conversion for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
+        product: "GroupDocs.Conversion"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Um GroupDocs.Conversion for .NET API"
+    content: |
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) er hægt að nota til að umbreyta Microsoft Word, Excel, PowerPoint, PDF, Visio og öðrum sniðum. GroupDocs.Conversion er sjálfstætt API sem hentar fyrir bakhlið og innri kerfi þar sem mikil afköst eru nauðsynleg. Það er ekki háð neinum hugbúnaði eins og Microsoft eða Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Breyttu MPP skránum þínum í MPX í .NET auðveldlega. Þú getur notað aðeins nokkrar C# kóðalínur á hvaða vettvang sem þú vilt eins og - Windows, Linux, macOS.
+        Þú getur prófað MPP til MPX viðskipti ókeypis og metið gæði viðskiptaniðurstaðna. Ásamt einföldum skráabreytingum geturðu prófað fullkomnari valkosti til að hlaða uppruna MPP skrá og til að vista úttak MPX niðurstöðu. 
+        
+        Til dæmis, fyrir upprunaskrána MPP geturðu notað eftirfarandi hleðsluvalkosti:
+
+        * sjálfvirkt greina skráarsnið;
+        * tilgreindu lykilorð fyrir verndaðar skrár (ef skráarsnið styður það);
+        * skipta út leturgerðum sem vantar til að varðveita útlit skjalsins.
+        
+        Það eru líka til háþróaðir umbreytingarvalkostir fyrir MPX skrána:
+
+        * umbreyta tiltekinni skjalasíðu eða blaðsíðusviði;
+        * bættu vatnsmerki við breyttu MPX skrána og margt fleira.
+
+        Þegar umbreytingu er lokið geturðu vistað MPX skrána þína á staðbundinni skráarslóð eða hvaða geymslu sem er þriðja aðila eins og FTP, Amazon S3, Google Drive, Dropbox osfrv. Athugaðu - til að breyta MPP í {{ TO}} það er engin þörf fyrir neinn viðbótarhugbúnað uppsettan - eins og MS Office, Open Office, Adobe Acrobat Reader o.s.frv.
+
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Skref til að breyta MPP í MPX í C#"
+    content_left: |
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) auðveldar forriturum að breyta MPP skrá í MPX með nokkrum línum af kóða.
+        
+        * Búðu til tilvik af Converter bekknum og gefðu skránni MPP upp alla slóðina
+        * Búðu til og stilltu ConvertOptions fyrir MPX gerð.
+        * Hringdu í Converter.Convert aðferðina og sendu alla leiðina og sniðið (MPX) sem færibreytu
+
+    title_right: "kerfis kröfur"
+    content_right: |
+        Grunnviðskipti með GroupDocs.Conversion for .NET er hægt að gera í örfáum einföldum skrefum. API okkar eru studd á öllum helstu kerfum og stýrikerfum. Áður en þú keyrir kóðann hér að neðan skaltu ganga úr skugga um að þú hafir eftirfarandi forsendur uppsettar á kerfinu þínu.
+
+        * Stýrikerfi: Microsoft Windows, Linux, MacOS
+        * Þróunarumhverfi: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Fáðu nýjasta GroupDocs.Conversion for .NET frá [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+         
+    code: |
+        ```csharp    
+        // Hlaða upprunaskrá MPP fyrir umbreytingu
+          var converter = new GroupDocs.Conversion.Converter("input.mpp");
+          // Undirbúa viðskiptavalkosti fyrir marksnið MPX
+          var convertOptions = converter.GetPossibleConversions()["mpx"].ConvertOptions;
+          // Umbreyttu í MPX snið
+          converter.Convert("output.mpx", convertOptions);
+        ```
+
+demos:
+    enable: true
+    title: "MPP til MPX Sýning í beinni"
+    content: |
+       Umbreyttu MPP í MPX núna með því að fara á [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) vefsíðuna. Demo á netinu hefur eftirfarandi kosti
+          
+
+more_formats:
+    enable: true
+    title: "Aðrar studdar MPP viðskipti í C#"
+    content: "Þú getur líka breytt MPP í mörg önnur skráarsnið. Vinsamlegast skoðaðu listann hér að neðan."
+       
+       
+back_to_top:
+    enable: true
+---

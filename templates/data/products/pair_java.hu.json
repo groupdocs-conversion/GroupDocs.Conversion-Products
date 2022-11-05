@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "A(z) {{FROM}} konvertálása {{TO}}-re a {{ProgLang}} programban",
+    "meta_description": "{{FROM}} – {{TO}} konverzió a {{ProductName}} termékben néhány sor kóddal. Több mint 160 fájlformátum konvertálása a GroupDocs dokumentumkonverziós API segítségével a következőhöz: {{ProductName}}",
+    "h1": "A(z) {{FROM}} konvertálása {{TO}}-re a {{ProgLang}} programban",
+    "h2": "{{FROM}} – {{TO}} konverzió néhány soros {{ProductName}} kóddal",
+    "breadcrumb": "{{FROM}} - {{TO}} itt: {{ProgLang}}"
+  },
+  "about": {
+    "title": "A {{ProductFullName}} API-ról",
+    "content": "A [{{ProductFullName}}]({{ProductUrl}}) egy fejlett fájlformátum-konverziós API a népszerű kép- és dokumentumformátumok (például Microsoft Office, OpenDocument, PDF, HTML, e-mail, CAD) közötti konvertáláshoz. és még sok más csak néhány sornyi kóddal. A natív API automatikusan felismeri az eredeti dokumentumok formátumát, és számos lehetőséget kínál a konvertált dokumentumok testreszabására. A dokumentumból információk kinyerésének funkciója mellett alapértelmezés szerint támogatja a konverziós eredmények gyorsítótárazását is a helyi lemezre. Azonban bármilyen típusú gyorsítótár-tárolás támogatható a megfelelő interfészek - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis vagy bármely más - megvalósításával."
+  },
+  "overview": {
+    "description1": "Alakítsa át {{FROM}} fájljait {{TO}} formátumra a {{ProductName}} termékben. Csak néhány sornyi {{ProgLang}} kódra van szüksége bármely választott platformon, például Windowson, Linuxon vagy macOS-en.",
+    "description2": "Megpróbálhatja ingyenesen konvertálni a(z) {{FROM}}-t {{TO}}-re, és értékelje a konverziós eredmények minőségét. Az egyszerű fájlkonverziós szkriptek mellett kifinomultabb lehetőségeket is kipróbálhat a {{FROM}} forrásfájl betöltésére és a {{TO}} kimenet tárolására.",
+    "load_options_desc": "Például a {{FROM}} forrásfájlhoz a következő betöltési beállításokat használhatja:",
+    "load_options_item_1": "a fájlformátum automatikus felismerése",
+    "load_options_item_2": "jelszó megadása a védett fájlokhoz (ha a fájlformátum támogatja)",
+    "load_options_item_3": "pótolja a hiányzó betűtípusokat a dokumentum megjelenésének megőrzése érdekében",
+    "convert_options_desc": "Vannak speciális konvertálási beállítások is a {{TO}} fájlhoz:",
+    "convert_options_item_1": "egy dokumentum egy adott oldalát vagy oldaltartományát konvertálja",
+    "convert_options_item_2": "vízjel hozzáadása a konvertált {{TO}}-hoz",
+    "summary": "Az átalakítás befejezése után a {{TO}} fájlt elmentheti a helyi fájl elérési útjára vagy bármely harmadik fél tárhelyére, például FTP, Amazon S3, Google Drive, Dropbox stb. A(z) {{TO}} címre nem kell további szoftvereket telepítenie, például MS Office, Open Office, Adobe Acrobat Reader stb."
+  },
+  "steps": {
+    "title_left": "Lépések a(z) {{FROM}} konvertálásához {{TO}}-re a {{ProgLang}} programban",
+    "content_left": {
+      "description": "A [{{ProductFullName}}]({{ProductUrl}}) lehetővé teszi a fejlesztők számára, hogy a {{FROM}} fájlt néhány soros kóddal egyszerűen {{TO}}-re konvertálják.",
+      "step_1": "Hozzon létre egy új példányt a Converter osztályból, és töltse fel a(z) {{FROM}} fájlt a teljes elérési úttal",
+      "step_2": "A dokumentumtípus konvertálási beállításait állítsa a következőre: {{TO}}",
+      "step_3": "Hívja meg a convert() metódust, és adja meg a dokumentum nevét (teljes elérési utat) és a formátumot ({{TO}}) paraméterként"
+    },
+    "title_right": "rendszerkövetelmények",
+    "content_right": {
+      "description": "Az alapvető konverzió a {{ProductFullName}} API-val néhány sornyi kóddal elvégezhető. API-jaink minden nagyobb platformon és operációs rendszeren támogatottak. Az alábbi kód végrehajtása előtt győződjön meg arról, hogy a következő előfeltételek telepítve vannak a rendszeren.",
+      "step_1": "Operációs rendszerek: Microsoft Windows, Linux, MacOS",
+      "step_2": "Fejlesztői környezetek: {{DevEnv}}",
+      "step_3": "Szerezze meg a legújabb {{ProductFullName}} terméket a következőtől: [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Töltse be a(z) {{FROM}} forrásfájlt a konvertáláshoz",
+      "prepare_comment": "Konverziós beállítások előkészítése a(z) {{TO}} célformátumhoz",
+      "convert_comment": "Átalakítás {{TO}} formátumba"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} - {{TO}} Élő bemutató",
+    "content": "Látogassa meg [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) webhelyünket, és próbálja ki a(z) {{FROM}}–{{TO}} konverziót most. Az ingyenes demó a következő előnyökkel jár"
+  },
+  "more_formats": {
+    "title": "Egyéb támogatott {{FROM}} konverziók a {{ProgLang}} programban",
+    "content": "A(z) {{FROM}} fájlt sok más fájlformátumra is konvertálhatja. Kérjük, tekintse meg az alábbi listát."
+  }
+}

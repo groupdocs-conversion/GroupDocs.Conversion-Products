@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} Document Conversion API | Umbreyttu PDF Word Excel PPTX HTML myndum",
+    "description": "{{ProgLang}} Document Conversion API. Umbreyttu PDF Word DOC DOCX, Excel töflureiknum PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & myndskráarsnið."
+  },
+  "header": {
+    "title": "{{ProgLang}} API til að umbreyta 80+ skráarsniðum",
+    "description": "Einfalt API til að samþætta virkni skjala- og myndbreytinga í {{ProgLang}} forrit án þess að setja upp neinn utanaðkomandi hugbúnað.",
+    "button": {
+      "label": "Sækja ókeypis prufuáskrift",
+      "link": "https://downloads.groupdocs.com/conversion/java"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "Yfirlit"
+      },
+      "button2": {
+        "text": "Eiginleikar"
+      },
+      "button3": {
+        "text": "Stuðningur"
+      },
+      "button4": {
+        "text": "Sýning í beinni"
+      },
+      "button5": {
+        "text": "Verðlag"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} sameinar öflugt safn skjalabreytinga API til að sýna myndir og skjalasnið í Java forritunum þínum án þess að þurfa að setja upp viðbótarhugbúnað. Það rasterar skjölin innbyggt og breytir þeim í SVG+HTML+CSS til að auka gæði skjalaskoðunar á sama tíma og það skilar sanna texta, nákvæmni. Notaðu skjalavinnsluforritið – skoðaðu fljótt PDF, HTML, XML, Microsoft Office Word, Excel vinnublöð, PowerPoint kynningar, Outlook tölvupóst, Visio skýringarmyndir, Project, metafiles, myndir og ýmis önnur skráarsnið með auðveldum hætti og minni forritunarhættu. Það getur einnig sýnt lykilorðsvarðar skrár og gert kleift að fá framsetningu skjala sem HTML, mynd eða PDF form eftir flutninginn. Skráaumbreytingarsafnið okkar er alveg sérhannaðar þar sem það gerir þér kleift að birta allt skjalið eða gera það að hluta til að flýta fyrir ferlinu. Í gegnum GroupDocs.Conversion for Java API geturðu skoðað síður, tiltekið frumusvið í töflureikni eða jafnvel gert einstakt skjalalag á sniðum, svo sem PDF og CAD.",
+    "content2": "{{ProductFullName}} API gerir þér kleift að birta skjöl með/án athugasemda eða athugasemda fyrir studd skráarsnið. Það gerir þér einnig kleift að bæta við sérsniðnum leturgerðaskrám og draga út grunnskjalaupplýsingar eins og FileType, Extension, Name, PageCount osfrv.",
+    "tab_one": {
+      "description": "Eftirfarandi er yfirlit yfir {{ProductFullName}}:",
+      "right": {
+        "title": "Yfirlit",
+        "content1": "* Greina skráartegund sjálfkrafa",
+        "content2": "* Umbreyttu skjölum",
+        "content3": "* Umbreyttu kynningum",
+        "content4": "* Umbreyttu töflureiknum",
+        "content5": "* Umbreyttu rastermyndum",
+        "content6": "* Umbreyttu PDF skjölum",
+        "content7": "* Umbreyttu öðrum sniðum",
+        "content8": "* Notaðu vatnsmerki",
+        "content9": "* Tilgreindu lykilorð skrár",
+        "content10": "* Sérsníddu viðskipti"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} styður umbreytingu á milli allra vinsælra og algengra [skjalaskráasniða](https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
+      "left": {
+        "title": "Umbreyta úr:",
+        "content1": "* **Skjöl**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Töflureiknar**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Kynningar**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Myndir**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Færanlegt**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTM, HTML, MHTML",
+        "content7": "* **Metaskrár**: EMZ, WMZ",
+        "content8": "* **PhotoShop**: PSD",
+        "content9": "* **Verkefni**: MPP, MPT, MPX",
+        "content10": "* **Outlook**: PST, OST",
+        "content11": "* **Tölvupóstur**: MSG, EML, EMLX",
+        "content12": "* **Skýringarmyndir**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Annað**: VCF, PLT, LGS, OTG, MD, AI, LOG"
+      },
+      "right": {
+        "title": "Umbreyta í:",
+        "content1": "* **Skjöl**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Töflureiknar**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Kynningar**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Myndir**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
+        "content5": "* **Metaskrár**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Skýringarmynd**: SVGZ",
+        "content7": "* **Færanlegt**: PDF, XPS",
+        "content8": "* **HTML**: HTM, HTML, MHTML",
+        "content9": "**Annað**: læknir"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} styður eftirfarandi stýrikerfi, ramma og pakkastjóra:",
+      "left": {
+        "title1": "Stýrikerfi",
+        "title2": "Stutt rammar"
+      },
+      "right": {
+        "title1": "Pakkastjóri",
+        "title2": "Þróunarumhverfi"
+      }
+    }
+  },
+  "features": {
+    "title": "Eiginleikar {{ProductFullName}}",
+    "content1": "Auðveld samþætting og metered leyfisveiting",
+    "content2": "Stilltu sjálfgefinn aðdráttarvalkost þegar þú umbreytir í orð, skyggnur eða frumur",
+    "content3": "Umbreyttu í/frá öllum vinsælum rastermyndasniðum og úthlutaðu DPI, hæð og breidd myndar",
+    "content4": "Umbreyttu PDF og mynd í grátóna og línuraðu PDF skjal fyrir vefinn",
+    "content5": "Tilgreindu bókamerkjastig, fyrirsagnarstig og stækkað stig í Word í PDF/XPS umbreytingu",
+    "content6": "Stilltu og settu vatnsmerki í umbreytt skjal sem bakgrunn til að birta á bak við texta",
+    "content7": "Gerðu tölvupósthaus við umbreytingu úr tölvupósti",
+    "content8": "Stilltu sérsniðnar leturgerðir og hlaðið/skiptu leturgerð í staðinn við skjalabreytingu",
+    "content9": "Stilltu sjálfgefið leturgerð til að skipta út leturgerðum sem vantar fyrir skjöl, skyggnur og töflureiknir",
+    "content10": "Ítarlegar umbreytingaraðferðir til að skila úttakinu sem slóð eða IO straum",
+    "content11": "Umbreyttu töflureikni með töflulínum og fjarlægðu athugasemdir úr skyggnum meðan á umbreytingu stendur",
+    "content12": "Umbreyttu tilteknum skjalasíðum sem PDF-sniði og umbreyttu tilteknu frumusviði í töflureiknum",
+    "content13": "Sýndu falin blöð og slepptu tómum röðum og dálkum á meðan þú umbreytir töflureiknum",
+    "content14": "Teldu heildarsíður skjals og stilltu lykilorð á óvarið skjal meðan á umbreytingu stendur",
+    "content15": "Valkostur til að fjarlægja athugasemdir og innbyggðar skrár úr PDF",
+    "content16": "Búðu til HTML 5 samhæft merki þegar þú umbreytir í HTML",
+    "content17": "Finndu upprunategund sjálfkrafa og skilaðu öllum mögulegum viðskiptum þegar þú umbreytir úr straumi",
+    "content18": "Geta til að skila hverri síðu í sérstökum straumi meðan þú umbreytir í PDF eða HTML",
+    "content19": "Sýna/fela merkingar, athugasemdir og fylgjast með breytingum meðan þú umbreytir úr Word",
+    "content20": "DOCX til Tiff G3 umbreyting með skyggingarvalkosti",
+    "content21": "Umbreyttu sérstökum útlitum þegar þú umbreytir úr CAD skjali",
+    "content22": "Sjálfvirk nafngift þegar umbreytt skjal er vistað í skrá",
+    "content23": "Metered Licensing Stuðningur til að vera innheimtur á grundvelli notkunar á API",
+    "content24": "Umbreyttu skýringarmyndum í ritvinnsluskráarsnið",
+    "content25": "Bættu við blaðsíðunúmerum meðan þú umbreytir HTML í ritvinnsluskjal",
+    "content26": "Umbreyttu XML skjölum í hvaða snið sem er án umbreytingar",
+    "content27": "Fylgstu með framvindu skráabreytinga (byrjun, lok) beint úr forriti við viðskiptavini",
+    "more_feature": {
+      "title1": "Auðveld skjalasniðsbreyting með Java",
+      "content1": "Þú getur umbreytt skráarsniði margra skjalagerða með því að nota {{ProductFullName}} API. Hér færðu nokkrar línur af kóða til að framkvæma grunnskjalabreytingu með Java.",
+      "step_1": "Búðu til tilvik af Converter bekknum og gefðu skránni upp alla slóðina",
+      "step_2": "Búðu til og stilltu ConvertOptions fyrir viðkomandi marktegund.",
+      "step_3": "Hringdu í Converter.Convert aðferðina og sendu alla leiðina og sniðið sem færibreytu",
+      "title2": "Lestu skjal frá vefslóð eða slóð fyrir umbreytingu",
+      "content2": "Með því að nota {{ProductFullName}} API geturðu lesið innsláttarskjal úr skráarslóð sem og vefslóð. Þó að þú getir vistað úttaksskjalið sem skrá eða sent úttakið beint í straum.",
+      "title3": "Alhliða tækniaðstoð",
+      "content3": "{{ProductFullName}} er einfalt og nákvæmt API sem þú getur auðveldlega fellt inn í Java-undirstaða forritin þín. Hins vegar, til að koma þér í gang á skömmum tíma, bjóðum við einnig upp á auðveld sýnishorn af kóða og yfirgripsmikil API skjöl."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion býður upp á API fyrir skjalabreytingar fyrir önnur vinsæl þróunarumhverfi",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion fyrir .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
+      "platform": ".NET",
+      "link": "/conversion/net/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Hlaða upprunaskrá {{FROM}} fyrir umbreytingu",
+      "prepare_comment": "Undirbúa viðskiptavalkosti fyrir marksnið {{TO}}",
+      "convert_comment": "Umbreyttu í {{TO}} snið"
+    }
+  }
+}

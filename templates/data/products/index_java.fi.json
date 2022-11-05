@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} Asiakirjan muunnossovellusliittymä | Muunna PDF Word Excel PPTX HTML -kuvia",
+    "description": "{{ProgLang}} Asiakirjan muunnossovellusliittymä. Muunna PDF Word DOC DOCX, Excel-laskentataulukot PPT PPTX, HTML, PSD, MPT MPP, sähköposti MSG EMLX, AutoCAD ja kuvatiedostomuodot."
+  },
+  "header": {
+    "title": "{{ProgLang}} API muuntaa yli 80 tiedostomuotoa",
+    "description": "Yksinkertainen API integroida asiakirjojen ja kuvien muunnostoiminnot {{ProgLang}}-sovelluksiin ilman ulkoisten ohjelmistojen asentamista.",
+    "button": {
+      "label": "Lataa ilmainen kokeiluversio",
+      "link": "https://downloads.groupdocs.com/conversion/java"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "Yleiskatsaus"
+      },
+      "button2": {
+        "text": "ominaisuudet"
+      },
+      "button3": {
+        "text": "Tuki"
+      },
+      "button4": {
+        "text": "Live-demo"
+      },
+      "button5": {
+        "text": "Hinnoittelu"
+      }
+    }
+  },
+  "overview": {
+    "content1": "{{ProductFullName}} yhdistää tehokkaan joukon asiakirjojen muunnossovellusliittymiä kuvien ja asiakirjamuotojen näyttämiseen Java-sovelluksissa ilman lisäohjelmistojen asentamista. Se rasteroi asiakirjat natiivisti ja muuntaa ne SVG+HTML+CSS-muotoon, mikä parantaa asiakirjojen katselun laatua ja tuottaa todenmukaisen, korkealaatuisen tulosteen. Asiakirjan renderöintisovellusliittymän käyttäminen – tarkastele nopeasti PDF-, HTML-, XML-, Microsoft Office Word-, Excel-laskentataulukoita, PowerPoint-esityksiä, Outlook-sähköposteja, Visio-kaavioita, projekteja, metatiedostoja, kuvia ja monia muita tiedostomuotoja helposti ja vähemmän ohjelmointiriskejä. Se voi myös näyttää salasanalla suojattuja tiedostoja ja mahdollistaa asiakirjan esittämisen HTML-, kuva- tai PDF-muodossa renderöinnin jälkeen. Tiedostojen muunnoskirjastomme on melko muokattavissa, koska sen avulla voit näyttää koko asiakirjan tai tehdä sen osittain prosessin nopeuttamiseksi. GroupDocs.Conversion for Java API:n avulla voit tarkastella sivuja, tiettyä solualuetta laskentataulukossa tai jopa renderoida yksittäisen asiakirjakerroksen muodossa, kuten PDF ja CAD.",
+    "content2": "{{ProductFullName}} -sovellusliittymän avulla voit renderöidä asiakirjoja merkinnöillä tai kommenteilla tai ilman niitä tuetuissa tiedostomuodoissa. Sen avulla voit myös lisätä mukautettuja kirjasinhakemistoja ja poimia asiakirjan perustietoja, kuten tiedostotyyppi, laajennus, nimi, sivumäärä jne.",
+    "tab_one": {
+      "description": "Seuraavassa on yleiskatsaus tuotteesta {{ProductFullName}}:",
+      "right": {
+        "title": "Yleiskatsaus",
+        "content1": "* Tunnista tiedostotyyppi automaattisesti",
+        "content2": "* Muunna asiakirjoja",
+        "content3": "* Muunna esitykset",
+        "content4": "* Muunna laskentataulukoita",
+        "content5": "* Muunna rasterikuvia",
+        "content6": "* Muunna PDF-asiakirjoja",
+        "content7": "* Muunna muita muotoja",
+        "content8": "* Käytä vesileimaa",
+        "content9": "* Määritä tiedoston salasana",
+        "content10": "* Mukauta muunnos"
+      }
+    },
+    "tab_two": {
+      "description": "{{ProductFullName}} tukee muuntamista kaikkien suosittujen ja yleisesti käytettyjen [asiakirjatiedostomuotojen] välillä (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
+      "left": {
+        "title": "Muunna kohteesta:",
+        "content1": "* **Asiakirjat**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Laskentataulukot**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Esitykset**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Kuvat**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Kannettava**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTM, HTML, MHTML",
+        "content7": "* **Metatiedostot**: EMZ, WMZ",
+        "content8": "* **PhotoShop**: PSD",
+        "content9": "* **Projekti**: MPP, MPT, MPX",
+        "content10": "* **Outlook**: PST, OST",
+        "content11": "* **Sähköposti**: MSG, EML, EMLX",
+        "content12": "* **Kaaviot**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Muu**: VCF, PLT, LGS, OTG, MD, AI, LOG"
+      },
+      "right": {
+        "title": "Muuntaa:",
+        "content1": "* **Asiakirjat**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* **Laskentataulukot**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Esitykset**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Kuvat**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000",
+        "content5": "* **Metatiedostot**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Kaaviot**: SVGZ",
+        "content7": "* **Kannettava**: PDF, XPS",
+        "content8": "* **HTML**: HTM, HTML, MHTML",
+        "content9": "**Muu**: MD"
+      }
+    },
+    "tab_three": {
+      "description": "{{ProductFullName}} tukee seuraavia käyttöjärjestelmiä, kehyksiä ja paketinhallintaohjelmia:",
+      "left": {
+        "title1": "Käyttöjärjestelmät",
+        "title2": "Tuetut puitteet"
+      },
+      "right": {
+        "title1": "Paketinhallinta",
+        "title2": "Kehitysympäristöt"
+      }
+    }
+  },
+  "features": {
+    "title": "Tuotteen {{ProductFullName}} ominaisuudet",
+    "content1": "Helppo integrointi ja mitattu lisensointi",
+    "content2": "Aseta oletuszoomausasetus, kun muunnat sanoiksi, dioiksi tai soluiksi",
+    "content3": "Muunna kaikkiin suosituimpiin rasterikuvamuotoihin tai niistä ja määritä kuvan DPI, korkeus ja leveys",
+    "content4": "Muunna PDF ja kuva harmaasävyiksi ja linearisoi PDF-dokumentti verkkoa varten",
+    "content5": "Määritä kirjanmerkkitaso, otsikkotaso ja laajennettu taso Wordin PDF-/XPS-muunnoksessa",
+    "content6": "Määritä ja aseta vesileima muunnetussa asiakirjassa taustaksi tekstin taakse näytettäväksi",
+    "content7": "Renderöi sähköpostin otsikko sähköpostista muunnettaessa",
+    "content8": "Aseta mukautetut kirjasinhakemistot ja nimenomaisesti lataa/korvaa fontti asiakirjan muuntamisen aikana",
+    "content9": "Aseta oletusfontti korvaamaan puuttuvat fontit asiakirjojen, diojen ja laskentataulukoiden muunnokselle",
+    "content10": "Advanced Conversion Methods palauttaa lähdön poluna tai IO-virtana",
+    "content11": "Muunna laskentataulukko ruudukkoviivojen avulla ja poista kommentit dioista muuntamisen aikana",
+    "content12": "Muunna tietyt asiakirjasivut PDF-muodoksi ja muunna tietty solualue laskentataulukoissa",
+    "content13": "Näytä piilotetut taulukot ja ohita tyhjät rivit ja sarakkeet laskentataulukoita muunnettaessa",
+    "content14": "Laske asiakirjan sivujen kokonaismäärä ja aseta salasana suojaamattomaksi asiakirjaksi muuntamisen aikana",
+    "content15": "Mahdollisuus poistaa huomautuksia ja upotettuja tiedostoja PDF-tiedostosta",
+    "content16": "Luo HTML 5 -yhteensopiva merkintä, kun muunnat HTML:ksi",
+    "content17": "Tunnista automaattisesti lähdetyyppi ja palauta kaikki mahdolliset konversiot, kun muunnat streamista",
+    "content18": "Mahdollisuus palauttaa jokainen sivu erillisenä streamina muuntaessasi PDF- tai HTML-muotoon",
+    "content19": "Näytä/piilota merkinnät, kommentit ja seuraa muutoksia, kun muunnat Wordista",
+    "content20": "DOCX-muunnos Tiff G3:ksi varjostusvaihtoehdolla",
+    "content21": "Muunna tietyt asettelut, kun muunnat CAD-asiakirjasta",
+    "content22": "Automaattinen nimeäminen tallennettaessa muunnettua asiakirjaa tiedostoksi",
+    "content23": "Maksullinen lisenssi, jota tuetaan laskutettavaksi API:n käytön perusteella",
+    "content24": "Muunna kaaviot tekstinkäsittelytiedostomuotoihin",
+    "content25": "Lisää sivunumeroita muuntaessasi HTML:ää tekstinkäsittelydokumentiksi",
+    "content26": "Muunna XML-asiakirjat mihin tahansa muotoon ilman muuntamista",
+    "content27": "Tarkkaile tiedostojen muuntamisen edistymistä (aloitus, loppu) suoraan asiakaspuolen sovelluksesta",
+    "more_feature": {
+      "title1": "Helppo asiakirjamuodon muuntaminen Javalla",
+      "content1": "Voit muuntaa useiden asiakirjatyyppien tiedostomuotoja {{ProductFullName}} API:lla. Tässä sinulle esitetään muutama koodirivi, jolla voit suorittaa perusasiakirjan muuntamisen Javalla.",
+      "step_1": "Luo Converter-luokan esiintymä ja anna tiedostolle koko polku",
+      "step_2": "Luo ja aseta ConvertOptions halutulle kohdetyypille.",
+      "step_3": "Kutsu Converter.Convert-menetelmä ja välitä koko polku ja muoto parametriksi",
+      "title2": "Lue asiakirja URL-osoitteesta tai muunnospolusta",
+      "content2": "{{ProductFullName}} API:n avulla voit lukea syöttöasiakirjaa tiedostopolusta sekä URL-osoitteesta. Vaikka voit tallentaa tulosteen tiedostona tai lähettää tulosteen suoraan streamiin.",
+      "title3": "Kattava tekninen tuki",
+      "content3": "{{ProductFullName}} on yksinkertainen ja täsmällinen API, jonka voit integroida Java-pohjaisiin sovelluksiisi melko helposti. Jotta pääset käyntiin nopeasti, tarjoamme myös helposti seurattavia koodinäytteitä ja kattavan API-dokumentaation."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Conversion tarjoaa asiakirjojen muunnossovellusliittymiä muihin suosittuihin kehitysympäristöihin",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion for .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
+      "platform": ".NETTO",
+      "link": "/conversion/net/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Lataa lähdetiedosto {{FROM}} muuntamista varten",
+      "prepare_comment": "Valmistele muunnosasetukset kohdemuodolle {{TO}}",
+      "convert_comment": "Muunna muotoon {{TO}}"
+    }
+  }
+}

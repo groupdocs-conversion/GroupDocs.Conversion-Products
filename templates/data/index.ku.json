@@ -1,0 +1,36 @@
+{
+  "head": {
+    "title": ".NET, Java, API-yên Cloud & Serlêdanên Veguheztina Belgeyê ji hêla GroupDocs ve",
+    "description": "Bi çareseriyên serîlêdan û api-ê li ser her platformê formatên pelgeya pelge û wêneyê yên populer veguherînin."
+  },
+  "header": {
+    "title": "Çareseriya Veguherîna Belge û Wêne",
+    "description": "Bi çareseriyên serîlêdan û api-ê li ser her platformê formatên pelgeya pelge û wêneyê yên populer veguherînin."
+  },
+  "apis": {
+    "api1": {
+      "title": "GroupDocs.Conversion High Code APIs Include",
+      "label": "Hemî API-yên Koda Bilind bibînin",
+      "product1_content": "Native .NET API ku di her cûre serîlêdana .NET de belge û formatên pelê wêneyê rast biguhezîne. Di dema veguheztinê de lêzêdekirina avê nîşaneyên wêneyê piştgirî dike.",
+      "product2_content": "Serlêdanên Java-ya xwe çalak bikin ku bi hêsanî di navbera hemî formatên belgeyên standard ên pîşesaziyê de, tevî Microsoft Office, PDF, HTML, wêne û gelekên din veguherînin."
+    },
+    "api2": {
+      "title": "GroupDocs.Conversion Low Code APIs Include",
+      "label": "Hemî API-yên Code Low-ê bibînin",
+      "product1_content": "Bi API-a veguheztina pelê cURL RESTful re bixebitin ku bi hêsanî Microsoft Office, PDF, E-name, Proje, HTML û pelên din ên pelê yên hevpar di serîlêdanên xwe de veguherînin.",
+      "product2_content": "Veguheztina pelê .NET REST API-ya ku bi hêsanî Microsoft Office, PDF, E-name, Proje, HTML û pelên din ên hevpar li ser her platformê bi karanîna Cloud SDK veguherîne.",
+      "product3_content": "Serîlêdanên Java-ya xweya ewr-based bi taybetmendiyên veguheztina belgeyên pêşkeftî li ser her platformê ku bikaribe bangî API-yên REST bike dewlemend bikin."
+    },
+    "api3": {
+      "title": "GroupDocs.Conversion No Apps Code Include",
+      "label": "Hemî Serlêdanên No Kodê bibînin",
+      "product1_content": "Zêdetirî 50 formatên belgeyê veguherînin PDF, XLSX, DOCX, XPS, HTML û hêj bêtir.",
+      "product2_content": "Serlêdana belaş ku ji her gerokek webê DOC-ê veguherîne formata XLS.",
+      "product3_content": "Belgeyên PDF-a xwe ji bo veguheztina bêkêmasî li formata Word (DOCX) barkirin."
+    }
+  },
+  "testimonial": {
+    "designation": "Psychologist",
+    "content": "Ez bi heyecan li mezinbûna GroupDocs temaşe dikim. Bersivdariya tîmê weya bêkêmasî ji min re pir alîkarî kir, dema ku ez bi yekî re li GroupDocs diaxivim ez dikarim garantî bikim ku kesek guhdarî dike û tiştan çêdike."
+  }
+}

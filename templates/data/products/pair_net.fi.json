@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "{{FROM}} - {{TO}} Muunnin ohjelmassa {{ProgLang}}",
+    "meta_description": "Muunna {{FROM}} muotoon {{TO}} tuotteessa {{ProductName}} muutamalla koodirivillä. Käytä GroupDocs Document Conversion -sovellusliittymää muuntaaksesi yli 160 tiedostomuotoa.",
+    "h1": "Muunna {{FROM}} muotoon {{TO}} ohjelmassa {{ProgLang}}",
+    "h2": "Konversio {{FROM}} - {{TO}} muutamalla rivillä {{ProductName}}-koodia",
+    "breadcrumb": "{{FROM}} - {{TO}} ohjelmassa {{ProgLang}}"
+  },
+  "about": {
+    "title": "Tietoja {{ProductFullName}} API:sta",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) voidaan muuntaa Microsoft Word-, Excel-, PowerPointi-, PDF-, Visio- ja muita muotoja. GroupDocs.Conversion on erillinen API, joka sopii tausta- ja sisäisiin järjestelmiin, joissa vaaditaan korkeaa suorituskykyä. Se ei ole riippuvainen mistään ohjelmistosta, kuten Microsoft tai Open Office."
+  },
+  "overview": {
+    "description1": "Muunna {{FROM}} tiedostosi helposti muotoon {{TO}} sovelluksessa {{ProductName}}. Voit käyttää vain paria {{ProgLang}} koodiriviä missä tahansa valitsemassasi alustassa, kuten Windows, Linux, macOS.",
+    "description2": "Voit kokeilla muunnoksia {{FROM}} - {{TO}} ilmaiseksi ja arvioida tulostulosten laatua. Yksinkertaisten tiedostomuunnosskenaarioiden lisäksi voit kokeilla kehittyneempiä vaihtoehtoja lähdetiedoston {{FROM}} lataamiseen ja tulosteen {{TO}} tulosten tallentamiseen.",
+    "load_options_desc": "Esimerkiksi lähdetiedostolle {{FROM}} voit käyttää seuraavia latausvaihtoehtoja:",
+    "load_options_item_1": "tunnistaa automaattisesti tiedostomuodon",
+    "load_options_item_2": "määritä salasana suojatuille tiedostoille (jos tiedostomuoto tukee sitä)",
+    "load_options_item_3": "vaihda puuttuvat fontit asiakirjan ulkonäön säilyttämiseksi",
+    "convert_options_desc": "Tiedostolle {{TO}} on myös lisäasetuksia:",
+    "convert_options_item_1": "muuntaa tietyn asiakirjan sivun tai sivualueen",
+    "convert_options_item_2": "lisää vesileima muunnetuun {{TO}}-tiedostoon ja paljon muuta",
+    "summary": "Kun muunnos on valmis, voit tallentaa {{TO}}-tiedostosi paikalliseen tiedostopolkuun tai mihin tahansa kolmannen osapuolen tallennustilaan, kuten FTP, Amazon S3, Google Drive, Dropbox jne. Huomaa - jos haluat muuntaa {{FROM}} muotoon {{ TO}} ei tarvitse asentaa lisäohjelmistoja - kuten MS Office, Open Office, Adobe Acrobat Reader jne."
+  },
+  "steps": {
+    "title_left": "Vaiheet {{FROM}} muuntamiseksi {{TO}}:ksi {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) tekee kehittäjien helpoksi muuntaa {{FROM}}-tiedoston muotoon {{TO}} muutamalla koodirivillä.",
+      "step_1": "Luo Converter-luokan esiintymä ja anna tiedostolle {{FROM}} koko polku",
+      "step_2": "Luo ja aseta ConvertOptions tyypille {{TO}}.",
+      "step_3": "Kutsu Converter.Convert-menetelmä ja välitä koko polku ja muoto ({{TO}}) parametriksi"
+    },
+    "title_right": "Laitteistovaatimukset",
+    "content_right": {
+      "description": "Perusmuunnos {{ProductFullName}}:lla voidaan tehdä muutamalla yksinkertaisella vaiheella. API-liittymiämme tuetaan kaikilla tärkeimmillä alustoilla ja käyttöjärjestelmillä. Ennen kuin suoritat alla olevan koodin, varmista, että järjestelmääsi on asennettu seuraavat edellytykset.",
+      "step_1": "Käyttöjärjestelmät: Microsoft Windows, Linux, MacOS",
+      "step_2": "Kehitysympäristöt: {{DevEnv}}",
+      "step_3": "Hanki uusin {{ProductFullName}} käyttäjältä [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Lataa lähdetiedosto {{FROM}} muuntamista varten",
+      "prepare_comment": "Valmistele muunnosasetukset kohdemuodolle {{TO}}",
+      "convert_comment": "Muunna muotoon {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} - {{TO}} Live-demo",
+    "content": "Muunna {{FROM}} muotoon {{TO}} nyt käymällä [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) -sivustolla. Online-demolla on seuraavat edut"
+  },
+  "more_formats": {
+    "title": "Muita tuettuja {{FROM}} muunnoksia {{ProgLang}}ssa",
+    "content": "Voit myös muuntaa {{FROM}} moniin muihin tiedostomuotoihin. Katso alla oleva luettelo."
+  }
+}

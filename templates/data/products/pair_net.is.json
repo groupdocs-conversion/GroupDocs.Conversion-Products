@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "{{FROM}} til {{TO}} Breytir í {{ProgLang}}",
+    "meta_description": "Umbreyttu {{FROM}} í {{TO}} í {{ProductName}} með því að nota nokkrar línur af kóða. Notaðu GroupDocs Document Conversion API til að umbreyta yfir 160 skráarsniðum.",
+    "h1": "Umbreyttu {{FROM}} í {{TO}} í {{ProgLang}}",
+    "h2": "{{FROM}} til {{TO}} viðskipti með nokkrum línum af {{ProductName}} kóða",
+    "breadcrumb": "{{FROM}} til {{TO}} í {{ProgLang}}"
+  },
+  "about": {
+    "title": "Um {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) er hægt að nota til að umbreyta Microsoft Word, Excel, PowerPoint, PDF, Visio og öðrum sniðum. GroupDocs.Conversion er sjálfstætt API sem hentar fyrir bakhlið og innri kerfi þar sem mikil afköst eru nauðsynleg. Það er ekki háð neinum hugbúnaði eins og Microsoft eða Open Office."
+  },
+  "overview": {
+    "description1": "Breyttu {{FROM}} skránum þínum í {{TO}} í {{ProductName}} auðveldlega. Þú getur notað aðeins nokkrar {{ProgLang}} kóðalínur á hvaða vettvang sem þú vilt eins og - Windows, Linux, macOS.",
+    "description2": "Þú getur prófað {{FROM}} til {{TO}} viðskipti ókeypis og metið gæði viðskiptaniðurstaðna. Ásamt einföldum skráabreytingum geturðu prófað fullkomnari valkosti til að hlaða uppruna {{FROM}} skrá og til að vista úttak {{TO}} niðurstöðu.",
+    "load_options_desc": "Til dæmis, fyrir upprunaskrána {{FROM}} geturðu notað eftirfarandi hleðsluvalkosti:",
+    "load_options_item_1": "sjálfvirkt greina skráarsnið",
+    "load_options_item_2": "tilgreindu lykilorð fyrir verndaðar skrár (ef skráarsnið styður það)",
+    "load_options_item_3": "skipta út leturgerðum sem vantar til að varðveita útlit skjalsins",
+    "convert_options_desc": "Það eru líka til háþróaðir umbreytingarvalkostir fyrir {{TO}} skrána:",
+    "convert_options_item_1": "umbreyta tiltekinni skjalasíðu eða blaðsíðusviði",
+    "convert_options_item_2": "bættu vatnsmerki við breyttu {{TO}} skrána og margt fleira",
+    "summary": "Þegar umbreytingu er lokið geturðu vistað {{TO}} skrána þína á staðbundinni skráarslóð eða hvaða geymslu sem er þriðja aðila eins og FTP, Amazon S3, Google Drive, Dropbox osfrv. Athugaðu - til að breyta {{FROM}} í {{ TO}} það er engin þörf fyrir neinn viðbótarhugbúnað uppsettan - eins og MS Office, Open Office, Adobe Acrobat Reader o.s.frv."
+  },
+  "steps": {
+    "title_left": "Skref til að breyta {{FROM}} í {{TO}} í {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) auðveldar forriturum að breyta {{FROM}} skrá í {{TO}} með nokkrum línum af kóða.",
+      "step_1": "Búðu til tilvik af Converter bekknum og gefðu skránni {{FROM}} upp alla slóðina",
+      "step_2": "Búðu til og stilltu ConvertOptions fyrir {{TO}} gerð.",
+      "step_3": "Hringdu í Converter.Convert aðferðina og sendu alla leiðina og sniðið ({{TO}}) sem færibreytu"
+    },
+    "title_right": "kerfis kröfur",
+    "content_right": {
+      "description": "Grunnviðskipti með {{ProductFullName}} er hægt að gera í örfáum einföldum skrefum. API okkar eru studd á öllum helstu kerfum og stýrikerfum. Áður en þú keyrir kóðann hér að neðan skaltu ganga úr skugga um að þú hafir eftirfarandi forsendur uppsettar á kerfinu þínu.",
+      "step_1": "Stýrikerfi: Microsoft Windows, Linux, MacOS",
+      "step_2": "Þróunarumhverfi: {{DevEnv}}",
+      "step_3": "Fáðu nýjasta {{ProductFullName}} frá [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Hlaða upprunaskrá {{FROM}} fyrir umbreytingu",
+      "prepare_comment": "Undirbúa viðskiptavalkosti fyrir marksnið {{TO}}",
+      "convert_comment": "Umbreyttu í {{TO}} snið"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} til {{TO}} Sýning í beinni",
+    "content": "Umbreyttu {{FROM}} í {{TO}} núna með því að fara á [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) vefsíðuna. Demo á netinu hefur eftirfarandi kosti"
+  },
+  "more_formats": {
+    "title": "Aðrar studdar {{FROM}} viðskipti í {{ProgLang}}",
+    "content": "Þú getur líka breytt {{FROM}} í mörg önnur skráarsnið. Vinsamlegast skoðaðu listann hér að neðan."
+  }
+}

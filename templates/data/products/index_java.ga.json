@@ -1,0 +1,155 @@
+{
+  "head": {
+    "title": "{{ProgLang}} API Tiontú Doiciméad | Tiontaigh PDF Word Excel Íomhánna HTML PPTX",
+    "description": "{{ProgLang}} API Tiontú Doiciméad. Tiontaigh PDF Word DOC DOCX, Scarbhileoga Excel PPT PPTX, HTML, PSD, MPT MPP, R-phost MSG EMLX, AutoCAD & formáidí comhaid íomhá."
+  },
+  "header": {
+    "title": "{{ProgLang}} API chun 80+ Formáid Chomhaid a Thiontú",
+    "description": "API Simplí chun Feidhmiúlacht Tiontaithe Doiciméid & Íomhá a Chomhtháthú le Feidhmchláir {{ProgLang}} gan aon Bhogearraí Seachtracha a Shuiteáil.",
+    "button": {
+      "label": "Íoslódáil Triail Saor in Aisce",
+      "link": "https://downloads.groupdocs.com/conversion/java"
+    }
+  },
+  "submenu": {
+    "middle": {
+      "button1": {
+        "text": "Forbhreathnú"
+      },
+      "button2": {
+        "text": "Gnéithe"
+      },
+      "button3": {
+        "text": "Tacaíocht"
+      },
+      "button4": {
+        "text": "Taispeántas beo"
+      },
+      "button5": {
+        "text": "Praghsáil"
+      }
+    }
+  },
+  "overview": {
+    "content1": "Comhcheanglaíonn {{ProductFullName}} sraith chumhachtach APIanna tiontaithe doiciméad chun íomhánna agus formáidí doiciméad a thaispeáint i d’fheidhmchláir Java gan gá le bogearraí breise a shuiteáil. Déanann sé na doiciméid a rasterizes ó dhúchas agus athraíonn sé ina SVG + HTML + CSS iad chun cáilíocht féachana doiciméad a fheabhsú agus aschur fíor-théacs, ardchreidimh a sheachadadh. Ag baint úsáide as an API rindreála doiciméad - féach go tapa ar PDF, HTML, XML, Microsoft Office Word, bileoga oibre Excel, cur i láthair PowerPoint, ríomhphoist Outlook, léaráidí Visio, Tionscadal, meiteashonraí, íomhánna agus formáidí comhaid éagsúla eile gan stró agus níos lú guaiseacha ríomhchláraithe. Is féidir leis comhaid atá cosanta ag pasfhocal a thaispeáint freisin agus cead a thabhairt ionadaíocht doiciméad a fháil mar HTML, íomhá nó foirm PDF tar éis an rindreála. Tá ár leabharlann comhshó comhad sách saincheaptha, toisc go gceadaíonn sé duit an doiciméad iomlán a thaispeáint, nó é a sholáthar go páirteach chun an próiseas a bhrostú. Trí GroupDocs.Conversion le haghaidh Java API, is féidir leat féachaint ar leathanaigh, raon cille ar leith i scarbhileog nó fiú ciseal doiciméad aonair a sholáthar i bhformáidí, mar shampla, PDF agus CAD.",
+    "content2": "Ligeann API {{ProductFullName}} duit doiciméid a sholáthar le/gan nóta nó nótaí tráchta le haghaidh formáidí comhaid a dtacaítear leo. Cuireann sé ar do chumas freisin eolairí cló saincheaptha a chur leis agus faisnéis bhunúsach doiciméid a bhaint as mar FileType, Extension, Name, PageCount, etc.",
+    "tab_one": {
+      "description": "Seo a leanas forbhreathnú ar {{ProductFullName}}:",
+      "right": {
+        "title": "Forbhreathnú",
+        "content1": "* Auto-bhrath Cineál Comhad",
+        "content2": "* Doiciméid Tiontaigh",
+        "content3": "* Cur i láthair Tiontaigh",
+        "content4": "* Scarbhileoga Tiontaigh",
+        "content5": "* Tiontaigh Íomhánna Raster",
+        "content6": "* Tiontaigh Doiciméid PDF",
+        "content7": "* Tiontaigh Formáidí Eile",
+        "content8": "* Cuir Comhartha Uisce i bhfeidhm",
+        "content9": "* Sonraigh Pasfhocal Comhad",
+        "content10": "* Saincheap Tiontú"
+      }
+    },
+    "tab_two": {
+      "description": "Tacaíonn {{ProductFullName}} le hathrú idir gach [formáid comhaid doiciméad] a bhfuil tóir orthu agus a úsáidtear go coitianta (https://docs.groupdocs.com/conversion/net/supported-document-formats/).",
+      "left": {
+        "title": "Tiontaigh Ó:",
+        "content1": "* **Cáipéisí**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* ** Scarbhileoga**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC",
+        "content3": "* **Cuir i láthair**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Íomhánna**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000",
+        "content5": "* **Inaistrithe**: PDF, XPS, OXPS, EPUB",
+        "content6": "* **HTML**: HTM, HTML, MHTML",
+        "content7": "* **Miotail**: EMZ, WMZ",
+        "content8": "* **Grianghrafadóir**: PSD",
+        "content9": "* **Tionscadal**: MPP, MPT, MPX",
+        "content10": "* **Outlook**: PST, OST",
+        "content11": "* **Ríomhphost**: MSG, EML, EMLX",
+        "content12": "* **Léaráidí**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ",
+        "content13": "* **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT",
+        "content14": "* **PostScript**: EPS, PS, PSL, CGM",
+        "content15": "* **CorelDRAW**: CDR, CMX",
+        "content16": "* **Eile**: VCF, PLT, LGS, OTG, MD, AI, LOG"
+      },
+      "right": {
+        "title": "Tiontaigh go:",
+        "content1": "* **Cáipéisí**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT",
+        "content2": "* ** Scarbhileoga**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC",
+        "content3": "* **Cuir i láthair**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP",
+        "content4": "* **Íomhánna**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, EIT, JPEG2000",
+        "content5": "* **Miotail**: EMF, WMF, EMZ, WMZ",
+        "content6": "* **Léaráidí**: SVGZ",
+        "content7": "* **Inaistrithe**: PDF, XPS",
+        "content8": "* **HTML**: HTM, HTML, MHTML",
+        "content9": "* **Eile**: MD"
+      }
+    },
+    "tab_three": {
+      "description": "Tacaíonn {{ProductFullName}} leis na Córais Oibriúcháin, Creataí agus Bainisteoirí Pacáiste a leanas:",
+      "left": {
+        "title1": "Córais oibriúcháin",
+        "title2": "Creataí Tacaithe"
+      },
+      "right": {
+        "title1": "Bainisteoir Pacáiste",
+        "title2": "Timpeallachtaí Forbartha"
+      }
+    }
+  },
+  "features": {
+    "title": "{{ProductFullName}} Gnéithe",
+    "content1": "Comhtháthú Éasca & Ceadúnú Méadraithe",
+    "content2": "Socraigh Rogha Súmála Réamhshocraithe agus tú ag Athrú go Focail, Sleamhnáin nó Cealla",
+    "content3": "Tiontaigh go/ó gach Formáid Íomhá Raster Coitianta & Sann Íomhá PSO, Airde & Leithead",
+    "content4": "Tiontaigh PDF & Íomhá go Liathscála & Líneach Doiciméad PDF don Ghréasán",
+    "content5": "Sonraigh Leibhéal Leabharmharc, Leibhéal Ceannteidil agus Leibhéal Leathnaithe i dTiontú Word go PDF/XPS",
+    "content6": "Cumraigh & Cuir Comhartha Uisce sa Doiciméad Tiontaithe mar Chúlra chun Taispeánadh Taobh thiar den Téacs",
+    "content7": "Rindreáil Ceanntásc Ríomhphoist le linn Comhshó ó Ríomhphost",
+    "content8": "Socraigh Comhadlanna Cló Chustaim & Luchtaigh/Cuir Cló in ionad le linn Tiontú Doiciméid",
+    "content9": "Socraigh Cló Réamhshocraithe chun Clónna ar Iarraidh a Ionadú le haghaidh Tiontú Doiciméid, Sleamhnáin & Scarbhileoga",
+    "content10": "Modhanna Tiontaithe Casta chun an Aschur a thabhairt ar ais mar Chonair nó Sruth IO",
+    "content11": "Tiontaigh Scarbhileog le Greille-línte & Bain Tuairimí ó Sleamhnáin agus Tiontú",
+    "content12": "Tiontaigh Leathanaigh Cháipéisí Sonracha mar Fhoirm PDF & Tiontaigh Raon Cille Sonrach ina Scarbhileoga",
+    "content13": "Taispeáin Bileoga Ceilte & Scipeáil Rónna agus Colúin Folmha agus Scarbhileoga á Athrú",
+    "content14": "Comhair Leathanaigh Iomlána Doiciméid & Socraigh Pasfhocal go Doiciméad Gan Cosaint le linn Tiontaithe",
+    "content15": "Rogha Anótálacha & Comhaid Leabaithe a Bhaint as PDF",
+    "content16": "Cruthaigh HTML 5 Marcáil Comhlíontach nuair a Thiontú go HTML",
+    "content17": "Auto-bhrath Cineál Foinse & Seol ar ais gach Tiontú Féideartha nuair a Thiontú ón Sruth",
+    "content18": "Cumas chun Gach Leathanach a Fhilleadh i Sruth ar Leith agus é á Thiontú go PDF nó HTML",
+    "content19": "Taispeáin / Folaigh Marcáil, Tuairimí & Rian Athruithe agus Athrú ó Word",
+    "content20": "Tiontú DOCX go Tiff G3 le Rogha Scáthú",
+    "content21": "Tiontaigh Leaganacha Sonracha agus tú ag Tiontú ó Dhoiciméad CAD",
+    "content22": "Ainmniú Uathoibríoch nuair a bhíonn Doiciméad tiontaithe á Shábháil go Comhad",
+    "content23": "Ceadúnú Méadraithe Tacaithe le Billeáil bunaithe ar Úsáid an API",
+    "content24": "Léaráidí a thiontú go Formáidí Comhaid Próiseála Focal",
+    "content25": "Cuir Uimhreacha Leathanaigh leis agus HTML á Thiontú go Doiciméad Próiseála Focal",
+    "content26": "Tiontaigh Doiciméid XML go Formáid ar bith gan Claochlú",
+    "content27": "Monatóireacht a dhéanamh ar Dhul Chun Cinn Comhshó Comhad (Tosaigh, Deireadh) Díreach ó Feidhmchlár Taobh an Chliaint",
+    "more_feature": {
+      "title1": "Tiontú Éasca Formáid Doiciméid ag baint úsáide as Java",
+      "content1": "Is féidir leat formáid comhaid an iliomad cineálacha doiciméad a thiontú trí úsáid a bhaint as {{ProductFullName}} API. Anseo tugtar cúpla líne de chód duit chun bundoiciméad a chomhshó ag baint úsáide as Java.",
+      "step_1": "Cruthaigh sampla den rang Tiontaire agus cuir an cosán iomlán ar fáil don chomhad",
+      "step_2": "Cruthaigh agus socraigh ConvertOptions don chineál sprice atá ag teastáil.",
+      "step_3": "Cuir glaoch ar an modh Converter.Convert agus pas a fháil sa chosán iomlán agus formáid mar pharaiméadar",
+      "title2": "Léigh Doiciméad ó URL nó Conair le haghaidh Tiontú",
+      "content2": "Ag baint úsáide as {{ProductFullName}} API, is féidir leat doiciméad ionchuir a léamh ó chonair comhaid chomh maith le URL. Cé gur féidir leat a shábháil ar an doiciméad aschur mar chomhad nó chuir an t-aschur díreach isteach i sruth.",
+      "title3": "Tacaíocht Theicniúil Chuimsitheach",
+      "content3": "Is é {{ProductFullName}} API simplí agus go dtí an pointe is féidir leat a chomhtháthú le d'fheidhmchláir Java-bhunaithe go héasca go leor. Mar sin féin, chun tú a chur ar bun agus a fheidhmiú in am ar bith, soláthraímid samplaí cód atá éasca le leanúint agus doiciméadú cuimsitheach API freisin."
+    }
+  },
+  "solutions": {
+    "title": "Cuireann GroupDocs.Conversion APIanna comhshó doiciméad ar fáil do thimpeallachtaí forbartha eile a bhfuil tóir orthu",
+    "solution": {
+      "img_alt": "GroupDocs.Conversion le haghaidh .NET",
+      "image": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png",
+      "platform": ".GLAN",
+      "link": "/tiontú/líon/"
+    }
+  },
+  "steps": {
+    "code": {
+      "load_comment": "Luchtaigh an comhad foinse {{FROM}} le haghaidh tiontaithe",
+      "prepare_comment": "Ullmhaigh roghanna tiontaithe don spriocfhormáid {{TO}}",
+      "convert_comment": "Tiontaigh go formáid {{TO}}"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "{{FROM}} ber bi {{TO}} veguherker di {{ProgLang}} de",
+    "meta_description": "Di {{ProductName}} de {{FROM}} veguherîne {{TO}} bi çend rêzikên kodê. API-a Veguheztina Belgeya GroupDocs bikar bînin da ku zêdetirî 160 formatên pelan veguherînin.",
+    "h1": "Di {{ProgLang}} de {{FROM}} veguherîne {{TO}}",
+    "h2": "Guhertina {{FROM}} bo {{TO}} bi çend rêzikên koda {{ProductName}}",
+    "breadcrumb": "{{FROM}} heta {{TO}} di {{ProgLang}} de"
+  },
+  "about": {
+    "title": "Derbarê {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) dikare ji bo veguherandina Microsoft Word, Excel, PowerPoint, PDF, Visio û formên din were bikar anîn. GroupDocs.Conversion API-yek serbixwe ye ku ji bo pergalên paşîn û hundurîn ên ku performansa bilind hewce ye re maqûl e. Ew bi nermalava wekî Microsoft an Open Office ve girêdayî nîne."
+  },
+  "overview": {
+    "description1": "Pelên xwe yên {{FROM}} di {{ProductName}} de bi hêsanî veguherînin {{TO}}. Hûn dikarin tenê çend rêzikên kodê yên {{ProgLang}} li her platformek bijartina xwe wekî Windows, Linux, macOS bikar bînin.",
+    "description2": "Hûn dikarin veguherîna {{FROM}} berbi {{TO}} belaş biceribînin û kalîteya encamên veguhertinê binirxînin. Li gel senaryoyên guherandina pelan ên hêsan, hûn dikarin vebijarkên pêşkeftîtir ji bo barkirina pelê çavkaniya {{FROM}} û ji bo hilanîna encam {{TO}} biceribînin.",
+    "load_options_desc": "Mînakî, ji bo pelê çavkaniyê {{FROM}} hûn dikarin vebijarkên barkirinê yên jêrîn bikar bînin:",
+    "load_options_item_1": "formata pelê bixweber vedîtin",
+    "load_options_item_2": "şîfreya ji bo pelên parastî diyar bike (eger formata pelê piştgirî dike)",
+    "load_options_item_3": "tîpên wenda biguherînin da ku xuyangiya belgeyê biparêzin",
+    "convert_options_desc": "Ji bo pelê {{TO}} vebijarkên veguherîna pêşkeftî jî hene:",
+    "convert_options_item_1": "rûpela belgeya taybetî an rêza rûpelê veguherînin",
+    "convert_options_item_2": "avî nîşanekê li pela {{TO}} ya guhertî û gelekên din zêde bike",
+    "summary": "Piştî ku veguhertin qediya, hûn dikarin pelê {{TO}} xwe li ser riya pelê ya herêmî hilînin an depoyek sêyemîn mîna FTP, Amazon S3, Google Drive, Dropbox hwd. Ji kerema xwe bala xwe bidin - hûn {{FROM}} veguherînin {{ TO}} ne hewce ye ku nermalava zêde hatî saz kirin - mîna MS Office, Open Office, Adobe Acrobat Reader hwd."
+  },
+  "steps": {
+    "title_left": "Gavên veguherîna {{FROM}} bo {{TO}} di {{ProgLang}} de",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) ji pêşdebiran re hêsantir dike ku pelek {{FROM}} bi çend rêzikên kodê veguherînin {{TO}}.",
+      "step_1": "Nimûneyek ji çîna Veguhêrker biafirîne û pelê {{FROM}} bi riya tevahî peyda bike",
+      "step_2": "Ji bo tîpa {{TO}} ConvertOptions biafirîne û saz bike.",
+      "step_3": "Gazî rêbaza Converter.Convert bike û rê û forma tevahî ({{TO}}) wekî parametre derbas bike."
+    },
+    "title_right": "Pêdiviyên Sîstemê",
+    "content_right": {
+      "description": "Veguherîna bingehîn bi {{ProductFullName}} tenê bi çend gavên hêsan dikare were kirin. API-yên me li ser hemî platformên sereke û pergalên xebitandinê têne piştgirî kirin. Berî ku hûn koda jêrîn bicîh bikin, pê ewle bine ku we şertên jêrîn li ser pergala we hatine saz kirin.",
+      "step_1": "Pergalên xebitandinê: Microsoft Windows, Linux, MacOS",
+      "step_2": "Jîngehên pêşkeftinê: {{DevEnv}}",
+      "step_3": "Nûtirîn {{ProductFullName}} ji [{{RepoName}}]({{RepoUrl}}) bistînin"
+    },
+    "code": {
+      "load_comment": "Ji bo veguhertinê pelê çavkaniyê {{FROM}} bar bike",
+      "prepare_comment": "Vebijarkên veguhertinê ji bo forma armancê amade bikin {{TO}}",
+      "convert_comment": "Biguherîne formata {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "{{FROM}} ber {{TO}} Demoya Zindî",
+    "content": "Niha bi serdana malpera [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family) {{FROM}} veguherînin {{TO}}. Demoya serhêl xwedî avantajên jêrîn e"
+  },
+  "more_formats": {
+    "title": "Guhertinên din ên piştgirîkirî yên {{FROM}} di {{ProgLang}} de",
+    "content": "Her weha hûn dikarin {{FROM}} veguherînin gelek formatên pelan ên din. Ji kerema xwe lîsteya jêrîn bibînin."
+  }
+}

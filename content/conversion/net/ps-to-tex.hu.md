@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:42
+date: 2022-11-05T06:50:54
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: PS - TEX itt: C#
+breadcrumb: PS - TEX itt C#
 
 ############################# Head ############################
 head_title: "PS - TEX konverter itt: C#"

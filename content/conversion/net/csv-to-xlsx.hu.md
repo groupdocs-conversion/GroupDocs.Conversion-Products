@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:37
+date: 2022-11-05T06:50:49
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: CSV - XLSX itt: C#
+breadcrumb: CSV - XLSX itt C#
 
 ############################# Head ############################
 head_title: "CSV - XLSX konverter itt: C#"

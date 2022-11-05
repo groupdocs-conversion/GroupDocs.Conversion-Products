@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:51
+date: 2022-11-05T06:51:03
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: TEX - JP2 itt: Java
+breadcrumb: TEX - JP2 itt Java
 
 ############################# Head ############################
 head_title: "A(z) TEX konvertálása JP2-re a Java programban"

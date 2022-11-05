@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:53
+date: 2022-11-05T06:51:05
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: XPS - PDF itt: Java
+breadcrumb: XPS - PDF itt Java
 
 ############################# Head ############################
 head_title: "A(z) XPS konvertálása PDF-re a Java programban"

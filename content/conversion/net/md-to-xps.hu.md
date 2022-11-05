@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:40
+date: 2022-11-05T06:50:52
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: MD - XPS itt: C#
+breadcrumb: MD - XPS itt C#
 
 ############################# Head ############################
 head_title: "MD - XPS konverter itt: C#"

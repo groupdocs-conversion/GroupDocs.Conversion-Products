@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:50
+date: 2022-11-05T06:51:01
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: PLT - DOCM itt: Java
+breadcrumb: PLT - DOCM itt Java
 
 ############################# Head ############################
 head_title: "A(z) PLT konvertálása DOCM-re a Java programban"

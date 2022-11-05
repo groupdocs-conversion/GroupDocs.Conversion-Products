@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:38
+date: 2022-11-05T06:50:49
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: DOTX - DOCX itt: C#
+breadcrumb: DOTX - DOCX itt C#
 
 ############################# Head ############################
 head_title: "DOTX - DOCX konverter itt: C#"

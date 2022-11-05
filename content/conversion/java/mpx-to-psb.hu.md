@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:49
+date: 2022-11-05T06:51:00
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
-breadcrumb: MPX - PSB itt: Java
+breadcrumb: MPX - PSB itt Java
 
 ############################# Head ############################
 head_title: "A(z) MPX konvertálása PSB-re a Java programban"

@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:45
+date: 2022-11-05T06:50:57
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: XPS - WMF itt: C#
+breadcrumb: XPS - WMF itt C#
 
 ############################# Head ############################
 head_title: "XPS - WMF konverter itt: C#"

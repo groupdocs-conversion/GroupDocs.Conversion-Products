@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:44
+date: 2022-11-05T06:50:56
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: XLAM - XLT itt: C#
+breadcrumb: XLAM - XLT itt C#
 
 ############################# Head ############################
 head_title: "XLAM - XLT konverter itt: C#"

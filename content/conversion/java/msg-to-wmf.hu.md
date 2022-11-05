@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:49
+date: 2022-11-05T06:51:00
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: MSG - WMF itt: Java
+breadcrumb: MSG - WMF itt Java
 
 ############################# Head ############################
 head_title: "A(z) MSG konvertálása WMF-re a Java programban"

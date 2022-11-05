@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:49
+date: 2022-11-05T06:51:01
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: OXPS - JP2 itt: Java
+breadcrumb: OXPS - JP2 itt Java
 
 ############################# Head ############################
 head_title: "A(z) OXPS konvertálása JP2-re a Java programban"

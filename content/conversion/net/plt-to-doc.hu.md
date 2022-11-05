@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:41
+date: 2022-11-05T06:50:53
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: PLT - DOC itt: C#
+breadcrumb: PLT - DOC itt C#
 
 ############################# Head ############################
 head_title: "PLT - DOC konverter itt: C#"

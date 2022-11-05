@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:50
+date: 2022-11-05T06:51:02
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: PLT - PPSM itt: Java
+breadcrumb: PLT - PPSM itt Java
 
 ############################# Head ############################
 head_title: "A(z) PLT konvertálása PPSM-re a Java programban"

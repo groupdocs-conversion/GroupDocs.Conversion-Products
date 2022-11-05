@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:36
+date: 2022-11-05T06:50:48
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: BMP - GIF itt: C#
+breadcrumb: BMP - GIF itt C#
 
 ############################# Head ############################
 head_title: "BMP - GIF konverter itt: C#"

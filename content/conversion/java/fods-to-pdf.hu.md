@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:47
+date: 2022-11-05T06:50:59
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: FODS - PDF itt: Java
+breadcrumb: FODS - PDF itt Java
 
 ############################# Head ############################
 head_title: "A(z) FODS konvertálása PDF-re a Java programban"

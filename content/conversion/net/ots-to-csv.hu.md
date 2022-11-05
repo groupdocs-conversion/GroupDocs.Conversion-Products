@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:41
+date: 2022-11-05T06:50:53
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: OTS - CSV itt: C#
+breadcrumb: OTS - CSV itt C#
 
 ############################# Head ############################
 head_title: "OTS - CSV konverter itt: C#"

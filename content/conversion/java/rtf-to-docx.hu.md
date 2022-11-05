@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:50
+date: 2022-11-05T06:51:03
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: RTF - DOCX itt: Java
+breadcrumb: RTF - DOCX itt Java
 
 ############################# Head ############################
 head_title: "A(z) RTF konvertálása DOCX-re a Java programban"

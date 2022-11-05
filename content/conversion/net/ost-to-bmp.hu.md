@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:41
+date: 2022-11-05T06:50:53
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: OST - BMP itt: C#
+breadcrumb: OST - BMP itt C#
 
 ############################# Head ############################
 head_title: "OST - BMP konverter itt: C#"

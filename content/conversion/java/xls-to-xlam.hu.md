@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:53
+date: 2022-11-05T06:51:05
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: XLS - XLAM itt: Java
+breadcrumb: XLS - XLAM itt Java
 
 ############################# Head ############################
 head_title: "A(z) XLS konvertálása XLAM-re a Java programban"

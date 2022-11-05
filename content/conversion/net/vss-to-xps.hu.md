@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:44
+date: 2022-11-05T06:50:55
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
-breadcrumb: VSS - XPS itt: C#
+breadcrumb: VSS - XPS itt C#
 
 ############################# Head ############################
 head_title: "VSS - XPS konverter itt: C#"

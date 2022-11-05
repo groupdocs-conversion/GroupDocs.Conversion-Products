@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:51
+date: 2022-11-05T06:51:03
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
-breadcrumb: VDX - VSSM itt: Java
+breadcrumb: VDX - VSSM itt Java
 
 ############################# Head ############################
 head_title: "A(z) VDX konvertálása VSSM-re a Java programban"

@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:52
+date: 2022-11-05T06:51:04
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: WMF - PNG itt: Java
+breadcrumb: WMF - PNG itt Java
 
 ############################# Head ############################
 head_title: "A(z) WMF konvertálása PNG-re a Java programban"

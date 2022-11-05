@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:39
+date: 2022-11-05T06:50:51
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: HTM - DOTM itt: C#
+breadcrumb: HTM - DOTM itt C#
 
 ############################# Head ############################
 head_title: "HTM - DOTM konverter itt: C#"

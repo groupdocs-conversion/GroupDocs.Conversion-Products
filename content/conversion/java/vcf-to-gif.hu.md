@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:51
+date: 2022-11-05T06:51:03
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: VCF - GIF itt: Java
+breadcrumb: VCF - GIF itt Java
 
 ############################# Head ############################
 head_title: "A(z) VCF konvertálása GIF-re a Java programban"

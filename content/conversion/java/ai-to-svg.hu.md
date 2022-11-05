@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:45
+date: 2022-11-05T06:50:57
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: AI - SVG itt: Java
+breadcrumb: AI - SVG itt Java
 
 ############################# Head ############################
 head_title: "A(z) AI konvertálása SVG-re a Java programban"

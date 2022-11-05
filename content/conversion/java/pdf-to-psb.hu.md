@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:49
+date: 2022-11-05T06:51:01
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: PDF - PSB itt: Java
+breadcrumb: PDF - PSB itt Java
 
 ############################# Head ############################
 head_title: "A(z) PDF konvertálása PSB-re a Java programban"

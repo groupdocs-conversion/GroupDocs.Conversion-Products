@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:47
+date: 2022-11-05T06:50:59
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: FODP - MD itt: Java
+breadcrumb: FODP - MD itt Java
 
 ############################# Head ############################
 head_title: "A(z) FODP konvertálása MD-re a Java programban"

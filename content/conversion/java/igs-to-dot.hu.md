@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:47
+date: 2022-11-05T06:50:59
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: IGS - DOT itt: Java
+breadcrumb: IGS - DOT itt Java
 
 ############################# Head ############################
 head_title: "A(z) IGS konvertálása DOT-re a Java programban"

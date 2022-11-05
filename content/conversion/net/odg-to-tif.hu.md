@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:41
+date: 2022-11-05T06:50:53
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: ODG - TIF itt: C#
+breadcrumb: ODG - TIF itt C#
 
 ############################# Head ############################
 head_title: "ODG - TIF konverter itt: C#"

@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:43
+date: 2022-11-05T06:50:55
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: TEX - DCM itt: C#
+breadcrumb: TEX - DCM itt C#
 
 ############################# Head ############################
 head_title: "TEX - DCM konverter itt: C#"

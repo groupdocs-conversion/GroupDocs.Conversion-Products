@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:36
+date: 2022-11-05T06:50:49
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: CAD - OTP itt: C#
+breadcrumb: CAD - OTP itt C#
 
 ############################# Head ############################
 head_title: "CAD - OTP konverter itt: C#"

@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:49
+date: 2022-11-05T06:51:01
 draft: false
 otherformats: csv dif epub fods htm html json mht mhtml ods pdf sxc tex tsv xlam xls xlsb xlsm xlsx xlt xltm xltx xml xps
-breadcrumb: ODS - XPS itt: Java
+breadcrumb: ODS - XPS itt Java
 
 ############################# Head ############################
 head_title: "A(z) ODS konvertálása XPS-re a Java programban"

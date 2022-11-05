@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:42
+date: 2022-11-05T06:50:54
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
-breadcrumb: RTF - MD itt: C#
+breadcrumb: RTF - MD itt C#
 
 ############################# Head ############################
 head_title: "RTF - MD konverter itt: C#"

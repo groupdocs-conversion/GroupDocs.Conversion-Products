@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:45
+date: 2022-11-05T06:50:57
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: CAD - MHT itt: Java
+breadcrumb: CAD - MHT itt Java
 
 ############################# Head ############################
 head_title: "A(z) CAD konvertálása MHT-re a Java programban"

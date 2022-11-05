@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:51
+date: 2022-11-05T06:51:03
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: VCF - BMP itt: Java
+breadcrumb: VCF - BMP itt Java
 
 ############################# Head ############################
 head_title: "A(z) VCF konvertálása BMP-re a Java programban"

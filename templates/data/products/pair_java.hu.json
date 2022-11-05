@@ -4,7 +4,7 @@
     "meta_description": "{{FROM}} – {{TO}} konverzió a {{ProductName}} termékben néhány sor kóddal. Több mint 160 fájlformátum konvertálása a GroupDocs dokumentumkonverziós API segítségével a következőhöz: {{ProductName}}",
     "h1": "A(z) {{FROM}} konvertálása {{TO}}-re a {{ProgLang}} programban",
     "h2": "{{FROM}} – {{TO}} konverzió néhány soros {{ProductName}} kóddal",
-    "breadcrumb": "{{FROM}} - {{TO}} itt: {{ProgLang}}"
+    "breadcrumb": "{{FROM}} - {{TO}} itt {{ProgLang}}"
   },
   "about": {
     "title": "A {{ProductFullName}} API-ról",

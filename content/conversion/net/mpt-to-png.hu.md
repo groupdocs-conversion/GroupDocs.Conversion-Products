@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:40
+date: 2022-11-05T06:50:53
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
-breadcrumb: MPT - PNG itt: C#
+breadcrumb: MPT - PNG itt C#
 
 ############################# Head ############################
 head_title: "MPT - PNG konverter itt: C#"

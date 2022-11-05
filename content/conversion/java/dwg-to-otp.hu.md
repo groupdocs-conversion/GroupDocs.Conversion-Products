@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:46
+date: 2022-11-05T06:50:58
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: DWG - OTP itt: Java
+breadcrumb: DWG - OTP itt Java
 
 ############################# Head ############################
 head_title: "A(z) DWG konvertálása OTP-re a Java programban"

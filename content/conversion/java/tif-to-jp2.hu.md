@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:51
+date: 2022-11-05T06:51:03
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: TIF - JP2 itt: Java
+breadcrumb: TIF - JP2 itt Java
 
 ############################# Head ############################
 head_title: "A(z) TIF konvertálása JP2-re a Java programban"

@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:48
+date: 2022-11-05T06:51:00
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
-breadcrumb: MPP - PSD itt: Java
+breadcrumb: MPP - PSD itt Java
 
 ############################# Head ############################
 head_title: "A(z) MPP konvertálása PSD-re a Java programban"

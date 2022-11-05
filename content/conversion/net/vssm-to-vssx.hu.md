@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:43
+date: 2022-11-05T06:50:55
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
-breadcrumb: VSSM - VSSX itt: C#
+breadcrumb: VSSM - VSSX itt C#
 
 ############################# Head ############################
 head_title: "VSSM - VSSX konverter itt: C#"

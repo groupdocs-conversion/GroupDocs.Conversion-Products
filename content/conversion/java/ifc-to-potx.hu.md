@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:47
+date: 2022-11-05T06:50:59
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: IFC - POTX itt: Java
+breadcrumb: IFC - POTX itt Java
 
 ############################# Head ############################
 head_title: "A(z) IFC konvertálása POTX-re a Java programban"

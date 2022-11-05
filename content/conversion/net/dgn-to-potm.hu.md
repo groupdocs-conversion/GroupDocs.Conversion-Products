@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:37
+date: 2022-11-05T06:50:49
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: DGN - POTM itt: C#
+breadcrumb: DGN - POTM itt C#
 
 ############################# Head ############################
 head_title: "DGN - POTM konverter itt: C#"

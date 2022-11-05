@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:46
+date: 2022-11-05T06:50:58
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: DWG - POTX itt: Java
+breadcrumb: DWG - POTX itt Java
 
 ############################# Head ############################
 head_title: "A(z) DWG konvertálása POTX-re a Java programban"

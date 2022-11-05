@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:50
+date: 2022-11-05T06:51:02
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
-breadcrumb: PS - PNG itt: Java
+breadcrumb: PS - PNG itt Java
 
 ############################# Head ############################
 head_title: "A(z) PS konvertálása PNG-re a Java programban"

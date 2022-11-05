@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:45
+date: 2022-11-05T06:50:57
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: CDR - TGA itt: Java
+breadcrumb: CDR - TGA itt Java
 
 ############################# Head ############################
 head_title: "A(z) CDR konvertálása TGA-re a Java programban"

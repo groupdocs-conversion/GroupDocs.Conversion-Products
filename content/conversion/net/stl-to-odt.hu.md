@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:42
+date: 2022-11-05T06:50:54
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
-breadcrumb: STL - ODT itt: C#
+breadcrumb: STL - ODT itt C#
 
 ############################# Head ############################
 head_title: "STL - ODT konverter itt: C#"

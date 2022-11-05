@@ -1,10 +1,10 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-05T05:12:49
+date: 2022-11-05T06:51:01
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg png pps ppsx ppt pptx psb psd svg svgz tga tif tiff webp wmf wmz
-breadcrumb: ODG - JP2 itt: Java
+breadcrumb: ODG - JP2 itt Java
 
 ############################# Head ############################
 head_title: "A(z) ODG konvertálása JP2-re a Java programban"

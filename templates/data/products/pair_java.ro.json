@@ -1,0 +1,54 @@
+{
+  "content": {
+    "meta_title": "Convertiți {{FROM}} în {{TO}} în {{ProgLang}}",
+    "meta_description": "Conversie {{FROM}} în {{TO}} în {{ProductName}} cu câteva rânduri de cod. Convertiți peste 160 de formate de fișiere folosind API-ul de conversie a documentelor GroupDocs pentru {{ProductName}}",
+    "h1": "Convertiți {{FROM}} în {{TO}} în {{ProgLang}}",
+    "h2": "Conversie {{FROM}} în {{TO}} cu câteva rânduri de cod {{ProductName}}",
+    "breadcrumb": "{{FROM}} la {{TO}} în {{ProgLang}}"
+  },
+  "about": {
+    "title": "Despre {{ProductFullName}} API",
+    "content": "[{{ProductFullName}}]({{ProductUrl}}) este un API avansat de conversie a formatului de fișier pentru conversia între formate de imagini și documente populare, cum ar fi Microsoft Office, OpenDocument, PDF, HTML, e-mail, CAD. și multe altele cu doar câteva linii de cod. API-ul nativ detectează automat formatele documentelor originale și oferă multe opțiuni pentru personalizarea documentelor convertite. Împreună cu funcția de extragere a informațiilor dintr-un document, acceptă și stocarea în cache a rezultatelor conversiei pe discul local în mod implicit. Cu toate acestea, orice tip de stocare cache poate fi suportat prin implementarea interfețelor adecvate - Amazon S3, Dropbox, Google Drive, Windows Azure, Reddis sau orice altele."
+  },
+  "overview": {
+    "description1": "Convertiți fișierele dvs. {{FROM}} în {{TO}} în {{ProductName}}. Este nevoie de doar câteva linii de cod {{ProgLang}} pe orice platformă la alegere, cum ar fi Windows, Linux, macOS.",
+    "description2": "Puteți încerca să convertiți gratuit {{FROM}} în {{TO}} și să evaluați calitatea rezultatelor conversiei. Împreună cu scripturile simple de conversie a fișierelor, puteți încerca opțiuni mai sofisticate pentru încărcarea fișierului sursă {{FROM}} și stocarea rezultatului {{TO}}.",
+    "load_options_desc": "De exemplu, pentru fișierul sursă {{FROM}} puteți utiliza următoarele opțiuni de încărcare:",
+    "load_options_item_1": "detectarea automată a formatului de fișier",
+    "load_options_item_2": "specificați o parolă pentru fișierele protejate (dacă formatul de fișier o acceptă)",
+    "load_options_item_3": "înlocuiți fonturile lipsă pentru a păstra aspectul documentului",
+    "convert_options_desc": "Există, de asemenea, opțiuni avansate de conversie pentru fișierul {{TO}}:",
+    "convert_options_item_1": "converti o anumită pagină a unui document sau o serie de pagini",
+    "convert_options_item_2": "adăugați un filigran la {{TO}} convertit",
+    "summary": "Odată ce conversia este finalizată, puteți salva fișierul {{TO}} în calea fișierului local sau în orice spațiu de stocare terță parte, cum ar fi FTP, Amazon S3, Google Drive, Dropbox etc. Rețineți - pentru a converti {{FROM}} la {{TO}}, nu trebuie să instalați niciun software suplimentar, cum ar fi MS Office, Open Office, Adobe Acrobat Reader etc."
+  },
+  "steps": {
+    "title_left": "Pași pentru a converti {{FROM}} în {{TO}} în {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{ProductUrl}}) permite dezvoltatorilor să convertească cu ușurință fișierul {{FROM}} în {{TO}} cu câteva linii de cod.",
+      "step_1": "Creați o nouă instanță a clasei Converter și încărcați fișierul {{FROM}} cu calea completă",
+      "step_2": "Setați ConvertOptions pentru tipul de document la {{TO}}",
+      "step_3": "Apelați metoda convert() și transmiteți numele documentului (calea completă) și formatul ({{TO}}) ca parametru"
+    },
+    "title_right": "Cerințe de sistem",
+    "content_right": {
+      "description": "Conversia de bază cu API-ul {{ProductFullName}} se poate face cu doar câteva linii de cod. API-urile noastre sunt acceptate pe toate platformele și sistemele de operare majore. Înainte de a executa codul de mai jos, asigurați-vă că aveți următoarele cerințe preliminare instalate pe sistemul dvs.",
+      "step_1": "Sisteme de operare: Microsoft Windows, Linux, MacOS",
+      "step_2": "Medii de dezvoltare: {{DevEnv}}",
+      "step_3": "Obțineți cel mai recent {{ProductFullName}} de la [{{RepoName}}]({{RepoUrl}})"
+    },
+    "code": {
+      "load_comment": "Încărcați fișierul sursă {{FROM}} pentru conversie",
+      "prepare_comment": "Pregătiți opțiuni de conversie pentru formatul țintă {{TO}}",
+      "convert_comment": "Convertiți în formatul {{TO}}"
+    }
+  },
+  "demos": {
+    "title": "De la {{FROM}} la {{TO}} Demo live",
+    "content": "Accesați site-ul nostru [Aplicația GroupDocs.Conversion](https://products.groupdocs.app/conversion/family) și încercați acum conversia {{FROM}} în {{TO}}. Demo-ul gratuit are următoarele beneficii"
+  },
+  "more_formats": {
+    "title": "Alte conversii acceptate de {{FROM}} în {{ProgLang}}",
+    "content": "De asemenea, puteți converti {{FROM}} în multe alte formate de fișiere. Vă rugăm să vedeți lista de mai jos."
+  }
+}

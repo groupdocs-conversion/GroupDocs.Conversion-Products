@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:46:10
+date: 2022-11-08T20:47:59
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: ODP ถึง BMP ใน C#

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:43:17
+date: 2022-11-08T20:45:26
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: PCL līdz EMZ programmā C#

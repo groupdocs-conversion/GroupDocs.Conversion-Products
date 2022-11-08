@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:42:03
+date: 2022-11-08T20:44:12
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: DOCX-დან GIF-მდე Java-ში

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:39:59
+date: 2022-11-08T20:42:12
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: Java में PS से TGA तक

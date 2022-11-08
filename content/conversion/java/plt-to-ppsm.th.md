@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:46:22
+date: 2022-11-08T20:48:08
 draft: false
 otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
 breadcrumb: PLT ถึง PPSM ใน Java

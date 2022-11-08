@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:40:39
+date: 2022-11-08T20:42:49
 draft: false
 otherformats: bmp doc docm docx dot dotm dotx epub gif ico jpeg jpg md odt ott pdf png psd rtf tex tif tiff txt xps
 breadcrumb: PPSX դեպի JPEG C#-ում

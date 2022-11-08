@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:35:30
+date: 2022-11-08T20:37:57
 draft: false
 otherformats: bmp dcm emf emz epub gif ico jp2 jpeg jpg pdf png psb psd svg svgz tex tga tif tiff webp wmf wmz xps
 breadcrumb: XPS ወደ WMZ በC# ውስጥ

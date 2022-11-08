@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:47:27
+date: 2022-11-08T20:49:08
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: MBOX đến EMF trong Java

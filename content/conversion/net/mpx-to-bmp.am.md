@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:35:26
+date: 2022-11-08T20:37:53
 draft: false
 otherformats: bmp dcm emf emz gif ico jp2 jpeg jpg mpp mpx png ppt psb psd svg svgz tga tif tiff webp wmf wmz xer
 breadcrumb: MPX ወደ BMP በC# ውስጥ

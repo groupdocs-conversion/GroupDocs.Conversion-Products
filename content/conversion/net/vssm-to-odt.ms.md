@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:43:36
+date: 2022-11-08T20:45:44
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSSM ke ODT dalam C#

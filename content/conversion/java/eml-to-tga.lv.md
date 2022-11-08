@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:43:23
+date: 2022-11-08T20:45:30
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EML līdz TGA programmā Java

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:35:45
+date: 2022-11-08T20:38:18
 draft: false
 otherformats: bmp dcm emf emz gif htm html ico jp2 jpeg jpg mht mhtml png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: VCF إلى ICO في C#

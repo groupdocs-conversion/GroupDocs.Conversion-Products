@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:42:09
+date: 2022-11-08T20:44:18
 draft: false
 otherformats: doc docm docx dot dotm dotx epub md odt ott pdf rtf tex txt vdx vsdm vsdx vssm vssx vstm vstx vsx vtx xps
 breadcrumb: VSTM-დან DOCX-მდე Java-ში

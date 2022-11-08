@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-conversion"
-date: 2022-11-08T12:35:32
+date: 2022-11-08T20:38:00
 draft: false
 otherformats: bmp dcm emf eml emlx emz gif html ico jp2 jpeg jpg msg png psb psd svg svgz tga tif tiff webp wmf wmz
 breadcrumb: EMLX ወደ SVGZ በJava ውስጥ

@@ -1,0 +1,106 @@
+---
+############################# Static ############################
+layout: "auto-gen-conversion"
+date: 2022-11-11T11:38:45
+draft: false
+otherformats: doc docm docx dot dotm dotx fodp htm html mht mhtml odp odt otp pot potm potx pps ppsm ppsx ppt pptm pptx rtf
+breadcrumb: DWG til DOT i C#
+
+############################# Head ############################
+head_title: "DWG til DOT-konvertering i C#"
+head_description: "Konverter DWG til DOT i .NET ved å bruke noen få linjer med kode. Bruk GroupDocs Document Conversion API til å konvertere over 160 filformater."
+
+############################# Header ############################
+title: "Konverter DWG til DOT i C#"
+description: "DWG til DOT konvertering med noen få linjer med .NET-kode"
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+
+############################# SubMenu ############################
+submenu:
+    enable: true
+
+    left:
+        img_alt: "GroupDocs.Conversion for .NET"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-conversion-net.png"
+        product: "GroupDocs.Conversion"
+        platform: ".NET"
+
+
+
+############################# About ############################
+about:
+    enable: true
+    title: "Om GroupDocs.Conversion for .NET API"
+    content: |
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) kan brukes til å konvertere Microsoft Word, Excel, PowerPoint, PDF, Visio og andre formater. GroupDocs.Conversion er et frittstående API som er egnet for back-end og interne systemer der høy ytelse kreves. Det er ikke avhengig av programvare som Microsoft eller Open Office.
+    
+
+overview:
+    enable: true
+    content: |
+        Konverter DWG-filene dine til DOT i .NET enkelt. Du kan bruke bare et par C# kodelinjer i hvilken som helst plattform du ønsker, for eksempel - Windows, Linux, macOS.
+        Du kan prøve DWG til DOT konvertering gratis og evaluere kvaliteten på konverteringsresultatene. Sammen med enkle filkonverteringsscenarier kan du prøve mer avanserte alternativer for å laste inn kildefilen DWG og for å lagre utdataresultatet DOT. 
+        
+        For eksempel, for kilden DWG-filen kan du bruke følgende innlastingsalternativer:
+
+        * automatisk oppdage filformat;
+        * spesifiser passord for beskyttede filer (hvis filformatet støtter det);
+        * erstatte manglende skrifter for å bevare dokumentets utseende.
+        
+        Det er også avanserte konverteringsalternativer for DOT-filen:
+
+        * konvertere en bestemt dokumentside eller sideområde;
+        * legg til et vannmerke til den konverterte DOT-filen og mange flere.
+
+        Når konverteringen er fullført, kan du lagre DOT-filen til den lokale filbanen eller tredjepartslagring som FTP, Amazon S3, Google Drive, Dropbox osv. Vær oppmerksom på - for å konvertere DWG til {{ TO}} er det ikke behov for ekstra programvare installert - som MS Office, Open Office, Adobe Acrobat Reader etc.
+
+
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Trinn for å konvertere DWG til DOT i C#"
+    content_left: |
+        [GroupDocs.Conversion for .NET](https://products.groupdocs.com/conversion/net/) gjør det enkelt for utviklere å konvertere en DWG-fil til DOT med noen få linjer med kode.
+        
+        * Opprett en forekomst av Converter-klassen og gi filen DWG med hele banen
+        * Opprett og angi konverteringsalternativer for typen DOT.
+        * Kall Converter.Convert-metoden og send hele banen og formatet (DOT) som en parameter
+
+    title_right: "Systemkrav"
+    content_right: |
+        Grunnleggende konvertering med GroupDocs.Conversion for .NET kan gjøres i noen få enkle trinn. APIene våre støttes på alle større plattformer og operativsystemer. Før du utfører koden nedenfor, sørg for at du har følgende forutsetninger installert på systemet ditt.
+
+        * Operativsystemer: Microsoft Windows, Linux, MacOS
+        * Utviklingsmiljøer: Microsoft Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Få den siste GroupDocs.Conversion for .NET fra [Nuget](https://www.nuget.org/packages/groupdocs.conversion)
+         
+    code: |
+        ```csharp    
+        // Last inn kildefilen DWG for konvertering
+          var converter = new GroupDocs.Conversion.Converter("input.dwg");
+          // Forbered konverteringsalternativer for målformatet DOT
+          var convertOptions = converter.GetPossibleConversions()["dot"].ConvertOptions;
+          // Konverter til formatet DOT
+          converter.Convert("output.dot", convertOptions);
+        ```
+
+demos:
+    enable: true
+    title: "DWG til DOT Live Demo"
+    content: |
+       Konverter DWG til DOT nå ved å gå til nettstedet [GroupDocs.Conversion App](https://products.groupdocs.app/conversion/family). Online demo har følgende fordeler
+          
+
+more_formats:
+    enable: true
+    title: "Andre støttede DWG konverteringer i C#"
+    content: "Du kan også konvertere DWG til mange andre filformater. Vennligst se listen nedenfor."
+       
+       
+back_to_top:
+    enable: true
+---

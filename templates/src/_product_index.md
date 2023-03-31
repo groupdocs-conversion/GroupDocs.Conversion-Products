@@ -212,10 +212,6 @@ features:
         content: "<% "{features.content9}" %>"
 
       # feature loop
-      - icon: "fas fa-border-all"
-        content: ""
-
-      # feature loop
       - icon: "fas fa-wrench"
         content: "<% "{features.content11}" %>"
 

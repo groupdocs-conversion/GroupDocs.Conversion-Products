@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-11-11T11:29:24
+date: 2023-03-31T15:15:26
 draft: false
 
 product: "Conversion"
@@ -210,10 +210,6 @@ features:
       # feature loop
       - icon: "fas fa-location-arrow"
         content: "문서, 슬라이드 및 스프레드시트 변환을 위해 누락된 글꼴을 대체하도록 기본 글꼴 설정"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: ""
 
       # feature loop
       - icon: "fas fa-wrench"

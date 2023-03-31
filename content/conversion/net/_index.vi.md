@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2022-11-11T11:29:24
+date: 2023-03-31T15:15:26
 draft: false
 
 product: "Conversion"
@@ -210,10 +210,6 @@ features:
       # feature loop
       - icon: "fas fa-location-arrow"
         content: "Đặt Phông chữ Mặc định để Thay thế Phông chữ Thiếu cho Chuyển đổi Tài liệu, Trang trình bày & Bảng tính"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: ""
 
       # feature loop
       - icon: "fas fa-wrench"

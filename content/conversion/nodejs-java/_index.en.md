@@ -20,7 +20,7 @@ button:
     enable: true
     icon: "fas fa-arrow-down"
     label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/nodejs"
+    link: "https://releases.groupdocs.com/conversion/nodejs-java"
 
 ############################# SubMenu ############################
 submenu:
@@ -55,7 +55,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://downloads.groupdocs.com/conversion"
+        link_download: "https://releases.groupdocs.com/conversion"
         link_learn: "https://docs.groupdocs.com/conversion/nodejs-java/"
         link_buy: "https://purchase.groupdocs.com"
 

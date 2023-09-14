@@ -55,7 +55,7 @@ submenu:
               text: "ราคา"
 
     right:
-        link_download: "https://downloads.groupdocs.com/conversion"
+        link_download: "https://www.nuget.org/packages/GroupDocs.Conversion"
         link_learn: "https://docs.groupdocs.com/conversion/net/"
         link_buy: "https://purchase.groupdocs.com"
 

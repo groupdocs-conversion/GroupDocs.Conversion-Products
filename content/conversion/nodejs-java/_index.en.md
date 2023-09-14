@@ -55,7 +55,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://releases.groupdocs.com/conversion"
+        link_download: "https://www.npmjs.com/package/@groupdocs/groupdocs.conversion"
         link_learn: "https://docs.groupdocs.com/conversion/nodejs-java/"
         link_buy: "https://purchase.groupdocs.com"
 

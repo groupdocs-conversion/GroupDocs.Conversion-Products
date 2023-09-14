@@ -6,7 +6,7 @@ draft: false
 
 product: "Conversion"
 product_tag: "conversion"
-platform: Node.js via Java
+platform: "Node.js via Java"
 platform_tag: nodejs-java
 
 ############################# Head ############################

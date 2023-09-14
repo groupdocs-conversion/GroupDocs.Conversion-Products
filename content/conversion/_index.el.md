@@ -40,6 +40,14 @@ apis:
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "Ενεργοποιήστε τις εφαρμογές σας Java για εύκολη μετατροπή μεταξύ όλων των τυποποιημένων μορφών εγγράφων του κλάδου, συμπεριλαμβανομένων των Microsoft Office, PDF, HTML, εικόνων και πολλών άλλων."
+        
+        # api_product loop
+        - link: "/conversion/nodejs-java/"
+          img_alt: "GroupDocs.Conversion for Node.js via Java"
+          image: "https://products.groupdocs.com/border/groupdocs-conversion-nodejs-java.svg"
+          product: "GroupDocs.Conversion for"
+          platform: "Node.js via Java"
+          content: "Επιτρέψτε στις εφαρμογές JavaScript σας να μετατρέπουν εύκολα μεταξύ όλων των προτύπων των εγγράφων της βιομηχανίας, συμπεριλαμβανομένων των Microsoft Office, PDF, HTML, εικόνων και πολλών άλλων."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code APIs Include"
@@ -52,7 +60,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_conversion-for-curl.png"
           product: "GroupDocs.Conversion"
           platform: "Cloud for cURL"
-          content: "Εργαστείτε με το API μετατροπής αρχείων cURL RESTful για να μετατρέψετε εύκολα Microsoft Office, PDF, Email, Project, HTML και άλλες κοινές μορφές αρχείων στις εφαρμογές σας."
+          content: "Δώστε δύναμη στις εφαρμογές JavaScript σας για να χειριστούν ομαλά τις μετατροπές μεταξύ όλων των κύριων μορφών εγγράφων, όπως Microsoft Office, PDF, HTML, εικόνες και περισσότερα."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/conversion/net"

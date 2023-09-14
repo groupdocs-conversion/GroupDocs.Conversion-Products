@@ -41,6 +41,14 @@ apis:
           platform: "Java"
           content: "Gerðu Java forritunum þínum kleift að breyta auðveldlega á milli allra staðlaðra skjalasniða, þar á meðal Microsoft Office, PDF, HTML, myndir og mörg önnur."
 
+        # api_product loop
+        - link: "/conversion/nodejs-java/"
+          img_alt: "GroupDocs.Conversion for Node.js via Java"
+          image: "https://products.groupdocs.com/border/groupdocs-conversion-nodejs-java.svg"
+          product: "GroupDocs.Conversion for"
+          platform: "Node.js via Java"
+          content: "Gefið eða JavaScript-forritum ykkur getu til að meðhöndla við án vandamála umbreytingar milli allra helstu skjalsformata, svo sem Microsoft Office, PDF, HTML, mynda og fleira."
+
     # api loop
     - title: "GroupDocs.Conversion Low Code API eru með"
       link: "https://products.groupdocs.cloud/conversion"

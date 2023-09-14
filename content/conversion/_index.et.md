@@ -40,6 +40,14 @@ apis:
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "Lubage oma Java-rakendustel hõlpsasti teisendada kõigi tööstusstandardite dokumendivormingute vahel, sealhulgas Microsoft Office, PDF, HTML, pildid ja paljud teised."
+        
+        # api_product loop
+        - link: "/conversion/nodejs-java/"
+          img_alt: "GroupDocs.Conversion for Node.js via Java"
+          image: "https://products.groupdocs.com/border/groupdocs-conversion-nodejs-java.svg"
+          product: "GroupDocs.Conversion for"
+          platform: "Node.js via Java"
+          content: "Andke oma JavaScript-rakendustele võime sujuvalt hallata konversioone kõigi suurte dokumendivormingute vahel, näiteks Microsoft Office, PDF, HTML, pilte ja muud."
 
     # api loop
     - title: "GroupDocs.Conversion madala koodiga API-d hõlmavad"

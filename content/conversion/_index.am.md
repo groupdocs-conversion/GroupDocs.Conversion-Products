@@ -40,6 +40,14 @@ apis:
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "ማይክሮሶፍት ኦፊስን፣ ​​ፒዲኤፍን፣ ኤችቲኤምኤልን፣ ምስሎችን እና ሌሎችንም ጨምሮ በሁሉም የኢንዱስትሪ ደረጃ የሰነድ ቅርጸቶች መካከል በቀላሉ ለመቀየር የጃቫ መተግበሪያዎችዎን ያንቁ።"
+        
+        # api_product loop
+        - link: "/conversion/nodejs-java/"
+          img_alt: "GroupDocs.Conversion for Node.js via Java"
+          image: "https://products.groupdocs.com/border/groupdocs-conversion-nodejs-java.svg"
+          product: "GroupDocs.Conversion for"
+          platform: "Node.js via Java"
+          content: "ወደ ሁሉም ባህሪ የመደበኛ የሚገባውን የጃትስክሪፕት መተግበሪዎችን, ስምምነቶች, HTML, ምስል, እና ተጨማሪ እድልዎን ያንብቡ።"
 
     # api loop
     - title: "የቡድንDocs.የልወጣ ዝቅተኛ ኮድ ኤፒአይዎች ያካትታሉ"

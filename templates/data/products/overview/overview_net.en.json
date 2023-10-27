@@ -1,0 +1,18 @@
+{
+  "overview": {
+    "title": "GroupDocs.Conversion at a glance",
+    "description": "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files in .NET applications",
+    "feature_1": {
+      "title": "Streamlined Conversion",
+      "description": "Incorporate effortless file conversion into your C# projects using GroupDocs.Conversion for .NET. Seamlessly transition between formats for improved compatibility."
+    },
+    "feature_2": {
+      "title": "Flexible Integration",
+      "description": "Simplify the integration of PDF and Office file conversion. GroupDocs.Conversion for .NET enhances the versatility of your applications."
+    },
+    "feature_3": {
+      "title": "Dependable Transformation",
+      "description": "Ensure precise conversions while maintaining quality. GroupDocs.Conversion for .NET guarantees reliable transformations of file formats."
+    }
+  }
+}

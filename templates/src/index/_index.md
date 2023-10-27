@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: <% date "utcnow" %>
 draft: false
 
 product: "Conversion"

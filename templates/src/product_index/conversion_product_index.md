@@ -1,6 +1,6 @@
-<% configRef "..\\configs\\config-product-pairs.yml" %>
-<% set "FROM" (upper (get "from")) %>
-<% set "TO" (upper (get "to")) %>
+<% configRef "..\\..\\configs\\config-product-index.yml" %>
+<% set "FROM" (upper "docx") %>
+<% set "TO" (upper "pdf") %>
 <% set "ProductName" (dict "products.{product}.name") %>
 <% set "ProductFullName" (dict "products.{product}.fullName") %>
 <% set "ProductCode" (dict "products.{product}.code") %>
@@ -13,4 +13,4 @@
 <% set "RepoUrl" (dict "products.{product}.repoUrl") %>
 <% set "OperatingSystem" (dict "products.{product}.operatingSystem") %>
 <% set "OtherFormats" (dict "otherformats.{from}") %>
-<% include "_product_pair.md" %>
+<% include "_product_index.md" %>

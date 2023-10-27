@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:25
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,313 @@ head_title: "C# .NET Document Conversion API | Umbreyttu PDF Word Excel PPTX HTM
 head_description: "C# .NET Document Conversion API. Umbreyttu PDF Word DOC DOCX, Excel töflureiknum PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & myndskráarsnið."
 
 ############################# Header ############################
-title: ".NET API til að umbreyta 80+ skráarsniðum"
+title: "{header.title_1}<br>{header.title_2}"
 description: "Einfalt API til að samþætta virkni skjala- og myndbreytinga í .NET forritum án þess að setja upp neinn utanaðkomandi hugbúnað."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Sækja ókeypis prufuáskrift"
-    link: "https://downloads.groupdocs.com/conversion/net"
+words:
+  for: "{header.words.for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
+actions:
+  main: "{actions.main}"
+  main_link: ""
+  alt: "{actions.alt}"
+  alt_link: ""
+  title: "{actions.title}"
+  description: "{actions.description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Yfirlit"
+release:
+  title: "{release.title}"
+  notes: "{release.notes}"
+  downloads: "{release.downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Eiginleikar"
+code:
+  title: "{code.title}"
+  more: "{code.more}"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  install: "dotnet add package GroupDocs.Conversion"
+  content: |
+    ```csharp {style=abap}   
+    // {code.comment_1}
+    using (var converter = new Converter("sample.pdf"))
+    {
+      // {code.comment_2}
+      var options = new WordProcessingConvertOptions();
 
-            # button loop
-            - link: "#support"
-              text: "Stuðningur"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "Sýning í beinni"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Verðlag"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // {code.comment_3}
+      converter.Convert("converted.docx", options);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for .NET býður upp á einfalt sett af API, sem gerir forriturum kleift að smíða öflug skjalabreytingarforrit í C#, ASP.NET og annarri .NET tengdri tækni. GroupDocs.Conversion for .NET API veitir notendum þínum skjótan, skilvirkan og áreiðanlegan skráabreytingarlausn. Það styður að framkvæma nákvæmar umbreytingar á öllum vinsælum viðskiptaskjalasniðum, þar á meðal: PDF, HTML, tölvupósti, Microsoft Word skjölum, Excel töflureiknum, PowerPoint kynningum, Project, Photoshop, CorelDraw, AutoCAD, skýringarmyndum, rastermyndaskráarsniðum og margt fleira. Skjalabreytirasafnið greinir sjálfkrafa upprunaskjalssnið og gefur þér alla stjórn á því að breyta annaðhvort öllu skjalinu eða tilteknum síðum í viðkomandi úttakssnið. Það er auðveldara að skipta út leturgerðum sem vantar fyrir valið og bæta texta- eða myndvatnsmerkjum við hvaða skjalasíðu sem er.
+  enable: true
+  title: "{overview.title}"
+  description: "{overview.description}"
+  features:
+    # feature loop
+    - title: "{overview.feature_1.title}"
+      content: "{overview.feature_1.description}"
 
-      GroupDocs.Conversion for .NET er hægt að nota til að þróa forrit í hvaða þróunarumhverfi sem er sem miðar á .NET vettvang. Það er samhæft við öll .NET byggð tungumál og styður vinsæl stýrikerfi (Windows, Linux, MacOS) þar sem hægt er að setja upp Mono eða .NET ramma (þar á meðal .NET Core).
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Eftirfarandi er yfirlit yfir GroupDocs.Conversion for .NET:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Yfirlit"
-          content: |
-            * Greina skráartegund sjálfkrafa
-            * Umbreyttu skjölum
-            * Umbreyttu kynningum
-            * Umbreyttu töflureiknum
-            * Umbreyttu rastermyndum
-            * Umbreyttu PDF skjölum
-            * Umbreyttu öðrum sniðum
-            * Notaðu vatnsmerki
-            * Tilgreindu lykilorð skrár
-            * Sérsníddu viðskipti
+    # feature loop
+    - title: "{overview.feature_2.title}"
+      content: "{overview.feature_2.description}"
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for .NET styður umbreytingu á milli allra vinsælra og algengra [skjalaskráasniða](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+    # feature loop
+    - title: "{overview.feature_3.title}"
+      content: "{overview.feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Umbreyta úr:"
-              content: |
-                * **Skjöl**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Töflureiknar**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Kynningar**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Myndir**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Færanlegt**: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **Metaskrár**: EMZ, WMZ
-                * **PhotoShop**: PSD
-                * **Verkefni**: MPP, MPT, MPX
-                * **Outlook**: PST, OST
-                * **Tölvupóstur**: MSG, EML, EMLX
-                * **Skýringarmyndir**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **PostScript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR, CMX
-                * **Annað**: VCF, PLT, LGS, OTG, MD, AI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Umbreyta í:"
-              content: |
-                * **Skjöl**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Töflureiknar**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Kynningar**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Myndir**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metaskrár**: EMF, WMF, EMZ, WMZ
-                * **Skýringarmynd**: SVGZ
-                * **Færanlegt**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                **Annað**: læknir
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for .NET styður eftirfarandi stýrikerfi, ramma og pakkastjóra:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Stýrikerfi"
-              content: |
-                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Stutt rammar"
-              content: |
-                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Pakkastjóri"
-              content: |
-                Nuget
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Pakkastjóri"
-              content: |
-                Microsoft Visual Studio, Xamarin, MonoDevelop
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{formats.title}"
+  description: |
+    {formats.description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {formats.groups.title_1}
+        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### {formats.groups.title_2}
+        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
+        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
+        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
+        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### {formats.groups.title_3}
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
+        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
+        * **{formats.groups.format_finance}:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "Eiginleikar GroupDocs.Conversion for .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Auðveld samþætting og metered leyfisveiting"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Stilltu sjálfgefinn aðdráttarvalkost þegar þú umbreytir í orð, skyggnur eða frumur"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Umbreyttu í/frá öllum vinsælum rastermyndasniðum og úthlutaðu DPI, hæð og breidd myndar"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Umbreyttu PDF og mynd í grátóna og línuraðu PDF skjal fyrir vefinn"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Tilgreindu bókamerkjastig, fyrirsagnarstig og stækkað stig í Word í PDF/XPS umbreytingu"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Stilltu og settu vatnsmerki í umbreytt skjal sem bakgrunn til að birta á bak við texta"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Gerðu tölvupósthaus við umbreytingu úr tölvupósti"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Stilltu sérsniðnar leturgerðir og hlaðið/skiptu leturgerð í staðinn við skjalabreytingu"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Stilltu sjálfgefið leturgerð til að skipta út leturgerðum sem vantar fyrir skjöl, skyggnur og töflureiknir"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Umbreyttu töflureikni með töflulínum og fjarlægðu athugasemdir úr skyggnum meðan á umbreytingu stendur"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Umbreyttu tilteknum skjalasíðum sem PDF-sniði og umbreyttu tilteknu frumusviði í töflureiknum"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Sýndu falin blöð og slepptu tómum röðum og dálkum á meðan þú umbreytir töflureiknum"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Teldu heildarsíður skjals og stilltu lykilorð á óvarið skjal meðan á umbreytingu stendur"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Valkostur til að fjarlægja athugasemdir og innbyggðar skrár úr PDF"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Búðu til HTML 5 samhæft merki þegar þú umbreytir í HTML"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Finndu upprunategund sjálfkrafa og skilaðu öllum mögulegum viðskiptum þegar þú umbreytir úr straumi"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Geta til að skila hverri síðu í sérstökum straumi meðan þú umbreytir í PDF eða HTML"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Sýna/fela merkingar, athugasemdir og fylgjast með breytingum meðan þú umbreytir úr Word"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "DOCX til Tiff G3 umbreyting með skyggingarvalkosti"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Umbreyttu sérstökum útlitum þegar þú umbreytir úr CAD skjali"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Sjálfvirk nafngift þegar umbreytt skjal er vistað í skrá"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Metered Licensing Stuðningur til að vera innheimtur á grundvelli notkunar á API"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Umbreyttu skýringarmyndum í ritvinnsluskráarsnið"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Bættu við blaðsíðunúmerum meðan þú umbreytir HTML í ritvinnsluskjal"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Umbreyttu XML skjölum í hvaða snið sem er án umbreytingar"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Fylgstu með framvindu skráabreytinga (byrjun, lok) beint úr forriti við viðskiptavini"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Umbreyttu skjalasniði auðveldlega"
-        content: |
-          Með því að nota GroupDocs.Conversion for .NET er mjög auðvelt að breyta skjalasniði. Eftirfarandi dæmi sýnir þér hvernig á að umbreyta PDF skrá í DOC skrá með því að nota C#:  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```csharp    
-           // Hlaða upprunaskrá DOCX fyrir umbreytingu
-          var converter = new GroupDocs.Conversion.Converter("input.docx");
-          // Undirbúa viðskiptavalkosti fyrir marksnið PDF
-          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-          // Umbreyttu í PDF snið
-          converter.Convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "Umbreyting í myndsnið"
-        content: "GroupDocs.Conversion for .NET er hægt að nota til að þróa forrit í hvaða þróunarumhverfi sem er sem miðar á .NET vettvang. Það er samhæft við öll .NET byggð tungumál og styður vinsæl stýrikerfi (Windows, Linux, MacOS) þar sem hægt er að setja upp Mono eða .NET ramma (þar á meðal .NET Core)."
-
-      # more_feature_loop
-      - title: "Styður ýmsar PDF-sniðsgerðir"
-        content: |
-          GroupDocs.Conversion for .NET API styður umbreytingu skjala í eftirfarandi PDF gerðir/snið:  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion býður upp á API fyrir skjalabreytingar fyrir önnur vinsæl þróunarumhverfi"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Conversion fyrir Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-          product: "GroupDocs.Conversion"
-          platform: "Java"
-          link: "/conversion/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Eiginleikar GroupDocs.Conversion for .NET"
+  description: "{features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{features.feature_1.title}"
+      content: "{features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{features.feature_2.title}"
+      content: "{features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{features.feature_3.title}"
+      content: "{features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{features.feature_4.title}"
+      content: "{features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{features.feature_5.title}"
+      content: "{features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{features.feature_6.title}"
+      content: "{features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{features.feature_7.title}"
+      content: "{features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{features.feature_8.title}"
+      content: "{features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{features.feature_9.title}"
+      content: "{features.feature_9.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{code_samples.title}"
+  description: "{code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{code_samples.sample_1.title}"
+      content: |
+        {code_samples.sample_1.content_1} 
+        {code_samples.sample_1.content_2}
+        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}   
+        // {code_samples.sample_1.comment_1}
+        using (var converter = new Converter("sample.pdf"))
+        {
+          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+
+          // {code_samples.sample_1.comment_2}
+          var options = new ImageConvertOptions { 
+              Format = ImageFileType.Png
+          };
+          
+          // {code_samples.sample_1.comment_3}
+          converter.Convert(getPageStream, options);
+        }
+        ```
+        {{< /landing/code >}}
+
+    # code sample loop        
+    - title: ""
+      content: |
+        {code_samples.sample_1.alternative_content_1}
+        {{< landing/code title="{code_samples.sample_1.alternative_code_title}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+          .Load("sample.pdf")
+          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
+          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
+          .Convert();
+        ```
+        {{< /landing/code >}}        
+
+    # code sample loop
+    - title: "{code_samples.sample_2.title}"
+      content: |
+        {code_samples.sample_2.content_1} 
+        {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                           PageNumber = 2, 
+                                           PagesCount = 3 
+                                     };
+           converter.Convert("converted.pdf", options);
+        }  
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                             Pages = new List<int>{ 1, 3 } 
+                                       };
+           converter.Convert("converted.pdf", options); 
+        }  
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{code_samples.sample_3.title}"
+      content: |
+        {code_samples.sample_3.content_1} 
+        {code_samples.sample_3.content_2}
+        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.docx")
+            .ConvertTo("converted.pdf")
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_2}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .WithSettings(() => new ConverterSettings())
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertTo("converted.docx")
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_3}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

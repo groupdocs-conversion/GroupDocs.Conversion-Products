@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-10-27T14:09:26
 draft: false
 
 product: "Conversion"
@@ -40,14 +40,6 @@ apis:
           product: "GroupDocs.Conversion for"
           platform: "Java"
           content: "Umožněte svým aplikacím Java snadno převádět mezi všemi standardními formáty dokumentů včetně Microsoft Office, PDF, HTML, obrázků a mnoha dalších."
-        
-        # api_product loop
-        - link: "/conversion/nodejs-java/"
-          img_alt: "GroupDocs.Conversion for Node.js via Java"
-          image: "https://products.groupdocs.com/border/groupdocs-conversion-nodejs-java.svg"
-          product: "GroupDocs.Conversion for"
-          platform: "Node.js via Java"
-          content: "Dodejte vašim JavaScriptovým aplikacím schopnost plynule zpracovávat konverze mezi všemi hlavními formáty dokumentů, jako jsou Microsoft Office, PDF, HTML, obrázky a další."
 
     # api loop
     - title: "GroupDocs.Conversion Low Code API zahrnují"

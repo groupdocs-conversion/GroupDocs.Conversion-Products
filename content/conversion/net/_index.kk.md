@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:26
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,313 @@ head_title: "C# .NET құжатты түрлендіру API | PDF Word Excel PP
 head_description: "C# .NET құжатты түрлендіру API. PDF Word DOC DOCX, Excel электрондық кестелері PPT PPTX, HTML, PSD, MPT MPP, MSG EMLX электрондық поштасы, AutoCAD және кескін файл пішімдерін түрлендіру."
 
 ############################# Header ############################
-title: "80+ файл пішімдерін түрлендіру үшін .NET API"
+title: "{header.title_1}<br>{header.title_2}"
 description: "Ешқандай сыртқы бағдарламалық құралды орнатпай-ақ құжат пен кескінді түрлендіру функционалдығын .NET қолданбаларына біріктіруге арналған қарапайым API."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Тегін сынақ нұсқасын жүктеп алыңыз"
-    link: "https://downloads.groupdocs.com/conversion/net"
+words:
+  for: "{header.words.for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
+actions:
+  main: "{actions.main}"
+  main_link: ""
+  alt: "{actions.alt}"
+  alt_link: ""
+  title: "{actions.title}"
+  description: "{actions.description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Шолу"
+release:
+  title: "{release.title}"
+  notes: "{release.notes}"
+  downloads: "{release.downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Ерекше өзгешеліктері"
+code:
+  title: "{code.title}"
+  more: "{code.more}"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  install: "dotnet add package GroupDocs.Conversion"
+  content: |
+    ```csharp {style=abap}   
+    // {code.comment_1}
+    using (var converter = new Converter("sample.pdf"))
+    {
+      // {code.comment_2}
+      var options = new WordProcessingConvertOptions();
 
-            # button loop
-            - link: "#support"
-              text: "Қолдау"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "Тікелей демо"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Баға белгілеу"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // {code.comment_3}
+      converter.Convert("converted.docx", options);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for .NET API интерфейстерінің қарапайым жиынтығын ұсынады, бұл әзірлеушілерге C#, ASP.NET және басқа .NET қатысты технологияларда қуатты құжат түрлендіру қолданбаларын құруға мүмкіндік береді. GroupDocs.Conversion for .NET API соңғы пайдаланушыларыңызға жылдам, тиімді және сенімді файлдарды түрлендіру шешімін ұсынады. Ол барлық танымал бизнес құжат пішімдері арасында дәл түрлендіруді қолдайды, соның ішінде: PDF, HTML, Электрондық пошта, Microsoft Word құжаттары, Excel электрондық кестелері, PowerPoint көрсетілімдері, Project, Photoshop, CorelDraw, AutoCAD, диаграммалар, растрлық кескін файл пішімдері және т.б. Құжатты түрлендіргіш кітапханасы бастапқы құжат пішімін автоматты түрде анықтайды және бүкіл құжатты немесе арнайы беттерді қажетті шығыс пішіміне түрлендіру үшін барлық басқаруды береді. Жетіспейтін қаріптерді таңдаулылармен ауыстыру және кез келген құжат бетіне мәтін немесе сурет су белгілерін қосу оңайырақ.
+  enable: true
+  title: "{overview.title}"
+  description: "{overview.description}"
+  features:
+    # feature loop
+    - title: "{overview.feature_1.title}"
+      content: "{overview.feature_1.description}"
 
-      GroupDocs.Conversion for .NET қолданбасын .NET платформасына бағытталған кез келген әзірлеу ортасында қолданбаларды әзірлеу үшін пайдалануға болады. Ол барлық .NET негізіндегі тілдермен үйлесімді және Mono немесе .NET фреймворктерін (.NET Core қоса алғанда) орнатуға болатын танымал операциялық жүйелерді (Windows, Linux, MacOS) қолдайды.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Төменде GroupDocs.Conversion for .NET шолуы берілген:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Шолу"
-          content: |
-            * Файл түрін автоматты түрде анықтау
-            * Құжаттарды түрлендіру
-            * Презентацияларды түрлендіру
-            * Электрондық кестелерді түрлендіру
-            * Растрлық кескіндерді түрлендіру
-            * PDF құжаттарын түрлендіру
-            * Басқа пішімдерді түрлендіру
-            * Су таңбасын қолданыңыз
-            * Файл құпия сөзін көрсетіңіз
-            * Түрлендіруді теңшеу
+    # feature loop
+    - title: "{overview.feature_2.title}"
+      content: "{overview.feature_2.description}"
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for .NET барлық танымал және жиі қолданылатын [құжат файлы пішімдері] (https://docs.groupdocs.com/conversion/net/supported-document-formats/) арасында түрлендіруді қолдайды.
+    # feature loop
+    - title: "{overview.feature_3.title}"
+      content: "{overview.feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Қайдан түрлендіру:"
-              content: |
-                * **Құжаттар**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Электрондық кестелер**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Презентациялар**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Суреттер**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Портативті**: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **Метафайлдар**: EMZ, WMZ
-                * **PhotoShop**: PSD
-                * **Жоба**: MPP, MPT, MPX
-                * ** Болжам**: PST, OST
-                * **Электрондық пошта**: MSG, EML, EMLX
-                * **Диаграммалар**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **PostScript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR, CMX
-                * **Басқа**: VCF, PLT, LGS, OTG, MD, AI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Келесіге түрлендіру:"
-              content: |
-                * **Құжаттар**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Электрондық кестелер**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Презентациялар**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Суреттер**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Метафайлдар**: EMF, WMF, EMZ, WMZ
-                * **Диаграммалар**: SVGZ
-                * ** Портативті**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                * **Басқа**: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for .NET келесі операциялық жүйелерді, жақтауларды және пакет менеджерлерін қолдайды:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Операциялық жүйелер"
-              content: |
-                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Қолдау көрсетілетін жақтаулар"
-              content: |
-                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Пакет менеджері"
-              content: |
-                Nuget
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Пакет менеджері"
-              content: |
-                Microsoft Visual Studio, Xamarin, MonoDevelop
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{formats.title}"
+  description: |
+    {formats.description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {formats.groups.title_1}
+        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### {formats.groups.title_2}
+        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
+        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
+        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
+        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### {formats.groups.title_3}
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
+        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
+        * **{formats.groups.format_finance}:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Conversion for .NET мүмкіндіктері"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Оңай интеграция және есептелген лицензиялау"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Сөздерге, слайдтарға немесе ұяшықтарға түрлендіру кезінде әдепкі масштабтау опциясын орнатыңыз"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Барлық танымал растрлық кескін пішіміне түрлендіру/түрлендіру және кескіннің DPI, биіктігі мен енін тағайындау"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "PDF және кескінді сұр реңкке түрлендіру және Интернетке арналған PDF құжатын сызықтыққа айналдыру"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Word бағдарламасында PDF/XPS түрлендіруге бетбелгі деңгейін, тақырып деңгейін және кеңейтілген деңгейді көрсетіңіз"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Мәтіннің артында көрсету үшін түрлендірілген құжатта су таңбасын конфигурациялаңыз және орналастырыңыз"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Электрондық поштадан түрлендіру кезінде электрондық пошта тақырыбын көрсетіңіз"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Теңшелетін қаріп каталогтарын орнатыңыз және құжатты түрлендіру кезінде қаріпті анық жүктеңіз/алмастырыңыз"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Құжаттар, слайдтар және электрондық кестелерді түрлендіру үшін жетіспейтін қаріптерді ауыстыру үшін әдепкі қаріпті орнату"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Тор сызықтары бар электрондық кестені түрлендіру және түрлендіру кезінде слайдтардан түсініктемелерді жою"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Арнайы құжат беттерін PDF пішімі ретінде түрлендіру және электрондық кестелердегі нақты ұяшық ауқымын түрлендіру"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Электрондық кестелерді түрлендіру кезінде жасырын парақтарды көрсету және бос жолдар мен бағандарды өткізіп жіберу"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Құжаттың жалпы беттерін санау және түрлендіру кезінде құпия сөзді қорғалмаған құжатқа орнату"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "PDF файлынан аннотациялар мен ендірілген файлдарды жою опциясы"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "HTML-ге түрлендіру кезінде HTML 5-мен үйлесімді белгілеу жасаңыз"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Дереккөз түрін автоматты түрде анықтау және ағыннан түрлендіру кезінде барлық мүмкін түрлендірулерді қайтару"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "PDF немесе HTML түрлендіру кезінде әр бетті бөлек ағында қайтару мүмкіндігі"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Word бағдарламасынан түрлендіру кезінде белгілеуді, түсініктемелерді көрсету/жасыру және өзгертулерді бақылау"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "DOCX-тен Tiff G3-ке көлеңкелеу опциясымен түрлендіру"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "CAD құжатынан түрлендіру кезінде арнайы макеттерді түрлендіру"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Түрлендірілген құжатты файлға сақтау кезінде автоматты атау"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Есептелген лицензиялау API пайдалану негізінде есептелуге қолдау көрсетіледі"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Диаграммаларды мәтінді өңдеу файл пішіміне түрлендіру"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "HTML мәтінін Word өңдеу құжатына түрлендіру кезінде бет нөмірлерін қосыңыз"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "XML құжаттарын түрлендірусіз кез келген пішімге түрлендіру"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Файлды түрлендіру барысын (Бастау, Аяқтау) тікелей клиенттік қолданбадан бақылаңыз"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Құжат пішімдерін оңай түрлендіру"
-        content: |
-          GroupDocs.Conversion for .NET көмегімен құжат файл пішімін түрлендіру өте оңай. Келесі мысал PDF файлын C# көмегімен DOC файлына түрлендіру жолын көрсетеді:  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```csharp    
-           // Түрлендіру үшін DOCX бастапқы файлын жүктеңіз
-          var converter = new GroupDocs.Conversion.Converter("input.docx");
-          // PDF мақсатты пішіміне түрлендіру опцияларын дайындаңыз
-          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-          // PDF пішіміне түрлендіру
-          converter.Convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "Сурет форматтарына түрлендіру"
-        content: "GroupDocs.Conversion for .NET қолданбасын .NET платформасына бағытталған кез келген әзірлеу ортасында қолданбаларды әзірлеу үшін пайдалануға болады. Ол барлық .NET негізіндегі тілдермен үйлесімді және Mono немесе .NET фреймворктерін (.NET Core қоса алғанда) орнатуға болатын танымал операциялық жүйелерді (Windows, Linux, MacOS) қолдайды."
-
-      # more_feature_loop
-      - title: "Түрлі PDF пішімінің түрлерін қолдайды"
-        content: |
-          GroupDocs.Conversion for .NET API құжатты келесі PDF түрлеріне/пішіміне түрлендіруді қолдайды:  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion басқа танымал әзірлеу орталары үшін құжаттарды түрлендіру API интерфейстерін ұсынады"
-
-    solution:
-        # solution loop
-        - img_alt: "Java үшін GroupDocs.Conversion"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-          product: "GroupDocs.Conversion"
-          platform: "Java"
-          link: "/conversion/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Conversion for .NET мүмкіндіктері"
+  description: "{features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{features.feature_1.title}"
+      content: "{features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{features.feature_2.title}"
+      content: "{features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{features.feature_3.title}"
+      content: "{features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{features.feature_4.title}"
+      content: "{features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{features.feature_5.title}"
+      content: "{features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{features.feature_6.title}"
+      content: "{features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{features.feature_7.title}"
+      content: "{features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{features.feature_8.title}"
+      content: "{features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{features.feature_9.title}"
+      content: "{features.feature_9.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{code_samples.title}"
+  description: "{code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{code_samples.sample_1.title}"
+      content: |
+        {code_samples.sample_1.content_1} 
+        {code_samples.sample_1.content_2}
+        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}   
+        // {code_samples.sample_1.comment_1}
+        using (var converter = new Converter("sample.pdf"))
+        {
+          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+
+          // {code_samples.sample_1.comment_2}
+          var options = new ImageConvertOptions { 
+              Format = ImageFileType.Png
+          };
+          
+          // {code_samples.sample_1.comment_3}
+          converter.Convert(getPageStream, options);
+        }
+        ```
+        {{< /landing/code >}}
+
+    # code sample loop        
+    - title: ""
+      content: |
+        {code_samples.sample_1.alternative_content_1}
+        {{< landing/code title="{code_samples.sample_1.alternative_code_title}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+          .Load("sample.pdf")
+          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
+          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
+          .Convert();
+        ```
+        {{< /landing/code >}}        
+
+    # code sample loop
+    - title: "{code_samples.sample_2.title}"
+      content: |
+        {code_samples.sample_2.content_1} 
+        {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                           PageNumber = 2, 
+                                           PagesCount = 3 
+                                     };
+           converter.Convert("converted.pdf", options);
+        }  
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                             Pages = new List<int>{ 1, 3 } 
+                                       };
+           converter.Convert("converted.pdf", options); 
+        }  
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{code_samples.sample_3.title}"
+      content: |
+        {code_samples.sample_3.content_1} 
+        {code_samples.sample_3.content_2}
+        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.docx")
+            .ConvertTo("converted.pdf")
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_2}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .WithSettings(() => new ConverterSettings())
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertTo("converted.docx")
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_3}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

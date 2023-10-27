@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:25
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,250 @@ head_title: "Java Document Conversion API | Convert PDF Word Excel PPTX HTML Ima
 head_description: "Java Document Conversion API. Convert PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD & image file formats."
 
 ############################# Header ############################
-title: "Java API to Convert 80+ File Formats"
-description: "Simple API to Integrate Document & Image Conversion Functionality into Java Applications without Installing any External Software."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
-    link: "https://downloads.groupdocs.com/conversion/java"
+title: "Document Conversion<br>via Java API"
+description: "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files"
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Free Maven Download"
+  main_link: ""
+  alt: "Licensing"
+  alt_link: ""
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Conversion features for free or request a license"
+
+release:
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
+
+code:
+  title: "Merge PDF files in Java"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-conversion</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // Load the source PDF file
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
+    //  Add another PDF file to merge
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
-
-            # button loop
-            - link: "#features"
-              text: "Features"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // Merge PDF files and save result
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for Java combines a powerful set of document conversion APIs to display images and document formats in your Java applications without needing to install additional software. It natively rasterizes the documents and converts them into SVG+HTML+CSS to enhance the quality of document viewing while delivering a true-text, high-fidelity output. Using the document rendering API – quickly view PDF, HTML, XML, Microsoft Office Word, Excel worksheets, PowerPoint presentations, Outlook emails, Visio diagrams, Project, metafiles, images and various other file formats with ease and fewer programming hazards. It can also display password-protected files and allow to get document representation as HTML, image or PDF form after the rendering. Our file conversion library is quite customizable, as it allows you to display the whole document, or render it partially to speed up the process. Through GroupDocs.Conversion for Java API, you can view pages, specific cell range in a spreadsheet or even render an individual document layer in formats, such as, PDF and CAD.
+  enable: true
+  title: "GroupDocs.Conversion at a glance"
+  description: "Powerful Conversion API to convert PDF, Microsoft Office, HTML, eBook, and Image files in Java applications"
+  features:
+    # feature loop
+    - title: "Streamlined Conversion"
+      content: "Incorporate effortless file conversion into your projects using GroupDocs.Conversion for Java. Seamlessly transition between formats for improved compatibility."
 
-      GroupDocs.Conversion for Java API allows you to render documents with/without annotation or comments for supported file formats. It also enables you to add custom font directories and extract basic document information such as FileType, Extension, Name, PageCount, etc.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Conversion for Java:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Overview"
-          content: |
-            * Auto-detect File Type
-            * Convert Documents
-            * Convert Presentations
-            * Convert Spreadsheets
-            * Convert Raster Images
-            * Convert PDF Documents
-            * Convert Other Formats
-            * Apply Watermark
-            * Specify File Password
-            * Customize Conversion
+    # feature loop
+    - title: "Flexible Integration"
+      content: "Simplify the integration of PDF and Office file conversion. GroupDocs.Conversion for Java enhances the versatility of your applications."
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for Java supports converting between all popular and commonly used [document file formats](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+    # feature loop
+    - title: "Dependable Transformation"
+      content: "Ensure precise conversions while maintaining quality. GroupDocs.Conversion for Java guarantees reliable transformations of file formats."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Convert From:"
-              content: |
-                * **Documents**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Spreadsheets**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Presentations**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Images**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Portable**: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **Metafiles**: EMZ, WMZ
-                * **PhotoShop**: PSD
-                * **Project**: MPP, MPT, MPX
-                * **Outlook**: PST, OST
-                * **Email**: MSG, EML, EMLX
-                * **Diagrams**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **PostScript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR, CMX
-                * **Other**: VCF, PLT, LGS, OTG, MD, AI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Convert To:"
-              content: |
-                * **Documents**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Spreadsheets**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Presentations**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Images**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metafiles**: EMF, WMF, EMZ, WMZ
-                * **Diagrams**: SVGZ
-                * **Portable**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                * **Other**: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for Java supports following Operating Systems, Frameworks & Package Managers:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                Windows Desktop, Windows Server, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                Java runtime: J2SE 6.0 and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Package Manager"
-              content: |
-                Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Package Manager"
-              content: |
-                NetBeans, Intellij IDEA, Eclipse, etc.
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform independence"
+  description: "GroupDocs.Merger for Java supports the following operating systems, frameworks and package managers"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported file formats"
+  description: |
+    GroupDocs.Conversion for Java supports operations with the following [file formats](https://docs.groupdocs.com/conversion/java/supported-file-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Document formats
+        * **Documents:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### Images & Multimedia
+        * **Images:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **Diagram:** VSDX, DRAW, LUCIDCHART
+        * **CAD & GIS:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **Audio:** MP3, WAV, FLAC, AAC, OGG
+        * **Video:** MP4, AVI, MKV, MOV, WMV
+        * **3D & Vector:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### Other formats
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **Web:**  HTML, MHTML, MHT
+        * **Archives:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **Email & Outlook:** PST, OST, MSG, EML
+        * **Finance:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Conversion for Java Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Easy Integration & Metered Licensing"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Set Default Zoom Option when Converting to Words, Slides or Cells"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Convert to/from all Popular Raster Image Formats & Assign Image DPI, Height & Width"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Convert PDF & Image to Grayscale & Linearize PDF Document for the Web"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Specify Bookmark Level, Heading Level and Expanded Level in Word to PDF/XPS Conversion"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Configure & Place Watermark in Converted Document as Background to Display Behind Text"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Render Email Header during Conversion from Email"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Set Custom Font Directories & Explicitly Load/Substitute Font during Document Conversion"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Set Default Font to Replace Missing Fonts for Documents, Slides & Spreadsheets Conversion"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Convert Spreadsheet with Grid-lines & Remove Comments from Slides While Conversion"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Convert Specific Document Pages as PDF Format & Convert Specific Cell Range in Spreadsheets"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Show Hidden Sheets & Skip Empty Rows and Columns while Converting Spreadsheets"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Count Total Pages of a Document & Set Password to Unprotected Document during Conversion"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Option to Remove Annotations & Embedded Files from PDF"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Create HTML 5 Compliant Markup when Converting to HTML"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Auto-detect Source Type & Return all Possible Conversions when Converting from Stream"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Ability to Return Each Page in Separate Stream while Converting to PDF or HTML"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Show/Hide Markup, Comments & Track Changes while Converting from Word"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "DOCX to Tiff G3 Conversion with Shading Option"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Convert Specific Layouts when Converting from CAD Document"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Automatic Naming when Saving Converted Document to File"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Metered Licensing Supported to be Billed based on the Usage of the API"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Convert Diagrams to Word Processing File Formats"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Add Page Numbers while Converting HTML to Wordprocessing Document"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Convert XML Documents to Any Format without Transformation"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Monitor File Conversion Progress (Start, End) Directly from Client-side Application"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Easy Document Format Conversion using Java"
-        content: |
-          You can convert file format of a multitude of document types using GroupDocs.Conversion for Java API. Here you are presented with a few lines of code to perform a basic document conversion using Java.  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```java    
-           // Load source file DOCX for conversion
-          Converter converter = new Converter("input.docx");
-          // Prepare conversion options for target format PDF
-          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-          // Convert to PDF format
-          converter.convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "Read Document from URL or Path for Conversion"
-        content: "Using GroupDocs.Conversion for Java API, you can read input document from a file path as well as a URL. While you can save the output document as a file or sent the output directly into a stream."
-
-      # more_feature_loop
-      - title: "Comprehensive Technical Support"
-        content: |
-          GroupDocs.Conversion for Java is a simple and to-the-point API that you can integrate into your Java-based applications pretty easily. However, to get you up and running in no time, we also provide easy to follow code samples and comprehensive API documentation.  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion offers document conversion APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Conversion for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-          product: "GroupDocs.Conversion"
-          platform: ".NET"
-          link: "/conversion/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Merger features"
+  description: "Seamlessly merge, split, and manipulate PDF and Office Documents"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "Combine files"
+      content: "Merge two or more documents into a single document, joining specific pages or page ranges from multiple source documents."
+
+    # feature loop
+    - icon: "split"
+      title: "Split document"
+      content: "Utilize the split operation to divide a source document into multiple resultant documents, enabling efficient organization and management of files."
+
+    # feature loop
+    - icon: "move"
+      title: "Move pages"
+      content: "Smoothly reposition a page within a document by leveraging the MovePage feature."
+
+    # feature loop
+    - icon: "remove"
+      title: "Remove pages"
+      content: "Effectively remove individual pages or a collection of specific page numbers from the source document with the RemovePages feature."
+
+    # feature loop
+    - icon: "rotate"
+      title: "Rotate pages"
+      content: "Take advantage of the RotatePages operation to easily rotate pages within a document by specifying the rotation angle as 90, 180, or 270 degrees"
+
+    # feature loop
+    - icon: "swap"
+      title: "Swap pages"
+      content: "Rearrange the page order by exchanging the positions of two pages within the source document, producing a new document."
+
+    # feature loop
+    - icon: "extract"
+      title: "Extract pages"
+      content: "Generate a new document containing only the selected pages by extracting specific pages or page ranges from the source document."
+
+    # feature loop
+    - icon: "orientation"
+      title: "Change orientation"
+      content: "Modify the page orientation (portrait or landscape) for specific pages or all pages of the document by leveraging the ChangeOrientation operation."
+
+    # feature loop
+    - icon: "preview"
+      title: "Preview pages"
+      content: "Gain a clearer understanding of the content and structure of the document by generating image representations of its pages. Make previews of all or just specific pages."
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code samples"
+  description: "Some use cases of typical GroupDocs.Merger for Java operations"
+  items:
+    # code sample loop
+    - title: "Merge DOCX files into a single document"
+      content: |
+        With the [Merge Word Documents](https://docs.groupdocs.com/merger/java/merge/word/) feature you can combine entire DOCX files into a single document by loading the source file, adding more DOCX files to join, and saving the merged document. Below is a Java code snippet demonstrating the merge process: 
+        {{< landing/code title="How to merge DOCX files in Java">}}
+        ```java {style=abap}   
+        // Load the source DOCX file
+        Merger merger = new Merger("sample1.docx");
+        // Add another DOCX file to merge
+        merger.join("sample2.docx");
+        // Merge DOCX files and save result
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Split PDF document into multiple files"
+      content: |
+        Divide a document into multiple files with the [Split Document](https://docs.groupdocs.com/merger/java/split-document/) feature to simplify the process of managing and extracting specific sections or pages from large documents. It allows you to divide documents into smaller parts based on various criteria - by page range, by start/end pages, by odd/even page numbers etc.
+        {{< landing/code title="Split the document to several one-page documents">}}
+        ```java {style=abap}   
+        // Split PDF file using GroupDocs.Merger for Java API
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // Initialize SplitOptions class with output files path format
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // Instantiate Merger with input PDF document
+        Merger merger = new Merger(filePath);
+
+        // Call split method and pass SplitOptions object to save resultant documents
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "GroupDocs products reviews"
+# description: "Don't just take our word for it. See what other developers say about our APIs"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "Excellent service and excellent products. They were extremely helpful and responsive during the GroupDocs.Viewer for .NET implementation process, can’t recommend them highly enough."
+#     author: "Martin Lasarga"
+#     company: "Product Manager at Axentria ECM by G.S.I."
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "After implementing and using GroupDocs.Viewer for .NET in the project it looks to be working very well. I have tested with a lot of documents and so far so good. Everything I’ve thrown at it renders nicely and looks just as good as it would in a PDF viewer or MS Word."
+#     author: "Mats Oustad"
+#     company: "Senior Consultant/Partner at Novanet AS"
 ---

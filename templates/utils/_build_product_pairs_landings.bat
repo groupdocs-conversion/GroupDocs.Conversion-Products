@@ -1,0 +1,1 @@
+MarkupGenerator.Shell.exe -s ..\src\product_pairs -o ..\..\content\conversion

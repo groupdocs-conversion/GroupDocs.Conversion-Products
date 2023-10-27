@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:25
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,250 @@ head_title: "Java Dokumentomskakeling-API | Skakel PDF Word Excel PPTX HTML-beel
 head_description: "Java Dokumentomskakeling-API. Omskep PDF Word DOC DOCX, Excel Spreadsheets PPT PPTX, HTML, PSD, MPT MPP, E-pos MSG EMLX, AutoCAD en beeldlêerformate."
 
 ############################# Header ############################
-title: "Java API om 80+ lêerformate om te skakel"
+title: "{header.title_1}<br>{header.title_2}"
 description: "Eenvoudige API om dokument- en beeldomskakelingsfunksionaliteit in Java-toepassings te integreer sonder om enige eksterne sagteware te installeer."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Laai gratis proeflopie af"
-    link: "https://downloads.groupdocs.com/conversion/java"
+words:
+  for: "{header.words.for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "{actions.main}"
+  main_link: ""
+  alt: "{actions.alt}"
+  alt_link: ""
+  title: "{actions.title}"
+  description: "{actions.description}"
+
+release:
+  title: "{release.title}"
+  notes: "{release.notes}"
+  downloads: "{release.downloads}"
+
+code:
+  title: "{code.title}"
+  more: "{code.more}"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-conversion</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}   
+    // {code.comment_1}
+    Merger merger = new Merger("sample1.pdf");
     
-    left:
-        img_alt: "GroupDocs.Conversion for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-        product: "GroupDocs.Conversion"
-        platform: "Java"
+    // {code.comment_2}
+    merger.join("sample2.pdf");
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Oorsig"
-
-            # button loop
-            - link: "#features"
-              text: "Kenmerke"
-
-            # button loop
-            - link: "#support"
-              text: "Ondersteuning"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "Regstreekse Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/java"
-              text: "Pryse"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
+    // {code.comment_3}
+    merger.save("merged.pdf");
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for Java kombineer 'n kragtige stel dokumentomskakelings-API's om beelde en dokumentformate in jou Java-toepassings te vertoon sonder om bykomende sagteware te installeer. Dit rasteriseer die dokumente inheems en omskep dit in SVG+HTML+CSS om die kwaliteit van dokumentbesigtiging te verbeter terwyl dit 'n ware teks, hoëtrou-uitset lewer. Gebruik die dokumentweergawe-API – bekyk vinnig PDF, HTML, XML, Microsoft Office Word, Excel-werkblaaie, PowerPoint-aanbiedings, Outlook-e-posse, Visio-diagramme, Project, metalêers, beelde en verskeie ander lêerformate met gemak en minder programmeringsgevare. Dit kan ook wagwoordbeskermde lêers vertoon en toelaat om dokumentvoorstelling as HTML-, beeld- of PDF-vorm na die weergawe te kry. Ons lêeromskakelingsbiblioteek is redelik aanpasbaar, aangesien dit jou toelaat om die hele dokument te vertoon, of dit gedeeltelik weer te gee om die proses te bespoedig. Deur GroupDocs.Conversion for Java API kan jy bladsye, spesifieke selreeks in 'n sigblad bekyk of selfs 'n individuele dokumentlaag in formate, soos PDF en CAD, weergee.
+  enable: true
+  title: "{overview.title}"
+  description: "{overview.description}"
+  features:
+    # feature loop
+    - title: "{overview.feature_1.title}"
+      content: "{overview.feature_1.description}"
 
-      GroupDocs.Conversion for Java API laat jou toe om dokumente met/sonder aantekeninge of opmerkings vir ondersteunde lêerformate weer te gee. Dit stel jou ook in staat om pasgemaakte lettertipe-gidse by te voeg en basiese dokumentinligting soos lêertipe, uitbreiding, naam, bladsytelling, ens.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Hier volg 'n oorsig van GroupDocs.Conversion for Java:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Oorsig"
-          content: |
-            * Bespeur lêertipe outomaties
-            * Skakel dokumente om
-            * Skakel aanbiedings om
-            * Skakel sigblaaie om
-            * Skakel rasterbeelde om
-            * Skakel PDF-dokumente om
-            * Skakel ander formate om
-            * Pas watermerk toe
-            * Spesifiseer lêerwagwoord
-            * Pas omskakeling aan
+    # feature loop
+    - title: "{overview.feature_2.title}"
+      content: "{overview.feature_2.description}"
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for Java ondersteun omskakeling tussen alle gewilde en algemeen gebruikte [dokumentlêerformate](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+    # feature loop
+    - title: "{overview.feature_3.title}"
+      content: "{overview.feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Skakel om van:"
-              content: |
-                * **Dokumente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Sigblaaie**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Aanbiedings**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Prente**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Draagbaar**: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **Metalêers**: EMZ, WMZ
-                * **PhotoShop**: PSD
-                * **Projek**: MPP, MPT, MPX
-                * **Vooruitsigte**: PST, OST
-                * **E-pos**: MSG, EML, EMLX
-                * **Diagramme**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **PostScript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR, CMX
-                * **Ander**: VCF, PLT, LGS, OTG, MD, KI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Verander na:"
-              content: |
-                * **Dokumente**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Sigblaaie**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Aanbiedings**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Prente**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metalêers**: EMF, WMF, EMZ, WMZ
-                * **Diagramme**: SVGZ
-                * ** Draagbaar**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                **Ander**: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for Java ondersteun die volgende bedryfstelsels, raamwerke en pakketbestuurders:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Bedryfstelsels"
-              content: |
-                Windows Desktop, Windows Server, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Ondersteunde raamwerke"
-              content: |
-                Java runtime: J2SE 6.0 and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Pakketbestuurder"
-              content: |
-                Maven
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Pakketbestuurder"
-              content: |
-                NetBeans, Intellij IDEA, Eclipse, etc.
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{formats.title}"
+  description: |
+    {formats.description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {formats.groups.title_1}
+        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### {formats.groups.title_2}
+        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
+        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
+        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
+        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### {formats.groups.title_3}
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
+        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
+        * **{formats.groups.format_finance}:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Conversion for Java Kenmerke"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Maklike integrasie en gemete lisensiëring"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Stel verstekzoemopsie wanneer u na woorde, skyfies of selle omskakel"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Skakel om na/van alle gewilde rasterbeeldformate en ken beeld-DPI, hoogte en breedte toe"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Skakel PDF en beeld om na grysskaal en lineariseer PDF-dokument vir die web"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Spesifiseer boekmerkvlak, opskrifvlak en uitgebreide vlak in Word na PDF/XPS-omskakeling"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Konfigureer en plaas watermerk in omgeskakelde dokument as agtergrond om agter teks te vertoon"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Gee e-poskopskrif tydens omskakeling vanaf e-pos"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Stel pasgemaakte lettertipegidse en laai/vervang lettertipe eksplisiet tydens dokumentomskakeling"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Stel versteklettertipe om ontbrekende lettertipes vir dokumente, skyfies en sigblaaie-omskakeling te vervang"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Skakel sigblad om met roosterlyne en verwyder opmerkings van skyfies tydens omskakeling"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Skakel spesifieke dokumentbladsye om as PDF-formaat en omskep spesifieke selreeks in sigblaaie"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Wys versteekte velle en slaan leë rye en kolomme oor terwyl sigblaaie omgeskakel word"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Tel totale bladsye van 'n dokument en stel wagwoord na onbeskermde dokument tydens omskakeling"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Opsie om aantekeninge en ingebedde lêers uit PDF te verwyder"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Skep HTML 5-voldoende opmaak wanneer jy na HTML omskakel"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Bespeur brontipe outomaties en gee alle moontlike omskakelings terug wanneer u vanaf stroom omskakel"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Vermoë om elke bladsy in 'n aparte stroom terug te keer terwyl u na PDF of HTML omskakel"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Wys/versteek opmaak, opmerkings en spoor veranderinge na tydens omskakeling vanaf Word"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "DOCX na Tiff G3-omskakeling met skadu-opsie"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Skakel spesifieke uitlegte om tydens omskakeling vanaf CAD-dokument"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Outomatiese naamgewing wanneer omgeskakelde dokument na lêer gestoor word"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Gemeterde lisensiëring ondersteun om gefaktureer te word gebaseer op die gebruik van die API"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Skakel diagramme om na woordverwerkingslêerformate"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Voeg bladsynommers by terwyl u HTML na woordverwerkingsdokument omskakel"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Skakel XML-dokumente om na enige formaat sonder transformasie"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Monitor lêeromskakelingsvordering (begin, einde) direk vanaf die toepassing aan die kliëntkant"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Maklike omskakeling van dokumentformaat met Java"
-        content: |
-          Jy kan lêerformaat van 'n menigte dokumenttipes omskep deur GroupDocs.Conversion for Java API te gebruik. Hier word u 'n paar reëls kode aangebied om 'n basiese dokumentomskakeling met Java uit te voer.  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```java    
-           // Laai bronlêer DOCX vir omskakeling
-          Converter converter = new Converter("input.docx");
-          // Berei omskakelingsopsies voor vir teikenformaat PDF
-          ConvertOptions convertOptions = new FileType().fromExtension("pdf").getConvertOptions();
-          // Skakel om na PDF-formaat
-          converter.convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "Lees dokument vanaf URL of pad vir omskakeling"
-        content: "Deur GroupDocs.Conversion for Java API te gebruik, kan jy invoerdokument vanaf 'n lêerpad sowel as 'n URL lees. Terwyl u die uitvoerdokument as 'n lêer kan stoor of die uitvoer direk in 'n stroom kan stuur."
-
-      # more_feature_loop
-      - title: "Omvattende tegniese ondersteuning"
-        content: |
-          GroupDocs.Conversion for Java is 'n eenvoudige en tot die punt API wat jy redelik maklik in jou Java-gebaseerde toepassings kan integreer. Om jou egter binne ’n japtrap aan die gang te kry, bied ons ook maklik om te volg kodevoorbeelde en omvattende API-dokumentasie.  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion bied dokumentomskakelings-API's vir ander gewilde ontwikkelingsomgewings"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Conversion vir .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-          product: "GroupDocs.Conversion"
-          platform: ".NET"
-          link: "/conversion/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Conversion for Java Kenmerke"
+  description: "{features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{features.feature_1.title}"
+      content: "{features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{features.feature_2.title}"
+      content: "{features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{features.feature_3.title}"
+      content: "{features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{features.feature_4.title}"
+      content: "{features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{features.feature_5.title}"
+      content: "{features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{features.feature_6.title}"
+      content: "{features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{features.feature_7.title}"
+      content: "{features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{features.feature_8.title}"
+      content: "{features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{features.feature_9.title}"
+      content: "{features.feature_9.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{code_samples.title}"
+  description: "{code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{code_samples.sample_1.title}"
+      content: |
+        {code_samples.sample_1.content_1} {code_samples.sample_1.content_2}
+        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        ```java {style=abap}   
+        // {code_samples.sample_1.comment_1}
+        Merger merger = new Merger("sample1.docx");
+        // {code_samples.sample_1.comment_2}
+        merger.join("sample2.docx");
+        // {code_samples.sample_1.comment_3}
+        merger.save("merged.docx");
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{code_samples.sample_2.title}"
+      content: |
+        {code_samples.sample_2.content_1} {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title}">}}
+        ```java {style=abap}   
+        // {code_samples.sample_2.comment_1}
+        String filePath = "input.pdf";
+        String filePathOut = "output.pdf";
+
+        // {code_samples.sample_2.comment_2}
+        SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
+
+        // {code_samples.sample_2.comment_3}
+        Merger merger = new Merger(filePath);
+
+        // {code_samples.sample_2.comment_4}
+        merger.split(splitOptions);
+  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

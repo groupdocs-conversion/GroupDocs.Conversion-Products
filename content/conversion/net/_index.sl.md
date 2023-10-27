@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:26
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,313 @@ head_title: "C# API za pretvorbo dokumentov .NET | Pretvorite slike PDF Word Exc
 head_description: "C# API za pretvorbo dokumentov .NET. Pretvorite PDF Word DOC DOCX, Excelove preglednice PPT PPTX, HTML, PSD, MPT MPP, e-pošto MSG EMLX, AutoCAD in oblike slikovnih datotek."
 
 ############################# Header ############################
-title: ".NET API za pretvorbo več kot 80 formatov datotek"
+title: "{header.title_1}<br>{header.title_2}"
 description: "Preprost API za integracijo funkcije pretvorbe dokumentov in slik v aplikacije .NET brez namestitve zunanje programske opreme."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Prenesite brezplačno preskusno različico"
-    link: "https://downloads.groupdocs.com/conversion/net"
+words:
+  for: "{header.words.for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
+actions:
+  main: "{actions.main}"
+  main_link: ""
+  alt: "{actions.alt}"
+  alt_link: ""
+  title: "{actions.title}"
+  description: "{actions.description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Pregled"
+release:
+  title: "{release.title}"
+  notes: "{release.notes}"
+  downloads: "{release.downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Lastnosti"
+code:
+  title: "{code.title}"
+  more: "{code.more}"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  install: "dotnet add package GroupDocs.Conversion"
+  content: |
+    ```csharp {style=abap}   
+    // {code.comment_1}
+    using (var converter = new Converter("sample.pdf"))
+    {
+      // {code.comment_2}
+      var options = new WordProcessingConvertOptions();
 
-            # button loop
-            - link: "#support"
-              text: "Podpora"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "Demo v živo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Cenitev"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // {code.comment_3}
+      converter.Convert("converted.docx", options);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for .NET ponuja preprost nabor API-jev, ki razvijalcem omogočajo izdelavo zmogljivih aplikacij za pretvorbo dokumentov v C#, ASP.NET in drugih tehnologijah, povezanih z .NET. API GroupDocs.Conversion for .NET vašim končnim uporabnikom zagotavlja hitro, učinkovito in zanesljivo rešitev za pretvorbo datotek. Podpira izvajanje natančnih pretvorb med vsemi priljubljenimi formati poslovnih dokumentov, vključno z: PDF, HTML, e-pošto, dokumenti Microsoft Word, preglednicami Excel, PowerPoint predstavitvami, Project, Photoshop, CorelDraw, AutoCAD, diagrami, formati datotek rastrskih slik in številnimi drugimi. Knjižnica pretvornika dokumentov samodejno zazna izvorno obliko dokumenta in vam daje ves nadzor za pretvorbo celotnega dokumenta ali določenih strani v želeno izhodno obliko. Lažje je zamenjati manjkajoče pisave z želenimi in dodati besedilne ali slikovne vodne žige na katero koli stran dokumenta.
+  enable: true
+  title: "{overview.title}"
+  description: "{overview.description}"
+  features:
+    # feature loop
+    - title: "{overview.feature_1.title}"
+      content: "{overview.feature_1.description}"
 
-      GroupDocs.Conversion for .NET se lahko uporablja za razvoj aplikacij v katerem koli razvojnem okolju, ki cilja na platformo .NET. Združljiv je z vsemi jeziki, ki temeljijo na .NET, in podpira priljubljene operacijske sisteme (Windows, Linux, MacOS), kjer je mogoče namestiti ogrodja Mono ali .NET (vključno z .NET Core).
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Sledi pregled izdelka GroupDocs.Conversion for .NET:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Pregled"
-          content: |
-            * Samodejno zaznaj vrsto datoteke
-            * Pretvarjanje dokumentov
-            * Pretvarjanje predstavitev
-            * Pretvarjanje preglednic
-            * Pretvarjanje rastrskih slik
-            * Pretvarjanje dokumentov PDF
-            * Pretvarjanje drugih formatov
-            * Uporabite vodni žig
-            * Določite geslo za datoteko
-            * Prilagodite pretvorbo
+    # feature loop
+    - title: "{overview.feature_2.title}"
+      content: "{overview.feature_2.description}"
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for .NET podpira pretvorbo med vsemi priljubljenimi in pogosto uporabljenimi [formati datotek dokumentov](https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+    # feature loop
+    - title: "{overview.feature_3.title}"
+      content: "{overview.feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Pretvori iz:"
-              content: |
-                * **Dokumenti**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Preglednice**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **Predstavitve**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **Slike**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **Prenosni**: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **Metadatoteke**: EMZ, WMZ
-                * **PhotoShop**: PSD
-                * **Projekt**: MPP, MPT, MPX
-                * **Outlook**: PST, OST
-                * **E-pošta**: MSG, EML, EMLX
-                * **Diagrami**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **PostScript**: EPS, PS, PSL, CGM
-                * **CorelDRAW**: CDR, CMX
-                * **Drugo**: VCF, PLT, LGS, OTG, MD, AI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Pretvori v:"
-              content: |
-                * **Dokumenti**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **Preglednice**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **Predstavitve**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **Slike**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **Metadatoteke**: EMF, WMF, EMZ, WMZ
-                * **Diagrami**: SVGZ
-                * **Prenosni**: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                * **Drugo**: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for .NET podpira naslednje operacijske sisteme, ogrodja in upravitelje paketov:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operacijski sistemi"
-              content: |
-                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Podprta ogrodja"
-              content: |
-                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Upravitelj paketov"
-              content: |
-                Nuget
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Upravitelj paketov"
-              content: |
-                Microsoft Visual Studio, Xamarin, MonoDevelop
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{formats.title}"
+  description: |
+    {formats.description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {formats.groups.title_1}
+        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### {formats.groups.title_2}
+        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
+        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
+        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
+        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### {formats.groups.title_3}
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
+        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
+        * **{formats.groups.format_finance}:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "Funkcije GroupDocs.Conversion for .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Enostavna integracija in merjeno licenciranje"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Nastavite privzeto možnost povečave pri pretvorbi v besede, diapozitive ali celice"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Pretvori v/iz vseh priljubljenih formatov rastrskih slik in dodeli sliki DPI, višino in širino"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Pretvorite PDF in slike v sivine in linearizirajte dokument PDF za splet"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Določite raven zaznamka, raven naslova in razširjeno raven v pretvorbi Word v PDF/XPS"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Konfigurirajte in postavite vodni žig v pretvorjeni dokument kot ozadje za prikaz za besedilom"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Upodobi glavo e-pošte med pretvorbo iz e-pošte"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Nastavite imenike pisav po meri in izrecno naložite/nadomestite pisavo med pretvorbo dokumenta"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Nastavite privzeto pisavo za zamenjavo manjkajočih pisav za pretvorbo dokumentov, diapozitivov in preglednic"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Pretvorite preglednico z mrežnimi črtami in odstranite komentarje z diapozitivov med pretvorbo"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Pretvorite določene strani dokumenta v obliko zapisa PDF & pretvorite določen obseg celic v preglednice"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Pokaži skrite liste in preskoči prazne vrstice in stolpce med pretvarjanjem preglednic"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Preštejte skupno število strani dokumenta in nastavite geslo za nezaščiten dokument med pretvorbo"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Možnost odstranjevanja opomb in vdelanih datotek iz PDF-ja"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Pri pretvorbi v HTML ustvarite oznako, skladno s HTML 5"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Samodejno zaznaj vrsto vira in vrni vse možne konverzije pri pretvorbi iz toka"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Možnost vrnitve vsake strani v ločenem toku med pretvorbo v PDF ali HTML"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Pokaži/skrij oznake, komentarje in sledi spremembam med pretvorbo iz Worda"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Pretvorba DOCX v Tiff G3 z možnostjo senčenja"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Pretvorite posebne postavitve pri pretvorbi iz dokumenta CAD"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Samodejno poimenovanje pri shranjevanju pretvorjenega dokumenta v datoteko"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Merjeno licenciranje Podprto za zaračunavanje na podlagi uporabe API-ja"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Pretvorite diagrame v formate datotek za obdelavo besedila"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Dodajte številke strani med pretvorbo HTML v dokument za obdelavo besedila"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Pretvorite dokumente XML v kateri koli format brez preoblikovanja"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Spremljajte napredek pretvorbe datoteke (začetek, konec) neposredno iz aplikacije na strani odjemalca"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Preprosto pretvorite formate dokumentov"
-        content: |
-          Z uporabo GroupDocs.Conversion for .NET je pretvorba formata datoteke dokumenta zelo enostavna. Naslednji primer prikazuje, kako pretvorite datoteko PDF v datoteko DOC z uporabo C#:  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```csharp    
-           // Naloži izvorno datoteko DOCX za pretvorbo
-          var converter = new GroupDocs.Conversion.Converter("input.docx");
-          // Pripravite možnosti pretvorbe za ciljno obliko PDF
-          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-          // Pretvori v format PDF
-          converter.Convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "Pretvorba v slikovne formate"
-        content: "GroupDocs.Conversion for .NET se lahko uporablja za razvoj aplikacij v katerem koli razvojnem okolju, ki cilja na platformo .NET. Združljiv je z vsemi jeziki, ki temeljijo na .NET, in podpira priljubljene operacijske sisteme (Windows, Linux, MacOS), kjer je mogoče namestiti ogrodja Mono ali .NET (vključno z .NET Core)."
-
-      # more_feature_loop
-      - title: "Podpira različne vrste formatov PDF"
-        content: |
-          GroupDocs.Conversion for .NET API podpira pretvorbo dokumentov v naslednje vrste/formate PDF:  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion ponuja API-je za pretvorbo dokumentov za druga priljubljena razvojna okolja"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Conversion za Javo"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-          product: "GroupDocs.Conversion"
-          platform: "Java"
-          link: "/pretvorba/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Funkcije GroupDocs.Conversion for .NET"
+  description: "{features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{features.feature_1.title}"
+      content: "{features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{features.feature_2.title}"
+      content: "{features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{features.feature_3.title}"
+      content: "{features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{features.feature_4.title}"
+      content: "{features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{features.feature_5.title}"
+      content: "{features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{features.feature_6.title}"
+      content: "{features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{features.feature_7.title}"
+      content: "{features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{features.feature_8.title}"
+      content: "{features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{features.feature_9.title}"
+      content: "{features.feature_9.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{code_samples.title}"
+  description: "{code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{code_samples.sample_1.title}"
+      content: |
+        {code_samples.sample_1.content_1} 
+        {code_samples.sample_1.content_2}
+        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}   
+        // {code_samples.sample_1.comment_1}
+        using (var converter = new Converter("sample.pdf"))
+        {
+          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+
+          // {code_samples.sample_1.comment_2}
+          var options = new ImageConvertOptions { 
+              Format = ImageFileType.Png
+          };
+          
+          // {code_samples.sample_1.comment_3}
+          converter.Convert(getPageStream, options);
+        }
+        ```
+        {{< /landing/code >}}
+
+    # code sample loop        
+    - title: ""
+      content: |
+        {code_samples.sample_1.alternative_content_1}
+        {{< landing/code title="{code_samples.sample_1.alternative_code_title}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+          .Load("sample.pdf")
+          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
+          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
+          .Convert();
+        ```
+        {{< /landing/code >}}        
+
+    # code sample loop
+    - title: "{code_samples.sample_2.title}"
+      content: |
+        {code_samples.sample_2.content_1} 
+        {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                           PageNumber = 2, 
+                                           PagesCount = 3 
+                                     };
+           converter.Convert("converted.pdf", options);
+        }  
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                             Pages = new List<int>{ 1, 3 } 
+                                       };
+           converter.Convert("converted.pdf", options); 
+        }  
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{code_samples.sample_3.title}"
+      content: |
+        {code_samples.sample_3.content_1} 
+        {code_samples.sample_3.content_2}
+        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.docx")
+            .ConvertTo("converted.pdf")
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_2}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .WithSettings(() => new ConverterSettings())
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertTo("converted.docx")
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_3}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

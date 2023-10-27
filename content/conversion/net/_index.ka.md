@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:26
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,313 @@ head_title: "C# .NET Document Conversion API | გადაიყვანეთ
 head_description: "C# .NET Document Conversion API. გადაიყვანეთ PDF Word DOC DOCX, Excel ცხრილები PPT PPTX, HTML, PSD, MPT MPP, ელფოსტა MSG EMLX, AutoCAD და გამოსახულების ფორმატები."
 
 ############################# Header ############################
-title: ".NET API 80+ ფაილის ფორმატის კონვერტაციისთვის"
+title: "{header.title_1}<br>{header.title_2}"
 description: "მარტივი API დოკუმენტისა და სურათის კონვერტაციის ფუნქციების ინტეგრირებისთვის .NET აპლიკაციებში გარე პროგრამული უზრუნველყოფის ინსტალაციის გარეშე."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "ჩამოტვირთეთ უფასო საცდელი"
-    link: "https://downloads.groupdocs.com/conversion/net"
+words:
+  for: "{header.words.for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
+actions:
+  main: "{actions.main}"
+  main_link: ""
+  alt: "{actions.alt}"
+  alt_link: ""
+  title: "{actions.title}"
+  description: "{actions.description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "მიმოხილვა"
+release:
+  title: "{release.title}"
+  notes: "{release.notes}"
+  downloads: "{release.downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "მახასიათებლები"
+code:
+  title: "{code.title}"
+  more: "{code.more}"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  install: "dotnet add package GroupDocs.Conversion"
+  content: |
+    ```csharp {style=abap}   
+    // {code.comment_1}
+    using (var converter = new Converter("sample.pdf"))
+    {
+      // {code.comment_2}
+      var options = new WordProcessingConvertOptions();
 
-            # button loop
-            - link: "#support"
-              text: "მხარდაჭერა"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "ცოცხალი დემო"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "ფასი"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // {code.comment_3}
+      converter.Convert("converted.docx", options);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for .NET გთავაზობთ API-ების მარტივ კომპლექტს, რაც დეველოპერებს საშუალებას აძლევს შექმნან დოკუმენტების კონვერტაციის მძლავრი აპლიკაციები C#-ში, ASP.NET-ში და .NET-თან დაკავშირებულ სხვა ტექნოლოგიებში. GroupDocs.Conversion for .NET API უზრუნველყოფს თქვენი საბოლოო მომხმარებლებისთვის ფაილის კონვერტაციის სწრაფ, ეფექტურ და საიმედო გადაწყვეტილებას. იგი მხარს უჭერს ზუსტი კონვერტაციის შესრულებას ყველა პოპულარულ ბიზნეს დოკუმენტის ფორმატებში, მათ შორის: PDF, HTML, Email, Microsoft Word დოკუმენტები, Excel ცხრილები, PowerPoint პრეზენტაციები, პროექტი, Photoshop, CorelDraw, AutoCAD, დიაგრამები, რასტრული გამოსახულების ფორმატები და მრავალი სხვა. დოკუმენტების გადამყვანის ბიბლიოთეკა ავტომატურად ამოიცნობს წყაროს დოკუმენტის ფორმატს და გაძლევთ ყველა კონტროლს, რომ გადაიყვანოთ მთელი დოკუმენტი ან კონკრეტული გვერდები სასურველ გამომავალ ფორმატში. უფრო ადვილია დაკარგული შრიფტების შეცვლა სასურველი შრიფტებით და ტექსტის ან გამოსახულების ჭვირნიშნების დამატება დოკუმენტის ნებისმიერ გვერდზე.
+  enable: true
+  title: "{overview.title}"
+  description: "{overview.description}"
+  features:
+    # feature loop
+    - title: "{overview.feature_1.title}"
+      content: "{overview.feature_1.description}"
 
-      GroupDocs.Conversion for .NET შეიძლება გამოყენებულ იქნას აპლიკაციების დასამუშავებლად განვითარების ნებისმიერ გარემოში, რომელიც მიზნად ისახავს .NET პლატფორმას. ის თავსებადია .NET-ზე დაფუძნებულ ყველა ენასთან და მხარს უჭერს პოპულარულ ოპერაციულ სისტემებს (Windows, Linux, MacOS), სადაც შეიძლება დაინსტალირდეს Mono ან .NET Frameworks (მათ შორის .NET Core).
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          ქვემოთ მოცემულია GroupDocs.Conversion for .NET-ის მიმოხილვა:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "მიმოხილვა"
-          content: |
-            * ფაილის ტიპის ავტომატური ამოცნობა
-            * დოკუმენტების კონვერტაცია
-            * პრეზენტაციების კონვერტაცია
-            * ცხრილების გადაკეთება
-            * რასტრული სურათების კონვერტაცია
-            * გადაიყვანეთ PDF დოკუმენტები
-            * სხვა ფორმატების კონვერტაცია
-            * წყლის ნიშნის გამოყენება
-            * მიუთითეთ ფაილის პაროლი
-            * კონვერტაციის მორგება
+    # feature loop
+    - title: "{overview.feature_2.title}"
+      content: "{overview.feature_2.description}"
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for .NET მხარს უჭერს კონვერტაციას ყველა პოპულარულ და ხშირად გამოყენებულ [დოკუმენტის ფაილის ფორმატებს] შორის (https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+    # feature loop
+    - title: "{overview.feature_3.title}"
+      content: "{overview.feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "კონვერტაცია მდებარეობა:"
-              content: |
-                * **დოკუმენტები**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **ელცხრილები**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * **პრეზენტაციები**: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * **გამოსახულებები**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * **პორტატული **: PDF, XPS, OXPS, EPUB
-                * **HTML**: HTM, HTML, MHTML
-                * **მეტაფაილები**: EMZ, WMZ
-                * **PhotoShop**: PSD
-                * **პროექტი**: MPP, MPT, MPX
-                * ** Outlook **: PST, OST
-                * **ელფოსტა**: MSG, EML, EMLX
-                * **დიაგრამები**: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * **AutoCAD**: DXF, DWG, DWF, STL, IFC, DWT
-                * **PostScript**: EPS, PS, PSL, CGM
-                * ** CorelDRAW **: CDR, CMX
-                * **სხვა **: VCF, PLT, LGS, OTG, MD, AI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "კონვერტაცია:"
-              content: |
-                * **დოკუმენტები**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * **ელცხრილები**: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * **პრეზენტაციები**: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * **გამოსახულებები**: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * **მეტაფაილები**: EMF, WMF, EMZ, WMZ
-                * **დიაგრამები**: SVGZ
-                * **პორტატული **: PDF, XPS
-                * **HTML**: HTM, HTML, MHTML
-                * **სხვა **: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for .NET მხარს უჭერს შემდეგი ოპერაციული სისტემების, ჩარჩოების და პაკეტის მენეჯერებს:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Ოპერატიული სისტემა"
-              content: |
-                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "მხარდაჭერილი ჩარჩოები"
-              content: |
-                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "პაკეტის მენეჯერი"
-              content: |
-                Nuget
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "პაკეტის მენეჯერი"
-              content: |
-                Microsoft Visual Studio, Xamarin, MonoDevelop
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{formats.title}"
+  description: |
+    {formats.description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {formats.groups.title_1}
+        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### {formats.groups.title_2}
+        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
+        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
+        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
+        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### {formats.groups.title_3}
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
+        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
+        * **{formats.groups.format_finance}:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Conversion for .NET ფუნქციები"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "მარტივი ინტეგრაცია და გაზომილი ლიცენზირება"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "დააყენეთ ნაგულისხმევი მასშტაბირების ვარიანტი სიტყვებზე, სლაიდებზე ან უჯრედებზე გადაყვანისას"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "გადაიყვანეთ ყველა პოპულარულ რასტერული გამოსახულების ფორმატში და მიანიშნეთ სურათის DPI, სიმაღლე და სიგანე"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "გადაიყვანეთ PDF და გამოსახულება ნაცრისფერ ფერში და განაახლეთ PDF დოკუმენტი ინტერნეტისთვის"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "მიუთითეთ სანიშნეების დონე, სათაურის დონე და გაფართოებული დონე Word-ში PDF/XPS კონვერტაციაში"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "კონფიგურაცია და მოათავსეთ ჭვირნიშანი კონვერტირებულ დოკუმენტში, როგორც ფონი ტექსტის უკან საჩვენებლად"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "ელ.ფოსტის სათაურის რენდერი ელფოსტიდან კონვერტაციის დროს"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "დააყენეთ მორგებული შრიფტის დირექტორიები და აშკარად ჩატვირთეთ/შეცვალეთ შრიფტი დოკუმენტის კონვერტაციის დროს"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "დააყენეთ ნაგულისხმევი შრიფტი, რათა შეცვალოს დაკარგული შრიფტები დოკუმენტების, სლაიდების და ცხრილების კონვერტაციისთვის"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "გადაიყვანეთ ცხრილები ქსელის ხაზებით და წაშალეთ კომენტარები სლაიდებიდან კონვერტაციისას"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "კონკრეტული დოკუმენტის გვერდების PDF ფორმატად გადაქცევა და უჯრედების სპეციფიკური დიაპაზონის ელცხრილებში"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "ფარული ფურცლების ჩვენება და ცარიელი რიგებისა და სვეტების გამოტოვება ელცხრილების კონვერტაციისას"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "დაითვალეთ დოკუმენტის მთლიანი გვერდები და დააყენეთ პაროლი დაუცველ დოკუმენტზე კონვერტაციის დროს"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "ანოტაციების და ჩაშენებული ფაილების PDF-დან წაშლის ვარიანტი"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "შექმენით HTML 5-ის შესაბამისი მარკირება HTML-ზე გადაყვანისას"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "წყაროს ტიპის ავტომატური ამოცნობა და ყველა შესაძლო კონვერტაციის დაბრუნება ნაკადიდან კონვერტაციისას"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "PDF ან HTML-ში გადაყვანისას თითოეული გვერდის ცალკე სტრიმში დაბრუნების შესაძლებლობა"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "აჩვენეთ/დამალეთ მარკირება, კომენტარები და თვალყური ადევნეთ ცვლილებებს Word-დან კონვერტაციისას"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "DOCX-ში Tiff G3-ის კონვერტაცია დაჩრდილვის ოფციით"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "კონკრეტული განლაგების კონვერტაცია CAD დოკუმენტიდან კონვერტაციისას"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "ავტომატური დასახელება კონვერტირებული დოკუმენტის ფაილში შენახვისას"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "გაზომილი ლიცენზირება მხარდაჭერილია ბილინგისთვის API-ის გამოყენების საფუძველზე"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "გადაიყვანეთ დიაგრამები ტექსტის დამუშავების ფაილის ფორმატებში"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "დაამატეთ გვერდის ნომრები HTML-ის Wordprocessing დოკუმენტად გადაქცევისას"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "გადაიყვანეთ XML დოკუმენტები ნებისმიერ ფორმატში ტრანსფორმაციის გარეშე"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "დააკვირდით ფაილების კონვერტაციის პროგრესს (დაწყება, დასრულება) პირდაპირ კლიენტის მხარის აპლიკაციიდან"
-
-    more_feature:
-      # more_feature_loop
-      - title: "ადვილად გადაიყვანეთ დოკუმენტის ფორმატები"
-        content: |
-          GroupDocs.Conversion for .NET-ის გამოყენებით დოკუმენტის ფაილის ფორმატის კონვერტაცია ძალიან მარტივია. შემდეგი მაგალითი გაჩვენებთ, თუ როგორ გადაიყვანოთ PDF ფაილი DOC ფაილად C#-ის გამოყენებით:  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```csharp    
-           // ჩატვირთეთ საწყისი ფაილი DOCX კონვერტაციისთვის
-          var converter = new GroupDocs.Conversion.Converter("input.docx");
-          // მოამზადეთ კონვერტაციის ვარიანტები სამიზნე ფორმატისთვის PDF
-          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-          // გადაიყვანეთ PDF ფორმატში
-          converter.Convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "კონვერტაცია გამოსახულების ფორმატებში"
-        content: "GroupDocs.Conversion for .NET შეიძლება გამოყენებულ იქნას აპლიკაციების დასამუშავებლად განვითარების ნებისმიერ გარემოში, რომელიც მიზნად ისახავს .NET პლატფორმას. ის თავსებადია .NET-ზე დაფუძნებულ ყველა ენასთან და მხარს უჭერს პოპულარულ ოპერაციულ სისტემებს (Windows, Linux, MacOS), სადაც შეიძლება დაინსტალირდეს Mono ან .NET Frameworks (მათ შორის .NET Core)."
-
-      # more_feature_loop
-      - title: "მხარს უჭერს PDF ფორმატის სხვადასხვა ტიპებს"
-        content: |
-          GroupDocs.Conversion for .NET API მხარს უჭერს დოკუმენტის კონვერტაციას შემდეგ PDF ტიპებზე/ფორმატებზე:  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion გთავაზობთ დოკუმენტის კონვერტაციის API-ებს განვითარების სხვა პოპულარულ გარემოში"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Conversion Java-სთვის"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-          product: "GroupDocs.Conversion"
-          platform: "ჯავა"
-          link: "/conversion/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Conversion for .NET ფუნქციები"
+  description: "{features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{features.feature_1.title}"
+      content: "{features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{features.feature_2.title}"
+      content: "{features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{features.feature_3.title}"
+      content: "{features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{features.feature_4.title}"
+      content: "{features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{features.feature_5.title}"
+      content: "{features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{features.feature_6.title}"
+      content: "{features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{features.feature_7.title}"
+      content: "{features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{features.feature_8.title}"
+      content: "{features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{features.feature_9.title}"
+      content: "{features.feature_9.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{code_samples.title}"
+  description: "{code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{code_samples.sample_1.title}"
+      content: |
+        {code_samples.sample_1.content_1} 
+        {code_samples.sample_1.content_2}
+        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}   
+        // {code_samples.sample_1.comment_1}
+        using (var converter = new Converter("sample.pdf"))
+        {
+          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+
+          // {code_samples.sample_1.comment_2}
+          var options = new ImageConvertOptions { 
+              Format = ImageFileType.Png
+          };
+          
+          // {code_samples.sample_1.comment_3}
+          converter.Convert(getPageStream, options);
+        }
+        ```
+        {{< /landing/code >}}
+
+    # code sample loop        
+    - title: ""
+      content: |
+        {code_samples.sample_1.alternative_content_1}
+        {{< landing/code title="{code_samples.sample_1.alternative_code_title}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+          .Load("sample.pdf")
+          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
+          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
+          .Convert();
+        ```
+        {{< /landing/code >}}        
+
+    # code sample loop
+    - title: "{code_samples.sample_2.title}"
+      content: |
+        {code_samples.sample_2.content_1} 
+        {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                           PageNumber = 2, 
+                                           PagesCount = 3 
+                                     };
+           converter.Convert("converted.pdf", options);
+        }  
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                             Pages = new List<int>{ 1, 3 } 
+                                       };
+           converter.Convert("converted.pdf", options); 
+        }  
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{code_samples.sample_3.title}"
+      content: |
+        {code_samples.sample_3.content_1} 
+        {code_samples.sample_3.content_2}
+        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.docx")
+            .ConvertTo("converted.pdf")
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_2}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .WithSettings(() => new ConverterSettings())
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertTo("converted.docx")
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_3}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---

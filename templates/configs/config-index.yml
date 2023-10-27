@@ -2,4 +2,4 @@ inherits: languages.yml
 
 dictionaries: ["..\\data\\index.{lang}.json"]  
 
-outputPath: "conversion\\_index.{lang}.md"
+outputPath: "_index.{lang}.md"

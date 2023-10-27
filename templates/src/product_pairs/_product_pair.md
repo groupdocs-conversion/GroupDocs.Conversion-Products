@@ -80,7 +80,7 @@ steps:
          
     code: |
         ```<% dict "products.{product}.syntax" %>    
-        <% include "_example_{product}.md" %>
+        <% include ".\\_example_{product}.md" %>
         ```
 
 demos:

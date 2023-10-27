@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2023-03-31T15:15:26
+layout: "landing"
+date: 2023-10-27T14:09:27
 draft: false
 
 product: "Conversion"
@@ -14,333 +14,313 @@ head_title: "C# API chuyển đổi tài liệu .NET | Chuyển đổi PDF Word 
 head_description: "C# API chuyển đổi tài liệu .NET. Chuyển đổi PDF Word DOC DOCX, Bảng tính Excel PPT PPTX, HTML, PSD, MPT MPP, Email MSG EMLX, AutoCAD và các định dạng tệp hình ảnh."
 
 ############################# Header ############################
-title: ".NET API để chuyển đổi hơn 80 định dạng tệp"
+title: "{header.title_1}<br>{header.title_2}"
 description: "API đơn giản để tích hợp chức năng chuyển đổi tài liệu & hình ảnh vào các ứng dụng .NET mà không cần cài đặt bất kỳ phần mềm bên ngoài nào."
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Tải xuống bản dùng thử miễn phí"
-    link: "https://downloads.groupdocs.com/conversion/net"
+words:
+  for: "{header.words.for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Conversion for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-net.png"
-        product: "GroupDocs.Conversion"
-        platform: ".NET"
+actions:
+  main: "{actions.main}"
+  main_link: ""
+  alt: "{actions.alt}"
+  alt_link: ""
+  title: "{actions.title}"
+  description: "{actions.description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Tổng quan"
+release:
+  title: "{release.title}"
+  notes: "{release.notes}"
+  downloads: "{release.downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Đặc trưng"
+code:
+  title: "{code.title}"
+  more: "{code.more}"
+  more_link: "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET"
+  install: "dotnet add package GroupDocs.Conversion"
+  content: |
+    ```csharp {style=abap}   
+    // {code.comment_1}
+    using (var converter = new Converter("sample.pdf"))
+    {
+      // {code.comment_2}
+      var options = new WordProcessingConvertOptions();
 
-            # button loop
-            - link: "#support"
-              text: "Ủng hộ"
-
-            # button loop
-            - link: "https://products.groupdocs.app/conversion"
-              text: "Bản thử trực tiếp"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/conversion/net"
-              text: "Định giá"
-
-    right:
-        link_download: "https://www.nuget.org/packages/GroupDocs.Conversion"
-        link_learn: "https://docs.groupdocs.com/conversion/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+      // {code.comment_3}
+      converter.Convert("converted.docx", options);
+    }
+    ```
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Conversion for .NET cung cấp một bộ API đơn giản, cho phép các nhà phát triển xây dựng các ứng dụng chuyển đổi tài liệu mạnh mẽ trong C#, ASP.NET và các công nghệ liên quan đến .NET khác. API GroupDocs.Conversion for .NET cung cấp giải pháp chuyển đổi tệp nhanh chóng, hiệu quả và đáng tin cậy cho người dùng cuối của bạn. Nó hỗ trợ thực hiện chuyển đổi chính xác giữa tất cả các định dạng tài liệu kinh doanh phổ biến bao gồm: PDF, HTML, Email, tài liệu Microsoft Word, bảng tính Excel, bản trình bày PowerPoint, Project, Photoshop, CorelDraw, AutoCAD, sơ đồ, định dạng tệp hình ảnh raster và nhiều hơn nữa. Thư viện trình chuyển đổi tài liệu tự động phát hiện định dạng tài liệu nguồn và cung cấp cho bạn tất cả quyền kiểm soát để chuyển đổi toàn bộ tài liệu hoặc các trang cụ thể sang định dạng đầu ra mong muốn. Việc thay thế các phông chữ bị thiếu bằng những phông chữ ưa thích và thêm hình mờ văn bản hoặc hình ảnh vào bất kỳ trang tài liệu nào sẽ dễ dàng hơn.
+  enable: true
+  title: "{overview.title}"
+  description: "{overview.description}"
+  features:
+    # feature loop
+    - title: "{overview.feature_1.title}"
+      content: "{overview.feature_1.description}"
 
-      GroupDocs.Conversion for .NET có thể được sử dụng để phát triển các ứng dụng trong bất kỳ môi trường phát triển nào nhắm mục tiêu đến nền tảng .NET. Nó tương thích với tất cả các ngôn ngữ dựa trên .NET và hỗ trợ các hệ điều hành phổ biến (Windows, Linux, MacOS) nơi có thể cài đặt các khung Mono hoặc .NET (bao gồm cả .NET Core).
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Sau đây là tổng quan về GroupDocs.Conversion for .NET:
-        
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Tổng quan"
-          content: |
-            * Tự động phát hiện loại tệp
-            * Chuyển đổi tài liệu
-            * Chuyển đổi bản trình bày
-            * Chuyển đổi bảng tính
-            * Chuyển đổi hình ảnh Raster
-            * Chuyển đổi tài liệu PDF
-            * Chuyển đổi các định dạng khác
-            * Áp dụng hình mờ
-            * Chỉ định mật khẩu tệp
-            * Tùy chỉnh chuyển đổi
+    # feature loop
+    - title: "{overview.feature_2.title}"
+      content: "{overview.feature_2.description}"
 
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Conversion for .NET hỗ trợ chuyển đổi giữa tất cả [định dạng tệp tài liệu] phổ biến và thường được sử dụng (https://docs.groupdocs.com/conversion/net/supported-document-formats/).
+    # feature loop
+    - title: "{overview.feature_3.title}"
+      content: "{overview.feature_3.description}"
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Chuyển đổi từ:"
-              content: |
-                * ** Tài liệu **: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * ** Bảng tính **: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, ODS, TSV, XLT, XLTX, XLTM, XLAM, FODS, SXC
-                * ** Bản trình bày **: PPT, PPTX, PPS, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-                * ** Hình ảnh **: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, DIB, JPC, JPEG-LS, JPEG2000
-                * ** Di động **: PDF, XPS, OXPS, EPUB
-                * ** HTML **: HTM, HTML, MHTML
-                * ** Metafiles **: EMZ, WMZ
-                * ** PhotoShop **: PSD
-                * ** Dự án **: MPP, MPT, MPX
-                * ** Outlook **: PST, OST
-                * ** Email **: MSG, EML, EMLX
-                * ** Sơ đồ **: VSD, VSDX, VSDM, VSS, VSSM, VST, VSTM, VSX, VTX, VDW, VDX, SVG, SVGZ
-                * ** AutoCAD **: DXF, DWG, DWF, STL, IFC, DWT
-                * ** PostScript **: EPS, PS, PSL, CGM
-                * ** CorelDRAW **: CDR, CMX
-                * ** Khác **: VCF, PLT, LGS, OTG, MD, AI, LOG
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Chuyển đổi thành:"
-              content: |
-                * ** Tài liệu **: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT, ODT, OTT
-                * ** Bảng tính **: XLS, XLSX, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, ODS, XLAM, FODS, DIF, SXC
-                * ** Bản trình bày **: PPT, PPTX, PPS, PPSX, ODP, POTX, POTM, PPTM, PPSM, FODP
-                * ** Hình ảnh **: TIF, TIFF, JPG, JPEG, PNG, GIF, BMP, ICO, JPEG2000
-                * ** Metafiles **: EMF, WMF, EMZ, WMZ
-                * ** Sơ đồ **: SVGZ
-                * ** Di động **: PDF, XPS
-                * ** HTML **: HTM, HTML, MHTML
-                * ** Khác **: MD
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Conversion for .NET hỗ trợ các Hệ điều hành, Khung và Trình quản lý Gói sau:
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Các hệ điều hành"
-              content: |
-                Windows Desktop, Windows Server, Windows Azure, Linux, MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Khung được hỗ trợ"
-              content: |
-                Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Trình quản lý gói"
-              content: |
-                Nuget
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Trình quản lý gói"
-              content: |
-                Microsoft Visual Studio, Xamarin, MonoDevelop
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{platforms.title}"
+  description: "{platforms.description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{formats.title}"
+  description: |
+    {formats.description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {formats.groups.title_1}
+        * **{formats.groups.format_documents}:** PDF, XPS, TEX
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, ODP, OTP
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLTX, XLT, XLAM
+        * **Visio:** VSDX, VSDM, VSSX, VSTX, VSTM, VSSM, VSX, VTX, VDX
+        * **OpenDocument:** ODT, OTT, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### {formats.groups.title_2}
+        * **{formats.groups.format_images}:** BMP, JPEG, PNG, GIF, TIFF, SVG, PS
+        * **{formats.groups.format_diagram}:** VSDX, DRAW, LUCIDCHART
+        * **{formats.groups.format_cad_gis}:** DWG, DXF, DWF, IFC, SHP, KML, GEOJSON
+        * **{formats.groups.format_audio}:** MP3, WAV, FLAC, AAC, OGG
+        * **{formats.groups.format_video}:** MP4, AVI, MKV, MOV, WMV
+        * **{formats.groups.format_vector_3d}:** SVG, AI, EPS, CDR, STL, OBJ, FBX, DAE, GLB
+      # group loop
+    - color: "red"
+      content: |
+        ### {formats.groups.title_3}
+        * **eBook:** EPUB, MOBI, AZW, FB2
+        * **{formats.groups.format_web}:**  HTML, MHTML, MHT
+        * **{formats.groups.format_archives}:** ZIP, TAR, RAR, 7Z, BZ2, GZ
+        * **{formats.groups.format_email_outlook}:** PST, OST, MSG, EML
+        * **{formats.groups.format_finance}:** QFX, OFX
+        * **OneNote:**  ONE
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "Tính năng của GroupDocs.Conversion for .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Tích hợp dễ dàng & cấp phép được đo lường"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Đặt Tùy chọn Thu phóng Mặc định khi Chuyển đổi thành Từ, Trang trình bày hoặc Ô"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Chuyển đổi thành / từ tất cả các Định dạng Hình ảnh Raster Phổ biến & Chỉ định DPI Hình ảnh, Chiều cao & Chiều rộng"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Chuyển đổi PDF & hình ảnh sang thang độ xám & tuyến tính hóa tài liệu PDF cho web"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Chỉ định Cấp độ Dấu trang, Cấp độ Tiêu đề và Cấp độ Mở rộng trong Chuyển đổi Word sang PDF / XPS"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Định cấu hình & đặt hình mờ trong tài liệu được chuyển đổi làm nền để hiển thị phía sau văn bản"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Hiển thị tiêu đề email trong quá trình chuyển đổi từ email"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Đặt Thư mục Phông chữ Tùy chỉnh & Tải / Thay thế Phông chữ rõ ràng trong quá trình Chuyển đổi Tài liệu"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Đặt Phông chữ Mặc định để Thay thế Phông chữ Thiếu cho Chuyển đổi Tài liệu, Trang trình bày & Bảng tính"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Chuyển đổi Bảng tính với Đường lưới & Xóa Nhận xét khỏi Trang trình bày trong khi Chuyển đổi"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Chuyển đổi các trang tài liệu cụ thể thành định dạng PDF & chuyển đổi phạm vi ô cụ thể trong bảng tính"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Hiển thị Trang tính Ẩn & Bỏ qua Hàng và Cột trống trong khi Chuyển đổi Bảng tính"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Đếm tổng số trang của tài liệu & đặt mật khẩu thành tài liệu không được bảo vệ trong quá trình chuyển đổi"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Tùy chọn xóa chú thích & tệp nhúng khỏi PDF"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Tạo Đánh dấu tuân thủ HTML 5 khi chuyển đổi sang HTML"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Tự động phát hiện Loại nguồn & Trả lại tất cả các Chuyển đổi có thể có khi Chuyển đổi từ Luồng"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Khả năng trả lại từng trang trong luồng riêng biệt trong khi chuyển đổi sang PDF hoặc HTML"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Hiển thị / Ẩn Đánh dấu, Nhận xét & Theo dõi Thay đổi trong khi Chuyển đổi từ Word"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Chuyển đổi DOCX sang Tiff G3 với tùy chọn đổ bóng"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Chuyển đổi các bố cục cụ thể khi chuyển đổi từ tài liệu CAD"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Đặt tên tự động khi lưu tài liệu đã chuyển đổi thành tệp"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Cấp phép được đo lường được hỗ trợ để được lập hóa đơn dựa trên việc sử dụng API"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Chuyển đổi sơ đồ sang định dạng tệp xử lý văn bản"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Thêm số trang trong khi chuyển đổi HTML sang tài liệu xử lý Word"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Chuyển đổi tài liệu XML sang bất kỳ định dạng nào mà không cần chuyển đổi"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Giám sát Tiến trình Chuyển đổi Tệp (Bắt đầu, Kết thúc) Trực tiếp từ Ứng dụng phía Máy khách"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Dễ dàng chuyển đổi định dạng tài liệu"
-        content: |
-          Sử dụng GroupDocs.Conversion for .NET, việc chuyển đổi định dạng tệp tài liệu rất dễ dàng. Ví dụ sau cho bạn thấy cách chuyển đổi tệp PDF thành tệp DOC bằng cách sử dụng C#:  
-            
-          {features.more_feature.step1} 
-          {features.more_feature.step2} 
-          {features.more_feature.step3} 
-            
-          ```csharp    
-           // Tải tệp nguồn DOCX để chuyển đổi
-          var converter = new GroupDocs.Conversion.Converter("input.docx");
-          // Chuẩn bị các tùy chọn chuyển đổi cho định dạng mục tiêu PDF
-          var convertOptions = converter.GetPossibleConversions()["pdf"].ConvertOptions;
-          // Chuyển sang định dạng PDF
-          converter.Convert("output.pdf", convertOptions);
-          ```
-            
-      # more_feature_loop
-      - title: "Chuyển đổi sang định dạng hình ảnh"
-        content: "GroupDocs.Conversion for .NET có thể được sử dụng để phát triển các ứng dụng trong bất kỳ môi trường phát triển nào nhắm mục tiêu đến nền tảng .NET. Nó tương thích với tất cả các ngôn ngữ dựa trên .NET và hỗ trợ các hệ điều hành phổ biến (Windows, Linux, MacOS) nơi có thể cài đặt các khung Mono hoặc .NET (bao gồm cả .NET Core)."
-
-      # more_feature_loop
-      - title: "Hỗ trợ nhiều loại định dạng PDF khác nhau"
-        content: |
-          API GroupDocs.Conversion for .NET hỗ trợ chuyển đổi tài liệu sang các loại / định dạng PDF sau:  
-            
-          * PdfA_1A
-          * PdfA_1B
-          * PdfA_2A
-          * PdfA_3A
-          * PdfA_2B
-          * PdfA_2U
-          * PdfA_3B
-          * PdfA_3U
-          * v1_3
-          * v1_4
-          * v1_5
-          * v1_6
-          * v1_7
-          * PdfX_1A
-          * PdfX3
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Conversion cung cấp các API chuyển đổi tài liệu cho các môi trường phát triển phổ biến khác"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Conversion cho Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-conversion-java.png"
-          product: "GroupDocs.Conversion"
-          platform: "Java"
-          link: "/ convert / java /"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Tính năng của GroupDocs.Conversion for .NET"
+  description: "{features.description}"
+
+  items:
+    # feature loop
+    - icon: "merge"
+      title: "{features.feature_1.title}"
+      content: "{features.feature_1.content}"
+
+    # feature loop
+    - icon: "split"
+      title: "{features.feature_2.title}"
+      content: "{features.feature_2.content}"
+
+    # feature loop
+    - icon: "move"
+      title: "{features.feature_3.title}"
+      content: "{features.feature_3.content}"
+
+    # feature loop
+    - icon: "remove"
+      title: "{features.feature_4.title}"
+      content: "{features.feature_4.content}"
+
+    # feature loop
+    - icon: "rotate"
+      title: "{features.feature_5.title}"
+      content: "{features.feature_5.content}"
+
+    # feature loop
+    - icon: "swap"
+      title: "{features.feature_6.title}"
+      content: "{features.feature_6.content}"
+
+    # feature loop
+    - icon: "extract"
+      title: "{features.feature_7.title}"
+      content: "{features.feature_7.content}"
+
+    # feature loop
+    - icon: "orientation"
+      title: "{features.feature_8.title}"
+      content: "{features.feature_8.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{features.feature_9.title}"
+      content: "{features.feature_9.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_10.title}"
+      content: "{features.feature_10.content}"
+
+      # feature loop
+    - icon: "preview"
+      title: "{features.feature_11.title}"
+      content: "{features.feature_11.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{code_samples.title}"
+  description: "{code_samples.description}"
+  items:
+    # code sample loop
+    - title: "{code_samples.sample_1.title}"
+      content: |
+        {code_samples.sample_1.content_1} 
+        {code_samples.sample_1.content_2}
+        {{< landing/code title="{code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}   
+        // {code_samples.sample_1.comment_1}
+        using (var converter = new Converter("sample.pdf"))
+        {
+          var getPageStream = page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create);
+
+          // {code_samples.sample_1.comment_2}
+          var options = new ImageConvertOptions { 
+              Format = ImageFileType.Png
+          };
+          
+          // {code_samples.sample_1.comment_3}
+          converter.Convert(getPageStream, options);
+        }
+        ```
+        {{< /landing/code >}}
+
+    # code sample loop        
+    - title: ""
+      content: |
+        {code_samples.sample_1.alternative_content_1}
+        {{< landing/code title="{code_samples.sample_1.alternative_code_title}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+          .Load("sample.pdf")
+          .ConvertByPageTo(page => new FileStream(string.Format("converted-page-{0}.png", page), FileMode.Create))
+          .WithOptions(new ImageConvertOptions { Format = GroupDocs.Conversion.FileTypes.ImageFileType.Png })
+          .Convert();
+        ```
+        {{< /landing/code >}}        
+
+    # code sample loop
+    - title: "{code_samples.sample_2.title}"
+      content: |
+        {code_samples.sample_2.content_1} 
+        {code_samples.sample_2.content_2}
+        {{< landing/code title="{code_samples.sample_2.code_title_1}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                           PageNumber = 2, 
+                                           PagesCount = 3 
+                                     };
+           converter.Convert("converted.pdf", options);
+        }  
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_2.code_title_2}">}}
+        ```csharp {style=abap}   
+        using (Converter converter = new Converter("sample.docx"))
+        {
+           PdfConvertOptions options = new PdfConvertOptions { 
+                                             Pages = new List<int>{ 1, 3 } 
+                                       };
+           converter.Convert("converted.pdf", options); 
+        }  
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{code_samples.sample_3.title}"
+      content: |
+        {code_samples.sample_3.content_1} 
+        {code_samples.sample_3.content_2}
+        {{< landing/code title="{code_samples.sample_3.code_title_1}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.docx")
+            .ConvertTo("converted.pdf")
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_2}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .WithSettings(() => new ConverterSettings())
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertTo("converted.docx")
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();
+        ```
+        {{< /landing/code >}}
+
+        {{< landing/code title="{code_samples.sample_3.code_title_3}">}}
+        ```csharp {style=abap}   
+        FluentConverter
+            .Load("sample.pdf")
+                .WithOptions(new PdfLoadOptions())
+            .ConvertByPageTo((page => new FileStream($"converted-{page}.docx", FileMode.Create)))
+                .WithOptions(new WordProcessingConvertOptions())
+            .Convert();  
+        ```
+        {{< /landing/code >}}
+############################# Reviews ############################
+# reviews:
+# enable: true
+# title: "{reviews.title}"
+# description: "{reviews.description}"
+
+# items:
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_1.content}"
+#     author: "{reviews.review_1.author}"
+#     company: "{reviews.review_1.company}"
+
+#   # review loop
+#   - title: "GroupDocs.Viewer"
+#     content: "{reviews.review_2.content}"
+#     author: "{reviews.review_2.author}"
+#     company: "{reviews.review_2.company}"
 ---
